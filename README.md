@@ -18,6 +18,8 @@ The program is organized as a single repository containing multiple studies, eac
 | MTCA-2 | Application of validated methodology to a contemporary consented specimen | Planned | (forthcoming) |
 
 ## Repository layout
+
+```text
 mtca-research/
 ├── README.md                    # this file
 ├── LICENSE                      # Apache 2.0
@@ -41,7 +43,8 @@ mtca-research/
 │   └── stage8_council/          # qualitative judge assessments
 │
 └── mtca-2/                      # placeholder for future study
-└── README.md
+    └── README.md
+```
 
 ## Methodology principles
 
@@ -89,6 +92,6 @@ Apache 2.0. See `LICENSE` for details.
 
 ## Research philosophy
 
-*Experiment. Measure. Refine. Repeat.*
-
-— Billy Davis | Hudson Forge Technologies | IRMB Research Program
+> *Experiment. Measure. Refine. Repeat.*
+>
+> — Billy Davis | Hudson Forge Technologies | IRMB Research Program
