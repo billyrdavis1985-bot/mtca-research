@@ -1,0 +1,10 @@
+name: Verify Artifact Integrity
+on: [push, pull_request]
+jobs:
+  checksum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify MANIFEST.sha256
+        working-directory: mtca-1
+        run: sha256sum -c MANIFEST.sha256
