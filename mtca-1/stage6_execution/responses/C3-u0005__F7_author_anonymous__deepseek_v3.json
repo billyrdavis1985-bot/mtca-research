@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0005__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:08:30.469237+00:00",
+  "wall_clock_seconds": 5.602961778640747,
+  "raw_response": "{\n  \"communicative_function\": \"Exhortation or self-admonition, urging the soul to engage in self-criticism and neglect of self-respect, with a warning that the opportunity to respect oneself is limited.\",\n  \"implicit_claims\": [\n    \"The soul has agency and can choose to abuse or respect itself.\",\n    \"Self-respect is temporally bounded and will soon be impossible.\",\n    \"Self-abuse or self-contempt is a necessary or permissible action for a limited period.\",\n    \"There is a finite window of time in which self-respect is meaningful or attainable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a paradoxical imperative: it commands self-abuse now in light of an impending end to the possibility of self-respect. However, the logical relation between abusing oneself and later respecting oneself is not explained, creating a tension that may be intentional.\",\n  \"conditions_for_usefulness\": [\n    \"The audience believes in a spiritual or moral journey where self-criticism is a prerequisite for eventual self-respect.\",\n    \"The statement is part of a larger context (e.g., philosophical or religious teaching) that explains the purpose of temporary self-diminishment.\",\n    \"The listener is in a state of excessive pride or complacency that the statement aims to correct.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as a command for permanent self-contempt without any redemptive purpose.\",\n    \"If the hearer lacks the context of an eventual goal of self-respect, the statement could promote chronic self-abuse or depression.\",\n    \"If the statement is interpreted as endorsing absolute self-negation without moral or temporal limits.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Exhortation or self-admonition, urging the soul to engage in self-criticism and neglect of self-respect, with a warning that the opportunity to respect oneself is limited.",
+    "implicit_claims": [
+      "The soul has agency and can choose to abuse or respect itself.",
+      "Self-respect is temporally bounded and will soon be impossible.",
+      "Self-abuse or self-contempt is a necessary or permissible action for a limited period.",
+      "There is a finite window of time in which self-respect is meaningful or attainable."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a paradoxical imperative: it commands self-abuse now in light of an impending end to the possibility of self-respect. However, the logical relation between abusing oneself and later respecting oneself is not explained, creating a tension that may be intentional.",
+    "conditions_for_usefulness": [
+      "The audience believes in a spiritual or moral journey where self-criticism is a prerequisite for eventual self-respect.",
+      "The statement is part of a larger context (e.g., philosophical or religious teaching) that explains the purpose of temporary self-diminishment.",
+      "The listener is in a state of excessive pride or complacency that the statement aims to correct."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as a command for permanent self-contempt without any redemptive purpose.",
+      "If the hearer lacks the context of an eventual goal of self-respect, the statement could promote chronic self-abuse or depression.",
+      "If the statement is interpreted as endorsing absolute self-negation without moral or temporal limits."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 355,
+  "error": "",
+  "retry_count": 0
+}

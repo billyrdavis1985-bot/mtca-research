@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0051__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:06:59.746069+00:00",
+  "wall_clock_seconds": 14.593414068222046,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a conditional claim, asserting a predictive or prescriptive relationship between the absence of sleep effort and a resulting behavior (lying quietly in bed). It may function as advice, instruction, reassurance, or behavioral description depending on context.\",\n  \"implicit_claims\": [\n    \"Making an effort to sleep and lying quietly in bed are presented as mutually exclusive or causally related behaviors.\",\n    \"It is presupposed that the subject ('he') is in bed or will be in bed.\",\n    \"It is implied that not making an effort to sleep is a viable or perhaps preferable option.\",\n    \"It is implied that lying quietly in bed is a distinct and separable behavior from trying to sleep.\",\n    \"There is a presupposition that 'he' has some agency over whether he makes an effort to sleep.\",\n    \"It may implicitly suggest that making an effort to sleep leads to a different, possibly worse outcome (e.g., restlessness or anxiety).\",\n    \"The statement presupposes a known or predictable behavioral pattern for this individual.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional proposition. The logical structure (if not-A, then B) is consistent. However, the causal or logical link between not trying to sleep and lying quietly is assumed rather than explained, which leaves a gap in reasoning that could be filled by context (e.g., sleep anxiety literature, medical advice, or behavioral observation).\",\n  \"conditions_for_usefulness\": [\n    \"The subject is known to experience anxiety or restlessness specifically when actively trying to fall asleep.\",\n    \"The statement is offered as practical advice in a context such as insomnia treatment or sleep hygiene guidance.\",\n    \"The audience understands the implied contrast — that effort to sleep causes agitation rather than rest.\",\n    \"The statement is part of a broader explanation of sleep behavior or relaxation technique.\",\n    \"The subject's behavioral pattern has been observed or established, making the prediction reliable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If not making an effort to sleep does not actually result in lying quietly — for example, if the subject gets up, uses a phone, or engages in other activity.\",\n    \"If the statement is used to discourage someone from seeking help for a sleep disorder by implying passive behavior is sufficient.\",\n    \"If 'lying quietly' is conflated with restorative sleep, leading someone to believe passive wakefulness is equivalent to rest.\",\n    \"If the subject has a condition (e.g., restless leg syndrome, sleep apnea) where lying quietly is not a realistic or safe default.\",\n    \"If the causal relationship is reversed in reality — i.e., making effort to sleep is actually what produces quieter behavior for this individual.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a conditional claim, asserting a predictive or prescriptive relationship between the absence of sleep effort and a resulting behavior (lying quietly in bed). It may function as advice, instruction, reassurance, or behavioral description depending on context.",
+    "implicit_claims": [
+      "Making an effort to sleep and lying quietly in bed are presented as mutually exclusive or causally related behaviors.",
+      "It is presupposed that the subject ('he') is in bed or will be in bed.",
+      "It is implied that not making an effort to sleep is a viable or perhaps preferable option.",
+      "It is implied that lying quietly in bed is a distinct and separable behavior from trying to sleep.",
+      "There is a presupposition that 'he' has some agency over whether he makes an effort to sleep.",
+      "It may implicitly suggest that making an effort to sleep leads to a different, possibly worse outcome (e.g., restlessness or anxiety).",
+      "The statement presupposes a known or predictable behavioral pattern for this individual."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional proposition. The logical structure (if not-A, then B) is consistent. However, the causal or logical link between not trying to sleep and lying quietly is assumed rather than explained, which leaves a gap in reasoning that could be filled by context (e.g., sleep anxiety literature, medical advice, or behavioral observation).",
+    "conditions_for_usefulness": [
+      "The subject is known to experience anxiety or restlessness specifically when actively trying to fall asleep.",
+      "The statement is offered as practical advice in a context such as insomnia treatment or sleep hygiene guidance.",
+      "The audience understands the implied contrast — that effort to sleep causes agitation rather than rest.",
+      "The statement is part of a broader explanation of sleep behavior or relaxation technique.",
+      "The subject's behavioral pattern has been observed or established, making the prediction reliable."
+    ],
+    "conditions_for_misleading": [
+      "If not making an effort to sleep does not actually result in lying quietly — for example, if the subject gets up, uses a phone, or engages in other activity.",
+      "If the statement is used to discourage someone from seeking help for a sleep disorder by implying passive behavior is sufficient.",
+      "If 'lying quietly' is conflated with restorative sleep, leading someone to believe passive wakefulness is equivalent to rest.",
+      "If the subject has a condition (e.g., restless leg syndrome, sleep apnea) where lying quietly is not a realistic or safe default.",
+      "If the causal relationship is reversed in reality — i.e., making effort to sleep is actually what produces quieter behavior for this individual."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 640,
+  "error": "",
+  "retry_count": 0
+}

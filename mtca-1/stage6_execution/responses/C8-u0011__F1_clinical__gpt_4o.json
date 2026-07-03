@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0011__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:36:57.434398+00:00",
+  "wall_clock_seconds": 2.2704200744628906,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a commitment and reinforces personal accountability towards realistic and achievable goals.\",\n  \"implicit_claims\": [\n    \"Small, observable changes are more achievable and effective than vague resolutions.\",\n    \"Concrete actions are preferable to abstract intentions in creating change.\",\n    \"Past efforts may have included vague resolutions that were ineffective.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it clearly distinguishes between types of actions (small and observable vs. vague) and specifies a commitment to the former as a strategy for improvement.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual has clear, measurable goals in mind that can be broken down into small, actionable steps and if they previously struggled with setting and achieving less specific goals.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the 'small, observable changes' are so minor that they don't contribute meaningfully to the individual's overall goals, or if the individual interprets 'small' as insufficient effort, leading to underperformance.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a commitment and reinforces personal accountability towards realistic and achievable goals.",
+    "implicit_claims": [
+      "Small, observable changes are more achievable and effective than vague resolutions.",
+      "Concrete actions are preferable to abstract intentions in creating change.",
+      "Past efforts may have included vague resolutions that were ineffective."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it clearly distinguishes between types of actions (small and observable vs. vague) and specifies a commitment to the former as a strategy for improvement.",
+    "conditions_for_usefulness": "The statement would be useful if the individual has clear, measurable goals in mind that can be broken down into small, actionable steps and if they previously struggled with setting and achieving less specific goals.",
+    "conditions_for_misleading": "The statement could be misleading if the 'small, observable changes' are so minor that they don't contribute meaningfully to the individual's overall goals, or if the individual interprets 'small' as insufficient effort, leading to underperformance."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 224,
+  "error": "",
+  "retry_count": 0
+}

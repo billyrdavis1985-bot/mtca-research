@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0006__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:22:34.102943+00:00",
+  "wall_clock_seconds": 13.76139783859253,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-declarative act of affirming rational courage — it positions the speaker as someone who subordinates fear-based avoidance to evidence-based reasoning, functioning as both a personal commitment and an implicit model of mature decision-making.\",\n  \"implicit_claims\": [\n    \"Fear is a meaningful and recognized internal signal that the speaker experiences.\",\n    \"Evidence can be meaningfully assessed for likelihood of benefit.\",\n    \"The speaker has or can develop the capacity to act contrary to fear.\",\n    \"Willingness is a stable or cultivable disposition, not merely a momentary claim.\",\n    \"There exists a meaningful distinction between things that are scary and things that are harmful.\",\n    \"The speaker has sufficient epistemic access to evaluate evidence about what will help them.\",\n    \"Helping oneself is a coherent and valued goal.\",\n    \"Fear and evidence can be weighed against each other in a meaningful way.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a dispositional claim. It maps a conditional logic (if evidence suggests benefit, then fear does not veto action) onto a self-identity assertion. No internal contradiction exists, though it relies on presuppositions about the separability of fear and evidence-evaluation that may be psychologically fragile in practice.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has access to reliable evidence and can interpret it without significant bias.\",\n    \"The feared actions are ones where fear is a poor guide (e.g., social risk, growth-oriented challenges) rather than a reliable warning signal.\",\n    \"The speaker is using this as an active orientation rather than a passive self-flattering label.\",\n    \"Fear and evidence are treated as distinct inputs rather than conflated or rationalized.\",\n    \"The statement is held with flexibility, allowing revision when evidence quality is poor.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates 'evidence that feels convincing' with genuine evidence, allowing motivated reasoning to masquerade as rational courage.\",\n    \"Fear is a reliable signal in the relevant contexts (e.g., physical danger), and overriding it causes harm.\",\n    \"The statement is used to perform bravery rhetorically without translating into actual behavioral change.\",\n    \"The speaker lacks the self-awareness to distinguish between genuine evidence-assessment and post-hoc rationalization.\",\n    \"The phrase 'likely to help me' is interpreted so loosely that almost any desired action qualifies, neutralizing the evidential standard.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-declarative act of affirming rational courage — it positions the speaker as someone who subordinates fear-based avoidance to evidence-based reasoning, functioning as both a personal commitment and an implicit model of mature decision-making.",
+    "implicit_claims": [
+      "Fear is a meaningful and recognized internal signal that the speaker experiences.",
+      "Evidence can be meaningfully assessed for likelihood of benefit.",
+      "The speaker has or can develop the capacity to act contrary to fear.",
+      "Willingness is a stable or cultivable disposition, not merely a momentary claim.",
+      "There exists a meaningful distinction between things that are scary and things that are harmful.",
+      "The speaker has sufficient epistemic access to evaluate evidence about what will help them.",
+      "Helping oneself is a coherent and valued goal.",
+      "Fear and evidence can be weighed against each other in a meaningful way."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a dispositional claim. It maps a conditional logic (if evidence suggests benefit, then fear does not veto action) onto a self-identity assertion. No internal contradiction exists, though it relies on presuppositions about the separability of fear and evidence-evaluation that may be psychologically fragile in practice.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has access to reliable evidence and can interpret it without significant bias.",
+      "The feared actions are ones where fear is a poor guide (e.g., social risk, growth-oriented challenges) rather than a reliable warning signal.",
+      "The speaker is using this as an active orientation rather than a passive self-flattering label.",
+      "Fear and evidence are treated as distinct inputs rather than conflated or rationalized.",
+      "The statement is held with flexibility, allowing revision when evidence quality is poor."
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates 'evidence that feels convincing' with genuine evidence, allowing motivated reasoning to masquerade as rational courage.",
+      "Fear is a reliable signal in the relevant contexts (e.g., physical danger), and overriding it causes harm.",
+      "The statement is used to perform bravery rhetorically without translating into actual behavioral change.",
+      "The speaker lacks the self-awareness to distinguish between genuine evidence-assessment and post-hoc rationalization.",
+      "The phrase 'likely to help me' is interpreted so loosely that almost any desired action qualifies, neutralizing the evidential standard."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 581,
+  "error": "",
+  "retry_count": 0
+}

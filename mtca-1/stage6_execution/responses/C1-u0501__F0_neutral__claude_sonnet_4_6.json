@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0501__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:40:01.151728+00:00",
+  "wall_clock_seconds": 13.912174701690674,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is reporting a clinical or observational encounter, introducing a patient (a child) to a presumed professional context, and noting the child's current functional status along with the assistive devices enabling it. It establishes a temporal reference point and communicates a baseline condition.\",\n  \"implicit_claims\": [\n    \"The speaker has professional authority or role that makes receiving patients meaningful (e.g., doctor, therapist, specialist).\",\n    \"The child has a pre-existing condition affecting normal gait or foot alignment.\",\n    \"The child could not walk well, or walk at all, without the assistive contrivances.\",\n    \"The two devices are functioning as intended and are effective.\",\n    \"This is the beginning of an ongoing case record or treatment relationship.\",\n    \"The child's walking ability is considered noteworthy or worth documenting, implying it was not previously assumed.\",\n    \"The contrivances are externally applied orthotic or corrective devices, not surgical interventions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The temporal marker, the introduction of the patient, the functional observation, and the causal explanation for that function all fit together logically without contradiction. The phrase 'thanks to two contrivances' clearly and consistently links the child's walking ability to the devices.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is documenting a medical or therapeutic case for clinical, research, or archival purposes.\",\n    \"The audience understands the professional context and the significance of the child's condition.\",\n    \"The 'contrivances' are sufficiently known or described elsewhere so that the reader understands what they are.\",\n    \"The date (February 1915) serves as a meaningful baseline for tracking progress or treatment outcomes.\",\n    \"There is a follow-up or broader case narrative in which this statement serves as an opening datum.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the child's walking is described as 'pretty well' but the actual gait is significantly impaired, the phrasing would overstate functional ability.\",\n    \"If the contrivances are temporary or only partially responsible for the child's mobility, attributing full credit to them would be misleading.\",\n    \"If the date is inaccurate or falsified, the statement would misrepresent the timeline of the case.\",\n    \"If the speaker does not actually have professional standing to receive or assess patients, the implied authority would be misleading.\",\n    \"If the child's condition is more complex than the statement implies, omitting that complexity could create a falsely optimistic picture.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting a clinical or observational encounter, introducing a patient (a child) to a presumed professional context, and noting the child's current functional status along with the assistive devices enabling it. It establishes a temporal reference point and communicates a baseline condition.",
+    "implicit_claims": [
+      "The speaker has professional authority or role that makes receiving patients meaningful (e.g., doctor, therapist, specialist).",
+      "The child has a pre-existing condition affecting normal gait or foot alignment.",
+      "The child could not walk well, or walk at all, without the assistive contrivances.",
+      "The two devices are functioning as intended and are effective.",
+      "This is the beginning of an ongoing case record or treatment relationship.",
+      "The child's walking ability is considered noteworthy or worth documenting, implying it was not previously assumed.",
+      "The contrivances are externally applied orthotic or corrective devices, not surgical interventions."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The temporal marker, the introduction of the patient, the functional observation, and the causal explanation for that function all fit together logically without contradiction. The phrase 'thanks to two contrivances' clearly and consistently links the child's walking ability to the devices.",
+    "conditions_for_usefulness": [
+      "The speaker is documenting a medical or therapeutic case for clinical, research, or archival purposes.",
+      "The audience understands the professional context and the significance of the child's condition.",
+      "The 'contrivances' are sufficiently known or described elsewhere so that the reader understands what they are.",
+      "The date (February 1915) serves as a meaningful baseline for tracking progress or treatment outcomes.",
+      "There is a follow-up or broader case narrative in which this statement serves as an opening datum."
+    ],
+    "conditions_for_misleading": [
+      "If the child's walking is described as 'pretty well' but the actual gait is significantly impaired, the phrasing would overstate functional ability.",
+      "If the contrivances are temporary or only partially responsible for the child's mobility, attributing full credit to them would be misleading.",
+      "If the date is inaccurate or falsified, the statement would misrepresent the timeline of the case.",
+      "If the speaker does not actually have professional standing to receive or assess patients, the implied authority would be misleading.",
+      "If the child's condition is more complex than the statement implies, omitting that complexity could create a falsely optimistic picture."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 599,
+  "error": "",
+  "retry_count": 0
+}

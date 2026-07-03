@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F0_neutral__grok_4",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:24:35.442741+00:00",
+  "wall_clock_seconds": 5.751636028289795,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes an ethical action rule with exception for harm avoidance\",\n  \"implicit_claims\": [\n    \"prior harm to identifiable people has occurred\",\n    \"direct amends are feasible in most cases\",\n    \"potential injury from amends can be accurately assessed\",\n    \"avoiding further harm takes precedence over making amends\"\n  ],\n  \"coherence_assessment\": \"internally coherent; main directive is qualified by a consistent, logically aligned exception clause\",\n  \"conditions_for_usefulness\": \"user has caused harm requiring repair, possesses capacity for accurate harm assessment, and operates in a recovery or ethical-reconciliation framework\",\n  \"conditions_for_misleading\": \"exception clause is invoked to evade responsibility, 'injury' is defined overly broadly, or statement is presented without its recovery-program context\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes an ethical action rule with exception for harm avoidance",
+    "implicit_claims": [
+      "prior harm to identifiable people has occurred",
+      "direct amends are feasible in most cases",
+      "potential injury from amends can be accurately assessed",
+      "avoiding further harm takes precedence over making amends"
+    ],
+    "coherence_assessment": "internally coherent; main directive is qualified by a consistent, logically aligned exception clause",
+    "conditions_for_usefulness": "user has caused harm requiring repair, possesses capacity for accurate harm assessment, and operates in a recovery or ethical-reconciliation framework",
+    "conditions_for_misleading": "exception clause is invoked to evade responsibility, 'injury' is defined overly broadly, or statement is presented without its recovery-program context"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 261,
+  "output_tokens": 169,
+  "error": "",
+  "retry_count": 0
+}

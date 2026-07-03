@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0002__F2_metaphysical__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:59:35.235502+00:00",
+  "wall_clock_seconds": 6.156951665878296,
+  "raw_response": "{\n  \"communicative_function\": \"The statement declares a conscious shift in epistemic orientation from fear-based anticipation to evidence-based assessment, asserting a commitment to objective observation over subjective apprehension.\",\n  \"implicit_claims\": [\n    \"The speaker has agency over their choice of what to test predictions against.\",\n    \"There is a meaningful distinction between 'what actually happens' and 'what I fear'.\",\n    \"The speaker's fears are not reliable predictors of actual outcomes.\",\n    \"Testing predictions against fears is a possible (and previously used) alternative.\",\n    \"The speaker can access objective reality ('what actually happens') independently of their fears.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a self-referential meta-statement about one's own cognitive process. However, it presupposes an unambiguous separation between fearful expectation and actual events, which in practice may be blurred by subjective interpretation of 'what actually happens.'\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has some means of reliably determining 'what actually happens' (e.g., empirical observation, feedback loops).\",\n    \"The speaker's fears are indeed systematically inaccurate relative to actual outcomes.\",\n    \"The speaker can recognize when they are testing against fear versus actuality.\",\n    \"Such a reframing helps reduce distortion in decision-making or emotional reactivity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker's fears are actually accurate predictors (e.g., in contexts of real danger).\",\n    \"If 'what actually happens' is unknowable or subjectively indeterminate, making the contrast illusory.\",\n    \"If the statement encourages denial of genuine intuition or caution disguised as fear.\",\n    \"If the speaker misidentifies 'fear' as the source of prediction error when the real issue is something else (e.g., lack of data, bias in observation).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement declares a conscious shift in epistemic orientation from fear-based anticipation to evidence-based assessment, asserting a commitment to objective observation over subjective apprehension.",
+    "implicit_claims": [
+      "The speaker has agency over their choice of what to test predictions against.",
+      "There is a meaningful distinction between 'what actually happens' and 'what I fear'.",
+      "The speaker's fears are not reliable predictors of actual outcomes.",
+      "Testing predictions against fears is a possible (and previously used) alternative.",
+      "The speaker can access objective reality ('what actually happens') independently of their fears."
+    ],
+    "coherence_assessment": "Internally coherent as a self-referential meta-statement about one's own cognitive process. However, it presupposes an unambiguous separation between fearful expectation and actual events, which in practice may be blurred by subjective interpretation of 'what actually happens.'",
+    "conditions_for_usefulness": [
+      "The speaker has some means of reliably determining 'what actually happens' (e.g., empirical observation, feedback loops).",
+      "The speaker's fears are indeed systematically inaccurate relative to actual outcomes.",
+      "The speaker can recognize when they are testing against fear versus actuality.",
+      "Such a reframing helps reduce distortion in decision-making or emotional reactivity."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker's fears are actually accurate predictors (e.g., in contexts of real danger).",
+      "If 'what actually happens' is unknowable or subjectively indeterminate, making the contrast illusory.",
+      "If the statement encourages denial of genuine intuition or caution disguised as fear.",
+      "If the speaker misidentifies 'fear' as the source of prediction error when the real issue is something else (e.g., lack of data, bias in observation)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 382,
+  "error": "",
+  "retry_count": 0
+}

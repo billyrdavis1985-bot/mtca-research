@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0001__F6_author_named__grok_4",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:56:48.102462+00:00",
+  "wall_clock_seconds": 6.407870769500732,
+  "raw_response": "{\n  \"communicative_function\": \"self-commitment to a metacognitive intervention strategy\",\n  \"implicit_claims\": [\n    \"catastrophizing can be reliably detected by the speaker\",\n    \"a distinguishable 'realistic worst case' exists and can be identified\",\n    \"inquiring about that realistic case will alter the speaker's response to the thought\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a conditional intention linking detection to corrective inquiry\",\n  \"conditions_for_usefulness\": \"the speaker's catastrophizing is systematically exaggerated, the speaker can accurately calibrate 'realistic,' and the inquiry reduces distress without increasing risk-blindness\",\n  \"conditions_for_misleading\": \"the speaker's 'realistic' assessment is itself biased downward, actual tail risks are dismissed, or the practice trains avoidance of warranted concern\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-commitment to a metacognitive intervention strategy",
+    "implicit_claims": [
+      "catastrophizing can be reliably detected by the speaker",
+      "a distinguishable 'realistic worst case' exists and can be identified",
+      "inquiring about that realistic case will alter the speaker's response to the thought"
+    ],
+    "coherence_assessment": "internally coherent as a conditional intention linking detection to corrective inquiry",
+    "conditions_for_usefulness": "the speaker's catastrophizing is systematically exaggerated, the speaker can accurately calibrate 'realistic,' and the inquiry reduces distress without increasing risk-blindness",
+    "conditions_for_misleading": "the speaker's 'realistic' assessment is itself biased downward, actual tail risks are dismissed, or the practice trains avoidance of warranted concern"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 285,
+  "output_tokens": 173,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0864__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:54:44.578778+00:00",
+  "wall_clock_seconds": 12.629229545593262,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a credibility-building confession, where the speaker (likely a foreword writer or introducer) pre-emptively disarms reader skepticism by admitting their own prior skepticism, thereby framing any subsequent endorsement as hard-won and trustworthy rather than naive or promotional.\",\n  \"implicit_claims\": [\n    \"The speaker attended Coué's lectures.\",\n    \"The speaker's skepticism was later overcome or changed.\",\n    \"Skepticism was a reasonable initial response to Coué's ideas.\",\n    \"The speaker's journey from skepticism to some other position lends authority to their testimony.\",\n    \"Coué gave lectures that were publicly or semi-publicly attended.\",\n    \"The speaker is positioned as an impartial or objective witness rather than a true believer.\",\n    \"The reader may also be skeptical, and the speaker is signaling solidarity with that position.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a fragment; it establishes a clear rhetorical stance. However, as an isolated excerpt, it is incomplete — the communicative purpose depends entirely on what follows. The confession of skepticism only gains meaning in the context of a subsequent reversal or qualified endorsement.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely was skeptical and subsequently changed their view based on evidence or experience.\",\n    \"The speaker has relevant expertise or credibility that makes their skepticism and its resolution meaningful to readers.\",\n    \"The statement is followed by a substantive account of what changed the speaker's mind.\",\n    \"Readers are themselves skeptical and benefit from seeing a skeptic's perspective represented.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker was never genuinely skeptical and is performing skepticism as a rhetorical device to seem credible.\",\n    \"The speaker's subsequent endorsement is based on anecdote, placebo effects, or financial/social incentives rather than rigorous evaluation.\",\n    \"The claimed skepticism masks an uncritical acceptance that follows, lending false authority to unverified claims.\",\n    \"The book uses autosuggestion methods that lack scientific validation, and the skepticism narrative is used to bypass the reader's critical faculties.\",\n    \"The speaker's definition of 'skeptical' is weak, meaning only mild curiosity rather than genuine critical doubt.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a credibility-building confession, where the speaker (likely a foreword writer or introducer) pre-emptively disarms reader skepticism by admitting their own prior skepticism, thereby framing any subsequent endorsement as hard-won and trustworthy rather than naive or promotional.",
+    "implicit_claims": [
+      "The speaker attended Coué's lectures.",
+      "The speaker's skepticism was later overcome or changed.",
+      "Skepticism was a reasonable initial response to Coué's ideas.",
+      "The speaker's journey from skepticism to some other position lends authority to their testimony.",
+      "Coué gave lectures that were publicly or semi-publicly attended.",
+      "The speaker is positioned as an impartial or objective witness rather than a true believer.",
+      "The reader may also be skeptical, and the speaker is signaling solidarity with that position."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a fragment; it establishes a clear rhetorical stance. However, as an isolated excerpt, it is incomplete — the communicative purpose depends entirely on what follows. The confession of skepticism only gains meaning in the context of a subsequent reversal or qualified endorsement.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely was skeptical and subsequently changed their view based on evidence or experience.",
+      "The speaker has relevant expertise or credibility that makes their skepticism and its resolution meaningful to readers.",
+      "The statement is followed by a substantive account of what changed the speaker's mind.",
+      "Readers are themselves skeptical and benefit from seeing a skeptic's perspective represented."
+    ],
+    "conditions_for_misleading": [
+      "The speaker was never genuinely skeptical and is performing skepticism as a rhetorical device to seem credible.",
+      "The speaker's subsequent endorsement is based on anecdote, placebo effects, or financial/social incentives rather than rigorous evaluation.",
+      "The claimed skepticism masks an uncritical acceptance that follows, lending false authority to unverified claims.",
+      "The book uses autosuggestion methods that lack scientific validation, and the skepticism narrative is used to bypass the reader's critical faculties.",
+      "The speaker's definition of 'skeptical' is weak, meaning only mild curiosity rather than genuine critical doubt."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 546,
+  "error": "",
+  "retry_count": 0
+}

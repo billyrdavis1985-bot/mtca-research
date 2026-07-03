@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0174__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:28:53.451523+00:00",
+  "wall_clock_seconds": 13.58650016784668,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts personal agency as the sole determinant of one's circumstances, functioning as a motivational declaration that commits the speaker (or subject) to self-reliance and internal locus of control as a guiding behavioral principle.\",\n  \"implicit_claims\": [\n    \"Individual agency is the primary or exclusive driver of personal change.\",\n    \"External factors (systemic, social, economic, relational) do not meaningfully alter one's condition.\",\n    \"The individual has sufficient freedom and capacity to enact meaningful change.\",\n    \"Waiting for or relying on others is ineffective or misguided.\",\n    \"Responsibility for one's condition rests entirely with oneself.\",\n    \"Change is possible — the individual is not permanently constrained.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a motivational aphorism. It is logically consistent within its own frame: if only the self can alter the condition, then the behavioral commitment follows naturally toward self-directed action. However, the absolutism of 'none but himself' creates tension with observable reality, making it coherent as rhetoric but not as empirical description.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuine agency and access to resources needed to change their situation.\",\n    \"The primary obstacle to change is internal (mindset, habit, motivation, effort).\",\n    \"The person is prone to learned helplessness or over-attribution to external causes.\",\n    \"Structural and systemic barriers are minimal or surmountable.\",\n    \"The commitment is used to inspire action rather than to assign blame.\",\n    \"The individual is in a context where self-directed effort reliably produces outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces significant systemic, structural, or institutional barriers beyond their control.\",\n    \"The condition is shaped substantially by factors like poverty, discrimination, illness, or abuse.\",\n    \"The statement is used to dismiss legitimate needs for external support, intervention, or collective action.\",\n    \"It is applied to populations with severely constrained agency (e.g., incarcerated individuals, those in coercive relationships).\",\n    \"It is used to justify withholding assistance by placing full moral responsibility on the individual.\",\n    \"It conflates responsibility with causation, implying that because one must act, one is also the sole cause of one's situation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts personal agency as the sole determinant of one's circumstances, functioning as a motivational declaration that commits the speaker (or subject) to self-reliance and internal locus of control as a guiding behavioral principle.",
+    "implicit_claims": [
+      "Individual agency is the primary or exclusive driver of personal change.",
+      "External factors (systemic, social, economic, relational) do not meaningfully alter one's condition.",
+      "The individual has sufficient freedom and capacity to enact meaningful change.",
+      "Waiting for or relying on others is ineffective or misguided.",
+      "Responsibility for one's condition rests entirely with oneself.",
+      "Change is possible — the individual is not permanently constrained."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a motivational aphorism. It is logically consistent within its own frame: if only the self can alter the condition, then the behavioral commitment follows naturally toward self-directed action. However, the absolutism of 'none but himself' creates tension with observable reality, making it coherent as rhetoric but not as empirical description.",
+    "conditions_for_usefulness": [
+      "The individual has genuine agency and access to resources needed to change their situation.",
+      "The primary obstacle to change is internal (mindset, habit, motivation, effort).",
+      "The person is prone to learned helplessness or over-attribution to external causes.",
+      "Structural and systemic barriers are minimal or surmountable.",
+      "The commitment is used to inspire action rather than to assign blame.",
+      "The individual is in a context where self-directed effort reliably produces outcomes."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces significant systemic, structural, or institutional barriers beyond their control.",
+      "The condition is shaped substantially by factors like poverty, discrimination, illness, or abuse.",
+      "The statement is used to dismiss legitimate needs for external support, intervention, or collective action.",
+      "It is applied to populations with severely constrained agency (e.g., incarcerated individuals, those in coercive relationships).",
+      "It is used to justify withholding assistance by placing full moral responsibility on the individual.",
+      "It conflates responsibility with causation, implying that because one must act, one is also the sole cause of one's situation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 551,
+  "error": "",
+  "retry_count": 0
+}

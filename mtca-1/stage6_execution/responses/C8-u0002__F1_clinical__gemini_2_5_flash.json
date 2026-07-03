@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0002__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:58:36.284448+00:00",
+  "wall_clock_seconds": 8.616016626358032,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a declaration of intent and a cognitive reframing tool. It asserts agency over one's thought processes and actions, committing to an evidence-based approach to reality rather than an emotion-driven one. It is an act of self-commitment to a specific therapeutic strategy.\",\n  \"implicit_claims\": [\n    \"The individual has predictions about future events or outcomes.\",\n    \"The individual experiences fear, and this fear can influence how predictions are processed or tested.\",\n    \"There is a distinction between 'what I fear' and 'what actually happens', implying that fear can distort perception or lead to erroneous conclusions.\",\n    \"The individual has the capacity for choice and agency in how they approach and interpret their experiences.\",\n    \"Testing predictions against reality is a desirable and beneficial strategy for psychological well-being.\",\n    \"The individual may currently be testing predictions (or acting as if) against their fears, or allowing fear to disproportionately influence their interpretation of reality.\",\n    \"Adopting this new strategy will lead to different, presumably more accurate or adaptive, outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and logically structured. It presents a clear dichotomy between two modes of evaluating predictions ('against what actually happens' vs. 'against what I fear') and declares a conscious choice to favor the former. The use of 'rather than' clearly establishes the intended shift in focus and methodology.\",\n  \"conditions_for_usefulness\": [\n    \"The individual's fears are largely unfounded, exaggerated, or lead to avoidance behaviors that are not serving their well-being (e.g., in anxiety disorders, phobias).\",\n    \"The individual possesses sufficient self-awareness to distinguish between their fears and objective reality.\",\n    \"The individual has the psychological capacity and support to engage in reality testing and tolerate potential discomfort or anxiety that may arise.\",\n    \"The environment or situation allows for safe and meaningful testing of predictions without undue risk.\",\n    \"The individual is able to accurately perceive and interpret 'what actually happens' without significant cognitive distortions.\",\n    \"The individual is seeking to overcome avoidance, develop resilience, and build confidence through direct experience.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual's fears are realistic, accurate, and based on actual threats or dangers in their environment (e.g., in an abusive relationship, a dangerous work environment).\",\n    \"The 'testing' process could expose the individual to significant harm, trauma, or re-traumatization without adequate support or safety measures.\",\n    \"The individual lacks the ability to accurately differentiate between fear and realistic assessment due to cognitive impairment, severe mental illness (e.g., psychosis), or ongoing external manipulation.\",\n    \"The statement is misinterpreted as a directive to ignore intuition or legitimate warnings that could protect them from harm.\",\n    \"The individual uses the statement to justify reckless or impulsive behavior under the guise of 'testing predictions'.\",\n    \"The individual is in a context where 'what actually happens' is heavily influenced by systemic oppression or external factors beyond their control, making 'testing' potentially disempowering or invalidating of their lived experience.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a declaration of intent and a cognitive reframing tool. It asserts agency over one's thought processes and actions, committing to an evidence-based approach to reality rather than an emotion-driven one. It is an act of self-commitment to a specific therapeutic strategy.",
+    "implicit_claims": [
+      "The individual has predictions about future events or outcomes.",
+      "The individual experiences fear, and this fear can influence how predictions are processed or tested.",
+      "There is a distinction between 'what I fear' and 'what actually happens', implying that fear can distort perception or lead to erroneous conclusions.",
+      "The individual has the capacity for choice and agency in how they approach and interpret their experiences.",
+      "Testing predictions against reality is a desirable and beneficial strategy for psychological well-being.",
+      "The individual may currently be testing predictions (or acting as if) against their fears, or allowing fear to disproportionately influence their interpretation of reality.",
+      "Adopting this new strategy will lead to different, presumably more accurate or adaptive, outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent and logically structured. It presents a clear dichotomy between two modes of evaluating predictions ('against what actually happens' vs. 'against what I fear') and declares a conscious choice to favor the former. The use of 'rather than' clearly establishes the intended shift in focus and methodology.",
+    "conditions_for_usefulness": [
+      "The individual's fears are largely unfounded, exaggerated, or lead to avoidance behaviors that are not serving their well-being (e.g., in anxiety disorders, phobias).",
+      "The individual possesses sufficient self-awareness to distinguish between their fears and objective reality.",
+      "The individual has the psychological capacity and support to engage in reality testing and tolerate potential discomfort or anxiety that may arise.",
+      "The environment or situation allows for safe and meaningful testing of predictions without undue risk.",
+      "The individual is able to accurately perceive and interpret 'what actually happens' without significant cognitive distortions.",
+      "The individual is seeking to overcome avoidance, develop resilience, and build confidence through direct experience."
+    ],
+    "conditions_for_misleading": [
+      "The individual's fears are realistic, accurate, and based on actual threats or dangers in their environment (e.g., in an abusive relationship, a dangerous work environment).",
+      "The 'testing' process could expose the individual to significant harm, trauma, or re-traumatization without adequate support or safety measures.",
+      "The individual lacks the ability to accurately differentiate between fear and realistic assessment due to cognitive impairment, severe mental illness (e.g., psychosis), or ongoing external manipulation.",
+      "The statement is misinterpreted as a directive to ignore intuition or legitimate warnings that could protect them from harm.",
+      "The individual uses the statement to justify reckless or impulsive behavior under the guise of 'testing predictions'.",
+      "The individual is in a context where 'what actually happens' is heavily influenced by systemic oppression or external factors beyond their control, making 'testing' potentially disempowering or invalidating of their lived experience."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 686,
+  "error": "",
+  "retry_count": 0
+}

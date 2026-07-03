@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F6_author_named__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:20:47.645317+00:00",
+  "wall_clock_seconds": 7.9841694831848145,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a causal or expressive link between mental states and physical condition\",\n  \"implicit_claims\": [\n    \"Thoughts can possess qualities such as 'sickly'\",\n    \"Mental states directly determine or manifest in bodily health\",\n    \"Physical symptoms are (at least partly) expressions of thought quality\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within a mind-body causation framework; relies on an unelaborated mechanism of 'expression'\",\n  \"conditions_for_usefulness\": \"Psychosomatic effects are real and modifiable by thought patterns; the claim encourages beneficial mental habits without discouraging medical care\",\n  \"conditions_for_misleading\": \"Illness is attributed solely to 'sickly thoughts' while ignoring pathogens, genetics, injury or environment; leads to self-blame or refusal of treatment\"\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a causal or expressive link between mental states and physical condition",
+    "implicit_claims": [
+      "Thoughts can possess qualities such as 'sickly'",
+      "Mental states directly determine or manifest in bodily health",
+      "Physical symptoms are (at least partly) expressions of thought quality"
+    ],
+    "coherence_assessment": "Internally consistent within a mind-body causation framework; relies on an unelaborated mechanism of 'expression'",
+    "conditions_for_usefulness": "Psychosomatic effects are real and modifiable by thought patterns; the claim encourages beneficial mental habits without discouraging medical care",
+    "conditions_for_misleading": "Illness is attributed solely to 'sickly thoughts' while ignoring pathogens, genetics, injury or environment; leads to self-blame or refusal of treatment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 263,
+  "output_tokens": 175,
+  "error": "",
+  "retry_count": 0
+}

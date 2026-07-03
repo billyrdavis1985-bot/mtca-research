@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0007__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:25:25.305643+00:00",
+  "wall_clock_seconds": 8.42367696762085,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-report of a personal observation and a preliminary hypothesis about the perceived relationship between the speaker's mood and behavior. It expresses a moment of metacognitive insight regarding their psychological patterns.\",\n  \"implicit_claims\": [\n    \"The speaker is capable of self-observation and analysis of their internal states and actions.\",\n    \"There is an observable and definable relationship between the speaker's mood and behavior.\",\n    \"The speaker has experienced both mood influencing behavior and behavior influencing mood, allowing for a comparison of frequency.\",\n    \"The speaker's 'noticing' implies a belief in the accuracy or salience of this particular pattern.\",\n    \"The 'reverse' (behavior following mood) does happen, but less frequently.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits high internal coherence as a subjective self-report of a perceived pattern. It does not contain logical contradictions within itself, presenting a clear, albeit personal, observation.\",\n  \"conditions_for_usefulness\": [\n    \"If the speaker genuinely seeks self-understanding or personal growth, as it identifies a potential leverage point for change (e.g., using behavioral activation to influence mood).\",\n    \"If used in a therapeutic context (e.g., CBT), where such an observation can guide interventions focused on modifying behavior to improve mood.\",\n    \"If it prompts further investigation into specific behaviors and their mood impacts, leading to more deliberate actions or coping strategies.\",\n    \"If it is a stepping stone to recognizing agency over one's state, even if indirectly.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it leads to an oversimplified view of causality, ignoring complex bidirectional relationships between mood and behavior, or the influence of third variables (e.g., physiological states, environmental stressors).\",\n    \"If the 'noticing' is influenced by confirmation bias, where instances supporting the hypothesis are prioritized over contradictory evidence.\",\n    \"If it implies that all mood fluctuations can be 'fixed' by behavioral changes, potentially leading to self-blame when mood remains difficult despite behavioral efforts.\",\n    \"If it overlooks underlying biological or neurological factors that might primarily drive mood (e.g., in clinical depression or bipolar disorder).\",\n    \"If the observation is based on a limited sample size or specific context, and is then generalized universally to all situations or over time.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-report of a personal observation and a preliminary hypothesis about the perceived relationship between the speaker's mood and behavior. It expresses a moment of metacognitive insight regarding their psychological patterns.",
+    "implicit_claims": [
+      "The speaker is capable of self-observation and analysis of their internal states and actions.",
+      "There is an observable and definable relationship between the speaker's mood and behavior.",
+      "The speaker has experienced both mood influencing behavior and behavior influencing mood, allowing for a comparison of frequency.",
+      "The speaker's 'noticing' implies a belief in the accuracy or salience of this particular pattern.",
+      "The 'reverse' (behavior following mood) does happen, but less frequently."
+    ],
+    "coherence_assessment": "The statement exhibits high internal coherence as a subjective self-report of a perceived pattern. It does not contain logical contradictions within itself, presenting a clear, albeit personal, observation.",
+    "conditions_for_usefulness": [
+      "If the speaker genuinely seeks self-understanding or personal growth, as it identifies a potential leverage point for change (e.g., using behavioral activation to influence mood).",
+      "If used in a therapeutic context (e.g., CBT), where such an observation can guide interventions focused on modifying behavior to improve mood.",
+      "If it prompts further investigation into specific behaviors and their mood impacts, leading to more deliberate actions or coping strategies.",
+      "If it is a stepping stone to recognizing agency over one's state, even if indirectly."
+    ],
+    "conditions_for_misleading": [
+      "If it leads to an oversimplified view of causality, ignoring complex bidirectional relationships between mood and behavior, or the influence of third variables (e.g., physiological states, environmental stressors).",
+      "If the 'noticing' is influenced by confirmation bias, where instances supporting the hypothesis are prioritized over contradictory evidence.",
+      "If it implies that all mood fluctuations can be 'fixed' by behavioral changes, potentially leading to self-blame when mood remains difficult despite behavioral efforts.",
+      "If it overlooks underlying biological or neurological factors that might primarily drive mood (e.g., in clinical depression or bipolar disorder).",
+      "If the observation is based on a limited sample size or specific context, and is then generalized universally to all situations or over time."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 135,
+  "output_tokens": 524,
+  "error": "",
+  "retry_count": 0
+}

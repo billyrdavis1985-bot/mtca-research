@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0178__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:14:13.686821+00:00",
+  "wall_clock_seconds": 6.635901927947998,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is an autosuggestion or therapeutic injunction designed to reframe and normalize healthy eating behaviors by linking hunger to a positive, anticipatory sensation rather than a problematic urge.\",\n  \"implicit_claims\": [\n    \"Hunger is an agreeable, positive sensation.\",\n    \"The individual currently does not experience hunger as agreeable or at prescribed times.\",\n    \"Hunger can be reliably induced through repeated verbal suggestion at set times.\",\n    \"Eating normally and without overeating is achievable through this suggestion.\",\n    \"The individual has control over their eating behavior and can avoid overeating.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a directive, but it presumes a direct causal link between verbal self-instruction and physiological/emotional experience, which may not hold for all individuals. The sequence—feeling hunger, thinking positively, then eating without overeating—is logical but relies on the patient's capacity to follow the sequence exactly.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is suggestible and open to autosuggestion or cognitive restructuring.\",\n    \"The individual struggles with disordered eating patterns such as emotional eating or appetite suppression.\",\n    \"The person can reliably recall and repeat the statement three times daily.\",\n    \"The individual has no medical condition that interferes with normal hunger cues.\",\n    \"The therapeutic relationship supports the use of such self-statements.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has a history of anorexia or food restriction, where the suggestion to feel hunger could reinforce unhealthy deprivation.\",\n    \"The person does not experience hunger cues due to medication or illness, making the statement false and frustrating.\",\n    \"The individual has binge eating disorder, where the suggestion could trigger guilt or overeating if hunger is misinterpreted.\",\n    \"The statement is taken literally as a guarantee rather than a therapeutic tool, leading to disappointment or self-blame if hunger does not arise.\",\n    \"The person cannot distinguish between the suggestion and actual physiological needs, potentially overriding healthy satiety signals.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is an autosuggestion or therapeutic injunction designed to reframe and normalize healthy eating behaviors by linking hunger to a positive, anticipatory sensation rather than a problematic urge.",
+    "implicit_claims": [
+      "Hunger is an agreeable, positive sensation.",
+      "The individual currently does not experience hunger as agreeable or at prescribed times.",
+      "Hunger can be reliably induced through repeated verbal suggestion at set times.",
+      "Eating normally and without overeating is achievable through this suggestion.",
+      "The individual has control over their eating behavior and can avoid overeating."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a directive, but it presumes a direct causal link between verbal self-instruction and physiological/emotional experience, which may not hold for all individuals. The sequence—feeling hunger, thinking positively, then eating without overeating—is logical but relies on the patient's capacity to follow the sequence exactly.",
+    "conditions_for_usefulness": [
+      "The individual is suggestible and open to autosuggestion or cognitive restructuring.",
+      "The individual struggles with disordered eating patterns such as emotional eating or appetite suppression.",
+      "The person can reliably recall and repeat the statement three times daily.",
+      "The individual has no medical condition that interferes with normal hunger cues.",
+      "The therapeutic relationship supports the use of such self-statements."
+    ],
+    "conditions_for_misleading": [
+      "The individual has a history of anorexia or food restriction, where the suggestion to feel hunger could reinforce unhealthy deprivation.",
+      "The person does not experience hunger cues due to medication or illness, making the statement false and frustrating.",
+      "The individual has binge eating disorder, where the suggestion could trigger guilt or overeating if hunger is misinterpreted.",
+      "The statement is taken literally as a guarantee rather than a therapeutic tool, leading to disappointment or self-blame if hunger does not arise.",
+      "The person cannot distinguish between the suggestion and actual physiological needs, potentially overriding healthy satiety signals."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 219,
+  "output_tokens": 423,
+  "error": "",
+  "retry_count": 0
+}

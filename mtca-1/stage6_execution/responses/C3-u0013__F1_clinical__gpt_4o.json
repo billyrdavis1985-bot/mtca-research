@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0013__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:15:32.145972+00:00",
+  "wall_clock_seconds": 3.1464457511901855,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a comparison between different types of sins, suggesting an evaluation of their moral weight or severity.\",\n  \"implicit_claims\": [\n    \"Some sins are inherently greater or more severe than others.\",\n    \"Sins committed through lust are generally worse than sins committed through anger.\",\n    \"A philosopher's perspective on ethical matters is valuable or authoritative.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its comparison of sins, using a philosophical reference to bolster its point. However, it relies on the subjective evaluation of 'greater' sins, which may not be universally agreed upon.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if the individual values philosophical perspectives in moral reasoning and is exploring the impact of different motivations behind wrongdoings in their personal development. It could also prompt deeper reflection if the individual believes in moral hierarchies among transgressions.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if the person does not share the presupposed belief in hierarchical sinfulness or if they reject the validity of lust-based sins being considered worse than anger-based sins. Additionally, if the person does not value philosophical authority in moral matters, the statement's persuasive power may diminish.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a comparison between different types of sins, suggesting an evaluation of their moral weight or severity.",
+    "implicit_claims": [
+      "Some sins are inherently greater or more severe than others.",
+      "Sins committed through lust are generally worse than sins committed through anger.",
+      "A philosopher's perspective on ethical matters is valuable or authoritative."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its comparison of sins, using a philosophical reference to bolster its point. However, it relies on the subjective evaluation of 'greater' sins, which may not be universally agreed upon.",
+    "conditions_for_usefulness": "The statement could be useful if the individual values philosophical perspectives in moral reasoning and is exploring the impact of different motivations behind wrongdoings in their personal development. It could also prompt deeper reflection if the individual believes in moral hierarchies among transgressions.",
+    "conditions_for_misleading": "The statement may be misleading if the person does not share the presupposed belief in hierarchical sinfulness or if they reject the validity of lust-based sins being considered worse than anger-based sins. Additionally, if the person does not value philosophical authority in moral matters, the statement's persuasive power may diminish."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 266,
+  "error": "",
+  "retry_count": 0
+}

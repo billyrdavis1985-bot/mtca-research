@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:22:31.272545+00:00",
+  "wall_clock_seconds": 6.686715364456177,
+  "raw_response": "{\n  \"communicative_function\": \"prescriptive instructional guidance on therapeutic procedure\",\n  \"implicit_claims\": [\n    \"suggestion-based intervention requires periodic renewal whose frequency must be reduced over time\",\n    \"measurable progress toward a definitive endpoint ('cure') exists and can guide dosing\",\n    \"the same tapering schedule is necessary in every case\",\n    \"once suggestions cease, the desired state remains permanently achieved\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a procedural algorithm; logical flow from frequent renewal to spaced withdrawal to termination is clear under its own premises\",\n  \"conditions_for_usefulness\": \"the underlying model of suggestion therapy must be empirically valid, progress must be reliably observable, and a complete, stable cure must be attainable by this schedule\",\n  \"conditions_for_misleading\": \"the intervention lacks reliable curative power, 'progress' is illusory or subjective, or permanent change does not result from spaced repetition\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescriptive instructional guidance on therapeutic procedure",
+    "implicit_claims": [
+      "suggestion-based intervention requires periodic renewal whose frequency must be reduced over time",
+      "measurable progress toward a definitive endpoint ('cure') exists and can guide dosing",
+      "the same tapering schedule is necessary in every case",
+      "once suggestions cease, the desired state remains permanently achieved"
+    ],
+    "coherence_assessment": "internally consistent as a procedural algorithm; logical flow from frequent renewal to spaced withdrawal to termination is clear under its own premises",
+    "conditions_for_usefulness": "the underlying model of suggestion therapy must be empirically valid, progress must be reliably observable, and a complete, stable cure must be attainable by this schedule",
+    "conditions_for_misleading": "the intervention lacks reliable curative power, 'progress' is illusory or subjective, or permanent change does not result from spaced repetition"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 316,
+  "output_tokens": 192,
+  "error": "",
+  "retry_count": 0
+}

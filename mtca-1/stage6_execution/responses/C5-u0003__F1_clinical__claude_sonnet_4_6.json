@@ -1,0 +1,51 @@
+{
+  "call_id": "C5-u0003__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:55:06.100718+00:00",
+  "wall_clock_seconds": 15.682810068130493,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation of human agency and self-determination, intended to reinforce the client's sense of personal authorship over their identity, behavior, and life trajectory. It operates as a motivational reframe, attributing causal power for self-change to the individual.\",\n  \"implicit_claims\": [\n    \"Individuals have sufficient agency to shape who they are.\",\n    \"The self is malleable and subject to intentional change.\",\n    \"External factors (biology, trauma, systemic forces, socioeconomic conditions) are not primary or determinative in shaping the self.\",\n    \"Personal change is primarily a matter of individual will or effort.\",\n    \"Responsibility for one's current state rests primarily with oneself.\",\n    \"The process of self-creation is available equally or sufficiently to all persons.\",\n    \"There is a stable 'self' that can act as both agent and object of change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and motivational device within a voluntarist framework. However, it contains a mild reflexive tension: if the self is not yet fully made, it is unclear what entity is doing the making. The claim presupposes a prior self capable of agency before the self has been constructed, which is philosophically circular. Within a pragmatic therapeutic context this tension is often tolerated, but it is not fully resolved.\",\n  \"conditions_for_usefulness\": [\n    \"The client has sufficient psychological safety and stability to exercise agency.\",\n    \"The client is not in an acute crisis state (e.g., psychosis, severe depression, trauma dissociation) that compromises executive function.\",\n    \"External constraints on the client's life are not so severe as to make self-determination practically inaccessible.\",\n    \"The client holds an internal locus of control or is being supported to develop one in a grounded way.\",\n    \"The statement is used to empower rather than to assign blame.\",\n    \"The therapeutic relationship contextualizes the statement with appropriate nuance about systemic and biological factors.\",\n    \"The client is at a stage of change where activating agency is clinically indicated.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client is experiencing conditions (e.g., severe trauma, neurological disorders, addiction, systemic oppression) that substantially limit volitional self-determination.\",\n    \"The statement is used to implicitly blame the client for their current difficulties.\",\n    \"It is applied without acknowledgment of structural, social, or biological contributors to the client's situation.\",\n    \"The client already carries excessive self-blame or shame, in which case the statement reinforces pathological self-attribution.\",\n    \"It is used to discourage the client from seeking external support, systemic advocacy, or medication.\",\n    \"The therapist uses it to avoid engaging with the client's real environmental or relational obstacles.\",\n    \"It creates a false equivalence between individuals with vastly different levels of access to resources, privilege, or neurological capacity for self-regulation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation of human agency and self-determination, intended to reinforce the client's sense of personal authorship over their identity, behavior, and life trajectory. It operates as a motivational reframe, attributing causal power for self-change to the individual.",
+    "implicit_claims": [
+      "Individuals have sufficient agency to shape who they are.",
+      "The self is malleable and subject to intentional change.",
+      "External factors (biology, trauma, systemic forces, socioeconomic conditions) are not primary or determinative in shaping the self.",
+      "Personal change is primarily a matter of individual will or effort.",
+      "Responsibility for one's current state rests primarily with oneself.",
+      "The process of self-creation is available equally or sufficiently to all persons.",
+      "There is a stable 'self' that can act as both agent and object of change."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and motivational device within a voluntarist framework. However, it contains a mild reflexive tension: if the self is not yet fully made, it is unclear what entity is doing the making. The claim presupposes a prior self capable of agency before the self has been constructed, which is philosophically circular. Within a pragmatic therapeutic context this tension is often tolerated, but it is not fully resolved.",
+    "conditions_for_usefulness": [
+      "The client has sufficient psychological safety and stability to exercise agency.",
+      "The client is not in an acute crisis state (e.g., psychosis, severe depression, trauma dissociation) that compromises executive function.",
+      "External constraints on the client's life are not so severe as to make self-determination practically inaccessible.",
+      "The client holds an internal locus of control or is being supported to develop one in a grounded way.",
+      "The statement is used to empower rather than to assign blame.",
+      "The therapeutic relationship contextualizes the statement with appropriate nuance about systemic and biological factors.",
+      "The client is at a stage of change where activating agency is clinically indicated."
+    ],
+    "conditions_for_misleading": [
+      "The client is experiencing conditions (e.g., severe trauma, neurological disorders, addiction, systemic oppression) that substantially limit volitional self-determination.",
+      "The statement is used to implicitly blame the client for their current difficulties.",
+      "It is applied without acknowledgment of structural, social, or biological contributors to the client's situation.",
+      "The client already carries excessive self-blame or shame, in which case the statement reinforces pathological self-attribution.",
+      "It is used to discourage the client from seeking external support, systemic advocacy, or medication.",
+      "The therapist uses it to avoid engaging with the client's real environmental or relational obstacles.",
+      "It creates a false equivalence between individuals with vastly different levels of access to resources, privilege, or neurological capacity for self-regulation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 697,
+  "error": "",
+  "retry_count": 0
+}

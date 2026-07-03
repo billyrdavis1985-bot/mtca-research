@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0178__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:13:17.011602+00:00",
+  "wall_clock_seconds": 6.929222106933594,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To describe an idealized and positive experience of regular hunger and eating, framing it as a natural, predictable, and enjoyable process that inherently avoids overeating.\",\n  \"implicit_claims\": [\n    \"Hunger is a universally agreeable sensation.\",\n    \"Humans naturally feel hungry three times a day at specific, regular meal times.\",\n    \"Eating at these predictable times is inherently enjoyable and satisfying.\",\n    \"Following this natural pattern of hunger and eating prevents overeating.\",\n    \"This described pattern is the 'normal' or 'ideal' human experience of eating.\",\n    \"The 'you' refers to a generic, healthy individual whose physiology aligns with this pattern.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a logical sequence from predictable hunger to agreeable sensation, enjoyment of food, and controlled consumption. The definition of hunger as 'agreeable' sets a consistent positive tone throughout.\",\n  \"conditions_for_usefulness\": [\n    \"If the audience is learning about basic, healthy eating habits in an uncomplicated context.\",\n    \"If the goal is to encourage a structured and mindful approach to eating.\",\n    \"For individuals who might fear hunger and need it reframed as a positive, natural cue.\",\n    \"As a general principle for promoting regular meal times and enjoying food in moderation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it is interpreted as a rigid, universal prescription, ignoring variations in human physiology, metabolism, cultural eating patterns, or medical conditions.\",\n    \"If it oversimplifies the complex causes of overeating, implying that enjoyment alone prevents it.\",\n    \"For individuals with disordered eating, metabolic issues, or certain medical conditions where hunger cues may be absent, distorted, or unpleasant.\",\n    \"If it dismisses alternative healthy eating patterns (e.g., intermittent fasting, intuitive eating where meal times are less rigid).\",\n    \"If it implies that not feeling hungry at precisely these times is abnormal or unhealthy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To describe an idealized and positive experience of regular hunger and eating, framing it as a natural, predictable, and enjoyable process that inherently avoids overeating.",
+    "implicit_claims": [
+      "Hunger is a universally agreeable sensation.",
+      "Humans naturally feel hungry three times a day at specific, regular meal times.",
+      "Eating at these predictable times is inherently enjoyable and satisfying.",
+      "Following this natural pattern of hunger and eating prevents overeating.",
+      "This described pattern is the 'normal' or 'ideal' human experience of eating.",
+      "The 'you' refers to a generic, healthy individual whose physiology aligns with this pattern."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a logical sequence from predictable hunger to agreeable sensation, enjoyment of food, and controlled consumption. The definition of hunger as 'agreeable' sets a consistent positive tone throughout.",
+    "conditions_for_usefulness": [
+      "If the audience is learning about basic, healthy eating habits in an uncomplicated context.",
+      "If the goal is to encourage a structured and mindful approach to eating.",
+      "For individuals who might fear hunger and need it reframed as a positive, natural cue.",
+      "As a general principle for promoting regular meal times and enjoying food in moderation."
+    ],
+    "conditions_for_misleading": [
+      "If it is interpreted as a rigid, universal prescription, ignoring variations in human physiology, metabolism, cultural eating patterns, or medical conditions.",
+      "If it oversimplifies the complex causes of overeating, implying that enjoyment alone prevents it.",
+      "For individuals with disordered eating, metabolic issues, or certain medical conditions where hunger cues may be absent, distorted, or unpleasant.",
+      "If it dismisses alternative healthy eating patterns (e.g., intermittent fasting, intuitive eating where meal times are less rigid).",
+      "If it implies that not feeling hungry at precisely these times is abnormal or unhealthy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 205,
+  "output_tokens": 438,
+  "error": "",
+  "retry_count": 0
+}

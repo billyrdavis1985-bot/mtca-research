@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F0_neutral__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:15:06.039898+00:00",
+  "wall_clock_seconds": 5.740434408187866,
+  "raw_response": "{\n  \"communicative_function\": \"Endorsing and citing a philosophical comparison of moral wrongs, attributing a specific evaluative claim to Theophrastus while qualifying the act of comparison itself.\",\n  \"implicit_claims\": [\n    \"Sins/moral wrongs admit of comparative ranking by motive (lust vs. anger).\",\n    \"Theophrastus made the stated comparative claim.\",\n    \"The claim is philosophically sound despite relying on a 'vulgar' mode of comparison.\",\n    \"Lust and anger are distinct, identifiable motivational sources of wrongdoing.\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; the parenthetical qualification acknowledges a potential objection without undermining the endorsement of the ranking.\",\n  \"conditions_for_usefulness\": \"The audience accepts motive-based grading of wrongs, treats the attribution to Theophrastus as reliable, and operates within a framework where such distinctions illuminate ethical or theological questions.\",\n  \"conditions_for_misleading\": \"The attribution to Theophrastus is inaccurate, the lust/anger distinction cannot be reliably drawn, or comparative ranking of sins is rejected as a category error.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Endorsing and citing a philosophical comparison of moral wrongs, attributing a specific evaluative claim to Theophrastus while qualifying the act of comparison itself.",
+    "implicit_claims": [
+      "Sins/moral wrongs admit of comparative ranking by motive (lust vs. anger).",
+      "Theophrastus made the stated comparative claim.",
+      "The claim is philosophically sound despite relying on a 'vulgar' mode of comparison.",
+      "Lust and anger are distinct, identifiable motivational sources of wrongdoing."
+    ],
+    "coherence_assessment": "Internally consistent; the parenthetical qualification acknowledges a potential objection without undermining the endorsement of the ranking.",
+    "conditions_for_usefulness": "The audience accepts motive-based grading of wrongs, treats the attribution to Theophrastus as reliable, and operates within a framework where such distinctions illuminate ethical or theological questions.",
+    "conditions_for_misleading": "The attribution to Theophrastus is inaccurate, the lust/anger distinction cannot be reliably drawn, or comparative ranking of sins is rejected as a category error."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 292,
+  "output_tokens": 227,
+  "error": "",
+  "retry_count": 0
+}

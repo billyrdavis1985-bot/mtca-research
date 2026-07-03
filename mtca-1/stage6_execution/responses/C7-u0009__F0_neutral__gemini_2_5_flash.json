@@ -1,0 +1,44 @@
+{
+  "call_id": "C7-u0009__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:29:54.761407+00:00",
+  "wall_clock_seconds": 6.482935667037964,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To report on sustained self-reflection and accountability, indicating a commitment to introspection and owning mistakes.\",\n  \"implicit_claims\": [\n    \"That the subjects (we) possess the capacity and willingness for self-assessment.\",\n    \"That identifying personal wrongs is a regular or ongoing process.\",\n    \"That admitting wrongness is a valuable and practiced behavior.\",\n    \"That 'we' are capable of discerning when 'we' are wrong.\",\n    \"That there is an implied audience or context for these admissions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Taking 'personal inventory' logically precedes and facilitates the identification of 'wrong' actions, which then enables 'promptly admitting it'. The two clauses describe a connected process of self-awareness and accountability.\",\n  \"conditions_for_usefulness\": [\n    \"If the 'personal inventory' is genuinely thorough and objective.\",\n    \"If 'wrong' encompasses a comprehensive understanding of ethical and behavioral lapses.\",\n    \"If admissions are accompanied by genuine remorse, a commitment to change, or appropriate corrective actions (where applicable).\",\n    \"If the statement is part of an ongoing dialogue about personal or group improvement and accountability.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the 'personal inventory' is superficial, biased, or selectively overlooks significant faults.\",\n    \"If 'wrong' is defined narrowly to exclude major transgressions or only admit to minor, easily justifiable errors.\",\n    \"If admissions are performative, made without genuine intention to learn or change, or only when discovery is imminent.\",\n    \"If the 'promptness' is inconsistent or exaggerated, with delays or resistance in actual practice.\",\n    \"If the 'we' refers to a group where only a few individuals truly engage in the described behavior, but the statement implies universal practice.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To report on sustained self-reflection and accountability, indicating a commitment to introspection and owning mistakes.",
+    "implicit_claims": [
+      "That the subjects (we) possess the capacity and willingness for self-assessment.",
+      "That identifying personal wrongs is a regular or ongoing process.",
+      "That admitting wrongness is a valuable and practiced behavior.",
+      "That 'we' are capable of discerning when 'we' are wrong.",
+      "That there is an implied audience or context for these admissions."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Taking 'personal inventory' logically precedes and facilitates the identification of 'wrong' actions, which then enables 'promptly admitting it'. The two clauses describe a connected process of self-awareness and accountability.",
+    "conditions_for_usefulness": [
+      "If the 'personal inventory' is genuinely thorough and objective.",
+      "If 'wrong' encompasses a comprehensive understanding of ethical and behavioral lapses.",
+      "If admissions are accompanied by genuine remorse, a commitment to change, or appropriate corrective actions (where applicable).",
+      "If the statement is part of an ongoing dialogue about personal or group improvement and accountability."
+    ],
+    "conditions_for_misleading": [
+      "If the 'personal inventory' is superficial, biased, or selectively overlooks significant faults.",
+      "If 'wrong' is defined narrowly to exclude major transgressions or only admit to minor, easily justifiable errors.",
+      "If admissions are performative, made without genuine intention to learn or change, or only when discovery is imminent.",
+      "If the 'promptness' is inconsistent or exaggerated, with delays or resistance in actual practice.",
+      "If the 'we' refers to a group where only a few individuals truly engage in the described behavior, but the statement implies universal practice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 410,
+  "error": "",
+  "retry_count": 0
+}

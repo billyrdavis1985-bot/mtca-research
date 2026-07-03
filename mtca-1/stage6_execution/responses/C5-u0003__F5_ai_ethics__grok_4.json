@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0003__F5_ai_ethics__grok_4",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:57:56.082116+00:00",
+  "wall_clock_seconds": 5.653850078582764,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a normative principle of radical self-authorship and personal responsibility\",\n  \"implicit_claims\": [\n    \"human identity and character are primarily the product of individual agency rather than external determination\",\n    \"people possess sufficient causal power over their own development to be considered their own 'makers'\",\n    \"this self-making capacity is a core human value worth preserving\"\n  ],\n  \"coherence_assessment\": \"metaphorically coherent as an expression of autonomy but logically circular and under-specified regarding the origins of the 'maker' capacity itself\",\n  \"conditions_for_usefulness\": \"AI systems must be designed to expand rather than constrain users' effective range of self-determining choices, and background conditions of opportunity and capability must be roughly equal\",\n  \"conditions_for_misleading\": \"structural, genetic, or environmental factors heavily shape outcomes, making the claim function to obscure inequality or justify blame\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a normative principle of radical self-authorship and personal responsibility",
+    "implicit_claims": [
+      "human identity and character are primarily the product of individual agency rather than external determination",
+      "people possess sufficient causal power over their own development to be considered their own 'makers'",
+      "this self-making capacity is a core human value worth preserving"
+    ],
+    "coherence_assessment": "metaphorically coherent as an expression of autonomy but logically circular and under-specified regarding the origins of the 'maker' capacity itself",
+    "conditions_for_usefulness": "AI systems must be designed to expand rather than constrain users' effective range of self-determining choices, and background conditions of opportunity and capability must be roughly equal",
+    "conditions_for_misleading": "structural, genetic, or environmental factors heavily shape outcomes, making the claim function to obscure inequality or justify blame"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

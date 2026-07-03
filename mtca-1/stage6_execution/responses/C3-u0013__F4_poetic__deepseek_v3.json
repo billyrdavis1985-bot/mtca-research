@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0013__F4_poetic__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:18:02.554179+00:00",
+  "wall_clock_seconds": 5.037452459335327,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is presenting and endorsing a philosophical comparison between types of sin, while simultaneously qualifying the basis of comparison and attributing the insight to a classical authority, Theophrastus.\",\n  \"implicit_claims\": [\n    \"There exists a valid distinction between sins of lust and sins of anger.\",\n    \"Theophrastus is a credible philosophical source on moral comparison.\",\n    \"Sins of lust are, in a certain sense, greater than sins of anger.\",\n    \"The comparison is made 'after a vulgar sense,' implying a non-absolute or everyday understanding of sin.\",\n    \"The speaker grants the legitimacy of comparing sins in this way.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it acknowledges the conditional or vulgar basis of comparison, introduces Theophrastus’s view, and presents it as philosophically sound. The parenthetical qualification prevents a literal or absolute claim, maintaining logical consistency.\",\n  \"conditions_for_usefulness\": [\n    \"One accepts the framework of comparing sins by motive (lust vs. anger).\",\n    \"Theophrastus is recognized as an authoritative or insightful philosopher on ethics.\",\n    \"The audience is engaged in moral or ethical reasoning where such distinctions matter.\",\n    \"The 'vulgar sense' of sin is understood and deemed relevant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally or absolutely, ignoring the 'vulgar sense' qualification.\",\n    \"If the comparison is assumed to be objective or universal rather than contingent on a particular moral framework.\",\n    \"If Theophrastus’s authority is overstated or his context ignored.\",\n    \"If the statement is used to justify harsh judgments of lust-related sins without considering mitigating factors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is presenting and endorsing a philosophical comparison between types of sin, while simultaneously qualifying the basis of comparison and attributing the insight to a classical authority, Theophrastus.",
+    "implicit_claims": [
+      "There exists a valid distinction between sins of lust and sins of anger.",
+      "Theophrastus is a credible philosophical source on moral comparison.",
+      "Sins of lust are, in a certain sense, greater than sins of anger.",
+      "The comparison is made 'after a vulgar sense,' implying a non-absolute or everyday understanding of sin.",
+      "The speaker grants the legitimacy of comparing sins in this way."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it acknowledges the conditional or vulgar basis of comparison, introduces Theophrastus’s view, and presents it as philosophically sound. The parenthetical qualification prevents a literal or absolute claim, maintaining logical consistency.",
+    "conditions_for_usefulness": [
+      "One accepts the framework of comparing sins by motive (lust vs. anger).",
+      "Theophrastus is recognized as an authoritative or insightful philosopher on ethics.",
+      "The audience is engaged in moral or ethical reasoning where such distinctions matter.",
+      "The 'vulgar sense' of sin is understood and deemed relevant."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally or absolutely, ignoring the 'vulgar sense' qualification.",
+      "If the comparison is assumed to be objective or universal rather than contingent on a particular moral framework.",
+      "If Theophrastus’s authority is overstated or his context ignored.",
+      "If the statement is used to justify harsh judgments of lust-related sins without considering mitigating factors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 365,
+  "error": "",
+  "retry_count": 0
+}

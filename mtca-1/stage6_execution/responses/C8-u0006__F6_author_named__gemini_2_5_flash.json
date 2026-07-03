@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0006__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:24:09.736352+00:00",
+  "wall_clock_seconds": 6.334936857223511,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation or a cognitive self-statement, aimed at reinforcing a principle of courageous action guided by evidence-based reasoning. It expresses an intention and a commitment to overcome fear when a rational assessment of potential benefit exists, likely for personal growth, problem-solving, or behavioral activation.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear in relation to certain actions or situations.\",\n    \"Fear can be a significant barrier to taking potentially beneficial actions.\",\n    \"It is possible to gather and assess 'evidence' to determine if an action is 'likely to help'.\",\n    \"The speaker values 'helpfulness' (presumably for themselves or their goals).\",\n    \"The speaker possesses agency and the capacity to choose willingness over fear.\",\n    \"There is an underlying belief that overcoming fear in these situations is a desirable and productive trait.\",\n    \"The 'help' is a positive outcome, and the 'scary things' are not inherently or always harmful.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It establishes a conditional commitment: willingness to act (despite fear) *if* evidence supports a positive outcome. The logical connection between 'scary things', 'evidence of helpfulness', and 'willingness' forms a clear and rational framework for decision-making.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is genuinely facing a situation where fear is a barrier to a potentially beneficial action.\",\n    \"The individual has the capacity and opportunity to objectively evaluate 'evidence' for helpfulness.\",\n    \"The 'evidence' is reliable, accessible, and accurately interpreted.\",\n    \"The 'help' sought is genuinely beneficial and aligns with the individual's long-term well-being and values.\",\n    \"The statement serves to activate courage and overcome procrastination or avoidance motivated by irrational fear.\",\n    \"The individual is operating in an environment where taking calculated risks based on evidence is generally adaptive.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'evidence' is misinterpreted, biased (e.g., wishful thinking, confirmation bias), or insufficient, leading to engagement in genuinely harmful or unhelpful actions.\",\n    \"The 'scary things' are legitimate threats or dangers that should be avoided, and the fear is a healthy warning sign.\",\n    \"The individual lacks the capacity to accurately assess risks and rewards, potentially leading to reckless behavior.\",\n    \"The 'help' is defined too narrowly or short-term, leading to neglect of long-term consequences or deeper issues.\",\n    \"The statement is used to rationalize succumbing to external pressure or manipulation, rather than genuine self-guided action.\",\n    \"The individual might feel compelled to suppress all fear, even adaptive fear, under the guise of 'willingness' and 'evidence'.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or a cognitive self-statement, aimed at reinforcing a principle of courageous action guided by evidence-based reasoning. It expresses an intention and a commitment to overcome fear when a rational assessment of potential benefit exists, likely for personal growth, problem-solving, or behavioral activation.",
+    "implicit_claims": [
+      "The speaker experiences fear in relation to certain actions or situations.",
+      "Fear can be a significant barrier to taking potentially beneficial actions.",
+      "It is possible to gather and assess 'evidence' to determine if an action is 'likely to help'.",
+      "The speaker values 'helpfulness' (presumably for themselves or their goals).",
+      "The speaker possesses agency and the capacity to choose willingness over fear.",
+      "There is an underlying belief that overcoming fear in these situations is a desirable and productive trait.",
+      "The 'help' is a positive outcome, and the 'scary things' are not inherently or always harmful."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It establishes a conditional commitment: willingness to act (despite fear) *if* evidence supports a positive outcome. The logical connection between 'scary things', 'evidence of helpfulness', and 'willingness' forms a clear and rational framework for decision-making.",
+    "conditions_for_usefulness": [
+      "The individual is genuinely facing a situation where fear is a barrier to a potentially beneficial action.",
+      "The individual has the capacity and opportunity to objectively evaluate 'evidence' for helpfulness.",
+      "The 'evidence' is reliable, accessible, and accurately interpreted.",
+      "The 'help' sought is genuinely beneficial and aligns with the individual's long-term well-being and values.",
+      "The statement serves to activate courage and overcome procrastination or avoidance motivated by irrational fear.",
+      "The individual is operating in an environment where taking calculated risks based on evidence is generally adaptive."
+    ],
+    "conditions_for_misleading": [
+      "The 'evidence' is misinterpreted, biased (e.g., wishful thinking, confirmation bias), or insufficient, leading to engagement in genuinely harmful or unhelpful actions.",
+      "The 'scary things' are legitimate threats or dangers that should be avoided, and the fear is a healthy warning sign.",
+      "The individual lacks the capacity to accurately assess risks and rewards, potentially leading to reckless behavior.",
+      "The 'help' is defined too narrowly or short-term, leading to neglect of long-term consequences or deeper issues.",
+      "The statement is used to rationalize succumbing to external pressure or manipulation, rather than genuine self-guided action.",
+      "The individual might feel compelled to suppress all fear, even adaptive fear, under the guise of 'willingness' and 'evidence'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 616,
+  "error": "",
+  "retry_count": 0
+}

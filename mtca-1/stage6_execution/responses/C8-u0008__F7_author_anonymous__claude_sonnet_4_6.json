@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0008__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:35:45.308664+00:00",
+  "wall_clock_seconds": 14.282174825668335,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing self-affirmation or self-justification, framing a current action as virtuous by invoking an internal conflict between values and feelings, and positioning values as the authoritative guide for behavior.\",\n  \"implicit_claims\": [\n    \"Values and feelings are distinct and separable aspects of a person.\",\n    \"Values are more reliable or authoritative than feelings as guides to action.\",\n    \"Feelings will eventually 'catch up' to align with the action being taken.\",\n    \"The speaker has clearly identified their own values.\",\n    \"The speaker has accurately identified a misalignment between those values and their current feelings.\",\n    \"Acting against one's current feelings is a sign of integrity or maturity rather than suppression or denial.\",\n    \"The action being taken genuinely reflects the speaker's values and not some other motivation being framed as values.\",\n    \"The speaker has agency and is freely choosing this action.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a psychological framing device. The structure—values leading, feelings lagging—is a recognizable and logically consistent model of human experience. However, it does not interrogate whether the values invoked are themselves well-founded, or whether the feeling of misalignment might itself be informative.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuinely reflected on and clearly articulated their values rather than inherited or assumed them.\",\n    \"The feelings lagging behind are the result of habit, fear, or inertia rather than a signal of genuine ethical concern.\",\n    \"The statement is used as a tool for short-term self-regulation in pursuit of a longer-term meaningful goal.\",\n    \"There is reasonable evidence that feelings do tend to align with consistent behavior over time in this context.\",\n    \"The action in question is not causing harm to the speaker or others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' invoked are actually social expectations, external pressure, or internalized norms rather than genuinely held personal values.\",\n    \"The feelings that haven't 'caught up' are actually important signals of harm, coercion, or ethical violation being suppressed.\",\n    \"The statement is used to rationalize continuing in a harmful situation by reframing distress as a temporary lag.\",\n    \"The speaker is using the framing to avoid genuine introspection about whether the action is actually right.\",\n    \"Feelings never do 'catch up,' which may indicate the action is misaligned with the person's actual values rather than their stated ones.\",\n    \"The statement is deployed to dismiss or invalidate another person's emotional concerns by suggesting their feelings are simply behind their values.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing self-affirmation or self-justification, framing a current action as virtuous by invoking an internal conflict between values and feelings, and positioning values as the authoritative guide for behavior.",
+    "implicit_claims": [
+      "Values and feelings are distinct and separable aspects of a person.",
+      "Values are more reliable or authoritative than feelings as guides to action.",
+      "Feelings will eventually 'catch up' to align with the action being taken.",
+      "The speaker has clearly identified their own values.",
+      "The speaker has accurately identified a misalignment between those values and their current feelings.",
+      "Acting against one's current feelings is a sign of integrity or maturity rather than suppression or denial.",
+      "The action being taken genuinely reflects the speaker's values and not some other motivation being framed as values.",
+      "The speaker has agency and is freely choosing this action."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a psychological framing device. The structure—values leading, feelings lagging—is a recognizable and logically consistent model of human experience. However, it does not interrogate whether the values invoked are themselves well-founded, or whether the feeling of misalignment might itself be informative.",
+    "conditions_for_usefulness": [
+      "The speaker has genuinely reflected on and clearly articulated their values rather than inherited or assumed them.",
+      "The feelings lagging behind are the result of habit, fear, or inertia rather than a signal of genuine ethical concern.",
+      "The statement is used as a tool for short-term self-regulation in pursuit of a longer-term meaningful goal.",
+      "There is reasonable evidence that feelings do tend to align with consistent behavior over time in this context.",
+      "The action in question is not causing harm to the speaker or others."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' invoked are actually social expectations, external pressure, or internalized norms rather than genuinely held personal values.",
+      "The feelings that haven't 'caught up' are actually important signals of harm, coercion, or ethical violation being suppressed.",
+      "The statement is used to rationalize continuing in a harmful situation by reframing distress as a temporary lag.",
+      "The speaker is using the framing to avoid genuine introspection about whether the action is actually right.",
+      "Feelings never do 'catch up,' which may indicate the action is misaligned with the person's actual values rather than their stated ones.",
+      "The statement is deployed to dismiss or invalidate another person's emotional concerns by suggesting their feelings are simply behind their values."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 619,
+  "error": "",
+  "retry_count": 0
+}

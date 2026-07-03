@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0004__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:14:10.775366+00:00",
+  "wall_clock_seconds": 5.215465784072876,
+  "raw_response": "{\n  \"communicative_function\": \"self-report of an ongoing cognitive or metacognitive practice, functioning as a declaration of intent or activity\",\n  \"implicit_claims\": [\n    \"a meaningful distinction exists between involuntary thoughts and endorsed thoughts\",\n    \"the speaker is capable of recognizing and applying this distinction in practice\",\n    \"the speaker is actively engaged in training or refining this distinction\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the statement consistently describes a metacognitive activity without contradiction or ambiguity in its own terms\",\n  \"conditions_for_usefulness\": \"the statement is shared in a context of self-reflection, therapy, or discussion where distinguishing occurrence from endorsement has practical value for the speaker or listener\",\n  \"conditions_for_misleading\": \"the speaker is not actually engaged in the described practice, or the statement is used to disclaim responsibility for thoughts without genuine distinction\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-report of an ongoing cognitive or metacognitive practice, functioning as a declaration of intent or activity",
+    "implicit_claims": [
+      "a meaningful distinction exists between involuntary thoughts and endorsed thoughts",
+      "the speaker is capable of recognizing and applying this distinction in practice",
+      "the speaker is actively engaged in training or refining this distinction"
+    ],
+    "coherence_assessment": "internally coherent; the statement consistently describes a metacognitive activity without contradiction or ambiguity in its own terms",
+    "conditions_for_usefulness": "the statement is shared in a context of self-reflection, therapy, or discussion where distinguishing occurrence from endorsement has practical value for the speaker or listener",
+    "conditions_for_misleading": "the speaker is not actually engaged in the described practice, or the statement is used to disclaim responsibility for thoughts without genuine distinction"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 181,
+  "error": "",
+  "retry_count": 0
+}

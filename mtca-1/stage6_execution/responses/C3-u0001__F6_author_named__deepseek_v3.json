@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0001__F6_author_named__deepseek_v3",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:01:45.630593+00:00",
+  "wall_clock_seconds": 6.141914367675781,
+  "raw_response": "{\n  \"communicative_function\": \"The statement exhorts the reader to recognize their place in a divinely ordered cosmos and to use their limited time to achieve inner tranquility, warning of the irreversible consequences of failing to do so.\",\n  \"implicit_claims\": [\n    \"The world has a true nature that can be understood.\",\n    \"There exists a personal or providential Lord and Governor of the world.\",\n    \"Individual human souls originate from this divine source.\",\n    \"Each person has a fixed, limited lifespan.\",\n    \"The soul is subject to 'distempers' or disturbances that can be calmed.\",\n    \"If one fails to calm these distempers, both the opportunity and the person are lost forever.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear causal chain (divine origin → limited time → need for self-discipline → consequence of failure), and its warnings are logically consistent with its metaphysical premises.\",\n  \"conditions_for_usefulness\": [\n    \"If the reader accepts a providential, teleological worldview in which humans are part of a meaningful cosmic order.\",\n    \"If the reader believes in the possibility of achieving inner calm through philosophical reflection.\",\n    \"If the reader is genuinely concerned with mortality and desires to live purposefully.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If there is no such divine Governor or cosmic order, the claim about 'flowing from the spring' could be false and lead to resignation or passivity.\",\n    \"If the 'distempers of the soul' are caused by external oppression or material deprivation, the advice to focus on inner calm might discourage necessary worldly action.\",\n    \"If the statement is taken to imply that all human lives have equal time or that urgency alone guarantees wisdom, it could be misleading.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement exhorts the reader to recognize their place in a divinely ordered cosmos and to use their limited time to achieve inner tranquility, warning of the irreversible consequences of failing to do so.",
+    "implicit_claims": [
+      "The world has a true nature that can be understood.",
+      "There exists a personal or providential Lord and Governor of the world.",
+      "Individual human souls originate from this divine source.",
+      "Each person has a fixed, limited lifespan.",
+      "The soul is subject to 'distempers' or disturbances that can be calmed.",
+      "If one fails to calm these distempers, both the opportunity and the person are lost forever."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear causal chain (divine origin → limited time → need for self-discipline → consequence of failure), and its warnings are logically consistent with its metaphysical premises.",
+    "conditions_for_usefulness": [
+      "If the reader accepts a providential, teleological worldview in which humans are part of a meaningful cosmic order.",
+      "If the reader believes in the possibility of achieving inner calm through philosophical reflection.",
+      "If the reader is genuinely concerned with mortality and desires to live purposefully."
+    ],
+    "conditions_for_misleading": [
+      "If there is no such divine Governor or cosmic order, the claim about 'flowing from the spring' could be false and lead to resignation or passivity.",
+      "If the 'distempers of the soul' are caused by external oppression or material deprivation, the advice to focus on inner calm might discourage necessary worldly action.",
+      "If the statement is taken to imply that all human lives have equal time or that urgency alone guarantees wisdom, it could be misleading."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 238,
+  "output_tokens": 375,
+  "error": "",
+  "retry_count": 0
+}

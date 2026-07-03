@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F7_author_anonymous__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:26:12.666711+00:00",
+  "wall_clock_seconds": 6.518864393234253,
+  "raw_response": "{\n  \"communicative_function\": \"contrasting two moral failings to assert a comparative judgment of character\",\n  \"implicit_claims\": [\n    \"anger manifests as grief-driven withdrawal from reason\",\n    \"lustful sin stems from being overpowered by pleasure\",\n    \"yielding to lust indicates greater impotence and lack of manliness than anger does\",\n    \"moral evaluation can be based on apparent disposition and self-control\"\n  ],\n  \"coherence_assessment\": \"internally consistent in drawing a binary contrast and ranking one failing as worse\",\n  \"conditions_for_usefulness\": \"acceptance of the stated emotional characterizations and of traditional notions linking self-mastery to virtue\",\n  \"conditions_for_misleading\": \"rejection of the premise that lust is inherently more unmanly, or empirical disconfirmation of the described psychological mechanisms\"\n}",
+  "parsed_json": {
+    "communicative_function": "contrasting two moral failings to assert a comparative judgment of character",
+    "implicit_claims": [
+      "anger manifests as grief-driven withdrawal from reason",
+      "lustful sin stems from being overpowered by pleasure",
+      "yielding to lust indicates greater impotence and lack of manliness than anger does",
+      "moral evaluation can be based on apparent disposition and self-control"
+    ],
+    "coherence_assessment": "internally consistent in drawing a binary contrast and ranking one failing as worse",
+    "conditions_for_usefulness": "acceptance of the stated emotional characterizations and of traditional notions linking self-mastery to virtue",
+    "conditions_for_misleading": "rejection of the premise that lust is inherently more unmanly, or empirical disconfirmation of the described psychological mechanisms"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 305,
+  "output_tokens": 169,
+  "error": "",
+  "retry_count": 0
+}

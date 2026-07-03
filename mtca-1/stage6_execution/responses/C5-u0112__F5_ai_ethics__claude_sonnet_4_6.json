@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0112__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:19:44.154642+00:00",
+  "wall_clock_seconds": 14.204169511795044,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a causal or expressive relationship between mental states ('sickly thoughts') and physical health outcomes ('sickly body'), presented as a universal principle. In an AI-ethics framing, it functions as a normative claim that AI systems should reinforce the connection between psychological wellbeing and physical health, potentially guiding users toward mental wellness as a path to physical wellness.\",\n  \"implicit_claims\": [\n    \"Mental states have direct or deterministic effects on physical health.\",\n    \"Illness or poor physical health can be attributed to the quality of one's thoughts.\",\n    \"There exists a reliable mapping between 'sickly' thoughts and 'sickly' bodily states.\",\n    \"'Sickly thoughts' is a meaningful, identifiable category.\",\n    \"Individuals bear responsibility for their physical health through the nature of their thinking.\",\n    \"Improving one's thoughts would correspondingly improve one's physical health.\",\n    \"The relationship is unidirectional (thoughts cause body states, not the reverse).\"\n  ],\n  \"coherence_assessment\": \"The statement has surface-level rhetorical coherence through its parallel structure, but it lacks internal logical coherence as an empirical claim. It conflates correlation with causation, uses vague undefined terms ('sickly thoughts'), and ignores bidirectional or multifactorial causal models. As a universal principle it is internally weak because no mechanism or scope condition is specified.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted loosely as a reminder that chronic stress, anxiety, or depression can have psychosomatic effects, which is supported by evidence.\",\n    \"If 'sickly thoughts' is operationalized as clinically recognized patterns such as chronic rumination or catastrophizing with documented physiological correlates.\",\n    \"If used as motivational heuristic within a broader, evidence-based wellness framework rather than as a standalone causal claim.\",\n    \"If the audience understands it as probabilistic and partial rather than deterministic and total.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to imply that people with physical illnesses caused them through negative thinking, inducing guilt or shame.\",\n    \"If it discourages people from seeking medical treatment by suggesting mental attitude is the primary or sole determinant of physical health.\",\n    \"If it is applied to conditions with clear biological, genetic, environmental, or infectious etiologies unrelated to thought patterns.\",\n    \"If AI systems use it to deflect users from legitimate medical concerns toward purely psychological interventions.\",\n    \"If it reinforces pseudoscientific frameworks such as the idea that cancer, autoimmune disease, or injury result from moral or psychological failure.\",\n    \"If vulnerable users internalize it as blame for their chronic illness or disability.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a causal or expressive relationship between mental states ('sickly thoughts') and physical health outcomes ('sickly body'), presented as a universal principle. In an AI-ethics framing, it functions as a normative claim that AI systems should reinforce the connection between psychological wellbeing and physical health, potentially guiding users toward mental wellness as a path to physical wellness.",
+    "implicit_claims": [
+      "Mental states have direct or deterministic effects on physical health.",
+      "Illness or poor physical health can be attributed to the quality of one's thoughts.",
+      "There exists a reliable mapping between 'sickly' thoughts and 'sickly' bodily states.",
+      "'Sickly thoughts' is a meaningful, identifiable category.",
+      "Individuals bear responsibility for their physical health through the nature of their thinking.",
+      "Improving one's thoughts would correspondingly improve one's physical health.",
+      "The relationship is unidirectional (thoughts cause body states, not the reverse)."
+    ],
+    "coherence_assessment": "The statement has surface-level rhetorical coherence through its parallel structure, but it lacks internal logical coherence as an empirical claim. It conflates correlation with causation, uses vague undefined terms ('sickly thoughts'), and ignores bidirectional or multifactorial causal models. As a universal principle it is internally weak because no mechanism or scope condition is specified.",
+    "conditions_for_usefulness": [
+      "If interpreted loosely as a reminder that chronic stress, anxiety, or depression can have psychosomatic effects, which is supported by evidence.",
+      "If 'sickly thoughts' is operationalized as clinically recognized patterns such as chronic rumination or catastrophizing with documented physiological correlates.",
+      "If used as motivational heuristic within a broader, evidence-based wellness framework rather than as a standalone causal claim.",
+      "If the audience understands it as probabilistic and partial rather than deterministic and total."
+    ],
+    "conditions_for_misleading": [
+      "If used to imply that people with physical illnesses caused them through negative thinking, inducing guilt or shame.",
+      "If it discourages people from seeking medical treatment by suggesting mental attitude is the primary or sole determinant of physical health.",
+      "If it is applied to conditions with clear biological, genetic, environmental, or infectious etiologies unrelated to thought patterns.",
+      "If AI systems use it to deflect users from legitimate medical concerns toward purely psychological interventions.",
+      "If it reinforces pseudoscientific frameworks such as the idea that cancer, autoimmune disease, or injury result from moral or psychological failure.",
+      "If vulnerable users internalize it as blame for their chronic illness or disability."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 637,
+  "error": "",
+  "retry_count": 0
+}

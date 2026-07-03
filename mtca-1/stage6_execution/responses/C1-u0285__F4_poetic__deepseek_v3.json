@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0285__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:32:49.437437+00:00",
+  "wall_clock_seconds": 4.6426005363464355,
+  "raw_response": "{\n  \"communicative_function\": \"The statement challenges an objection by reframing it through a rhetorical question, implying the inevitability and universality of risk in all human activities.\",\n  \"implicit_claims\": [\n    \"The objection's premise that the thing in question is dangerous is false or overstated.\",\n    \"All things we use involve some form of danger.\",\n    \"If everything is dangerous, singling out one thing as dangerous is irrational or hypocritical.\",\n    \"The objector likely uses other dangerous things without complaint.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent within its rhetorical frame: it uses a logical counter-question to argue that the objection is inconsistent. It relies on the unstated premise that universal danger makes specific objection pointless.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts the premise that all common things carry some risk.\",\n    \"The objector is committed to consistency regarding risk assessment.\",\n    \"The context is a persuasive or philosophical dialogue where rhetorical questioning is appropriate.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the danger in question is significantly greater than typical everyday risks.\",\n    \"If the statement dismisses legitimate concerns about a specific, preventable danger.\",\n    \"If the audience fails to recognize the rhetorical reduction of all risks to a single level.\",\n    \"If the statement is taken as a literal denial of the specific danger mentioned.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement challenges an objection by reframing it through a rhetorical question, implying the inevitability and universality of risk in all human activities.",
+    "implicit_claims": [
+      "The objection's premise that the thing in question is dangerous is false or overstated.",
+      "All things we use involve some form of danger.",
+      "If everything is dangerous, singling out one thing as dangerous is irrational or hypocritical.",
+      "The objector likely uses other dangerous things without complaint."
+    ],
+    "coherence_assessment": "The statement is coherent within its rhetorical frame: it uses a logical counter-question to argue that the objection is inconsistent. It relies on the unstated premise that universal danger makes specific objection pointless.",
+    "conditions_for_usefulness": [
+      "The audience accepts the premise that all common things carry some risk.",
+      "The objector is committed to consistency regarding risk assessment.",
+      "The context is a persuasive or philosophical dialogue where rhetorical questioning is appropriate."
+    ],
+    "conditions_for_misleading": [
+      "If the danger in question is significantly greater than typical everyday risks.",
+      "If the statement dismisses legitimate concerns about a specific, preventable danger.",
+      "If the audience fails to recognize the rhetorical reduction of all risks to a single level.",
+      "If the statement is taken as a literal denial of the specific danger mentioned."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 291,
+  "error": "",
+  "retry_count": 0
+}

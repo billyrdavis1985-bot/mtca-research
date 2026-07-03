@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0005__F3_behavioral__grok_4",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:16:54.031803+00:00",
+  "wall_clock_seconds": 5.613550186157227,
+  "raw_response": "{\n  \"communicative_function\": \"self-commitment to interrupt polarized thinking by seeking nuance\",\n  \"implicit_claims\": [\n    \"all-or-nothing frames are recognizable in the moment\",\n    \"partial truth typically exists on both sides of such frames\",\n    \"actively searching for that partial truth is both possible and preferable\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the antecedent condition (all-or-nothing frame) is paired with a targeted counter-behavior that directly addresses the identified limitation\",\n  \"conditions_for_usefulness\": \"the speaker must reliably detect the all-or-nothing state and possess sufficient psychological safety and skill to examine both sides without immediate defensive rejection\",\n  \"conditions_for_misleading\": \"the statement functions as performative nuance that conceals an unwillingness to ever reach a firm conclusion or that treats all positions as equally partial regardless of evidence\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-commitment to interrupt polarized thinking by seeking nuance",
+    "implicit_claims": [
+      "all-or-nothing frames are recognizable in the moment",
+      "partial truth typically exists on both sides of such frames",
+      "actively searching for that partial truth is both possible and preferable"
+    ],
+    "coherence_assessment": "internally coherent; the antecedent condition (all-or-nothing frame) is paired with a targeted counter-behavior that directly addresses the identified limitation",
+    "conditions_for_usefulness": "the speaker must reliably detect the all-or-nothing state and possess sufficient psychological safety and skill to examine both sides without immediate defensive rejection",
+    "conditions_for_misleading": "the statement functions as performative nuance that conceals an unwillingness to ever reach a firm conclusion or that treats all positions as equally partial regardless of evidence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0
+}

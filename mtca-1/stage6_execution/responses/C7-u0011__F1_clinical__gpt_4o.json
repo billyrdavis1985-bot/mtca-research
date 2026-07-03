@@ -1,0 +1,40 @@
+{
+  "call_id": "C7-u0011__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:42:07.223008+00:00",
+  "wall_clock_seconds": 4.664507865905762,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is communicating a commitment to personal change and the dissemination of learned principles to others in need, specifically within the context of recovery from alcoholism.\",\n  \"implicit_claims\": [\n    \"The steps referred to have led to a spiritual awakening.\",\n    \"A spiritual awakening is a positive and desirable outcome.\",\n    \"The person is capable and in a position to help others by sharing their experience.\",\n    \"The principles learned through the steps are applicable in all areas of life.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent, assuming the context of a recovery program which incorporates a series of steps aimed at achieving spiritual and personal growth.\",\n  \"conditions_for_usefulness\": [\n    \"The person has actually experienced benefits from the steps and believes in the principles.\",\n    \"The intended audience (other alcoholics) is open to receiving this message.\",\n    \"The statement motivates the speaker to practice and reinforce these principles.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the steps did not result in any genuine personal change or spiritual awakening.\",\n    \"If the principles are not actually applicable in other areas of life outside recovery.\",\n    \"If the speaker is not genuinely committed to helping others or practicing the principles.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is communicating a commitment to personal change and the dissemination of learned principles to others in need, specifically within the context of recovery from alcoholism.",
+    "implicit_claims": [
+      "The steps referred to have led to a spiritual awakening.",
+      "A spiritual awakening is a positive and desirable outcome.",
+      "The person is capable and in a position to help others by sharing their experience.",
+      "The principles learned through the steps are applicable in all areas of life."
+    ],
+    "coherence_assessment": "Internally coherent, assuming the context of a recovery program which incorporates a series of steps aimed at achieving spiritual and personal growth.",
+    "conditions_for_usefulness": [
+      "The person has actually experienced benefits from the steps and believes in the principles.",
+      "The intended audience (other alcoholics) is open to receiving this message.",
+      "The statement motivates the speaker to practice and reinforce these principles."
+    ],
+    "conditions_for_misleading": [
+      "If the steps did not result in any genuine personal change or spiritual awakening.",
+      "If the principles are not actually applicable in other areas of life outside recovery.",
+      "If the speaker is not genuinely committed to helping others or practicing the principles."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0
+}

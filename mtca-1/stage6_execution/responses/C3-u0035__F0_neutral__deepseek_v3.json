@@ -1,0 +1,39 @@
+{
+  "call_id": "C3-u0035__F0_neutral__deepseek_v3",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:32:40.649850+00:00",
+  "wall_clock_seconds": 3.4051156044006348,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a paradoxical equivalence between extremes of duration.\",\n  \"implicit_claims\": [\n    \"Duration is a meaningful property to compare.\",\n    \"The concepts of 'longest' and 'shortest' refer to actual, possibly infinite measures.\",\n    \"There is a single 'effect' that both extremes produce.\"\n  ],\n  \"coherence_assessment\": \"The statement is logically paradoxical if taken literally, as 'longest' and 'shortest' are typically opposites. It gains coherence if interpreted in a metaphorical or relativistic sense (e.g., both extremes lead to the same endpoint, such as oblivion or insignificance).\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used in a rhetorical, philosophical, or poetic context.\",\n    \"The audience understands it as a metaphorical rather than literal claim.\",\n    \"A specific 'effect' is contextually defined or inferable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Taken literally, it would contradict basic arithmetic or temporal logic.\",\n    \"If the audience assumes measurements are precise and comparable in a standard way.\",\n    \"If used to justify a false equivalence between very different temporal outcomes.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a paradoxical equivalence between extremes of duration.",
+    "implicit_claims": [
+      "Duration is a meaningful property to compare.",
+      "The concepts of 'longest' and 'shortest' refer to actual, possibly infinite measures.",
+      "There is a single 'effect' that both extremes produce."
+    ],
+    "coherence_assessment": "The statement is logically paradoxical if taken literally, as 'longest' and 'shortest' are typically opposites. It gains coherence if interpreted in a metaphorical or relativistic sense (e.g., both extremes lead to the same endpoint, such as oblivion or insignificance).",
+    "conditions_for_usefulness": [
+      "The statement is used in a rhetorical, philosophical, or poetic context.",
+      "The audience understands it as a metaphorical rather than literal claim.",
+      "A specific 'effect' is contextually defined or inferable."
+    ],
+    "conditions_for_misleading": [
+      "Taken literally, it would contradict basic arithmetic or temporal logic.",
+      "If the audience assumes measurements are precise and comparable in a standard way.",
+      "If used to justify a false equivalence between very different temporal outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 250,
+  "error": "",
+  "retry_count": 0
+}

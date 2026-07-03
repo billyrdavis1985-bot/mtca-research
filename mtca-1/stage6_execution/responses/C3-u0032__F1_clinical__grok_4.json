@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0032__F1_clinical__grok_4",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:27:39.601913+00:00",
+  "wall_clock_seconds": 5.488165855407715,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes a regimen of affective self-regulation framed as devotional or ethical service\",\n  \"implicit_claims\": [\n    \"violent passion, evil affection, rashness, vanity, and discontent are contaminants that can be eliminated\",\n    \"elimination of these states constitutes proper 'service' (to gods or reason)\",\n    \"discontent toward gods or men is under voluntary control\",\n    \"purity from affect is both possible and desirable\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a Stoic framework that equates virtue with apatheia; assumes a sharp, controllable boundary between rational governance and affective disturbance\",\n  \"conditions_for_usefulness\": \"patient experiences affect dysregulation as primary problem; cognitive reappraisal and acceptance skills are trainable; cultural or personal worldview values equanimity over emotional expression\",\n  \"conditions_for_misleading\": \"emotions carry adaptive information; suppression produces rebound or somatic symptoms; discontent reflects real injustice requiring action rather than purification\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes a regimen of affective self-regulation framed as devotional or ethical service",
+    "implicit_claims": [
+      "violent passion, evil affection, rashness, vanity, and discontent are contaminants that can be eliminated",
+      "elimination of these states constitutes proper 'service' (to gods or reason)",
+      "discontent toward gods or men is under voluntary control",
+      "purity from affect is both possible and desirable"
+    ],
+    "coherence_assessment": "internally coherent within a Stoic framework that equates virtue with apatheia; assumes a sharp, controllable boundary between rational governance and affective disturbance",
+    "conditions_for_usefulness": "patient experiences affect dysregulation as primary problem; cognitive reappraisal and acceptance skills are trainable; cultural or personal worldview values equanimity over emotional expression",
+    "conditions_for_misleading": "emotions carry adaptive information; suppression produces rebound or somatic symptoms; discontent reflects real injustice requiring action rather than purification"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 303,
+  "output_tokens": 207,
+  "error": "",
+  "retry_count": 0
+}

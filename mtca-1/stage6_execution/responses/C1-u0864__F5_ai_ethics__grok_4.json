@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:54:25.601069+00:00",
+  "wall_clock_seconds": 7.31660008430481,
+  "raw_response": "{\n  \"communicative_function\": \"Admitting prior personal skepticism toward a specific source of ideas\",\n  \"implicit_claims\": [\"Coué delivered lectures that the speaker encountered\", \"The speaker's initial attitude was one of complete doubt\", \"A confession of this attitude is relevant to the current context\"],\n  \"coherence_assessment\": \"Internally coherent as a concise admission of past disbelief, though fragmentary and lacking any follow-up resolution\",\n  \"conditions_for_usefulness\": \"The surrounding discussion must treat personal skepticism as a starting point for examining autosuggestion, open-mindedness, or belief revision in human psychology\",\n  \"conditions_for_misleading\": \"The statement is extracted from its narrative context and framed as an ethical principle or value-preservation rule for AI design\"\n}",
+  "parsed_json": {
+    "communicative_function": "Admitting prior personal skepticism toward a specific source of ideas",
+    "implicit_claims": [
+      "Coué delivered lectures that the speaker encountered",
+      "The speaker's initial attitude was one of complete doubt",
+      "A confession of this attitude is relevant to the current context"
+    ],
+    "coherence_assessment": "Internally coherent as a concise admission of past disbelief, though fragmentary and lacking any follow-up resolution",
+    "conditions_for_usefulness": "The surrounding discussion must treat personal skepticism as a starting point for examining autosuggestion, open-mindedness, or belief revision in human psychology",
+    "conditions_for_misleading": "The statement is extracted from its narrative context and framed as an ethical principle or value-preservation rule for AI design"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 275,
+  "output_tokens": 158,
+  "error": "",
+  "retry_count": 0
+}

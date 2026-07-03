@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:40:37.142512+00:00",
+  "wall_clock_seconds": 3.3160505294799805,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing information about an initial observation of a child patient upon their first visit.\",\n  \"implicit_claims\": [\n    \"The child requires assistance to walk properly.\",\n    \"There are devices available in 1915 to aid in correcting gait issues.\",\n    \"There is some improvement in the child's ability to walk due to the contrivances.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent in that it gives a clear and logical description of the child's condition and the use of assistive devices to improve his gait.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the aim is to establish a baseline for the child's condition, provide documentation of medical or therapeutic intervention, and potentially evaluate the efficacy of the assistive devices over time.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if there is incomplete information about the child's overall health, other contributing factors to his walking issues, or if the contrivances are not actually contributing to an improvement as claimed.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing information about an initial observation of a child patient upon their first visit.",
+    "implicit_claims": [
+      "The child requires assistance to walk properly.",
+      "There are devices available in 1915 to aid in correcting gait issues.",
+      "There is some improvement in the child's ability to walk due to the contrivances."
+    ],
+    "coherence_assessment": "The statement is coherent in that it gives a clear and logical description of the child's condition and the use of assistive devices to improve his gait.",
+    "conditions_for_usefulness": "The statement would be useful if the aim is to establish a baseline for the child's condition, provide documentation of medical or therapeutic intervention, and potentially evaluate the efficacy of the assistive devices over time.",
+    "conditions_for_misleading": "The statement could be misleading if there is incomplete information about the child's overall health, other contributing factors to his walking issues, or if the contrivances are not actually contributing to an improvement as claimed."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

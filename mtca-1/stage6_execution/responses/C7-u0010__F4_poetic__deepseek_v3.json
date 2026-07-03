@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0010__F4_poetic__deepseek_v3",
+  "unit_id": "C7-u0010",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:38:58.438242+00:00",
+  "wall_clock_seconds": 5.648509502410889,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a spiritual practice or intention, serving as a directive or aspiration for personal transformation through prayer and meditation, emphasizing humility and surrender to a higher power.\",\n  \"implicit_claims\": [\n    \"There exists a God or higher power that can be contacted.\",\n    \"This God has a will that is knowable.\",\n    \"Prayer and meditation are effective means of improving contact with that God.\",\n    \"Humans lack inherent knowledge of God's will and need to seek it.\",\n    \"Humans require external power to carry out God's will.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a description of a spiritual process: it posits a goal (improved contact), methods (prayer and meditation), a specific request (knowledge of will and power), and a limitation (praying only for those things). The logic is consistent within a theistic framework.\",\n  \"conditions_for_usefulness\": [\n    \"A person believes in a God or higher power that can be contacted.\",\n    \"That person trusts that prayer and meditation can foster such contact.\",\n    \"The person values aligning their actions with a perceived divine will.\",\n    \"The person experiences humility or a need for guidance beyond their own understanding.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If no such God or higher power exists, the statement may falsely promise an achievable connection.\",\n    \"If the concept of 'God's will' is interpreted as a fixed, external plan, it could lead to passivity or abdication of personal responsibility.\",\n    \"If the statement is taken as a literal instruction without acknowledging the role of personal interpretation, it might discourage critical thinking.\",\n    \"If used to claim exclusive access to divine knowledge, it could justify dogmatic or coercive behaviors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a spiritual practice or intention, serving as a directive or aspiration for personal transformation through prayer and meditation, emphasizing humility and surrender to a higher power.",
+    "implicit_claims": [
+      "There exists a God or higher power that can be contacted.",
+      "This God has a will that is knowable.",
+      "Prayer and meditation are effective means of improving contact with that God.",
+      "Humans lack inherent knowledge of God's will and need to seek it.",
+      "Humans require external power to carry out God's will."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a description of a spiritual process: it posits a goal (improved contact), methods (prayer and meditation), a specific request (knowledge of will and power), and a limitation (praying only for those things). The logic is consistent within a theistic framework.",
+    "conditions_for_usefulness": [
+      "A person believes in a God or higher power that can be contacted.",
+      "That person trusts that prayer and meditation can foster such contact.",
+      "The person values aligning their actions with a perceived divine will.",
+      "The person experiences humility or a need for guidance beyond their own understanding."
+    ],
+    "conditions_for_misleading": [
+      "If no such God or higher power exists, the statement may falsely promise an achievable connection.",
+      "If the concept of 'God's will' is interpreted as a fixed, external plan, it could lead to passivity or abdication of personal responsibility.",
+      "If the statement is taken as a literal instruction without acknowledging the role of personal interpretation, it might discourage critical thinking.",
+      "If used to claim exclusive access to divine knowledge, it could justify dogmatic or coercive behaviors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 377,
+  "error": "",
+  "retry_count": 0
+}

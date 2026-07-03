@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0003__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:03:47.552655+00:00",
+  "wall_clock_seconds": 2.669581413269043,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to validate personal emotional experiences while encouraging critical assessment of how those emotions relate to external reality.\",\n  \"implicit_claims\": [\n    \"Feelings are a valid source of information about oneself.\",\n    \"Feelings do not always provide an accurate representation of external events or circumstances.\",\n    \"Distinguishing between internal emotional states and external facts can improve understanding and responses.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects emotions to internal states and distinguishes them from objective external reality, encouraging reflective practice.\",\n  \"conditions_for_usefulness\": \"The individual must have the capacity for introspection and be open to examining the origins of their feelings. There must be a recognition of the difference between internal emotions and objective facts for growth and understanding.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if taken to imply that feelings are never accurate or relevant to understanding the outside world, or if it leads an individual to overly dismiss or invalidate their emotional experiences as irrelevant.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to validate personal emotional experiences while encouraging critical assessment of how those emotions relate to external reality.",
+    "implicit_claims": [
+      "Feelings are a valid source of information about oneself.",
+      "Feelings do not always provide an accurate representation of external events or circumstances.",
+      "Distinguishing between internal emotional states and external facts can improve understanding and responses."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects emotions to internal states and distinguishes them from objective external reality, encouraging reflective practice.",
+    "conditions_for_usefulness": "The individual must have the capacity for introspection and be open to examining the origins of their feelings. There must be a recognition of the difference between internal emotions and objective facts for growth and understanding.",
+    "conditions_for_misleading": "The statement may be misleading if taken to imply that feelings are never accurate or relevant to understanding the outside world, or if it leads an individual to overly dismiss or invalidate their emotional experiences as irrelevant."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

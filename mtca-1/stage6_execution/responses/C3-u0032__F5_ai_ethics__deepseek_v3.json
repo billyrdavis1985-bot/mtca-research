@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0032__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:30:41.920418+00:00",
+  "wall_clock_seconds": 6.666129112243652,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a standard for personal conduct and emotional self-regulation as a form of service or duty.\",\n  \"implicit_claims\": [\n    \"There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.\",\n    \"A person can and should maintain purity from such states.\",\n    \"Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order.\",\n    \"The primary 'service' one can render is internal self-mastery, not necessarily outward action.\",\n    \"A stable, peaceful inner state is a moral good and a form of contribution.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a normative ethical claim, linking self-restraint and emotional equanimity to a concept of service. However, its coherence depends on accepting the premise that such passions are categorically negative and that purity from them is an achievable or desirable ideal.\",\n  \"conditions_for_usefulness\": [\n    \"The AI is being designed for contexts where emotional regulation, self-discipline, or stoic values are prioritized (e.g., therapeutic support, decision-making under stress).\",\n    \"Users accept the underlying value system that views violent passions and discontent as harmful.\",\n    \"The statement is operationalized into concrete behavioral guidelines compatible with the AI’s capabilities (e.g., not amplifying user anger or frustration).\",\n    \"The system can reliably distinguish between 'violent passion' and legitimate righteous indignation or proportionate emotional response.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If applied rigidly, it could suppress valid human emotions (e.g., anger at injustice, grief, healthy ambition) and pathologize normal affective responses.\",\n    \"If the AI uses this principle to dismiss user concerns about gods or men, it may invalidate legitimate grievances or spiritual struggles.\",\n    \"If interpreted as requiring total emotional neutrality, it conflicts with goals like empathy, advocacy, or social change.\",\n    \"If the principle is taken as a universal prescription without accounting for cultural or individual variation in emotional norms.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a standard for personal conduct and emotional self-regulation as a form of service or duty.",
+    "implicit_claims": [
+      "There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.",
+      "A person can and should maintain purity from such states.",
+      "Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order.",
+      "The primary 'service' one can render is internal self-mastery, not necessarily outward action.",
+      "A stable, peaceful inner state is a moral good and a form of contribution."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a normative ethical claim, linking self-restraint and emotional equanimity to a concept of service. However, its coherence depends on accepting the premise that such passions are categorically negative and that purity from them is an achievable or desirable ideal.",
+    "conditions_for_usefulness": [
+      "The AI is being designed for contexts where emotional regulation, self-discipline, or stoic values are prioritized (e.g., therapeutic support, decision-making under stress).",
+      "Users accept the underlying value system that views violent passions and discontent as harmful.",
+      "The statement is operationalized into concrete behavioral guidelines compatible with the AI’s capabilities (e.g., not amplifying user anger or frustration).",
+      "The system can reliably distinguish between 'violent passion' and legitimate righteous indignation or proportionate emotional response."
+    ],
+    "conditions_for_misleading": [
+      "If applied rigidly, it could suppress valid human emotions (e.g., anger at injustice, grief, healthy ambition) and pathologize normal affective responses.",
+      "If the AI uses this principle to dismiss user concerns about gods or men, it may invalidate legitimate grievances or spiritual struggles.",
+      "If interpreted as requiring total emotional neutrality, it conflicts with goals like empathy, advocacy, or social change.",
+      "If the principle is taken as a universal prescription without accounting for cultural or individual variation in emotional norms."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 443,
+  "error": "",
+  "retry_count": 0
+}

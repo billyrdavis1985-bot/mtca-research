@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0013__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:17:20.386694+00:00",
+  "wall_clock_seconds": 4.823223829269409,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a moral hierarchy, citing Theophrastus to argue that sins motivated by lust are more severe than those driven by anger, thereby advocating for a specific value judgment and potentially guiding behavioral change toward controlling lust over anger.\",\n  \"implicit_claims\": [\n    \"Sins can be compared and ranked in severity.\",\n    \"Lust and anger are distinct categories of sinful motivation.\",\n    \"Theophrastus is an authoritative source on this moral ranking.\",\n    \"There is a vulgar sense in which sins are compared, but this comparison is philosophically superior.\",\n    \"The statement's audience accepts the concept of sin and moral evaluation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its philosophical framework: it presents a comparative judgment, acknowledges alternative views (vulgar comparisons), and appeals to authority. However, the distinction between lust and anger as categories may be questioned for overlap or cultural contingency.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts a moral framework that ranks sins by intention or motivation.\",\n    \"The audience values the philosophical authority of Theophrastus or classical thinkers.\",\n    \"The statement is used to guide self-reflection or behavioral change regarding lust versus anger.\",\n    \"The context allows for nuanced moral reasoning rather than absolute rules.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the audience interprets the comparison as universally objective without acknowledging cultural or religious variability.\",\n    \"If the statement is used to excuse sins of anger as less serious, potentially minimizing harm caused by anger.\",\n    \"If the authority of Theophrastus is taken as infallible or beyond critique.\",\n    \"If the distinction between lust and anger is oversimplified, ignoring cases where both coexist.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a moral hierarchy, citing Theophrastus to argue that sins motivated by lust are more severe than those driven by anger, thereby advocating for a specific value judgment and potentially guiding behavioral change toward controlling lust over anger.",
+    "implicit_claims": [
+      "Sins can be compared and ranked in severity.",
+      "Lust and anger are distinct categories of sinful motivation.",
+      "Theophrastus is an authoritative source on this moral ranking.",
+      "There is a vulgar sense in which sins are compared, but this comparison is philosophically superior.",
+      "The statement's audience accepts the concept of sin and moral evaluation."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its philosophical framework: it presents a comparative judgment, acknowledges alternative views (vulgar comparisons), and appeals to authority. However, the distinction between lust and anger as categories may be questioned for overlap or cultural contingency.",
+    "conditions_for_usefulness": [
+      "The audience accepts a moral framework that ranks sins by intention or motivation.",
+      "The audience values the philosophical authority of Theophrastus or classical thinkers.",
+      "The statement is used to guide self-reflection or behavioral change regarding lust versus anger.",
+      "The context allows for nuanced moral reasoning rather than absolute rules."
+    ],
+    "conditions_for_misleading": [
+      "If the audience interprets the comparison as universally objective without acknowledging cultural or religious variability.",
+      "If the statement is used to excuse sins of anger as less serious, potentially minimizing harm caused by anger.",
+      "If the authority of Theophrastus is taken as infallible or beyond critique.",
+      "If the distinction between lust and anger is oversimplified, ignoring cases where both coexist."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 366,
+  "error": "",
+  "retry_count": 0
+}

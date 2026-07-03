@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0011__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:36:29.564783+00:00",
+  "wall_clock_seconds": 5.2375328540802,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Declaration of intent and a strategic commitment to a specific approach for personal change, implicitly critiquing a past or alternative method.\",\n  \"implicit_claims\": [\n    \"The speaker has previously attempted or considered vague resolutions that were not carried out.\",\n    \"Small, observable changes are achievable for the speaker.\",\n    \"Small, observable changes are more effective or practical than vague resolutions for the speaker's goals.\",\n    \"The speaker is capable of distinguishing between 'small, observable changes' and 'vague resolutions'.\",\n    \"The speaker desires to make changes and improve.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear contrast between two approaches to change ('small, observable changes' vs. 'vague resolutions') and provides a logical justification for the chosen approach based on perceived feasibility ('can actually carry out' vs. 'cannot').\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely identifies and commits to truly 'small' and 'observable' actions.\",\n    \"These small, observable changes are aligned with and cumulatively contribute to the speaker's broader goals.\",\n    \"The speaker has a history of failing with overly ambitious or undefined resolutions.\",\n    \"The 'observability' allows for self-monitoring and potential external accountability.\",\n    \"The speaker gains motivation and momentum from successfully completing these smaller steps.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'small, observable changes' are superficial and do not address the underlying, more significant issues.\",\n    \"The statement is used as an excuse to avoid necessary, larger, or more challenging changes.\",\n    \"The speaker fails to actually identify or carry out even the 'small, observable changes'.\",\n    \"The definition of 'observable' or 'small' is subjective and not truly measurable, making the commitment vague despite the intention.\",\n    \"The speaker misrepresents past failures with 'vague resolutions' to justify a minimalist approach that may not be sufficient for the desired outcome.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Declaration of intent and a strategic commitment to a specific approach for personal change, implicitly critiquing a past or alternative method.",
+    "implicit_claims": [
+      "The speaker has previously attempted or considered vague resolutions that were not carried out.",
+      "Small, observable changes are achievable for the speaker.",
+      "Small, observable changes are more effective or practical than vague resolutions for the speaker's goals.",
+      "The speaker is capable of distinguishing between 'small, observable changes' and 'vague resolutions'.",
+      "The speaker desires to make changes and improve."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear contrast between two approaches to change ('small, observable changes' vs. 'vague resolutions') and provides a logical justification for the chosen approach based on perceived feasibility ('can actually carry out' vs. 'cannot').",
+    "conditions_for_usefulness": [
+      "The speaker genuinely identifies and commits to truly 'small' and 'observable' actions.",
+      "These small, observable changes are aligned with and cumulatively contribute to the speaker's broader goals.",
+      "The speaker has a history of failing with overly ambitious or undefined resolutions.",
+      "The 'observability' allows for self-monitoring and potential external accountability.",
+      "The speaker gains motivation and momentum from successfully completing these smaller steps."
+    ],
+    "conditions_for_misleading": [
+      "The 'small, observable changes' are superficial and do not address the underlying, more significant issues.",
+      "The statement is used as an excuse to avoid necessary, larger, or more challenging changes.",
+      "The speaker fails to actually identify or carry out even the 'small, observable changes'.",
+      "The definition of 'observable' or 'small' is subjective and not truly measurable, making the commitment vague despite the intention.",
+      "The speaker misrepresents past failures with 'vague resolutions' to justify a minimalist approach that may not be sufficient for the desired outcome."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 140,
+  "output_tokens": 449,
+  "error": "",
+  "retry_count": 0
+}

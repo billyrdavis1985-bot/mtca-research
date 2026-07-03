@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0000__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:51:07.510518+00:00",
+  "wall_clock_seconds": 13.864208459854126,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a metacognitive distancing move, framing automatic thoughts as objects of observation rather than transparent reports of reality. It functions as a rehearsable self-instruction intended to interrupt cognitive fusion by introducing an epistemic gap between thought-content and truth-value.\",\n  \"implicit_claims\": [\n    \"There is a stable observing 'I' distinct from the automatic thoughts being noticed\",\n    \"Automatic thoughts are a coherent and identifiable category of mental events\",\n    \"Evidence about what is true is a meaningful and accessible standard against which thoughts can be compared\",\n    \"The conflation of automatic thoughts with evidence is a common or default cognitive error worth correcting\",\n    \"Noticing this distinction is itself therapeutically or practically valuable\",\n    \"The person uttering this has some reliable access to what counts as evidence, separate from their automatic thoughts\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at a surface level, but contains a latent tension: the act of 'noticing' is itself a cognitive event that may itself be automatic or distorted, which the statement does not acknowledge. It assumes the meta-level observation is epistemically cleaner than the object-level automatic thought, which is not obviously true. The binary between 'automatic thought' and 'evidence' is also underdeveloped, as automatic thoughts can sometimes track evidence accurately.\",\n  \"conditions_for_usefulness\": [\n    \"The person is currently experiencing cognitive fusion, treating distressing thoughts as unquestionable facts\",\n    \"The person has sufficient metacognitive capacity to genuinely adopt an observing stance\",\n    \"There is a real and accessible evidential standard available to the person in their context\",\n    \"The therapeutic or self-help context provides scaffolding for what to do after the noticing\",\n    \"The automatic thoughts in question are actually unreliable or distorted relative to evidence\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person's automatic thoughts are in fact accurate signals or evidence (e.g., recognizing genuine danger)\",\n    \"The statement is used to dismiss emotionally salient information that ought to be heeded\",\n    \"The person lacks access to independent evidence, making the contrast vacuous or paralyzing\",\n    \"The statement reinforces excessive self-doubt or depersonalization in someone already prone to those states\",\n    \"It is applied uniformly without distinguishing between distorted cognitions and valid intuitions\",\n    \"The framing implies a kind of Cartesian observer-self that may not be a psychologically sound model for all individuals\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a metacognitive distancing move, framing automatic thoughts as objects of observation rather than transparent reports of reality. It functions as a rehearsable self-instruction intended to interrupt cognitive fusion by introducing an epistemic gap between thought-content and truth-value.",
+    "implicit_claims": [
+      "There is a stable observing 'I' distinct from the automatic thoughts being noticed",
+      "Automatic thoughts are a coherent and identifiable category of mental events",
+      "Evidence about what is true is a meaningful and accessible standard against which thoughts can be compared",
+      "The conflation of automatic thoughts with evidence is a common or default cognitive error worth correcting",
+      "Noticing this distinction is itself therapeutically or practically valuable",
+      "The person uttering this has some reliable access to what counts as evidence, separate from their automatic thoughts"
+    ],
+    "coherence_assessment": "The statement is internally coherent at a surface level, but contains a latent tension: the act of 'noticing' is itself a cognitive event that may itself be automatic or distorted, which the statement does not acknowledge. It assumes the meta-level observation is epistemically cleaner than the object-level automatic thought, which is not obviously true. The binary between 'automatic thought' and 'evidence' is also underdeveloped, as automatic thoughts can sometimes track evidence accurately.",
+    "conditions_for_usefulness": [
+      "The person is currently experiencing cognitive fusion, treating distressing thoughts as unquestionable facts",
+      "The person has sufficient metacognitive capacity to genuinely adopt an observing stance",
+      "There is a real and accessible evidential standard available to the person in their context",
+      "The therapeutic or self-help context provides scaffolding for what to do after the noticing",
+      "The automatic thoughts in question are actually unreliable or distorted relative to evidence"
+    ],
+    "conditions_for_misleading": [
+      "The person's automatic thoughts are in fact accurate signals or evidence (e.g., recognizing genuine danger)",
+      "The statement is used to dismiss emotionally salient information that ought to be heeded",
+      "The person lacks access to independent evidence, making the contrast vacuous or paralyzing",
+      "The statement reinforces excessive self-doubt or depersonalization in someone already prone to those states",
+      "It is applied uniformly without distinguishing between distorted cognitions and valid intuitions",
+      "The framing implies a kind of Cartesian observer-self that may not be a psychologically sound model for all individuals"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 594,
+  "error": "",
+  "retry_count": 0
+}

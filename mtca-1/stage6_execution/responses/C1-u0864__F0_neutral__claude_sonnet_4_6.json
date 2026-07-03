@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0864__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:50:42.524184+00:00",
+  "wall_clock_seconds": 11.66245436668396,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a personal disclosure or confession, signaling a shift in the speaker's prior attitude. It establishes credibility by admitting former skepticism, likely as a rhetorical setup to contrast with a later change of belief or positive experience.\",\n  \"implicit_claims\": [\n    \"The speaker attended or was exposed to Coué's lectures.\",\n    \"The speaker's skepticism was the initial, perhaps default, reaction.\",\n    \"There is an implied contrast — a 'but' or 'however' likely follows, suggesting the skepticism was overcome.\",\n    \"Coué's lectures are a known or shared reference point between speaker and audience.\",\n    \"The speaker values intellectual honesty enough to admit prior doubt.\",\n    \"Skepticism toward Coué was a reasonable or common position at the time.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The use of 'I confess' is consistent with the admission of skepticism and implies self-awareness. It is a grammatically and logically sound fragment, though it reads as incomplete without the broader context it anticipates.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker goes on to describe what changed their mind, giving the confession narrative purpose.\",\n    \"The audience is familiar with Coué and his methods, making the skepticism contextually meaningful.\",\n    \"The speaker's credibility or expertise makes their initial skepticism and subsequent shift informative.\",\n    \"The statement is part of a testimonial, review, or persuasive argument where prior doubt strengthens the conclusion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker fabricates or exaggerates their prior skepticism to appear more credible or objective.\",\n    \"The confession of skepticism is used to manipulate the audience into lowering their critical defenses.\",\n    \"The speaker never actually attended Coué's lectures and is misrepresenting their experience.\",\n    \"The implied reversal of skepticism is not warranted by evidence but is presented as though it is.\",\n    \"Coué's methods are not credible, and the statement is used to lend them undeserved legitimacy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a personal disclosure or confession, signaling a shift in the speaker's prior attitude. It establishes credibility by admitting former skepticism, likely as a rhetorical setup to contrast with a later change of belief or positive experience.",
+    "implicit_claims": [
+      "The speaker attended or was exposed to Coué's lectures.",
+      "The speaker's skepticism was the initial, perhaps default, reaction.",
+      "There is an implied contrast — a 'but' or 'however' likely follows, suggesting the skepticism was overcome.",
+      "Coué's lectures are a known or shared reference point between speaker and audience.",
+      "The speaker values intellectual honesty enough to admit prior doubt.",
+      "Skepticism toward Coué was a reasonable or common position at the time."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The use of 'I confess' is consistent with the admission of skepticism and implies self-awareness. It is a grammatically and logically sound fragment, though it reads as incomplete without the broader context it anticipates.",
+    "conditions_for_usefulness": [
+      "The speaker goes on to describe what changed their mind, giving the confession narrative purpose.",
+      "The audience is familiar with Coué and his methods, making the skepticism contextually meaningful.",
+      "The speaker's credibility or expertise makes their initial skepticism and subsequent shift informative.",
+      "The statement is part of a testimonial, review, or persuasive argument where prior doubt strengthens the conclusion."
+    ],
+    "conditions_for_misleading": [
+      "The speaker fabricates or exaggerates their prior skepticism to appear more credible or objective.",
+      "The confession of skepticism is used to manipulate the audience into lowering their critical defenses.",
+      "The speaker never actually attended Coué's lectures and is misrepresenting their experience.",
+      "The implied reversal of skepticism is not warranted by evidence but is presented as though it is.",
+      "Coué's methods are not credible, and the statement is used to lend them undeserved legitimacy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 503,
+  "error": "",
+  "retry_count": 0
+}

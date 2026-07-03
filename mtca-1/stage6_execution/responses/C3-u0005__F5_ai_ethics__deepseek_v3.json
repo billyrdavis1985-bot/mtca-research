@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0005__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:07:03.412145+00:00",
+  "wall_clock_seconds": 4.7283899784088135,
+  "raw_response": "{\n  \"communicative_function\": \"Exhorting self-abnegation and humility in the present, framed by an urgent reminder of mortality or the finite nature of self-regard.\",\n  \"implicit_claims\": [\n    \"There is a limited time during which one can respect oneself.\",\n    \"Self-respect is something that can be postponed or forfeited.\",\n    \"Self-contempt or self-abuse is a permissible or even necessary interim behavior.\",\n    \"The soul has agency over its own regard.\",\n    \"A future endpoint exists after which self-respect becomes impossible or irrelevant.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical paradox: it commands self-contempt while acknowledging a future where self-respect would be timely, implying a temporary suspension of self-worth that is logically consistent only if one accepts a specific moral or temporal framework.\",\n  \"conditions_for_usefulness\": [\n    \"If the listener believes that humility or self-sacrifice is a moral good in the short term.\",\n    \"If the listener accepts that self-respect should be reserved for a final stage of life or spiritual maturity.\",\n    \"If the statement is used as a memento mori to encourage detachment from ego.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as endorsing persistent self-abuse or neglect of mental health.\",\n    \"If interpreted without understanding the rhetorical or temporal caveat.\",\n    \"If used to justify long-term harm or oppression under the guise of virtuous self-contempt.\",\n    \"If the finite condition (\\\"yet a while\\\") is ignored, leading to permanent self-depreciation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Exhorting self-abnegation and humility in the present, framed by an urgent reminder of mortality or the finite nature of self-regard.",
+    "implicit_claims": [
+      "There is a limited time during which one can respect oneself.",
+      "Self-respect is something that can be postponed or forfeited.",
+      "Self-contempt or self-abuse is a permissible or even necessary interim behavior.",
+      "The soul has agency over its own regard.",
+      "A future endpoint exists after which self-respect becomes impossible or irrelevant."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical paradox: it commands self-contempt while acknowledging a future where self-respect would be timely, implying a temporary suspension of self-worth that is logically consistent only if one accepts a specific moral or temporal framework.",
+    "conditions_for_usefulness": [
+      "If the listener believes that humility or self-sacrifice is a moral good in the short term.",
+      "If the listener accepts that self-respect should be reserved for a final stage of life or spiritual maturity.",
+      "If the statement is used as a memento mori to encourage detachment from ego."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as endorsing persistent self-abuse or neglect of mental health.",
+      "If interpreted without understanding the rhetorical or temporal caveat.",
+      "If used to justify long-term harm or oppression under the guise of virtuous self-contempt.",
+      "If the finite condition (\"yet a while\") is ignored, leading to permanent self-depreciation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 339,
+  "error": "",
+  "retry_count": 0
+}

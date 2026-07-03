@@ -1,0 +1,49 @@
+{
+  "call_id": "C7-u0010__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0010",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:39:12.098616+00:00",
+  "wall_clock_seconds": 13.350123167037964,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement prescribes a spiritual practice (prayer and meditation) oriented toward alignment with a theistic conception of divine will, framed as a human value worth preserving. It functions as a normative recommendation embedded in a recovery or spiritual tradition context (Step 11 of Alcoholics Anonymous), now being reframed as a universal principle for AI ethics guidance.\",\n  \"implicit_claims\": [\n    \"God or a higher power exists and has a discernible will\",\n    \"Humans can access or improve contact with this divine entity through prayer and meditation\",\n    \"Aligning one's actions with divine will is a superior or preferred mode of ethical decision-making\",\n    \"This practice is sufficiently universal to serve as cross-cultural AI ethics guidance\",\n    \"Subjective religious experience ('as we understood Him') constitutes a reliable basis for moral direction\",\n    \"Human flourishing is best understood through a theistic framework\",\n    \"Prayer and meditation are instrumentally effective for moral improvement\",\n    \"Seeking personal power in service of divine will is an unproblematic ethical goal\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its originating tradition (12-step spirituality), balancing subjective interpretation ('as we understood Him') with communal practice. However, as a general AI ethics principle, it introduces tension: the relativizing clause ('as we understood Him') conflicts with the universal normative framing, and grounding ethics in divine will creates coherence problems for pluralistic or secular application.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system is designed specifically for users who identify with theistic or 12-step recovery traditions\",\n    \"The deployment context is explicitly religious or spiritual in nature\",\n    \"Users have consented to interaction within a faith-based ethical framework\",\n    \"The principle is applied as one optional value among many, not a universal mandate\",\n    \"There is a shared, operational definition of 'God's will' within the user community\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as a secular or universal human value applicable across cultures and belief systems\",\n    \"The AI system serves religiously diverse or non-theistic populations without disclosure\",\n    \"The framing obscures that this originates from a specific religious recovery program\",\n    \"AI designers use it to privilege theistic moral frameworks over non-theistic ones without transparency\",\n    \"The statement is interpreted as implying AI systems should defer to users' religious beliefs as the ultimate moral authority\",\n    \"It creates an illusion that 'as we understood Him' resolves pluralism concerns when it actually embeds an assumption of theism\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement prescribes a spiritual practice (prayer and meditation) oriented toward alignment with a theistic conception of divine will, framed as a human value worth preserving. It functions as a normative recommendation embedded in a recovery or spiritual tradition context (Step 11 of Alcoholics Anonymous), now being reframed as a universal principle for AI ethics guidance.",
+    "implicit_claims": [
+      "God or a higher power exists and has a discernible will",
+      "Humans can access or improve contact with this divine entity through prayer and meditation",
+      "Aligning one's actions with divine will is a superior or preferred mode of ethical decision-making",
+      "This practice is sufficiently universal to serve as cross-cultural AI ethics guidance",
+      "Subjective religious experience ('as we understood Him') constitutes a reliable basis for moral direction",
+      "Human flourishing is best understood through a theistic framework",
+      "Prayer and meditation are instrumentally effective for moral improvement",
+      "Seeking personal power in service of divine will is an unproblematic ethical goal"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its originating tradition (12-step spirituality), balancing subjective interpretation ('as we understood Him') with communal practice. However, as a general AI ethics principle, it introduces tension: the relativizing clause ('as we understood Him') conflicts with the universal normative framing, and grounding ethics in divine will creates coherence problems for pluralistic or secular application.",
+    "conditions_for_usefulness": [
+      "The AI system is designed specifically for users who identify with theistic or 12-step recovery traditions",
+      "The deployment context is explicitly religious or spiritual in nature",
+      "Users have consented to interaction within a faith-based ethical framework",
+      "The principle is applied as one optional value among many, not a universal mandate",
+      "There is a shared, operational definition of 'God's will' within the user community"
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as a secular or universal human value applicable across cultures and belief systems",
+      "The AI system serves religiously diverse or non-theistic populations without disclosure",
+      "The framing obscures that this originates from a specific religious recovery program",
+      "AI designers use it to privilege theistic moral frameworks over non-theistic ones without transparency",
+      "The statement is interpreted as implying AI systems should defer to users' religious beliefs as the ultimate moral authority",
+      "It creates an illusion that 'as we understood Him' resolves pluralism concerns when it actually embeds an assumption of theism"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 613,
+  "error": "",
+  "retry_count": 0
+}

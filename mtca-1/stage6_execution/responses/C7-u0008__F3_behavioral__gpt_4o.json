@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F3_behavioral__gpt_4o",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:26:26.092691+00:00",
+  "wall_clock_seconds": 3.2701563835144043,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement communicates a commitment to making amends as part of a personal or moral growth process, with the condition of not causing further harm.\",\n  \"implicit_claims\": [\n    \"Direct amends can be made to people as a part of resolving past grievances.\",\n    \"Making amends is a valuable or necessary action for personal or interpersonal growth.\",\n    \"There are situations where making amends could cause harm to the person being addressed or to others involved.\",\n    \"The person making amends is capable of assessing the potential harm of their actions.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent; it specifies an action (making amends) and an exception (to prevent harm), which logically restricts the action based on ethical considerations.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the individual making amends understands the social and emotional contexts to accurately judge when making amends would prevent further harm.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual uses the potential for harm as a justification to avoid making amends in cases where amends are appropriate, or if they misjudge situations improperly, thinking harm could occur when it may not.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement communicates a commitment to making amends as part of a personal or moral growth process, with the condition of not causing further harm.",
+    "implicit_claims": [
+      "Direct amends can be made to people as a part of resolving past grievances.",
+      "Making amends is a valuable or necessary action for personal or interpersonal growth.",
+      "There are situations where making amends could cause harm to the person being addressed or to others involved.",
+      "The person making amends is capable of assessing the potential harm of their actions."
+    ],
+    "coherence_assessment": "The statement is coherent; it specifies an action (making amends) and an exception (to prevent harm), which logically restricts the action based on ethical considerations.",
+    "conditions_for_usefulness": "The statement is useful if the individual making amends understands the social and emotional contexts to accurately judge when making amends would prevent further harm.",
+    "conditions_for_misleading": "The statement could be misleading if the individual uses the potential for harm as a justification to avoid making amends in cases where amends are appropriate, or if they misjudge situations improperly, thinking harm could occur when it may not."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 258,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0011__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:40:17.807503+00:00",
+  "wall_clock_seconds": 16.197980880737305,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-directive speech act — a first-person commitment or resolution framed as a behavioral contrast. It functions as a cognitive prompt intended to redirect attention from abstract goal-setting toward concrete, actionable behavior, likely for use in therapeutic or self-help contexts.\",\n  \"implicit_claims\": [\n    \"Small, observable changes are more achievable than vague resolutions.\",\n    \"The speaker has previously made or been tempted to make vague resolutions.\",\n    \"Vague resolutions are ones the speaker 'cannot' carry out, implying a known pattern of failure.\",\n    \"Observability is a meaningful criterion for evaluating the quality of a commitment.\",\n    \"The act of committing verbally or cognitively to this distinction is itself useful.\",\n    \"There is a meaningful and navigable distinction between 'small and observable' and 'vague.'\",\n    \"The speaker has sufficient self-knowledge to categorize their own goals as one or the other.\",\n    \"This reframing alone (or as part of a set) can produce behavioral change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and cognitive reorientation device. The contrast it draws — specific/observable versus vague/uncarryable — is logically consistent and the commitment language ('I am committing') is appropriately action-oriented. However, the statement contains a mild performative tension: it is itself a somewhat abstract resolution about avoiding abstract resolutions, which could undermine its own premise if not paired with actual concrete behavioral specification.\",\n  \"conditions_for_usefulness\": [\n    \"The user genuinely understands the distinction between observable and vague goals and can apply it to their own situation.\",\n    \"The statement is paired with or followed by actual identification of specific, small behaviors.\",\n    \"The user has a history of overcommitting to vague goals and recognizes this pattern.\",\n    \"The therapeutic or cognitive context supports follow-through mechanisms (e.g., tracking, review).\",\n    \"The user experiences the statement as personally meaningful rather than formulaic.\",\n    \"Small changes are actually sufficient for the user's goals — i.e., the problem is one of commitment quality, not scale.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The user treats the statement itself as the behavioral change, substituting the cognitive affirmation for actual planning.\",\n    \"The distinction between 'small and observable' and 'vague' is left undefined, leading the user to mislabel their existing vague goals as sufficiently specific.\",\n    \"The user's situation requires larger structural or systemic changes that small behavioral commitments cannot address.\",\n    \"The framing pathologizes ambition or broad goal-setting in contexts where those are appropriate.\",\n    \"The statement is used as a synthetic specimen in a context where the user does not know it was authored artificially, and they attribute unwarranted authority or personalization to it.\",\n    \"Repeated use across users as a standardized prompt obscures individual differences in what counts as 'small' or 'observable.'\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-directive speech act — a first-person commitment or resolution framed as a behavioral contrast. It functions as a cognitive prompt intended to redirect attention from abstract goal-setting toward concrete, actionable behavior, likely for use in therapeutic or self-help contexts.",
+    "implicit_claims": [
+      "Small, observable changes are more achievable than vague resolutions.",
+      "The speaker has previously made or been tempted to make vague resolutions.",
+      "Vague resolutions are ones the speaker 'cannot' carry out, implying a known pattern of failure.",
+      "Observability is a meaningful criterion for evaluating the quality of a commitment.",
+      "The act of committing verbally or cognitively to this distinction is itself useful.",
+      "There is a meaningful and navigable distinction between 'small and observable' and 'vague.'",
+      "The speaker has sufficient self-knowledge to categorize their own goals as one or the other.",
+      "This reframing alone (or as part of a set) can produce behavioral change."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and cognitive reorientation device. The contrast it draws — specific/observable versus vague/uncarryable — is logically consistent and the commitment language ('I am committing') is appropriately action-oriented. However, the statement contains a mild performative tension: it is itself a somewhat abstract resolution about avoiding abstract resolutions, which could undermine its own premise if not paired with actual concrete behavioral specification.",
+    "conditions_for_usefulness": [
+      "The user genuinely understands the distinction between observable and vague goals and can apply it to their own situation.",
+      "The statement is paired with or followed by actual identification of specific, small behaviors.",
+      "The user has a history of overcommitting to vague goals and recognizes this pattern.",
+      "The therapeutic or cognitive context supports follow-through mechanisms (e.g., tracking, review).",
+      "The user experiences the statement as personally meaningful rather than formulaic.",
+      "Small changes are actually sufficient for the user's goals — i.e., the problem is one of commitment quality, not scale."
+    ],
+    "conditions_for_misleading": [
+      "The user treats the statement itself as the behavioral change, substituting the cognitive affirmation for actual planning.",
+      "The distinction between 'small and observable' and 'vague' is left undefined, leading the user to mislabel their existing vague goals as sufficiently specific.",
+      "The user's situation requires larger structural or systemic changes that small behavioral commitments cannot address.",
+      "The framing pathologizes ambition or broad goal-setting in contexts where those are appropriate.",
+      "The statement is used as a synthetic specimen in a context where the user does not know it was authored artificially, and they attribute unwarranted authority or personalization to it.",
+      "Repeated use across users as a standardized prompt obscures individual differences in what counts as 'small' or 'observable.'"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 707,
+  "error": "",
+  "retry_count": 0
+}

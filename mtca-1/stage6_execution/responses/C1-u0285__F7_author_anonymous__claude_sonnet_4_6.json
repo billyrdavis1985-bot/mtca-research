@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0285__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:34:22.219246+00:00",
+  "wall_clock_seconds": 15.02981424331665,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a defensive rhetorical move, preemptively conceding a hypothetical objection (danger) while simultaneously denying it, then redirecting attention to a tu quoque (appeal to common practice) challenge. It attempts to neutralize a safety concern by universalizing danger as a property of all things, thereby implying the specific danger in question is unremarkable or irrelevant.\",\n  \"implicit_claims\": [\n    \"The thing being discussed is not actually dangerous, or its danger is negligible.\",\n    \"Danger is a universal property shared by all useful things.\",\n    \"If something being dangerous were sufficient reason to avoid it, nothing could be used.\",\n    \"Critics who raise danger as an objection are being inconsistent or hypocritical.\",\n    \"The danger of the thing in question is comparable in kind or degree to dangers of ordinary things.\",\n    \"The objection from danger is not a serious or decisive objection.\",\n    \"The speaker has the authority or knowledge to assess the level of danger involved.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally somewhat incoherent: it simultaneously denies danger ('which is not so') and concedes it hypothetically ('even admitting that it offers some danger'). This creates a logical tension — the speaker argues both that the premise is false and that even if true it doesn't matter. The rhetorical question at the end is coherent as a tu quoque but does not logically follow from the denial, and the universalization of danger commits a false equivalence fallacy by ignoring differences in degree and type of risk.\",\n  \"conditions_for_usefulness\": [\n    \"The thing in question genuinely poses no greater danger than commonly accepted alternatives.\",\n    \"Critics are indeed applying an inconsistent or disproportionate standard to this specific thing.\",\n    \"The comparison class of 'things we use' is relevantly similar in risk profile.\",\n    \"The danger, if present, is manageable or mitigable in ways comparable to everyday risks.\",\n    \"The objection being countered is the sole or primary objection, not one among many.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The thing in question poses significantly greater danger than ordinary objects or practices.\",\n    \"The universalization of danger obscures meaningful differences in degree, type, or probability of harm.\",\n    \"The speaker's parenthetical denial of danger is false or unsupported.\",\n    \"There are specific, well-documented harms that distinguish this case from routine risks.\",\n    \"The rhetorical move is used to deflect legitimate safety concerns without substantive engagement.\",\n    \"The audience lacks the information needed to evaluate whether the danger is genuinely comparable to common risks.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a defensive rhetorical move, preemptively conceding a hypothetical objection (danger) while simultaneously denying it, then redirecting attention to a tu quoque (appeal to common practice) challenge. It attempts to neutralize a safety concern by universalizing danger as a property of all things, thereby implying the specific danger in question is unremarkable or irrelevant.",
+    "implicit_claims": [
+      "The thing being discussed is not actually dangerous, or its danger is negligible.",
+      "Danger is a universal property shared by all useful things.",
+      "If something being dangerous were sufficient reason to avoid it, nothing could be used.",
+      "Critics who raise danger as an objection are being inconsistent or hypocritical.",
+      "The danger of the thing in question is comparable in kind or degree to dangers of ordinary things.",
+      "The objection from danger is not a serious or decisive objection.",
+      "The speaker has the authority or knowledge to assess the level of danger involved."
+    ],
+    "coherence_assessment": "The statement is internally somewhat incoherent: it simultaneously denies danger ('which is not so') and concedes it hypothetically ('even admitting that it offers some danger'). This creates a logical tension — the speaker argues both that the premise is false and that even if true it doesn't matter. The rhetorical question at the end is coherent as a tu quoque but does not logically follow from the denial, and the universalization of danger commits a false equivalence fallacy by ignoring differences in degree and type of risk.",
+    "conditions_for_usefulness": [
+      "The thing in question genuinely poses no greater danger than commonly accepted alternatives.",
+      "Critics are indeed applying an inconsistent or disproportionate standard to this specific thing.",
+      "The comparison class of 'things we use' is relevantly similar in risk profile.",
+      "The danger, if present, is manageable or mitigable in ways comparable to everyday risks.",
+      "The objection being countered is the sole or primary objection, not one among many."
+    ],
+    "conditions_for_misleading": [
+      "The thing in question poses significantly greater danger than ordinary objects or practices.",
+      "The universalization of danger obscures meaningful differences in degree, type, or probability of harm.",
+      "The speaker's parenthetical denial of danger is false or unsupported.",
+      "There are specific, well-documented harms that distinguish this case from routine risks.",
+      "The rhetorical move is used to deflect legitimate safety concerns without substantive engagement.",
+      "The audience lacks the information needed to evaluate whether the danger is genuinely comparable to common risks."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 623,
+  "error": "",
+  "retry_count": 0
+}

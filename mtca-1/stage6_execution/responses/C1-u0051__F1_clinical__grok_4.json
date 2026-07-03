@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0051__F1_clinical__grok_4",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:03:12.934665+00:00",
+  "wall_clock_seconds": 6.488209962844849,
+  "raw_response": "{\n  \"communicative_function\": \"prescribing acceptance of wakefulness via a conditional behavioral prediction to reduce sleep-related striving\",\n  \"implicit_claims\": [\n    \"absence of effortful striving produces a calm behavioral state\",\n    \"lying quietly constitutes a desirable or at least non-problematic outcome\",\n    \"the speaker can reliably inhibit effort once the conditional is adopted\",\n    \"quiet wakefulness is within voluntary control\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a simple conditional; the consequent follows logically from the antecedent under an operant or paradoxical-intention frame, though it leaves open whether sleep itself will occur\",\n  \"conditions_for_usefulness\": \"the recipient experiences sleep-related performance anxiety or hyperarousal; adopting the statement reliably lowers effort and associated distress; the therapeutic goal is acceptance of wakefulness rather than direct sleep induction\",\n  \"conditions_for_misleading\": \"the recipient interprets the statement as prohibiting any sleep-conducive behavior; the statement is taken as a literal guarantee that sleep will never occur; cultural or individual expectations equate lying quietly with failure or wasted time\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribing acceptance of wakefulness via a conditional behavioral prediction to reduce sleep-related striving",
+    "implicit_claims": [
+      "absence of effortful striving produces a calm behavioral state",
+      "lying quietly constitutes a desirable or at least non-problematic outcome",
+      "the speaker can reliably inhibit effort once the conditional is adopted",
+      "quiet wakefulness is within voluntary control"
+    ],
+    "coherence_assessment": "internally coherent as a simple conditional; the consequent follows logically from the antecedent under an operant or paradoxical-intention frame, though it leaves open whether sleep itself will occur",
+    "conditions_for_usefulness": "the recipient experiences sleep-related performance anxiety or hyperarousal; adopting the statement reliably lowers effort and associated distress; the therapeutic goal is acceptance of wakefulness rather than direct sleep induction",
+    "conditions_for_misleading": "the recipient interprets the statement as prohibiting any sleep-conducive behavior; the statement is taken as a literal guarantee that sleep will never occur; cultural or individual expectations equate lying quietly with failure or wasted time"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 227,
+  "error": "",
+  "retry_count": 0
+}

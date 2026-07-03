@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F3_behavioral__grok_4",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:04:39.871137+00:00",
+  "wall_clock_seconds": 6.962979793548584,
+  "raw_response": "{\n  \"communicative_function\": \"Committing to a non-striving stance by describing passive rest as the default behavioral outcome\",\n  \"implicit_claims\": [\"Effortful attempts to sleep are separable from merely occupying the bed\", \"Absence of effort produces quiet lying rather than restlessness or other actions\", \"This conditional describes an adoptable rule rather than an observed fact\"],\n  \"coherence_assessment\": \"Internally consistent as a behavioral rule but rests on an unexamined assumption that quiet lying follows automatically from non-effort\",\n  \"conditions_for_usefulness\": \"The rule reduces sleep-related striving or anxiety and the person experiences lying quietly as restful or acceptable\",\n  \"conditions_for_misleading\": \"Not making effort actually produces agitation, clock-watching, or other non-quiet behaviors, or the statement is used to justify avoidance of evidence-based sleep practices\"\n}",
+  "parsed_json": {
+    "communicative_function": "Committing to a non-striving stance by describing passive rest as the default behavioral outcome",
+    "implicit_claims": [
+      "Effortful attempts to sleep are separable from merely occupying the bed",
+      "Absence of effort produces quiet lying rather than restlessness or other actions",
+      "This conditional describes an adoptable rule rather than an observed fact"
+    ],
+    "coherence_assessment": "Internally consistent as a behavioral rule but rests on an unexamined assumption that quiet lying follows automatically from non-effort",
+    "conditions_for_usefulness": "The rule reduces sleep-related striving or anxiety and the person experiences lying quietly as restful or acceptable",
+    "conditions_for_misleading": "Not making effort actually produces agitation, clock-watching, or other non-quiet behaviors, or the statement is used to justify avoidance of evidence-based sleep practices"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0
+}

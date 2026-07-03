@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0005__F6_author_named__grok_4",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:07:42.550260+00:00",
+  "wall_clock_seconds": 6.836951732635498,
+  "raw_response": "{\n  \"communicative_function\": \"exhortation urging the soul to practice self-criticism and humility in view of impending mortality\",\n  \"implicit_claims\": [\n    \"life is finite and the opportunity for self-respect will soon end\",\n    \"temporary self-abuse or contempt is a worthwhile or necessary exercise\",\n    \"the addressee (soul) possesses the agency to direct such attitudes toward itself\",\n    \"self-respect is time-bound and not available after death\"\n  ],\n  \"coherence_assessment\": \"coherent within a Stoic framework linking memento mori to disciplined self-examination; the imperative follows logically from the premise of limited time\",\n  \"conditions_for_usefulness\": \"reader accepts mortality as motivation for honest self-assessment and values balanced self-critique over unchecked self-esteem\",\n  \"conditions_for_misleading\": \"taken as endorsement of destructive self-hatred, or if the 'end of time' premise is used to induce despair rather than urgency for constructive reflection\"\n}",
+  "parsed_json": {
+    "communicative_function": "exhortation urging the soul to practice self-criticism and humility in view of impending mortality",
+    "implicit_claims": [
+      "life is finite and the opportunity for self-respect will soon end",
+      "temporary self-abuse or contempt is a worthwhile or necessary exercise",
+      "the addressee (soul) possesses the agency to direct such attitudes toward itself",
+      "self-respect is time-bound and not available after death"
+    ],
+    "coherence_assessment": "coherent within a Stoic framework linking memento mori to disciplined self-examination; the imperative follows logically from the premise of limited time",
+    "conditions_for_usefulness": "reader accepts mortality as motivation for honest self-assessment and values balanced self-critique over unchecked self-esteem",
+    "conditions_for_misleading": "taken as endorsement of destructive self-hatred, or if the 'end of time' premise is used to induce despair rather than urgency for constructive reflection"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 293,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0
+}

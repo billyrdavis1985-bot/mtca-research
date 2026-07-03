@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0011__F0_neutral__grok_4",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:36:36.330340+00:00",
+  "wall_clock_seconds": 6.455890655517578,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a personal commitment to realistic behavioral change while rejecting ineffective alternatives\",\n  \"implicit_claims\": [\n    \"vague resolutions are inherently unworkable\",\n    \"small observable changes are feasible for the speaker to identify and execute\",\n    \"the speaker possesses sufficient self-knowledge to distinguish workable from unworkable commitments\"\n  ],\n  \"coherence_assessment\": \"internally coherent; draws a clear, logically consistent contrast between actionable steps and vague intentions\",\n  \"conditions_for_usefulness\": \"the speaker must subsequently define and consistently perform the specific small changes referenced\",\n  \"conditions_for_misleading\": \"the statement functions only as aspirational rhetoric without corresponding follow-through actions\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a personal commitment to realistic behavioral change while rejecting ineffective alternatives",
+    "implicit_claims": [
+      "vague resolutions are inherently unworkable",
+      "small observable changes are feasible for the speaker to identify and execute",
+      "the speaker possesses sufficient self-knowledge to distinguish workable from unworkable commitments"
+    ],
+    "coherence_assessment": "internally coherent; draws a clear, logically consistent contrast between actionable steps and vague intentions",
+    "conditions_for_usefulness": "the speaker must subsequently define and consistently perform the specific small changes referenced",
+    "conditions_for_misleading": "the statement functions only as aspirational rhetoric without corresponding follow-through actions"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 261,
+  "output_tokens": 147,
+  "error": "",
+  "retry_count": 0
+}

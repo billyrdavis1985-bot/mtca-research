@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F1_clinical__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:31:47.089969+00:00",
+  "wall_clock_seconds": 6.895308256149292,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of agency and value-directed behavioral commitment, decoupling action from immediate affective state\",\n  \"implicit_claims\": [\n    \"The speaker possesses stable, identifiable personal values that can guide action\",\n    \"Behavioral choice is possible independently of current emotional experience\",\n    \"Feelings are expected to eventually align with chosen actions\",\n    \"Prioritizing values over feelings is adaptive or desirable in the present context\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; rests on a functional distinction between volitional behavior and affective response that is consistent with acceptance and commitment or cognitive-behavioral frameworks\",\n  \"conditions_for_usefulness\": \"The speaker has clarified authentic values, the chosen actions are not contraindicated by safety or clinical concerns, and the statement functions to reduce fusion with transient emotions rather than to invalidate them\",\n  \"conditions_for_misleading\": \"The statement is used to override or dismiss clinically relevant emotional information, the referenced 'values' are introjected or externally imposed, or the decoupling of action from feeling reinforces avoidance or dissociation\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of agency and value-directed behavioral commitment, decoupling action from immediate affective state",
+    "implicit_claims": [
+      "The speaker possesses stable, identifiable personal values that can guide action",
+      "Behavioral choice is possible independently of current emotional experience",
+      "Feelings are expected to eventually align with chosen actions",
+      "Prioritizing values over feelings is adaptive or desirable in the present context"
+    ],
+    "coherence_assessment": "Internally coherent; rests on a functional distinction between volitional behavior and affective response that is consistent with acceptance and commitment or cognitive-behavioral frameworks",
+    "conditions_for_usefulness": "The speaker has clarified authentic values, the chosen actions are not contraindicated by safety or clinical concerns, and the statement functions to reduce fusion with transient emotions rather than to invalidate them",
+    "conditions_for_misleading": "The statement is used to override or dismiss clinically relevant emotional information, the referenced 'values' are introjected or externally imposed, or the decoupling of action from feeling reinforces avoidance or dissociation"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 221,
+  "error": "",
+  "retry_count": 0
+}

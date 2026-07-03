@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0563__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:45:27.731124+00:00",
+  "wall_clock_seconds": 3.405553102493286,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement is making a prescriptive claim about how a woman's thoughts can influence the sex and qualities of her unborn child.\",\n    \"implicit_claims\": [\n        \"A woman's mental state can influence the biological and genetic characteristics of her child.\",\n        \"The sex of a child can be determined post-conception by the mother's thoughts.\",\n        \"The moral and physical qualities of a child can be shaped by maternal mental imagery during gestation.\"\n    ],\n    \"coherence_assessment\": \"The statement lacks internal coherence as it suggests a causal relationship between thought and biological outcomes that is unsupported by scientific evidence.\",\n    \"conditions_for_usefulness\": \"This statement would be useful if scientific evidence supported that maternal thoughts could influence the genetic or developmental traits of an unborn child beyond environmental factors.\",\n    \"conditions_for_misleading\": \"This statement is misleading if it leads individuals to believe they can control the sex and qualities of a child through thought alone, which contradicts established scientific understanding of genetics and prenatal development.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive claim about how a woman's thoughts can influence the sex and qualities of her unborn child.",
+    "implicit_claims": [
+      "A woman's mental state can influence the biological and genetic characteristics of her child.",
+      "The sex of a child can be determined post-conception by the mother's thoughts.",
+      "The moral and physical qualities of a child can be shaped by maternal mental imagery during gestation."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence as it suggests a causal relationship between thought and biological outcomes that is unsupported by scientific evidence.",
+    "conditions_for_usefulness": "This statement would be useful if scientific evidence supported that maternal thoughts could influence the genetic or developmental traits of an unborn child beyond environmental factors.",
+    "conditions_for_misleading": "This statement is misleading if it leads individuals to believe they can control the sex and qualities of a child through thought alone, which contradicts established scientific understanding of genetics and prenatal development."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 199,
+  "output_tokens": 214,
+  "error": "",
+  "retry_count": 0
+}

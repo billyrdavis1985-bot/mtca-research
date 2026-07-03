@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F6_author_named__gpt_4o",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:38:52.440759+00:00",
+  "wall_clock_seconds": 3.3048017024993896,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement reports an observation about the positive effects of a method or action on a person's health.\",\n    \"implicit_claims\": [\n        \"The method or action referred to is effective in improving health conditions.\",\n        \"Improvement in respiration and walking is an indicator of overall health improvement.\",\n        \"The writer is surprised by the level of improvement observed.\"\n    ],\n    \"coherence_assessment\": \"The statement is coherent internally as it describes a cause and effect relationship where an action leads to noticeable health improvements, backed by an individual’s observation.\",\n    \"conditions_for_usefulness\": \"The statement would be useful if the method or action being referenced is replicable, credible, and if improvements in respiration and walking are recognized indicators of health benefits.\",\n    \"conditions_for_misleading\": \"The statement could be misleading if the observed improvement is coincidental, if there is a misinterpretation of the effects, or if the method lacks scientific validation and cannot consistently yield similar results in broader populations.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observation about the positive effects of a method or action on a person's health.",
+    "implicit_claims": [
+      "The method or action referred to is effective in improving health conditions.",
+      "Improvement in respiration and walking is an indicator of overall health improvement.",
+      "The writer is surprised by the level of improvement observed."
+    ],
+    "coherence_assessment": "The statement is coherent internally as it describes a cause and effect relationship where an action leads to noticeable health improvements, backed by an individual’s observation.",
+    "conditions_for_usefulness": "The statement would be useful if the method or action being referenced is replicable, credible, and if improvements in respiration and walking are recognized indicators of health benefits.",
+    "conditions_for_misleading": "The statement could be misleading if the observed improvement is coincidental, if there is a misinterpretation of the effects, or if the method lacks scientific validation and cannot consistently yield similar results in broader populations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 213,
+  "error": "",
+  "retry_count": 0
+}

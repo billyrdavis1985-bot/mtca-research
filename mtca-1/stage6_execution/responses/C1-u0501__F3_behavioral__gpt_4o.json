@@ -1,0 +1,37 @@
+{
+  "call_id": "C1-u0501__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:42:05.842989+00:00",
+  "wall_clock_seconds": 3.314164400100708,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement reports an observation regarding the physical condition and assistance used by a child at a specific time.\",\n  \"implicit_claims\": [\n    \"The child has a condition affecting his feet or mobility.\",\n    \"The child has been provided with devices to aid in walking.\",\n    \"The child's walking ability is improved due to the use of these contrivances.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It establishes a timeline, describes the child's condition, and attributes an improvement in walking ability to a specific intervention.\",\n  \"conditions_for_usefulness\": [\n    \"If there is a need to document the child's medical history or treatment progress.\",\n    \"If the statement is used within a narrative that addresses mobility assistance or medical interventions in 1915.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If additional context is needed to understand the nature of the child's condition or the effectiveness of the interventions.\",\n    \"If the expectation is set that the child can walk entirely unaided without acknowledging the ongoing need for assistive devices.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observation regarding the physical condition and assistance used by a child at a specific time.",
+    "implicit_claims": [
+      "The child has a condition affecting his feet or mobility.",
+      "The child has been provided with devices to aid in walking.",
+      "The child's walking ability is improved due to the use of these contrivances."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It establishes a timeline, describes the child's condition, and attributes an improvement in walking ability to a specific intervention.",
+    "conditions_for_usefulness": [
+      "If there is a need to document the child's medical history or treatment progress.",
+      "If the statement is used within a narrative that addresses mobility assistance or medical interventions in 1915."
+    ],
+    "conditions_for_misleading": [
+      "If additional context is needed to understand the nature of the child's condition or the effectiveness of the interventions.",
+      "If the expectation is set that the child can walk entirely unaided without acknowledging the ongoing need for assistive devices."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 231,
+  "error": "",
+  "retry_count": 0
+}

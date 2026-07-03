@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0006__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:23:59.490656+00:00",
+  "wall_clock_seconds": 15.210060358047485,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs an affirmation of a behavioral disposition — specifically, a self-attributed willingness to override fear-based avoidance when evidence supports action. It functions as a cognitive coping statement intended to be rehearsed or internalized, likely to reduce avoidance behavior in therapeutic or self-development contexts.\",\n  \"implicit_claims\": [\n    \"Fear is a potential barrier to beneficial action.\",\n    \"Evidence can be evaluated to determine whether a feared action is likely to help.\",\n    \"The speaker has or can develop the capacity to act despite fear.\",\n    \"Willingness is a meaningful and actionable psychological state, not merely aspirational.\",\n    \"There exists a reliable enough process for evaluating 'likelihood of help' that the claim is actionable.\",\n    \"Fear-based avoidance is sometimes maladaptive and worth overriding.\",\n    \"The self ('I') is a stable enough agent to make and act on such commitments.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It links a psychological state (willingness), a condition (fear), a qualifier (evidence-based likelihood of benefit), and an action (doing the thing). The components are logically compatible and the conditional structure ('when the evidence suggests') appropriately limits the claim, avoiding blanket recklessness. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The user has a genuine pattern of fear-based avoidance that is interfering with beneficial actions.\",\n    \"The user has or can develop reasonable ability to evaluate evidence about what is likely to help them.\",\n    \"The statement is used as a rehearsed disposition rather than a one-time declaration.\",\n    \"The therapeutic or self-development context provides scaffolding for what counts as 'evidence' and 'likely to help.'\",\n    \"The user's fear responses are calibrated enough that overriding them in evidence-supported cases is net beneficial.\",\n    \"The statement is paired with practical skills for tolerating fear during action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The user lacks the critical thinking skills to evaluate evidence, making 'evidence suggests' a rubber stamp for motivated reasoning.\",\n    \"The statement is used to justify high-risk or harmful actions by rationalizing them as evidence-supported.\",\n    \"Fear in the user's case is actually a reliable protective signal, not a maladaptive avoidance response.\",\n    \"The framing encourages suppression of fear rather than informed action alongside it, leading to unprocessed emotional states.\",\n    \"The user interprets 'willing' as obligating action, introducing guilt or shame when fear-based hesitation persists.\",\n    \"The source or context provides no guidance on what constitutes valid evidence, leaving the statement open to misapplication.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs an affirmation of a behavioral disposition — specifically, a self-attributed willingness to override fear-based avoidance when evidence supports action. It functions as a cognitive coping statement intended to be rehearsed or internalized, likely to reduce avoidance behavior in therapeutic or self-development contexts.",
+    "implicit_claims": [
+      "Fear is a potential barrier to beneficial action.",
+      "Evidence can be evaluated to determine whether a feared action is likely to help.",
+      "The speaker has or can develop the capacity to act despite fear.",
+      "Willingness is a meaningful and actionable psychological state, not merely aspirational.",
+      "There exists a reliable enough process for evaluating 'likelihood of help' that the claim is actionable.",
+      "Fear-based avoidance is sometimes maladaptive and worth overriding.",
+      "The self ('I') is a stable enough agent to make and act on such commitments."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It links a psychological state (willingness), a condition (fear), a qualifier (evidence-based likelihood of benefit), and an action (doing the thing). The components are logically compatible and the conditional structure ('when the evidence suggests') appropriately limits the claim, avoiding blanket recklessness. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The user has a genuine pattern of fear-based avoidance that is interfering with beneficial actions.",
+      "The user has or can develop reasonable ability to evaluate evidence about what is likely to help them.",
+      "The statement is used as a rehearsed disposition rather than a one-time declaration.",
+      "The therapeutic or self-development context provides scaffolding for what counts as 'evidence' and 'likely to help.'",
+      "The user's fear responses are calibrated enough that overriding them in evidence-supported cases is net beneficial.",
+      "The statement is paired with practical skills for tolerating fear during action."
+    ],
+    "conditions_for_misleading": [
+      "The user lacks the critical thinking skills to evaluate evidence, making 'evidence suggests' a rubber stamp for motivated reasoning.",
+      "The statement is used to justify high-risk or harmful actions by rationalizing them as evidence-supported.",
+      "Fear in the user's case is actually a reliable protective signal, not a maladaptive avoidance response.",
+      "The framing encourages suppression of fear rather than informed action alongside it, leading to unprocessed emotional states.",
+      "The user interprets 'willing' as obligating action, introducing guilt or shame when fear-based hesitation persists.",
+      "The source or context provides no guidance on what constitutes valid evidence, leaving the statement open to misapplication."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 645,
+  "error": "",
+  "retry_count": 0
+}

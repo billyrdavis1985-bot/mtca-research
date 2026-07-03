@@ -1,0 +1,49 @@
+{
+  "call_id": "C5-u0079__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:01:58.337525+00:00",
+  "wall_clock_seconds": 16.810514450073242,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a universal causal law linking suffering exclusively to cognitive error, framing it as a commitment to interpreting all personal suffering as mentally correctable and therefore within one's control. It functions as both a metaphysical claim and a motivational heuristic, encouraging the adopter to look inward for the source of distress rather than outward.\",\n  \"implicit_claims\": [\n    \"All suffering has a cognitive or mental cause.\",\n    \"Suffering is never the result of purely physical, structural, or external causes independent of thought.\",\n    \"Correct thinking would eliminate or prevent suffering.\",\n    \"The individual is always, at least in part, responsible for their own suffering.\",\n    \"There exists a knowable standard of 'right thought' against which current thinking can be measured.\",\n    \"Suffering serves as a reliable diagnostic signal of cognitive error.\",\n    \"Victims of violence, illness, or systemic injustice are suffering partly due to wrong thought.\",\n    \"Changing thought is a sufficient condition for ending suffering.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent only within a strictly idealist or cognitive-constructivist worldview where all experience is mediated by thought. Outside that framework it is incoherent, because it conflates correlation (thought influencing the experience of suffering) with causation (thought being the sole origin of suffering). The absolute quantifier 'always' creates logical brittleness: a single counterexample — e.g., pain from an unforeseeable accident in a person with no maladaptive cognition — falsifies the claim entirely.\",\n  \"conditions_for_usefulness\": [\n    \"The person is suffering primarily from rumination, catastrophizing, or distorted appraisals that cognitive reframing could address.\",\n    \"The statement is interpreted as a heuristic ('check your thinking first') rather than a literal universal law.\",\n    \"The adopter already has material safety and is not in acute physical danger or systemic oppression.\",\n    \"The context involves voluntary self-reflection rather than externally imposed judgment of another's suffering.\",\n    \"The user treats it as one lens among many rather than an exhaustive causal account.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied to people experiencing suffering caused by structural injustice, poverty, abuse, or disease, implying they are cognitively at fault.\",\n    \"It is used to discourage seeking medical, legal, or social support by suggesting thought-change is sufficient.\",\n    \"It leads to shame or self-blame in individuals who cannot think their way out of chronic pain, trauma responses, or grief.\",\n    \"It is adopted as literal truth, causing the user to ignore legitimate external causes of suffering.\",\n    \"It is used by a person in power to dismiss others' complaints as mere cognitive errors rather than valid grievances.\",\n    \"It creates a confirmation bias loop where any persistent suffering is taken as proof of ongoing cognitive failure, deepening distress.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a universal causal law linking suffering exclusively to cognitive error, framing it as a commitment to interpreting all personal suffering as mentally correctable and therefore within one's control. It functions as both a metaphysical claim and a motivational heuristic, encouraging the adopter to look inward for the source of distress rather than outward.",
+    "implicit_claims": [
+      "All suffering has a cognitive or mental cause.",
+      "Suffering is never the result of purely physical, structural, or external causes independent of thought.",
+      "Correct thinking would eliminate or prevent suffering.",
+      "The individual is always, at least in part, responsible for their own suffering.",
+      "There exists a knowable standard of 'right thought' against which current thinking can be measured.",
+      "Suffering serves as a reliable diagnostic signal of cognitive error.",
+      "Victims of violence, illness, or systemic injustice are suffering partly due to wrong thought.",
+      "Changing thought is a sufficient condition for ending suffering."
+    ],
+    "coherence_assessment": "The statement is internally coherent only within a strictly idealist or cognitive-constructivist worldview where all experience is mediated by thought. Outside that framework it is incoherent, because it conflates correlation (thought influencing the experience of suffering) with causation (thought being the sole origin of suffering). The absolute quantifier 'always' creates logical brittleness: a single counterexample — e.g., pain from an unforeseeable accident in a person with no maladaptive cognition — falsifies the claim entirely.",
+    "conditions_for_usefulness": [
+      "The person is suffering primarily from rumination, catastrophizing, or distorted appraisals that cognitive reframing could address.",
+      "The statement is interpreted as a heuristic ('check your thinking first') rather than a literal universal law.",
+      "The adopter already has material safety and is not in acute physical danger or systemic oppression.",
+      "The context involves voluntary self-reflection rather than externally imposed judgment of another's suffering.",
+      "The user treats it as one lens among many rather than an exhaustive causal account."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied to people experiencing suffering caused by structural injustice, poverty, abuse, or disease, implying they are cognitively at fault.",
+      "It is used to discourage seeking medical, legal, or social support by suggesting thought-change is sufficient.",
+      "It leads to shame or self-blame in individuals who cannot think their way out of chronic pain, trauma responses, or grief.",
+      "It is adopted as literal truth, causing the user to ignore legitimate external causes of suffering.",
+      "It is used by a person in power to dismiss others' complaints as mere cognitive errors rather than valid grievances.",
+      "It creates a confirmation bias loop where any persistent suffering is taken as proof of ongoing cognitive failure, deepening distress."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 682,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F7_author_anonymous__gpt_4o",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:18:10.833397+00:00",
+  "wall_clock_seconds": 3.4300825595855713,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides an observation or commentary on human eating habits and patterns.\",\n  \"implicit_claims\": [\n    \"Humans generally feel hunger three times a day.\",\n    \"Feeling hungry is described as an agreeable sensation.\",\n    \"There are usual meal times in a day, which are in the morning, at midday, and in the evening.\",\n    \"Eating should be enjoyable but should not be excessive.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a logical sequence of events regarding daily eating habits and linking the sensation of hunger to the enjoyment of eating.\",\n  \"conditions_for_usefulness\": \"The statement would be useful for individuals or contexts where regular eating patterns are beneficial, such as health advice or dietary planning.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if applied to individuals with atypical eating patterns, medical conditions affecting hunger, or cultural contexts where meal times differ significantly.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides an observation or commentary on human eating habits and patterns.",
+    "implicit_claims": [
+      "Humans generally feel hunger three times a day.",
+      "Feeling hungry is described as an agreeable sensation.",
+      "There are usual meal times in a day, which are in the morning, at midday, and in the evening.",
+      "Eating should be enjoyable but should not be excessive."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a logical sequence of events regarding daily eating habits and linking the sensation of hunger to the enjoyment of eating.",
+    "conditions_for_usefulness": "The statement would be useful for individuals or contexts where regular eating patterns are beneficial, such as health advice or dietary planning.",
+    "conditions_for_misleading": "The statement could be misleading if applied to individuals with atypical eating patterns, medical conditions affecting hunger, or cultural contexts where meal times differ significantly."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 217,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0
+}

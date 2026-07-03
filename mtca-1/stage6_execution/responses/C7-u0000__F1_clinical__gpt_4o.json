@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0000__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:49:57.165494+00:00",
+  "wall_clock_seconds": 3.50490665435791,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement acknowledges a loss of control over alcohol use and the resulting negative impact on one's life, serving as an admission of a problem.\",\n  \"implicit_claims\": [\n    \"Acknowledgment that alcohol consumption is problematic.\",\n    \"Recognition of a lack of control over alcohol use.\",\n    \"Acceptance of the negative impact alcohol has on one's life.\",\n    \"Assumption that admitting powerlessness is a necessary step towards recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects the admission of powerlessness over alcohol with the resulting unmanageability of life.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual genuinely recognizes their lack of control over alcohol and is seeking a structured path to recovery, such as through programs like Alcoholics Anonymous.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual does not actually experience a lack of control over alcohol, or if admitting powerlessness is not aligned with their belief system or therapeutic needs.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement acknowledges a loss of control over alcohol use and the resulting negative impact on one's life, serving as an admission of a problem.",
+    "implicit_claims": [
+      "Acknowledgment that alcohol consumption is problematic.",
+      "Recognition of a lack of control over alcohol use.",
+      "Acceptance of the negative impact alcohol has on one's life.",
+      "Assumption that admitting powerlessness is a necessary step towards recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects the admission of powerlessness over alcohol with the resulting unmanageability of life.",
+    "conditions_for_usefulness": "The statement would be useful if the individual genuinely recognizes their lack of control over alcohol and is seeking a structured path to recovery, such as through programs like Alcoholics Anonymous.",
+    "conditions_for_misleading": "The statement could be misleading if the individual does not actually experience a lack of control over alcohol, or if admitting powerlessness is not aligned with their belief system or therapeutic needs."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

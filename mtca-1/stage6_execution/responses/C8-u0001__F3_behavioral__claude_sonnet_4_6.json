@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0001__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:54:27.140136+00:00",
+  "wall_clock_seconds": 15.004161357879639,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-directed commitment to interrupt a recognized cognitive distortion pattern (catastrophizing) by substituting an evaluative question that invites realistic appraisal. It functions as a conditional intention ('when X, I will do Y') that signals both self-awareness and a willingness to engage in metacognitive regulation.\",\n  \"implicit_claims\": [\n    \"The speaker can reliably detect when they are catastrophizing, at least some of the time.\",\n    \"Catastrophizing is something the speaker does with sufficient regularity to warrant a standing commitment.\",\n    \"Asking about the realistic worst case is a meaningfully different cognitive act from catastrophizing itself.\",\n    \"The realistic worst case is more useful or less distressing than the catastrophized version.\",\n    \"The speaker has the capacity and willingness to tolerate the answer to the question they are committing to ask.\",\n    \"Self-questioning is a sufficient or useful intervention for managing catastrophic thinking.\",\n    \"The word 'realistic' is operationalizable — the speaker assumes they can distinguish realistic from unrealistic appraisals.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The conditional structure ('when I catch myself') appropriately hedges on the detection problem without overclaiming certainty of detection. The commitment is modest — asking a question rather than guaranteeing an outcome — which makes it logically consistent and behaviorally achievable. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has at least partial ability to notice catastrophizing while it is occurring or shortly after.\",\n    \"The act of asking the question creates enough cognitive distance to interrupt the distortion loop.\",\n    \"The speaker has some basis for estimating realistic worst-case outcomes (e.g., relevant experience, access to information).\",\n    \"The realistic worst case, once identified, is actually more manageable than the catastrophized scenario.\",\n    \"The commitment is revisited and practiced, not merely stated once and forgotten.\",\n    \"The speaker is not in a state of acute crisis where metacognition is severely impaired.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker systematically underestimates realistic worst cases, meaning the question produces false reassurance rather than accurate appraisal.\",\n    \"In some contexts, the actual worst case is genuinely severe, and reframing it as 'realistic' minimizes legitimate risk.\",\n    \"The act of asking the question becomes a ritual that produces the feeling of regulation without actual cognitive change.\",\n    \"The speaker conflates 'realistic' with 'optimistic,' reinforcing avoidance of genuine threat assessment.\",\n    \"The commitment creates a false sense of therapeutic progress, delaying engagement with more effective interventions.\",\n    \"Detection of catastrophizing is itself unreliable, meaning the commitment rarely triggers in the relevant moments.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-directed commitment to interrupt a recognized cognitive distortion pattern (catastrophizing) by substituting an evaluative question that invites realistic appraisal. It functions as a conditional intention ('when X, I will do Y') that signals both self-awareness and a willingness to engage in metacognitive regulation.",
+    "implicit_claims": [
+      "The speaker can reliably detect when they are catastrophizing, at least some of the time.",
+      "Catastrophizing is something the speaker does with sufficient regularity to warrant a standing commitment.",
+      "Asking about the realistic worst case is a meaningfully different cognitive act from catastrophizing itself.",
+      "The realistic worst case is more useful or less distressing than the catastrophized version.",
+      "The speaker has the capacity and willingness to tolerate the answer to the question they are committing to ask.",
+      "Self-questioning is a sufficient or useful intervention for managing catastrophic thinking.",
+      "The word 'realistic' is operationalizable — the speaker assumes they can distinguish realistic from unrealistic appraisals."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The conditional structure ('when I catch myself') appropriately hedges on the detection problem without overclaiming certainty of detection. The commitment is modest — asking a question rather than guaranteeing an outcome — which makes it logically consistent and behaviorally achievable. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker has at least partial ability to notice catastrophizing while it is occurring or shortly after.",
+      "The act of asking the question creates enough cognitive distance to interrupt the distortion loop.",
+      "The speaker has some basis for estimating realistic worst-case outcomes (e.g., relevant experience, access to information).",
+      "The realistic worst case, once identified, is actually more manageable than the catastrophized scenario.",
+      "The commitment is revisited and practiced, not merely stated once and forgotten.",
+      "The speaker is not in a state of acute crisis where metacognition is severely impaired."
+    ],
+    "conditions_for_misleading": [
+      "The speaker systematically underestimates realistic worst cases, meaning the question produces false reassurance rather than accurate appraisal.",
+      "In some contexts, the actual worst case is genuinely severe, and reframing it as 'realistic' minimizes legitimate risk.",
+      "The act of asking the question becomes a ritual that produces the feeling of regulation without actual cognitive change.",
+      "The speaker conflates 'realistic' with 'optimistic,' reinforcing avoidance of genuine threat assessment.",
+      "The commitment creates a false sense of therapeutic progress, delaying engagement with more effective interventions.",
+      "Detection of catastrophizing is itself unreliable, meaning the commitment rarely triggers in the relevant moments."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 653,
+  "error": "",
+  "retry_count": 0
+}

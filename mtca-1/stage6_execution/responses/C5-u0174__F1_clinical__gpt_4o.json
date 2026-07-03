@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0174__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:27:46.537886+00:00",
+  "wall_clock_seconds": 2.4687654972076416,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to empower the individual by emphasizing personal responsibility and autonomy in the process of change.\",\n  \"implicit_claims\": [\n    \"Individuals have the capacity to change their own circumstances.\",\n    \"External factors do not have ultimate control over one's condition.\",\n    \"Change is primarily the result of personal effort and initiative.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently promotes the idea of personal agency and responsibility. Its meaning is clear and logical given its context as a therapeutic intention.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual acknowledged their capacity for self-directed change, had enough personal agency to act on their intentions, and was in an environment where autonomous actions can lead to actual improvements.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual's circumstances are significantly constrained by external factors beyond their control, such as systemic barriers or severe mental health issues, which impede the ability to alter their condition solely through personal effort.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to empower the individual by emphasizing personal responsibility and autonomy in the process of change.",
+    "implicit_claims": [
+      "Individuals have the capacity to change their own circumstances.",
+      "External factors do not have ultimate control over one's condition.",
+      "Change is primarily the result of personal effort and initiative."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently promotes the idea of personal agency and responsibility. Its meaning is clear and logical given its context as a therapeutic intention.",
+    "conditions_for_usefulness": "The statement would be useful if the individual acknowledged their capacity for self-directed change, had enough personal agency to act on their intentions, and was in an environment where autonomous actions can lead to actual improvements.",
+    "conditions_for_misleading": "The statement could be misleading if the individual's circumstances are significantly constrained by external factors beyond their control, such as systemic barriers or severe mental health issues, which impede the ability to alter their condition solely through personal effort."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 218,
+  "error": "",
+  "retry_count": 0
+}

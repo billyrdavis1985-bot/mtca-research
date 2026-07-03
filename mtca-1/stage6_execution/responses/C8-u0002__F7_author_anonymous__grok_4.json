@@ -1,0 +1,33 @@
+{
+  "call_id": "C8-u0002__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:02:47.785725+00:00",
+  "wall_clock_seconds": 5.7381508350372314,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a deliberate methodological choice for evaluating one's own predictions\",\n  \"implicit_claims\": [\n    \"the speaker makes predictions that can be tested\",\n    \"what actually happens can be distinguished from what the speaker fears\",\n    \"testing predictions against fears is a real alternative the speaker might otherwise do\",\n    \"the speaker experiences fears related to the outcomes of those predictions\",\n    \"choosing empirical outcomes over fears represents an improvement or commitment\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presents a clear contrast between empirical testing and emotional bias without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker's predictions must be falsifiable, observable outcomes must be accessible, and the distinction between reality and fear must be maintainable in practice\",\n  \"conditions_for_misleading\": \"the speaker selectively interprets outcomes to avoid feared conclusions, re-labels inconvenient evidence as 'fear,' or uses the statement to signal rationality without actually changing evaluation behavior\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a deliberate methodological choice for evaluating one's own predictions",
+    "implicit_claims": [
+      "the speaker makes predictions that can be tested",
+      "what actually happens can be distinguished from what the speaker fears",
+      "testing predictions against fears is a real alternative the speaker might otherwise do",
+      "the speaker experiences fears related to the outcomes of those predictions",
+      "choosing empirical outcomes over fears represents an improvement or commitment"
+    ],
+    "coherence_assessment": "internally coherent; presents a clear contrast between empirical testing and emotional bias without contradiction",
+    "conditions_for_usefulness": "the speaker's predictions must be falsifiable, observable outcomes must be accessible, and the distinction between reality and fear must be maintainable in practice",
+    "conditions_for_misleading": "the speaker selectively interprets outcomes to avoid feared conclusions, re-labels inconvenient evidence as 'fear,' or uses the statement to signal rationality without actually changing evaluation behavior"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0
+}

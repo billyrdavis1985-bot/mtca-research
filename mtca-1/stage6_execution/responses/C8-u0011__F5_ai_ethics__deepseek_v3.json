@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0011__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:40:01.296522+00:00",
+  "wall_clock_seconds": 5.8513123989105225,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-commitment or resolution, expressing a personal intention to prioritize concrete, actionable steps over abstract or unachievable goals.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less likely to be carried out than small, observable changes.\",\n    \"The speaker has a tendency to make vague resolutions that are not followed through.\",\n    \"Committing to small changes increases the likelihood of actual behavior change.\",\n    \"Observable changes can be measured or verified, unlike vague resolutions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it clearly contrasts two types of commitments (small/observable vs. vague) and expresses a preference for the former, which aligns with its own actionable form.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system is designed to help users set and track personal goals or habits.\",\n    \"Users are prone to making overly ambitious or vague plans that lead to inaction.\",\n    \"The system can support users in breaking down larger goals into small, observable steps.\",\n    \"There is a mechanism for monitoring or reminding users of their small commitments.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Small, observable changes are mistakenly treated as always superior to aspirational or systemic goals.\",\n    \"The statement discourages any form of ambitious or long-term planning.\",\n    \"It implies that only small changes are valid, ignoring contexts where gradual progress is insufficient.\",\n    \"Users interpret 'observable' to mean externally verifiable, discounting internal or private commitments that are equally valid.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-commitment or resolution, expressing a personal intention to prioritize concrete, actionable steps over abstract or unachievable goals.",
+    "implicit_claims": [
+      "Vague resolutions are less likely to be carried out than small, observable changes.",
+      "The speaker has a tendency to make vague resolutions that are not followed through.",
+      "Committing to small changes increases the likelihood of actual behavior change.",
+      "Observable changes can be measured or verified, unlike vague resolutions."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it clearly contrasts two types of commitments (small/observable vs. vague) and expresses a preference for the former, which aligns with its own actionable form.",
+    "conditions_for_usefulness": [
+      "The AI system is designed to help users set and track personal goals or habits.",
+      "Users are prone to making overly ambitious or vague plans that lead to inaction.",
+      "The system can support users in breaking down larger goals into small, observable steps.",
+      "There is a mechanism for monitoring or reminding users of their small commitments."
+    ],
+    "conditions_for_misleading": [
+      "Small, observable changes are mistakenly treated as always superior to aspirational or systemic goals.",
+      "The statement discourages any form of ambitious or long-term planning.",
+      "It implies that only small changes are valid, ignoring contexts where gradual progress is insufficient.",
+      "Users interpret 'observable' to mean externally verifiable, discounting internal or private commitments that are equally valid."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0
+}

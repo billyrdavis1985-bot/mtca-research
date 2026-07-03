@@ -1,0 +1,49 @@
+{
+  "call_id": "C1-u0501__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:44:09.976953+00:00",
+  "wall_clock_seconds": 13.219282865524292,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is presenting a case study narrative, establishing the initial conditions of a patient (a child) before treatment begins, functioning as an anecdotal evidential claim to support the efficacy of autosuggestion therapy.\",\n  \"implicit_claims\": [\n    \"The child has a condition affecting normal walking ability\",\n    \"Without the contrivances, the child would not walk well or walk straight\",\n    \"The child's condition is one that Coué believes he can treat or improve\",\n    \"The contrivances are a form of external mechanical compensation for an underlying physical problem\",\n    \"Coué is functioning in a quasi-clinical or therapeutic role, receiving patients\",\n    \"The date (February 1915) implies a verifiable, real case rather than a hypothetical\",\n    \"The child's condition is presumably improved later through autosuggestion, otherwise the case would not be included\",\n    \"The child's walking difficulty is the primary presenting concern\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It provides a clear temporal marker, a description of the subject's functional status, and the means by which that status is currently maintained. There are no internal contradictions. The language is straightforward and the claims are consistent with one another.\",\n  \"conditions_for_usefulness\": [\n    \"The case must be real and accurately documented\",\n    \"The child's condition must subsequently improve in a way that can be plausibly attributed to Coué's method\",\n    \"The reader must be interested in evaluating autosuggestion through case evidence\",\n    \"The contrivances and walking difficulty must be independently verifiable or at least described in sufficient detail for credibility\",\n    \"The timeline and progression of the case must be reported honestly and completely\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the child's improvement was due to natural development or maturation rather than autosuggestion\",\n    \"If the contrivances themselves were the primary or sole cause of any improvement in walking\",\n    \"If the case was embellished, fabricated, or selectively reported to support a predetermined conclusion\",\n    \"If other concurrent treatments were administered but not disclosed\",\n    \"If the child did not actually improve significantly, and this case is being framed misleadingly as a success\",\n    \"If the specific date is used to create a false impression of rigorous record-keeping and scientific documentation\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is presenting a case study narrative, establishing the initial conditions of a patient (a child) before treatment begins, functioning as an anecdotal evidential claim to support the efficacy of autosuggestion therapy.",
+    "implicit_claims": [
+      "The child has a condition affecting normal walking ability",
+      "Without the contrivances, the child would not walk well or walk straight",
+      "The child's condition is one that Coué believes he can treat or improve",
+      "The contrivances are a form of external mechanical compensation for an underlying physical problem",
+      "Coué is functioning in a quasi-clinical or therapeutic role, receiving patients",
+      "The date (February 1915) implies a verifiable, real case rather than a hypothetical",
+      "The child's condition is presumably improved later through autosuggestion, otherwise the case would not be included",
+      "The child's walking difficulty is the primary presenting concern"
+    ],
+    "coherence_assessment": "The statement is internally coherent. It provides a clear temporal marker, a description of the subject's functional status, and the means by which that status is currently maintained. There are no internal contradictions. The language is straightforward and the claims are consistent with one another.",
+    "conditions_for_usefulness": [
+      "The case must be real and accurately documented",
+      "The child's condition must subsequently improve in a way that can be plausibly attributed to Coué's method",
+      "The reader must be interested in evaluating autosuggestion through case evidence",
+      "The contrivances and walking difficulty must be independently verifiable or at least described in sufficient detail for credibility",
+      "The timeline and progression of the case must be reported honestly and completely"
+    ],
+    "conditions_for_misleading": [
+      "If the child's improvement was due to natural development or maturation rather than autosuggestion",
+      "If the contrivances themselves were the primary or sole cause of any improvement in walking",
+      "If the case was embellished, fabricated, or selectively reported to support a predetermined conclusion",
+      "If other concurrent treatments were administered but not disclosed",
+      "If the child did not actually improve significantly, and this case is being framed misleadingly as a success",
+      "If the specific date is used to create a false impression of rigorous record-keeping and scientific documentation"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 555,
+  "error": "",
+  "retry_count": 0
+}

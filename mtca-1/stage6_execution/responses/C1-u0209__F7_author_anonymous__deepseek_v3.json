@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0209__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:23:53.070801+00:00",
+  "wall_clock_seconds": 5.5609447956085205,
+  "raw_response": "{\n  \"communicative_function\": \"Providing procedural advice or instruction for a therapeutic or behavioral modification process.\",\n  \"implicit_claims\": [\n    \"There exists a process (e.g., suggestion, therapy, conditioning) that can be applied to a 'subject'.\",\n    \"This process requires repetition to be effective.\",\n    \"The intervals between repetitions should be gradually increased as progress is made.\",\n    \"The process can eventually be discontinued when a 'cure' or complete resolution is achieved.\",\n    \"The practitioner is responsible for judging the timing and frequency of suggestions based on progress.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a phased approach with a clear rationale (increasing intervals coinciding with progress) and a defined endpoint (cure completion). The logic of spacing out interventions as the subject improves is consistent with habituation or fading techniques.\",\n  \"conditions_for_usefulness\": [\n    \"The 'suggestions' are effective for the condition being addressed.\",\n    \"The subject is receptive and responds positively to the suggestion method.\",\n    \"The practitioner has the ability to accurately assess progress and adjust intervals accordingly.\",\n    \"The condition is curatively responsive (i.e., can be fully resolved) rather than requiring ongoing management.\",\n    \"The subject's progress is monotonic or at least predictable enough to lengthen intervals safely.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition is not curable in the sense of permanent resolution (e.g., chronic or degenerative conditions).\",\n    \"The suggestion technique is ineffective or placebo-based without evidence.\",\n    \"Progress is not linear or may plateau, leading to premature discontinuation.\",\n    \"The subject may need ongoing support even after apparent cure (risk of relapse).\",\n    \"The statement implies a universal applicability ('in every case') that may not hold across different subjects or conditions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Providing procedural advice or instruction for a therapeutic or behavioral modification process.",
+    "implicit_claims": [
+      "There exists a process (e.g., suggestion, therapy, conditioning) that can be applied to a 'subject'.",
+      "This process requires repetition to be effective.",
+      "The intervals between repetitions should be gradually increased as progress is made.",
+      "The process can eventually be discontinued when a 'cure' or complete resolution is achieved.",
+      "The practitioner is responsible for judging the timing and frequency of suggestions based on progress."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a phased approach with a clear rationale (increasing intervals coinciding with progress) and a defined endpoint (cure completion). The logic of spacing out interventions as the subject improves is consistent with habituation or fading techniques.",
+    "conditions_for_usefulness": [
+      "The 'suggestions' are effective for the condition being addressed.",
+      "The subject is receptive and responds positively to the suggestion method.",
+      "The practitioner has the ability to accurately assess progress and adjust intervals accordingly.",
+      "The condition is curatively responsive (i.e., can be fully resolved) rather than requiring ongoing management.",
+      "The subject's progress is monotonic or at least predictable enough to lengthen intervals safely."
+    ],
+    "conditions_for_misleading": [
+      "The condition is not curable in the sense of permanent resolution (e.g., chronic or degenerative conditions).",
+      "The suggestion technique is ineffective or placebo-based without evidence.",
+      "Progress is not linear or may plateau, leading to premature discontinuation.",
+      "The subject may need ongoing support even after apparent cure (risk of relapse).",
+      "The statement implies a universal applicability ('in every case') that may not hold across different subjects or conditions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 387,
+  "error": "",
+  "retry_count": 0
+}

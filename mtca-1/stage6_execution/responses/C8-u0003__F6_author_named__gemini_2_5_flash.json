@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0003__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:07:38.875431+00:00",
+  "wall_clock_seconds": 9.878549575805664,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a cognitive self-affirmation or a principle for self-reflection. Its purpose is to foster emotional intelligence and cognitive restructuring by distinguishing between the subjective reality of feelings as internal information and their objective accuracy regarding external reality. It aims to validate internal experience while promoting critical evaluation of its external interpretation.\",\n  \"implicit_claims\": [\n    \"Feelings are not arbitrary but carry meaningful data about an individual's internal condition, needs, or well-being.\",\n    \"There is a distinction between one's internal 'state' and the external 'world'.\",\n    \"Feelings can, at times, accurately reflect external reality, but this is not guaranteed and requires discernment.\",\n    \"The ability to recognize and make this distinction is a valuable cognitive skill.\",\n    \"Self-awareness and the capacity for introspection are possible and beneficial.\",\n    \"There is an objective reality that feelings can either accurately or inaccurately represent.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a nuanced understanding of feelings by validating their reality as internal data while simultaneously qualifying their reliability as external truth. There is no contradiction in acknowledging feelings as real information about one's state and also stating they are not *always* accurate about the world; these are complementary insights.\",\n  \"conditions_for_usefulness\": [\n    \"The individual tends to conflate their feelings with objective reality, leading to distress or misjudgment.\",\n    \"The individual is capable of and willing to engage in self-reflection and metacognition.\",\n    \"The individual seeks to improve emotional regulation and make more rational decisions.\",\n    \"The individual has previously dismissed their feelings as 'unreal' or 'invalid', as this statement validates their existence as 'real information'.\",\n    \"The individual is learning to understand the origins and triggers of their emotional responses.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual interprets 'not always accurate' as 'never accurate' about the world, leading to a profound distrust of intuition or valid emotional responses to external threats/opportunities.\",\n    \"The statement is used to gaslight oneself or others, dismissing legitimate emotional responses to genuinely problematic external situations (e.g., 'your feelings aren't accurate about the world' when experiencing injustice).\",\n    \"The individual already struggles with emotional expression and validation, potentially leading to further suppression or invalidation of necessary emotional signals.\",\n    \"The statement is applied rigidly without nuance, failing to recognize contexts where feelings are highly accurate indicators of external reality (e.g., fear in a dangerous situation).\",\n    \"It leads to excessive intellectualization of feelings, detaching from the immediate experience of emotion needed for empathy or connection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a cognitive self-affirmation or a principle for self-reflection. Its purpose is to foster emotional intelligence and cognitive restructuring by distinguishing between the subjective reality of feelings as internal information and their objective accuracy regarding external reality. It aims to validate internal experience while promoting critical evaluation of its external interpretation.",
+    "implicit_claims": [
+      "Feelings are not arbitrary but carry meaningful data about an individual's internal condition, needs, or well-being.",
+      "There is a distinction between one's internal 'state' and the external 'world'.",
+      "Feelings can, at times, accurately reflect external reality, but this is not guaranteed and requires discernment.",
+      "The ability to recognize and make this distinction is a valuable cognitive skill.",
+      "Self-awareness and the capacity for introspection are possible and beneficial.",
+      "There is an objective reality that feelings can either accurately or inaccurately represent."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a nuanced understanding of feelings by validating their reality as internal data while simultaneously qualifying their reliability as external truth. There is no contradiction in acknowledging feelings as real information about one's state and also stating they are not *always* accurate about the world; these are complementary insights.",
+    "conditions_for_usefulness": [
+      "The individual tends to conflate their feelings with objective reality, leading to distress or misjudgment.",
+      "The individual is capable of and willing to engage in self-reflection and metacognition.",
+      "The individual seeks to improve emotional regulation and make more rational decisions.",
+      "The individual has previously dismissed their feelings as 'unreal' or 'invalid', as this statement validates their existence as 'real information'.",
+      "The individual is learning to understand the origins and triggers of their emotional responses."
+    ],
+    "conditions_for_misleading": [
+      "The individual interprets 'not always accurate' as 'never accurate' about the world, leading to a profound distrust of intuition or valid emotional responses to external threats/opportunities.",
+      "The statement is used to gaslight oneself or others, dismissing legitimate emotional responses to genuinely problematic external situations (e.g., 'your feelings aren't accurate about the world' when experiencing injustice).",
+      "The individual already struggles with emotional expression and validation, potentially leading to further suppression or invalidation of necessary emotional signals.",
+      "The statement is applied rigidly without nuance, failing to recognize contexts where feelings are highly accurate indicators of external reality (e.g., fear in a dangerous situation).",
+      "It leads to excessive intellectualization of feelings, detaching from the immediate experience of emotion needed for empathy or connection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 591,
+  "error": "",
+  "retry_count": 0
+}

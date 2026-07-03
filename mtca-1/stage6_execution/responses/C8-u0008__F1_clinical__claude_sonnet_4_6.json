@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0008__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:31:25.761908+00:00",
+  "wall_clock_seconds": 17.272172212600708,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a volitional self-affirmation that acknowledges an internal conflict between behavioral commitment and current emotional state, while asserting agency over action despite that discrepancy. It performs a reframing move, positioning the gap between values and feelings as temporary and navigable rather than as a barrier to action.\",\n  \"implicit_claims\": [\n    \"The speaker has clearly identified personal values.\",\n    \"Values and feelings are distinct, separable sources of behavioral motivation.\",\n    \"Feelings can 'catch up' to chosen behavior over time, implying emotional states are malleable and partially contingent on behavior.\",\n    \"Volitional choice over action is available even when emotional states are misaligned — i.e., sufficient agency exists.\",\n    \"Acting in line with values is meaningful or beneficial even in the absence of felt congruence.\",\n    \"The current emotional state is not a disqualifying signal against the chosen action.\",\n    \"There is a temporal trajectory implied: the present moment is a transient phase, not a permanent condition.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not assert a contradiction — it explicitly acknowledges that feelings have not aligned, so it avoids any implicit claim of felt authenticity. The logical structure (choosing action aligned with values despite lagging affect) is consistent with behavioral and acceptance-based therapeutic models such as ACT and behavioral activation in CBT. No self-undermining premises are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuinely clarified and reflected on their values, rather than mistaking externally imposed expectations for personal values.\",\n    \"The emotional lag is understood to be contextually appropriate — e.g., grief, depression, anxiety, or an early phase of behavioral change — rather than a signal of value misalignment.\",\n    \"The speaker retains sufficient executive functioning and agency to enact chosen behavior.\",\n    \"The therapeutic context includes support for values clarification so the referenced values are authentic.\",\n    \"The statement is used as a bridge during a transitional period, not as a permanent override of emotional information.\",\n    \"Emotional signals have been considered and the decision to act despite them is informed, not avoidant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' being referenced are actually internalized external obligations, social pressure, or punitive standards rather than genuinely held personal values — making the statement a vehicle for self-coercion.\",\n    \"The emotional lag is not a developmental or transitional phenomenon but is a persistent signal that the chosen action is itself harmful, contraindicated, or misaligned with the person's authentic needs.\",\n    \"The speaker is using the statement to bypass or suppress emotional processing in a way that reinforces avoidance rather than acceptance.\",\n    \"The statement is applied in contexts involving trauma responses, where emotional signals carry important protective information that should not be overridden by volitional framing.\",\n    \"The frame implies emotions are obstacles to be outlasted, rather than data to be acknowledged — undermining affective integration.\",\n    \"The speaker lacks real volitional capacity due to coercive circumstances, making the language of 'choosing' a misrepresentation of their situation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a volitional self-affirmation that acknowledges an internal conflict between behavioral commitment and current emotional state, while asserting agency over action despite that discrepancy. It performs a reframing move, positioning the gap between values and feelings as temporary and navigable rather than as a barrier to action.",
+    "implicit_claims": [
+      "The speaker has clearly identified personal values.",
+      "Values and feelings are distinct, separable sources of behavioral motivation.",
+      "Feelings can 'catch up' to chosen behavior over time, implying emotional states are malleable and partially contingent on behavior.",
+      "Volitional choice over action is available even when emotional states are misaligned — i.e., sufficient agency exists.",
+      "Acting in line with values is meaningful or beneficial even in the absence of felt congruence.",
+      "The current emotional state is not a disqualifying signal against the chosen action.",
+      "There is a temporal trajectory implied: the present moment is a transient phase, not a permanent condition."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not assert a contradiction — it explicitly acknowledges that feelings have not aligned, so it avoids any implicit claim of felt authenticity. The logical structure (choosing action aligned with values despite lagging affect) is consistent with behavioral and acceptance-based therapeutic models such as ACT and behavioral activation in CBT. No self-undermining premises are present.",
+    "conditions_for_usefulness": [
+      "The speaker has genuinely clarified and reflected on their values, rather than mistaking externally imposed expectations for personal values.",
+      "The emotional lag is understood to be contextually appropriate — e.g., grief, depression, anxiety, or an early phase of behavioral change — rather than a signal of value misalignment.",
+      "The speaker retains sufficient executive functioning and agency to enact chosen behavior.",
+      "The therapeutic context includes support for values clarification so the referenced values are authentic.",
+      "The statement is used as a bridge during a transitional period, not as a permanent override of emotional information.",
+      "Emotional signals have been considered and the decision to act despite them is informed, not avoidant."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' being referenced are actually internalized external obligations, social pressure, or punitive standards rather than genuinely held personal values — making the statement a vehicle for self-coercion.",
+      "The emotional lag is not a developmental or transitional phenomenon but is a persistent signal that the chosen action is itself harmful, contraindicated, or misaligned with the person's authentic needs.",
+      "The speaker is using the statement to bypass or suppress emotional processing in a way that reinforces avoidance rather than acceptance.",
+      "The statement is applied in contexts involving trauma responses, where emotional signals carry important protective information that should not be overridden by volitional framing.",
+      "The frame implies emotions are obstacles to be outlasted, rather than data to be acknowledged — undermining affective integration.",
+      "The speaker lacks real volitional capacity due to coercive circumstances, making the language of 'choosing' a misrepresentation of their situation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 733,
+  "error": "",
+  "retry_count": 0
+}

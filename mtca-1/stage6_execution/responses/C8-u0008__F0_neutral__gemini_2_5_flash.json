@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0008__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:30:53.531956+00:00",
+  "wall_clock_seconds": 6.412415266036987,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Declaration of intent and self-justification for acting despite internal emotional incongruence, asserting self-control and commitment to principles.\",\n  \"implicit_claims\": [\n    \"The speaker possesses identifiable values.\",\n    \"The speaker has feelings that are currently misaligned with those values.\",\n    \"The speaker perceives a distinction between 'values' and 'feelings'.\",\n    \"The speaker has agency to prioritize values over feelings in their actions.\",\n    \"Feelings may eventually 'catch up' to chosen actions.\",\n    \"Acting in line with values is a desirable or morally superior course of action.\",\n    \"The speaker is experiencing internal conflict but has resolved it through will.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, clearly outlining a perceived conflict between values and feelings and a deliberate choice to prioritize values in action. The phrasing 'even when my feelings have not yet caught up' logically establishes a temporal dissonance and an expectation of future alignment.\",\n  \"conditions_for_usefulness\": [\n    \"The stated 'values' are genuinely held, well-considered, and lead to constructive outcomes.\",\n    \"The statement serves as a tool for self-motivation, resilience, or explaining a difficult but necessary decision to oneself or others.\",\n    \"The 'feelings' being overridden are transient, reactive, or do not represent critical signals of harm or unsustainability.\",\n    \"The action taken is ethical and contributes to long-term well-being or goals.\",\n    \"The speaker is acknowledging and managing internal conflict, not repressing or denying it entirely.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' are actually rationalizations for self-serving, harmful, or emotionally avoidant behavior.\",\n    \"The 'feelings' being dismissed are crucial signals of burnout, trauma, intuition, or legitimate needs that require attention.\",\n    \"The statement is used to rigidly suppress emotional experience rather than navigate it, leading to unresolved psychological issues.\",\n    \"The 'choice' is not genuinely free but driven by external pressure, dogma, or an unhealthy denial of reality.\",\n    \"The speaker uses this to project an image of stoicism while suffering unsustainable internal strain.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Declaration of intent and self-justification for acting despite internal emotional incongruence, asserting self-control and commitment to principles.",
+    "implicit_claims": [
+      "The speaker possesses identifiable values.",
+      "The speaker has feelings that are currently misaligned with those values.",
+      "The speaker perceives a distinction between 'values' and 'feelings'.",
+      "The speaker has agency to prioritize values over feelings in their actions.",
+      "Feelings may eventually 'catch up' to chosen actions.",
+      "Acting in line with values is a desirable or morally superior course of action.",
+      "The speaker is experiencing internal conflict but has resolved it through will."
+    ],
+    "coherence_assessment": "The statement is internally coherent, clearly outlining a perceived conflict between values and feelings and a deliberate choice to prioritize values in action. The phrasing 'even when my feelings have not yet caught up' logically establishes a temporal dissonance and an expectation of future alignment.",
+    "conditions_for_usefulness": [
+      "The stated 'values' are genuinely held, well-considered, and lead to constructive outcomes.",
+      "The statement serves as a tool for self-motivation, resilience, or explaining a difficult but necessary decision to oneself or others.",
+      "The 'feelings' being overridden are transient, reactive, or do not represent critical signals of harm or unsustainability.",
+      "The action taken is ethical and contributes to long-term well-being or goals.",
+      "The speaker is acknowledging and managing internal conflict, not repressing or denying it entirely."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' are actually rationalizations for self-serving, harmful, or emotionally avoidant behavior.",
+      "The 'feelings' being dismissed are crucial signals of burnout, trauma, intuition, or legitimate needs that require attention.",
+      "The statement is used to rigidly suppress emotional experience rather than navigate it, leading to unresolved psychological issues.",
+      "The 'choice' is not genuinely free but driven by external pressure, dogma, or an unhealthy denial of reality.",
+      "The speaker uses this to project an image of stoicism while suffering unsustainable internal strain."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 140,
+  "output_tokens": 485,
+  "error": "",
+  "retry_count": 0
+}

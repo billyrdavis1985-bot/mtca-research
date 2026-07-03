@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0006__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:23:00.427572+00:00",
+  "wall_clock_seconds": 4.624832630157471,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal commitment to calculated bravery, blending emotional vulnerability with rational decision-making. It asserts a principle for action that balances fear and evidence.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear in certain situations.\",\n    \"The speaker values evidence-based decision-making.\",\n    \"Fear alone is not a sufficient reason to avoid an action.\",\n    \"There are situations where the evidence of benefit outweighs the fear.\",\n    \"The speaker has the ability to assess evidence and act on it.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it links a willingness to act (despite fear) to a rational condition (evidence of likely help), creating a consistent relationship between emotion and reason.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to reliable evidence about the likely outcomes of feared actions.\",\n    \"The speaker can distinguish between genuine risk and irrational fear.\",\n    \"The speaker possesses the self-awareness to recognize when fear is present.\",\n    \"The actions considered are indeed likely to be helpful based on that evidence.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The evidence is incomplete, biased, or misinterpreted (e.g., confirmation bias).\",\n    \"The speaker uses the statement to justify reckless behavior under the guise of courage.\",\n    \"The speaker ignores cases where fear is a valid warning signal (e.g., real danger).\",\n    \"The statement is taken as a universal rule without considering context or personal limits.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal commitment to calculated bravery, blending emotional vulnerability with rational decision-making. It asserts a principle for action that balances fear and evidence.",
+    "implicit_claims": [
+      "The speaker experiences fear in certain situations.",
+      "The speaker values evidence-based decision-making.",
+      "Fear alone is not a sufficient reason to avoid an action.",
+      "There are situations where the evidence of benefit outweighs the fear.",
+      "The speaker has the ability to assess evidence and act on it."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it links a willingness to act (despite fear) to a rational condition (evidence of likely help), creating a consistent relationship between emotion and reason.",
+    "conditions_for_usefulness": [
+      "The speaker has access to reliable evidence about the likely outcomes of feared actions.",
+      "The speaker can distinguish between genuine risk and irrational fear.",
+      "The speaker possesses the self-awareness to recognize when fear is present.",
+      "The actions considered are indeed likely to be helpful based on that evidence."
+    ],
+    "conditions_for_misleading": [
+      "The evidence is incomplete, biased, or misinterpreted (e.g., confirmation bias).",
+      "The speaker uses the statement to justify reckless behavior under the guise of courage.",
+      "The speaker ignores cases where fear is a valid warning signal (e.g., real danger).",
+      "The statement is taken as a universal rule without considering context or personal limits."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 315,
+  "error": "",
+  "retry_count": 0
+}

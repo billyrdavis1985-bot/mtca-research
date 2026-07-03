@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F1_clinical__grok_4",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:44:20.671415+00:00",
+  "wall_clock_seconds": 5.878918409347534,
+  "raw_response": "{\n  \"communicative_function\": \"Labeling and categorizing aversive or angry mental states as prejudicial to others, serving as a prompt for recognition or reframing\",\n  \"implicit_claims\": [\n    \"Aversion or contrary desires toward another constitute harm or prejudice\",\n    \"Anger exemplifies souls in such aversive states\",\n    \"These states can be identified and distinguished as a discrete category\"\n  ],\n  \"coherence_assessment\": \"Low internal coherence due to archaic phrasing, sentence fragment structure, and unclear referent for 'she' without prior context\",\n  \"conditions_for_usefulness\": \"The statement must be embedded in a structured cognitive exercise where the patient can translate the archaic language into personally relevant emotional patterns and test the prejudice claim empirically\",\n  \"conditions_for_misleading\": \"The language remains opaque or is taken literally, leading the patient to suppress legitimate boundaries or misattribute normal emotional responses as inherently harmful\"\n}",
+  "parsed_json": {
+    "communicative_function": "Labeling and categorizing aversive or angry mental states as prejudicial to others, serving as a prompt for recognition or reframing",
+    "implicit_claims": [
+      "Aversion or contrary desires toward another constitute harm or prejudice",
+      "Anger exemplifies souls in such aversive states",
+      "These states can be identified and distinguished as a discrete category"
+    ],
+    "coherence_assessment": "Low internal coherence due to archaic phrasing, sentence fragment structure, and unclear referent for 'she' without prior context",
+    "conditions_for_usefulness": "The statement must be embedded in a structured cognitive exercise where the patient can translate the archaic language into personally relevant emotional patterns and test the prejudice claim empirically",
+    "conditions_for_misleading": "The language remains opaque or is taken literally, leading the patient to suppress legitimate boundaries or misattribute normal emotional responses as inherently harmful"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 296,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

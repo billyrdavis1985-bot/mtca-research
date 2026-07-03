@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0864__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:54:31.640365+00:00",
+  "wall_clock_seconds": 5.724071979522705,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an admission of past skepticism, specifically about Coué's lectures, possibly to establish credibility through self-disclosure or to set up a contrast with a change of mind.\",\n  \"implicit_claims\": [\n    \"The speaker attended or encountered Coué's lectures.\",\n    \"The speaker initially held a skeptical attitude toward those lectures.\",\n    \"The speaker is now recounting that skepticism (perhaps reflecting a later, different perspective).\",\n    \"Coué's lectures are a known or identifiable subject of discussion.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a straightforward expression of past skepticism. It does not contradict itself, though its purpose depends on the broader context (e.g., whether it leads to a revised opinion).\",\n  \"conditions_for_usefulness\": [\n    \"The audience is familiar with Coué or his lectures (e.g., Émile Coué, the psychologist of autosuggestion).\",\n    \"The context benefits from the speaker's honesty about initial biases or preconceptions.\",\n    \"The statement is part of a narrative that illustrates a change of mind or deeper reflection.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker omits that they later became a strong advocate of Coué's methods, the statement could falsely imply persistent skepticism.\",\n    \"If the lectures or Coué himself are obscure to the audience, the statement may be misinterpreted as a general confession of disbelief.\",\n    \"If used as an ethical principle for AI design, it could be misleading by suggesting that personal skepticism is a value to preserve, rather than a human trait to be managed or contextualized.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an admission of past skepticism, specifically about Coué's lectures, possibly to establish credibility through self-disclosure or to set up a contrast with a change of mind.",
+    "implicit_claims": [
+      "The speaker attended or encountered Coué's lectures.",
+      "The speaker initially held a skeptical attitude toward those lectures.",
+      "The speaker is now recounting that skepticism (perhaps reflecting a later, different perspective).",
+      "Coué's lectures are a known or identifiable subject of discussion."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a straightforward expression of past skepticism. It does not contradict itself, though its purpose depends on the broader context (e.g., whether it leads to a revised opinion).",
+    "conditions_for_usefulness": [
+      "The audience is familiar with Coué or his lectures (e.g., Émile Coué, the psychologist of autosuggestion).",
+      "The context benefits from the speaker's honesty about initial biases or preconceptions.",
+      "The statement is part of a narrative that illustrates a change of mind or deeper reflection."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker omits that they later became a strong advocate of Coué's methods, the statement could falsely imply persistent skepticism.",
+      "If the lectures or Coué himself are obscure to the audience, the statement may be misinterpreted as a general confession of disbelief.",
+      "If used as an ethical principle for AI design, it could be misleading by suggesting that personal skepticism is a value to preserve, rather than a human trait to be managed or contextualized."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 346,
+  "error": "",
+  "retry_count": 0
+}

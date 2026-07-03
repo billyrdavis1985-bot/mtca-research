@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0005__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:18:57.333836+00:00",
+  "wall_clock_seconds": 4.663701772689819,
+  "raw_response": "{\n  \"communicative_function\": \"The statement acts as a self-instruction or cognitive reappraisal strategy, guiding the speaker to shift from a dichotomous thinking pattern to a more nuanced, balanced perspective.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a common cognitive frame that can be recognized.\",\n    \"There is always a partial truth on either side of a binary opposition.\",\n    \"The speaker has the agency and willingness to examine both sides.\",\n    \"Looking for partial truths is a desirable or effective response to dichotomous thinking.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear conditional (when in all-or-nothing frame) and a matching, actionable response (look for partial truth on either side) that directly counters the initial cognitive distortion.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is actually in an all-or-nothing cognitive frame and can recognize it.\",\n    \"The situation under consideration genuinely has nuance or partial truths on both sides.\",\n    \"The speaker has the cognitive flexibility and emotional capacity to engage in balanced inquiry.\",\n    \"The statement is used as a prompt for reflection, not as a rigid rule.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The situation is genuinely binary with no meaningful partial truth on one side (e.g., moral absolutes, safety issues).\",\n    \"Using the statement leads to false equivalence between valid and invalid positions.\",\n    \"It discourages committed action by promoting perpetual ambivalence.\",\n    \"The speaker mistakes looking for partial truths for accepting both sides as equally valid.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement acts as a self-instruction or cognitive reappraisal strategy, guiding the speaker to shift from a dichotomous thinking pattern to a more nuanced, balanced perspective.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a common cognitive frame that can be recognized.",
+      "There is always a partial truth on either side of a binary opposition.",
+      "The speaker has the agency and willingness to examine both sides.",
+      "Looking for partial truths is a desirable or effective response to dichotomous thinking."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear conditional (when in all-or-nothing frame) and a matching, actionable response (look for partial truth on either side) that directly counters the initial cognitive distortion.",
+    "conditions_for_usefulness": [
+      "The speaker is actually in an all-or-nothing cognitive frame and can recognize it.",
+      "The situation under consideration genuinely has nuance or partial truths on both sides.",
+      "The speaker has the cognitive flexibility and emotional capacity to engage in balanced inquiry.",
+      "The statement is used as a prompt for reflection, not as a rigid rule."
+    ],
+    "conditions_for_misleading": [
+      "The situation is genuinely binary with no meaningful partial truth on one side (e.g., moral absolutes, safety issues).",
+      "Using the statement leads to false equivalence between valid and invalid positions.",
+      "It discourages committed action by promoting perpetual ambivalence.",
+      "The speaker mistakes looking for partial truths for accepting both sides as equally valid."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 333,
+  "error": "",
+  "retry_count": 0
+}

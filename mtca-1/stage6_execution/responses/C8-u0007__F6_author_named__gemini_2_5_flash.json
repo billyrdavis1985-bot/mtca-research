@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0007__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:29:35.291035+00:00",
+  "wall_clock_seconds": 8.47123384475708,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a self-observation or a self-reflection. It is a cognitive self-statement designed to foster self-awareness regarding the relationship between one's behavior and mood, potentially to encourage a sense of agency and facilitate cognitive restructuring or behavioral activation.\",\n  \"implicit_claims\": [\n    \"There is a discernible relationship between one's mood and one's behavior.\",\n    \"The influence between mood and behavior can flow in both directions (mood affects behavior, and behavior affects mood).\",\n    \"For the speaker (or as a general observation presented in this specimen), the direction of influence from behavior to mood is more frequent or dominant.\",\n    \"The speaker possesses the capacity for metacognition and self-observation regarding their internal states and actions.\",\n    \"The speaker is distinct enough from their mood and behavior to observe patterns.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. 'I am noticing' clearly sets it up as an observation. The assertion that 'my mood follows my behavior' establishes a primary causal or correlational direction, and 'more often than the reverse' coherently compares and prioritizes this direction over the alternative (mood driving behavior). It logically presents a perceived pattern.\",\n  \"conditions_for_usefulness\": [\n    \"The observation is genuinely accurate for the individual making it, reflecting their personal experience.\",\n    \"It empowers the individual by highlighting a locus of control (behavior) for influencing their mood, fostering a sense of agency.\",\n    \"It encourages behavioral activation, prompting the individual to engage in mood-enhancing behaviors even when not initially motivated by a positive mood.\",\n    \"It helps to challenge maladaptive beliefs that moods are entirely external or uncontrollable, or that one must 'feel like it' before acting.\",\n    \"It leads to actionable insights and strategies for mood regulation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The observation is inaccurate for the individual, and for them, mood *more often* dictates behavior, or the relationship is far more complex than this simple dichotomy.\",\n    \"It oversimplifies complex psychological and physiological processes underlying mood, potentially dismissing other significant factors (e.g., biological, environmental, cognitive distortions).\",\n    \"It leads to self-blame or guilt if an individual struggles with mood regulation despite behavioral efforts, implying a lack of sufficient effort rather than acknowledging other contributing factors.\",\n    \"It is rigidly applied in situations where mood is a symptom of severe underlying conditions (e.g., clinical depression, anxiety disorders) where behavioral activation alone may be insufficient or inappropriate without other therapeutic interventions.\",\n    \"It invalidates genuine emotional experiences, suggesting that one should always be able to 'behave their way' out of a mood, thus discouraging deeper processing or seeking appropriate support.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-observation or a self-reflection. It is a cognitive self-statement designed to foster self-awareness regarding the relationship between one's behavior and mood, potentially to encourage a sense of agency and facilitate cognitive restructuring or behavioral activation.",
+    "implicit_claims": [
+      "There is a discernible relationship between one's mood and one's behavior.",
+      "The influence between mood and behavior can flow in both directions (mood affects behavior, and behavior affects mood).",
+      "For the speaker (or as a general observation presented in this specimen), the direction of influence from behavior to mood is more frequent or dominant.",
+      "The speaker possesses the capacity for metacognition and self-observation regarding their internal states and actions.",
+      "The speaker is distinct enough from their mood and behavior to observe patterns."
+    ],
+    "coherence_assessment": "The statement is internally coherent. 'I am noticing' clearly sets it up as an observation. The assertion that 'my mood follows my behavior' establishes a primary causal or correlational direction, and 'more often than the reverse' coherently compares and prioritizes this direction over the alternative (mood driving behavior). It logically presents a perceived pattern.",
+    "conditions_for_usefulness": [
+      "The observation is genuinely accurate for the individual making it, reflecting their personal experience.",
+      "It empowers the individual by highlighting a locus of control (behavior) for influencing their mood, fostering a sense of agency.",
+      "It encourages behavioral activation, prompting the individual to engage in mood-enhancing behaviors even when not initially motivated by a positive mood.",
+      "It helps to challenge maladaptive beliefs that moods are entirely external or uncontrollable, or that one must 'feel like it' before acting.",
+      "It leads to actionable insights and strategies for mood regulation."
+    ],
+    "conditions_for_misleading": [
+      "The observation is inaccurate for the individual, and for them, mood *more often* dictates behavior, or the relationship is far more complex than this simple dichotomy.",
+      "It oversimplifies complex psychological and physiological processes underlying mood, potentially dismissing other significant factors (e.g., biological, environmental, cognitive distortions).",
+      "It leads to self-blame or guilt if an individual struggles with mood regulation despite behavioral efforts, implying a lack of sufficient effort rather than acknowledging other contributing factors.",
+      "It is rigidly applied in situations where mood is a symptom of severe underlying conditions (e.g., clinical depression, anxiety disorders) where behavioral activation alone may be insufficient or inappropriate without other therapeutic interventions.",
+      "It invalidates genuine emotional experiences, suggesting that one should always be able to 'behave their way' out of a mood, thus discouraging deeper processing or seeking appropriate support."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 606,
+  "error": "",
+  "retry_count": 0
+}

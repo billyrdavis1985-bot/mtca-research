@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0035__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:34:49.331674+00:00",
+  "wall_clock_seconds": 4.856678247451782,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a principle of equality or equivalence between extremes of duration, likely to encourage perspective-taking or revaluation of time's significance.\",\n  \"implicit_claims\": [\n    \"Duration is a meaningful attribute of events or experiences.\",\n    \"Long and short durations can be compared according to a common effect.\",\n    \"The same effect can arise from both very long and very short durations.\",\n    \"There is a shared qualitative outcome that transcends quantitative difference.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a paradoxical or wisdom-style statement; it hinges on the idea that extremes converge in their ultimate consequence, which is logically plausible only under a specific shared criterion (e.g., mortality, insignificance, or experiential limit).\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used in a context where listeners are open to reframing their valuation of time (e.g., mindfulness, philosophical reflection, grief work, goal-setting).\",\n    \"There exists a known or intuitively accepted common effect (e.g., death, memory decay, or moments of transcendence).\",\n    \"The statement is applied to situations where duration anxiety or bias affects decision-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, it could falsely imply that all long and short durations are causally interchangeable.\",\n    \"If used to dismiss real differences in practical outcomes (e.g., a short loan vs. a long loan, a brief illness vs. a chronic one) without specifying the shared effect.\",\n    \"If the listener interprets 'effect' as uniformly positive or neutral, ignoring cases where duration critically changes the nature of the effect.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a principle of equality or equivalence between extremes of duration, likely to encourage perspective-taking or revaluation of time's significance.",
+    "implicit_claims": [
+      "Duration is a meaningful attribute of events or experiences.",
+      "Long and short durations can be compared according to a common effect.",
+      "The same effect can arise from both very long and very short durations.",
+      "There is a shared qualitative outcome that transcends quantitative difference."
+    ],
+    "coherence_assessment": "Internally coherent as a paradoxical or wisdom-style statement; it hinges on the idea that extremes converge in their ultimate consequence, which is logically plausible only under a specific shared criterion (e.g., mortality, insignificance, or experiential limit).",
+    "conditions_for_usefulness": [
+      "The statement is used in a context where listeners are open to reframing their valuation of time (e.g., mindfulness, philosophical reflection, grief work, goal-setting).",
+      "There exists a known or intuitively accepted common effect (e.g., death, memory decay, or moments of transcendence).",
+      "The statement is applied to situations where duration anxiety or bias affects decision-making."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, it could falsely imply that all long and short durations are causally interchangeable.",
+      "If used to dismiss real differences in practical outcomes (e.g., a short loan vs. a long loan, a brief illness vs. a chronic one) without specifying the shared effect.",
+      "If the listener interprets 'effect' as uniformly positive or neutral, ignoring cases where duration critically changes the nature of the effect."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 347,
+  "error": "",
+  "retry_count": 0
+}

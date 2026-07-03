@@ -1,0 +1,50 @@
+{
+  "call_id": "C3-u0014__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T23:21:22.356716+00:00",
+  "wall_clock_seconds": 10.952558755874634,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a moral and psychological categorization and comparative evaluation of anger versus lust. It assigns different qualities and levels of undesirability to each, aiming to guide self-perception, self-judgment, and potentially motivate self-regulation or the cultivation of specific virtues by presenting lust as a 'more impotent, and unmanlike disposition' compared to anger's 'turning away from reason'.\",\n  \"implicit_claims\": [\n    \"There is a universally desirable state of 'reason' from which one can deviate.\",\n    \"Anger is inherently linked to grief and a 'contraction of self'.\",\n    \"Lust is a 'sin' and is primarily characterized by being 'overcome by pleasure'.\",\n    \"There is an ideal standard of 'manliness' and 'potency' which can be compromised by certain behaviors or dispositions.\",\n    \"Lust (when 'sinned through') is a more severe or undesirable deviation than anger (when one 'turns away from reason').\",\n    \"Human beings have agency over their emotional responses and behaviors in these domains.\",\n    \"Moral character development involves avoiding behaviors associated with 'impotent, and unmanlike disposition'.\",\n    \"Self-control over pleasure is a virtue, and yielding to it in the context of lust is a failing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own philosophical and moral framework. It clearly establishes a comparison between anger and lust, assigning distinct characteristics and a hierarchical judgment to each. The language, though archaic, maintains a consistent register and logical flow in presenting its argument for the differing moral and characterological implications of the two states. There are no direct logical contradictions within the premises presented.\",\n  \"conditions_for_usefulness\": [\n    \"The client explicitly shares the moral, religious, or philosophical framework that defines 'sin', 'lust', 'reason', and 'manliness' in a way consistent with the statement.\",\n    \"The therapeutic goal involves addressing behaviors related to lust or anger from a virtue ethics, moral development, or traditional character-building perspective.\",\n    \"The client finds the framing of 'impotent and unmanlike disposition' to be a powerful, personally resonant motivator for behavioral change away from problematic sexual compulsions or behaviors.\",\n    \"The statement is used as a springboard for exploring a client's existing self-criticism or moral struggles, rather than as a directive truth.\",\n    \"The therapeutic context is focused on self-discipline and overcoming perceived 'weaknesses' as understood within specific philosophical or spiritual traditions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client does not share the underlying moral, religious, or gender-normative assumptions (e.g., regarding 'sin', 'lust', or 'unmanlike disposition'), leading to alienation, shame, or resistance.\",\n    \"The statement is presented as a universal psychological truth, rather than a specific philosophical or moral viewpoint, misrepresenting the complexities of human emotion, sexuality, and gender.\",\n    \"It reinforces harmful gender stereotypes by equating certain behaviors with 'unmanlike disposition', potentially exacerbating internalized sexism or rigid masculinity for the client.\",\n    \"It promotes shame-based motivation for change, which can be counterproductive, leading to repression, increased guilt, or a negative self-concept rather than genuine psychological integration.\",\n    \"It oversimplifies the origins and functions of anger, dismissing its potential for valid communication or boundary setting by solely associating it with grief and 'turning away from reason'.\",\n    \"It is used to pathologize natural human sexual desire or normal emotional responses without exploring underlying psychological, relational, or environmental factors.\",\n    \"The therapist imposes this framework without adequately assessing the client's values, cultural background, or potential for harm.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a moral and psychological categorization and comparative evaluation of anger versus lust. It assigns different qualities and levels of undesirability to each, aiming to guide self-perception, self-judgment, and potentially motivate self-regulation or the cultivation of specific virtues by presenting lust as a 'more impotent, and unmanlike disposition' compared to anger's 'turning away from reason'.",
+    "implicit_claims": [
+      "There is a universally desirable state of 'reason' from which one can deviate.",
+      "Anger is inherently linked to grief and a 'contraction of self'.",
+      "Lust is a 'sin' and is primarily characterized by being 'overcome by pleasure'.",
+      "There is an ideal standard of 'manliness' and 'potency' which can be compromised by certain behaviors or dispositions.",
+      "Lust (when 'sinned through') is a more severe or undesirable deviation than anger (when one 'turns away from reason').",
+      "Human beings have agency over their emotional responses and behaviors in these domains.",
+      "Moral character development involves avoiding behaviors associated with 'impotent, and unmanlike disposition'.",
+      "Self-control over pleasure is a virtue, and yielding to it in the context of lust is a failing."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own philosophical and moral framework. It clearly establishes a comparison between anger and lust, assigning distinct characteristics and a hierarchical judgment to each. The language, though archaic, maintains a consistent register and logical flow in presenting its argument for the differing moral and characterological implications of the two states. There are no direct logical contradictions within the premises presented.",
+    "conditions_for_usefulness": [
+      "The client explicitly shares the moral, religious, or philosophical framework that defines 'sin', 'lust', 'reason', and 'manliness' in a way consistent with the statement.",
+      "The therapeutic goal involves addressing behaviors related to lust or anger from a virtue ethics, moral development, or traditional character-building perspective.",
+      "The client finds the framing of 'impotent and unmanlike disposition' to be a powerful, personally resonant motivator for behavioral change away from problematic sexual compulsions or behaviors.",
+      "The statement is used as a springboard for exploring a client's existing self-criticism or moral struggles, rather than as a directive truth.",
+      "The therapeutic context is focused on self-discipline and overcoming perceived 'weaknesses' as understood within specific philosophical or spiritual traditions."
+    ],
+    "conditions_for_misleading": [
+      "The client does not share the underlying moral, religious, or gender-normative assumptions (e.g., regarding 'sin', 'lust', or 'unmanlike disposition'), leading to alienation, shame, or resistance.",
+      "The statement is presented as a universal psychological truth, rather than a specific philosophical or moral viewpoint, misrepresenting the complexities of human emotion, sexuality, and gender.",
+      "It reinforces harmful gender stereotypes by equating certain behaviors with 'unmanlike disposition', potentially exacerbating internalized sexism or rigid masculinity for the client.",
+      "It promotes shame-based motivation for change, which can be counterproductive, leading to repression, increased guilt, or a negative self-concept rather than genuine psychological integration.",
+      "It oversimplifies the origins and functions of anger, dismissing its potential for valid communication or boundary setting by solely associating it with grief and 'turning away from reason'.",
+      "It is used to pathologize natural human sexual desire or normal emotional responses without exploring underlying psychological, relational, or environmental factors.",
+      "The therapist imposes this framework without adequately assessing the client's values, cultural background, or potential for harm."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 813,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0007__F3_behavioral__gpt_4o",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:27:25.746505+00:00",
+  "wall_clock_seconds": 4.643402099609375,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"self-reflection\",\n  \"implicit_claims\": [\n    \"Behavior can influence mood.\",\n    \"Mood is not always the initiator of behavior.\",\n    \"There is an awareness of the relationship between mood and behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent internally, as it logically aligns with known psychological insights suggesting that behavior can influence mood through mechanisms such as behavioral activation.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the individual can and wants to observe and adjust their behavior to positively influence their mood, and if their self-awareness leads to actionable insights.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual overgeneralizes this observation or ignores cases where mood significantly influences behavior, or if they assume that behavior alone is always a controllable determinant of mood.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "self-reflection",
+    "implicit_claims": [
+      "Behavior can influence mood.",
+      "Mood is not always the initiator of behavior.",
+      "There is an awareness of the relationship between mood and behavior."
+    ],
+    "coherence_assessment": "The statement is coherent internally, as it logically aligns with known psychological insights suggesting that behavior can influence mood through mechanisms such as behavioral activation.",
+    "conditions_for_usefulness": "The statement is useful if the individual can and wants to observe and adjust their behavior to positively influence their mood, and if their self-awareness leads to actionable insights.",
+    "conditions_for_misleading": "The statement could be misleading if the individual overgeneralizes this observation or ignores cases where mood significantly influences behavior, or if they assume that behavior alone is always a controllable determinant of mood."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 182,
+  "error": "",
+  "retry_count": 0
+}

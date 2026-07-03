@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0000__F6_author_named__grok_4",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:51:25.480608+00:00",
+  "wall_clock_seconds": 6.908144474029541,
+  "raw_response": "{\n  \"communicative_function\": \"self-observation / metacognitive noticing that separates subjective mental events from evidential evaluation\",\n  \"implicit_claims\": [\n    \"automatic thoughts exist as distinct mental events\",\n    \"evidence about what is true exists independently of those thoughts\",\n    \"the speaker is capable of noticing a discrepancy between the two\",\n    \"such noticing has epistemic or therapeutic value\"\n  ],\n  \"coherence_assessment\": \"internally coherent; cleanly distinguishes occurrent mental content from an external or evidential standard without contradiction\",\n  \"conditions_for_usefulness\": \"the person tends to treat automatic thoughts as automatically true and benefits from explicitly marking the distinction to enable later evidence-checking\",\n  \"conditions_for_misleading\": \"the statement is taken to imply that automatic thoughts are always false or irrelevant, or that 'evidence' is treated as immediately obvious and uncontested\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-observation / metacognitive noticing that separates subjective mental events from evidential evaluation",
+    "implicit_claims": [
+      "automatic thoughts exist as distinct mental events",
+      "evidence about what is true exists independently of those thoughts",
+      "the speaker is capable of noticing a discrepancy between the two",
+      "such noticing has epistemic or therapeutic value"
+    ],
+    "coherence_assessment": "internally coherent; cleanly distinguishes occurrent mental content from an external or evidential standard without contradiction",
+    "conditions_for_usefulness": "the person tends to treat automatic thoughts as automatically true and benefits from explicitly marking the distinction to enable later evidence-checking",
+    "conditions_for_misleading": "the statement is taken to imply that automatic thoughts are always false or irrelevant, or that 'evidence' is treated as immediately obvious and uncontested"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 180,
+  "error": "",
+  "retry_count": 0
+}

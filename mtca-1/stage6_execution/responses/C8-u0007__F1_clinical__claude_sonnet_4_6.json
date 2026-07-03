@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0007__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:25:56.364221+00:00",
+  "wall_clock_seconds": 17.91954493522644,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-observational reframe, consolidating a behavioral activation insight into a personally owned, empirically-tentative formulation. It performs the communicative act of updating a causal belief (mood causes behavior → behavior influences mood) while hedging with epistemic humility ('noticing,' 'more often than the reverse'), signaling ongoing observation rather than fixed doctrine.\",\n  \"implicit_claims\": [\n    \"The speaker has been monitoring the relationship between their mood and behavior over time.\",\n    \"There exists a bidirectional or at least variable causal relationship between mood and behavior.\",\n    \"Behavioral change is a viable lever for mood regulation in this individual's case.\",\n    \"The prior implicit belief was that mood primarily drives behavior (mood → behavior), which is now being revised.\",\n    \"Self-observation and metacognitive awareness are being treated as therapeutic tools.\",\n    \"The pattern identified is stable enough to be 'noticed' as a tendency, not just a one-off event.\",\n    \"The individual has some degree of agency over their behavior independent of mood state.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The epistemic hedging ('noticing,' 'more often than') is consistent with the observational framing and avoids overgeneralization. It does not assert an absolute causal law, which preserves accuracy while still communicating a clinically meaningful shift in attribution. The comparative construction ('more often than the reverse') logically allows for bidirectionality, which aligns with current behavioral and affective science.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has actually experienced repeated instances where initiating behavior preceded mood improvement, providing an empirical basis for the statement.\",\n    \"The individual previously held an avoidance-maintaining belief that mood must improve before behavior can change.\",\n    \"The individual has sufficient behavioral repertoire and autonomy to act independent of low mood.\",\n    \"The therapeutic context supports behavioral activation, activity scheduling, or similar evidence-based modalities.\",\n    \"The statement is held lightly as a working hypothesis rather than a rigid rule, allowing revision.\",\n    \"The mood-behavior relationship being described is not better explained by a third variable (e.g., medication change, life event).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is experiencing a mood disorder with neurobiological severity such that behavioral activation alone is insufficient and the statement fosters premature termination of pharmacological or other biological treatment.\",\n    \"The statement is used to dismiss or minimize genuine mood states as mere byproducts of inactivity, leading to self-blame or invalidation of affect.\",\n    \"The individual has a condition (e.g., severe anhedonia, psychomotor retardation) where behavioral initiation is itself severely impaired, making the implied agency unrealistic.\",\n    \"The pattern observed is coincidental or confirmation-biased, and mood is in fact the more consistent driver in this individual's case.\",\n    \"The statement is generalized into a universal principle and applied in contexts where it does not hold (e.g., grief, trauma responses, situationally appropriate low mood).\",\n    \"It is used to avoid exploring the content or meaning of negative mood states that warrant processing rather than behavioral override.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-observational reframe, consolidating a behavioral activation insight into a personally owned, empirically-tentative formulation. It performs the communicative act of updating a causal belief (mood causes behavior → behavior influences mood) while hedging with epistemic humility ('noticing,' 'more often than the reverse'), signaling ongoing observation rather than fixed doctrine.",
+    "implicit_claims": [
+      "The speaker has been monitoring the relationship between their mood and behavior over time.",
+      "There exists a bidirectional or at least variable causal relationship between mood and behavior.",
+      "Behavioral change is a viable lever for mood regulation in this individual's case.",
+      "The prior implicit belief was that mood primarily drives behavior (mood → behavior), which is now being revised.",
+      "Self-observation and metacognitive awareness are being treated as therapeutic tools.",
+      "The pattern identified is stable enough to be 'noticed' as a tendency, not just a one-off event.",
+      "The individual has some degree of agency over their behavior independent of mood state."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The epistemic hedging ('noticing,' 'more often than') is consistent with the observational framing and avoids overgeneralization. It does not assert an absolute causal law, which preserves accuracy while still communicating a clinically meaningful shift in attribution. The comparative construction ('more often than the reverse') logically allows for bidirectionality, which aligns with current behavioral and affective science.",
+    "conditions_for_usefulness": [
+      "The individual has actually experienced repeated instances where initiating behavior preceded mood improvement, providing an empirical basis for the statement.",
+      "The individual previously held an avoidance-maintaining belief that mood must improve before behavior can change.",
+      "The individual has sufficient behavioral repertoire and autonomy to act independent of low mood.",
+      "The therapeutic context supports behavioral activation, activity scheduling, or similar evidence-based modalities.",
+      "The statement is held lightly as a working hypothesis rather than a rigid rule, allowing revision.",
+      "The mood-behavior relationship being described is not better explained by a third variable (e.g., medication change, life event)."
+    ],
+    "conditions_for_misleading": [
+      "The individual is experiencing a mood disorder with neurobiological severity such that behavioral activation alone is insufficient and the statement fosters premature termination of pharmacological or other biological treatment.",
+      "The statement is used to dismiss or minimize genuine mood states as mere byproducts of inactivity, leading to self-blame or invalidation of affect.",
+      "The individual has a condition (e.g., severe anhedonia, psychomotor retardation) where behavioral initiation is itself severely impaired, making the implied agency unrealistic.",
+      "The pattern observed is coincidental or confirmation-biased, and mood is in fact the more consistent driver in this individual's case.",
+      "The statement is generalized into a universal principle and applied in contexts where it does not hold (e.g., grief, trauma responses, situationally appropriate low mood).",
+      "It is used to avoid exploring the content or meaning of negative mood states that warrant processing rather than behavioral override."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 742,
+  "error": "",
+  "retry_count": 0
+}

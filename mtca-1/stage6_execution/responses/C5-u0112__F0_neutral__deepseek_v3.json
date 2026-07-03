@@ -1,0 +1,41 @@
+{
+  "call_id": "C5-u0112__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:16:46.364036+00:00",
+  "wall_clock_seconds": 4.735748529434204,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making a causal or correlational claim, likely as a warning or assertion about the mind-body connection.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct physical effect on the body.\",\n    \"Negative or unhealthy thoughts (\\\"sickly\\\") will inevitably manifest as physical illness or unhealthiness.\",\n    \"The body's state is a reliable indicator of the mind's state.\",\n    \"It is possible to distinguish \\\"sickly\\\" thoughts from healthy ones.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a metaphorical or holistic health claim, but it lacks nuance: it does not account for external causes of illness (e.g., infection, genetics) or the possibility of a healthy body coexisting with painful thoughts.\",\n  \"conditions_for_usefulness\": [\n    \"If the statement is interpreted as a heuristic for self-reflection and emotional awareness, rather than a literal medical claim.\",\n    \"If it is used to motivate someone to examine their mental state when experiencing unexplained physical symptoms.\",\n    \"If it is applied within a context that acknowledges other contributing factors (e.g., stress, trauma, lifestyle) rather than as a sole explanation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a universal, literal medical diagnosis, it could lead to self-blame or neglect of treatable physical conditions.\",\n    \"If used to blame individuals for their illnesses (e.g., \\\"you are sick because your thoughts are bad\\\").\",\n    \"If it discourages seeking medical advice for physical symptoms by implying they are purely mental in origin.\",\n    \"If it ignores the fact that many people with robust mental health can still suffer from chronic or acute physical illness.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making a causal or correlational claim, likely as a warning or assertion about the mind-body connection.",
+    "implicit_claims": [
+      "Thoughts have a direct physical effect on the body.",
+      "Negative or unhealthy thoughts (\"sickly\") will inevitably manifest as physical illness or unhealthiness.",
+      "The body's state is a reliable indicator of the mind's state.",
+      "It is possible to distinguish \"sickly\" thoughts from healthy ones."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a metaphorical or holistic health claim, but it lacks nuance: it does not account for external causes of illness (e.g., infection, genetics) or the possibility of a healthy body coexisting with painful thoughts.",
+    "conditions_for_usefulness": [
+      "If the statement is interpreted as a heuristic for self-reflection and emotional awareness, rather than a literal medical claim.",
+      "If it is used to motivate someone to examine their mental state when experiencing unexplained physical symptoms.",
+      "If it is applied within a context that acknowledges other contributing factors (e.g., stress, trauma, lifestyle) rather than as a sole explanation."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a universal, literal medical diagnosis, it could lead to self-blame or neglect of treatable physical conditions.",
+      "If used to blame individuals for their illnesses (e.g., \"you are sick because your thoughts are bad\").",
+      "If it discourages seeking medical advice for physical symptoms by implying they are purely mental in origin.",
+      "If it ignores the fact that many people with robust mental health can still suffer from chronic or acute physical illness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 129,
+  "output_tokens": 363,
+  "error": "",
+  "retry_count": 0
+}

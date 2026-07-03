@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:24:59.960364+00:00",
+  "wall_clock_seconds": 2.636082172393799,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a guideline for behavior, specifically emphasizing the importance of reconciliation while considering potential harm to others.\",\n  \"implicit_claims\": [\n    \"Reconciliation is a valuable endeavor.\",\n    \"Direct amends can sometimes cause harm.\",\n    \"The well-being of others should be considered in the process of reconciliation.\",\n    \"Not all situations are appropriate for direct amends.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it balances the aim of making amends with the potential risk of causing harm, thus providing a nuanced guideline for action.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in a context where the individual values reconciliation and is situated in a social context where direct interactions are feasible. The individual should also have the capacity for empathy and the ability to assess the potential impact of their actions on others.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the person lacks the ability to accurately assess the harm their actions might cause, or if they use the potential for harm as a rationalization to avoid making amends when it would be otherwise appropriate.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a guideline for behavior, specifically emphasizing the importance of reconciliation while considering potential harm to others.",
+    "implicit_claims": [
+      "Reconciliation is a valuable endeavor.",
+      "Direct amends can sometimes cause harm.",
+      "The well-being of others should be considered in the process of reconciliation.",
+      "Not all situations are appropriate for direct amends."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it balances the aim of making amends with the potential risk of causing harm, thus providing a nuanced guideline for action.",
+    "conditions_for_usefulness": "The statement would be useful in a context where the individual values reconciliation and is situated in a social context where direct interactions are feasible. The individual should also have the capacity for empathy and the ability to assess the potential impact of their actions on others.",
+    "conditions_for_misleading": "The statement could be misleading if the person lacks the ability to accurately assess the harm their actions might cause, or if they use the potential for harm as a rationalization to avoid making amends when it would be otherwise appropriate."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 241,
+  "error": "",
+  "retry_count": 0
+}

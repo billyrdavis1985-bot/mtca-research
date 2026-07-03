@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F3_behavioral__gpt_4o",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:21:58.791278+00:00",
+  "wall_clock_seconds": 2.5262742042541504,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a personal commitment to engage in challenging behavior when it is justified by evidence of potential benefits.\",\n  \"implicit_claims\": [\n    \"The speaker values personal growth or achievement, especially when supported by evidence.\",\n    \"The speaker believes that doing things that scare them can lead to positive outcomes.\",\n    \"The speaker trusts evidence-based reasoning to guide their actions.\",\n    \"There are things that scare the speaker but are still worth attempting for potential benefits.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it logically connects the willingness to face fear with the presence of supporting evidence suggesting likely benefits.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the individual is encountering situations where evidence reliably indicates positive outcomes from overcoming fear, and if they have access to such evidence.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if the evidence supporting the potential benefits is weak, misinterpreted, or if the situations involved carry risks that outweigh the evidenced benefits.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal commitment to engage in challenging behavior when it is justified by evidence of potential benefits.",
+    "implicit_claims": [
+      "The speaker values personal growth or achievement, especially when supported by evidence.",
+      "The speaker believes that doing things that scare them can lead to positive outcomes.",
+      "The speaker trusts evidence-based reasoning to guide their actions.",
+      "There are things that scare the speaker but are still worth attempting for potential benefits."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it logically connects the willingness to face fear with the presence of supporting evidence suggesting likely benefits.",
+    "conditions_for_usefulness": "This statement would be useful if the individual is encountering situations where evidence reliably indicates positive outcomes from overcoming fear, and if they have access to such evidence.",
+    "conditions_for_misleading": "This statement could be misleading if the evidence supporting the potential benefits is weak, misinterpreted, or if the situations involved carry risks that outweigh the evidenced benefits."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

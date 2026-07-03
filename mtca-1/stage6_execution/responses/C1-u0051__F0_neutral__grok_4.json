@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F0_neutral__grok_4",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:02:29.856914+00:00",
+  "wall_clock_seconds": 5.257445573806763,
+  "raw_response": "{\n  \"communicative_function\": \"describing a behavioral outcome under a specific condition\",\n  \"implicit_claims\": [\n    \"the person will be in bed regardless of effort\",\n    \"lying quietly is the default state without active sleep effort\",\n    \"no other behaviors (e.g., restlessness) will occur\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a conditional but counterintuitive, as effort to sleep is typically what leads to lying in bed\",\n  \"conditions_for_usefulness\": \"accurate description of an observed individual pattern in a relevant context like psychology or sleep studies\",\n  \"conditions_for_misleading\": \"the actual behavior differs from quiet lying, or the statement is applied as a general rule rather than a specific case\"\n}",
+  "parsed_json": {
+    "communicative_function": "describing a behavioral outcome under a specific condition",
+    "implicit_claims": [
+      "the person will be in bed regardless of effort",
+      "lying quietly is the default state without active sleep effort",
+      "no other behaviors (e.g., restlessness) will occur"
+    ],
+    "coherence_assessment": "internally coherent as a conditional but counterintuitive, as effort to sleep is typically what leads to lying in bed",
+    "conditions_for_usefulness": "accurate description of an observed individual pattern in a relevant context like psychology or sleep studies",
+    "conditions_for_misleading": "the actual behavior differs from quiet lying, or the statement is applied as a general rule rather than a specific case"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 258,
+  "output_tokens": 156,
+  "error": "",
+  "retry_count": 0
+}

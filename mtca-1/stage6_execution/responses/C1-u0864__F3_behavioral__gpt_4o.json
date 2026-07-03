@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:52:45.519217+00:00",
+  "wall_clock_seconds": 3.48685359954834,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Expressing personal skepticism towards Coué's lectures.\",\n  \"implicit_claims\": [\n    \"The speaker has attended or is familiar with Coué's lectures.\",\n    \"The speaker has a baseline of skepticism towards new or unfamiliar ideas.\",\n    \"Being skeptical is a noteworthy reaction in this context, indicating that it might differ from general reception.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it clearly communicates the speaker's skeptical attitude towards the lectures, without contradicting itself.\",\n  \"conditions_for_usefulness\": \"To be useful, the statement assumes that understanding the speaker's perspective on Coué's methods is relevant, perhaps as a demonstration of critical thinking or open-mindedness despite skepticism.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if it is suggesting that skepticism is the only or best response to Coué's lectures, particularly if those lectures have been widely validated or supported by evidence.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Expressing personal skepticism towards Coué's lectures.",
+    "implicit_claims": [
+      "The speaker has attended or is familiar with Coué's lectures.",
+      "The speaker has a baseline of skepticism towards new or unfamiliar ideas.",
+      "Being skeptical is a noteworthy reaction in this context, indicating that it might differ from general reception."
+    ],
+    "coherence_assessment": "The statement is coherent as it clearly communicates the speaker's skeptical attitude towards the lectures, without contradicting itself.",
+    "conditions_for_usefulness": "To be useful, the statement assumes that understanding the speaker's perspective on Coué's methods is relevant, perhaps as a demonstration of critical thinking or open-mindedness despite skepticism.",
+    "conditions_for_misleading": "The statement could be misleading if it is suggesting that skepticism is the only or best response to Coué's lectures, particularly if those lectures have been widely validated or supported by evidence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 153,
+  "output_tokens": 202,
+  "error": "",
+  "retry_count": 0
+}

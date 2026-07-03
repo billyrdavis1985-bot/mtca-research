@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0864__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:53:47.856249+00:00",
+  "wall_clock_seconds": 5.762921094894409,
+  "raw_response": "{\n  \"communicative_function\": \"The speaker confesses a prior state of complete skepticism toward Coué's lectures, using the rhetorical frame of a personal admission to signal a shift in perspective or to invite the audience to consider the speaker's journey from doubt to potential belief.\",\n  \"implicit_claims\": [\n    \"The speaker attended or encountered Coué's lectures.\",\n    \"The speaker has a current perspective from which they look back on their earlier skepticism.\",\n    \"The act of confessing implies the skepticism was notable or significant.\",\n    \"The statement presupposes that being entirely skeptical is a stance worth confessing, possibly because it contrasts with later experience or common opinion.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent: it expresses a past mental state (complete skepticism) in a self-reflective manner. There is no internal contradiction, and the confession tone aligns with standard confessional rhetoric.\",\n  \"conditions_for_usefulness\": [\n    \"If the speaker is setting up a narrative of changed opinion (e.g., from skepticism to acceptance) to lend credibility to Coué's methods.\",\n    \"If the audience values personal testimony and honesty, making the admission of skepticism rhetorically effective.\",\n    \"If the context involves evaluating psychological or self-improvement lectures, where initial doubt is relevant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker never actually attended Coué's lectures, making the confession insincere.\",\n    \"If the speaker uses the confession to claim impartiality while later endorsing Coué without sufficient evidence.\",\n    \"If the audience interprets 'entirely sceptical' as a factual claim about an absolute state, ignoring the poetic emphasis.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The speaker confesses a prior state of complete skepticism toward Coué's lectures, using the rhetorical frame of a personal admission to signal a shift in perspective or to invite the audience to consider the speaker's journey from doubt to potential belief.",
+    "implicit_claims": [
+      "The speaker attended or encountered Coué's lectures.",
+      "The speaker has a current perspective from which they look back on their earlier skepticism.",
+      "The act of confessing implies the skepticism was notable or significant.",
+      "The statement presupposes that being entirely skeptical is a stance worth confessing, possibly because it contrasts with later experience or common opinion."
+    ],
+    "coherence_assessment": "The statement is coherent: it expresses a past mental state (complete skepticism) in a self-reflective manner. There is no internal contradiction, and the confession tone aligns with standard confessional rhetoric.",
+    "conditions_for_usefulness": [
+      "If the speaker is setting up a narrative of changed opinion (e.g., from skepticism to acceptance) to lend credibility to Coué's methods.",
+      "If the audience values personal testimony and honesty, making the admission of skepticism rhetorically effective.",
+      "If the context involves evaluating psychological or self-improvement lectures, where initial doubt is relevant."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker never actually attended Coué's lectures, making the confession insincere.",
+      "If the speaker uses the confession to claim impartiality while later endorsing Coué without sufficient evidence.",
+      "If the audience interprets 'entirely sceptical' as a factual claim about an absolute state, ignoring the poetic emphasis."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 349,
+  "error": "",
+  "retry_count": 0
+}

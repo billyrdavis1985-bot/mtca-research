@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F7_author_anonymous__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:21:23.326957+00:00",
+  "wall_clock_seconds": 5.937326908111572,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a causal or expressive link between mental states and physical health, functioning as a general principle or warning\",\n  \"implicit_claims\": [\n    \"mental states categorized as 'sickly' exist and have direct physical effects\",\n    \"the body serves as an outlet or mirror for the quality of one's thoughts\",\n    \"physical illness can originate from or be shaped by thought patterns rather than solely external or biological factors\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a metaphorical assertion but relies on undefined terms ('sickly thoughts') and an assumed unidirectional causal direction without supporting mechanisms\",\n  \"conditions_for_usefulness\": \"empirical evidence exists linking negative thought patterns to measurable physiological outcomes, and the statement is applied in contexts like cognitive-behavioral interventions where mental reframing can influence health behaviors or symptoms\",\n  \"conditions_for_misleading\": \"physical illness is attributed primarily to thought quality while ignoring biomedical causes, or the statement discourages medical treatment in favor of mental attitude alone\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a causal or expressive link between mental states and physical health, functioning as a general principle or warning",
+    "implicit_claims": [
+      "mental states categorized as 'sickly' exist and have direct physical effects",
+      "the body serves as an outlet or mirror for the quality of one's thoughts",
+      "physical illness can originate from or be shaped by thought patterns rather than solely external or biological factors"
+    ],
+    "coherence_assessment": "internally consistent as a metaphorical assertion but relies on undefined terms ('sickly thoughts') and an assumed unidirectional causal direction without supporting mechanisms",
+    "conditions_for_usefulness": "empirical evidence exists linking negative thought patterns to measurable physiological outcomes, and the statement is applied in contexts like cognitive-behavioral interventions where mental reframing can influence health behaviors or symptoms",
+    "conditions_for_misleading": "physical illness is attributed primarily to thought quality while ignoring biomedical causes, or the statement discourages medical treatment in favor of mental attitude alone"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 264,
+  "output_tokens": 213,
+  "error": "",
+  "retry_count": 0
+}

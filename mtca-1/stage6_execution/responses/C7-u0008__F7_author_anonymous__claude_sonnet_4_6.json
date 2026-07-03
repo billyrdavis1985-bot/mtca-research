@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0008__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:29:09.878504+00:00",
+  "wall_clock_seconds": 15.213084936141968,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Prescriptive directive — the statement issues a behavioral instruction or guideline, telling someone what they should do (make amends) while also specifying a limiting exception condition.\",\n  \"implicit_claims\": [\n    \"There exists a category of 'such people' who are owed amends, implying prior wrongdoing or harm was committed against them.\",\n    \"Direct amends are generally beneficial or morally required.\",\n    \"It is possible to injure people or others by making amends, meaning the act of amends-making is not inherently harmless.\",\n    \"The person following this instruction has the judgment or ability to assess when amends would cause injury.\",\n    \"Making amends is a discrete, actionable behavior ('direct' implies personal, face-to-face or concrete action).\",\n    \"There is a moral hierarchy in which avoiding further harm supersedes the obligation to make amends.\",\n    \"The word 'wherever possible' implies that some amends may be logistically or practically impossible.\",\n    \"The instruction presupposes a prior process or context in which wrongdoing has already been identified and acknowledged.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It issues a positive duty (make amends) and qualifies it with a harm-prevention exception, which is logically consistent. The exception does not contradict the directive but subordinates it to a higher principle of non-harm. The language is consistent and the conditional structure is clear.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient has actually harmed others and has identified who those people are.\",\n    \"The recipient is in a position emotionally and practically to take action toward those people.\",\n    \"There is a shared understanding of what 'direct amends' means in the relevant context.\",\n    \"The recipient has the moral discernment or guidance to evaluate when amends might cause injury.\",\n    \"The context provides or implies criteria for what constitutes 'injury' to others.\",\n    \"The instruction is part of a broader structured process that supports accountability and behavior change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the exception ('would injure them or others') is interpreted too broadly, it could be used to rationalize avoiding all uncomfortable or difficult amends.\",\n    \"If 'direct amends' is undefined, people may substitute symbolic or insufficient gestures while believing they have complied.\",\n    \"If the recipient has not genuinely identified those they have harmed, the instruction may create a false sense of completion.\",\n    \"If no external guidance or community exists to help assess the injury exception, the self-serving bias of the wrongdoer may distort their judgment.\",\n    \"The phrase 'wherever possible' could be exploited as a loophole to avoid accountability under vague claims of impossibility.\",\n    \"Without context, the statement could be applied to situations it was not designed for, producing inappropriate outcomes.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Prescriptive directive — the statement issues a behavioral instruction or guideline, telling someone what they should do (make amends) while also specifying a limiting exception condition.",
+    "implicit_claims": [
+      "There exists a category of 'such people' who are owed amends, implying prior wrongdoing or harm was committed against them.",
+      "Direct amends are generally beneficial or morally required.",
+      "It is possible to injure people or others by making amends, meaning the act of amends-making is not inherently harmless.",
+      "The person following this instruction has the judgment or ability to assess when amends would cause injury.",
+      "Making amends is a discrete, actionable behavior ('direct' implies personal, face-to-face or concrete action).",
+      "There is a moral hierarchy in which avoiding further harm supersedes the obligation to make amends.",
+      "The word 'wherever possible' implies that some amends may be logistically or practically impossible.",
+      "The instruction presupposes a prior process or context in which wrongdoing has already been identified and acknowledged."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It issues a positive duty (make amends) and qualifies it with a harm-prevention exception, which is logically consistent. The exception does not contradict the directive but subordinates it to a higher principle of non-harm. The language is consistent and the conditional structure is clear.",
+    "conditions_for_usefulness": [
+      "The recipient has actually harmed others and has identified who those people are.",
+      "The recipient is in a position emotionally and practically to take action toward those people.",
+      "There is a shared understanding of what 'direct amends' means in the relevant context.",
+      "The recipient has the moral discernment or guidance to evaluate when amends might cause injury.",
+      "The context provides or implies criteria for what constitutes 'injury' to others.",
+      "The instruction is part of a broader structured process that supports accountability and behavior change."
+    ],
+    "conditions_for_misleading": [
+      "If the exception ('would injure them or others') is interpreted too broadly, it could be used to rationalize avoiding all uncomfortable or difficult amends.",
+      "If 'direct amends' is undefined, people may substitute symbolic or insufficient gestures while believing they have complied.",
+      "If the recipient has not genuinely identified those they have harmed, the instruction may create a false sense of completion.",
+      "If no external guidance or community exists to help assess the injury exception, the self-serving bias of the wrongdoer may distort their judgment.",
+      "The phrase 'wherever possible' could be exploited as a loophole to avoid accountability under vague claims of impossibility.",
+      "Without context, the statement could be applied to situations it was not designed for, producing inappropriate outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 667,
+  "error": "",
+  "retry_count": 0
+}

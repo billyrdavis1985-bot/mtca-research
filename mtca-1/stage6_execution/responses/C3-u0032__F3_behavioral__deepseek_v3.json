@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0032__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:29:13.846065+00:00",
+  "wall_clock_seconds": 5.543245077133179,
+  "raw_response": "{\n  \"communicative_function\": \"It expresses a commitment to a specific ethical ideal, defining virtuous conduct as the absence of certain negative mental and emotional states.\",\n  \"implicit_claims\": [\n    \"Violent passion, evil affection, rashness, vanity, and discontent are morally problematic and can be avoided.\",\n    \"A person has agency over their internal states (passions, affections, etc.) and can choose purity from them.\",\n    \"There exist gods (or a divine order) that humans may be discontent with, and such discontent is possible but undesirable.\",\n    \"Service or virtuous living is primarily about internal restraint rather than external action.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it defines 'service' as a state of inner purity, listing specific exclusions (passion, discontent, etc.) that form a consistent set of vices to avoid. The logic is clear and self-contained.\",\n  \"conditions_for_usefulness\": [\n    \"The person believes that internal emotional discipline is a high priority or form of service.\",\n    \"The person has a framework (e.g., Stoic or religious) that values such self-purification.\",\n    \"The person is capable of self-reflection and self-regulation to identify and avoid these states.\",\n    \"The context allows for focusing on inner life rather than external circumstances.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as requiring total suppression of all emotion, which may be psychologically harmful or impossible.\",\n    \"If used to dismiss legitimate discontent with injustice (e.g., 'discontent with men') as a vice.\",\n    \"If the speaker or hearer lacks the means to distinguish 'violent passion' from healthy emotion, leading to confusion.\",\n    \"If the statement implies that such purity is achievable without addressing systemic or external sources of suffering.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It expresses a commitment to a specific ethical ideal, defining virtuous conduct as the absence of certain negative mental and emotional states.",
+    "implicit_claims": [
+      "Violent passion, evil affection, rashness, vanity, and discontent are morally problematic and can be avoided.",
+      "A person has agency over their internal states (passions, affections, etc.) and can choose purity from them.",
+      "There exist gods (or a divine order) that humans may be discontent with, and such discontent is possible but undesirable.",
+      "Service or virtuous living is primarily about internal restraint rather than external action."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it defines 'service' as a state of inner purity, listing specific exclusions (passion, discontent, etc.) that form a consistent set of vices to avoid. The logic is clear and self-contained.",
+    "conditions_for_usefulness": [
+      "The person believes that internal emotional discipline is a high priority or form of service.",
+      "The person has a framework (e.g., Stoic or religious) that values such self-purification.",
+      "The person is capable of self-reflection and self-regulation to identify and avoid these states.",
+      "The context allows for focusing on inner life rather than external circumstances."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as requiring total suppression of all emotion, which may be psychologically harmful or impossible.",
+      "If used to dismiss legitimate discontent with injustice (e.g., 'discontent with men') as a vice.",
+      "If the speaker or hearer lacks the means to distinguish 'violent passion' from healthy emotion, leading to confusion.",
+      "If the statement implies that such purity is achievable without addressing systemic or external sources of suffering."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 378,
+  "error": "",
+  "retry_count": 0
+}

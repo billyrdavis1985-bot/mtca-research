@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0081__F3_behavioral__grok_4",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:07:55.072714+00:00",
+  "wall_clock_seconds": 7.333881139755249,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a normative reframing of suffering as purposeful purification, functioning as a value-commitment to interpret adversity through a lens of self-purification rather than victimhood or meaninglessness\",\n  \"implicit_claims\": [\n    \"suffering possesses a singular, supreme telos\",\n    \"purification requires the elimination of something 'useless and impure' within the self\",\n    \"all other apparent uses or interpretations of suffering are subordinate or illusory\",\n    \"the process is reliably transformative when accepted\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a teleological or ascetic framework but rests on an unsubstantiated exclusivity claim that excludes non-purifying experiences of suffering\",\n  \"conditions_for_usefulness\": \"the individual must hold (or be willing to adopt) a worldview in which suffering can be meaningfully directed toward self-improvement, and the framing must increase resilience without encouraging masochism or denial of external causes\",\n  \"conditions_for_misleading\": \"suffering frequently lacks purifying outcomes, external harms are misattributed to internal impurity, or the claim is used to rationalize avoidable suffering or suppress legitimate protest\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a normative reframing of suffering as purposeful purification, functioning as a value-commitment to interpret adversity through a lens of self-purification rather than victimhood or meaninglessness",
+    "implicit_claims": [
+      "suffering possesses a singular, supreme telos",
+      "purification requires the elimination of something 'useless and impure' within the self",
+      "all other apparent uses or interpretations of suffering are subordinate or illusory",
+      "the process is reliably transformative when accepted"
+    ],
+    "coherence_assessment": "internally consistent within a teleological or ascetic framework but rests on an unsubstantiated exclusivity claim that excludes non-purifying experiences of suffering",
+    "conditions_for_usefulness": "the individual must hold (or be willing to adopt) a worldview in which suffering can be meaningfully directed toward self-improvement, and the framing must increase resilience without encouraging masochism or denial of external causes",
+    "conditions_for_misleading": "suffering frequently lacks purifying outcomes, external harms are misattributed to internal impurity, or the claim is used to rationalize avoidable suffering or suppress legitimate protest"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 278,
+  "output_tokens": 238,
+  "error": "",
+  "retry_count": 0
+}

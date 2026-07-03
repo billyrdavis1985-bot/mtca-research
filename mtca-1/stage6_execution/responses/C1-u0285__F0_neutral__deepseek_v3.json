@@ -1,0 +1,39 @@
+{
+  "call_id": "C1-u0285__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:30:06.466652+00:00",
+  "wall_clock_seconds": 4.161435604095459,
+  "raw_response": "{\n  \"communicative_function\": \"Rhetorical rebuttal challenging an objection by shifting the burden of proof and employing a tu quoque or 'everything is dangerous' argument.\",\n  \"implicit_claims\": [\n    \"The claimed danger is either nonexistent or negligible.\",\n    \"All commonly used things carry some risk, so singling out this one is inconsistent.\",\n    \"The objector's standard of safety is unreasonably strict or hypocritical.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its logical form (if everything is dangerous, singling out one item is arbitrary), but it equivocates on the meaning of 'danger'—ignoring differences in degree or likelihood of harm.\",\n  \"conditions_for_usefulness\": [\n    \"The objector actually applies an inconsistent standard to other accepted risks.\",\n    \"The audience accepts that common use implies acceptable risk.\",\n    \"The danger in question is indeed comparable in magnitude to everyday risks.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The item's danger is qualitatively different or far greater than typical everyday risks.\",\n    \"The objector does not accept the 'everything is dangerous' premise in general.\",\n    \"The speaker dismisses legitimate concerns by falsely equating minor and major hazards.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Rhetorical rebuttal challenging an objection by shifting the burden of proof and employing a tu quoque or 'everything is dangerous' argument.",
+    "implicit_claims": [
+      "The claimed danger is either nonexistent or negligible.",
+      "All commonly used things carry some risk, so singling out this one is inconsistent.",
+      "The objector's standard of safety is unreasonably strict or hypocritical."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its logical form (if everything is dangerous, singling out one item is arbitrary), but it equivocates on the meaning of 'danger'—ignoring differences in degree or likelihood of harm.",
+    "conditions_for_usefulness": [
+      "The objector actually applies an inconsistent standard to other accepted risks.",
+      "The audience accepts that common use implies acceptable risk.",
+      "The danger in question is indeed comparable in magnitude to everyday risks."
+    ],
+    "conditions_for_misleading": [
+      "The item's danger is qualitatively different or far greater than typical everyday risks.",
+      "The objector does not accept the 'everything is dangerous' premise in general.",
+      "The speaker dismisses legitimate concerns by falsely equating minor and major hazards."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 266,
+  "error": "",
+  "retry_count": 0
+}

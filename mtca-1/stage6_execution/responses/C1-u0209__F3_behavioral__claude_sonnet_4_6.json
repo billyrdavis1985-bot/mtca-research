@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0209__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:20:49.913442+00:00",
+  "wall_clock_seconds": 13.825103998184204,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing a procedural directive or clinical guideline, instructing a practitioner on how to administer therapeutic suggestions over time, framed as a protocol for achieving and confirming cure.\",\n  \"implicit_claims\": [\n    \"Therapeutic suggestions require repetition to be effective.\",\n    \"The frequency of suggestion delivery can and should be systematically reduced over time.\",\n    \"Progress from suggestions is measurable or at least detectable.\",\n    \"There is a definable endpoint ('cure') at which suggestions are no longer needed.\",\n    \"Individual subjects differ in how frequently they need suggestions renewed.\",\n    \"The practitioner has sufficient judgment to assess 'progress obtained' and adjust spacing accordingly.\",\n    \"Tapering the frequency of suggestions is causally linked to or reflects the subject's improvement.\",\n    \"The relationship between suggestion frequency and outcome is predictable enough to follow a general rule.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a procedural heuristic. It follows a logical arc: individualize frequency, progressively space out sessions, and terminate when the goal is reached. However, it circularly defines cure as the point when suggestions are no longer necessary, without independently specifying what 'cure' means, which creates a tautological endpoint criterion.\",\n  \"conditions_for_usefulness\": [\n    \"The therapeutic modality (e.g., hypnotherapy, behavioral suggestion) is empirically supported for the condition being treated.\",\n    \"Progress can be reliably assessed by the practitioner or reported by the subject.\",\n    \"The subject responds to suggestions in a measurable way.\",\n    \"'Cure' or remission is a realistic and definable outcome for the condition.\",\n    \"The practitioner has training to calibrate suggestion frequency appropriately.\",\n    \"The subject's condition does not require ongoing maintenance rather than a discrete cure.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition being treated is chronic or relapsing and does not admit of a discrete 'cure'.\",\n    \"There is no reliable method to assess 'progress obtained', making spacing decisions arbitrary.\",\n    \"The practitioner interprets reduced need for sessions as cure when symptoms have merely been suppressed.\",\n    \"The framework is applied to conditions for which suggestion-based therapy is not evidence-based.\",\n    \"The subject or practitioner conflates compliance or behavioral change during sessions with lasting therapeutic benefit.\",\n    \"The protocol creates dependency on the practitioner's judgment in ways that are not transparent to the subject.\",\n    \"The language of 'cure' sets unrealistic expectations, leading to premature termination of care.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing a procedural directive or clinical guideline, instructing a practitioner on how to administer therapeutic suggestions over time, framed as a protocol for achieving and confirming cure.",
+    "implicit_claims": [
+      "Therapeutic suggestions require repetition to be effective.",
+      "The frequency of suggestion delivery can and should be systematically reduced over time.",
+      "Progress from suggestions is measurable or at least detectable.",
+      "There is a definable endpoint ('cure') at which suggestions are no longer needed.",
+      "Individual subjects differ in how frequently they need suggestions renewed.",
+      "The practitioner has sufficient judgment to assess 'progress obtained' and adjust spacing accordingly.",
+      "Tapering the frequency of suggestions is causally linked to or reflects the subject's improvement.",
+      "The relationship between suggestion frequency and outcome is predictable enough to follow a general rule."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a procedural heuristic. It follows a logical arc: individualize frequency, progressively space out sessions, and terminate when the goal is reached. However, it circularly defines cure as the point when suggestions are no longer necessary, without independently specifying what 'cure' means, which creates a tautological endpoint criterion.",
+    "conditions_for_usefulness": [
+      "The therapeutic modality (e.g., hypnotherapy, behavioral suggestion) is empirically supported for the condition being treated.",
+      "Progress can be reliably assessed by the practitioner or reported by the subject.",
+      "The subject responds to suggestions in a measurable way.",
+      "'Cure' or remission is a realistic and definable outcome for the condition.",
+      "The practitioner has training to calibrate suggestion frequency appropriately.",
+      "The subject's condition does not require ongoing maintenance rather than a discrete cure."
+    ],
+    "conditions_for_misleading": [
+      "The condition being treated is chronic or relapsing and does not admit of a discrete 'cure'.",
+      "There is no reliable method to assess 'progress obtained', making spacing decisions arbitrary.",
+      "The practitioner interprets reduced need for sessions as cure when symptoms have merely been suppressed.",
+      "The framework is applied to conditions for which suggestion-based therapy is not evidence-based.",
+      "The subject or practitioner conflates compliance or behavioral change during sessions with lasting therapeutic benefit.",
+      "The protocol creates dependency on the practitioner's judgment in ways that are not transparent to the subject.",
+      "The language of 'cure' sets unrealistic expectations, leading to premature termination of care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 207,
+  "output_tokens": 599,
+  "error": "",
+  "retry_count": 0
+}

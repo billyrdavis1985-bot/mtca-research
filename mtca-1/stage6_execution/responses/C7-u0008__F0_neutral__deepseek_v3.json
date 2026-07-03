@@ -1,0 +1,40 @@
+{
+  "call_id": "C7-u0008__F0_neutral__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:24:39.633604+00:00",
+  "wall_clock_seconds": 3.8809187412261963,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a moral principle or guideline for action, with a built-in exception to prevent harm.\",\n  \"implicit_claims\": [\n    \"Direct amends are generally a good or necessary action.\",\n    \"There are circumstances where making amends could cause injury to the person making amends or to others.\",\n    \"Avoiding harm to self or others may override the obligation to make amends.\",\n    \"The actor is capable of judging whether making amends would cause injury.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a principle: it sets a primary duty and then qualifies it with a harm-avoidance exception, which is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The person has a clear understanding of what constitutes 'direct amends' and 'injury'.\",\n    \"There is genuine opportunity to make amends without causing disproportionate harm.\",\n    \"The person is motivated to act on the principle and can discern relevant situations.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The term 'injury' is interpreted too broadly or subjectively, allowing avoidance of justified amends.\",\n    \"The person uses the exception as an excuse for inaction rather than a genuine ethical judgment.\",\n    \"The principle is applied without considering the long-term vs. short-term nature of harm.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a moral principle or guideline for action, with a built-in exception to prevent harm.",
+    "implicit_claims": [
+      "Direct amends are generally a good or necessary action.",
+      "There are circumstances where making amends could cause injury to the person making amends or to others.",
+      "Avoiding harm to self or others may override the obligation to make amends.",
+      "The actor is capable of judging whether making amends would cause injury."
+    ],
+    "coherence_assessment": "Internally coherent as a principle: it sets a primary duty and then qualifies it with a harm-avoidance exception, which is logically consistent.",
+    "conditions_for_usefulness": [
+      "The person has a clear understanding of what constitutes 'direct amends' and 'injury'.",
+      "There is genuine opportunity to make amends without causing disproportionate harm.",
+      "The person is motivated to act on the principle and can discern relevant situations."
+    ],
+    "conditions_for_misleading": [
+      "The term 'injury' is interpreted too broadly or subjectively, allowing avoidance of justified amends.",
+      "The person uses the exception as an excuse for inaction rather than a genuine ethical judgment.",
+      "The principle is applied without considering the long-term vs. short-term nature of harm."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 138,
+  "output_tokens": 282,
+  "error": "",
+  "retry_count": 0
+}

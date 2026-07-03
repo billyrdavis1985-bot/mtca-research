@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:17:05.409765+00:00",
+  "wall_clock_seconds": 2.7407572269439697,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to highlight the connection between mental and physical health, suggesting that negative thoughts can manifest as physical symptoms.\",\n  \"implicit_claims\": [\n    \"There is a direct relationship between one's thoughts and one's physical health.\",\n    \"Negative thinking can lead to or exacerbate physical illness.\",\n    \"The mind and body are interconnected in a meaningful way.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent if understood within a holistic framework that acknowledges the psychosomatic connection. It aligns with the idea that mental states can influence physical health, though it lacks specificity and scientific quantification.\",\n  \"conditions_for_usefulness\": \"The statement is useful if an individual believes in the psychosomatic connection and is motivated to address negative thought patterns to potentially improve physical health. It also assumes that interventions on thought processes could lead to improved physical well-being.\",\n  \"conditions_for_misleading\": \"The statement can be misleading if taken as a universal truth without scientific support or if it leads to victim-blaming, suggesting that illness is solely due to one's negative thoughts. It is also misleading if it discourages seeking conventional medical treatments by implying that changing thoughts is sufficient for curing physical illness.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to highlight the connection between mental and physical health, suggesting that negative thoughts can manifest as physical symptoms.",
+    "implicit_claims": [
+      "There is a direct relationship between one's thoughts and one's physical health.",
+      "Negative thinking can lead to or exacerbate physical illness.",
+      "The mind and body are interconnected in a meaningful way."
+    ],
+    "coherence_assessment": "The statement is coherent if understood within a holistic framework that acknowledges the psychosomatic connection. It aligns with the idea that mental states can influence physical health, though it lacks specificity and scientific quantification.",
+    "conditions_for_usefulness": "The statement is useful if an individual believes in the psychosomatic connection and is motivated to address negative thought patterns to potentially improve physical health. It also assumes that interventions on thought processes could lead to improved physical well-being.",
+    "conditions_for_misleading": "The statement can be misleading if taken as a universal truth without scientific support or if it leads to victim-blaming, suggesting that illness is solely due to one's negative thoughts. It is also misleading if it discourages seeking conventional medical treatments by implying that changing thoughts is sufficient for curing physical illness."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 252,
+  "error": "",
+  "retry_count": 0
+}

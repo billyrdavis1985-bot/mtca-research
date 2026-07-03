@@ -1,0 +1,41 @@
+{
+  "call_id": "C5-u0110__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:15:25.167244+00:00",
+  "wall_clock_seconds": 5.16835618019104,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a causal relationship between the nature of one's thoughts and the physical state of one's body, exhorting the reader to cultivate positive thoughts for health and beauty.\",\n  \"implicit_claims\": [\n    \"Unlawful or negative thoughts directly cause physical disease and decay.\",\n    \"Glad and beautiful thoughts directly cause physical youthfulness and beauty.\",\n    \"The mind has a direct, deterministic power over bodily health and appearance.\",\n    \"Thoughts can be classified as morally 'unlawful' or 'beautiful', implying a moral dimension to health outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a cause-and-effect analogy, but it relies on a strong metaphysical assumption that thoughts directly and immediately produce physical changes, which lacks empirical support in modern science.\",\n  \"conditions_for_usefulness\": [\n    \"If the statement is understood metaphorically or as a self-help encouragement, it could be useful for motivating positive thinking and lifestyle changes.\",\n    \"If there is a proven psychosomatic link between positive mental states and improved health outcomes, the statement could provide practical guidance.\",\n    \"If the reader adopts it as a personal philosophy to foster optimism and self-discipline, it may improve their well-being.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, it misleads by denying the role of genetics, environment, pathogens, and other physical causes of disease.\",\n    \"If used to blame individuals for their illnesses (e.g., 'you got sick because of your bad thoughts'), it is harmful and unscientific.\",\n    \"If it discourages seeking medical treatment in favor of mental effort alone, it becomes dangerous.\",\n    \"If the statement is interpreted as a universal law, it ignores the reality that many healthy people have negative thoughts and vice versa.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a causal relationship between the nature of one's thoughts and the physical state of one's body, exhorting the reader to cultivate positive thoughts for health and beauty.",
+    "implicit_claims": [
+      "Unlawful or negative thoughts directly cause physical disease and decay.",
+      "Glad and beautiful thoughts directly cause physical youthfulness and beauty.",
+      "The mind has a direct, deterministic power over bodily health and appearance.",
+      "Thoughts can be classified as morally 'unlawful' or 'beautiful', implying a moral dimension to health outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a cause-and-effect analogy, but it relies on a strong metaphysical assumption that thoughts directly and immediately produce physical changes, which lacks empirical support in modern science.",
+    "conditions_for_usefulness": [
+      "If the statement is understood metaphorically or as a self-help encouragement, it could be useful for motivating positive thinking and lifestyle changes.",
+      "If there is a proven psychosomatic link between positive mental states and improved health outcomes, the statement could provide practical guidance.",
+      "If the reader adopts it as a personal philosophy to foster optimism and self-discipline, it may improve their well-being."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, it misleads by denying the role of genetics, environment, pathogens, and other physical causes of disease.",
+      "If used to blame individuals for their illnesses (e.g., 'you got sick because of your bad thoughts'), it is harmful and unscientific.",
+      "If it discourages seeking medical treatment in favor of mental effort alone, it becomes dangerous.",
+      "If the statement is interpreted as a universal law, it ignores the reality that many healthy people have negative thoughts and vice versa."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 381,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0001__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:52:43.958216+00:00",
+  "wall_clock_seconds": 5.518623352050781,
+  "raw_response": "{\n  \"communicative_function\": \"Self-instruction or commitment to a cognitive reappraisal strategy for managing catastrophizing.\",\n  \"implicit_claims\": [\n    \"The speaker sometimes engages in catastrophizing.\",\n    \"Catastrophizing involves imagining a worst case that may not be realistic.\",\n    \"The speaker has the ability to recognize when they are catastrophizing.\",\n    \"Asking about the realistic worst case is a potentially helpful response to catastrophizing.\",\n    \"There is a distinction between a catastrophic (irrational) worst case and a realistic worst case.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It describes a specific self-check (catching catastrophizing) and a concrete next step (asking about realistic worst case), which aligns logically with typical cognitive behavioral approaches.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker can reliably identify catastrophizing in the moment.\",\n    \"The speaker has the cognitive flexibility to switch from an automatic catastrophic thought to a reflective question.\",\n    \"The realistic worst case is indeed less severe than the catastrophized version.\",\n    \"The speaker is not in a situation where the realistic worst case is genuinely catastrophic and requires immediate action rather than reflection.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this query as a way to avoid addressing real dangers (i.e., the realistic worst case is actually severe but is minimized).\",\n    \"The speaker confuses 'realistic worst case' with an overly optimistic or dismissive reinterpretation.\",\n    \"The statement becomes a rigid rule that prevents the speaker from ever taking catastrophic possibilities seriously when they are warranted.\",\n    \"The speaker lacks the emotional capacity to tolerate the realistic worst case, leading to increased anxiety upon imagining it.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-instruction or commitment to a cognitive reappraisal strategy for managing catastrophizing.",
+    "implicit_claims": [
+      "The speaker sometimes engages in catastrophizing.",
+      "Catastrophizing involves imagining a worst case that may not be realistic.",
+      "The speaker has the ability to recognize when they are catastrophizing.",
+      "Asking about the realistic worst case is a potentially helpful response to catastrophizing.",
+      "There is a distinction between a catastrophic (irrational) worst case and a realistic worst case."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It describes a specific self-check (catching catastrophizing) and a concrete next step (asking about realistic worst case), which aligns logically with typical cognitive behavioral approaches.",
+    "conditions_for_usefulness": [
+      "The speaker can reliably identify catastrophizing in the moment.",
+      "The speaker has the cognitive flexibility to switch from an automatic catastrophic thought to a reflective question.",
+      "The realistic worst case is indeed less severe than the catastrophized version.",
+      "The speaker is not in a situation where the realistic worst case is genuinely catastrophic and requires immediate action rather than reflection."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this query as a way to avoid addressing real dangers (i.e., the realistic worst case is actually severe but is minimized).",
+      "The speaker confuses 'realistic worst case' with an overly optimistic or dismissive reinterpretation.",
+      "The statement becomes a rigid rule that prevents the speaker from ever taking catastrophic possibilities seriously when they are warranted.",
+      "The speaker lacks the emotional capacity to tolerate the realistic worst case, leading to increased anxiety upon imagining it."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 138,
+  "output_tokens": 365,
+  "error": "",
+  "retry_count": 0
+}

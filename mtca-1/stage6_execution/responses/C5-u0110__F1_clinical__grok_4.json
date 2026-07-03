@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0110__F1_clinical__grok_4",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:11:54.548254+00:00",
+  "wall_clock_seconds": 6.885664701461792,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a direct causal mechanism between thought valence and somatic outcomes as a prescriptive cognitive rule for self-regulation\",\n  \"implicit_claims\": [\n    \"thoughts possess literal command authority over physiological processes\",\n    \"moral valence of cognition ('unlawful' vs. 'glad and beautiful') maps isomorphically onto health versus decay\",\n    \"somatic aging and disease are primarily volitional products of mental content rather than multifactorial biological processes\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a monistic idealist ontology but contains category errors between mental events and cellular pathology; the binary causal mapping is logically tidy yet empirically underspecified\",\n  \"conditions_for_usefulness\": \"the statement functions as a heuristic prompt that increases engagement in verifiable health behaviors (sleep, movement, social connection) and reduces perseverative negative rumination without displacing medical care\",\n  \"conditions_for_misleading\": \"the statement is interpreted as a sufficient etiological account, leading individuals to attribute disease solely to 'wrong' thoughts and to defer evidence-based diagnosis or treatment\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a direct causal mechanism between thought valence and somatic outcomes as a prescriptive cognitive rule for self-regulation",
+    "implicit_claims": [
+      "thoughts possess literal command authority over physiological processes",
+      "moral valence of cognition ('unlawful' vs. 'glad and beautiful') maps isomorphically onto health versus decay",
+      "somatic aging and disease are primarily volitional products of mental content rather than multifactorial biological processes"
+    ],
+    "coherence_assessment": "internally consistent within a monistic idealist ontology but contains category errors between mental events and cellular pathology; the binary causal mapping is logically tidy yet empirically underspecified",
+    "conditions_for_usefulness": "the statement functions as a heuristic prompt that increases engagement in verifiable health behaviors (sleep, movement, social connection) and reduces perseverative negative rumination without displacing medical care",
+    "conditions_for_misleading": "the statement is interpreted as a sufficient etiological account, leading individuals to attribute disease solely to 'wrong' thoughts and to defer evidence-based diagnosis or treatment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 291,
+  "output_tokens": 226,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0003__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:07:54.214849+00:00",
+  "wall_clock_seconds": 5.030367374420166,
+  "raw_response": "{\n  \"communicative_function\": \"It serves to validate the subjective reality of emotions while cautioning against treating them as objective truths about external circumstances.\",\n  \"implicit_claims\": [\n    \"Feelings are a form of information about one's internal state.\",\n    \"Feelings can be inaccurate representations of external reality.\",\n    \"It is possible to distinguish between the accuracy of feelings about self versus world.\",\n    \"The speaker or hearer may have previously conflated feelings with factual accuracy.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it distinguishes between two types of accuracy (self vs. world) without contradiction, and the modifier 'real information' does not conflict with 'not always accurate' because information can be real yet incomplete or misleading.\",\n  \"conditions_for_usefulness\": [\n    \"The person using it is prone to overinterpreting emotions as facts about external events.\",\n    \"They seek to integrate emotional self-awareness with rational reality-testing.\",\n    \"They are in a context where emotional validation and cognitive reappraisal are both valued.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken to mean that feelings are never accurate about the world, ignoring cases where emotions correctly signal danger or social cues.\",\n    \"If used to dismiss or invalidate another person's feelings as 'merely subjective' in a harmful way.\",\n    \"If the listener believes that all feelings are equally untrustworthy, leading to emotional suppression or distrust of intuition.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It serves to validate the subjective reality of emotions while cautioning against treating them as objective truths about external circumstances.",
+    "implicit_claims": [
+      "Feelings are a form of information about one's internal state.",
+      "Feelings can be inaccurate representations of external reality.",
+      "It is possible to distinguish between the accuracy of feelings about self versus world.",
+      "The speaker or hearer may have previously conflated feelings with factual accuracy."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it distinguishes between two types of accuracy (self vs. world) without contradiction, and the modifier 'real information' does not conflict with 'not always accurate' because information can be real yet incomplete or misleading.",
+    "conditions_for_usefulness": [
+      "The person using it is prone to overinterpreting emotions as facts about external events.",
+      "They seek to integrate emotional self-awareness with rational reality-testing.",
+      "They are in a context where emotional validation and cognitive reappraisal are both valued."
+    ],
+    "conditions_for_misleading": [
+      "If taken to mean that feelings are never accurate about the world, ignoring cases where emotions correctly signal danger or social cues.",
+      "If used to dismiss or invalidate another person's feelings as 'merely subjective' in a harmful way.",
+      "If the listener believes that all feelings are equally untrustworthy, leading to emotional suppression or distrust of intuition."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 306,
+  "error": "",
+  "retry_count": 0
+}

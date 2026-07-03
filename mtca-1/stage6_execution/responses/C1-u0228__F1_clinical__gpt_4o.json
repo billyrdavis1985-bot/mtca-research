@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0228__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:24:51.026476+00:00",
+  "wall_clock_seconds": 2.983574628829956,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to highlight the impact of a healthcare provider's communication on patient outcomes, specifically in terms of suggestion and psychological influence.\",\n  \"implicit_claims\": [\n    \"Doctors have a significant psychological influence on patients due to their authority.\",\n    \"The way in which a doctor communicates a prognosis can affect patient outcomes.\",\n    \"Positive suggestions can lead to better health outcomes, even in serious cases.\",\n    \"Negative statements by doctors can contribute to a patient's decline.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it logically connects the influence of a doctor's communication style to patient outcomes, emphasizing the potential positive impact of positive reinforcement and the negative impact of negative messaging.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if doctors have both the authority and the ability to influence patient expectations and outcomes through communication. It is also useful in environments where psychological factors significantly affect health outcomes, especially in cases where patient belief and mindset can alter the course of an illness.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the patient's condition is purely physiological with no psychological component to treatment, or if this approach leads to false hope without proper evidence-based interventions being applied. Additionally, it is misleading if suggesting positivity without honesty about the seriousness of a condition undermines the necessity of evidence-based medical treatment.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to highlight the impact of a healthcare provider's communication on patient outcomes, specifically in terms of suggestion and psychological influence.",
+    "implicit_claims": [
+      "Doctors have a significant psychological influence on patients due to their authority.",
+      "The way in which a doctor communicates a prognosis can affect patient outcomes.",
+      "Positive suggestions can lead to better health outcomes, even in serious cases.",
+      "Negative statements by doctors can contribute to a patient's decline."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it logically connects the influence of a doctor's communication style to patient outcomes, emphasizing the potential positive impact of positive reinforcement and the negative impact of negative messaging.",
+    "conditions_for_usefulness": "This statement would be useful if doctors have both the authority and the ability to influence patient expectations and outcomes through communication. It is also useful in environments where psychological factors significantly affect health outcomes, especially in cases where patient belief and mindset can alter the course of an illness.",
+    "conditions_for_misleading": "The statement could be misleading if the patient's condition is purely physiological with no psychological component to treatment, or if this approach leads to false hope without proper evidence-based interventions being applied. Additionally, it is misleading if suggesting positivity without honesty about the seriousness of a condition undermines the necessity of evidence-based medical treatment."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 244,
+  "output_tokens": 285,
+  "error": "",
+  "retry_count": 0
+}

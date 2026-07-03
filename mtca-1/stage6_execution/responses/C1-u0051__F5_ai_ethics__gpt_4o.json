@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F5_ai_ethics__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:05:43.808837+00:00",
+  "wall_clock_seconds": 2.7208967208862305,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides an observation or consequence regarding a person's behavior in the context of sleep.\",\n  \"implicit_claims\": [\n    \"The person in question experiences a lack of effort towards sleep.\",\n    \"Lying quietly is a consequence or option in the absence of effort to sleep.\",\n    \"Remaining quietly in bed is portrayed as a value-neutral or possible viable alternative to actively trying to sleep.\"\n  ],\n  \"coherence_assessment\": \"The statement lacks internal coherence as a guide for AI ethics, because it is more descriptive of behavior than prescriptive of values or ethical considerations regarding AI systems and human values.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if contextualized in a discussion on designing AI for sleep management or health, emphasizing the importance of inactivity or rest even in the absence of sleep.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if interpreted as making an ethical or value-laden claim about the importance of inactivity or suggesting that not actively trying to sleep is recommended or beneficial without considering broader health contexts.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides an observation or consequence regarding a person's behavior in the context of sleep.",
+    "implicit_claims": [
+      "The person in question experiences a lack of effort towards sleep.",
+      "Lying quietly is a consequence or option in the absence of effort to sleep.",
+      "Remaining quietly in bed is portrayed as a value-neutral or possible viable alternative to actively trying to sleep."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence as a guide for AI ethics, because it is more descriptive of behavior than prescriptive of values or ethical considerations regarding AI systems and human values.",
+    "conditions_for_usefulness": "The statement could be useful if contextualized in a discussion on designing AI for sleep management or health, emphasizing the importance of inactivity or rest even in the absence of sleep.",
+    "conditions_for_misleading": "The statement may be misleading if interpreted as making an ethical or value-laden claim about the importance of inactivity or suggesting that not actively trying to sleep is recommended or beneficial without considering broader health contexts."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 226,
+  "error": "",
+  "retry_count": 0
+}

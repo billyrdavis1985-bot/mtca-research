@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0228__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:28:51.388628+00:00",
+  "wall_clock_seconds": 3.731691598892212,
+  "raw_response": "{\n  \"communicative_function\": \"The statement illustrates the power of suggestion in medical practice, contrasting the harmful effects of negative suggestions with the beneficial effects of positive ones.\",\n  \"implicit_claims\": [\n    \"A doctor's title inherently carries suggestive influence over a patient.\",\n    \"Negative suggestions from a doctor can trigger harmful autosuggestions in a patient's mind.\",\n    \"Positive suggestions from a doctor can lead to surprising therapeutic results even in serious illnesses.\",\n    \"The patient's own mind plays a causal role in the outcome of treatment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear causal contrast between two scenarios with expected outcomes.\",\n  \"conditions_for_usefulness\": [\n    \"The doctor truly has suggestive influence over the patient.\",\n    \"The patient is receptive to autosuggestion.\",\n    \"The illness is at least potentially responsive to psychological factors.\",\n    \"Positive suggestion can realistically influence the course of the illness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The illness is genuinely incurable regardless of suggestion.\",\n    \"The patient interprets the positive suggestion as false hope, leading to disappointment.\",\n    \"The doctor's positive suggestion leads the patient to neglect necessary medical treatment.\",\n    \"The statement is taken to mean that all illnesses can be cured by suggestion alone.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement illustrates the power of suggestion in medical practice, contrasting the harmful effects of negative suggestions with the beneficial effects of positive ones.",
+    "implicit_claims": [
+      "A doctor's title inherently carries suggestive influence over a patient.",
+      "Negative suggestions from a doctor can trigger harmful autosuggestions in a patient's mind.",
+      "Positive suggestions from a doctor can lead to surprising therapeutic results even in serious illnesses.",
+      "The patient's own mind plays a causal role in the outcome of treatment."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear causal contrast between two scenarios with expected outcomes.",
+    "conditions_for_usefulness": [
+      "The doctor truly has suggestive influence over the patient.",
+      "The patient is receptive to autosuggestion.",
+      "The illness is at least potentially responsive to psychological factors.",
+      "Positive suggestion can realistically influence the course of the illness."
+    ],
+    "conditions_for_misleading": [
+      "The illness is genuinely incurable regardless of suggestion.",
+      "The patient interprets the positive suggestion as false hope, leading to disappointment.",
+      "The doctor's positive suggestion leads the patient to neglect necessary medical treatment.",
+      "The statement is taken to mean that all illnesses can be cured by suggestion alone."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 233,
+  "output_tokens": 273,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "C3-u0013__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:14:47.125714+00:00",
+  "wall_clock_seconds": 14.277828693389893,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is citing an ancient philosophical authority (Theophrastus) to lend credibility to a moral distinction between types of sin, while simultaneously hedging with a parenthetical qualification that concedes the act of comparing sins is only valid in a 'vulgar' or common sense. It functions as a qualified endorsement of a hierarchical moral claim.\",\n  \"implicit_claims\": [\n    \"Sins can be ranked or compared in severity, at least in some sense.\",\n    \"There is a 'higher' philosophical sense in which sins may not be directly comparable, distinct from the 'vulgar' sense.\",\n    \"Lust-driven sins are morally worse than anger-driven sins.\",\n    \"Theophrastus is a credible philosophical authority on moral matters.\",\n    \"Philosophical reasoning can adjudicate between the severity of moral failings.\",\n    \"The distinction between motivations (lust vs. anger) is morally relevant to the severity of sin.\",\n    \"Anger-driven sins may involve less deliberation or intent than lust-driven ones, making the latter more culpable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally somewhat strained. The speaker simultaneously validates comparing sins ('such things I grant may be compared') and qualifies it as only 'vulgar' or common-level reasoning, suggesting a tension between endorsing the comparison and distancing from it. The conclusion attributed to Theophrastus is coherent on its own terms — lust implies premeditation and deliberate choice, while anger is more impulsive — but the hedging creates ambiguity about the author's actual commitment to the claim.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts classical philosophical authority as relevant to moral reasoning.\",\n    \"The distinction between lust and anger as motivations is recognized as morally meaningful.\",\n    \"There is a practical or ethical need to differentiate degrees of moral culpability.\",\n    \"The 'vulgar' comparative framework is accepted as a legitimate, if imperfect, moral tool.\",\n    \"The context involves legal, theological, or ethical judgment where gradations of sin matter.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the authority of Theophrastus is invoked to shut down further moral inquiry rather than open it.\",\n    \"If the parenthetical hedge is ignored, leading readers to treat the comparison as philosophically rigorous rather than common-sense.\",\n    \"If the claim that lust-driven sins are worse than anger-driven sins is applied universally without accounting for context or consequences.\",\n    \"If the framing obscures that this is one philosopher's opinion rather than an established moral truth.\",\n    \"If readers conflate the 'vulgar' comparative sense with a deeper metaphysical or theological claim about the nature of sin.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is citing an ancient philosophical authority (Theophrastus) to lend credibility to a moral distinction between types of sin, while simultaneously hedging with a parenthetical qualification that concedes the act of comparing sins is only valid in a 'vulgar' or common sense. It functions as a qualified endorsement of a hierarchical moral claim.",
+    "implicit_claims": [
+      "Sins can be ranked or compared in severity, at least in some sense.",
+      "There is a 'higher' philosophical sense in which sins may not be directly comparable, distinct from the 'vulgar' sense.",
+      "Lust-driven sins are morally worse than anger-driven sins.",
+      "Theophrastus is a credible philosophical authority on moral matters.",
+      "Philosophical reasoning can adjudicate between the severity of moral failings.",
+      "The distinction between motivations (lust vs. anger) is morally relevant to the severity of sin.",
+      "Anger-driven sins may involve less deliberation or intent than lust-driven ones, making the latter more culpable."
+    ],
+    "coherence_assessment": "The statement is internally somewhat strained. The speaker simultaneously validates comparing sins ('such things I grant may be compared') and qualifies it as only 'vulgar' or common-level reasoning, suggesting a tension between endorsing the comparison and distancing from it. The conclusion attributed to Theophrastus is coherent on its own terms — lust implies premeditation and deliberate choice, while anger is more impulsive — but the hedging creates ambiguity about the author's actual commitment to the claim.",
+    "conditions_for_usefulness": [
+      "The audience accepts classical philosophical authority as relevant to moral reasoning.",
+      "The distinction between lust and anger as motivations is recognized as morally meaningful.",
+      "There is a practical or ethical need to differentiate degrees of moral culpability.",
+      "The 'vulgar' comparative framework is accepted as a legitimate, if imperfect, moral tool.",
+      "The context involves legal, theological, or ethical judgment where gradations of sin matter."
+    ],
+    "conditions_for_misleading": [
+      "If the authority of Theophrastus is invoked to shut down further moral inquiry rather than open it.",
+      "If the parenthetical hedge is ignored, leading readers to treat the comparison as philosophically rigorous rather than common-sense.",
+      "If the claim that lust-driven sins are worse than anger-driven sins is applied universally without accounting for context or consequences.",
+      "If the framing obscures that this is one philosopher's opinion rather than an established moral truth.",
+      "If readers conflate the 'vulgar' comparative sense with a deeper metaphysical or theological claim about the nature of sin."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 649,
+  "error": "",
+  "retry_count": 0
+}

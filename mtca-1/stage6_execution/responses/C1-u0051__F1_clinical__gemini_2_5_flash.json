@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0051__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:03:06.137610+00:00",
+  "wall_clock_seconds": 11.253507852554321,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-instruction or a behavioral commitment, aiming to reduce performance anxiety related to sleep and establish a compensatory, self-soothing behavior. It sets a conditional intention: if the counterproductive 'effort to sleep' is dropped, the alternative behavior of 'lying quietly in bed' will be adopted. This aligns with principles of acceptance and commitment therapy (ACT) and cognitive behavioral therapy for insomnia (CBT-I) to reduce struggle and promote relaxation.\",\n  \"implicit_claims\": [\n    \"The individual (referred to as 'he') has agency and control over their 'effort to sleep' (i.e., they can choose to stop striving).\",\n    \"The individual has agency and control over the behavior of 'lying quietly in bed'.\",\n    \"There is a distinction between counterproductive 'effort to sleep' and beneficial 'lying quietly in bed'.\",\n    \"Lying quietly in bed, even without sleeping, is a therapeutically acceptable and potentially beneficial state (e.g., for rest, reduced arousal, or maintaining sleep hygiene).\",\n    \"Reducing the 'effort to sleep' will facilitate or allow for 'lying quietly in bed' (or that this is the chosen alternative behavior when sleep is elusive).\",\n    \"The statement is being made by the individual about their own future behavior/intention.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It establishes a clear conditional relationship where ceasing a specific, often counterproductive, action ('making effort to sleep') is met with a specific, adaptive behavioral response ('lying quietly in bed'). This reflects a common therapeutic strategy to shift from active struggle to passive acceptance and behavioral regulation, particularly in the context of insomnia.\",\n  \"conditions_for_usefulness\": [\n    \"The individual suffers from sleep-onset or maintenance insomnia characterized by performance anxiety or excessive mental/physical effort to fall asleep.\",\n    \"The individual understands 'effort to sleep' as the counterproductive mental striving or physical tension that hinders sleep, rather than basic sleep preparation.\",\n    \"The individual is able to differentiate between 'trying to sleep' and 'lying quietly' and can enact the latter behavior.\",\n    \"The primary barrier to sleep is behavioral or cognitive (e.g., anxiety, rumination) rather than solely severe physiological discomfort or unmanaged medical conditions.\",\n    \"The individual is operating within a therapeutic framework (like CBT-I or ACT) that teaches the value of reducing struggle and accepting present moment experiences.\",\n    \"The individual views 'lying quietly' as a valid form of rest or a step towards eventual sleep, not as a sign of failure.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets 'no effort to sleep' as 'no adherence to sleep hygiene' (e.g., staying up late, not having a relaxing routine).\",\n    \"The individual is experiencing severe physical pain, restless leg syndrome, or other physiological discomfort that makes 'lying quietly' impossible or intensely distressing.\",\n    \"The individual has unaddressed severe psychiatric conditions (e.g., severe panic attacks, psychosis) that prevent them from lying quietly or remaining calm.\",\n    \"The statement is used in isolation without the broader context and understanding of therapeutic principles, leading to frustration or feelings of helplessness if sleep does not occur.\",\n    \"The individual interprets 'lying quietly' as a passive surrender to misery, rather than an active choice to cease counterproductive striving and adopt a calmer state.\",\n    \"The individual's environment is not conducive to quiet rest, making 'lying quietly' practically impossible.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-instruction or a behavioral commitment, aiming to reduce performance anxiety related to sleep and establish a compensatory, self-soothing behavior. It sets a conditional intention: if the counterproductive 'effort to sleep' is dropped, the alternative behavior of 'lying quietly in bed' will be adopted. This aligns with principles of acceptance and commitment therapy (ACT) and cognitive behavioral therapy for insomnia (CBT-I) to reduce struggle and promote relaxation.",
+    "implicit_claims": [
+      "The individual (referred to as 'he') has agency and control over their 'effort to sleep' (i.e., they can choose to stop striving).",
+      "The individual has agency and control over the behavior of 'lying quietly in bed'.",
+      "There is a distinction between counterproductive 'effort to sleep' and beneficial 'lying quietly in bed'.",
+      "Lying quietly in bed, even without sleeping, is a therapeutically acceptable and potentially beneficial state (e.g., for rest, reduced arousal, or maintaining sleep hygiene).",
+      "Reducing the 'effort to sleep' will facilitate or allow for 'lying quietly in bed' (or that this is the chosen alternative behavior when sleep is elusive).",
+      "The statement is being made by the individual about their own future behavior/intention."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It establishes a clear conditional relationship where ceasing a specific, often counterproductive, action ('making effort to sleep') is met with a specific, adaptive behavioral response ('lying quietly in bed'). This reflects a common therapeutic strategy to shift from active struggle to passive acceptance and behavioral regulation, particularly in the context of insomnia.",
+    "conditions_for_usefulness": [
+      "The individual suffers from sleep-onset or maintenance insomnia characterized by performance anxiety or excessive mental/physical effort to fall asleep.",
+      "The individual understands 'effort to sleep' as the counterproductive mental striving or physical tension that hinders sleep, rather than basic sleep preparation.",
+      "The individual is able to differentiate between 'trying to sleep' and 'lying quietly' and can enact the latter behavior.",
+      "The primary barrier to sleep is behavioral or cognitive (e.g., anxiety, rumination) rather than solely severe physiological discomfort or unmanaged medical conditions.",
+      "The individual is operating within a therapeutic framework (like CBT-I or ACT) that teaches the value of reducing struggle and accepting present moment experiences.",
+      "The individual views 'lying quietly' as a valid form of rest or a step towards eventual sleep, not as a sign of failure."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets 'no effort to sleep' as 'no adherence to sleep hygiene' (e.g., staying up late, not having a relaxing routine).",
+      "The individual is experiencing severe physical pain, restless leg syndrome, or other physiological discomfort that makes 'lying quietly' impossible or intensely distressing.",
+      "The individual has unaddressed severe psychiatric conditions (e.g., severe panic attacks, psychosis) that prevent them from lying quietly or remaining calm.",
+      "The statement is used in isolation without the broader context and understanding of therapeutic principles, leading to frustration or feelings of helplessness if sleep does not occur.",
+      "The individual interprets 'lying quietly' as a passive surrender to misery, rather than an active choice to cease counterproductive striving and adopt a calmer state.",
+      "The individual's environment is not conducive to quiet rest, making 'lying quietly' practically impossible."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 771,
+  "error": "",
+  "retry_count": 0
+}

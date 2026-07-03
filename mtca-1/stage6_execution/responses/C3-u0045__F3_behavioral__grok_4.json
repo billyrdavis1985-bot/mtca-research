@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F3_behavioral__grok_4",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:45:46.912914+00:00",
+  "wall_clock_seconds": 6.085125207901001,
+  "raw_response": "{\n  \"communicative_function\": \"classifying and labeling aversive or harmful mental states as characteristic of anger\",\n  \"implicit_claims\": [\n    \"aversion to a person or desires that tend toward their harm constitute a distinct category of soul-state\",\n    \"such states are equivalent to or exemplified by angry souls\",\n    \"these states are identifiable and worth distinguishing (as signaled by 'Secondly')\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a descriptive taxonomy but lacks any explicit action, criterion, or behavioral directive, weakening its status as a commitment\",\n  \"conditions_for_usefulness\": \"the reader already accepts the underlying Stoic psychology and uses the description as a diagnostic cue to interrupt their own aversive impulses\",\n  \"conditions_for_misleading\": \"the passage is treated as a complete behavioral rule rather than an incomplete fragment, or is applied to justify labeling others' motives without self-examination\"\n}",
+  "parsed_json": {
+    "communicative_function": "classifying and labeling aversive or harmful mental states as characteristic of anger",
+    "implicit_claims": [
+      "aversion to a person or desires that tend toward their harm constitute a distinct category of soul-state",
+      "such states are equivalent to or exemplified by angry souls",
+      "these states are identifiable and worth distinguishing (as signaled by 'Secondly')"
+    ],
+    "coherence_assessment": "internally consistent as a descriptive taxonomy but lacks any explicit action, criterion, or behavioral directive, weakening its status as a commitment",
+    "conditions_for_usefulness": "the reader already accepts the underlying Stoic psychology and uses the description as a diagnostic cue to interrupt their own aversive impulses",
+    "conditions_for_misleading": "the passage is treated as a complete behavioral rule rather than an incomplete fragment, or is applied to justify labeling others' motives without self-examination"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 294,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

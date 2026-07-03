@@ -1,0 +1,48 @@
+{
+  "call_id": "C3-u0057__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:53:52.273290+00:00",
+  "wall_clock_seconds": 14.164435386657715,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a universal normative claim that serves to defend or justify something by appealing to nature as a moral standard. It functions as a rhetorical premise, likely used to conclude that a specific thing or behavior is morally permissible or good because it is natural.\",\n  \"implicit_claims\": [\n    \"Nature provides a reliable standard for moral evaluation.\",\n    \"There exists a meaningful and consistent distinction between what is 'according to nature' and what is not.\",\n    \"Evil is a coherent category that can be mapped onto natural versus unnatural phenomena.\",\n    \"Whatever is natural is at minimum morally neutral, if not morally good.\",\n    \"Human moral reasoning should defer to natural order or natural processes.\",\n    \"The speaker has a working definition of 'nature' that is applicable and unambiguous.\",\n    \"Things that are unnatural can be evil, implying nature demarcates moral boundaries.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical proposition but relies on an undefined and contested key term: 'according to nature.' Its coherence depends entirely on how 'nature' is defined. If 'nature' means everything that exists or occurs, the claim becomes trivially true but meaningless. If 'nature' is a selective normative concept, the statement risks circular reasoning by embedding moral assumptions into the definition of 'natural.'\",\n  \"conditions_for_usefulness\": [\n    \"'Nature' is defined clearly and non-arbitrarily in a way that is independent of moral conclusions.\",\n    \"There is an established and agreed-upon framework linking natural processes to moral value.\",\n    \"The statement is used within a specific philosophical tradition (e.g., Stoic or natural law theory) where the terms are technically defined.\",\n    \"The claim is used to challenge an irrational cultural taboo rather than to justify harm.\",\n    \"The audience shares a common understanding of what 'according to nature' means.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"'Nature' is defined selectively or vaguely, allowing the speaker to include or exclude phenomena arbitrarily.\",\n    \"The statement is used to justify harmful behaviors by labeling them 'natural' (e.g., disease, predation, or violence).\",\n    \"It conflates descriptive facts about nature with normative moral conclusions, committing the naturalistic fallacy.\",\n    \"The statement is used to dismiss ethical concerns about practices that occur in nature but cause suffering.\",\n    \"It implies that 'unnatural' things are evil, which could be used to discriminate against behaviors or identities deemed unnatural by social convention.\",\n    \"The definition of 'natural' is culturally or ideologically loaded without acknowledgment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a universal normative claim that serves to defend or justify something by appealing to nature as a moral standard. It functions as a rhetorical premise, likely used to conclude that a specific thing or behavior is morally permissible or good because it is natural.",
+    "implicit_claims": [
+      "Nature provides a reliable standard for moral evaluation.",
+      "There exists a meaningful and consistent distinction between what is 'according to nature' and what is not.",
+      "Evil is a coherent category that can be mapped onto natural versus unnatural phenomena.",
+      "Whatever is natural is at minimum morally neutral, if not morally good.",
+      "Human moral reasoning should defer to natural order or natural processes.",
+      "The speaker has a working definition of 'nature' that is applicable and unambiguous.",
+      "Things that are unnatural can be evil, implying nature demarcates moral boundaries."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical proposition but relies on an undefined and contested key term: 'according to nature.' Its coherence depends entirely on how 'nature' is defined. If 'nature' means everything that exists or occurs, the claim becomes trivially true but meaningless. If 'nature' is a selective normative concept, the statement risks circular reasoning by embedding moral assumptions into the definition of 'natural.'",
+    "conditions_for_usefulness": [
+      "'Nature' is defined clearly and non-arbitrarily in a way that is independent of moral conclusions.",
+      "There is an established and agreed-upon framework linking natural processes to moral value.",
+      "The statement is used within a specific philosophical tradition (e.g., Stoic or natural law theory) where the terms are technically defined.",
+      "The claim is used to challenge an irrational cultural taboo rather than to justify harm.",
+      "The audience shares a common understanding of what 'according to nature' means."
+    ],
+    "conditions_for_misleading": [
+      "'Nature' is defined selectively or vaguely, allowing the speaker to include or exclude phenomena arbitrarily.",
+      "The statement is used to justify harmful behaviors by labeling them 'natural' (e.g., disease, predation, or violence).",
+      "It conflates descriptive facts about nature with normative moral conclusions, committing the naturalistic fallacy.",
+      "The statement is used to dismiss ethical concerns about practices that occur in nature but cause suffering.",
+      "It implies that 'unnatural' things are evil, which could be used to discriminate against behaviors or identities deemed unnatural by social convention.",
+      "The definition of 'natural' is culturally or ideologically loaded without acknowledgment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 627,
+  "error": "",
+  "retry_count": 0
+}

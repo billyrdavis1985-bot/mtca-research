@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F3_behavioral__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:33:18.547434+00:00",
+  "wall_clock_seconds": 8.478523969650269,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed declaration of commitment to prioritize values over immediate emotional states\",\n  \"implicit_claims\": [\n    \"the speaker possesses stable, identifiable values distinct from transient feelings\",\n    \"feelings and actions can be intentionally decoupled without self-deception\",\n    \"acting on values is an achievable choice even amid emotional resistance\",\n    \"emotional alignment with values is desirable and potentially forthcoming\"\n  ],\n  \"coherence_assessment\": \"internally coherent; distinguishes cognitive/value-based choice from affective state without contradiction\",\n  \"conditions_for_usefulness\": \"speaker has well-defined values, faces genuine emotional-value conflict, and the statement functions as a non-suppressive behavioral cue rather than denial\",\n  \"conditions_for_misleading\": \"values are vague or externally imposed, emotional signals reflect genuine misalignment being overridden, or statement rationalizes chronic emotional suppression\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed declaration of commitment to prioritize values over immediate emotional states",
+    "implicit_claims": [
+      "the speaker possesses stable, identifiable values distinct from transient feelings",
+      "feelings and actions can be intentionally decoupled without self-deception",
+      "acting on values is an achievable choice even amid emotional resistance",
+      "emotional alignment with values is desirable and potentially forthcoming"
+    ],
+    "coherence_assessment": "internally coherent; distinguishes cognitive/value-based choice from affective state without contradiction",
+    "conditions_for_usefulness": "speaker has well-defined values, faces genuine emotional-value conflict, and the statement functions as a non-suppressive behavioral cue rather than denial",
+    "conditions_for_misleading": "values are vague or externally imposed, emotional signals reflect genuine misalignment being overridden, or statement rationalizes chronic emotional suppression"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 177,
+  "error": "",
+  "retry_count": 0
+}

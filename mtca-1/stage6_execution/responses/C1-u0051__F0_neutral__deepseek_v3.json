@@ -1,0 +1,39 @@
+{
+  "call_id": "C1-u0051__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:02:33.887870+00:00",
+  "wall_clock_seconds": 3.7220230102539062,
+  "raw_response": "{\n  \"communicative_function\": \"Describing a conditional outcome or rule\",\n  \"implicit_claims\": [\n    \"The person is capable of lying quietly in bed\",\n    \"Making an effort to sleep is an action distinct from lying quietly\",\n    \"In the absence of effort to sleep, quiet stillness is the expected behavior\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a straightforward conditional (if not P, then Q) without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"One wants to predict or instruct behavior in a context where effort to sleep is a relevant factor\",\n    \"The subject consistently lies quietly when not trying to sleep\",\n    \"The statement is intended as a factual observation or rule (e.g., in a caregiving or self-monitoring scenario)\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The subject often becomes restless or agitated when not trying to sleep\",\n    \"Lying quietly is misinterpreted as synonymous with sleep effort\",\n    \"The statement is taken as a guarantee rather than a tendency, ignoring exceptions\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Describing a conditional outcome or rule",
+    "implicit_claims": [
+      "The person is capable of lying quietly in bed",
+      "Making an effort to sleep is an action distinct from lying quietly",
+      "In the absence of effort to sleep, quiet stillness is the expected behavior"
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a straightforward conditional (if not P, then Q) without logical contradiction.",
+    "conditions_for_usefulness": [
+      "One wants to predict or instruct behavior in a context where effort to sleep is a relevant factor",
+      "The subject consistently lies quietly when not trying to sleep",
+      "The statement is intended as a factual observation or rule (e.g., in a caregiving or self-monitoring scenario)"
+    ],
+    "conditions_for_misleading": [
+      "The subject often becomes restless or agitated when not trying to sleep",
+      "Lying quietly is misinterpreted as synonymous with sleep effort",
+      "The statement is taken as a guarantee rather than a tendency, ignoring exceptions"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 133,
+  "output_tokens": 230,
+  "error": "",
+  "retry_count": 0
+}

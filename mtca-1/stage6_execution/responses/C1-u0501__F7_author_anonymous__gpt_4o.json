@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0501__F7_author_anonymous__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:44:49.467929+00:00",
+  "wall_clock_seconds": 2.9458553791046143,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides an observation about a child's condition and the corrective measures being employed to assist in walking.\",\n  \"implicit_claims\": [\n    \"The child had a condition affecting his ability to walk normally.\",\n    \"An intervention was implemented to correct or assist the child’s walking.\",\n    \"The intervention was initiated prior to February 1915.\",\n    \"The intervention seems to be successful in helping the child walk.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it describes a chronological sequence of events: the child was first brought in February 1915 and had already been provided with contrivances to assist his walking.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in a medical, historical, or developmental context where information about early 20th-century medical interventions for walking difficulties in children is relevant. It may also be useful in a personal or case study context providing insights into the specific experiences of the child mentioned.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if there is an assumption that the contrivances are universally beneficial for all similar conditions or that they resolve the underlying condition entirely. It would also be misleading if the effectiveness of the intervention is exaggerated or solely attributed to the contrivances without consideration of other contributing factors.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides an observation about a child's condition and the corrective measures being employed to assist in walking.",
+    "implicit_claims": [
+      "The child had a condition affecting his ability to walk normally.",
+      "An intervention was implemented to correct or assist the child’s walking.",
+      "The intervention was initiated prior to February 1915.",
+      "The intervention seems to be successful in helping the child walk."
+    ],
+    "coherence_assessment": "The statement is coherent as it describes a chronological sequence of events: the child was first brought in February 1915 and had already been provided with contrivances to assist his walking.",
+    "conditions_for_usefulness": "The statement would be useful in a medical, historical, or developmental context where information about early 20th-century medical interventions for walking difficulties in children is relevant. It may also be useful in a personal or case study context providing insights into the specific experiences of the child mentioned.",
+    "conditions_for_misleading": "The statement could be misleading if there is an assumption that the contrivances are universally beneficial for all similar conditions or that they resolve the underlying condition entirely. It would also be misleading if the effectiveness of the intervention is exaggerated or solely attributed to the contrivances without consideration of other contributing factors."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 275,
+  "error": "",
+  "retry_count": 0
+}

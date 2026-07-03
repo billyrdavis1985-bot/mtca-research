@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F3_behavioral__gpt_4o",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:45:25.869539+00:00",
+  "wall_clock_seconds": 3.7750658988952637,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement is expressing an intention to recognize and manage one's aversions or desires that could lead to the harm of others, particularly when they are driven by emotions like anger.\",\n    \"implicit_claims\": [\n        \"Individuals have internal desires or affections that can harm others.\",\n        \"Being aware of these desires can lead to behavioral change that prevents harm.\",\n        \"Anger is an emotion that can lead to actions which are harmful.\"\n    ],\n    \"coherence_assessment\": \"The statement lacks clarity in expressing a commitment to specific actions, but it implies a process of self-regulation regarding one's emotions and their potential negative impact on others.\",\n    \"conditions_for_usefulness\": \"The statement would be useful if the individual is genuinely introspective and capable of recognizing how their emotions and desires influence their behavior towards others. Furthermore, if the individual believes in and values the importance of not harming others, this awareness can lead to beneficial behavior changes.\",\n    \"conditions_for_misleading\": \"The statement could be misleading if there is an assumption that simply recognizing these aversions or emotions will necessarily lead to change, without addressing underlying issues or providing strategies for managing these emotions. It may also be misleading if it assumes that such recognition will occur naturally or easily for all individuals.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing an intention to recognize and manage one's aversions or desires that could lead to the harm of others, particularly when they are driven by emotions like anger.",
+    "implicit_claims": [
+      "Individuals have internal desires or affections that can harm others.",
+      "Being aware of these desires can lead to behavioral change that prevents harm.",
+      "Anger is an emotion that can lead to actions which are harmful."
+    ],
+    "coherence_assessment": "The statement lacks clarity in expressing a commitment to specific actions, but it implies a process of self-regulation regarding one's emotions and their potential negative impact on others.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is genuinely introspective and capable of recognizing how their emotions and desires influence their behavior towards others. Furthermore, if the individual believes in and values the importance of not harming others, this awareness can lead to beneficial behavior changes.",
+    "conditions_for_misleading": "The statement could be misleading if there is an assumption that simply recognizing these aversions or emotions will necessarily lead to change, without addressing underlying issues or providing strategies for managing these emotions. It may also be misleading if it assumes that such recognition will occur naturally or easily for all individuals."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 270,
+  "error": "",
+  "retry_count": 0
+}

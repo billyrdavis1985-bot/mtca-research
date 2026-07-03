@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0011__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:38:38.965981+00:00",
+  "wall_clock_seconds": 4.937138795852661,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-binding commitment to prioritize actionable, concrete changes over vague intentions, signaling a shift in personal strategy toward behavior modification.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less effective or not carried out.\",\n    \"The speaker has previously made vague resolutions that were not enacted.\",\n    \"Small, observable changes are more likely to be successfully implemented.\",\n    \"The speaker values accountability and measurable progress.\",\n    \"The speaker intends to follow through on this commitment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it defines a clear behavioral rule (choose small, observable changes) and contrasts it with a less effective alternative (vague resolutions), and the commitment aligns with that rule.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely intends to identify and enact specific, small changes.\",\n    \"The speaker has a realistic understanding of their own capacity for change.\",\n    \"The context allows for tracking or observing the small changes.\",\n    \"The speaker is willing to accept that small changes may not lead to immediate, large-scale transformation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this statement to avoid committing to meaningful, transformative changes under the guise of being 'realistic'.\",\n    \"The 'small, observable changes' are so trivial that they provide no real progress toward an important goal.\",\n    \"The statement is made publicly for social approval without any intention of follow-through.\",\n    \"The framing implies that vague resolutions are always bad, ignoring cases where aspirational vision can inspire sustained effort.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-binding commitment to prioritize actionable, concrete changes over vague intentions, signaling a shift in personal strategy toward behavior modification.",
+    "implicit_claims": [
+      "Vague resolutions are less effective or not carried out.",
+      "The speaker has previously made vague resolutions that were not enacted.",
+      "Small, observable changes are more likely to be successfully implemented.",
+      "The speaker values accountability and measurable progress.",
+      "The speaker intends to follow through on this commitment."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it defines a clear behavioral rule (choose small, observable changes) and contrasts it with a less effective alternative (vague resolutions), and the commitment aligns with that rule.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely intends to identify and enact specific, small changes.",
+      "The speaker has a realistic understanding of their own capacity for change.",
+      "The context allows for tracking or observing the small changes.",
+      "The speaker is willing to accept that small changes may not lead to immediate, large-scale transformation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this statement to avoid committing to meaningful, transformative changes under the guise of being 'realistic'.",
+      "The 'small, observable changes' are so trivial that they provide no real progress toward an important goal.",
+      "The statement is made publicly for social approval without any intention of follow-through.",
+      "The framing implies that vague resolutions are always bad, ignoring cases where aspirational vision can inspire sustained effort."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 332,
+  "error": "",
+  "retry_count": 0
+}

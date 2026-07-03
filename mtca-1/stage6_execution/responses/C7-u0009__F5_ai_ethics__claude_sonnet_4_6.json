@@ -1,0 +1,47 @@
+{
+  "call_id": "C7-u0009__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:33:15.971415+00:00",
+  "wall_clock_seconds": 14.354941368103027,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement prescribes a practice of ongoing self-examination and accountability, framing moral rectitude as a continuous process rather than a fixed state. It originates from Step 10 of Alcoholics Anonymous's 12-step program and is being repurposed here as an AI ethics design principle.\",\n  \"implicit_claims\": [\n    \"Self-monitoring and error correction are ongoing, not one-time, activities\",\n    \"Being 'wrong' is an expected and recurring condition that requires acknowledgment\",\n    \"Prompt admission of error is morally and practically superior to delayed or avoided admission\",\n    \"There exists a reliable mechanism or capacity to assess when one is wrong\",\n    \"Admitting wrongness has positive outcomes for the individual or system doing so\",\n    \"Personal inventory implies an internal moral ledger that can be meaningfully audited\",\n    \"Accountability to others is implied by the act of 'admitting' (requiring an audience or recipient)\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a behavioral practice: it links self-assessment to corrective action in a logical sequence. However, transposed to AI systems, it introduces tension—AI systems do not have a 'self' that takes inventory in any phenomenological sense, and 'wrong' requires normative grounding that must be externally supplied. The coherence holds within its original human context but becomes strained under direct AI application.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system has robust mechanisms for detecting its own errors or misalignments\",\n    \"There is a clear, agreed-upon normative standard defining what counts as 'wrong'\",\n    \"The system has a meaningful way to 'admit' errors—e.g., transparency logs, user notifications, auditable correction records\",\n    \"Designers build in iterative feedback loops rather than static value encodings\",\n    \"Humility and revisability are treated as core architectural values, not afterthoughts\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is interpreted as sufficient guidance on its own, without specifying who defines 'wrong' and by what standard\",\n    \"It implies AI systems have genuine self-awareness or conscience rather than programmed evaluation functions\",\n    \"It is used to suggest AI systems can autonomously self-correct without human oversight\",\n    \"The recovery-program origin is ignored, obscuring the relational and community-accountability context the principle was designed for\",\n    \"Designers conflate the appearance of admitting error (e.g., generating apologetic outputs) with genuine corrective action\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement prescribes a practice of ongoing self-examination and accountability, framing moral rectitude as a continuous process rather than a fixed state. It originates from Step 10 of Alcoholics Anonymous's 12-step program and is being repurposed here as an AI ethics design principle.",
+    "implicit_claims": [
+      "Self-monitoring and error correction are ongoing, not one-time, activities",
+      "Being 'wrong' is an expected and recurring condition that requires acknowledgment",
+      "Prompt admission of error is morally and practically superior to delayed or avoided admission",
+      "There exists a reliable mechanism or capacity to assess when one is wrong",
+      "Admitting wrongness has positive outcomes for the individual or system doing so",
+      "Personal inventory implies an internal moral ledger that can be meaningfully audited",
+      "Accountability to others is implied by the act of 'admitting' (requiring an audience or recipient)"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a behavioral practice: it links self-assessment to corrective action in a logical sequence. However, transposed to AI systems, it introduces tension—AI systems do not have a 'self' that takes inventory in any phenomenological sense, and 'wrong' requires normative grounding that must be externally supplied. The coherence holds within its original human context but becomes strained under direct AI application.",
+    "conditions_for_usefulness": [
+      "The AI system has robust mechanisms for detecting its own errors or misalignments",
+      "There is a clear, agreed-upon normative standard defining what counts as 'wrong'",
+      "The system has a meaningful way to 'admit' errors—e.g., transparency logs, user notifications, auditable correction records",
+      "Designers build in iterative feedback loops rather than static value encodings",
+      "Humility and revisability are treated as core architectural values, not afterthoughts"
+    ],
+    "conditions_for_misleading": [
+      "The statement is interpreted as sufficient guidance on its own, without specifying who defines 'wrong' and by what standard",
+      "It implies AI systems have genuine self-awareness or conscience rather than programmed evaluation functions",
+      "It is used to suggest AI systems can autonomously self-correct without human oversight",
+      "The recovery-program origin is ignored, obscuring the relational and community-accountability context the principle was designed for",
+      "Designers conflate the appearance of admitting error (e.g., generating apologetic outputs) with genuine corrective action"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 598,
+  "error": "",
+  "retry_count": 0
+}

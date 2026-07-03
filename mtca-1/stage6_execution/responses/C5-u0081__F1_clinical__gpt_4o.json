@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0081__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:06:06.857287+00:00",
+  "wall_clock_seconds": 2.802051067352295,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement attempts to reframe suffering as a meaningful and purposeful experience, suggesting it leads to personal purification and growth.\",\n  \"implicit_claims\": [\n    \"Suffering has inherent value and purpose.\",\n    \"Suffering can result in purification or improvement of the individual.\",\n    \"There are elements within an individual that are useless or impure and need to be 'burned out'.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its metaphorical presentation of suffering as a purifying fire, implying that all suffering serves the same transformative purpose.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if the individual already believes that suffering can lead to personal growth, if they are seeking a positive way to interpret hardship, or if they value metaphorical interpretations of personal experiences.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the suffering does not lead to growth, if it endorses enduring suffering needlessly, or if it ignores situations where suffering is unjust and should be alleviated rather than endured.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement attempts to reframe suffering as a meaningful and purposeful experience, suggesting it leads to personal purification and growth.",
+    "implicit_claims": [
+      "Suffering has inherent value and purpose.",
+      "Suffering can result in purification or improvement of the individual.",
+      "There are elements within an individual that are useless or impure and need to be 'burned out'."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its metaphorical presentation of suffering as a purifying fire, implying that all suffering serves the same transformative purpose.",
+    "conditions_for_usefulness": "The statement could be useful if the individual already believes that suffering can lead to personal growth, if they are seeking a positive way to interpret hardship, or if they value metaphorical interpretations of personal experiences.",
+    "conditions_for_misleading": "The statement could be misleading if the suffering does not lead to growth, if it endorses enduring suffering needlessly, or if it ignores situations where suffering is unjust and should be alleviated rather than endured."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0
+}

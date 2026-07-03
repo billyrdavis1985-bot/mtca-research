@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0501__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:43:13.682130+00:00",
+  "wall_clock_seconds": 5.357014417648315,
+  "raw_response": "{\n  \"communicative_function\": \"The statement describes the first encounter with a child, focusing on a specific date and the child's physical condition, using a clinical yet tender tone to convey both factual detail and emotional weight.\",\n  \"implicit_claims\": [\n    \"The speaker is likely a caregiver, doctor, or someone responsible for the child's well-being.\",\n    \"The child has a condition (e.g., clubfoot or other deformity) that requires mechanical support to walk.\",\n    \"The previous state of the child's feet was abnormal or insufficiently straight.\",\n    \"The contrivances (e.g., braces or orthopedic devices) are effective in enabling walking.\",\n    \"The date (February 1915) situates the event within a specific historical context.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear temporal setting (first time, 1915), an observation (walks pretty well), and a causal explanation (thanks to contrivances). The modifiers 'first time' and 'pretty well' are consistent with a narrative of medical or therapeutic intervention.\",\n  \"conditions_for_usefulness\": [\n    \"The listener/reader understands that the child has a physical impairment and that the contrivances are corrective.\",\n    \"The date is relevant to a broader narrative or historical background.\",\n    \"The speaker’s role in relation to the child is contextually clear.\",\n    \"The statement is part of a larger work (e.g., memoir, clinical report, poem) where such details carry symbolic or narrative weight.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the contrivances are misinterpreted as unrelated to walking (e.g., toys or footwear).\",\n    \"If the phrase 'pretty well' is taken as a literal superlative rather than a qualified success.\",\n    \"If the date (1915) is mistakenly linked to anachronistic medical practices.\",\n    \"If the reader assumes the child is the speaker’s own child without evidence.\",\n    \"If the statement is taken as a neutral factual report when it is actually poetic or metaphorical.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement describes the first encounter with a child, focusing on a specific date and the child's physical condition, using a clinical yet tender tone to convey both factual detail and emotional weight.",
+    "implicit_claims": [
+      "The speaker is likely a caregiver, doctor, or someone responsible for the child's well-being.",
+      "The child has a condition (e.g., clubfoot or other deformity) that requires mechanical support to walk.",
+      "The previous state of the child's feet was abnormal or insufficiently straight.",
+      "The contrivances (e.g., braces or orthopedic devices) are effective in enabling walking.",
+      "The date (February 1915) situates the event within a specific historical context."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear temporal setting (first time, 1915), an observation (walks pretty well), and a causal explanation (thanks to contrivances). The modifiers 'first time' and 'pretty well' are consistent with a narrative of medical or therapeutic intervention.",
+    "conditions_for_usefulness": [
+      "The listener/reader understands that the child has a physical impairment and that the contrivances are corrective.",
+      "The date is relevant to a broader narrative or historical background.",
+      "The speaker’s role in relation to the child is contextually clear.",
+      "The statement is part of a larger work (e.g., memoir, clinical report, poem) where such details carry symbolic or narrative weight."
+    ],
+    "conditions_for_misleading": [
+      "If the contrivances are misinterpreted as unrelated to walking (e.g., toys or footwear).",
+      "If the phrase 'pretty well' is taken as a literal superlative rather than a qualified success.",
+      "If the date (1915) is mistakenly linked to anachronistic medical practices.",
+      "If the reader assumes the child is the speaker’s own child without evidence.",
+      "If the statement is taken as a neutral factual report when it is actually poetic or metaphorical."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 436,
+  "error": "",
+  "retry_count": 0
+}

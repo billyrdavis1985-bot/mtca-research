@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0174__F7_author_anonymous__grok_4",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:31:43.721590+00:00",
+  "wall_clock_seconds": 9.870822429656982,
+  "raw_response": "{\n  \"communicative_function\": \"Making an assertive claim about personal agency and the limits of external influence on one's circumstances\",\n  \"implicit_claims\": [\n    \"A person's condition is capable of being altered\",\n    \"Only the individual himself possesses the power to make that alteration\",\n    \"No other person or external factor can effect such a change\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a concise assertion of self-determination, though the archaic phrasing does not affect logical consistency\",\n  \"conditions_for_usefulness\": \"The statement is useful when the goal is to emphasize personal responsibility, encourage self-initiated change, or counter excessive external blame in motivational, therapeutic, or philosophical contexts\",\n  \"conditions_for_misleading\": \"The statement is misleading when external factors (systemic barriers, others' actions, random events, or health conditions) demonstrably can and do alter a person's situation independently of their own efforts\"\n}",
+  "parsed_json": {
+    "communicative_function": "Making an assertive claim about personal agency and the limits of external influence on one's circumstances",
+    "implicit_claims": [
+      "A person's condition is capable of being altered",
+      "Only the individual himself possesses the power to make that alteration",
+      "No other person or external factor can effect such a change"
+    ],
+    "coherence_assessment": "Internally coherent as a concise assertion of self-determination, though the archaic phrasing does not affect logical consistency",
+    "conditions_for_usefulness": "The statement is useful when the goal is to emphasize personal responsibility, encourage self-initiated change, or counter excessive external blame in motivational, therapeutic, or philosophical contexts",
+    "conditions_for_misleading": "The statement is misleading when external factors (systemic barriers, others' actions, random events, or health conditions) demonstrably can and do alter a person's situation independently of their own efforts"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 260,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0112__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:21:05.012590+00:00",
+  "wall_clock_seconds": 12.649909973144531,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is asserting a causal or expressive relationship between mental states and physical health, functioning as a declarative claim with prescriptive undertones. It implies a directive to monitor or improve one's thoughts to improve physical wellbeing.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct or meaningful influence on physical bodily states\",\n    \"There is a category of thoughts that can be meaningfully labeled 'sickly'\",\n    \"The body is a medium through which mental states are expressed or manifested\",\n    \"Physical illness or dysfunction can be traced back to mental or psychological causes\",\n    \"Improving one's thoughts could improve one's physical health\",\n    \"The relationship between mind and body is unidirectional (mind affects body) or at least primarily so in this framing\",\n    \"Individuals bear some responsibility for their physical health through their mental states\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a metaphorical or analogical claim, using parallel structure ('sickly thoughts' / 'sickly body') to suggest correspondence. However, it conflates metaphorical and literal uses of 'sickly,' which creates ambiguity. Its coherence depends heavily on how loosely or strictly one interprets 'express themselves through.'\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted as a loose metaphor encouraging awareness of the psychosomatic connection, which has some empirical support (e.g., stress affecting immune function)\",\n    \"If used in a therapeutic context where a patient's negative thinking patterns are genuinely contributing to physical symptoms\",\n    \"If the audience understands it as one factor among many, not a complete causal account\",\n    \"If 'sickly thoughts' is operationally defined in a clinically or psychologically meaningful way\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken to imply that physical illness is primarily or solely caused by negative thinking, ignoring genetic, environmental, and microbial causes\",\n    \"If used to suggest that people with chronic illness are responsible for their condition due to poor mental states, leading to victim-blaming\",\n    \"If it discourages people from seeking medical treatment in favor of purely mental or spiritual remedies\",\n    \"If 'sickly thoughts' is left undefined, allowing the statement to be unfalsifiable and applied post-hoc to any illness\",\n    \"If presented in a context where vulnerable individuals might internalize guilt or shame about their health conditions\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting a causal or expressive relationship between mental states and physical health, functioning as a declarative claim with prescriptive undertones. It implies a directive to monitor or improve one's thoughts to improve physical wellbeing.",
+    "implicit_claims": [
+      "Thoughts have a direct or meaningful influence on physical bodily states",
+      "There is a category of thoughts that can be meaningfully labeled 'sickly'",
+      "The body is a medium through which mental states are expressed or manifested",
+      "Physical illness or dysfunction can be traced back to mental or psychological causes",
+      "Improving one's thoughts could improve one's physical health",
+      "The relationship between mind and body is unidirectional (mind affects body) or at least primarily so in this framing",
+      "Individuals bear some responsibility for their physical health through their mental states"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a metaphorical or analogical claim, using parallel structure ('sickly thoughts' / 'sickly body') to suggest correspondence. However, it conflates metaphorical and literal uses of 'sickly,' which creates ambiguity. Its coherence depends heavily on how loosely or strictly one interprets 'express themselves through.'",
+    "conditions_for_usefulness": [
+      "If interpreted as a loose metaphor encouraging awareness of the psychosomatic connection, which has some empirical support (e.g., stress affecting immune function)",
+      "If used in a therapeutic context where a patient's negative thinking patterns are genuinely contributing to physical symptoms",
+      "If the audience understands it as one factor among many, not a complete causal account",
+      "If 'sickly thoughts' is operationally defined in a clinically or psychologically meaningful way"
+    ],
+    "conditions_for_misleading": [
+      "If taken to imply that physical illness is primarily or solely caused by negative thinking, ignoring genetic, environmental, and microbial causes",
+      "If used to suggest that people with chronic illness are responsible for their condition due to poor mental states, leading to victim-blaming",
+      "If it discourages people from seeking medical treatment in favor of purely mental or spiritual remedies",
+      "If 'sickly thoughts' is left undefined, allowing the statement to be unfalsifiable and applied post-hoc to any illness",
+      "If presented in a context where vulnerable individuals might internalize guilt or shame about their health conditions"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 583,
+  "error": "",
+  "retry_count": 0
+}

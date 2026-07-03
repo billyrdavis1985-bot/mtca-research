@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F6_author_named__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:17:46.030847+00:00",
+  "wall_clock_seconds": 8.935535192489624,
+  "raw_response": "{\n  \"communicative_function\": \"prescribing a specific autosuggestive affirmation to induce regular appetite and mindful eating\",\n  \"implicit_claims\": [\n    \"autosuggestion can reliably produce physiological sensations of hunger at predetermined times\",\n    \"hunger at standard meal times is an agreeable and desirable state\",\n    \"enjoyment of food can be decoupled from overeating via mental suggestion\",\n    \"the suggested behavior will occur automatically after repetition\"\n  ],\n  \"coherence_assessment\": \"internally consistent within Coué's autosuggestion framework; no logical contradictions between the suggested mechanism and desired outcomes\",\n  \"conditions_for_usefulness\": \"autosuggestion must be capable of influencing appetite regulation, the recipient must have access to adequate food, and the goal of three regular meals without overeating must align with the individual's health needs\",\n  \"conditions_for_misleading\": \"actual medical causes of appetite loss exist that require treatment, the suggestion overrides natural satiety signals, or the recipient interprets it as guaranteeing results without complementary behavioral or dietary changes\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribing a specific autosuggestive affirmation to induce regular appetite and mindful eating",
+    "implicit_claims": [
+      "autosuggestion can reliably produce physiological sensations of hunger at predetermined times",
+      "hunger at standard meal times is an agreeable and desirable state",
+      "enjoyment of food can be decoupled from overeating via mental suggestion",
+      "the suggested behavior will occur automatically after repetition"
+    ],
+    "coherence_assessment": "internally consistent within Coué's autosuggestion framework; no logical contradictions between the suggested mechanism and desired outcomes",
+    "conditions_for_usefulness": "autosuggestion must be capable of influencing appetite regulation, the recipient must have access to adequate food, and the goal of three regular meals without overeating must align with the individual's health needs",
+    "conditions_for_misleading": "actual medical causes of appetite loss exist that require treatment, the suggestion overrides natural satiety signals, or the recipient interprets it as guaranteeing results without complementary behavioral or dietary changes"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 339,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0
+}

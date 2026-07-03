@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0011__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:40:54.154785+00:00",
+  "wall_clock_seconds": 12.382683515548706,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a public or self-directed commitment act (a performative declaration), while simultaneously framing a contrast between two behavioral strategies to justify and reinforce that commitment.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are generally not carried out or are less effective than specific ones.\",\n    \"Small, observable changes are more achievable than large or abstract goals.\",\n    \"The speaker has previously made or been tempted to make vague resolutions.\",\n    \"The speaker has agency and self-awareness sufficient to distinguish between actionable and non-actionable goals.\",\n    \"Observable and small-scale changes are inherently valuable or lead to meaningful outcomes.\",\n    \"Making a commitment statement increases the likelihood of follow-through.\",\n    \"The speaker knows what counts as 'small' and 'observable' in their own context.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The contrast it draws (specific/observable vs. vague/unactionable) is logically consistent, and the commitment aligns with the principle it invokes. There is no internal contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely intends to follow through and is not merely performing virtue.\",\n    \"The 'small, observable changes' are actually identified and defined, not just conceptually endorsed.\",\n    \"The changes targeted are meaningfully connected to a larger goal the speaker cares about.\",\n    \"The speaker has the environmental or social support to sustain behavioral change.\",\n    \"The statement is made in a context where accountability or reflection is possible.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses 'small, observable changes' as a label without actually specifying what those changes are, making it functionally as vague as what it criticizes.\",\n    \"The statement is used to signal self-improvement without genuine behavioral intent (performative commitment without follow-through).\",\n    \"The framing implies that specificity alone guarantees success, ignoring structural or psychological barriers.\",\n    \"The contrast with 'vague resolutions' is used to dismiss legitimate long-term or complex goals that resist easy operationalization.\",\n    \"The statement is deployed to avoid accountability by setting a low bar that requires no real effort or sacrifice.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a public or self-directed commitment act (a performative declaration), while simultaneously framing a contrast between two behavioral strategies to justify and reinforce that commitment.",
+    "implicit_claims": [
+      "Vague resolutions are generally not carried out or are less effective than specific ones.",
+      "Small, observable changes are more achievable than large or abstract goals.",
+      "The speaker has previously made or been tempted to make vague resolutions.",
+      "The speaker has agency and self-awareness sufficient to distinguish between actionable and non-actionable goals.",
+      "Observable and small-scale changes are inherently valuable or lead to meaningful outcomes.",
+      "Making a commitment statement increases the likelihood of follow-through.",
+      "The speaker knows what counts as 'small' and 'observable' in their own context."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The contrast it draws (specific/observable vs. vague/unactionable) is logically consistent, and the commitment aligns with the principle it invokes. There is no internal contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely intends to follow through and is not merely performing virtue.",
+      "The 'small, observable changes' are actually identified and defined, not just conceptually endorsed.",
+      "The changes targeted are meaningfully connected to a larger goal the speaker cares about.",
+      "The speaker has the environmental or social support to sustain behavioral change.",
+      "The statement is made in a context where accountability or reflection is possible."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses 'small, observable changes' as a label without actually specifying what those changes are, making it functionally as vague as what it criticizes.",
+      "The statement is used to signal self-improvement without genuine behavioral intent (performative commitment without follow-through).",
+      "The framing implies that specificity alone guarantees success, ignoring structural or psychological barriers.",
+      "The contrast with 'vague resolutions' is used to dismiss legitimate long-term or complex goals that resist easy operationalization.",
+      "The statement is deployed to avoid accountability by setting a low bar that requires no real effort or sacrifice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 525,
+  "error": "",
+  "retry_count": 0
+}

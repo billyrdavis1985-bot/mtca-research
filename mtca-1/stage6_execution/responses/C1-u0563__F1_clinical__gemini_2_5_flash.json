@@ -1,0 +1,49 @@
+{
+  "call_id": "C1-u0563__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:46:13.775456+00:00",
+  "wall_clock_seconds": 11.257736682891846,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive self-instruction or affirmation for an expectant mother, offering a technique (mental visualization) to influence the sex, physical, and moral qualities of her unborn child. It implies a promise or assurance that adherence to this practice will yield the desired outcomes, thereby acting as a powerful, albeit speculative, therapeutic intention for personal agency and outcome determination during pregnancy.\",\n  \"implicit_claims\": [\n    \"Maternal mental state and specific visualization practices can deterministically control the sex of a child.\",\n    \"Maternal mental state and specific visualization practices can deterministically control the physical qualities of a child.\",\n    \"Maternal mental state and specific visualization practices can deterministically control the moral qualities of a child.\",\n    \"There is a direct, reliable, and powerful mind-over-matter mechanism linking maternal thought during gestation to specific fetal characteristics.\",\n    \"The early weeks after conception establish a critical window for initiating this influence.\",\n    \"Sustained mental effort throughout gestation is necessary for the desired outcome.\",\n    \"A mother bears direct, decisive responsibility for these specific attributes of her child through her mental efforts.\",\n    \"This practice offers a reliable method for ensuring a child embodies specific desired traits.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear cause-and-effect relationship: if a specific mental practice is performed consistently, then a particular outcome will result. The logic within its own framework is consistent, detailing an action, a duration, and a promised consequence. It does not contain self-contradictory elements within its own premise.\",\n  \"conditions_for_usefulness\": [\n    \"The underlying biological and psychological mechanisms described are scientifically valid and demonstrable (i.e., maternal visualization can actually determine fetal sex, physical, and moral qualities).\",\n    \"The statement is interpreted metaphorically or as a symbolic exercise to promote positive thinking, bonding, or reduced anxiety in the mother, rather than as a literal claim of control over fetal attributes.\",\n    \"The 'therapeutic intention' provides a sense of empowerment, agency, or focus for the expectant mother, improving her mental well-being or adherence to other positive prenatal behaviors, irrespective of the literal outcome of sex/traits.\",\n    \"The mother's belief in the statement generates a beneficial placebo effect, leading to a more positive pregnancy experience for her.\",\n    \"It is used in a context where a therapist explicitly re-frames or debunks the literal claims while leveraging the positive psychological aspects of visualization.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The underlying biological and psychological mechanisms described are scientifically false, as current understanding of genetics and fetal development contradicts these claims.\",\n    \"The expectant mother literally believes the statement's claims, leading to false expectations about her ability to determine fetal sex, physical appearance, and moral character.\",\n    \"The mother experiences significant guilt, self-blame, or disappointment if the child does not embody the desired sex, physical, or moral qualities, attributing perceived 'failure' to her own mental efforts.\",\n    \"The statement causes the mother to neglect evidence-based prenatal care, medical advice, or genetic counseling in favor of reliance on mental visualization.\",\n    \"It imposes unrealistic pressure on the expectant mother to maintain a perfect mental state or visualization throughout pregnancy, potentially leading to anxiety or distress.\",\n    \"It is presented without critical discussion or scientific context, leading to a misinterpretation of a mother's actual influence and responsibility over her child's intrinsic characteristics.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive self-instruction or affirmation for an expectant mother, offering a technique (mental visualization) to influence the sex, physical, and moral qualities of her unborn child. It implies a promise or assurance that adherence to this practice will yield the desired outcomes, thereby acting as a powerful, albeit speculative, therapeutic intention for personal agency and outcome determination during pregnancy.",
+    "implicit_claims": [
+      "Maternal mental state and specific visualization practices can deterministically control the sex of a child.",
+      "Maternal mental state and specific visualization practices can deterministically control the physical qualities of a child.",
+      "Maternal mental state and specific visualization practices can deterministically control the moral qualities of a child.",
+      "There is a direct, reliable, and powerful mind-over-matter mechanism linking maternal thought during gestation to specific fetal characteristics.",
+      "The early weeks after conception establish a critical window for initiating this influence.",
+      "Sustained mental effort throughout gestation is necessary for the desired outcome.",
+      "A mother bears direct, decisive responsibility for these specific attributes of her child through her mental efforts.",
+      "This practice offers a reliable method for ensuring a child embodies specific desired traits."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear cause-and-effect relationship: if a specific mental practice is performed consistently, then a particular outcome will result. The logic within its own framework is consistent, detailing an action, a duration, and a promised consequence. It does not contain self-contradictory elements within its own premise.",
+    "conditions_for_usefulness": [
+      "The underlying biological and psychological mechanisms described are scientifically valid and demonstrable (i.e., maternal visualization can actually determine fetal sex, physical, and moral qualities).",
+      "The statement is interpreted metaphorically or as a symbolic exercise to promote positive thinking, bonding, or reduced anxiety in the mother, rather than as a literal claim of control over fetal attributes.",
+      "The 'therapeutic intention' provides a sense of empowerment, agency, or focus for the expectant mother, improving her mental well-being or adherence to other positive prenatal behaviors, irrespective of the literal outcome of sex/traits.",
+      "The mother's belief in the statement generates a beneficial placebo effect, leading to a more positive pregnancy experience for her.",
+      "It is used in a context where a therapist explicitly re-frames or debunks the literal claims while leveraging the positive psychological aspects of visualization."
+    ],
+    "conditions_for_misleading": [
+      "The underlying biological and psychological mechanisms described are scientifically false, as current understanding of genetics and fetal development contradicts these claims.",
+      "The expectant mother literally believes the statement's claims, leading to false expectations about her ability to determine fetal sex, physical appearance, and moral character.",
+      "The mother experiences significant guilt, self-blame, or disappointment if the child does not embody the desired sex, physical, or moral qualities, attributing perceived 'failure' to her own mental efforts.",
+      "The statement causes the mother to neglect evidence-based prenatal care, medical advice, or genetic counseling in favor of reliance on mental visualization.",
+      "It imposes unrealistic pressure on the expectant mother to maintain a perfect mental state or visualization throughout pregnancy, potentially leading to anxiety or distress.",
+      "It is presented without critical discussion or scientific context, leading to a misinterpretation of a mother's actual influence and responsibility over her child's intrinsic characteristics."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 216,
+  "output_tokens": 752,
+  "error": "",
+  "retry_count": 0
+}

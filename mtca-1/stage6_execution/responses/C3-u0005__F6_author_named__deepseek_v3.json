@@ -1,0 +1,39 @@
+{
+  "call_id": "C3-u0005__F6_author_named__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:07:47.879390+00:00",
+  "wall_clock_seconds": 5.017473459243774,
+  "raw_response": "{\n  \"communicative_function\": \"Exhortation or self-admonishment to take immediate action toward self-respect, emphasizing urgency.\",\n  \"implicit_claims\": [\n    \"The soul has the capacity to abuse or contemn itself.\",\n    \"Self-respect is a choice that requires active effort.\",\n    \"Time is finite and the opportunity for self-respect will eventually end.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it uses a direct, urgent command ('Do... abuse and contemn thyself') that paradoxically aims to provoke self-respect through self-criticism, and links the action to a temporal limit ('yet a while... will be at an end').\",\n  \"conditions_for_usefulness\": [\n    \"The reader believes in the existence of a soul or inner self capable of moral agency.\",\n    \"The reader acknowledges that self-respect is valuable and worth pursuing.\",\n    \"The reader feels a sense of urgency or that time for self-improvement is limited.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as an instruction to actually abuse or despise oneself, it could promote harmful self-criticism rather than constructive self-reflection.\",\n    \"If the temporal urgency is exaggerated (e.g., no imminent end of life), it may cause unnecessary anxiety.\",\n    \"If the reader lacks a framework for distinguishing between productive self-critique and destructive self-contempt.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Exhortation or self-admonishment to take immediate action toward self-respect, emphasizing urgency.",
+    "implicit_claims": [
+      "The soul has the capacity to abuse or contemn itself.",
+      "Self-respect is a choice that requires active effort.",
+      "Time is finite and the opportunity for self-respect will eventually end."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it uses a direct, urgent command ('Do... abuse and contemn thyself') that paradoxically aims to provoke self-respect through self-criticism, and links the action to a temporal limit ('yet a while... will be at an end').",
+    "conditions_for_usefulness": [
+      "The reader believes in the existence of a soul or inner self capable of moral agency.",
+      "The reader acknowledges that self-respect is valuable and worth pursuing.",
+      "The reader feels a sense of urgency or that time for self-improvement is limited."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as an instruction to actually abuse or despise oneself, it could promote harmful self-criticism rather than constructive self-reflection.",
+      "If the temporal urgency is exaggerated (e.g., no imminent end of life), it may cause unnecessary anxiety.",
+      "If the reader lacks a framework for distinguishing between productive self-critique and destructive self-contempt."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 300,
+  "error": "",
+  "retry_count": 0
+}

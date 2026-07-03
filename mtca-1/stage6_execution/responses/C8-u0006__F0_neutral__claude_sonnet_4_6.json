@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0006__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:19:46.676372+00:00",
+  "wall_clock_seconds": 12.258637428283691,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a self-descriptive claim about a personal disposition or value — specifically, asserting a conditional willingness to act despite fear, contingent on evidential support. It functions as a declaration of rational courage or evidence-responsive agency.\",\n  \"implicit_claims\": [\n    \"The speaker can reliably identify what scares them.\",\n    \"The speaker can evaluate evidence and assess likelihood of benefit.\",\n    \"Fear and rational action are separable — one can act against fear when reasons are sufficient.\",\n    \"Evidence is accessible and interpretable by the speaker in a meaningful way.\",\n    \"The speaker has sufficient self-knowledge to know their actual behavioral tendencies, not just their intentions.\",\n    \"There exists a meaningful threshold at which evidence becomes 'sufficient' to override fear.\",\n    \"The speaker's definition of 'help' is coherent and stable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a logically consistent conditional structure: fear alone does not determine behavior; evidence modulates willingness to act. There is no internal contradiction. However, the coherence relies on the implicit assumption that evidence evaluation and fear response are sufficiently independent, which may not always hold psychologically.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker accurately assesses evidence quality and is not rationalizing avoidance or impulsivity.\",\n    \"The speaker has genuine capacity to act despite fear when conditions are met.\",\n    \"The statement reflects actual behavior, not merely aspiration.\",\n    \"The threshold for 'likely to help' is calibrated reasonably and consistently applied.\",\n    \"The speaker is aware of biases that might distort both fear perception and evidence interpretation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker systematically overestimates the quality of evidence supporting desired or feared actions.\",\n    \"Fear itself distorts the speaker's ability to evaluate evidence objectively.\",\n    \"The statement is aspirational rather than descriptive, misrepresenting actual behavior.\",\n    \"The speaker's concept of 'evidence' is poorly defined or selectively applied.\",\n    \"The statement is used to justify reckless behavior by framing insufficient evidence as sufficient.\",\n    \"Motivated reasoning causes the speaker to lower the evidential bar for things they want to do anyway.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a self-descriptive claim about a personal disposition or value — specifically, asserting a conditional willingness to act despite fear, contingent on evidential support. It functions as a declaration of rational courage or evidence-responsive agency.",
+    "implicit_claims": [
+      "The speaker can reliably identify what scares them.",
+      "The speaker can evaluate evidence and assess likelihood of benefit.",
+      "Fear and rational action are separable — one can act against fear when reasons are sufficient.",
+      "Evidence is accessible and interpretable by the speaker in a meaningful way.",
+      "The speaker has sufficient self-knowledge to know their actual behavioral tendencies, not just their intentions.",
+      "There exists a meaningful threshold at which evidence becomes 'sufficient' to override fear.",
+      "The speaker's definition of 'help' is coherent and stable."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a logically consistent conditional structure: fear alone does not determine behavior; evidence modulates willingness to act. There is no internal contradiction. However, the coherence relies on the implicit assumption that evidence evaluation and fear response are sufficiently independent, which may not always hold psychologically.",
+    "conditions_for_usefulness": [
+      "The speaker accurately assesses evidence quality and is not rationalizing avoidance or impulsivity.",
+      "The speaker has genuine capacity to act despite fear when conditions are met.",
+      "The statement reflects actual behavior, not merely aspiration.",
+      "The threshold for 'likely to help' is calibrated reasonably and consistently applied.",
+      "The speaker is aware of biases that might distort both fear perception and evidence interpretation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker systematically overestimates the quality of evidence supporting desired or feared actions.",
+      "Fear itself distorts the speaker's ability to evaluate evidence objectively.",
+      "The statement is aspirational rather than descriptive, misrepresenting actual behavior.",
+      "The speaker's concept of 'evidence' is poorly defined or selectively applied.",
+      "The statement is used to justify reckless behavior by framing insufficient evidence as sufficient.",
+      "Motivated reasoning causes the speaker to lower the evidential bar for things they want to do anyway."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 531,
+  "error": "",
+  "retry_count": 0
+}

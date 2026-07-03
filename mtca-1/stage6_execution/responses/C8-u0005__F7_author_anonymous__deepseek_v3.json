@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0005__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:19:34.105884+00:00",
+  "wall_clock_seconds": 5.4456140995025635,
+  "raw_response": "{\n  \"communicative_function\": \"The statement shares a personal heuristic for cognitive flexibility, specifically a strategy to counteract binary thinking by seeking partial truths in opposing positions.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a recognizable and problematic frame of mind.\",\n    \"Partial truths exist on both sides of a polarized issue.\",\n    \"One can consciously choose to search for those partial truths.\",\n    \"Such a search is valuable or beneficial for the speaker.\",\n    \"The speaker has experienced this frame and uses this strategy intentionally.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a specific mental state and a corresponding action that logically follows from acknowledging that both sides may contain some truth, even in a binary frame.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker faces situations where all-or-nothing thinking is counterproductive.\",\n    \"The issues at hand genuinely have partial truths on both sides (i.e., are not purely matters of fact or ethics with only one valid perspective).\",\n    \"The listener or reader is also prone to binary thinking and open to adopting the strategy.\",\n    \"The speaker is able to recognize when they are in an all-or-nothing frame.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied to issues where one side is demonstrably false or harmful, and seeking partial truth could lend false legitimacy to that side.\",\n    \"The statement implies that all polarized positions are equally valid or that compromise is always appropriate.\",\n    \"The listener interprets the statement as a universal prescription rather than a personal heuristic.\",\n    \"The speaker uses this strategy to avoid committing to a clear stance on matters requiring moral or factual clarity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement shares a personal heuristic for cognitive flexibility, specifically a strategy to counteract binary thinking by seeking partial truths in opposing positions.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a recognizable and problematic frame of mind.",
+      "Partial truths exist on both sides of a polarized issue.",
+      "One can consciously choose to search for those partial truths.",
+      "Such a search is valuable or beneficial for the speaker.",
+      "The speaker has experienced this frame and uses this strategy intentionally."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a specific mental state and a corresponding action that logically follows from acknowledging that both sides may contain some truth, even in a binary frame.",
+    "conditions_for_usefulness": [
+      "The speaker faces situations where all-or-nothing thinking is counterproductive.",
+      "The issues at hand genuinely have partial truths on both sides (i.e., are not purely matters of fact or ethics with only one valid perspective).",
+      "The listener or reader is also prone to binary thinking and open to adopting the strategy.",
+      "The speaker is able to recognize when they are in an all-or-nothing frame."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied to issues where one side is demonstrably false or harmful, and seeking partial truth could lend false legitimacy to that side.",
+      "The statement implies that all polarized positions are equally valid or that compromise is always appropriate.",
+      "The listener interprets the statement as a universal prescription rather than a personal heuristic.",
+      "The speaker uses this strategy to avoid committing to a clear stance on matters requiring moral or factual clarity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 353,
+  "error": "",
+  "retry_count": 0
+}

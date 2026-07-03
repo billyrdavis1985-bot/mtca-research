@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0006__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:19:59.220398+00:00",
+  "wall_clock_seconds": 5.571770191192627,
+  "raw_response": "{\n  \"communicative_function\": \"Expresses a willingness to surrender control and seek external assistance for personal change, typically in the context of a twelve-step or spiritually-oriented therapeutic approach.\",\n  \"implicit_claims\": [\n    \"There are identifiable shortcomings or defects in the individual's character or behavior.\",\n    \"These shortcomings can be removed or alleviated through a process beyond the individual's own effort.\",\n    \"There exists a higher power or external entity capable of effecting this removal.\",\n    \"The act of humbly asking is a necessary and effective step in this process.\",\n    \"The individual has some agency in initiating the request, even if not in the outcome.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a spiritual or religious framework that posits a benevolent higher power responsive to humble petition. It may be incoherent from a purely secular or self-reliant perspective, as it presupposes an external agent of change.\",\n  \"conditions_for_usefulness\": [\n    \"The individual believes in a higher power or is open to a spiritual approach to recovery.\",\n    \"The individual has acknowledged their shortcomings and feels unable to change them alone.\",\n    \"The therapeutic context supports surrender of ego and reliance on external support.\",\n    \"The statement is part of a structured program that provides ongoing guidance and community.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual interprets the statement as a substitute for personal responsibility or active behavioral change.\",\n    \"The individual has no belief in a higher power and the statement promotes false hope or magical thinking.\",\n    \"The statement is used to avoid addressing underlying psychological or medical issues that require professional treatment.\",\n    \"The individual's shortcomings are misinterpreted as moral failings rather than symptoms of a disorder or learned behavior.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expresses a willingness to surrender control and seek external assistance for personal change, typically in the context of a twelve-step or spiritually-oriented therapeutic approach.",
+    "implicit_claims": [
+      "There are identifiable shortcomings or defects in the individual's character or behavior.",
+      "These shortcomings can be removed or alleviated through a process beyond the individual's own effort.",
+      "There exists a higher power or external entity capable of effecting this removal.",
+      "The act of humbly asking is a necessary and effective step in this process.",
+      "The individual has some agency in initiating the request, even if not in the outcome."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a spiritual or religious framework that posits a benevolent higher power responsive to humble petition. It may be incoherent from a purely secular or self-reliant perspective, as it presupposes an external agent of change.",
+    "conditions_for_usefulness": [
+      "The individual believes in a higher power or is open to a spiritual approach to recovery.",
+      "The individual has acknowledged their shortcomings and feels unable to change them alone.",
+      "The therapeutic context supports surrender of ego and reliance on external support.",
+      "The statement is part of a structured program that provides ongoing guidance and community."
+    ],
+    "conditions_for_misleading": [
+      "The individual interprets the statement as a substitute for personal responsibility or active behavioral change.",
+      "The individual has no belief in a higher power and the statement promotes false hope or magical thinking.",
+      "The statement is used to avoid addressing underlying psychological or medical issues that require professional treatment.",
+      "The individual's shortcomings are misinterpreted as moral failings rather than symptoms of a disorder or learned behavior."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 144,
+  "output_tokens": 365,
+  "error": "",
+  "retry_count": 0
+}

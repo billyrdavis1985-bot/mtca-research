@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0864__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:55:12.229127+00:00",
+  "wall_clock_seconds": 4.985067367553711,
+  "raw_response": "{\n  \"communicative_function\": \"The statement confesses the author's initial skepticism toward Coué's lectures, serving as a personal admission and contrasting with a likely later change of mind.\",\n  \"implicit_claims\": [\n    \"The author attended or directly learned of Coué's lectures.\",\n    \"The author was initially skeptical of their content or effectiveness.\",\n    \"The author is now writing about or reflecting on that skepticism, implying a possible shift in view.\",\n    \"The author assumes the reader is familiar with Coué or his methods.\",\n    \"The statement presupposes that being skeptical is a recognizable and noteworthy stance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a first-person acknowledgment of a prior attitude, though it is a fragment without context showing whether the skepticism was resolved.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the text continues to demonstrate how the author overcame skepticism, providing a testimonial or narrative arc that validates Coué's methods through personal experience.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if it is presented without acknowledging that the author remained skeptical or if it is quoted selectively to imply universal credibility of Coué, when the author's final stance is not necessarily endorsing.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement confesses the author's initial skepticism toward Coué's lectures, serving as a personal admission and contrasting with a likely later change of mind.",
+    "implicit_claims": [
+      "The author attended or directly learned of Coué's lectures.",
+      "The author was initially skeptical of their content or effectiveness.",
+      "The author is now writing about or reflecting on that skepticism, implying a possible shift in view.",
+      "The author assumes the reader is familiar with Coué or his methods.",
+      "The statement presupposes that being skeptical is a recognizable and noteworthy stance."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a first-person acknowledgment of a prior attitude, though it is a fragment without context showing whether the skepticism was resolved.",
+    "conditions_for_usefulness": "This statement would be useful if the text continues to demonstrate how the author overcame skepticism, providing a testimonial or narrative arc that validates Coué's methods through personal experience.",
+    "conditions_for_misleading": "This statement could be misleading if it is presented without acknowledging that the author remained skeptical or if it is quoted selectively to imply universal credibility of Coué, when the author's final stance is not necessarily endorsing."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 260,
+  "error": "",
+  "retry_count": 0
+}

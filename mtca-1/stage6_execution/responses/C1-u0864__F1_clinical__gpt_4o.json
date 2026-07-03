@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:51:22.680055+00:00",
+  "wall_clock_seconds": 6.588297367095947,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses an admission of initial doubt or skepticism toward Coué's lectures, which may serve to build rapport or establish honesty with an audience.\",\n  \"implicit_claims\": [\n    \"Coué's lectures are known and relevant enough to be a topic of discussion.\",\n    \"Skepticism can be a typical initial reaction to therapeutic concepts.\",\n    \"There might be value in exploring concepts one is skeptical about.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent in its admission of skepticism, but it lacks context regarding whether the sentiment is resolved or if it informs any subsequent actions or beliefs. The statement would be clearer within a larger narrative of change or reflection.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if it is followed by an explanation or narrative illustrating how the initial skepticism was addressed, leading to either a change in belief or understanding. It would also be useful in a therapeutic setting where acknowledging and working through skepticism is part of the process.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if it is left isolated, with no follow-up on whether the skepticism was overcome or substantiated. It would also be misleading if the context in which Coué's lectures were encountered is misrepresented, such as suggesting a level of evidence or substantiation that does not exist.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses an admission of initial doubt or skepticism toward Coué's lectures, which may serve to build rapport or establish honesty with an audience.",
+    "implicit_claims": [
+      "Coué's lectures are known and relevant enough to be a topic of discussion.",
+      "Skepticism can be a typical initial reaction to therapeutic concepts.",
+      "There might be value in exploring concepts one is skeptical about."
+    ],
+    "coherence_assessment": "The statement is coherent in its admission of skepticism, but it lacks context regarding whether the sentiment is resolved or if it informs any subsequent actions or beliefs. The statement would be clearer within a larger narrative of change or reflection.",
+    "conditions_for_usefulness": "The statement could be useful if it is followed by an explanation or narrative illustrating how the initial skepticism was addressed, leading to either a change in belief or understanding. It would also be useful in a therapeutic setting where acknowledging and working through skepticism is part of the process.",
+    "conditions_for_misleading": "The statement could be misleading if it is left isolated, with no follow-up on whether the skepticism was overcome or substantiated. It would also be misleading if the context in which Coué's lectures were encountered is misrepresented, such as suggesting a level of evidence or substantiation that does not exist."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 282,
+  "error": "",
+  "retry_count": 0
+}

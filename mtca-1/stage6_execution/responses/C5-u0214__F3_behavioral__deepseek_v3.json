@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0214__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:34:44.301418+00:00",
+  "wall_clock_seconds": 4.819650173187256,
+  "raw_response": "{\n  \"communicative_function\": \"Inspires commitment to long-term personal development by framing vision and ideal as guiding, prophetic forces.\",\n  \"implicit_claims\": [\n    \"A person has both a vision and an ideal that are distinct yet related.\",\n    \"The vision is a promise, implying it will eventually be fulfilled.\",\n    \"The ideal is a prophecy, implying it will eventually be revealed or realized.\",\n    \"The process of becoming or unveiling is progressive and certain over time.\",\n    \"These concepts are actionable and can shape one's behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it uses parallel structure (vision/promise, ideal/prophecy) to express two stages of self-realization, with 'promise' and 'prophecy' both implying future certainty. However, the distinction between 'vision' and 'ideal' is not operationally defined, which may cause ambiguity.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a clear sense of personal vision and ideal.\",\n    \"The individual believes in self-development and the possibility of fulfilling potential.\",\n    \"The statement is used as a motivational anchor for goal-setting and sustained effort.\",\n    \"The individual accepts that progress may be gradual but certain.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual interprets 'promise' or 'prophecy' as guarantees regardless of effort.\",\n    \"The individual conflates vision and ideal, leading to confusion about actionable steps.\",\n    \"The statement discourages critical self-assessment by implying inevitable success.\",\n    \"The individual has no clear vision or ideal, leading to passive waiting rather than active commitment.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Inspires commitment to long-term personal development by framing vision and ideal as guiding, prophetic forces.",
+    "implicit_claims": [
+      "A person has both a vision and an ideal that are distinct yet related.",
+      "The vision is a promise, implying it will eventually be fulfilled.",
+      "The ideal is a prophecy, implying it will eventually be revealed or realized.",
+      "The process of becoming or unveiling is progressive and certain over time.",
+      "These concepts are actionable and can shape one's behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it uses parallel structure (vision/promise, ideal/prophecy) to express two stages of self-realization, with 'promise' and 'prophecy' both implying future certainty. However, the distinction between 'vision' and 'ideal' is not operationally defined, which may cause ambiguity.",
+    "conditions_for_usefulness": [
+      "The individual has a clear sense of personal vision and ideal.",
+      "The individual believes in self-development and the possibility of fulfilling potential.",
+      "The statement is used as a motivational anchor for goal-setting and sustained effort.",
+      "The individual accepts that progress may be gradual but certain."
+    ],
+    "conditions_for_misleading": [
+      "The individual interprets 'promise' or 'prophecy' as guarantees regardless of effort.",
+      "The individual conflates vision and ideal, leading to confusion about actionable steps.",
+      "The statement discourages critical self-assessment by implying inevitable success.",
+      "The individual has no clear vision or ideal, leading to passive waiting rather than active commitment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 345,
+  "error": "",
+  "retry_count": 0
+}

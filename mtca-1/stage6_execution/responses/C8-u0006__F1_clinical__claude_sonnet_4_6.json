@@ -1,0 +1,51 @@
+{
+  "call_id": "C8-u0006__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:20:29.589724+00:00",
+  "wall_clock_seconds": 16.545249938964844,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a volitional commitment and values-clarification affirmation. It expresses a conditional willingness to engage in approach behavior despite aversive emotional states, anchoring the commitment to epistemic justification (evidence). It serves to prime behavioral activation, reduce avoidance, and align the speaker's declared intentions with therapeutic goals such as exposure or behavioral experiments.\",\n  \"implicit_claims\": [\n    \"Fear is a valid and acknowledged internal experience that does not automatically disqualify an action.\",\n    \"Evidence can be gathered and assessed in a way that is meaningful to the individual.\",\n    \"The individual has sufficient agency to act despite fear.\",\n    \"There exists a category of actions that are both fear-inducing and evidence-supported as helpful.\",\n    \"Willingness is a trainable or affirmable psychological stance, not a fixed trait.\",\n    \"The therapeutic context has already established or will establish what counts as 'evidence' and 'likely to help'.\",\n    \"Scariness alone is not sufficient justification for avoidance.\",\n    \"The self is capable of tolerating fear during goal-directed action.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not claim fear will disappear, nor does it assert certainty of outcome. The conditional structure ('when the evidence suggests') prevents overgeneralization and preserves epistemic humility. The pairing of emotional acknowledgment with rational grounding is consistent with ACT, CBT, and exposure-based frameworks. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely struggles with avoidance driven by fear rather than legitimate danger assessment.\",\n    \"A credible and shared method of evaluating 'evidence' has been established in the therapeutic relationship.\",\n    \"The therapist and client have collaboratively identified specific feared behaviors that are clinically indicated.\",\n    \"The individual has sufficient psychological safety and therapeutic alliance to make the commitment meaningful rather than coerced.\",\n    \"The statement is used as part of an ongoing practice rather than a one-time recitation.\",\n    \"The individual's fear is disproportionate to actual risk, making exposure or behavioral approach genuinely indicated.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'evidence' referenced is poorly defined, cherry-picked, or not collaboratively evaluated, allowing the statement to rationalize harmful actions.\",\n    \"The individual is in a context of actual danger where fear is an adaptive signal, not a cognitive distortion.\",\n    \"The statement is used to override legitimate informed refusal of a clinical intervention.\",\n    \"The therapist uses it to pressure compliance rather than cultivate genuine autonomous willingness.\",\n    \"The individual interprets 'likely to help' as 'certain to help,' creating unrealistic expectations that could undermine trust when outcomes are mixed.\",\n    \"The statement is applied to populations or situations where avoidance is not the primary clinical problem, making it irrelevant or distorting.\",\n    \"It is recited without internalization, functioning as empty affirmation that substitutes for actual therapeutic processing.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a volitional commitment and values-clarification affirmation. It expresses a conditional willingness to engage in approach behavior despite aversive emotional states, anchoring the commitment to epistemic justification (evidence). It serves to prime behavioral activation, reduce avoidance, and align the speaker's declared intentions with therapeutic goals such as exposure or behavioral experiments.",
+    "implicit_claims": [
+      "Fear is a valid and acknowledged internal experience that does not automatically disqualify an action.",
+      "Evidence can be gathered and assessed in a way that is meaningful to the individual.",
+      "The individual has sufficient agency to act despite fear.",
+      "There exists a category of actions that are both fear-inducing and evidence-supported as helpful.",
+      "Willingness is a trainable or affirmable psychological stance, not a fixed trait.",
+      "The therapeutic context has already established or will establish what counts as 'evidence' and 'likely to help'.",
+      "Scariness alone is not sufficient justification for avoidance.",
+      "The self is capable of tolerating fear during goal-directed action."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not claim fear will disappear, nor does it assert certainty of outcome. The conditional structure ('when the evidence suggests') prevents overgeneralization and preserves epistemic humility. The pairing of emotional acknowledgment with rational grounding is consistent with ACT, CBT, and exposure-based frameworks. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The individual genuinely struggles with avoidance driven by fear rather than legitimate danger assessment.",
+      "A credible and shared method of evaluating 'evidence' has been established in the therapeutic relationship.",
+      "The therapist and client have collaboratively identified specific feared behaviors that are clinically indicated.",
+      "The individual has sufficient psychological safety and therapeutic alliance to make the commitment meaningful rather than coerced.",
+      "The statement is used as part of an ongoing practice rather than a one-time recitation.",
+      "The individual's fear is disproportionate to actual risk, making exposure or behavioral approach genuinely indicated."
+    ],
+    "conditions_for_misleading": [
+      "The 'evidence' referenced is poorly defined, cherry-picked, or not collaboratively evaluated, allowing the statement to rationalize harmful actions.",
+      "The individual is in a context of actual danger where fear is an adaptive signal, not a cognitive distortion.",
+      "The statement is used to override legitimate informed refusal of a clinical intervention.",
+      "The therapist uses it to pressure compliance rather than cultivate genuine autonomous willingness.",
+      "The individual interprets 'likely to help' as 'certain to help,' creating unrealistic expectations that could undermine trust when outcomes are mixed.",
+      "The statement is applied to populations or situations where avoidance is not the primary clinical problem, making it irrelevant or distorting.",
+      "It is recited without internalization, functioning as empty affirmation that substitutes for actual therapeutic processing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 707,
+  "error": "",
+  "retry_count": 0
+}

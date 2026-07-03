@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0000__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:49:34.860593+00:00",
+  "wall_clock_seconds": 4.6775946617126465,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation of cognitive insight and a commitment to reality-testing, signaling a shift from automatic reactivity to deliberate reasoning.\",\n  \"implicit_claims\": [\n    \"The speaker has automatic thoughts that can be identified.\",\n    \"There exists an objective standard of evidence that is distinct from subjective thoughts.\",\n    \"Automatic thoughts may not align with that evidence.\",\n    \"The speaker is capable of noticing this discrepancy.\",\n    \"The speaker values aligning beliefs with evidence over automatic thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it asserts a distinction between automatic thoughts and evidence, which is a standard concept in cognitive behavioral therapy. No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is experiencing automatic thoughts that are potentially distorted or unhelpful.\",\n    \"The speaker has access to relevant evidence or a willingness to seek it.\",\n    \"The speaker is committed to using this insight to modify their thinking or behavior.\",\n    \"The context supports reflection rather than immediate action (e.g., not a high-stakes emergency).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker believes that all automatic thoughts are false, which could lead to dismissing useful intuitions.\",\n    \"The speaker has no way to access objective evidence, making the distinction meaningless.\",\n    \"The statement is used to avoid emotional processing by over-intellectualizing.\",\n    \"The speaker applies it rigidly, ignoring that some automatic thoughts may indeed match evidence.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation of cognitive insight and a commitment to reality-testing, signaling a shift from automatic reactivity to deliberate reasoning.",
+    "implicit_claims": [
+      "The speaker has automatic thoughts that can be identified.",
+      "There exists an objective standard of evidence that is distinct from subjective thoughts.",
+      "Automatic thoughts may not align with that evidence.",
+      "The speaker is capable of noticing this discrepancy.",
+      "The speaker values aligning beliefs with evidence over automatic thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it asserts a distinction between automatic thoughts and evidence, which is a standard concept in cognitive behavioral therapy. No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker is experiencing automatic thoughts that are potentially distorted or unhelpful.",
+      "The speaker has access to relevant evidence or a willingness to seek it.",
+      "The speaker is committed to using this insight to modify their thinking or behavior.",
+      "The context supports reflection rather than immediate action (e.g., not a high-stakes emergency)."
+    ],
+    "conditions_for_misleading": [
+      "The speaker believes that all automatic thoughts are false, which could lead to dismissing useful intuitions.",
+      "The speaker has no way to access objective evidence, making the distinction meaningless.",
+      "The statement is used to avoid emotional processing by over-intellectualizing.",
+      "The speaker applies it rigidly, ignoring that some automatic thoughts may indeed match evidence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 323,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0057__F1_clinical__grok_4",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:50:02.153525+00:00",
+  "wall_clock_seconds": 5.225661516189575,
+  "raw_response": "{\n  \"communicative_function\": \"reframes a phenomenon as non-moral by subsuming it under a normative conception of nature, thereby reducing guilt or resistance\",\n  \"implicit_claims\": [\n    \"a stable, identifiable category 'nature' exists that can be reliably distinguished from its opposite\",\n    \"evil is not coextensive with what occurs in nature\",\n    \"conformity to nature is sufficient to exclude moral badness\",\n    \"the speaker's or listener's experience falls inside the category 'according to nature'\"\n  ],\n  \"coherence_assessment\": \"internally coherent only within a teleological or Stoic metaphysics that equates 'natural' with 'good-ordered'; otherwise circular because 'nature' is left undefined and can absorb any referent\",\n  \"conditions_for_usefulness\": \"client experiences distress from pathologizing a biologically or statistically normal process; therapist and client share a workable, non-tautological definition of 'nature'; statement functions to increase acceptance rather than to license harm\",\n  \"conditions_for_misleading\": \"'nature' is tacitly expanded to include culturally variable or individually harmful behaviors; client interprets the claim as empirical rather than normative; real medical or social problems are dismissed solely because they are labeled natural\"\n}",
+  "parsed_json": {
+    "communicative_function": "reframes a phenomenon as non-moral by subsuming it under a normative conception of nature, thereby reducing guilt or resistance",
+    "implicit_claims": [
+      "a stable, identifiable category 'nature' exists that can be reliably distinguished from its opposite",
+      "evil is not coextensive with what occurs in nature",
+      "conformity to nature is sufficient to exclude moral badness",
+      "the speaker's or listener's experience falls inside the category 'according to nature'"
+    ],
+    "coherence_assessment": "internally coherent only within a teleological or Stoic metaphysics that equates 'natural' with 'good-ordered'; otherwise circular because 'nature' is left undefined and can absorb any referent",
+    "conditions_for_usefulness": "client experiences distress from pathologizing a biologically or statistically normal process; therapist and client share a workable, non-tautological definition of 'nature'; statement functions to increase acceptance rather than to license harm",
+    "conditions_for_misleading": "'nature' is tacitly expanded to include culturally variable or individually harmful behaviors; client interprets the claim as empirical rather than normative; real medical or social problems are dismissed solely because they are labeled natural"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 252,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:34:43.610258+00:00",
+  "wall_clock_seconds": 9.874664783477783,
+  "raw_response": "{\n  \"communicative_function\": \"personal commitment declaration affirming volitional priority of values over lagging affect\",\n  \"implicit_claims\": [\n    \"values and feelings are separable psychological domains\",\n    \"action can be chosen on the basis of values independently of current emotional alignment\",\n    \"feelings are expected to eventually converge with chosen values\",\n    \"acting from values constitutes the superior or more authentic form of agency\"\n  ],\n  \"coherence_assessment\": \"internally coherent; acknowledges a recognized psychological lag without logical contradiction\",\n  \"conditions_for_usefulness\": \"values must be reflectively stable and ethically defensible; emotional discrepancy must be temporary or non-indicative of value revision\",\n  \"conditions_for_misleading\": \"values themselves are unexamined or harmful; persistent emotional signals reflect legitimate reasons to revise values rather than override them\"\n}",
+  "parsed_json": {
+    "communicative_function": "personal commitment declaration affirming volitional priority of values over lagging affect",
+    "implicit_claims": [
+      "values and feelings are separable psychological domains",
+      "action can be chosen on the basis of values independently of current emotional alignment",
+      "feelings are expected to eventually converge with chosen values",
+      "acting from values constitutes the superior or more authentic form of agency"
+    ],
+    "coherence_assessment": "internally coherent; acknowledges a recognized psychological lag without logical contradiction",
+    "conditions_for_usefulness": "values must be reflectively stable and ethically defensible; emotional discrepancy must be temporary or non-indicative of value revision",
+    "conditions_for_misleading": "values themselves are unexamined or harmful; persistent emotional signals reflect legitimate reasons to revise values rather than override them"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 171,
+  "error": "",
+  "retry_count": 0
+}

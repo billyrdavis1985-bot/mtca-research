@@ -1,0 +1,45 @@
+{
+  "call_id": "C5-u0112__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:20:39.343944+00:00",
+  "wall_clock_seconds": 7.517936706542969,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a direct causal link between one's mental state (thoughts) and their physical health, acting as an explanatory principle for physical illness. It implicitly suggests that cultivating 'healthy thoughts' is a path to a healthy body, serving a persuasive or motivational function within the context of self-improvement.\",\n  \"implicit_claims\": [\n    \"One's thoughts, particularly negative or 'sickly' ones, are the primary or a significant determinant of physical health.\",\n    \"The body is a direct 'expression' or manifestation of the mind's inner state.\",\n    \"Physical illness (a 'sickly body') is largely a consequence of negative mental patterns or emotional states.\",\n    \"Individuals have considerable control over their physical health through the management and quality of their thoughts.\",\n    \"There is a direct and almost literal mirroring between mental and physical 'sickliness'.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Within its own premise of a strong mind-body connection and the idea that inner states manifest externally, the logical progression from 'sickly thoughts' to a 'sickly body' is consistent. It presents a clear cause-and-effect relationship based on its foundational assumptions.\",\n  \"conditions_for_usefulness\": [\n    \"If mental well-being (e.g., stress management, positive outlook, emotional resilience) genuinely contributes to physical health, strengthens the immune system, or influences recovery from illness, as supported by psychosomatic medicine and health psychology.\",\n    \"If it motivates individuals to address chronic stress, anxiety, or negative thought patterns that are known to exacerbate certain physical conditions or lead to unhealthy behaviors.\",\n    \"When applied to conditions where psychological factors are a known component (e.g., stress-related illnesses, chronic pain influenced by mental state).\",\n    \"As a reminder of the holistic nature of health, encouraging attention to both mental and physical self-care.\",\n    \"If interpreted metaphorically as 'a mind constantly dwelling on illness or negativity may neglect the body or foster conditions for poor health'.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it implies that *all* physical illnesses, including genetic conditions, infectious diseases, injuries, or environmentally caused ailments, are solely or primarily due to 'sickly thoughts', thereby blaming the victim.\",\n    \"If it discourages seeking necessary conventional medical treatment for physical ailments, leading to neglect of biologically-based conditions.\",\n    \"If it creates undue guilt, shame, or self-blame in individuals suffering from severe or chronic illnesses, suggesting their suffering is their own fault for not having 'healthy thoughts'.\",\n    \"If it oversimplifies the complex interplay of genetic, environmental, social, and biological factors that contribute to health and disease.\",\n    \"If it suggests that one can 'think away' serious physical conditions, promoting magical thinking over practical health interventions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a direct causal link between one's mental state (thoughts) and their physical health, acting as an explanatory principle for physical illness. It implicitly suggests that cultivating 'healthy thoughts' is a path to a healthy body, serving a persuasive or motivational function within the context of self-improvement.",
+    "implicit_claims": [
+      "One's thoughts, particularly negative or 'sickly' ones, are the primary or a significant determinant of physical health.",
+      "The body is a direct 'expression' or manifestation of the mind's inner state.",
+      "Physical illness (a 'sickly body') is largely a consequence of negative mental patterns or emotional states.",
+      "Individuals have considerable control over their physical health through the management and quality of their thoughts.",
+      "There is a direct and almost literal mirroring between mental and physical 'sickliness'."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Within its own premise of a strong mind-body connection and the idea that inner states manifest externally, the logical progression from 'sickly thoughts' to a 'sickly body' is consistent. It presents a clear cause-and-effect relationship based on its foundational assumptions.",
+    "conditions_for_usefulness": [
+      "If mental well-being (e.g., stress management, positive outlook, emotional resilience) genuinely contributes to physical health, strengthens the immune system, or influences recovery from illness, as supported by psychosomatic medicine and health psychology.",
+      "If it motivates individuals to address chronic stress, anxiety, or negative thought patterns that are known to exacerbate certain physical conditions or lead to unhealthy behaviors.",
+      "When applied to conditions where psychological factors are a known component (e.g., stress-related illnesses, chronic pain influenced by mental state).",
+      "As a reminder of the holistic nature of health, encouraging attention to both mental and physical self-care.",
+      "If interpreted metaphorically as 'a mind constantly dwelling on illness or negativity may neglect the body or foster conditions for poor health'."
+    ],
+    "conditions_for_misleading": [
+      "If it implies that *all* physical illnesses, including genetic conditions, infectious diseases, injuries, or environmentally caused ailments, are solely or primarily due to 'sickly thoughts', thereby blaming the victim.",
+      "If it discourages seeking necessary conventional medical treatment for physical ailments, leading to neglect of biologically-based conditions.",
+      "If it creates undue guilt, shame, or self-blame in individuals suffering from severe or chronic illnesses, suggesting their suffering is their own fault for not having 'healthy thoughts'.",
+      "If it oversimplifies the complex interplay of genetic, environmental, social, and biological factors that contribute to health and disease.",
+      "If it suggests that one can 'think away' serious physical conditions, promoting magical thinking over practical health interventions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 625,
+  "error": "",
+  "retry_count": 0
+}

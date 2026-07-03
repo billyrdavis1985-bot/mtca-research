@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0142__F3_behavioral__grok_4",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:24:07.197393+00:00",
+  "wall_clock_seconds": 6.625561714172363,
+  "raw_response": "{\n  \"communicative_function\": \"assertive prescription framing purposeful thought as prerequisite for valued outcomes\",\n  \"implicit_claims\": [\n    \"thought can exist independently of purpose\",\n    \"purposeful thought produces a distinct category of 'intelligent accomplishment'\",\n    \"accomplishment without linked purpose is non-intelligent or valueless\",\n    \"the linkage is a controllable behavioral choice\"\n  ],\n  \"coherence_assessment\": \"internally consistent as motivational axiom but risks circularity by defining intelligence via the very purpose it prescribes\",\n  \"conditions_for_usefulness\": \"purpose is operationalizable, the audience can reliably form and sustain such links, and outcomes improve measurably when the link is present\",\n  \"conditions_for_misleading\": \"spontaneous or emergent cognition produces valuable results, or 'purpose' is imposed externally in ways that reduce autonomy or creativity\"\n}",
+  "parsed_json": {
+    "communicative_function": "assertive prescription framing purposeful thought as prerequisite for valued outcomes",
+    "implicit_claims": [
+      "thought can exist independently of purpose",
+      "purposeful thought produces a distinct category of 'intelligent accomplishment'",
+      "accomplishment without linked purpose is non-intelligent or valueless",
+      "the linkage is a controllable behavioral choice"
+    ],
+    "coherence_assessment": "internally consistent as motivational axiom but risks circularity by defining intelligence via the very purpose it prescribes",
+    "conditions_for_usefulness": "purpose is operationalizable, the audience can reliably form and sustain such links, and outcomes improve measurably when the link is present",
+    "conditions_for_misleading": "spontaneous or emergent cognition produces valuable results, or 'purpose' is imposed externally in ways that reduce autonomy or creativity"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0001__F6_author_named__grok_4",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:59:51.460249+00:00",
+  "wall_clock_seconds": 7.687674522399902,
+  "raw_response": "{\n  \"communicative_function\": \"Describes a pivotal realization or admission in a structured recovery program, framing belief in a higher power as a step toward recovery.\",\n  \"implicit_claims\": [\n    \"The individual previously lacked sanity or rational control due to their condition\",\n    \"A Power greater than oneself exists\",\n    \"This Power possesses the capacity to restore sanity\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a spiritual/self-help framework that treats recovery as dependent on external higher power rather than solely individual agency.\",\n  \"conditions_for_usefulness\": \"The recipient finds personal psychological benefit, motivation, or reduced shame from adopting a belief in a higher power that supports behavioral change and sobriety.\",\n  \"conditions_for_misleading\": \"The statement is treated as an empirically testable claim rather than a personal/spiritual tenet, or it discourages evidence-based treatment by implying supernatural intervention is necessary or sufficient.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Describes a pivotal realization or admission in a structured recovery program, framing belief in a higher power as a step toward recovery.",
+    "implicit_claims": [
+      "The individual previously lacked sanity or rational control due to their condition",
+      "A Power greater than oneself exists",
+      "This Power possesses the capacity to restore sanity"
+    ],
+    "coherence_assessment": "Internally coherent within a spiritual/self-help framework that treats recovery as dependent on external higher power rather than solely individual agency.",
+    "conditions_for_usefulness": "The recipient finds personal psychological benefit, motivation, or reduced shame from adopting a belief in a higher power that supports behavioral change and sobriety.",
+    "conditions_for_misleading": "The statement is treated as an empirically testable claim rather than a personal/spiritual tenet, or it discourages evidence-based treatment by implying supernatural intervention is necessary or sufficient."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

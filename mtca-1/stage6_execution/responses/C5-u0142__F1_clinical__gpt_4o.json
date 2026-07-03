@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0142__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:22:29.825368+00:00",
+  "wall_clock_seconds": 3.5805461406707764,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is motivating the individual to align their thoughts with a specific purpose or goal to achieve meaningful results.\",\n  \"implicit_claims\": [\n    \"Thoughts alone are insufficient for meaningful achievement.\",\n    \"Linking thoughts with purpose results in intelligent accomplishment.\",\n    \"Purpose is a necessary catalyst for turning thoughts into action.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically links thought, purpose, and accomplishment in a cause-and-effect relationship.\",\n  \"conditions_for_usefulness\": \"The individual must recognize the importance of having a clear purpose and be willing to reflect on their intentions and goals. Additionally, they should be able to identify and establish a concrete link between their thoughts and desired outcomes.\",\n  \"conditions_for_misleading\": \"If the individual's goals are unrealistic, harmful, or lack a solid action plan, then merely linking thoughts with purpose may not lead to accomplishment. Furthermore, the statement assumes that all thoughts should be purpose-driven, which may ignore the value of free thought and creativity.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is motivating the individual to align their thoughts with a specific purpose or goal to achieve meaningful results.",
+    "implicit_claims": [
+      "Thoughts alone are insufficient for meaningful achievement.",
+      "Linking thoughts with purpose results in intelligent accomplishment.",
+      "Purpose is a necessary catalyst for turning thoughts into action."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically links thought, purpose, and accomplishment in a cause-and-effect relationship.",
+    "conditions_for_usefulness": "The individual must recognize the importance of having a clear purpose and be willing to reflect on their intentions and goals. Additionally, they should be able to identify and establish a concrete link between their thoughts and desired outcomes.",
+    "conditions_for_misleading": "If the individual's goals are unrealistic, harmful, or lack a solid action plan, then merely linking thoughts with purpose may not lead to accomplishment. Furthermore, the statement assumes that all thoughts should be purpose-driven, which may ignore the value of free thought and creativity."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 221,
+  "error": "",
+  "retry_count": 0
+}

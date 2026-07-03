@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0008__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:36:08.855392+00:00",
+  "wall_clock_seconds": 4.855429410934448,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation or declaration of intentionality, expressing a commitment to act according to one's principles despite emotional discord.\",\n  \"implicit_claims\": [\n    \"The speaker has a stable set of values that they can identify and act upon.\",\n    \"Feelings and values can be in conflict (i.e., feelings may lag behind values).\",\n    \"Acting in line with values is a desirable or virtuous choice.\",\n    \"The speaker's feelings are currently not aligned with their values.\",\n    \"Such a choice involves conscious effort and agency.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a common psychological experience where action based on values precedes emotional alignment, which is logically and practically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely holds values that are well-defined and important to them.\",\n    \"The speaker has the self-awareness to recognize the discrepancy between feelings and values.\",\n    \"The context allows for volitional action (i.e., the speaker is not coerced or incapacitated).\",\n    \"Acting in line with values leads to outcomes that are beneficial or growth-promoting.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker's stated values are not genuinely held or are self-deceptive.\",\n    \"The statement is used to suppress or dismiss valid emotional concerns that should inform values.\",\n    \"The speaker is using the phrase to justify harmful or unethical actions while claiming moral high ground.\",\n    \"The context is one where emotional alignment is actually necessary for healthy decision-making (e.g., in trauma recovery).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or declaration of intentionality, expressing a commitment to act according to one's principles despite emotional discord.",
+    "implicit_claims": [
+      "The speaker has a stable set of values that they can identify and act upon.",
+      "Feelings and values can be in conflict (i.e., feelings may lag behind values).",
+      "Acting in line with values is a desirable or virtuous choice.",
+      "The speaker's feelings are currently not aligned with their values.",
+      "Such a choice involves conscious effort and agency."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a common psychological experience where action based on values precedes emotional alignment, which is logically and practically consistent.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely holds values that are well-defined and important to them.",
+      "The speaker has the self-awareness to recognize the discrepancy between feelings and values.",
+      "The context allows for volitional action (i.e., the speaker is not coerced or incapacitated).",
+      "Acting in line with values leads to outcomes that are beneficial or growth-promoting."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's stated values are not genuinely held or are self-deceptive.",
+      "The statement is used to suppress or dismiss valid emotional concerns that should inform values.",
+      "The speaker is using the phrase to justify harmful or unethical actions while claiming moral high ground.",
+      "The context is one where emotional alignment is actually necessary for healthy decision-making (e.g., in trauma recovery)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 341,
+  "error": "",
+  "retry_count": 0
+}

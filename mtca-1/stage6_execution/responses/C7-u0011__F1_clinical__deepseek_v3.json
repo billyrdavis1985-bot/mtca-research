@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0011__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:42:32.116261+00:00",
+  "wall_clock_seconds": 5.629544973373413,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a declaration of commitment and identity transformation, expressing a collective intention to engage in altruistic outreach and integrate learned principles into daily life.\",\n  \"implicit_claims\": [\n    \"The speaker has genuinely experienced a spiritual awakening.\",\n    \"The spiritual awakening is a direct result of following a specific set of steps.\",\n    \"The speaker is qualified to carry a message to alcoholics.\",\n    \"The principles practiced are universal and applicable to all life situations.\",\n    \"The speaker and others (we) have successfully undergone this process.\",\n    \"Alcoholics are in need of this specific message.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework: it links cause (steps) to effect (awakening), then to action (carrying message and practicing principles). However, its coherence depends on accepting the premise of a spiritual awakening as a real, definable outcome of the steps.\",\n  \"conditions_for_usefulness\": [\n    \"The patient has voluntarily engaged in a set of steps they believe in.\",\n    \"The patient reports a subjective experience they identify as a spiritual awakening.\",\n    \"The patient feels a sense of purpose or altruistic motivation as a result.\",\n    \"The patient has access to a supportive community that validates this language.\",\n    \"The patient is in a stage of recovery where helping others is therapeutic rather than overwhelming.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The patient has not had a genuine spiritual awakening but feels pressured to claim one.\",\n    \"The patient uses the statement to avoid addressing ongoing personal issues (e.g., using service as a distraction).\",\n    \"The statement is used to imply that only this specific path leads to recovery.\",\n    \"The patient is not actually practicing the principles, creating cognitive dissonance.\",\n    \"The statement is applied to coerce others into adopting the same belief system.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a declaration of commitment and identity transformation, expressing a collective intention to engage in altruistic outreach and integrate learned principles into daily life.",
+    "implicit_claims": [
+      "The speaker has genuinely experienced a spiritual awakening.",
+      "The spiritual awakening is a direct result of following a specific set of steps.",
+      "The speaker is qualified to carry a message to alcoholics.",
+      "The principles practiced are universal and applicable to all life situations.",
+      "The speaker and others (we) have successfully undergone this process.",
+      "Alcoholics are in need of this specific message."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework: it links cause (steps) to effect (awakening), then to action (carrying message and practicing principles). However, its coherence depends on accepting the premise of a spiritual awakening as a real, definable outcome of the steps.",
+    "conditions_for_usefulness": [
+      "The patient has voluntarily engaged in a set of steps they believe in.",
+      "The patient reports a subjective experience they identify as a spiritual awakening.",
+      "The patient feels a sense of purpose or altruistic motivation as a result.",
+      "The patient has access to a supportive community that validates this language.",
+      "The patient is in a stage of recovery where helping others is therapeutic rather than overwhelming."
+    ],
+    "conditions_for_misleading": [
+      "The patient has not had a genuine spiritual awakening but feels pressured to claim one.",
+      "The patient uses the statement to avoid addressing ongoing personal issues (e.g., using service as a distraction).",
+      "The statement is used to imply that only this specific path leads to recovery.",
+      "The patient is not actually practicing the principles, creating cognitive dissonance.",
+      "The statement is applied to coerce others into adopting the same belief system."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 393,
+  "error": "",
+  "retry_count": 0
+}

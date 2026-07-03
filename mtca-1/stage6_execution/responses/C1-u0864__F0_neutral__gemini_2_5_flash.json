@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0864__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:50:52.821488+00:00",
+  "wall_clock_seconds": 7.687316179275513,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To confess or disclose a personal, past intellectual and emotional state (skepticism) regarding a specific topic (Coué's lectures). It serves to establish the speaker's initial position or bias.\",\n  \"implicit_claims\": [\n    \"The speaker was exposed to or attended Coué's lectures.\",\n    \"Coué gave lectures (presupposes Coué's existence and activity).\",\n    \"The speaker is being honest about their past mental state.\",\n    \"The speaker's skepticism was significant ('entirely sceptical').\",\n    \"There might be an implication that this skepticism is relevant to the current conversation, possibly as a preamble to discussing a change of mind or a justification of the initial skepticism.\"\n  ],\n  \"coherence_assessment\": \"The statement is grammatically and logically coherent. The introductory phrase 'Coué's lectures' sets the subject of the skepticism, and the 'I confess' clause clearly expresses the speaker's past attitude. While slightly informal in structure (a hanging topic), it is readily understandable and internally consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The listener has some knowledge of Coué and his lectures, or the context in which they are being discussed.\",\n    \"The speaker's initial skepticism is relevant to the ongoing conversation (e.g., as background for a story, to explain a current stance, or to discuss the power of belief/disbelief).\",\n    \"The statement is a genuine report of the speaker's past mental state.\",\n    \"It serves as a starting point for further explanation or narrative development.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker was not actually skeptical, but claims to be for rhetorical effect (e.g., to set up a 'conversion' narrative that didn't happen, or to appear more discerning).\",\n    \"The listener assumes the 'confession' implies a subsequent change of heart, when the speaker's skepticism persists.\",\n    \"The term 'entirely sceptical' is an exaggeration of a milder or partial skepticism.\",\n    \"The statement is presented without context, leading the listener to infer an irrelevant or incorrect reason for the skepticism, or a misleading conclusion about its impact.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To confess or disclose a personal, past intellectual and emotional state (skepticism) regarding a specific topic (Coué's lectures). It serves to establish the speaker's initial position or bias.",
+    "implicit_claims": [
+      "The speaker was exposed to or attended Coué's lectures.",
+      "Coué gave lectures (presupposes Coué's existence and activity).",
+      "The speaker is being honest about their past mental state.",
+      "The speaker's skepticism was significant ('entirely sceptical').",
+      "There might be an implication that this skepticism is relevant to the current conversation, possibly as a preamble to discussing a change of mind or a justification of the initial skepticism."
+    ],
+    "coherence_assessment": "The statement is grammatically and logically coherent. The introductory phrase 'Coué's lectures' sets the subject of the skepticism, and the 'I confess' clause clearly expresses the speaker's past attitude. While slightly informal in structure (a hanging topic), it is readily understandable and internally consistent.",
+    "conditions_for_usefulness": [
+      "The listener has some knowledge of Coué and his lectures, or the context in which they are being discussed.",
+      "The speaker's initial skepticism is relevant to the ongoing conversation (e.g., as background for a story, to explain a current stance, or to discuss the power of belief/disbelief).",
+      "The statement is a genuine report of the speaker's past mental state.",
+      "It serves as a starting point for further explanation or narrative development."
+    ],
+    "conditions_for_misleading": [
+      "The speaker was not actually skeptical, but claims to be for rhetorical effect (e.g., to set up a 'conversion' narrative that didn't happen, or to appear more discerning).",
+      "The listener assumes the 'confession' implies a subsequent change of heart, when the speaker's skepticism persists.",
+      "The term 'entirely sceptical' is an exaggeration of a milder or partial skepticism.",
+      "The statement is presented without context, leading the listener to infer an irrelevant or incorrect reason for the skepticism, or a misleading conclusion about its impact."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 492,
+  "error": "",
+  "retry_count": 0
+}

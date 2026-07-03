@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0142__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:22:11.159722+00:00",
+  "wall_clock_seconds": 4.23433518409729,
+  "raw_response": "{\n  \"communicative_function\": \"Prescriptive claim about the necessity of linking thought with purpose for intelligent accomplishment.\",\n  \"implicit_claims\": [\n    \"Thought without purpose can exist and is not intelligent accomplishment.\",\n    \"Intelligent accomplishment requires both thought and purpose in combination.\",\n    \"Purpose is a distinct element from thought that can be linked or not linked to it.\",\n    \"There is a threshold ('until') after which intelligent accomplishment becomes possible.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional assertion: it defines a necessary condition for intelligent accomplishment, and the logical structure ('until X then not Y') is consistent with that definition.\",\n  \"conditions_for_usefulness\": [\n    \"The terms 'thought', 'purpose', and 'intelligent accomplishment' are clearly defined in the context where the statement is applied.\",\n    \"The audience values purposeful action over aimless thinking.\",\n    \"The statement is used as a heuristic to encourage goal-directed reasoning.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'purpose' is interpreted narrowly (e.g., only conscious, articulated goals), the statement may dismiss valuable exploratory or unconscious thought processes that lead to accomplishment.\",\n    \"If the statement is taken as an absolute truth rather than a normative guideline, it may oversimplify complex creative or scientific achievements that involve thought without explicit initial purpose.\",\n    \"If it implies that all intelligent accomplishment requires a pre-linked purpose, it could ignore serendipitous discoveries or emergent solutions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescriptive claim about the necessity of linking thought with purpose for intelligent accomplishment.",
+    "implicit_claims": [
+      "Thought without purpose can exist and is not intelligent accomplishment.",
+      "Intelligent accomplishment requires both thought and purpose in combination.",
+      "Purpose is a distinct element from thought that can be linked or not linked to it.",
+      "There is a threshold ('until') after which intelligent accomplishment becomes possible."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional assertion: it defines a necessary condition for intelligent accomplishment, and the logical structure ('until X then not Y') is consistent with that definition.",
+    "conditions_for_usefulness": [
+      "The terms 'thought', 'purpose', and 'intelligent accomplishment' are clearly defined in the context where the statement is applied.",
+      "The audience values purposeful action over aimless thinking.",
+      "The statement is used as a heuristic to encourage goal-directed reasoning."
+    ],
+    "conditions_for_misleading": [
+      "If 'purpose' is interpreted narrowly (e.g., only conscious, articulated goals), the statement may dismiss valuable exploratory or unconscious thought processes that lead to accomplishment.",
+      "If the statement is taken as an absolute truth rather than a normative guideline, it may oversimplify complex creative or scientific achievements that involve thought without explicit initial purpose.",
+      "If it implies that all intelligent accomplishment requires a pre-linked purpose, it could ignore serendipitous discoveries or emergent solutions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 129,
+  "output_tokens": 315,
+  "error": "",
+  "retry_count": 0
+}

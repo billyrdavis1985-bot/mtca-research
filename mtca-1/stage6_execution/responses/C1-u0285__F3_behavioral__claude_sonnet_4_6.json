@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0285__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:31:44.139920+00:00",
+  "wall_clock_seconds": 13.702049255371094,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a defensive rhetorical maneuver — deflecting criticism of a potentially dangerous thing by invoking a comparative normalization argument ('everything is dangerous, so why single this out?'). It simultaneously concedes and dismisses a safety concern while shifting the burden of proof to the objector.\",\n  \"implicit_claims\": [\n    \"The thing being discussed poses little to no real danger (the parenthetical denial).\",\n    \"All things humans use carry some degree of danger.\",\n    \"Danger alone is insufficient grounds for rejecting or avoiding something.\",\n    \"The objector is applying an inconsistent or unfair standard.\",\n    \"If the objector cannot identify a completely safe alternative, their objection loses force.\",\n    \"Comparative risk is the appropriate framework for evaluating this thing's acceptability.\",\n    \"The speaker has already considered and dismissed the danger objection.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally incoherent in a subtle but significant way: it simultaneously denies that the thing is dangerous ('which is not so') and argues that danger is irrelevant because everything is dangerous. These two moves undermine each other — if the thing truly poses no danger, the comparative argument is unnecessary; if the comparative argument is needed, the denial of danger is doing dishonest rhetorical work. The argument is rhetorically effective but logically self-contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The thing in question has been unfairly singled out relative to comparably risky alternatives that are widely accepted.\",\n    \"The objector is applying an inconsistent standard (accepting other risks but not this one).\",\n    \"The comparative risk of the thing is genuinely low relative to accepted alternatives.\",\n    \"A proportional risk-benefit framework is the appropriate lens for the decision at hand.\",\n    \"The danger being objected to is speculative or marginal rather than well-evidenced.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The thing in question poses a categorically higher or qualitatively different risk than everyday items.\",\n    \"The speaker's parenthetical denial ('which is not so') is factually false or contested.\",\n    \"The comparative normalization obscures a specific, serious, and preventable harm.\",\n    \"The objector's concern is not about danger in the abstract but about a specific, identifiable risk mechanism.\",\n    \"The argument is used to forestall legitimate safety regulation or informed consent.\",\n    \"The audience is not equipped to critically evaluate the comparative risk claims being implied.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a defensive rhetorical maneuver — deflecting criticism of a potentially dangerous thing by invoking a comparative normalization argument ('everything is dangerous, so why single this out?'). It simultaneously concedes and dismisses a safety concern while shifting the burden of proof to the objector.",
+    "implicit_claims": [
+      "The thing being discussed poses little to no real danger (the parenthetical denial).",
+      "All things humans use carry some degree of danger.",
+      "Danger alone is insufficient grounds for rejecting or avoiding something.",
+      "The objector is applying an inconsistent or unfair standard.",
+      "If the objector cannot identify a completely safe alternative, their objection loses force.",
+      "Comparative risk is the appropriate framework for evaluating this thing's acceptability.",
+      "The speaker has already considered and dismissed the danger objection."
+    ],
+    "coherence_assessment": "The statement is internally incoherent in a subtle but significant way: it simultaneously denies that the thing is dangerous ('which is not so') and argues that danger is irrelevant because everything is dangerous. These two moves undermine each other — if the thing truly poses no danger, the comparative argument is unnecessary; if the comparative argument is needed, the denial of danger is doing dishonest rhetorical work. The argument is rhetorically effective but logically self-contradictory.",
+    "conditions_for_usefulness": [
+      "The thing in question has been unfairly singled out relative to comparably risky alternatives that are widely accepted.",
+      "The objector is applying an inconsistent standard (accepting other risks but not this one).",
+      "The comparative risk of the thing is genuinely low relative to accepted alternatives.",
+      "A proportional risk-benefit framework is the appropriate lens for the decision at hand.",
+      "The danger being objected to is speculative or marginal rather than well-evidenced."
+    ],
+    "conditions_for_misleading": [
+      "The thing in question poses a categorically higher or qualitatively different risk than everyday items.",
+      "The speaker's parenthetical denial ('which is not so') is factually false or contested.",
+      "The comparative normalization obscures a specific, serious, and preventable harm.",
+      "The objector's concern is not about danger in the abstract but about a specific, identifiable risk mechanism.",
+      "The argument is used to forestall legitimate safety regulation or informed consent.",
+      "The audience is not equipped to critically evaluate the comparative risk claims being implied."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 586,
+  "error": "",
+  "retry_count": 0
+}

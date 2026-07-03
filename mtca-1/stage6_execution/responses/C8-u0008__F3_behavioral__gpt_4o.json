@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F3_behavioral__gpt_4o",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:32:59.073446+00:00",
+  "wall_clock_seconds": 2.628981828689575,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a determination to act in accordance with personal values despite emotional resistance.\",\n  \"implicit_claims\": [\n    \"The speaker values consistency between their actions and their values.\",\n    \"The speaker acknowledges a difference between feelings and actions.\",\n    \"The speaker believes it is possible to act in alignment with values even when feelings are misaligned.\",\n    \"The speaker prioritizes values over transient emotional states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects the intent to act (action) with the acknowledgment of current emotional states (feelings), establishing a clear objective to prioritize values.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the speaker has clearly defined values that they are committed to, understands their emotional responses, and is capable of acting independently of fluctuating emotions.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the speaker lacks clarity about their personal values, if their emotional responses are overwhelming or unavoidable, or if they are unable to discern situations where acting against current feelings is detrimental.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a determination to act in accordance with personal values despite emotional resistance.",
+    "implicit_claims": [
+      "The speaker values consistency between their actions and their values.",
+      "The speaker acknowledges a difference between feelings and actions.",
+      "The speaker believes it is possible to act in alignment with values even when feelings are misaligned.",
+      "The speaker prioritizes values over transient emotional states."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects the intent to act (action) with the acknowledgment of current emotional states (feelings), establishing a clear objective to prioritize values.",
+    "conditions_for_usefulness": "The statement would be useful if the speaker has clearly defined values that they are committed to, understands their emotional responses, and is capable of acting independently of fluctuating emotions.",
+    "conditions_for_misleading": "The statement could be misleading if the speaker lacks clarity about their personal values, if their emotional responses are overwhelming or unavoidable, or if they are unable to discern situations where acting against current feelings is detrimental."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 231,
+  "error": "",
+  "retry_count": 0
+}

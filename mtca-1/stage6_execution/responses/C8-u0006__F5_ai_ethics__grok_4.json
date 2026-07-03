@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:23:37.969176+00:00",
+  "wall_clock_seconds": 11.308707237243652,
+  "raw_response": "{\n  \"communicative_function\": \"self-declaration of a decision rule that subordinates fear to evidence-based expected value\",\n  \"implicit_claims\": [\n    \"fear is a defeasible rather than decisive reason against action\",\n    \"reliable evidence about likely personal benefit can be obtained and acted upon\",\n    \"the speaker possesses or endorses a capacity for overriding emotional aversion when evidence supports doing so\",\n    \"personal welfare is the relevant normative standard for evaluating such actions\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the statement consistently treats evidence of expected benefit as a sufficient condition for overriding fear without logical contradiction\",\n  \"conditions_for_usefulness\": \"the AI must be able to distinguish evidence-supported actions from those driven by bias or error, and the human user must have access to reasonably accurate evidence and the capacity to assess net benefit\",\n  \"conditions_for_misleading\": \"evidence assessment is systematically flawed, 'help' is defined in ways that ignore externalities or long-term harm, or the statement is used to override fear responses that track genuine, poorly quantified risks\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-declaration of a decision rule that subordinates fear to evidence-based expected value",
+    "implicit_claims": [
+      "fear is a defeasible rather than decisive reason against action",
+      "reliable evidence about likely personal benefit can be obtained and acted upon",
+      "the speaker possesses or endorses a capacity for overriding emotional aversion when evidence supports doing so",
+      "personal welfare is the relevant normative standard for evaluating such actions"
+    ],
+    "coherence_assessment": "internally coherent; the statement consistently treats evidence of expected benefit as a sufficient condition for overriding fear without logical contradiction",
+    "conditions_for_usefulness": "the AI must be able to distinguish evidence-supported actions from those driven by bias or error, and the human user must have access to reasonably accurate evidence and the capacity to assess net benefit",
+    "conditions_for_misleading": "evidence assessment is systematically flawed, 'help' is defined in ways that ignore externalities or long-term harm, or the statement is used to override fear responses that track genuine, poorly quantified risks"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0
+}

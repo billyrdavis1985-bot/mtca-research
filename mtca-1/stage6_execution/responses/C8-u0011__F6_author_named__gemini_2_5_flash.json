@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0011__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:40:27.046629+00:00",
+  "wall_clock_seconds": 6.040059328079224,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation and a declaration of a practical, actionable strategy for personal change. It serves to motivate, guide, and commit the speaker to a specific, more effective approach to goal-setting and execution, distinguishing it from less effective methods.\",\n  \"implicit_claims\": [\n    \"Small, observable changes are more achievable and therefore more effective than vague resolutions.\",\n    \"The speaker (or people in general) has likely struggled with or failed to carry out vague resolutions in the past.\",\n    \"The speaker has the ability to identify and implement small, observable changes.\",\n    \"Successfully carrying out changes is a desirable outcome.\",\n    \"There is a perceived need or desire for change in the speaker's life.\",\n    \"A commitment to a specific strategy increases the likelihood of success.\",\n    \"There is a distinction between resolutions that can be carried out and those that cannot.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly articulates a preference for a specific, practical approach ('small, observable changes I can actually carry out') over a less effective one ('vague resolutions I cannot'), providing a logical contrast that supports its declared commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely able to identify and break down larger goals into truly small, observable, and actionable steps.\",\n    \"The speaker has a history of failing to achieve goals due to their vagueness or overwhelming nature.\",\n    \"The small, observable changes, when consistently carried out, actually contribute meaningfully to a desired larger objective or personal improvement.\",\n    \"The speaker is prepared to put in the consistent effort required to execute these small changes.\",\n    \"The focus on 'small, observable' does not lead to an avoidance of necessary, albeit larger or more challenging, foundational changes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misinterprets 'small, observable' as 'insignificant' or 'easy', leading to a false sense of accomplishment without real progress.\",\n    \"The 'vague resolutions' being avoided were actually appropriate big-picture goals that required effort and strategy, not just breakdown into smaller steps, and this statement is used to avoid facing them.\",\n    \"The speaker genuinely struggles to identify even 'small, observable changes', leading to frustration despite the stated commitment.\",\n    \"The accumulation of 'small, observable changes' does not address the core problem or lead to the desired transformation.\",\n    \"The statement is used as a form of procrastination, perpetually focusing on minor changes while avoiding more substantial, necessary, and perhaps more challenging actions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and a declaration of a practical, actionable strategy for personal change. It serves to motivate, guide, and commit the speaker to a specific, more effective approach to goal-setting and execution, distinguishing it from less effective methods.",
+    "implicit_claims": [
+      "Small, observable changes are more achievable and therefore more effective than vague resolutions.",
+      "The speaker (or people in general) has likely struggled with or failed to carry out vague resolutions in the past.",
+      "The speaker has the ability to identify and implement small, observable changes.",
+      "Successfully carrying out changes is a desirable outcome.",
+      "There is a perceived need or desire for change in the speaker's life.",
+      "A commitment to a specific strategy increases the likelihood of success.",
+      "There is a distinction between resolutions that can be carried out and those that cannot."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly articulates a preference for a specific, practical approach ('small, observable changes I can actually carry out') over a less effective one ('vague resolutions I cannot'), providing a logical contrast that supports its declared commitment.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely able to identify and break down larger goals into truly small, observable, and actionable steps.",
+      "The speaker has a history of failing to achieve goals due to their vagueness or overwhelming nature.",
+      "The small, observable changes, when consistently carried out, actually contribute meaningfully to a desired larger objective or personal improvement.",
+      "The speaker is prepared to put in the consistent effort required to execute these small changes.",
+      "The focus on 'small, observable' does not lead to an avoidance of necessary, albeit larger or more challenging, foundational changes."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misinterprets 'small, observable' as 'insignificant' or 'easy', leading to a false sense of accomplishment without real progress.",
+      "The 'vague resolutions' being avoided were actually appropriate big-picture goals that required effort and strategy, not just breakdown into smaller steps, and this statement is used to avoid facing them.",
+      "The speaker genuinely struggles to identify even 'small, observable changes', leading to frustration despite the stated commitment.",
+      "The accumulation of 'small, observable changes' does not address the core problem or lead to the desired transformation.",
+      "The statement is used as a form of procrastination, perpetually focusing on minor changes while avoiding more substantial, necessary, and perhaps more challenging actions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 573,
+  "error": "",
+  "retry_count": 0
+}

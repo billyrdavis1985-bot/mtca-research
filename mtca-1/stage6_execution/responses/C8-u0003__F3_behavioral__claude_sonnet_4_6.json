@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0003__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:05:13.074056+00:00",
+  "wall_clock_seconds": 16.467062950134277,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a dual acknowledgment: it validates emotional experience as meaningful and real while simultaneously introducing epistemic humility about the inferential reliability of emotions as guides to external reality. As a behavioral commitment, it signals an intention to neither suppress feelings nor uncritically act on them.\",\n  \"implicit_claims\": [\n    \"Feelings have a legitimate informational status about internal states.\",\n    \"Internal state information and world-state information are meaningfully distinct categories.\",\n    \"It is possible to hold both claims simultaneously without contradiction.\",\n    \"The speaker has previously conflated or risks conflating feelings with accurate world-information.\",\n    \"Emotional regulation and epistemic accuracy are separable and both valuable.\",\n    \"There exists a distinction between a feeling being 'real' and a feeling being 'accurate'.\",\n    \"The speaker has agency over how they interpret and act on their feelings.\",\n    \"Behavioral change is possible through articulated self-recognition.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The distinction between ontological reality (feelings exist and carry signal) and epistemic accuracy (feelings may misrepresent external conditions) is philosophically defensible and non-contradictory. The two clauses complement rather than undermine each other.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker tends toward either emotional suppression or emotional literalism, making the corrective balance genuinely needed.\",\n    \"The speaker is in a context where emotions are being used as direct evidence about external facts (e.g., 'I feel unsafe, therefore I am unsafe').\",\n    \"The speaker has capacity to reflect on the distinction between internal signal and external accuracy in the moment.\",\n    \"There is a support structure or practice for actually applying this distinction when emotions are activated.\",\n    \"The statement is paired with specific behavioral strategies, not left as an abstract affirmation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to systematically discount emotions as unreliable, effectively functioning as suppression under a validating veneer.\",\n    \"The speaker applies 'not always accurate about the world' selectively to dismiss emotions that are in fact tracking real external threats or injustices.\",\n    \"The distinction is used by others (therapists, partners, institutions) to gaslight the speaker by reframing accurate perceptions as internal distortions.\",\n    \"The speaker lacks the metacognitive skill to distinguish cases where feelings are tracking reality from cases where they are not, making the commitment operationally empty.\",\n    \"The statement fosters detachment from emotional signal in high-stakes situations where emotional information is highly relevant and accurate.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a dual acknowledgment: it validates emotional experience as meaningful and real while simultaneously introducing epistemic humility about the inferential reliability of emotions as guides to external reality. As a behavioral commitment, it signals an intention to neither suppress feelings nor uncritically act on them.",
+    "implicit_claims": [
+      "Feelings have a legitimate informational status about internal states.",
+      "Internal state information and world-state information are meaningfully distinct categories.",
+      "It is possible to hold both claims simultaneously without contradiction.",
+      "The speaker has previously conflated or risks conflating feelings with accurate world-information.",
+      "Emotional regulation and epistemic accuracy are separable and both valuable.",
+      "There exists a distinction between a feeling being 'real' and a feeling being 'accurate'.",
+      "The speaker has agency over how they interpret and act on their feelings.",
+      "Behavioral change is possible through articulated self-recognition."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The distinction between ontological reality (feelings exist and carry signal) and epistemic accuracy (feelings may misrepresent external conditions) is philosophically defensible and non-contradictory. The two clauses complement rather than undermine each other.",
+    "conditions_for_usefulness": [
+      "The speaker tends toward either emotional suppression or emotional literalism, making the corrective balance genuinely needed.",
+      "The speaker is in a context where emotions are being used as direct evidence about external facts (e.g., 'I feel unsafe, therefore I am unsafe').",
+      "The speaker has capacity to reflect on the distinction between internal signal and external accuracy in the moment.",
+      "There is a support structure or practice for actually applying this distinction when emotions are activated.",
+      "The statement is paired with specific behavioral strategies, not left as an abstract affirmation."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to systematically discount emotions as unreliable, effectively functioning as suppression under a validating veneer.",
+      "The speaker applies 'not always accurate about the world' selectively to dismiss emotions that are in fact tracking real external threats or injustices.",
+      "The distinction is used by others (therapists, partners, institutions) to gaslight the speaker by reframing accurate perceptions as internal distortions.",
+      "The speaker lacks the metacognitive skill to distinguish cases where feelings are tracking reality from cases where they are not, making the commitment operationally empty.",
+      "The statement fosters detachment from emotional signal in high-stakes situations where emotional information is highly relevant and accurate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 604,
+  "error": "",
+  "retry_count": 0
+}

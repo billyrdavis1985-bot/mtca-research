@@ -1,0 +1,47 @@
+{
+  "call_id": "C7-u0001__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:54:54.934177+00:00",
+  "wall_clock_seconds": 12.837802171707153,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement describes a step in a process of belief formation, functioning as a normative claim about what is necessary or beneficial for recovery. It is prescriptive in context (from the 12-step tradition) while being framed in narrative/past-tense language, suggesting a path others should follow.\",\n  \"implicit_claims\": [\n    \"The person or group addressed was previously not in a state of sanity.\",\n    \"Sanity is a condition that can be lost and restored.\",\n    \"A 'Power greater than ourselves' exists or is at least a coherent concept worth believing in.\",\n    \"Human will or effort alone is insufficient to restore sanity.\",\n    \"Belief itself is a causal or necessary factor in recovery.\",\n    \"The progression from doubt to belief ('came to believe') is a meaningful and achievable process.\",\n    \"There is a meaningful distinction between the self and something greater than the self.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. The progression ('came to believe') acknowledges a process rather than demanding immediate conviction, which softens metaphysical demands. However, it combines psychological language ('sanity') with spiritual language ('Power greater than ourselves') without resolving the tension between those frameworks.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is struggling with compulsive or self-destructive behavior that self-directed effort has failed to resolve.\",\n    \"Adopting a stance of humility or surrender has therapeutic or practical value for the person.\",\n    \"The individual is open to a broadly defined conception of a 'higher power' (not necessarily theistic).\",\n    \"The social and communal context of the belief reinforces accountability and support.\",\n    \"Recovery outcomes are measured in practical behavioral terms rather than theological correctness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is interpreted as a factual metaphysical claim rather than a pragmatic therapeutic heuristic.\",\n    \"It implies that those who do not recover simply failed to believe sufficiently, placing blame on the individual.\",\n    \"It discourages engagement with evidence-based medical or psychological treatment by framing recovery as primarily spiritual.\",\n    \"The presupposition of prior insanity stigmatizes the individual rather than describing a functional impairment.\",\n    \"It is applied universally without accounting for individuals for whom spiritual frameworks are harmful or inaccessible.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement describes a step in a process of belief formation, functioning as a normative claim about what is necessary or beneficial for recovery. It is prescriptive in context (from the 12-step tradition) while being framed in narrative/past-tense language, suggesting a path others should follow.",
+    "implicit_claims": [
+      "The person or group addressed was previously not in a state of sanity.",
+      "Sanity is a condition that can be lost and restored.",
+      "A 'Power greater than ourselves' exists or is at least a coherent concept worth believing in.",
+      "Human will or effort alone is insufficient to restore sanity.",
+      "Belief itself is a causal or necessary factor in recovery.",
+      "The progression from doubt to belief ('came to believe') is a meaningful and achievable process.",
+      "There is a meaningful distinction between the self and something greater than the self."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. The progression ('came to believe') acknowledges a process rather than demanding immediate conviction, which softens metaphysical demands. However, it combines psychological language ('sanity') with spiritual language ('Power greater than ourselves') without resolving the tension between those frameworks.",
+    "conditions_for_usefulness": [
+      "The individual is struggling with compulsive or self-destructive behavior that self-directed effort has failed to resolve.",
+      "Adopting a stance of humility or surrender has therapeutic or practical value for the person.",
+      "The individual is open to a broadly defined conception of a 'higher power' (not necessarily theistic).",
+      "The social and communal context of the belief reinforces accountability and support.",
+      "Recovery outcomes are measured in practical behavioral terms rather than theological correctness."
+    ],
+    "conditions_for_misleading": [
+      "The statement is interpreted as a factual metaphysical claim rather than a pragmatic therapeutic heuristic.",
+      "It implies that those who do not recover simply failed to believe sufficiently, placing blame on the individual.",
+      "It discourages engagement with evidence-based medical or psychological treatment by framing recovery as primarily spiritual.",
+      "The presupposition of prior insanity stigmatizes the individual rather than describing a functional impairment.",
+      "It is applied universally without accounting for individuals for whom spiritual frameworks are harmful or inaccessible."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 557,
+  "error": "",
+  "retry_count": 0
+}

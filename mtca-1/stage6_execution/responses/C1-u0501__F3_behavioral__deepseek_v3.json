@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0501__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:42:33.435839+00:00",
+  "wall_clock_seconds": 4.841771125793457,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement reports an observed event and describes a child's condition and assistive devices, functioning as a clinical or observational record.\",\n  \"implicit_claims\": [\n    \"The speaker is a caregiver, clinician, or observer who first encounters the child in February 1915.\",\n    \"The child's walking ability is notable and dependent on the contrivances mentioned.\",\n    \"The contrivances are designed to hold the child's feet straight, implying a prior or existing foot alignment issue.\",\n    \"The timeframe (1915) situates the statement in a historical medical context.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a specific time, a subject, an observation, and a causal explanation for the walking ability, all logically connected.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is useful in a clinical, historical, or biographical context where documenting an individual's physical condition and assistive devices is relevant.\",\n    \"It is useful if the child's identity, medical history, or treatment outcomes are being tracked.\",\n    \"It is useful if the contrivances are part of a larger narrative about early orthopedic or prosthetic interventions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement could be misleading if the contrivances were not actually beneficial or if the child's walking ability was limited in other ways not mentioned.\",\n    \"It would be misleading if the speaker implies the contrivances corrected a permanent condition when they only provided temporary support.\",\n    \"It would be misleading if the date or context is used to generalize about medical practices without acknowledging that this is a single case.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observed event and describes a child's condition and assistive devices, functioning as a clinical or observational record.",
+    "implicit_claims": [
+      "The speaker is a caregiver, clinician, or observer who first encounters the child in February 1915.",
+      "The child's walking ability is notable and dependent on the contrivances mentioned.",
+      "The contrivances are designed to hold the child's feet straight, implying a prior or existing foot alignment issue.",
+      "The timeframe (1915) situates the statement in a historical medical context."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a specific time, a subject, an observation, and a causal explanation for the walking ability, all logically connected.",
+    "conditions_for_usefulness": [
+      "The statement is useful in a clinical, historical, or biographical context where documenting an individual's physical condition and assistive devices is relevant.",
+      "It is useful if the child's identity, medical history, or treatment outcomes are being tracked.",
+      "It is useful if the contrivances are part of a larger narrative about early orthopedic or prosthetic interventions."
+    ],
+    "conditions_for_misleading": [
+      "The statement could be misleading if the contrivances were not actually beneficial or if the child's walking ability was limited in other ways not mentioned.",
+      "It would be misleading if the speaker implies the contrivances corrected a permanent condition when they only provided temporary support.",
+      "It would be misleading if the date or context is used to generalize about medical practices without acknowledging that this is a single case."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 349,
+  "error": "",
+  "retry_count": 0
+}

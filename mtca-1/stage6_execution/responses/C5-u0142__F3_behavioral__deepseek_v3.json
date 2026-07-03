@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0142__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:24:12.600029+00:00",
+  "wall_clock_seconds": 5.0904741287231445,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a directive or maxim, urging the listener to align thought with purpose before acting, implying that action without such alignment is not intelligent.\",\n  \"implicit_claims\": [\n    \"Thought and purpose are distinct and can be unlinked.\",\n    \"Intelligent accomplishment requires the linkage of thought and purpose.\",\n    \"Lack of purpose renders thought or action unintelligent.\",\n    \"Purpose is a necessary condition for meaningful or effective achievement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional claim: if thought is not linked with purpose, then no intelligent accomplishment occurs. The logic is consistent, though it relies on undefined terms like 'intelligent accomplishment' and 'purpose,' which could be interpreted variably.\",\n  \"conditions_for_usefulness\": [\n    \"The listener values purpose-driven action over aimless effort.\",\n    \"The context involves goal-oriented tasks where clarity of purpose is lacking.\",\n    \"The statement is used as a prompt to reflect on or reconsider one's intentions before acting.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'intelligent accomplishment' is defined too narrowly (e.g., excluding creative or exploratory processes).\",\n    \"If it is interpreted as denying the value of spontaneous or experimental thought that later finds purpose.\",\n    \"If it implies that all action without explicit purpose is unintelligent, ignoring cases where purpose emerges after action.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a directive or maxim, urging the listener to align thought with purpose before acting, implying that action without such alignment is not intelligent.",
+    "implicit_claims": [
+      "Thought and purpose are distinct and can be unlinked.",
+      "Intelligent accomplishment requires the linkage of thought and purpose.",
+      "Lack of purpose renders thought or action unintelligent.",
+      "Purpose is a necessary condition for meaningful or effective achievement."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional claim: if thought is not linked with purpose, then no intelligent accomplishment occurs. The logic is consistent, though it relies on undefined terms like 'intelligent accomplishment' and 'purpose,' which could be interpreted variably.",
+    "conditions_for_usefulness": [
+      "The listener values purpose-driven action over aimless effort.",
+      "The context involves goal-oriented tasks where clarity of purpose is lacking.",
+      "The statement is used as a prompt to reflect on or reconsider one's intentions before acting."
+    ],
+    "conditions_for_misleading": [
+      "If 'intelligent accomplishment' is defined too narrowly (e.g., excluding creative or exploratory processes).",
+      "If it is interpreted as denying the value of spontaneous or experimental thought that later finds purpose.",
+      "If it implies that all action without explicit purpose is unintelligent, ignoring cases where purpose emerges after action."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 298,
+  "error": "",
+  "retry_count": 0
+}

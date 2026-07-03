@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0004__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:09:52.422497+00:00",
+  "wall_clock_seconds": 6.626103639602661,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-instructional or metacognitive reminder, guiding the speaker to differentiate between automatic thoughts and deliberately held beliefs, thereby supporting cognitive defusion and mindful awareness.\",\n  \"implicit_claims\": [\n    \"Thoughts can occur without endorsement.\",\n    \"There is a meaningful distinction between having a thought and agreeing with it.\",\n    \"The speaker is capable of practicing this distinction.\",\n    \"Endorsement is a voluntary act that can be withheld from some thoughts.\",\n    \"Not all thoughts that arise reflect the speaker's values or truth.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It articulates a clear, practical distinction between two cognitive events—occurrence and endorsement—that is logically sound and aligns with common clinical models (e.g., cognitive behavioral therapy, acceptance and commitment therapy).\",\n  \"conditions_for_usefulness\": [\n    \"The speaker experiences distressing or unwanted automatic thoughts.\",\n    \"The speaker has some capacity for metacognitive awareness and self-reflection.\",\n    \"The speaker is motivated to reduce fusion with or reactivity to automatic thoughts.\",\n    \"The speaker has foundational skills in mindfulness or cognitive defusion.\",\n    \"The therapeutic context supports practicing cognitive differentiation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates all thoughts as necessarily true or endorsed, making the distinction meaningless.\",\n    \"The speaker uses the statement to avoid taking responsibility for harmful beliefs they actually hold.\",\n    \"The speaker has no access to distinguishing automatic from endorsed thoughts (e.g., due to severe dissociation or psychosis).\",\n    \"The statement is applied in a context that invalidates legitimate emotional responses or avoids necessary action.\",\n    \"The speaker overgeneralizes the distinction, leading to chronic indecision or disengagement from values.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-instructional or metacognitive reminder, guiding the speaker to differentiate between automatic thoughts and deliberately held beliefs, thereby supporting cognitive defusion and mindful awareness.",
+    "implicit_claims": [
+      "Thoughts can occur without endorsement.",
+      "There is a meaningful distinction between having a thought and agreeing with it.",
+      "The speaker is capable of practicing this distinction.",
+      "Endorsement is a voluntary act that can be withheld from some thoughts.",
+      "Not all thoughts that arise reflect the speaker's values or truth."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It articulates a clear, practical distinction between two cognitive events—occurrence and endorsement—that is logically sound and aligns with common clinical models (e.g., cognitive behavioral therapy, acceptance and commitment therapy).",
+    "conditions_for_usefulness": [
+      "The speaker experiences distressing or unwanted automatic thoughts.",
+      "The speaker has some capacity for metacognitive awareness and self-reflection.",
+      "The speaker is motivated to reduce fusion with or reactivity to automatic thoughts.",
+      "The speaker has foundational skills in mindfulness or cognitive defusion.",
+      "The therapeutic context supports practicing cognitive differentiation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates all thoughts as necessarily true or endorsed, making the distinction meaningless.",
+      "The speaker uses the statement to avoid taking responsibility for harmful beliefs they actually hold.",
+      "The speaker has no access to distinguishing automatic from endorsed thoughts (e.g., due to severe dissociation or psychosis).",
+      "The statement is applied in a context that invalidates legitimate emotional responses or avoids necessary action.",
+      "The speaker overgeneralizes the distinction, leading to chronic indecision or disengagement from values."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 370,
+  "error": "",
+  "retry_count": 0
+}

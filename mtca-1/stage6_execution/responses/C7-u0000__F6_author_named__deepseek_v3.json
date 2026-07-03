@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0000__F6_author_named__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:54:01.597553+00:00",
+  "wall_clock_seconds": 5.664299011230469,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a confession of personal limitation and a declaration of surrender, marking a shift from denial to acceptance as a prerequisite for recovery.\",\n  \"implicit_claims\": [\n    \"Alcohol has a power over the speaker that the speaker cannot control.\",\n    \"The speaker's life was previously orderly or manageable before alcohol became unmanageable.\",\n    \"Admitting powerlessness is a necessary first step toward change.\",\n    \"The speaker's problems are primarily caused by a loss of control over alcohol, not by other factors.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a cause (powerlessness over alcohol) and an effect (life becoming unmanageable), with the admission serving as a logical preliminary to seeking help.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences loss of control over alcohol.\",\n    \"The speaker's life is indeed negatively impacted by their drinking.\",\n    \"The speaker is willing to accept help or a structured program of recovery.\",\n    \"The statement is made in a context where such admission is respected and supported (e.g., a 12-step meeting).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker does not actually have a drinking problem but is using the statement for social conformity or other reasons.\",\n    \"The statement is used to absolve personal responsibility for other life problems not caused by alcohol.\",\n    \"The listener assumes the statement implies all alcohol users are powerless, which is false for non-addicted individuals.\",\n    \"The statement is taken as a permanent identity rather than a step toward change, potentially fostering hopelessness.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a confession of personal limitation and a declaration of surrender, marking a shift from denial to acceptance as a prerequisite for recovery.",
+    "implicit_claims": [
+      "Alcohol has a power over the speaker that the speaker cannot control.",
+      "The speaker's life was previously orderly or manageable before alcohol became unmanageable.",
+      "Admitting powerlessness is a necessary first step toward change.",
+      "The speaker's problems are primarily caused by a loss of control over alcohol, not by other factors."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a cause (powerlessness over alcohol) and an effect (life becoming unmanageable), with the admission serving as a logical preliminary to seeking help.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences loss of control over alcohol.",
+      "The speaker's life is indeed negatively impacted by their drinking.",
+      "The speaker is willing to accept help or a structured program of recovery.",
+      "The statement is made in a context where such admission is respected and supported (e.g., a 12-step meeting)."
+    ],
+    "conditions_for_misleading": [
+      "The speaker does not actually have a drinking problem but is using the statement for social conformity or other reasons.",
+      "The statement is used to absolve personal responsibility for other life problems not caused by alcohol.",
+      "The listener assumes the statement implies all alcohol users are powerless, which is false for non-addicted individuals.",
+      "The statement is taken as a permanent identity rather than a step toward change, potentially fostering hopelessness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 341,
+  "error": "",
+  "retry_count": 0
+}

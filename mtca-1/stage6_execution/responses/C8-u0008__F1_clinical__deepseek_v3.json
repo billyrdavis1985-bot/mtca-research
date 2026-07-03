@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0008__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:31:52.154565+00:00",
+  "wall_clock_seconds": 4.7551679611206055,
+  "raw_response": "{\n  \"communicative_function\": \"Reinforces committed action and values-based behavior, normalizing the lag between emotions and actions, and reducing experiential avoidance.\",\n  \"implicit_claims\": [\n    \"Values are distinct from and can override current feelings.\",\n    \"Feelings are not necessary for value-consistent action.\",\n    \"The speaker has the agency to choose behavior despite emotional state.\",\n    \"Feelings will eventually align with chosen actions or values.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it explicitly acknowledges a disconnect between values and feelings while asserting a volitional choice to act on values, which is logically consistent with acceptance and commitment therapy (ACT) principles.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has identified clear personal values.\",\n    \"The speaker experiences temporary or chronic emotional resistance to valued action.\",\n    \"The speaker is capable of behavioral self-regulation despite discomfort.\",\n    \"The speaker is engaged in a therapeutic process that values exposure and commitment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker has not clarified their values and is acting on assumed or external values.\",\n    \"The speaker repeatedly uses the statement to suppress or invalidate genuine emotional needs that signal important information.\",\n    \"The statement is used to justify actions that are harmful or unsustainable due to persistent emotional fatigue.\",\n    \"The speaker lacks the behavioral skills or support to actually follow through, leading to self-deception or shame.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reinforces committed action and values-based behavior, normalizing the lag between emotions and actions, and reducing experiential avoidance.",
+    "implicit_claims": [
+      "Values are distinct from and can override current feelings.",
+      "Feelings are not necessary for value-consistent action.",
+      "The speaker has the agency to choose behavior despite emotional state.",
+      "Feelings will eventually align with chosen actions or values."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it explicitly acknowledges a disconnect between values and feelings while asserting a volitional choice to act on values, which is logically consistent with acceptance and commitment therapy (ACT) principles.",
+    "conditions_for_usefulness": [
+      "The speaker has identified clear personal values.",
+      "The speaker experiences temporary or chronic emotional resistance to valued action.",
+      "The speaker is capable of behavioral self-regulation despite discomfort.",
+      "The speaker is engaged in a therapeutic process that values exposure and commitment."
+    ],
+    "conditions_for_misleading": [
+      "The speaker has not clarified their values and is acting on assumed or external values.",
+      "The speaker repeatedly uses the statement to suppress or invalidate genuine emotional needs that signal important information.",
+      "The statement is used to justify actions that are harmful or unsustainable due to persistent emotional fatigue.",
+      "The speaker lacks the behavioral skills or support to actually follow through, leading to self-deception or shame."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 301,
+  "error": "",
+  "retry_count": 0
+}

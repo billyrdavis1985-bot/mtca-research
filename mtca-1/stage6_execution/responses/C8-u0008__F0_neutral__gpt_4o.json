@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0008__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:30:46.806856+00:00",
+  "wall_clock_seconds": 2.274184226989746,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement conveys a commitment to act according to personal values despite incongruent emotions.\",\n  \"implicit_claims\": [\n    \"Values are more stable or important than transient feelings.\",\n    \"Action can be independent of emotion.\",\n    \"The speaker is capable of prioritizing long-term values over short-term emotional responses.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects the idea of values dictating behavior even when emotions do not align, suggesting a conscious decision-making process.\",\n  \"conditions_for_usefulness\": \"For the statement to be useful, the individual must have clearly defined values and believe that aligning actions with these values leads to positive outcomes or personal growth.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the speaker misrepresents their emotions or values, if their values are misguided or harmful, or if consistently ignoring emotions leads to negative psychological outcomes.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement conveys a commitment to act according to personal values despite incongruent emotions.",
+    "implicit_claims": [
+      "Values are more stable or important than transient feelings.",
+      "Action can be independent of emotion.",
+      "The speaker is capable of prioritizing long-term values over short-term emotional responses."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects the idea of values dictating behavior even when emotions do not align, suggesting a conscious decision-making process.",
+    "conditions_for_usefulness": "For the statement to be useful, the individual must have clearly defined values and believe that aligning actions with these values leads to positive outcomes or personal growth.",
+    "conditions_for_misleading": "The statement could be misleading if the speaker misrepresents their emotions or values, if their values are misguided or harmful, or if consistently ignoring emotions leads to negative psychological outcomes."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 199,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0005__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:14:53.489364+00:00",
+  "wall_clock_seconds": 5.814361333847046,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal cognitive strategy for managing binary thinking by seeking nuance from opposing perspectives.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a recognized cognitive pattern the speaker experiences.\",\n    \"There is a 'partial truth' to be found on each side of a dichotomy.\",\n    \"The speaker has the ability and willingness to actively search for such partial truths.\",\n    \"Recognizing partial truths from both sides is a useful or constructive response to binary thinking.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a reasonable attempt to counteract an all-or-nothing frame by deliberately considering incomplete truths from both sides, rather than rejecting one side entirely.\",\n  \"conditions_for_usefulness\": [\n    \"The subject matter actually involves two opposing positions that each contain some valid elements.\",\n    \"The speaker has the cognitive flexibility and time to engage in nuanced analysis.\",\n    \"The context values compromise, understanding, or balanced perspective over decisive action.\",\n    \"The speaker can distinguish between 'partial truth' and mere rationalization of bias.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"One side contains no partial truth (e.g., widely disproven fact or harmful ideology), making the search for symmetry false.\",\n    \"The all-or-nothing frame is actually appropriate (e.g., in life-or-death ethical or safety decisions).\",\n    \"The speaker uses this strategy to avoid making a necessary clear judgment or commitment.\",\n    \"The 'partial truths' are cherry-picked or misrepresented to support a preferred conclusion.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal cognitive strategy for managing binary thinking by seeking nuance from opposing perspectives.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a recognized cognitive pattern the speaker experiences.",
+      "There is a 'partial truth' to be found on each side of a dichotomy.",
+      "The speaker has the ability and willingness to actively search for such partial truths.",
+      "Recognizing partial truths from both sides is a useful or constructive response to binary thinking."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a reasonable attempt to counteract an all-or-nothing frame by deliberately considering incomplete truths from both sides, rather than rejecting one side entirely.",
+    "conditions_for_usefulness": [
+      "The subject matter actually involves two opposing positions that each contain some valid elements.",
+      "The speaker has the cognitive flexibility and time to engage in nuanced analysis.",
+      "The context values compromise, understanding, or balanced perspective over decisive action.",
+      "The speaker can distinguish between 'partial truth' and mere rationalization of bias."
+    ],
+    "conditions_for_misleading": [
+      "One side contains no partial truth (e.g., widely disproven fact or harmful ideology), making the search for symmetry false.",
+      "The all-or-nothing frame is actually appropriate (e.g., in life-or-death ethical or safety decisions).",
+      "The speaker uses this strategy to avoid making a necessary clear judgment or commitment.",
+      "The 'partial truths' are cherry-picked or misrepresented to support a preferred conclusion."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0
+}

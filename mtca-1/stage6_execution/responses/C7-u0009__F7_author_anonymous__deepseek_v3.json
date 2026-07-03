@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0009__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:35:02.115913+00:00",
+  "wall_clock_seconds": 4.552840948104858,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is instructing or advising a course of action, specifically recommending ongoing self-reflection and honest admission of faults.\",\n  \"implicit_claims\": [\n    \"There is a standard or concept of 'wrong' that can be identified.\",\n    \"People are capable of recognizing when they are wrong.\",\n    \"Admitting wrongness promptly is desirable or beneficial.\",\n    \"Personal inventory (self-examination) is an ongoing, not one-time, process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear two-part action (continue inventory, admit wrong when found) that logically follows from a premise of self-improvement or accountability.\",\n  \"conditions_for_usefulness\": [\n    \"The audience values self-improvement, honesty, or interpersonal accountability.\",\n    \"A shared understanding of what constitutes 'wrong' exists in the relevant context.\",\n    \"The audience has the psychological safety or support to admit mistakes without severe penalty.\",\n    \"The advice is applied in a setting where reflection and admission can lead to positive change (e.g., personal growth, recovery programs, ethical practice).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The concept of 'wrong' is ambiguous, culturally relative, or imposed by an authority.\",\n    \"Prompt admission is used to exploit or manipulate the person admitting fault (e.g., in abusive systems).\",\n    \"The statement is taken to imply that all wrongs must be admitted, even when doing so harms others or oneself unnecessarily.\",\n    \"It is used to suggest that ongoing self-criticism is always healthy, potentially fostering excessive guilt or shame.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is instructing or advising a course of action, specifically recommending ongoing self-reflection and honest admission of faults.",
+    "implicit_claims": [
+      "There is a standard or concept of 'wrong' that can be identified.",
+      "People are capable of recognizing when they are wrong.",
+      "Admitting wrongness promptly is desirable or beneficial.",
+      "Personal inventory (self-examination) is an ongoing, not one-time, process."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear two-part action (continue inventory, admit wrong when found) that logically follows from a premise of self-improvement or accountability.",
+    "conditions_for_usefulness": [
+      "The audience values self-improvement, honesty, or interpersonal accountability.",
+      "A shared understanding of what constitutes 'wrong' exists in the relevant context.",
+      "The audience has the psychological safety or support to admit mistakes without severe penalty.",
+      "The advice is applied in a setting where reflection and admission can lead to positive change (e.g., personal growth, recovery programs, ethical practice)."
+    ],
+    "conditions_for_misleading": [
+      "The concept of 'wrong' is ambiguous, culturally relative, or imposed by an authority.",
+      "Prompt admission is used to exploit or manipulate the person admitting fault (e.g., in abusive systems).",
+      "The statement is taken to imply that all wrongs must be admitted, even when doing so harms others or oneself unnecessarily.",
+      "It is used to suggest that ongoing self-criticism is always healthy, potentially fostering excessive guilt or shame."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0
+}

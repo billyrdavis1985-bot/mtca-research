@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0003__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:58:01.024547+00:00",
+  "wall_clock_seconds": 4.6309895515441895,
+  "raw_response": "{\n  \"communicative_function\": \"It asserts a principle of individual autonomy and self-determination, emphasizing that humans are responsible for their own identity and character.\",\n  \"implicit_claims\": [\n    \"Humans have the agency to shape themselves.\",\n    \"External factors (e.g., society, biology) do not entirely determine who a person becomes.\",\n    \"Self-making is a desirable or inherent human activity.\",\n    \"There is no fixed, predestined human nature.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a concise expression of existentialist or humanist thought. However, it may be inconsistent with deterministic or communitarian perspectives that emphasize external influences.\",\n  \"conditions_for_usefulness\": [\n    \"When designing AI that respects and promotes individual autonomy.\",\n    \"When the system is used in contexts where personal growth and self-determination are valued.\",\n    \"When the AI's role is to support user choice rather than prescribe behavior.\",\n    \"When the user population broadly believes in human agency.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as denying any influence of genetics, upbringing, or social structures.\",\n    \"When applied to vulnerable populations (e.g., children, people in coercive environments) who lack full agency.\",\n    \"If used to justify ignoring systemic inequalities or providing no support for those unable to 'self-make'.\",\n    \"When the statement is taken as a factual claim about all humans rather than a normative ideal.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It asserts a principle of individual autonomy and self-determination, emphasizing that humans are responsible for their own identity and character.",
+    "implicit_claims": [
+      "Humans have the agency to shape themselves.",
+      "External factors (e.g., society, biology) do not entirely determine who a person becomes.",
+      "Self-making is a desirable or inherent human activity.",
+      "There is no fixed, predestined human nature."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a concise expression of existentialist or humanist thought. However, it may be inconsistent with deterministic or communitarian perspectives that emphasize external influences.",
+    "conditions_for_usefulness": [
+      "When designing AI that respects and promotes individual autonomy.",
+      "When the system is used in contexts where personal growth and self-determination are valued.",
+      "When the AI's role is to support user choice rather than prescribe behavior.",
+      "When the user population broadly believes in human agency."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as denying any influence of genetics, upbringing, or social structures.",
+      "When applied to vulnerable populations (e.g., children, people in coercive environments) who lack full agency.",
+      "If used to justify ignoring systemic inequalities or providing no support for those unable to 'self-make'.",
+      "When the statement is taken as a factual claim about all humans rather than a normative ideal."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 306,
+  "error": "",
+  "retry_count": 0
+}

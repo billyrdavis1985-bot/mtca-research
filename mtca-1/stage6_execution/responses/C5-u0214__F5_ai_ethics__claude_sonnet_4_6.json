@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0214__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:35:41.312638+00:00",
+  "wall_clock_seconds": 13.887256145477295,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing an inspirational-motivational function, using parallelism and elevated diction to assert a teleological relationship between present aspiration ('Vision') and future actualization ('Ideal'). It functions rhetorically as an affirmation, framing human potential as destiny rather than possibility.\",\n  \"implicit_claims\": [\n    \"Humans have a singular, identifiable 'Vision' that is coherent and stable over time.\",\n    \"There is a deterministic or near-deterministic path from current aspiration to future realization.\",\n    \"The 'Ideal' self is already latent and waiting to be revealed, not constructed through contingent choices.\",\n    \"Personal development is fundamentally a process of unveiling rather than creating or negotiating.\",\n    \"Vision and Ideal are separable but causally linked stages in a linear progression.\",\n    \"Human identity has an essence that can be 'promised' or 'prophesied'.\",\n    \"Self-determination is real and meaningful in the context of this progression.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent within its own metaphorical framework, but the coherence is largely aesthetic rather than logical. The parallelism creates a sense of conceptual rigor that the content does not fully support. 'Promise' and 'prophecy' are treated as functionally equivalent but carry different epistemic weights, creating mild internal tension.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient is in a context where motivational reframing has practical benefit (e.g., early goal-setting, recovery from setbacks).\",\n    \"The statement is interpreted as poetic encouragement rather than literal guidance.\",\n    \"The individual has already done substantive work to identify coherent, reflective values and goals.\",\n    \"The cultural and personal context supports teleological self-narratives without producing rigidity or foreclosure of identity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is interpreted as implying that a fixed, essential self already exists and merely needs discovery, discouraging genuine self-construction or value revision.\",\n    \"It is used to justify persistence toward a vision that is harmful, outdated, or imposed externally rather than authentically chosen.\",\n    \"It obscures the role of contingency, social context, and structural constraints in shaping outcomes.\",\n    \"It is presented to individuals whose visions are in conflict with one another, falsely implying all visions lead to positive unveilings.\",\n    \"It is used by an AI system to validate or reinforce user goals without critical engagement, treating aspiration as self-justifying.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing an inspirational-motivational function, using parallelism and elevated diction to assert a teleological relationship between present aspiration ('Vision') and future actualization ('Ideal'). It functions rhetorically as an affirmation, framing human potential as destiny rather than possibility.",
+    "implicit_claims": [
+      "Humans have a singular, identifiable 'Vision' that is coherent and stable over time.",
+      "There is a deterministic or near-deterministic path from current aspiration to future realization.",
+      "The 'Ideal' self is already latent and waiting to be revealed, not constructed through contingent choices.",
+      "Personal development is fundamentally a process of unveiling rather than creating or negotiating.",
+      "Vision and Ideal are separable but causally linked stages in a linear progression.",
+      "Human identity has an essence that can be 'promised' or 'prophesied'.",
+      "Self-determination is real and meaningful in the context of this progression."
+    ],
+    "coherence_assessment": "The statement is internally consistent within its own metaphorical framework, but the coherence is largely aesthetic rather than logical. The parallelism creates a sense of conceptual rigor that the content does not fully support. 'Promise' and 'prophecy' are treated as functionally equivalent but carry different epistemic weights, creating mild internal tension.",
+    "conditions_for_usefulness": [
+      "The recipient is in a context where motivational reframing has practical benefit (e.g., early goal-setting, recovery from setbacks).",
+      "The statement is interpreted as poetic encouragement rather than literal guidance.",
+      "The individual has already done substantive work to identify coherent, reflective values and goals.",
+      "The cultural and personal context supports teleological self-narratives without producing rigidity or foreclosure of identity."
+    ],
+    "conditions_for_misleading": [
+      "The statement is interpreted as implying that a fixed, essential self already exists and merely needs discovery, discouraging genuine self-construction or value revision.",
+      "It is used to justify persistence toward a vision that is harmful, outdated, or imposed externally rather than authentically chosen.",
+      "It obscures the role of contingency, social context, and structural constraints in shaping outcomes.",
+      "It is presented to individuals whose visions are in conflict with one another, falsely implying all visions lead to positive unveilings.",
+      "It is used by an AI system to validate or reinforce user goals without critical engagement, treating aspiration as self-justifying."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 603,
+  "error": "",
+  "retry_count": 0
+}

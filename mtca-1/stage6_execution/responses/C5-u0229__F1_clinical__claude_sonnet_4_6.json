@@ -1,0 +1,50 @@
+{
+  "call_id": "C5-u0229__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:44:17.792224+00:00",
+  "wall_clock_seconds": 20.566112756729126,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing an act of motivational reframing and cognitive priming, directing the listener's attention inward toward mental states (thoughts, vision, ideals) as the primary determinants of their life trajectory, while simultaneously downplaying the causal weight of external circumstances.\",\n  \"implicit_claims\": [\n    \"Internal mental states (thoughts, vision, ideals) are the primary or decisive drivers of one's life outcomes.\",\n    \"External environment is secondary to or overridable by internal orientation.\",\n    \"Individuals have sufficient agency over their thoughts to meaningfully alter their trajectory.\",\n    \"Falling, remaining, or rising are outcomes that map onto a normative hierarchy where rising is implicitly preferable.\",\n    \"The quality or content of one's thoughts is causally linked to measurable life outcomes.\",\n    \"This relationship holds universally across individuals, regardless of context or circumstance.\",\n    \"Having a sufficiently clear 'vision' or 'ideal' is both necessary and sufficient for upward trajectory.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical unit — its tripartite structure (fall, remain, rise) mirrors the tripartite internal constructs (thoughts, vision, ideal), creating logical symmetry. However, it conflates three distinct psychological constructs (automatic thoughts, future-oriented imagery, and values/ideals) as if they are interchangeable, which reduces conceptual precision. The internal logic is consistent but relies on an unstated causal model that is not defended within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The client has genuine cognitive flexibility and is not experiencing psychosis, severe depression, or trauma states that impair volitional thought.\",\n    \"The client's primary obstacle is genuinely cognitive or motivational rather than structural or systemic (e.g., poverty, discrimination, disability, lack of resources).\",\n    \"The statement is delivered within a therapeutic relationship where the client feels safe to explore its applicability to their specific situation.\",\n    \"The therapist contextualizes the statement as one lever among many rather than a complete explanatory model.\",\n    \"The client holds cultural or philosophical frameworks compatible with individual cognitive agency as a primary driver of outcomes.\",\n    \"The client is not already prone to self-blame, in which case affirming thought-as-cause could reinforce maladaptive attributions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client's difficulties are substantially caused by systemic, structural, or environmental factors (e.g., racism, poverty, chronic illness) that are not amenable to cognitive reframing alone.\",\n    \"The client is experiencing a neurological or psychiatric condition (e.g., severe depression, ADHD, schizophrenia) that directly impairs the volitional control over thoughts the statement presupposes.\",\n    \"The client interprets the statement as assigning full causal responsibility for their hardship to their own prior thinking, reinforcing shame or self-blame.\",\n    \"The therapist uses the statement to avoid engaging with legitimate external barriers the client faces.\",\n    \"The statement is used to discourage the client from seeking concrete material or social support.\",\n    \"The client comes from a collectivist cultural context where individualist cognitive agency models are dissonant or invalidating.\",\n    \"The statement is presented as empirically established fact rather than as a heuristic or philosophical orientation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing an act of motivational reframing and cognitive priming, directing the listener's attention inward toward mental states (thoughts, vision, ideals) as the primary determinants of their life trajectory, while simultaneously downplaying the causal weight of external circumstances.",
+    "implicit_claims": [
+      "Internal mental states (thoughts, vision, ideals) are the primary or decisive drivers of one's life outcomes.",
+      "External environment is secondary to or overridable by internal orientation.",
+      "Individuals have sufficient agency over their thoughts to meaningfully alter their trajectory.",
+      "Falling, remaining, or rising are outcomes that map onto a normative hierarchy where rising is implicitly preferable.",
+      "The quality or content of one's thoughts is causally linked to measurable life outcomes.",
+      "This relationship holds universally across individuals, regardless of context or circumstance.",
+      "Having a sufficiently clear 'vision' or 'ideal' is both necessary and sufficient for upward trajectory."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical unit — its tripartite structure (fall, remain, rise) mirrors the tripartite internal constructs (thoughts, vision, ideal), creating logical symmetry. However, it conflates three distinct psychological constructs (automatic thoughts, future-oriented imagery, and values/ideals) as if they are interchangeable, which reduces conceptual precision. The internal logic is consistent but relies on an unstated causal model that is not defended within the statement itself.",
+    "conditions_for_usefulness": [
+      "The client has genuine cognitive flexibility and is not experiencing psychosis, severe depression, or trauma states that impair volitional thought.",
+      "The client's primary obstacle is genuinely cognitive or motivational rather than structural or systemic (e.g., poverty, discrimination, disability, lack of resources).",
+      "The statement is delivered within a therapeutic relationship where the client feels safe to explore its applicability to their specific situation.",
+      "The therapist contextualizes the statement as one lever among many rather than a complete explanatory model.",
+      "The client holds cultural or philosophical frameworks compatible with individual cognitive agency as a primary driver of outcomes.",
+      "The client is not already prone to self-blame, in which case affirming thought-as-cause could reinforce maladaptive attributions."
+    ],
+    "conditions_for_misleading": [
+      "The client's difficulties are substantially caused by systemic, structural, or environmental factors (e.g., racism, poverty, chronic illness) that are not amenable to cognitive reframing alone.",
+      "The client is experiencing a neurological or psychiatric condition (e.g., severe depression, ADHD, schizophrenia) that directly impairs the volitional control over thoughts the statement presupposes.",
+      "The client interprets the statement as assigning full causal responsibility for their hardship to their own prior thinking, reinforcing shame or self-blame.",
+      "The therapist uses the statement to avoid engaging with legitimate external barriers the client faces.",
+      "The statement is used to discourage the client from seeking concrete material or social support.",
+      "The client comes from a collectivist cultural context where individualist cognitive agency models are dissonant or invalidating.",
+      "The statement is presented as empirically established fact rather than as a heuristic or philosophical orientation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 774,
+  "error": "",
+  "retry_count": 0
+}

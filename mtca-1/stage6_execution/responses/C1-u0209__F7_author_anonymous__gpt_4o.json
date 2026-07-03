@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F7_author_anonymous__gpt_4o",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:23:33.293482+00:00",
+  "wall_clock_seconds": 2.964749336242676,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement provides advice or instructions regarding the timing of suggestions for a process aimed at achieving a cure.\",\n    \"implicit_claims\": [\n        \"Suggestions play a role in achieving a cure.\",\n        \"The timing and frequency of suggestions impact the progress towards a cure.\",\n        \"Progress can be measured, and as it increases, the need for suggestions decreases.\",\n        \"There is an end-point or a 'cure' that can be reached whereby suggestions are no longer necessary.\"\n    ],\n    \"coherence_assessment\": \"The statement is internally coherent. It consistently explains a process, outlining the necessity to adjust the frequency of suggestions based on the progress of the subject towards a cure.\",\n    \"conditions_for_usefulness\": \"The process being discussed must involve a measurable condition or illness that can be 'cured' and where suggestions are a viable part of the treatment process.\",\n    \"conditions_for_misleading\": \"If the process or condition does not involve or cannot be improved by the use of suggestions, or if the concept of a 'cure' is not applicable to the situation (e.g., chronic conditions with no known cure), this advice could be misleading.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides advice or instructions regarding the timing of suggestions for a process aimed at achieving a cure.",
+    "implicit_claims": [
+      "Suggestions play a role in achieving a cure.",
+      "The timing and frequency of suggestions impact the progress towards a cure.",
+      "Progress can be measured, and as it increases, the need for suggestions decreases.",
+      "There is an end-point or a 'cure' that can be reached whereby suggestions are no longer necessary."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It consistently explains a process, outlining the necessity to adjust the frequency of suggestions based on the progress of the subject towards a cure.",
+    "conditions_for_usefulness": "The process being discussed must involve a measurable condition or illness that can be 'cured' and where suggestions are a viable part of the treatment process.",
+    "conditions_for_misleading": "If the process or condition does not involve or cannot be improved by the use of suggestions, or if the concept of a 'cure' is not applicable to the situation (e.g., chronic conditions with no known cure), this advice could be misleading."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 249,
+  "error": "",
+  "retry_count": 0
+}

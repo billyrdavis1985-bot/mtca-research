@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0014__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:26:18.056826+00:00",
+  "wall_clock_seconds": 5.08042573928833,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making a comparative moral judgment about two types of sin or vice—anger and lust—contrasting their manifestations and degrees of weakness.\",\n  \"implicit_claims\": [\n    \"Anger involves a kind of grief and a turning away from reason.\",\n    \"Lust involves being overcome by pleasure, which reveals a more impotent and unmanlike disposition than anger.\",\n    \"There is a hierarchy of moral weakness among vices.\",\n    \"Reason is the standard against which vices are measured.\",\n    \"Being 'unmanlike' is a negative characteristic.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a clear comparison between two emotional/moral states, each defined by specific qualities (grief/contraction vs. pleasure/overcoming), and assigns a judgment of relative weakness. The logic is consistent within its own framework.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts a moral framework where reason is the highest good and vices are measured by their departure from reason.\",\n    \"The audience shares the assumption that 'impotent' and 'unmanlike' are valid negative descriptors in moral evaluation.\",\n    \"The statement is used in a context of ethical instruction or character analysis, where distinguishing between types of wrongdoing is valuable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The audience assumes the comparison is universally true across all cultures or ethical systems.\",\n    \"The statement is taken as a psychological or scientific fact rather than a value-laden moral opinion.\",\n    \"The terms 'manlike' or 'unmanlike' are interpreted as essentialist gender norms rather than metaphorical language.\",\n    \"The statement is used to dismiss or diminish the seriousness of anger while exaggerating the wrongness of lust, without contextual nuance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral judgment about two types of sin or vice—anger and lust—contrasting their manifestations and degrees of weakness.",
+    "implicit_claims": [
+      "Anger involves a kind of grief and a turning away from reason.",
+      "Lust involves being overcome by pleasure, which reveals a more impotent and unmanlike disposition than anger.",
+      "There is a hierarchy of moral weakness among vices.",
+      "Reason is the standard against which vices are measured.",
+      "Being 'unmanlike' is a negative characteristic."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a clear comparison between two emotional/moral states, each defined by specific qualities (grief/contraction vs. pleasure/overcoming), and assigns a judgment of relative weakness. The logic is consistent within its own framework.",
+    "conditions_for_usefulness": [
+      "The audience accepts a moral framework where reason is the highest good and vices are measured by their departure from reason.",
+      "The audience shares the assumption that 'impotent' and 'unmanlike' are valid negative descriptors in moral evaluation.",
+      "The statement is used in a context of ethical instruction or character analysis, where distinguishing between types of wrongdoing is valuable."
+    ],
+    "conditions_for_misleading": [
+      "The audience assumes the comparison is universally true across all cultures or ethical systems.",
+      "The statement is taken as a psychological or scientific fact rather than a value-laden moral opinion.",
+      "The terms 'manlike' or 'unmanlike' are interpreted as essentialist gender norms rather than metaphorical language.",
+      "The statement is used to dismiss or diminish the seriousness of anger while exaggerating the wrongness of lust, without contextual nuance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 378,
+  "error": "",
+  "retry_count": 0
+}

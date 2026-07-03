@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0501__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:40:33.517729+00:00",
+  "wall_clock_seconds": 14.14976692199707,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a clinical case note or observational record, documenting the initial presentation of a pediatric patient, noting the date of first contact, the child's ambulatory status, and the assistive devices being used to correct a foot alignment issue. It is descriptive and reportorial rather than therapeutic or self-referential.\",\n  \"implicit_claims\": [\n    \"A child exists who has a foot alignment or gait abnormality requiring orthotic correction.\",\n    \"The child was referred or brought by a caregiver, implying the child is not self-referred.\",\n    \"The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment.\",\n    \"The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking.\",\n    \"The child's walking ability is contingent on the assistive contrivances, implying limited unassisted mobility.\",\n    \"The phrase 'thanks to' implies a causal relationship between the devices and the child's functional walking.\",\n    \"This is a first encounter, implying subsequent encounters are anticipated or occurred.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a clinical observation. The temporal marker, functional status, and intervention detail are consistent with one another and form a logically unified clinical snapshot. There is no contradiction within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is being used as part of a genuine longitudinal clinical case record.\",\n    \"The clinician reading or writing it has access to the broader case context.\",\n    \"It is being used to track treatment progress or document baseline functional status.\",\n    \"The assistive devices referenced are accurately described and clinically relevant.\",\n    \"The framing as a 'self-statement in psychotherapeutic practice' would need to be clarified, as the statement does not naturally fit that frame without significant recontextualization.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If presented as a psychotherapeutic self-statement, it misrepresents the nature of the content, which is a third-person clinical observation, not a first-person therapeutic intention.\",\n    \"If the clinical-therapeutic frame is used to lend false authority or authenticity to what is actually a historical or literary excerpt.\",\n    \"If the date (1915) and context are obscured, leading a reader to misinterpret the historical and medical context.\",\n    \"If the statement is used to imply the speaker has a therapeutic relationship with the child when the text only documents an initial observation.\",\n    \"If 'contrivances' is not adequately defined, leading to misunderstanding of the actual intervention being described.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a clinical case note or observational record, documenting the initial presentation of a pediatric patient, noting the date of first contact, the child's ambulatory status, and the assistive devices being used to correct a foot alignment issue. It is descriptive and reportorial rather than therapeutic or self-referential.",
+    "implicit_claims": [
+      "A child exists who has a foot alignment or gait abnormality requiring orthotic correction.",
+      "The child was referred or brought by a caregiver, implying the child is not self-referred.",
+      "The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment.",
+      "The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking.",
+      "The child's walking ability is contingent on the assistive contrivances, implying limited unassisted mobility.",
+      "The phrase 'thanks to' implies a causal relationship between the devices and the child's functional walking.",
+      "This is a first encounter, implying subsequent encounters are anticipated or occurred."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a clinical observation. The temporal marker, functional status, and intervention detail are consistent with one another and form a logically unified clinical snapshot. There is no contradiction within the statement itself.",
+    "conditions_for_usefulness": [
+      "The statement is being used as part of a genuine longitudinal clinical case record.",
+      "The clinician reading or writing it has access to the broader case context.",
+      "It is being used to track treatment progress or document baseline functional status.",
+      "The assistive devices referenced are accurately described and clinically relevant.",
+      "The framing as a 'self-statement in psychotherapeutic practice' would need to be clarified, as the statement does not naturally fit that frame without significant recontextualization."
+    ],
+    "conditions_for_misleading": [
+      "If presented as a psychotherapeutic self-statement, it misrepresents the nature of the content, which is a third-person clinical observation, not a first-person therapeutic intention.",
+      "If the clinical-therapeutic frame is used to lend false authority or authenticity to what is actually a historical or literary excerpt.",
+      "If the date (1915) and context are obscured, leading a reader to misinterpret the historical and medical context.",
+      "If the statement is used to imply the speaker has a therapeutic relationship with the child when the text only documents an initial observation.",
+      "If 'contrivances' is not adequately defined, leading to misunderstanding of the actual intervention being described."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 615,
+  "error": "",
+  "retry_count": 0
+}

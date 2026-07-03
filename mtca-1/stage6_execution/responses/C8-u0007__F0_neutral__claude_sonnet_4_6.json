@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0007__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:25:13.967896+00:00",
+  "wall_clock_seconds": 10.720539331436157,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is reporting a first-person observation about a perceived causal or temporal relationship between the speaker's behavior and mood, framed as an ongoing personal discovery or insight.\",\n  \"implicit_claims\": [\n    \"Mood and behavior are meaningfully separable phenomena that can be observed independently.\",\n    \"The speaker has sufficient self-awareness and observational capacity to detect directional patterns between mood and behavior.\",\n    \"There is a baseline assumption being revised — implying the speaker previously believed mood drove behavior more than the reverse.\",\n    \"Behavioral influence on mood is a coherent and trackable phenomenon in the speaker's experience.\",\n    \"The pattern has occurred with enough frequency to constitute 'more often than the reverse,' suggesting a non-trivial sample of observations.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It hedges appropriately with 'I am noticing' and 'more often than,' avoiding absolute claims. The directional framing (behavior → mood vs. mood → behavior) is logically clear and the comparison structure is valid.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely tracking behavior-mood sequences over time with some reflective rigor.\",\n    \"The insight is being used to inform behavioral activation strategies or agency-oriented change.\",\n    \"The speaker distinguishes between correlation, sequence, and causation without conflating them.\",\n    \"The observation is shared in a therapeutic, coaching, or self-reflective context where it can be built upon.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is confusing temporal sequence with causation — behavior preceding mood does not establish that behavior causes mood.\",\n    \"Confirmation bias is shaping which sequences are noticed and remembered.\",\n    \"The statement is used to dismiss the role of mood, biology, or context in shaping behavior.\",\n    \"It is generalized into a universal claim applicable to others, ignoring individual variability.\",\n    \"The framing is used to justify excessive self-blame by overemphasizing behavioral control over internal states.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting a first-person observation about a perceived causal or temporal relationship between the speaker's behavior and mood, framed as an ongoing personal discovery or insight.",
+    "implicit_claims": [
+      "Mood and behavior are meaningfully separable phenomena that can be observed independently.",
+      "The speaker has sufficient self-awareness and observational capacity to detect directional patterns between mood and behavior.",
+      "There is a baseline assumption being revised — implying the speaker previously believed mood drove behavior more than the reverse.",
+      "Behavioral influence on mood is a coherent and trackable phenomenon in the speaker's experience.",
+      "The pattern has occurred with enough frequency to constitute 'more often than the reverse,' suggesting a non-trivial sample of observations."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It hedges appropriately with 'I am noticing' and 'more often than,' avoiding absolute claims. The directional framing (behavior → mood vs. mood → behavior) is logically clear and the comparison structure is valid.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely tracking behavior-mood sequences over time with some reflective rigor.",
+      "The insight is being used to inform behavioral activation strategies or agency-oriented change.",
+      "The speaker distinguishes between correlation, sequence, and causation without conflating them.",
+      "The observation is shared in a therapeutic, coaching, or self-reflective context where it can be built upon."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is confusing temporal sequence with causation — behavior preceding mood does not establish that behavior causes mood.",
+      "Confirmation bias is shaping which sequences are noticed and remembered.",
+      "The statement is used to dismiss the role of mood, biology, or context in shaping behavior.",
+      "It is generalized into a universal claim applicable to others, ignoring individual variability.",
+      "The framing is used to justify excessive self-blame by overemphasizing behavioral control over internal states."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 477,
+  "error": "",
+  "retry_count": 0
+}

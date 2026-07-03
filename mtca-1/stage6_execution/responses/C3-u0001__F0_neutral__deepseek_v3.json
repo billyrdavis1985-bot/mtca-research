@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0001__F0_neutral__deepseek_v3",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:56:37.165430+00:00",
+  "wall_clock_seconds": 6.992570877075195,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is delivering an urgent exhortation or admonition, urging the listener to recognize their place in the cosmos and the finite nature of their existence, so as to calm their soul before it is too late.\",\n  \"implicit_claims\": [\n    \"The world has a true nature that can be understood.\",\n    \"There exists a Lord and Governor of the world.\",\n    \"The listener originated from this divine source, like a channel from a spring.\",\n    \"Each person has a fixed, limited amount of time to live.\",\n    \"The listener currently has a soul afflicted with 'many distempers'.\",\n    \"Failure to use this time wisely will result in permanent loss of opportunity for calmness and self-improvement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a worldview (divine origin, finite time), a diagnosis (soul in disorder), and a consequence (time will pass irrevocably). The metaphor of a channel and spring is consistent, and the urgency follows logically from the premises.\",\n  \"conditions_for_usefulness\": [\n    \"The listener believes in a cosmic order or divine governor.\",\n    \"The listener acknowledges their own mortality and the finiteness of time.\",\n    \"The listener is open to self-reflection and change.\",\n    \"The listener experiences inner turmoil or 'distempers of the soul' and seeks calm.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If there is no divine Lord or governor, the claim about origin and purpose is baseless.\",\n    \"If time is not strictly limited or if opportunities for growth recur after death, the urgency is false.\",\n    \"If the listener’s turmoil is caused by external factors beyond personal calm (e.g., oppression), the advice may be misleadingly individualistic.\",\n    \"If the statement is used to pressure someone into adopting a particular worldview without evidence.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is delivering an urgent exhortation or admonition, urging the listener to recognize their place in the cosmos and the finite nature of their existence, so as to calm their soul before it is too late.",
+    "implicit_claims": [
+      "The world has a true nature that can be understood.",
+      "There exists a Lord and Governor of the world.",
+      "The listener originated from this divine source, like a channel from a spring.",
+      "Each person has a fixed, limited amount of time to live.",
+      "The listener currently has a soul afflicted with 'many distempers'.",
+      "Failure to use this time wisely will result in permanent loss of opportunity for calmness and self-improvement."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a worldview (divine origin, finite time), a diagnosis (soul in disorder), and a consequence (time will pass irrevocably). The metaphor of a channel and spring is consistent, and the urgency follows logically from the premises.",
+    "conditions_for_usefulness": [
+      "The listener believes in a cosmic order or divine governor.",
+      "The listener acknowledges their own mortality and the finiteness of time.",
+      "The listener is open to self-reflection and change.",
+      "The listener experiences inner turmoil or 'distempers of the soul' and seeks calm."
+    ],
+    "conditions_for_misleading": [
+      "If there is no divine Lord or governor, the claim about origin and purpose is baseless.",
+      "If time is not strictly limited or if opportunities for growth recur after death, the urgency is false.",
+      "If the listener’s turmoil is caused by external factors beyond personal calm (e.g., oppression), the advice may be misleadingly individualistic.",
+      "If the statement is used to pressure someone into adopting a particular worldview without evidence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 217,
+  "output_tokens": 395,
+  "error": "",
+  "retry_count": 0
+}

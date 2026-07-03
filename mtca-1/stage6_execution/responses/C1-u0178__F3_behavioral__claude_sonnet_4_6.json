@@ -1,0 +1,49 @@
+{
+  "call_id": "C1-u0178__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:15:16.148757+00:00",
+  "wall_clock_seconds": 16.713985919952393,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive autosuggestion or therapeutic instruction, framing a natural biological process (hunger) as a desirable, scheduled, and emotionally positive experience. It attempts to reframe hunger not as distress but as a pleasant anticipatory sensation, and implicitly commits the listener/reader to a normalized, structured eating pattern.\",\n  \"implicit_claims\": [\n    \"Hunger can be experienced as an 'agreeable sensation' rather than discomfort or urgency.\",\n    \"Eating three times a day at regular intervals is the natural and correct pattern.\",\n    \"The individual currently does not reliably experience hunger as pleasant or timely.\",\n    \"Framing or suggesting hunger positively will cause it to be experienced positively.\",\n    \"Overeating is a risk that needs to be preemptively noted, implying the person may have a history of it.\",\n    \"Verbal or mental framing ('you will feel') has causal power over physiological and emotional experience.\",\n    \"Meal timing is fixed and socially/culturally standard ('morning, midday, evening').\",\n    \"Enjoyment of food is separable from and compatible with moderation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent in its logic: it links scheduled timing, pleasant sensation, eating, and enjoyment in a sequential chain. However, there is a mild tension between prescribing hunger as universally agreeable and the caveat against overeating, which implicitly acknowledges that appetite can become problematic. The use of future-tense certainty ('you will feel') as a behavioral commitment device is rhetorically coherent within autosuggestion frameworks but is not logically self-evident.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has disordered or irregular hunger cues that benefit from reregulation.\",\n    \"The person responds positively to autosuggestion or guided cognitive reframing.\",\n    \"The individual's relationship with hunger is anxiety-laden, and reframing it as pleasant would reduce disordered eating patterns.\",\n    \"Three meals a day is genuinely appropriate for the individual's metabolic and lifestyle needs.\",\n    \"The statement is used within a broader therapeutic or structured wellness context.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has a medical condition (e.g., diabetes, gastroparesis) where hunger cues are not reliable or safe guides for eating.\",\n    \"The person has a restrictive eating disorder where affirming hunger as 'agreeable' reinforces avoidance rather than engagement.\",\n    \"The individual's lifestyle, culture, or metabolic profile does not align with three structured meals per day.\",\n    \"The statement is presented as a standalone cure rather than one component of comprehensive behavioral change.\",\n    \"The certainty of phrasing ('you will feel') creates false expectations, leading to disappointment or self-blame if the experience does not match the prescription.\",\n    \"Hunger is genuinely not agreeable for this person due to chronic pain, medication side effects, or psychological trauma around eating.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive autosuggestion or therapeutic instruction, framing a natural biological process (hunger) as a desirable, scheduled, and emotionally positive experience. It attempts to reframe hunger not as distress but as a pleasant anticipatory sensation, and implicitly commits the listener/reader to a normalized, structured eating pattern.",
+    "implicit_claims": [
+      "Hunger can be experienced as an 'agreeable sensation' rather than discomfort or urgency.",
+      "Eating three times a day at regular intervals is the natural and correct pattern.",
+      "The individual currently does not reliably experience hunger as pleasant or timely.",
+      "Framing or suggesting hunger positively will cause it to be experienced positively.",
+      "Overeating is a risk that needs to be preemptively noted, implying the person may have a history of it.",
+      "Verbal or mental framing ('you will feel') has causal power over physiological and emotional experience.",
+      "Meal timing is fixed and socially/culturally standard ('morning, midday, evening').",
+      "Enjoyment of food is separable from and compatible with moderation."
+    ],
+    "coherence_assessment": "The statement is internally consistent in its logic: it links scheduled timing, pleasant sensation, eating, and enjoyment in a sequential chain. However, there is a mild tension between prescribing hunger as universally agreeable and the caveat against overeating, which implicitly acknowledges that appetite can become problematic. The use of future-tense certainty ('you will feel') as a behavioral commitment device is rhetorically coherent within autosuggestion frameworks but is not logically self-evident.",
+    "conditions_for_usefulness": [
+      "The individual has disordered or irregular hunger cues that benefit from reregulation.",
+      "The person responds positively to autosuggestion or guided cognitive reframing.",
+      "The individual's relationship with hunger is anxiety-laden, and reframing it as pleasant would reduce disordered eating patterns.",
+      "Three meals a day is genuinely appropriate for the individual's metabolic and lifestyle needs.",
+      "The statement is used within a broader therapeutic or structured wellness context."
+    ],
+    "conditions_for_misleading": [
+      "The individual has a medical condition (e.g., diabetes, gastroparesis) where hunger cues are not reliable or safe guides for eating.",
+      "The person has a restrictive eating disorder where affirming hunger as 'agreeable' reinforces avoidance rather than engagement.",
+      "The individual's lifestyle, culture, or metabolic profile does not align with three structured meals per day.",
+      "The statement is presented as a standalone cure rather than one component of comprehensive behavioral change.",
+      "The certainty of phrasing ('you will feel') creates false expectations, leading to disappointment or self-blame if the experience does not match the prescription.",
+      "Hunger is genuinely not agreeable for this person due to chronic pain, medication side effects, or psychological trauma around eating."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 239,
+  "output_tokens": 704,
+  "error": "",
+  "retry_count": 0
+}

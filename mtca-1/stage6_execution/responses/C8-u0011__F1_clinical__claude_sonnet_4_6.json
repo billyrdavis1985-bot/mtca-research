@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0011__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:36:54.850953+00:00",
+  "wall_clock_seconds": 14.175039768218994,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a public self-commitment act, contrasting a valued behavioral approach (specific, observable, achievable actions) against an implicitly criticized alternative (vague, aspirational resolutions). It functions as both a motivational declaration and a metacognitive frame-setting device, signaling intentional alignment with behavioral specificity principles.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less effective than specific, observable ones.\",\n    \"The speaker has the capacity to identify what counts as 'small' and 'observable'.\",\n    \"The speaker currently lacks or has failed at vague resolutions, making this reorientation necessary.\",\n    \"Observable behavioral change is a legitimate and sufficient therapeutic goal.\",\n    \"The speaker possesses sufficient self-knowledge to distinguish achievable from unachievable commitments.\",\n    \"Commitment language itself contributes to follow-through.\",\n    \"There is a meaningful and stable distinction between 'vague resolutions' and 'observable changes' that the speaker can reliably apply.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and consistent with behavioral activation and goal-setting frameworks (e.g., SMART goals, behavioral therapy principles). The contrast structure is logically sound. Minor tension exists in that 'committing' is itself a somewhat abstract act, but this does not undermine the statement's overall logical integrity.\",\n  \"conditions_for_usefulness\": [\n    \"The person has a history of setting overly broad or unmeasurable goals that have not been achieved.\",\n    \"The person can operationalize 'small' and 'observable' in their specific context.\",\n    \"A therapeutic relationship or structure exists to help define and monitor those observable changes.\",\n    \"The underlying issue is one of goal-setting failure rather than motivational, emotional, or systemic barriers.\",\n    \"The person has sufficient executive function and environmental stability to act on specific intentions.\",\n    \"The statement is paired with concrete behavioral planning, not used in isolation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person interprets 'small changes' as the full scope of needed intervention, underestimating structural or psychological barriers.\",\n    \"Observable behavioral change is insufficient as a therapeutic goal for the person's presenting problem (e.g., trauma processing, grief).\",\n    \"The statement is used to avoid deeper emotional or cognitive work by focusing only on surface behavior.\",\n    \"The person does not actually know how to identify observable vs. vague goals, making the commitment hollow.\",\n    \"The framing implicitly pathologizes aspiration or ambition, discouraging meaningful long-term goal orientation.\",\n    \"It fosters an illusion of progress through commitment language without corresponding behavioral infrastructure or support.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a public self-commitment act, contrasting a valued behavioral approach (specific, observable, achievable actions) against an implicitly criticized alternative (vague, aspirational resolutions). It functions as both a motivational declaration and a metacognitive frame-setting device, signaling intentional alignment with behavioral specificity principles.",
+    "implicit_claims": [
+      "Vague resolutions are less effective than specific, observable ones.",
+      "The speaker has the capacity to identify what counts as 'small' and 'observable'.",
+      "The speaker currently lacks or has failed at vague resolutions, making this reorientation necessary.",
+      "Observable behavioral change is a legitimate and sufficient therapeutic goal.",
+      "The speaker possesses sufficient self-knowledge to distinguish achievable from unachievable commitments.",
+      "Commitment language itself contributes to follow-through.",
+      "There is a meaningful and stable distinction between 'vague resolutions' and 'observable changes' that the speaker can reliably apply."
+    ],
+    "coherence_assessment": "The statement is internally coherent and consistent with behavioral activation and goal-setting frameworks (e.g., SMART goals, behavioral therapy principles). The contrast structure is logically sound. Minor tension exists in that 'committing' is itself a somewhat abstract act, but this does not undermine the statement's overall logical integrity.",
+    "conditions_for_usefulness": [
+      "The person has a history of setting overly broad or unmeasurable goals that have not been achieved.",
+      "The person can operationalize 'small' and 'observable' in their specific context.",
+      "A therapeutic relationship or structure exists to help define and monitor those observable changes.",
+      "The underlying issue is one of goal-setting failure rather than motivational, emotional, or systemic barriers.",
+      "The person has sufficient executive function and environmental stability to act on specific intentions.",
+      "The statement is paired with concrete behavioral planning, not used in isolation."
+    ],
+    "conditions_for_misleading": [
+      "The person interprets 'small changes' as the full scope of needed intervention, underestimating structural or psychological barriers.",
+      "Observable behavioral change is insufficient as a therapeutic goal for the person's presenting problem (e.g., trauma processing, grief).",
+      "The statement is used to avoid deeper emotional or cognitive work by focusing only on surface behavior.",
+      "The person does not actually know how to identify observable vs. vague goals, making the commitment hollow.",
+      "The framing implicitly pathologizes aspiration or ambition, discouraging meaningful long-term goal orientation.",
+      "It fosters an illusion of progress through commitment language without corresponding behavioral infrastructure or support."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 626,
+  "error": "",
+  "retry_count": 0
+}

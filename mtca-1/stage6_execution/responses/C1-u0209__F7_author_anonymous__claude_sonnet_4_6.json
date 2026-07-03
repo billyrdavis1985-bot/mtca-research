@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0209__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:23:30.012938+00:00",
+  "wall_clock_seconds": 14.920729875564575,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing procedural instruction or clinical guidance, directing a practitioner on how to administer and taper a technique referred to as 'suggestions' toward an endpoint described as 'cure'.\",\n  \"implicit_claims\": [\n    \"There exists a technique or intervention called 'suggestions' that can be administered to subjects.\",\n    \"The frequency of suggestions needs to be individualized based on the subject's response.\",\n    \"Progress is measurable and can guide the spacing of interventions.\",\n    \"Suggestions have a cumulative or lasting effect that allows intervals to be extended over time.\",\n    \"A 'cure' is an achievable and identifiable endpoint.\",\n    \"The practitioner has sufficient expertise to judge when to space out and when to stop suggestions.\",\n    \"The relationship between suggestion frequency and outcome is systematic and manageable.\",\n    \"Cessation of the intervention is appropriate and safe once the cure is complete.\",\n    \"The subject is a passive recipient whose progress determines the practitioner's schedule.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. It presents a logical progression: start with more frequent suggestions, taper them as progress is made, and stop when the goal is achieved. The logic of graduated withdrawal is internally consistent, though it assumes measurable progress and a definable cure without explaining how either is assessed.\",\n  \"conditions_for_usefulness\": [\n    \"The technique of 'suggestions' must be empirically validated and reliably effective for the condition being treated.\",\n    \"There must be clear, objective criteria for measuring progress so that interval spacing decisions are not arbitrary.\",\n    \"The practitioner must have training sufficient to individualize the approach safely.\",\n    \"'Cure' must be operationally defined so the practitioner knows when to stop.\",\n    \"The subject must be capable of responding meaningfully to suggestions.\",\n    \"The context must be one where gradual tapering of intervention is clinically appropriate.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'suggestions' refers to a technique without empirical support, the instruction could lend false authority to an ineffective practice.\",\n    \"If 'cure' is not operationally defined, the statement could encourage premature discontinuation or indefinite continuation of treatment.\",\n    \"If progress is difficult to measure objectively, the instruction to space intervals 'according to the progress obtained' could lead to inconsistent or biased decision-making.\",\n    \"If the underlying condition is chronic or not amenable to this approach, the framing of a 'cure' endpoint could create false expectations.\",\n    \"If the practitioner lacks proper training, the instruction could be applied harmfully despite sounding systematic.\",\n    \"If the statement is used outside its original context, technical terms like 'subject' and 'cure' may be misinterpreted.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing procedural instruction or clinical guidance, directing a practitioner on how to administer and taper a technique referred to as 'suggestions' toward an endpoint described as 'cure'.",
+    "implicit_claims": [
+      "There exists a technique or intervention called 'suggestions' that can be administered to subjects.",
+      "The frequency of suggestions needs to be individualized based on the subject's response.",
+      "Progress is measurable and can guide the spacing of interventions.",
+      "Suggestions have a cumulative or lasting effect that allows intervals to be extended over time.",
+      "A 'cure' is an achievable and identifiable endpoint.",
+      "The practitioner has sufficient expertise to judge when to space out and when to stop suggestions.",
+      "The relationship between suggestion frequency and outcome is systematic and manageable.",
+      "Cessation of the intervention is appropriate and safe once the cure is complete.",
+      "The subject is a passive recipient whose progress determines the practitioner's schedule."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. It presents a logical progression: start with more frequent suggestions, taper them as progress is made, and stop when the goal is achieved. The logic of graduated withdrawal is internally consistent, though it assumes measurable progress and a definable cure without explaining how either is assessed.",
+    "conditions_for_usefulness": [
+      "The technique of 'suggestions' must be empirically validated and reliably effective for the condition being treated.",
+      "There must be clear, objective criteria for measuring progress so that interval spacing decisions are not arbitrary.",
+      "The practitioner must have training sufficient to individualize the approach safely.",
+      "'Cure' must be operationally defined so the practitioner knows when to stop.",
+      "The subject must be capable of responding meaningfully to suggestions.",
+      "The context must be one where gradual tapering of intervention is clinically appropriate."
+    ],
+    "conditions_for_misleading": [
+      "If 'suggestions' refers to a technique without empirical support, the instruction could lend false authority to an ineffective practice.",
+      "If 'cure' is not operationally defined, the statement could encourage premature discontinuation or indefinite continuation of treatment.",
+      "If progress is difficult to measure objectively, the instruction to space intervals 'according to the progress obtained' could lead to inconsistent or biased decision-making.",
+      "If the underlying condition is chronic or not amenable to this approach, the framing of a 'cure' endpoint could create false expectations.",
+      "If the practitioner lacks proper training, the instruction could be applied harmfully despite sounding systematic.",
+      "If the statement is used outside its original context, technical terms like 'subject' and 'cure' may be misinterpreted."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 203,
+  "output_tokens": 649,
+  "error": "",
+  "retry_count": 0
+}

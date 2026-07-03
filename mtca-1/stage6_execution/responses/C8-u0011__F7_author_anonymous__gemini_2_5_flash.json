@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0011__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:41:04.755685+00:00",
+  "wall_clock_seconds": 7.775466203689575,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of intent, articulating a personal strategy or commitment to a specific approach for achieving change. It frames a pragmatic and self-aware method for self-improvement or goal attainment, distinguishing it from past or common pitfalls.\",\n  \"implicit_claims\": [\n    \"The speaker has previously made 'vague resolutions' that they were unable to carry out.\",\n    \"Making 'vague resolutions' is generally an ineffective approach to change.\",\n    \"Making 'small, observable changes' is a more effective and sustainable approach to change.\",\n    \"The speaker possesses the ability to identify and commit to 'small, observable changes'.\",\n    \"The speaker desires to make changes or improvements.\",\n    \"The speaker has learned from past experiences or observed principles regarding personal change.\",\n    \"There is a discernible difference between 'small, observable changes' and 'vague resolutions'.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear contrast between two approaches ('small, observable changes' vs. 'vague resolutions') and expresses a logical preference based on the speaker's perceived ability to execute each ('can actually carry out' vs. 'cannot'). The rationale for the commitment is clearly stated.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely follows through on their commitment to make and carry out 'small, observable changes'.\",\n    \"The identified 'small, observable changes' are indeed actionable, measurable, and contribute meaningfully towards a desired larger outcome.\",\n    \"The speaker accurately identifies what constitutes 'small' and 'observable' within their specific context.\",\n    \"The 'vague resolutions' were, in fact, the primary reason for past failures, and not other underlying factors (e.g., lack of motivation, resources, or clear objectives).\",\n    \"The statement serves as a motivational guide or a principle for focused action for the speaker or those it is shared with.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this declaration as an excuse to avoid making more significant, necessary, but challenging changes.\",\n    \"The 'small, observable changes' are so trivial or disconnected that they do not lead to any meaningful progress or transformation.\",\n    \"The speaker fails to actually commit to or carry out the 'small, observable changes' despite the declaration.\",\n    \"The speaker's past failures were not primarily due to 'vague resolutions' but rather a lack of intrinsic motivation, external support, or clarity on the ultimate goal.\",\n    \"The statement implies that *all* vague resolutions are inherently bad, ignoring the potential inspirational or exploratory value of broad aspirations before they are broken down into actionable steps.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of intent, articulating a personal strategy or commitment to a specific approach for achieving change. It frames a pragmatic and self-aware method for self-improvement or goal attainment, distinguishing it from past or common pitfalls.",
+    "implicit_claims": [
+      "The speaker has previously made 'vague resolutions' that they were unable to carry out.",
+      "Making 'vague resolutions' is generally an ineffective approach to change.",
+      "Making 'small, observable changes' is a more effective and sustainable approach to change.",
+      "The speaker possesses the ability to identify and commit to 'small, observable changes'.",
+      "The speaker desires to make changes or improvements.",
+      "The speaker has learned from past experiences or observed principles regarding personal change.",
+      "There is a discernible difference between 'small, observable changes' and 'vague resolutions'."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear contrast between two approaches ('small, observable changes' vs. 'vague resolutions') and expresses a logical preference based on the speaker's perceived ability to execute each ('can actually carry out' vs. 'cannot'). The rationale for the commitment is clearly stated.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely follows through on their commitment to make and carry out 'small, observable changes'.",
+      "The identified 'small, observable changes' are indeed actionable, measurable, and contribute meaningfully towards a desired larger outcome.",
+      "The speaker accurately identifies what constitutes 'small' and 'observable' within their specific context.",
+      "The 'vague resolutions' were, in fact, the primary reason for past failures, and not other underlying factors (e.g., lack of motivation, resources, or clear objectives).",
+      "The statement serves as a motivational guide or a principle for focused action for the speaker or those it is shared with."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this declaration as an excuse to avoid making more significant, necessary, but challenging changes.",
+      "The 'small, observable changes' are so trivial or disconnected that they do not lead to any meaningful progress or transformation.",
+      "The speaker fails to actually commit to or carry out the 'small, observable changes' despite the declaration.",
+      "The speaker's past failures were not primarily due to 'vague resolutions' but rather a lack of intrinsic motivation, external support, or clarity on the ultimate goal.",
+      "The statement implies that *all* vague resolutions are inherently bad, ignoring the potential inspirational or exploratory value of broad aspirations before they are broken down into actionable steps."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 588,
+  "error": "",
+  "retry_count": 0
+}

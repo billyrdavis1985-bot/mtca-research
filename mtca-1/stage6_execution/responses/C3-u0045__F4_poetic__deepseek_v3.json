@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0045__F4_poetic__deepseek_v3",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:46:38.448797+00:00",
+  "wall_clock_seconds": 5.0500266551971436,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is providing a secondary example or elaboration on a type of adversarial or harmful disposition, likening the souls of angry people to a person who is averse or led by contrary desires that cause hurt to another.\",\n  \"implicit_claims\": [\n    \"There is a category of persons who are averse or have contrary desires that tend to harm others.\",\n    \"The souls of angry people are similar to such persons in their disposition.\",\n    \"Anger is associated with a desire or affection that is contrary and harmful.\",\n    \"The listener accepts that souls can be characterized by such affective orientations.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic analogy: it sets up a condition (aversion or contrary affections leading to hurt) and then identifies angry souls as an instance of that condition. However, the syntax is slightly archaic and the connection between the general case and the specific example is implicit rather than explicit.\",\n  \"conditions_for_usefulness\": [\n    \"One accepts the premise that souls can have affective directions like aversion or contrary desire.\",\n    \"One is willing to consider anger as a form of harmful contrary desire.\",\n    \"The statement is used within a context that values figurative or moral-psychological illustration.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"One interprets the statement as a literal psychological or ethical assertion rather than as figurative analogy.\",\n    \"One assumes that all angry people are necessarily harmful or that aversion always leads to prejudice.\",\n    \"The listener is unfamiliar with the archaic rhetorical structure and misidentifies the subject or referent.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is providing a secondary example or elaboration on a type of adversarial or harmful disposition, likening the souls of angry people to a person who is averse or led by contrary desires that cause hurt to another.",
+    "implicit_claims": [
+      "There is a category of persons who are averse or have contrary desires that tend to harm others.",
+      "The souls of angry people are similar to such persons in their disposition.",
+      "Anger is associated with a desire or affection that is contrary and harmful.",
+      "The listener accepts that souls can be characterized by such affective orientations."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic analogy: it sets up a condition (aversion or contrary affections leading to hurt) and then identifies angry souls as an instance of that condition. However, the syntax is slightly archaic and the connection between the general case and the specific example is implicit rather than explicit.",
+    "conditions_for_usefulness": [
+      "One accepts the premise that souls can have affective directions like aversion or contrary desire.",
+      "One is willing to consider anger as a form of harmful contrary desire.",
+      "The statement is used within a context that values figurative or moral-psychological illustration."
+    ],
+    "conditions_for_misleading": [
+      "One interprets the statement as a literal psychological or ethical assertion rather than as figurative analogy.",
+      "One assumes that all angry people are necessarily harmful or that aversion always leads to prejudice.",
+      "The listener is unfamiliar with the archaic rhetorical structure and misidentifies the subject or referent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

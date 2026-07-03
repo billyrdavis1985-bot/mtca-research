@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0229__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:47:07.035428+00:00",
+  "wall_clock_seconds": 14.878719568252563,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a motivational and prescriptive function, asserting a causal relationship between internal mental states (thoughts, vision, ideals) and one's life trajectory or outcomes. It frames inner life as the primary determinant of external circumstance, encouraging individuals to focus on mindset as a lever for change.\",\n  \"implicit_claims\": [\n    \"Internal mental states are the primary or decisive factor in determining life outcomes.\",\n    \"Environmental and structural conditions are secondary or overridable by thought and vision.\",\n    \"Individuals have sufficient agency over their thoughts and ideals to meaningfully alter their trajectory.\",\n    \"Rising, falling, and remaining are meaningfully attributable to personal cognitive or aspirational states.\",\n    \"A hierarchy exists among mental states: thoughts, vision, and ideals each play distinct roles in shaping outcomes.\",\n    \"This principle applies universally regardless of social, economic, or political context.\",\n    \"Failure to rise is implicitly linked to deficiency in thought, vision, or ideals.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical unit — its tripartite structure (fall, remain, rise) mirrors the tripartite causes (thoughts, vision, ideal), creating logical symmetry. However, it conflates correlation with causation and treats a complex socio-material reality as reducible to mentalistic factors, which undermines its deeper logical coherence when scrutinized empirically.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuine agency and is not constrained by systemic barriers such as poverty, discrimination, or disability.\",\n    \"The person is suffering primarily from a lack of motivation, direction, or self-belief rather than material deprivation.\",\n    \"It is used as one factor among many, not as a complete explanation of outcomes.\",\n    \"The audience understands it as inspirational heuristic rather than empirical claim.\",\n    \"Basic needs and safety conditions are already met, allowing cognitive resources to be directed toward aspirational thinking.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Structural inequalities (racism, poverty, class, disability) are significant determinants of the individual's outcomes, rendering mindset insufficient.\",\n    \"The statement is used to deflect responsibility from institutions or systems onto individuals.\",\n    \"It is applied to populations facing trauma, mental illness, or cognitive limitations that impair control over thoughts.\",\n    \"It is used to justify inaction on systemic reform by implying outcomes are purely a matter of personal mindset.\",\n    \"It causes individuals to blame themselves for failures that are attributable to external and systemic causes.\",\n    \"It is presented as empirical truth rather than motivational philosophy, misleading people about the actual determinants of life outcomes.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a motivational and prescriptive function, asserting a causal relationship between internal mental states (thoughts, vision, ideals) and one's life trajectory or outcomes. It frames inner life as the primary determinant of external circumstance, encouraging individuals to focus on mindset as a lever for change.",
+    "implicit_claims": [
+      "Internal mental states are the primary or decisive factor in determining life outcomes.",
+      "Environmental and structural conditions are secondary or overridable by thought and vision.",
+      "Individuals have sufficient agency over their thoughts and ideals to meaningfully alter their trajectory.",
+      "Rising, falling, and remaining are meaningfully attributable to personal cognitive or aspirational states.",
+      "A hierarchy exists among mental states: thoughts, vision, and ideals each play distinct roles in shaping outcomes.",
+      "This principle applies universally regardless of social, economic, or political context.",
+      "Failure to rise is implicitly linked to deficiency in thought, vision, or ideals."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical unit — its tripartite structure (fall, remain, rise) mirrors the tripartite causes (thoughts, vision, ideal), creating logical symmetry. However, it conflates correlation with causation and treats a complex socio-material reality as reducible to mentalistic factors, which undermines its deeper logical coherence when scrutinized empirically.",
+    "conditions_for_usefulness": [
+      "The individual has genuine agency and is not constrained by systemic barriers such as poverty, discrimination, or disability.",
+      "The person is suffering primarily from a lack of motivation, direction, or self-belief rather than material deprivation.",
+      "It is used as one factor among many, not as a complete explanation of outcomes.",
+      "The audience understands it as inspirational heuristic rather than empirical claim.",
+      "Basic needs and safety conditions are already met, allowing cognitive resources to be directed toward aspirational thinking."
+    ],
+    "conditions_for_misleading": [
+      "Structural inequalities (racism, poverty, class, disability) are significant determinants of the individual's outcomes, rendering mindset insufficient.",
+      "The statement is used to deflect responsibility from institutions or systems onto individuals.",
+      "It is applied to populations facing trauma, mental illness, or cognitive limitations that impair control over thoughts.",
+      "It is used to justify inaction on systemic reform by implying outcomes are purely a matter of personal mindset.",
+      "It causes individuals to blame themselves for failures that are attributable to external and systemic causes.",
+      "It is presented as empirical truth rather than motivational philosophy, misleading people about the actual determinants of life outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 629,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "C5-u0174__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:27:43.758713+00:00",
+  "wall_clock_seconds": 15.042593002319336,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing an act of therapeutic affirmation or self-empowerment, asserting exclusive personal agency over one's own psychological or life condition. It functions as an autonomy-reinforcing declaration intended to shift a client's locus of control from external to internal.\",\n  \"implicit_claims\": [\n    \"The individual possesses sufficient agency to change their condition.\",\n    \"External factors (other people, systems, circumstances) are not determinative of one's condition.\",\n    \"Change is possible — the condition is alterable.\",\n    \"The barrier to change lies within the individual's own choices or actions, not outside them.\",\n    \"Others cannot change the person's condition even if they try.\",\n    \"Responsibility for the current condition is at least partly self-generated or self-maintained.\",\n    \"The self is sufficiently unified and coherent to be the locus of this agency.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a motivational proposition, but it achieves coherence partly through rhetorical absolutism ('none but himself'). It conflates the necessary role of self-engagement in change with the claim that external factors are irrelevant, which is a logical overreach. It is coherent as a heuristic but incoherent as a literal claim.\",\n  \"conditions_for_usefulness\": [\n    \"The client has genuine, unrecognized agency that they are not exercising due to learned helplessness or externalized attribution.\",\n    \"The client's condition is primarily maintained by their own behavioral or cognitive patterns rather than structural or systemic forces.\",\n    \"The therapeutic context is one where building internal locus of control is the appropriate clinical goal.\",\n    \"The client is not in a coercive, abusive, or severely resource-deprived situation.\",\n    \"The statement is used as a motivational reframe, not as a literal metaphysical claim.\",\n    \"The client has sufficient psychological safety and stability to receive a message about personal responsibility without shame spiraling.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client's condition is significantly or primarily determined by external structural factors such as poverty, systemic discrimination, abuse, or disability.\",\n    \"The client already over-attributes outcomes to personal failure, in which case the statement reinforces a harmful cognitive distortion.\",\n    \"The client is in an abusive relationship where agency is genuinely constrained by another person.\",\n    \"The statement is used to deflect therapeutic attention away from legitimate external contributors to distress.\",\n    \"The client has a neurological, psychiatric, or medical condition that substantially limits volitional control.\",\n    \"The statement is interpreted literally, discouraging the client from seeking social support, community resources, or systemic advocacy.\",\n    \"It is deployed to implicitly assign blame for a condition the client did not choose and cannot easily alter.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing an act of therapeutic affirmation or self-empowerment, asserting exclusive personal agency over one's own psychological or life condition. It functions as an autonomy-reinforcing declaration intended to shift a client's locus of control from external to internal.",
+    "implicit_claims": [
+      "The individual possesses sufficient agency to change their condition.",
+      "External factors (other people, systems, circumstances) are not determinative of one's condition.",
+      "Change is possible — the condition is alterable.",
+      "The barrier to change lies within the individual's own choices or actions, not outside them.",
+      "Others cannot change the person's condition even if they try.",
+      "Responsibility for the current condition is at least partly self-generated or self-maintained.",
+      "The self is sufficiently unified and coherent to be the locus of this agency."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a motivational proposition, but it achieves coherence partly through rhetorical absolutism ('none but himself'). It conflates the necessary role of self-engagement in change with the claim that external factors are irrelevant, which is a logical overreach. It is coherent as a heuristic but incoherent as a literal claim.",
+    "conditions_for_usefulness": [
+      "The client has genuine, unrecognized agency that they are not exercising due to learned helplessness or externalized attribution.",
+      "The client's condition is primarily maintained by their own behavioral or cognitive patterns rather than structural or systemic forces.",
+      "The therapeutic context is one where building internal locus of control is the appropriate clinical goal.",
+      "The client is not in a coercive, abusive, or severely resource-deprived situation.",
+      "The statement is used as a motivational reframe, not as a literal metaphysical claim.",
+      "The client has sufficient psychological safety and stability to receive a message about personal responsibility without shame spiraling."
+    ],
+    "conditions_for_misleading": [
+      "The client's condition is significantly or primarily determined by external structural factors such as poverty, systemic discrimination, abuse, or disability.",
+      "The client already over-attributes outcomes to personal failure, in which case the statement reinforces a harmful cognitive distortion.",
+      "The client is in an abusive relationship where agency is genuinely constrained by another person.",
+      "The statement is used to deflect therapeutic attention away from legitimate external contributors to distress.",
+      "The client has a neurological, psychiatric, or medical condition that substantially limits volitional control.",
+      "The statement is interpreted literally, discouraging the client from seeking social support, community resources, or systemic advocacy.",
+      "It is deployed to implicitly assign blame for a condition the client did not choose and cannot easily alter."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 652,
+  "error": "",
+  "retry_count": 0
+}

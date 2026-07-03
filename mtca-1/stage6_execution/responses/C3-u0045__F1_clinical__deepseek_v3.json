@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0045__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:44:25.974228+00:00",
+  "wall_clock_seconds": 4.993005275726318,
+  "raw_response": "{\n  \"communicative_function\": \"The statement appears to be providing a clinical observation or diagnostic description of a specific psychological state or relational dynamic, perhaps as part of a therapeutic narrative or case conceptualization.\",\n  \"implicit_claims\": [\n    \"The subject (female) experiences aversion or contrary desires/affections toward a man.\",\n    \"These affections tend toward his hurt or prejudice.\",\n    \"This mental state is characteristic of angry persons ('such as are the souls of them that are angry').\",\n    \"Anger is associated with a kind of soul or inner state that manifests as aversion and harmful intent.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in linking aversion, contrary affections, and intent to harm with anger, though the phrasing ('souls of them that are angry') is archaic and loosely metaphorical, which may reduce precision in a modern clinical context.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used within a therapeutic framework that values insight into how anger manifests as relational aversion and harm-oriented desires.\",\n    \"The client or patient identifies with or recognizes this pattern in their own experience.\",\n    \"The clinician uses it to validate or explore the client’s feelings of anger and its relational impacts.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a universal generalization about all anger or all women's responses to men, it would be misleading.\",\n    \"If interpreted as justifying harmful behavior by suggesting it is an inevitable part of anger.\",\n    \"If the archaic language obscures modern understanding of anger as a complex emotion with multiple possible expressions beyond aversion or harm-intent.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement appears to be providing a clinical observation or diagnostic description of a specific psychological state or relational dynamic, perhaps as part of a therapeutic narrative or case conceptualization.",
+    "implicit_claims": [
+      "The subject (female) experiences aversion or contrary desires/affections toward a man.",
+      "These affections tend toward his hurt or prejudice.",
+      "This mental state is characteristic of angry persons ('such as are the souls of them that are angry').",
+      "Anger is associated with a kind of soul or inner state that manifests as aversion and harmful intent."
+    ],
+    "coherence_assessment": "The statement is internally coherent in linking aversion, contrary affections, and intent to harm with anger, though the phrasing ('souls of them that are angry') is archaic and loosely metaphorical, which may reduce precision in a modern clinical context.",
+    "conditions_for_usefulness": [
+      "The statement is used within a therapeutic framework that values insight into how anger manifests as relational aversion and harm-oriented desires.",
+      "The client or patient identifies with or recognizes this pattern in their own experience.",
+      "The clinician uses it to validate or explore the client’s feelings of anger and its relational impacts."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a universal generalization about all anger or all women's responses to men, it would be misleading.",
+      "If interpreted as justifying harmful behavior by suggesting it is an inevitable part of anger.",
+      "If the archaic language obscures modern understanding of anger as a complex emotion with multiple possible expressions beyond aversion or harm-intent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0
+}

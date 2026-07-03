@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0009__F4_poetic__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:33:01.305737+00:00",
+  "wall_clock_seconds": 5.870918035507202,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a prescriptive guideline or ethical principle, urging ongoing self-reflection and accountability in interpersonal conduct. It is a compact, aphoristic directive.\",\n  \"implicit_claims\": [\n    \"The speaker (or person addressed) has a capacity for self-examination.\",\n    \"The speaker (or person addressed) can recognize when they are wrong.\",\n    \"Admitting wrongdoing promptly is both possible and valuable.\",\n    \"There is a standard or set of norms against which actions can be judged as wrong.\",\n    \"Personal growth or moral improvement is an ongoing process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two clauses (‘continued to take personal inventory’ and ‘when we were wrong promptly admitted it’) are logically sequential: self-inventory enables recognition of wrongness, which then prompts prompt admission. The plural ‘we’ implies a shared, possibly collective practice, but remains consistent.\",\n  \"conditions_for_usefulness\": [\n    \"Individuals have the self-awareness and time to conduct a personal inventory.\",\n    \"There is a shared or understood moral or social framework to define ‘wrong’.\",\n    \"The environment (e.g., relationships, community) values honesty and accountability.\",\n    \"Admission of wrongdoing is met with forgiveness or constructive response, not punishment or harm.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the phrase ‘personal inventory’ is interpreted as obsessive self-criticism or rumination, it could promote guilt or anxiety.\",\n    \"If ‘promptly admitted it’ is applied in contexts where immediate admission could endanger oneself or others (e.g., in abusive or coercive settings).\",\n    \"If the statement is taken to mean that all wrongdoing must be admitted regardless of privacy or third-party harm.\",\n    \"If it implies that self-inventory and admission are sufficient for moral repair, ignoring restitution or behavioral change.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a prescriptive guideline or ethical principle, urging ongoing self-reflection and accountability in interpersonal conduct. It is a compact, aphoristic directive.",
+    "implicit_claims": [
+      "The speaker (or person addressed) has a capacity for self-examination.",
+      "The speaker (or person addressed) can recognize when they are wrong.",
+      "Admitting wrongdoing promptly is both possible and valuable.",
+      "There is a standard or set of norms against which actions can be judged as wrong.",
+      "Personal growth or moral improvement is an ongoing process."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two clauses (‘continued to take personal inventory’ and ‘when we were wrong promptly admitted it’) are logically sequential: self-inventory enables recognition of wrongness, which then prompts prompt admission. The plural ‘we’ implies a shared, possibly collective practice, but remains consistent.",
+    "conditions_for_usefulness": [
+      "Individuals have the self-awareness and time to conduct a personal inventory.",
+      "There is a shared or understood moral or social framework to define ‘wrong’.",
+      "The environment (e.g., relationships, community) values honesty and accountability.",
+      "Admission of wrongdoing is met with forgiveness or constructive response, not punishment or harm."
+    ],
+    "conditions_for_misleading": [
+      "If the phrase ‘personal inventory’ is interpreted as obsessive self-criticism or rumination, it could promote guilt or anxiety.",
+      "If ‘promptly admitted it’ is applied in contexts where immediate admission could endanger oneself or others (e.g., in abusive or coercive settings).",
+      "If the statement is taken to mean that all wrongdoing must be admitted regardless of privacy or third-party harm.",
+      "If it implies that self-inventory and admission are sufficient for moral repair, ignoring restitution or behavioral change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 395,
+  "error": "",
+  "retry_count": 0
+}

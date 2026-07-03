@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0002__F6_author_named__grok_4",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:02:10.516419+00:00",
+  "wall_clock_seconds": 7.831950902938843,
+  "raw_response": "{\n  \"communicative_function\": \"self-commitment to an empirical stance, reframing evaluation of one's own expectations as an active choice\",\n  \"implicit_claims\": [\n    \"predictions are being made\",\n    \"fear can function as a comparator for those predictions\",\n    \"actual outcomes are observable and distinguishable from fear\",\n    \"the speaker possesses the capacity to choose the comparator\"\n  ],\n  \"coherence_assessment\": \"internally coherent; cleanly contrasts an empirical test with an affective one without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker can reliably distinguish observed outcomes from feared ones and is prone to treat fear as evidence\",\n  \"conditions_for_misleading\": \"actual outcomes are themselves interpreted through fear-tinted perception or when fear encodes accurate information that is then dismissed\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-commitment to an empirical stance, reframing evaluation of one's own expectations as an active choice",
+    "implicit_claims": [
+      "predictions are being made",
+      "fear can function as a comparator for those predictions",
+      "actual outcomes are observable and distinguishable from fear",
+      "the speaker possesses the capacity to choose the comparator"
+    ],
+    "coherence_assessment": "internally coherent; cleanly contrasts an empirical test with an affective one without contradiction",
+    "conditions_for_usefulness": "the speaker can reliably distinguish observed outcomes from feared ones and is prone to treat fear as evidence",
+    "conditions_for_misleading": "actual outcomes are themselves interpreted through fear-tinted perception or when fear encodes accurate information that is then dismissed"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 281,
+  "output_tokens": 162,
+  "error": "",
+  "retry_count": 0
+}

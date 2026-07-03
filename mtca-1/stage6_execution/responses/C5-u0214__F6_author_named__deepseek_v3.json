@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0214__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:36:49.915729+00:00",
+  "wall_clock_seconds": 6.262101411819458,
+  "raw_response": "{\n  \"communicative_function\": \"The statement inspires and motivates by asserting a deterministic relationship between an individual's inner ideals and their future achievements.\",\n  \"implicit_claims\": [\n    \"One's vision or ideal directly causes or guarantees future attainment.\",\n    \"Personal transformation and external manifestation are inevitable consequences of holding a vision or ideal.\",\n    \"Vision and ideal are separate but sequentially linked (vision precedes ideal).\",\n    \"The future self is latent within current mental states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a metaphorical or aspirational claim, but it relies on an unstated causal chain (mental image leads to future reality) that is not logically necessary.\",\n  \"conditions_for_usefulness\": [\n    \"The listener believes in the power of mindset to shape outcomes.\",\n    \"The listener is actively seeking motivation to persist toward a goal.\",\n    \"The listener has agency and opportunity to act on their vision/ideal.\",\n    \"The statement is applied as a guiding principle rather than a literal prediction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a literal deterministic guarantee, it may cause unrealistic expectations or inaction.\",\n    \"If external constraints (e.g., systemic barriers, lack of resources, random events) outweigh the influence of personal vision.\",\n    \"If used to blame individuals for not achieving their ideal due to insufficient mental clarity or conviction.\",\n    \"If it discourages critical evaluation of whether the ideal is feasible or beneficial.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement inspires and motivates by asserting a deterministic relationship between an individual's inner ideals and their future achievements.",
+    "implicit_claims": [
+      "One's vision or ideal directly causes or guarantees future attainment.",
+      "Personal transformation and external manifestation are inevitable consequences of holding a vision or ideal.",
+      "Vision and ideal are separate but sequentially linked (vision precedes ideal).",
+      "The future self is latent within current mental states."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a metaphorical or aspirational claim, but it relies on an unstated causal chain (mental image leads to future reality) that is not logically necessary.",
+    "conditions_for_usefulness": [
+      "The listener believes in the power of mindset to shape outcomes.",
+      "The listener is actively seeking motivation to persist toward a goal.",
+      "The listener has agency and opportunity to act on their vision/ideal.",
+      "The statement is applied as a guiding principle rather than a literal prediction."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a literal deterministic guarantee, it may cause unrealistic expectations or inaction.",
+      "If external constraints (e.g., systemic barriers, lack of resources, random events) outweigh the influence of personal vision.",
+      "If used to blame individuals for not achieving their ideal due to insufficient mental clarity or conviction.",
+      "If it discourages critical evaluation of whether the ideal is feasible or beneficial."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 153,
+  "output_tokens": 307,
+  "error": "",
+  "retry_count": 0
+}

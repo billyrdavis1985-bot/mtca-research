@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0501__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:45:10.448276+00:00",
+  "wall_clock_seconds": 4.810604095458984,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is reporting an observation or clinical note about a child's first visit, describing his walking ability and the assistive devices used.\",\n  \"implicit_claims\": [\n    \"The speaker is a professional (likely a doctor, orthopedist, or therapist) who receives children for evaluation or treatment.\",\n    \"The child has a condition that requires contrivances to keep his feet straight.\",\n    \"The contrivances are effective enough for the child to walk 'pretty well.'\",\n    \"The child was not brought to the speaker before February 1915.\",\n    \"The speaker has some standard of normal walking against which 'pretty well' is judged.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a subject, time, action, and condition with clear causal connection between the contrivances and the child's walking ability.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a medical or therapeutic record, case study, or historical account where documenting the child's condition and assistive devices is relevant.\",\n    \"The date (1915) and the nature of the contrivances help identify the medical technology of the era.\",\n    \"The observer is competent to assess walking ability and the function of the devices.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misinterprets 'pretty well' or exaggerates the child's ability.\",\n    \"The contrivances are not actually helping but constraining the child's natural gait, leading to a misleading positive assessment.\",\n    \"The statement is taken out of a broader context that would clarify the child's underlying condition or prognosis.\",\n    \"The speaker has an interest (e.g., promoting the contrivances) that biases the description.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting an observation or clinical note about a child's first visit, describing his walking ability and the assistive devices used.",
+    "implicit_claims": [
+      "The speaker is a professional (likely a doctor, orthopedist, or therapist) who receives children for evaluation or treatment.",
+      "The child has a condition that requires contrivances to keep his feet straight.",
+      "The contrivances are effective enough for the child to walk 'pretty well.'",
+      "The child was not brought to the speaker before February 1915.",
+      "The speaker has some standard of normal walking against which 'pretty well' is judged."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a subject, time, action, and condition with clear causal connection between the contrivances and the child's walking ability.",
+    "conditions_for_usefulness": [
+      "The statement is part of a medical or therapeutic record, case study, or historical account where documenting the child's condition and assistive devices is relevant.",
+      "The date (1915) and the nature of the contrivances help identify the medical technology of the era.",
+      "The observer is competent to assess walking ability and the function of the devices."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misinterprets 'pretty well' or exaggerates the child's ability.",
+      "The contrivances are not actually helping but constraining the child's natural gait, leading to a misleading positive assessment.",
+      "The statement is taken out of a broader context that would clarify the child's underlying condition or prognosis.",
+      "The speaker has an interest (e.g., promoting the contrivances) that biases the description."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 372,
+  "error": "",
+  "retry_count": 0
+}

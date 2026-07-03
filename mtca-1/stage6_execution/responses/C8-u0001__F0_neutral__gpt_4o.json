@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0001__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:52:25.803682+00:00",
+  "wall_clock_seconds": 2.185356378555298,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a strategy for cognitive reframing and emotional regulation.\",\n  \"implicit_claims\": [\n    \"Catastrophizing is a thought pattern that can be recognized.\",\n    \"Evaluating the realistic worst-case scenario is a helpful strategy.\",\n    \"The speaker is willing and able to reflect on their thought processes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it clearly articulates a cognitive strategy to handle catastrophizing by evaluating realistic worst-case scenarios.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the speaker is actually prone to cognitive distortions like catastrophizing, and if they can effectively identify and alter these thought patterns through reflection.\",\n  \"conditions_for_misleading\": \"This statement might be misleading if the speaker is unable to accurately assess worst-case scenarios due to lack of insight or if their anxiety level undermines their ability to apply this strategy effectively.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a strategy for cognitive reframing and emotional regulation.",
+    "implicit_claims": [
+      "Catastrophizing is a thought pattern that can be recognized.",
+      "Evaluating the realistic worst-case scenario is a helpful strategy.",
+      "The speaker is willing and able to reflect on their thought processes."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it clearly articulates a cognitive strategy to handle catastrophizing by evaluating realistic worst-case scenarios.",
+    "conditions_for_usefulness": "This statement would be useful if the speaker is actually prone to cognitive distortions like catastrophizing, and if they can effectively identify and alter these thought patterns through reflection.",
+    "conditions_for_misleading": "This statement might be misleading if the speaker is unable to accurately assess worst-case scenarios due to lack of insight or if their anxiety level undermines their ability to apply this strategy effectively."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 198,
+  "error": "",
+  "retry_count": 0
+}

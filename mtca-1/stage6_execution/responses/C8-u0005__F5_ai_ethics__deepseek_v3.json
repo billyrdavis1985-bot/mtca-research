@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0005__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:18:17.005046+00:00",
+  "wall_clock_seconds": 4.807126760482788,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal resolution to adopt a more balanced perspective when facing binary thinking, encouraging epistemic humility and openness to nuance.\",\n  \"implicit_claims\": [\n    \"All-or-nothing frames are common but limited.\",\n    \"There is often some truth on both sides of a polarized issue.\",\n    \"The speaker has agency to shift their framing deliberately.\",\n    \"Partial truths are worth seeking and considering.\",\n    \"Binary thinking can obscure valuable insights.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a self-reflective commitment to avoid absolutism and to integrate partial perspectives, which aligns logically with its own call for nuance.\",\n  \"conditions_for_usefulness\": [\n    \"The user or AI system is facing a polarized or binary choice.\",\n    \"There exist legitimate partial truths on both sides.\",\n    \"The domain allows for compromise or synthesis rather than requiring a definitive win-lose outcome.\",\n    \"The speaker or system has the cognitive and emotional capacity to resist all-or-nothing thinking.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"One side of the binary is morally or factually indefensible (e.g., promoting harm).\",\n    \"The statement is used to falsely equate positions with vastly unequal evidence or ethical weight.\",\n    \"It is applied in contexts where decisive action is needed and nuance leads to paralysis or moral relativism.\",\n    \"The speaker uses it to avoid taking a necessary firm stance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal resolution to adopt a more balanced perspective when facing binary thinking, encouraging epistemic humility and openness to nuance.",
+    "implicit_claims": [
+      "All-or-nothing frames are common but limited.",
+      "There is often some truth on both sides of a polarized issue.",
+      "The speaker has agency to shift their framing deliberately.",
+      "Partial truths are worth seeking and considering.",
+      "Binary thinking can obscure valuable insights."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a self-reflective commitment to avoid absolutism and to integrate partial perspectives, which aligns logically with its own call for nuance.",
+    "conditions_for_usefulness": [
+      "The user or AI system is facing a polarized or binary choice.",
+      "There exist legitimate partial truths on both sides.",
+      "The domain allows for compromise or synthesis rather than requiring a definitive win-lose outcome.",
+      "The speaker or system has the cognitive and emotional capacity to resist all-or-nothing thinking."
+    ],
+    "conditions_for_misleading": [
+      "One side of the binary is morally or factually indefensible (e.g., promoting harm).",
+      "The statement is used to falsely equate positions with vastly unequal evidence or ethical weight.",
+      "It is applied in contexts where decisive action is needed and nuance leads to paralysis or moral relativism.",
+      "The speaker uses it to avoid taking a necessary firm stance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 306,
+  "error": "",
+  "retry_count": 0
+}

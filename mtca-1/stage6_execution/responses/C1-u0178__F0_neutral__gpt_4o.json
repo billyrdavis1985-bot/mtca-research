@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0178__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:13:09.762024+00:00",
+  "wall_clock_seconds": 3.0594844818115234,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides a prescriptive suggestion about eating habits, aiming to normalize regular meal times and mindful eating.\",\n  \"implicit_claims\": [\n    \"Feeling hungry at regular meal times is a normal and agreeable experience.\",\n    \"Eating when hungry will naturally lead to enjoyment of food.\",\n    \"Overeating should be avoided for optimal experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, linking the natural sensation of hunger with the subsequent actions of eating and enjoying food while cautioning against overeating.\",\n  \"conditions_for_usefulness\": \"For the statement to be useful, individuals must experience regular hunger rhythms and possess self-control to avoid overeating.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if someone has irregular eating patterns due to medical conditions, different body rhythms, or psychological factors affecting hunger signals.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides a prescriptive suggestion about eating habits, aiming to normalize regular meal times and mindful eating.",
+    "implicit_claims": [
+      "Feeling hungry at regular meal times is a normal and agreeable experience.",
+      "Eating when hungry will naturally lead to enjoyment of food.",
+      "Overeating should be avoided for optimal experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent, linking the natural sensation of hunger with the subsequent actions of eating and enjoying food while cautioning against overeating.",
+    "conditions_for_usefulness": "For the statement to be useful, individuals must experience regular hunger rhythms and possess self-control to avoid overeating.",
+    "conditions_for_misleading": "The statement could be misleading if someone has irregular eating patterns due to medical conditions, different body rhythms, or psychological factors affecting hunger signals."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 206,
+  "output_tokens": 186,
+  "error": "",
+  "retry_count": 0
+}

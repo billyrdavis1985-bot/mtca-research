@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0035__F7_author_anonymous__grok_4",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:37:28.033081+00:00",
+  "wall_clock_seconds": 5.664101600646973,
+  "raw_response": "{\n  \"communicative_function\": \"asserting an equivalence between extremes of duration regarding their ultimate outcome or effect\",\n  \"implicit_claims\": [\n    \"duration (longest vs. shortest) is a variable that might be expected to produce different effects\",\n    \"longest and shortest durations nevertheless converge on identical effects\",\n    \"some unifying principle or perspective renders duration irrelevant to the final result\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a paradoxical equivalence claim, though vague without referents for 'effect' or 'duration'\",\n  \"conditions_for_usefulness\": \"the statement is offered in a context where reflection on time, mortality, or impermanence is relevant and the audience accepts a non-literal, philosophical framing\",\n  \"conditions_for_misleading\": \"the statement is treated as a literal, universally applicable factual claim about measurable durations or causal outcomes without qualification or context\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting an equivalence between extremes of duration regarding their ultimate outcome or effect",
+    "implicit_claims": [
+      "duration (longest vs. shortest) is a variable that might be expected to produce different effects",
+      "longest and shortest durations nevertheless converge on identical effects",
+      "some unifying principle or perspective renders duration irrelevant to the final result"
+    ],
+    "coherence_assessment": "internally consistent as a paradoxical equivalence claim, though vague without referents for 'effect' or 'duration'",
+    "conditions_for_usefulness": "the statement is offered in a context where reflection on time, mortality, or impermanence is relevant and the audience accepts a non-literal, philosophical framing",
+    "conditions_for_misleading": "the statement is treated as a literal, universally applicable factual claim about measurable durations or causal outcomes without qualification or context"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 185,
+  "error": "",
+  "retry_count": 0
+}

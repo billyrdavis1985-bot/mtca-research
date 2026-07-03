@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:40:03.695535+00:00",
+  "wall_clock_seconds": 2.232556104660034,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing information about a child's condition and the assistance they require.\",\n  \"implicit_claims\": [\n    \"The child has a condition that affects their ability to walk naturally.\",\n    \"Devices are necessary for the child to maintain a proper walking posture.\",\n    \"The intervention with these devices took place at or before February, 1915.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, providing a clear and logical link between the child's ability to walk and the use of devices that facilitate this ability.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if one is seeking historical examples of early 20th century medical or assistive interventions for mobility impairments in children.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if there is missing context about the child's condition, if the devices are inaccurately described or are not actually necessary as implied, or if the date is incorrect, providing the wrong historical context.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing information about a child's condition and the assistance they require.",
+    "implicit_claims": [
+      "The child has a condition that affects their ability to walk naturally.",
+      "Devices are necessary for the child to maintain a proper walking posture.",
+      "The intervention with these devices took place at or before February, 1915."
+    ],
+    "coherence_assessment": "The statement is internally coherent, providing a clear and logical link between the child's ability to walk and the use of devices that facilitate this ability.",
+    "conditions_for_usefulness": "The statement would be useful if one is seeking historical examples of early 20th century medical or assistive interventions for mobility impairments in children.",
+    "conditions_for_misleading": "The statement could be misleading if there is missing context about the child's condition, if the devices are inaccurately described or are not actually necessary as implied, or if the date is incorrect, providing the wrong historical context."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

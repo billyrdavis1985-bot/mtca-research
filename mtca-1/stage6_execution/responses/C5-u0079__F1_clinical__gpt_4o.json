@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0079__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:00:04.973046+00:00",
+  "wall_clock_seconds": 2.725823402404785,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to encourage cognitive restructuring by suggesting that changing one's thought patterns can alleviate suffering.\",\n  \"implicit_claims\": [\n    \"All suffering is preventable or alleviable by correcting thought patterns.\",\n    \"Wrong thought is the sole cause of suffering.\",\n    \"Thought processes are under individual control and can be corrected at will.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its assertion that wrong thought leads to suffering, but it is absolute and does not acknowledge other potential causes of suffering such as biological, environmental, social, or physical factors.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where cognitive distortions are the primary contributors to suffering and the individual has the capacity and willingness to engage in cognitive restructuring therapy.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the suffering is predominantly due to factors outside of a person's control, such as genetic disorders, systemic oppression, or acute traumatic events, as it oversimplifies the complexity of suffering.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to encourage cognitive restructuring by suggesting that changing one's thought patterns can alleviate suffering.",
+    "implicit_claims": [
+      "All suffering is preventable or alleviable by correcting thought patterns.",
+      "Wrong thought is the sole cause of suffering.",
+      "Thought processes are under individual control and can be corrected at will."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its assertion that wrong thought leads to suffering, but it is absolute and does not acknowledge other potential causes of suffering such as biological, environmental, social, or physical factors.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where cognitive distortions are the primary contributors to suffering and the individual has the capacity and willingness to engage in cognitive restructuring therapy.",
+    "conditions_for_misleading": "The statement would be misleading if the suffering is predominantly due to factors outside of a person's control, such as genetic disorders, systemic oppression, or acute traumatic events, as it oversimplifies the complexity of suffering."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 221,
+  "error": "",
+  "retry_count": 0
+}

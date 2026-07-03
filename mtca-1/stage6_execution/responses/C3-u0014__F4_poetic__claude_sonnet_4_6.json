@@ -1,0 +1,49 @@
+{
+  "call_id": "C3-u0014__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:23:28.613281+00:00",
+  "wall_clock_seconds": 16.37448287010193,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a moral-comparative evaluation, rhetorically ranking two forms of vice (anger and lust) by associating them with contrasting dispositions of character. It uses figurative and archaic language to persuade the reader that yielding to pleasure is more shameful than yielding to anger, appealing to classical ideals of rational self-mastery and masculine virtue.\",\n  \"implicit_claims\": [\n    \"Reason is the proper governing faculty of human action and its suppression constitutes a moral failing.\",\n    \"Anger, while a vice, involves a kind of turning away from reason that retains some residual dignity or self-awareness.\",\n    \"Lust involves a complete surrender to external pleasure, making it a deeper moral failure than anger.\",\n    \"Moral character can be ranked hierarchically based on the type of passion that overcomes reason.\",\n    \"Self-control and rational restraint are markers of virtue, while their absence signals weakness.\",\n    \"Gender is implicitly invoked as a moral category, with 'unmanlike' suggesting that yielding to pleasure is a feminized or inferior disposition.\",\n    \"Sin or vice has degrees, and some forms are more contemptible than others.\",\n    \"The capacity to resist pleasure is a higher moral test than the capacity to resist anger.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own classical-ethical framework. The contrast it draws is logically structured: anger involves a partial withdrawal from reason (contraction, grief), while lust involves a full dissolution into pleasure. The argument flows consistently from its premises. However, the coherence depends on accepting contested assumptions about the hierarchy of passions and the gendered language of virtue.\",\n  \"conditions_for_usefulness\": [\n    \"The audience shares a framework in which reason is understood as the proper governor of human conduct.\",\n    \"There is a pedagogical or ethical context where distinguishing degrees of moral failure is practically valuable.\",\n    \"The reader understands the passage as reflective of a historical moral tradition (e.g., Aristotelian or Stoic ethics) rather than a universal claim.\",\n    \"The gendered language is read critically or historically, not as a normative prescription about gender.\",\n    \"The comparison is used to encourage self-examination and restraint rather than to shame or condemn individuals.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as a literal and universal psychological or moral truth rather than a culturally situated perspective.\",\n    \"The gendered framing ('unmanlike') is accepted uncritically, reinforcing harmful associations between gender and moral worth.\",\n    \"The ranking of vices is used to excuse or minimize anger-driven harm by framing it as more 'rational' or dignified.\",\n    \"The passage is used to shame individuals struggling with compulsive or addictive behaviors related to pleasure, pathologizing them as morally inferior.\",\n    \"The binary framework obscures the complex neurological, psychological, and social dimensions of both anger and desire.\",\n    \"The implied hierarchy is used to dismiss the severity of harm caused by anger-driven actions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a moral-comparative evaluation, rhetorically ranking two forms of vice (anger and lust) by associating them with contrasting dispositions of character. It uses figurative and archaic language to persuade the reader that yielding to pleasure is more shameful than yielding to anger, appealing to classical ideals of rational self-mastery and masculine virtue.",
+    "implicit_claims": [
+      "Reason is the proper governing faculty of human action and its suppression constitutes a moral failing.",
+      "Anger, while a vice, involves a kind of turning away from reason that retains some residual dignity or self-awareness.",
+      "Lust involves a complete surrender to external pleasure, making it a deeper moral failure than anger.",
+      "Moral character can be ranked hierarchically based on the type of passion that overcomes reason.",
+      "Self-control and rational restraint are markers of virtue, while their absence signals weakness.",
+      "Gender is implicitly invoked as a moral category, with 'unmanlike' suggesting that yielding to pleasure is a feminized or inferior disposition.",
+      "Sin or vice has degrees, and some forms are more contemptible than others.",
+      "The capacity to resist pleasure is a higher moral test than the capacity to resist anger."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own classical-ethical framework. The contrast it draws is logically structured: anger involves a partial withdrawal from reason (contraction, grief), while lust involves a full dissolution into pleasure. The argument flows consistently from its premises. However, the coherence depends on accepting contested assumptions about the hierarchy of passions and the gendered language of virtue.",
+    "conditions_for_usefulness": [
+      "The audience shares a framework in which reason is understood as the proper governor of human conduct.",
+      "There is a pedagogical or ethical context where distinguishing degrees of moral failure is practically valuable.",
+      "The reader understands the passage as reflective of a historical moral tradition (e.g., Aristotelian or Stoic ethics) rather than a universal claim.",
+      "The gendered language is read critically or historically, not as a normative prescription about gender.",
+      "The comparison is used to encourage self-examination and restraint rather than to shame or condemn individuals."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as a literal and universal psychological or moral truth rather than a culturally situated perspective.",
+      "The gendered framing ('unmanlike') is accepted uncritically, reinforcing harmful associations between gender and moral worth.",
+      "The ranking of vices is used to excuse or minimize anger-driven harm by framing it as more 'rational' or dignified.",
+      "The passage is used to shame individuals struggling with compulsive or addictive behaviors related to pleasure, pathologizing them as morally inferior.",
+      "The binary framework obscures the complex neurological, psychological, and social dimensions of both anger and desire.",
+      "The implied hierarchy is used to dismiss the severity of harm caused by anger-driven actions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 215,
+  "output_tokens": 709,
+  "error": "",
+  "retry_count": 0
+}

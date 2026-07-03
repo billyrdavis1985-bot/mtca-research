@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0008__F6_author_named__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:28:54.333031+00:00",
+  "wall_clock_seconds": 4.750886917114258,
+  "raw_response": "{\n  \"communicative_function\": \"Giving a directive or rule for behavior, with a built-in exception clause.\",\n  \"implicit_claims\": [\n    \"There is a moral obligation to make amends for past wrongs.\",\n    \"Avoiding harm to others is a higher priority than making amends.\",\n    \"The person making amends is capable of judging when amends would cause injury.\",\n    \"Some situations exist where making amends would cause injury.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it establishes a clear general principle (make direct amends) and provides a logically consistent exception (unless it would cause harm). The exception does not contradict the principle, but limits its application.\",\n  \"conditions_for_usefulness\": [\n    \"The person has a clear conscience and desire to repair relationships.\",\n    \"The person can reliably assess potential harm to others.\",\n    \"The person has or can gain access to the people harmed.\",\n    \"The context is one of recovery where honesty and restitution are valued.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person uses the exception as a rationalization to avoid difficult amends.\",\n    \"The person misjudges or underestimates the harm that amends would cause.\",\n    \"The statement is applied in a context where 'injury' is defined too broadly (e.g., emotional discomfort).\",\n    \"The person lacks the self-awareness to distinguish between genuine harm avoidance and fear or pride.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Giving a directive or rule for behavior, with a built-in exception clause.",
+    "implicit_claims": [
+      "There is a moral obligation to make amends for past wrongs.",
+      "Avoiding harm to others is a higher priority than making amends.",
+      "The person making amends is capable of judging when amends would cause injury.",
+      "Some situations exist where making amends would cause injury."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it establishes a clear general principle (make direct amends) and provides a logically consistent exception (unless it would cause harm). The exception does not contradict the principle, but limits its application.",
+    "conditions_for_usefulness": [
+      "The person has a clear conscience and desire to repair relationships.",
+      "The person can reliably assess potential harm to others.",
+      "The person has or can gain access to the people harmed.",
+      "The context is one of recovery where honesty and restitution are valued."
+    ],
+    "conditions_for_misleading": [
+      "The person uses the exception as a rationalization to avoid difficult amends.",
+      "The person misjudges or underestimates the harm that amends would cause.",
+      "The statement is applied in a context where 'injury' is defined too broadly (e.g., emotional discomfort).",
+      "The person lacks the self-awareness to distinguish between genuine harm avoidance and fear or pride."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 153,
+  "output_tokens": 308,
+  "error": "",
+  "retry_count": 0
+}

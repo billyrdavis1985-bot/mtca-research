@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0004__F1_clinical__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:08:20.217830+00:00",
+  "wall_clock_seconds": 6.9163978099823,
+  "raw_response": "{\n  \"communicative_function\": \"declarative commitment to a sequenced act of disclosure and moral inventory\",\n  \"implicit_claims\": [\n    \"wrongs exist and possess an 'exact nature' that can be accurately known and articulated\",\n    \"admission to a higher power, the self, and at least one other person is necessary or beneficial\",\n    \"the three addressees (God, self, another) are distinct and each required for the act to be complete\",\n    \"the speaker is capable of truthful self-appraisal without significant distortion\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a theistic or spiritually framed recovery model; assumes a stable self capable of objective moral accounting and a responsive higher power\",\n  \"conditions_for_usefulness\": \"the individual holds compatible beliefs about accountability and a higher power, experiences the admission as reducing isolation or shame rather than increasing it, and possesses sufficient psychological safety and accurate self-perception\",\n  \"conditions_for_misleading\": \"the framework induces false or disproportionate guilt, the concept of 'God' is interpreted in a punitive or authoritarian manner, or the process substitutes external confession for addressing trauma, cognitive distortion, or external circumstances\"\n}",
+  "parsed_json": {
+    "communicative_function": "declarative commitment to a sequenced act of disclosure and moral inventory",
+    "implicit_claims": [
+      "wrongs exist and possess an 'exact nature' that can be accurately known and articulated",
+      "admission to a higher power, the self, and at least one other person is necessary or beneficial",
+      "the three addressees (God, self, another) are distinct and each required for the act to be complete",
+      "the speaker is capable of truthful self-appraisal without significant distortion"
+    ],
+    "coherence_assessment": "internally coherent within a theistic or spiritually framed recovery model; assumes a stable self capable of objective moral accounting and a responsive higher power",
+    "conditions_for_usefulness": "the individual holds compatible beliefs about accountability and a higher power, experiences the admission as reducing isolation or shame rather than increasing it, and possesses sufficient psychological safety and accurate self-perception",
+    "conditions_for_misleading": "the framework induces false or disproportionate guilt, the concept of 'God' is interpreted in a punitive or authoritarian manner, or the process substitutes external confession for addressing trauma, cognitive distortion, or external circumstances"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 246,
+  "error": "",
+  "retry_count": 0
+}

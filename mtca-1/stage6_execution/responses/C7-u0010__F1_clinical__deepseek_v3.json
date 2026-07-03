@@ -1,0 +1,44 @@
+{
+  "call_id": "C7-u0010__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0010",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:36:39.506663+00:00",
+  "wall_clock_seconds": 5.998378753662109,
+  "raw_response": "{\n  \"communicative_function\": \"This statement articulates a therapeutic intention to engage in spiritual practices—prayer and meditation—for the purpose of increasing conscious contact with a personally understood higher power, with the specific aim of seeking knowledge of that power's will and the strength to follow it.\",\n  \"implicit_claims\": [\n    \"There exists a higher power or God that can be personally understood.\",\n    \"Prayer and meditation are effective means to improve conscious contact with this higher power.\",\n    \"This higher power has a will or plan for the individual.\",\n    \"It is possible to know this will through prayer and meditation.\",\n    \"The individual lacks the power to carry out this will on their own.\",\n    \"The higher power can grant the power to carry out its will.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own spiritual framework, logically linking specific means (prayer and meditation) to specific ends (conscious contact, knowledge of will, power to act). However, it relies on presuppositions about a personal deity and the efficacy of spiritual practices that may not be universally accepted.\",\n  \"conditions_for_usefulness\": [\n    \"The individual believes in or is open to the existence of a higher power that can be personally understood.\",\n    \"The individual finds prayer and meditation meaningful or potentially effective practices.\",\n    \"The individual struggles with uncertainty about direction or lack of motivation (willpower) and finds the concept of divine guidance empowering.\",\n    \"The statement is used within a therapeutic context that respects spiritual diversity and is not imposed coercively.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual does not believe in any higher power or has a different spiritual framework (e.g., non-theistic), leading to alienation or confusion.\",\n    \"The statement is interpreted as requiring a specific religious belief system, undermining therapeutic autonomy.\",\n    \"The individual uses it to avoid personal responsibility, attributing all outcomes to divine will.\",\n    \"The phrase 'as we understood Him' is used to mask proselytizing or to pressure the individual into adopting a theistic worldview.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement articulates a therapeutic intention to engage in spiritual practices—prayer and meditation—for the purpose of increasing conscious contact with a personally understood higher power, with the specific aim of seeking knowledge of that power's will and the strength to follow it.",
+    "implicit_claims": [
+      "There exists a higher power or God that can be personally understood.",
+      "Prayer and meditation are effective means to improve conscious contact with this higher power.",
+      "This higher power has a will or plan for the individual.",
+      "It is possible to know this will through prayer and meditation.",
+      "The individual lacks the power to carry out this will on their own.",
+      "The higher power can grant the power to carry out its will."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own spiritual framework, logically linking specific means (prayer and meditation) to specific ends (conscious contact, knowledge of will, power to act). However, it relies on presuppositions about a personal deity and the efficacy of spiritual practices that may not be universally accepted.",
+    "conditions_for_usefulness": [
+      "The individual believes in or is open to the existence of a higher power that can be personally understood.",
+      "The individual finds prayer and meditation meaningful or potentially effective practices.",
+      "The individual struggles with uncertainty about direction or lack of motivation (willpower) and finds the concept of divine guidance empowering.",
+      "The statement is used within a therapeutic context that respects spiritual diversity and is not imposed coercively."
+    ],
+    "conditions_for_misleading": [
+      "The individual does not believe in any higher power or has a different spiritual framework (e.g., non-theistic), leading to alienation or confusion.",
+      "The statement is interpreted as requiring a specific religious belief system, undermining therapeutic autonomy.",
+      "The individual uses it to avoid personal responsibility, attributing all outcomes to divine will.",
+      "The phrase 'as we understood Him' is used to mask proselytizing or to pressure the individual into adopting a theistic worldview."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 436,
+  "error": "",
+  "retry_count": 0
+}

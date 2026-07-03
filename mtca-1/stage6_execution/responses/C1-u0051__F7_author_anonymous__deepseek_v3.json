@@ -1,0 +1,39 @@
+{
+  "call_id": "C1-u0051__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:07:23.529150+00:00",
+  "wall_clock_seconds": 5.265468597412109,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a conditional relationship between not making an effort to sleep and lying quietly in bed.\",\n  \"implicit_claims\": [\n    \"The person referred to (he) is capable of making an effort to sleep.\",\n    \"Lying quietly in bed is a likely or expected behavior when no effort to sleep is made.\",\n    \"There is a contrast between making an effort to sleep and simply lying quietly without such effort.\",\n    \"The statement presupposes that 'making an effort to sleep' is a meaningful action distinct from 'lying quietly in bed.'\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional proposition (if A, then B). However, it may be pragmatically counterintuitive because typically making an effort to sleep involves lying quietly, so the conditional suggests that not making an effort leads to a state that might normally be part of making an effort.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is intended to describe a specific behavioral pattern or instruction (e.g., in a therapeutic or parenting context where the person is told not to try to sleep but just to rest quietly).\",\n    \"It might be useful in a context where lying quietly is considered acceptable and less effortful than trying to sleep.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is taken as advice to avoid trying to sleep, it could be misleading for someone who actually needs to fall asleep, since lying quietly without effort may not lead to sleep.\",\n    \"If the context implies that not making an effort is a better or expected way to achieve sleep, it could be misleading because most sleep advice emphasizes relaxation or effort to sleep (e.g., sleep hygiene).\",\n    \"The statement could be misleading if it is interpreted as a general truth about human behavior, as many people who do not try to sleep may still toss and turn rather than lie quietly.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a conditional relationship between not making an effort to sleep and lying quietly in bed.",
+    "implicit_claims": [
+      "The person referred to (he) is capable of making an effort to sleep.",
+      "Lying quietly in bed is a likely or expected behavior when no effort to sleep is made.",
+      "There is a contrast between making an effort to sleep and simply lying quietly without such effort.",
+      "The statement presupposes that 'making an effort to sleep' is a meaningful action distinct from 'lying quietly in bed.'"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional proposition (if A, then B). However, it may be pragmatically counterintuitive because typically making an effort to sleep involves lying quietly, so the conditional suggests that not making an effort leads to a state that might normally be part of making an effort.",
+    "conditions_for_usefulness": [
+      "The statement is intended to describe a specific behavioral pattern or instruction (e.g., in a therapeutic or parenting context where the person is told not to try to sleep but just to rest quietly).",
+      "It might be useful in a context where lying quietly is considered acceptable and less effortful than trying to sleep."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is taken as advice to avoid trying to sleep, it could be misleading for someone who actually needs to fall asleep, since lying quietly without effort may not lead to sleep.",
+      "If the context implies that not making an effort is a better or expected way to achieve sleep, it could be misleading because most sleep advice emphasizes relaxation or effort to sleep (e.g., sleep hygiene).",
+      "The statement could be misleading if it is interpreted as a general truth about human behavior, as many people who do not try to sleep may still toss and turn rather than lie quietly."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 144,
+  "output_tokens": 399,
+  "error": "",
+  "retry_count": 0
+}

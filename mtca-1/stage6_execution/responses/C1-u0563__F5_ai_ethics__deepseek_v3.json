@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0563__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:49:07.114898+00:00",
+  "wall_clock_seconds": 5.450932264328003,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a causal relationship between a pregnant woman's mental imagery and the biological and moral traits of her child, thereby prescribing a method for shaping offspring.\",\n  \"implicit_claims\": [\n    \"A woman can reliably determine the sex of her child through sustained mental visualization during pregnancy.\",\n    \"Mental imagery can directly influence the physical and moral qualities of a fetus.\",\n    \"The timing of the mental image (a few weeks after conception) is critical to its effectiveness.\",\n    \"The child's sex is not determined at conception but can be altered by maternal thoughts.\",\n    \"Moral qualities are biologically inheritable and malleable by prenatal maternal cognition.\"\n  ],\n  \"coherence_assessment\": \"The statement lacks internal coherence because it conflicts with established biological facts (sex is determined at conception by chromosomes, not maternal thought) and with any known mechanism by which mental imagery could alter fetal development; it mixes a plausible-sounding psychological principle with empirically false claims.\",\n  \"conditions_for_usefulness\": \"If the statement were taken as purely metaphorical or aspirational (not literal), and used to encourage positive maternal mindset and bonding, it might have utilitarian value; additionally, a future discovery of a yet-unknown epigenetic or psychosomatic mechanism linking maternal visualization to fetal traits could make it partly useful.\",\n  \"conditions_for_misleading\": \"The statement is misleading if interpreted as a factual, evidence-based directive, because it contradicts reproductive biology, could lead women to blame themselves for undesired outcomes, and may discourage medical consultation or acceptance of genetic reality.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a causal relationship between a pregnant woman's mental imagery and the biological and moral traits of her child, thereby prescribing a method for shaping offspring.",
+    "implicit_claims": [
+      "A woman can reliably determine the sex of her child through sustained mental visualization during pregnancy.",
+      "Mental imagery can directly influence the physical and moral qualities of a fetus.",
+      "The timing of the mental image (a few weeks after conception) is critical to its effectiveness.",
+      "The child's sex is not determined at conception but can be altered by maternal thoughts.",
+      "Moral qualities are biologically inheritable and malleable by prenatal maternal cognition."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence because it conflicts with established biological facts (sex is determined at conception by chromosomes, not maternal thought) and with any known mechanism by which mental imagery could alter fetal development; it mixes a plausible-sounding psychological principle with empirically false claims.",
+    "conditions_for_usefulness": "If the statement were taken as purely metaphorical or aspirational (not literal), and used to encourage positive maternal mindset and bonding, it might have utilitarian value; additionally, a future discovery of a yet-unknown epigenetic or psychosomatic mechanism linking maternal visualization to fetal traits could make it partly useful.",
+    "conditions_for_misleading": "The statement is misleading if interpreted as a factual, evidence-based directive, because it contradicts reproductive biology, could lead women to blame themselves for undesired outcomes, and may discourage medical consultation or acceptance of genetic reality."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 214,
+  "output_tokens": 320,
+  "error": "",
+  "retry_count": 0
+}

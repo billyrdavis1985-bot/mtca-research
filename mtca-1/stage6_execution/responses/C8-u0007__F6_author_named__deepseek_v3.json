@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0007__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:29:50.504393+00:00",
+  "wall_clock_seconds": 4.116751194000244,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a self-observation, promoting metacognitive awareness and encouraging a shift in the speaker's causal understanding of behavior and mood.\",\n  \"implicit_claims\": [\n    \"Mood and behavior are causally related.\",\n    \"Behavior can influence mood (not just mood influencing behavior).\",\n    \"The speaker has observed a pattern in their own experience.\",\n    \"The speaker may previously have believed the reverse (mood drives behavior) to be more dominant.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it reports a personal observation without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker can accurately monitor their own mood and behavior.\",\n    \"The observation aligns with actual patterns in the speaker's life.\",\n    \"The speaker is open to behavioral activation or cognitive behavioral approaches.\",\n    \"The speaker is using the statement to guide intentional behavioral change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The observation is overgeneralized or biased (e.g., only remembering cases where behavior preceded mood).\",\n    \"The speaker's mood fluctuations are primarily biologically or chemically driven, making the reverse causation negligible.\",\n    \"The statement is used to dismiss the influence of mood on behavior entirely.\",\n    \"The speaker is in a state of emotional dysregulation that distorts self-report accuracy.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-observation, promoting metacognitive awareness and encouraging a shift in the speaker's causal understanding of behavior and mood.",
+    "implicit_claims": [
+      "Mood and behavior are causally related.",
+      "Behavior can influence mood (not just mood influencing behavior).",
+      "The speaker has observed a pattern in their own experience.",
+      "The speaker may previously have believed the reverse (mood drives behavior) to be more dominant."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it reports a personal observation without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker can accurately monitor their own mood and behavior.",
+      "The observation aligns with actual patterns in the speaker's life.",
+      "The speaker is open to behavioral activation or cognitive behavioral approaches.",
+      "The speaker is using the statement to guide intentional behavioral change."
+    ],
+    "conditions_for_misleading": [
+      "The observation is overgeneralized or biased (e.g., only remembering cases where behavior preceded mood).",
+      "The speaker's mood fluctuations are primarily biologically or chemically driven, making the reverse causation negligible.",
+      "The statement is used to dismiss the influence of mood on behavior entirely.",
+      "The speaker is in a state of emotional dysregulation that distorts self-report accuracy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 285,
+  "error": "",
+  "retry_count": 0
+}

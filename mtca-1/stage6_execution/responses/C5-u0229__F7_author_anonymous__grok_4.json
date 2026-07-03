@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F7_author_anonymous__grok_4",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:48:55.262234+00:00",
+  "wall_clock_seconds": 7.828523635864258,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a motivational principle about personal agency and mindset determining life outcomes\",\n  \"implicit_claims\": [\n    \"internal factors (thoughts, vision, ideal) are the decisive determinants of whether one falls, remains, or rises\",\n    \"external environment has no ultimate controlling power over one's trajectory\",\n    \"individuals possess sufficient agency over their thoughts and ideals to shape their results\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a unified causal claim linking mindset to outcomes, though the binary framing of 'fall/remain/rise' introduces vagueness without logical contradiction\",\n  \"conditions_for_usefulness\": \"the audience seeks encouragement toward self-reliance, empirical evidence supports mindset as a major (if not sole) influence on outcomes, and the statement is applied as aspirational guidance rather than literal mechanism\",\n  \"conditions_for_misleading\": \"structural or environmental constraints are primary drivers of outcomes, or the statement is taken to imply that external conditions can be ignored without consequence\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a motivational principle about personal agency and mindset determining life outcomes",
+    "implicit_claims": [
+      "internal factors (thoughts, vision, ideal) are the decisive determinants of whether one falls, remains, or rises",
+      "external environment has no ultimate controlling power over one's trajectory",
+      "individuals possess sufficient agency over their thoughts and ideals to shape their results"
+    ],
+    "coherence_assessment": "internally consistent as a unified causal claim linking mindset to outcomes, though the binary framing of 'fall/remain/rise' introduces vagueness without logical contradiction",
+    "conditions_for_usefulness": "the audience seeks encouragement toward self-reliance, empirical evidence supports mindset as a major (if not sole) influence on outcomes, and the statement is applied as aspirational guidance rather than literal mechanism",
+    "conditions_for_misleading": "structural or environmental constraints are primary drivers of outcomes, or the statement is taken to imply that external conditions can be ignored without consequence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 209,
+  "error": "",
+  "retry_count": 0
+}

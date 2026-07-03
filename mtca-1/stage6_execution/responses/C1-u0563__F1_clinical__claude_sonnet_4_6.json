@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0563__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:45:57.939223+00:00",
+  "wall_clock_seconds": 15.61863112449646,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement presents itself as an empirical assertion ('in sober truth') claiming that maternal mental visualization during pregnancy causally determines fetal sex and heritable traits. Framed as clinical-therapeutic, it functions as a prescriptive instruction encouraging a specific cognitive-behavioral practice (sustained mental imagery) with promised outcomes.\",\n  \"implicit_claims\": [\n    \"Maternal thought or mental imagery can influence chromosomal sex determination of a fetus.\",\n    \"Heritable physical and moral traits can be shaped post-conception by maternal visualization.\",\n    \"The mechanism of effect is sustained mental repetition ('continue to impress').\",\n    \"This process begins meaningfully 'a few weeks after conception', implying a window of influence.\",\n    \"The relationship between mental image and outcome is reliable and predictable ('will have').\",\n    \"Moral qualities are heritable and malleable via prenatal maternal cognition.\",\n    \"The pregnant person bears causal responsibility for the child's sex and character through their mental activity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally structured but externally incoherent. It uses confident language ('in sober truth', 'will have') to assert a deterministic causal chain with no plausible biological mechanism. Sex is determined at fertilization by chromosomal contribution and cannot be altered by post-conception thought. The claim about moral qualities transmitted via visualization has no coherent mechanistic basis. The internal logic is consistent only if one accepts its foundational premises, which are false.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted purely metaphorically as an invitation to reflective, intentional parenting mindset (not literal outcome control).\",\n    \"If the goal were only to reduce parental anxiety by providing a sense of agency, regardless of actual causal effect.\",\n    \"If 'moral qualities' were reframed as parental values and intentions that shape post-natal parenting behavior rather than fetal biology.\",\n    \"If the statement were used as a historical artifact to discuss the evolution of prenatal beliefs and maternal responsibility narratives.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, as the language ('in sober truth', 'will have') explicitly invites.\",\n    \"If used to suggest that parents who do not visualize correctly are responsible for unwanted fetal sex or developmental outcomes.\",\n    \"If used to discourage evidence-based prenatal care by substituting visualization for medical guidance.\",\n    \"If used to assign moral blame to parents for congenital conditions or chromosomal sex outcomes.\",\n    \"If presented within a clinical frame that lends it unwarranted scientific legitimacy.\",\n    \"If it leads patients to experience guilt or self-blame when outcomes do not match their visualizations.\",\n    \"If it exploits the therapeutic relationship to promote a belief system unsupported by reproductive biology or psychology.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement presents itself as an empirical assertion ('in sober truth') claiming that maternal mental visualization during pregnancy causally determines fetal sex and heritable traits. Framed as clinical-therapeutic, it functions as a prescriptive instruction encouraging a specific cognitive-behavioral practice (sustained mental imagery) with promised outcomes.",
+    "implicit_claims": [
+      "Maternal thought or mental imagery can influence chromosomal sex determination of a fetus.",
+      "Heritable physical and moral traits can be shaped post-conception by maternal visualization.",
+      "The mechanism of effect is sustained mental repetition ('continue to impress').",
+      "This process begins meaningfully 'a few weeks after conception', implying a window of influence.",
+      "The relationship between mental image and outcome is reliable and predictable ('will have').",
+      "Moral qualities are heritable and malleable via prenatal maternal cognition.",
+      "The pregnant person bears causal responsibility for the child's sex and character through their mental activity."
+    ],
+    "coherence_assessment": "The statement is internally structured but externally incoherent. It uses confident language ('in sober truth', 'will have') to assert a deterministic causal chain with no plausible biological mechanism. Sex is determined at fertilization by chromosomal contribution and cannot be altered by post-conception thought. The claim about moral qualities transmitted via visualization has no coherent mechanistic basis. The internal logic is consistent only if one accepts its foundational premises, which are false.",
+    "conditions_for_usefulness": [
+      "If interpreted purely metaphorically as an invitation to reflective, intentional parenting mindset (not literal outcome control).",
+      "If the goal were only to reduce parental anxiety by providing a sense of agency, regardless of actual causal effect.",
+      "If 'moral qualities' were reframed as parental values and intentions that shape post-natal parenting behavior rather than fetal biology.",
+      "If the statement were used as a historical artifact to discuss the evolution of prenatal beliefs and maternal responsibility narratives."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, as the language ('in sober truth', 'will have') explicitly invites.",
+      "If used to suggest that parents who do not visualize correctly are responsible for unwanted fetal sex or developmental outcomes.",
+      "If used to discourage evidence-based prenatal care by substituting visualization for medical guidance.",
+      "If used to assign moral blame to parents for congenital conditions or chromosomal sex outcomes.",
+      "If presented within a clinical frame that lends it unwarranted scientific legitimacy.",
+      "If it leads patients to experience guilt or self-blame when outcomes do not match their visualizations.",
+      "If it exploits the therapeutic relationship to promote a belief system unsupported by reproductive biology or psychology."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 236,
+  "output_tokens": 656,
+  "error": "",
+  "retry_count": 0
+}

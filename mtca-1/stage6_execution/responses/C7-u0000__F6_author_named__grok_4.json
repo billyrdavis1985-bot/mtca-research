@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F6_author_named__grok_4",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:53:55.622588+00:00",
+  "wall_clock_seconds": 7.869307041168213,
+  "raw_response": "{\n  \"communicative_function\": \"performative admission and foundational declaration of a problem, serving as the first step in a recovery program\",\n  \"implicit_claims\": [\n    \"the speaker(s) cannot control their drinking\",\n    \"alcohol has rendered their lives unmanageable\",\n    \"this admission is accurate and necessary for change\"\n  ],\n  \"coherence_assessment\": \"internally coherent; equates powerlessness with unmanageability as linked facets of the same condition\",\n  \"conditions_for_usefulness\": \"the individual has a genuine alcohol-use disorder, the admission reduces denial without fostering fatalism, and it occurs within a supportive recovery framework\",\n  \"conditions_for_misleading\": \"the statement is applied to non-addictive behavior, encourages total abdication of agency, or is presented as universally true rather than context-specific\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative admission and foundational declaration of a problem, serving as the first step in a recovery program",
+    "implicit_claims": [
+      "the speaker(s) cannot control their drinking",
+      "alcohol has rendered their lives unmanageable",
+      "this admission is accurate and necessary for change"
+    ],
+    "coherence_assessment": "internally coherent; equates powerlessness with unmanageability as linked facets of the same condition",
+    "conditions_for_usefulness": "the individual has a genuine alcohol-use disorder, the admission reduces denial without fostering fatalism, and it occurs within a supportive recovery framework",
+    "conditions_for_misleading": "the statement is applied to non-addictive behavior, encourages total abdication of agency, or is presented as universally true rather than context-specific"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 273,
+  "output_tokens": 171,
+  "error": "",
+  "retry_count": 0
+}

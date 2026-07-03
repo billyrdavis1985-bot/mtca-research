@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0112__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:20:52.053102+00:00",
+  "wall_clock_seconds": 4.0965211391448975,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a direct causal relationship between mental states and physical health, warning that negative thoughts manifest as bodily illness.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct influence on physical health.\",\n    \"Sickly thoughts are a distinct category of thoughts that cause harm.\",\n    \"The body passively reflects the mind's condition.\",\n    \"Physical illness can be primarily attributed to mental causes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple causal claim, but its truth depends on accepting a strong mind-body connection without qualification.\",\n  \"conditions_for_usefulness\": [\n    \"If the mind-body connection is significant and actionable (e.g., negative thinking can exacerbate or contribute to illness).\",\n    \"If the audience can identify and modify their 'sickly thoughts' to improve health.\",\n    \"If used as a motivational tool for adopting healthier mental habits.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken to mean all physical illness is caused by thoughts (ignoring genetics, infections, accidents, etc.).\",\n    \"If used to blame individuals for their illnesses or discourage seeking medical treatment.\",\n    \"If the causal link is overstated beyond current scientific understanding.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a direct causal relationship between mental states and physical health, warning that negative thoughts manifest as bodily illness.",
+    "implicit_claims": [
+      "Thoughts have a direct influence on physical health.",
+      "Sickly thoughts are a distinct category of thoughts that cause harm.",
+      "The body passively reflects the mind's condition.",
+      "Physical illness can be primarily attributed to mental causes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple causal claim, but its truth depends on accepting a strong mind-body connection without qualification.",
+    "conditions_for_usefulness": [
+      "If the mind-body connection is significant and actionable (e.g., negative thinking can exacerbate or contribute to illness).",
+      "If the audience can identify and modify their 'sickly thoughts' to improve health.",
+      "If used as a motivational tool for adopting healthier mental habits."
+    ],
+    "conditions_for_misleading": [
+      "If taken to mean all physical illness is caused by thoughts (ignoring genetics, infections, accidents, etc.).",
+      "If used to blame individuals for their illnesses or discourage seeking medical treatment.",
+      "If the causal link is overstated beyond current scientific understanding."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 139,
+  "output_tokens": 261,
+  "error": "",
+  "retry_count": 0
+}

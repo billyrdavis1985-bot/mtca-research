@@ -1,0 +1,41 @@
+{
+  "call_id": "C8-u0008__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:31:08.180549+00:00",
+  "wall_clock_seconds": 4.160386085510254,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of commitment to value-consistent action despite emotional incongruence.\",\n  \"implicit_claims\": [\n    \"There is a distinction between values and feelings.\",\n    \"Feelings may lag behind decisions or actions.\",\n    \"Acting in line with values is possible even when feelings are not aligned.\",\n    \"The speaker has identified their values and is consciously choosing to act on them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It asserts a common psychological experience where reasoned values and immediate emotions are not yet synchronized, and where action is guided by the former despite the latter.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has clear, well-defined values that are genuinely their own.\",\n    \"The action chosen is genuinely aligned with those values (not just a rationalization).\",\n    \"The speaker has the intention to eventually integrate feelings with values over time.\",\n    \"The context does not involve emotional suppression that would be harmful in the long term.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the 'values' are actually externally imposed or unexamined, not authentically owned.\",\n    \"If the statement is used to justify ignoring important emotional signals that should inform or revise those values.\",\n    \"If the speaker has no plan to process the emotional lag, leading to chronic dissociation or burnout.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of commitment to value-consistent action despite emotional incongruence.",
+    "implicit_claims": [
+      "There is a distinction between values and feelings.",
+      "Feelings may lag behind decisions or actions.",
+      "Acting in line with values is possible even when feelings are not aligned.",
+      "The speaker has identified their values and is consciously choosing to act on them."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It asserts a common psychological experience where reasoned values and immediate emotions are not yet synchronized, and where action is guided by the former despite the latter.",
+    "conditions_for_usefulness": [
+      "The speaker has clear, well-defined values that are genuinely their own.",
+      "The action chosen is genuinely aligned with those values (not just a rationalization).",
+      "The speaker has the intention to eventually integrate feelings with values over time.",
+      "The context does not involve emotional suppression that would be harmful in the long term."
+    ],
+    "conditions_for_misleading": [
+      "If the 'values' are actually externally imposed or unexamined, not authentically owned.",
+      "If the statement is used to justify ignoring important emotional signals that should inform or revise those values.",
+      "If the speaker has no plan to process the emotional lag, leading to chronic dissociation or burnout."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 289,
+  "error": "",
+  "retry_count": 0
+}

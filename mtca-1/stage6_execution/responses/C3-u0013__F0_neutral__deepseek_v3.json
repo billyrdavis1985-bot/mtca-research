@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0013__F0_neutral__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:15:10.456234+00:00",
+  "wall_clock_seconds": 4.10573148727417,
+  "raw_response": "{\n  \"communicative_function\": \"reporting and interpreting a philosophical comparison made by Theophrastus regarding sins of lust versus sins of anger\",\n  \"implicit_claims\": [\n    \"Theophrastus is a credible philosopher on moral comparisons\",\n    \"Sins can be meaningfully compared in magnitude\",\n    \"A vulgar sense of sin comparison is acknowledged but distinguished from a philosophical one\",\n    \"Lust-driven sins are considered greater than anger-driven sins\",\n    \"The speaker endorses the philosophical validity of Theophrastus's comparison\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a specific philosophical claim, distinguishes it from a vulgar understanding, and attributes it to a named authority without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The reader accepts that sins can be graded in severity\",\n    \"The distinction between vulgar and philosophical comparison is clear or accepted\",\n    \"Theophrastus's authority is relevant to the context\",\n    \"The criteria for 'greater' (e.g., harm, moral culpability) are understood or assumed\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If Theophrastus's original view is taken out of context or misrepresented\",\n    \"If the comparison is interpreted as universally valid rather than context-dependent\",\n    \"If the vulgar sense is dismissed without acknowledging legitimate alternative frameworks\",\n    \"If the statement is used to justify moral judgments without considering intent or consequence\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "reporting and interpreting a philosophical comparison made by Theophrastus regarding sins of lust versus sins of anger",
+    "implicit_claims": [
+      "Theophrastus is a credible philosopher on moral comparisons",
+      "Sins can be meaningfully compared in magnitude",
+      "A vulgar sense of sin comparison is acknowledged but distinguished from a philosophical one",
+      "Lust-driven sins are considered greater than anger-driven sins",
+      "The speaker endorses the philosophical validity of Theophrastus's comparison"
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a specific philosophical claim, distinguishes it from a vulgar understanding, and attributes it to a named authority without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The reader accepts that sins can be graded in severity",
+      "The distinction between vulgar and philosophical comparison is clear or accepted",
+      "Theophrastus's authority is relevant to the context",
+      "The criteria for 'greater' (e.g., harm, moral culpability) are understood or assumed"
+    ],
+    "conditions_for_misleading": [
+      "If Theophrastus's original view is taken out of context or misrepresented",
+      "If the comparison is interpreted as universally valid rather than context-dependent",
+      "If the vulgar sense is dismissed without acknowledging legitimate alternative frameworks",
+      "If the statement is used to justify moral judgments without considering intent or consequence"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 305,
+  "error": "",
+  "retry_count": 0
+}

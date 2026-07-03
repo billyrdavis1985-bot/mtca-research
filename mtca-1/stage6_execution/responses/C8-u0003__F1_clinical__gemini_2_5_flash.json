@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0003__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:03:57.715757+00:00",
+  "wall_clock_seconds": 9.851251125335693,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To foster metacognitive awareness and emotional regulation by reframing the interpretation of feelings. It serves as a self-validation of internal experience while simultaneously promoting cognitive defusion from the absolute truth value of feelings regarding external reality. It aims to reduce distress caused by misattributing internal states as objective facts about the world.\",\n  \"implicit_claims\": [\n    \"Feelings are distinct from 'the world' (external reality).\",\n    \"Feelings inherently provide 'information' about one's internal 'state'.\",\n    \"The 'accuracy' of information is a relevant criterion for evaluating feelings in relation to the world.\",\n    \"It is possible and beneficial for an individual to critically evaluate their own feelings.\",\n    \"Feelings are not always, but sometimes, accurate information about the world.\",\n    \"One's 'state' is a concept distinguishable from the feelings themselves, implying feelings are an output or reflection of the state.\",\n    \"There is a capacity within the individual to 'recognize' and differentiate these aspects of feelings.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It elegantly balances the validation of subjective experience ('feelings are real information about my state') with a rational appraisal of their objective reliability ('not always accurate information about the world'). The use of 'and not always accurate' avoids an absolutist dismissal, maintaining logical consistency by allowing for instances where feelings *might* be accurate about the world, while emphasizing the potential for inaccuracy.\",\n  \"conditions_for_usefulness\": [\n    \"The individual tends to over-identify with their feelings, treating them as infallible truths about external reality.\",\n    \"Intense emotional experiences (e.g., anxiety, anger, fear) are leading to maladaptive behaviors or distorted perceptions of situations.\",\n    \"The individual is experiencing disproportionate emotional reactions to objective circumstances.\",\n    \"The therapeutic goal involves developing emotional regulation skills, cognitive reappraisal, or cognitive defusion (e.g., in CBT, DBT, ACT).\",\n    \"The individual seeks to reduce distress caused by the rigid belief that their feelings are absolute facts about the world.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is experiencing genuine threats, injustice, or objective harm, and the statement is used to invalidate their legitimate feelings of distress, anger, or fear.\",\n    \"The statement is misinterpreted as 'my feelings are *never* accurate information about the world,' leading to self-invalidation or suppression of legitimate emotional responses.\",\n    \"It promotes excessive rumination or intellectualization of feelings, rather than acceptance and processing, particularly in situations where feelings are largely adaptive and congruent with reality (e.g., grief after loss).\",\n    \"The individual has a history of being gaslighted or having their reality denied, and this statement could inadvertently reinforce self-doubt about their perceptions.\",\n    \"It is applied in situations where intuition or a gut feeling (often expressed as a feeling) provides valuable, though non-rational, guidance for decision-making or danger detection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To foster metacognitive awareness and emotional regulation by reframing the interpretation of feelings. It serves as a self-validation of internal experience while simultaneously promoting cognitive defusion from the absolute truth value of feelings regarding external reality. It aims to reduce distress caused by misattributing internal states as objective facts about the world.",
+    "implicit_claims": [
+      "Feelings are distinct from 'the world' (external reality).",
+      "Feelings inherently provide 'information' about one's internal 'state'.",
+      "The 'accuracy' of information is a relevant criterion for evaluating feelings in relation to the world.",
+      "It is possible and beneficial for an individual to critically evaluate their own feelings.",
+      "Feelings are not always, but sometimes, accurate information about the world.",
+      "One's 'state' is a concept distinguishable from the feelings themselves, implying feelings are an output or reflection of the state.",
+      "There is a capacity within the individual to 'recognize' and differentiate these aspects of feelings."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It elegantly balances the validation of subjective experience ('feelings are real information about my state') with a rational appraisal of their objective reliability ('not always accurate information about the world'). The use of 'and not always accurate' avoids an absolutist dismissal, maintaining logical consistency by allowing for instances where feelings *might* be accurate about the world, while emphasizing the potential for inaccuracy.",
+    "conditions_for_usefulness": [
+      "The individual tends to over-identify with their feelings, treating them as infallible truths about external reality.",
+      "Intense emotional experiences (e.g., anxiety, anger, fear) are leading to maladaptive behaviors or distorted perceptions of situations.",
+      "The individual is experiencing disproportionate emotional reactions to objective circumstances.",
+      "The therapeutic goal involves developing emotional regulation skills, cognitive reappraisal, or cognitive defusion (e.g., in CBT, DBT, ACT).",
+      "The individual seeks to reduce distress caused by the rigid belief that their feelings are absolute facts about the world."
+    ],
+    "conditions_for_misleading": [
+      "The individual is experiencing genuine threats, injustice, or objective harm, and the statement is used to invalidate their legitimate feelings of distress, anger, or fear.",
+      "The statement is misinterpreted as 'my feelings are *never* accurate information about the world,' leading to self-invalidation or suppression of legitimate emotional responses.",
+      "It promotes excessive rumination or intellectualization of feelings, rather than acceptance and processing, particularly in situations where feelings are largely adaptive and congruent with reality (e.g., grief after loss).",
+      "The individual has a history of being gaslighted or having their reality denied, and this statement could inadvertently reinforce self-doubt about their perceptions.",
+      "It is applied in situations where intuition or a gut feeling (often expressed as a feeling) provides valuable, though non-rational, guidance for decision-making or danger detection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 661,
+  "error": "",
+  "retry_count": 0
+}

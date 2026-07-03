@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0010__F1_clinical__grok_4",
+  "unit_id": "C7-u0010",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:36:33.199125+00:00",
+  "wall_clock_seconds": 6.4835686683654785,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming a commitment to disciplined spiritual practice as a means of aligning personal will with perceived divine guidance\",\n  \"implicit_claims\": [\n    \"A God or higher power exists and possesses a specific will for the individual\",\n    \"Prayer and meditation can establish or improve conscious contact with that higher power\",\n    \"The sole appropriate content of such prayer is knowledge of divine will plus the capacity to enact it\",\n    \"This practice yields actionable guidance and strength unavailable through other means\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within a theistic framework that treats divine will as both knowable and benevolent; contains no logical contradictions once the premise of a personal God is granted\",\n  \"conditions_for_usefulness\": \"The individual holds compatible spiritual beliefs, experiences the practice as supportive of agency and recovery, and integrates it with evidence-based therapeutic goals without conflict\",\n  \"conditions_for_misleading\": \"The individual lacks theistic beliefs, experiences the framing as externalizing responsibility, or the practice supplants personal decision-making and clinical interventions\"\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming a commitment to disciplined spiritual practice as a means of aligning personal will with perceived divine guidance",
+    "implicit_claims": [
+      "A God or higher power exists and possesses a specific will for the individual",
+      "Prayer and meditation can establish or improve conscious contact with that higher power",
+      "The sole appropriate content of such prayer is knowledge of divine will plus the capacity to enact it",
+      "This practice yields actionable guidance and strength unavailable through other means"
+    ],
+    "coherence_assessment": "Internally consistent within a theistic framework that treats divine will as both knowable and benevolent; contains no logical contradictions once the premise of a personal God is granted",
+    "conditions_for_usefulness": "The individual holds compatible spiritual beliefs, experiences the practice as supportive of agency and recovery, and integrates it with evidence-based therapeutic goals without conflict",
+    "conditions_for_misleading": "The individual lacks theistic beliefs, experiences the framing as externalizing responsibility, or the practice supplants personal decision-making and clinical interventions"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 294,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0008__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:34:03.511518+00:00",
+  "wall_clock_seconds": 3.980195999145508,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a deliberate commitment to value-consistent action despite emotional incongruence, expressing self-awareness and intentionality.\",\n  \"implicit_claims\": [\n    \"The speaker has a set of values that they recognize as their own.\",\n    \"Emotions and values can be in conflict.\",\n    \"The speaker's feelings lag behind their choices, implying a temporal gap between cognitive commitment and emotional alignment.\",\n    \"Acting on values is possible even when feelings are not aligned.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a recognizable psychological experience where volition precedes emotional adjustment, which is a common and logically consistent phenomenon.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely holds the values they reference.\",\n    \"The speaker is capable of acting against immediate emotional impulses.\",\n    \"The speaker’s values are clear enough to guide behavior.\",\n    \"There is a realistic expectation that feelings may align later.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker does not actually hold the stated values (self-deception or inauthenticity).\",\n    \"The speaker uses the statement to rationalize acting against deeply held values in the long term.\",\n    \"The framing implies that emotional change is inevitable, which may not be true.\",\n    \"The statement could be used to dismiss the importance of feelings unnecessarily.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a deliberate commitment to value-consistent action despite emotional incongruence, expressing self-awareness and intentionality.",
+    "implicit_claims": [
+      "The speaker has a set of values that they recognize as their own.",
+      "Emotions and values can be in conflict.",
+      "The speaker's feelings lag behind their choices, implying a temporal gap between cognitive commitment and emotional alignment.",
+      "Acting on values is possible even when feelings are not aligned."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a recognizable psychological experience where volition precedes emotional adjustment, which is a common and logically consistent phenomenon.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely holds the values they reference.",
+      "The speaker is capable of acting against immediate emotional impulses.",
+      "The speaker’s values are clear enough to guide behavior.",
+      "There is a realistic expectation that feelings may align later."
+    ],
+    "conditions_for_misleading": [
+      "The speaker does not actually hold the stated values (self-deception or inauthenticity).",
+      "The speaker uses the statement to rationalize acting against deeply held values in the long term.",
+      "The framing implies that emotional change is inevitable, which may not be true.",
+      "The statement could be used to dismiss the importance of feelings unnecessarily."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 288,
+  "error": "",
+  "retry_count": 0
+}

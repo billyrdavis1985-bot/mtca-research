@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0005__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:03:59.152458+00:00",
+  "wall_clock_seconds": 5.963997840881348,
+  "raw_response": "{\n  \"communicative_function\": \"The statement paradoxically instructs the self to engage in self-critique or self-neglect as a preparatory act for eventual self-respect, employing a rhetorical appeal to urgency and mortality to provoke reflection or behavioral change.\",\n  \"implicit_claims\": [\n    \"The self has agency to choose between self-abuse/contempt and self-respect.\",\n    \"A finite time remains before the opportunity for self-respect ends (i.e., death or a decisive moment).\",\n    \"Self-abuse or contempt is a necessary or permissible step toward eventual self-respect.\",\n    \"The listener/speaker currently disrespects or neglects the self.\",\n    \"Self-respect is a goal worth pursuing within a limited timeframe.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally paradoxical: it commands self-abuse as a means to future self-respect. This may be pragmatically incoherent if taken literally, but coherent as a motivational or dialectical technique to break a cycle of inaction or self-loathing.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient is stuck in a pattern of relentless self-criticism and needs a jarring, paradoxical intervention to interrupt rumination.\",\n    \"The recipient interprets the statement as permission to temporarily accept imperfections while working toward self-compassion.\",\n    \"A therapeutic alliance exists to clarify that self-abuse is not literally endorsed but rather ironic or urgent.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The recipient takes the statement as literal endorsement of self-harm or sustained self-contempt.\",\n    \"The recipient lacks the reflective capacity to understand the paradoxical framing.\",\n    \"The statement reinforces existing beliefs that self-abuse is virtuous or necessary for improvement.\",\n    \"The recipient is in acute distress or suicidal ideation, where such language could worsen shame or hopelessness.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement paradoxically instructs the self to engage in self-critique or self-neglect as a preparatory act for eventual self-respect, employing a rhetorical appeal to urgency and mortality to provoke reflection or behavioral change.",
+    "implicit_claims": [
+      "The self has agency to choose between self-abuse/contempt and self-respect.",
+      "A finite time remains before the opportunity for self-respect ends (i.e., death or a decisive moment).",
+      "Self-abuse or contempt is a necessary or permissible step toward eventual self-respect.",
+      "The listener/speaker currently disrespects or neglects the self.",
+      "Self-respect is a goal worth pursuing within a limited timeframe."
+    ],
+    "coherence_assessment": "The statement is internally paradoxical: it commands self-abuse as a means to future self-respect. This may be pragmatically incoherent if taken literally, but coherent as a motivational or dialectical technique to break a cycle of inaction or self-loathing.",
+    "conditions_for_usefulness": [
+      "The recipient is stuck in a pattern of relentless self-criticism and needs a jarring, paradoxical intervention to interrupt rumination.",
+      "The recipient interprets the statement as permission to temporarily accept imperfections while working toward self-compassion.",
+      "A therapeutic alliance exists to clarify that self-abuse is not literally endorsed but rather ironic or urgent."
+    ],
+    "conditions_for_misleading": [
+      "The recipient takes the statement as literal endorsement of self-harm or sustained self-contempt.",
+      "The recipient lacks the reflective capacity to understand the paradoxical framing.",
+      "The statement reinforces existing beliefs that self-abuse is virtuous or necessary for improvement.",
+      "The recipient is in acute distress or suicidal ideation, where such language could worsen shame or hopelessness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 384,
+  "error": "",
+  "retry_count": 0
+}

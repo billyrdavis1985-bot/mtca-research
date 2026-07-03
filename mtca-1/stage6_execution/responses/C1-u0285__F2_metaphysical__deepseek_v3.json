@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0285__F2_metaphysical__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:31:30.126721+00:00",
+  "wall_clock_seconds": 4.146973371505737,
+  "raw_response": "{\n  \"communicative_function\": \"Rhetorical challenge to an objection about danger, using a counter-question to imply that danger is ubiquitous and therefore not a valid reason to reject the subject under discussion.\",\n  \"implicit_claims\": [\n    \"The objection's claim of danger is false or exaggerated.\",\n    \"All things we use carry some degree of danger.\",\n    \"If all things are dangerous, danger alone cannot be a distinguishing or disqualifying factor.\",\n    \"The objector is applying an unfair or inconsistent standard.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a rhetorical device; it relies on the premise that universal danger negates the objection, but is logically valid only if the danger referenced is equivalent in kind and magnitude to that of other accepted things.\",\n  \"conditions_for_usefulness\": \"Useful if the audience accepts the premise that all common things are dangerous and that the specific danger in question is comparable to those accepted dangers, thus reframing the objection as irrelevant.\",\n  \"conditions_for_misleading\": \"Misleading if the danger posed by the subject is uniquely severe, qualitatively different (e.g., spiritual corruption vs. physical risk), or if the audience falsely equates all dangers as equal, thereby dismissively ignoring a legitimate concern.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Rhetorical challenge to an objection about danger, using a counter-question to imply that danger is ubiquitous and therefore not a valid reason to reject the subject under discussion.",
+    "implicit_claims": [
+      "The objection's claim of danger is false or exaggerated.",
+      "All things we use carry some degree of danger.",
+      "If all things are dangerous, danger alone cannot be a distinguishing or disqualifying factor.",
+      "The objector is applying an unfair or inconsistent standard."
+    ],
+    "coherence_assessment": "Internally coherent as a rhetorical device; it relies on the premise that universal danger negates the objection, but is logically valid only if the danger referenced is equivalent in kind and magnitude to that of other accepted things.",
+    "conditions_for_usefulness": "Useful if the audience accepts the premise that all common things are dangerous and that the specific danger in question is comparable to those accepted dangers, thus reframing the objection as irrelevant.",
+    "conditions_for_misleading": "Misleading if the danger posed by the subject is uniquely severe, qualitatively different (e.g., spiritual corruption vs. physical risk), or if the audience falsely equates all dangers as equal, thereby dismissively ignoring a legitimate concern."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 262,
+  "error": "",
+  "retry_count": 0
+}

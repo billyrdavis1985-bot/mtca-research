@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0003__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:05:37.804870+00:00",
+  "wall_clock_seconds": 5.1363866329193115,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a distinction between subjective emotional experience and objective reality, promoting a reflective stance on the validity of feelings as guides to action.\",\n  \"implicit_claims\": [\n    \"Feelings are a form of information about the self's internal state.\",\n    \"Feelings can be inaccurate representations of external circumstances.\",\n    \"There is a meaningful difference between subjective state and objective reality.\",\n    \"One can and should evaluate the accuracy of one's feelings against world facts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it distinguishes between two domains (self and world) and assigns different epistemic statuses to feelings in each. No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The person struggles with over-identifying feelings as facts about external events.\",\n    \"The person is open to metacognitive reflection on their emotional responses.\",\n    \"The statement is used as a reminder in moments of emotional intensity.\",\n    \"The person values evidence-based reasoning alongside emotional awareness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person uses it to dismiss valid emotional signals about real external threats (e.g., in abusive situations).\",\n    \"The person interprets it as permission to ignore feelings entirely, leading to emotional suppression.\",\n    \"The person assumes all feelings are inherently inaccurate, undermining self-trust.\",\n    \"The context is one where feelings are systematically devalued by others.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a distinction between subjective emotional experience and objective reality, promoting a reflective stance on the validity of feelings as guides to action.",
+    "implicit_claims": [
+      "Feelings are a form of information about the self's internal state.",
+      "Feelings can be inaccurate representations of external circumstances.",
+      "There is a meaningful difference between subjective state and objective reality.",
+      "One can and should evaluate the accuracy of one's feelings against world facts."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it distinguishes between two domains (self and world) and assigns different epistemic statuses to feelings in each. No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The person struggles with over-identifying feelings as facts about external events.",
+      "The person is open to metacognitive reflection on their emotional responses.",
+      "The statement is used as a reminder in moments of emotional intensity.",
+      "The person values evidence-based reasoning alongside emotional awareness."
+    ],
+    "conditions_for_misleading": [
+      "The person uses it to dismiss valid emotional signals about real external threats (e.g., in abusive situations).",
+      "The person interprets it as permission to ignore feelings entirely, leading to emotional suppression.",
+      "The person assumes all feelings are inherently inaccurate, undermining self-trust.",
+      "The context is one where feelings are systematically devalued by others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 301,
+  "error": "",
+  "retry_count": 0
+}

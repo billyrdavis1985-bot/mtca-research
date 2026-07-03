@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0005__F7_author_anonymous__grok_4",
+  "unit_id": "C7-u0005",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:18:32.497431+00:00",
+  "wall_clock_seconds": 5.322636842727661,
+  "raw_response": "{\n  \"communicative_function\": \"affirmation of willingness or readiness to relinquish control over personal flaws to an external agent\",\n  \"implicit_claims\": [\n    \"the speaker possesses defects of character\",\n    \"these defects are removable by God\",\n    \"God exists and has the capacity and willingness to perform such removal\",\n    \"the speaker has reached a state of complete readiness for this removal\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a declarative statement of psychological/spiritual readiness, though grammatically incomplete (subjectless clause)\",\n  \"conditions_for_usefulness\": \"the statement is used within a voluntary self-improvement framework where the audience accepts theistic premises and finds value in surrendering agency over character traits\",\n  \"conditions_for_misleading\": \"the statement is presented as an objective factual report rather than a subjective commitment, or is used to imply that defects will be removed without personal effort or evidence of efficacy\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmation of willingness or readiness to relinquish control over personal flaws to an external agent",
+    "implicit_claims": [
+      "the speaker possesses defects of character",
+      "these defects are removable by God",
+      "God exists and has the capacity and willingness to perform such removal",
+      "the speaker has reached a state of complete readiness for this removal"
+    ],
+    "coherence_assessment": "internally coherent as a declarative statement of psychological/spiritual readiness, though grammatically incomplete (subjectless clause)",
+    "conditions_for_usefulness": "the statement is used within a voluntary self-improvement framework where the audience accepts theistic premises and finds value in surrendering agency over character traits",
+    "conditions_for_misleading": "the statement is presented as an objective factual report rather than a subjective commitment, or is used to imply that defects will be removed without personal effort or evidence of efficacy"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 265,
+  "output_tokens": 193,
+  "error": "",
+  "retry_count": 0
+}

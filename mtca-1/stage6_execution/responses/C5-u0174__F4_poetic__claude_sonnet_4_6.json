@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0174__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:29:32.515587+00:00",
+  "wall_clock_seconds": 12.386834144592285,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation of individual agency and self-determination, invoking a sense of sovereign personal power. It serves to inspire, embolden, or challenge the reader to take ownership of their circumstances, while simultaneously framing external forces as subordinate to the self.\",\n  \"implicit_claims\": [\n    \"The individual possesses sufficient agency to change their own condition.\",\n    \"External forces, other people, or systemic structures do not ultimately determine one's condition.\",\n    \"The self is the primary or exclusive locus of transformative power.\",\n    \"Inaction or stagnation is therefore a choice attributable to the individual.\",\n    \"There exists a meaningful distinction between what 'he' can do and what others can do to or for him.\",\n    \"Personal transformation is possible and within reach of the individual.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic assertion — it is grammatically tight, rhetorically forceful, and logically consistent within its own frame. However, it achieves coherence partly by excluding complexity: it does not distinguish between types of conditions (material, social, psychological) or degrees of agency, which gives it rhetorical power at the cost of nuance.\",\n  \"conditions_for_usefulness\": [\n    \"The person addressed has genuine agency that they are not exercising.\",\n    \"Psychological barriers such as learned helplessness or self-doubt are the primary obstacles.\",\n    \"The condition in question is one that individual action can meaningfully address.\",\n    \"The context is one of encouragement where emphasis on personal responsibility is constructive.\",\n    \"Structural or external constraints are not the dominant factor in the person's situation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person's condition is primarily determined by systemic, structural, or external forces beyond their control (e.g., poverty, discrimination, illness).\",\n    \"The statement is used to deflect collective responsibility or justify indifference to another's suffering.\",\n    \"It implies moral blame for conditions the individual could not reasonably have prevented or changed.\",\n    \"It is addressed to someone whose agency has been severely constrained by trauma, coercion, or social marginalization.\",\n    \"It discourages seeking external help, community support, or systemic reform that would be genuinely effective.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation of individual agency and self-determination, invoking a sense of sovereign personal power. It serves to inspire, embolden, or challenge the reader to take ownership of their circumstances, while simultaneously framing external forces as subordinate to the self.",
+    "implicit_claims": [
+      "The individual possesses sufficient agency to change their own condition.",
+      "External forces, other people, or systemic structures do not ultimately determine one's condition.",
+      "The self is the primary or exclusive locus of transformative power.",
+      "Inaction or stagnation is therefore a choice attributable to the individual.",
+      "There exists a meaningful distinction between what 'he' can do and what others can do to or for him.",
+      "Personal transformation is possible and within reach of the individual."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic assertion — it is grammatically tight, rhetorically forceful, and logically consistent within its own frame. However, it achieves coherence partly by excluding complexity: it does not distinguish between types of conditions (material, social, psychological) or degrees of agency, which gives it rhetorical power at the cost of nuance.",
+    "conditions_for_usefulness": [
+      "The person addressed has genuine agency that they are not exercising.",
+      "Psychological barriers such as learned helplessness or self-doubt are the primary obstacles.",
+      "The condition in question is one that individual action can meaningfully address.",
+      "The context is one of encouragement where emphasis on personal responsibility is constructive.",
+      "Structural or external constraints are not the dominant factor in the person's situation."
+    ],
+    "conditions_for_misleading": [
+      "The person's condition is primarily determined by systemic, structural, or external forces beyond their control (e.g., poverty, discrimination, illness).",
+      "The statement is used to deflect collective responsibility or justify indifference to another's suffering.",
+      "It implies moral blame for conditions the individual could not reasonably have prevented or changed.",
+      "It is addressed to someone whose agency has been severely constrained by trauma, coercion, or social marginalization.",
+      "It discourages seeking external help, community support, or systemic reform that would be genuinely effective."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 538,
+  "error": "",
+  "retry_count": 0
+}

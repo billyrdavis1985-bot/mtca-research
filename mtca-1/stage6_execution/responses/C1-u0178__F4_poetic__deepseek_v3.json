@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0178__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:16:24.985118+00:00",
+  "wall_clock_seconds": 3.713279962539673,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a daily routine of eating by framing a physiological need (hunger) as an agreeable sensation, and implicitly instructing moderation.\",\n  \"implicit_claims\": [\n    \"Hunger occurs three times a day at regular intervals (morning, midday, evening).\",\n    \"Hunger is always an agreeable sensation.\",\n    \"Eating at these times is natural and expected.\",\n    \"Overeating is undesirable.\",\n    \"The reader will think and say the quoted phrase when hungry.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a poetic frame that treats hunger as a regular, pleasant experience, but contradictions arise if taken literally: hunger patterns vary, and not all hunger feels agreeable.\",\n  \"conditions_for_usefulness\": \"Useful if the statement is understood as a poetic or motivational suggestion for healthy eating habits, and if the reader experiences regular meal-based hunger and can enjoy moderate eating.\",\n  \"conditions_for_misleading\": \"Misleading if taken as literal universal truth about human physiology or psychology, especially for those with irregular hunger cues, disordered eating, or chronic conditions where hunger is not agreeable.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a daily routine of eating by framing a physiological need (hunger) as an agreeable sensation, and implicitly instructing moderation.",
+    "implicit_claims": [
+      "Hunger occurs three times a day at regular intervals (morning, midday, evening).",
+      "Hunger is always an agreeable sensation.",
+      "Eating at these times is natural and expected.",
+      "Overeating is undesirable.",
+      "The reader will think and say the quoted phrase when hungry."
+    ],
+    "coherence_assessment": "Internally coherent within a poetic frame that treats hunger as a regular, pleasant experience, but contradictions arise if taken literally: hunger patterns vary, and not all hunger feels agreeable.",
+    "conditions_for_usefulness": "Useful if the statement is understood as a poetic or motivational suggestion for healthy eating habits, and if the reader experiences regular meal-based hunger and can enjoy moderate eating.",
+    "conditions_for_misleading": "Misleading if taken as literal universal truth about human physiology or psychology, especially for those with irregular hunger cues, disordered eating, or chronic conditions where hunger is not agreeable."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 219,
+  "output_tokens": 237,
+  "error": "",
+  "retry_count": 0
+}

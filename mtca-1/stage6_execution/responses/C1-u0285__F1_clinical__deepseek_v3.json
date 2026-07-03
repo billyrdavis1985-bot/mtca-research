@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0285__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:30:49.219263+00:00",
+  "wall_clock_seconds": 5.327221393585205,
+  "raw_response": "{\n  \"communicative_function\": \"The statement challenges the listener's objection by reframing the concept of risk as universal, thereby normalizing the danger in question and reducing resistance to a proposed action or exposure.\",\n  \"implicit_claims\": [\n    \"The danger being objected to is either minimal or nonexistent.\",\n    \"All things we use carry some degree of danger, so singling out this one is unreasonable.\",\n    \"The objection is based on an inconsistent standard of acceptable risk.\",\n    \"The listener's concern is an overestimation of harm.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its rhetorical structure, but its logic depends on equating qualitatively different types of risk. The admission of 'some danger' is immediately dismissed as 'not so,' creating a tension that may undermine coherence unless interpreted as emphatic denial.\",\n  \"conditions_for_usefulness\": [\n    \"The listener has a tendency toward excessive caution or catastrophic thinking about a specific behavior or exposure.\",\n    \"The listener can recognize that they use other risky items or engage in other risky activities without excessive fear.\",\n    \"The goal is to gently challenge a cognitive distortion (e.g., magnification of risk).\",\n    \"The therapeutic alliance is strong enough that the statement is perceived as collaborative rather than dismissive.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The object or activity in question actually carries unique or severe danger that the statement trivializes.\",\n    \"The listener's objection is based on accurate statistical or personal risk assessment.\",\n    \"The statement is used to pressure the listener into accepting a genuinely harmful behavior or exposure.\",\n    \"The listener has a history of being invalidated or gaslit, causing this statement to feel invalidating rather than empowering.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement challenges the listener's objection by reframing the concept of risk as universal, thereby normalizing the danger in question and reducing resistance to a proposed action or exposure.",
+    "implicit_claims": [
+      "The danger being objected to is either minimal or nonexistent.",
+      "All things we use carry some degree of danger, so singling out this one is unreasonable.",
+      "The objection is based on an inconsistent standard of acceptable risk.",
+      "The listener's concern is an overestimation of harm."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its rhetorical structure, but its logic depends on equating qualitatively different types of risk. The admission of 'some danger' is immediately dismissed as 'not so,' creating a tension that may undermine coherence unless interpreted as emphatic denial.",
+    "conditions_for_usefulness": [
+      "The listener has a tendency toward excessive caution or catastrophic thinking about a specific behavior or exposure.",
+      "The listener can recognize that they use other risky items or engage in other risky activities without excessive fear.",
+      "The goal is to gently challenge a cognitive distortion (e.g., magnification of risk).",
+      "The therapeutic alliance is strong enough that the statement is perceived as collaborative rather than dismissive."
+    ],
+    "conditions_for_misleading": [
+      "The object or activity in question actually carries unique or severe danger that the statement trivializes.",
+      "The listener's objection is based on accurate statistical or personal risk assessment.",
+      "The statement is used to pressure the listener into accepting a genuinely harmful behavior or exposure.",
+      "The listener has a history of being invalidated or gaslit, causing this statement to feel invalidating rather than empowering."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 362,
+  "error": "",
+  "retry_count": 0
+}

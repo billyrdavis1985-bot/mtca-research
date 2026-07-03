@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0051__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:04:15.861523+00:00",
+  "wall_clock_seconds": 14.502058029174805,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a conditional behavioral rule or protocol, specifying a fallback behavior (lying quietly) to be enacted when a primary goal-directed behavior (effortful sleep initiation) is absent or withheld. It frames passive compliance as an acceptable or expected behavioral floor.\",\n  \"implicit_claims\": [\n    \"There is a distinction between 'making effort to sleep' and 'lying quietly in bed' — they are treated as mutually exclusive or sequential states.\",\n    \"Lying quietly in bed is a viable and acceptable alternative to active sleep effort.\",\n    \"The subject has some degree of agency or control over whether they make effort to sleep.\",\n    \"There is a third party (caregiver, parent, therapist) who is setting this expectation or rule.\",\n    \"The behavioral commitment is achievable and observable — quiet lying is something the subject can reliably do.\",\n    \"Not making effort to sleep is a possibility that needs to be pre-addressed.\",\n    \"Lying quietly in bed may still serve a restorative or sleep-conducive function.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional rule. The antecedent (no sleep effort) and consequent (lying quietly) are logically compatible and non-contradictory. It follows a standard if-then behavioral protocol structure commonly used in sleep hygiene or pediatric sleep interventions. The logic is clear and the behaviors described are distinguishable.\",\n  \"conditions_for_usefulness\": [\n    \"The subject has difficulty initiating sleep and needs a structured low-pressure alternative.\",\n    \"The context is a therapeutic or caregiving setting where reducing sleep-effort anxiety is a goal (e.g., stimulus control therapy, pediatric sleep training).\",\n    \"Lying quietly is genuinely achievable by the subject and reduces distress compared to forced sleep effort.\",\n    \"There is a trusted third party who can reinforce or monitor the behavior.\",\n    \"The subject understands and accepts the distinction between effortful sleep and passive rest.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'lying quietly in bed' is used as a loophole to avoid any accountability for sleep-disruptive behaviors (e.g., screen use, restlessness).\",\n    \"If the subject interprets 'no effort to sleep' as permission to remain fully alert and stimulated, undermining sleep hygiene.\",\n    \"If the commitment creates a false binary that ignores intermediate states or behaviors that are neither effortful sleep nor quiet lying.\",\n    \"If the third party uses this rule punitively or inconsistently, making it a source of anxiety rather than relief.\",\n    \"If the underlying sleep problem requires medical or psychological intervention that this behavioral rule obscures or delays.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a conditional behavioral rule or protocol, specifying a fallback behavior (lying quietly) to be enacted when a primary goal-directed behavior (effortful sleep initiation) is absent or withheld. It frames passive compliance as an acceptable or expected behavioral floor.",
+    "implicit_claims": [
+      "There is a distinction between 'making effort to sleep' and 'lying quietly in bed' — they are treated as mutually exclusive or sequential states.",
+      "Lying quietly in bed is a viable and acceptable alternative to active sleep effort.",
+      "The subject has some degree of agency or control over whether they make effort to sleep.",
+      "There is a third party (caregiver, parent, therapist) who is setting this expectation or rule.",
+      "The behavioral commitment is achievable and observable — quiet lying is something the subject can reliably do.",
+      "Not making effort to sleep is a possibility that needs to be pre-addressed.",
+      "Lying quietly in bed may still serve a restorative or sleep-conducive function."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional rule. The antecedent (no sleep effort) and consequent (lying quietly) are logically compatible and non-contradictory. It follows a standard if-then behavioral protocol structure commonly used in sleep hygiene or pediatric sleep interventions. The logic is clear and the behaviors described are distinguishable.",
+    "conditions_for_usefulness": [
+      "The subject has difficulty initiating sleep and needs a structured low-pressure alternative.",
+      "The context is a therapeutic or caregiving setting where reducing sleep-effort anxiety is a goal (e.g., stimulus control therapy, pediatric sleep training).",
+      "Lying quietly is genuinely achievable by the subject and reduces distress compared to forced sleep effort.",
+      "There is a trusted third party who can reinforce or monitor the behavior.",
+      "The subject understands and accepts the distinction between effortful sleep and passive rest."
+    ],
+    "conditions_for_misleading": [
+      "If 'lying quietly in bed' is used as a loophole to avoid any accountability for sleep-disruptive behaviors (e.g., screen use, restlessness).",
+      "If the subject interprets 'no effort to sleep' as permission to remain fully alert and stimulated, undermining sleep hygiene.",
+      "If the commitment creates a false binary that ignores intermediate states or behaviors that are neither effortful sleep nor quiet lying.",
+      "If the third party uses this rule punitively or inconsistently, making it a source of anxiety rather than relief.",
+      "If the underlying sleep problem requires medical or psychological intervention that this behavioral rule obscures or delays."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 634,
+  "error": "",
+  "retry_count": 0
+}

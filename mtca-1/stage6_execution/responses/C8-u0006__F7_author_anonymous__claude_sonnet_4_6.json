@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0006__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:24:38.582761+00:00",
+  "wall_clock_seconds": 13.332350969314575,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a self-declaration of a behavioral disposition or personal policy — asserting a conditional willingness to act despite fear when evidential justification exists. It may also function as self-affirmation, a value statement, or a claim to rationality and courage.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear in response to certain actions.\",\n    \"Fear alone is not sufficient reason to avoid an action.\",\n    \"Evidence can and should override emotional resistance.\",\n    \"The speaker has the capacity to assess evidence reliably.\",\n    \"There is a meaningful category of things that are 'likely to help' that can be distinguished from things that are not.\",\n    \"The speaker has agency over their behavior despite fear.\",\n    \"Rationality and evidence-based reasoning are values the speaker holds.\",\n    \"The speaker distinguishes between fear-based avoidance and evidence-based caution.\",\n    \"Acting despite fear is presented as virtuous or reasonable rather than reckless.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The conditional structure ('when the evidence suggests') provides a limiting principle that prevents it from being a blanket endorsement of fearless action. The pairing of emotional acknowledgment with rational justification is logically consistent and non-contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has access to and correctly interprets relevant evidence.\",\n    \"The speaker can accurately distinguish between fear as a useful signal and fear as irrational avoidance.\",\n    \"The domain of application involves actions where evidence of benefit is realistically obtainable.\",\n    \"The statement is used to motivate constructive behavior such as seeking therapy, trying new experiences, or making difficult decisions.\",\n    \"The speaker applies consistent epistemic standards when evaluating evidence.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates wishful thinking, social pressure, or motivated reasoning with 'evidence.'\",\n    \"Fear in a given context is actually a reliable warning signal being overridden without sufficient justification.\",\n    \"The statement is used to rationalize risky or harmful behavior by loosely invoking 'evidence.'\",\n    \"The speaker lacks the expertise to evaluate the evidence in the domain in question.\",\n    \"The statement is used to pressure others into frightening actions by implying that hesitation is irrational.\",\n    \"The threshold for what counts as 'likely to help' is applied inconsistently or manipulatively.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-declaration of a behavioral disposition or personal policy — asserting a conditional willingness to act despite fear when evidential justification exists. It may also function as self-affirmation, a value statement, or a claim to rationality and courage.",
+    "implicit_claims": [
+      "The speaker experiences fear in response to certain actions.",
+      "Fear alone is not sufficient reason to avoid an action.",
+      "Evidence can and should override emotional resistance.",
+      "The speaker has the capacity to assess evidence reliably.",
+      "There is a meaningful category of things that are 'likely to help' that can be distinguished from things that are not.",
+      "The speaker has agency over their behavior despite fear.",
+      "Rationality and evidence-based reasoning are values the speaker holds.",
+      "The speaker distinguishes between fear-based avoidance and evidence-based caution.",
+      "Acting despite fear is presented as virtuous or reasonable rather than reckless."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The conditional structure ('when the evidence suggests') provides a limiting principle that prevents it from being a blanket endorsement of fearless action. The pairing of emotional acknowledgment with rational justification is logically consistent and non-contradictory.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has access to and correctly interprets relevant evidence.",
+      "The speaker can accurately distinguish between fear as a useful signal and fear as irrational avoidance.",
+      "The domain of application involves actions where evidence of benefit is realistically obtainable.",
+      "The statement is used to motivate constructive behavior such as seeking therapy, trying new experiences, or making difficult decisions.",
+      "The speaker applies consistent epistemic standards when evaluating evidence."
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates wishful thinking, social pressure, or motivated reasoning with 'evidence.'",
+      "Fear in a given context is actually a reliable warning signal being overridden without sufficient justification.",
+      "The statement is used to rationalize risky or harmful behavior by loosely invoking 'evidence.'",
+      "The speaker lacks the expertise to evaluate the evidence in the domain in question.",
+      "The statement is used to pressure others into frightening actions by implying that hesitation is irrational.",
+      "The threshold for what counts as 'likely to help' is applied inconsistently or manipulatively."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 574,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0009__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:30:25.244468+00:00",
+  "wall_clock_seconds": 2.1630873680114746,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a commitment to ongoing self-reflection and accountability.\",\n  \"implicit_claims\": [\n    \"Self-awareness and accountability are essential for personal growth.\",\n    \"Regular self-assessment can identify personal errors.\",\n    \"Admitting mistakes promptly can lead to more effective interpersonal relationships.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it outlines a clear process of taking personal inventory followed by prompt admission of mistakes, suggesting a cycle of continuous self-improvement.\",\n  \"conditions_for_usefulness\": \"For this statement to be useful, the individual should be committed to self-reflection and have a willingness to recognize and admit mistakes. It's also useful if there is a supportive environment that encourages honesty and growth.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if the individual lacks the ability or willingness to accurately self-assess, if there is a misinterpretation of what constitutes a 'mistake,' or if the social context punishes admission of wrongdoing rather than encourages it.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a commitment to ongoing self-reflection and accountability.",
+    "implicit_claims": [
+      "Self-awareness and accountability are essential for personal growth.",
+      "Regular self-assessment can identify personal errors.",
+      "Admitting mistakes promptly can lead to more effective interpersonal relationships."
+    ],
+    "coherence_assessment": "The statement is coherent as it outlines a clear process of taking personal inventory followed by prompt admission of mistakes, suggesting a cycle of continuous self-improvement.",
+    "conditions_for_usefulness": "For this statement to be useful, the individual should be committed to self-reflection and have a willingness to recognize and admit mistakes. It's also useful if there is a supportive environment that encourages honesty and growth.",
+    "conditions_for_misleading": "The statement may be misleading if the individual lacks the ability or willingness to accurately self-assess, if there is a misinterpretation of what constitutes a 'mistake,' or if the social context punishes admission of wrongdoing rather than encourages it."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

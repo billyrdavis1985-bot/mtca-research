@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0003__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:03:44.572176+00:00",
+  "wall_clock_seconds": 15.543484926223755,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a reframing operation: it simultaneously validates affective experience (countering dismissal or suppression of feelings) and introduces epistemic distance between felt states and propositional claims about external reality. It functions as a metacognitive anchor intended to reduce emotional reasoning errors while preserving emotional self-awareness.\",\n  \"implicit_claims\": [\n    \"Feelings constitute a category of 'real information' with some legitimate epistemic status.\",\n    \"There is a meaningful distinction between information about one's internal state and information about the external world.\",\n    \"Feelings can be inaccurate representations of external reality without being invalid or unimportant.\",\n    \"The person has some capacity for metacognitive observation of their own affective states.\",\n    \"Conflating felt states with facts about the world is a pattern worth correcting.\",\n    \"Both validation of feeling AND epistemic calibration are necessary — neither alone is sufficient.\",\n    \"The self has a perspective that can stand somewhat apart from its feelings and evaluate them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two clauses are not contradictory: 'real information about my state' and 'not always accurate information about the world' operate at different levels of analysis (phenomenological vs. propositional/representational). The qualifier 'not always' avoids overcorrection and preserves cases where feelings do track external reality accurately. The logical structure is sound and the tension it holds is productive rather than contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The person is prone to emotional reasoning (treating felt certainty as evidence about external facts).\",\n    \"The person has historically suppressed or dismissed feelings, making the validation clause therapeutically necessary.\",\n    \"The person has sufficient ego strength and metacognitive capacity to use the distinction without dissociating from affect.\",\n    \"The therapeutic context has established enough safety that introducing epistemic distance does not feel like invalidation.\",\n    \"The person's distress is at least partly driven by catastrophic or distorted interpretations of their emotional states.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the person's feelings are, in fact, accurate signals about a genuinely threatening or harmful external situation (e.g., abuse, danger), the statement could be used to gaslight or self-gaslight.\",\n    \"If applied too broadly, the statement could be used to dismiss legitimate moral emotions (e.g., guilt that accurately tracks wrongdoing, fear that accurately tracks real risk).\",\n    \"If the person interprets 'not always accurate about the world' as 'never reliable about the world,' it could induce emotional invalidation or dissociation.\",\n    \"If used in a context where the therapist or system has an interest in the person doubting their own perceptions, the statement becomes a tool of epistemic manipulation.\",\n    \"If the person lacks the metacognitive scaffolding to hold both clauses simultaneously, one clause may dominate in a way that distorts the intended meaning.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a reframing operation: it simultaneously validates affective experience (countering dismissal or suppression of feelings) and introduces epistemic distance between felt states and propositional claims about external reality. It functions as a metacognitive anchor intended to reduce emotional reasoning errors while preserving emotional self-awareness.",
+    "implicit_claims": [
+      "Feelings constitute a category of 'real information' with some legitimate epistemic status.",
+      "There is a meaningful distinction between information about one's internal state and information about the external world.",
+      "Feelings can be inaccurate representations of external reality without being invalid or unimportant.",
+      "The person has some capacity for metacognitive observation of their own affective states.",
+      "Conflating felt states with facts about the world is a pattern worth correcting.",
+      "Both validation of feeling AND epistemic calibration are necessary — neither alone is sufficient.",
+      "The self has a perspective that can stand somewhat apart from its feelings and evaluate them."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two clauses are not contradictory: 'real information about my state' and 'not always accurate information about the world' operate at different levels of analysis (phenomenological vs. propositional/representational). The qualifier 'not always' avoids overcorrection and preserves cases where feelings do track external reality accurately. The logical structure is sound and the tension it holds is productive rather than contradictory.",
+    "conditions_for_usefulness": [
+      "The person is prone to emotional reasoning (treating felt certainty as evidence about external facts).",
+      "The person has historically suppressed or dismissed feelings, making the validation clause therapeutically necessary.",
+      "The person has sufficient ego strength and metacognitive capacity to use the distinction without dissociating from affect.",
+      "The therapeutic context has established enough safety that introducing epistemic distance does not feel like invalidation.",
+      "The person's distress is at least partly driven by catastrophic or distorted interpretations of their emotional states."
+    ],
+    "conditions_for_misleading": [
+      "If the person's feelings are, in fact, accurate signals about a genuinely threatening or harmful external situation (e.g., abuse, danger), the statement could be used to gaslight or self-gaslight.",
+      "If applied too broadly, the statement could be used to dismiss legitimate moral emotions (e.g., guilt that accurately tracks wrongdoing, fear that accurately tracks real risk).",
+      "If the person interprets 'not always accurate about the world' as 'never reliable about the world,' it could induce emotional invalidation or dissociation.",
+      "If used in a context where the therapist or system has an interest in the person doubting their own perceptions, the statement becomes a tool of epistemic manipulation.",
+      "If the person lacks the metacognitive scaffolding to hold both clauses simultaneously, one clause may dominate in a way that distorts the intended meaning."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 689,
+  "error": "",
+  "retry_count": 0
+}

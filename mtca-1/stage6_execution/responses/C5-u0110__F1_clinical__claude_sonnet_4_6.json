@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0110__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:11:33.179486+00:00",
+  "wall_clock_seconds": 14.197774410247803,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a motivational affirmation intended to reinforce the belief that mental states causally determine physical health and appearance, encouraging the adoption of positive thinking as a health-promoting behavior.\",\n  \"implicit_claims\": [\n    \"Thoughts can be categorized as 'unlawful' (negative/harmful) or 'glad and beautiful' (positive/beneficial)\",\n    \"Thought content has direct, rapid causal power over physical bodily states including disease onset and aging\",\n    \"Youthfulness and beauty are achievable outcomes of sustained positive thinking\",\n    \"Disease and decay are outcomes attributable to negative or morally transgressive thoughts\",\n    \"The relationship between thought and physical state is bidirectional and commanding — thoughts issue 'commands' the body obeys\",\n    \"Individual mental control is sufficient to prevent or reverse physical illness\",\n    \"Physical appearance is a reliable indicator of one's thought quality or moral mental state\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent within its own metaphorical framework but relies on a false symmetry and an overstated causal model. It conflates correlation (psychosomatic interactions are real but partial) with deterministic causation. The use of 'rapidly' and 'clothed with youthfulness' introduces empirically unsupported absolutism that undermines internal coherence when held to any evidentiary standard.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted loosely as a motivational heuristic encouraging stress reduction and positive affect, which do have modest documented health benefits\",\n    \"If used in a context where the client already understands its metaphorical rather than literal nature\",\n    \"If embedded in a broader therapeutic framework that does not rely solely on this claim\",\n    \"If the client's presenting issue involves learned helplessness and the statement increases perceived agency in a bounded, realistic way\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If a client interprets it literally and concludes that illness is caused by their own 'unlawful' thoughts, inducing shame or guilt\",\n    \"If it leads clients to forgo evidence-based medical treatment in favor of positive thinking alone\",\n    \"If used with clients experiencing serious physical illness, suggesting their condition reflects moral or cognitive failure\",\n    \"If presented as an evidence-based clinical claim rather than a philosophical or motivational assertion\",\n    \"If it reinforces magical thinking patterns in clients with delusional, obsessive, or anxious cognitive styles\",\n    \"If applied to populations with systemic health disadvantages, implying their conditions result from insufficient positivity rather than structural factors\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a motivational affirmation intended to reinforce the belief that mental states causally determine physical health and appearance, encouraging the adoption of positive thinking as a health-promoting behavior.",
+    "implicit_claims": [
+      "Thoughts can be categorized as 'unlawful' (negative/harmful) or 'glad and beautiful' (positive/beneficial)",
+      "Thought content has direct, rapid causal power over physical bodily states including disease onset and aging",
+      "Youthfulness and beauty are achievable outcomes of sustained positive thinking",
+      "Disease and decay are outcomes attributable to negative or morally transgressive thoughts",
+      "The relationship between thought and physical state is bidirectional and commanding — thoughts issue 'commands' the body obeys",
+      "Individual mental control is sufficient to prevent or reverse physical illness",
+      "Physical appearance is a reliable indicator of one's thought quality or moral mental state"
+    ],
+    "coherence_assessment": "The statement is internally consistent within its own metaphorical framework but relies on a false symmetry and an overstated causal model. It conflates correlation (psychosomatic interactions are real but partial) with deterministic causation. The use of 'rapidly' and 'clothed with youthfulness' introduces empirically unsupported absolutism that undermines internal coherence when held to any evidentiary standard.",
+    "conditions_for_usefulness": [
+      "If interpreted loosely as a motivational heuristic encouraging stress reduction and positive affect, which do have modest documented health benefits",
+      "If used in a context where the client already understands its metaphorical rather than literal nature",
+      "If embedded in a broader therapeutic framework that does not rely solely on this claim",
+      "If the client's presenting issue involves learned helplessness and the statement increases perceived agency in a bounded, realistic way"
+    ],
+    "conditions_for_misleading": [
+      "If a client interprets it literally and concludes that illness is caused by their own 'unlawful' thoughts, inducing shame or guilt",
+      "If it leads clients to forgo evidence-based medical treatment in favor of positive thinking alone",
+      "If used with clients experiencing serious physical illness, suggesting their condition reflects moral or cognitive failure",
+      "If presented as an evidence-based clinical claim rather than a philosophical or motivational assertion",
+      "If it reinforces magical thinking patterns in clients with delusional, obsessive, or anxious cognitive styles",
+      "If applied to populations with systemic health disadvantages, implying their conditions result from insufficient positivity rather than structural factors"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 603,
+  "error": "",
+  "retry_count": 0
+}

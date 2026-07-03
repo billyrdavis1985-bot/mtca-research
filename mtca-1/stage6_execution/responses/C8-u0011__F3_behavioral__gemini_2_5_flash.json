@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0011__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:38:28.208363+00:00",
+  "wall_clock_seconds": 6.087926149368286,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-declaration of a strategic approach to behavioral change. It articulates a commitment to a specific methodology (focus on small, observable, actionable changes) while explicitly rejecting a less effective one (vague, unachievable resolutions). It serves to frame future actions and potentially guide self-assessment.\",\n  \"implicit_claims\": [\n    \"The speaker has previously struggled with or found 'vague resolutions' to be ineffective.\",\n    \"There is a clear distinction between 'small, observable changes I can actually carry out' and 'vague resolutions I cannot.'\",\n    \"The speaker believes that 'small, observable changes' are a more effective path to achieving desired behavioral change.\",\n    \"The speaker possesses the ability to identify and define 'small, observable changes' relevant to their goals.\",\n    \"The speaker has a desire for actual behavioral change, not just the intention of change.\",\n    \"The inherent difficulty in carrying out 'vague resolutions' is their lack of specificity or practical application.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly defines a preferred strategy for commitment and contrasts it with an undesirable one, making a logical case for the chosen path. The commitment itself is about *how* to commit effectively.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely struggles with procrastination or failure due to overly ambitious or undefined goals.\",\n    \"The speaker is able to translate desired outcomes into specific, 'small, observable changes.'\",\n    \"The 'small, observable changes' are indeed components of a larger, meaningful goal, leading to cumulative progress.\",\n    \"The speaker follows through by *identifying* and *implementing* these specific small changes.\",\n    \"The commitment helps the speaker overcome inertia and build momentum towards desired behavioral change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses 'small, observable changes' as an excuse for avoiding significant or necessary effort, even if that effort isn't immediately 'small'.\",\n    \"The 'small, observable changes' identified are trivial or disconnected from any meaningful larger goal, leading to activity without progress.\",\n    \"The statement is purely performative, without genuine intent to identify or act upon specific changes.\",\n    \"The speaker misinterprets 'small' as 'no effort' or 'insignificant impact', thereby undermining true progress.\",\n    \"The speaker becomes overly fixated on 'smallness' and fails to scale up or integrate changes into a coherent, sustainable system.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-declaration of a strategic approach to behavioral change. It articulates a commitment to a specific methodology (focus on small, observable, actionable changes) while explicitly rejecting a less effective one (vague, unachievable resolutions). It serves to frame future actions and potentially guide self-assessment.",
+    "implicit_claims": [
+      "The speaker has previously struggled with or found 'vague resolutions' to be ineffective.",
+      "There is a clear distinction between 'small, observable changes I can actually carry out' and 'vague resolutions I cannot.'",
+      "The speaker believes that 'small, observable changes' are a more effective path to achieving desired behavioral change.",
+      "The speaker possesses the ability to identify and define 'small, observable changes' relevant to their goals.",
+      "The speaker has a desire for actual behavioral change, not just the intention of change.",
+      "The inherent difficulty in carrying out 'vague resolutions' is their lack of specificity or practical application."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly defines a preferred strategy for commitment and contrasts it with an undesirable one, making a logical case for the chosen path. The commitment itself is about *how* to commit effectively.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely struggles with procrastination or failure due to overly ambitious or undefined goals.",
+      "The speaker is able to translate desired outcomes into specific, 'small, observable changes.'",
+      "The 'small, observable changes' are indeed components of a larger, meaningful goal, leading to cumulative progress.",
+      "The speaker follows through by *identifying* and *implementing* these specific small changes.",
+      "The commitment helps the speaker overcome inertia and build momentum towards desired behavioral change."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses 'small, observable changes' as an excuse for avoiding significant or necessary effort, even if that effort isn't immediately 'small'.",
+      "The 'small, observable changes' identified are trivial or disconnected from any meaningful larger goal, leading to activity without progress.",
+      "The statement is purely performative, without genuine intent to identify or act upon specific changes.",
+      "The speaker misinterprets 'small' as 'no effort' or 'insignificant impact', thereby undermining true progress.",
+      "The speaker becomes overly fixated on 'smallness' and fails to scale up or integrate changes into a coherent, sustainable system."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 555,
+  "error": "",
+  "retry_count": 0
+}

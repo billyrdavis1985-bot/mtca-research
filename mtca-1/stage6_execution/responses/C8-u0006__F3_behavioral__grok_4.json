@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F3_behavioral__grok_4",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:22:14.639188+00:00",
+  "wall_clock_seconds": 8.300795555114746,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a principle for overriding fear-based avoidance with evidence-based action\",\n  \"implicit_claims\": [\n    \"fear is not a sufficient reason to avoid an action\",\n    \"the speaker can reliably identify and interpret relevant evidence\",\n    \"actions exist that both scare the speaker and are likely to help\",\n    \"willingness is a stable trait that can guide future behavior\"\n  ],\n  \"coherence_assessment\": \"internally coherent; subordinates emotional response to epistemic criterion without contradiction\",\n  \"conditions_for_usefulness\": \"speaker accurately evaluates evidence of likely benefit, consistently acts on the stated willingness, and the actions produce net positive outcomes\",\n  \"conditions_for_misleading\": \"speaker selectively interprets evidence to rationalize harmful or unnecessary actions, or claims the willingness without behavioral follow-through\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a principle for overriding fear-based avoidance with evidence-based action",
+    "implicit_claims": [
+      "fear is not a sufficient reason to avoid an action",
+      "the speaker can reliably identify and interpret relevant evidence",
+      "actions exist that both scare the speaker and are likely to help",
+      "willingness is a stable trait that can guide future behavior"
+    ],
+    "coherence_assessment": "internally coherent; subordinates emotional response to epistemic criterion without contradiction",
+    "conditions_for_usefulness": "speaker accurately evaluates evidence of likely benefit, consistently acts on the stated willingness, and the actions produce net positive outcomes",
+    "conditions_for_misleading": "speaker selectively interprets evidence to rationalize harmful or unnecessary actions, or claims the willingness without behavioral follow-through"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 169,
+  "error": "",
+  "retry_count": 0
+}

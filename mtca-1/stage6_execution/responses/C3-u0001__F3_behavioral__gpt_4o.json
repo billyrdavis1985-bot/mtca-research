@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0001__F3_behavioral__gpt_4o",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:58:42.309063+00:00",
+  "wall_clock_seconds": 3.7458972930908203,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to persuade the listener to engage in self-reflection and align their life actions with an understanding of their place in the world and the passage of time.\",\n  \"implicit_claims\": [\n    \"The world has a true nature that can be understood.\",\n    \"There is a limit to the time available for self-improvement.\",\n    \"Understanding oneself and the world is crucial for addressing internal conflicts.\",\n    \"There is a higher power or governing force from which individuals originate.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it logically argues that understanding one’s relationship with the world and its governing force is time-sensitive and crucial for personal growth.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the listener is open to introspection, values a philosophical or spiritual understanding of existence, and is motivated to change behaviors aligned with these insights.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the listener does not believe in a higher power or a governing force, or if they already possess an understanding of the world that doesn't align with the premises of the statement. It could also mislead if it suggests that self-improvement isn't possible after a certain point.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to persuade the listener to engage in self-reflection and align their life actions with an understanding of their place in the world and the passage of time.",
+    "implicit_claims": [
+      "The world has a true nature that can be understood.",
+      "There is a limit to the time available for self-improvement.",
+      "Understanding oneself and the world is crucial for addressing internal conflicts.",
+      "There is a higher power or governing force from which individuals originate."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it logically argues that understanding one’s relationship with the world and its governing force is time-sensitive and crucial for personal growth.",
+    "conditions_for_usefulness": "This statement would be useful if the listener is open to introspection, values a philosophical or spiritual understanding of existence, and is motivated to change behaviors aligned with these insights.",
+    "conditions_for_misleading": "The statement could be misleading if the listener does not believe in a higher power or a governing force, or if they already possess an understanding of the world that doesn't align with the premises of the statement. It could also mislead if it suggests that self-improvement isn't possible after a certain point."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 239,
+  "output_tokens": 262,
+  "error": "",
+  "retry_count": 0
+}

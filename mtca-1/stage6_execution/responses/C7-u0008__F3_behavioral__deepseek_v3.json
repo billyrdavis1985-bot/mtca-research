@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0008__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:26:46.436495+00:00",
+  "wall_clock_seconds": 4.283929347991943,
+  "raw_response": "{\n  \"communicative_function\": \"It expresses a commitment to a restorative action (making amends) while setting a boundary to prevent harm, serving as a behavioral guideline.\",\n  \"implicit_claims\": [\n    \"There are specific people to whom amends are owed.\",\n    \"Direct amends are generally possible and desirable.\",\n    \"Sometimes making amends could cause injury to the person receiving the amends or to others.\",\n    \"The speaker has the ability to judge when amends would cause injury.\",\n    \"Avoiding harm is a priority that can override the obligation to make amends.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it pairs an action directive with a harm-prevention exception, which is logically consistent as long as 'injury' is clearly defined.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a clear understanding of who 'such people' refers to.\",\n    \"The speaker is willing and able to engage in direct amends.\",\n    \"The speaker can reasonably assess potential harm to self or others.\",\n    \"The context involves genuine interpersonal or moral debts that can be addressed through direct action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'injury' is defined so broadly that it justifies avoiding all amends, the statement becomes a rationalization for inaction.\",\n    \"If the speaker uses the exception to dodge accountability without genuine concern for harm.\",\n    \"If the speaker lacks insight into actual harm their amends might cause, leading to unintended injury.\",\n    \"If the statement is applied in contexts where no amends are actually owed, it may create false guilt or obligation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It expresses a commitment to a restorative action (making amends) while setting a boundary to prevent harm, serving as a behavioral guideline.",
+    "implicit_claims": [
+      "There are specific people to whom amends are owed.",
+      "Direct amends are generally possible and desirable.",
+      "Sometimes making amends could cause injury to the person receiving the amends or to others.",
+      "The speaker has the ability to judge when amends would cause injury.",
+      "Avoiding harm is a priority that can override the obligation to make amends."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it pairs an action directive with a harm-prevention exception, which is logically consistent as long as 'injury' is clearly defined.",
+    "conditions_for_usefulness": [
+      "The speaker has a clear understanding of who 'such people' refers to.",
+      "The speaker is willing and able to engage in direct amends.",
+      "The speaker can reasonably assess potential harm to self or others.",
+      "The context involves genuine interpersonal or moral debts that can be addressed through direct action."
+    ],
+    "conditions_for_misleading": [
+      "If 'injury' is defined so broadly that it justifies avoiding all amends, the statement becomes a rationalization for inaction.",
+      "If the speaker uses the exception to dodge accountability without genuine concern for harm.",
+      "If the speaker lacks insight into actual harm their amends might cause, leading to unintended injury.",
+      "If the statement is applied in contexts where no amends are actually owed, it may create false guilt or obligation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 344,
+  "error": "",
+  "retry_count": 0
+}

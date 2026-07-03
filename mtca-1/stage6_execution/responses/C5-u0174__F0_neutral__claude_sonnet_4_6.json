@@ -1,0 +1,44 @@
+{
+  "call_id": "C5-u0174__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:27:08.660767+00:00",
+  "wall_clock_seconds": 10.818408012390137,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts exclusive individual agency over personal circumstance, functioning as an affirmation of self-determinism and likely intended to motivate or assign responsibility to the individual.\",\n  \"implicit_claims\": [\n    \"The individual possesses sufficient agency to alter their own condition.\",\n    \"External factors (other people, institutions, systemic forces, chance) do not meaningfully determine or constrain a person's condition.\",\n    \"Personal conditions are primarily or solely the result of individual action or inaction.\",\n    \"Change is always possible and accessible to the individual.\",\n    \"All individuals have roughly equivalent capacity to act on their own circumstances.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical proposition — it makes a singular, unambiguous claim about causal exclusivity. However, its coherence as an empirical claim is weak, as it relies on a strong version of free will and individual agency that is difficult to reconcile with observable social, structural, and biological constraints on human life.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely has meaningful agency over the relevant aspect of their condition.\",\n    \"The person is underestimating their own capacity to act and needs motivational redirection.\",\n    \"External constraints are minimal or have already been accounted for.\",\n    \"The context is one of personal development where attitude and effort are the primary limiting factors.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces significant structural, economic, or systemic barriers beyond their control.\",\n    \"The person's condition is substantially shaped by factors such as discrimination, disability, poverty, or institutional power.\",\n    \"The statement is used to deflect collective or institutional responsibility for harm.\",\n    \"It is applied universally without regard to differential access to resources or opportunity.\",\n    \"It is used to blame individuals for conditions imposed on them by others or by circumstance.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts exclusive individual agency over personal circumstance, functioning as an affirmation of self-determinism and likely intended to motivate or assign responsibility to the individual.",
+    "implicit_claims": [
+      "The individual possesses sufficient agency to alter their own condition.",
+      "External factors (other people, institutions, systemic forces, chance) do not meaningfully determine or constrain a person's condition.",
+      "Personal conditions are primarily or solely the result of individual action or inaction.",
+      "Change is always possible and accessible to the individual.",
+      "All individuals have roughly equivalent capacity to act on their own circumstances."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical proposition — it makes a singular, unambiguous claim about causal exclusivity. However, its coherence as an empirical claim is weak, as it relies on a strong version of free will and individual agency that is difficult to reconcile with observable social, structural, and biological constraints on human life.",
+    "conditions_for_usefulness": [
+      "The individual genuinely has meaningful agency over the relevant aspect of their condition.",
+      "The person is underestimating their own capacity to act and needs motivational redirection.",
+      "External constraints are minimal or have already been accounted for.",
+      "The context is one of personal development where attitude and effort are the primary limiting factors."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces significant structural, economic, or systemic barriers beyond their control.",
+      "The person's condition is substantially shaped by factors such as discrimination, disability, poverty, or institutional power.",
+      "The statement is used to deflect collective or institutional responsibility for harm.",
+      "It is applied universally without regard to differential access to resources or opportunity.",
+      "It is used to blame individuals for conditions imposed on them by others or by circumstance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 143,
+  "output_tokens": 441,
+  "error": "",
+  "retry_count": 0
+}

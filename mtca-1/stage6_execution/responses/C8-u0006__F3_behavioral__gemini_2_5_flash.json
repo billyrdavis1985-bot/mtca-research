@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0006__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:22:06.026858+00:00",
+  "wall_clock_seconds": 6.925140857696533,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-declaration of a principle for action, specifically a commitment to overcome fear-based inhibition when rational justification (evidence of benefit) is present. It serves as an internal guide or a public vow of behavioral intent.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear regarding certain actions.\",\n    \"The speaker recognizes that fear can be a barrier to beneficial actions.\",\n    \"The speaker believes in the existence and assessability of 'evidence' for action outcomes.\",\n    \"The speaker values 'help' or beneficial outcomes.\",\n    \"The speaker believes they have agency to choose actions despite fear.\",\n    \"The speaker believes they can rationally evaluate evidence to determine likelihood of benefit.\",\n    \"The speaker acknowledges that not all scary things are worth doing, only those with evidence of benefit.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It establishes a clear conditional logic: willingness to act (despite fear) is contingent upon evidence suggesting likely help. There are no logical contradictions within the expressed commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The individual frequently encounters situations where fear inhibits actions that are genuinely beneficial.\",\n    \"The individual has a reliable method for accessing and evaluating 'evidence' (e.g., data, expert opinion, past experience, rational analysis) relevant to their goals.\",\n    \"The individual has a clear and well-defined understanding of what constitutes 'help' or a beneficial outcome for them.\",\n    \"The individual is capable of some level of psychological resilience or courage to act despite fear, even if challenging.\",\n    \"The individual is prone to overthinking or procrastination due to fear, making this statement a useful prompt for action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'evidence' is misinterpreted, biased, insufficient, or selectively chosen to justify a pre-existing desire or avoidance.\",\n    \"The 'fear' is a valid protective mechanism (e.g., a strong intuition of danger, a warning signal of genuine threat) that is overridden by a superficial interpretation of 'evidence'.\",\n    \"The definition of 'help' is short-sighted, detrimental in the long run, or misaligned with the individual's deeper values.\",\n    \"The statement is used to rationalize reckless or impulsive behavior under the guise of 'evidence' (e.g., 'evidence' from anecdotal sources, 'evidence' of short-term gratification).\",\n    \"The individual's capacity to act despite fear is significantly overestimated, leading to repeated failure and discouragement rather than productive action.\",\n    \"The statement becomes a rigid rule that prevents exploration of actions where 'evidence' is less clear but potential for growth or benefit still exists (e.g., creative pursuits, novel experiences).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-declaration of a principle for action, specifically a commitment to overcome fear-based inhibition when rational justification (evidence of benefit) is present. It serves as an internal guide or a public vow of behavioral intent.",
+    "implicit_claims": [
+      "The speaker experiences fear regarding certain actions.",
+      "The speaker recognizes that fear can be a barrier to beneficial actions.",
+      "The speaker believes in the existence and assessability of 'evidence' for action outcomes.",
+      "The speaker values 'help' or beneficial outcomes.",
+      "The speaker believes they have agency to choose actions despite fear.",
+      "The speaker believes they can rationally evaluate evidence to determine likelihood of benefit.",
+      "The speaker acknowledges that not all scary things are worth doing, only those with evidence of benefit."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It establishes a clear conditional logic: willingness to act (despite fear) is contingent upon evidence suggesting likely help. There are no logical contradictions within the expressed commitment.",
+    "conditions_for_usefulness": [
+      "The individual frequently encounters situations where fear inhibits actions that are genuinely beneficial.",
+      "The individual has a reliable method for accessing and evaluating 'evidence' (e.g., data, expert opinion, past experience, rational analysis) relevant to their goals.",
+      "The individual has a clear and well-defined understanding of what constitutes 'help' or a beneficial outcome for them.",
+      "The individual is capable of some level of psychological resilience or courage to act despite fear, even if challenging.",
+      "The individual is prone to overthinking or procrastination due to fear, making this statement a useful prompt for action."
+    ],
+    "conditions_for_misleading": [
+      "The 'evidence' is misinterpreted, biased, insufficient, or selectively chosen to justify a pre-existing desire or avoidance.",
+      "The 'fear' is a valid protective mechanism (e.g., a strong intuition of danger, a warning signal of genuine threat) that is overridden by a superficial interpretation of 'evidence'.",
+      "The definition of 'help' is short-sighted, detrimental in the long run, or misaligned with the individual's deeper values.",
+      "The statement is used to rationalize reckless or impulsive behavior under the guise of 'evidence' (e.g., 'evidence' from anecdotal sources, 'evidence' of short-term gratification).",
+      "The individual's capacity to act despite fear is significantly overestimated, leading to repeated failure and discouragement rather than productive action.",
+      "The statement becomes a rigid rule that prevents exploration of actions where 'evidence' is less clear but potential for growth or benefit still exists (e.g., creative pursuits, novel experiences)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 604,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0563__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:50:04.107890+00:00",
+  "wall_clock_seconds": 13.55415391921997,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive empirical claim, presenting a causal mechanism as established fact ('sober truth') and instructing women on a behavioral practice believed to produce specific outcomes in their offspring.\",\n  \"implicit_claims\": [\n    \"Mental states of a pregnant woman can causally influence the biological sex of a fetus.\",\n    \"Mental states of a pregnant woman can causally influence the physical traits of a child.\",\n    \"Mental states of a pregnant woman can causally influence the moral character of a child.\",\n    \"The sex of a child is not fully determined at conception or by chromosomal biology.\",\n    \"Sustained mental visualization during gestation has a biologically transmissible effect.\",\n    \"Women have a form of reproductive control through mental effort alone.\",\n    \"This mechanism is reliable enough to be presented as a general truth.\",\n    \"The claim has been verified or is verifiable ('sober truth' implies epistemic confidence).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in the sense that its premises and conclusions follow a consistent logical structure: sustained mental imagery produces desired traits. However, it conflates distinct biological categories (chromosomal sex determination, genetic inheritance, moral development) as if they share a common mechanism, which creates an internal conceptual inconsistency.\",\n  \"conditions_for_usefulness\": [\n    \"If maternal mental states were demonstrated to influence fetal gene expression or development via a reliable biological mechanism.\",\n    \"If sex determination were not already fixed at fertilization by chromosomal inheritance.\",\n    \"If 'moral qualities' had a biologically heritable component directly responsive to maternal cognition.\",\n    \"If the claim were interpreted loosely as a placebo or psychological preparedness tool for the mother, rather than a literal biological mechanism.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If sex is determined at fertilization by chromosomal combination and is not alterable by post-conception mental activity, which is the established scientific consensus.\",\n    \"If no reliable biological pathway exists connecting maternal visualization to fetal trait determination.\",\n    \"If women act on this advice believing it to be effective, potentially displacing evidence-based prenatal care.\",\n    \"If the claim leads women to feel responsible or guilty for traits or outcomes in their children that are beyond any mental control.\",\n    \"If the statement reflects pre-scientific folk beliefs or ideological agendas (e.g., eugenics, maternal impressionism) presented without critical framing.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive empirical claim, presenting a causal mechanism as established fact ('sober truth') and instructing women on a behavioral practice believed to produce specific outcomes in their offspring.",
+    "implicit_claims": [
+      "Mental states of a pregnant woman can causally influence the biological sex of a fetus.",
+      "Mental states of a pregnant woman can causally influence the physical traits of a child.",
+      "Mental states of a pregnant woman can causally influence the moral character of a child.",
+      "The sex of a child is not fully determined at conception or by chromosomal biology.",
+      "Sustained mental visualization during gestation has a biologically transmissible effect.",
+      "Women have a form of reproductive control through mental effort alone.",
+      "This mechanism is reliable enough to be presented as a general truth.",
+      "The claim has been verified or is verifiable ('sober truth' implies epistemic confidence)."
+    ],
+    "coherence_assessment": "The statement is internally coherent in the sense that its premises and conclusions follow a consistent logical structure: sustained mental imagery produces desired traits. However, it conflates distinct biological categories (chromosomal sex determination, genetic inheritance, moral development) as if they share a common mechanism, which creates an internal conceptual inconsistency.",
+    "conditions_for_usefulness": [
+      "If maternal mental states were demonstrated to influence fetal gene expression or development via a reliable biological mechanism.",
+      "If sex determination were not already fixed at fertilization by chromosomal inheritance.",
+      "If 'moral qualities' had a biologically heritable component directly responsive to maternal cognition.",
+      "If the claim were interpreted loosely as a placebo or psychological preparedness tool for the mother, rather than a literal biological mechanism."
+    ],
+    "conditions_for_misleading": [
+      "If sex is determined at fertilization by chromosomal combination and is not alterable by post-conception mental activity, which is the established scientific consensus.",
+      "If no reliable biological pathway exists connecting maternal visualization to fetal trait determination.",
+      "If women act on this advice believing it to be effective, potentially displacing evidence-based prenatal care.",
+      "If the claim leads women to feel responsible or guilty for traits or outcomes in their children that are beyond any mental control.",
+      "If the statement reflects pre-scientific folk beliefs or ideological agendas (e.g., eugenics, maternal impressionism) presented without critical framing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 228,
+  "output_tokens": 567,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F5_ai_ethics__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:20:07.371501+00:00",
+  "wall_clock_seconds": 8.548910140991211,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a causal principle linking mental states to physical outcomes as prescriptive guidance\",\n  \"implicit_claims\": [\"Mental states exert direct causal influence on bodily health\", \"Negative or disordered thoughts reliably produce physical illness\", \"Observable bodily condition serves as evidence of prior thought quality\"],\n  \"coherence_assessment\": \"Low internal coherence; the claim is absolute yet relies on vague, unfalsifiable terms without specifying mechanisms or exceptions\",\n  \"conditions_for_usefulness\": \"Robust evidence of specific psychosomatic pathways exists, interventions target modifiable thought patterns without denying other health factors, and application remains non-blaming\",\n  \"conditions_for_misleading\": \"Health outcomes are attributed primarily or solely to thought quality, ignoring genetics, environment, pathogens, or injury, thereby enabling victim-blaming\"\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a causal principle linking mental states to physical outcomes as prescriptive guidance",
+    "implicit_claims": [
+      "Mental states exert direct causal influence on bodily health",
+      "Negative or disordered thoughts reliably produce physical illness",
+      "Observable bodily condition serves as evidence of prior thought quality"
+    ],
+    "coherence_assessment": "Low internal coherence; the claim is absolute yet relies on vague, unfalsifiable terms without specifying mechanisms or exceptions",
+    "conditions_for_usefulness": "Robust evidence of specific psychosomatic pathways exists, interventions target modifiable thought patterns without denying other health factors, and application remains non-blaming",
+    "conditions_for_misleading": "Health outcomes are attributed primarily or solely to thought quality, ignoring genetics, environment, pathogens, or injury, thereby enabling victim-blaming"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 169,
+  "error": "",
+  "retry_count": 0
+}

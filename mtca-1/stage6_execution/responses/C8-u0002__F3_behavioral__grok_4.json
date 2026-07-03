@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0002__F3_behavioral__grok_4",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:00:10.393931+00:00",
+  "wall_clock_seconds": 7.137943506240845,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a personal commitment to shift from fear-driven to evidence-driven evaluation of predictions\",\n  \"implicit_claims\": [\n    \"the speaker has identifiable predictions that can be tested\",\n    \"fear currently influences or could influence how predictions are assessed\",\n    \"an agentic choice exists between testing against reality versus against fear\",\n    \"testing against actual outcomes is feasible and distinct from fear-based assessment\"\n  ],\n  \"coherence_assessment\": \"internally coherent; clearly contrasts two evaluable modes of testing without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker must operationalize specific, falsifiable predictions and track outcomes objectively rather than reinterpreting results to fit prior fears\",\n  \"conditions_for_misleading\": \"predictions remain vague or unfalsifiable, outcomes are selectively interpreted, or the stated choice does not alter actual behavior\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a personal commitment to shift from fear-driven to evidence-driven evaluation of predictions",
+    "implicit_claims": [
+      "the speaker has identifiable predictions that can be tested",
+      "fear currently influences or could influence how predictions are assessed",
+      "an agentic choice exists between testing against reality versus against fear",
+      "testing against actual outcomes is feasible and distinct from fear-based assessment"
+    ],
+    "coherence_assessment": "internally coherent; clearly contrasts two evaluable modes of testing without contradiction",
+    "conditions_for_usefulness": "the speaker must operationalize specific, falsifiable predictions and track outcomes objectively rather than reinterpreting results to fit prior fears",
+    "conditions_for_misleading": "predictions remain vague or unfalsifiable, outcomes are selectively interpreted, or the stated choice does not alter actual behavior"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 275,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0
+}

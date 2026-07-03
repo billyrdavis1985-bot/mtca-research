@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0032__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:27:45.404660+00:00",
+  "wall_clock_seconds": 5.491838216781616,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a prescriptive self-reminder or affirmation, urging the speaker to maintain inner purity by avoiding violent passions, evil affections, rashness, vanity, and discontent toward gods or humans.\",\n  \"implicit_claims\": [\n    \"A person has the capacity to consciously keep themselves pure from these states.\",\n    \"Violent passion, evil affection, rashness, vanity, and discontent are harmful and should be avoided.\",\n    \"Discontent can be directed toward both gods and humans, implying belief in gods or transcendent order.\",\n    \"Inner purity is achievable through deliberate self-regulation.\",\n    \"The speaker sees value in aligning with a standard of calm, virtuous conduct.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear causal structure: service consists in self-purification from a defined list of negative states. The list is broad but specific enough to be actionable, and the framing (doth consist) offers a singular focus without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The user believes that emotional self-regulation and moral purity are therapeutic or growth-oriented goals.\",\n    \"The user is motivated to cultivate self-discipline and can reflect on their own passions, vanities, and discontent.\",\n    \"The user operates within a framework (e.g., Stoic or virtue-based therapy) that values restraint and equanimity.\",\n    \"The user is not in acute distress that would make such self-regulation feel inaccessible or invalidating.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the user interprets 'keep himself pure' as needing perfection or suppression of all emotion, rather than healthy management.\",\n    \"If the user uses the statement to shame themselves for normal human emotional reactions.\",\n    \"If the user lacks support for distinguishing 'violent passion' from healthy anger or grief, leading to emotional avoidance.\",\n    \"If the user applies it in a context where discontent is a reasonable response to injustice, potentially invalidating legitimate protest or change-seeking.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive self-reminder or affirmation, urging the speaker to maintain inner purity by avoiding violent passions, evil affections, rashness, vanity, and discontent toward gods or humans.",
+    "implicit_claims": [
+      "A person has the capacity to consciously keep themselves pure from these states.",
+      "Violent passion, evil affection, rashness, vanity, and discontent are harmful and should be avoided.",
+      "Discontent can be directed toward both gods and humans, implying belief in gods or transcendent order.",
+      "Inner purity is achievable through deliberate self-regulation.",
+      "The speaker sees value in aligning with a standard of calm, virtuous conduct."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear causal structure: service consists in self-purification from a defined list of negative states. The list is broad but specific enough to be actionable, and the framing (doth consist) offers a singular focus without contradiction.",
+    "conditions_for_usefulness": [
+      "The user believes that emotional self-regulation and moral purity are therapeutic or growth-oriented goals.",
+      "The user is motivated to cultivate self-discipline and can reflect on their own passions, vanities, and discontent.",
+      "The user operates within a framework (e.g., Stoic or virtue-based therapy) that values restraint and equanimity.",
+      "The user is not in acute distress that would make such self-regulation feel inaccessible or invalidating."
+    ],
+    "conditions_for_misleading": [
+      "If the user interprets 'keep himself pure' as needing perfection or suppression of all emotion, rather than healthy management.",
+      "If the user uses the statement to shame themselves for normal human emotional reactions.",
+      "If the user lacks support for distinguishing 'violent passion' from healthy anger or grief, leading to emotional avoidance.",
+      "If the user applies it in a context where discontent is a reasonable response to injustice, potentially invalidating legitimate protest or change-seeking."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 417,
+  "error": "",
+  "retry_count": 0
+}

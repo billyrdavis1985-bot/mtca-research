@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0501__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:41:04.137384+00:00",
+  "wall_clock_seconds": 5.410637617111206,
+  "raw_response": "{\n  \"communicative_function\": \"The statement establishes a clinical observation and sets the context for a therapeutic case narrative, noting a specific detail about the child's mobility and assistive devices.\",\n  \"implicit_claims\": [\n    \"The child has a physical condition affecting walking.\",\n    \"The child requires mechanical support to walk properly.\",\n    \"The contrivances are effective in helping the child walk 'pretty well'.\",\n    \"The speaker (therapist) is recording an initial assessment in February 1915.\",\n    \"The child's walking ability is relevant to the therapeutic situation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a straightforward factual observation about a child's mobility and the use of orthopedic devices, with no logical contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a clinical record or therapeutic narrative where physical condition is relevant.\",\n    \"The contrivances actually enable functional walking as described.\",\n    \"The listener or reader accepts the therapeutic frame (e.g., psychoanalytic or developmental context of 1915).\",\n    \"The detail serves a diagnostic or therapeutic purpose in the broader case.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the contrivances are not actually holding the feet straight but merely appear to.\",\n    \"If the child's walking ability is misrepresented (e.g., 'pretty well' exaggerates actual mobility).\",\n    \"If the statement is taken out of its historical and clinical context and interpreted as a general medical fact.\",\n    \"If the speaker’s observation is based on a brief first meeting and may be inaccurate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement establishes a clinical observation and sets the context for a therapeutic case narrative, noting a specific detail about the child's mobility and assistive devices.",
+    "implicit_claims": [
+      "The child has a physical condition affecting walking.",
+      "The child requires mechanical support to walk properly.",
+      "The contrivances are effective in helping the child walk 'pretty well'.",
+      "The speaker (therapist) is recording an initial assessment in February 1915.",
+      "The child's walking ability is relevant to the therapeutic situation."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a straightforward factual observation about a child's mobility and the use of orthopedic devices, with no logical contradictions.",
+    "conditions_for_usefulness": [
+      "The statement is part of a clinical record or therapeutic narrative where physical condition is relevant.",
+      "The contrivances actually enable functional walking as described.",
+      "The listener or reader accepts the therapeutic frame (e.g., psychoanalytic or developmental context of 1915).",
+      "The detail serves a diagnostic or therapeutic purpose in the broader case."
+    ],
+    "conditions_for_misleading": [
+      "If the contrivances are not actually holding the feet straight but merely appear to.",
+      "If the child's walking ability is misrepresented (e.g., 'pretty well' exaggerates actual mobility).",
+      "If the statement is taken out of its historical and clinical context and interpreted as a general medical fact.",
+      "If the speaker’s observation is based on a brief first meeting and may be inaccurate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 339,
+  "error": "",
+  "retry_count": 0
+}

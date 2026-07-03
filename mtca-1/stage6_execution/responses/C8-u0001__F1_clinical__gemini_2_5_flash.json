@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0001__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:53:13.196231+00:00",
+  "wall_clock_seconds": 7.85905647277832,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-instructional commitment and a cognitive restructuring strategy. It articulates an intention to apply a specific coping mechanism (realistic appraisal) when a particular cognitive distortion (catastrophizing) is identified. It serves as a self-prompt for metacognitive awareness and active reframing.\",\n  \"implicit_claims\": [\n    \"I possess the capacity for self-awareness to 'catch myself catastrophizing'.\",\n    \"Catastrophizing is an unhelpful or maladaptive thought pattern that requires intervention.\",\n    \"There is a discernible difference between a 'catastrophized' worst-case scenario and a 'realistic' worst-case scenario.\",\n    \"Asking about the 'realistic worst case' is an effective and helpful cognitive intervention.\",\n    \"I have agency and willingness to engage in this cognitive process.\",\n    \"The 'realistic worst case' is typically less severe or more manageable than the 'catastrophized' version.\",\n    \"Identifying the realistic worst case provides a pathway to reduced distress or increased coping ability.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear conditional structure (If X, then I am willing to do Y) that aligns with principles of cognitive behavioral therapy (CBT) and other evidence-based psychotherapeutic practices focused on challenging cognitive distortions and promoting adaptive coping. The inclusion of 'willingness' acknowledges the effort and choice involved in cognitive change.\",\n  \"conditions_for_usefulness\": [\n    \"The individual can accurately identify when they are catastrophizing versus engaging in legitimate risk assessment.\",\n    \"The individual is capable of a degree of cognitive flexibility and rational thought during moments of distress.\",\n    \"The 'realistic worst case' is genuinely less severe or more manageable than the catastrophized version, leading to a reduction in distress.\",\n    \"The individual possesses the emotional regulation skills to tolerate contemplating a 'realistic worst case' without becoming overwhelmed.\",\n    \"The individual believes in the utility and efficacy of this self-intervention.\",\n    \"The therapeutic context encourages this process as part of a broader coping skill set, not as a sole solution.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misidentifies genuine, severe risks as 'catastrophizing', leading to minimization of real threats.\",\n    \"The 'realistic worst case' is indeed genuinely catastrophic or extremely severe, and asking about it leads to increased distress or feelings of hopelessness rather than reduction.\",\n    \"The individual lacks the cognitive capacity or emotional regulation skills to engage in rational appraisal, leading to increased rumination or self-blame.\",\n    \"The statement is interpreted as an imperative to deny or suppress valid fears, promoting toxic positivity or invalidating legitimate concerns.\",\n    \"The individual gets stuck in an endless loop of 'worst-case scenario' analysis without moving towards acceptance, problem-solving, or other coping mechanisms.\",\n    \"The statement is used in situations where other interventions (e.g., behavioral activation, emotion regulation, acceptance) would be more appropriate or effective.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-instructional commitment and a cognitive restructuring strategy. It articulates an intention to apply a specific coping mechanism (realistic appraisal) when a particular cognitive distortion (catastrophizing) is identified. It serves as a self-prompt for metacognitive awareness and active reframing.",
+    "implicit_claims": [
+      "I possess the capacity for self-awareness to 'catch myself catastrophizing'.",
+      "Catastrophizing is an unhelpful or maladaptive thought pattern that requires intervention.",
+      "There is a discernible difference between a 'catastrophized' worst-case scenario and a 'realistic' worst-case scenario.",
+      "Asking about the 'realistic worst case' is an effective and helpful cognitive intervention.",
+      "I have agency and willingness to engage in this cognitive process.",
+      "The 'realistic worst case' is typically less severe or more manageable than the 'catastrophized' version.",
+      "Identifying the realistic worst case provides a pathway to reduced distress or increased coping ability."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear conditional structure (If X, then I am willing to do Y) that aligns with principles of cognitive behavioral therapy (CBT) and other evidence-based psychotherapeutic practices focused on challenging cognitive distortions and promoting adaptive coping. The inclusion of 'willingness' acknowledges the effort and choice involved in cognitive change.",
+    "conditions_for_usefulness": [
+      "The individual can accurately identify when they are catastrophizing versus engaging in legitimate risk assessment.",
+      "The individual is capable of a degree of cognitive flexibility and rational thought during moments of distress.",
+      "The 'realistic worst case' is genuinely less severe or more manageable than the catastrophized version, leading to a reduction in distress.",
+      "The individual possesses the emotional regulation skills to tolerate contemplating a 'realistic worst case' without becoming overwhelmed.",
+      "The individual believes in the utility and efficacy of this self-intervention.",
+      "The therapeutic context encourages this process as part of a broader coping skill set, not as a sole solution."
+    ],
+    "conditions_for_misleading": [
+      "The individual misidentifies genuine, severe risks as 'catastrophizing', leading to minimization of real threats.",
+      "The 'realistic worst case' is indeed genuinely catastrophic or extremely severe, and asking about it leads to increased distress or feelings of hopelessness rather than reduction.",
+      "The individual lacks the cognitive capacity or emotional regulation skills to engage in rational appraisal, leading to increased rumination or self-blame.",
+      "The statement is interpreted as an imperative to deny or suppress valid fears, promoting toxic positivity or invalidating legitimate concerns.",
+      "The individual gets stuck in an endless loop of 'worst-case scenario' analysis without moving towards acceptance, problem-solving, or other coping mechanisms.",
+      "The statement is used in situations where other interventions (e.g., behavioral activation, emotion regulation, acceptance) would be more appropriate or effective."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 665,
+  "error": "",
+  "retry_count": 0
+}

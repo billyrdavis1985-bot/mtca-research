@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0003__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:08:05.916836+00:00",
+  "wall_clock_seconds": 11.390326499938965,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a dual acknowledgment: it validates subjective emotional experience as meaningful ('real information') while simultaneously introducing epistemic humility about the reliability of emotions as guides to external reality. It functions as a self-reflective cognitive reframe, likely intended as a therapeutic or philosophical principle.\",\n  \"implicit_claims\": [\n    \"Feelings have informational content about internal states\",\n    \"Feelings do not always reliably represent external reality\",\n    \"A meaningful distinction exists between 'my state' and 'the world'\",\n    \"It is possible and valuable to distinguish between these two types of information\",\n    \"Emotional responses can be simultaneously real and potentially inaccurate\",\n    \"The speaker has the capacity for metacognitive awareness of their own emotions\",\n    \"Recognizing this distinction is a form of epistemic virtue or progress\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It avoids the common error of either dismissing emotions entirely or treating them as perfect mirrors of reality. The two clauses are complementary rather than contradictory, and the qualifier 'not always' appropriately avoids overclaiming.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is prone to either dismissing feelings entirely or over-relying on them as factual guides\",\n    \"The distinction between internal states and external reality is actionable in the speaker's context\",\n    \"The speaker has sufficient metacognitive capacity to apply the distinction in practice\",\n    \"The context involves decisions or perceptions where emotional bias could cause harm\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to systematically discount emotions in contexts where they are in fact reliable signals\",\n    \"If the framing is used by others to gaslight someone into doubting valid emotional responses\",\n    \"If 'not always accurate' is interpreted as 'rarely accurate,' leading to emotional suppression\",\n    \"If it implies a cleaner separation between internal state and world than actually exists, since emotions can also be accurate world-information\",\n    \"If deployed selectively to invalidate inconvenient emotions while accepting convenient ones\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a dual acknowledgment: it validates subjective emotional experience as meaningful ('real information') while simultaneously introducing epistemic humility about the reliability of emotions as guides to external reality. It functions as a self-reflective cognitive reframe, likely intended as a therapeutic or philosophical principle.",
+    "implicit_claims": [
+      "Feelings have informational content about internal states",
+      "Feelings do not always reliably represent external reality",
+      "A meaningful distinction exists between 'my state' and 'the world'",
+      "It is possible and valuable to distinguish between these two types of information",
+      "Emotional responses can be simultaneously real and potentially inaccurate",
+      "The speaker has the capacity for metacognitive awareness of their own emotions",
+      "Recognizing this distinction is a form of epistemic virtue or progress"
+    ],
+    "coherence_assessment": "The statement is internally coherent. It avoids the common error of either dismissing emotions entirely or treating them as perfect mirrors of reality. The two clauses are complementary rather than contradictory, and the qualifier 'not always' appropriately avoids overclaiming.",
+    "conditions_for_usefulness": [
+      "The speaker is prone to either dismissing feelings entirely or over-relying on them as factual guides",
+      "The distinction between internal states and external reality is actionable in the speaker's context",
+      "The speaker has sufficient metacognitive capacity to apply the distinction in practice",
+      "The context involves decisions or perceptions where emotional bias could cause harm"
+    ],
+    "conditions_for_misleading": [
+      "If used to systematically discount emotions in contexts where they are in fact reliable signals",
+      "If the framing is used by others to gaslight someone into doubting valid emotional responses",
+      "If 'not always accurate' is interpreted as 'rarely accurate,' leading to emotional suppression",
+      "If it implies a cleaner separation between internal state and world than actually exists, since emotions can also be accurate world-information",
+      "If deployed selectively to invalidate inconvenient emotions while accepting convenient ones"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 495,
+  "error": "",
+  "retry_count": 0
+}

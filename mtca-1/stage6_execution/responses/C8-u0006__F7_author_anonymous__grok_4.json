@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:24:58.081465+00:00",
+  "wall_clock_seconds": 7.951590299606323,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a conditional personal principle or stance toward fear and action\",\n  \"implicit_claims\": [\n    \"fear is not treated as an absolute barrier to action\",\n    \"evidence can reliably indicate whether an action is likely to help\",\n    \"the speaker distinguishes actions based on expected benefit rather than emotional comfort alone\",\n    \"the speaker possesses or can access relevant evidence for decision-making\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presents a clear, logically consistent conditional rule linking willingness, evidence, and expected benefit\",\n  \"conditions_for_usefulness\": \"the statement accurately reflects the speaker's actual behavior and the evidence criterion is applied consistently and competently\",\n  \"conditions_for_misleading\": \"the statement is used to signal rationality while actual decisions ignore evidence, redefine 'help' post hoc, or selectively interpret evidence to justify preferred actions\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a conditional personal principle or stance toward fear and action",
+    "implicit_claims": [
+      "fear is not treated as an absolute barrier to action",
+      "evidence can reliably indicate whether an action is likely to help",
+      "the speaker distinguishes actions based on expected benefit rather than emotional comfort alone",
+      "the speaker possesses or can access relevant evidence for decision-making"
+    ],
+    "coherence_assessment": "internally coherent; presents a clear, logically consistent conditional rule linking willingness, evidence, and expected benefit",
+    "conditions_for_usefulness": "the statement accurately reflects the speaker's actual behavior and the evidence criterion is applied consistently and competently",
+    "conditions_for_misleading": "the statement is used to signal rationality while actual decisions ignore evidence, redefine 'help' post hoc, or selectively interpret evidence to justify preferred actions"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 184,
+  "error": "",
+  "retry_count": 0
+}

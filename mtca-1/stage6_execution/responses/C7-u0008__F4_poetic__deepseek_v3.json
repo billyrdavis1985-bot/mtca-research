@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0008__F4_poetic__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:27:23.425408+00:00",
+  "wall_clock_seconds": 5.099944114685059,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a guiding principle or moral directive, advising a course of action (making amends) while acknowledging ethical limits (avoiding harm).\",\n  \"implicit_claims\": [\n    \"There are situations where making amends is possible and appropriate.\",\n    \"Making amends can potentially injure the person being approached or others.\",\n    \"The speaker or audience has wronged others and has a responsibility to repair harm.\",\n    \"It is possible to judge when amends would cause injury.\",\n    \"The benefit of making amends is generally positive, but not absolute.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it sets a clear goal (direct amends) with a self-limiting exception (avoiding harm), which is logically consistent as a rule of conduct.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker and audience have committed specific wrongs that can be identified and addressed.\",\n    \"There is a shared understanding of what constitutes 'injury' or harm.\",\n    \"The parties involved have the ability to discern when amends would be harmful.\",\n    \"The context allows for voluntary, non-coerced amends-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'injury' is defined so broadly that it excuses all amends, the statement becomes a rationalization for inaction.\",\n    \"If the speaker uses the exception to avoid accountability without genuine risk of harm.\",\n    \"If the statement is taken as a universal rule without considering cultural or relational differences in what constitutes harm.\",\n    \"If it implies that one can never risk causing any discomfort, thereby preventing genuine reconciliation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a guiding principle or moral directive, advising a course of action (making amends) while acknowledging ethical limits (avoiding harm).",
+    "implicit_claims": [
+      "There are situations where making amends is possible and appropriate.",
+      "Making amends can potentially injure the person being approached or others.",
+      "The speaker or audience has wronged others and has a responsibility to repair harm.",
+      "It is possible to judge when amends would cause injury.",
+      "The benefit of making amends is generally positive, but not absolute."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it sets a clear goal (direct amends) with a self-limiting exception (avoiding harm), which is logically consistent as a rule of conduct.",
+    "conditions_for_usefulness": [
+      "The speaker and audience have committed specific wrongs that can be identified and addressed.",
+      "There is a shared understanding of what constitutes 'injury' or harm.",
+      "The parties involved have the ability to discern when amends would be harmful.",
+      "The context allows for voluntary, non-coerced amends-making."
+    ],
+    "conditions_for_misleading": [
+      "If 'injury' is defined so broadly that it excuses all amends, the statement becomes a rationalization for inaction.",
+      "If the speaker uses the exception to avoid accountability without genuine risk of harm.",
+      "If the statement is taken as a universal rule without considering cultural or relational differences in what constitutes harm.",
+      "If it implies that one can never risk causing any discomfort, thereby preventing genuine reconciliation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 348,
+  "error": "",
+  "retry_count": 0
+}

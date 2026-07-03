@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0864__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:53:12.609801+00:00",
+  "wall_clock_seconds": 4.0677101612091064,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses past skepticism toward Coué's lectures, likely as a preface to a change of mind or to establish credibility through honesty.\",\n  \"implicit_claims\": [\n    \"The speaker attended or was exposed to Coué's lectures.\",\n    \"The speaker's initial attitude was one of skepticism.\",\n    \"The speaker is now reflecting on that skepticism, possibly to indicate a later shift in belief.\",\n    \"Coué's lectures had some content or reputation that warranted skepticism.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple confession of prior attitude, but it does not itself constitute a behavioral commitment; it is a retrospective description rather than a forward-looking intention.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if it serves as a honest admission of bias to build trust, or as part of a narrative where later evidence or experience changed the speaker's mind, thereby modeling intellectual humility.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the speaker uses it to imply a subsequent conversion without evidence, or to falsely position themselves as open-minded while actually maintaining skepticism without further reflection.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses past skepticism toward Coué's lectures, likely as a preface to a change of mind or to establish credibility through honesty.",
+    "implicit_claims": [
+      "The speaker attended or was exposed to Coué's lectures.",
+      "The speaker's initial attitude was one of skepticism.",
+      "The speaker is now reflecting on that skepticism, possibly to indicate a later shift in belief.",
+      "Coué's lectures had some content or reputation that warranted skepticism."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple confession of prior attitude, but it does not itself constitute a behavioral commitment; it is a retrospective description rather than a forward-looking intention.",
+    "conditions_for_usefulness": "The statement would be useful if it serves as a honest admission of bias to build trust, or as part of a narrative where later evidence or experience changed the speaker's mind, thereby modeling intellectual humility.",
+    "conditions_for_misleading": "The statement would be misleading if the speaker uses it to imply a subsequent conversion without evidence, or to falsely position themselves as open-minded while actually maintaining skepticism without further reflection."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 242,
+  "error": "",
+  "retry_count": 0
+}

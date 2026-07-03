@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0142__F1_clinical__grok_4",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:22:47.328363+00:00",
+  "wall_clock_seconds": 7.935871839523315,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes a necessary precondition for valued action, functioning as a directive self-instruction to orient cognition toward intentionality\",\n  \"implicit_claims\": [\n    \"thought and purpose are separable mental phenomena\",\n    \"intelligent accomplishment is contingent on their linkage\",\n    \"unlinked thought yields no intelligent accomplishment\",\n    \"purpose supplies the criterion that renders accomplishment 'intelligent'\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a conditional claim but relies on undefined terms ('thought', 'purpose', 'intelligent accomplishment'), rendering it resistant to falsification and more axiomatic than empirical\",\n  \"conditions_for_usefulness\": \"the individual experiences diffuse or avoidant cognition; linking thought to explicit purpose measurably increases goal-directed behavior without inducing rigidity or self-criticism\",\n  \"conditions_for_misleading\": \"spontaneous, exploratory, or affect-driven cognition is undervalued or pathologized; 'purpose' is construed narrowly so that non-instrumental thought is dismissed as unintelligent\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes a necessary precondition for valued action, functioning as a directive self-instruction to orient cognition toward intentionality",
+    "implicit_claims": [
+      "thought and purpose are separable mental phenomena",
+      "intelligent accomplishment is contingent on their linkage",
+      "unlinked thought yields no intelligent accomplishment",
+      "purpose supplies the criterion that renders accomplishment 'intelligent'"
+    ],
+    "coherence_assessment": "internally consistent as a conditional claim but relies on undefined terms ('thought', 'purpose', 'intelligent accomplishment'), rendering it resistant to falsification and more axiomatic than empirical",
+    "conditions_for_usefulness": "the individual experiences diffuse or avoidant cognition; linking thought to explicit purpose measurably increases goal-directed behavior without inducing rigidity or self-criticism",
+    "conditions_for_misleading": "spontaneous, exploratory, or affect-driven cognition is undervalued or pathologized; 'purpose' is construed narrowly so that non-instrumental thought is dismissed as unintelligent"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 214,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0008__F7_author_anonymous__grok_4",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:29:27.107138+00:00",
+  "wall_clock_seconds": 6.119359970092773,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a conditional behavioral guideline or rule for action\",\n  \"implicit_claims\": [\"There exist identifiable 'such people' to whom amends are relevant\", \"Direct amends are generally feasible and preferable\", \"Potential injury to self or others constitutes a valid overriding exception\"],\n  \"coherence_assessment\": \"Internally coherent as a conditional imperative with a clearly bounded exception that avoids absolutism\",\n  \"conditions_for_usefulness\": \"Applicable in a framework of prior acknowledged harms where the actor has capacity to assess injury risks and act ethically\",\n  \"conditions_for_misleading\": \"Presented as a standalone absolute without reference to prior harms or used to justify avoidance of accountability via vague injury claims\"\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a conditional behavioral guideline or rule for action",
+    "implicit_claims": [
+      "There exist identifiable 'such people' to whom amends are relevant",
+      "Direct amends are generally feasible and preferable",
+      "Potential injury to self or others constitutes a valid overriding exception"
+    ],
+    "coherence_assessment": "Internally coherent as a conditional imperative with a clearly bounded exception that avoids absolutism",
+    "conditions_for_usefulness": "Applicable in a framework of prior acknowledged harms where the actor has capacity to assess injury risks and act ethically",
+    "conditions_for_misleading": "Presented as a standalone absolute without reference to prior harms or used to justify avoidance of accountability via vague injury claims"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 149,
+  "error": "",
+  "retry_count": 0
+}

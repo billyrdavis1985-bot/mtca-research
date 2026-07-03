@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0005__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:03:32.160084+00:00",
+  "wall_clock_seconds": 3.392914295196533,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a reflective warning, urging the reader to consider the consequences of self-neglect and to value oneself before it's too late.\",\n  \"implicit_claims\": [\n    \"Time for self-respect is limited and may soon run out.\",\n    \"Current behaviors involve self-abuse and self-contempt.\",\n    \"Future regret is likely if self-destructive behaviors continue.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a consistent message about the urgency of changing self-destructive behaviors and respecting oneself before it's too late.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is engaging in self-destructive behaviors and is unaware of the long-term consequences, and is open to reflecting on the need for self-respect.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual is already experiencing high levels of guilt or shame, as it may exacerbate these feelings without providing a constructive path forward. It might also mislead someone who misinterprets the urgency, leading to panic rather than thoughtful reflection.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a reflective warning, urging the reader to consider the consequences of self-neglect and to value oneself before it's too late.",
+    "implicit_claims": [
+      "Time for self-respect is limited and may soon run out.",
+      "Current behaviors involve self-abuse and self-contempt.",
+      "Future regret is likely if self-destructive behaviors continue."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a consistent message about the urgency of changing self-destructive behaviors and respecting oneself before it's too late.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is engaging in self-destructive behaviors and is unaware of the long-term consequences, and is open to reflecting on the need for self-respect.",
+    "conditions_for_misleading": "The statement could be misleading if the individual is already experiencing high levels of guilt or shame, as it may exacerbate these feelings without providing a constructive path forward. It might also mislead someone who misinterprets the urgency, leading to panic rather than thoughtful reflection."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 234,
+  "error": "",
+  "retry_count": 0
+}

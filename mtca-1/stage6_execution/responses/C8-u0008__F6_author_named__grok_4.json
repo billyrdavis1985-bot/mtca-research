@@ -1,0 +1,33 @@
+{
+  "call_id": "C8-u0008__F6_author_named__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:35:26.245037+00:00",
+  "wall_clock_seconds": 10.020016193389893,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of agency and value-congruence, functioning as a declarative commitment that separates volitional action from affective state\",\n  \"implicit_claims\": [\n    \"values exist as stable, identifiable guides distinct from transient feelings\",\n    \"feelings and actions are separable and can be intentionally decoupled\",\n    \"the speaker possesses the capacity to choose actions aligned with values regardless of emotional state\",\n    \"acting on values before feelings align is both possible and preferable\",\n    \"feelings will eventually 'catch up' to chosen actions\"\n  ],\n  \"coherence_assessment\": \"internally coherent; rests on a standard distinction between cognitive/volitional and affective domains without logical contradiction\",\n  \"conditions_for_usefulness\": \"the speaker has well-defined authentic values; temporary emotional resistance would otherwise produce harmful or regretted behavior; long-term outcomes improve when behavior precedes emotional alignment; the statement is used as a flexible reminder rather than a rigid rule\",\n  \"conditions_for_misleading\": \"values are actually external demands or rigid self-concepts rather than authentic; valid emotional signals indicating misalignment are dismissed; the statement encourages emotional suppression or dissociation; feelings reflect important information being overridden\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of agency and value-congruence, functioning as a declarative commitment that separates volitional action from affective state",
+    "implicit_claims": [
+      "values exist as stable, identifiable guides distinct from transient feelings",
+      "feelings and actions are separable and can be intentionally decoupled",
+      "the speaker possesses the capacity to choose actions aligned with values regardless of emotional state",
+      "acting on values before feelings align is both possible and preferable",
+      "feelings will eventually 'catch up' to chosen actions"
+    ],
+    "coherence_assessment": "internally coherent; rests on a standard distinction between cognitive/volitional and affective domains without logical contradiction",
+    "conditions_for_usefulness": "the speaker has well-defined authentic values; temporary emotional resistance would otherwise produce harmful or regretted behavior; long-term outcomes improve when behavior precedes emotional alignment; the statement is used as a flexible reminder rather than a rigid rule",
+    "conditions_for_misleading": "values are actually external demands or rigid self-concepts rather than authentic; valid emotional signals indicating misalignment are dismissed; the statement encourages emotional suppression or dissociation; feelings reflect important information being overridden"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 283,
+  "output_tokens": 244,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0214__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:37:31.541966+00:00",
+  "wall_clock_seconds": 5.637403249740601,
+  "raw_response": "{\n  \"communicative_function\": \"Inspirational and motivational, encouraging the listener to hold onto their vision and ideals as guiding forces for future achievement.\",\n  \"implicit_claims\": [\n    \"A person's vision or ideal is a reliable indicator of their future actualization.\",\n    \"There is a predetermined or inevitable progression from vision/ideal to reality.\",\n    \"The unveiling of one's ideal is a guaranteed outcome, not merely a possibility.\",\n    \"Vision and ideal are distinct but related concepts, with vision being a promise and ideal a prophecy.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its parallel structure and metaphorical use of 'promise' and 'prophecy' to link future-oriented concepts with eventual realization. However, it assumes a linear, deterministic relationship between inner aspirations and future outcomes, which may not hold universally.\",\n  \"conditions_for_usefulness\": [\n    \"The listener has a clear vision or ideal they are working toward.\",\n    \"The statement is used as a motivational tool to inspire persistence and goal-setting.\",\n    \"The listener believes in the power of intention and self-fulfilling prophecies.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, it may suggest that mere envisioning guarantees success, ignoring external constraints, effort, or chance.\",\n    \"If used to imply that failure to achieve the vision is a personal or moral failing, rather than a result of complex circumstances.\",\n    \"If the listener confuses the aspirational nature of ideals with concrete plans, leading to unrealistic expectations.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Inspirational and motivational, encouraging the listener to hold onto their vision and ideals as guiding forces for future achievement.",
+    "implicit_claims": [
+      "A person's vision or ideal is a reliable indicator of their future actualization.",
+      "There is a predetermined or inevitable progression from vision/ideal to reality.",
+      "The unveiling of one's ideal is a guaranteed outcome, not merely a possibility.",
+      "Vision and ideal are distinct but related concepts, with vision being a promise and ideal a prophecy."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its parallel structure and metaphorical use of 'promise' and 'prophecy' to link future-oriented concepts with eventual realization. However, it assumes a linear, deterministic relationship between inner aspirations and future outcomes, which may not hold universally.",
+    "conditions_for_usefulness": [
+      "The listener has a clear vision or ideal they are working toward.",
+      "The statement is used as a motivational tool to inspire persistence and goal-setting.",
+      "The listener believes in the power of intention and self-fulfilling prophecies."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, it may suggest that mere envisioning guarantees success, ignoring external constraints, effort, or chance.",
+      "If used to imply that failure to achieve the vision is a personal or moral failing, rather than a result of complex circumstances.",
+      "If the listener confuses the aspirational nature of ideals with concrete plans, leading to unrealistic expectations."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 324,
+  "error": "",
+  "retry_count": 0
+}

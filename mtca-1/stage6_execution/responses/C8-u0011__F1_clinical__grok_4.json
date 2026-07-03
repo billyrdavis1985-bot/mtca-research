@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0011__F1_clinical__grok_4",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:37:12.795170+00:00",
+  "wall_clock_seconds": 7.9065327644348145,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed commitment declaration that operationalizes behavioral intention and orients toward actionable implementation\",\n  \"implicit_claims\": [\n    \"vague resolutions are inherently uncarryable\",\n    \"small observable changes are reliably carryable by the speaker\",\n    \"commitment to specificity increases follow-through probability\",\n    \"the speaker possesses the capacity to discriminate between feasible and infeasible targets\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the statement consistently privileges operationalizability and contrasts it with non-operationalizable alternatives without self-contradiction\",\n  \"conditions_for_usefulness\": \"the speaker can accurately identify genuinely small, observable behaviors whose cumulative effect addresses the clinical target, and environmental contingencies support repeated execution\",\n  \"conditions_for_misleading\": \"the designated 'small changes' are trivial, unrelated to the functional problem, or used to avoid higher-magnitude actions required for meaningful change\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed commitment declaration that operationalizes behavioral intention and orients toward actionable implementation",
+    "implicit_claims": [
+      "vague resolutions are inherently uncarryable",
+      "small observable changes are reliably carryable by the speaker",
+      "commitment to specificity increases follow-through probability",
+      "the speaker possesses the capacity to discriminate between feasible and infeasible targets"
+    ],
+    "coherence_assessment": "internally coherent; the statement consistently privileges operationalizability and contrasts it with non-operationalizable alternatives without self-contradiction",
+    "conditions_for_usefulness": "the speaker can accurately identify genuinely small, observable behaviors whose cumulative effect addresses the clinical target, and environmental contingencies support repeated execution",
+    "conditions_for_misleading": "the designated 'small changes' are trivial, unrelated to the functional problem, or used to avoid higher-magnitude actions required for meaningful change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

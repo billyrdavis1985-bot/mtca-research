@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0001__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:53:25.161235+00:00",
+  "wall_clock_seconds": 5.253134727478027,
+  "raw_response": "{\n  \"communicative_function\": \"Self-instruction to interrupt a cognitive distortion and replace it with a more realistic appraisal.\",\n  \"implicit_claims\": [\n    \"Catastrophizing can be caught (i.e., recognized in the moment).\",\n    \"There is a distinction between one's catastrophic thought and a realistic worst case.\",\n    \"Asking about the realistic worst case is a willful, voluntary act.\",\n    \"The realistic worst case is typically less extreme than the catastrophized version.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it prescribes a sequence of awareness (catching) followed by a deliberate cognitive reframing (asking), which aligns with standard cognitive-behavioral techniques.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has sufficient metacognitive awareness to notice catastrophizing.\",\n    \"The individual has the cognitive flexibility to genuinely consider alternative scenarios.\",\n    \"The individual is in a calm enough state to engage in questioning rather than being overwhelmed.\",\n    \"The individual has practice or guidance in distinguishing realistic from unrealistic outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the realistic worst case is actually as severe as or worse than the catastrophic thought, the intervention may reinforce fear rather than reduce it.\",\n    \"If the individual uses the question to avoid emotional processing (e.g., intellectualizing instead of feeling distress).\",\n    \"If the individual has a history of trauma where the realistic worst case is genuinely catastrophic, the question could be invalidating or retraumatizing.\",\n    \"If the statement is applied without therapist support in contexts of high anxiety or panic.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-instruction to interrupt a cognitive distortion and replace it with a more realistic appraisal.",
+    "implicit_claims": [
+      "Catastrophizing can be caught (i.e., recognized in the moment).",
+      "There is a distinction between one's catastrophic thought and a realistic worst case.",
+      "Asking about the realistic worst case is a willful, voluntary act.",
+      "The realistic worst case is typically less extreme than the catastrophized version."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it prescribes a sequence of awareness (catching) followed by a deliberate cognitive reframing (asking), which aligns with standard cognitive-behavioral techniques.",
+    "conditions_for_usefulness": [
+      "The individual has sufficient metacognitive awareness to notice catastrophizing.",
+      "The individual has the cognitive flexibility to genuinely consider alternative scenarios.",
+      "The individual is in a calm enough state to engage in questioning rather than being overwhelmed.",
+      "The individual has practice or guidance in distinguishing realistic from unrealistic outcomes."
+    ],
+    "conditions_for_misleading": [
+      "If the realistic worst case is actually as severe as or worse than the catastrophic thought, the intervention may reinforce fear rather than reduce it.",
+      "If the individual uses the question to avoid emotional processing (e.g., intellectualizing instead of feeling distress).",
+      "If the individual has a history of trauma where the realistic worst case is genuinely catastrophic, the question could be invalidating or retraumatizing.",
+      "If the statement is applied without therapist support in contexts of high anxiety or panic."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 339,
+  "error": "",
+  "retry_count": 0
+}

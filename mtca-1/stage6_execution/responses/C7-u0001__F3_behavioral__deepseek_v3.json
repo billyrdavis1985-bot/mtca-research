@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0001__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:57:47.048736+00:00",
+  "wall_clock_seconds": 4.677604913711548,
+  "raw_response": "{\n  \"communicative_function\": \"It functions as an expression of a pivotal cognitive shift or surrender, marking a transition from self-reliance to acceptance of external or transcendent aid for recovery.\",\n  \"implicit_claims\": [\n    \"There exists a Power greater than the individual.\",\n    \"The individual was previously in a state of insanity or significant mental/behavioral dysfunction.\",\n    \"That greater Power has the capacity to restore sanity.\",\n    \"Belief in that Power is a necessary step toward restoration.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a subjective belief claim, though its logic depends on the unstated definition of 'sanity' and the assumed causal relationship between belief in a higher power and mental restoration.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely feels they have lost control or sound judgment.\",\n    \"They are open to the concept of a higher power (however defined).\",\n    \"The statement is used in a supportive context (e.g., 12-step program) that provides a framework for action and community.\",\n    \"The statement leads to behavioral or emotional changes that improve well-being.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the individual interprets 'insanity' in a clinical sense that requires professional treatment, yet the statement suggests belief alone is sufficient.\",\n    \"If the individual is coerced into the belief rather than arriving at it authentically.\",\n    \"If the statement is used to dismiss personal responsibility or medical intervention.\",\n    \"If the concept of 'Power greater than ourselves' is exploited by an authority or group to control the individual.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It functions as an expression of a pivotal cognitive shift or surrender, marking a transition from self-reliance to acceptance of external or transcendent aid for recovery.",
+    "implicit_claims": [
+      "There exists a Power greater than the individual.",
+      "The individual was previously in a state of insanity or significant mental/behavioral dysfunction.",
+      "That greater Power has the capacity to restore sanity.",
+      "Belief in that Power is a necessary step toward restoration."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a subjective belief claim, though its logic depends on the unstated definition of 'sanity' and the assumed causal relationship between belief in a higher power and mental restoration.",
+    "conditions_for_usefulness": [
+      "The individual genuinely feels they have lost control or sound judgment.",
+      "They are open to the concept of a higher power (however defined).",
+      "The statement is used in a supportive context (e.g., 12-step program) that provides a framework for action and community.",
+      "The statement leads to behavioral or emotional changes that improve well-being."
+    ],
+    "conditions_for_misleading": [
+      "If the individual interprets 'insanity' in a clinical sense that requires professional treatment, yet the statement suggests belief alone is sufficient.",
+      "If the individual is coerced into the belief rather than arriving at it authentically.",
+      "If the statement is used to dismiss personal responsibility or medical intervention.",
+      "If the concept of 'Power greater than ourselves' is exploited by an authority or group to control the individual."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

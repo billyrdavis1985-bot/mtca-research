@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0178__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:13:45.440290+00:00",
+  "wall_clock_seconds": 17.686811208724976,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a therapeutic autosuggestion or self-hypnotic affirmation, intended to be repeated by the subject to reinforce a normative eating pattern. It attempts to reframe hunger as a pleasant, anticipated sensation rather than an aversive or anxiety-provoking signal, using future-tense declarative framing to implant an expected behavioral and experiential script.\",\n  \"implicit_claims\": [\n    \"Hunger is or can be made into an agreeable sensation through cognitive reframing or repetition.\",\n    \"Regular meal times (three per day) are the appropriate and healthy norm for eating.\",\n    \"The subject currently lacks a reliable or pleasant experience of hunger.\",\n    \"Repeating a statement about an experience can causally produce or restore that experience.\",\n    \"The boundary between overeating and appropriate eating is self-evident or easily recognized by the subject.\",\n    \"Autosuggestion can reliably modulate physiological and affective states.\",\n    \"The subject's eating difficulty is primarily psychological or attitudinal in origin.\",\n    \"Morning, midday, and evening are universally appropriate eating times for this subject.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a piece of Coué-style autosuggestion (it follows the logic of Émile Coué's conscious autosuggestion method). Its structure is consistent: it specifies timing, describes a target sensation, provides a model inner monologue, and appends a behavioral moderator. However, there is a mild tension between the claim that hunger is an automatic, naturally-timed event and the implication that it requires volitional repetition to occur, which slightly undermines its own premise.\",\n  \"conditions_for_usefulness\": [\n    \"The subject has a functional but dysregulated relationship with hunger cues (e.g., suppressed appetite from depression, anxiety, or disordered eating patterns).\",\n    \"The subject's eating difficulties are primarily mediated by cognitive or attitudinal factors rather than organic pathology.\",\n    \"The subject is already embedded in a broader therapeutic relationship providing context and monitoring.\",\n    \"The subject has no metabolic, neurological, or gastrointestinal condition that independently disrupts hunger signaling.\",\n    \"The subject finds the repetition ritual tolerable and credible rather than alienating.\",\n    \"The statement is used as a complement to, not replacement for, nutritional and medical assessment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The subject has a medical condition causing anorexia (e.g., cancer, renal disease, gastroparesis) where hunger suppression is physiological, not psychological.\",\n    \"The subject has an eating disorder such as anorexia nervosa, where reinforcing 'hunger as pleasant' without clinical oversight could be contraindicated or oversimplified.\",\n    \"The subject interprets the statement as a guaranteed causal mechanism, leading to self-blame if the effect does not occur.\",\n    \"The three-meal structure is inappropriate for the subject's metabolic needs, cultural context, or medical regimen.\",\n    \"The statement is presented as sufficient standalone treatment, bypassing necessary medical or psychiatric evaluation.\",\n    \"The subject cannot reliably self-monitor the 'without overeating' boundary, as in binge eating disorder, making that clause functionally empty.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a therapeutic autosuggestion or self-hypnotic affirmation, intended to be repeated by the subject to reinforce a normative eating pattern. It attempts to reframe hunger as a pleasant, anticipated sensation rather than an aversive or anxiety-provoking signal, using future-tense declarative framing to implant an expected behavioral and experiential script.",
+    "implicit_claims": [
+      "Hunger is or can be made into an agreeable sensation through cognitive reframing or repetition.",
+      "Regular meal times (three per day) are the appropriate and healthy norm for eating.",
+      "The subject currently lacks a reliable or pleasant experience of hunger.",
+      "Repeating a statement about an experience can causally produce or restore that experience.",
+      "The boundary between overeating and appropriate eating is self-evident or easily recognized by the subject.",
+      "Autosuggestion can reliably modulate physiological and affective states.",
+      "The subject's eating difficulty is primarily psychological or attitudinal in origin.",
+      "Morning, midday, and evening are universally appropriate eating times for this subject."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a piece of Coué-style autosuggestion (it follows the logic of Émile Coué's conscious autosuggestion method). Its structure is consistent: it specifies timing, describes a target sensation, provides a model inner monologue, and appends a behavioral moderator. However, there is a mild tension between the claim that hunger is an automatic, naturally-timed event and the implication that it requires volitional repetition to occur, which slightly undermines its own premise.",
+    "conditions_for_usefulness": [
+      "The subject has a functional but dysregulated relationship with hunger cues (e.g., suppressed appetite from depression, anxiety, or disordered eating patterns).",
+      "The subject's eating difficulties are primarily mediated by cognitive or attitudinal factors rather than organic pathology.",
+      "The subject is already embedded in a broader therapeutic relationship providing context and monitoring.",
+      "The subject has no metabolic, neurological, or gastrointestinal condition that independently disrupts hunger signaling.",
+      "The subject finds the repetition ritual tolerable and credible rather than alienating.",
+      "The statement is used as a complement to, not replacement for, nutritional and medical assessment."
+    ],
+    "conditions_for_misleading": [
+      "The subject has a medical condition causing anorexia (e.g., cancer, renal disease, gastroparesis) where hunger suppression is physiological, not psychological.",
+      "The subject has an eating disorder such as anorexia nervosa, where reinforcing 'hunger as pleasant' without clinical oversight could be contraindicated or oversimplified.",
+      "The subject interprets the statement as a guaranteed causal mechanism, leading to self-blame if the effect does not occur.",
+      "The three-meal structure is inappropriate for the subject's metabolic needs, cultural context, or medical regimen.",
+      "The statement is presented as sufficient standalone treatment, bypassing necessary medical or psychiatric evaluation.",
+      "The subject cannot reliably self-monitor the 'without overeating' boundary, as in binge eating disorder, making that clause functionally empty."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 243,
+  "output_tokens": 765,
+  "error": "",
+  "retry_count": 0
+}

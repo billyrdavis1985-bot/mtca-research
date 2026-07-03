@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0001__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:53:05.026860+00:00",
+  "wall_clock_seconds": 2.9708919525146484,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a cognitive intervention strategy aimed at reframing cognitive distortions, specifically catastrophizing.\",\n  \"implicit_claims\": [\n    \"The individual recognizes a pattern of catastrophizing in their thinking.\",\n    \"There exists a difference between catastrophizing and a more realistic assessment of worst-case scenarios.\",\n    \"Being willing to question catastrophic thoughts can alter one's emotional or cognitive response.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a conditional approach ('when I catch myself catastrophizing') followed by an intention ('willing to ask what the realistic worst case actually looks like'). The components logically follow each other to promote cognitive restructuring.\",\n  \"conditions_for_usefulness\": \"The individual should have the capacity for self-awareness to recognize catastrophizing as it occurs, and they must be open to modifying their thought patterns by engaging in a realistic assessment of situations.\",\n  \"conditions_for_misleading\": \"The statement might be misleading if the individual is unable to accurately identify catastrophizing thoughts or if the realistic assessment of worst-case scenarios is perceived as equally distressing, thereby not alleviating anxiety but possibly reinforcing it.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a cognitive intervention strategy aimed at reframing cognitive distortions, specifically catastrophizing.",
+    "implicit_claims": [
+      "The individual recognizes a pattern of catastrophizing in their thinking.",
+      "There exists a difference between catastrophizing and a more realistic assessment of worst-case scenarios.",
+      "Being willing to question catastrophic thoughts can alter one's emotional or cognitive response."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a conditional approach ('when I catch myself catastrophizing') followed by an intention ('willing to ask what the realistic worst case actually looks like'). The components logically follow each other to promote cognitive restructuring.",
+    "conditions_for_usefulness": "The individual should have the capacity for self-awareness to recognize catastrophizing as it occurs, and they must be open to modifying their thought patterns by engaging in a realistic assessment of situations.",
+    "conditions_for_misleading": "The statement might be misleading if the individual is unable to accurately identify catastrophizing thoughts or if the realistic assessment of worst-case scenarios is perceived as equally distressing, thereby not alleviating anxiety but possibly reinforcing it."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 243,
+  "error": "",
+  "retry_count": 0
+}

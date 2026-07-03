@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0007__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:30:26.142034+00:00",
+  "wall_clock_seconds": 10.001316785812378,
+  "raw_response": "{\n  \"communicative_function\": \"sharing a personal observation or insight about one's psychological experience\",\n  \"implicit_claims\": [\n    \"the speaker can accurately monitor and compare the temporal/directional relationship between their mood and behavior\",\n    \"mood and behavior are distinct and causally interactive phenomena that can lead or follow each other\",\n    \"the observed pattern holds 'more often' rather than invariably\"\n  ],\n  \"coherence_assessment\": \"internally coherent; states a clear comparative empirical claim about personal experience with no logical contradiction\",\n  \"conditions_for_usefulness\": \"the self-observation is veridical, the statement is offered in a reflective or therapeutic context, and the listener can use the pattern to guide behavioral experiments or interventions\",\n  \"conditions_for_misleading\": \"the reported pattern is inaccurate due to biased recall or confirmation bias, or the statement is treated as a general psychological law rather than an individual anecdote\"\n}",
+  "parsed_json": {
+    "communicative_function": "sharing a personal observation or insight about one's psychological experience",
+    "implicit_claims": [
+      "the speaker can accurately monitor and compare the temporal/directional relationship between their mood and behavior",
+      "mood and behavior are distinct and causally interactive phenomena that can lead or follow each other",
+      "the observed pattern holds 'more often' rather than invariably"
+    ],
+    "coherence_assessment": "internally coherent; states a clear comparative empirical claim about personal experience with no logical contradiction",
+    "conditions_for_usefulness": "the self-observation is veridical, the statement is offered in a reflective or therapeutic context, and the listener can use the pattern to guide behavioral experiments or interventions",
+    "conditions_for_misleading": "the reported pattern is inaccurate due to biased recall or confirmation bias, or the statement is treated as a general psychological law rather than an individual anecdote"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 267,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

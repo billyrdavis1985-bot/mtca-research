@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0501__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:42:02.219197+00:00",
+  "wall_clock_seconds": 12.346227884292603,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning as a clinical or case-narrative observation, recording the initial presentation of a pediatric patient, not as a behavioral commitment. It is descriptive and historical in nature, documenting a specific event, its timing, and the physical aids used by the child.\",\n  \"implicit_claims\": [\n    \"A child exists and was brought to the speaker by a caregiver.\",\n    \"February 1915 is a meaningful and accurate timestamp for this event.\",\n    \"The child has a condition affecting normal gait or foot alignment.\",\n    \"The child's ability to walk is contingent on assistive devices.\",\n    \"The speaker is in a professional role (likely medical) that involves receiving and assessing patients.\",\n    \"Without the contrivances, the child's walking would be impaired or different.\",\n    \"The two contrivances are effective enough to enable functional ambulation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a clinical observation but is entirely incoherent as a behavioral commitment. It contains no expression of intent, value, or planned action. It describes a past event in third-person clinical language, which is categorically misaligned with the behavioral-commitment frame imposed on it.\",\n  \"conditions_for_usefulness\": [\n    \"It would be useful as part of a medical case record or historical clinical documentation.\",\n    \"It would be useful if the speaker is establishing baseline information before describing a treatment plan or behavioral intervention.\",\n    \"It would be useful in a research or educational context discussing early 20th-century orthopedic or rehabilitative practice.\",\n    \"It would be useful if embedded in a broader narrative where subsequent statements constitute actual commitments.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It would be misleading if framed as a behavioral commitment, since it implies no intended action or value change.\",\n    \"It would be misleading if the date, child, or devices described are fabricated or inaccurate.\",\n    \"It would be misleading if used to imply the speaker took credit for the child's progress when the contrivances were provided by others.\",\n    \"It would be misleading if the description of the child 'walking pretty well' overstates the child's actual functional ability.\",\n    \"It would be misleading if the behavioral-commitment frame is used to extract false accountability or consent from the statement's original context.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning as a clinical or case-narrative observation, recording the initial presentation of a pediatric patient, not as a behavioral commitment. It is descriptive and historical in nature, documenting a specific event, its timing, and the physical aids used by the child.",
+    "implicit_claims": [
+      "A child exists and was brought to the speaker by a caregiver.",
+      "February 1915 is a meaningful and accurate timestamp for this event.",
+      "The child has a condition affecting normal gait or foot alignment.",
+      "The child's ability to walk is contingent on assistive devices.",
+      "The speaker is in a professional role (likely medical) that involves receiving and assessing patients.",
+      "Without the contrivances, the child's walking would be impaired or different.",
+      "The two contrivances are effective enough to enable functional ambulation."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a clinical observation but is entirely incoherent as a behavioral commitment. It contains no expression of intent, value, or planned action. It describes a past event in third-person clinical language, which is categorically misaligned with the behavioral-commitment frame imposed on it.",
+    "conditions_for_usefulness": [
+      "It would be useful as part of a medical case record or historical clinical documentation.",
+      "It would be useful if the speaker is establishing baseline information before describing a treatment plan or behavioral intervention.",
+      "It would be useful in a research or educational context discussing early 20th-century orthopedic or rehabilitative practice.",
+      "It would be useful if embedded in a broader narrative where subsequent statements constitute actual commitments."
+    ],
+    "conditions_for_misleading": [
+      "It would be misleading if framed as a behavioral commitment, since it implies no intended action or value change.",
+      "It would be misleading if the date, child, or devices described are fabricated or inaccurate.",
+      "It would be misleading if used to imply the speaker took credit for the child's progress when the contrivances were provided by others.",
+      "It would be misleading if the description of the child 'walking pretty well' overstates the child's actual functional ability.",
+      "It would be misleading if the behavioral-commitment frame is used to extract false accountability or consent from the statement's original context."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 551,
+  "error": "",
+  "retry_count": 0
+}

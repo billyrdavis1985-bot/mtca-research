@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0002__F0_neutral__grok_4",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:01:19.315113+00:00",
+  "wall_clock_seconds": 9.633732318878174,
+  "raw_response": "{\n  \"communicative_function\": \"Declarative affirmation of a personal commitment or decision, typically functioning as a step in a recovery or spiritual program.\",\n  \"implicit_claims\": [\n    \"A higher power (God) exists and is capable of providing care\",\n    \"Individuals possess a 'will' and 'lives' that can be voluntarily surrendered\",\n    \"Understanding of God is subjective and valid in varied forms\",\n    \"Such surrender is a deliberate, achievable choice\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a statement of intent; no logical contradictions within its own framing, though it relies on undefined terms like 'God as we understood Him'.\",\n  \"conditions_for_usefulness\": \"The individual accepts the premise of a higher power, the statement occurs in a supportive recovery context, and it promotes reduced self-will in a psychologically beneficial way.\",\n  \"conditions_for_misleading\": \"It is presented as an objective requirement for recovery, implies guaranteed divine intervention, or is used to justify avoidance of personal agency or evidence-based action.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Declarative affirmation of a personal commitment or decision, typically functioning as a step in a recovery or spiritual program.",
+    "implicit_claims": [
+      "A higher power (God) exists and is capable of providing care",
+      "Individuals possess a 'will' and 'lives' that can be voluntarily surrendered",
+      "Understanding of God is subjective and valid in varied forms",
+      "Such surrender is a deliberate, achievable choice"
+    ],
+    "coherence_assessment": "Internally coherent as a statement of intent; no logical contradictions within its own framing, though it relies on undefined terms like 'God as we understood Him'.",
+    "conditions_for_usefulness": "The individual accepts the premise of a higher power, the statement occurs in a supportive recovery context, and it promotes reduced self-will in a psychologically beneficial way.",
+    "conditions_for_misleading": "It is presented as an objective requirement for recovery, implies guaranteed divine intervention, or is used to justify avoidance of personal agency or evidence-based action."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 262,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0
+}

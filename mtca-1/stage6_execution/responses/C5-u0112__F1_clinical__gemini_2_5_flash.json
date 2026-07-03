@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0112__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:17:16.261132+00:00",
+  "wall_clock_seconds": 10.535805225372314,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To establish and emphasize a direct mind-body connection, serving as a self-statement intended to motivate awareness and action regarding the impact of one's psychological state on physical well-being. It frames negative thought patterns as having observable, undesirable physical manifestations, thereby encouraging introspection and intervention.\",\n  \"implicit_claims\": [\n    \"There is a direct and significant causal link between one's mental state (specifically 'thoughts') and one's physical health or expression ('body').\",\n    \"Thoughts possess an agency or power to manifest physically.\",\n    \"Negative or unhealthy thought patterns ('sickly thoughts') exist.\",\n    \"Physical illness or undesirable bodily states ('sickly body') can be a direct expression or consequence of these negative thought patterns.\",\n    \"Improving one's thoughts can lead to improvements in one's physical health.\",\n    \"The mind and body are intrinsically linked and influence each other significantly.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It uses a consistent metaphor ('sickly') to draw a direct, parallel relationship between the state of one's thoughts and the state of one's body, positing a clear expressive link from the former to the latter. The language is assertive and leaves little ambiguity about the proposed connection.\",\n  \"conditions_for_usefulness\": [\n    \"When a client struggles to acknowledge or connect their psychological distress (e.g., chronic stress, anxiety, negative rumination) with their physical symptoms (e.g., tension headaches, IBS, fatigue, muscle pain).\",\n    \"To motivate a client to engage in mental health interventions (e.g., cognitive behavioral therapy, mindfulness, stress reduction techniques) by framing psychological work as beneficial for overall physical health.\",\n    \"In contexts where psychosomatic symptoms are present, and psychological factors are a significant contributing or exacerbating factor to physical ailments.\",\n    \"To encourage a holistic approach to health that includes mental hygiene and emotional regulation as key components of physical well-being.\",\n    \"To empower clients to take agency over their health by recognizing the influence of their internal mental landscape.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as solely attributing all physical illnesses (especially severe, chronic, genetic, or infectious diseases) to one's thoughts, potentially leading to victim-blaming, guilt, or shame for individuals experiencing conditions largely independent of their current psychological state.\",\n    \"If it discourages seeking appropriate medical care for physical symptoms by implying that only mental work is needed to resolve a physical ailment.\",\n    \"If it oversimplifies the complex and multifactorial nature of most physical illnesses, which often involve genetic predispositions, environmental factors, pathogens, and lifestyle choices beyond mental states.\",\n    \"If it creates unrealistic expectations that 'healthy thoughts' can prevent or cure all physical ailments, potentially leading to disillusionment or self-blame when physical health challenges persist.\",\n    \"For individuals who have experienced physical trauma, abuse, or conditions where their agency over their physical state is limited, as it could be perceived as invalidating their experience or placing undue burden on them.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To establish and emphasize a direct mind-body connection, serving as a self-statement intended to motivate awareness and action regarding the impact of one's psychological state on physical well-being. It frames negative thought patterns as having observable, undesirable physical manifestations, thereby encouraging introspection and intervention.",
+    "implicit_claims": [
+      "There is a direct and significant causal link between one's mental state (specifically 'thoughts') and one's physical health or expression ('body').",
+      "Thoughts possess an agency or power to manifest physically.",
+      "Negative or unhealthy thought patterns ('sickly thoughts') exist.",
+      "Physical illness or undesirable bodily states ('sickly body') can be a direct expression or consequence of these negative thought patterns.",
+      "Improving one's thoughts can lead to improvements in one's physical health.",
+      "The mind and body are intrinsically linked and influence each other significantly."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It uses a consistent metaphor ('sickly') to draw a direct, parallel relationship between the state of one's thoughts and the state of one's body, positing a clear expressive link from the former to the latter. The language is assertive and leaves little ambiguity about the proposed connection.",
+    "conditions_for_usefulness": [
+      "When a client struggles to acknowledge or connect their psychological distress (e.g., chronic stress, anxiety, negative rumination) with their physical symptoms (e.g., tension headaches, IBS, fatigue, muscle pain).",
+      "To motivate a client to engage in mental health interventions (e.g., cognitive behavioral therapy, mindfulness, stress reduction techniques) by framing psychological work as beneficial for overall physical health.",
+      "In contexts where psychosomatic symptoms are present, and psychological factors are a significant contributing or exacerbating factor to physical ailments.",
+      "To encourage a holistic approach to health that includes mental hygiene and emotional regulation as key components of physical well-being.",
+      "To empower clients to take agency over their health by recognizing the influence of their internal mental landscape."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as solely attributing all physical illnesses (especially severe, chronic, genetic, or infectious diseases) to one's thoughts, potentially leading to victim-blaming, guilt, or shame for individuals experiencing conditions largely independent of their current psychological state.",
+      "If it discourages seeking appropriate medical care for physical symptoms by implying that only mental work is needed to resolve a physical ailment.",
+      "If it oversimplifies the complex and multifactorial nature of most physical illnesses, which often involve genetic predispositions, environmental factors, pathogens, and lifestyle choices beyond mental states.",
+      "If it creates unrealistic expectations that 'healthy thoughts' can prevent or cure all physical ailments, potentially leading to disillusionment or self-blame when physical health challenges persist.",
+      "For individuals who have experienced physical trauma, abuse, or conditions where their agency over their physical state is limited, as it could be perceived as invalidating their experience or placing undue burden on them."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 672,
+  "error": "",
+  "retry_count": 0
+}

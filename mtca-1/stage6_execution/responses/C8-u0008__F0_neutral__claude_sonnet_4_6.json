@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0008__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:30:44.222164+00:00",
+  "wall_clock_seconds": 12.715089082717896,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a self-declarative and self-regulatory function — it asserts a commitment to volitional action while simultaneously acknowledging an internal emotional lag. It may also serve as self-encouragement or justification for current behavior.\",\n  \"implicit_claims\": [\n    \"The speaker has identifiable values that are distinct from their current emotional state.\",\n    \"Values and feelings can come apart — they are treated as separate motivational sources.\",\n    \"Feelings are expected to 'catch up' eventually, implying they will align with the values in the future.\",\n    \"Choosing to act in accordance with values is possible even without emotional support for that action.\",\n    \"The speaker has sufficient self-awareness to distinguish their values from their feelings.\",\n    \"Acting ahead of one's feelings is a legitimate or even praiseworthy mode of behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not contradict itself and reflects a well-established psychological and philosophical distinction between affect and volition. The framing is consistent with concepts like cognitive-behavioral therapy, virtue ethics, and Acceptance and Commitment Therapy (ACT). No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker's stated values are genuinely their own and not externally imposed or rationalized post-hoc.\",\n    \"The emotional lag is temporary and situational, not a signal of deeper misalignment or suppressed wellbeing.\",\n    \"The action being taken is not harmful to the speaker or others.\",\n    \"The speaker is using the statement as motivation rather than as a mechanism to dismiss or bypass important emotional information.\",\n    \"There is a realistic expectation that feelings will eventually align, or that acting without alignment is sustainable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' invoked are actually externalized norms, social pressure, or internalized obligations rather than authentic personal values.\",\n    \"The emotional resistance is a meaningful signal — e.g., fear, grief, or moral discomfort — that should not be bypassed.\",\n    \"The statement is used to suppress or pathologize legitimate negative emotions rather than acknowledge them.\",\n    \"Feelings never 'catch up,' indicating the action may be chronically misaligned with the speaker's deeper needs.\",\n    \"The statement is used to justify harmful or coercive behavior under the guise of values-based action.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-declarative and self-regulatory function — it asserts a commitment to volitional action while simultaneously acknowledging an internal emotional lag. It may also serve as self-encouragement or justification for current behavior.",
+    "implicit_claims": [
+      "The speaker has identifiable values that are distinct from their current emotional state.",
+      "Values and feelings can come apart — they are treated as separate motivational sources.",
+      "Feelings are expected to 'catch up' eventually, implying they will align with the values in the future.",
+      "Choosing to act in accordance with values is possible even without emotional support for that action.",
+      "The speaker has sufficient self-awareness to distinguish their values from their feelings.",
+      "Acting ahead of one's feelings is a legitimate or even praiseworthy mode of behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not contradict itself and reflects a well-established psychological and philosophical distinction between affect and volition. The framing is consistent with concepts like cognitive-behavioral therapy, virtue ethics, and Acceptance and Commitment Therapy (ACT). No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker's stated values are genuinely their own and not externally imposed or rationalized post-hoc.",
+      "The emotional lag is temporary and situational, not a signal of deeper misalignment or suppressed wellbeing.",
+      "The action being taken is not harmful to the speaker or others.",
+      "The speaker is using the statement as motivation rather than as a mechanism to dismiss or bypass important emotional information.",
+      "There is a realistic expectation that feelings will eventually align, or that acting without alignment is sustainable."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' invoked are actually externalized norms, social pressure, or internalized obligations rather than authentic personal values.",
+      "The emotional resistance is a meaningful signal — e.g., fear, grief, or moral discomfort — that should not be bypassed.",
+      "The statement is used to suppress or pathologize legitimate negative emotions rather than acknowledge them.",
+      "Feelings never 'catch up,' indicating the action may be chronically misaligned with the speaker's deeper needs.",
+      "The statement is used to justify harmful or coercive behavior under the guise of values-based action."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 558,
+  "error": "",
+  "retry_count": 0
+}

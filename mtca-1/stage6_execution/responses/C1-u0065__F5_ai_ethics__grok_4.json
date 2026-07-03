@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0065__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:11:27.010452+00:00",
+  "wall_clock_seconds": 5.104945182800293,
+  "raw_response": "{\n  \"communicative_function\": \"assertive description of human behavioral tendency, framed as a cautionary observation about conformity\",\n  \"implicit_claims\": [\n    \"human conformity to others' examples occurs involuntarily and irresistibly\",\n    \"people lack accurate self-perception of their own agency in such cases\",\n    \"this sheep-like behavior is a fundamental, general trait of human nature\",\n    \"the tendency is automatic rather than chosen or deliberative\"\n  ],\n  \"coherence_assessment\": \"internally consistent as metaphor but contains mild tension between 'irresistibly impelled' (deterministic) and 'imagining' (suggesting some residual metacognition)\",\n  \"conditions_for_usefulness\": \"the claim must accurately capture a widespread, modifiable bias that AI systems could detect or counteract without introducing new conformity pressures\",\n  \"conditions_for_misleading\": \"human agency is substantially greater than described, cultural or situational factors dominate over the alleged involuntary mechanism, or the statement is treated as an immutable law rather than a tendency\"\n}",
+  "parsed_json": {
+    "communicative_function": "assertive description of human behavioral tendency, framed as a cautionary observation about conformity",
+    "implicit_claims": [
+      "human conformity to others' examples occurs involuntarily and irresistibly",
+      "people lack accurate self-perception of their own agency in such cases",
+      "this sheep-like behavior is a fundamental, general trait of human nature",
+      "the tendency is automatic rather than chosen or deliberative"
+    ],
+    "coherence_assessment": "internally consistent as metaphor but contains mild tension between 'irresistibly impelled' (deterministic) and 'imagining' (suggesting some residual metacognition)",
+    "conditions_for_usefulness": "the claim must accurately capture a widespread, modifiable bias that AI systems could detect or counteract without introducing new conformity pressures",
+    "conditions_for_misleading": "human agency is substantially greater than described, cultural or situational factors dominate over the alleged involuntary mechanism, or the statement is treated as an immutable law rather than a tendency"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 297,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:23:47.199954+00:00",
+  "wall_clock_seconds": 6.051180124282837,
+  "raw_response": "{\n  \"communicative_function\": \"providing procedural guidance on the frequency and spacing of therapeutic suggestions\",\n  \"implicit_claims\": [\n    \"suggestions form part of an ongoing treatment process that requires periodic renewal\",\n    \"progress in treatment can be reliably assessed to adjust suggestion intervals\",\n    \"a definitive endpoint exists at which the cure is complete and suggestions become unnecessary\",\n    \"the same tapering protocol applies universally across all subjects/cases\"\n  ],\n  \"coherence_assessment\": \"internally consistent as instructional advice; the logic of progressive spacing leading to discontinuation follows a clear tapering rationale without internal contradictions\",\n  \"conditions_for_usefulness\": \"the described method must correspond to an effective, evidence-based therapeutic technique; the practitioner must be able to accurately judge progress and completion; the subject must respond to suggestions in the manner assumed\",\n  \"conditions_for_misleading\": \"the technique lacks empirical support or the claimed cure endpoint does not exist; progress cannot be objectively measured; suggestions are applied in a non-therapeutic or harmful context\"\n}",
+  "parsed_json": {
+    "communicative_function": "providing procedural guidance on the frequency and spacing of therapeutic suggestions",
+    "implicit_claims": [
+      "suggestions form part of an ongoing treatment process that requires periodic renewal",
+      "progress in treatment can be reliably assessed to adjust suggestion intervals",
+      "a definitive endpoint exists at which the cure is complete and suggestions become unnecessary",
+      "the same tapering protocol applies universally across all subjects/cases"
+    ],
+    "coherence_assessment": "internally consistent as instructional advice; the logic of progressive spacing leading to discontinuation follows a clear tapering rationale without internal contradictions",
+    "conditions_for_usefulness": "the described method must correspond to an effective, evidence-based therapeutic technique; the practitioner must be able to accurately judge progress and completion; the subject must respond to suggestions in the manner assumed",
+    "conditions_for_misleading": "the technique lacks empirical support or the claimed cure endpoint does not exist; progress cannot be objectively measured; suggestions are applied in a non-therapeutic or harmful context"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 306,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

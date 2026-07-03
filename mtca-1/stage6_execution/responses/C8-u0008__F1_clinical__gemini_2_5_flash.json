@@ -1,0 +1,52 @@
+{
+  "call_id": "C8-u0008__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:31:39.883272+00:00",
+  "wall_clock_seconds": 10.344773530960083,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-directive, a commitment, and a cognitive reframe. It aims to empower the individual to prioritize values-driven action over immediate emotional states, acknowledge internal conflict, and affirm personal agency in navigating that conflict.\",\n  \"implicit_claims\": [\n    \"I have agency and the capacity to choose my actions.\",\n    \"I possess clearly defined and understood values that can guide my behavior.\",\n    \"My feelings are distinct from my actions and do not necessarily dictate them.\",\n    \"My feelings can, at times, be misaligned with my values or desired actions.\",\n    \"It is possible and sometimes necessary to act despite uncomfortable or unaligned feelings.\",\n    \"Acting in line with values is a desirable and beneficial goal.\",\n    \"My feelings may eventually align with my values-consistent actions, suggesting a dynamic relationship between behavior and emotion.\",\n    \"There is a 'self' that observes feelings and makes choices, distinct from the feelings themselves.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly articulates a common psychological experience (discrepancy between feelings and values) and proposes a consistent strategy (choosing values-aligned action regardless of feelings). It acknowledges internal conflict without negating the possibility of intentional action.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuinely identified and internalized their core values.\",\n    \"The individual believes in their capacity for choice and self-efficacy.\",\n    \"The individual can tolerate uncomfortable emotions that arise from acting against immediate feelings.\",\n    \"The 'feelings that have not yet caught up' are not signals of genuine danger, necessary rest, or important intuition that should be heeded.\",\n    \"The individual is operating from a place of genuine self-compassion, rather than self-criticism, when making this choice.\",\n    \"The chosen action is genuinely in service of wellbeing and growth, not self-punishment or an unrealistic standard.\",\n    \"The individual understands that feelings 'catching up' is not guaranteed or immediate, and the value is in the action itself.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual's 'values' are unexamined, externally imposed, or not truly their own, leading to acting against genuine self-interest or wellbeing.\",\n    \"The statement is used to pathologize or suppress valid emotional signals (e.g., ignoring anxiety as a sign of burnout, dismissing fear in genuinely dangerous situations).\",\n    \"The individual lacks genuine agency or is experiencing severe mental health challenges (e.g., severe depression, trauma response) that significantly impair their capacity for choice, leading to self-blame.\",\n    \"The statement fosters emotional invalidation, leading the individual to believe their feelings are always 'wrong' or should be ignored.\",\n    \"It promotes rigidity or perfectionism, where any deviation from values-based action is seen as a failure, rather than an opportunity for learning.\",\n    \"The chosen 'value-aligned' action is self-destructive, unrealistic, or harmful, perhaps driven by distorted beliefs or external pressure.\",\n    \"The statement is used to avoid processing underlying emotional issues that contribute to the feelings being 'out of sync'.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directive, a commitment, and a cognitive reframe. It aims to empower the individual to prioritize values-driven action over immediate emotional states, acknowledge internal conflict, and affirm personal agency in navigating that conflict.",
+    "implicit_claims": [
+      "I have agency and the capacity to choose my actions.",
+      "I possess clearly defined and understood values that can guide my behavior.",
+      "My feelings are distinct from my actions and do not necessarily dictate them.",
+      "My feelings can, at times, be misaligned with my values or desired actions.",
+      "It is possible and sometimes necessary to act despite uncomfortable or unaligned feelings.",
+      "Acting in line with values is a desirable and beneficial goal.",
+      "My feelings may eventually align with my values-consistent actions, suggesting a dynamic relationship between behavior and emotion.",
+      "There is a 'self' that observes feelings and makes choices, distinct from the feelings themselves."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly articulates a common psychological experience (discrepancy between feelings and values) and proposes a consistent strategy (choosing values-aligned action regardless of feelings). It acknowledges internal conflict without negating the possibility of intentional action.",
+    "conditions_for_usefulness": [
+      "The individual has genuinely identified and internalized their core values.",
+      "The individual believes in their capacity for choice and self-efficacy.",
+      "The individual can tolerate uncomfortable emotions that arise from acting against immediate feelings.",
+      "The 'feelings that have not yet caught up' are not signals of genuine danger, necessary rest, or important intuition that should be heeded.",
+      "The individual is operating from a place of genuine self-compassion, rather than self-criticism, when making this choice.",
+      "The chosen action is genuinely in service of wellbeing and growth, not self-punishment or an unrealistic standard.",
+      "The individual understands that feelings 'catching up' is not guaranteed or immediate, and the value is in the action itself."
+    ],
+    "conditions_for_misleading": [
+      "The individual's 'values' are unexamined, externally imposed, or not truly their own, leading to acting against genuine self-interest or wellbeing.",
+      "The statement is used to pathologize or suppress valid emotional signals (e.g., ignoring anxiety as a sign of burnout, dismissing fear in genuinely dangerous situations).",
+      "The individual lacks genuine agency or is experiencing severe mental health challenges (e.g., severe depression, trauma response) that significantly impair their capacity for choice, leading to self-blame.",
+      "The statement fosters emotional invalidation, leading the individual to believe their feelings are always 'wrong' or should be ignored.",
+      "It promotes rigidity or perfectionism, where any deviation from values-based action is seen as a failure, rather than an opportunity for learning.",
+      "The chosen 'value-aligned' action is self-destructive, unrealistic, or harmful, perhaps driven by distorted beliefs or external pressure.",
+      "The statement is used to avoid processing underlying emotional issues that contribute to the feelings being 'out of sync'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 697,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0079__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:00:16.712697+00:00",
+  "wall_clock_seconds": 11.429572820663452,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive assertion, establishing a universal causal link between 'wrong thought' and 'suffering.' As a therapeutic intention, it aims to reframe the individual's understanding of their suffering, empowering them by locating its source within their cognitive control and thereby directing them toward internal reflection and cognitive modification as the primary means of alleviation.\",\n  \"implicit_claims\": [\n    \"Suffering is universally and exclusively an effect of one's own cognitive processes (thoughts).\",\n    \"There is a clear, identifiable distinction between 'right' and 'wrong' thought.\",\n    \"Individuals possess ultimate agency and responsibility for their suffering through the management of their thoughts.\",\n    \"Suffering is inherently modifiable and reducible by correcting 'wrong thought.'\",\n    \"Thought is the primary or sole determinant of emotional and experiential states (specifically, suffering).\",\n    \"External circumstances, biological factors, or systemic issues are not primary or independent causes of suffering, or they only cause suffering *through* the mediation of 'wrong thought.'\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits internal coherence within its own defined premise. If one accepts the absolute premise that 'suffering is *always* the effect of wrong thought,' then the conclusion follows logically. It presents a clear, albeit highly generalized, cause-effect principle. Its coherence rests entirely on the unquestioned acceptance of its universal claim.\",\n  \"conditions_for_usefulness\": [\n    \"The individual's suffering is primarily driven by maladaptive cognitive patterns (e.g., rumination, catastrophic thinking, cognitive distortions) that are amenable to reframing.\",\n    \"It genuinely empowers the individual by fostering a sense of agency and internal locus of control over their emotional experience.\",\n    \"It directs focus toward actionable cognitive restructuring techniques, such as those found in Cognitive Behavioral Therapy (CBT) or Stoic philosophy.\",\n    \"The individual is experiencing distress that is within their capacity to manage cognitively without external support or significant environmental change.\",\n    \"The statement is applied in contexts where external circumstances (e.g., grief, injustice, physical pain) are not being dismissed or pathologized as 'wrong thought,' but rather where the *response* to those circumstances might involve unhelpful thought patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When suffering is primarily caused by external, systemic factors (e.g., poverty, abuse, discrimination, war, loss, illness) that cannot be 'thought away' or are beyond individual cognitive control, leading to victim-blaming or self-blame.\",\n    \"When suffering has significant biological, neurological, or physiological underpinnings (e.g., severe mental illness like schizophrenia or bipolar disorder, chronic pain conditions) that are not solely attributable to 'wrong thought.'\",\n    \"When it pathologizes natural and adaptive emotional responses such as grief, sadness, or appropriate anger in response to injustice, labeling them as 'wrong thought.'\",\n    \"When it leads to suppression or denial of valid emotional experiences rather than healthy processing and acceptance.\",\n    \"When it creates an unrealistic expectation that all suffering can be eliminated through thought correction, potentially leading to increased shame or feelings of failure if relief is not achieved.\",\n    \"When it diverts attention from necessary behavioral changes, seeking external support, or addressing environmental or systemic injustices, by exclusively focusing on internal thought processes.\",\n    \"When the definition of 'wrong thought' becomes overly judgmental or broad, increasing self-criticism rather than fostering self-compassion.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive assertion, establishing a universal causal link between 'wrong thought' and 'suffering.' As a therapeutic intention, it aims to reframe the individual's understanding of their suffering, empowering them by locating its source within their cognitive control and thereby directing them toward internal reflection and cognitive modification as the primary means of alleviation.",
+    "implicit_claims": [
+      "Suffering is universally and exclusively an effect of one's own cognitive processes (thoughts).",
+      "There is a clear, identifiable distinction between 'right' and 'wrong' thought.",
+      "Individuals possess ultimate agency and responsibility for their suffering through the management of their thoughts.",
+      "Suffering is inherently modifiable and reducible by correcting 'wrong thought.'",
+      "Thought is the primary or sole determinant of emotional and experiential states (specifically, suffering).",
+      "External circumstances, biological factors, or systemic issues are not primary or independent causes of suffering, or they only cause suffering *through* the mediation of 'wrong thought.'"
+    ],
+    "coherence_assessment": "The statement exhibits internal coherence within its own defined premise. If one accepts the absolute premise that 'suffering is *always* the effect of wrong thought,' then the conclusion follows logically. It presents a clear, albeit highly generalized, cause-effect principle. Its coherence rests entirely on the unquestioned acceptance of its universal claim.",
+    "conditions_for_usefulness": [
+      "The individual's suffering is primarily driven by maladaptive cognitive patterns (e.g., rumination, catastrophic thinking, cognitive distortions) that are amenable to reframing.",
+      "It genuinely empowers the individual by fostering a sense of agency and internal locus of control over their emotional experience.",
+      "It directs focus toward actionable cognitive restructuring techniques, such as those found in Cognitive Behavioral Therapy (CBT) or Stoic philosophy.",
+      "The individual is experiencing distress that is within their capacity to manage cognitively without external support or significant environmental change.",
+      "The statement is applied in contexts where external circumstances (e.g., grief, injustice, physical pain) are not being dismissed or pathologized as 'wrong thought,' but rather where the *response* to those circumstances might involve unhelpful thought patterns."
+    ],
+    "conditions_for_misleading": [
+      "When suffering is primarily caused by external, systemic factors (e.g., poverty, abuse, discrimination, war, loss, illness) that cannot be 'thought away' or are beyond individual cognitive control, leading to victim-blaming or self-blame.",
+      "When suffering has significant biological, neurological, or physiological underpinnings (e.g., severe mental illness like schizophrenia or bipolar disorder, chronic pain conditions) that are not solely attributable to 'wrong thought.'",
+      "When it pathologizes natural and adaptive emotional responses such as grief, sadness, or appropriate anger in response to injustice, labeling them as 'wrong thought.'",
+      "When it leads to suppression or denial of valid emotional experiences rather than healthy processing and acceptance.",
+      "When it creates an unrealistic expectation that all suffering can be eliminated through thought correction, potentially leading to increased shame or feelings of failure if relief is not achieved.",
+      "When it diverts attention from necessary behavioral changes, seeking external support, or addressing environmental or systemic injustices, by exclusively focusing on internal thought processes.",
+      "When the definition of 'wrong thought' becomes overly judgmental or broad, increasing self-criticism rather than fostering self-compassion."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 759,
+  "error": "",
+  "retry_count": 0
+}

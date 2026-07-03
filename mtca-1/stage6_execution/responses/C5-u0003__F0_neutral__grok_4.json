@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0003__F0_neutral__grok_4",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:54:44.864980+00:00",
+  "wall_clock_seconds": 4.617969512939453,
+  "raw_response": "{\n  \"communicative_function\": \"assertive philosophical claim emphasizing self-determination and personal agency\",\n  \"implicit_claims\": [\"individuals possess significant control over their own identity and development\", \"external factors do not wholly determine who a person becomes\", \"self-creation is possible through choices and actions\"],\n  \"coherence_assessment\": \"internally coherent as metaphor but logically circular since self-making presupposes an existing self\",\n  \"conditions_for_usefulness\": \"context of motivation or ethics where highlighting agency encourages responsibility without denying all external influences\",\n  \"conditions_for_misleading\": \"when interpreted literally to imply complete autonomy or to dismiss structural, genetic, or environmental constraints\"\n}",
+  "parsed_json": {
+    "communicative_function": "assertive philosophical claim emphasizing self-determination and personal agency",
+    "implicit_claims": [
+      "individuals possess significant control over their own identity and development",
+      "external factors do not wholly determine who a person becomes",
+      "self-creation is possible through choices and actions"
+    ],
+    "coherence_assessment": "internally coherent as metaphor but logically circular since self-making presupposes an existing self",
+    "conditions_for_usefulness": "context of motivation or ethics where highlighting agency encourages responsibility without denying all external influences",
+    "conditions_for_misleading": "when interpreted literally to imply complete autonomy or to dismiss structural, genetic, or environmental constraints"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 249,
+  "output_tokens": 136,
+  "error": "",
+  "retry_count": 0
+}

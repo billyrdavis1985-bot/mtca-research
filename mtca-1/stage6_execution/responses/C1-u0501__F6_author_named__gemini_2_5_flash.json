@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0501__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:44:21.145751+00:00",
+  "wall_clock_seconds": 7.160251140594482,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To document the initial condition of a patient (a child) at their first visit, noting their mobility and the external aids used. It serves as a baseline observation for a case study or demonstration of a therapeutic method.\",\n  \"implicit_claims\": [\n    \"Émile Coué is a practitioner who treats patients.\",\n    \"The child has a physical condition affecting their ability to walk normally, necessitating mechanical aids.\",\n    \"The 'contrivances' are effective to some extent, allowing the child to walk 'pretty well'.\",\n    \"The statement is a factual report of an observation made on a specific date (February 1915).\",\n    \"The 'contrivances' are currently essential for the child's level of mobility.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly links the child's ability to walk 'pretty well' to the function of the 'contrivances which hold his feet straight,' providing a logical cause-and-effect relationship for the described condition.\",\n  \"conditions_for_usefulness\": [\n    \"The factual details (date, child's condition, existence and function of the contrivances) are accurate.\",\n    \"This initial observation is part of a larger narrative or case study, providing a baseline against which future progress or the effects of intervention (e.g., autosuggestion) can be measured.\",\n    \"Coué is a reliable observer and documenter of physical conditions.\",\n    \"The statement helps to illustrate the starting point of a patient's journey, especially if the subsequent treatment aims to reduce reliance on such aids.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The description of the child's walking ability or the effectiveness of the contrivances is inaccurate or exaggerated.\",\n    \"Crucial context regarding the child's full medical history, previous treatments, or underlying prognosis is omitted.\",\n    \"The statement is used to frame the initial condition in a way that magnifies the perceived severity, thereby making any subsequent 'improvement' (attributed to Coué's methods) seem more dramatic than it genuinely was.\",\n    \"The contrivances were not actually effective, or the child's 'pretty well' walking was despite them, not 'thanks to' them.\",\n    \"The statement is presented without follow-up information, leading to assumptions about the child's ultimate outcome or the necessity of Coué's intervention.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To document the initial condition of a patient (a child) at their first visit, noting their mobility and the external aids used. It serves as a baseline observation for a case study or demonstration of a therapeutic method.",
+    "implicit_claims": [
+      "Émile Coué is a practitioner who treats patients.",
+      "The child has a physical condition affecting their ability to walk normally, necessitating mechanical aids.",
+      "The 'contrivances' are effective to some extent, allowing the child to walk 'pretty well'.",
+      "The statement is a factual report of an observation made on a specific date (February 1915).",
+      "The 'contrivances' are currently essential for the child's level of mobility."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly links the child's ability to walk 'pretty well' to the function of the 'contrivances which hold his feet straight,' providing a logical cause-and-effect relationship for the described condition.",
+    "conditions_for_usefulness": [
+      "The factual details (date, child's condition, existence and function of the contrivances) are accurate.",
+      "This initial observation is part of a larger narrative or case study, providing a baseline against which future progress or the effects of intervention (e.g., autosuggestion) can be measured.",
+      "Coué is a reliable observer and documenter of physical conditions.",
+      "The statement helps to illustrate the starting point of a patient's journey, especially if the subsequent treatment aims to reduce reliance on such aids."
+    ],
+    "conditions_for_misleading": [
+      "The description of the child's walking ability or the effectiveness of the contrivances is inaccurate or exaggerated.",
+      "Crucial context regarding the child's full medical history, previous treatments, or underlying prognosis is omitted.",
+      "The statement is used to frame the initial condition in a way that magnifies the perceived severity, thereby making any subsequent 'improvement' (attributed to Coué's methods) seem more dramatic than it genuinely was.",
+      "The contrivances were not actually effective, or the child's 'pretty well' walking was despite them, not 'thanks to' them.",
+      "The statement is presented without follow-up information, leading to assumptions about the child's ultimate outcome or the necessity of Coué's intervention."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 538,
+  "error": "",
+  "retry_count": 0
+}

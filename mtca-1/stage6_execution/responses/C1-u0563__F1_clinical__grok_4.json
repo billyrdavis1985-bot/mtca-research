@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0563__F1_clinical__grok_4",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:46:20.735132+00:00",
+  "wall_clock_seconds": 6.649743556976318,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a causal technique and prescribing repeated mental imagery as a method to determine fetal sex and traits\",\n  \"implicit_claims\": [\n    \"maternal visualization during early gestation can determine the biological sex of the fetus\",\n    \"consistent mental imagery can directly shape the child's physical and moral characteristics\",\n    \"the effect operates through sustained impression of a desired image on the mother's mind\",\n    \"this process is reliable and operates as described in 'sober truth'\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive causal claim but relies on an unstated and biologically implausible mechanism linking sustained mental imagery to genomic and developmental outcomes\",\n  \"conditions_for_usefulness\": \"the visualization practice produces ancillary benefits such as reduced maternal anxiety, improved health behaviors, or enhanced maternal-fetal bonding irrespective of any direct effect on fetal traits\",\n  \"conditions_for_misleading\": \"recipients treat the claim as factual, leading to false expectations about controlling offspring sex or traits, subsequent self-blame, or displacement of evidence-based prenatal care\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a causal technique and prescribing repeated mental imagery as a method to determine fetal sex and traits",
+    "implicit_claims": [
+      "maternal visualization during early gestation can determine the biological sex of the fetus",
+      "consistent mental imagery can directly shape the child's physical and moral characteristics",
+      "the effect operates through sustained impression of a desired image on the mother's mind",
+      "this process is reliable and operates as described in 'sober truth'"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive causal claim but relies on an unstated and biologically implausible mechanism linking sustained mental imagery to genomic and developmental outcomes",
+    "conditions_for_usefulness": "the visualization practice produces ancillary benefits such as reduced maternal anxiety, improved health behaviors, or enhanced maternal-fetal bonding irrespective of any direct effect on fetal traits",
+    "conditions_for_misleading": "recipients treat the claim as factual, leading to false expectations about controlling offspring sex or traits, subsequent self-blame, or displacement of evidence-based prenatal care"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 336,
+  "output_tokens": 221,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0178__F4_poetic__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:16:20.958466+00:00",
+  "wall_clock_seconds": 7.169462203979492,
+  "raw_response": "{\n  \"communicative_function\": \"Evocatively reassuring the listener of a predictable, pleasurable daily rhythm of appetite and moderate eating through stylized affirmation.\",\n  \"implicit_claims\": [\"Hunger reliably occurs three times daily at conventional meal times\", \"Hunger manifests as an agreeable anticipatory sensation rather than discomfort\", \"Eating will be enjoyed in moderation without overindulgence\"],\n  \"coherence_assessment\": \"Internally consistent, presenting a closed, self-reinforcing cycle of sensation, anticipation, and moderated action with no internal contradictions.\",\n  \"conditions_for_usefulness\": \"The recipient values stylized, affirmative descriptions of ordinary bodily routines and seeks light reassurance about normal appetite patterns.\",\n  \"conditions_for_misleading\": \"If read as a factual prediction or binding promise rather than figurative evocation, especially for those with atypical eating schedules, disorders, or literal interpretive expectations.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Evocatively reassuring the listener of a predictable, pleasurable daily rhythm of appetite and moderate eating through stylized affirmation.",
+    "implicit_claims": [
+      "Hunger reliably occurs three times daily at conventional meal times",
+      "Hunger manifests as an agreeable anticipatory sensation rather than discomfort",
+      "Eating will be enjoyed in moderation without overindulgence"
+    ],
+    "coherence_assessment": "Internally consistent, presenting a closed, self-reinforcing cycle of sensation, anticipation, and moderated action with no internal contradictions.",
+    "conditions_for_usefulness": "The recipient values stylized, affirmative descriptions of ordinary bodily routines and seeks light reassurance about normal appetite patterns.",
+    "conditions_for_misleading": "If read as a factual prediction or binding promise rather than figurative evocation, especially for those with atypical eating schedules, disorders, or literal interpretive expectations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 344,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

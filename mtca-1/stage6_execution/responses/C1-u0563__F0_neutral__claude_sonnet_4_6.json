@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0563__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:45:24.012493+00:00",
+  "wall_clock_seconds": 13.252769947052002,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive empirical claim, presenting a causal mechanism as factual ('in sober truth') and instructing women on how to influence fetal development through maternal visualization and mental intention during pregnancy.\",\n  \"implicit_claims\": [\n    \"The mind of a pregnant woman can directly influence the biological development of a fetus.\",\n    \"Sex determination is malleable and can be shaped by maternal thought after conception.\",\n    \"Moral and physical traits of a child can be pre-programmed through sustained maternal mental imagery.\",\n    \"This mechanism is reliable and consistent enough to be prescribed as a method.\",\n    \"The mother bears responsibility for the traits and sex of the child based on her mental discipline.\",\n    \"There is a direct psychosomatic channel between maternal cognition and fetal development.\",\n    \"The framing 'in sober truth' implies this contradicts common assumption but is nonetheless factual.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent in its logic — it sets up a condition (mental imaging), a duration (gestation), and a claimed outcome (sex and traits). However, internal coherence does not confer factual accuracy. The causal mechanism proposed is unspecified and biologically implausible, making the coherence superficial rather than substantive.\",\n  \"conditions_for_usefulness\": [\n    \"If maternal mental states were demonstrated to influence gene expression or chromosomal sex determination.\",\n    \"If epigenetic research confirmed sustained cognitive states could reliably encode specific physical or moral traits.\",\n    \"If controlled studies showed statistically significant correlations between maternal visualization and child outcomes as described.\",\n    \"If a credible biological mechanism connecting thought to fetal sex determination were identified and validated.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If sex is determined at fertilization by chromosomal factors independent of maternal cognition, which is the established scientific consensus.\",\n    \"If no credible mechanism exists linking maternal visualization to fetal trait determination.\",\n    \"If women who follow this advice experience outcomes inconsistent with their visualizations, leading to false expectations.\",\n    \"If the claim induces guilt or blame in mothers for their child's traits or sex.\",\n    \"If the statement originates from or reinforces pseudoscientific or ideologically motivated frameworks rather than empirical inquiry.\",\n    \"If the authoritative framing ('in sober truth') causes readers to lower critical scrutiny of an unverified claim.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive empirical claim, presenting a causal mechanism as factual ('in sober truth') and instructing women on how to influence fetal development through maternal visualization and mental intention during pregnancy.",
+    "implicit_claims": [
+      "The mind of a pregnant woman can directly influence the biological development of a fetus.",
+      "Sex determination is malleable and can be shaped by maternal thought after conception.",
+      "Moral and physical traits of a child can be pre-programmed through sustained maternal mental imagery.",
+      "This mechanism is reliable and consistent enough to be prescribed as a method.",
+      "The mother bears responsibility for the traits and sex of the child based on her mental discipline.",
+      "There is a direct psychosomatic channel between maternal cognition and fetal development.",
+      "The framing 'in sober truth' implies this contradicts common assumption but is nonetheless factual."
+    ],
+    "coherence_assessment": "The statement is internally consistent in its logic — it sets up a condition (mental imaging), a duration (gestation), and a claimed outcome (sex and traits). However, internal coherence does not confer factual accuracy. The causal mechanism proposed is unspecified and biologically implausible, making the coherence superficial rather than substantive.",
+    "conditions_for_usefulness": [
+      "If maternal mental states were demonstrated to influence gene expression or chromosomal sex determination.",
+      "If epigenetic research confirmed sustained cognitive states could reliably encode specific physical or moral traits.",
+      "If controlled studies showed statistically significant correlations between maternal visualization and child outcomes as described.",
+      "If a credible biological mechanism connecting thought to fetal sex determination were identified and validated."
+    ],
+    "conditions_for_misleading": [
+      "If sex is determined at fertilization by chromosomal factors independent of maternal cognition, which is the established scientific consensus.",
+      "If no credible mechanism exists linking maternal visualization to fetal trait determination.",
+      "If women who follow this advice experience outcomes inconsistent with their visualizations, leading to false expectations.",
+      "If the claim induces guilt or blame in mothers for their child's traits or sex.",
+      "If the statement originates from or reinforces pseudoscientific or ideologically motivated frameworks rather than empirical inquiry.",
+      "If the authoritative framing ('in sober truth') causes readers to lower critical scrutiny of an unverified claim."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 216,
+  "output_tokens": 562,
+  "error": "",
+  "retry_count": 0
+}

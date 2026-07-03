@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0006__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:20:32.696864+00:00",
+  "wall_clock_seconds": 2.7967464923858643,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is a self-encouragement technique aimed at promoting positive behavior change by committing to face fears when evidence suggests benefits.\",\n  \"implicit_claims\": [\n    \"Confronting fear is sometimes necessary for personal growth.\",\n    \"Evidence is available and accessible to assess the potential benefits of actions.\",\n    \"Engaging in challenging activities can lead to positive outcomes.\",\n    \"Personal willingness can influence one's ability to change behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it clearly links the willingness to act despite fear with the presence of supportive evidence, forming a logical rationale for taking such actions.\",\n  \"conditions_for_usefulness\": [\n    \"The individual accurately identifies situations where evidence supports the positive outcome of their actions.\",\n    \"Reliable and relevant evidence is accessible to inform decision-making.\",\n    \"The individual is sincere in addressing their fears and is able to take calculated risks.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets or overestimates the available evidence supporting the action.\",\n    \"The evidence is insufficient or not applicable to the individual's specific context.\",\n    \"Inappropriate generalization of the statement leads to risky or harmful behaviors without proper risk assessment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is a self-encouragement technique aimed at promoting positive behavior change by committing to face fears when evidence suggests benefits.",
+    "implicit_claims": [
+      "Confronting fear is sometimes necessary for personal growth.",
+      "Evidence is available and accessible to assess the potential benefits of actions.",
+      "Engaging in challenging activities can lead to positive outcomes.",
+      "Personal willingness can influence one's ability to change behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it clearly links the willingness to act despite fear with the presence of supportive evidence, forming a logical rationale for taking such actions.",
+    "conditions_for_usefulness": [
+      "The individual accurately identifies situations where evidence supports the positive outcome of their actions.",
+      "Reliable and relevant evidence is accessible to inform decision-making.",
+      "The individual is sincere in addressing their fears and is able to take calculated risks."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets or overestimates the available evidence supporting the action.",
+      "The evidence is insufficient or not applicable to the individual's specific context.",
+      "Inappropriate generalization of the statement leads to risky or harmful behaviors without proper risk assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0
+}

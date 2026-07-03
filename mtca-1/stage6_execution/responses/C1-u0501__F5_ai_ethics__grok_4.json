@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:43:51.633906+00:00",
+  "wall_clock_seconds": 7.413992166519165,
+  "raw_response": "{\n  \"communicative_function\": \"reporting a specific historical medical observation of pediatric treatment\",\n  \"implicit_claims\": [\n    \"orthopedic contrivances can correct foot alignment and enable walking\",\n    \"professional medical intervention occurred at a defined historical moment\",\n    \"the child's condition was observable and treatable through mechanical means\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a concise clinical anecdote but lacks any normative or ethical framing\",\n  \"conditions_for_usefulness\": \"AI systems must be tasked with archival medical analysis, orthopedic device design, or pediatric mobility support, and the statement must be treated as domain-specific historical data rather than ethical guidance\",\n  \"conditions_for_misleading\": \"the statement is presented or interpreted as a general principle about human values instead of a narrow case report, leading AI designers to conflate technical description with ethical prescription\"\n}",
+  "parsed_json": {
+    "communicative_function": "reporting a specific historical medical observation of pediatric treatment",
+    "implicit_claims": [
+      "orthopedic contrivances can correct foot alignment and enable walking",
+      "professional medical intervention occurred at a defined historical moment",
+      "the child's condition was observable and treatable through mechanical means"
+    ],
+    "coherence_assessment": "internally coherent as a concise clinical anecdote but lacks any normative or ethical framing",
+    "conditions_for_usefulness": "AI systems must be tasked with archival medical analysis, orthopedic device design, or pediatric mobility support, and the statement must be treated as domain-specific historical data rather than ethical guidance",
+    "conditions_for_misleading": "the statement is presented or interpreted as a general principle about human values instead of a narrow case report, leading AI designers to conflate technical description with ethical prescription"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 296,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

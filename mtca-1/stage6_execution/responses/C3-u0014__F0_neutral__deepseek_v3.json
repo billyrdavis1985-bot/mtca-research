@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0014__F0_neutral__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:20:49.615568+00:00",
+  "wall_clock_seconds": 5.551677703857422,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making a moral and psychological comparison between two types of wrongdoing: anger and lust. It judges lust as more shameful and weak than anger, using contrast and evaluation to persuade the listener of a hierarchy of vices.\",\n  \"implicit_claims\": [\n    \"Anger involves a withdrawal from reason accompanied by grief and self-contraction.\",\n    \"Lust involves being overcome by pleasure, which is a more impotent and unmanly disposition.\",\n    \"There is a hierarchy of vices: lust is worse than anger in terms of self-control and masculinity.\",\n    \"Reason is a standard by which both emotions are measured, and both deviate from it.\",\n    \"The speaker assumes a gendered framework where 'unmanlike' is a negative trait.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that it consistently contrasts anger (grief, self-contraction, turning from reason) with lust (pleasure-overcome, impotent, unmanlike). The comparison relies on a shared baseline of reason, and the difference is clearly articulated.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts that reason is the proper guide for human behavior.\",\n    \"The audience shares the value that 'manliness' or strength of will is a virtue.\",\n    \"The distinction between anger and lust as separate vices is meaningful in the context.\",\n    \"The statement is used to guide moral judgment or self-reflection.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If anger and lust are actually more complex or context-dependent than the binary suggests.\",\n    \"If the moral hierarchy (lust worse than anger) is not justified by evidence or broader ethics.\",\n    \"If the gendered term 'unmanlike' is taken as objective rather than culturally biased.\",\n    \"If the statement is used to excuse anger as less blameworthy when it can be equally harmful.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making a moral and psychological comparison between two types of wrongdoing: anger and lust. It judges lust as more shameful and weak than anger, using contrast and evaluation to persuade the listener of a hierarchy of vices.",
+    "implicit_claims": [
+      "Anger involves a withdrawal from reason accompanied by grief and self-contraction.",
+      "Lust involves being overcome by pleasure, which is a more impotent and unmanly disposition.",
+      "There is a hierarchy of vices: lust is worse than anger in terms of self-control and masculinity.",
+      "Reason is a standard by which both emotions are measured, and both deviate from it.",
+      "The speaker assumes a gendered framework where 'unmanlike' is a negative trait."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that it consistently contrasts anger (grief, self-contraction, turning from reason) with lust (pleasure-overcome, impotent, unmanlike). The comparison relies on a shared baseline of reason, and the difference is clearly articulated.",
+    "conditions_for_usefulness": [
+      "The audience accepts that reason is the proper guide for human behavior.",
+      "The audience shares the value that 'manliness' or strength of will is a virtue.",
+      "The distinction between anger and lust as separate vices is meaningful in the context.",
+      "The statement is used to guide moral judgment or self-reflection."
+    ],
+    "conditions_for_misleading": [
+      "If anger and lust are actually more complex or context-dependent than the binary suggests.",
+      "If the moral hierarchy (lust worse than anger) is not justified by evidence or broader ethics.",
+      "If the gendered term 'unmanlike' is taken as objective rather than culturally biased.",
+      "If the statement is used to excuse anger as less blameworthy when it can be equally harmful."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 397,
+  "error": "",
+  "retry_count": 0
+}

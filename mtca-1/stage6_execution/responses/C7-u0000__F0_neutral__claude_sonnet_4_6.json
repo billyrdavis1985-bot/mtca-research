@@ -1,0 +1,47 @@
+{
+  "call_id": "C7-u0000__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:49:13.656127+00:00",
+  "wall_clock_seconds": 12.651839017868042,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a collective confession or declaration of powerlessness and loss of control, framed as a group admission. It is performative in nature — the act of stating it is part of a recovery process (Step 1 of Alcoholics Anonymous). It also serves as an identity marker and initiation into a shared narrative framework.\",\n  \"implicit_claims\": [\n    \"Powerlessness over alcohol is a real and meaningful condition that some people experience.\",\n    \"Life manageability is a coherent concept and a legitimate measure of wellbeing.\",\n    \"Admission or acknowledgment of powerlessness is a necessary or productive step toward recovery.\",\n    \"Alcohol use and unmanageability are causally linked.\",\n    \"The speaker(s) had previously not admitted this, implying prior denial.\",\n    \"Collective admission ('we') is more meaningful or appropriate than individual admission.\",\n    \"Powerlessness is binary or sufficiently threshold-like to be declared.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The two clauses reinforce each other logically: powerlessness over a substance would plausibly lead to life unmanageability. The conjunction 'that' presents the second clause as evidence or elaboration of the first, which is structurally sound.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences loss of control over alcohol consumption.\",\n    \"Acknowledgment of a problem is a psychological prerequisite for behavioral change in the individual's case.\",\n    \"The framing of 'powerlessness' motivates rather than paralyzes the person.\",\n    \"Community or group context amplifies accountability and support.\",\n    \"The statement is used as a starting point, not a terminal conclusion about identity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'powerlessness' is taken as permanent and absolute, it may undermine agency and self-efficacy.\",\n    \"If the model does not fit the individual (e.g., moderate or situational drinking issues), it may over-pathologize.\",\n    \"If it discourages engagement with other evidence-based treatments (e.g., medication, CBT).\",\n    \"If 'unmanageability' is defined so broadly that it captures ordinary life difficulty, conflating correlation with causation.\",\n    \"If collective framing ('we') pressures individuals to adopt an identity or narrative that does not accurately reflect their experience.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a collective confession or declaration of powerlessness and loss of control, framed as a group admission. It is performative in nature — the act of stating it is part of a recovery process (Step 1 of Alcoholics Anonymous). It also serves as an identity marker and initiation into a shared narrative framework.",
+    "implicit_claims": [
+      "Powerlessness over alcohol is a real and meaningful condition that some people experience.",
+      "Life manageability is a coherent concept and a legitimate measure of wellbeing.",
+      "Admission or acknowledgment of powerlessness is a necessary or productive step toward recovery.",
+      "Alcohol use and unmanageability are causally linked.",
+      "The speaker(s) had previously not admitted this, implying prior denial.",
+      "Collective admission ('we') is more meaningful or appropriate than individual admission.",
+      "Powerlessness is binary or sufficiently threshold-like to be declared."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The two clauses reinforce each other logically: powerlessness over a substance would plausibly lead to life unmanageability. The conjunction 'that' presents the second clause as evidence or elaboration of the first, which is structurally sound.",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences loss of control over alcohol consumption.",
+      "Acknowledgment of a problem is a psychological prerequisite for behavioral change in the individual's case.",
+      "The framing of 'powerlessness' motivates rather than paralyzes the person.",
+      "Community or group context amplifies accountability and support.",
+      "The statement is used as a starting point, not a terminal conclusion about identity."
+    ],
+    "conditions_for_misleading": [
+      "If 'powerlessness' is taken as permanent and absolute, it may undermine agency and self-efficacy.",
+      "If the model does not fit the individual (e.g., moderate or situational drinking issues), it may over-pathologize.",
+      "If it discourages engagement with other evidence-based treatments (e.g., medication, CBT).",
+      "If 'unmanageability' is defined so broadly that it captures ordinary life difficulty, conflating correlation with causation.",
+      "If collective framing ('we') pressures individuals to adopt an identity or narrative that does not accurately reflect their experience."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 572,
+  "error": "",
+  "retry_count": 0
+}

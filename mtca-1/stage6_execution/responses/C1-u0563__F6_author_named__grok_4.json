@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0563__F6_author_named__grok_4",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:49:46.151853+00:00",
+  "wall_clock_seconds": 8.252951860427856,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting the efficacy of autosuggestion as a reliable method for determining fetal sex and traits\",\n  \"implicit_claims\": [\n    \"Maternal mental imagery after conception can determine the biological sex of the fetus\",\n    \"Maternal mental imagery can directly endow the child with chosen physical and moral qualities\",\n    \"Consistent autosuggestion during gestation is sufficient to produce these outcomes\",\n    \"The mind exerts direct causal control over embryonic/fetal development\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within Coué's autosuggestion framework but biologically incoherent, as sex is fixed at conception and most traits are genetically/epigenetically constrained\",\n  \"conditions_for_usefulness\": \"Maternal visualization would need to reliably alter genetics, epigenetics, or fetal development, or at minimum produce measurable psychological benefits for the mother without harm\",\n  \"conditions_for_misleading\": \"The claim is presented as factual truth when no such mechanism exists, leading to false expectations, self-blame, or avoidance of evidence-based prenatal care\"\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting the efficacy of autosuggestion as a reliable method for determining fetal sex and traits",
+    "implicit_claims": [
+      "Maternal mental imagery after conception can determine the biological sex of the fetus",
+      "Maternal mental imagery can directly endow the child with chosen physical and moral qualities",
+      "Consistent autosuggestion during gestation is sufficient to produce these outcomes",
+      "The mind exerts direct causal control over embryonic/fetal development"
+    ],
+    "coherence_assessment": "Internally consistent within Coué's autosuggestion framework but biologically incoherent, as sex is fixed at conception and most traits are genetically/epigenetically constrained",
+    "conditions_for_usefulness": "Maternal visualization would need to reliably alter genetics, epigenetics, or fetal development, or at minimum produce measurable psychological benefits for the mother without harm",
+    "conditions_for_misleading": "The claim is presented as factual truth when no such mechanism exists, leading to false expectations, self-blame, or avoidance of evidence-based prenatal care"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 331,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0
+}

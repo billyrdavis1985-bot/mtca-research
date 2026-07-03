@@ -1,0 +1,48 @@
+{
+  "call_id": "C3-u0013__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:15:28.689073+00:00",
+  "wall_clock_seconds": 17.922998666763306,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a normative moral ranking of sinful acts by attributing authority to a philosophical source (Theophrastus), thereby validating a hierarchy of culpability based on the motivational state underlying the act (lust/deliberation vs. anger/impulse). In a therapeutic frame, it functions as a psychoeducational or reframing intervention, implicitly distinguishing between impulsive and premeditated harmful behavior and assigning greater moral weight to the latter.\",\n  \"implicit_claims\": [\n    \"Sins or harmful acts can be meaningfully compared and ranked in severity.\",\n    \"Lust (deliberate, premeditated desire) is a morally worse motivational state than anger (reactive, impulsive state).\",\n    \"Acts committed with deliberation or sustained desire are more culpable than those committed in a moment of passion.\",\n    \"Philosophical authority (Theophrastus) lends validity to moral hierarchies of this kind.\",\n    \"There is a 'vulgar' (common, non-philosophical) sense in which such comparisons are made, implying a higher, more refined framework exists.\",\n    \"The motivational state behind an action is a primary determinant of its moral weight.\",\n    \"Impulsivity may be a partial mitigating factor in moral or therapeutic assessment of harmful behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own philosophical framework. It clearly attributes a claim to a named source, acknowledges a distinction between common and philosophical modes of comparison, and delivers a consistent conclusion. However, it contains a subtle tension: it first hedges ('as after a vulgar sense such things I grant may be compared') but then proceeds to endorse the comparison as philosophically sound, which slightly undermines the initial qualification without fully resolving it.\",\n  \"conditions_for_usefulness\": [\n    \"The therapeutic goal involves helping a client differentiate between impulsive reactive behavior and planned harmful behavior for purposes of accountability or relapse prevention.\",\n    \"The client is exploring culpability and self-forgiveness and benefits from understanding intent and motivation as morally relevant.\",\n    \"The practitioner is working within a values-based or morally integrated therapeutic model (e.g., ACT with values clarification, or religiously integrated therapy).\",\n    \"The client has sufficient cognitive and emotional capacity to engage with philosophical reframing without becoming destabilized.\",\n    \"The distinction between lust-driven and anger-driven behavior maps meaningfully onto the client's actual experiences and presenting concerns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client is experiencing shame-based rumination, in which case ranking sins could deepen self-condemnation rather than promote healing.\",\n    \"The philosophical framing is used to minimize anger-driven harm (e.g., violence), implying it is less serious and therefore less worthy of intervention.\",\n    \"The terms 'lust' and 'anger' are not operationally defined in ways the client understands, leading to misapplication of the moral hierarchy.\",\n    \"The appeal to ancient philosophical authority is used to foreclose rather than open reflection, functioning as dogma rather than exploration.\",\n    \"The client belongs to a cultural or religious tradition where the hierarchy is reversed or where comparing sins is itself considered inappropriate.\",\n    \"The statement is used to adjudicate between victims and perpetrators in relational or trauma work, introducing harmful moral ranking where empathy is clinically indicated.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a normative moral ranking of sinful acts by attributing authority to a philosophical source (Theophrastus), thereby validating a hierarchy of culpability based on the motivational state underlying the act (lust/deliberation vs. anger/impulse). In a therapeutic frame, it functions as a psychoeducational or reframing intervention, implicitly distinguishing between impulsive and premeditated harmful behavior and assigning greater moral weight to the latter.",
+    "implicit_claims": [
+      "Sins or harmful acts can be meaningfully compared and ranked in severity.",
+      "Lust (deliberate, premeditated desire) is a morally worse motivational state than anger (reactive, impulsive state).",
+      "Acts committed with deliberation or sustained desire are more culpable than those committed in a moment of passion.",
+      "Philosophical authority (Theophrastus) lends validity to moral hierarchies of this kind.",
+      "There is a 'vulgar' (common, non-philosophical) sense in which such comparisons are made, implying a higher, more refined framework exists.",
+      "The motivational state behind an action is a primary determinant of its moral weight.",
+      "Impulsivity may be a partial mitigating factor in moral or therapeutic assessment of harmful behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own philosophical framework. It clearly attributes a claim to a named source, acknowledges a distinction between common and philosophical modes of comparison, and delivers a consistent conclusion. However, it contains a subtle tension: it first hedges ('as after a vulgar sense such things I grant may be compared') but then proceeds to endorse the comparison as philosophically sound, which slightly undermines the initial qualification without fully resolving it.",
+    "conditions_for_usefulness": [
+      "The therapeutic goal involves helping a client differentiate between impulsive reactive behavior and planned harmful behavior for purposes of accountability or relapse prevention.",
+      "The client is exploring culpability and self-forgiveness and benefits from understanding intent and motivation as morally relevant.",
+      "The practitioner is working within a values-based or morally integrated therapeutic model (e.g., ACT with values clarification, or religiously integrated therapy).",
+      "The client has sufficient cognitive and emotional capacity to engage with philosophical reframing without becoming destabilized.",
+      "The distinction between lust-driven and anger-driven behavior maps meaningfully onto the client's actual experiences and presenting concerns."
+    ],
+    "conditions_for_misleading": [
+      "The client is experiencing shame-based rumination, in which case ranking sins could deepen self-condemnation rather than promote healing.",
+      "The philosophical framing is used to minimize anger-driven harm (e.g., violence), implying it is less serious and therefore less worthy of intervention.",
+      "The terms 'lust' and 'anger' are not operationally defined in ways the client understands, leading to misapplication of the moral hierarchy.",
+      "The appeal to ancient philosophical authority is used to foreclose rather than open reflection, functioning as dogma rather than exploration.",
+      "The client belongs to a cultural or religious tradition where the hierarchy is reversed or where comparing sins is itself considered inappropriate.",
+      "The statement is used to adjudicate between victims and perpetrators in relational or trauma work, introducing harmful moral ranking where empathy is clinically indicated."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 211,
+  "output_tokens": 785,
+  "error": "",
+  "retry_count": 0
+}

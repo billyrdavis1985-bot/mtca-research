@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0003__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:55:31.552457+00:00",
+  "wall_clock_seconds": 4.998841285705566,
+  "raw_response": "{\n  \"communicative_function\": \"Empowerment and self-attribution of agency, encouraging the client to recognize their capacity for self-determination and personal change.\",\n  \"implicit_claims\": [\n    \"Individuals have the power to shape their own identity and destiny.\",\n    \"Personal agency is a primary driver of development and behavior.\",\n    \"External factors or past experiences do not fully determine who a person becomes.\",\n    \"Self-construction is an active, ongoing process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a tautological expression of self-authorship, but it can be seen as paradoxical if interpreted to mean the self creates itself ex nihilo without any prior material or context. In a therapeutic sense, it is coherent as a reminder of active agency within constraints.\",\n  \"conditions_for_usefulness\": [\n    \"The client is able to perceive themselves as having at least some degree of control or choice.\",\n    \"The client is struggling with feelings of helplessness, victimhood, or external locus of control.\",\n    \"The therapeutic context supports incremental change and self-efficacy.\",\n    \"The client is not currently in an acutely traumatic or oppressive situation where agency is severely constrained.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client is in a situation where genuine external constraints (e.g., systemic oppression, severe illness, abuse) severely limit agency.\",\n    \"The statement is used to negate the influence of trauma, genetics, or environment on the client's identity.\",\n    \"It may lead to self-blame if the client feels they have not 'made themselves' well enough.\",\n    \"It oversimplifies complex developmental processes, ignoring the role of relationships and social context.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Empowerment and self-attribution of agency, encouraging the client to recognize their capacity for self-determination and personal change.",
+    "implicit_claims": [
+      "Individuals have the power to shape their own identity and destiny.",
+      "Personal agency is a primary driver of development and behavior.",
+      "External factors or past experiences do not fully determine who a person becomes.",
+      "Self-construction is an active, ongoing process."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a tautological expression of self-authorship, but it can be seen as paradoxical if interpreted to mean the self creates itself ex nihilo without any prior material or context. In a therapeutic sense, it is coherent as a reminder of active agency within constraints.",
+    "conditions_for_usefulness": [
+      "The client is able to perceive themselves as having at least some degree of control or choice.",
+      "The client is struggling with feelings of helplessness, victimhood, or external locus of control.",
+      "The therapeutic context supports incremental change and self-efficacy.",
+      "The client is not currently in an acutely traumatic or oppressive situation where agency is severely constrained."
+    ],
+    "conditions_for_misleading": [
+      "The client is in a situation where genuine external constraints (e.g., systemic oppression, severe illness, abuse) severely limit agency.",
+      "The statement is used to negate the influence of trauma, genetics, or environment on the client's identity.",
+      "It may lead to self-blame if the client feels they have not 'made themselves' well enough.",
+      "It oversimplifies complex developmental processes, ignoring the role of relationships and social context."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 354,
+  "error": "",
+  "retry_count": 0
+}

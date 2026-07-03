@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0032__F7_author_anonymous__grok_4",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:32:01.442000+00:00",
+  "wall_clock_seconds": 7.029505729675293,
+  "raw_response": "{\n  \"communicative_function\": \"definitional prescription of moral/religious conduct\",\n  \"implicit_claims\": [\n    \"there exists an entity 'He' whose service can be rendered by humans\",\n    \"service consists solely in maintaining inner purity\",\n    \"violent passion, evil affection, rashness, vanity, and discontent are contaminants of such service\",\n    \"discontent toward gods or men is equivalent in moral status\",\n    \"such purity is both attainable and constitutive of proper human duty\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive list; no logical contradictions among the enumerated prohibitions\",\n  \"conditions_for_usefulness\": \"a reader accepts the authority of 'He', values Stoic-style apatheia, and operates in a context where inner purity is treated as the primary metric of service\",\n  \"conditions_for_misleading\": \"the statement is presented as descriptive psychology, empirical fact, or universally binding ethics rather than sectarian prescription; or when 'service' denotes external action rather than inner disposition\"\n}",
+  "parsed_json": {
+    "communicative_function": "definitional prescription of moral/religious conduct",
+    "implicit_claims": [
+      "there exists an entity 'He' whose service can be rendered by humans",
+      "service consists solely in maintaining inner purity",
+      "violent passion, evil affection, rashness, vanity, and discontent are contaminants of such service",
+      "discontent toward gods or men is equivalent in moral status",
+      "such purity is both attainable and constitutive of proper human duty"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive list; no logical contradictions among the enumerated prohibitions",
+    "conditions_for_usefulness": "a reader accepts the authority of 'He', values Stoic-style apatheia, and operates in a context where inner purity is treated as the primary metric of service",
+    "conditions_for_misleading": "the statement is presented as descriptive psychology, empirical fact, or universally binding ethics rather than sectarian prescription; or when 'service' denotes external action rather than inner disposition"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 296,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0
+}

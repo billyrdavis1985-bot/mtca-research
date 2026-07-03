@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0457__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:37:34.548819+00:00",
+  "wall_clock_seconds": 11.577266693115234,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a moment of witnessed surprise and transformation, using the narrator's emotional response ('astonishment') to amplify the significance of an observed change. It functions as a testimonial or bearing-witness utterance, inviting the reader to share in the narrator's wonder at an unexpected positive shift.\",\n  \"implicit_claims\": [\n    \"There is a 'he' whose condition or behavior was previously observed as a baseline.\",\n    \"The subject performed some specific action ('does so') that preceded the improvement.\",\n    \"Respiration and walking were previously in a worse or more limited state.\",\n    \"The improvement is causally or at least temporally linked to the subject's action.\",\n    \"The narrator is a credible, attentive observer capable of noticing such changes.\",\n    \"The improvement is genuine and not illusory or subjective.\",\n    \"The word 'remarkable' signals that the improvement exceeds ordinary or expected levels.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The emotional register ('astonishment') is consistent with the qualifier ('remarkable'), and both align with the framing of an unexpected positive outcome. The cause-effect structure (he does X → improvement follows) is logically ordered and narratively satisfying.\",\n  \"conditions_for_usefulness\": [\n    \"The reader has context for who 'he' is and what 'does so' refers to.\",\n    \"The prior state of his respiration and walking is known or implied.\",\n    \"The statement is part of a larger account where this moment of transformation carries narrative or argumentative weight.\",\n    \"The observer's reliability and relationship to the subject have been established.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is temporary, placebo-driven, or coincidental rather than causally linked to the action.\",\n    \"The narrator's 'astonishment' is rhetorical exaggeration rather than genuine surprise.\",\n    \"'Remarkable' is used loosely and the actual improvement is minor or ambiguous.\",\n    \"The referent of 'does so' is unclear or has been misrepresented elsewhere in the text.\",\n    \"The narrator has a vested interest in perceiving or reporting improvement.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a moment of witnessed surprise and transformation, using the narrator's emotional response ('astonishment') to amplify the significance of an observed change. It functions as a testimonial or bearing-witness utterance, inviting the reader to share in the narrator's wonder at an unexpected positive shift.",
+    "implicit_claims": [
+      "There is a 'he' whose condition or behavior was previously observed as a baseline.",
+      "The subject performed some specific action ('does so') that preceded the improvement.",
+      "Respiration and walking were previously in a worse or more limited state.",
+      "The improvement is causally or at least temporally linked to the subject's action.",
+      "The narrator is a credible, attentive observer capable of noticing such changes.",
+      "The improvement is genuine and not illusory or subjective.",
+      "The word 'remarkable' signals that the improvement exceeds ordinary or expected levels."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The emotional register ('astonishment') is consistent with the qualifier ('remarkable'), and both align with the framing of an unexpected positive outcome. The cause-effect structure (he does X → improvement follows) is logically ordered and narratively satisfying.",
+    "conditions_for_usefulness": [
+      "The reader has context for who 'he' is and what 'does so' refers to.",
+      "The prior state of his respiration and walking is known or implied.",
+      "The statement is part of a larger account where this moment of transformation carries narrative or argumentative weight.",
+      "The observer's reliability and relationship to the subject have been established."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is temporary, placebo-driven, or coincidental rather than causally linked to the action.",
+      "The narrator's 'astonishment' is rhetorical exaggeration rather than genuine surprise.",
+      "'Remarkable' is used loosely and the actual improvement is minor or ambiguous.",
+      "The referent of 'does so' is unclear or has been misrepresented elsewhere in the text.",
+      "The narrator has a vested interest in perceiving or reporting improvement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 516,
+  "error": "",
+  "retry_count": 0
+}

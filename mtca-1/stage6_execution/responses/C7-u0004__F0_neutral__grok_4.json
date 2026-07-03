@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0004__F0_neutral__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:07:34.145612+00:00",
+  "wall_clock_seconds": 8.475046396255493,
+  "raw_response": "{\n  \"communicative_function\": \"Reports completion of a confessional step in a structured recovery process\",\n  \"implicit_claims\": [\n    \"Wrongs exist and have an 'exact nature' that can be identified\",\n    \"Admission to God, self, and another person is feasible and meaningful\",\n    \"Such admission produces benefit or progress\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a procedural claim; coherence depends on acceptance of a theistic framework and the value of external confession\",\n  \"conditions_for_usefulness\": \"The individual accepts the framework of a 12-step program, believes in a higher power, and finds value in explicit moral inventory\",\n  \"conditions_for_misleading\": \"Presented as a universal moral requirement outside recovery contexts or used to imply that non-admission is always harmful or incomplete\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reports completion of a confessional step in a structured recovery process",
+    "implicit_claims": [
+      "Wrongs exist and have an 'exact nature' that can be identified",
+      "Admission to God, self, and another person is feasible and meaningful",
+      "Such admission produces benefit or progress"
+    ],
+    "coherence_assessment": "Internally consistent as a procedural claim; coherence depends on acceptance of a theistic framework and the value of external confession",
+    "conditions_for_usefulness": "The individual accepts the framework of a 12-step program, believes in a higher power, and finds value in explicit moral inventory",
+    "conditions_for_misleading": "Presented as a universal moral requirement outside recovery contexts or used to imply that non-admission is always harmful or incomplete"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 261,
+  "output_tokens": 172,
+  "error": "",
+  "retry_count": 0
+}

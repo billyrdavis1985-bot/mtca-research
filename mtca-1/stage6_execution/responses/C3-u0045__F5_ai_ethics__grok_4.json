@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F5_ai_ethics__grok_4",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:47:17.216231+00:00",
+  "wall_clock_seconds": 7.200486660003662,
+  "raw_response": "{\n  \"communicative_function\": \"Enumerating and characterizing a negative psychological state (aversion or harmful intent) as a definitional example, functioning as a cautionary description within a larger ethical or psychological framework.\",\n  \"implicit_claims\": [\n    \"Anger produces aversion or contrary desires that tend toward harming others.\",\n    \"Such aversion and harmful intent are defining properties of angry souls.\",\n    \"The soul can enter distinct states that either preserve or undermine relations with others.\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a subordinate clause offering examples, but syntactically fragmented and dependent on missing prior context; archaic phrasing reduces immediate clarity while preserving logical structure.\",\n  \"conditions_for_usefulness\": \"The surrounding text must supply the primary principle being illustrated, and the reader must map the description onto contemporary concepts of emotional harm or value misalignment that AI systems could be designed to detect or avoid reinforcing.\",\n  \"conditions_for_misleading\": \"The statement is presented in isolation as modern design guidance without its philosophical source or interpretive frame, causing readers to treat archaic psychological typology as a literal, actionable specification for AI behavior.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Enumerating and characterizing a negative psychological state (aversion or harmful intent) as a definitional example, functioning as a cautionary description within a larger ethical or psychological framework.",
+    "implicit_claims": [
+      "Anger produces aversion or contrary desires that tend toward harming others.",
+      "Such aversion and harmful intent are defining properties of angry souls.",
+      "The soul can enter distinct states that either preserve or undermine relations with others."
+    ],
+    "coherence_assessment": "Internally consistent as a subordinate clause offering examples, but syntactically fragmented and dependent on missing prior context; archaic phrasing reduces immediate clarity while preserving logical structure.",
+    "conditions_for_usefulness": "The surrounding text must supply the primary principle being illustrated, and the reader must map the description onto contemporary concepts of emotional harm or value misalignment that AI systems could be designed to detect or avoid reinforcing.",
+    "conditions_for_misleading": "The statement is presented in isolation as modern design guidance without its philosophical source or interpretive frame, causing readers to treat archaic psychological typology as a literal, actionable specification for AI behavior."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 299,
+  "output_tokens": 230,
+  "error": "",
+  "retry_count": 0
+}

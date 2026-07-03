@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0003__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:03:16.109577+00:00",
+  "wall_clock_seconds": 7.655357360839844,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement articulates a personal recognition or insight about the nature of feelings, specifically their dual role as indicators of internal state and potential misrepresentations of external reality. It serves as a self-declaration of emotional intelligence or metacognitive awareness regarding one's own affective experience.\",\n  \"implicit_claims\": [\n    \"Feelings always provide 'real information' about one's internal state.\",\n    \"There is a distinction between 'my state' (internal) and 'the world' (external reality).\",\n    \"Feelings can sometimes be 'inaccurate information' about the world.\",\n    \"It is possible and desirable to discern when feelings are accurate versus inaccurate about the world.\",\n    \"The speaker has the capacity for introspection and self-assessment of their emotional data.\",\n    \"Accuracy is a valuable quality for information regarding the world.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It sets up a clear distinction without contradiction, asserting that feelings are universally informative about the self while being selectively accurate about the external world. This nuanced view reflects a sophisticated understanding of emotional data.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely applies this recognition to their emotional processing and decision-making.\",\n    \"It leads to improved self-regulation, allowing the speaker to validate internal experiences without misattributing them to external reality.\",\n    \"It fosters more objective assessment of external situations, preventing impulsive reactions based solely on subjective feelings.\",\n    \"It is used as a tool for personal growth, leading to a deeper understanding of one's own triggers and responses.\",\n    \"It facilitates empathy by recognizing the validity of others' subjective experiences while maintaining a perspective on shared external reality.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to dismiss valid emotional responses that *are* accurate indicators of external problems, leading to inaction or denial.\",\n    \"It becomes a justification for excessive self-blame, attributing all negative feelings solely to one's 'state' even when external factors are genuinely problematic.\",\n    \"The speaker uses it to invalidate the feelings or experiences of others by implying their feelings are 'just about their state' and not reflective of a shared reality.\",\n    \"It is employed as a performative statement without genuine introspection or behavioral change.\",\n    \"The distinction between 'my state' and 'the world' is so rigidly applied that it prevents the speaker from recognizing when their internal state *is* a direct and accurate response to external stimuli.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement articulates a personal recognition or insight about the nature of feelings, specifically their dual role as indicators of internal state and potential misrepresentations of external reality. It serves as a self-declaration of emotional intelligence or metacognitive awareness regarding one's own affective experience.",
+    "implicit_claims": [
+      "Feelings always provide 'real information' about one's internal state.",
+      "There is a distinction between 'my state' (internal) and 'the world' (external reality).",
+      "Feelings can sometimes be 'inaccurate information' about the world.",
+      "It is possible and desirable to discern when feelings are accurate versus inaccurate about the world.",
+      "The speaker has the capacity for introspection and self-assessment of their emotional data.",
+      "Accuracy is a valuable quality for information regarding the world."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It sets up a clear distinction without contradiction, asserting that feelings are universally informative about the self while being selectively accurate about the external world. This nuanced view reflects a sophisticated understanding of emotional data.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely applies this recognition to their emotional processing and decision-making.",
+      "It leads to improved self-regulation, allowing the speaker to validate internal experiences without misattributing them to external reality.",
+      "It fosters more objective assessment of external situations, preventing impulsive reactions based solely on subjective feelings.",
+      "It is used as a tool for personal growth, leading to a deeper understanding of one's own triggers and responses.",
+      "It facilitates empathy by recognizing the validity of others' subjective experiences while maintaining a perspective on shared external reality."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to dismiss valid emotional responses that *are* accurate indicators of external problems, leading to inaction or denial.",
+      "It becomes a justification for excessive self-blame, attributing all negative feelings solely to one's 'state' even when external factors are genuinely problematic.",
+      "The speaker uses it to invalidate the feelings or experiences of others by implying their feelings are 'just about their state' and not reflective of a shared reality.",
+      "It is employed as a performative statement without genuine introspection or behavioral change.",
+      "The distinction between 'my state' and 'the world' is so rigidly applied that it prevents the speaker from recognizing when their internal state *is* a direct and accurate response to external stimuli."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 550,
+  "error": "",
+  "retry_count": 0
+}

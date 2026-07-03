@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F7_author_anonymous__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:20:05.388019+00:00",
+  "wall_clock_seconds": 5.4395973682403564,
+  "raw_response": "{\n  \"communicative_function\": \"Attributing and endorsing a comparative ethical judgment on types of sin by citing Theophrastus as authority, while parenthetically qualifying the act of comparison itself.\",\n  \"implicit_claims\": [\n    \"Theophrastus made the stated comparison between sins of lust and sins of anger.\",\n    \"Sins committed through lust are morally greater than those committed through anger.\",\n    \"Comparing degrees of sin is a vulgar (common or base) practice.\",\n    \"The comparison is nonetheless philosophically sound despite its vulgarity.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the parenthetical concession acknowledges a potential objection without undermining the main endorsement.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if one seeks historical attributions of ethical views on motivational differences in wrongdoing, or if evaluating traditional hierarchies of sin for philosophical or theological analysis.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the attribution to Theophrastus is inaccurate or fabricated, if the comparison is presented as objective fact rather than opinion, or if used to justify differential moral or legal treatment without independent justification.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Attributing and endorsing a comparative ethical judgment on types of sin by citing Theophrastus as authority, while parenthetically qualifying the act of comparison itself.",
+    "implicit_claims": [
+      "Theophrastus made the stated comparison between sins of lust and sins of anger.",
+      "Sins committed through lust are morally greater than those committed through anger.",
+      "Comparing degrees of sin is a vulgar (common or base) practice.",
+      "The comparison is nonetheless philosophically sound despite its vulgarity."
+    ],
+    "coherence_assessment": "Internally coherent; the parenthetical concession acknowledges a potential objection without undermining the main endorsement.",
+    "conditions_for_usefulness": "The statement would be useful if one seeks historical attributions of ethical views on motivational differences in wrongdoing, or if evaluating traditional hierarchies of sin for philosophical or theological analysis.",
+    "conditions_for_misleading": "The statement would be misleading if the attribution to Theophrastus is inaccurate or fabricated, if the comparison is presented as objective fact rather than opinion, or if used to justify differential moral or legal treatment without independent justification."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 303,
+  "output_tokens": 234,
+  "error": "",
+  "retry_count": 0
+}

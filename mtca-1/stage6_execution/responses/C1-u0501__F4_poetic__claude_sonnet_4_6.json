@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0501__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:42:48.154366+00:00",
+  "wall_clock_seconds": 14.408240795135498,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a clinical-yet-tender narrative moment, evoking the first encounter between a caregiver or specialist and a vulnerable child, anchoring the scene in precise historical time while gently foregrounding both limitation and resilience. It performs a kind of witnessing — marking the child's arrival into a relationship of care.\",\n  \"implicit_claims\": [\n    \"The child has a physical condition affecting the natural alignment or function of the feet\",\n    \"Human intervention (the 'contrivances') has enabled a degree of normalcy or mobility that would otherwise be absent\",\n    \"The speaker occupies a position of professional or caregiving authority\",\n    \"The date February 1915 carries significance — historical, personal, or both — suggesting a world already marked by upheaval (World War I)\",\n    \"Walking 'pretty well' is a qualified triumph, implying an ongoing struggle rather than full resolution\",\n    \"The child is not the agent of their own arrival — they are 'brought,' suggesting dependence and the mediation of others\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and precise in its imagery. The tension between clinical detachment ('contrivances') and quiet admiration ('walks pretty well') creates a unified emotional register. The historical timestamp and the physical detail reinforce each other, grounding an intimate moment in a larger, fragile world.\",\n  \"conditions_for_usefulness\": [\n    \"The reader understands that the precision of date and detail is itself expressive, not merely documentary\",\n    \"The reader recognizes the child's condition as a metaphor for broader human vulnerability and assisted perseverance\",\n    \"The statement is read within a context — memoir, prose poem, case study reimagined as literature — where the clinical and the lyrical are in dialogue\",\n    \"The 'contrivances' are understood as symbols of human ingenuity and compassion as much as medical devices\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If read as purely literal medical documentation, the poetic resonance and its implicit emotional claims are lost\",\n    \"If the historical date is ignored, the statement loses its layered meaning — a child learning to walk while a world is learning to destroy itself\",\n    \"If the speaker's role is misidentified, the power dynamics of care and observation embedded in the statement become distorted\",\n    \"If 'pretty well' is taken as objective clinical assessment rather than affectionate qualification, the human warmth of the statement is erased\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a clinical-yet-tender narrative moment, evoking the first encounter between a caregiver or specialist and a vulnerable child, anchoring the scene in precise historical time while gently foregrounding both limitation and resilience. It performs a kind of witnessing — marking the child's arrival into a relationship of care.",
+    "implicit_claims": [
+      "The child has a physical condition affecting the natural alignment or function of the feet",
+      "Human intervention (the 'contrivances') has enabled a degree of normalcy or mobility that would otherwise be absent",
+      "The speaker occupies a position of professional or caregiving authority",
+      "The date February 1915 carries significance — historical, personal, or both — suggesting a world already marked by upheaval (World War I)",
+      "Walking 'pretty well' is a qualified triumph, implying an ongoing struggle rather than full resolution",
+      "The child is not the agent of their own arrival — they are 'brought,' suggesting dependence and the mediation of others"
+    ],
+    "coherence_assessment": "The statement is internally coherent and precise in its imagery. The tension between clinical detachment ('contrivances') and quiet admiration ('walks pretty well') creates a unified emotional register. The historical timestamp and the physical detail reinforce each other, grounding an intimate moment in a larger, fragile world.",
+    "conditions_for_usefulness": [
+      "The reader understands that the precision of date and detail is itself expressive, not merely documentary",
+      "The reader recognizes the child's condition as a metaphor for broader human vulnerability and assisted perseverance",
+      "The statement is read within a context — memoir, prose poem, case study reimagined as literature — where the clinical and the lyrical are in dialogue",
+      "The 'contrivances' are understood as symbols of human ingenuity and compassion as much as medical devices"
+    ],
+    "conditions_for_misleading": [
+      "If read as purely literal medical documentation, the poetic resonance and its implicit emotional claims are lost",
+      "If the historical date is ignored, the statement loses its layered meaning — a child learning to walk while a world is learning to destroy itself",
+      "If the speaker's role is misidentified, the power dynamics of care and observation embedded in the statement become distorted",
+      "If 'pretty well' is taken as objective clinical assessment rather than affectionate qualification, the human warmth of the statement is erased"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 580,
+  "error": "",
+  "retry_count": 0
+}

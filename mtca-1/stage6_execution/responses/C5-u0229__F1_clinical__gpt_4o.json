@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:44:21.320213+00:00",
+  "wall_clock_seconds": 3.2146644592285156,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to inspire and motivate the individual to take control of their mental and emotional state, suggesting that personal growth is influenced by one's thoughts and ideals.\",\n  \"implicit_claims\": [\n    \"Thoughts and ideals have a direct impact on personal outcomes.\",\n    \"A person's environment is not the sole determinant of their success or failure.\",\n    \"Personal agency plays a crucial role in one's life trajectory.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, linking thoughts, vision, and ideals as interconnected components that can influence an individual's personal outcomes, regardless of their environment.\",\n  \"conditions_for_usefulness\": \"Individuals must have some degree of control over their thoughts and an understanding of their personal ideals. They should also be in an environment where change is possible with a shift in mindset and behavior.\",\n  \"conditions_for_misleading\": \"If an individual's circumstances are heavily constrained by external factors beyond their control, emphasizing internal thoughts as the primary change agent could be misleading. Additionally, ignoring systemic issues or mental health conditions that impair one's ability to control their thoughts could render this statement misleading.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to inspire and motivate the individual to take control of their mental and emotional state, suggesting that personal growth is influenced by one's thoughts and ideals.",
+    "implicit_claims": [
+      "Thoughts and ideals have a direct impact on personal outcomes.",
+      "A person's environment is not the sole determinant of their success or failure.",
+      "Personal agency plays a crucial role in one's life trajectory."
+    ],
+    "coherence_assessment": "The statement is internally coherent, linking thoughts, vision, and ideals as interconnected components that can influence an individual's personal outcomes, regardless of their environment.",
+    "conditions_for_usefulness": "Individuals must have some degree of control over their thoughts and an understanding of their personal ideals. They should also be in an environment where change is possible with a shift in mindset and behavior.",
+    "conditions_for_misleading": "If an individual's circumstances are heavily constrained by external factors beyond their control, emphasizing internal thoughts as the primary change agent could be misleading. Additionally, ignoring systemic issues or mental health conditions that impair one's ability to control their thoughts could render this statement misleading."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 237,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0110__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:10:55.517906+00:00",
+  "wall_clock_seconds": 11.77510666847229,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive-descriptive causal claim, asserting a direct bidirectional relationship between thought quality and physical health/appearance, with motivational intent to encourage positive thinking.\",\n  \"implicit_claims\": [\n    \"Thoughts have direct and powerful causal influence over physical bodily states.\",\n    \"Thoughts can be cleanly categorized as 'unlawful/negative' or 'glad/beautiful/positive'.\",\n    \"The body responds to thoughts in a rapid and observable way.\",\n    \"Youthfulness and beauty are attainable outcomes of correct thinking.\",\n    \"Disease and decay are primarily or significantly caused by negative thoughts.\",\n    \"Individual mental agency is a primary determinant of physical health outcomes.\",\n    \"This relationship is reliable and generalizable across people.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent in its symmetrical structure, but the symmetry is rhetorical rather than logical. It asserts strong causation in both directions without qualification, which makes it internally tidy but empirically overreaching. The parallelism creates an appearance of balance that masks the lack of evidential grounding.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted as a heuristic about stress reduction and its well-documented effects on immune function and health.\",\n    \"If used to encourage psychological wellbeing as one contributing factor among many to physical health.\",\n    \"If the audience understands it as motivational metaphor rather than literal medical claim.\",\n    \"If applied in contexts where psychosomatic connections are already established and relevant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as a complete causal account of disease, implying sick people caused their illness through bad thoughts.\",\n    \"If used to discourage people from seeking medical treatment in favor of positive thinking.\",\n    \"If applied to conditions with clear biological, genetic, or environmental causes unrelated to thought patterns.\",\n    \"If it induces guilt or shame in people who are ill by attributing their condition to moral or cognitive failure.\",\n    \"If presented as scientifically established rather than as philosophical or motivational assertion.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive-descriptive causal claim, asserting a direct bidirectional relationship between thought quality and physical health/appearance, with motivational intent to encourage positive thinking.",
+    "implicit_claims": [
+      "Thoughts have direct and powerful causal influence over physical bodily states.",
+      "Thoughts can be cleanly categorized as 'unlawful/negative' or 'glad/beautiful/positive'.",
+      "The body responds to thoughts in a rapid and observable way.",
+      "Youthfulness and beauty are attainable outcomes of correct thinking.",
+      "Disease and decay are primarily or significantly caused by negative thoughts.",
+      "Individual mental agency is a primary determinant of physical health outcomes.",
+      "This relationship is reliable and generalizable across people."
+    ],
+    "coherence_assessment": "The statement is internally consistent in its symmetrical structure, but the symmetry is rhetorical rather than logical. It asserts strong causation in both directions without qualification, which makes it internally tidy but empirically overreaching. The parallelism creates an appearance of balance that masks the lack of evidential grounding.",
+    "conditions_for_usefulness": [
+      "If interpreted as a heuristic about stress reduction and its well-documented effects on immune function and health.",
+      "If used to encourage psychological wellbeing as one contributing factor among many to physical health.",
+      "If the audience understands it as motivational metaphor rather than literal medical claim.",
+      "If applied in contexts where psychosomatic connections are already established and relevant."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as a complete causal account of disease, implying sick people caused their illness through bad thoughts.",
+      "If used to discourage people from seeking medical treatment in favor of positive thinking.",
+      "If applied to conditions with clear biological, genetic, or environmental causes unrelated to thought patterns.",
+      "If it induces guilt or shame in people who are ill by attributing their condition to moral or cognitive failure.",
+      "If presented as scientifically established rather than as philosophical or motivational assertion."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 498,
+  "error": "",
+  "retry_count": 0
+}

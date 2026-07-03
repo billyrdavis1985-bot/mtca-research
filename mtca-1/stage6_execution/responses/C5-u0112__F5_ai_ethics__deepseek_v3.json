@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0112__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:20:11.792226+00:00",
+  "wall_clock_seconds": 4.111636161804199,
+  "raw_response": "{\n  \"communicative_function\": \"Warning or admonition, suggesting a causal link between negative mental states and physical health.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct, deterministic influence on bodily states.\",\n    \"A sickly body is an expression of sickly thoughts, not of other causes.\",\n    \"Healthy thoughts lead to healthy bodies.\",\n    \"The body is a reliable external indicator of inner mental or moral health.\"\n  ],\n  \"coherence_assessment\": \"The statement lacks internal coherence as it overgeneralizes the mind-body connection, ignoring medical, genetic, and environmental factors that also affect physical health.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if it is interpreted as a metaphorical reminder to attend to mental well-being for holistic health, and if applied in a therapeutic context where psychosomatic links are relevant and not exclusive of other causes.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if taken literally or as a universal medical truth, if used to blame individuals for illnesses with non-psychological causes, or if it discourages seeking medical treatment for physical symptoms.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Warning or admonition, suggesting a causal link between negative mental states and physical health.",
+    "implicit_claims": [
+      "Thoughts have a direct, deterministic influence on bodily states.",
+      "A sickly body is an expression of sickly thoughts, not of other causes.",
+      "Healthy thoughts lead to healthy bodies.",
+      "The body is a reliable external indicator of inner mental or moral health."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence as it overgeneralizes the mind-body connection, ignoring medical, genetic, and environmental factors that also affect physical health.",
+    "conditions_for_usefulness": "The statement would be useful if it is interpreted as a metaphorical reminder to attend to mental well-being for holistic health, and if applied in a therapeutic context where psychosomatic links are relevant and not exclusive of other causes.",
+    "conditions_for_misleading": "The statement would be misleading if taken literally or as a universal medical truth, if used to blame individuals for illnesses with non-psychological causes, or if it discourages seeking medical treatment for physical symptoms."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0
+}

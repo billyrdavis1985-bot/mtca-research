@@ -1,0 +1,37 @@
+{
+  "call_id": "C8-u0005__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:14:32.709659+00:00",
+  "wall_clock_seconds": 3.346696376800537,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a willingness to move beyond binary thinking and seek understanding or truth in differing perspectives.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a common mindset people encounter.\",\n    \"There is value in recognizing partial truths in opposing views.\",\n    \"It is possible to find truth that isn't absolute or definitive.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, suggesting a shift from a rigid mindset to a more flexible and understanding approach.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is open to self-reflection and recognizes their biases.\",\n    \"There's an acknowledgment that many situations are complex and not strictly binary.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the partial truths are given undue equivalence when one side is overwhelmingly more accurate.\",\n    \"In contexts where compromise or partial truths could overlook significant ethical concerns or lead to inaction.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a willingness to move beyond binary thinking and seek understanding or truth in differing perspectives.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a common mindset people encounter.",
+      "There is value in recognizing partial truths in opposing views.",
+      "It is possible to find truth that isn't absolute or definitive."
+    ],
+    "coherence_assessment": "The statement is internally coherent, suggesting a shift from a rigid mindset to a more flexible and understanding approach.",
+    "conditions_for_usefulness": [
+      "The individual is open to self-reflection and recognizes their biases.",
+      "There's an acknowledgment that many situations are complex and not strictly binary."
+    ],
+    "conditions_for_misleading": [
+      "If the partial truths are given undue equivalence when one side is overwhelmingly more accurate.",
+      "In contexts where compromise or partial truths could overlook significant ethical concerns or lead to inaction."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 146,
+  "output_tokens": 202,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0285__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:34:41.308814+00:00",
+  "wall_clock_seconds": 9.234519243240356,
+  "raw_response": "{\n  \"communicative_function\": \"Rhetorical deflection of a safety-based objection via generalization and partial concession\",\n  \"implicit_claims\": [\n    \"The item or practice under discussion poses no real danger\",\n    \"All or most things people use carry some danger\",\n    \"The existence of danger in other things invalidates concern about this one\",\n    \"The objector must demonstrate a uniquely safe alternative to sustain their objection\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as rhetoric but logically weak: the parenthetical denial undercuts the concessive premise, and the generalization equates incomparable risk levels without addressing magnitude or avoidability\",\n  \"conditions_for_usefulness\": \"The debate concerns whether absolute safety is a reasonable standard; everyday risks are accepted by the audience; and the speaker's item has risks comparable to those already tolerated\",\n  \"conditions_for_misleading\": \"Risks differ substantially in probability, severity, or voluntariness; the comparison serves to normalize preventable harm; or the original objection addressed a specific, non-universal danger rather than danger in general\"\n}",
+  "parsed_json": {
+    "communicative_function": "Rhetorical deflection of a safety-based objection via generalization and partial concession",
+    "implicit_claims": [
+      "The item or practice under discussion poses no real danger",
+      "All or most things people use carry some danger",
+      "The existence of danger in other things invalidates concern about this one",
+      "The objector must demonstrate a uniquely safe alternative to sustain their objection"
+    ],
+    "coherence_assessment": "Internally consistent as rhetoric but logically weak: the parenthetical denial undercuts the concessive premise, and the generalization equates incomparable risk levels without addressing magnitude or avoidability",
+    "conditions_for_usefulness": "The debate concerns whether absolute safety is a reasonable standard; everyday risks are accepted by the audience; and the speaker's item has risks comparable to those already tolerated",
+    "conditions_for_misleading": "Risks differ substantially in probability, severity, or voluntariness; the comparison serves to normalize preventable harm; or the original objection addressed a specific, non-universal danger rather than danger in general"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 289,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0
+}

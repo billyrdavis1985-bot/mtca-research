@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0011__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:38:18.553215+00:00",
+  "wall_clock_seconds": 12.954169750213623,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-directed pledge that simultaneously articulates a meta-level behavioral principle (how to make commitments) while enacting that principle by being itself specific and action-oriented. It functions as both a commitment and a rule for making commitments.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less likely to be carried out than specific, observable ones.\",\n    \"The speaker has previously made or been tempted to make vague resolutions.\",\n    \"The speaker has the capacity to identify what counts as 'small' and 'observable'.\",\n    \"Observable changes are preferable to unobservable ones in the context of self-improvement.\",\n    \"The speaker has agency over their behavior and can choose the form their commitments take.\",\n    \"There is a meaningful distinction between commitments one 'can actually carry out' and those one cannot.\",\n    \"Making this meta-commitment will influence future behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and self-exemplifying: it is itself a relatively specific, bounded commitment rather than a vague aspiration. However, it retains some vagueness in the phrase 'small, observable changes,' which is a category descriptor rather than a concrete action, creating a mild tension with its own stated principle.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker follows the meta-commitment by actually identifying specific, concrete behaviors to change.\",\n    \"The speaker has a mechanism for tracking whether changes are observable (e.g., journaling, accountability partner).\",\n    \"The speaker understands what distinguishes a vague resolution from a specific one in their own context.\",\n    \"The commitment is revisited and applied at decision points, not treated as a one-time declaration.\",\n    \"The speaker's past failures were actually caused by vagueness rather than motivation, resources, or circumstances.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement substitutes for, rather than initiates, actual behavioral planning.\",\n    \"The speaker conflates making a well-formed commitment with having already changed behavior.\",\n    \"The framing obscures that 'small and observable' still requires discipline and follow-through to execute.\",\n    \"The speaker uses the meta-commitment to feel accomplished without specifying any actual target behaviors.\",\n    \"The root causes of prior failures were not vagueness but lack of capacity, time, or support, making this reframe irrelevant.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-directed pledge that simultaneously articulates a meta-level behavioral principle (how to make commitments) while enacting that principle by being itself specific and action-oriented. It functions as both a commitment and a rule for making commitments.",
+    "implicit_claims": [
+      "Vague resolutions are less likely to be carried out than specific, observable ones.",
+      "The speaker has previously made or been tempted to make vague resolutions.",
+      "The speaker has the capacity to identify what counts as 'small' and 'observable'.",
+      "Observable changes are preferable to unobservable ones in the context of self-improvement.",
+      "The speaker has agency over their behavior and can choose the form their commitments take.",
+      "There is a meaningful distinction between commitments one 'can actually carry out' and those one cannot.",
+      "Making this meta-commitment will influence future behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent and self-exemplifying: it is itself a relatively specific, bounded commitment rather than a vague aspiration. However, it retains some vagueness in the phrase 'small, observable changes,' which is a category descriptor rather than a concrete action, creating a mild tension with its own stated principle.",
+    "conditions_for_usefulness": [
+      "The speaker follows the meta-commitment by actually identifying specific, concrete behaviors to change.",
+      "The speaker has a mechanism for tracking whether changes are observable (e.g., journaling, accountability partner).",
+      "The speaker understands what distinguishes a vague resolution from a specific one in their own context.",
+      "The commitment is revisited and applied at decision points, not treated as a one-time declaration.",
+      "The speaker's past failures were actually caused by vagueness rather than motivation, resources, or circumstances."
+    ],
+    "conditions_for_misleading": [
+      "The statement substitutes for, rather than initiates, actual behavioral planning.",
+      "The speaker conflates making a well-formed commitment with having already changed behavior.",
+      "The framing obscures that 'small and observable' still requires discipline and follow-through to execute.",
+      "The speaker uses the meta-commitment to feel accomplished without specifying any actual target behaviors.",
+      "The root causes of prior failures were not vagueness but lack of capacity, time, or support, making this reframe irrelevant."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 563,
+  "error": "",
+  "retry_count": 0
+}

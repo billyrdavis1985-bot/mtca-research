@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F1_clinical__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:14:06.741864+00:00",
+  "wall_clock_seconds": 6.5076584815979,
+  "raw_response": "{\n  \"communicative_function\": \"Direct therapeutic suggestion to induce timed appetite, positive anticipation of eating, and controlled enjoyment of meals\",\n  \"implicit_claims\": [\n    \"Hunger at standard meal times is an agreeable, desirable sensation that can be reliably induced by suggestion\",\n    \"The recipient will experience and verbalize positive anticipation of food three times daily\",\n    \"Eating can be enjoyed while overeating is automatically avoided\",\n    \"Suggestion alone is sufficient to establish this regular, self-regulated eating pattern\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the suggestion consistently links timed hunger, enjoyment, and moderation without internal contradiction\",\n  \"conditions_for_usefulness\": \"Recipient is suggestible, lacks organic appetite dysregulation, and the targeted pattern matches therapeutic goals for normalizing intake\",\n  \"conditions_for_misleading\": \"Presented as an automatic or guaranteed physiological outcome rather than a conditional suggestion, or used with medical conditions affecting appetite\"\n}",
+  "parsed_json": {
+    "communicative_function": "Direct therapeutic suggestion to induce timed appetite, positive anticipation of eating, and controlled enjoyment of meals",
+    "implicit_claims": [
+      "Hunger at standard meal times is an agreeable, desirable sensation that can be reliably induced by suggestion",
+      "The recipient will experience and verbalize positive anticipation of food three times daily",
+      "Eating can be enjoyed while overeating is automatically avoided",
+      "Suggestion alone is sufficient to establish this regular, self-regulated eating pattern"
+    ],
+    "coherence_assessment": "Internally coherent; the suggestion consistently links timed hunger, enjoyment, and moderation without internal contradiction",
+    "conditions_for_usefulness": "Recipient is suggestible, lacks organic appetite dysregulation, and the targeted pattern matches therapeutic goals for normalizing intake",
+    "conditions_for_misleading": "Presented as an automatic or guaranteed physiological outcome rather than a conditional suggestion, or used with medical conditions affecting appetite"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 344,
+  "output_tokens": 193,
+  "error": "",
+  "retry_count": 0
+}

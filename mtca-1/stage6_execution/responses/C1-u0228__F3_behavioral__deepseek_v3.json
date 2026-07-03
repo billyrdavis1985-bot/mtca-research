@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0228__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:26:47.388811+00:00",
+  "wall_clock_seconds": 5.6418280601501465,
+  "raw_response": "{\n  \"communicative_function\": \"The statement illustrates the powerful influence of a doctor's words on a patient's psychological state and subsequent health outcomes, advocating for optimistic and encouraging communication over pessimistic prognoses.\",\n  \"implicit_claims\": [\n    \"A doctor's authority and title alone can trigger autosuggestion in a patient.\",\n    \"Negative suggestions from a doctor can cause or worsen illness.\",\n    \"Positive suggestions can lead to unexpected recoveries.\",\n    \"The doctor's communication directly affects the patient's belief system and physical condition.\",\n    \"Care, time, and patience are sufficient conditions for potential cure even in serious illness.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear cause-effect relationship between doctor communication and patient outcomes, though it oversimplifies complex medical realities.\",\n  \"conditions_for_usefulness\": [\n    \"The doctor's words genuinely influence patient beliefs and behaviors.\",\n    \"The patient is susceptible to suggestion and trusts the doctor.\",\n    \"The illness is not definitively terminal or entirely unresponsive to treatment.\",\n    \"The doctor has the skill to communicate hope without giving false assurance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The illness is truly incurable and no treatment can alter its course.\",\n    \"The patient interprets 'can be cured' as a guaranteed outcome rather than a possibility.\",\n    \"The doctor uses this principle to avoid delivering necessary bad news or to manipulate the patient.\",\n    \"The statement is taken to imply that all illnesses can be cured with optimism alone, ignoring biomedical limits.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement illustrates the powerful influence of a doctor's words on a patient's psychological state and subsequent health outcomes, advocating for optimistic and encouraging communication over pessimistic prognoses.",
+    "implicit_claims": [
+      "A doctor's authority and title alone can trigger autosuggestion in a patient.",
+      "Negative suggestions from a doctor can cause or worsen illness.",
+      "Positive suggestions can lead to unexpected recoveries.",
+      "The doctor's communication directly affects the patient's belief system and physical condition.",
+      "Care, time, and patience are sufficient conditions for potential cure even in serious illness."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear cause-effect relationship between doctor communication and patient outcomes, though it oversimplifies complex medical realities.",
+    "conditions_for_usefulness": [
+      "The doctor's words genuinely influence patient beliefs and behaviors.",
+      "The patient is susceptible to suggestion and trusts the doctor.",
+      "The illness is not definitively terminal or entirely unresponsive to treatment.",
+      "The doctor has the skill to communicate hope without giving false assurance."
+    ],
+    "conditions_for_misleading": [
+      "The illness is truly incurable and no treatment can alter its course.",
+      "The patient interprets 'can be cured' as a guaranteed outcome rather than a possibility.",
+      "The doctor uses this principle to avoid delivering necessary bad news or to manipulate the patient.",
+      "The statement is taken to imply that all illnesses can be cured with optimism alone, ignoring biomedical limits."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 236,
+  "output_tokens": 321,
+  "error": "",
+  "retry_count": 0
+}

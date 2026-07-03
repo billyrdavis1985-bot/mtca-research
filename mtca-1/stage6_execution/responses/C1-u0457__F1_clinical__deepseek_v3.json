@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0457__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:36:01.115496+00:00",
+  "wall_clock_seconds": 4.861202239990234,
+  "raw_response": "{\n  \"communicative_function\": \"Expressing surprise and positive reinforcement, potentially to model or amplify a client's awareness of therapeutic progress.\",\n  \"implicit_claims\": [\n    \"There is an observable improvement in respiration and walking.\",\n    \"The improvement is remarkable, indicating a significant or unexpected change.\",\n    \"The improvement is causally linked to a specific action by another person (the 'he' in the statement).\",\n    \"The speaker is an observer who is emotionally engaged (astonished) by the change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a first-person observation of a cause-effect relationship, though the emotional intensity of 'astonishment' may be exaggerated depending on context.\",\n  \"conditions_for_usefulness\": [\n    \"The client (or target of the statement) is present and can internalize the positive feedback.\",\n    \"The observed improvement is genuine and the link to the action is plausible.\",\n    \"The statement is timed to reinforce a desired behavioral or physiological change.\",\n    \"The client is receptive to external validation of their progress.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is actually coincidental or spurious, not caused by the indicated action.\",\n    \"The 'astonishment' is performative and not genuinely felt, undermining therapeutic trust.\",\n    \"The statement is interpreted by the client as pressure to perform or as an unrealistic expectation.\",\n    \"The observer's attention is selective, ignoring lack of improvement or setbacks in other areas.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expressing surprise and positive reinforcement, potentially to model or amplify a client's awareness of therapeutic progress.",
+    "implicit_claims": [
+      "There is an observable improvement in respiration and walking.",
+      "The improvement is remarkable, indicating a significant or unexpected change.",
+      "The improvement is causally linked to a specific action by another person (the 'he' in the statement).",
+      "The speaker is an observer who is emotionally engaged (astonished) by the change."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a first-person observation of a cause-effect relationship, though the emotional intensity of 'astonishment' may be exaggerated depending on context.",
+    "conditions_for_usefulness": [
+      "The client (or target of the statement) is present and can internalize the positive feedback.",
+      "The observed improvement is genuine and the link to the action is plausible.",
+      "The statement is timed to reinforce a desired behavioral or physiological change.",
+      "The client is receptive to external validation of their progress."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is actually coincidental or spurious, not caused by the indicated action.",
+      "The 'astonishment' is performative and not genuinely felt, undermining therapeutic trust.",
+      "The statement is interpreted by the client as pressure to perform or as an unrealistic expectation.",
+      "The observer's attention is selective, ignoring lack of improvement or setbacks in other areas."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 312,
+  "error": "",
+  "retry_count": 0
+}

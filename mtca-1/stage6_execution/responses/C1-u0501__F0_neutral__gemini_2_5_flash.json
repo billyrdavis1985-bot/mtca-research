@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0501__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:40:08.792997+00:00",
+  "wall_clock_seconds": 4.7874791622161865,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To document the initial encounter with a child, noting the date, the child's walking ability, and the presence of assistive devices.\",\n  \"implicit_claims\": [\n    \"The speaker is a professional or caregiver to whom children are presented for evaluation or care.\",\n    \"The child has a physical condition affecting their feet or walking that necessitates assistive devices.\",\n    \"The 'contrivances' are external aids designed to correct or improve the child's gait.\",\n    \"The 'contrivances' are effective in their purpose ('thanks to').\",\n    \"The date (February, 1915) marks a significant starting point for the interaction or observation of the child.\",\n    \"The child's walking, while 'pretty well,' is not entirely natural or unassisted.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a logical sequence of information: the child's introduction, the date, and a description of their physical state and the means by which that state is achieved. There are no direct contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is accurately reporting their role and the encounter with the child.\",\n    \"The child indeed has a physical condition requiring the 'contrivances' for improved walking.\",\n    \"The 'contrivances' are accurately described as effective in aiding the child's walking.\",\n    \"The statement is part of a larger medical, developmental, or observational record where initial conditions are important.\",\n    \"The date accurately reflects the first encounter for the documented purpose.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'contrivances' are ordinary footwear or fashion items, and not medical aids for a specific condition.\",\n    \"The child's walking problem is being exaggerated or fabricated.\",\n    \"The 'contrivances' are ineffective, harmful, or not actually the reason the child walks 'pretty well'.\",\n    \"The speaker is misrepresenting their professional role or the nature of their relationship with the child.\",\n    \"The date is incorrect or does not represent the actual 'first time' the child was seen for the documented issue.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To document the initial encounter with a child, noting the date, the child's walking ability, and the presence of assistive devices.",
+    "implicit_claims": [
+      "The speaker is a professional or caregiver to whom children are presented for evaluation or care.",
+      "The child has a physical condition affecting their feet or walking that necessitates assistive devices.",
+      "The 'contrivances' are external aids designed to correct or improve the child's gait.",
+      "The 'contrivances' are effective in their purpose ('thanks to').",
+      "The date (February, 1915) marks a significant starting point for the interaction or observation of the child.",
+      "The child's walking, while 'pretty well,' is not entirely natural or unassisted."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a logical sequence of information: the child's introduction, the date, and a description of their physical state and the means by which that state is achieved. There are no direct contradictions.",
+    "conditions_for_usefulness": [
+      "The speaker is accurately reporting their role and the encounter with the child.",
+      "The child indeed has a physical condition requiring the 'contrivances' for improved walking.",
+      "The 'contrivances' are accurately described as effective in aiding the child's walking.",
+      "The statement is part of a larger medical, developmental, or observational record where initial conditions are important.",
+      "The date accurately reflects the first encounter for the documented purpose."
+    ],
+    "conditions_for_misleading": [
+      "The 'contrivances' are ordinary footwear or fashion items, and not medical aids for a specific condition.",
+      "The child's walking problem is being exaggerated or fabricated.",
+      "The 'contrivances' are ineffective, harmful, or not actually the reason the child walks 'pretty well'.",
+      "The speaker is misrepresenting their professional role or the nature of their relationship with the child.",
+      "The date is incorrect or does not represent the actual 'first time' the child was seen for the documented issue."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 481,
+  "error": "",
+  "retry_count": 0
+}

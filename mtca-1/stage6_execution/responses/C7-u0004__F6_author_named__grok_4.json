@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0004__F6_author_named__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:12:15.514061+00:00",
+  "wall_clock_seconds": 7.561310291290283,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribes or reports the act of confession as Step 5 in a recovery program, directing the speaker to disclose personal faults to God, self, and another person.\",\n  \"implicit_claims\": [\n    \"A God or higher power exists and is an appropriate recipient of such admissions\",\n    \"The speaker possesses identifiable 'wrongs' that require acknowledgment\",\n    \"Verbal admission of these wrongs to another human being produces therapeutic or spiritual benefit\",\n    \"Accurate self-assessment of one's faults is both possible and necessary\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a theistic, confessional framework; assumes shared belief in God and the value of external disclosure without internal contradiction.\",\n  \"conditions_for_usefulness\": \"The individual accepts a theistic worldview, can accurately identify personal wrongs, and experiences reduced shame or improved sobriety through structured admission.\",\n  \"conditions_for_misleading\": \"No God exists, admission entrenches guilt without resolution, the listed wrongs are misidentified, or disclosure to another person causes harm rather than relief.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribes or reports the act of confession as Step 5 in a recovery program, directing the speaker to disclose personal faults to God, self, and another person.",
+    "implicit_claims": [
+      "A God or higher power exists and is an appropriate recipient of such admissions",
+      "The speaker possesses identifiable 'wrongs' that require acknowledgment",
+      "Verbal admission of these wrongs to another human being produces therapeutic or spiritual benefit",
+      "Accurate self-assessment of one's faults is both possible and necessary"
+    ],
+    "coherence_assessment": "Internally coherent within a theistic, confessional framework; assumes shared belief in God and the value of external disclosure without internal contradiction.",
+    "conditions_for_usefulness": "The individual accepts a theistic worldview, can accurately identify personal wrongs, and experiences reduced shame or improved sobriety through structured admission.",
+    "conditions_for_misleading": "No God exists, admission entrenches guilt without resolution, the listed wrongs are misidentified, or disclosure to another person causes harm rather than relief."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0
+}

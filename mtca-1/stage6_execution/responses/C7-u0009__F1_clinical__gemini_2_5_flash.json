@@ -1,0 +1,47 @@
+{
+  "call_id": "C7-u0009__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:30:38.151269+00:00",
+  "wall_clock_seconds": 12.597715139389038,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"An affirmation of a commitment to ongoing self-reflection and personal accountability; a behavioral intention aimed at fostering ethical conduct, integrity, and continuous personal growth.\",\n  \"implicit_claims\": [\n    \"The individual is capable of and committed to regular self-assessment.\",\n    \"The individual accepts personal responsibility for their actions and their impact.\",\n    \"There is inherent value in honesty, transparency, and prompt admission of mistakes.\",\n    \"The concept of 'wrongdoing' is a real and identifiable aspect of human behavior.\",\n    \"Personal growth and moral development are continuous, ongoing processes.\",\n    \"There exists an internal or external moral/ethical framework against which actions are evaluated.\",\n    \"The individual operates within relationships where their actions have consequences.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within the context of therapeutic self-statements, particularly those emphasizing ongoing practice (e.g., derived from 12-step programs). The phrase 'Continued to take' signifies a commitment to *maintain* an established, active practice of self-inventory and prompt admission, rather than a one-time future intention, thereby aligning past action with ongoing commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The individual struggles with denial, blame-shifting, or avoiding personal accountability.\",\n    \"The individual genuinely seeks personal growth, integrity, and improved relationships based on honesty.\",\n    \"The individual can differentiate between personal responsibility for their actions and external circumstances or the actions of others.\",\n    \"The self-inventory process is balanced with self-compassion and an intention for learning and repair, rather than solely self-flagellation.\",\n    \"The 'wrongs' identified are genuinely the individual's actions or responsibilities, not externally imposed guilt or the result of abuse.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has excessive guilt, shame, perfectionism, or low self-esteem, potentially leading to over-identification of 'wrongs' or undue self-criticism.\",\n    \"The individual is in an abusive or gaslighting dynamic where they are falsely blamed or made to feel responsible for others' actions.\",\n    \"The 'inventory' lacks objective or healthy criteria, leading to subjective and potentially harmful definitions of 'wrong' (e.g., based on external manipulation or unrealistic standards).\",\n    \"The statement is used to avoid setting healthy boundaries or to over-apologize for things that are not genuinely one's responsibility.\",\n    \"The practice is devoid of self-compassion and forgiveness, leading to perpetual self-condemnation without promoting healing or positive change.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "An affirmation of a commitment to ongoing self-reflection and personal accountability; a behavioral intention aimed at fostering ethical conduct, integrity, and continuous personal growth.",
+    "implicit_claims": [
+      "The individual is capable of and committed to regular self-assessment.",
+      "The individual accepts personal responsibility for their actions and their impact.",
+      "There is inherent value in honesty, transparency, and prompt admission of mistakes.",
+      "The concept of 'wrongdoing' is a real and identifiable aspect of human behavior.",
+      "Personal growth and moral development are continuous, ongoing processes.",
+      "There exists an internal or external moral/ethical framework against which actions are evaluated.",
+      "The individual operates within relationships where their actions have consequences."
+    ],
+    "coherence_assessment": "Internally coherent within the context of therapeutic self-statements, particularly those emphasizing ongoing practice (e.g., derived from 12-step programs). The phrase 'Continued to take' signifies a commitment to *maintain* an established, active practice of self-inventory and prompt admission, rather than a one-time future intention, thereby aligning past action with ongoing commitment.",
+    "conditions_for_usefulness": [
+      "The individual struggles with denial, blame-shifting, or avoiding personal accountability.",
+      "The individual genuinely seeks personal growth, integrity, and improved relationships based on honesty.",
+      "The individual can differentiate between personal responsibility for their actions and external circumstances or the actions of others.",
+      "The self-inventory process is balanced with self-compassion and an intention for learning and repair, rather than solely self-flagellation.",
+      "The 'wrongs' identified are genuinely the individual's actions or responsibilities, not externally imposed guilt or the result of abuse."
+    ],
+    "conditions_for_misleading": [
+      "The individual has excessive guilt, shame, perfectionism, or low self-esteem, potentially leading to over-identification of 'wrongs' or undue self-criticism.",
+      "The individual is in an abusive or gaslighting dynamic where they are falsely blamed or made to feel responsible for others' actions.",
+      "The 'inventory' lacks objective or healthy criteria, leading to subjective and potentially harmful definitions of 'wrong' (e.g., based on external manipulation or unrealistic standards).",
+      "The statement is used to avoid setting healthy boundaries or to over-apologize for things that are not genuinely one's responsibility.",
+      "The practice is devoid of self-compassion and forgiveness, leading to perpetual self-condemnation without promoting healing or positive change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 153,
+  "output_tokens": 570,
+  "error": "",
+  "retry_count": 0
+}

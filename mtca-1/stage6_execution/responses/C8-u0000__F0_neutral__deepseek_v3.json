@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0000__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:47:31.342022+00:00",
+  "wall_clock_seconds": 4.3131256103515625,
+  "raw_response": "{\n  \"communicative_function\": \"The speaker is expressing an observation about a cognitive distinction between automatic thoughts and objective evidence, likely in a therapeutic or self-reflective context.\",\n  \"implicit_claims\": [\n    \"Automatic thoughts and evidence are distinct and can differ.\",\n    \"The speaker can distinguish between their own automatic thoughts and external evidence.\",\n    \"There is an objective standard of truth or evidence to compare against.\",\n    \"The speaker values alignment between beliefs and evidence over automatic thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it correctly identifies that automatic thoughts (often biased or irrational) are not necessarily equivalent to factual evidence.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is engaged in cognitive restructuring or metacognitive practice.\",\n    \"The speaker can reliably identify automatic thoughts and access relevant evidence.\",\n    \"The speaker is open to revising beliefs based on evidence.\",\n    \"The statement is part of a broader process of challenging cognitive distortions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker overgeneralizes to assume all automatic thoughts are false or irrelevant.\",\n    \"The speaker dismisses valid intuitive or experiential knowledge as mere 'automatic thoughts.'\",\n    \"The speaker uses this distinction to avoid engaging with emotional or subjective truths.\",\n    \"The speaker lacks access to reliable evidence to compare against.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The speaker is expressing an observation about a cognitive distinction between automatic thoughts and objective evidence, likely in a therapeutic or self-reflective context.",
+    "implicit_claims": [
+      "Automatic thoughts and evidence are distinct and can differ.",
+      "The speaker can distinguish between their own automatic thoughts and external evidence.",
+      "There is an objective standard of truth or evidence to compare against.",
+      "The speaker values alignment between beliefs and evidence over automatic thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it correctly identifies that automatic thoughts (often biased or irrational) are not necessarily equivalent to factual evidence.",
+    "conditions_for_usefulness": [
+      "The speaker is engaged in cognitive restructuring or metacognitive practice.",
+      "The speaker can reliably identify automatic thoughts and access relevant evidence.",
+      "The speaker is open to revising beliefs based on evidence.",
+      "The statement is part of a broader process of challenging cognitive distortions."
+    ],
+    "conditions_for_misleading": [
+      "The speaker overgeneralizes to assume all automatic thoughts are false or irrelevant.",
+      "The speaker dismisses valid intuitive or experiential knowledge as mere 'automatic thoughts.'",
+      "The speaker uses this distinction to avoid engaging with emotional or subjective truths.",
+      "The speaker lacks access to reliable evidence to compare against."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 133,
+  "output_tokens": 280,
+  "error": "",
+  "retry_count": 0
+}

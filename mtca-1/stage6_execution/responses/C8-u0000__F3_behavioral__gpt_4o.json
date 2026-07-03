@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0000__F3_behavioral__gpt_4o",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:49:15.438640+00:00",
+  "wall_clock_seconds": 2.3924484252929688,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement seeks to increase self-awareness and differentiate between subjective perceptions and objective evidence.\",\n  \"implicit_claims\": [\n    \"Automatic thoughts can be inaccurate or not based on evidence.\",\n    \"There is a distinction between thoughts and objective truths.\",\n    \"Recognizing this distinction can lead to better decision-making or understanding.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically separates the concept of automatic thoughts from the notion of evidence-based truth.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if an individual is capable of reflection and is committed to improving cognitive processes and decision-making based on evidence rather than assumptions or biased thoughts.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if an individual lacks the understanding of what constitutes evidence or if they fail to recognize the subjectivity of their thoughts. It could also be misleading if the concept of automatic thoughts is interpreted as entirely unreliable without context.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement seeks to increase self-awareness and differentiate between subjective perceptions and objective evidence.",
+    "implicit_claims": [
+      "Automatic thoughts can be inaccurate or not based on evidence.",
+      "There is a distinction between thoughts and objective truths.",
+      "Recognizing this distinction can lead to better decision-making or understanding."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically separates the concept of automatic thoughts from the notion of evidence-based truth.",
+    "conditions_for_usefulness": "The statement would be useful if an individual is capable of reflection and is committed to improving cognitive processes and decision-making based on evidence rather than assumptions or biased thoughts.",
+    "conditions_for_misleading": "The statement may be misleading if an individual lacks the understanding of what constitutes evidence or if they fail to recognize the subjectivity of their thoughts. It could also be misleading if the concept of automatic thoughts is interpreted as entirely unreliable without context."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0
+}

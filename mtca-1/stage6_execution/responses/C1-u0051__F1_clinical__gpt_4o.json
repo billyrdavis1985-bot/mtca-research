@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0051__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:02:54.575010+00:00",
+  "wall_clock_seconds": 3.253761053085327,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing a strategy or guideline for behavior related to sleep.\",\n  \"implicit_claims\": [\n    \"Lying quietly in bed without making an effort to sleep is beneficial or preferable.\",\n    \"Effort to sleep can be counterproductive.\",\n    \"Lying quietly is a satisfactory alternative to sleep.\",\n    \"There is a benefit to stillness or quietness in bed even without sleep.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it follows a conditional structure, suggesting an alternative behavior when sleep is not actively pursued.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual often struggles with falling asleep due to anxiety or pressure around sleeping. It assumes a belief that reduced effort might lead to relaxation or eventual sleep.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if lying quietly without sleep leads to frustration or negative emotions. It would also be misleading if the individual suffers from a condition that requires more proactive sleep interventions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing a strategy or guideline for behavior related to sleep.",
+    "implicit_claims": [
+      "Lying quietly in bed without making an effort to sleep is beneficial or preferable.",
+      "Effort to sleep can be counterproductive.",
+      "Lying quietly is a satisfactory alternative to sleep.",
+      "There is a benefit to stillness or quietness in bed even without sleep."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it follows a conditional structure, suggesting an alternative behavior when sleep is not actively pursued.",
+    "conditions_for_usefulness": "The statement would be useful if the individual often struggles with falling asleep due to anxiety or pressure around sleeping. It assumes a belief that reduced effort might lead to relaxation or eventual sleep.",
+    "conditions_for_misleading": "The statement could be misleading if lying quietly without sleep leads to frustration or negative emotions. It would also be misleading if the individual suffers from a condition that requires more proactive sleep interventions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0
+}

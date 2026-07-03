@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0002__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:02:53.559346+00:00",
+  "wall_clock_seconds": 5.461654901504517,
+  "raw_response": "{\n  \"communicative_function\": \"Declaring a commitment to epistemic integrity and a methodological preference for evidence-based reasoning over fear-driven speculation.\",\n  \"implicit_claims\": [\n    \"The speaker previously tested predictions against feared outcomes rather than actual events.\",\n    \"The speaker has the ability to distinguish between feared outcomes and actual outcomes.\",\n    \"Fear can distort or replace empirical reality in one's evaluation framework.\",\n    \"Testing against actual outcomes is a more reliable or rational approach than testing against feared ones.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear contrast between two types of testing criteria (fear vs. actuality) and asserts a deliberate choice for the latter, which is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to reliable information about actual outcomes.\",\n    \"The speaker is capable of accurately observing and recording what actually happens.\",\n    \"The speaker's fears are psychologically salient but not epistemically privileged.\",\n    \"The context allows for empirical verification or falsification of predictions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misidentifies 'actual outcomes' with their own biased interpretation of events.\",\n    \"The speaker uses the statement to dismiss legitimate precautionary fears without evidence that such fears are unfounded.\",\n    \"The speaker's predictions are inherently non-falsifiable (e.g., about the distant future or metaphysical events).\",\n    \"The statement implies that fear is never a useful guide, which may not hold in all contexts (e.g., existential risk scenarios).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Declaring a commitment to epistemic integrity and a methodological preference for evidence-based reasoning over fear-driven speculation.",
+    "implicit_claims": [
+      "The speaker previously tested predictions against feared outcomes rather than actual events.",
+      "The speaker has the ability to distinguish between feared outcomes and actual outcomes.",
+      "Fear can distort or replace empirical reality in one's evaluation framework.",
+      "Testing against actual outcomes is a more reliable or rational approach than testing against feared ones."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear contrast between two types of testing criteria (fear vs. actuality) and asserts a deliberate choice for the latter, which is logically consistent.",
+    "conditions_for_usefulness": [
+      "The speaker has access to reliable information about actual outcomes.",
+      "The speaker is capable of accurately observing and recording what actually happens.",
+      "The speaker's fears are psychologically salient but not epistemically privileged.",
+      "The context allows for empirical verification or falsification of predictions."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misidentifies 'actual outcomes' with their own biased interpretation of events.",
+      "The speaker uses the statement to dismiss legitimate precautionary fears without evidence that such fears are unfounded.",
+      "The speaker's predictions are inherently non-falsifiable (e.g., about the distant future or metaphysical events).",
+      "The statement implies that fear is never a useful guide, which may not hold in all contexts (e.g., existential risk scenarios)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 325,
+  "error": "",
+  "retry_count": 0
+}

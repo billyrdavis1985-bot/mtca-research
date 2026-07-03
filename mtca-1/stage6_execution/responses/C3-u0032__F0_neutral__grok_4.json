@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0032__F0_neutral__grok_4",
+  "unit_id": "C3-u0032",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:26:49.634540+00:00",
+  "wall_clock_seconds": 5.945066928863525,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes the nature of divine service as inner moral purity\",\n  \"implicit_claims\": [\n    \"service to the gods consists solely in emotional and moral self-regulation\",\n    \"violent passions, evil affections, rashness, vanity, and discontent are incompatible with such service\",\n    \"discontent toward gods or men is a moral failing\",\n    \"such purity is both attainable and obligatory\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a concise prescriptive definition without internal contradiction\",\n  \"conditions_for_usefulness\": \"the audience accepts a Stoic or theistic framework in which inner purity constitutes service and seeks guidance for self-mastery\",\n  \"conditions_for_misleading\": \"the term 'service' is interpreted literally or institutionally rather than spiritually, or the audience rejects the premise that passions are inherently harmful\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes the nature of divine service as inner moral purity",
+    "implicit_claims": [
+      "service to the gods consists solely in emotional and moral self-regulation",
+      "violent passions, evil affections, rashness, vanity, and discontent are incompatible with such service",
+      "discontent toward gods or men is a moral failing",
+      "such purity is both attainable and obligatory"
+    ],
+    "coherence_assessment": "internally coherent as a concise prescriptive definition without internal contradiction",
+    "conditions_for_usefulness": "the audience accepts a Stoic or theistic framework in which inner purity constitutes service and seeks guidance for self-mastery",
+    "conditions_for_misleading": "the term 'service' is interpreted literally or institutionally rather than spiritually, or the audience rejects the premise that passions are inherently harmful"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 285,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0
+}

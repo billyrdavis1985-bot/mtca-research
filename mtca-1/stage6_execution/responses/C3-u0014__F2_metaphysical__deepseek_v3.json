@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0014__F2_metaphysical__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:22:28.530573+00:00",
+  "wall_clock_seconds": 6.08905553817749,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making a comparative moral and psychological judgment, ranking sins of anger and lust in terms of their impact on reason and character, with the aim of guiding ethical self-reflection.\",\n  \"implicit_claims\": [\n    \"Anger involves a turning away from reason accompanied by grief and self-contraction.\",\n    \"Lust involves being overcome by pleasure, revealing a more impotent and unmanlike disposition than anger.\",\n    \"There is an objective standard of reason and manliness against which sins can be measured.\",\n    \"Emotions like anger and lust have distinct spiritual or moral qualities that affect one's character.\",\n    \"The speaker assumes a hierarchy of sins, with lust being worse or more shameful than anger.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own value system, drawing a consistent distinction between two types of passion-based sin and their effects on reason and disposition. However, the comparative ranking ('more impotent, unmanlike') rests on unargued cultural or metaphysical assumptions about masculinity and degrees of vice.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if one accepts a metaphysical framework where (1) reason is a guiding spiritual faculty, (2) sins are ranked by their effect on character and rational self-control, and (3) gendered terms like 'unmanlike' carry normative spiritual weight. It could also be useful as a prompt for introspection about one's own emotional patterns.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if (1) anger and lust are viewed as morally equivalent or context-dependent, (2) the concept of 'manliness' is rejected as arbitrary or harmful, (3) psychological or neuroscientific accounts show that anger and lust involve similar levels of self-control impairment, or (4) the statement is taken as absolute truth rather than a culturally conditioned opinion.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral and psychological judgment, ranking sins of anger and lust in terms of their impact on reason and character, with the aim of guiding ethical self-reflection.",
+    "implicit_claims": [
+      "Anger involves a turning away from reason accompanied by grief and self-contraction.",
+      "Lust involves being overcome by pleasure, revealing a more impotent and unmanlike disposition than anger.",
+      "There is an objective standard of reason and manliness against which sins can be measured.",
+      "Emotions like anger and lust have distinct spiritual or moral qualities that affect one's character.",
+      "The speaker assumes a hierarchy of sins, with lust being worse or more shameful than anger."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own value system, drawing a consistent distinction between two types of passion-based sin and their effects on reason and disposition. However, the comparative ranking ('more impotent, unmanlike') rests on unargued cultural or metaphysical assumptions about masculinity and degrees of vice.",
+    "conditions_for_usefulness": "The statement would be useful if one accepts a metaphysical framework where (1) reason is a guiding spiritual faculty, (2) sins are ranked by their effect on character and rational self-control, and (3) gendered terms like 'unmanlike' carry normative spiritual weight. It could also be useful as a prompt for introspection about one's own emotional patterns.",
+    "conditions_for_misleading": "The statement would be misleading if (1) anger and lust are viewed as morally equivalent or context-dependent, (2) the concept of 'manliness' is rejected as arbitrary or harmful, (3) psychological or neuroscientific accounts show that anger and lust involve similar levels of self-control impairment, or (4) the statement is taken as absolute truth rather than a culturally conditioned opinion."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 391,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,41 @@
+{
+  "call_id": "C7-u0000__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:54:41.784907+00:00",
+  "wall_clock_seconds": 4.8882668018341064,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a confession or admission of personal limitation and a declaration of a shared experience within a group context.\",\n  \"implicit_claims\": [\n    \"The speaker and those included in 'we' have a problem with alcohol.\",\n    \"The problem involves a loss of control (powerlessness).\",\n    \"The problem has negative consequences (unmanageable lives).\",\n    \"The admission is a necessary or important step toward recovery or change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a cause (powerlessness over alcohol) and an effect (unmanageable lives) in a logical sequence.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used in a context where acknowledging powerlessness is a step toward recovery (e.g., 12-step programs).\",\n    \"The audience shares or can relate to the experience of addiction.\",\n    \"The speaker genuinely believes the statement and intends to act on it.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied to individuals who do not have an alcohol problem, implying false powerlessness.\",\n    \"It is used to absolve responsibility for harmful actions that were not caused by alcohol.\",\n    \"The context implies that all people with alcohol problems must make this admission, which may not be universally true or helpful.\",\n    \"It is taken out of context to suggest that alcoholism is purely a matter of willpower or moral failing.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a confession or admission of personal limitation and a declaration of a shared experience within a group context.",
+    "implicit_claims": [
+      "The speaker and those included in 'we' have a problem with alcohol.",
+      "The problem involves a loss of control (powerlessness).",
+      "The problem has negative consequences (unmanageable lives).",
+      "The admission is a necessary or important step toward recovery or change."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a cause (powerlessness over alcohol) and an effect (unmanageable lives) in a logical sequence.",
+    "conditions_for_usefulness": [
+      "The statement is used in a context where acknowledging powerlessness is a step toward recovery (e.g., 12-step programs).",
+      "The audience shares or can relate to the experience of addiction.",
+      "The speaker genuinely believes the statement and intends to act on it."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied to individuals who do not have an alcohol problem, implying false powerlessness.",
+      "It is used to absolve responsibility for harmful actions that were not caused by alcohol.",
+      "The context implies that all people with alcohol problems must make this admission, which may not be universally true or helpful.",
+      "It is taken out of context to suggest that alcoholism is purely a matter of willpower or moral failing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 144,
+  "output_tokens": 307,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0001__F3_behavioral__gpt_4o",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:54:30.239618+00:00",
+  "wall_clock_seconds": 2.7899301052093506,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a commitment to change a cognitive pattern by adopting a more realistic perspective on potential negative outcomes.\",\n  \"implicit_claims\": [\n    \"The speaker frequently engages in catastrophizing.\",\n    \"Asking about the realistic worst-case scenario is a strategy for managing catastrophizing thoughts.\",\n    \"The speaker values realistic and rational approaches to their thought processes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly expresses the intended change in behavior (from catastrophizing to assessing realistic scenarios) and provides a specific method for doing so.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is genuinely aware of their catastrophizing patterns, willing to engage in self-reflection, and capable of identifying and evaluating a realistic worst-case scenario when prompted.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the individual lacks the insight to recognize when they are catastrophizing, is unable to objectively assess what a realistic worst-case scenario might be, or holds unsupported beliefs that distort their interpretation of what is realistic.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a commitment to change a cognitive pattern by adopting a more realistic perspective on potential negative outcomes.",
+    "implicit_claims": [
+      "The speaker frequently engages in catastrophizing.",
+      "Asking about the realistic worst-case scenario is a strategy for managing catastrophizing thoughts.",
+      "The speaker values realistic and rational approaches to their thought processes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly expresses the intended change in behavior (from catastrophizing to assessing realistic scenarios) and provides a specific method for doing so.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is genuinely aware of their catastrophizing patterns, willing to engage in self-reflection, and capable of identifying and evaluating a realistic worst-case scenario when prompted.",
+    "conditions_for_misleading": "The statement would be misleading if the individual lacks the insight to recognize when they are catastrophizing, is unable to objectively assess what a realistic worst-case scenario might be, or holds unsupported beliefs that distort their interpretation of what is realistic."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0
+}

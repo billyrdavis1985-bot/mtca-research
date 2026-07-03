@@ -1,0 +1,52 @@
+{
+  "call_id": "C1-u0228__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:24:47.732706+00:00",
+  "wall_clock_seconds": 16.699668645858765,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is instructing clinicians on the therapeutic use of language and framing, arguing that how a prognosis is communicated influences patient outcomes through psychological mechanisms (specifically autosuggestion). It functions as a prescriptive clinical guideline advocating for hopeful, constructive framing over fatalistic disclosure.\",\n  \"implicit_claims\": [\n    \"Physicians hold inherent suggestive authority over patients by virtue of their title and role.\",\n    \"Patient beliefs about their illness can causally influence the course or outcome of that illness.\",\n    \"Negative prognostic statements can worsen outcomes through psychologically mediated mechanisms.\",\n    \"Positive or hopeful framing can produce real, observable clinical improvements.\",\n    \"Autosuggestion is a legitimate and clinically significant mechanism of action.\",\n    \"The clinician's communicative choices are a therapeutic intervention in themselves.\",\n    \"Withholding or softening a dire prognosis is ethically and therapeutically justified.\",\n    \"The patient's mental state is a meaningful variable in recovery trajectories.\",\n    \"Hopeful framing and accurate disclosure are not mutually exclusive.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. It presents a clear contrast between two communicative strategies and assigns differential outcomes to each, grounded in the concept of autosuggestion. The logic flows consistently: authority figure → suggestive influence → patient belief → physiological/psychological outcome. However, it conflates prescriptive ethical guidance with empirical causal claims without distinguishing them, which introduces tension but does not produce outright contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The psychoneuroimmunological or placebo-related mechanisms linking belief and health outcomes have some validity in the relevant condition.\",\n    \"The clinician can offer hopeful framing without making objectively false statements.\",\n    \"The patient is in a context where hope and engagement in treatment meaningfully affect prognosis.\",\n    \"The patient's autonomy and right to informed consent are preserved alongside the hopeful framing.\",\n    \"The condition in question is not one where immediate, clear disclosure is necessary for the patient to make urgent decisions.\",\n    \"The clinician has sufficient knowledge to distinguish genuinely incurable conditions from those with uncertain prognoses.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition is genuinely terminal or incurable, and hopeful framing prevents the patient from making informed end-of-life decisions.\",\n    \"The patient has a right or need to arrange affairs, relationships, or legal matters that require accurate prognostic information.\",\n    \"The hopeful framing is used to obscure medical error or negligence.\",\n    \"Autosuggestion has no clinically significant effect on the specific condition, making the framing purely deceptive rather than therapeutic.\",\n    \"The statement is used to justify paternalistic withholding of information as a routine practice rather than a context-sensitive clinical judgment.\",\n    \"It is applied in contexts where the 'surprise' outcomes the statement anticipates are systematically unlikely, misleading both clinician and patient about base rates.\",\n    \"The framework is extended to discourage patients from seeking second opinions or alternative treatments.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is instructing clinicians on the therapeutic use of language and framing, arguing that how a prognosis is communicated influences patient outcomes through psychological mechanisms (specifically autosuggestion). It functions as a prescriptive clinical guideline advocating for hopeful, constructive framing over fatalistic disclosure.",
+    "implicit_claims": [
+      "Physicians hold inherent suggestive authority over patients by virtue of their title and role.",
+      "Patient beliefs about their illness can causally influence the course or outcome of that illness.",
+      "Negative prognostic statements can worsen outcomes through psychologically mediated mechanisms.",
+      "Positive or hopeful framing can produce real, observable clinical improvements.",
+      "Autosuggestion is a legitimate and clinically significant mechanism of action.",
+      "The clinician's communicative choices are a therapeutic intervention in themselves.",
+      "Withholding or softening a dire prognosis is ethically and therapeutically justified.",
+      "The patient's mental state is a meaningful variable in recovery trajectories.",
+      "Hopeful framing and accurate disclosure are not mutually exclusive."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. It presents a clear contrast between two communicative strategies and assigns differential outcomes to each, grounded in the concept of autosuggestion. The logic flows consistently: authority figure → suggestive influence → patient belief → physiological/psychological outcome. However, it conflates prescriptive ethical guidance with empirical causal claims without distinguishing them, which introduces tension but does not produce outright contradiction.",
+    "conditions_for_usefulness": [
+      "The psychoneuroimmunological or placebo-related mechanisms linking belief and health outcomes have some validity in the relevant condition.",
+      "The clinician can offer hopeful framing without making objectively false statements.",
+      "The patient is in a context where hope and engagement in treatment meaningfully affect prognosis.",
+      "The patient's autonomy and right to informed consent are preserved alongside the hopeful framing.",
+      "The condition in question is not one where immediate, clear disclosure is necessary for the patient to make urgent decisions.",
+      "The clinician has sufficient knowledge to distinguish genuinely incurable conditions from those with uncertain prognoses."
+    ],
+    "conditions_for_misleading": [
+      "The condition is genuinely terminal or incurable, and hopeful framing prevents the patient from making informed end-of-life decisions.",
+      "The patient has a right or need to arrange affairs, relationships, or legal matters that require accurate prognostic information.",
+      "The hopeful framing is used to obscure medical error or negligence.",
+      "Autosuggestion has no clinically significant effect on the specific condition, making the framing purely deceptive rather than therapeutic.",
+      "The statement is used to justify paternalistic withholding of information as a routine practice rather than a context-sensitive clinical judgment.",
+      "It is applied in contexts where the 'surprise' outcomes the statement anticipates are systematically unlikely, misleading both clinician and patient about base rates.",
+      "The framework is extended to discourage patients from seeking second opinions or alternative treatments."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 264,
+  "output_tokens": 732,
+  "error": "",
+  "retry_count": 0
+}

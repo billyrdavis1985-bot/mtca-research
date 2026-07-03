@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F7_author_anonymous__gpt_4o",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:54:19.738413+00:00",
+  "wall_clock_seconds": 2.419689893722534,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a confession of loss of control and acknowledgment of a problem.\",\n  \"implicit_claims\": [\n    \"The speaker has a problem with alcohol.\",\n    \"Admitting powerlessness is important for addressing the problem.\",\n    \"Their life is negatively impacted by alcohol.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it logically connects the admission of powerlessness to the unmanageability of life.\",\n  \"conditions_for_usefulness\": \"This statement is useful if the speaker is participating in a program or process where acknowledgment of issues is the first step towards recovery, such as in support groups.\",\n  \"conditions_for_misleading\": \"It may be misleading if the speaker's situation is portrayed as unmanageable due to factors other than alcohol, or if admitting powerlessness is not genuinely seen by them as a step toward improvement.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a confession of loss of control and acknowledgment of a problem.",
+    "implicit_claims": [
+      "The speaker has a problem with alcohol.",
+      "Admitting powerlessness is important for addressing the problem.",
+      "Their life is negatively impacted by alcohol."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it logically connects the admission of powerlessness to the unmanageability of life.",
+    "conditions_for_usefulness": "This statement is useful if the speaker is participating in a program or process where acknowledgment of issues is the first step towards recovery, such as in support groups.",
+    "conditions_for_misleading": "It may be misleading if the speaker's situation is portrayed as unmanageable due to factors other than alcohol, or if admitting powerlessness is not genuinely seen by them as a step toward improvement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 188,
+  "error": "",
+  "retry_count": 0
+}

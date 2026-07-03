@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0002__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:58:07.608268+00:00",
+  "wall_clock_seconds": 4.18323826789856,
+  "raw_response": "{\n  \"communicative_function\": \"The statement declares a deliberate epistemic commitment to reality-based testing over emotion-driven speculation, likely as a personal resolution or self-correction.\",\n  \"implicit_claims\": [\n    \"The speaker previously tested predictions against fears rather than actual outcomes.\",\n    \"Fear-based prediction testing is distinct from and inferior to reality-based testing.\",\n    \"The speaker can identify what 'actually happens' independently of their fears.\",\n    \"Choosing to test against actual outcomes is under the speaker's control.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it clearly contrasts two testing methods and asserts a preference for one, with no logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has reliable access to objective information about actual outcomes.\",\n    \"The speaker can accurately distinguish between fear-based expectations and neutral predictions.\",\n    \"The speaker follows through on the stated choice in practice.\",\n    \"Actual outcomes are observable and interpretable within a relevant timeframe.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker confuses their own interpretations or biases with 'what actually happens'.\",\n    \"The speaker uses the statement to dismiss legitimate fears that may be predictive of real risks.\",\n    \"The statement is used to claim moral or epistemic superiority without behavioral change.\",\n    \"The speaker ignores that some predictions (e.g., about low-probability harms) cannot be tested quickly against outcomes.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement declares a deliberate epistemic commitment to reality-based testing over emotion-driven speculation, likely as a personal resolution or self-correction.",
+    "implicit_claims": [
+      "The speaker previously tested predictions against fears rather than actual outcomes.",
+      "Fear-based prediction testing is distinct from and inferior to reality-based testing.",
+      "The speaker can identify what 'actually happens' independently of their fears.",
+      "Choosing to test against actual outcomes is under the speaker's control."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it clearly contrasts two testing methods and asserts a preference for one, with no logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker has reliable access to objective information about actual outcomes.",
+      "The speaker can accurately distinguish between fear-based expectations and neutral predictions.",
+      "The speaker follows through on the stated choice in practice.",
+      "Actual outcomes are observable and interpretable within a relevant timeframe."
+    ],
+    "conditions_for_misleading": [
+      "The speaker confuses their own interpretations or biases with 'what actually happens'.",
+      "The speaker uses the statement to dismiss legitimate fears that may be predictive of real risks.",
+      "The statement is used to claim moral or epistemic superiority without behavioral change.",
+      "The speaker ignores that some predictions (e.g., about low-probability harms) cannot be tested quickly against outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 295,
+  "error": "",
+  "retry_count": 0
+}

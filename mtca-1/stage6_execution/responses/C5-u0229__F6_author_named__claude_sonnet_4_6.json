@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0229__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:47:50.110263+00:00",
+  "wall_clock_seconds": 17.333476781845093,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning as a motivational assertion and prescriptive claim, asserting a causal relationship between inner mental states (thoughts, vision, ideal) and one's life trajectory or social/material position. It also serves as an implicit exhortation to take responsibility for one's circumstances through mental discipline.\",\n  \"implicit_claims\": [\n    \"Thoughts, vision, and ideals are the primary determinants of a person's rise, fall, or stagnation in life.\",\n    \"The external environment is secondary or subordinate to internal mental states.\",\n    \"Individuals have sufficient agency over their thoughts to meaningfully direct their life outcomes.\",\n    \"Rising, remaining, or falling are outcomes attributable to the individual rather than to systemic, structural, or circumstantial forces.\",\n    \"There is a reliable and consistent causal mechanism linking thought quality to life outcomes.\",\n    \"All people have roughly equal capacity to control or elevate their thoughts regardless of circumstance.\",\n    \"Vision and ideals are practically actionable forces, not merely passive mental states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms: it presents a tripartite outcome (fall, remain, rise) corresponding to a tripartite inner cause (thoughts, vision, ideal). The logical structure is consistent. However, coherence is weakened by the vagueness of key terms—'thoughts,' 'vision,' and 'ideal' are not clearly distinguished from one another, and 'environment' is introduced only to be immediately subordinated without justification.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuine agency and material capacity to act on their thoughts and ideals.\",\n    \"External barriers (poverty, discrimination, illness, systemic inequality) are not the dominant limiting factor in the person's situation.\",\n    \"The person is suffering primarily from a lack of direction, motivation, or self-belief rather than from structural disadvantage.\",\n    \"The statement is used as a tool for personal reflection rather than as a universal social or political theory.\",\n    \"The recipient interprets 'thoughts' broadly to include habits of mind that translate into concrete action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces significant structural, economic, or systemic barriers that thought alone cannot overcome.\",\n    \"The statement is used to explain or justify social inequality by attributing poverty or low status to inferior thinking.\",\n    \"It is applied to people in crisis (trauma, illness, oppression) in a way that implies their suffering is a product of their own mental inadequacy.\",\n    \"It discourages seeking external help, systemic change, or material resources by overemphasizing internal causation.\",\n    \"It is taken as empirically verified rather than as a philosophical or aspirational claim, leading to false expectations about outcomes.\",\n    \"It is used to dismiss the role of luck, privilege, social capital, or historical context in shaping life outcomes.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning as a motivational assertion and prescriptive claim, asserting a causal relationship between inner mental states (thoughts, vision, ideal) and one's life trajectory or social/material position. It also serves as an implicit exhortation to take responsibility for one's circumstances through mental discipline.",
+    "implicit_claims": [
+      "Thoughts, vision, and ideals are the primary determinants of a person's rise, fall, or stagnation in life.",
+      "The external environment is secondary or subordinate to internal mental states.",
+      "Individuals have sufficient agency over their thoughts to meaningfully direct their life outcomes.",
+      "Rising, remaining, or falling are outcomes attributable to the individual rather than to systemic, structural, or circumstantial forces.",
+      "There is a reliable and consistent causal mechanism linking thought quality to life outcomes.",
+      "All people have roughly equal capacity to control or elevate their thoughts regardless of circumstance.",
+      "Vision and ideals are practically actionable forces, not merely passive mental states."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms: it presents a tripartite outcome (fall, remain, rise) corresponding to a tripartite inner cause (thoughts, vision, ideal). The logical structure is consistent. However, coherence is weakened by the vagueness of key terms—'thoughts,' 'vision,' and 'ideal' are not clearly distinguished from one another, and 'environment' is introduced only to be immediately subordinated without justification.",
+    "conditions_for_usefulness": [
+      "The individual has genuine agency and material capacity to act on their thoughts and ideals.",
+      "External barriers (poverty, discrimination, illness, systemic inequality) are not the dominant limiting factor in the person's situation.",
+      "The person is suffering primarily from a lack of direction, motivation, or self-belief rather than from structural disadvantage.",
+      "The statement is used as a tool for personal reflection rather than as a universal social or political theory.",
+      "The recipient interprets 'thoughts' broadly to include habits of mind that translate into concrete action."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces significant structural, economic, or systemic barriers that thought alone cannot overcome.",
+      "The statement is used to explain or justify social inequality by attributing poverty or low status to inferior thinking.",
+      "It is applied to people in crisis (trauma, illness, oppression) in a way that implies their suffering is a product of their own mental inadequacy.",
+      "It discourages seeking external help, systemic change, or material resources by overemphasizing internal causation.",
+      "It is taken as empirically verified rather than as a philosophical or aspirational claim, leading to false expectations about outcomes.",
+      "It is used to dismiss the role of luck, privilege, social capital, or historical context in shaping life outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 668,
+  "error": "",
+  "retry_count": 0
+}

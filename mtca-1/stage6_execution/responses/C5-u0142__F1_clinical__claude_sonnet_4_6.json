@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0142__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:22:25.934825+00:00",
+  "wall_clock_seconds": 14.463541269302368,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a motivational-directive assertion, framing purposeful intention as a necessary precondition for meaningful cognitive action. It attempts to redirect the listener's orientation from unstructured thinking toward goal-aligned cognition, implying that purposeless thought is categorically insufficient for achievement.\",\n  \"implicit_claims\": [\n    \"Thought and purpose are separable phenomena that must be actively linked.\",\n    \"There exists a meaningful binary between 'intelligent' and non-intelligent accomplishment.\",\n    \"Accomplishment without purposeful thought is either impossible or not worth recognizing.\",\n    \"Purpose is a necessary and possibly sufficient condition for intelligent action.\",\n    \"Unlinked or diffuse thought has no legitimate productive value.\",\n    \"The individual has the capacity and responsibility to forge this link consciously.\",\n    \"Intelligence is defined relationally — by its connection to purpose — rather than intrinsically.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical claim but relies on an undefined and potentially circular relationship between 'thought,' 'purpose,' and 'intelligent accomplishment.' It presupposes what it seeks to establish — that purposeful thought is intelligent thought — without specifying how purpose is recognized, validated, or distinguished from rationalization. The logical structure (UNTIL X, no Y) is clear but the terms are semantically underdetermined.\",\n  \"conditions_for_usefulness\": [\n    \"The client is engaging in chronic rumination or avoidance without clear behavioral goals.\",\n    \"The client has insight capacity and can meaningfully reflect on their own intentions.\",\n    \"Purpose is defined collaboratively and not imposed, making the link feel authentic rather than coercive.\",\n    \"The therapeutic context supports goal-setting work, such as behavioral activation or ACT-based values clarification.\",\n    \"The client does not have a history of rigid perfectionism that could weaponize the statement against themselves.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client is in an exploratory or insight-oriented phase where undirected thought is therapeutically valuable.\",\n    \"The client interprets 'purpose' as external achievement, reinforcing performance-based self-worth.\",\n    \"The statement is used to pathologize neurodivergent or non-linear cognitive styles.\",\n    \"It is applied to clients with anxiety disorders, where linking thought to purpose may increase cognitive fusion rather than reduce it.\",\n    \"The therapist has not collaboratively defined 'purpose,' leaving the client to fill in socially normative or self-critical definitions.\",\n    \"It implies that past unlinked thought was wasteful, increasing shame rather than motivation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a motivational-directive assertion, framing purposeful intention as a necessary precondition for meaningful cognitive action. It attempts to redirect the listener's orientation from unstructured thinking toward goal-aligned cognition, implying that purposeless thought is categorically insufficient for achievement.",
+    "implicit_claims": [
+      "Thought and purpose are separable phenomena that must be actively linked.",
+      "There exists a meaningful binary between 'intelligent' and non-intelligent accomplishment.",
+      "Accomplishment without purposeful thought is either impossible or not worth recognizing.",
+      "Purpose is a necessary and possibly sufficient condition for intelligent action.",
+      "Unlinked or diffuse thought has no legitimate productive value.",
+      "The individual has the capacity and responsibility to forge this link consciously.",
+      "Intelligence is defined relationally — by its connection to purpose — rather than intrinsically."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical claim but relies on an undefined and potentially circular relationship between 'thought,' 'purpose,' and 'intelligent accomplishment.' It presupposes what it seeks to establish — that purposeful thought is intelligent thought — without specifying how purpose is recognized, validated, or distinguished from rationalization. The logical structure (UNTIL X, no Y) is clear but the terms are semantically underdetermined.",
+    "conditions_for_usefulness": [
+      "The client is engaging in chronic rumination or avoidance without clear behavioral goals.",
+      "The client has insight capacity and can meaningfully reflect on their own intentions.",
+      "Purpose is defined collaboratively and not imposed, making the link feel authentic rather than coercive.",
+      "The therapeutic context supports goal-setting work, such as behavioral activation or ACT-based values clarification.",
+      "The client does not have a history of rigid perfectionism that could weaponize the statement against themselves."
+    ],
+    "conditions_for_misleading": [
+      "The client is in an exploratory or insight-oriented phase where undirected thought is therapeutically valuable.",
+      "The client interprets 'purpose' as external achievement, reinforcing performance-based self-worth.",
+      "The statement is used to pathologize neurodivergent or non-linear cognitive styles.",
+      "It is applied to clients with anxiety disorders, where linking thought to purpose may increase cognitive fusion rather than reduce it.",
+      "The therapist has not collaboratively defined 'purpose,' leaving the client to fill in socially normative or self-critical definitions.",
+      "It implies that past unlinked thought was wasteful, increasing shame rather than motivation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 608,
+  "error": "",
+  "retry_count": 0
+}

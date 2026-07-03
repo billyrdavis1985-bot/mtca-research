@@ -1,0 +1,45 @@
+{
+  "call_id": "C5-u0229__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:43:32.081125+00:00",
+  "wall_clock_seconds": 12.376579761505127,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is motivating and prescriptive, asserting a causal relationship between inner mental states (thoughts, vision, ideals) and one's trajectory in life. It functions as an inspirational claim intended to encourage intentional thinking and self-directed aspiration.\",\n  \"implicit_claims\": [\n    \"Thoughts, vision, and ideals are the primary determinants of life outcomes.\",\n    \"Environmental or structural conditions are secondary or subordinate to mental states.\",\n    \"Individuals have sufficient agency over their thoughts to influence their trajectory.\",\n    \"Rising, falling, or remaining stagnant are outcomes attributable to internal rather than external forces.\",\n    \"There is a reliable, consistent relationship between the quality of one's ideals and one's life outcomes.\",\n    \"All people operate under conditions where this mental agency is equally available to them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical claim. Its logic is consistent: it posits a tripartite outcome (fall, remain, rise) mapped onto a tripartite internal cause (thoughts, vision, ideal). However, the coherence is achieved partly by being vague enough to resist falsification, which is a rhetorical rather than analytical strength.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a meaningful degree of agency and is not severely constrained by systemic, structural, or material conditions.\",\n    \"The person is in a context where defeatist thinking is genuinely the primary obstacle to progress.\",\n    \"The statement is used as encouragement rather than as a complete causal theory of social outcomes.\",\n    \"Basic needs and safety are already secured, allowing cognitive and motivational resources to be directed toward ideals.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Structural barriers such as poverty, discrimination, illness, or lack of access to resources are the dominant factors limiting a person's outcomes.\",\n    \"The statement is used to blame individuals for circumstances largely outside their control.\",\n    \"It is applied universally without accounting for differences in privilege, opportunity, or systemic constraints.\",\n    \"It discourages people from seeking external support, systemic change, or practical resources by overemphasizing internal factors.\",\n    \"It is presented as empirically verified causal law rather than as motivational framing.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is motivating and prescriptive, asserting a causal relationship between inner mental states (thoughts, vision, ideals) and one's trajectory in life. It functions as an inspirational claim intended to encourage intentional thinking and self-directed aspiration.",
+    "implicit_claims": [
+      "Thoughts, vision, and ideals are the primary determinants of life outcomes.",
+      "Environmental or structural conditions are secondary or subordinate to mental states.",
+      "Individuals have sufficient agency over their thoughts to influence their trajectory.",
+      "Rising, falling, or remaining stagnant are outcomes attributable to internal rather than external forces.",
+      "There is a reliable, consistent relationship between the quality of one's ideals and one's life outcomes.",
+      "All people operate under conditions where this mental agency is equally available to them."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical claim. Its logic is consistent: it posits a tripartite outcome (fall, remain, rise) mapped onto a tripartite internal cause (thoughts, vision, ideal). However, the coherence is achieved partly by being vague enough to resist falsification, which is a rhetorical rather than analytical strength.",
+    "conditions_for_usefulness": [
+      "The individual has a meaningful degree of agency and is not severely constrained by systemic, structural, or material conditions.",
+      "The person is in a context where defeatist thinking is genuinely the primary obstacle to progress.",
+      "The statement is used as encouragement rather than as a complete causal theory of social outcomes.",
+      "Basic needs and safety are already secured, allowing cognitive and motivational resources to be directed toward ideals."
+    ],
+    "conditions_for_misleading": [
+      "Structural barriers such as poverty, discrimination, illness, or lack of access to resources are the dominant factors limiting a person's outcomes.",
+      "The statement is used to blame individuals for circumstances largely outside their control.",
+      "It is applied universally without accounting for differences in privilege, opportunity, or systemic constraints.",
+      "It discourages people from seeking external support, systemic change, or practical resources by overemphasizing internal factors.",
+      "It is presented as empirically verified causal law rather than as motivational framing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 531,
+  "error": "",
+  "retry_count": 0
+}

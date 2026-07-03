@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0002__F1_clinical__grok_4",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:58:42.834401+00:00",
+  "wall_clock_seconds": 6.238069534301758,
+  "raw_response": "{\n  \"communicative_function\": \"declarative commitment to an evidence-based evaluation stance, reframing prediction-testing as an active, chosen alternative to fear-driven appraisal\",\n  \"implicit_claims\": [\n    \"predictions exist that can be empirically checked against observable outcomes\",\n    \"fear supplies a competing, non-empirical standard of evaluation\",\n    \"the speaker possesses the capacity to choose and enact the empirical standard\",\n    \"actual events provide a more valid criterion than feared scenarios\"\n  ],\n  \"coherence_assessment\": \"internally coherent: cleanly contrasts two evaluative criteria and asserts a preference for the observable one without logical contradiction\",\n  \"conditions_for_usefulness\": \"the relevant predictions must be falsifiable through ordinary observation, the individual must be able to register disconfirming evidence without strong bias, and the feared outcomes must not reflect immediate, unchangeable danger\",\n  \"conditions_for_misleading\": \"reality-testing is distorted by confirmation bias or safety behaviors, genuine risks are minimized under the label of 'fear,' or the statement functions to bypass necessary caution rather than to correct distortion\"\n}",
+  "parsed_json": {
+    "communicative_function": "declarative commitment to an evidence-based evaluation stance, reframing prediction-testing as an active, chosen alternative to fear-driven appraisal",
+    "implicit_claims": [
+      "predictions exist that can be empirically checked against observable outcomes",
+      "fear supplies a competing, non-empirical standard of evaluation",
+      "the speaker possesses the capacity to choose and enact the empirical standard",
+      "actual events provide a more valid criterion than feared scenarios"
+    ],
+    "coherence_assessment": "internally coherent: cleanly contrasts two evaluative criteria and asserts a preference for the observable one without logical contradiction",
+    "conditions_for_usefulness": "the relevant predictions must be falsifiable through ordinary observation, the individual must be able to register disconfirming evidence without strong bias, and the feared outcomes must not reflect immediate, unchangeable danger",
+    "conditions_for_misleading": "reality-testing is distorted by confirmation bias or safety behaviors, genuine risks are minimized under the label of 'fear,' or the statement functions to bypass necessary caution rather than to correct distortion"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0
+}

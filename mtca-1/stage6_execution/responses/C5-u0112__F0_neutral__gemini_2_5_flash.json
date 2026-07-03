@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0112__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:16:32.265128+00:00",
+  "wall_clock_seconds": 7.019786596298218,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Makes a generalized assertion about the direct causal or correlational relationship between negative mental states ('sickly thoughts') and negative physical manifestations ('sickly body'), potentially serving as a principle, warning, or explanation.\",\n  \"implicit_claims\": [\n    \"There is a direct and inevitable causal link from mental states to physical states.\",\n    \"Mental states, specifically 'sickly thoughts,' are discernible and impactful entities.\",\n    \"Physical conditions, specifically a 'sickly body,' are a direct expression or consequence of these thoughts.\",\n    \"The mind holds significant power over the body's health.\",\n    \"Individuals have a degree of agency over their physical health through their thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical proposition, presenting a clear cause-and-effect (or strong correlational) structure between two related concepts ('sickly thoughts' leading to 'sickly body'). It does not contain self-contradictory elements in its phrasing.\",\n  \"conditions_for_usefulness\": [\n    \"If used metaphorically or as a general encouragement for holistic health practices, emphasizing the link between mental and physical well-being.\",\n    \"In contexts where specific mental states (e.g., chronic stress, depression) are scientifically linked to exacerbating or contributing to certain physical ailments (e.g., cardiovascular disease, weakened immune response).\",\n    \"As a motivational statement to address mental health issues that genuinely impact physical health.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as implying that all physical illness is solely or primarily caused by negative thoughts, thereby victim-blaming or dismissing genetic, environmental, or infectious causes.\",\n    \"If it discourages seeking conventional medical treatment for physical ailments in favor of only mental adjustments.\",\n    \"If it creates guilt or shame in individuals suffering from physical illness who perceive themselves as having 'positive' thoughts.\",\n    \"If it oversimplifies complex multifactorial diseases or gives a false sense of control over all aspects of physical health.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Makes a generalized assertion about the direct causal or correlational relationship between negative mental states ('sickly thoughts') and negative physical manifestations ('sickly body'), potentially serving as a principle, warning, or explanation.",
+    "implicit_claims": [
+      "There is a direct and inevitable causal link from mental states to physical states.",
+      "Mental states, specifically 'sickly thoughts,' are discernible and impactful entities.",
+      "Physical conditions, specifically a 'sickly body,' are a direct expression or consequence of these thoughts.",
+      "The mind holds significant power over the body's health.",
+      "Individuals have a degree of agency over their physical health through their thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical proposition, presenting a clear cause-and-effect (or strong correlational) structure between two related concepts ('sickly thoughts' leading to 'sickly body'). It does not contain self-contradictory elements in its phrasing.",
+    "conditions_for_usefulness": [
+      "If used metaphorically or as a general encouragement for holistic health practices, emphasizing the link between mental and physical well-being.",
+      "In contexts where specific mental states (e.g., chronic stress, depression) are scientifically linked to exacerbating or contributing to certain physical ailments (e.g., cardiovascular disease, weakened immune response).",
+      "As a motivational statement to address mental health issues that genuinely impact physical health."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as implying that all physical illness is solely or primarily caused by negative thoughts, thereby victim-blaming or dismissing genetic, environmental, or infectious causes.",
+      "If it discourages seeking conventional medical treatment for physical ailments in favor of only mental adjustments.",
+      "If it creates guilt or shame in individuals suffering from physical illness who perceive themselves as having 'positive' thoughts.",
+      "If it oversimplifies complex multifactorial diseases or gives a false sense of control over all aspects of physical health."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 131,
+  "output_tokens": 450,
+  "error": "",
+  "retry_count": 0
+}

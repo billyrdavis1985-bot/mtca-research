@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F3_behavioral__grok_4",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:37:16.937418+00:00",
+  "wall_clock_seconds": 7.065986633300781,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting an observational outcome as evidence of successful behavior change or intervention\",\n  \"implicit_claims\": [\"A specific action ('he does so') produces measurable physiological and functional gains\", \"The gains are large enough to qualify as 'remarkable'\", \"The outcome was unexpected and therefore noteworthy\"],\n  \"coherence_assessment\": \"Internally coherent as a causal claim linking action to outcome, provided 'he does so' has a clear, shared referent\",\n  \"conditions_for_usefulness\": \"The observation is repeatable, accurately recorded, and used to reinforce or refine a value-aligned behavior or treatment protocol\",\n  \"conditions_for_misleading\": \"The reported change is illusory, confounded by unrelated factors, or selectively presented to justify continued commitment to the action\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting an observational outcome as evidence of successful behavior change or intervention",
+    "implicit_claims": [
+      "A specific action ('he does so') produces measurable physiological and functional gains",
+      "The gains are large enough to qualify as 'remarkable'",
+      "The outcome was unexpected and therefore noteworthy"
+    ],
+    "coherence_assessment": "Internally coherent as a causal claim linking action to outcome, provided 'he does so' has a clear, shared referent",
+    "conditions_for_usefulness": "The observation is repeatable, accurately recorded, and used to reinforce or refine a value-aligned behavior or treatment protocol",
+    "conditions_for_misleading": "The reported change is illusory, confounded by unrelated factors, or selectively presented to justify continued commitment to the action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 278,
+  "output_tokens": 160,
+  "error": "",
+  "retry_count": 0
+}

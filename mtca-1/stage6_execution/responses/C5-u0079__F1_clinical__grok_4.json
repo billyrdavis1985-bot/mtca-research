@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0079__F1_clinical__grok_4",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:00:25.218117+00:00",
+  "wall_clock_seconds": 8.16743278503418,
+  "raw_response": "{\n  \"communicative_function\": \"assertive reframing of suffering as internally generated to promote cognitive accountability\",\n  \"implicit_claims\": [\n    \"suffering always has a single causal pathway\",\n    \"thoughts can be objectively classified as 'wrong'\",\n    \"no suffering arises from external events or non-cognitive factors\",\n    \"eliminating wrong thought necessarily eliminates suffering\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a universal causal claim but logically brittle due to the absolute quantifier 'always'\",\n  \"conditions_for_usefulness\": \"patient's distress is primarily maintained by identifiable cognitive distortions; therapeutic relationship supports exploration without invalidation; cultural context values personal agency over systemic explanation\",\n  \"conditions_for_misleading\": \"real external harms, trauma, or physiological conditions are present; statement is used to enforce self-blame or deny legitimate grievance; patient lacks resources to alter material circumstances\"\n}",
+  "parsed_json": {
+    "communicative_function": "assertive reframing of suffering as internally generated to promote cognitive accountability",
+    "implicit_claims": [
+      "suffering always has a single causal pathway",
+      "thoughts can be objectively classified as 'wrong'",
+      "no suffering arises from external events or non-cognitive factors",
+      "eliminating wrong thought necessarily eliminates suffering"
+    ],
+    "coherence_assessment": "internally consistent as a universal causal claim but logically brittle due to the absolute quantifier 'always'",
+    "conditions_for_usefulness": "patient's distress is primarily maintained by identifiable cognitive distortions; therapeutic relationship supports exploration without invalidation; cultural context values personal agency over systemic explanation",
+    "conditions_for_misleading": "real external harms, trauma, or physiological conditions are present; statement is used to enforce self-blame or deny legitimate grievance; patient lacks resources to alter material circumstances"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 186,
+  "error": "",
+  "retry_count": 0
+}

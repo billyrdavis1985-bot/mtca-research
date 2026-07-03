@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0228__F0_neutral__grok_4",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:24:24.169246+00:00",
+  "wall_clock_seconds": 5.248568296432495,
+  "raw_response": "{\n  \"communicative_function\": \"illustrative example warning about the effects of authoritative verbal suggestion on patient outcomes\",\n  \"implicit_claims\": [\n    \"a doctor's title confers suggestive authority over patients\",\n    \"negative prognosis statements can trigger harmful autosuggestion with serious health consequences\",\n    \"hopeful but realistic prognosis statements can produce surprisingly positive therapeutic results via autosuggestion\",\n    \"autosuggestion is a causal mechanism linking words to physiological outcomes\"\n  ],\n  \"coherence_assessment\": \"internally coherent: presents a clear contrast between two phrasings and their logically opposed predicted effects without internal contradiction\",\n  \"conditions_for_usefulness\": \"the audience seeks to understand placebo/nocebo or expectancy effects in clinical communication, and the claim is treated as a hypothesis open to empirical testing\",\n  \"conditions_for_misleading\": \"the statement is taken as proven causal mechanism rather than illustration, or is used to imply that prognosis wording alone can override biomedical disease processes\"\n}",
+  "parsed_json": {
+    "communicative_function": "illustrative example warning about the effects of authoritative verbal suggestion on patient outcomes",
+    "implicit_claims": [
+      "a doctor's title confers suggestive authority over patients",
+      "negative prognosis statements can trigger harmful autosuggestion with serious health consequences",
+      "hopeful but realistic prognosis statements can produce surprisingly positive therapeutic results via autosuggestion",
+      "autosuggestion is a causal mechanism linking words to physiological outcomes"
+    ],
+    "coherence_assessment": "internally coherent: presents a clear contrast between two phrasings and their logically opposed predicted effects without internal contradiction",
+    "conditions_for_usefulness": "the audience seeks to understand placebo/nocebo or expectancy effects in clinical communication, and the claim is treated as a hypothesis open to empirical testing",
+    "conditions_for_misleading": "the statement is taken as proven causal mechanism rather than illustration, or is used to imply that prognosis wording alone can override biomedical disease processes"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 341,
+  "output_tokens": 196,
+  "error": "",
+  "retry_count": 0
+}

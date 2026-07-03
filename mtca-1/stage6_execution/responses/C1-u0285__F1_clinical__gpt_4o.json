@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0285__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:30:25.120932+00:00",
+  "wall_clock_seconds": 3.820960283279419,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is defensively challenging objections by reframing the perceived danger as commonplace, thereby attempting to normalize and neutralize the perceived threat.\",\n  \"implicit_claims\": [\n    \"The thing in question is not actually dangerous.\",\n    \"All or most things contain some inherent danger.\",\n    \"The objection raised is possibly exaggerated or unfounded.\"\n  ],\n  \"coherence_assessment\": \"The statement maintains internal coherence by starting with a concession and then negating it, leading to a rhetorical question that emphasizes the ubiquity of risk.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the perceived danger is indeed minimal and comparable to other everyday risks, as it would help clients normalize fear and reduce anxiety related to the activity or situation.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the danger is significantly greater than implied or if the risks are being inaccurately compared to other less risky activities, potentially leading someone to underestimate legitimate hazards.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is defensively challenging objections by reframing the perceived danger as commonplace, thereby attempting to normalize and neutralize the perceived threat.",
+    "implicit_claims": [
+      "The thing in question is not actually dangerous.",
+      "All or most things contain some inherent danger.",
+      "The objection raised is possibly exaggerated or unfounded."
+    ],
+    "coherence_assessment": "The statement maintains internal coherence by starting with a concession and then negating it, leading to a rhetorical question that emphasizes the ubiquity of risk.",
+    "conditions_for_usefulness": "The statement would be useful if the perceived danger is indeed minimal and comparable to other everyday risks, as it would help clients normalize fear and reduce anxiety related to the activity or situation.",
+    "conditions_for_misleading": "The statement would be misleading if the danger is significantly greater than implied or if the risks are being inaccurately compared to other less risky activities, potentially leading someone to underestimate legitimate hazards."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

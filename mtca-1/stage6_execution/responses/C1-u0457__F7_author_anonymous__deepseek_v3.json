@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0457__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:39:46.929920+00:00",
+  "wall_clock_seconds": 4.490427494049072,
+  "raw_response": "{\n  \"communicative_function\": \"The statement reports an observation of a notable improvement in someone's respiration and walking, expressing astonishment at the change.\",\n  \"implicit_claims\": [\n    \"There is a specific person ('he') whose respiration and walking were previously in a less improved state.\",\n    \"The speaker has observed this person before and after some action ('when he does so'), implying a causal or temporal link between that action and the improvement.\",\n    \"The improvement is significant enough to cause astonishment.\",\n    \"The speaker is a credible observer (or at least presents themselves as such).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a cause (an unspecified action by 'he'), an effect (improvement in respiration and walking), and the speaker's emotional reaction (astonishment). No logical contradictions are present.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the context specifies what 'does so' refers to (e.g., a treatment, exercise, or intervention), and if the observation is accurate, reliable, and relevant to understanding the person's condition or the efficacy of that action.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the improvement is coincidental, temporary, placebo-induced, or misattributed; if the speaker's astonishment biases an objective assessment; if the context or full history is omitted; or if the statement is taken out of context to imply a general medical claim without evidence.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observation of a notable improvement in someone's respiration and walking, expressing astonishment at the change.",
+    "implicit_claims": [
+      "There is a specific person ('he') whose respiration and walking were previously in a less improved state.",
+      "The speaker has observed this person before and after some action ('when he does so'), implying a causal or temporal link between that action and the improvement.",
+      "The improvement is significant enough to cause astonishment.",
+      "The speaker is a credible observer (or at least presents themselves as such)."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a cause (an unspecified action by 'he'), an effect (improvement in respiration and walking), and the speaker's emotional reaction (astonishment). No logical contradictions are present.",
+    "conditions_for_usefulness": "The statement would be useful if the context specifies what 'does so' refers to (e.g., a treatment, exercise, or intervention), and if the observation is accurate, reliable, and relevant to understanding the person's condition or the efficacy of that action.",
+    "conditions_for_misleading": "The statement could be misleading if the improvement is coincidental, temporary, placebo-induced, or misattributed; if the speaker's astonishment biases an objective assessment; if the context or full history is omitted; or if the statement is taken out of context to imply a general medical claim without evidence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 308,
+  "error": "",
+  "retry_count": 0
+}

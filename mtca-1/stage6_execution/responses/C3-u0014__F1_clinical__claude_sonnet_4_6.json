@@ -1,0 +1,51 @@
+{
+  "call_id": "C3-u0014__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:21:07.740527+00:00",
+  "wall_clock_seconds": 17.81347680091858,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a comparative moral evaluation of two emotional-behavioral states (anger and lust), framing one (lust-driven sin) as more deficient in character than the other (anger-driven sin). As a clinical self-statement, it appears intended to motivate restraint of desire by invoking shame, gendered identity threat, and hierarchical ranking of moral failures.\",\n  \"implicit_claims\": [\n    \"Anger and lust are meaningfully comparable categories of moral/behavioral failure.\",\n    \"Anger involves a form of reason-adjacent grief, making it more dignified than lust.\",\n    \"Yielding to pleasure is evidence of weakness of character ('impotence') and lack of masculinity ('unmanlike').\",\n    \"Moral and behavioral self-regulation is best motivated by comparative shame and gendered evaluation.\",\n    \"There is a stable, rankable hierarchy of moral failures.\",\n    \"The person using this statement identifies with or aspires to a norm of masculine rationality.\",\n    \"Pleasure-seeking behavior reflects dispositional deficiency rather than situational, neurological, developmental, or trauma-related factors.\",\n    \"Self-shaming through gendered comparison is a therapeutically valid mechanism of change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own Aristotelian-Plutarchan moral framework, drawing a consistent distinction between passion types and mapping them onto a virtue hierarchy. However, its coherence is framework-dependent and breaks down when examined outside classical virtue ethics — particularly in a clinical context where shame, gendered self-concept threat, and moral ranking are generally contraindicated as therapeutic tools.\",\n  \"conditions_for_usefulness\": [\n    \"The client genuinely endorses a classical virtue-ethics framework as their own value system.\",\n    \"The client has identified that comparative moral reflection — not shame — motivates their self-regulation.\",\n    \"The therapeutic goal is explicitly values clarification within a tradition that holds this hierarchy.\",\n    \"The client is not vulnerable to shame-based harm, internalized misogyny, or self-concept fragility.\",\n    \"The clinician and client have collaboratively developed this as a personally meaningful self-statement rather than it being imposed.\",\n    \"The client does not have a trauma history, addiction profile, or neurodevelopmental condition that would be pathologized by dispositional moral attribution.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client has a clinical presentation (addiction, OCD, hypersexuality, trauma) where behavior is better explained by neurobiology or learned patterns than by moral disposition.\",\n    \"The client is female, non-binary, or does not hold masculine identity, making the gendered framing alienating or harmful.\",\n    \"The client is already prone to shame-based self-attack, in which case the statement would reinforce maladaptive cognition rather than correct it.\",\n    \"The statement is presented as evidence-based when it derives from ancient moral philosophy with no empirical clinical validation.\",\n    \"The comparative ranking of sins distracts from functional analysis of the behavior being targeted.\",\n    \"The framing that anger is more 'reason-adjacent' could inadvertently validate or minimize anger-driven harm to self or others.\",\n    \"The attribution of behavioral failure to stable dispositional weakness ('unmanlike') contradicts core CBT, ACT, and motivational interviewing principles that emphasize behavior as changeable and context-dependent.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a comparative moral evaluation of two emotional-behavioral states (anger and lust), framing one (lust-driven sin) as more deficient in character than the other (anger-driven sin). As a clinical self-statement, it appears intended to motivate restraint of desire by invoking shame, gendered identity threat, and hierarchical ranking of moral failures.",
+    "implicit_claims": [
+      "Anger and lust are meaningfully comparable categories of moral/behavioral failure.",
+      "Anger involves a form of reason-adjacent grief, making it more dignified than lust.",
+      "Yielding to pleasure is evidence of weakness of character ('impotence') and lack of masculinity ('unmanlike').",
+      "Moral and behavioral self-regulation is best motivated by comparative shame and gendered evaluation.",
+      "There is a stable, rankable hierarchy of moral failures.",
+      "The person using this statement identifies with or aspires to a norm of masculine rationality.",
+      "Pleasure-seeking behavior reflects dispositional deficiency rather than situational, neurological, developmental, or trauma-related factors.",
+      "Self-shaming through gendered comparison is a therapeutically valid mechanism of change."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own Aristotelian-Plutarchan moral framework, drawing a consistent distinction between passion types and mapping them onto a virtue hierarchy. However, its coherence is framework-dependent and breaks down when examined outside classical virtue ethics — particularly in a clinical context where shame, gendered self-concept threat, and moral ranking are generally contraindicated as therapeutic tools.",
+    "conditions_for_usefulness": [
+      "The client genuinely endorses a classical virtue-ethics framework as their own value system.",
+      "The client has identified that comparative moral reflection — not shame — motivates their self-regulation.",
+      "The therapeutic goal is explicitly values clarification within a tradition that holds this hierarchy.",
+      "The client is not vulnerable to shame-based harm, internalized misogyny, or self-concept fragility.",
+      "The clinician and client have collaboratively developed this as a personally meaningful self-statement rather than it being imposed.",
+      "The client does not have a trauma history, addiction profile, or neurodevelopmental condition that would be pathologized by dispositional moral attribution."
+    ],
+    "conditions_for_misleading": [
+      "The client has a clinical presentation (addiction, OCD, hypersexuality, trauma) where behavior is better explained by neurobiology or learned patterns than by moral disposition.",
+      "The client is female, non-binary, or does not hold masculine identity, making the gendered framing alienating or harmful.",
+      "The client is already prone to shame-based self-attack, in which case the statement would reinforce maladaptive cognition rather than correct it.",
+      "The statement is presented as evidence-based when it derives from ancient moral philosophy with no empirical clinical validation.",
+      "The comparative ranking of sins distracts from functional analysis of the behavior being targeted.",
+      "The framing that anger is more 'reason-adjacent' could inadvertently validate or minimize anger-driven harm to self or others.",
+      "The attribution of behavioral failure to stable dispositional weakness ('unmanlike') contradicts core CBT, ACT, and motivational interviewing principles that emphasize behavior as changeable and context-dependent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 212,
+  "output_tokens": 782,
+  "error": "",
+  "retry_count": 0
+}

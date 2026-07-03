@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0065__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:08:00.649399+00:00",
+  "wall_clock_seconds": 4.450793027877808,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making an observation about human behavior, drawing an analogy to sheep to highlight a tendency toward conformity, and suggesting that this tendency is both involuntary and accompanied by a mistaken belief that there is no alternative.\",\n  \"implicit_claims\": [\n    \"Human beings have a natural or ingrained tendency to imitate others.\",\n    \"This imitative behavior is involuntary, not a matter of deliberate choice.\",\n    \"People often believe they cannot act differently from others, even when they might be able to.\",\n    \"The belief in inability to do otherwise is an illusion or imagination, not necessarily a fact.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a consistent analogy (humans resemble sheep), a mechanism (involuntary imitation), and a psychological component (imagining inability to do otherwise) that supports the claim of being 'irresistibly impelled'.\",\n  \"conditions_for_usefulness\": [\n    \"If true, it could help explain social conformity, herd behavior, and irrational crowd actions.\",\n    \"It could be useful in discussions of social psychology, ethics, or criticism of blind adherence to norms.\",\n    \"Useful if the goal is to encourage critical thinking about one's own motives and the influence of others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken to imply that all human behavior is mindlessly imitative, ignoring individual agency and critical thought.\",\n    \"If used to argue that people are never responsible for their choices due to irresistible impulses.\",\n    \"If the analogy to sheep is overextended, ignoring human capacities for reflection and deliberate deviation from the norm.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making an observation about human behavior, drawing an analogy to sheep to highlight a tendency toward conformity, and suggesting that this tendency is both involuntary and accompanied by a mistaken belief that there is no alternative.",
+    "implicit_claims": [
+      "Human beings have a natural or ingrained tendency to imitate others.",
+      "This imitative behavior is involuntary, not a matter of deliberate choice.",
+      "People often believe they cannot act differently from others, even when they might be able to.",
+      "The belief in inability to do otherwise is an illusion or imagination, not necessarily a fact."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a consistent analogy (humans resemble sheep), a mechanism (involuntary imitation), and a psychological component (imagining inability to do otherwise) that supports the claim of being 'irresistibly impelled'.",
+    "conditions_for_usefulness": [
+      "If true, it could help explain social conformity, herd behavior, and irrational crowd actions.",
+      "It could be useful in discussions of social psychology, ethics, or criticism of blind adherence to norms.",
+      "Useful if the goal is to encourage critical thinking about one's own motives and the influence of others."
+    ],
+    "conditions_for_misleading": [
+      "If taken to imply that all human behavior is mindlessly imitative, ignoring individual agency and critical thought.",
+      "If used to argue that people are never responsible for their choices due to irresistible impulses.",
+      "If the analogy to sheep is overextended, ignoring human capacities for reflection and deliberate deviation from the norm."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 343,
+  "error": "",
+  "retry_count": 0
+}

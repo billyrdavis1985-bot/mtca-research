@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0864__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:53:00.040956+00:00",
+  "wall_clock_seconds": 14.211955785751343,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a retrospective self-disclosure, an admission or confession of a past mental state (scepticism). It describes an 'initial' or 'before' condition. It does not, by itself, express a future intention, a commitment to action, or a value-aligned behavior change.\",\n  \"implicit_claims\": [\n    \"The speaker was exposed to or considered Coué's lectures.\",\n    \"At that time, the speaker held a strong skeptical attitude towards the lectures.\",\n    \"The speaker is currently willing to acknowledge or admit this past attitude.\",\n    \"The context (implied by 'confess') suggests that this past scepticism might be noteworthy, potentially implying a shift in current perspective or an intention to address it, though no such shift or intention is explicitly stated.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a grammatically correct and semantically understandable sentence. However, when assessed as a 'behavioral commitment,' it lacks coherence because it describes a past state rather than making a commitment to a future action, behavior, or value alignment. It fails to meet the definitional criteria of a behavioral commitment on its own.\",\n  \"conditions_for_usefulness\": [\n    \"It is immediately followed by a clear statement of *future intent* or a *new behavior* that contrasts with, builds upon, or addresses the confessed skepticism (e.g., 'I was skeptical, but now I commit to trying X with an open mind').\",\n    \"The act of confessing past biases or initial reactions is itself a sub-behavior within a larger commitment to self-reflection, transparency, or overcoming preconceived notions.\",\n    \"It serves as an essential baseline, establishing the 'before' state from which a subsequent, explicit behavioral change or commitment can be understood or measured.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it is presented as the complete behavioral commitment itself, implying a commitment to future action or change that is not actually stated.\",\n    \"If the speaker implies or the audience infers that the speaker's scepticism has now disappeared or changed, without any explicit statement of a new belief or committed behavior.\",\n    \"If the 'confession' is not genuine, and the speaker still holds the same skeptical view but uses the statement to appear open-minded or compliant.\",\n    \"If it is used to fulfill a requirement for a 'commitment' without actually committing to any concrete, future-oriented action or value.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a retrospective self-disclosure, an admission or confession of a past mental state (scepticism). It describes an 'initial' or 'before' condition. It does not, by itself, express a future intention, a commitment to action, or a value-aligned behavior change.",
+    "implicit_claims": [
+      "The speaker was exposed to or considered Coué's lectures.",
+      "At that time, the speaker held a strong skeptical attitude towards the lectures.",
+      "The speaker is currently willing to acknowledge or admit this past attitude.",
+      "The context (implied by 'confess') suggests that this past scepticism might be noteworthy, potentially implying a shift in current perspective or an intention to address it, though no such shift or intention is explicitly stated."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a grammatically correct and semantically understandable sentence. However, when assessed as a 'behavioral commitment,' it lacks coherence because it describes a past state rather than making a commitment to a future action, behavior, or value alignment. It fails to meet the definitional criteria of a behavioral commitment on its own.",
+    "conditions_for_usefulness": [
+      "It is immediately followed by a clear statement of *future intent* or a *new behavior* that contrasts with, builds upon, or addresses the confessed skepticism (e.g., 'I was skeptical, but now I commit to trying X with an open mind').",
+      "The act of confessing past biases or initial reactions is itself a sub-behavior within a larger commitment to self-reflection, transparency, or overcoming preconceived notions.",
+      "It serves as an essential baseline, establishing the 'before' state from which a subsequent, explicit behavioral change or commitment can be understood or measured."
+    ],
+    "conditions_for_misleading": [
+      "If it is presented as the complete behavioral commitment itself, implying a commitment to future action or change that is not actually stated.",
+      "If the speaker implies or the audience infers that the speaker's scepticism has now disappeared or changed, without any explicit statement of a new belief or committed behavior.",
+      "If the 'confession' is not genuine, and the speaker still holds the same skeptical view but uses the statement to appear open-minded or compliant.",
+      "If it is used to fulfill a requirement for a 'commitment' without actually committing to any concrete, future-oriented action or value."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 542,
+  "error": "",
+  "retry_count": 0
+}

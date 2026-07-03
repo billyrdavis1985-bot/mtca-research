@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F5_ai_ethics__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:24:35.382146+00:00",
+  "wall_clock_seconds": 5.353856325149536,
+  "raw_response": "{\n  \"communicative_function\": \"contrasting two vices to assert a moral hierarchy favoring reason over bodily pleasure\",\n  \"implicit_claims\": [\n    \"anger distances a person from reason via an inward contraction akin to grief\",\n    \"lust produces a weaker, less rational failure than anger because it yields to pleasure\",\n    \"moral character can be ranked by degree of 'manliness' or self-mastery\",\n    \"sin through lust reveals a more fundamental character flaw than anger\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a Stoic-style contrast, though reliant on culturally specific notions of masculinity and reason\",\n  \"conditions_for_usefulness\": \"acceptance of a reason-centered ethical framework that treats passions as diagnostic of character and values self-control over pleasure\",\n  \"conditions_for_misleading\": \"literal application to contemporary ethics without historical context, or use to justify gender-normative judgments about emotional expression\"\n}",
+  "parsed_json": {
+    "communicative_function": "contrasting two vices to assert a moral hierarchy favoring reason over bodily pleasure",
+    "implicit_claims": [
+      "anger distances a person from reason via an inward contraction akin to grief",
+      "lust produces a weaker, less rational failure than anger because it yields to pleasure",
+      "moral character can be ranked by degree of 'manliness' or self-mastery",
+      "sin through lust reveals a more fundamental character flaw than anger"
+    ],
+    "coherence_assessment": "internally coherent as a Stoic-style contrast, though reliant on culturally specific notions of masculinity and reason",
+    "conditions_for_usefulness": "acceptance of a reason-centered ethical framework that treats passions as diagnostic of character and values self-control over pleasure",
+    "conditions_for_misleading": "literal application to contemporary ethics without historical context, or use to justify gender-normative judgments about emotional expression"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 315,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

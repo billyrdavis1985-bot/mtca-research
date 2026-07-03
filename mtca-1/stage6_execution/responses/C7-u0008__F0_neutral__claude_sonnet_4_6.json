@@ -1,0 +1,48 @@
+{
+  "call_id": "C7-u0008__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:24:19.498747+00:00",
+  "wall_clock_seconds": 14.451558589935303,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Prescribing a course of action as part of a moral or behavioral framework, specifically instructing someone to take restorative action toward harmed parties while building in an exception clause to limit harm from the act of repair itself.\",\n  \"implicit_claims\": [\n    \"There is a defined group of people ('such people') who have previously been identified as having been harmed or wronged.\",\n    \"Direct amends are generally beneficial or morally required.\",\n    \"The person making amends has agency and ability to determine when doing so would cause injury.\",\n    \"Injury to self is not a valid exception — only injury to 'them or others' qualifies.\",\n    \"It is possible to reliably assess whether making amends would cause injury before acting.\",\n    \"There is a meaningful distinction between 'direct' amends and other forms of amends.\",\n    \"The obligation to make amends is bounded by a harm-prevention principle.\",\n    \"The person following this step has already completed prior steps identifying who was harmed.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and logically structured. The primary directive is qualified by a harm-prevention exception, which is a standard ethical safeguard. The clause is internally consistent: it does not contradict the main directive but rather limits its scope. A minor tension exists in that 'wherever possible' and the injury exception could overlap ambiguously, leaving room for rationalization of inaction.\",\n  \"conditions_for_usefulness\": [\n    \"The person has genuinely identified those they have harmed and is motivated to repair relationships.\",\n    \"The person has sufficient self-awareness and judgment to distinguish genuine risk of injury from avoidance or discomfort.\",\n    \"There is a support structure (e.g., sponsor, therapist) to help evaluate whether the injury exception is being used honestly.\",\n    \"The concept of 'direct amends' has been clearly defined in context.\",\n    \"The person is emotionally and practically capable of making amends without destabilizing themselves.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The injury exception is used as a rationalization to avoid difficult but necessary conversations.\",\n    \"The person lacks reliable judgment about what would actually injure others versus what would merely be uncomfortable.\",\n    \"The word 'direct' excludes important forms of amends without explanation, causing confusion about what qualifies.\",\n    \"No guidance exists for distinguishing self-protective avoidance from genuine harm prevention.\",\n    \"The statement is applied in a context where power imbalances make 'injury' assessment unreliable or self-serving.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Prescribing a course of action as part of a moral or behavioral framework, specifically instructing someone to take restorative action toward harmed parties while building in an exception clause to limit harm from the act of repair itself.",
+    "implicit_claims": [
+      "There is a defined group of people ('such people') who have previously been identified as having been harmed or wronged.",
+      "Direct amends are generally beneficial or morally required.",
+      "The person making amends has agency and ability to determine when doing so would cause injury.",
+      "Injury to self is not a valid exception — only injury to 'them or others' qualifies.",
+      "It is possible to reliably assess whether making amends would cause injury before acting.",
+      "There is a meaningful distinction between 'direct' amends and other forms of amends.",
+      "The obligation to make amends is bounded by a harm-prevention principle.",
+      "The person following this step has already completed prior steps identifying who was harmed."
+    ],
+    "coherence_assessment": "The statement is internally coherent and logically structured. The primary directive is qualified by a harm-prevention exception, which is a standard ethical safeguard. The clause is internally consistent: it does not contradict the main directive but rather limits its scope. A minor tension exists in that 'wherever possible' and the injury exception could overlap ambiguously, leaving room for rationalization of inaction.",
+    "conditions_for_usefulness": [
+      "The person has genuinely identified those they have harmed and is motivated to repair relationships.",
+      "The person has sufficient self-awareness and judgment to distinguish genuine risk of injury from avoidance or discomfort.",
+      "There is a support structure (e.g., sponsor, therapist) to help evaluate whether the injury exception is being used honestly.",
+      "The concept of 'direct amends' has been clearly defined in context.",
+      "The person is emotionally and practically capable of making amends without destabilizing themselves."
+    ],
+    "conditions_for_misleading": [
+      "The injury exception is used as a rationalization to avoid difficult but necessary conversations.",
+      "The person lacks reliable judgment about what would actually injure others versus what would merely be uncomfortable.",
+      "The word 'direct' excludes important forms of amends without explanation, causing confusion about what qualifies.",
+      "No guidance exists for distinguishing self-protective avoidance from genuine harm prevention.",
+      "The statement is applied in a context where power imbalances make 'injury' assessment unreliable or self-serving."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 598,
+  "error": "",
+  "retry_count": 0
+}

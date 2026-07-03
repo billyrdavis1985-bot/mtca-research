@@ -1,0 +1,47 @@
+{
+  "call_id": "C3-u0045__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:46:53.365676+00:00",
+  "wall_clock_seconds": 14.603500604629517,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement appears to be describing a secondary condition or scenario — specifically, a psychological or emotional state in which a person (referred to with feminine pronouns) is averse to or harbors harmful desires toward another person, using angry souls as an illustrative analogy. It functions as a classificatory or descriptive claim within what appears to be a larger taxonomic or philosophical framework, possibly excerpted from a classical or early modern text.\",\n  \"implicit_claims\": [\n    \"There exist distinct emotional or volitional states that can be categorized (this being the second type).\",\n    \"Aversion and harmful desire are meaningfully distinct from neutral or positive orientations.\",\n    \"Anger is a paradigmatic example of a soul-state oriented toward another's hurt or prejudice.\",\n    \"The gender of the subject ('she') is treated as a fixed or relevant variable in the original framework.\",\n    \"Human psychological states can be systematically enumerated and classified.\",\n    \"There is a morally or practically significant difference between states that harm versus those that do not.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a descriptive clause within a larger enumeration ('secondly' implies a preceding first condition). Its logic is consistent — it contrasts aversion/harmful desire with presumably a prior positive or neutral state. However, extracted from context, it is fragmentary and its full coherence depends on the surrounding text.\",\n  \"conditions_for_usefulness\": [\n    \"The full source text is available to understand the complete taxonomy being described.\",\n    \"The framework is being used to analyze historical philosophical or psychological classifications of human emotional states.\",\n    \"It is applied in academic, historical, or interpretive contexts rather than as direct design guidance.\",\n    \"The gendered framing is critically examined rather than uncritically adopted.\",\n    \"The concept of 'aversion leading to harm' is used to inform how AI systems recognize and de-escalate conflict-oriented emotional states in users.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is treated as a standalone, actionable AI ethics principle without its original context.\",\n    \"The gendered framing ('she') is interpreted as prescriptive or normative guidance about women's emotional states.\",\n    \"AI designers use it to encode biased assumptions that women's aversion or anger is inherently harmful or pathological.\",\n    \"The archaic language obscures that this is a historical philosophical fragment, not a validated behavioral science framework.\",\n    \"It is used to justify AI systems that pathologize or suppress expressions of anger or aversion in users, particularly women.\",\n    \"The statement is assumed to represent universal human values rather than a historically and culturally situated perspective.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement appears to be describing a secondary condition or scenario — specifically, a psychological or emotional state in which a person (referred to with feminine pronouns) is averse to or harbors harmful desires toward another person, using angry souls as an illustrative analogy. It functions as a classificatory or descriptive claim within what appears to be a larger taxonomic or philosophical framework, possibly excerpted from a classical or early modern text.",
+    "implicit_claims": [
+      "There exist distinct emotional or volitional states that can be categorized (this being the second type).",
+      "Aversion and harmful desire are meaningfully distinct from neutral or positive orientations.",
+      "Anger is a paradigmatic example of a soul-state oriented toward another's hurt or prejudice.",
+      "The gender of the subject ('she') is treated as a fixed or relevant variable in the original framework.",
+      "Human psychological states can be systematically enumerated and classified.",
+      "There is a morally or practically significant difference between states that harm versus those that do not."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a descriptive clause within a larger enumeration ('secondly' implies a preceding first condition). Its logic is consistent — it contrasts aversion/harmful desire with presumably a prior positive or neutral state. However, extracted from context, it is fragmentary and its full coherence depends on the surrounding text.",
+    "conditions_for_usefulness": [
+      "The full source text is available to understand the complete taxonomy being described.",
+      "The framework is being used to analyze historical philosophical or psychological classifications of human emotional states.",
+      "It is applied in academic, historical, or interpretive contexts rather than as direct design guidance.",
+      "The gendered framing is critically examined rather than uncritically adopted.",
+      "The concept of 'aversion leading to harm' is used to inform how AI systems recognize and de-escalate conflict-oriented emotional states in users."
+    ],
+    "conditions_for_misleading": [
+      "It is treated as a standalone, actionable AI ethics principle without its original context.",
+      "The gendered framing ('she') is interpreted as prescriptive or normative guidance about women's emotional states.",
+      "AI designers use it to encode biased assumptions that women's aversion or anger is inherently harmful or pathological.",
+      "The archaic language obscures that this is a historical philosophical fragment, not a validated behavioral science framework.",
+      "It is used to justify AI systems that pathologize or suppress expressions of anger or aversion in users, particularly women.",
+      "The statement is assumed to represent universal human values rather than a historically and culturally situated perspective."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 198,
+  "output_tokens": 615,
+  "error": "",
+  "retry_count": 0
+}

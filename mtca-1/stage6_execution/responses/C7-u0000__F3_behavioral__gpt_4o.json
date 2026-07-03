@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F3_behavioral__gpt_4o",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:51:27.203749+00:00",
+  "wall_clock_seconds": 3.689394950866699,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as an admission of a lack of control over alcohol use, acknowledging the negative impact on one's life, and a step towards seeking help or change.\",\n  \"implicit_claims\": [\n    \"There is an underlying issue with alcohol use.\",\n    \"The speaker's life has been adversely affected by alcohol.\",\n    \"Acknowledging powerlessness is a necessary step towards recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it logically connects the admission of powerlessness with the resulting unmanageability of life, which is a typical first step in recovery programs like Alcoholics Anonymous.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the speaker genuinely has a problem with alcohol and is seeking to initiate recovery, involving a support system or program that recognizes this admission as a fundamental step.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the speaker does not actually struggle with alcohol, is using the statement insincerely, or if it serves to manipulate others without genuine intent to change.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as an admission of a lack of control over alcohol use, acknowledging the negative impact on one's life, and a step towards seeking help or change.",
+    "implicit_claims": [
+      "There is an underlying issue with alcohol use.",
+      "The speaker's life has been adversely affected by alcohol.",
+      "Acknowledging powerlessness is a necessary step towards recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it logically connects the admission of powerlessness with the resulting unmanageability of life, which is a typical first step in recovery programs like Alcoholics Anonymous.",
+    "conditions_for_usefulness": "The statement is useful if the speaker genuinely has a problem with alcohol and is seeking to initiate recovery, involving a support system or program that recognizes this admission as a fundamental step.",
+    "conditions_for_misleading": "The statement could be misleading if the speaker does not actually struggle with alcohol, is using the statement insincerely, or if it serves to manipulate others without genuine intent to change."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 225,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0011__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:41:18.452159+00:00",
+  "wall_clock_seconds": 4.8095927238464355,
+  "raw_response": "{\n  \"communicative_function\": \"Self-commitment or declaration of a change in personal strategy, possibly as a resolution or advice.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are typically not carried out.\",\n    \"Small, observable changes are more likely to be carried out than vague resolutions.\",\n    \"The speaker has previously made vague resolutions that were not carried out.\",\n    \"Observability and smallness are criteria for feasibility.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it contrasts a feasible approach (small, observable changes) with an infeasible one (vague resolutions), and the logic is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker (or recipient) genuinely struggles with vague resolutions.\",\n    \"The small changes are actually actionable and appropriate to the goal.\",\n    \"The speaker has the motivation and means to implement these small changes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the small changes are so trivial they don't lead to meaningful progress, the statement could be misleadingly reassuring.\",\n    \"If the speaker’s real problem requires systemic or large-scale change, focusing on small observable changes might distract from necessary action.\",\n    \"If the statement is interpreted as a universal rule, it may mislead those who benefit from ambitious or visionary goals.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-commitment or declaration of a change in personal strategy, possibly as a resolution or advice.",
+    "implicit_claims": [
+      "Vague resolutions are typically not carried out.",
+      "Small, observable changes are more likely to be carried out than vague resolutions.",
+      "The speaker has previously made vague resolutions that were not carried out.",
+      "Observability and smallness are criteria for feasibility."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it contrasts a feasible approach (small, observable changes) with an infeasible one (vague resolutions), and the logic is consistent.",
+    "conditions_for_usefulness": [
+      "The speaker (or recipient) genuinely struggles with vague resolutions.",
+      "The small changes are actually actionable and appropriate to the goal.",
+      "The speaker has the motivation and means to implement these small changes."
+    ],
+    "conditions_for_misleading": [
+      "If the small changes are so trivial they don't lead to meaningful progress, the statement could be misleadingly reassuring.",
+      "If the speaker’s real problem requires systemic or large-scale change, focusing on small observable changes might distract from necessary action.",
+      "If the statement is interpreted as a universal rule, it may mislead those who benefit from ambitious or visionary goals."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 279,
+  "error": "",
+  "retry_count": 0
+}

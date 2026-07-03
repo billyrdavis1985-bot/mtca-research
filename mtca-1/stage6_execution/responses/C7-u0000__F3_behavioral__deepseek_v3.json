@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0000__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:51:47.180244+00:00",
+  "wall_clock_seconds": 3.9647114276885986,
+  "raw_response": "{\n  \"communicative_function\": \"This statement serves as an admission of powerlessness and a declaration of surrender, marking a shift from denial to acceptance as a foundation for behavioral change.\",\n  \"implicit_claims\": [\n    \"The speaker previously believed they had control over alcohol but now recognizes they do not.\",\n    \"The speaker's life has become unmanageable due to alcohol use.\",\n    \"Admitting powerlessness is a necessary step toward recovery.\",\n    \"The speaker is part of a community that shares this understanding (e.g., AA).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it logically pairs powerlessness (lack of control) with unmanageability (consequences of that lack), forming a consistent premise for seeking help.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes they are powerless and their life is unmanageable.\",\n    \"The speaker is ready to accept external support or a structured recovery program.\",\n    \"The statement is made in a context that fosters honesty and non-judgmental acceptance.\",\n    \"The speaker recognizes that this admission is a starting point, not an endpoint.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker does not actually believe they are powerless but uses the statement to conform socially or to avoid accountability.\",\n    \"The statement is used to justify continued drinking (e.g., 'Since I'm powerless, I have no choice').\",\n    \"The speaker's life is not genuinely unmanageable, leading to exaggeration or false self-labeling.\",\n    \"The statement implies that all alcohol problems require this exact framing, discouraging alternative paths to recovery.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement serves as an admission of powerlessness and a declaration of surrender, marking a shift from denial to acceptance as a foundation for behavioral change.",
+    "implicit_claims": [
+      "The speaker previously believed they had control over alcohol but now recognizes they do not.",
+      "The speaker's life has become unmanageable due to alcohol use.",
+      "Admitting powerlessness is a necessary step toward recovery.",
+      "The speaker is part of a community that shares this understanding (e.g., AA)."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it logically pairs powerlessness (lack of control) with unmanageability (consequences of that lack), forming a consistent premise for seeking help.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes they are powerless and their life is unmanageable.",
+      "The speaker is ready to accept external support or a structured recovery program.",
+      "The statement is made in a context that fosters honesty and non-judgmental acceptance.",
+      "The speaker recognizes that this admission is a starting point, not an endpoint."
+    ],
+    "conditions_for_misleading": [
+      "The speaker does not actually believe they are powerless but uses the statement to conform socially or to avoid accountability.",
+      "The statement is used to justify continued drinking (e.g., 'Since I'm powerless, I have no choice').",
+      "The speaker's life is not genuinely unmanageable, leading to exaggeration or false self-labeling.",
+      "The statement implies that all alcohol problems require this exact framing, discouraging alternative paths to recovery."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 341,
+  "error": "",
+  "retry_count": 0
+}

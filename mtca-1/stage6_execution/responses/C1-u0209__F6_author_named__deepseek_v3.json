@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0209__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:23:14.781997+00:00",
+  "wall_clock_seconds": 5.436410188674927,
+  "raw_response": "{\n  \"communicative_function\": \"Instruction or recommendation for therapeutic practice\",\n  \"implicit_claims\": [\n    \"Suggestions can be renewed and spaced out according to the subject's progress\",\n    \"Progress in treatment is observable and measurable\",\n    \"Complete cure is attainable through this method\",\n    \"The frequency of suggestion renewal can be reduced over time\",\n    \"The practitioner has the ability to judge when to space out suggestions\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a logical progression from frequent suggestions to eventual discontinuation based on observed improvement.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is receptive to autosuggestion\",\n    \"Progress can be reliably assessed\",\n    \"The practitioner has appropriate judgment to adjust intervals\",\n    \"The underlying condition is amenable to suggestion therapy\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the condition is not treatable by suggestion alone\",\n    \"If progress is not actually occurring but appears to be\",\n    \"If the practitioner mistakes temporary improvement for permanent cure\",\n    \"If the underlying cause of the condition is not addressed by suggestion\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Instruction or recommendation for therapeutic practice",
+    "implicit_claims": [
+      "Suggestions can be renewed and spaced out according to the subject's progress",
+      "Progress in treatment is observable and measurable",
+      "Complete cure is attainable through this method",
+      "The frequency of suggestion renewal can be reduced over time",
+      "The practitioner has the ability to judge when to space out suggestions"
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a logical progression from frequent suggestions to eventual discontinuation based on observed improvement.",
+    "conditions_for_usefulness": [
+      "The subject is receptive to autosuggestion",
+      "Progress can be reliably assessed",
+      "The practitioner has appropriate judgment to adjust intervals",
+      "The underlying condition is amenable to suggestion therapy"
+    ],
+    "conditions_for_misleading": [
+      "If the condition is not treatable by suggestion alone",
+      "If progress is not actually occurring but appears to be",
+      "If the practitioner mistakes temporary improvement for permanent cure",
+      "If the underlying cause of the condition is not addressed by suggestion"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 238,
+  "error": "",
+  "retry_count": 0
+}

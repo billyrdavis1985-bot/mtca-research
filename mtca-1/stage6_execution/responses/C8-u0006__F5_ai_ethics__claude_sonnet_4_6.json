@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0006__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:23:14.472397+00:00",
+  "wall_clock_seconds": 13.734801769256592,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a personal value of evidence-based courage — a disposition to override fear when rational assessment supports a course of action. As an AI design principle, it functions prescriptively, suggesting AI systems should support or preserve humans' capacity for reasoned risk-taking over fear-avoidance.\",\n  \"implicit_claims\": [\n    \"Fear is a legitimate but not always decisive factor in decision-making.\",\n    \"Evidence can and should inform willingness to act despite emotional resistance.\",\n    \"The individual is the appropriate judge of what evidence 'suggests' and what 'likely to help' means.\",\n    \"There is a meaningful distinction between irrational fear-avoidance and rational caution.\",\n    \"Self-directed growth or benefit sometimes requires discomfort or risk.\",\n    \"Humans have the capacity and right to weigh evidence against emotional states.\",\n    \"AI systems should not reinforce avoidance behaviors that conflict with evidence-based self-interest.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It sets a conditional structure (evidence suggests benefit) that logically justifies overriding an emotional state (fear). It avoids absolutism by not claiming one should always or never act on fear, preserving nuance. The tension between subjective fear and objective evidence is acknowledged implicitly rather than resolved.\",\n  \"conditions_for_usefulness\": [\n    \"The person has reliable access to relevant, quality evidence.\",\n    \"The person has reasonable capacity to interpret that evidence without significant cognitive bias.\",\n    \"The feared action genuinely involves a recoverable or manageable downside.\",\n    \"AI systems are being designed to support human agency rather than dependency.\",\n    \"The context involves personal growth, health decisions, or opportunities where fear is a known barrier.\",\n    \"There are mechanisms to distinguish healthy caution from irrational avoidance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'evidence' is misunderstood, cherry-picked, or fabricated, leading to rationalized risk-taking.\",\n    \"The statement is used to pressure individuals into ignoring legitimate fear signals that indicate real danger.\",\n    \"AI systems use this principle to nudge users toward risky behaviors framed as evidence-based.\",\n    \"The principle is applied in contexts where fear is an adaptive, protective response rather than a cognitive distortion.\",\n    \"Power imbalances exist where someone else defines what counts as 'evidence' or 'likely to help'.\",\n    \"The statement is interpreted as a universal mandate rather than a personal disposition, erasing individual variation in risk tolerance.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal value of evidence-based courage — a disposition to override fear when rational assessment supports a course of action. As an AI design principle, it functions prescriptively, suggesting AI systems should support or preserve humans' capacity for reasoned risk-taking over fear-avoidance.",
+    "implicit_claims": [
+      "Fear is a legitimate but not always decisive factor in decision-making.",
+      "Evidence can and should inform willingness to act despite emotional resistance.",
+      "The individual is the appropriate judge of what evidence 'suggests' and what 'likely to help' means.",
+      "There is a meaningful distinction between irrational fear-avoidance and rational caution.",
+      "Self-directed growth or benefit sometimes requires discomfort or risk.",
+      "Humans have the capacity and right to weigh evidence against emotional states.",
+      "AI systems should not reinforce avoidance behaviors that conflict with evidence-based self-interest."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It sets a conditional structure (evidence suggests benefit) that logically justifies overriding an emotional state (fear). It avoids absolutism by not claiming one should always or never act on fear, preserving nuance. The tension between subjective fear and objective evidence is acknowledged implicitly rather than resolved.",
+    "conditions_for_usefulness": [
+      "The person has reliable access to relevant, quality evidence.",
+      "The person has reasonable capacity to interpret that evidence without significant cognitive bias.",
+      "The feared action genuinely involves a recoverable or manageable downside.",
+      "AI systems are being designed to support human agency rather than dependency.",
+      "The context involves personal growth, health decisions, or opportunities where fear is a known barrier.",
+      "There are mechanisms to distinguish healthy caution from irrational avoidance."
+    ],
+    "conditions_for_misleading": [
+      "The 'evidence' is misunderstood, cherry-picked, or fabricated, leading to rationalized risk-taking.",
+      "The statement is used to pressure individuals into ignoring legitimate fear signals that indicate real danger.",
+      "AI systems use this principle to nudge users toward risky behaviors framed as evidence-based.",
+      "The principle is applied in contexts where fear is an adaptive, protective response rather than a cognitive distortion.",
+      "Power imbalances exist where someone else defines what counts as 'evidence' or 'likely to help'.",
+      "The statement is interpreted as a universal mandate rather than a personal disposition, erasing individual variation in risk tolerance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 594,
+  "error": "",
+  "retry_count": 0
+}

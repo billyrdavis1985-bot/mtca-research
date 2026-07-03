@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0011__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:39:18.480483+00:00",
+  "wall_clock_seconds": 4.85460090637207,
+  "raw_response": "{\n  \"communicative_function\": \"Expresses a personal commitment to realistic, actionable goals over idealistic or abstract intentions, embodying a pragmatic self-awareness.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are often not carried out.\",\n    \"Small, observable changes are more likely to be implemented successfully.\",\n    \"The speaker has past experience with vague resolutions that failed.\",\n    \"Observability is a marker of feasibility or effectiveness.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it contrasts two types of commitments (small/observable vs. vague) and asserts a preference and self-rule that follows logically from that contrast.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has a choice between small changes and vague resolutions.\",\n    \"The speaker has the discipline to identify and track observable changes.\",\n    \"The speaker’s environment or context allows for small, incremental steps.\",\n    \"The goal is amenable to being broken into small, observable parts.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses this statement to avoid setting appropriately ambitious goals that require some vagueness or flexibility.\",\n    \"If the implied criticism of vague resolutions is taken to mean all broad aspirations are worthless.\",\n    \"If the speaker falsely equates 'small' with 'easy' or 'observable' with 'meaningful,' leading to trivial efforts.\",\n    \"If the statement is used to dismiss systemic or complex problems that cannot be reduced to small observable changes.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expresses a personal commitment to realistic, actionable goals over idealistic or abstract intentions, embodying a pragmatic self-awareness.",
+    "implicit_claims": [
+      "Vague resolutions are often not carried out.",
+      "Small, observable changes are more likely to be implemented successfully.",
+      "The speaker has past experience with vague resolutions that failed.",
+      "Observability is a marker of feasibility or effectiveness."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it contrasts two types of commitments (small/observable vs. vague) and asserts a preference and self-rule that follows logically from that contrast.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has a choice between small changes and vague resolutions.",
+      "The speaker has the discipline to identify and track observable changes.",
+      "The speaker’s environment or context allows for small, incremental steps.",
+      "The goal is amenable to being broken into small, observable parts."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses this statement to avoid setting appropriately ambitious goals that require some vagueness or flexibility.",
+      "If the implied criticism of vague resolutions is taken to mean all broad aspirations are worthless.",
+      "If the speaker falsely equates 'small' with 'easy' or 'observable' with 'meaningful,' leading to trivial efforts.",
+      "If the statement is used to dismiss systemic or complex problems that cannot be reduced to small observable changes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 313,
+  "error": "",
+  "retry_count": 0
+}

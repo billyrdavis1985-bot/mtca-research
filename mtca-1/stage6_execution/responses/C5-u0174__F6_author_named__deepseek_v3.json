@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0174__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:31:10.958466+00:00",
+  "wall_clock_seconds": 4.7492311000823975,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting individual responsibility and self-determination regarding personal change or improvement.\",\n  \"implicit_claims\": [\n    \"A person's condition is mutable and can be changed.\",\n    \"External factors or other people cannot change a person's fundamental condition against their will or without their agency.\",\n    \"The individual possesses the sole power and authority to alter their own circumstances.\",\n    \"There is no external determinism (fate, circumstance, other people) that can override personal choice.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a philosophical framework that emphasizes radical personal agency. However, it may be considered too absolute if interpreted literally, ignoring external constraints like systemic oppression, disability, or unavoidable accidents that an individual alone cannot alter.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is useful if it motivates personal initiative and self-reflection.\",\n    \"It is useful when applied to aspects of life under one's direct control (e.g., habits, mindset, reactions).\",\n    \"It is useful in contexts where an individual has genuine freedom and resources to effect change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It becomes misleading if it denies the impact of external systemic, social, or economic barriers.\",\n    \"It becomes misleading if it blames individuals for conditions they cannot realistically change (e.g., birth circumstances, illness, oppression).\",\n    \"It becomes misleading if it implies that others (e.g., community, government) bear no responsibility for helping change a person's condition.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting individual responsibility and self-determination regarding personal change or improvement.",
+    "implicit_claims": [
+      "A person's condition is mutable and can be changed.",
+      "External factors or other people cannot change a person's fundamental condition against their will or without their agency.",
+      "The individual possesses the sole power and authority to alter their own circumstances.",
+      "There is no external determinism (fate, circumstance, other people) that can override personal choice."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a philosophical framework that emphasizes radical personal agency. However, it may be considered too absolute if interpreted literally, ignoring external constraints like systemic oppression, disability, or unavoidable accidents that an individual alone cannot alter.",
+    "conditions_for_usefulness": [
+      "The statement is useful if it motivates personal initiative and self-reflection.",
+      "It is useful when applied to aspects of life under one's direct control (e.g., habits, mindset, reactions).",
+      "It is useful in contexts where an individual has genuine freedom and resources to effect change."
+    ],
+    "conditions_for_misleading": [
+      "It becomes misleading if it denies the impact of external systemic, social, or economic barriers.",
+      "It becomes misleading if it blames individuals for conditions they cannot realistically change (e.g., birth circumstances, illness, oppression).",
+      "It becomes misleading if it implies that others (e.g., community, government) bear no responsibility for helping change a person's condition."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 320,
+  "error": "",
+  "retry_count": 0
+}

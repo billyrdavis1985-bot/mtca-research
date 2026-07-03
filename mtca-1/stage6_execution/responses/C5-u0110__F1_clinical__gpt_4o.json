@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0110__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:11:35.963947+00:00",
+  "wall_clock_seconds": 2.4620070457458496,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to encourage positive thinking by suggesting a connection between thoughts and physical well-being, promoting mental and physical health.\",\n  \"implicit_claims\": [\n    \"Negative or 'unlawful' thoughts can contribute to physical illness.\",\n    \"Positive or 'beautiful' thoughts can enhance physical appearance and health.\",\n    \"There is a direct correlation between mental state and physical health.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in suggesting a binary relationship between thought patterns and physical outcomes, but it lacks empirical support for such claims and overly simplifies the complex relationship between psychological and physical health.\",\n  \"conditions_for_usefulness\": \"The statement might be useful if there is belief or evidence that mindset and mental health significantly impact physical health, and it encourages individuals to adopt positive thinking habits in conjunction with other health-promoting behaviors.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if taken literally without considering the multifactorial nature of health and disease, as well as the need for medical intervention in many physical health conditions, leading to an oversimplified view of the mind-body connection.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to encourage positive thinking by suggesting a connection between thoughts and physical well-being, promoting mental and physical health.",
+    "implicit_claims": [
+      "Negative or 'unlawful' thoughts can contribute to physical illness.",
+      "Positive or 'beautiful' thoughts can enhance physical appearance and health.",
+      "There is a direct correlation between mental state and physical health."
+    ],
+    "coherence_assessment": "The statement is internally coherent in suggesting a binary relationship between thought patterns and physical outcomes, but it lacks empirical support for such claims and overly simplifies the complex relationship between psychological and physical health.",
+    "conditions_for_usefulness": "The statement might be useful if there is belief or evidence that mindset and mental health significantly impact physical health, and it encourages individuals to adopt positive thinking habits in conjunction with other health-promoting behaviors.",
+    "conditions_for_misleading": "This statement could be misleading if taken literally without considering the multifactorial nature of health and disease, as well as the need for medical intervention in many physical health conditions, leading to an oversimplified view of the mind-body connection."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 240,
+  "error": "",
+  "retry_count": 0
+}

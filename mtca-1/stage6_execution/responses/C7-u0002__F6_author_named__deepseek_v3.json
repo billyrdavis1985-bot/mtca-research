@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0002__F6_author_named__deepseek_v3",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:06:12.572804+00:00",
+  "wall_clock_seconds": 6.61475682258606,
+  "raw_response": "{\n  \"communicative_function\": \"The statement performs a declaration of commitment or intention, specifically the third step in the Alcoholics Anonymous recovery program, inviting a spiritual surrender to a higher power.\",\n  \"implicit_claims\": [\n    \"There exists a God (or a higher power) that can be understood individually.\",\n    \"Human will and lives are things that can be turned over to this God.\",\n    \"Such an act of turning over is a decision that can be made and is beneficial.\",\n    \"The individual has some degree of control over their own will and life (to turn them over).\",\n    \"A personal understanding of God is sufficient for recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a propositional act of decision-making, though it relies on a flexible, subjective definition of 'God' which may create tension between a literal theistic interpretation and a more metaphorical or secular interpretation.\",\n  \"conditions_for_usefulness\": [\n    \"The individual believes in or is open to the existence of a higher power.\",\n    \"The individual feels powerless over their addiction and seeks a source of help beyond themselves.\",\n    \"The individual is willing to act on a decision to surrender control.\",\n    \"The group or context provides a supportive environment for exploring a personal understanding of God.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is interpreted as requiring belief in a specific, orthodox deity, it may alienate those with different spiritual views.\",\n    \"If it is taken as a literal transfer of personal responsibility to a divine being, it could discourage necessary personal action or accountability.\",\n    \"If the phrase 'as we understood Him' is ignored, the statement could be misused to impose a particular religious dogma.\",\n    \"If the hearer lacks any concept of a higher power, the statement may be meaningless or misleading as a practical step.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement performs a declaration of commitment or intention, specifically the third step in the Alcoholics Anonymous recovery program, inviting a spiritual surrender to a higher power.",
+    "implicit_claims": [
+      "There exists a God (or a higher power) that can be understood individually.",
+      "Human will and lives are things that can be turned over to this God.",
+      "Such an act of turning over is a decision that can be made and is beneficial.",
+      "The individual has some degree of control over their own will and life (to turn them over).",
+      "A personal understanding of God is sufficient for recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a propositional act of decision-making, though it relies on a flexible, subjective definition of 'God' which may create tension between a literal theistic interpretation and a more metaphorical or secular interpretation.",
+    "conditions_for_usefulness": [
+      "The individual believes in or is open to the existence of a higher power.",
+      "The individual feels powerless over their addiction and seeks a source of help beyond themselves.",
+      "The individual is willing to act on a decision to surrender control.",
+      "The group or context provides a supportive environment for exploring a personal understanding of God."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is interpreted as requiring belief in a specific, orthodox deity, it may alienate those with different spiritual views.",
+      "If it is taken as a literal transfer of personal responsibility to a divine being, it could discourage necessary personal action or accountability.",
+      "If the phrase 'as we understood Him' is ignored, the statement could be misused to impose a particular religious dogma.",
+      "If the hearer lacks any concept of a higher power, the statement may be meaningless or misleading as a practical step."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 388,
+  "error": "",
+  "retry_count": 0
+}

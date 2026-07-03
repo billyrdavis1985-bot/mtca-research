@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0002__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:02:15.872162+00:00",
+  "wall_clock_seconds": 5.045943021774292,
+  "raw_response": "{\n  \"communicative_function\": \"Encouraging a shift from emotion-driven reasoning to empirical reality-testing, likely as a cognitive restructuring technique.\",\n  \"implicit_claims\": [\n    \"The speaker has predictions they are aware of and can choose to test.\",\n    \"The speaker is prone to fearing certain outcomes rather than observing actual outcomes.\",\n    \"Fear can distort how predictions are evaluated.\",\n    \"Actual outcomes are distinguishable from feared outcomes.\",\n    \"The act of testing predictions against reality is a voluntary choice.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it contrasts two modes of evaluation (fear-based vs. actual-event-based) and frames the shift as a conscious choice, which is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has identifiable predictions they can articulate and test.\",\n    \"The speaker can access objective data about what actually happens.\",\n    \"The speaker is able to recognize when they are substituting feared outcomes for real outcomes.\",\n    \"The speaker has some degree of agency in choosing their evaluative framework.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker's predictions are inherently untestable (e.g., about subjective experiences), the statement could lead to false confidence in verification.\",\n    \"If the speaker's fears are based on accurate statistical likelihoods, ignoring fear might dismiss valid risk assessment.\",\n    \"If 'what actually happens' is itself ambiguous or subject to biased interpretation, the statement could mask self-deception.\",\n    \"If the speaker lacks the cognitive or emotional capacity to distinguish fear from reality, the statement may become a platitude rather than a guide.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Encouraging a shift from emotion-driven reasoning to empirical reality-testing, likely as a cognitive restructuring technique.",
+    "implicit_claims": [
+      "The speaker has predictions they are aware of and can choose to test.",
+      "The speaker is prone to fearing certain outcomes rather than observing actual outcomes.",
+      "Fear can distort how predictions are evaluated.",
+      "Actual outcomes are distinguishable from feared outcomes.",
+      "The act of testing predictions against reality is a voluntary choice."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it contrasts two modes of evaluation (fear-based vs. actual-event-based) and frames the shift as a conscious choice, which is logically consistent.",
+    "conditions_for_usefulness": [
+      "The speaker has identifiable predictions they can articulate and test.",
+      "The speaker can access objective data about what actually happens.",
+      "The speaker is able to recognize when they are substituting feared outcomes for real outcomes.",
+      "The speaker has some degree of agency in choosing their evaluative framework."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker's predictions are inherently untestable (e.g., about subjective experiences), the statement could lead to false confidence in verification.",
+      "If the speaker's fears are based on accurate statistical likelihoods, ignoring fear might dismiss valid risk assessment.",
+      "If 'what actually happens' is itself ambiguous or subject to biased interpretation, the statement could mask self-deception.",
+      "If the speaker lacks the cognitive or emotional capacity to distinguish fear from reality, the statement may become a platitude rather than a guide."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0
+}

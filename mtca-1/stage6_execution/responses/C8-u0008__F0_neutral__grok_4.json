@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0008__F0_neutral__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:31:03.707196+00:00",
+  "wall_clock_seconds": 9.86045241355896,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of agency and commitment to value-based action despite emotional misalignment\",\n  \"implicit_claims\": [\"Values exist separately from and can take precedence over current feelings\", \"Feelings are capable of lagging behind chosen actions\", \"The speaker possesses the capacity to choose behavior independently of emotional state\"],\n  \"coherence_assessment\": \"Internally coherent; distinguishes volitional choice from affective state without contradiction\",\n  \"conditions_for_usefulness\": \"Speaker faces emotional resistance that could undermine consistent behavior; context involves deliberate self-regulation or long-term value alignment\",\n  \"conditions_for_misleading\": \"Values are vague or post-hoc rationalizations; emotional signals are being dismissed when they carry relevant information\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of agency and commitment to value-based action despite emotional misalignment",
+    "implicit_claims": [
+      "Values exist separately from and can take precedence over current feelings",
+      "Feelings are capable of lagging behind chosen actions",
+      "The speaker possesses the capacity to choose behavior independently of emotional state"
+    ],
+    "coherence_assessment": "Internally coherent; distinguishes volitional choice from affective state without contradiction",
+    "conditions_for_usefulness": "Speaker faces emotional resistance that could undermine consistent behavior; context involves deliberate self-regulation or long-term value alignment",
+    "conditions_for_misleading": "Values are vague or post-hoc rationalizations; emotional signals are being dismissed when they carry relevant information"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 261,
+  "output_tokens": 150,
+  "error": "",
+  "retry_count": 0
+}

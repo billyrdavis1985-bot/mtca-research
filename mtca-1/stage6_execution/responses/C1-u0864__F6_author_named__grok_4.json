@@ -1,0 +1,30 @@
+{
+  "call_id": "C1-u0864__F6_author_named__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:55:06.933275+00:00",
+  "wall_clock_seconds": 6.263935565948486,
+  "raw_response": "{\n  \"communicative_function\": \"Confessing prior personal skepticism about Coué's lectures, typically to establish credibility or set up a contrast with later acceptance\",\n  \"implicit_claims\": [\n    \"The speaker has direct exposure to or knowledge of Coué's lectures\",\n    \"The speaker's initial stance was one of total disbelief rather than neutrality or curiosity\"\n  ],\n  \"coherence_assessment\": \"Fully coherent; the statement is a straightforward, self-contained admission without internal contradiction\",\n  \"conditions_for_usefulness\": \"Context must include subsequent endorsement or conversion so the admission functions as a rhetorical bridge from doubt to conviction\",\n  \"conditions_for_misleading\": \"Context of later acceptance is omitted, or the statement is attributed to Coué himself rather than a third-party narrator\"\n}",
+  "parsed_json": {
+    "communicative_function": "Confessing prior personal skepticism about Coué's lectures, typically to establish credibility or set up a contrast with later acceptance",
+    "implicit_claims": [
+      "The speaker has direct exposure to or knowledge of Coué's lectures",
+      "The speaker's initial stance was one of total disbelief rather than neutrality or curiosity"
+    ],
+    "coherence_assessment": "Fully coherent; the statement is a straightforward, self-contained admission without internal contradiction",
+    "conditions_for_usefulness": "Context must include subsequent endorsement or conversion so the admission functions as a rhetorical bridge from doubt to conviction",
+    "conditions_for_misleading": "Context of later acceptance is omitted, or the statement is attributed to Coué himself rather than a third-party narrator"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 267,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

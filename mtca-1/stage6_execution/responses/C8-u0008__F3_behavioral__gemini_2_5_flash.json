@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0008__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:33:09.758117+00:00",
+  "wall_clock_seconds": 10.371514797210693,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"A self-declaration of intentional, values-driven action, acknowledging a potential or actual internal dissonance between one's emotional state and one's behavioral intentions. It serves as a commitment to agency over behavior, prioritizing values despite emotional misalignment.\",\n  \"implicit_claims\": [\n    \"A divergence can exist between one's current emotional state ('feelings') and one's deeply held principles ('values').\",\n    \"Individuals possess the agency to choose actions independently of their current emotional state.\",\n    \"Acting in line with values, even without immediate emotional alignment, is a desirable or beneficial course of action.\",\n    \"Emotions are dynamic and may eventually align with value-driven actions (the 'yet caught up' implies a possibility of future emotional alignment).\",\n    \"The individual has a clear understanding of their own values.\",\n    \"The individual can discern what actions align with their values in specific contexts.\"\n  ],\n  \"coherence_assessment\": \"Highly coherent. The statement explicitly addresses a potential internal conflict (feelings vs. values) and declares a chosen resolution (prioritizing values through action), which is logically consistent with the idea of conscious behavioral commitment and self-regulation.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences a disconnect between their current emotional state (e.g., apathy, fear, frustration, discomfort) and their intention to act in a way consistent with their long-term values.\",\n    \"The individual has a clear, well-defined, and internalized understanding of their core values.\",\n    \"The statement serves as a motivational anchor or a self-regulatory strategy to initiate or sustain desired behaviors despite emotional resistance or transient discomfort.\",\n    \"The chosen actions are indeed aligned with the individual's genuine values and contribute to their well-being and goals, rather than being externally imposed or self-sacrificing without purpose.\",\n    \"The context requires action despite emotional readiness, where waiting for feelings to align would lead to inaction or undesirable outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'feelings' being overridden are valid signals of exhaustion, burnout, trauma, or genuine needs for rest, boundaries, or processing, rather than merely transient discomfort or resistance.\",\n    \"The 'values' being committed to are not genuinely self-chosen or integrated, but are externally imposed or reflect internalized oppressive beliefs, leading to actions that cause long-term self-betrayal or resentment.\",\n    \"The statement is used to consistently invalidate or suppress emotional experiences, preventing healthy emotional processing, insight into underlying issues, or necessary self-compassion.\",\n    \"The individual misunderstands the nature of their emotions, potentially mistaking important signals for mere 'uncooperative feelings' to be ignored.\",\n    \"The commitment fosters a rigid adherence to values that disregards necessary flexibility, adaptation to changing circumstances, or the importance of emotional well-being as a component of a value-aligned life.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "A self-declaration of intentional, values-driven action, acknowledging a potential or actual internal dissonance between one's emotional state and one's behavioral intentions. It serves as a commitment to agency over behavior, prioritizing values despite emotional misalignment.",
+    "implicit_claims": [
+      "A divergence can exist between one's current emotional state ('feelings') and one's deeply held principles ('values').",
+      "Individuals possess the agency to choose actions independently of their current emotional state.",
+      "Acting in line with values, even without immediate emotional alignment, is a desirable or beneficial course of action.",
+      "Emotions are dynamic and may eventually align with value-driven actions (the 'yet caught up' implies a possibility of future emotional alignment).",
+      "The individual has a clear understanding of their own values.",
+      "The individual can discern what actions align with their values in specific contexts."
+    ],
+    "coherence_assessment": "Highly coherent. The statement explicitly addresses a potential internal conflict (feelings vs. values) and declares a chosen resolution (prioritizing values through action), which is logically consistent with the idea of conscious behavioral commitment and self-regulation.",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences a disconnect between their current emotional state (e.g., apathy, fear, frustration, discomfort) and their intention to act in a way consistent with their long-term values.",
+      "The individual has a clear, well-defined, and internalized understanding of their core values.",
+      "The statement serves as a motivational anchor or a self-regulatory strategy to initiate or sustain desired behaviors despite emotional resistance or transient discomfort.",
+      "The chosen actions are indeed aligned with the individual's genuine values and contribute to their well-being and goals, rather than being externally imposed or self-sacrificing without purpose.",
+      "The context requires action despite emotional readiness, where waiting for feelings to align would lead to inaction or undesirable outcomes."
+    ],
+    "conditions_for_misleading": [
+      "The 'feelings' being overridden are valid signals of exhaustion, burnout, trauma, or genuine needs for rest, boundaries, or processing, rather than merely transient discomfort or resistance.",
+      "The 'values' being committed to are not genuinely self-chosen or integrated, but are externally imposed or reflect internalized oppressive beliefs, leading to actions that cause long-term self-betrayal or resentment.",
+      "The statement is used to consistently invalidate or suppress emotional experiences, preventing healthy emotional processing, insight into underlying issues, or necessary self-compassion.",
+      "The individual misunderstands the nature of their emotions, potentially mistaking important signals for mere 'uncooperative feelings' to be ignored.",
+      "The commitment fosters a rigid adherence to values that disregards necessary flexibility, adaptation to changing circumstances, or the importance of emotional well-being as a component of a value-aligned life."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 637,
+  "error": "",
+  "retry_count": 0
+}

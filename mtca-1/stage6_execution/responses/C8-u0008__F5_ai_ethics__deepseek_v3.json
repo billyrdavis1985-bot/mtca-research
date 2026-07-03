@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0008__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:34:48.118981+00:00",
+  "wall_clock_seconds": 4.180565357208252,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a commitment to acting according to one's values despite a lack of congruent feelings, serving as a declaration of integrity and self-discipline in the face of emotional dissonance.\",\n  \"implicit_claims\": [\n    \"Values and feelings can be in conflict.\",\n    \"Values are stable and can be known independently of momentary feelings.\",\n    \"It is possible to act against one's current feelings.\",\n    \"Acting in line with values is desirable or commendable even when feelings lag.\",\n    \"Feelings are expected to eventually align with valued actions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a consistent scenario where an agent prioritizes a chosen value framework over transient emotional states, which is logically possible.\",\n  \"conditions_for_usefulness\": [\n    \"The agent has clearly identified and stable values.\",\n    \"The agent can recognize when feelings are misaligned with those values.\",\n    \"The agent possesses sufficient self-regulation to act against feelings.\",\n    \"The action in question does not cause irreparable harm to self or others.\",\n    \"The context allows for delayed emotional alignment without critical dysfunction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The agent's 'values' are poorly understood, inconsistent, or harmful.\",\n    \"The agent is ignoring legitimate emotional warnings (e.g., fear of danger, moral repulsion).\",\n    \"The statement is used to justify suppressing all negative emotions indefinitely.\",\n    \"The underlying values are being imposed externally rather than genuinely chosen.\",\n    \"The agent lacks the ability to accurately assess whether feelings will eventually align.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a commitment to acting according to one's values despite a lack of congruent feelings, serving as a declaration of integrity and self-discipline in the face of emotional dissonance.",
+    "implicit_claims": [
+      "Values and feelings can be in conflict.",
+      "Values are stable and can be known independently of momentary feelings.",
+      "It is possible to act against one's current feelings.",
+      "Acting in line with values is desirable or commendable even when feelings lag.",
+      "Feelings are expected to eventually align with valued actions."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a consistent scenario where an agent prioritizes a chosen value framework over transient emotional states, which is logically possible.",
+    "conditions_for_usefulness": [
+      "The agent has clearly identified and stable values.",
+      "The agent can recognize when feelings are misaligned with those values.",
+      "The agent possesses sufficient self-regulation to act against feelings.",
+      "The action in question does not cause irreparable harm to self or others.",
+      "The context allows for delayed emotional alignment without critical dysfunction."
+    ],
+    "conditions_for_misleading": [
+      "The agent's 'values' are poorly understood, inconsistent, or harmful.",
+      "The agent is ignoring legitimate emotional warnings (e.g., fear of danger, moral repulsion).",
+      "The statement is used to justify suppressing all negative emotions indefinitely.",
+      "The underlying values are being imposed externally rather than genuinely chosen.",
+      "The agent lacks the ability to accurately assess whether feelings will eventually align."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 337,
+  "error": "",
+  "retry_count": 0
+}

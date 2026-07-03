@@ -1,0 +1,53 @@
+{
+  "call_id": "C7-u0008__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:28:28.944451+00:00",
+  "wall_clock_seconds": 18.517422914505005,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing a prescriptive directive or instruction, functioning as a behavioral guideline within a structured self-improvement program. It commands a specific action (making amends) while simultaneously embedding a qualifier that limits the scope of that obligation based on potential harm.\",\n  \"implicit_claims\": [\n    \"There exist identifiable people who have been harmed by the person working the steps.\",\n    \"It is possible to make 'direct' amends, implying a meaningful distinction between direct and indirect forms of amends.\",\n    \"The person making amends has sufficient self-awareness to know who has been harmed.\",\n    \"The person has the capacity to judge whether making amends would cause harm to others.\",\n    \"Some forms of restitution or acknowledgment are restorative and beneficial.\",\n    \"The act of making amends is primarily for the benefit of those harmed, not solely for the person making them.\",\n    \"The person's judgment about potential injury is reliable enough to override the obligation to make amends.\",\n    \"Harm avoidance can and should take precedence over personal accountability in certain cases.\",\n    \"There is a coherent and knowable distinction between cases where amends would help versus harm.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its structure: it establishes a general obligation and then provides a principled exception grounded in a harm-avoidance ethic. The qualifier ('except when to do so would injure them or others') is logically consistent with the broader moral framework of the program, which prioritizes avoiding harm. However, there is a latent tension: the same individual who caused harm in the past is now tasked with judging whether future actions would cause harm, raising questions about the reliability of that judgment. The coherence is logical but practically dependent on the quality of the individual's discernment.\",\n  \"conditions_for_usefulness\": [\n    \"The person has developed sufficient self-awareness and honesty to identify who they have harmed.\",\n    \"The person has access to those they have harmed or meaningful ways to contact them.\",\n    \"The person has a support system (sponsor, group) to help assess whether amends would cause harm.\",\n    \"The concept of 'amends' is understood broadly enough to include behavioral change, not just verbal apology.\",\n    \"The person is emotionally stable enough to handle the responses they may receive when making amends.\",\n    \"There exists a community or relational context in which amends can be received and processed constructively.\",\n    \"The harm-avoidance exception is applied honestly rather than used as a rationalization to avoid discomfort.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person uses the harm-avoidance exception as a rationalization to avoid accountability in cases where discomfort, not genuine harm, is the actual concern.\",\n    \"The person lacks the judgment or self-awareness to accurately assess what constitutes 'injury' to others.\",\n    \"The directive implies a completeness or finality to the amends process that does not account for ongoing or systemic harms.\",\n    \"The word 'direct' is interpreted so narrowly that meaningful but indirect forms of making things right are excluded.\",\n    \"The statement is applied without professional or community guidance, leading to poorly executed amends that cause further harm.\",\n    \"The framing implies that making amends is sufficient for resolution, when the harmed party may not find it sufficient or may not want contact.\",\n    \"It could mislead someone into believing that completing this step resolves legal, financial, or relational obligations that may require more formal remediation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing a prescriptive directive or instruction, functioning as a behavioral guideline within a structured self-improvement program. It commands a specific action (making amends) while simultaneously embedding a qualifier that limits the scope of that obligation based on potential harm.",
+    "implicit_claims": [
+      "There exist identifiable people who have been harmed by the person working the steps.",
+      "It is possible to make 'direct' amends, implying a meaningful distinction between direct and indirect forms of amends.",
+      "The person making amends has sufficient self-awareness to know who has been harmed.",
+      "The person has the capacity to judge whether making amends would cause harm to others.",
+      "Some forms of restitution or acknowledgment are restorative and beneficial.",
+      "The act of making amends is primarily for the benefit of those harmed, not solely for the person making them.",
+      "The person's judgment about potential injury is reliable enough to override the obligation to make amends.",
+      "Harm avoidance can and should take precedence over personal accountability in certain cases.",
+      "There is a coherent and knowable distinction between cases where amends would help versus harm."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its structure: it establishes a general obligation and then provides a principled exception grounded in a harm-avoidance ethic. The qualifier ('except when to do so would injure them or others') is logically consistent with the broader moral framework of the program, which prioritizes avoiding harm. However, there is a latent tension: the same individual who caused harm in the past is now tasked with judging whether future actions would cause harm, raising questions about the reliability of that judgment. The coherence is logical but practically dependent on the quality of the individual's discernment.",
+    "conditions_for_usefulness": [
+      "The person has developed sufficient self-awareness and honesty to identify who they have harmed.",
+      "The person has access to those they have harmed or meaningful ways to contact them.",
+      "The person has a support system (sponsor, group) to help assess whether amends would cause harm.",
+      "The concept of 'amends' is understood broadly enough to include behavioral change, not just verbal apology.",
+      "The person is emotionally stable enough to handle the responses they may receive when making amends.",
+      "There exists a community or relational context in which amends can be received and processed constructively.",
+      "The harm-avoidance exception is applied honestly rather than used as a rationalization to avoid discomfort."
+    ],
+    "conditions_for_misleading": [
+      "The person uses the harm-avoidance exception as a rationalization to avoid accountability in cases where discomfort, not genuine harm, is the actual concern.",
+      "The person lacks the judgment or self-awareness to accurately assess what constitutes 'injury' to others.",
+      "The directive implies a completeness or finality to the amends process that does not account for ongoing or systemic harms.",
+      "The word 'direct' is interpreted so narrowly that meaningful but indirect forms of making things right are excluded.",
+      "The statement is applied without professional or community guidance, leading to poorly executed amends that cause further harm.",
+      "The framing implies that making amends is sufficient for resolution, when the harmed party may not find it sufficient or may not want contact.",
+      "It could mislead someone into believing that completing this step resolves legal, financial, or relational obligations that may require more formal remediation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 819,
+  "error": "",
+  "retry_count": 0
+}

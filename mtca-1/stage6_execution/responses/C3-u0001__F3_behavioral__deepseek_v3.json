@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0001__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:59:09.759513+00:00",
+  "wall_clock_seconds": 6.069927930831909,
+  "raw_response": "{\n  \"communicative_function\": \"Urging the recipient to recognize existential urgency and commit to using their finite time to achieve inner calm and moral alignment with a divine or cosmic order.\",\n  \"implicit_claims\": [\n    \"There is a true nature of the world that can be understood.\",\n    \"There exists a Lord and Governor of the world from whom all things (including the recipient) originate.\",\n    \"The recipient's soul is currently in a state of multiple 'distempers' (disorders).\",\n    \"The recipient has a limited, fixed amount of time to live.\",\n    \"If the recipient does not use this time to calm their soul, both time and self will be lost irreversibly.\",\n    \"The recipient has the ability to choose to use time for this purpose.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a causal chain (understanding → recognizing origin → using limited time to calm soul → avoiding irreversible loss). The metaphors (channel from spring, time limit) are consistent with the exhortative tone.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient accepts the existence of a divine or cosmic authority and a fixed human lifespan.\",\n    \"The recipient believes their soul is troubled and in need of calming.\",\n    \"The recipient is receptive to urgent, authoritative moral instruction.\",\n    \"The recipient values long-term spiritual peace over short-term distractions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If no such divine governor or cosmic origin exists, the premise is false and may lead to misplaced reliance.\",\n    \"If the recipient's time is not actually limited (e.g., belief in reincarnation or afterlife progress), the urgency may be artificially exaggerated.\",\n    \"If the recipient's 'distempers' have medical or psychological causes that require treatment beyond self-discipline, the statement may divert from proper help.\",\n    \"If the statement is used to induce excessive guilt or fatalism about time wasted, it could be harmful rather than motivating.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Urging the recipient to recognize existential urgency and commit to using their finite time to achieve inner calm and moral alignment with a divine or cosmic order.",
+    "implicit_claims": [
+      "There is a true nature of the world that can be understood.",
+      "There exists a Lord and Governor of the world from whom all things (including the recipient) originate.",
+      "The recipient's soul is currently in a state of multiple 'distempers' (disorders).",
+      "The recipient has a limited, fixed amount of time to live.",
+      "If the recipient does not use this time to calm their soul, both time and self will be lost irreversibly.",
+      "The recipient has the ability to choose to use time for this purpose."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a causal chain (understanding → recognizing origin → using limited time to calm soul → avoiding irreversible loss). The metaphors (channel from spring, time limit) are consistent with the exhortative tone.",
+    "conditions_for_usefulness": [
+      "The recipient accepts the existence of a divine or cosmic authority and a fixed human lifespan.",
+      "The recipient believes their soul is troubled and in need of calming.",
+      "The recipient is receptive to urgent, authoritative moral instruction.",
+      "The recipient values long-term spiritual peace over short-term distractions."
+    ],
+    "conditions_for_misleading": [
+      "If no such divine governor or cosmic origin exists, the premise is false and may lead to misplaced reliance.",
+      "If the recipient's time is not actually limited (e.g., belief in reincarnation or afterlife progress), the urgency may be artificially exaggerated.",
+      "If the recipient's 'distempers' have medical or psychological causes that require treatment beyond self-discipline, the statement may divert from proper help.",
+      "If the statement is used to induce excessive guilt or fatalism about time wasted, it could be harmful rather than motivating."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 235,
+  "output_tokens": 414,
+  "error": "",
+  "retry_count": 0
+}

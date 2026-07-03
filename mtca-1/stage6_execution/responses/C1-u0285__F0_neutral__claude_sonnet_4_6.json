@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0285__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:29:44.207126+00:00",
+  "wall_clock_seconds": 11.694403648376465,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a rhetorical concession combined with a deflection. The speaker momentarily grants a hypothetical (that the thing in question is dangerous) while simultaneously undermining it with a parenthetical denial, then redirects the burden of proof to the objector via a rhetorical question implying that all things carry some danger.\",\n  \"implicit_claims\": [\n    \"The thing being discussed is not actually dangerous (asserted via parenthetical).\",\n    \"Everything humans use carries some degree of danger.\",\n    \"If universal danger is accepted, then the danger of this specific thing is not a valid objection.\",\n    \"The objector has not considered the dangers of other common things.\",\n    \"Relative danger, rather than absolute danger, should be the standard for evaluation.\",\n    \"The burden of proof lies with those raising the danger objection.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally somewhat incoherent. The speaker simultaneously denies the danger and argues that even if danger exists it does not matter, which weakens both positions. The parenthetical denial undermines the rhetorical concession, making the argument structurally self-contradictory. The rhetorical question, while persuasive in tone, does not logically follow from the denial.\",\n  \"conditions_for_usefulness\": [\n    \"The thing in question truly poses no greater danger than commonly accepted items.\",\n    \"The objector is applying an inconsistent or disproportionate standard of risk.\",\n    \"The comparison class of 'things we use' is relevantly similar to the thing being discussed.\",\n    \"A relative risk framework is the appropriate evaluative standard in context.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The thing in question poses significantly greater danger than ordinary items people use.\",\n    \"The rhetorical question obscures a meaningful and relevant distinction in degree of risk.\",\n    \"The parenthetical denial is false and the danger is real and substantial.\",\n    \"The audience conflates 'some danger exists everywhere' with 'this specific danger is acceptable', committing a false equivalence.\",\n    \"The speaker is using the argument to dismiss legitimate safety concerns without addressing them substantively.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a rhetorical concession combined with a deflection. The speaker momentarily grants a hypothetical (that the thing in question is dangerous) while simultaneously undermining it with a parenthetical denial, then redirects the burden of proof to the objector via a rhetorical question implying that all things carry some danger.",
+    "implicit_claims": [
+      "The thing being discussed is not actually dangerous (asserted via parenthetical).",
+      "Everything humans use carries some degree of danger.",
+      "If universal danger is accepted, then the danger of this specific thing is not a valid objection.",
+      "The objector has not considered the dangers of other common things.",
+      "Relative danger, rather than absolute danger, should be the standard for evaluation.",
+      "The burden of proof lies with those raising the danger objection."
+    ],
+    "coherence_assessment": "The statement is internally somewhat incoherent. The speaker simultaneously denies the danger and argues that even if danger exists it does not matter, which weakens both positions. The parenthetical denial undermines the rhetorical concession, making the argument structurally self-contradictory. The rhetorical question, while persuasive in tone, does not logically follow from the denial.",
+    "conditions_for_usefulness": [
+      "The thing in question truly poses no greater danger than commonly accepted items.",
+      "The objector is applying an inconsistent or disproportionate standard of risk.",
+      "The comparison class of 'things we use' is relevantly similar to the thing being discussed.",
+      "A relative risk framework is the appropriate evaluative standard in context."
+    ],
+    "conditions_for_misleading": [
+      "The thing in question poses significantly greater danger than ordinary items people use.",
+      "The rhetorical question obscures a meaningful and relevant distinction in degree of risk.",
+      "The parenthetical denial is false and the danger is real and substantial.",
+      "The audience conflates 'some danger exists everywhere' with 'this specific danger is acceptable', committing a false equivalence.",
+      "The speaker is using the argument to dismiss legitimate safety concerns without addressing them substantively."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 509,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "C5-u0112__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:17:02.359321+00:00",
+  "wall_clock_seconds": 15.670445203781128,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a psychoeducational or motivational heuristic, intended to draw the patient's attention to a proposed mind-body connection, encouraging them to consider how cognitive or emotional states may influence physical wellbeing. It operates rhetorically as an aphorism designed to promote self-reflection and engagement with cognitive or somatic therapeutic work.\",\n  \"implicit_claims\": [\n    \"There is a direct or systematic causal relationship between thought quality and physical health outcomes.\",\n    \"Thoughts can be categorized as 'sickly' in a meaningful and clinically useful way.\",\n    \"The body reliably or necessarily expresses the content or quality of mental states.\",\n    \"Addressing thought patterns is a relevant or sufficient lever for influencing physical symptoms.\",\n    \"Physical symptoms that are present may be attributable to the character of one's thoughts.\",\n    \"The patient has meaningful agency over both their thoughts and, by extension, their physical condition.\"\n  ],\n  \"coherence_assessment\": \"The statement has surface-level rhetorical coherence as an aphorism but is internally imprecise. The term 'sickly thoughts' is undefined and conflates valence, content, and pathology. The causal directionality is asserted without qualification, making the claim overly deterministic. It does not account for bidirectionality, probabilistic relationships, or the multiple non-psychological determinants of physical health, which limits its internal logical rigor even if its communicative intent is clear.\",\n  \"conditions_for_usefulness\": [\n    \"The patient is experiencing psychosomatic or somatoform symptoms with a well-evidenced psychological component.\",\n    \"The statement is offered as a metaphor or heuristic, not a literal causal law, and is contextually framed as such.\",\n    \"The therapeutic relationship is strong enough that the patient interprets it as empowering rather than blaming.\",\n    \"It is used to open exploration of mind-body dynamics rather than to close off inquiry into physical causes.\",\n    \"The patient does not have a serious physical illness whose etiology is being inadvertently attributed to their cognition.\",\n    \"The clinician supplements the statement with nuance about the complexity of mind-body interactions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The patient has a physical illness with a clear non-psychological etiology (e.g., autoimmune disease, cancer, infection), causing them to attribute their condition to their own mental failures.\",\n    \"The statement is taken literally, leading the patient to believe thought alone causes or cures physical disease.\",\n    \"It induces shame, self-blame, or guilt in a patient already struggling with self-criticism.\",\n    \"It is used to discourage the patient from seeking appropriate medical evaluation or treatment.\",\n    \"The patient interprets 'sickly thoughts' as a moral failing rather than a clinical target for change.\",\n    \"It reinforces magical thinking or pseudoscientific health beliefs that could lead to harmful health decisions.\",\n    \"The clinician uses it prescriptively to explain all physical symptoms without adequate differential assessment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a psychoeducational or motivational heuristic, intended to draw the patient's attention to a proposed mind-body connection, encouraging them to consider how cognitive or emotional states may influence physical wellbeing. It operates rhetorically as an aphorism designed to promote self-reflection and engagement with cognitive or somatic therapeutic work.",
+    "implicit_claims": [
+      "There is a direct or systematic causal relationship between thought quality and physical health outcomes.",
+      "Thoughts can be categorized as 'sickly' in a meaningful and clinically useful way.",
+      "The body reliably or necessarily expresses the content or quality of mental states.",
+      "Addressing thought patterns is a relevant or sufficient lever for influencing physical symptoms.",
+      "Physical symptoms that are present may be attributable to the character of one's thoughts.",
+      "The patient has meaningful agency over both their thoughts and, by extension, their physical condition."
+    ],
+    "coherence_assessment": "The statement has surface-level rhetorical coherence as an aphorism but is internally imprecise. The term 'sickly thoughts' is undefined and conflates valence, content, and pathology. The causal directionality is asserted without qualification, making the claim overly deterministic. It does not account for bidirectionality, probabilistic relationships, or the multiple non-psychological determinants of physical health, which limits its internal logical rigor even if its communicative intent is clear.",
+    "conditions_for_usefulness": [
+      "The patient is experiencing psychosomatic or somatoform symptoms with a well-evidenced psychological component.",
+      "The statement is offered as a metaphor or heuristic, not a literal causal law, and is contextually framed as such.",
+      "The therapeutic relationship is strong enough that the patient interprets it as empowering rather than blaming.",
+      "It is used to open exploration of mind-body dynamics rather than to close off inquiry into physical causes.",
+      "The patient does not have a serious physical illness whose etiology is being inadvertently attributed to their cognition.",
+      "The clinician supplements the statement with nuance about the complexity of mind-body interactions."
+    ],
+    "conditions_for_misleading": [
+      "The patient has a physical illness with a clear non-psychological etiology (e.g., autoimmune disease, cancer, infection), causing them to attribute their condition to their own mental failures.",
+      "The statement is taken literally, leading the patient to believe thought alone causes or cures physical disease.",
+      "It induces shame, self-blame, or guilt in a patient already struggling with self-criticism.",
+      "It is used to discourage the patient from seeking appropriate medical evaluation or treatment.",
+      "The patient interprets 'sickly thoughts' as a moral failing rather than a clinical target for change.",
+      "It reinforces magical thinking or pseudoscientific health beliefs that could lead to harmful health decisions.",
+      "The clinician uses it prescriptively to explain all physical symptoms without adequate differential assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 705,
+  "error": "",
+  "retry_count": 0
+}

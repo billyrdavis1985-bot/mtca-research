@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0174__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:30:30.539336+00:00",
+  "wall_clock_seconds": 4.830692291259766,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts individual autonomy and self-determination, emphasizing that only the person themselves can change their own circumstances.\",\n  \"implicit_claims\": [\n    \"Individuals have the sole power to change their condition.\",\n    \"External factors (e.g., society, environment, other people) cannot meaningfully alter an individual's condition.\",\n    \"An individual's condition is a matter of personal agency rather than systemic or structural influence.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent if interpreted strictly as a moral or existential principle about personal responsibility, but it becomes inconsistent with empirical reality if taken as a factual claim, since external forces (e.g., laws, economic conditions, health, discrimination) can and do alter people's conditions without their consent or agency.\",\n  \"conditions_for_usefulness\": \"The statement is useful in contexts where the goal is to encourage personal agency, self-reliance, or resilience, and when the individual has genuine freedom and resources to effect change. It is also useful in therapeutic or coaching settings where emphasizing internal locus of control is beneficial.\",\n  \"conditions_for_misleading\": \"The statement becomes misleading when systemic barriers, inequalities, or external constraints (e.g., poverty, disability, oppression, lack of access) significantly limit an individual's ability to alter their own condition, or when it is used to blame individuals for circumstances beyond their control.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts individual autonomy and self-determination, emphasizing that only the person themselves can change their own circumstances.",
+    "implicit_claims": [
+      "Individuals have the sole power to change their condition.",
+      "External factors (e.g., society, environment, other people) cannot meaningfully alter an individual's condition.",
+      "An individual's condition is a matter of personal agency rather than systemic or structural influence."
+    ],
+    "coherence_assessment": "The statement is coherent if interpreted strictly as a moral or existential principle about personal responsibility, but it becomes inconsistent with empirical reality if taken as a factual claim, since external forces (e.g., laws, economic conditions, health, discrimination) can and do alter people's conditions without their consent or agency.",
+    "conditions_for_usefulness": "The statement is useful in contexts where the goal is to encourage personal agency, self-reliance, or resilience, and when the individual has genuine freedom and resources to effect change. It is also useful in therapeutic or coaching settings where emphasizing internal locus of control is beneficial.",
+    "conditions_for_misleading": "The statement becomes misleading when systemic barriers, inequalities, or external constraints (e.g., poverty, disability, oppression, lack of access) significantly limit an individual's ability to alter their own condition, or when it is used to blame individuals for circumstances beyond their control."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 287,
+  "error": "",
+  "retry_count": 0
+}

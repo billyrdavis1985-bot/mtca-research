@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0011__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:36:21.367879+00:00",
+  "wall_clock_seconds": 12.198564052581787,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a self-commitment speech act — declaring an intention while simultaneously framing it as methodologically superior to an alternative approach. It functions as both a resolution and a self-endorsement of the resolution's design.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less effective or less achievable than specific, observable ones.\",\n    \"The speaker has the self-knowledge to distinguish between what they can and cannot carry out.\",\n    \"Small and observable changes are inherently more actionable than large or vague ones.\",\n    \"The speaker has already identified what the specific changes are, or is capable of doing so.\",\n    \"Prior resolutions (implicitly) failed due to vagueness or overreach, not other factors.\",\n    \"Observability is a meaningful criterion for selecting behavioral goals.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in structure — it contrasts two approaches and commits to the preferable one. However, it contains a mild performative tension: it is itself somewhat vague, as it does not specify what the 'small, observable changes' actually are, making the commitment abstract at the moment of utterance.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has or will identify concrete, specific behaviors to change.\",\n    \"The speaker has accurate self-knowledge about their actual capacity for follow-through.\",\n    \"External conditions are stable enough to allow the planned changes to be executed.\",\n    \"The speaker uses this framing as a starting point for planning, not as a substitute for it.\",\n    \"The small changes are actually relevant to meaningful goals the speaker holds.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used as a feel-good reframing that substitutes for actual planning.\",\n    \"The speaker conflates 'small and observable' with 'trivially easy' and avoids necessary but difficult changes.\",\n    \"The implicit criticism of vague resolutions masks other real reasons for past failures (e.g., motivation, resources, circumstance).\",\n    \"The speaker does not follow up with actual identification of specific behaviors, leaving the commitment hollow.\",\n    \"The framing creates an illusion of progress or self-improvement without any behavioral change occurring.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-commitment speech act — declaring an intention while simultaneously framing it as methodologically superior to an alternative approach. It functions as both a resolution and a self-endorsement of the resolution's design.",
+    "implicit_claims": [
+      "Vague resolutions are less effective or less achievable than specific, observable ones.",
+      "The speaker has the self-knowledge to distinguish between what they can and cannot carry out.",
+      "Small and observable changes are inherently more actionable than large or vague ones.",
+      "The speaker has already identified what the specific changes are, or is capable of doing so.",
+      "Prior resolutions (implicitly) failed due to vagueness or overreach, not other factors.",
+      "Observability is a meaningful criterion for selecting behavioral goals."
+    ],
+    "coherence_assessment": "The statement is internally coherent in structure — it contrasts two approaches and commits to the preferable one. However, it contains a mild performative tension: it is itself somewhat vague, as it does not specify what the 'small, observable changes' actually are, making the commitment abstract at the moment of utterance.",
+    "conditions_for_usefulness": [
+      "The speaker has or will identify concrete, specific behaviors to change.",
+      "The speaker has accurate self-knowledge about their actual capacity for follow-through.",
+      "External conditions are stable enough to allow the planned changes to be executed.",
+      "The speaker uses this framing as a starting point for planning, not as a substitute for it.",
+      "The small changes are actually relevant to meaningful goals the speaker holds."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used as a feel-good reframing that substitutes for actual planning.",
+      "The speaker conflates 'small and observable' with 'trivially easy' and avoids necessary but difficult changes.",
+      "The implicit criticism of vague resolutions masks other real reasons for past failures (e.g., motivation, resources, circumstance).",
+      "The speaker does not follow up with actual identification of specific behaviors, leaving the commitment hollow.",
+      "The framing creates an illusion of progress or self-improvement without any behavioral change occurring."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 518,
+  "error": "",
+  "retry_count": 0
+}

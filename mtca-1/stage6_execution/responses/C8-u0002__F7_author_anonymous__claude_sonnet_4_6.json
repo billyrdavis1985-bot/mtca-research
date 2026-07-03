@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0002__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:02:29.136048+00:00",
+  "wall_clock_seconds": 12.95207953453064,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a first-person declaration of intentional epistemic reorientation — announcing a deliberate shift in how the speaker evaluates beliefs or predictions, framing the shift as an active choice toward empiricism and away from fear-based reasoning.\",\n  \"implicit_claims\": [\n    \"The speaker has previously tested predictions against fear rather than reality, or is tempted to do so.\",\n    \"Fear and reality are distinct and separable sources of evidence.\",\n    \"It is possible to consciously choose one's epistemic standard.\",\n    \"Testing against what actually happens is more reliable or valid than testing against what one fears.\",\n    \"The speaker has identifiable predictions that can be evaluated.\",\n    \"Fear distorts or substitutes for evidence in some meaningful way.\",\n    \"This shift is volitional and within the speaker's control.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a behavioral intention. The contrast it draws — actual outcomes versus feared outcomes — is logically meaningful. However, a mild tension exists: fear-based testing is not always irrational, as fear can sometimes track real probabilities. The statement presupposes a clean separation between fear and reality that may not always hold.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has anxiety or fear that is causing them to treat worst-case scenarios as confirmed outcomes.\",\n    \"The speaker has concrete, falsifiable predictions that real events can test.\",\n    \"The speaker has the capacity and circumstance to observe actual outcomes.\",\n    \"The reorientation is part of a broader reflective or therapeutic practice (e.g., CBT) where such distinctions have structured meaning.\",\n    \"Fear has been systematically leading the speaker to incorrect conclusions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The feared outcome is itself grounded in strong evidence, making fear a reasonable proxy for likely reality.\",\n    \"The statement is used to dismiss legitimate risk assessment or precautionary reasoning.\",\n    \"The speaker lacks the ability to accurately observe or interpret 'what actually happens,' substituting a biased perception of outcomes.\",\n    \"The framing creates false confidence that empirical testing of predictions is straightforwardly achievable in ambiguous or complex situations.\",\n    \"It is used rhetorically to silence or invalidate another person's fear-based concerns rather than as genuine self-reflection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a first-person declaration of intentional epistemic reorientation — announcing a deliberate shift in how the speaker evaluates beliefs or predictions, framing the shift as an active choice toward empiricism and away from fear-based reasoning.",
+    "implicit_claims": [
+      "The speaker has previously tested predictions against fear rather than reality, or is tempted to do so.",
+      "Fear and reality are distinct and separable sources of evidence.",
+      "It is possible to consciously choose one's epistemic standard.",
+      "Testing against what actually happens is more reliable or valid than testing against what one fears.",
+      "The speaker has identifiable predictions that can be evaluated.",
+      "Fear distorts or substitutes for evidence in some meaningful way.",
+      "This shift is volitional and within the speaker's control."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a behavioral intention. The contrast it draws — actual outcomes versus feared outcomes — is logically meaningful. However, a mild tension exists: fear-based testing is not always irrational, as fear can sometimes track real probabilities. The statement presupposes a clean separation between fear and reality that may not always hold.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has anxiety or fear that is causing them to treat worst-case scenarios as confirmed outcomes.",
+      "The speaker has concrete, falsifiable predictions that real events can test.",
+      "The speaker has the capacity and circumstance to observe actual outcomes.",
+      "The reorientation is part of a broader reflective or therapeutic practice (e.g., CBT) where such distinctions have structured meaning.",
+      "Fear has been systematically leading the speaker to incorrect conclusions."
+    ],
+    "conditions_for_misleading": [
+      "The feared outcome is itself grounded in strong evidence, making fear a reasonable proxy for likely reality.",
+      "The statement is used to dismiss legitimate risk assessment or precautionary reasoning.",
+      "The speaker lacks the ability to accurately observe or interpret 'what actually happens,' substituting a biased perception of outcomes.",
+      "The framing creates false confidence that empirical testing of predictions is straightforwardly achievable in ambiguous or complex situations.",
+      "It is used rhetorically to silence or invalidate another person's fear-based concerns rather than as genuine self-reflection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 545,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0864__F4_poetic__gemini_2_5_flash",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:53:36.111366+00:00",
+  "wall_clock_seconds": 7.411867618560791,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To express a past personal stance or attitude toward a specific topic (Coué's lectures), framing it as a confession which might imply a subsequent change of mind or a particular narrative arc. It establishes the speaker's initial critical perspective.\",\n  \"implicit_claims\": [\n    \"The speaker was exposed to or aware of 'Coué's lectures'.\",\n    \"The historical figure Émile Coué delivered lectures.\",\n    \"The speaker held a state of 'entire scepticism' regarding these lectures at some point in the past.\",\n    \"The speaker is now willing to acknowledge or reveal this past skepticism, suggesting a potential reason for the confession (e.g., a shift in current perspective, a prelude to a story, or an establishment of credibility).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The initial phrase 'Coué's lectures' clearly sets the subject for the subsequent clause, 'I confess that I was entirely sceptical', which expresses the speaker's personal reaction to that subject. The use of 'confess' adds a layer of personal reflection and narrative context.\",\n  \"conditions_for_usefulness\": [\n    \"If the speaker genuinely *was* skeptical, and this initial stance serves as a necessary baseline for a subsequent narrative (e.g., how their skepticism was overcome, reinforced, or nuanced).\",\n    \"If it establishes the speaker's credibility as someone who approaches topics with initial critical scrutiny.\",\n    \"If it provides context for a discussion about Couéism, self-suggestion, or the speaker's personal journey of belief and doubt.\",\n    \"If the audience is interested in the speaker's personal historical engagement with the subject matter.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker was *not* genuinely skeptical, but claims to be for rhetorical effect (e.g., to make a later conversion seem more profound, or to feign objectivity).\",\n    \"If the speaker did not actually engage with 'Coué's lectures' but is using the phrase to imply a deeper engagement than occurred.\",\n    \"If the 'confession' is used to subtly imply a change of heart that hasn't happened, or to pre-emptively deflect potential criticism.\",\n    \"If the level of 'entire scepticism' is an exaggeration of a more complex or nuanced initial reaction.\",\n    \"If the statement is presented as a definitive historical account when it is merely a retrospective, potentially biased, self-assessment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To express a past personal stance or attitude toward a specific topic (Coué's lectures), framing it as a confession which might imply a subsequent change of mind or a particular narrative arc. It establishes the speaker's initial critical perspective.",
+    "implicit_claims": [
+      "The speaker was exposed to or aware of 'Coué's lectures'.",
+      "The historical figure Émile Coué delivered lectures.",
+      "The speaker held a state of 'entire scepticism' regarding these lectures at some point in the past.",
+      "The speaker is now willing to acknowledge or reveal this past skepticism, suggesting a potential reason for the confession (e.g., a shift in current perspective, a prelude to a story, or an establishment of credibility)."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The initial phrase 'Coué's lectures' clearly sets the subject for the subsequent clause, 'I confess that I was entirely sceptical', which expresses the speaker's personal reaction to that subject. The use of 'confess' adds a layer of personal reflection and narrative context.",
+    "conditions_for_usefulness": [
+      "If the speaker genuinely *was* skeptical, and this initial stance serves as a necessary baseline for a subsequent narrative (e.g., how their skepticism was overcome, reinforced, or nuanced).",
+      "If it establishes the speaker's credibility as someone who approaches topics with initial critical scrutiny.",
+      "If it provides context for a discussion about Couéism, self-suggestion, or the speaker's personal journey of belief and doubt.",
+      "If the audience is interested in the speaker's personal historical engagement with the subject matter."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker was *not* genuinely skeptical, but claims to be for rhetorical effect (e.g., to make a later conversion seem more profound, or to feign objectivity).",
+      "If the speaker did not actually engage with 'Coué's lectures' but is using the phrase to imply a deeper engagement than occurred.",
+      "If the 'confession' is used to subtly imply a change of heart that hasn't happened, or to pre-emptively deflect potential criticism.",
+      "If the level of 'entire scepticism' is an exaggeration of a more complex or nuanced initial reaction.",
+      "If the statement is presented as a definitive historical account when it is merely a retrospective, potentially biased, self-assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 153,
+  "output_tokens": 548,
+  "error": "",
+  "retry_count": 0
+}

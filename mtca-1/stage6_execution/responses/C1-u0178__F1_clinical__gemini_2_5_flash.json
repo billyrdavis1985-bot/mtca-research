@@ -1,0 +1,54 @@
+{
+  "call_id": "C1-u0178__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:13:59.919449+00:00",
+  "wall_clock_seconds": 10.013885736465454,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a therapeutic affirmation, a self-suggestion, or a guided intention aimed at re-establishing or normalizing a healthy, mindful relationship with hunger and eating. It is prescriptive, guiding the individual towards a specific pattern of experiencing hunger, enjoying food, and practicing moderation.\",\n  \"implicit_claims\": [\n    \"The speaker (or the 'self' making the statement) has the capacity to influence or shape future physiological and psychological experiences related to food.\",\n    \"Hunger is inherently an 'agreeable sensation' that can be anticipated positively.\",\n    \"It is possible and desirable to consistently experience physiological hunger at regular, specific meal times (morning, midday, evening).\",\n    \"It is possible to enjoy food without overeating, implying a capacity for self-regulation and mindful consumption.\",\n    \"The individual currently has an irregular or unhealthy relationship with hunger, food enjoyment, or portion control that needs adjustment.\",\n    \"The act of verbally or mentally asserting this pattern can help bring it into being.\",\n    \"There is an 'ideal' or 'natural' way to eat that involves three regular meals.\",\n    \"The individual can reliably distinguish between agreeable physiological hunger and other cues (e.g., emotional hunger, cravings).\",\n    \"The individual has agency over their eating behaviors to prevent overeating.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear, logical sequence of desired events: regular hunger, pleasant anticipation, enjoyable eating, and moderate consumption. The language is direct and consistent in its positive framing of the eating experience. The framing of hunger as an 'agreeable sensation' is a key reframe, which, within the therapeutic context, maintains coherence by setting a desired perceptual outcome.\",\n  \"conditions_for_usefulness\": [\n    \"The individual struggles with irregular eating patterns, suppressed appetite, or a distorted perception of hunger (e.g., fear of hunger, inability to recognize hunger cues).\",\n    \"The individual is amenable to self-affirmations, guided imagery, or cognitive restructuring techniques.\",\n    \"The individual's physiological hunger cues are not severely compromised by underlying medical conditions, medications, or severe disordered eating requiring more intensive intervention.\",\n    \"The statement is part of a broader, well-structured therapeutic plan that addresses potential underlying psychological or emotional factors.\",\n    \"The individual can interpret 'you will feel hungry' as a long-term goal or an intention to cultivate, rather than an immediate command that might induce frustration if not immediately met.\",\n    \"The goal is to re-establish a healthy, regular, and mindful relationship with food, rather than addressing acute or severe eating disorders.\",\n    \"The individual is capable of differentiating between physiological hunger and emotional hunger.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has a physiological condition (e.g., gastroparesis, specific medications, certain metabolic disorders) that genuinely prevents them from feeling hunger at regular intervals or experiencing it as 'agreeable.'\",\n    \"The individual is suffering from a severe eating disorder (e.g., anorexia nervosa, severe restriction, binge eating disorder) where hunger cues are severely dysregulated or distorted, making the statement feel invalidating, unattainable, or even triggering.\",\n    \"The statement implies a 'one-size-fits-all' approach to meal timing and frequency, which may not be suitable for everyone's metabolism, lifestyle, or cultural background.\",\n    \"It oversimplifies complex psychological issues around food and eating, suggesting that a simple affirmation can resolve deeply ingrained patterns or trauma.\",\n    \"If the individual fails to meet these expectations (e.g., doesn't feel hungry, overeats), the statement could induce guilt, shame, or a sense of failure, hindering progress.\",\n    \"If used in isolation without proper therapeutic context and support, it may be perceived as prescriptive, dismissive of the individual's lived experience, or unhelpful.\",\n    \"If the individual primarily experiences emotional hunger or stress-related eating, this statement might lead them to misinterpret those cues as physiological hunger, potentially exacerbating issues.\",\n    \"The statement could reinforce an unhealthy focus on 'control' over eating rather than fostering intuitive eating and body trust, especially the 'without of course overeating' clause if interpreted rigidly.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a therapeutic affirmation, a self-suggestion, or a guided intention aimed at re-establishing or normalizing a healthy, mindful relationship with hunger and eating. It is prescriptive, guiding the individual towards a specific pattern of experiencing hunger, enjoying food, and practicing moderation.",
+    "implicit_claims": [
+      "The speaker (or the 'self' making the statement) has the capacity to influence or shape future physiological and psychological experiences related to food.",
+      "Hunger is inherently an 'agreeable sensation' that can be anticipated positively.",
+      "It is possible and desirable to consistently experience physiological hunger at regular, specific meal times (morning, midday, evening).",
+      "It is possible to enjoy food without overeating, implying a capacity for self-regulation and mindful consumption.",
+      "The individual currently has an irregular or unhealthy relationship with hunger, food enjoyment, or portion control that needs adjustment.",
+      "The act of verbally or mentally asserting this pattern can help bring it into being.",
+      "There is an 'ideal' or 'natural' way to eat that involves three regular meals.",
+      "The individual can reliably distinguish between agreeable physiological hunger and other cues (e.g., emotional hunger, cravings).",
+      "The individual has agency over their eating behaviors to prevent overeating."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear, logical sequence of desired events: regular hunger, pleasant anticipation, enjoyable eating, and moderate consumption. The language is direct and consistent in its positive framing of the eating experience. The framing of hunger as an 'agreeable sensation' is a key reframe, which, within the therapeutic context, maintains coherence by setting a desired perceptual outcome.",
+    "conditions_for_usefulness": [
+      "The individual struggles with irregular eating patterns, suppressed appetite, or a distorted perception of hunger (e.g., fear of hunger, inability to recognize hunger cues).",
+      "The individual is amenable to self-affirmations, guided imagery, or cognitive restructuring techniques.",
+      "The individual's physiological hunger cues are not severely compromised by underlying medical conditions, medications, or severe disordered eating requiring more intensive intervention.",
+      "The statement is part of a broader, well-structured therapeutic plan that addresses potential underlying psychological or emotional factors.",
+      "The individual can interpret 'you will feel hungry' as a long-term goal or an intention to cultivate, rather than an immediate command that might induce frustration if not immediately met.",
+      "The goal is to re-establish a healthy, regular, and mindful relationship with food, rather than addressing acute or severe eating disorders.",
+      "The individual is capable of differentiating between physiological hunger and emotional hunger."
+    ],
+    "conditions_for_misleading": [
+      "The individual has a physiological condition (e.g., gastroparesis, specific medications, certain metabolic disorders) that genuinely prevents them from feeling hunger at regular intervals or experiencing it as 'agreeable.'",
+      "The individual is suffering from a severe eating disorder (e.g., anorexia nervosa, severe restriction, binge eating disorder) where hunger cues are severely dysregulated or distorted, making the statement feel invalidating, unattainable, or even triggering.",
+      "The statement implies a 'one-size-fits-all' approach to meal timing and frequency, which may not be suitable for everyone's metabolism, lifestyle, or cultural background.",
+      "It oversimplifies complex psychological issues around food and eating, suggesting that a simple affirmation can resolve deeply ingrained patterns or trauma.",
+      "If the individual fails to meet these expectations (e.g., doesn't feel hungry, overeats), the statement could induce guilt, shame, or a sense of failure, hindering progress.",
+      "If used in isolation without proper therapeutic context and support, it may be perceived as prescriptive, dismissive of the individual's lived experience, or unhelpful.",
+      "If the individual primarily experiences emotional hunger or stress-related eating, this statement might lead them to misinterpret those cues as physiological hunger, potentially exacerbating issues.",
+      "The statement could reinforce an unhealthy focus on 'control' over eating rather than fostering intuitive eating and body trust, especially the 'without of course overeating' clause if interpreted rigidly."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 224,
+  "output_tokens": 921,
+  "error": "",
+  "retry_count": 0
+}

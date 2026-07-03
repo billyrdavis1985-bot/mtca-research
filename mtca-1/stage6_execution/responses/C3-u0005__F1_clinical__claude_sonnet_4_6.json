@@ -1,0 +1,49 @@
+{
+  "call_id": "C3-u0005__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:03:28.457211+00:00",
+  "wall_clock_seconds": 15.33303689956665,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a sardonic or ironic self-admonishment, framing current self-contempt as temporally bounded and therefore implicitly absurd or futile. It mimics the form of a therapeutic self-compassion prompt while inverting its content, potentially using ironic distance to interrupt a self-critical pattern by exposing its finite and arbitrary nature.\",\n  \"implicit_claims\": [\n    \"The self currently engages in self-abuse or self-contempt.\",\n    \"This self-contempt is a chosen or controllable behavior ('do, soul, do').\",\n    \"There exists a future point at which self-respect will no longer be possible.\",\n    \"The opportunity for self-respect is limited and time-sensitive.\",\n    \"Continuing self-contempt now is implicitly wasteful or irrational given this finite window.\",\n    \"The soul or self is a coherent agent capable of being addressed and redirected.\",\n    \"Self-respect is a meaningful and desirable state that could be chosen.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as an ironic rhetorical device. Its logic is: if time for self-respect is finite, then spending it on self-contempt is self-defeating. However, it contains a tension — it simultaneously enacts contempt (by permitting it sardonically) and implies self-respect is valuable (by marking its loss as significant). This tension is purposeful if used dialectically, but destabilizing if taken literally.\",\n  \"conditions_for_usefulness\": [\n    \"The client has sufficient cognitive flexibility to process irony without destabilization.\",\n    \"The client is in a pattern of chronic, ego-syntonic self-criticism that has not responded to direct challenge.\",\n    \"A strong therapeutic alliance exists such that the ironic tone is not experienced as therapist contempt.\",\n    \"The client can recognize the implicit reframe: that self-respect is available and worth claiming now.\",\n    \"The statement is delivered with clear therapeutic intent and followed by exploratory dialogue.\",\n    \"The client does not have active suicidal ideation or a belief that their life is genuinely ending soon.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets the statement literally, reinforcing the belief that self-contempt is appropriate or sanctioned.\",\n    \"The client has passive suicidal ideation, causing 'the time will be at an end' to confirm catastrophic thinking.\",\n    \"The ironic frame is not perceived, leading the client to conclude the therapist endorses self-abuse.\",\n    \"The client's self-contempt is so entrenched that the statement functions as validation rather than disruption.\",\n    \"The statement is used without context, making its therapeutic intent invisible.\",\n    \"The client interprets finitude of self-respect as evidence that self-respect is ultimately unattainable or not worth pursuing.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a sardonic or ironic self-admonishment, framing current self-contempt as temporally bounded and therefore implicitly absurd or futile. It mimics the form of a therapeutic self-compassion prompt while inverting its content, potentially using ironic distance to interrupt a self-critical pattern by exposing its finite and arbitrary nature.",
+    "implicit_claims": [
+      "The self currently engages in self-abuse or self-contempt.",
+      "This self-contempt is a chosen or controllable behavior ('do, soul, do').",
+      "There exists a future point at which self-respect will no longer be possible.",
+      "The opportunity for self-respect is limited and time-sensitive.",
+      "Continuing self-contempt now is implicitly wasteful or irrational given this finite window.",
+      "The soul or self is a coherent agent capable of being addressed and redirected.",
+      "Self-respect is a meaningful and desirable state that could be chosen."
+    ],
+    "coherence_assessment": "The statement is internally coherent as an ironic rhetorical device. Its logic is: if time for self-respect is finite, then spending it on self-contempt is self-defeating. However, it contains a tension — it simultaneously enacts contempt (by permitting it sardonically) and implies self-respect is valuable (by marking its loss as significant). This tension is purposeful if used dialectically, but destabilizing if taken literally.",
+    "conditions_for_usefulness": [
+      "The client has sufficient cognitive flexibility to process irony without destabilization.",
+      "The client is in a pattern of chronic, ego-syntonic self-criticism that has not responded to direct challenge.",
+      "A strong therapeutic alliance exists such that the ironic tone is not experienced as therapist contempt.",
+      "The client can recognize the implicit reframe: that self-respect is available and worth claiming now.",
+      "The statement is delivered with clear therapeutic intent and followed by exploratory dialogue.",
+      "The client does not have active suicidal ideation or a belief that their life is genuinely ending soon."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets the statement literally, reinforcing the belief that self-contempt is appropriate or sanctioned.",
+      "The client has passive suicidal ideation, causing 'the time will be at an end' to confirm catastrophic thinking.",
+      "The ironic frame is not perceived, leading the client to conclude the therapist endorses self-abuse.",
+      "The client's self-contempt is so entrenched that the statement functions as validation rather than disruption.",
+      "The statement is used without context, making its therapeutic intent invisible.",
+      "The client interprets finitude of self-respect as evidence that self-respect is ultimately unattainable or not worth pursuing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 667,
+  "error": "",
+  "retry_count": 0
+}

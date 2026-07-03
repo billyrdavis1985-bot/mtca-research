@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0014__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:23:11.928913+00:00",
+  "wall_clock_seconds": 4.5962300300598145,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is morally classifying and comparing two types of wrongdoing (anger vs. lust), asserting that lust reveals a weaker, less rational character than anger does.\",\n  \"implicit_claims\": [\n    \"Anger involves a withdrawal from reason but still retains some dignity or self-control.\",\n    \"Lust is inherently more shameful because it shows submission to pleasure.\",\n    \"There is a hierarchy of moral failings, with lust being more contemptible than anger.\",\n    \"Reason is the standard against which both emotions are judged.\",\n    \"The speaker assumes a shared moral framework that values rationality and self-mastery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it contrasts two emotional states (anger and lust) along dimensions of rationality and self-mastery, consistent with a virtue-ethics perspective that prioritizes reason over appetite.\",\n  \"conditions_for_usefulness\": \"Useful if the listener accepts that moral evaluation should rank failings by their distance from rational self-control, and if the statement motivates greater vigilance against lust rather than anger.\",\n  \"conditions_for_misleading\": \"Misleading if it oversimplifies the psychology of anger (which can also be impulsive and degrading), ignores cultural or contextual relativity, or falsely implies that anger is always less harmful than lust.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is morally classifying and comparing two types of wrongdoing (anger vs. lust), asserting that lust reveals a weaker, less rational character than anger does.",
+    "implicit_claims": [
+      "Anger involves a withdrawal from reason but still retains some dignity or self-control.",
+      "Lust is inherently more shameful because it shows submission to pleasure.",
+      "There is a hierarchy of moral failings, with lust being more contemptible than anger.",
+      "Reason is the standard against which both emotions are judged.",
+      "The speaker assumes a shared moral framework that values rationality and self-mastery."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it contrasts two emotional states (anger and lust) along dimensions of rationality and self-mastery, consistent with a virtue-ethics perspective that prioritizes reason over appetite.",
+    "conditions_for_usefulness": "Useful if the listener accepts that moral evaluation should rank failings by their distance from rational self-control, and if the statement motivates greater vigilance against lust rather than anger.",
+    "conditions_for_misleading": "Misleading if it oversimplifies the psychology of anger (which can also be impulsive and degrading), ignores cultural or contextual relativity, or falsely implies that anger is always less harmful than lust."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 273,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0285__F6_author_named__grok_4",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:34:02.385190+00:00",
+  "wall_clock_seconds": 4.670526027679443,
+  "raw_response": "{\n  \"communicative_function\": \"rhetorical deflection of criticism via relativization of risk and burden-shifting\",\n  \"implicit_claims\": [\n    \"the method (autosuggestion) presents no real danger\",\n    \"every commonly used thing carries some danger\",\n    \"the existence of danger in other things renders the objection irrelevant or moot\"\n  ],\n  \"coherence_assessment\": \"internally consistent as rhetoric but logically weak, as it equates disparate risk profiles without evidence\",\n  \"conditions_for_usefulness\": \"audience seeks reassurance against vague fears and accepts that shared presence of risk neutralizes specific concerns\",\n  \"conditions_for_misleading\": \"specific dangers of autosuggestion exceed those of ordinary items and the comparison discourages proportionate scrutiny\"\n}",
+  "parsed_json": {
+    "communicative_function": "rhetorical deflection of criticism via relativization of risk and burden-shifting",
+    "implicit_claims": [
+      "the method (autosuggestion) presents no real danger",
+      "every commonly used thing carries some danger",
+      "the existence of danger in other things renders the objection irrelevant or moot"
+    ],
+    "coherence_assessment": "internally consistent as rhetoric but logically weak, as it equates disparate risk profiles without evidence",
+    "conditions_for_usefulness": "audience seeks reassurance against vague fears and accepts that shared presence of risk neutralizes specific concerns",
+    "conditions_for_misleading": "specific dangers of autosuggestion exceed those of ordinary items and the comparison discourages proportionate scrutiny"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 291,
+  "output_tokens": 153,
+  "error": "",
+  "retry_count": 0
+}

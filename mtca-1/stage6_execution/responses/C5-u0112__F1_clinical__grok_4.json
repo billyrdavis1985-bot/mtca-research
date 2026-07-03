@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0112__F1_clinical__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:17:23.522848+00:00",
+  "wall_clock_seconds": 6.949209690093994,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a causal psychosomatic link to frame mental patterns as direct somatic influencers\",\n  \"implicit_claims\": [\n    \"thoughts possess intrinsic 'sickly' or health-promoting qualities\",\n    \"mental states reliably produce corresponding bodily states\",\n    \"somatic symptoms can be traced to cognitive origins\",\n    \"altering thoughts will alter physical condition\"\n  ],\n  \"coherence_assessment\": \"internally consistent under a unidirectional mind-to-body causal model but lacks bidirectional or multifactorial qualifiers\",\n  \"conditions_for_usefulness\": \"empirical evidence supports measurable psychosomatic pathways, patient finds the framing motivating for cognitive change, and physical symptoms have documented psychological contributors\",\n  \"conditions_for_misleading\": \"physical illness stems primarily from biomedical factors independent of cognition, or the statement induces self-blame for somatic conditions without addressing organic etiology\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a causal psychosomatic link to frame mental patterns as direct somatic influencers",
+    "implicit_claims": [
+      "thoughts possess intrinsic 'sickly' or health-promoting qualities",
+      "mental states reliably produce corresponding bodily states",
+      "somatic symptoms can be traced to cognitive origins",
+      "altering thoughts will alter physical condition"
+    ],
+    "coherence_assessment": "internally consistent under a unidirectional mind-to-body causal model but lacks bidirectional or multifactorial qualifiers",
+    "conditions_for_usefulness": "empirical evidence supports measurable psychosomatic pathways, patient finds the framing motivating for cognitive change, and physical symptoms have documented psychological contributors",
+    "conditions_for_misleading": "physical illness stems primarily from biomedical factors independent of cognition, or the statement induces self-blame for somatic conditions without addressing organic etiology"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 271,
+  "output_tokens": 181,
+  "error": "",
+  "retry_count": 0
+}

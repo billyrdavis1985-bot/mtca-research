@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0563__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:50:30.550459+00:00",
+  "wall_clock_seconds": 4.706972360610962,
+  "raw_response": "{\n  \"communicative_function\": \"Making an assertion about a purported cause-and-effect relationship between a pregnant woman's thoughts and the characteristics of her child, presented as a factual claim.\",\n  \"implicit_claims\": [\n    \"A woman can determine the sex of her child through mental imagery during pregnancy.\",\n    \"A woman can determine the physical and moral qualities of her child through mental imagery during pregnancy.\",\n    \"Consistent mental effort over the gestation period is sufficient to produce these outcomes.\",\n    \"The sex and qualities of a child are malleable by maternal thought.\"\n  ],\n  \"coherence_assessment\": \"Internally incoherent from a biological and scientific perspective; the claim contradicts established genetics (sex determined by chromosomes at conception) and developmental biology. Within its own supernatural or prescientific framework, it is logically consistent in asserting a direct mental causation.\",\n  \"conditions_for_usefulness\": [\n    \"If mental causation could reliably override genetic and biological processes.\",\n    \"If the gender and traits of offspring were not predetermined by genetics or environment.\",\n    \"If the statement were intended as a metaphor or spiritual belief system where adherents accept such mechanisms.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If presented as scientifically accurate or medically sound advice.\",\n    \"If a reader believes they can control offspring characteristics through thought alone.\",\n    \"If the statement discourages seeking biological understanding or reproductive healthcare.\",\n    \"If it reinforces false beliefs about women's responsibility for their children's sex or moral nature.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Making an assertion about a purported cause-and-effect relationship between a pregnant woman's thoughts and the characteristics of her child, presented as a factual claim.",
+    "implicit_claims": [
+      "A woman can determine the sex of her child through mental imagery during pregnancy.",
+      "A woman can determine the physical and moral qualities of her child through mental imagery during pregnancy.",
+      "Consistent mental effort over the gestation period is sufficient to produce these outcomes.",
+      "The sex and qualities of a child are malleable by maternal thought."
+    ],
+    "coherence_assessment": "Internally incoherent from a biological and scientific perspective; the claim contradicts established genetics (sex determined by chromosomes at conception) and developmental biology. Within its own supernatural or prescientific framework, it is logically consistent in asserting a direct mental causation.",
+    "conditions_for_usefulness": [
+      "If mental causation could reliably override genetic and biological processes.",
+      "If the gender and traits of offspring were not predetermined by genetics or environment.",
+      "If the statement were intended as a metaphor or spiritual belief system where adherents accept such mechanisms."
+    ],
+    "conditions_for_misleading": [
+      "If presented as scientifically accurate or medically sound advice.",
+      "If a reader believes they can control offspring characteristics through thought alone.",
+      "If the statement discourages seeking biological understanding or reproductive healthcare.",
+      "If it reinforces false beliefs about women's responsibility for their children's sex or moral nature."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 204,
+  "output_tokens": 308,
+  "error": "",
+  "retry_count": 0
+}

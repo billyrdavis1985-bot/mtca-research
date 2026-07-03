@@ -1,0 +1,52 @@
+{
+  "call_id": "C7-u0008__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:26:34.975802+00:00",
+  "wall_clock_seconds": 8.570715188980103,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of a principle of restorative action. It articulates a commitment to ethically guided repair of past harm, explicitly including a critical boundary condition to prevent further injury. It serves as a self-reported past behavior or an ongoing guiding commitment.\",\n  \"implicit_claims\": [\n    \"The speaker acknowledges having caused harm to 'such people'.\",\n    \"The speaker believes they are capable of identifying 'such people'.\",\n    \"The speaker believes 'direct amends' is a meaningful and actionable concept.\",\n    \"The speaker believes they possess the capacity and means to make such amends.\",\n    \"Making direct amends is generally considered the desirable or default course of action.\",\n    \"The speaker believes they can accurately assess the 'possibility' of making amends.\",\n    \"The speaker believes they can accurately assess when making amends would 'injure them or others'.\",\n    \"The speaker prioritizes avoiding further injury over the act of making amends itself, in certain circumstances.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It sets out a primary action (making amends) and then clearly defines two limiting conditions: 'wherever possible' (practical feasibility) and 'except when to do so would injure them or others' (ethical imperative to avoid compounding harm). The conditions logically constrain the primary action without creating internal contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"A clear, shared understanding of what constitutes 'direct amends'.\",\n    \"A genuine willingness to identify and approach 'such people'.\",\n    \"Objective criteria or a robust process for assessing what is 'possible'.\",\n    \"Objective criteria, a consultative process, or deep empathy for assessing potential 'injury' to recipients or others.\",\n    \"A commitment to seeking feedback or accountability regarding the amends process and its impact.\",\n    \"The speaker's genuine desire for reconciliation and repair, not just fulfilling a requirement.\",\n    \"An environment where direct amends are actually feasible and potentially welcomed by recipients.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The definition of 'amends' is vague, minimal, or self-serving (e.g., a perfunctory apology without real effort).\",\n    \"The phrase 'wherever possible' is used as an excuse to avoid difficult or uncomfortable situations, rather than reflecting genuine impossibility.\",\n    \"The assessment of potential 'injury' is solely subjective and self-serving, primarily to protect the speaker from discomfort or accountability (e.g., 'my apology would upset them, so I won't').\",\n    \"The speaker lacks the empathy, self-awareness, or courage to accurately assess the impact of their actions or potential amends.\",\n    \"The statement is used as a performative gesture to appear remorseful without genuine intent to follow through.\",\n    \"The speaker makes little or no effort to identify 'such people' or to understand their perspective.\",\n    \"The speaker believes they are the sole arbiter of what constitutes 'injury' or 'possibility' without seeking external input or considering the recipient's perspective.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of a principle of restorative action. It articulates a commitment to ethically guided repair of past harm, explicitly including a critical boundary condition to prevent further injury. It serves as a self-reported past behavior or an ongoing guiding commitment.",
+    "implicit_claims": [
+      "The speaker acknowledges having caused harm to 'such people'.",
+      "The speaker believes they are capable of identifying 'such people'.",
+      "The speaker believes 'direct amends' is a meaningful and actionable concept.",
+      "The speaker believes they possess the capacity and means to make such amends.",
+      "Making direct amends is generally considered the desirable or default course of action.",
+      "The speaker believes they can accurately assess the 'possibility' of making amends.",
+      "The speaker believes they can accurately assess when making amends would 'injure them or others'.",
+      "The speaker prioritizes avoiding further injury over the act of making amends itself, in certain circumstances."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It sets out a primary action (making amends) and then clearly defines two limiting conditions: 'wherever possible' (practical feasibility) and 'except when to do so would injure them or others' (ethical imperative to avoid compounding harm). The conditions logically constrain the primary action without creating internal contradictions.",
+    "conditions_for_usefulness": [
+      "A clear, shared understanding of what constitutes 'direct amends'.",
+      "A genuine willingness to identify and approach 'such people'.",
+      "Objective criteria or a robust process for assessing what is 'possible'.",
+      "Objective criteria, a consultative process, or deep empathy for assessing potential 'injury' to recipients or others.",
+      "A commitment to seeking feedback or accountability regarding the amends process and its impact.",
+      "The speaker's genuine desire for reconciliation and repair, not just fulfilling a requirement.",
+      "An environment where direct amends are actually feasible and potentially welcomed by recipients."
+    ],
+    "conditions_for_misleading": [
+      "The definition of 'amends' is vague, minimal, or self-serving (e.g., a perfunctory apology without real effort).",
+      "The phrase 'wherever possible' is used as an excuse to avoid difficult or uncomfortable situations, rather than reflecting genuine impossibility.",
+      "The assessment of potential 'injury' is solely subjective and self-serving, primarily to protect the speaker from discomfort or accountability (e.g., 'my apology would upset them, so I won't').",
+      "The speaker lacks the empathy, self-awareness, or courage to accurately assess the impact of their actions or potential amends.",
+      "The statement is used as a performative gesture to appear remorseful without genuine intent to follow through.",
+      "The speaker makes little or no effort to identify 'such people' or to understand their perspective.",
+      "The speaker believes they are the sole arbiter of what constitutes 'injury' or 'possibility' without seeking external input or considering the recipient's perspective."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 670,
+  "error": "",
+  "retry_count": 0
+}

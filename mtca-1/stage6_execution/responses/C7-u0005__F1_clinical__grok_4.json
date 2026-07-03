@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0005__F1_clinical__grok_4",
+  "unit_id": "C7-u0005",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:14:23.253799+00:00",
+  "wall_clock_seconds": 8.391555786132812,
+  "raw_response": "{\n  \"communicative_function\": \"Declaration of willingness to surrender perceived personal flaws to external spiritual agency\",\n  \"implicit_claims\": [\n    \"Character defects exist and are identifiable\",\n    \"A deity or higher power possesses the capacity and willingness to remove them\",\n    \"Complete ('entire') readiness is both possible and therapeutically relevant\",\n    \"Removal by external agency is preferable or necessary over autonomous change efforts\"\n  ],\n  \"coherence_assessment\": \"Internally coherent only within a theistic or spiritually framed model that accepts external intervention in personality; otherwise presupposes unverified metaphysical agency and a passive stance toward self-change\",\n  \"conditions_for_usefulness\": \"User holds compatible spiritual beliefs, derives motivation from surrender language, and operates in a 12-step or spiritually integrated therapeutic context where such framing reduces resistance to change\",\n  \"conditions_for_misleading\": \"User lacks belief in God or external agency, defects are better addressed through skill-building or cognitive work, or the statement fosters passivity and externalization of responsibility\"\n}",
+  "parsed_json": {
+    "communicative_function": "Declaration of willingness to surrender perceived personal flaws to external spiritual agency",
+    "implicit_claims": [
+      "Character defects exist and are identifiable",
+      "A deity or higher power possesses the capacity and willingness to remove them",
+      "Complete ('entire') readiness is both possible and therapeutically relevant",
+      "Removal by external agency is preferable or necessary over autonomous change efforts"
+    ],
+    "coherence_assessment": "Internally coherent only within a theistic or spiritually framed model that accepts external intervention in personality; otherwise presupposes unverified metaphysical agency and a passive stance toward self-change",
+    "conditions_for_usefulness": "User holds compatible spiritual beliefs, derives motivation from surrender language, and operates in a 12-step or spiritually integrated therapeutic context where such framing reduces resistance to change",
+    "conditions_for_misleading": "User lacks belief in God or external agency, defects are better addressed through skill-building or cognitive work, or the statement fosters passivity and externalization of responsibility"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 209,
+  "error": "",
+  "retry_count": 0
+}

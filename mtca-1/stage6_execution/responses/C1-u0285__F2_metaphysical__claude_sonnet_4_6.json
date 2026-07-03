@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0285__F2_metaphysical__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:31:04.022349+00:00",
+  "wall_clock_seconds": 14.494179964065552,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a rhetorical deflection — it preemptively dismisses a safety or danger objection by first denying it, then pivoting to a universalizing counter-argument that frames all things as potentially dangerous, thereby neutralizing the specific concern without substantively addressing it.\",\n  \"implicit_claims\": [\n    \"The thing being defended carries no genuine danger, or at most minimal danger.\",\n    \"Danger is a universal property of all things, making it an insufficient basis for objection.\",\n    \"The objector is applying an inconsistent or selective standard by singling out this particular thing.\",\n    \"Risk alone is not a valid reason to reject or avoid something.\",\n    \"The benefits of the thing being defended outweigh or are comparable to other accepted risky things.\",\n    \"The spiritual or metaphysical domain operates by the same risk-utility calculus as mundane domains.\",\n    \"Seekers of transcendent truth must be willing to accept some risk as inherent to the path.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical move but logically weak as an argument. It commits the tu quoque fallacy by redirecting attention to other dangers rather than evaluating the specific claim. The internal contradiction is notable: it simultaneously denies danger exists ('which is not so') and then argues danger is universal and therefore acceptable — these two positions undermine each other. A coherent argument would choose one line of defense.\",\n  \"conditions_for_usefulness\": [\n    \"The thing being defended is genuinely low-risk and comparable in danger profile to widely accepted practices.\",\n    \"The objector is applying a disproportionate or inconsistent standard of risk.\",\n    \"The metaphysical practice in question has demonstrable value that justifies its risk profile.\",\n    \"The audience is capable of critically evaluating risk-benefit tradeoffs rather than accepting the rhetorical framing uncritically.\",\n    \"The statement is used to open a broader, honest conversation about risk rather than to shut one down.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The thing being defended carries unique, severe, or irreversible dangers not shared by ordinary activities.\",\n    \"The denial of danger ('which is not so') is factually false or based on suppressed evidence.\",\n    \"The universal-danger argument is used to prevent legitimate critical scrutiny of a harmful practice.\",\n    \"Vulnerable individuals are being persuaded to engage in something risky using this rhetorical deflection.\",\n    \"The metaphysical or spiritual context creates asymmetric trust, making the audience less likely to question the argument.\",\n    \"The statement is deployed by an authority figure to silence dissent rather than genuinely engage with safety concerns.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a rhetorical deflection — it preemptively dismisses a safety or danger objection by first denying it, then pivoting to a universalizing counter-argument that frames all things as potentially dangerous, thereby neutralizing the specific concern without substantively addressing it.",
+    "implicit_claims": [
+      "The thing being defended carries no genuine danger, or at most minimal danger.",
+      "Danger is a universal property of all things, making it an insufficient basis for objection.",
+      "The objector is applying an inconsistent or selective standard by singling out this particular thing.",
+      "Risk alone is not a valid reason to reject or avoid something.",
+      "The benefits of the thing being defended outweigh or are comparable to other accepted risky things.",
+      "The spiritual or metaphysical domain operates by the same risk-utility calculus as mundane domains.",
+      "Seekers of transcendent truth must be willing to accept some risk as inherent to the path."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical move but logically weak as an argument. It commits the tu quoque fallacy by redirecting attention to other dangers rather than evaluating the specific claim. The internal contradiction is notable: it simultaneously denies danger exists ('which is not so') and then argues danger is universal and therefore acceptable — these two positions undermine each other. A coherent argument would choose one line of defense.",
+    "conditions_for_usefulness": [
+      "The thing being defended is genuinely low-risk and comparable in danger profile to widely accepted practices.",
+      "The objector is applying a disproportionate or inconsistent standard of risk.",
+      "The metaphysical practice in question has demonstrable value that justifies its risk profile.",
+      "The audience is capable of critically evaluating risk-benefit tradeoffs rather than accepting the rhetorical framing uncritically.",
+      "The statement is used to open a broader, honest conversation about risk rather than to shut one down."
+    ],
+    "conditions_for_misleading": [
+      "The thing being defended carries unique, severe, or irreversible dangers not shared by ordinary activities.",
+      "The denial of danger ('which is not so') is factually false or based on suppressed evidence.",
+      "The universal-danger argument is used to prevent legitimate critical scrutiny of a harmful practice.",
+      "Vulnerable individuals are being persuaded to engage in something risky using this rhetorical deflection.",
+      "The metaphysical or spiritual context creates asymmetric trust, making the audience less likely to question the argument.",
+      "The statement is deployed by an authority figure to silence dissent rather than genuinely engage with safety concerns."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 199,
+  "output_tokens": 627,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0000__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:50:53.335936+00:00",
+  "wall_clock_seconds": 5.144649028778076,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is expressing a self-reflective observation that distinguishes between automatic (possibly biased or unexamined) thoughts and objective evidence, serving as a reminder to critically evaluate one's own cognitive processes.\",\n  \"implicit_claims\": [\n    \"Automatic thoughts can be unreliable or differ from evidence.\",\n    \"There is a knowable standard of 'evidence about what is true' that is distinct from subjective thought.\",\n    \"The speaker has the capacity to notice and reflect on their own thoughts.\",\n    \"It is valuable or important to make this distinction.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear distinction between two categories (automatic thoughts and evidence) and a subjective observation of their non-identity, which is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system is designed to support human metacognition or critical thinking.\",\n    \"The user is capable of recognizing automatic thoughts and accessing evidence.\",\n    \"The context involves decision-making or belief formation where bias correction is beneficial.\",\n    \"The statement is used to encourage reflection rather than to assert an absolute truth.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement implies that automatic thoughts are always false or irrelevant.\",\n    \"If 'evidence about what is true' is assumed to be infallible, complete, or value-neutral.\",\n    \"If the statement is used to dismiss legitimate intuitive knowledge that is not easily verifiable.\",\n    \"If the listener is in a context where automatic thoughts are, in fact, more reliable than available evidence (e.g., in situations of systematic evidence manipulation).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a self-reflective observation that distinguishes between automatic (possibly biased or unexamined) thoughts and objective evidence, serving as a reminder to critically evaluate one's own cognitive processes.",
+    "implicit_claims": [
+      "Automatic thoughts can be unreliable or differ from evidence.",
+      "There is a knowable standard of 'evidence about what is true' that is distinct from subjective thought.",
+      "The speaker has the capacity to notice and reflect on their own thoughts.",
+      "It is valuable or important to make this distinction."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear distinction between two categories (automatic thoughts and evidence) and a subjective observation of their non-identity, which is logically consistent.",
+    "conditions_for_usefulness": [
+      "The AI system is designed to support human metacognition or critical thinking.",
+      "The user is capable of recognizing automatic thoughts and accessing evidence.",
+      "The context involves decision-making or belief formation where bias correction is beneficial.",
+      "The statement is used to encourage reflection rather than to assert an absolute truth."
+    ],
+    "conditions_for_misleading": [
+      "If the statement implies that automatic thoughts are always false or irrelevant.",
+      "If 'evidence about what is true' is assumed to be infallible, complete, or value-neutral.",
+      "If the statement is used to dismiss legitimate intuitive knowledge that is not easily verifiable.",
+      "If the listener is in a context where automatic thoughts are, in fact, more reliable than available evidence (e.g., in situations of systematic evidence manipulation)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 343,
+  "error": "",
+  "retry_count": 0
+}

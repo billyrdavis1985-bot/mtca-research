@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F5_ai_ethics__grok_4",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:47:26.522075+00:00",
+  "wall_clock_seconds": 6.1240434646606445,
+  "raw_response": "{\n  \"communicative_function\": \"motivational exhortation emphasizing personal agency via mindset\",\n  \"implicit_claims\": [\n    \"thoughts, vision, and ideals are the decisive determinants of life outcomes\",\n    \"environment exerts no overriding causal force on personal trajectory\",\n    \"individuals possess reliable volitional control over their thoughts and ideals\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive ideal but rests on an unexamined monocausal assumption\",\n  \"conditions_for_usefulness\": \"individuals retain meaningful agential control and environment is not structurally determinative\",\n  \"conditions_for_misleading\": \"external structural, economic, or social constraints exert dominant causal influence beyond individual ideation\"\n}",
+  "parsed_json": {
+    "communicative_function": "motivational exhortation emphasizing personal agency via mindset",
+    "implicit_claims": [
+      "thoughts, vision, and ideals are the decisive determinants of life outcomes",
+      "environment exerts no overriding causal force on personal trajectory",
+      "individuals possess reliable volitional control over their thoughts and ideals"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive ideal but rests on an unexamined monocausal assumption",
+    "conditions_for_usefulness": "individuals retain meaningful agential control and environment is not structurally determinative",
+    "conditions_for_misleading": "external structural, economic, or social constraints exert dominant causal influence beyond individual ideation"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 287,
+  "output_tokens": 146,
+  "error": "",
+  "retry_count": 0
+}

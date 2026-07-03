@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0001__F3_behavioral__grok_4",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:59:03.379337+00:00",
+  "wall_clock_seconds": 7.215147495269775,
+  "raw_response": "{\n  \"communicative_function\": \"exhortation to immediate introspective action and acceptance of finitude as a binding personal commitment\",\n  \"implicit_claims\": [\n    \"a governing intelligence exists from which the self originates\",\n    \"human life has a fixed, non-renewable temporal limit\",\n    \"failure to achieve inner calm within that limit results in irreversible loss\",\n    \"understanding cosmic nature is both possible and prerequisite for self-regulation\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a Stoic teleological framework; premises and conclusion follow once the existence of a divine source and the value of tranquility are granted\",\n  \"conditions_for_usefulness\": \"the recipient accepts or is open to a pantheistic or theistic metaphysics and treats mortality as a practical constraint on self-improvement\",\n  \"conditions_for_misleading\": \"the recipient holds a naturalistic worldview without a personal governor, or treats the statement as empirical prediction rather than value-laden exhortation\"\n}",
+  "parsed_json": {
+    "communicative_function": "exhortation to immediate introspective action and acceptance of finitude as a binding personal commitment",
+    "implicit_claims": [
+      "a governing intelligence exists from which the self originates",
+      "human life has a fixed, non-renewable temporal limit",
+      "failure to achieve inner calm within that limit results in irreversible loss",
+      "understanding cosmic nature is both possible and prerequisite for self-regulation"
+    ],
+    "coherence_assessment": "internally consistent within a Stoic teleological framework; premises and conclusion follow once the existence of a divine source and the value of tranquility are granted",
+    "conditions_for_usefulness": "the recipient accepts or is open to a pantheistic or theistic metaphysics and treats mortality as a practical constraint on self-improvement",
+    "conditions_for_misleading": "the recipient holds a naturalistic worldview without a personal governor, or treats the statement as empirical prediction rather than value-laden exhortation"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 356,
+  "output_tokens": 200,
+  "error": "",
+  "retry_count": 0
+}

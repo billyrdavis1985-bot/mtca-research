@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0005__F4_poetic__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:06:13.192199+00:00",
+  "wall_clock_seconds": 5.248673915863037,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is an exhortation or imperative urging the soul to engage in self-criticism or self-neglect, framed as a paradoxical directive that implies a limited window for such behavior before an inevitable end.\",\n  \"implicit_claims\": [\n    \"The soul has agency and can choose to abuse or contemn itself.\",\n    \"There is a finite period during which self-respect is still possible or relevant.\",\n    \"The present moment is a time for self-abasement rather than self-respect.\",\n    \"A future threshold exists after which self-respect becomes impossible.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a paradoxical or ironic exhortation: it urges self-contempt while implying that self-respect should ultimately be valued, creating a tension that is consistent with certain spiritual or existential rhetorics.\",\n  \"conditions_for_usefulness\": [\n    \"The audience believes in a transient, flawed self that can be transformed through humility or self-critique.\",\n    \"There is a shared understanding that a limited time remains for moral or spiritual correction.\",\n    \"The statement is intended to provoke reflection or change in a context where self-neglect is a step toward eventual self-respect.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The audience might take the literal command to abuse oneself as endorsing self-harm or permanent self-deprecation.\",\n    \"If the temporal limit is interpreted as absolute (e.g., death as final), it could undermine the possibility of redemption or growth.\",\n    \"The statement could be misleading if used to justify ongoing self-neglect without the implied eventual turn to self-respect.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is an exhortation or imperative urging the soul to engage in self-criticism or self-neglect, framed as a paradoxical directive that implies a limited window for such behavior before an inevitable end.",
+    "implicit_claims": [
+      "The soul has agency and can choose to abuse or contemn itself.",
+      "There is a finite period during which self-respect is still possible or relevant.",
+      "The present moment is a time for self-abasement rather than self-respect.",
+      "A future threshold exists after which self-respect becomes impossible."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a paradoxical or ironic exhortation: it urges self-contempt while implying that self-respect should ultimately be valued, creating a tension that is consistent with certain spiritual or existential rhetorics.",
+    "conditions_for_usefulness": [
+      "The audience believes in a transient, flawed self that can be transformed through humility or self-critique.",
+      "There is a shared understanding that a limited time remains for moral or spiritual correction.",
+      "The statement is intended to provoke reflection or change in a context where self-neglect is a step toward eventual self-respect."
+    ],
+    "conditions_for_misleading": [
+      "The audience might take the literal command to abuse oneself as endorsing self-harm or permanent self-deprecation.",
+      "If the temporal limit is interpreted as absolute (e.g., death as final), it could undermine the possibility of redemption or growth.",
+      "The statement could be misleading if used to justify ongoing self-neglect without the implied eventual turn to self-respect."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 346,
+  "error": "",
+  "retry_count": 0
+}

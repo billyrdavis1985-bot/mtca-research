@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0174__F1_clinical__grok_4",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:27:50.563861+00:00",
+  "wall_clock_seconds": 3.1441235542297363,
+  "raw_response": "{\n  \"communicative_function\": \"asserts radical personal agency and responsibility for change\",\n  \"implicit_claims\": [\n    \"only the individual possesses the capacity to alter their own condition\",\n    \"external agents or circumstances cannot produce alteration\",\n    \"the self is the sole sufficient cause of change\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a strict monadic claim but presupposes an isolated self whose boundaries are unaffected by relational or structural factors\",\n  \"conditions_for_usefulness\": \"the individual must retain meaningful volitional control over relevant variables and the statement must function to increase perceived self-efficacy without denying necessary external supports\",\n  \"conditions_for_misleading\": \"the condition is substantially maintained by factors outside individual control (e.g., trauma, systemic oppression, neurobiological constraints) or when the statement is used to dismiss legitimate need for external intervention\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts radical personal agency and responsibility for change",
+    "implicit_claims": [
+      "only the individual possesses the capacity to alter their own condition",
+      "external agents or circumstances cannot produce alteration",
+      "the self is the sole sufficient cause of change"
+    ],
+    "coherence_assessment": "internally consistent as a strict monadic claim but presupposes an isolated self whose boundaries are unaffected by relational or structural factors",
+    "conditions_for_usefulness": "the individual must retain meaningful volitional control over relevant variables and the statement must function to increase perceived self-efficacy without denying necessary external supports",
+    "conditions_for_misleading": "the condition is substantially maintained by factors outside individual control (e.g., trauma, systemic oppression, neurobiological constraints) or when the statement is used to dismiss legitimate need for external intervention"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 267,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "C3-u0038__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:42:43.582955+00:00",
+  "wall_clock_seconds": 13.783719301223755,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a conceptual or definitional claim about the nature of 'parting with' something, restricting the proper use of that phrase to present possessions or states, and implicitly excluding past and future things from the domain of genuine loss or sacrifice.\",\n  \"implicit_claims\": [\n    \"There is a 'proper' or correct way to use the concept of parting with something.\",\n    \"Ownership or possession is meaningfully tied to the present moment.\",\n    \"One cannot truly possess what is past or future, and therefore cannot relinquish it.\",\n    \"The past is no longer under one's control or ownership.\",\n    \"The future is not yet under one's control or ownership.\",\n    \"Language about loss or sacrifice should be applied with precision.\",\n    \"There is a meaningful distinction between present, past, and future in terms of agency and possession.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. It applies a consistent logic: if parting with something requires current possession, and neither the past nor the future are currently possessed, then one cannot properly part with them. The reasoning is tight, though it relies on an unstated premise about what 'possession' or 'parting with' requires.\",\n  \"conditions_for_usefulness\": [\n    \"The context involves a discussion about sacrifice, loss, or the nature of giving up something.\",\n    \"There is ambiguity or confusion about whether someone can be said to lose or sacrifice things they no longer have or do not yet have.\",\n    \"The audience accepts that linguistic precision about possession and time is relevant to the argument being made.\",\n    \"The statement is part of a broader argument about the value or weight of present versus past or future goods.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'parting with' can reasonably be extended to include opportunities, possibilities, or memories that are foregone or abandoned.\",\n    \"If the argument is used to minimize the significance of past losses or future sacrifices by denying they count as 'real' parting.\",\n    \"If the definition of 'proper' parting is being stipulated rather than genuinely established, making the claim circular.\",\n    \"If the statement is used to dismiss someone's grief over past losses by claiming they cannot truly 'part with' what is already gone.\",\n    \"If temporal possession is more complex than the statement assumes, such as in cases of anticipated rights, contracts, or memory-based identity.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a conceptual or definitional claim about the nature of 'parting with' something, restricting the proper use of that phrase to present possessions or states, and implicitly excluding past and future things from the domain of genuine loss or sacrifice.",
+    "implicit_claims": [
+      "There is a 'proper' or correct way to use the concept of parting with something.",
+      "Ownership or possession is meaningfully tied to the present moment.",
+      "One cannot truly possess what is past or future, and therefore cannot relinquish it.",
+      "The past is no longer under one's control or ownership.",
+      "The future is not yet under one's control or ownership.",
+      "Language about loss or sacrifice should be applied with precision.",
+      "There is a meaningful distinction between present, past, and future in terms of agency and possession."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. It applies a consistent logic: if parting with something requires current possession, and neither the past nor the future are currently possessed, then one cannot properly part with them. The reasoning is tight, though it relies on an unstated premise about what 'possession' or 'parting with' requires.",
+    "conditions_for_usefulness": [
+      "The context involves a discussion about sacrifice, loss, or the nature of giving up something.",
+      "There is ambiguity or confusion about whether someone can be said to lose or sacrifice things they no longer have or do not yet have.",
+      "The audience accepts that linguistic precision about possession and time is relevant to the argument being made.",
+      "The statement is part of a broader argument about the value or weight of present versus past or future goods."
+    ],
+    "conditions_for_misleading": [
+      "If 'parting with' can reasonably be extended to include opportunities, possibilities, or memories that are foregone or abandoned.",
+      "If the argument is used to minimize the significance of past losses or future sacrifices by denying they count as 'real' parting.",
+      "If the definition of 'proper' parting is being stipulated rather than genuinely established, making the claim circular.",
+      "If the statement is used to dismiss someone's grief over past losses by claiming they cannot truly 'part with' what is already gone.",
+      "If temporal possession is more complex than the statement assumes, such as in cases of anticipated rights, contracts, or memory-based identity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 571,
+  "error": "",
+  "retry_count": 0
+}

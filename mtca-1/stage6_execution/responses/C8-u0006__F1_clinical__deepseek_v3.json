@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0006__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:20:57.407096+00:00",
+  "wall_clock_seconds": 5.853259563446045,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-directed commitment or affirmation, expressing a willingness to engage in exposure-based or behavioral activation strategies that align with evidence-based therapeutic goals.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to identify what scares them.\",\n    \"The speaker can evaluate evidence regarding the helpfulness of feared actions.\",\n    \"Fear alone is not a sufficient reason to avoid an action.\",\n    \"Evidence-based helpfulness is a valid and trustworthy guide for behavior.\",\n    \"The speaker possesses agency to choose to engage in feared actions despite discomfort.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it pairs a condition ('when evidence suggests helpfulness') with a willingness to act despite fear, which is logically consistent with therapeutic models of exposure and cognitive-behavioral therapy.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a clear understanding of what constitutes valid evidence of helpfulness.\",\n    \"The speaker has access to professional guidance or self-help resources to assess evidence.\",\n    \"The speaker's fears are realistically tied to actionable behaviors rather than being delusional or irrational.\",\n    \"The speaker is not in immediate danger or facing a threat that would contraindicate exposure.\",\n    \"The speaker is ready and motivated to engage in gradual, supported behavioral change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker overestimates the reliability of available 'evidence' (e.g., simplistic self-help claims).\",\n    \"The speaker uses the statement to pressure themselves into unsafe or overwhelming situations beyond their current capacity.\",\n    \"The speaker ignores contraindications (e.g., trauma-related risks, lack of therapeutic support).\",\n    \"The speaker substitutes blind action for proper risk assessment, mistaking all fear as irrational.\",\n    \"The statement is used to dismiss legitimate fear signals that serve protective functions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directed commitment or affirmation, expressing a willingness to engage in exposure-based or behavioral activation strategies that align with evidence-based therapeutic goals.",
+    "implicit_claims": [
+      "The speaker has the capacity to identify what scares them.",
+      "The speaker can evaluate evidence regarding the helpfulness of feared actions.",
+      "Fear alone is not a sufficient reason to avoid an action.",
+      "Evidence-based helpfulness is a valid and trustworthy guide for behavior.",
+      "The speaker possesses agency to choose to engage in feared actions despite discomfort."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it pairs a condition ('when evidence suggests helpfulness') with a willingness to act despite fear, which is logically consistent with therapeutic models of exposure and cognitive-behavioral therapy.",
+    "conditions_for_usefulness": [
+      "The speaker has a clear understanding of what constitutes valid evidence of helpfulness.",
+      "The speaker has access to professional guidance or self-help resources to assess evidence.",
+      "The speaker's fears are realistically tied to actionable behaviors rather than being delusional or irrational.",
+      "The speaker is not in immediate danger or facing a threat that would contraindicate exposure.",
+      "The speaker is ready and motivated to engage in gradual, supported behavioral change."
+    ],
+    "conditions_for_misleading": [
+      "The speaker overestimates the reliability of available 'evidence' (e.g., simplistic self-help claims).",
+      "The speaker uses the statement to pressure themselves into unsafe or overwhelming situations beyond their current capacity.",
+      "The speaker ignores contraindications (e.g., trauma-related risks, lack of therapeutic support).",
+      "The speaker substitutes blind action for proper risk assessment, mistaking all fear as irrational.",
+      "The statement is used to dismiss legitimate fear signals that serve protective functions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 386,
+  "error": "",
+  "retry_count": 0
+}

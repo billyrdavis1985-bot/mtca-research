@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:02:15.423243+00:00",
+  "wall_clock_seconds": 6.087148904800415,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement predicts an outcome based on a condition related to efforts in sleeping.\",\n  \"implicit_claims\": [\n    \"Lying quietly in bed does not require effort.\",\n    \"Efforts to sleep could alter the outcome of lying quietly.\",\n    \"The person will not engage in any other activity if no effort is made to sleep.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it establishes a clear conditional relationship between the lack of effort and the resulting state of lying quietly.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if there is a situation where understanding the outcome of not making efforts to sleep is relevant, such as in discussions about sleep behavior or in planning rest without sleep.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the person engages in activities other than lying quietly when they do not make an effort to sleep, or if there are other factors influencing the person's behavior that are not accounted for in the statement.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement predicts an outcome based on a condition related to efforts in sleeping.",
+    "implicit_claims": [
+      "Lying quietly in bed does not require effort.",
+      "Efforts to sleep could alter the outcome of lying quietly.",
+      "The person will not engage in any other activity if no effort is made to sleep."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it establishes a clear conditional relationship between the lack of effort and the resulting state of lying quietly.",
+    "conditions_for_usefulness": "The statement would be useful if there is a situation where understanding the outcome of not making efforts to sleep is relevant, such as in discussions about sleep behavior or in planning rest without sleep.",
+    "conditions_for_misleading": "The statement could be misleading if the person engages in activities other than lying quietly when they do not make an effort to sleep, or if there are other factors influencing the person's behavior that are not accounted for in the statement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 138,
+  "output_tokens": 214,
+  "error": "",
+  "retry_count": 0
+}

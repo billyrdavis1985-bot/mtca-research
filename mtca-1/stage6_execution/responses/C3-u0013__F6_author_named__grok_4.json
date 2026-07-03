@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F6_author_named__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:19:25.858779+00:00",
+  "wall_clock_seconds": 5.720821380615234,
+  "raw_response": "{\n  \"communicative_function\": \"Endorsing and transmitting a hierarchical moral judgment on types of wrongdoing by citing Theophrastus as philosophical authority\",\n  \"implicit_claims\": [\n    \"Sins (or moral faults) admit of comparative degrees of gravity\",\n    \"The distinction between lust-driven and anger-driven faults is philosophically valid rather than merely conventional\",\n    \"Lust-driven faults are morally worse than anger-driven faults\",\n    \"Theophrastus' judgment on this point is sound and worthy of a philosopher\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the parenthetical concession acknowledges the vulgarity of ranking sins yet preserves the legitimacy of the specific ranking offered\",\n  \"conditions_for_usefulness\": \"The audience accepts a eudaimonistic or Stoic-Peripatetic framework in which emotions can be ranked by moral fault, and the claim is used for ethical self-examination rather than legal or social punishment\",\n  \"conditions_for_misleading\": \"The statement is treated as a universal or divinely sanctioned ranking independent of ancient ethical presuppositions, or is applied to justify differential punishment without further argument\"\n}",
+  "parsed_json": {
+    "communicative_function": "Endorsing and transmitting a hierarchical moral judgment on types of wrongdoing by citing Theophrastus as philosophical authority",
+    "implicit_claims": [
+      "Sins (or moral faults) admit of comparative degrees of gravity",
+      "The distinction between lust-driven and anger-driven faults is philosophically valid rather than merely conventional",
+      "Lust-driven faults are morally worse than anger-driven faults",
+      "Theophrastus' judgment on this point is sound and worthy of a philosopher"
+    ],
+    "coherence_assessment": "Internally coherent: the parenthetical concession acknowledges the vulgarity of ranking sins yet preserves the legitimacy of the specific ranking offered",
+    "conditions_for_usefulness": "The audience accepts a eudaimonistic or Stoic-Peripatetic framework in which emotions can be ranked by moral fault, and the claim is used for ethical self-examination rather than legal or social punishment",
+    "conditions_for_misleading": "The statement is treated as a universal or divinely sanctioned ranking independent of ancient ethical presuppositions, or is applied to justify differential punishment without further argument"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 314,
+  "output_tokens": 232,
+  "error": "",
+  "retry_count": 0
+}

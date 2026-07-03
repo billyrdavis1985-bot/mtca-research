@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F0_neutral__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:13:23.051677+00:00",
+  "wall_clock_seconds": 5.7307658195495605,
+  "raw_response": "{\n  \"communicative_function\": \"suggestive prescription of a desired behavioral pattern via positive autosuggestion\",\n  \"implicit_claims\": [\n    \"hunger occurs reliably three times daily at conventional meal times\",\n    \"hunger is inherently an agreeable/pleasant sensation\",\n    \"enjoyment of food and absence of overeating will follow automatically from this hunger experience\",\n    \"the speaker's statement can causally produce these outcomes\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive script, though it equates hunger with pleasure and assumes uniform appetite regulation without addressing variability\",\n  \"conditions_for_usefulness\": \"recipient is receptive to autosuggestion, seeks normalized appetite cues, has no underlying metabolic or psychological conditions affecting hunger, and applies the statement within a supportive therapeutic or self-help framework\",\n  \"conditions_for_misleading\": \"presented as an empirical prediction or guaranteed outcome rather than suggestion, or applied to individuals with disordered eating, medical appetite dysregulation, or cultural/physiological differences in meal timing\"\n}",
+  "parsed_json": {
+    "communicative_function": "suggestive prescription of a desired behavioral pattern via positive autosuggestion",
+    "implicit_claims": [
+      "hunger occurs reliably three times daily at conventional meal times",
+      "hunger is inherently an agreeable/pleasant sensation",
+      "enjoyment of food and absence of overeating will follow automatically from this hunger experience",
+      "the speaker's statement can causally produce these outcomes"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive script, though it equates hunger with pleasure and assumes uniform appetite regulation without addressing variability",
+    "conditions_for_usefulness": "recipient is receptive to autosuggestion, seeks normalized appetite cues, has no underlying metabolic or psychological conditions affecting hunger, and applies the statement within a supportive therapeutic or self-help framework",
+    "conditions_for_misleading": "presented as an empirical prediction or guaranteed outcome rather than suggestion, or applied to individuals with disordered eating, medical appetite dysregulation, or cultural/physiological differences in meal timing"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 326,
+  "output_tokens": 207,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0038__F6_author_named__grok_4",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:42:24.406251+00:00",
+  "wall_clock_seconds": 5.96744441986084,
+  "raw_response": "{\n  \"communicative_function\": \"Arguing that one cannot properly be said to lose or relinquish the past or future, as part of a Stoic exhortation to attend only to the present\",\n  \"implicit_claims\": [\n    \"Only the present moment is properly accessible or 'possessed' by a person\",\n    \"The concepts of 'loss' or 'parting' apply exclusively to what is currently present\",\n    \"Anxiety about past or future events rests on a conceptual error about time and possession\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a strict present-focused ontology of time, though it relies on a narrow definition of 'part with' that may conflict with ordinary usage\",\n  \"conditions_for_usefulness\": \"The audience is distressed by memories or anticipations and benefits from reframing attention exclusively to present actions and judgments\",\n  \"conditions_for_misleading\": \"The statement is taken to discourage all practical consideration of past lessons or future consequences, or is applied in contexts where planning and memory are instrumentally required\"\n}",
+  "parsed_json": {
+    "communicative_function": "Arguing that one cannot properly be said to lose or relinquish the past or future, as part of a Stoic exhortation to attend only to the present",
+    "implicit_claims": [
+      "Only the present moment is properly accessible or 'possessed' by a person",
+      "The concepts of 'loss' or 'parting' apply exclusively to what is currently present",
+      "Anxiety about past or future events rests on a conceptual error about time and possession"
+    ],
+    "coherence_assessment": "Internally coherent within a strict present-focused ontology of time, though it relies on a narrow definition of 'part with' that may conflict with ordinary usage",
+    "conditions_for_usefulness": "The audience is distressed by memories or anticipations and benefits from reframing attention exclusively to present actions and judgments",
+    "conditions_for_misleading": "The statement is taken to discourage all practical consideration of past lessons or future consequences, or is applied in contexts where planning and memory are instrumentally required"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 286,
+  "output_tokens": 217,
+  "error": "",
+  "retry_count": 0
+}

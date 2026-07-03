@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0563__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:45:34.518380+00:00",
+  "wall_clock_seconds": 6.476454973220825,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a prescriptive claim about maternal influence on fetal development, offering a method (sustained mental imagery) to determine a child's sex and desired physical and moral qualities, presented as a 'sober truth' or factual instruction.\",\n  \"implicit_claims\": [\n    \"A mother's conscious mental imagery can directly and reliably determine the biological sex of her unborn child.\",\n    \"A mother's conscious mental imagery can directly and reliably determine the physical characteristics of her unborn child.\",\n    \"A mother's conscious mental imagery can directly and reliably determine the moral qualities of her unborn child.\",\n    \"There exists a direct, unfailing mechanism by which maternal thought translates into specific biological and moral outcomes in the fetus.\",\n    \"The mother has ultimate conscious control over these specific aspects of fetal development through her thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple cause-and-effect proposition, linking a specific maternal mental practice to precise and desired fetal outcomes. It follows an 'if-then' structure. However, its foundational premise regarding the mechanism by which mental imagery influences biological sex and complex moral traits is entirely unsupported by scientific understanding.\",\n  \"conditions_for_usefulness\": [\n    \"The asserted causal link between maternal mental imagery and fetal sex/qualities would have to be scientifically proven and consistently reliable.\",\n    \"Mothers would need to be capable of forming and sustaining such specific and vivid mental images without detrimental psychological effects.\",\n    \"The desired physical and moral qualities would need to be objectively definable and reliably measurable in the child.\",\n    \"It would offer a simple, non-invasive, and effective method for influencing specific aspects of fetal development.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The asserted causal link between maternal mental imagery and fetal sex/qualities is false (which it is, according to current scientific and biological understanding).\",\n    \"Mothers who believe and attempt to follow this advice experience false hope, guilt, or self-blame if the child does not exhibit the desired traits.\",\n    \"It misrepresents the complexities of genetics, epigenetics, and developmental biology, giving a false sense of control over biological processes.\",\n    \"It could divert attention from evidence-based prenatal care and healthy lifestyle choices during pregnancy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a prescriptive claim about maternal influence on fetal development, offering a method (sustained mental imagery) to determine a child's sex and desired physical and moral qualities, presented as a 'sober truth' or factual instruction.",
+    "implicit_claims": [
+      "A mother's conscious mental imagery can directly and reliably determine the biological sex of her unborn child.",
+      "A mother's conscious mental imagery can directly and reliably determine the physical characteristics of her unborn child.",
+      "A mother's conscious mental imagery can directly and reliably determine the moral qualities of her unborn child.",
+      "There exists a direct, unfailing mechanism by which maternal thought translates into specific biological and moral outcomes in the fetus.",
+      "The mother has ultimate conscious control over these specific aspects of fetal development through her thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple cause-and-effect proposition, linking a specific maternal mental practice to precise and desired fetal outcomes. It follows an 'if-then' structure. However, its foundational premise regarding the mechanism by which mental imagery influences biological sex and complex moral traits is entirely unsupported by scientific understanding.",
+    "conditions_for_usefulness": [
+      "The asserted causal link between maternal mental imagery and fetal sex/qualities would have to be scientifically proven and consistently reliable.",
+      "Mothers would need to be capable of forming and sustaining such specific and vivid mental images without detrimental psychological effects.",
+      "The desired physical and moral qualities would need to be objectively definable and reliably measurable in the child.",
+      "It would offer a simple, non-invasive, and effective method for influencing specific aspects of fetal development."
+    ],
+    "conditions_for_misleading": [
+      "The asserted causal link between maternal mental imagery and fetal sex/qualities is false (which it is, according to current scientific and biological understanding).",
+      "Mothers who believe and attempt to follow this advice experience false hope, guilt, or self-blame if the child does not exhibit the desired traits.",
+      "It misrepresents the complexities of genetics, epigenetics, and developmental biology, giving a false sense of control over biological processes.",
+      "It could divert attention from evidence-based prenatal care and healthy lifestyle choices during pregnancy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 197,
+  "output_tokens": 506,
+  "error": "",
+  "retry_count": 0
+}

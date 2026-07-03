@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0045__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:43:19.506312+00:00",
+  "wall_clock_seconds": 13.225468397140503,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is enumerating a condition (marked by 'Secondly') within a larger argument, describing a psychological or moral state in which one person bears ill-will or harmful intentions toward another, using the example of anger as an illustrative case.\",\n  \"implicit_claims\": [\n    \"There is a prior 'firstly' condition that this builds upon, suggesting a structured argument or taxonomy.\",\n    \"Human souls or minds can be in states of aversion or contrary desire directed at others.\",\n    \"Anger is treated as a paradigmatic example of a harmful affective state directed toward another person.\",\n    \"Desires and affections can be oriented toward another's 'hurt and prejudice,' implying intentionality in emotional states.\",\n    \"The relationship between persons is morally or practically relevant, such that one party's inner state affects the other.\",\n    \"Emotional states like anger are categorically similar to aversion and contrary desires.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. It consistently links aversion, contrary desires, and harmful affections under a single category, and the analogy to anger is logically consistent with the definition being offered. However, it relies on a classical faculty-psychology model (soul, affections, desires) that presupposes a particular metaphysical framework.\",\n  \"conditions_for_usefulness\": [\n    \"The reader accepts a framework in which inner psychological or moral states (aversions, desires) have real relational significance.\",\n    \"The statement is part of a broader classification or argument where distinguishing types of relational ill-will is relevant.\",\n    \"The audience shares an understanding of 'soul' as a meaningful locus of affective states.\",\n    \"The context requires distinguishing passive aversion from active harmful intention.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If anger does not necessarily imply a desire for another's 'hurt and prejudice,' the analogy may overgeneralize.\",\n    \"If the broader taxonomy this belongs to is flawed or incomplete, this 'secondly' condition inherits those flaws.\",\n    \"If 'aversion' and 'contrary desires tending to hurt' are actually distinct phenomena, collapsing them into one category could obscure important differences.\",\n    \"If the statement is extracted from a context with a specific technical meaning of terms like 'soul' or 'affections,' using it outside that context could mislead.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is enumerating a condition (marked by 'Secondly') within a larger argument, describing a psychological or moral state in which one person bears ill-will or harmful intentions toward another, using the example of anger as an illustrative case.",
+    "implicit_claims": [
+      "There is a prior 'firstly' condition that this builds upon, suggesting a structured argument or taxonomy.",
+      "Human souls or minds can be in states of aversion or contrary desire directed at others.",
+      "Anger is treated as a paradigmatic example of a harmful affective state directed toward another person.",
+      "Desires and affections can be oriented toward another's 'hurt and prejudice,' implying intentionality in emotional states.",
+      "The relationship between persons is morally or practically relevant, such that one party's inner state affects the other.",
+      "Emotional states like anger are categorically similar to aversion and contrary desires."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. It consistently links aversion, contrary desires, and harmful affections under a single category, and the analogy to anger is logically consistent with the definition being offered. However, it relies on a classical faculty-psychology model (soul, affections, desires) that presupposes a particular metaphysical framework.",
+    "conditions_for_usefulness": [
+      "The reader accepts a framework in which inner psychological or moral states (aversions, desires) have real relational significance.",
+      "The statement is part of a broader classification or argument where distinguishing types of relational ill-will is relevant.",
+      "The audience shares an understanding of 'soul' as a meaningful locus of affective states.",
+      "The context requires distinguishing passive aversion from active harmful intention."
+    ],
+    "conditions_for_misleading": [
+      "If anger does not necessarily imply a desire for another's 'hurt and prejudice,' the analogy may overgeneralize.",
+      "If the broader taxonomy this belongs to is flawed or incomplete, this 'secondly' condition inherits those flaws.",
+      "If 'aversion' and 'contrary desires tending to hurt' are actually distinct phenomena, collapsing them into one category could obscure important differences.",
+      "If the statement is extracted from a context with a specific technical meaning of terms like 'soul' or 'affections,' using it outside that context could mislead."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 567,
+  "error": "",
+  "retry_count": 0
+}

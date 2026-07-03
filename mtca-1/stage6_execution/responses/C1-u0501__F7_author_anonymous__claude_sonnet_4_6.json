@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0501__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:44:46.212379+00:00",
+  "wall_clock_seconds": 13.583583354949951,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is recording a clinical or observational case note, introducing a child patient to the reader for the first time, establishing temporal context, and describing the child's current functional status and assistive device use.\",\n  \"implicit_claims\": [\n    \"The speaker occupies a professional or authoritative role (likely medical, therapeutic, or educational) that involves receiving children for assessment or treatment.\",\n    \"The child has a condition affecting their feet or gait that required corrective contrivances.\",\n    \"Without the contrivances, the child would not walk as well or walk straight.\",\n    \"The child has been seen or assessed before February 1915 by someone, or this is the initial presentation.\",\n    \"The phrase 'pretty well' implies the walking is adequate but not fully normal.\",\n    \"The child's condition is ongoing or chronic enough to warrant contrivances rather than a temporary fix.\",\n    \"The speaker is documenting a case for record-keeping, research, or instructional purposes.\",\n    \"The contrivances are externally applied devices (e.g., braces or splints), not surgical corrections.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The date, the description of the child's arrival, the functional outcome, and the causal attribution to the contrivances all align logically. There are no contradictions within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The reader understands the professional context in which 'brought to me' occurs (e.g., a clinic, school, or therapy setting).\",\n    \"The reader knows what type of 'contrivances' are being referred to, or further description follows.\",\n    \"The statement is part of a larger case record that provides the child's diagnosis, history, and progress.\",\n    \"The date (February 1915) is relevant to situating historical medical or therapeutic practices.\",\n    \"The intended audience shares the author's professional framework for evaluating gait and mobility.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'pretty well' is used to overstate the child's functional ability and mask significant ongoing impairment.\",\n    \"If the contrivances are temporary or cosmetic and do not actually address the underlying condition.\",\n    \"If the framing implies the child's prognosis is positive when the full case history indicates otherwise.\",\n    \"If the phrase 'brought to me for the first time' obscures that the child had previously received treatment elsewhere.\",\n    \"If the statement is presented as objective documentation but reflects the author's biased or incomplete assessment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is recording a clinical or observational case note, introducing a child patient to the reader for the first time, establishing temporal context, and describing the child's current functional status and assistive device use.",
+    "implicit_claims": [
+      "The speaker occupies a professional or authoritative role (likely medical, therapeutic, or educational) that involves receiving children for assessment or treatment.",
+      "The child has a condition affecting their feet or gait that required corrective contrivances.",
+      "Without the contrivances, the child would not walk as well or walk straight.",
+      "The child has been seen or assessed before February 1915 by someone, or this is the initial presentation.",
+      "The phrase 'pretty well' implies the walking is adequate but not fully normal.",
+      "The child's condition is ongoing or chronic enough to warrant contrivances rather than a temporary fix.",
+      "The speaker is documenting a case for record-keeping, research, or instructional purposes.",
+      "The contrivances are externally applied devices (e.g., braces or splints), not surgical corrections."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The date, the description of the child's arrival, the functional outcome, and the causal attribution to the contrivances all align logically. There are no contradictions within the statement itself.",
+    "conditions_for_usefulness": [
+      "The reader understands the professional context in which 'brought to me' occurs (e.g., a clinic, school, or therapy setting).",
+      "The reader knows what type of 'contrivances' are being referred to, or further description follows.",
+      "The statement is part of a larger case record that provides the child's diagnosis, history, and progress.",
+      "The date (February 1915) is relevant to situating historical medical or therapeutic practices.",
+      "The intended audience shares the author's professional framework for evaluating gait and mobility."
+    ],
+    "conditions_for_misleading": [
+      "If 'pretty well' is used to overstate the child's functional ability and mask significant ongoing impairment.",
+      "If the contrivances are temporary or cosmetic and do not actually address the underlying condition.",
+      "If the framing implies the child's prognosis is positive when the full case history indicates otherwise.",
+      "If the phrase 'brought to me for the first time' obscures that the child had previously received treatment elsewhere.",
+      "If the statement is presented as objective documentation but reflects the author's biased or incomplete assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 595,
+  "error": "",
+  "retry_count": 0
+}

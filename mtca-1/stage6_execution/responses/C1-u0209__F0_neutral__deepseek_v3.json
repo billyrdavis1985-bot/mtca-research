@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0209__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:19:08.529348+00:00",
+  "wall_clock_seconds": 3.6660048961639404,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is giving prescriptive advice or instruction on a methodology for delivering suggestions, likely in a therapeutic or hypnotic context.\",\n  \"implicit_claims\": [\n    \"Suggestions need to be renewed for effectiveness.\",\n    \"The frequency of renewal should decrease over time.\",\n    \"Progress can be observed and measured.\",\n    \"A point exists where suggestions are no longer necessary (a complete cure).\",\n    \"The method described is universally applicable to any subject.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it describes a clear, progressive schedule of suggestion renewal that fades out as improvement occurs, with a logical end point.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is responsive to suggestion-based interventions.\",\n    \"The practitioner can accurately gauge progress.\",\n    \"The underlying condition is amenable to suggestion and can reach a 'complete cure'.\",\n    \"Spacing out suggestions at longer intervals does not cause regression.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the condition is chronic or relapsing, the claim of a 'complete cure' may be false.\",\n    \"If the subject requires consistent reinforcement to maintain gains, fading suggestions prematurely could cause relapse.\",\n    \"If the practitioner misjudges progress, the spacing may be inappropriate.\",\n    \"If the suggestions themselves are ineffective or inappropriate for the specific subject or condition.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is giving prescriptive advice or instruction on a methodology for delivering suggestions, likely in a therapeutic or hypnotic context.",
+    "implicit_claims": [
+      "Suggestions need to be renewed for effectiveness.",
+      "The frequency of renewal should decrease over time.",
+      "Progress can be observed and measured.",
+      "A point exists where suggestions are no longer necessary (a complete cure).",
+      "The method described is universally applicable to any subject."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it describes a clear, progressive schedule of suggestion renewal that fades out as improvement occurs, with a logical end point.",
+    "conditions_for_usefulness": [
+      "The subject is responsive to suggestion-based interventions.",
+      "The practitioner can accurately gauge progress.",
+      "The underlying condition is amenable to suggestion and can reach a 'complete cure'.",
+      "Spacing out suggestions at longer intervals does not cause regression."
+    ],
+    "conditions_for_misleading": [
+      "If the condition is chronic or relapsing, the claim of a 'complete cure' may be false.",
+      "If the subject requires consistent reinforcement to maintain gains, fading suggestions prematurely could cause relapse.",
+      "If the practitioner misjudges progress, the spacing may be inappropriate.",
+      "If the suggestions themselves are ineffective or inappropriate for the specific subject or condition."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 291,
+  "error": "",
+  "retry_count": 0
+}

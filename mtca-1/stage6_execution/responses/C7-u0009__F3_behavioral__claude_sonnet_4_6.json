@@ -1,0 +1,48 @@
+{
+  "call_id": "C7-u0009__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:31:52.214470+00:00",
+  "wall_clock_seconds": 13.182557344436646,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a normative behavioral commitment expressing an ongoing practice of self-examination and accountability. It frames error-acknowledgment as a habitual discipline rather than a one-time act, implying continuity and humility as core values.\",\n  \"implicit_claims\": [\n    \"The speaker has a self capable of being 'wrong' in morally or behaviorally meaningful ways.\",\n    \"Wrongness is recognizable through personal inventory — i.e., introspection is reliable enough to detect error.\",\n    \"Prompt admission is possible and preferable to delayed or no admission.\",\n    \"There is an implicit audience or relationship to whom admission is owed or meaningful.\",\n    \"The practice is ongoing ('continued'), implying prior commitment and established pattern.\",\n    \"Self-assessment without external verification is sufficient for identifying wrongdoing.\",\n    \"Admitting wrongs constitutes a meaningful behavioral change or corrective action in itself.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a behavioral commitment. Its two components — taking inventory and admitting wrongs — are logically linked: inventory surfaces wrongness, admission responds to it. The temporal marker 'promptly' adds specificity. However, it stops short of committing to correction or changed behavior beyond admission, which creates a minor gap between acknowledgment and remediation.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely engages in honest self-reflection rather than performative review.\",\n    \"The standard for 'wrong' is consistent, meaningful, and not self-servingly narrow.\",\n    \"Admission is made to relevant parties in a timely and authentic manner.\",\n    \"The practice occurs within a relational or accountability structure that makes admission consequential.\",\n    \"The speaker has the psychological capacity and support to sustain ongoing self-examination without becoming self-punishing or avoidant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker selectively defines 'wrong' to exclude harms they are unwilling to acknowledge.\",\n    \"Admission is used as a substitute for behavioral change, creating an illusion of accountability.\",\n    \"The inventory process is cursory or biased toward self-justification.\",\n    \"Admission is made only in low-stakes contexts while high-stakes wrongs are avoided.\",\n    \"The statement is used to signal virtue publicly while private behavior remains unchanged.\",\n    \"The word 'promptly' masks chronic delay or only applies to minor infractions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a normative behavioral commitment expressing an ongoing practice of self-examination and accountability. It frames error-acknowledgment as a habitual discipline rather than a one-time act, implying continuity and humility as core values.",
+    "implicit_claims": [
+      "The speaker has a self capable of being 'wrong' in morally or behaviorally meaningful ways.",
+      "Wrongness is recognizable through personal inventory — i.e., introspection is reliable enough to detect error.",
+      "Prompt admission is possible and preferable to delayed or no admission.",
+      "There is an implicit audience or relationship to whom admission is owed or meaningful.",
+      "The practice is ongoing ('continued'), implying prior commitment and established pattern.",
+      "Self-assessment without external verification is sufficient for identifying wrongdoing.",
+      "Admitting wrongs constitutes a meaningful behavioral change or corrective action in itself."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a behavioral commitment. Its two components — taking inventory and admitting wrongs — are logically linked: inventory surfaces wrongness, admission responds to it. The temporal marker 'promptly' adds specificity. However, it stops short of committing to correction or changed behavior beyond admission, which creates a minor gap between acknowledgment and remediation.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely engages in honest self-reflection rather than performative review.",
+      "The standard for 'wrong' is consistent, meaningful, and not self-servingly narrow.",
+      "Admission is made to relevant parties in a timely and authentic manner.",
+      "The practice occurs within a relational or accountability structure that makes admission consequential.",
+      "The speaker has the psychological capacity and support to sustain ongoing self-examination without becoming self-punishing or avoidant."
+    ],
+    "conditions_for_misleading": [
+      "The speaker selectively defines 'wrong' to exclude harms they are unwilling to acknowledge.",
+      "Admission is used as a substitute for behavioral change, creating an illusion of accountability.",
+      "The inventory process is cursory or biased toward self-justification.",
+      "Admission is made only in low-stakes contexts while high-stakes wrongs are avoided.",
+      "The statement is used to signal virtue publicly while private behavior remains unchanged.",
+      "The word 'promptly' masks chronic delay or only applies to minor infractions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 571,
+  "error": "",
+  "retry_count": 0
+}

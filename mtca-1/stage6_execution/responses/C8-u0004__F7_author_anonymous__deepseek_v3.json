@@ -1,0 +1,39 @@
+{
+  "call_id": "C8-u0004__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:14:15.838133+00:00",
+  "wall_clock_seconds": 4.751178503036499,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is self-reporting a metacognitive practice aimed at cultivating psychological or philosophical awareness; it functions as a declaration of intent or introspection.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between thoughts that simply occur (arise involuntarily) and thoughts that one actively endorses or identifies with.\",\n    \"The speaker believes this distinction can be learned or practiced.\",\n    \"The speaker values or aims for greater cognitive agency or mental clarity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it clearly describes a recognized cognitive therapy or mindfulness concept (e.g., cognitive defusion) without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences unwanted or automatic thoughts that conflict with their values or goals.\",\n    \"The speaker has a framework (e.g., mindfulness, CBT) to operationalize the distinction.\",\n    \"The practice leads to reduced psychological distress or improved decision-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the distinction between occurring and endorsing is treated as absolute, ignoring that endorsement can be implicit or unconscious.\",\n    \"If the statement is used to dismiss or invalidate others' experiences of overwhelming or intrusive thoughts.\",\n    \"If the speaker mistakenly believes practicing this distinction alone resolves deeper psychological issues without additional support.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is self-reporting a metacognitive practice aimed at cultivating psychological or philosophical awareness; it functions as a declaration of intent or introspection.",
+    "implicit_claims": [
+      "There is a meaningful distinction between thoughts that simply occur (arise involuntarily) and thoughts that one actively endorses or identifies with.",
+      "The speaker believes this distinction can be learned or practiced.",
+      "The speaker values or aims for greater cognitive agency or mental clarity."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it clearly describes a recognized cognitive therapy or mindfulness concept (e.g., cognitive defusion) without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences unwanted or automatic thoughts that conflict with their values or goals.",
+      "The speaker has a framework (e.g., mindfulness, CBT) to operationalize the distinction.",
+      "The practice leads to reduced psychological distress or improved decision-making."
+    ],
+    "conditions_for_misleading": [
+      "If the distinction between occurring and endorsing is treated as absolute, ignoring that endorsement can be implicit or unconscious.",
+      "If the statement is used to dismiss or invalidate others' experiences of overwhelming or intrusive thoughts.",
+      "If the speaker mistakenly believes practicing this distinction alone resolves deeper psychological issues without additional support."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 280,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0005__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:15:26.418487+00:00",
+  "wall_clock_seconds": 10.088495969772339,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a self-instruction and a metacognitive commitment. It is an intention to consciously monitor one's cognitive frame (identifying 'all-or-nothing' thinking) and actively employ a specific cognitive strategy (seeking 'partial truth' and nuance) to achieve a more balanced and flexible perspective.\",\n  \"implicit_claims\": [\n    \"That 'all-or-nothing' thinking is an identifiable cognitive pattern or distortion.\",\n    \"That 'all-or-nothing' thinking is generally unhelpful, problematic, or leads to undesirable outcomes (e.g., emotional distress, rigid beliefs, poor decision-making).\",\n    \"That in most situations perceived as 'all-or-nothing,' there genuinely exists a more nuanced 'partial truth' or valid perspectives on multiple 'sides.'\",\n    \"That 'willingness' (an active choice and effort) is a crucial component of shifting one's cognitive frame.\",\n    \"That seeking 'partial truth' is a beneficial strategy for managing thoughts, emotions, and interpersonal interactions.\",\n    \"That the individual has agency and control over their own cognitive processes and can intentionally intervene to change them.\",\n    \"That 'truth' is often multifaceted and can exist in varying degrees or from different perspectives, rather than being singular and absolute.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly identifies a problematic cognitive pattern ('all-or-nothing frame') and proposes a specific, actionable, and conceptually opposite response ('willing to look for the partial truth on either side'). The 'when...then I am willing to...' structure is logical and consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual frequently engages in genuine 'all-or-nothing' or polarized thinking that causes distress or hinders effective functioning.\",\n    \"The situations or issues the individual faces are truly complex, nuanced, or have multiple valid perspectives.\",\n    \"The individual possesses sufficient self-awareness to accurately identify when they are in an 'all-or-nothing frame.'\",\n    \"The individual is genuinely motivated and 'willing' to challenge their own cognitive biases and put effort into seeking nuance.\",\n    \"The application of this strategy leads to reduced emotional intensity, increased cognitive flexibility, improved problem-solving, or more balanced interpersonal relationships.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When applied to situations that are objectively binary or where one 'side' is factually incorrect or morally reprehensible (e.g., 'Is abuse acceptable?', 'Is 2+2=4?'). Seeking 'partial truth' in such cases can lead to minimizing harm, intellectual relativism, or denial of reality.\",\n    \"When used as an excuse for chronic indecision, inability to take a firm stance, or avoid necessary judgment in situations where decisive action is required.\",\n    \"If the individual consistently misidentifies genuine all-or-nothing situations, applying the strategy where it's not relevant or helpful.\",\n    \"In contexts of manipulation or gaslighting, where seeking 'partial truth on either side' could lead to self-doubt, invalidation of one's own reality, or complicity in harmful dynamics.\",\n    \"If it is misinterpreted as suggesting that all viewpoints are equally valid or that there is no objective reality, thereby undermining critical thinking or ethical clarity.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-instruction and a metacognitive commitment. It is an intention to consciously monitor one's cognitive frame (identifying 'all-or-nothing' thinking) and actively employ a specific cognitive strategy (seeking 'partial truth' and nuance) to achieve a more balanced and flexible perspective.",
+    "implicit_claims": [
+      "That 'all-or-nothing' thinking is an identifiable cognitive pattern or distortion.",
+      "That 'all-or-nothing' thinking is generally unhelpful, problematic, or leads to undesirable outcomes (e.g., emotional distress, rigid beliefs, poor decision-making).",
+      "That in most situations perceived as 'all-or-nothing,' there genuinely exists a more nuanced 'partial truth' or valid perspectives on multiple 'sides.'",
+      "That 'willingness' (an active choice and effort) is a crucial component of shifting one's cognitive frame.",
+      "That seeking 'partial truth' is a beneficial strategy for managing thoughts, emotions, and interpersonal interactions.",
+      "That the individual has agency and control over their own cognitive processes and can intentionally intervene to change them.",
+      "That 'truth' is often multifaceted and can exist in varying degrees or from different perspectives, rather than being singular and absolute."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly identifies a problematic cognitive pattern ('all-or-nothing frame') and proposes a specific, actionable, and conceptually opposite response ('willing to look for the partial truth on either side'). The 'when...then I am willing to...' structure is logical and consistent.",
+    "conditions_for_usefulness": [
+      "The individual frequently engages in genuine 'all-or-nothing' or polarized thinking that causes distress or hinders effective functioning.",
+      "The situations or issues the individual faces are truly complex, nuanced, or have multiple valid perspectives.",
+      "The individual possesses sufficient self-awareness to accurately identify when they are in an 'all-or-nothing frame.'",
+      "The individual is genuinely motivated and 'willing' to challenge their own cognitive biases and put effort into seeking nuance.",
+      "The application of this strategy leads to reduced emotional intensity, increased cognitive flexibility, improved problem-solving, or more balanced interpersonal relationships."
+    ],
+    "conditions_for_misleading": [
+      "When applied to situations that are objectively binary or where one 'side' is factually incorrect or morally reprehensible (e.g., 'Is abuse acceptable?', 'Is 2+2=4?'). Seeking 'partial truth' in such cases can lead to minimizing harm, intellectual relativism, or denial of reality.",
+      "When used as an excuse for chronic indecision, inability to take a firm stance, or avoid necessary judgment in situations where decisive action is required.",
+      "If the individual consistently misidentifies genuine all-or-nothing situations, applying the strategy where it's not relevant or helpful.",
+      "In contexts of manipulation or gaslighting, where seeking 'partial truth on either side' could lead to self-doubt, invalidation of one's own reality, or complicity in harmful dynamics.",
+      "If it is misinterpreted as suggesting that all viewpoints are equally valid or that there is no objective reality, thereby undermining critical thinking or ethical clarity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 720,
+  "error": "",
+  "retry_count": 0
+}

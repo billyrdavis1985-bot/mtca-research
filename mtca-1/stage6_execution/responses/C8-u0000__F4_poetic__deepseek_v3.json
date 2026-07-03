@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0000__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:50:10.416130+00:00",
+  "wall_clock_seconds": 4.078559637069702,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a moment of reflective awareness or insight, distinguishing between subjective cognitive phenomena and objective reality.\",\n  \"implicit_claims\": [\n    \"There is a category of mental events called 'automatic thoughts'.\",\n    \"Automatic thoughts can be identified and observed.\",\n    \"Evidence about truth exists independently of automatic thoughts.\",\n    \"The speaker has the capacity to notice this distinction.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it presents a clear contrast between internal mental experiences and external evidence without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or hearer is engaged in self-reflection or cognitive therapy.\",\n    \"The distinction between thought and evidence is relevant to the speaker's current reasoning or emotional state.\",\n    \"The listener understands 'automatic thoughts' as a psychological concept.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as a factual claim about all thoughts and all evidence, it could oversimplify cases where thoughts themselves constitute evidence.\",\n    \"If used to dismiss all subjective experiences as untrustworthy, it could invalidate valid intuitions.\",\n    \"If the context treats 'evidence' as solely empirical, ignoring interpretive or experiential evidence.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a moment of reflective awareness or insight, distinguishing between subjective cognitive phenomena and objective reality.",
+    "implicit_claims": [
+      "There is a category of mental events called 'automatic thoughts'.",
+      "Automatic thoughts can be identified and observed.",
+      "Evidence about truth exists independently of automatic thoughts.",
+      "The speaker has the capacity to notice this distinction."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it presents a clear contrast between internal mental experiences and external evidence without contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker or hearer is engaged in self-reflection or cognitive therapy.",
+      "The distinction between thought and evidence is relevant to the speaker's current reasoning or emotional state.",
+      "The listener understands 'automatic thoughts' as a psychological concept."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as a factual claim about all thoughts and all evidence, it could oversimplify cases where thoughts themselves constitute evidence.",
+      "If used to dismiss all subjective experiences as untrustworthy, it could invalidate valid intuitions.",
+      "If the context treats 'evidence' as solely empirical, ignoring interpretive or experiential evidence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 261,
+  "error": "",
+  "retry_count": 0
+}

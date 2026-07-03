@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0501__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:40:19.039667+00:00",
+  "wall_clock_seconds": 5.0076377391815186,
+  "raw_response": "{\n  \"communicative_function\": \"The statement narratively reports a clinical or observational encounter, describing a child's mobility and the use of assistive devices.\",\n  \"implicit_claims\": [\n    \"The child has a condition affecting foot alignment, necessitating the contrivances.\",\n    \"The speaker (likely a clinician or observer) is seeing the child for the first time in February 1915.\",\n    \"Walking ability is being assessed as 'pretty well' despite the contrivances.\",\n    \"The contrivances are designed to hold the feet straight, implying a pre-existing deformity or tendency toward misalignment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a specific time, a subject, an observation about walking, and a causal explanation involving two devices. There is no contradiction within the text.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient is interested in historical medical or orthopedic case notes.\",\n    \"The contrivances and the child's walking are relevant to a broader assessment or diagnosis.\",\n    \"The date and context (1915) are meaningful for historical comparison or record-keeping.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the contrivances were not actually necessary or effective, the statement might imply a false diagnosis.\",\n    \"If the child's walking ability was actually poor and 'pretty well' is a subjective exaggeration, it could mislead about the child's condition.\",\n    \"If the contrivances were for cosmetic rather than functional reasons, the statement's implication of medical necessity would be misleading.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement narratively reports a clinical or observational encounter, describing a child's mobility and the use of assistive devices.",
+    "implicit_claims": [
+      "The child has a condition affecting foot alignment, necessitating the contrivances.",
+      "The speaker (likely a clinician or observer) is seeing the child for the first time in February 1915.",
+      "Walking ability is being assessed as 'pretty well' despite the contrivances.",
+      "The contrivances are designed to hold the feet straight, implying a pre-existing deformity or tendency toward misalignment."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a specific time, a subject, an observation about walking, and a causal explanation involving two devices. There is no contradiction within the text.",
+    "conditions_for_usefulness": [
+      "The recipient is interested in historical medical or orthopedic case notes.",
+      "The contrivances and the child's walking are relevant to a broader assessment or diagnosis.",
+      "The date and context (1915) are meaningful for historical comparison or record-keeping."
+    ],
+    "conditions_for_misleading": [
+      "If the contrivances were not actually necessary or effective, the statement might imply a false diagnosis.",
+      "If the child's walking ability was actually poor and 'pretty well' is a subjective exaggeration, it could mislead about the child's condition.",
+      "If the contrivances were for cosmetic rather than functional reasons, the statement's implication of medical necessity would be misleading."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 328,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F6_author_named__grok_4",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:39:05.495425+00:00",
+  "wall_clock_seconds": 5.807457208633423,
+  "raw_response": "{\n  \"communicative_function\": \"reporting a personal anecdotal observation of therapeutic improvement attributed to autosuggestion\",\n  \"implicit_claims\": [\n    \"the observed respiratory and walking improvements resulted from the autosuggestion intervention\",\n    \"the degree of improvement was objectively remarkable\",\n    \"the improvement occurred rapidly enough to be noteworthy to the observer\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a first-person clinical anecdote; no logical contradictions\",\n  \"conditions_for_usefulness\": \"the report accurately describes a repeatable effect of autosuggestion and serves to illustrate or encourage the method's application\",\n  \"conditions_for_misleading\": \"the reported changes were due to unrelated factors, placebo misattribution, observer bias, or exaggeration, and are presented as general evidence of efficacy\"\n}",
+  "parsed_json": {
+    "communicative_function": "reporting a personal anecdotal observation of therapeutic improvement attributed to autosuggestion",
+    "implicit_claims": [
+      "the observed respiratory and walking improvements resulted from the autosuggestion intervention",
+      "the degree of improvement was objectively remarkable",
+      "the improvement occurred rapidly enough to be noteworthy to the observer"
+    ],
+    "coherence_assessment": "internally coherent as a first-person clinical anecdote; no logical contradictions",
+    "conditions_for_usefulness": "the report accurately describes a repeatable effect of autosuggestion and serves to illustrate or encourage the method's application",
+    "conditions_for_misleading": "the reported changes were due to unrelated factors, placebo misattribution, observer bias, or exaggeration, and are presented as general evidence of efficacy"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 275,
+  "output_tokens": 160,
+  "error": "",
+  "retry_count": 0
+}

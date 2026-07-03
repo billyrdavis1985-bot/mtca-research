@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0005__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:16:36.053630+00:00",
+  "wall_clock_seconds": 12.75888442993164,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a first-person volitional commitment to a cognitive habit change — specifically, a pledge to interrupt binary thinking and adopt a more nuanced evaluative stance when dichotomous framing is detected in oneself.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a recognizable cognitive pattern that the speaker experiences.\",\n    \"It is possible to detect when one is in an all-or-nothing frame while it is occurring.\",\n    \"Both sides of a binary framing typically contain partial truth.\",\n    \"Identifying partial truths on either side is a cognitively and practically available option.\",\n    \"Willingness is the primary barrier to engaging in this more nuanced thinking, not ability.\",\n    \"Moving away from all-or-nothing thinking is generally beneficial or desirable.\",\n    \"The speaker has sufficient metacognitive awareness to implement this commitment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The conditional trigger ('when I find myself in...') is appropriately humble and situationally specific. The intended action ('look for the partial truth') is directionally clear and logically consistent with the goal of escaping binary framing. The use of 'willing' rather than 'will' introduces epistemic modesty, which strengthens rather than weakens the commitment's credibility.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine metacognitive ability to notice binary framing as it occurs.\",\n    \"The situations triggering all-or-nothing thinking are ones where partial truths actually exist on both sides.\",\n    \"The commitment is revisited and practiced repeatedly rather than stated once and forgotten.\",\n    \"The speaker can tolerate the cognitive discomfort of holding ambiguity.\",\n    \"There is a practical context — such as conflict, decision-making, or self-evaluation — where nuanced thinking produces better outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Some situations are genuinely binary (e.g., ethical bright lines), making forced 'partial truth' framing a form of false balance.\",\n    \"The commitment becomes a performance of open-mindedness rather than actual cognitive revision.\",\n    \"The speaker uses 'partial truth on either side' to rationalize avoiding necessary judgments or commitments.\",\n    \"The speaker lacks the metacognitive skill to detect all-or-nothing framing reliably, making the trigger condition rarely or unreliably activated.\",\n    \"The framing implies that all binary positions are equally distorted, which is not always the case.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a first-person volitional commitment to a cognitive habit change — specifically, a pledge to interrupt binary thinking and adopt a more nuanced evaluative stance when dichotomous framing is detected in oneself.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a recognizable cognitive pattern that the speaker experiences.",
+      "It is possible to detect when one is in an all-or-nothing frame while it is occurring.",
+      "Both sides of a binary framing typically contain partial truth.",
+      "Identifying partial truths on either side is a cognitively and practically available option.",
+      "Willingness is the primary barrier to engaging in this more nuanced thinking, not ability.",
+      "Moving away from all-or-nothing thinking is generally beneficial or desirable.",
+      "The speaker has sufficient metacognitive awareness to implement this commitment."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The conditional trigger ('when I find myself in...') is appropriately humble and situationally specific. The intended action ('look for the partial truth') is directionally clear and logically consistent with the goal of escaping binary framing. The use of 'willing' rather than 'will' introduces epistemic modesty, which strengthens rather than weakens the commitment's credibility.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine metacognitive ability to notice binary framing as it occurs.",
+      "The situations triggering all-or-nothing thinking are ones where partial truths actually exist on both sides.",
+      "The commitment is revisited and practiced repeatedly rather than stated once and forgotten.",
+      "The speaker can tolerate the cognitive discomfort of holding ambiguity.",
+      "There is a practical context — such as conflict, decision-making, or self-evaluation — where nuanced thinking produces better outcomes."
+    ],
+    "conditions_for_misleading": [
+      "Some situations are genuinely binary (e.g., ethical bright lines), making forced 'partial truth' framing a form of false balance.",
+      "The commitment becomes a performance of open-mindedness rather than actual cognitive revision.",
+      "The speaker uses 'partial truth on either side' to rationalize avoiding necessary judgments or commitments.",
+      "The speaker lacks the metacognitive skill to detect all-or-nothing framing reliably, making the trigger condition rarely or unreliably activated.",
+      "The framing implies that all binary positions are equally distorted, which is not always the case."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 177,
+  "output_tokens": 587,
+  "error": "",
+  "retry_count": 0
+}

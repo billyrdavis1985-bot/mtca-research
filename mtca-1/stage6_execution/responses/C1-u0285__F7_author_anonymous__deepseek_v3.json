@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0285__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:34:46.710695+00:00",
+  "wall_clock_seconds": 5.091388463973999,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is used to counter an objection by appealing to a generalization that all things we use carry danger, thereby dismissing the specific concern about the danger of the thing in question.\",\n  \"implicit_claims\": [\n    \"The interlocutor's objection assumes the thing in question is dangerous.\",\n    \"The thing in question is not actually dangerous.\",\n    \"Everything we use is dangerous to some extent.\",\n    \"If everything is dangerous, then singling out one thing for its danger is unreasonable or irrelevant.\",\n    \"The speaker's use of \\\"we\\\" implies a shared set of common tools or practices.\"\n  ],\n  \"coherence_assessment\": \"The statement is logically coherent as a rhetorical move, though it relies on an all-things-are-dangerous premise that may be an exaggeration. The parenthetical \\\"(which is not so)\\\" contradicts the subsequent claim that everything we use is dangerous, creating tension between the denial of danger for the specific item and the universal claim.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the audience accepts the premise that almost everything we use carries some danger, and if the specific danger being objected to is indeed negligible or comparable to everyday risks. It is also useful if the speaker intends to challenge an exaggerated or unfair objection.\",\n  \"conditions_for_misleading\": \"The statement is misleading if the thing in question is actually far more dangerous than common items, or if the universal claim about danger is false in a way that obscures real differences in risk. It is also misleading if the speaker denies the danger outright (\\\"which is not so\\\") but then implies all things are dangerous, thereby conflating trivial risks with serious ones.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is used to counter an objection by appealing to a generalization that all things we use carry danger, thereby dismissing the specific concern about the danger of the thing in question.",
+    "implicit_claims": [
+      "The interlocutor's objection assumes the thing in question is dangerous.",
+      "The thing in question is not actually dangerous.",
+      "Everything we use is dangerous to some extent.",
+      "If everything is dangerous, then singling out one thing for its danger is unreasonable or irrelevant.",
+      "The speaker's use of \"we\" implies a shared set of common tools or practices."
+    ],
+    "coherence_assessment": "The statement is logically coherent as a rhetorical move, though it relies on an all-things-are-dangerous premise that may be an exaggeration. The parenthetical \"(which is not so)\" contradicts the subsequent claim that everything we use is dangerous, creating tension between the denial of danger for the specific item and the universal claim.",
+    "conditions_for_usefulness": "The statement is useful if the audience accepts the premise that almost everything we use carries some danger, and if the specific danger being objected to is indeed negligible or comparable to everyday risks. It is also useful if the speaker intends to challenge an exaggerated or unfair objection.",
+    "conditions_for_misleading": "The statement is misleading if the thing in question is actually far more dangerous than common items, or if the universal claim about danger is false in a way that obscures real differences in risk. It is also misleading if the speaker denies the danger outright (\"which is not so\") but then implies all things are dangerous, thereby conflating trivial risks with serious ones."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 351,
+  "error": "",
+  "retry_count": 0
+}

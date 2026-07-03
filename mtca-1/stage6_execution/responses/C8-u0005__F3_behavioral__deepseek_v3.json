@@ -1,0 +1,41 @@
+{
+  "call_id": "C8-u0005__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:17:00.077590+00:00",
+  "wall_clock_seconds": 5.714900255203247,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-directed behavioral commitment to cognitive flexibility, particularly in overcoming binary thinking by seeking nuance and partial truths in opposing positions.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a recognized pattern that the speaker experiences or acknowledges.\",\n    \"There is value in partial truths on both sides of a dichotomy.\",\n    \"The speaker has the capacity and willingness to deliberately shift cognitive frames.\",\n    \"Acknowledging partial truths is preferable to maintaining an all-or-nothing frame.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it defines a specific cognitive state (all-or-nothing frame) and commits to a specific behavioral response (looking for partial truth on either side), which directly counters the defined state.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker actually encounters all-or-nothing frames in their thinking or discussions.\",\n    \"The speaker has the self-awareness to recognize when they are in such a frame.\",\n    \"The context involves genuine disagreement where each side has at least some valid evidence or perspective.\",\n    \"The speaker is open to modifying their viewpoint based on partial truths.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker is in a situation where one side is factually correct and the other is false or harmful (e.g., moral absolutes like justice vs. injustice), seeking 'partial truth' could equivocate or normalize falsehood.\",\n    \"If the commitment is used to avoid taking a principled stand or to rationalize indecision.\",\n    \"If the speaker uses it to unduly legitimize positions that lack merit or are based on misinformation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directed behavioral commitment to cognitive flexibility, particularly in overcoming binary thinking by seeking nuance and partial truths in opposing positions.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a recognized pattern that the speaker experiences or acknowledges.",
+      "There is value in partial truths on both sides of a dichotomy.",
+      "The speaker has the capacity and willingness to deliberately shift cognitive frames.",
+      "Acknowledging partial truths is preferable to maintaining an all-or-nothing frame."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it defines a specific cognitive state (all-or-nothing frame) and commits to a specific behavioral response (looking for partial truth on either side), which directly counters the defined state.",
+    "conditions_for_usefulness": [
+      "The speaker actually encounters all-or-nothing frames in their thinking or discussions.",
+      "The speaker has the self-awareness to recognize when they are in such a frame.",
+      "The context involves genuine disagreement where each side has at least some valid evidence or perspective.",
+      "The speaker is open to modifying their viewpoint based on partial truths."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker is in a situation where one side is factually correct and the other is false or harmful (e.g., moral absolutes like justice vs. injustice), seeking 'partial truth' could equivocate or normalize falsehood.",
+      "If the commitment is used to avoid taking a principled stand or to rationalize indecision.",
+      "If the speaker uses it to unduly legitimize positions that lack merit or are based on misinformation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 346,
+  "error": "",
+  "retry_count": 0
+}

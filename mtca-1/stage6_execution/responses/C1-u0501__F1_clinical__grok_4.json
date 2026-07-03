@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F1_clinical__grok_4",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:40:58.415396+00:00",
+  "wall_clock_seconds": 8.055834293365479,
+  "raw_response": "{\n  \"communicative_function\": \"Recording an initial clinical observation of a patient's history and functional status for case documentation\",\n  \"implicit_claims\": [\n    \"The child presented with a foot-alignment condition requiring mechanical support\",\n    \"The contrivances successfully enable functional ambulation\",\n    \"February 1915 marks the start of the professional relationship\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a concise factual report linking date, presentation, and observed outcome\",\n  \"conditions_for_usefulness\": \"The details accurately reflect verifiable history and directly inform ongoing assessment or intervention planning\",\n  \"conditions_for_misleading\": \"The reported date, diagnosis, or efficacy of the devices is factually inaccurate or taken as current rather than historical\"\n}",
+  "parsed_json": {
+    "communicative_function": "Recording an initial clinical observation of a patient's history and functional status for case documentation",
+    "implicit_claims": [
+      "The child presented with a foot-alignment condition requiring mechanical support",
+      "The contrivances successfully enable functional ambulation",
+      "February 1915 marks the start of the professional relationship"
+    ],
+    "coherence_assessment": "Internally coherent as a concise factual report linking date, presentation, and observed outcome",
+    "conditions_for_usefulness": "The details accurately reflect verifiable history and directly inform ongoing assessment or intervention planning",
+    "conditions_for_misleading": "The reported date, diagnosis, or efficacy of the devices is factually inaccurate or taken as current rather than historical"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 293,
+  "output_tokens": 156,
+  "error": "",
+  "retry_count": 0
+}

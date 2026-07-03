@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F4_poetic__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:42:52.468082+00:00",
+  "wall_clock_seconds": 4.004660367965698,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is descriptively painting a scene, capturing a moment in time to convey the introduction of a child and evoke curiosity about his circumstances and assistive devices.\",\n  \"implicit_claims\": [\n    \"The child has some condition that requires assistance to walk.\",\n    \"There are existing technological or medical devices in 1915 that aid in walking.\",\n    \"The child might have had difficulty walking without these contrivances.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it provides a clear, albeit evocative, picture of an encounter with a child and uses specific details to emphasize his ability to walk with assistance.\",\n  \"conditions_for_usefulness\": \"This statement could be useful if the context involves a historical or medical discussion about early 20th-century assistive devices, or if the purpose is to evoke a sense of the time period and technological developments in children's care.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted literally without considering its figurative intent, or if assumed to reflect broader truths about medical advances without further context or evidence.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is descriptively painting a scene, capturing a moment in time to convey the introduction of a child and evoke curiosity about his circumstances and assistive devices.",
+    "implicit_claims": [
+      "The child has some condition that requires assistance to walk.",
+      "There are existing technological or medical devices in 1915 that aid in walking.",
+      "The child might have had difficulty walking without these contrivances."
+    ],
+    "coherence_assessment": "The statement is coherent as it provides a clear, albeit evocative, picture of an encounter with a child and uses specific details to emphasize his ability to walk with assistance.",
+    "conditions_for_usefulness": "This statement could be useful if the context involves a historical or medical discussion about early 20th-century assistive devices, or if the purpose is to evoke a sense of the time period and technological developments in children's care.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted literally without considering its figurative intent, or if assumed to reflect broader truths about medical advances without further context or evidence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 235,
+  "error": "",
+  "retry_count": 0
+}

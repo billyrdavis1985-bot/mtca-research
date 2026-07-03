@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0228__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:28:04.985333+00:00",
+  "wall_clock_seconds": 7.2248899936676025,
+  "raw_response": "{\n  \"communicative_function\": \"illustrating via contrastive example how authoritative language can trigger autosuggestion with beneficial or harmful health effects\",\n  \"implicit_claims\": [\n    \"a doctor's title confers automatic suggestive authority over patients\",\n    \"negative verbal framing by an authority can induce autosuggestion producing real negative outcomes\",\n    \"positive verbal framing by an authority can induce autosuggestion producing improved outcomes\",\n    \"autosuggestion operates as a causal mechanism between words and physiological results\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the two conditional scenarios are logically parallel and support a single causal claim about suggestion\",\n  \"conditions_for_usefulness\": \"the interaction context must involve language that could shape user beliefs about their own capabilities or health, and measurable psychological or physiological effects of suggestion must be accepted as real\",\n  \"conditions_for_misleading\": \"the described effects must be attributable to factors other than autosuggestion, or the statement must be applied outside domains where suggestion has documented influence\"\n}",
+  "parsed_json": {
+    "communicative_function": "illustrating via contrastive example how authoritative language can trigger autosuggestion with beneficial or harmful health effects",
+    "implicit_claims": [
+      "a doctor's title confers automatic suggestive authority over patients",
+      "negative verbal framing by an authority can induce autosuggestion producing real negative outcomes",
+      "positive verbal framing by an authority can induce autosuggestion producing improved outcomes",
+      "autosuggestion operates as a causal mechanism between words and physiological results"
+    ],
+    "coherence_assessment": "internally coherent; the two conditional scenarios are logically parallel and support a single causal claim about suggestion",
+    "conditions_for_usefulness": "the interaction context must involve language that could shape user beliefs about their own capabilities or health, and measurable psychological or physiological effects of suggestion must be accepted as real",
+    "conditions_for_misleading": "the described effects must be attributable to factors other than autosuggestion, or the statement must be applied outside domains where suggestion has documented influence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 362,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0
+}

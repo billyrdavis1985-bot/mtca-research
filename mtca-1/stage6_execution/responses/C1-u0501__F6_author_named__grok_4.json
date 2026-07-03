@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F6_author_named__grok_4",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:44:27.625586+00:00",
+  "wall_clock_seconds": 6.170428037643433,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting an initial clinical observation of a patient's condition and mobility\",\n  \"implicit_claims\": [\n    \"The child has a foot deformity or alignment issue requiring mechanical correction\",\n    \"Two external contrivances are responsible for the child's current walking ability\",\n    \"The author first encountered/treated this case in February 1915\"\n  ],\n  \"coherence_assessment\": \"Fully coherent as a concise factual report with clear temporal and causal elements\",\n  \"conditions_for_usefulness\": \"The surrounding text must establish this as a baseline for later improvement under autosuggestion, and the account must be accurate\",\n  \"conditions_for_misleading\": \"The statement is presented without follow-up outcomes or is used to imply the contrivances were ineffective or that the date/case details are fabricated\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting an initial clinical observation of a patient's condition and mobility",
+    "implicit_claims": [
+      "The child has a foot deformity or alignment issue requiring mechanical correction",
+      "Two external contrivances are responsible for the child's current walking ability",
+      "The author first encountered/treated this case in February 1915"
+    ],
+    "coherence_assessment": "Fully coherent as a concise factual report with clear temporal and causal elements",
+    "conditions_for_usefulness": "The surrounding text must establish this as a baseline for later improvement under autosuggestion, and the account must be accurate",
+    "conditions_for_misleading": "The statement is presented without follow-up outcomes or is used to imply the contrivances were ineffective or that the date/case details are fabricated"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 288,
+  "output_tokens": 169,
+  "error": "",
+  "retry_count": 0
+}

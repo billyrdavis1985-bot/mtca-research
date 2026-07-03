@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0112__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:18:50.482835+00:00",
+  "wall_clock_seconds": 4.627274036407471,
+  "raw_response": "{\n  \"communicative_function\": \"Warning or admonition that negative mental states or attitudes (sickly thoughts) will manifest physically, implying a need to change thinking to protect bodily health.\",\n  \"implicit_claims\": [\n    \"There is a direct causal link between thoughts and physical body states.\",\n    \"Thoughts can be qualitatively described as 'sickly'.\",\n    \"The body is a passive reflector of the mind's condition.\",\n    \"Physical illness is primarily or significantly caused by one's own thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a metaphorical or psychosomatic proposition, but lacks specificity about the mechanism (e.g., all sickly thoughts? what counts as sickly?). The causal claim is strong and unqualified.\",\n  \"conditions_for_usefulness\": [\n    \"The person believes in mind-body connection and finds motivation to monitor or change negative thinking patterns.\",\n    \"The statement is used as a heuristic for self-reflection, not a medical diagnosis.\",\n    \"The person is receptive to cognitive or behavioral interventions for stress-related symptoms.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a literal, universal medical fact that all physical illness derives from thoughts, leading to victim-blaming or neglect of biomedical causes.\",\n    \"If used to dismiss legitimate physical symptoms or discourage seeking medical care.\",\n    \"If applied to people with severe mental illness or chronic conditions where thought patterns are not the primary cause.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Warning or admonition that negative mental states or attitudes (sickly thoughts) will manifest physically, implying a need to change thinking to protect bodily health.",
+    "implicit_claims": [
+      "There is a direct causal link between thoughts and physical body states.",
+      "Thoughts can be qualitatively described as 'sickly'.",
+      "The body is a passive reflector of the mind's condition.",
+      "Physical illness is primarily or significantly caused by one's own thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a metaphorical or psychosomatic proposition, but lacks specificity about the mechanism (e.g., all sickly thoughts? what counts as sickly?). The causal claim is strong and unqualified.",
+    "conditions_for_usefulness": [
+      "The person believes in mind-body connection and finds motivation to monitor or change negative thinking patterns.",
+      "The statement is used as a heuristic for self-reflection, not a medical diagnosis.",
+      "The person is receptive to cognitive or behavioral interventions for stress-related symptoms."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a literal, universal medical fact that all physical illness derives from thoughts, leading to victim-blaming or neglect of biomedical causes.",
+      "If used to dismiss legitimate physical symptoms or discourage seeking medical care.",
+      "If applied to people with severe mental illness or chronic conditions where thought patterns are not the primary cause."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 305,
+  "error": "",
+  "retry_count": 0
+}

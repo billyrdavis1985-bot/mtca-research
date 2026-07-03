@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0229__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:44:29.337215+00:00",
+  "wall_clock_seconds": 7.703214883804321,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To serve as an affirmation of internal agency and locus of control, emphasizing the power of one's cognitive and aspirational faculties (thoughts, vision, ideal) to shape personal well-being and progress, irrespective of external circumstances. It aims to foster resilience, self-responsibility, and a growth mindset.\",\n  \"implicit_claims\": [\n    \"One's internal psychological state (thoughts, vision, ideal) is the primary determinant of one's personal trajectory ('fall, remain, or rise').\",\n    \"Individuals possess agency over their thoughts, vision, and ideal to a significant degree.\",\n    \"External environment, while acknowledged, is secondary in its impact compared to internal factors.\",\n    \"There is an inherent value in 'rising' (implying growth, improvement, well-being) and a negative connotation to 'falling' (decline, stagnation, distress).\",\n    \"A coherent 'Vision' and 'Ideal' are crucial for navigating life effectively.\",\n    \"Cultivating specific internal states can overcome or transcend challenging external realities.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear cause-and-effect relationship between internal psychological constructs (thoughts, vision, ideal) and personal outcomes (fall, remain, rise). It establishes a consistent frame where internal factors are paramount over external ones, offering a singular explanatory model for personal trajectory.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a reasonable degree of cognitive and emotional capacity to influence their thoughts, vision, and ideal.\",\n    \"The external environment, while potentially challenging, is not overwhelmingly deterministic or oppressive to the extent that internal agency is completely nullified.\",\n    \"The 'Vision' and 'Ideal' held by the individual are healthy, adaptive, and aligned with realistic personal growth and well-being.\",\n    \"It encourages an internal locus of control and resilience in situations where external factors are truly beyond immediate control.\",\n    \"It prompts self-reflection and proactive engagement with one's mindset and goals.\",\n    \"The individual is not experiencing severe cognitive impairment, active psychosis, or overwhelming trauma that would preclude such internal self-direction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The external environment is profoundly and systemically oppressive, lacking basic resources, or actively harmful (e.g., extreme poverty, systemic discrimination, active abuse, severe chronic illness with limited treatment options), making individual thought insufficient for change.\",\n    \"It fosters 'toxic positivity' or victim-blaming, suggesting that negative outcomes are solely due to one's thoughts, thereby invalidating legitimate external struggles or structural barriers.\",\n    \"The individual lacks the necessary resources (e.g., therapy, support networks, education) to effectively shape their thoughts, vision, or ideal in a healthy direction.\",\n    \"The 'Vision' or 'Ideal' adopted by the individual is unrealistic, maladaptive, self-destructive, or disconnected from reality.\",\n    \"It leads to a denial of necessary practical actions, external support, or systemic changes, over-emphasizing internal work to the exclusion of all else.\",\n    \"It can induce excessive self-blame and guilt when external circumstances are genuinely difficult or uncontrollable, causing further distress rather than empowerment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To serve as an affirmation of internal agency and locus of control, emphasizing the power of one's cognitive and aspirational faculties (thoughts, vision, ideal) to shape personal well-being and progress, irrespective of external circumstances. It aims to foster resilience, self-responsibility, and a growth mindset.",
+    "implicit_claims": [
+      "One's internal psychological state (thoughts, vision, ideal) is the primary determinant of one's personal trajectory ('fall, remain, or rise').",
+      "Individuals possess agency over their thoughts, vision, and ideal to a significant degree.",
+      "External environment, while acknowledged, is secondary in its impact compared to internal factors.",
+      "There is an inherent value in 'rising' (implying growth, improvement, well-being) and a negative connotation to 'falling' (decline, stagnation, distress).",
+      "A coherent 'Vision' and 'Ideal' are crucial for navigating life effectively.",
+      "Cultivating specific internal states can overcome or transcend challenging external realities."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear cause-and-effect relationship between internal psychological constructs (thoughts, vision, ideal) and personal outcomes (fall, remain, rise). It establishes a consistent frame where internal factors are paramount over external ones, offering a singular explanatory model for personal trajectory.",
+    "conditions_for_usefulness": [
+      "The individual has a reasonable degree of cognitive and emotional capacity to influence their thoughts, vision, and ideal.",
+      "The external environment, while potentially challenging, is not overwhelmingly deterministic or oppressive to the extent that internal agency is completely nullified.",
+      "The 'Vision' and 'Ideal' held by the individual are healthy, adaptive, and aligned with realistic personal growth and well-being.",
+      "It encourages an internal locus of control and resilience in situations where external factors are truly beyond immediate control.",
+      "It prompts self-reflection and proactive engagement with one's mindset and goals.",
+      "The individual is not experiencing severe cognitive impairment, active psychosis, or overwhelming trauma that would preclude such internal self-direction."
+    ],
+    "conditions_for_misleading": [
+      "The external environment is profoundly and systemically oppressive, lacking basic resources, or actively harmful (e.g., extreme poverty, systemic discrimination, active abuse, severe chronic illness with limited treatment options), making individual thought insufficient for change.",
+      "It fosters 'toxic positivity' or victim-blaming, suggesting that negative outcomes are solely due to one's thoughts, thereby invalidating legitimate external struggles or structural barriers.",
+      "The individual lacks the necessary resources (e.g., therapy, support networks, education) to effectively shape their thoughts, vision, or ideal in a healthy direction.",
+      "The 'Vision' or 'Ideal' adopted by the individual is unrealistic, maladaptive, self-destructive, or disconnected from reality.",
+      "It leads to a denial of necessary practical actions, external support, or systemic changes, over-emphasizing internal work to the exclusion of all else.",
+      "It can induce excessive self-blame and guilt when external circumstances are genuinely difficult or uncontrollable, causing further distress rather than empowerment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 702,
+  "error": "",
+  "retry_count": 0
+}

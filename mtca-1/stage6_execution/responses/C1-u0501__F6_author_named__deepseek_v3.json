@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0501__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:44:32.318276+00:00",
+  "wall_clock_seconds": 4.381206274032593,
+  "raw_response": "{\n  \"communicative_function\": \"Introducing a case history or clinical anecdote, describing the initial condition of a patient to set up a contrast with later improvement.\",\n  \"implicit_claims\": [\n    \"The child has a foot or gait problem that requires corrective devices.\",\n    \"The speaker (Coué) is a practitioner who treats such conditions.\",\n    \"The date (February 1915) is provided as a meaningful temporal marker, likely to indicate the start of treatment or observation.\",\n    \"The contrivances are external aids, not permanent solutions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it provides a time, a subject, a state of walking ability, and a reason for that ability. No contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The reader is interested in case studies of therapeutic progress.\",\n    \"The contrivances and the child's condition are relevant to the method Coué advocates.\",\n    \"The statement is part of a larger narrative that demonstrates improvement over time.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the contrivances are later claimed to be unnecessary or harmful, the initial description could mislead about baseline severity.\",\n    \"If the child's improvement was actually due to the contrivances themselves rather than Coué's method, the statement might misleadingly imply a different causation.\",\n    \"If the date is used to falsely suggest wartime conditions were irrelevant to the case, it could mislead about context.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Introducing a case history or clinical anecdote, describing the initial condition of a patient to set up a contrast with later improvement.",
+    "implicit_claims": [
+      "The child has a foot or gait problem that requires corrective devices.",
+      "The speaker (Coué) is a practitioner who treats such conditions.",
+      "The date (February 1915) is provided as a meaningful temporal marker, likely to indicate the start of treatment or observation.",
+      "The contrivances are external aids, not permanent solutions."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it provides a time, a subject, a state of walking ability, and a reason for that ability. No contradictions are present.",
+    "conditions_for_usefulness": [
+      "The reader is interested in case studies of therapeutic progress.",
+      "The contrivances and the child's condition are relevant to the method Coué advocates.",
+      "The statement is part of a larger narrative that demonstrates improvement over time."
+    ],
+    "conditions_for_misleading": [
+      "If the contrivances are later claimed to be unnecessary or harmful, the initial description could mislead about baseline severity.",
+      "If the child's improvement was actually due to the contrivances themselves rather than Coué's method, the statement might misleadingly imply a different causation.",
+      "If the date is used to falsely suggest wartime conditions were irrelevant to the case, it could mislead about context."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 313,
+  "error": "",
+  "retry_count": 0
+}

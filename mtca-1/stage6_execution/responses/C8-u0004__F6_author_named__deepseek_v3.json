@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0004__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:13:40.125447+00:00",
+  "wall_clock_seconds": 6.221590995788574,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a self-instruction or affirmation designed to train the speaker in metacognitive awareness, specifically to distinguish between the mere occurrence of a thought and the conscious act of agreeing with or adopting that thought.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between a thought that arises passively and a thought that one actively endorses.\",\n    \"It is possible to practice this distinction and improve at it.\",\n    \"Not all thoughts that occur to a person are necessarily endorsed by them.\",\n    \"The speaker is currently engaged in a process of learning or applying this distinction.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it unambiguously expresses a metacognitive practice and does not contain logical contradictions. It is a clear and consistent self-instruction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences thoughts that they do not endorse (e.g., intrusive thoughts, irrational beliefs).\",\n    \"The speaker has some capacity for introspection and cognitive distancing.\",\n    \"The speaker is motivated to examine and potentially challenge their automatic thoughts.\",\n    \"The practice is applied in a context where such metacognitive discrimination is beneficial, such as cognitive behavioral therapy or mindfulness training.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker does not actually experience a difference between thought occurrence and endorsement (e.g., when thoughts and beliefs are tightly fused), the statement could create a false sense of separation.\",\n    \"If taken to extremes, it could lead to excessive intellectualization or avoidance of authentic self-reflection.\",\n    \"If used to dismiss all spontaneous thoughts as irrelevant, it might undermine valuable intuitive or creative insights.\",\n    \"If the speaker is in a highly distressed state where metacognitive reasoning is impaired, the statement might be used in a self-invalidating or overly analytical way.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-instruction or affirmation designed to train the speaker in metacognitive awareness, specifically to distinguish between the mere occurrence of a thought and the conscious act of agreeing with or adopting that thought.",
+    "implicit_claims": [
+      "There is a meaningful distinction between a thought that arises passively and a thought that one actively endorses.",
+      "It is possible to practice this distinction and improve at it.",
+      "Not all thoughts that occur to a person are necessarily endorsed by them.",
+      "The speaker is currently engaged in a process of learning or applying this distinction."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it unambiguously expresses a metacognitive practice and does not contain logical contradictions. It is a clear and consistent self-instruction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences thoughts that they do not endorse (e.g., intrusive thoughts, irrational beliefs).",
+      "The speaker has some capacity for introspection and cognitive distancing.",
+      "The speaker is motivated to examine and potentially challenge their automatic thoughts.",
+      "The practice is applied in a context where such metacognitive discrimination is beneficial, such as cognitive behavioral therapy or mindfulness training."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker does not actually experience a difference between thought occurrence and endorsement (e.g., when thoughts and beliefs are tightly fused), the statement could create a false sense of separation.",
+      "If taken to extremes, it could lead to excessive intellectualization or avoidance of authentic self-reflection.",
+      "If used to dismiss all spontaneous thoughts as irrelevant, it might undermine valuable intuitive or creative insights.",
+      "If the speaker is in a highly distressed state where metacognitive reasoning is impaired, the statement might be used in a self-invalidating or overly analytical way."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 383,
+  "error": "",
+  "retry_count": 0
+}

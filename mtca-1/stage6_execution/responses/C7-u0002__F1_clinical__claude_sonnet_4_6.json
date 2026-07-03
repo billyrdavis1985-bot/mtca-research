@@ -1,0 +1,53 @@
+{
+  "call_id": "C7-u0002__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:01:47.321411+00:00",
+  "wall_clock_seconds": 21.449206352233887,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declarative self-commitment — an articulation of volitional surrender of personal autonomy to an externally conceived higher authority. It serves as a ritualized affirmation within a therapeutic or recovery context, intended to shift the locus of control from self-directed will to an externalized conceptual or spiritual entity. It also functions as a group-solidarity marker in community-based recovery frameworks.\",\n  \"implicit_claims\": [\n    \"Personal will and autonomous decision-making are sources of harm or dysfunction that require external correction.\",\n    \"There exists an entity or concept ('God as we understood Him') capable of caring for a person's will and life.\",\n    \"Surrender of will is a therapeutic act with positive outcomes.\",\n    \"The individual has agency sufficient to 'make a decision' to relinquish agency — a self-referential paradox.\",\n    \"The conceptualization of God is individually negotiable ('as we understood Him'), implying the content of the belief is less important than the functional act of belief.\",\n    \"Recovery or well-being is dependent on or facilitated by this act of surrender.\",\n    \"The plural 'our' implies shared experience and communal validity of this decision.\",\n    \"Will and life are separable entities that can be 'turned over' to an external agent.\"\n  ],\n  \"coherence_assessment\": \"The statement contains a notable internal tension: it requires an act of deliberate will (making a decision) in order to surrender will, which is logically self-referential. The phrase 'as we understood Him' introduces epistemic flexibility that partially resolves theological exclusivity concerns but also renders the referent indeterminate, weakening the propositional content. The plural 'our' in a statement used as a personal self-statement creates a mild incoherence between individual and collective subject. Overall coherence is functional-pragmatic rather than strictly logical — it is designed to produce a psychological state rather than satisfy logical criteria.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a pre-existing or developing spiritual or religious framework that gives the concept of 'God' or a higher power meaningful content.\",\n    \"The individual's dysfunction is demonstrably linked to rigid, compulsive, or maladaptive patterns of self-will or control.\",\n    \"The therapeutic context normalizes a broad, non-dogmatic interpretation of 'God' so that the statement remains accessible across belief systems.\",\n    \"The individual interprets 'surrender' not as passivity or helplessness but as release from compulsive self-management.\",\n    \"Community reinforcement is present to sustain the meaning and motivational force of the commitment.\",\n    \"The individual has sufficient insight to distinguish adaptive trust from maladaptive dependency.\",\n    \"The statement is used as one component of a broader structured program rather than in isolation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in a context where literal theological compliance is expected, removing the flexibility implied by 'as we understood Him.'\",\n    \"The individual has trauma histories involving religious coercion, authority abuse, or spiritual harm, for whom surrender-language may reinforce harmful schemas.\",\n    \"The statement is used to discourage legitimate autonomous decision-making, medical compliance, or critical thinking.\",\n    \"The individual interprets the statement as implying that personal effort, therapy, or medication are unnecessary because an external entity is now responsible.\",\n    \"The statement is applied to individuals whose dysfunction does not involve issues of control or self-will, making the framing diagnostically mismatched.\",\n    \"The indeterminacy of 'God as we understood Him' is exploited to introduce specific ideological or religious content under the guise of personal interpretation.\",\n    \"The statement fosters dependency on the group or program as the operative 'higher power,' obscuring this substitution.\",\n    \"Individuals without theistic or spiritual frameworks are implicitly pathologized for finding the statement meaningless or inaccessible.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declarative self-commitment — an articulation of volitional surrender of personal autonomy to an externally conceived higher authority. It serves as a ritualized affirmation within a therapeutic or recovery context, intended to shift the locus of control from self-directed will to an externalized conceptual or spiritual entity. It also functions as a group-solidarity marker in community-based recovery frameworks.",
+    "implicit_claims": [
+      "Personal will and autonomous decision-making are sources of harm or dysfunction that require external correction.",
+      "There exists an entity or concept ('God as we understood Him') capable of caring for a person's will and life.",
+      "Surrender of will is a therapeutic act with positive outcomes.",
+      "The individual has agency sufficient to 'make a decision' to relinquish agency — a self-referential paradox.",
+      "The conceptualization of God is individually negotiable ('as we understood Him'), implying the content of the belief is less important than the functional act of belief.",
+      "Recovery or well-being is dependent on or facilitated by this act of surrender.",
+      "The plural 'our' implies shared experience and communal validity of this decision.",
+      "Will and life are separable entities that can be 'turned over' to an external agent."
+    ],
+    "coherence_assessment": "The statement contains a notable internal tension: it requires an act of deliberate will (making a decision) in order to surrender will, which is logically self-referential. The phrase 'as we understood Him' introduces epistemic flexibility that partially resolves theological exclusivity concerns but also renders the referent indeterminate, weakening the propositional content. The plural 'our' in a statement used as a personal self-statement creates a mild incoherence between individual and collective subject. Overall coherence is functional-pragmatic rather than strictly logical — it is designed to produce a psychological state rather than satisfy logical criteria.",
+    "conditions_for_usefulness": [
+      "The individual has a pre-existing or developing spiritual or religious framework that gives the concept of 'God' or a higher power meaningful content.",
+      "The individual's dysfunction is demonstrably linked to rigid, compulsive, or maladaptive patterns of self-will or control.",
+      "The therapeutic context normalizes a broad, non-dogmatic interpretation of 'God' so that the statement remains accessible across belief systems.",
+      "The individual interprets 'surrender' not as passivity or helplessness but as release from compulsive self-management.",
+      "Community reinforcement is present to sustain the meaning and motivational force of the commitment.",
+      "The individual has sufficient insight to distinguish adaptive trust from maladaptive dependency.",
+      "The statement is used as one component of a broader structured program rather than in isolation."
+    ],
+    "conditions_for_misleading": [
+      "The individual is in a context where literal theological compliance is expected, removing the flexibility implied by 'as we understood Him.'",
+      "The individual has trauma histories involving religious coercion, authority abuse, or spiritual harm, for whom surrender-language may reinforce harmful schemas.",
+      "The statement is used to discourage legitimate autonomous decision-making, medical compliance, or critical thinking.",
+      "The individual interprets the statement as implying that personal effort, therapy, or medication are unnecessary because an external entity is now responsible.",
+      "The statement is applied to individuals whose dysfunction does not involve issues of control or self-will, making the framing diagnostically mismatched.",
+      "The indeterminacy of 'God as we understood Him' is exploited to introduce specific ideological or religious content under the guise of personal interpretation.",
+      "The statement fosters dependency on the group or program as the operative 'higher power,' obscuring this substitution.",
+      "Individuals without theistic or spiritual frameworks are implicitly pathologized for finding the statement meaningless or inaccessible."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 900,
+  "error": "",
+  "retry_count": 0
+}

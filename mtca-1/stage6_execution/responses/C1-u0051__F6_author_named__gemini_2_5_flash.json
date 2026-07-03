@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0051__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:06:33.371516+00:00",
+  "wall_clock_seconds": 8.901750087738037,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive assertion or instructional observation. It aims to guide behavior, specifically regarding sleep, by positing a conditional outcome tied to the absence of conscious effort. It suggests a specific strategy for approaching sleep difficulties, implying that active 'trying' is counterproductive.\",\n  \"implicit_claims\": [\n    \"Conscious 'effort to sleep' is a primary impediment to rest or quietness in bed.\",\n    \"The natural state, when not interfered with by conscious effort, is one of quietude or rest.\",\n    \"Letting go of active striving is a path to a more relaxed state (lying quietly).\",\n    \"The problem of restlessness in bed often stems from the 'effort' itself, rather than external factors or an inherent inability to rest.\",\n    \"Control over one's state (at least in bed) can be achieved through non-exertion rather than forceful will.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear conditional relationship ('If X, then Y'). The premise that ceasing a potentially agitating 'effort to sleep' would lead to a calmer state ('lying quietly') is logically consistent. Actively trying to sleep often involves mental and physical tension, which, when released, could reasonably result in a more still disposition. It does not claim that 'quietly in bed' is equivalent to 'sleeping,' only that it is the direct consequence of the specified action (or inaction).\",\n  \"conditions_for_usefulness\": [\n    \"The individual's difficulty sleeping or restlessness is primarily caused by anxiety, frustration, or mental/physical tension associated with 'trying too hard' to fall asleep.\",\n    \"The individual interprets 'no effort to sleep' as releasing mental and physical striving, rather than avoiding bedtime or maintaining stimulating activities.\",\n    \"There are no severe underlying physiological conditions (e.g., chronic pain, severe sleep apnea, restless leg syndrome, stimulant use) or extreme external environmental factors preventing physical stillness.\",\n    \"The individual has a basic capacity for rest once mental effort is relinquished.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual suffers from severe underlying medical or psychological conditions (e.g., clinical insomnia, severe depression, chronic pain, severe anxiety disorders, physiological sleep disorders like sleep apnea) where 'not making any effort' is insufficient to address the root cause of sleeplessness and may lead to feelings of failure or neglect of proper medical care.\",\n    \"The individual misinterprets 'no effort to sleep' as neglecting healthy sleep hygiene (e.g., staying up late, using screens in bed, consuming stimulants before bed) or dismissing the importance of creating a conducive sleep environment.\",\n    \"The statement is taken as a universal solution, overlooking that 'effort to sleep' might not be the primary impediment for everyone, and for some, strategic effort (e.g., cognitive behavioral therapy for insomnia techniques) is beneficial.\",\n    \"The individual blames themselves for not being able to 'not make an effort' when their struggle is genuinely complex and beyond simple conscious control.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive assertion or instructional observation. It aims to guide behavior, specifically regarding sleep, by positing a conditional outcome tied to the absence of conscious effort. It suggests a specific strategy for approaching sleep difficulties, implying that active 'trying' is counterproductive.",
+    "implicit_claims": [
+      "Conscious 'effort to sleep' is a primary impediment to rest or quietness in bed.",
+      "The natural state, when not interfered with by conscious effort, is one of quietude or rest.",
+      "Letting go of active striving is a path to a more relaxed state (lying quietly).",
+      "The problem of restlessness in bed often stems from the 'effort' itself, rather than external factors or an inherent inability to rest.",
+      "Control over one's state (at least in bed) can be achieved through non-exertion rather than forceful will."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear conditional relationship ('If X, then Y'). The premise that ceasing a potentially agitating 'effort to sleep' would lead to a calmer state ('lying quietly') is logically consistent. Actively trying to sleep often involves mental and physical tension, which, when released, could reasonably result in a more still disposition. It does not claim that 'quietly in bed' is equivalent to 'sleeping,' only that it is the direct consequence of the specified action (or inaction).",
+    "conditions_for_usefulness": [
+      "The individual's difficulty sleeping or restlessness is primarily caused by anxiety, frustration, or mental/physical tension associated with 'trying too hard' to fall asleep.",
+      "The individual interprets 'no effort to sleep' as releasing mental and physical striving, rather than avoiding bedtime or maintaining stimulating activities.",
+      "There are no severe underlying physiological conditions (e.g., chronic pain, severe sleep apnea, restless leg syndrome, stimulant use) or extreme external environmental factors preventing physical stillness.",
+      "The individual has a basic capacity for rest once mental effort is relinquished."
+    ],
+    "conditions_for_misleading": [
+      "The individual suffers from severe underlying medical or psychological conditions (e.g., clinical insomnia, severe depression, chronic pain, severe anxiety disorders, physiological sleep disorders like sleep apnea) where 'not making any effort' is insufficient to address the root cause of sleeplessness and may lead to feelings of failure or neglect of proper medical care.",
+      "The individual misinterprets 'no effort to sleep' as neglecting healthy sleep hygiene (e.g., staying up late, using screens in bed, consuming stimulants before bed) or dismissing the importance of creating a conducive sleep environment.",
+      "The statement is taken as a universal solution, overlooking that 'effort to sleep' might not be the primary impediment for everyone, and for some, strategic effort (e.g., cognitive behavioral therapy for insomnia techniques) is beneficial.",
+      "The individual blames themselves for not being able to 'not make an effort' when their struggle is genuinely complex and beyond simple conscious control."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 667,
+  "error": "",
+  "retry_count": 0
+}

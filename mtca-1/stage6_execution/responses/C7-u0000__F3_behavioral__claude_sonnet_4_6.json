@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0000__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:51:23.203907+00:00",
+  "wall_clock_seconds": 14.479200839996338,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a collective confession and acknowledgment of defeat, functioning as a ritualized admission of vulnerability intended to mark the beginning of a recovery process. It operates as both a descriptive claim about past/present states and a performative act of community-building through shared acknowledgment.\",\n  \"implicit_claims\": [\n    \"Alcohol has causal power over the speaker(s) that exceeds their volitional control\",\n    \"The speaker(s) previously lacked or denied this recognition\",\n    \"Life manageability is a meaningful and assessable condition\",\n    \"Admitting powerlessness is a prerequisite or catalyst for recovery\",\n    \"The collective framing ('we') implies shared experience validates individual experience\",\n    \"Powerlessness is binary or sufficiently threshold-like to be admitted categorically\",\n    \"This admission is honest rather than performative compliance\",\n    \"The statement marks a genuine belief change, not merely verbal behavior\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within its own framework: the two clauses are logically linked, as unmanageability is presented as evidence for powerlessness. However, a tension exists — the act of admitting powerlessness is itself an exercise of agency, creating a philosophical paradox. The statement is coherent as ritual language but less so as a strict empirical claim.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes the content rather than reciting it by social pressure\",\n    \"The admission reduces shame and increases openness to external support\",\n    \"The framing of 'powerlessness' motivates help-seeking rather than learned helplessness\",\n    \"The community context reinforces accountability and belonging\",\n    \"The speaker's relationship with alcohol actually meets criteria for dependence or addiction\",\n    \"The statement functions as a starting point rather than a permanent identity claim\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The language of total powerlessness undermines self-efficacy in contexts where agency-based interventions are more effective\",\n    \"It is recited as social compliance without genuine internalization, creating false progress signals\",\n    \"It is applied to individuals whose problematic use does not involve physiological or psychological dependence\",\n    \"The collective 'we' pressures individuals to adopt a narrative that does not accurately describe their experience\",\n    \"It is used to foreclose other evidence-based treatment modalities by framing recovery as requiring this specific admission\",\n    \"It encourages external locus of control in ways that persist beyond the therapeutic context and impair autonomous decision-making\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a collective confession and acknowledgment of defeat, functioning as a ritualized admission of vulnerability intended to mark the beginning of a recovery process. It operates as both a descriptive claim about past/present states and a performative act of community-building through shared acknowledgment.",
+    "implicit_claims": [
+      "Alcohol has causal power over the speaker(s) that exceeds their volitional control",
+      "The speaker(s) previously lacked or denied this recognition",
+      "Life manageability is a meaningful and assessable condition",
+      "Admitting powerlessness is a prerequisite or catalyst for recovery",
+      "The collective framing ('we') implies shared experience validates individual experience",
+      "Powerlessness is binary or sufficiently threshold-like to be admitted categorically",
+      "This admission is honest rather than performative compliance",
+      "The statement marks a genuine belief change, not merely verbal behavior"
+    ],
+    "coherence_assessment": "Internally coherent within its own framework: the two clauses are logically linked, as unmanageability is presented as evidence for powerlessness. However, a tension exists — the act of admitting powerlessness is itself an exercise of agency, creating a philosophical paradox. The statement is coherent as ritual language but less so as a strict empirical claim.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes the content rather than reciting it by social pressure",
+      "The admission reduces shame and increases openness to external support",
+      "The framing of 'powerlessness' motivates help-seeking rather than learned helplessness",
+      "The community context reinforces accountability and belonging",
+      "The speaker's relationship with alcohol actually meets criteria for dependence or addiction",
+      "The statement functions as a starting point rather than a permanent identity claim"
+    ],
+    "conditions_for_misleading": [
+      "The language of total powerlessness undermines self-efficacy in contexts where agency-based interventions are more effective",
+      "It is recited as social compliance without genuine internalization, creating false progress signals",
+      "It is applied to individuals whose problematic use does not involve physiological or psychological dependence",
+      "The collective 'we' pressures individuals to adopt a narrative that does not accurately describe their experience",
+      "It is used to foreclose other evidence-based treatment modalities by framing recovery as requiring this specific admission",
+      "It encourages external locus of control in ways that persist beyond the therapeutic context and impair autonomous decision-making"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 595,
+  "error": "",
+  "retry_count": 0
+}

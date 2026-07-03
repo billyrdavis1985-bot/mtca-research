@@ -1,0 +1,49 @@
+{
+  "call_id": "C5-u0110__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:15:41.661195+00:00",
+  "wall_clock_seconds": 16.182635068893433,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive and causal claim, asserting a direct relationship between the moral/emotional quality of one's thoughts and the physical condition of the body. It functions rhetorically to motivate the reader toward positive thinking by framing it as a health imperative, using vivid contrasting imagery to reinforce the message.\",\n  \"implicit_claims\": [\n    \"Thoughts can be classified as 'lawful' or 'unlawful,' implying a moral hierarchy of mental states.\",\n    \"The mind has direct and powerful causal influence over physical bodily health.\",\n    \"Disease and decay are, at least in part, consequences of negative or immoral thinking.\",\n    \"Youth and beauty are attainable or maintainable through cultivating positive thoughts.\",\n    \"This relationship is consistent and reliable enough to be stated as a general law.\",\n    \"Individuals have sufficient control over their thoughts to choose between 'unlawful' and 'glad and beautiful' ones.\",\n    \"Physical deterioration is meaningfully attributable to internal mental states rather than external or biological factors.\",\n    \"Beauty and youthfulness are desirable outcomes and appropriate metrics of mental or moral health.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and literary construction — it uses parallel structure and clear contrast effectively. However, it is logically coherent only if one accepts its foundational premise that thought quality directly governs physical health. It does not acknowledge intermediate mechanisms, confounding variables, or exceptions, making it coherent as assertion but brittle as argument.\",\n  \"conditions_for_usefulness\": [\n    \"There is a genuine, evidence-supported psychosomatic relationship between chronic mental states and physical health outcomes (e.g., stress and immune function).\",\n    \"The audience is already prone to neglecting mental well-being in ways that demonstrably harm their health.\",\n    \"The statement is understood as motivational metaphor rather than literal medical causation.\",\n    \"The reader interprets 'unlawful thoughts' as meaning chronic stress, hostility, or despair rather than a moral judgment.\",\n    \"It is used as a prompt for reflection on habits of mind, not as a diagnostic or therapeutic framework.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Readers interpret it as a literal and sufficient explanation for disease, leading them to forgo medical treatment.\",\n    \"It causes individuals with illness to blame themselves for their condition, attributing disease to moral or mental failure.\",\n    \"It is used to dismiss structural, genetic, environmental, or infectious causes of illness.\",\n    \"The claim about youthfulness and beauty is taken literally, leading to unrealistic expectations.\",\n    \"It implies that people who are sick or aging simply failed to think correctly, which is both false and potentially harmful.\",\n    \"It is used to justify withholding care or sympathy from ill individuals on the grounds that they brought it upon themselves.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive and causal claim, asserting a direct relationship between the moral/emotional quality of one's thoughts and the physical condition of the body. It functions rhetorically to motivate the reader toward positive thinking by framing it as a health imperative, using vivid contrasting imagery to reinforce the message.",
+    "implicit_claims": [
+      "Thoughts can be classified as 'lawful' or 'unlawful,' implying a moral hierarchy of mental states.",
+      "The mind has direct and powerful causal influence over physical bodily health.",
+      "Disease and decay are, at least in part, consequences of negative or immoral thinking.",
+      "Youth and beauty are attainable or maintainable through cultivating positive thoughts.",
+      "This relationship is consistent and reliable enough to be stated as a general law.",
+      "Individuals have sufficient control over their thoughts to choose between 'unlawful' and 'glad and beautiful' ones.",
+      "Physical deterioration is meaningfully attributable to internal mental states rather than external or biological factors.",
+      "Beauty and youthfulness are desirable outcomes and appropriate metrics of mental or moral health."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and literary construction — it uses parallel structure and clear contrast effectively. However, it is logically coherent only if one accepts its foundational premise that thought quality directly governs physical health. It does not acknowledge intermediate mechanisms, confounding variables, or exceptions, making it coherent as assertion but brittle as argument.",
+    "conditions_for_usefulness": [
+      "There is a genuine, evidence-supported psychosomatic relationship between chronic mental states and physical health outcomes (e.g., stress and immune function).",
+      "The audience is already prone to neglecting mental well-being in ways that demonstrably harm their health.",
+      "The statement is understood as motivational metaphor rather than literal medical causation.",
+      "The reader interprets 'unlawful thoughts' as meaning chronic stress, hostility, or despair rather than a moral judgment.",
+      "It is used as a prompt for reflection on habits of mind, not as a diagnostic or therapeutic framework."
+    ],
+    "conditions_for_misleading": [
+      "Readers interpret it as a literal and sufficient explanation for disease, leading them to forgo medical treatment.",
+      "It causes individuals with illness to blame themselves for their condition, attributing disease to moral or mental failure.",
+      "It is used to dismiss structural, genetic, environmental, or infectious causes of illness.",
+      "The claim about youthfulness and beauty is taken literally, leading to unrealistic expectations.",
+      "It implies that people who are sick or aging simply failed to think correctly, which is both false and potentially harmful.",
+      "It is used to justify withholding care or sympathy from ill individuals on the grounds that they brought it upon themselves."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 670,
+  "error": "",
+  "retry_count": 0
+}

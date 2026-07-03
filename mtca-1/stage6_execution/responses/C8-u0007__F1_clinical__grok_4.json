@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0007__F1_clinical__grok_4",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:26:18.453821+00:00",
+  "wall_clock_seconds": 9.630096673965454,
+  "raw_response": "{\n  \"communicative_function\": \"self-reported metacognitive observation intended to shift attention toward behavioral antecedents of affect\",\n  \"implicit_claims\": [\n    \"the speaker possesses reliable introspective access to the temporal ordering of mood and behavior\",\n    \"behavior exerts a stronger causal influence on mood than the reverse in the speaker's experience\",\n    \"this directional pattern occurs with sufficient frequency to be clinically noteworthy\"\n  ],\n  \"coherence_assessment\": \"internally coherent as an empirical self-observation; no logical contradiction between noticing a directional relationship and stating its relative frequency\",\n  \"conditions_for_usefulness\": \"the observation must be veridical for the individual, prompt engagement in mood-regulating behaviors, and occur within a therapeutic context that reinforces adaptive action rather than rumination\",\n  \"conditions_for_misleading\": \"the reported directionality is inaccurate, the statement is used to invalidate legitimate emotional signals, or it substitutes for addressing contextual or neurobiological factors that primarily drive mood\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-reported metacognitive observation intended to shift attention toward behavioral antecedents of affect",
+    "implicit_claims": [
+      "the speaker possesses reliable introspective access to the temporal ordering of mood and behavior",
+      "behavior exerts a stronger causal influence on mood than the reverse in the speaker's experience",
+      "this directional pattern occurs with sufficient frequency to be clinically noteworthy"
+    ],
+    "coherence_assessment": "internally coherent as an empirical self-observation; no logical contradiction between noticing a directional relationship and stating its relative frequency",
+    "conditions_for_usefulness": "the observation must be veridical for the individual, prompt engagement in mood-regulating behaviors, and occur within a therapeutic context that reinforces adaptive action rather than rumination",
+    "conditions_for_misleading": "the reported directionality is inaccurate, the statement is used to invalidate legitimate emotional signals, or it substitutes for addressing contextual or neurobiological factors that primarily drive mood"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 200,
+  "error": "",
+  "retry_count": 0
+}

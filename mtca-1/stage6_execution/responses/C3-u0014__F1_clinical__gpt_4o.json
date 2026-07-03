@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:21:11.093937+00:00",
+  "wall_clock_seconds": 3.0374059677124023,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to differentiate types of irrational behavior and their underlying emotional drivers, suggesting a qualitative assessment of anger and lust in relation to reason.\",\n  \"implicit_claims\": [\n    \"Anger and lust are emotions that can lead to irrational behavior.\",\n    \"Anger involves turning away from reason due to grief and contraction.\",\n    \"Lust involves being overcome by pleasure, indicating a lack of strength or dignity.\",\n    \"Anger is somehow more rational or less debasing compared to lust.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its comparison of anger and lust, though it depends heavily on traditional views of moral strength and reasoning.\",\n  \"conditions_for_usefulness\": \"The statement would be useful for individuals who value rationality and self-control, and who are interested in understanding and addressing different emotional triggers that lead to irrational actions.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual does not fit the traditional frameworks of morality, or if the qualitative assessment of emotions is not applicable. It may also mislead if it distracts from more effective, contemporary therapeutic approaches to managing emotions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to differentiate types of irrational behavior and their underlying emotional drivers, suggesting a qualitative assessment of anger and lust in relation to reason.",
+    "implicit_claims": [
+      "Anger and lust are emotions that can lead to irrational behavior.",
+      "Anger involves turning away from reason due to grief and contraction.",
+      "Lust involves being overcome by pleasure, indicating a lack of strength or dignity.",
+      "Anger is somehow more rational or less debasing compared to lust."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its comparison of anger and lust, though it depends heavily on traditional views of moral strength and reasoning.",
+    "conditions_for_usefulness": "The statement would be useful for individuals who value rationality and self-control, and who are interested in understanding and addressing different emotional triggers that lead to irrational actions.",
+    "conditions_for_misleading": "The statement could be misleading if the individual does not fit the traditional frameworks of morality, or if the qualitative assessment of emotions is not applicable. It may also mislead if it distracts from more effective, contemporary therapeutic approaches to managing emotions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 197,
+  "output_tokens": 246,
+  "error": "",
+  "retry_count": 0
+}

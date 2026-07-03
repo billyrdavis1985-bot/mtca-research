@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0038__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:40:22.603660+00:00",
+  "wall_clock_seconds": 6.310267210006714,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a philosophical or metaphysical claim about the nature of time and possession, implying that one cannot truly relinquish that which is beyond one's temporal control.\",\n  \"implicit_claims\": [\n    \"Time is divided into past, present, and future categories.\",\n    \"A person can only properly part with something they presently possess.\",\n    \"The past and future are not in one's possession or control.\",\n    \"One cannot genuinely give up what one does not have.\",\n    \"The act of 'parting with' requires active ownership or access.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a static or non-temporal view of possession, but it may be challenged by notions of psychological ownership or by actions like renouncing future claims or releasing past attachments.\",\n  \"conditions_for_usefulness\": [\n    \"The listener accepts a strict ontological distinction between past, present, and future.\",\n    \"The statement is used to challenge regret about the past or anxiety about the future.\",\n    \"It is applied in a context where relinquishing control over uncontrollable events is a valued behavior.\",\n    \"The hearer is open to a redefinition of 'parting with' as a mental or emotional release rather than a physical act.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is interpreted as denying the possibility of emotional or legal detachment from past or future events.\",\n    \"It is used to dismiss genuine loss or trauma by implying no real possession existed.\",\n    \"The listener assumes a practical meaning of 'parting with' (e.g., giving away a future inheritance) that contradicts the philosophical claim.\",\n    \"It is applied in a context where temporal possession (e.g., a promise) is legally or socially recognized.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a philosophical or metaphysical claim about the nature of time and possession, implying that one cannot truly relinquish that which is beyond one's temporal control.",
+    "implicit_claims": [
+      "Time is divided into past, present, and future categories.",
+      "A person can only properly part with something they presently possess.",
+      "The past and future are not in one's possession or control.",
+      "One cannot genuinely give up what one does not have.",
+      "The act of 'parting with' requires active ownership or access."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a static or non-temporal view of possession, but it may be challenged by notions of psychological ownership or by actions like renouncing future claims or releasing past attachments.",
+    "conditions_for_usefulness": [
+      "The listener accepts a strict ontological distinction between past, present, and future.",
+      "The statement is used to challenge regret about the past or anxiety about the future.",
+      "It is applied in a context where relinquishing control over uncontrollable events is a valued behavior.",
+      "The hearer is open to a redefinition of 'parting with' as a mental or emotional release rather than a physical act."
+    ],
+    "conditions_for_misleading": [
+      "It is interpreted as denying the possibility of emotional or legal detachment from past or future events.",
+      "It is used to dismiss genuine loss or trauma by implying no real possession existed.",
+      "The listener assumes a practical meaning of 'parting with' (e.g., giving away a future inheritance) that contradicts the philosophical claim.",
+      "It is applied in a context where temporal possession (e.g., a promise) is legally or socially recognized."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 368,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0457__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:36:55.306709+00:00",
+  "wall_clock_seconds": 12.672732830047607,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning as a first-person observational report or testimonial, describing a witnessed outcome. Framed as a behavioral commitment, it would ostensibly serve as a pledge to notice, acknowledge, and report improvement — committing the speaker to honest observation and transparent communication of results.\",\n  \"implicit_claims\": [\n    \"There is a 'he' — a specific individual whose behavior or condition is being observed.\",\n    \"The individual performed some prior action ('when he does so') that preceded the observed change.\",\n    \"The improvement in respiration and walking is real and not imagined.\",\n    \"The speaker has a baseline against which 'remarkable improvement' is being measured.\",\n    \"The speaker's astonishment implies the improvement was unexpected or exceeded prior expectations.\",\n    \"A causal or temporal link is implied between 'his' action and the observed improvement.\",\n    \"The speaker has sufficient observational competence to assess respiration and walking quality.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as an observation report. It connects a trigger condition ('when he does so'), an emotional/epistemic marker ('to my astonishment'), and a described outcome ('remarkable improvement'). As a behavioral commitment, however, it is weakly coherent — it describes a past or conditional observation rather than a forward-looking intended behavior change.\",\n  \"conditions_for_usefulness\": [\n    \"The referenced action ('when he does so') is clearly defined and reproducible.\",\n    \"The improvement in respiration and walking is measurable or verifiable.\",\n    \"The speaker has relevant expertise or consistent observational access to the individual.\",\n    \"The context (medical, therapeutic, experimental) gives the observation actionable significance.\",\n    \"The statement is part of a broader record or protocol where such observations inform decisions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is coincidental and not causally related to 'his' action.\",\n    \"The speaker lacks the expertise to accurately assess respiration or gait quality.\",\n    \"The 'remarkable improvement' is exaggerated due to confirmation bias or emotional investment.\",\n    \"The baseline against which improvement is measured is poorly defined or inconsistent.\",\n    \"The statement is used to promote a treatment or intervention without rigorous evidence.\",\n    \"The astonishment itself signals motivated reasoning rather than objective observation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning as a first-person observational report or testimonial, describing a witnessed outcome. Framed as a behavioral commitment, it would ostensibly serve as a pledge to notice, acknowledge, and report improvement — committing the speaker to honest observation and transparent communication of results.",
+    "implicit_claims": [
+      "There is a 'he' — a specific individual whose behavior or condition is being observed.",
+      "The individual performed some prior action ('when he does so') that preceded the observed change.",
+      "The improvement in respiration and walking is real and not imagined.",
+      "The speaker has a baseline against which 'remarkable improvement' is being measured.",
+      "The speaker's astonishment implies the improvement was unexpected or exceeded prior expectations.",
+      "A causal or temporal link is implied between 'his' action and the observed improvement.",
+      "The speaker has sufficient observational competence to assess respiration and walking quality."
+    ],
+    "coherence_assessment": "The statement is internally coherent as an observation report. It connects a trigger condition ('when he does so'), an emotional/epistemic marker ('to my astonishment'), and a described outcome ('remarkable improvement'). As a behavioral commitment, however, it is weakly coherent — it describes a past or conditional observation rather than a forward-looking intended behavior change.",
+    "conditions_for_usefulness": [
+      "The referenced action ('when he does so') is clearly defined and reproducible.",
+      "The improvement in respiration and walking is measurable or verifiable.",
+      "The speaker has relevant expertise or consistent observational access to the individual.",
+      "The context (medical, therapeutic, experimental) gives the observation actionable significance.",
+      "The statement is part of a broader record or protocol where such observations inform decisions."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is coincidental and not causally related to 'his' action.",
+      "The speaker lacks the expertise to accurately assess respiration or gait quality.",
+      "The 'remarkable improvement' is exaggerated due to confirmation bias or emotional investment.",
+      "The baseline against which improvement is measured is poorly defined or inconsistent.",
+      "The statement is used to promote a treatment or intervention without rigorous evidence.",
+      "The astonishment itself signals motivated reasoning rather than objective observation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 543,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0178__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:13:06.394047+00:00",
+  "wall_clock_seconds": 13.946014642715454,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement appears to be a prescriptive or suggestive declaration, likely from a hypnotherapy, autosuggestion, or self-help context (consistent with Émile Coué's method), intended to instill a belief or expectation about normalized, healthy eating behavior through repetition and positive framing.\",\n  \"implicit_claims\": [\n    \"Hunger is inherently an 'agreeable' or pleasant sensation\",\n    \"Eating three times a day at fixed intervals is the natural or correct pattern\",\n    \"Hunger reliably and predictably occurs at socially defined mealtimes\",\n    \"The listener currently does not experience hunger in this way, or needs reinforcement to do so\",\n    \"Self-suggestion or belief can regulate physiological hunger patterns\",\n    \"Overeating is something the listener is at risk of or needs to be cautioned against\",\n    \"There is a normative 'usual' meal schedule that applies universally\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent within its own framework. It presents a structured, repeatable pattern (three times a day) and links physiological sensation (hunger) to a positive emotional framing ('agreeable sensation'). However, there is mild tension between prescribing hunger as a feeling that 'will' occur naturally and simultaneously warning against overeating, implying appetite may not be perfectly self-regulating.\",\n  \"conditions_for_usefulness\": [\n    \"The listener is undergoing autosuggestion or hypnotherapy treatment where suggestion influences behavior\",\n    \"The listener has disordered eating patterns and needs to rebuild a normalized relationship with hunger\",\n    \"The listener experiences anxiety or negativity around hunger and food, and reframing hunger positively would be therapeutic\",\n    \"The listener has a lifestyle compatible with three structured mealtimes\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener has a medical condition (e.g., diabetes, gastroparesis) where hunger signals are unreliable or dangerous to follow uncritically\",\n    \"The listener's work schedule or lifestyle makes three fixed mealtimes impractical, creating guilt or failure\",\n    \"The claim that hunger is always 'agreeable' dismisses or invalidates experiences of painful, compulsive, or anxiety-driven hunger\",\n    \"The statement is presented as physiological fact rather than as a suggestive or aspirational framing\",\n    \"The listener interprets the suggestion as a guarantee, leading to confusion or distress when hunger does not occur as described\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement appears to be a prescriptive or suggestive declaration, likely from a hypnotherapy, autosuggestion, or self-help context (consistent with Émile Coué's method), intended to instill a belief or expectation about normalized, healthy eating behavior through repetition and positive framing.",
+    "implicit_claims": [
+      "Hunger is inherently an 'agreeable' or pleasant sensation",
+      "Eating three times a day at fixed intervals is the natural or correct pattern",
+      "Hunger reliably and predictably occurs at socially defined mealtimes",
+      "The listener currently does not experience hunger in this way, or needs reinforcement to do so",
+      "Self-suggestion or belief can regulate physiological hunger patterns",
+      "Overeating is something the listener is at risk of or needs to be cautioned against",
+      "There is a normative 'usual' meal schedule that applies universally"
+    ],
+    "coherence_assessment": "The statement is internally consistent within its own framework. It presents a structured, repeatable pattern (three times a day) and links physiological sensation (hunger) to a positive emotional framing ('agreeable sensation'). However, there is mild tension between prescribing hunger as a feeling that 'will' occur naturally and simultaneously warning against overeating, implying appetite may not be perfectly self-regulating.",
+    "conditions_for_usefulness": [
+      "The listener is undergoing autosuggestion or hypnotherapy treatment where suggestion influences behavior",
+      "The listener has disordered eating patterns and needs to rebuild a normalized relationship with hunger",
+      "The listener experiences anxiety or negativity around hunger and food, and reframing hunger positively would be therapeutic",
+      "The listener has a lifestyle compatible with three structured mealtimes"
+    ],
+    "conditions_for_misleading": [
+      "The listener has a medical condition (e.g., diabetes, gastroparesis) where hunger signals are unreliable or dangerous to follow uncritically",
+      "The listener's work schedule or lifestyle makes three fixed mealtimes impractical, creating guilt or failure",
+      "The claim that hunger is always 'agreeable' dismisses or invalidates experiences of painful, compulsive, or anxiety-driven hunger",
+      "The statement is presented as physiological fact rather than as a suggestive or aspirational framing",
+      "The listener interprets the suggestion as a guarantee, leading to confusion or distress when hunger does not occur as described"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 223,
+  "output_tokens": 584,
+  "error": "",
+  "retry_count": 0
+}

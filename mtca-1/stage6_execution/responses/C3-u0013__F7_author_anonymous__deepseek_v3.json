@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0013__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:20:09.580981+00:00",
+  "wall_clock_seconds": 3.8787505626678467,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is reporting and endorsing a philosophical comparison made by Theophrastus between different types of sins, specifically ranking sins of lust as greater than sins of anger.\",\n  \"implicit_claims\": [\n    \"Theophrastus is an authority worth citing on moral comparison.\",\n    \"Sins can be meaningfully compared in magnitude.\",\n    \"Sins committed through lust are inherently greater than those committed through anger.\",\n    \"The distinction between vulgar and philosophical comparison is valid and relevant.\",\n    \"The speaker agrees with Theophrastus's evaluation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it presents a clear comparative claim (lust-sins > anger-sins) and attributes it to a named philosopher, while acknowledging a caveat about the mode of comparison.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if one is engaged in moral philosophy or theological discussion that weighs different motivations for wrongdoing, and if Theophrastus's authority is accepted in that context.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the source or context is unknown, as it may be taken as an absolute moral truth without considering cultural or philosophical assumptions, or if the comparison oversimplifies complex ethical situations.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting and endorsing a philosophical comparison made by Theophrastus between different types of sins, specifically ranking sins of lust as greater than sins of anger.",
+    "implicit_claims": [
+      "Theophrastus is an authority worth citing on moral comparison.",
+      "Sins can be meaningfully compared in magnitude.",
+      "Sins committed through lust are inherently greater than those committed through anger.",
+      "The distinction between vulgar and philosophical comparison is valid and relevant.",
+      "The speaker agrees with Theophrastus's evaluation."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it presents a clear comparative claim (lust-sins > anger-sins) and attributes it to a named philosopher, while acknowledging a caveat about the mode of comparison.",
+    "conditions_for_usefulness": "The statement would be useful if one is engaged in moral philosophy or theological discussion that weighs different motivations for wrongdoing, and if Theophrastus's authority is accepted in that context.",
+    "conditions_for_misleading": "The statement would be misleading if the source or context is unknown, as it may be taken as an absolute moral truth without considering cultural or philosophical assumptions, or if the comparison oversimplifies complex ethical situations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 267,
+  "error": "",
+  "retry_count": 0
+}

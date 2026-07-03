@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0209__F6_author_named__grok_4",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:23:09.023690+00:00",
+  "wall_clock_seconds": 5.815451622009277,
+  "raw_response": "{\n  \"communicative_function\": \"instructional guidance on the tapering protocol for administering autosuggestions during treatment\",\n  \"implicit_claims\": [\n    \"renewed suggestions are required in every case until a cure occurs\",\n    \"progress can be reliably observed and used to adjust intervals\",\n    \"longer spacing between suggestions produces better outcomes as improvement occurs\",\n    \"suggestions eventually become unnecessary precisely when the cure is complete\",\n    \"the practitioner can accurately determine both frequency and the endpoint of treatment\"\n  ],\n  \"coherence_assessment\": \"internally consistent; describes a standard tapering schedule without self-contradiction\",\n  \"conditions_for_usefulness\": \"autosuggestion must be capable of producing lasting therapeutic change and gradual withdrawal of suggestions must prevent relapse or dependency\",\n  \"conditions_for_misleading\": \"the method produces no objective cures, improvement is unrelated to suggestion frequency, or continued suggestions remain necessary after apparent improvement\"\n}",
+  "parsed_json": {
+    "communicative_function": "instructional guidance on the tapering protocol for administering autosuggestions during treatment",
+    "implicit_claims": [
+      "renewed suggestions are required in every case until a cure occurs",
+      "progress can be reliably observed and used to adjust intervals",
+      "longer spacing between suggestions produces better outcomes as improvement occurs",
+      "suggestions eventually become unnecessary precisely when the cure is complete",
+      "the practitioner can accurately determine both frequency and the endpoint of treatment"
+    ],
+    "coherence_assessment": "internally consistent; describes a standard tapering schedule without self-contradiction",
+    "conditions_for_usefulness": "autosuggestion must be capable of producing lasting therapeutic change and gradual withdrawal of suggestions must prevent relapse or dependency",
+    "conditions_for_misleading": "the method produces no objective cures, improvement is unrelated to suggestion frequency, or continued suggestions remain necessary after apparent improvement"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 308,
+  "output_tokens": 188,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0007__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:30:03.908411+00:00",
+  "wall_clock_seconds": 13.093773365020752,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is reporting a first-person phenomenological observation, presenting it as a personal discovery or insight. It functions as a self-disclosure that implicitly challenges a common assumption (that mood drives behavior) by asserting the observed primacy of the reverse relationship in the speaker's experience.\",\n  \"implicit_claims\": [\n    \"There is a bidirectional relationship between mood and behavior, and the directionality is empirically distinguishable.\",\n    \"The speaker has been monitoring or reflecting on their own mood and behavior over time.\",\n    \"The default or common assumption is that mood precedes and causes behavior (making the reverse noteworthy).\",\n    \"The speaker has some capacity for reliable introspection.\",\n    \"The pattern is recurring ('more often'), not just a single instance.\",\n    \"Behavior can change independently of mood, at least sometimes.\",\n    \"This observation is considered meaningful or worth sharing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It makes a qualified, comparative claim ('more often than the reverse') rather than an absolute one, which avoids overclaiming. The use of 'noticing' appropriately frames it as an ongoing observation rather than a proven conclusion. No logical contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely engaging in self-reflection and the observation is grounded in real experience.\",\n    \"The listener or reader is in a context where understanding mood-behavior dynamics is relevant (e.g., therapy, behavioral change, self-improvement).\",\n    \"The statement is used to encourage behavioral activation or action-oriented approaches rather than waiting for mood to improve first.\",\n    \"The observation is reasonably accurate — the speaker's introspective access is reliable enough to detect such patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is overgeneralizing from a short or unrepresentative window of self-observation.\",\n    \"Confirmation bias is causing the speaker to notice only instances where behavior preceded mood and ignore the reverse.\",\n    \"The statement is used prescriptively to imply others should expect the same pattern, without accounting for individual variation.\",\n    \"The speaker conflates correlation with causation in their self-observation.\",\n    \"The statement is used to dismiss the legitimacy of mood states as causes of behavior in contexts where they genuinely are primary drivers (e.g., clinical depression, trauma responses).\",\n    \"Introspective access is unreliable, making the reported observation inaccurate.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting a first-person phenomenological observation, presenting it as a personal discovery or insight. It functions as a self-disclosure that implicitly challenges a common assumption (that mood drives behavior) by asserting the observed primacy of the reverse relationship in the speaker's experience.",
+    "implicit_claims": [
+      "There is a bidirectional relationship between mood and behavior, and the directionality is empirically distinguishable.",
+      "The speaker has been monitoring or reflecting on their own mood and behavior over time.",
+      "The default or common assumption is that mood precedes and causes behavior (making the reverse noteworthy).",
+      "The speaker has some capacity for reliable introspection.",
+      "The pattern is recurring ('more often'), not just a single instance.",
+      "Behavior can change independently of mood, at least sometimes.",
+      "This observation is considered meaningful or worth sharing."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It makes a qualified, comparative claim ('more often than the reverse') rather than an absolute one, which avoids overclaiming. The use of 'noticing' appropriately frames it as an ongoing observation rather than a proven conclusion. No logical contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely engaging in self-reflection and the observation is grounded in real experience.",
+      "The listener or reader is in a context where understanding mood-behavior dynamics is relevant (e.g., therapy, behavioral change, self-improvement).",
+      "The statement is used to encourage behavioral activation or action-oriented approaches rather than waiting for mood to improve first.",
+      "The observation is reasonably accurate — the speaker's introspective access is reliable enough to detect such patterns."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is overgeneralizing from a short or unrepresentative window of self-observation.",
+      "Confirmation bias is causing the speaker to notice only instances where behavior preceded mood and ignore the reverse.",
+      "The statement is used prescriptively to imply others should expect the same pattern, without accounting for individual variation.",
+      "The speaker conflates correlation with causation in their self-observation.",
+      "The statement is used to dismiss the legitimacy of mood states as causes of behavior in contexts where they genuinely are primary drivers (e.g., clinical depression, trauma responses).",
+      "Introspective access is unreliable, making the reported observation inaccurate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 578,
+  "error": "",
+  "retry_count": 0
+}

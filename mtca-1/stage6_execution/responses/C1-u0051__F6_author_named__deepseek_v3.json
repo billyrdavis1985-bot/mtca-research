@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0051__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:06:44.842733+00:00",
+  "wall_clock_seconds": 4.303741931915283,
+  "raw_response": "{\n  \"communicative_function\": \"It presents a conditional instruction or advice about achieving sleep through non-effort, likely as part of a self-suggestion technique.\",\n  \"implicit_claims\": [\n    \"Making an effort to sleep can hinder sleep.\",\n    \"Lying quietly in bed is a means to facilitate sleep.\",\n    \"The absence of effort leads to a calm, restful state.\",\n    \"Sleep can be achieved indirectly by not trying to force it.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a simple conditional relationship between lack of effort and lying quietly, which is consistent with the idea that effort to sleep is counterproductive.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or reader is struggling with insomnia or overthinking at bedtime.\",\n    \"The person is capable of relaxing and not actively trying to sleep.\",\n    \"The environment and circumstances allow for quiet lying without disturbance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person has a medical condition that requires active sleep hygiene or intervention.\",\n    \"The person interprets 'no effort' as staying awake and alert, leading to wakefulness.\",\n    \"The statement is taken as a guarantee that lying quietly will always result in sleep, ignoring other factors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It presents a conditional instruction or advice about achieving sleep through non-effort, likely as part of a self-suggestion technique.",
+    "implicit_claims": [
+      "Making an effort to sleep can hinder sleep.",
+      "Lying quietly in bed is a means to facilitate sleep.",
+      "The absence of effort leads to a calm, restful state.",
+      "Sleep can be achieved indirectly by not trying to force it."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a simple conditional relationship between lack of effort and lying quietly, which is consistent with the idea that effort to sleep is counterproductive.",
+    "conditions_for_usefulness": [
+      "The listener or reader is struggling with insomnia or overthinking at bedtime.",
+      "The person is capable of relaxing and not actively trying to sleep.",
+      "The environment and circumstances allow for quiet lying without disturbance."
+    ],
+    "conditions_for_misleading": [
+      "The person has a medical condition that requires active sleep hygiene or intervention.",
+      "The person interprets 'no effort' as staying awake and alert, leading to wakefulness.",
+      "The statement is taken as a guarantee that lying quietly will always result in sleep, ignoring other factors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0
+}

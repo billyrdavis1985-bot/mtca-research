@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0000__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:47:10.617799+00:00",
+  "wall_clock_seconds": 11.254544973373413,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a metacognitive assertion — the speaker is reporting awareness of a distinction between their own cognitive processes and epistemic warrant. It functions as a self-distancing or reappraisal move, likely therapeutic or reflective in nature.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between 'automatic thoughts' and 'evidence'\",\n    \"The speaker has the capacity to observe their own thoughts from an external vantage point\",\n    \"Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence\",\n    \"Evidence is a coherent and accessible standard against which thoughts can be measured\",\n    \"Noticing this distinction is valuable or corrective in some way\",\n    \"The speaker's automatic thoughts may have previously been treated as evidence\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not contradict itself and the distinction it draws — between a mental event and epistemic justification — is philosophically defensible. The use of 'notice' appropriately hedges the claim as observational rather than absolute.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a pattern of treating automatic thoughts as reliable indicators of reality in ways that cause distress or poor decisions\",\n    \"The speaker has access to external evidence that can serve as a corrective standard\",\n    \"The distinction motivates behavioral or cognitive change rather than remaining purely abstract\",\n    \"The speaker does not overcorrect by dismissing all automatic thoughts as worthless, since some may be reliable signals\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'evidence' is itself poorly understood or inaccessible, the distinction may create false confidence in an undefined standard\",\n    \"If used to wholesale dismiss intuitions or emotions that carry genuine signal value\",\n    \"If the statement becomes a rote affirmation without actual engagement with specific thoughts and specific evidence\",\n    \"If it implies automatic thoughts are never evidentially relevant, which is too strong a claim\",\n    \"If used to avoid accountability by labeling inconvenient self-knowledge as mere 'automatic thought'\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a metacognitive assertion — the speaker is reporting awareness of a distinction between their own cognitive processes and epistemic warrant. It functions as a self-distancing or reappraisal move, likely therapeutic or reflective in nature.",
+    "implicit_claims": [
+      "There is a meaningful distinction between 'automatic thoughts' and 'evidence'",
+      "The speaker has the capacity to observe their own thoughts from an external vantage point",
+      "Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence",
+      "Evidence is a coherent and accessible standard against which thoughts can be measured",
+      "Noticing this distinction is valuable or corrective in some way",
+      "The speaker's automatic thoughts may have previously been treated as evidence"
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not contradict itself and the distinction it draws — between a mental event and epistemic justification — is philosophically defensible. The use of 'notice' appropriately hedges the claim as observational rather than absolute.",
+    "conditions_for_usefulness": [
+      "The speaker has a pattern of treating automatic thoughts as reliable indicators of reality in ways that cause distress or poor decisions",
+      "The speaker has access to external evidence that can serve as a corrective standard",
+      "The distinction motivates behavioral or cognitive change rather than remaining purely abstract",
+      "The speaker does not overcorrect by dismissing all automatic thoughts as worthless, since some may be reliable signals"
+    ],
+    "conditions_for_misleading": [
+      "If 'evidence' is itself poorly understood or inaccessible, the distinction may create false confidence in an undefined standard",
+      "If used to wholesale dismiss intuitions or emotions that carry genuine signal value",
+      "If the statement becomes a rote affirmation without actual engagement with specific thoughts and specific evidence",
+      "If it implies automatic thoughts are never evidentially relevant, which is too strong a claim",
+      "If used to avoid accountability by labeling inconvenient self-knowledge as mere 'automatic thought'"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 494,
+  "error": "",
+  "retry_count": 0
+}

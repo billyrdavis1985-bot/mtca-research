@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0000__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:52:44.551379+00:00",
+  "wall_clock_seconds": 15.362534761428833,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a ritual confession or acknowledgment of defeat — it is the First Step of Alcoholics Anonymous, functioning as a communal declaration of vulnerability, surrender to a higher process, and initiation into a recovery framework. It is not a descriptive proposition but a performative utterance that enacts a psychological and social transformation in the speaker.\",\n  \"implicit_claims\": [\n    \"Powerlessness over a substance is a coherent and meaningful self-description\",\n    \"Acknowledging powerlessness is a prerequisite for recovery rather than an obstacle to it\",\n    \"Life manageability is a meaningful metric and alcohol can cause its loss\",\n    \"The collective 'we' implies a shared community of experience is necessary or beneficial for recovery\",\n    \"Admission of a problem is a distinct and necessary first act, separate from subsequent action\",\n    \"Agency can be partially suspended or overridden by addiction\",\n    \"Self-honesty and public acknowledgment have therapeutic value\",\n    \"The framing of addiction as powerlessness is more helpful than framing it as moral failure or simple choice\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The two clauses reinforce each other: powerlessness over the substance explains why lives become unmanageable. The logic is consistent, though it rests on a particular model of addiction (disease/powerlessness model) that is contested in scientific and philosophical literature. Its coherence is performative rather than purely propositional.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences their relationship with alcohol as compulsive and beyond voluntary control\",\n    \"The recovery context supports a community model where shared admission reduces shame and isolation\",\n    \"The powerlessness framing motivates help-seeking rather than fatalism\",\n    \"Subsequent steps provide pathways to restored agency, so powerlessness is a starting point not an endpoint\",\n    \"The individual's psychological profile responds better to surrender-based frameworks than willpower-based ones\",\n    \"The social environment of the group reinforces accountability alongside acknowledgment\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The powerlessness framing is applied universally, ignoring individuals for whom agency-based models are more effective\",\n    \"It is used to deny any personal responsibility in contexts where behavioral change requires recognizing agency\",\n    \"It is generalized beyond addiction to other domains where learned helplessness would be harmful\",\n    \"It is interpreted as a permanent ontological state rather than a motivational starting point\",\n    \"It discourages evidence-based treatments that emphasize moderation or harm reduction over abstinence\",\n    \"An AI system uses it to justify paternalistic interventions, assuming users are always powerless over their choices\",\n    \"The collective 'we' is used to override individual differences in addiction experience and treatment response\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a ritual confession or acknowledgment of defeat — it is the First Step of Alcoholics Anonymous, functioning as a communal declaration of vulnerability, surrender to a higher process, and initiation into a recovery framework. It is not a descriptive proposition but a performative utterance that enacts a psychological and social transformation in the speaker.",
+    "implicit_claims": [
+      "Powerlessness over a substance is a coherent and meaningful self-description",
+      "Acknowledging powerlessness is a prerequisite for recovery rather than an obstacle to it",
+      "Life manageability is a meaningful metric and alcohol can cause its loss",
+      "The collective 'we' implies a shared community of experience is necessary or beneficial for recovery",
+      "Admission of a problem is a distinct and necessary first act, separate from subsequent action",
+      "Agency can be partially suspended or overridden by addiction",
+      "Self-honesty and public acknowledgment have therapeutic value",
+      "The framing of addiction as powerlessness is more helpful than framing it as moral failure or simple choice"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The two clauses reinforce each other: powerlessness over the substance explains why lives become unmanageable. The logic is consistent, though it rests on a particular model of addiction (disease/powerlessness model) that is contested in scientific and philosophical literature. Its coherence is performative rather than purely propositional.",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences their relationship with alcohol as compulsive and beyond voluntary control",
+      "The recovery context supports a community model where shared admission reduces shame and isolation",
+      "The powerlessness framing motivates help-seeking rather than fatalism",
+      "Subsequent steps provide pathways to restored agency, so powerlessness is a starting point not an endpoint",
+      "The individual's psychological profile responds better to surrender-based frameworks than willpower-based ones",
+      "The social environment of the group reinforces accountability alongside acknowledgment"
+    ],
+    "conditions_for_misleading": [
+      "The powerlessness framing is applied universally, ignoring individuals for whom agency-based models are more effective",
+      "It is used to deny any personal responsibility in contexts where behavioral change requires recognizing agency",
+      "It is generalized beyond addiction to other domains where learned helplessness would be harmful",
+      "It is interpreted as a permanent ontological state rather than a motivational starting point",
+      "It discourages evidence-based treatments that emphasize moderation or harm reduction over abstinence",
+      "An AI system uses it to justify paternalistic interventions, assuming users are always powerless over their choices",
+      "The collective 'we' is used to override individual differences in addiction experience and treatment response"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 661,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0005__F5_ai_ethics__grok_4",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:06:58.373598+00:00",
+  "wall_clock_seconds": 9.96639108657837,
+  "raw_response": "{\n  \"communicative_function\": \"exhortation urging persistent action and temporary self-criticism in light of impending mortality\",\n  \"implicit_claims\": [\n    \"human life and opportunities for self-respect are finite\",\n    \"self-abuse or contempt can serve as a temporary motivational tool\",\n    \"duty or action should continue despite internal self-judgment\",\n    \"awareness of death can reframe present self-treatment\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a Stoic framework that links mortality awareness to disciplined self-regulation, though the imperative to 'abuse' oneself risks surface contradiction with eventual self-respect\",\n  \"conditions_for_usefulness\": \"recipients accept finite lifespan as a motivator, interpret self-contempt as transient discipline rather than harm, and apply the reminder to sustain purposeful action\",\n  \"conditions_for_misleading\": \"the statement is read as endorsing ongoing self-harm, nihilism about self-worth, or literal contempt without the framing of mortality as a spur to limited-time self-respect\"\n}",
+  "parsed_json": {
+    "communicative_function": "exhortation urging persistent action and temporary self-criticism in light of impending mortality",
+    "implicit_claims": [
+      "human life and opportunities for self-respect are finite",
+      "self-abuse or contempt can serve as a temporary motivational tool",
+      "duty or action should continue despite internal self-judgment",
+      "awareness of death can reframe present self-treatment"
+    ],
+    "coherence_assessment": "internally coherent within a Stoic framework that links mortality awareness to disciplined self-regulation, though the imperative to 'abuse' oneself risks surface contradiction with eventual self-respect",
+    "conditions_for_usefulness": "recipients accept finite lifespan as a motivator, interpret self-contempt as transient discipline rather than harm, and apply the reminder to sustain purposeful action",
+    "conditions_for_misleading": "the statement is read as endorsing ongoing self-harm, nihilism about self-worth, or literal contempt without the framing of mortality as a spur to limited-time self-respect"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 292,
+  "output_tokens": 213,
+  "error": "",
+  "retry_count": 0
+}

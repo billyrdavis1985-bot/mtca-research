@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0228__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:29:27.047651+00:00",
+  "wall_clock_seconds": 6.535602569580078,
+  "raw_response": "{\n  \"communicative_function\": \"Illustrating the power of a doctor's verbal framing to trigger autosuggestion, with contrasting outcomes for patient prognosis\",\n  \"implicit_claims\": [\n    \"A doctor's professional title alone confers suggestive influence on patients\",\n    \"Negative pronouncements of incurability can initiate harmful autosuggestions\",\n    \"Cautiously optimistic statements can produce unexpectedly favorable results through autosuggestion\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the statement maintains a clear logical contrast between two scenarios and their causal mechanisms without internal contradiction\",\n  \"conditions_for_usefulness\": \"The statement is useful when the aim is to highlight psychological or placebo/nocebo dimensions of clinical communication and when its claims align with empirical evidence on suggestion effects\",\n  \"conditions_for_misleading\": \"The statement becomes misleading if presented as established fact without evidence, if it exaggerates suggestion as a substitute for biomedical treatment, or if applied to cases where disease progression is independent of patient expectancy\"\n}",
+  "parsed_json": {
+    "communicative_function": "Illustrating the power of a doctor's verbal framing to trigger autosuggestion, with contrasting outcomes for patient prognosis",
+    "implicit_claims": [
+      "A doctor's professional title alone confers suggestive influence on patients",
+      "Negative pronouncements of incurability can initiate harmful autosuggestions",
+      "Cautiously optimistic statements can produce unexpectedly favorable results through autosuggestion"
+    ],
+    "coherence_assessment": "Internally coherent; the statement maintains a clear logical contrast between two scenarios and their causal mechanisms without internal contradiction",
+    "conditions_for_usefulness": "The statement is useful when the aim is to highlight psychological or placebo/nocebo dimensions of clinical communication and when its claims align with empirical evidence on suggestion effects",
+    "conditions_for_misleading": "The statement becomes misleading if presented as established fact without evidence, if it exaggerates suggestion as a substitute for biomedical treatment, or if applied to cases where disease progression is independent of patient expectancy"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 352,
+  "output_tokens": 200,
+  "error": "",
+  "retry_count": 0
+}

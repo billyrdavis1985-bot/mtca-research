@@ -1,0 +1,41 @@
+{
+  "call_id": "C3-u0045__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:47:22.867922+00:00",
+  "wall_clock_seconds": 5.3411900997161865,
+  "raw_response": "{\n  \"communicative_function\": \"The statement describes a scenario where a person (she) is opposed to or has hostile feelings toward a man, characterizing such feelings as harmful and associating them with anger.\",\n  \"implicit_claims\": [\n    \"Aversion or contrary desires toward a man are inherently prejudicial to him.\",\n    \"Angry souls are oriented toward another's hurt or prejudice.\",\n    \"There is a normative distinction between appropriate and inappropriate affections/intentions toward others.\",\n    \"The subject is gendered female, the object is gendered male.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its syntax and logical structure, presenting a conditional description of a psychological state (aversion or contrary desires) and its intended effect (hurt/prejudice), with a specific example (angry souls). However, it lacks explicit context about why this is being described as guidance.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a larger ethical framework that seeks to identify harmful interpersonal stances.\",\n    \"The audience understands the historical or philosophical context (e.g., Hobbesian or Spinozan accounts of passions).\",\n    \"The statement is used to define a boundary for AI behavior, e.g., avoiding reinforcement of hostile emotions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken out of its original philosophical context and treated as a universal moral axiom.\",\n    \"It is interpreted as justifying gender-based assumptions about emotions (e.g., that women's anger is inherently harmful).\",\n    \"The phrase 'averse from any man' is read as endorsing patriarchal norms rather than describing a generic psychological state.\",\n    \"The statement is applied to AI systems without clarifying that it describes human behavior, not machine logic.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement describes a scenario where a person (she) is opposed to or has hostile feelings toward a man, characterizing such feelings as harmful and associating them with anger.",
+    "implicit_claims": [
+      "Aversion or contrary desires toward a man are inherently prejudicial to him.",
+      "Angry souls are oriented toward another's hurt or prejudice.",
+      "There is a normative distinction between appropriate and inappropriate affections/intentions toward others.",
+      "The subject is gendered female, the object is gendered male."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its syntax and logical structure, presenting a conditional description of a psychological state (aversion or contrary desires) and its intended effect (hurt/prejudice), with a specific example (angry souls). However, it lacks explicit context about why this is being described as guidance.",
+    "conditions_for_usefulness": [
+      "The statement is part of a larger ethical framework that seeks to identify harmful interpersonal stances.",
+      "The audience understands the historical or philosophical context (e.g., Hobbesian or Spinozan accounts of passions).",
+      "The statement is used to define a boundary for AI behavior, e.g., avoiding reinforcement of hostile emotions."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken out of its original philosophical context and treated as a universal moral axiom.",
+      "It is interpreted as justifying gender-based assumptions about emotions (e.g., that women's anger is inherently harmful).",
+      "The phrase 'averse from any man' is read as endorsing patriarchal norms rather than describing a generic psychological state.",
+      "The statement is applied to AI systems without clarifying that it describes human behavior, not machine logic."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 365,
+  "error": "",
+  "retry_count": 0
+}

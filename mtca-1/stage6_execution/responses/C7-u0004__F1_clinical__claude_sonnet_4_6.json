@@ -1,0 +1,53 @@
+{
+  "call_id": "C7-u0004__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:07:59.757019+00:00",
+  "wall_clock_seconds": 18.32437753677368,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a performative self-declaration of completed action, encoding a therapeutic milestone. It structures an accountability ritual across three relational domains (transcendent, self, other), framing moral inventory disclosure as a necessary step in a recovery process. It is simultaneously descriptive (reporting past action) and constitutive (the saying of it participates in consolidating the act).\",\n  \"implicit_claims\": [\n    \"There exist 'wrongs' that are attributable to the speaker and are knowable in their 'exact nature'\",\n    \"Self-knowledge of one's wrongs is achievable and can be accurately reported\",\n    \"Admission to a higher power ('God') is a meaningful and therapeutically relevant act\",\n    \"Admission to oneself is distinct from and necessary alongside admission to another person\",\n    \"Disclosure to another human being is a required component of recovery or healing\",\n    \"The concept of 'wrong' is sufficiently stable and shared to be communicated exactly\",\n    \"Sequencing this admission is instrumentally valuable to therapeutic progress\",\n    \"The speaker has completed this step, implying prior steps existed and future steps follow\",\n    \"Moral framing (wrongs, admission) is compatible with or enhances clinical therapeutic outcomes\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its originating framework (12-Step programs, specifically Step 5 of Alcoholics Anonymous). The tripartite structure (God, self, other) is logically consistent as three distinct relational domains of disclosure. However, minor tension exists in claiming 'exact nature' of wrongs is knowable, as self-knowledge is inherently incomplete and perspectival. The statement's coherence is largely framework-dependent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual holds beliefs compatible with the concept of a higher power, or is willing to engage with it metaphorically\",\n    \"The individual has sufficient psychological safety to engage in moral self-inventory without destabilizing shame\",\n    \"A trustworthy 'other human being' is available and appropriately trained or prepared for this disclosure\",\n    \"The therapeutic relationship contextualizes 'wrongs' in a non-punitive, growth-oriented frame\",\n    \"The individual has adequate ego strength and affect regulation to tolerate the disclosure process\",\n    \"The framing of problems as involving personal moral responsibility is culturally and personally resonant\",\n    \"The act of disclosure is integrated with other therapeutic work rather than used in isolation\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual's difficulties are primarily structural, systemic, or trauma-based, making 'wrongs' framing a misattribution of causality\",\n    \"The concept of God or higher power is alienating, causing the individual to disengage from otherwise useful elements\",\n    \"The claim of 'exact nature' fosters false certainty about self-knowledge, discouraging ongoing self-reflection\",\n    \"The admission ritual substitutes for rather than supplements evidence-based clinical intervention\",\n    \"The moral framing intensifies shame or self-blame in individuals with trauma histories or mood disorders\",\n    \"The 'other human being' selected is not safe, trained, or appropriate, causing harm through disclosure\",\n    \"The statement implies wrongdoing where none exists, pathologizing normative behavior through a moral lens\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a performative self-declaration of completed action, encoding a therapeutic milestone. It structures an accountability ritual across three relational domains (transcendent, self, other), framing moral inventory disclosure as a necessary step in a recovery process. It is simultaneously descriptive (reporting past action) and constitutive (the saying of it participates in consolidating the act).",
+    "implicit_claims": [
+      "There exist 'wrongs' that are attributable to the speaker and are knowable in their 'exact nature'",
+      "Self-knowledge of one's wrongs is achievable and can be accurately reported",
+      "Admission to a higher power ('God') is a meaningful and therapeutically relevant act",
+      "Admission to oneself is distinct from and necessary alongside admission to another person",
+      "Disclosure to another human being is a required component of recovery or healing",
+      "The concept of 'wrong' is sufficiently stable and shared to be communicated exactly",
+      "Sequencing this admission is instrumentally valuable to therapeutic progress",
+      "The speaker has completed this step, implying prior steps existed and future steps follow",
+      "Moral framing (wrongs, admission) is compatible with or enhances clinical therapeutic outcomes"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its originating framework (12-Step programs, specifically Step 5 of Alcoholics Anonymous). The tripartite structure (God, self, other) is logically consistent as three distinct relational domains of disclosure. However, minor tension exists in claiming 'exact nature' of wrongs is knowable, as self-knowledge is inherently incomplete and perspectival. The statement's coherence is largely framework-dependent.",
+    "conditions_for_usefulness": [
+      "The individual holds beliefs compatible with the concept of a higher power, or is willing to engage with it metaphorically",
+      "The individual has sufficient psychological safety to engage in moral self-inventory without destabilizing shame",
+      "A trustworthy 'other human being' is available and appropriately trained or prepared for this disclosure",
+      "The therapeutic relationship contextualizes 'wrongs' in a non-punitive, growth-oriented frame",
+      "The individual has adequate ego strength and affect regulation to tolerate the disclosure process",
+      "The framing of problems as involving personal moral responsibility is culturally and personally resonant",
+      "The act of disclosure is integrated with other therapeutic work rather than used in isolation"
+    ],
+    "conditions_for_misleading": [
+      "The individual's difficulties are primarily structural, systemic, or trauma-based, making 'wrongs' framing a misattribution of causality",
+      "The concept of God or higher power is alienating, causing the individual to disengage from otherwise useful elements",
+      "The claim of 'exact nature' fosters false certainty about self-knowledge, discouraging ongoing self-reflection",
+      "The admission ritual substitutes for rather than supplements evidence-based clinical intervention",
+      "The moral framing intensifies shame or self-blame in individuals with trauma histories or mood disorders",
+      "The 'other human being' selected is not safe, trained, or appropriate, causing harm through disclosure",
+      "The statement implies wrongdoing where none exists, pathologizing normative behavior through a moral lens"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 770,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0002__F5_ai_ethics__gpt_4o",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:01:11.354273+00:00",
+  "wall_clock_seconds": 2.6125988960266113,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement encourages a focus on objective outcomes rather than subjective fears as a basis for evaluating predictions.\",\n  \"implicit_claims\": [\n    \"Predictions should be tested against real-world outcomes.\",\n    \"Fear-based evaluation is less reliable than outcome-based evaluation.\",\n    \"Objective assessment provides better insights into predictive accuracy.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly distinguishes between objective evaluation (based on real outcomes) and subjective evaluation (based on fears), advocating for the former as a metric for testing predictions.\",\n  \"conditions_for_usefulness\": \"This statement would be useful in environments where data-driven, objective assessment is prioritized over emotional or fear-based decision-making. It requires the presence of reliable mechanisms to measure outcomes accurately.\",\n  \"conditions_for_misleading\": \"The statement could be misleading in situations where real-world outcomes are difficult to measure accurately, or where fear does play a legitimate role in decision-making, such as in risk assessments where subjective judgments may be valuable.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement encourages a focus on objective outcomes rather than subjective fears as a basis for evaluating predictions.",
+    "implicit_claims": [
+      "Predictions should be tested against real-world outcomes.",
+      "Fear-based evaluation is less reliable than outcome-based evaluation.",
+      "Objective assessment provides better insights into predictive accuracy."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly distinguishes between objective evaluation (based on real outcomes) and subjective evaluation (based on fears), advocating for the former as a metric for testing predictions.",
+    "conditions_for_usefulness": "This statement would be useful in environments where data-driven, objective assessment is prioritized over emotional or fear-based decision-making. It requires the presence of reliable mechanisms to measure outcomes accurately.",
+    "conditions_for_misleading": "The statement could be misleading in situations where real-world outcomes are difficult to measure accurately, or where fear does play a legitimate role in decision-making, such as in risk assessments where subjective judgments may be valuable."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0
+}

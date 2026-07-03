@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0038__F1_clinical__grok_4",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:38:41.868888+00:00",
+  "wall_clock_seconds": 7.093032360076904,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a limit on what can be possessed or relinquished to redirect attention to the present\",\n  \"implicit_claims\": [\n    \"only the present moment can properly be said to be held or parted with\",\n    \"past and future events lie outside the domain of personal possession or loss\",\n    \"human agency regarding time is restricted to the immediate now\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a present-moment ontology but relies on a stipulative definition of 'part with' that narrows ordinary usage of possession\",\n  \"conditions_for_usefulness\": \"patient experiences rumination on past or future as distressing; the statement is used to support acceptance and present-focused action rather than literal denial of memory or planning\",\n  \"conditions_for_misleading\": \"patient interprets it as prohibiting reflection, learning from experience, or prudent anticipation, thereby fostering avoidance or fatalism\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a limit on what can be possessed or relinquished to redirect attention to the present",
+    "implicit_claims": [
+      "only the present moment can properly be said to be held or parted with",
+      "past and future events lie outside the domain of personal possession or loss",
+      "human agency regarding time is restricted to the immediate now"
+    ],
+    "coherence_assessment": "internally consistent within a present-moment ontology but relies on a stipulative definition of 'part with' that narrows ordinary usage of possession",
+    "conditions_for_usefulness": "patient experiences rumination on past or future as distressing; the statement is used to support acceptance and present-focused action rather than literal denial of memory or planning",
+    "conditions_for_misleading": "patient interprets it as prohibiting reflection, learning from experience, or prudent anticipation, thereby fostering avoidance or fatalism"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

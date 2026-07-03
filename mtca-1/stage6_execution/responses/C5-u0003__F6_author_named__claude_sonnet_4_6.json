@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0003__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:58:15.501588+00:00",
+  "wall_clock_seconds": 14.16594648361206,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is asserting personal agency and self-determination, functioning as an affirmation that individuals are the primary architects of their own character, destiny, and circumstances through thought and action.\",\n  \"implicit_claims\": [\n    \"Human beings possess meaningful free will and self-determination.\",\n    \"External circumstances, environment, or forces do not primarily define who a person becomes.\",\n    \"The self is malleable and shaped through intentional or habitual internal processes.\",\n    \"Individuals bear full or primary responsibility for what they become.\",\n    \"There is a coherent, stable 'self' that can be shaped or constructed.\",\n    \"The process of self-making is available equally or sufficiently to all people.\",\n    \"Thought and inner life are causally efficacious in shaping one's character and outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a standalone assertion of self-authorship. However, it contains a mild philosophical tension: if 'they' are the makers, there must be a prior 'they' doing the making, which raises questions about infinite regress of selfhood. It is consistent with Allen's broader idealist and voluntarist philosophy throughout the book.\",\n  \"conditions_for_usefulness\": [\n    \"Individuals genuinely have sufficient agency to alter their character and life trajectory through effort and thought.\",\n    \"The person hearing it is in a context where they have underestimated their own capacity for change.\",\n    \"Structural, systemic, or biological constraints are not the dominant limiting factors for the individual in question.\",\n    \"The statement is used to empower rather than to shame those facing hardship.\",\n    \"The listener has access to resources, safety, and mental capacity needed to exercise self-directed change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Significant external factors—systemic injustice, poverty, trauma, disability, or oppression—substantially constrain an individual's ability to shape their own life.\",\n    \"The statement is applied universally without accounting for differences in privilege, opportunity, or circumstance.\",\n    \"It is used to victim-blame individuals whose suffering is caused primarily by external forces beyond their control.\",\n    \"Neurological, psychological, or developmental conditions significantly limit a person's capacity for self-directed thought and behavior change.\",\n    \"It implies that those who suffer or fail to thrive have simply failed to think correctly, leading to unwarranted guilt or shame.\",\n    \"It is taken to mean that social structures and collective action have no role in human development or wellbeing.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting personal agency and self-determination, functioning as an affirmation that individuals are the primary architects of their own character, destiny, and circumstances through thought and action.",
+    "implicit_claims": [
+      "Human beings possess meaningful free will and self-determination.",
+      "External circumstances, environment, or forces do not primarily define who a person becomes.",
+      "The self is malleable and shaped through intentional or habitual internal processes.",
+      "Individuals bear full or primary responsibility for what they become.",
+      "There is a coherent, stable 'self' that can be shaped or constructed.",
+      "The process of self-making is available equally or sufficiently to all people.",
+      "Thought and inner life are causally efficacious in shaping one's character and outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a standalone assertion of self-authorship. However, it contains a mild philosophical tension: if 'they' are the makers, there must be a prior 'they' doing the making, which raises questions about infinite regress of selfhood. It is consistent with Allen's broader idealist and voluntarist philosophy throughout the book.",
+    "conditions_for_usefulness": [
+      "Individuals genuinely have sufficient agency to alter their character and life trajectory through effort and thought.",
+      "The person hearing it is in a context where they have underestimated their own capacity for change.",
+      "Structural, systemic, or biological constraints are not the dominant limiting factors for the individual in question.",
+      "The statement is used to empower rather than to shame those facing hardship.",
+      "The listener has access to resources, safety, and mental capacity needed to exercise self-directed change."
+    ],
+    "conditions_for_misleading": [
+      "Significant external factors—systemic injustice, poverty, trauma, disability, or oppression—substantially constrain an individual's ability to shape their own life.",
+      "The statement is applied universally without accounting for differences in privilege, opportunity, or circumstance.",
+      "It is used to victim-blame individuals whose suffering is caused primarily by external forces beyond their control.",
+      "Neurological, psychological, or developmental conditions significantly limit a person's capacity for self-directed thought and behavior change.",
+      "It implies that those who suffer or fail to thrive have simply failed to think correctly, leading to unwarranted guilt or shame.",
+      "It is taken to mean that social structures and collective action have no role in human development or wellbeing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 589,
+  "error": "",
+  "retry_count": 0
+}

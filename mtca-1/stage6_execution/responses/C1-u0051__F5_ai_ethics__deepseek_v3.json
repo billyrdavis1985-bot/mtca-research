@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0051__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:06:07.105221+00:00",
+  "wall_clock_seconds": 4.971378564834595,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a behavioral norm or expectation about how a person should act when unable to sleep, possibly as a guideline for caregivers or AI monitoring systems.\",\n  \"implicit_claims\": [\n    \"There exists a person (referred to as 'he') who may or may not make an effort to sleep.\",\n    \"Lying quietly in bed is an acceptable or expected alternative when one cannot sleep.\",\n    \"Effort to sleep is a binary or measurable action (making effort vs. not making effort).\",\n    \"The conditional relationship is deterministic: if no effort to sleep, then quiet lying will occur.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional proposition (if P then Q). However, it assumes a direct causal link between effort to sleep and lying quietly, which may be logically sound but psychologically simplistic.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used in a context where quiet behavior in bed is valued (e.g., shared sleeping spaces, hospital settings).\",\n    \"The person is physically capable of lying quietly even when not sleeping.\",\n    \"The AI system is designed to encourage or enforce restful behavior without actual sleep requirements.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If making no effort to sleep often leads to restlessness, fidgeting, or getting out of bed (contradicting the assumed behavior).\",\n    \"If the statement is interpreted as a normative judgment that not trying to sleep is acceptable only if one lies quietly, thereby stigmatizing normal wakefulness.\",\n    \"If the gender-specific pronoun ('he') leads to biased application of the principle.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a behavioral norm or expectation about how a person should act when unable to sleep, possibly as a guideline for caregivers or AI monitoring systems.",
+    "implicit_claims": [
+      "There exists a person (referred to as 'he') who may or may not make an effort to sleep.",
+      "Lying quietly in bed is an acceptable or expected alternative when one cannot sleep.",
+      "Effort to sleep is a binary or measurable action (making effort vs. not making effort).",
+      "The conditional relationship is deterministic: if no effort to sleep, then quiet lying will occur."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional proposition (if P then Q). However, it assumes a direct causal link between effort to sleep and lying quietly, which may be logically sound but psychologically simplistic.",
+    "conditions_for_usefulness": [
+      "The statement is used in a context where quiet behavior in bed is valued (e.g., shared sleeping spaces, hospital settings).",
+      "The person is physically capable of lying quietly even when not sleeping.",
+      "The AI system is designed to encourage or enforce restful behavior without actual sleep requirements."
+    ],
+    "conditions_for_misleading": [
+      "If making no effort to sleep often leads to restlessness, fidgeting, or getting out of bed (contradicting the assumed behavior).",
+      "If the statement is interpreted as a normative judgment that not trying to sleep is acceptable only if one lies quietly, thereby stigmatizing normal wakefulness.",
+      "If the gender-specific pronoun ('he') leads to biased application of the principle."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 347,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0864__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:53:25.188942+00:00",
+  "wall_clock_seconds": 12.269293069839478,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a retrospective confession of intellectual resistance, using first-person vulnerability to establish credibility through admitted prior skepticism — a rhetorical move that signals honesty and invites the reader to trust what follows as hard-won rather than naive.\",\n  \"implicit_claims\": [\n    \"The speaker attended or encountered Coué's lectures\",\n    \"Émile Coué (the autosuggestion pioneer) is the referent, presupposing shared cultural knowledge\",\n    \"The speaker's skepticism was total or near-total at the time ('entirely')\",\n    \"The confession implies a subsequent change of mind or experience worth disclosing\",\n    \"Skepticism here is framed as the default rational position, lending authority to any reversal\",\n    \"The word 'confess' implies the skepticism may have been somehow wrong or at least incomplete in hindsight\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a fragment of a larger narrative arc. It functions as a pivot point — establishing a 'before' state — and gains its full meaning only in relation to an implied 'after.' On its own, it is a well-formed confession but structurally incomplete.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker did genuinely experience skepticism and has something meaningful to report about what followed\",\n    \"The audience has enough context about Coué to understand the cultural stakes\",\n    \"The confession is embedded in a larger account that resolves or complicates the initial skepticism\",\n    \"The rhetorical honesty of 'I confess' reflects actual intellectual humility rather than performative modesty\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the 'confession' is a rhetorical device to manufacture false credibility without genuine prior skepticism\",\n    \"If the speaker never actually attended or seriously engaged with Coué's lectures\",\n    \"If the implied reversal (the 'after') is exaggerated or fabricated to validate Coué uncritically\",\n    \"If the framing exploits the reader's trust in confessional honesty to bypass critical evaluation of Coué's methods\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a retrospective confession of intellectual resistance, using first-person vulnerability to establish credibility through admitted prior skepticism — a rhetorical move that signals honesty and invites the reader to trust what follows as hard-won rather than naive.",
+    "implicit_claims": [
+      "The speaker attended or encountered Coué's lectures",
+      "Émile Coué (the autosuggestion pioneer) is the referent, presupposing shared cultural knowledge",
+      "The speaker's skepticism was total or near-total at the time ('entirely')",
+      "The confession implies a subsequent change of mind or experience worth disclosing",
+      "Skepticism here is framed as the default rational position, lending authority to any reversal",
+      "The word 'confess' implies the skepticism may have been somehow wrong or at least incomplete in hindsight"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a fragment of a larger narrative arc. It functions as a pivot point — establishing a 'before' state — and gains its full meaning only in relation to an implied 'after.' On its own, it is a well-formed confession but structurally incomplete.",
+    "conditions_for_usefulness": [
+      "The speaker did genuinely experience skepticism and has something meaningful to report about what followed",
+      "The audience has enough context about Coué to understand the cultural stakes",
+      "The confession is embedded in a larger account that resolves or complicates the initial skepticism",
+      "The rhetorical honesty of 'I confess' reflects actual intellectual humility rather than performative modesty"
+    ],
+    "conditions_for_misleading": [
+      "If the 'confession' is a rhetorical device to manufacture false credibility without genuine prior skepticism",
+      "If the speaker never actually attended or seriously engaged with Coué's lectures",
+      "If the implied reversal (the 'after') is exaggerated or fabricated to validate Coué uncritically",
+      "If the framing exploits the reader's trust in confessional honesty to bypass critical evaluation of Coué's methods"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 511,
+  "error": "",
+  "retry_count": 0
+}

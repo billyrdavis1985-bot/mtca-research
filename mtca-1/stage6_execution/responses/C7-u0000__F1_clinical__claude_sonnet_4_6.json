@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0000__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:49:53.350602+00:00",
+  "wall_clock_seconds": 18.89262628555298,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a collective confession and identity-reorienting declaration. It performs surrender of a particular form of self-efficacy belief, invites identification with a shared group experience, and initiates a cognitive-affective reframe of one's relationship to a substance. As a therapeutic self-statement, it attempts to dissolve denial and reduce shame through communal acknowledgment.\",\n  \"implicit_claims\": [\n    \"Alcohol exerts a force over certain individuals that exceeds their volitional control\",\n    \"The individual's life functioning has been measurably or meaningfully degraded\",\n    \"Acknowledgment of powerlessness is a prerequisite for recovery, not an obstacle to it\",\n    \"Collective admission ('we') is therapeutically superior to or necessary alongside individual admission\",\n    \"The concept of 'powerlessness' is binary or sufficiently categorical to be clinically meaningful\",\n    \"Self-perceived control over alcohol use is itself part of the problem (i.e., the belief in control is distorted)\",\n    \"Manageability is a coherent and assessable property of a life\",\n    \"Honesty about one's state is curative or at least necessary for cure\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The two clauses are logically linked: powerlessness over the substance is offered as the mechanism explaining life unmanageability. However, a tension exists between the claim of powerlessness and the act of making the admission itself, which requires agency. The statement presupposes the very capacity for reflective self-assessment it claims has been overwhelmed. This is not necessarily a fatal incoherence — it may reflect a partial or domain-specific powerlessness — but it is an unresolved conceptual ambiguity within the statement.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely has a pattern of alcohol use that has been resistant to sustained volitional control\",\n    \"The individual's denial or overestimation of personal control has been a barrier to seeking or sustaining help\",\n    \"The communal framing ('we') connects the individual to a support network that reduces isolation and shame\",\n    \"The concept of powerlessness is understood contextually as motivating help-seeking, not as eliminating moral agency in all domains\",\n    \"The therapeutic context provides scaffolding that prevents the statement from becoming a fatalistic or nihilistic belief\",\n    \"The individual is at a stage of change where acceptance-based reframing is more productive than control-based strategies\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual interprets 'powerlessness' as total absence of agency, undermining motivation for behavioral change\",\n    \"The statement is applied to individuals whose alcohol use does not meet criteria for a use disorder, over-pathologizing moderate or situational use\",\n    \"The framing suppresses engagement with evidence-based approaches (e.g., moderation management, pharmacotherapy) by implying abstinence via surrender is the only valid path\",\n    \"Cultural or individual contexts render the concept of powerlessness stigmatizing rather than liberating, deepening shame\",\n    \"The statement is used to deflect accountability for harms caused to others by attributing all behavior to the disease/powerlessness frame\",\n    \"It is applied in contexts where underlying trauma, mental illness, or social determinants are primary drivers and the powerlessness frame obscures these\",\n    \"The group identity formed around shared powerlessness becomes rigid and prevents reconsideration of one's relationship to alcohol over time\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a collective confession and identity-reorienting declaration. It performs surrender of a particular form of self-efficacy belief, invites identification with a shared group experience, and initiates a cognitive-affective reframe of one's relationship to a substance. As a therapeutic self-statement, it attempts to dissolve denial and reduce shame through communal acknowledgment.",
+    "implicit_claims": [
+      "Alcohol exerts a force over certain individuals that exceeds their volitional control",
+      "The individual's life functioning has been measurably or meaningfully degraded",
+      "Acknowledgment of powerlessness is a prerequisite for recovery, not an obstacle to it",
+      "Collective admission ('we') is therapeutically superior to or necessary alongside individual admission",
+      "The concept of 'powerlessness' is binary or sufficiently categorical to be clinically meaningful",
+      "Self-perceived control over alcohol use is itself part of the problem (i.e., the belief in control is distorted)",
+      "Manageability is a coherent and assessable property of a life",
+      "Honesty about one's state is curative or at least necessary for cure"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The two clauses are logically linked: powerlessness over the substance is offered as the mechanism explaining life unmanageability. However, a tension exists between the claim of powerlessness and the act of making the admission itself, which requires agency. The statement presupposes the very capacity for reflective self-assessment it claims has been overwhelmed. This is not necessarily a fatal incoherence — it may reflect a partial or domain-specific powerlessness — but it is an unresolved conceptual ambiguity within the statement.",
+    "conditions_for_usefulness": [
+      "The individual genuinely has a pattern of alcohol use that has been resistant to sustained volitional control",
+      "The individual's denial or overestimation of personal control has been a barrier to seeking or sustaining help",
+      "The communal framing ('we') connects the individual to a support network that reduces isolation and shame",
+      "The concept of powerlessness is understood contextually as motivating help-seeking, not as eliminating moral agency in all domains",
+      "The therapeutic context provides scaffolding that prevents the statement from becoming a fatalistic or nihilistic belief",
+      "The individual is at a stage of change where acceptance-based reframing is more productive than control-based strategies"
+    ],
+    "conditions_for_misleading": [
+      "The individual interprets 'powerlessness' as total absence of agency, undermining motivation for behavioral change",
+      "The statement is applied to individuals whose alcohol use does not meet criteria for a use disorder, over-pathologizing moderate or situational use",
+      "The framing suppresses engagement with evidence-based approaches (e.g., moderation management, pharmacotherapy) by implying abstinence via surrender is the only valid path",
+      "Cultural or individual contexts render the concept of powerlessness stigmatizing rather than liberating, deepening shame",
+      "The statement is used to deflect accountability for harms caused to others by attributing all behavior to the disease/powerlessness frame",
+      "It is applied in contexts where underlying trauma, mental illness, or social determinants are primary drivers and the powerlessness frame obscures these",
+      "The group identity formed around shared powerlessness becomes rigid and prevents reconsideration of one's relationship to alcohol over time"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 817,
+  "error": "",
+  "retry_count": 0
+}

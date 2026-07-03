@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0174__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:31:48.573313+00:00",
+  "wall_clock_seconds": 4.542228937149048,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a principle of self-determination or personal responsibility, emphasizing that external factors or others cannot effect the change in question.\",\n  \"implicit_claims\": [\n    \"The subject ('him') currently has a condition that can be altered.\",\n    \"Only the subject has the agency or capability to change that condition.\",\n    \"No external person, force, or circumstance can alter the condition.\",\n    \"The condition is under the subject's control (at least potentially).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a singular proposition: it posits a unique causal agent (the subject himself) for a specific change. Coherence depends on the condition being such that it is alterable by the subject alone.\",\n  \"conditions_for_usefulness\": [\n    \"The subject actually has the power to alter the condition.\",\n    \"The condition is not externally determined (e.g., not a legal status, physical law, or dependency on others).\",\n    \"The statement is used to encourage agency, autonomy, or self-reliance in a context where external intervention is ineffective or irrelevant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition is actually alterable by others (e.g., medical treatment, legal changes, social support).\",\n    \"The subject lacks the capacity or resources to change the condition alone.\",\n    \"The statement is used to deny legitimate external help or to blame the subject for circumstances beyond their control.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a principle of self-determination or personal responsibility, emphasizing that external factors or others cannot effect the change in question.",
+    "implicit_claims": [
+      "The subject ('him') currently has a condition that can be altered.",
+      "Only the subject has the agency or capability to change that condition.",
+      "No external person, force, or circumstance can alter the condition.",
+      "The condition is under the subject's control (at least potentially)."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a singular proposition: it posits a unique causal agent (the subject himself) for a specific change. Coherence depends on the condition being such that it is alterable by the subject alone.",
+    "conditions_for_usefulness": [
+      "The subject actually has the power to alter the condition.",
+      "The condition is not externally determined (e.g., not a legal status, physical law, or dependency on others).",
+      "The statement is used to encourage agency, autonomy, or self-reliance in a context where external intervention is ineffective or irrelevant."
+    ],
+    "conditions_for_misleading": [
+      "The condition is actually alterable by others (e.g., medical treatment, legal changes, social support).",
+      "The subject lacks the capacity or resources to change the condition alone.",
+      "The statement is used to deny legitimate external help or to blame the subject for circumstances beyond their control."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 135,
+  "output_tokens": 307,
+  "error": "",
+  "retry_count": 0
+}

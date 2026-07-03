@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0563__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T21:29:01.360989+00:00",
+  "wall_clock_seconds": 6.813174724578857,
+  "raw_response": "{\n  \"communicative_function\": \"Encourages a behavioral commitment to visualize desired traits in an unborn child during pregnancy, implying that such mental imagery can determine the child's sex and qualities.\",\n  \"implicit_claims\": [\n    \"Maternal thoughts or mental imagery can directly influence the sex of a fetus.\",\n    \"Maternal thoughts or mental imagery can directly influence the physical and moral qualities of a child.\",\n    \"The gestational period is a window in which maternal mental states can shape fetal development beyond genetic and environmental factors.\",\n    \"The desired outcome (sex and qualities) is fully controllable through maternal visualization.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a causal claim (mental imagery leads to specific outcomes), but it relies on a mechanism (maternal thought directly determining fetal sex and traits) that is scientifically unsupported, making it practically incoherent with established biology.\",\n  \"conditions_for_usefulness\": [\n    \"If maternal mental imagery had a demonstrable causal effect on fetal sex determination and trait development (contrary to current science).\",\n    \"If the listener believes in this mechanism and uses the statement to focus on positive intentions, potentially reducing anxiety (as a placebo-like effect).\",\n    \"If the statement is used metaphorically or as a motivational tool rather than a literal instruction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, it misleads by promising control over biologically determined factors (sex is determined at conception by chromosomes).\",\n    \"If it leads to guilt or self-blame when a child does not have the desired sex or qualities.\",\n    \"If it discourages seeking accurate medical or genetic information about pregnancy.\",\n    \"If it reinforces pseudoscientific beliefs that can delay necessary medical interventions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Encourages a behavioral commitment to visualize desired traits in an unborn child during pregnancy, implying that such mental imagery can determine the child's sex and qualities.",
+    "implicit_claims": [
+      "Maternal thoughts or mental imagery can directly influence the sex of a fetus.",
+      "Maternal thoughts or mental imagery can directly influence the physical and moral qualities of a child.",
+      "The gestational period is a window in which maternal mental states can shape fetal development beyond genetic and environmental factors.",
+      "The desired outcome (sex and qualities) is fully controllable through maternal visualization."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a causal claim (mental imagery leads to specific outcomes), but it relies on a mechanism (maternal thought directly determining fetal sex and traits) that is scientifically unsupported, making it practically incoherent with established biology.",
+    "conditions_for_usefulness": [
+      "If maternal mental imagery had a demonstrable causal effect on fetal sex determination and trait development (contrary to current science).",
+      "If the listener believes in this mechanism and uses the statement to focus on positive intentions, potentially reducing anxiety (as a placebo-like effect).",
+      "If the statement is used metaphorically or as a motivational tool rather than a literal instruction."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, it misleads by promising control over biologically determined factors (sex is determined at conception by chromosomes).",
+      "If it leads to guilt or self-blame when a child does not have the desired sex or qualities.",
+      "If it discourages seeking accurate medical or genetic information about pregnancy.",
+      "If it reinforces pseudoscientific beliefs that can delay necessary medical interventions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 211,
+  "output_tokens": 365,
+  "error": "",
+  "retry_count": 1
+}

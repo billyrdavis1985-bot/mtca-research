@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0011__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:37:04.576895+00:00",
+  "wall_clock_seconds": 6.832571268081665,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-directive and a commitment to a specific strategy for behavior change. It aims to clarify intention, establish a realistic approach to goal-setting, and pre-empt common pitfalls of unachievable aspirations. It serves as a metacognitive tool to guide action.\",\n  \"implicit_claims\": [\n    \"The speaker has agency and control over their commitment and actions.\",\n    \"Prior attempts at change (using 'vague resolutions') have been unsuccessful due to their vagueness or unrealistic nature.\",\n    \"Small, observable changes are inherently more achievable than vague resolutions.\",\n    \"The speaker is capable of identifying what constitutes a 'small, observable change' and distinguishing it from a 'vague resolution'.\",\n    \"The speaker possesses the capacity to 'actually carry out' these small, observable changes.\",\n    \"Breaking down larger goals into smaller, observable steps is an effective pathway to change.\",\n    \"There is an underlying desire for change or improvement that this commitment aims to facilitate.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear contrast between two approaches to change ('small, observable changes' vs. 'vague resolutions') and logically prioritizes the former based on perceived efficacy and past experience. The language is direct and self-affirming in its strategic intent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely desires to make a change and has struggled with follow-through on past, less structured attempts.\",\n    \"The individual is able to identify and define what constitutes 'small' and 'observable' in the context of their specific goal.\",\n    \"The desired overarching change can realistically be broken down into incremental, manageable steps.\",\n    \"The individual possesses the necessary skills, resources, and environmental support (or can acquire them) to carry out the identified small changes.\",\n    \"The individual's primary barrier to change has been the unrealistic or undefined nature of their previous goals, rather than fundamental lack of motivation, severe external obstacles, or underlying clinical conditions requiring different intervention.\",\n    \"The individual is willing to accept gradual progress and celebrate small victories.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual uses 'small, observable' as a rationalization for avoiding necessary, more significant, or uncomfortable changes.\",\n    \"The problem being addressed requires immediate, radical, or non-incremental change that cannot be effectively broken into small steps.\",\n    \"The individual lacks the ability to identify 'small, observable changes' or experiences analysis paralysis in trying to define them.\",\n    \"The underlying issue is not the vagueness of resolutions, but rather profound motivational deficits, significant external barriers, lack of essential skills, or unaddressed psychological/physiological conditions.\",\n    \"The individual interprets 'small' as 'insignificant', leading to discouragement and a perception that their efforts are not meaningful.\",\n    \"The 'I cannot' part reinforces a self-limiting belief rather than a realistic assessment, potentially preventing the individual from attempting slightly larger but still achievable steps.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directive and a commitment to a specific strategy for behavior change. It aims to clarify intention, establish a realistic approach to goal-setting, and pre-empt common pitfalls of unachievable aspirations. It serves as a metacognitive tool to guide action.",
+    "implicit_claims": [
+      "The speaker has agency and control over their commitment and actions.",
+      "Prior attempts at change (using 'vague resolutions') have been unsuccessful due to their vagueness or unrealistic nature.",
+      "Small, observable changes are inherently more achievable than vague resolutions.",
+      "The speaker is capable of identifying what constitutes a 'small, observable change' and distinguishing it from a 'vague resolution'.",
+      "The speaker possesses the capacity to 'actually carry out' these small, observable changes.",
+      "Breaking down larger goals into smaller, observable steps is an effective pathway to change.",
+      "There is an underlying desire for change or improvement that this commitment aims to facilitate."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear contrast between two approaches to change ('small, observable changes' vs. 'vague resolutions') and logically prioritizes the former based on perceived efficacy and past experience. The language is direct and self-affirming in its strategic intent.",
+    "conditions_for_usefulness": [
+      "The individual genuinely desires to make a change and has struggled with follow-through on past, less structured attempts.",
+      "The individual is able to identify and define what constitutes 'small' and 'observable' in the context of their specific goal.",
+      "The desired overarching change can realistically be broken down into incremental, manageable steps.",
+      "The individual possesses the necessary skills, resources, and environmental support (or can acquire them) to carry out the identified small changes.",
+      "The individual's primary barrier to change has been the unrealistic or undefined nature of their previous goals, rather than fundamental lack of motivation, severe external obstacles, or underlying clinical conditions requiring different intervention.",
+      "The individual is willing to accept gradual progress and celebrate small victories."
+    ],
+    "conditions_for_misleading": [
+      "The individual uses 'small, observable' as a rationalization for avoiding necessary, more significant, or uncomfortable changes.",
+      "The problem being addressed requires immediate, radical, or non-incremental change that cannot be effectively broken into small steps.",
+      "The individual lacks the ability to identify 'small, observable changes' or experiences analysis paralysis in trying to define them.",
+      "The underlying issue is not the vagueness of resolutions, but rather profound motivational deficits, significant external barriers, lack of essential skills, or unaddressed psychological/physiological conditions.",
+      "The individual interprets 'small' as 'insignificant', leading to discouragement and a perception that their efforts are not meaningful.",
+      "The 'I cannot' part reinforces a self-limiting belief rather than a realistic assessment, potentially preventing the individual from attempting slightly larger but still achievable steps."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 658,
+  "error": "",
+  "retry_count": 0
+}

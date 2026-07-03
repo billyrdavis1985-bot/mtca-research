@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0457__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:38:59.377529+00:00",
+  "wall_clock_seconds": 6.626992464065552,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To report a positive observation, express surprise at its efficacy, and provide anecdotal evidence supporting the effectiveness of a method (implied by 'does so') in improving physical conditions.\",\n  \"implicit_claims\": [\n    \"There is a specific action or method referred to by 'does so' which is being performed by an individual ('he').\",\n    \"The individual ('he') previously had noticeable difficulties with respiration and/or walking.\",\n    \"The speaker (Émile Coué) is an observer of this individual and their condition.\",\n    \"The speaker attributes the observed improvement directly to the action the individual performs ('does so').\",\n    \"The improvement is significant and noteworthy ('remarkable').\",\n    \"The speaker's astonishment lends credibility to the unexpected positive outcome.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear observation, an emotional response (astonishment), and an evaluation of the observed change (remarkable improvement) without internal contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The 'he' and the action 'does so' are clearly identified and replicable within the context of Coué's method.\",\n    \"The observed improvement is objectively verifiable or consistently experienced by the individual.\",\n    \"The speaker is a reliable and honest observer.\",\n    \"The 'does so' is indeed a causative factor for the improvement, or at least a significant contributing factor.\",\n    \"The statement motivates individuals experiencing similar difficulties to explore and potentially apply the method being discussed.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'improvement' is subjective, temporary, or exaggerated ('remarkable' is an overstatement).\",\n    \"The 'he' or the observation is fabricated or not representative of typical results.\",\n    \"The 'does so' is not the actual cause of the improvement (e.g., placebo effect, natural recovery, other concurrent treatments are the true cause).\",\n    \"The statement creates unrealistic expectations about the ease or universality of such improvements.\",\n    \"The speaker is biased or dishonest in their reporting.\",\n    \"The statement is taken out of context, leading readers to apply an unspecified 'does so' without understanding the specific method recommended.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To report a positive observation, express surprise at its efficacy, and provide anecdotal evidence supporting the effectiveness of a method (implied by 'does so') in improving physical conditions.",
+    "implicit_claims": [
+      "There is a specific action or method referred to by 'does so' which is being performed by an individual ('he').",
+      "The individual ('he') previously had noticeable difficulties with respiration and/or walking.",
+      "The speaker (Émile Coué) is an observer of this individual and their condition.",
+      "The speaker attributes the observed improvement directly to the action the individual performs ('does so').",
+      "The improvement is significant and noteworthy ('remarkable').",
+      "The speaker's astonishment lends credibility to the unexpected positive outcome."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear observation, an emotional response (astonishment), and an evaluation of the observed change (remarkable improvement) without internal contradictions.",
+    "conditions_for_usefulness": [
+      "The 'he' and the action 'does so' are clearly identified and replicable within the context of Coué's method.",
+      "The observed improvement is objectively verifiable or consistently experienced by the individual.",
+      "The speaker is a reliable and honest observer.",
+      "The 'does so' is indeed a causative factor for the improvement, or at least a significant contributing factor.",
+      "The statement motivates individuals experiencing similar difficulties to explore and potentially apply the method being discussed."
+    ],
+    "conditions_for_misleading": [
+      "The 'improvement' is subjective, temporary, or exaggerated ('remarkable' is an overstatement).",
+      "The 'he' or the observation is fabricated or not representative of typical results.",
+      "The 'does so' is not the actual cause of the improvement (e.g., placebo effect, natural recovery, other concurrent treatments are the true cause).",
+      "The statement creates unrealistic expectations about the ease or universality of such improvements.",
+      "The speaker is biased or dishonest in their reporting.",
+      "The statement is taken out of context, leading readers to apply an unspecified 'does so' without understanding the specific method recommended."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 491,
+  "error": "",
+  "retry_count": 0
+}

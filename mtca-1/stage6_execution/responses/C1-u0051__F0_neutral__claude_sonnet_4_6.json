@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0051__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:02:09.026023+00:00",
+  "wall_clock_seconds": 11.892549991607666,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a conditional prediction or prescription, describing an expected behavioral outcome contingent on the absence of active effort. It may also function as implicit advice or reassurance, suggesting that passivity in bed is an acceptable or natural fallback.\",\n  \"implicit_claims\": [\n    \"Making an effort to sleep is a distinct, active behavior separate from simply lying quietly.\",\n    \"Lying quietly in bed is the default state when no sleep effort is made.\",\n    \"The person is already in bed or will be in bed.\",\n    \"There is a binary distinction between 'making an effort to sleep' and 'not making an effort to sleep.'\",\n    \"Lying quietly without effort is a coherent and achievable state.\",\n    \"Not making an effort to sleep does not lead to restlessness, anxiety, or getting out of bed.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional claim, but it rests on contestable assumptions. The implied binary between effortful sleep attempts and quiet rest oversimplifies sleep behavior. Some individuals experience increased anxiety or restlessness precisely when they stop trying to sleep, making the consequent ('will lie quietly') not necessarily follow from the antecedent.\",\n  \"conditions_for_usefulness\": [\n    \"The person is experiencing performance anxiety around sleep (e.g., insomnia driven by effort).\",\n    \"The context is therapeutic, such as paradoxical intention therapy or CBT-I guidance.\",\n    \"The person genuinely tends toward calm passivity when not actively trying.\",\n    \"The goal is to reduce sleep-related pressure and reframe rest as valuable in itself.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person has a condition (e.g., anxiety disorder, restless leg syndrome) that makes quiet rest without sleep effort difficult.\",\n    \"The statement is used to discourage legitimate sleep hygiene practices.\",\n    \"It implies that all sleep problems are caused by excessive effort, which is not universally true.\",\n    \"The person interprets 'lying quietly' as equivalent to restorative sleep, conflating rest with sleep.\",\n    \"It is used to dismiss concerns about insomnia by suggesting a simple passive solution.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a conditional prediction or prescription, describing an expected behavioral outcome contingent on the absence of active effort. It may also function as implicit advice or reassurance, suggesting that passivity in bed is an acceptable or natural fallback.",
+    "implicit_claims": [
+      "Making an effort to sleep is a distinct, active behavior separate from simply lying quietly.",
+      "Lying quietly in bed is the default state when no sleep effort is made.",
+      "The person is already in bed or will be in bed.",
+      "There is a binary distinction between 'making an effort to sleep' and 'not making an effort to sleep.'",
+      "Lying quietly without effort is a coherent and achievable state.",
+      "Not making an effort to sleep does not lead to restlessness, anxiety, or getting out of bed."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional claim, but it rests on contestable assumptions. The implied binary between effortful sleep attempts and quiet rest oversimplifies sleep behavior. Some individuals experience increased anxiety or restlessness precisely when they stop trying to sleep, making the consequent ('will lie quietly') not necessarily follow from the antecedent.",
+    "conditions_for_usefulness": [
+      "The person is experiencing performance anxiety around sleep (e.g., insomnia driven by effort).",
+      "The context is therapeutic, such as paradoxical intention therapy or CBT-I guidance.",
+      "The person genuinely tends toward calm passivity when not actively trying.",
+      "The goal is to reduce sleep-related pressure and reframe rest as valuable in itself."
+    ],
+    "conditions_for_misleading": [
+      "The person has a condition (e.g., anxiety disorder, restless leg syndrome) that makes quiet rest without sleep effort difficult.",
+      "The statement is used to discourage legitimate sleep hygiene practices.",
+      "It implies that all sleep problems are caused by excessive effort, which is not universally true.",
+      "The person interprets 'lying quietly' as equivalent to restorative sleep, conflating rest with sleep.",
+      "It is used to dismiss concerns about insomnia by suggesting a simple passive solution."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 514,
+  "error": "",
+  "retry_count": 0
+}

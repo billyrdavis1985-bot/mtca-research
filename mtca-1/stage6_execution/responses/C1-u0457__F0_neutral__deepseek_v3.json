@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0457__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:35:20.959441+00:00",
+  "wall_clock_seconds": 3.9558074474334717,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting an observation of a surprising positive change in a subject's physical condition.\",\n  \"implicit_claims\": [\n    \"The speaker had prior knowledge of the subject's respiration and walking (i.e., there was a baseline state).\",\n    \"The subject's respiration and walking were previously poor or impaired.\",\n    \"The change is directly or indirectly attributed to the action described by 'when he does so'.\",\n    \"The improvement is notable enough to cause astonishment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear cause (the action) and effect (observed improvement), with a subjective reaction (astonishment) that aligns with the remarkableness of the change.\",\n  \"conditions_for_usefulness\": [\n    \"The observer is reliable and has accurately assessed the baseline condition.\",\n    \"The improvement is genuinely significant and not a random fluctuation.\",\n    \"The context allows for the inference that the action caused or correlated with the improvement.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is coincidental or due to other unmentioned factors (e.g., placebo, time, other treatment).\",\n    \"The observer's astonishment biases their perception or reporting.\",\n    \"The description 'remarkable' is exaggerated and not supported by objective measures.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting an observation of a surprising positive change in a subject's physical condition.",
+    "implicit_claims": [
+      "The speaker had prior knowledge of the subject's respiration and walking (i.e., there was a baseline state).",
+      "The subject's respiration and walking were previously poor or impaired.",
+      "The change is directly or indirectly attributed to the action described by 'when he does so'.",
+      "The improvement is notable enough to cause astonishment."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear cause (the action) and effect (observed improvement), with a subjective reaction (astonishment) that aligns with the remarkableness of the change.",
+    "conditions_for_usefulness": [
+      "The observer is reliable and has accurately assessed the baseline condition.",
+      "The improvement is genuinely significant and not a random fluctuation.",
+      "The context allows for the inference that the action caused or correlated with the improvement."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is coincidental or due to other unmentioned factors (e.g., placebo, time, other treatment).",
+      "The observer's astonishment biases their perception or reporting.",
+      "The description 'remarkable' is exaggerated and not supported by objective measures."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 139,
+  "output_tokens": 276,
+  "error": "",
+  "retry_count": 0
+}

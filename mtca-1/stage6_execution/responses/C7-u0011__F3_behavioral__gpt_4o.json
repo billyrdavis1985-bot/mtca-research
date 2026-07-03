@@ -1,0 +1,39 @@
+{
+  "call_id": "C7-u0011__F3_behavioral__gpt_4o",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:43:32.340374+00:00",
+  "wall_clock_seconds": 3.380244493484497,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a declaration of ongoing commitment to a course of action and promotion of certain values.\",\n  \"implicit_claims\": [\n    \"A spiritual awakening has occurred as a direct result of following certain steps.\",\n    \"The speaker believes this message and these principles are beneficial to alcoholics.\",\n    \"It is possible and desirable to integrate these principles into all aspects of one's life.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent, as it logically connects a personal transformation (spiritual awakening) to a continued action (carrying the message) and a value-driven commitment (practicing principles).\",\n  \"conditions_for_usefulness\": [\n    \"The individual has experienced a spiritual awakening due to these steps.\",\n    \"The message and principles are relevant and applicable to the audience (alcoholics).\",\n    \"The individual genuinely intends to practice these principles in all areas of life.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"No genuine spiritual awakening has occurred; the statement is insincere.\",\n    \"The message is not well-received or effective for alcoholics.\",\n    \"The principles are not applied or relevant in all areas of the individual's life.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a declaration of ongoing commitment to a course of action and promotion of certain values.",
+    "implicit_claims": [
+      "A spiritual awakening has occurred as a direct result of following certain steps.",
+      "The speaker believes this message and these principles are beneficial to alcoholics.",
+      "It is possible and desirable to integrate these principles into all aspects of one's life."
+    ],
+    "coherence_assessment": "The statement is coherent, as it logically connects a personal transformation (spiritual awakening) to a continued action (carrying the message) and a value-driven commitment (practicing principles).",
+    "conditions_for_usefulness": [
+      "The individual has experienced a spiritual awakening due to these steps.",
+      "The message and principles are relevant and applicable to the audience (alcoholics).",
+      "The individual genuinely intends to practice these principles in all areas of life."
+    ],
+    "conditions_for_misleading": [
+      "No genuine spiritual awakening has occurred; the statement is insincere.",
+      "The message is not well-received or effective for alcoholics.",
+      "The principles are not applied or relevant in all areas of the individual's life."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 258,
+  "error": "",
+  "retry_count": 0
+}

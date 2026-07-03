@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0005__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:19:28.348626+00:00",
+  "wall_clock_seconds": 6.274325847625732,
+  "raw_response": "{\n  \"communicative_function\": \"self-disclosure of a cognitive or ethical stance toward binary thinking\",\n  \"implicit_claims\": [\n    \"the speaker sometimes enters an all-or-nothing cognitive frame\",\n    \"such frames typically involve two opposing sides each containing partial truth\",\n    \"the speaker possesses both the willingness and the capacity to identify that partial truth\",\n    \"seeking partial truth on both sides is a preferable response to all-or-nothing thinking\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the conditional structure cleanly links a described mental state to a proposed remedial disposition without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker applies the stated willingness in practice; the context values dialectical or nuanced reasoning over decisive binary judgment; the opposing sides in question do contain identifiable partial truths\",\n  \"conditions_for_misleading\": \"the statement is offered as evidence of actual open-mindedness the speaker does not demonstrate; one or both sides contain no meaningful partial truth; the claim is used to deflect substantive disagreement rather than engage it\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-disclosure of a cognitive or ethical stance toward binary thinking",
+    "implicit_claims": [
+      "the speaker sometimes enters an all-or-nothing cognitive frame",
+      "such frames typically involve two opposing sides each containing partial truth",
+      "the speaker possesses both the willingness and the capacity to identify that partial truth",
+      "seeking partial truth on both sides is a preferable response to all-or-nothing thinking"
+    ],
+    "coherence_assessment": "internally coherent; the conditional structure cleanly links a described mental state to a proposed remedial disposition without contradiction",
+    "conditions_for_usefulness": "the speaker applies the stated willingness in practice; the context values dialectical or nuanced reasoning over decisive binary judgment; the opposing sides in question do contain identifiable partial truths",
+    "conditions_for_misleading": "the statement is offered as evidence of actual open-mindedness the speaker does not demonstrate; one or both sides contain no meaningful partial truth; the claim is used to deflect substantive disagreement rather than engage it"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0
+}

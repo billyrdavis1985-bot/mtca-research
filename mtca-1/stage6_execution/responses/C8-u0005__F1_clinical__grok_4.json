@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0005__F1_clinical__grok_4",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:15:32.307812+00:00",
+  "wall_clock_seconds": 5.579266786575317,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed commitment to counteract dichotomous thinking by affirming openness to nuance\",\n  \"implicit_claims\": [\n    \"all-or-nothing frames are recognizable when they occur\",\n    \"most polarized positions contain identifiable partial truths on each side\",\n    \"willingness to search for those partial truths is under voluntary control\",\n    \"adopting this stance will be adaptive or beneficial\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the antecedent condition (detecting all-or-nothing framing) is paired with a logically consistent corrective intention\",\n  \"conditions_for_usefulness\": \"the individual can reliably detect their own all-or-nothing cognition, genuine partial truths exist in the relevant domain, and the resulting balanced appraisal produces better emotional or behavioral outcomes than polarization\",\n  \"conditions_for_misleading\": \"the statement is applied to situations with clear factual or moral asymmetry, used to manufacture false equivalence, or invoked to evade necessary decisive action\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed commitment to counteract dichotomous thinking by affirming openness to nuance",
+    "implicit_claims": [
+      "all-or-nothing frames are recognizable when they occur",
+      "most polarized positions contain identifiable partial truths on each side",
+      "willingness to search for those partial truths is under voluntary control",
+      "adopting this stance will be adaptive or beneficial"
+    ],
+    "coherence_assessment": "internally coherent; the antecedent condition (detecting all-or-nothing framing) is paired with a logically consistent corrective intention",
+    "conditions_for_usefulness": "the individual can reliably detect their own all-or-nothing cognition, genuine partial truths exist in the relevant domain, and the resulting balanced appraisal produces better emotional or behavioral outcomes than polarization",
+    "conditions_for_misleading": "the statement is applied to situations with clear factual or moral asymmetry, used to manufacture false equivalence, or invoked to evade necessary decisive action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 284,
+  "output_tokens": 199,
+  "error": "",
+  "retry_count": 0
+}

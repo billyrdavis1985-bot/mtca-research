@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0006__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:19:58.857897+00:00",
+  "wall_clock_seconds": 8.871504306793213,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To express a personal principle or disposition regarding the speaker's approach to confronting fear, contingent on rational assessment of potential benefit.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear.\",\n    \"The speaker believes that 'evidence' can be objectively assessed to determine the likelihood of a positive outcome.\",\n    \"The speaker values personal 'help' or benefit.\",\n    \"The speaker possesses agency to act despite emotional responses (fear).\",\n    \"The speaker implies a capacity for rational decision-making.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It establishes a clear conditional relationship where a willingness to overcome an emotional barrier (fear) is contingent upon a rational assessment of potential positive outcomes (evidence suggests they are likely to help). This structure is logical and consistent.\",\n  \"conditions_for_usefulness\": [\n    \"When facing challenging but potentially beneficial opportunities (e.g., career changes, medical treatments, personal growth initiatives).\",\n    \"As a guiding principle for making decisions that require overcoming natural apprehension based on sound data.\",\n    \"When communicating a rational, evidence-based approach to calculated risk-taking.\",\n    \"As a self-motivational statement to encourage action despite initial discomfort.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the 'evidence' is flawed, insufficient, biased, or misinterpreted (e.g., confirmation bias, wishful thinking).\",\n    \"If the perceived 'likelihood' of help is exaggerated or miscalculated.\",\n    \"If the speaker genuinely lacks the capacity or willpower to act on the evidence despite their stated willingness, leading to a false self-description.\",\n    \"If it's used to rationalize genuinely reckless or harmful actions based on weak or selectively chosen 'evidence'.\",\n    \"If it implies that all fears, even those based on valid threats, should be overcome if any 'evidence' of benefit exists.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To express a personal principle or disposition regarding the speaker's approach to confronting fear, contingent on rational assessment of potential benefit.",
+    "implicit_claims": [
+      "The speaker experiences fear.",
+      "The speaker believes that 'evidence' can be objectively assessed to determine the likelihood of a positive outcome.",
+      "The speaker values personal 'help' or benefit.",
+      "The speaker possesses agency to act despite emotional responses (fear).",
+      "The speaker implies a capacity for rational decision-making."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It establishes a clear conditional relationship where a willingness to overcome an emotional barrier (fear) is contingent upon a rational assessment of potential positive outcomes (evidence suggests they are likely to help). This structure is logical and consistent.",
+    "conditions_for_usefulness": [
+      "When facing challenging but potentially beneficial opportunities (e.g., career changes, medical treatments, personal growth initiatives).",
+      "As a guiding principle for making decisions that require overcoming natural apprehension based on sound data.",
+      "When communicating a rational, evidence-based approach to calculated risk-taking.",
+      "As a self-motivational statement to encourage action despite initial discomfort."
+    ],
+    "conditions_for_misleading": [
+      "If the 'evidence' is flawed, insufficient, biased, or misinterpreted (e.g., confirmation bias, wishful thinking).",
+      "If the perceived 'likelihood' of help is exaggerated or miscalculated.",
+      "If the speaker genuinely lacks the capacity or willpower to act on the evidence despite their stated willingness, leading to a false self-description.",
+      "If it's used to rationalize genuinely reckless or harmful actions based on weak or selectively chosen 'evidence'.",
+      "If it implies that all fears, even those based on valid threats, should be overcome if any 'evidence' of benefit exists."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 140,
+  "output_tokens": 425,
+  "error": "",
+  "retry_count": 0
+}

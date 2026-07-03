@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0007__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:30:31.195218+00:00",
+  "wall_clock_seconds": 4.740545272827148,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making an observation about the relationship between mood and behavior, suggesting a reversal of a common assumption (that mood drives behavior). It functions as a self-reflective insight or a claim about psychological causality.\",\n  \"implicit_claims\": [\n    \"The speaker has a prior expectation or belief that mood usually precedes and influences behavior.\",\n    \"The speaker is capable of noticing patterns in their own mental states and actions.\",\n    \"The speaker's mood is not always the primary driver of their behavior.\",\n    \"Behavior can influence mood, not just the other way around.\",\n    \"The observation is based on the speaker's personal experience, not a universal law.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear, self-referential observation that does not contradict itself. It acknowledges a personal pattern without making absolute claims.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has accurate introspection about their mood and behavior patterns.\",\n    \"The observation leads to actionable insights (e.g., deliberately changing behavior to improve mood).\",\n    \"The speaker is in a context where behavior can be consciously modified.\",\n    \"The statement is used to challenge unhelpful assumptions about emotional determinism.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker generalizes this personal pattern to all people or situations.\",\n    \"The speaker underestimates the role of underlying mood disorders or external factors.\",\n    \"The statement is used to dismiss the validity of emotional experiences (e.g., implying mood is irrelevant).\",\n    \"The observation is based on self-deception or confirmation bias.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making an observation about the relationship between mood and behavior, suggesting a reversal of a common assumption (that mood drives behavior). It functions as a self-reflective insight or a claim about psychological causality.",
+    "implicit_claims": [
+      "The speaker has a prior expectation or belief that mood usually precedes and influences behavior.",
+      "The speaker is capable of noticing patterns in their own mental states and actions.",
+      "The speaker's mood is not always the primary driver of their behavior.",
+      "Behavior can influence mood, not just the other way around.",
+      "The observation is based on the speaker's personal experience, not a universal law."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear, self-referential observation that does not contradict itself. It acknowledges a personal pattern without making absolute claims.",
+    "conditions_for_usefulness": [
+      "The speaker has accurate introspection about their mood and behavior patterns.",
+      "The observation leads to actionable insights (e.g., deliberately changing behavior to improve mood).",
+      "The speaker is in a context where behavior can be consciously modified.",
+      "The statement is used to challenge unhelpful assumptions about emotional determinism."
+    ],
+    "conditions_for_misleading": [
+      "The speaker generalizes this personal pattern to all people or situations.",
+      "The speaker underestimates the role of underlying mood disorders or external factors.",
+      "The statement is used to dismiss the validity of emotional experiences (e.g., implying mood is irrelevant).",
+      "The observation is based on self-deception or confirmation bias."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0
+}

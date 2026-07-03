@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0009__F0_neutral__gpt_4o",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:29:47.966014+00:00",
+  "wall_clock_seconds": 2.296820878982544,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is promoting self-reflection and accountability.\",\n  \"implicit_claims\": [\n    \"People can make mistakes.\",\n    \"Admitting mistakes is important.\",\n    \"Taking personal inventory or reflection is a continual process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it logically connects the acts of taking personal inventory and admitting wrongs, implying a cycle of reflection and accountability.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if an individual or group values self-improvement, reflection, and ethical behavior, and is in an environment where admitting mistakes is accepted and leads to positive growth or development.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the culture or environment punishes admissions of wrongdoing, hence discouraging honest reflection or if the process of self-inventory does not include a clear criterion for evaluation, potentially leading to confusion or arbitrary admissions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is promoting self-reflection and accountability.",
+    "implicit_claims": [
+      "People can make mistakes.",
+      "Admitting mistakes is important.",
+      "Taking personal inventory or reflection is a continual process."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it logically connects the acts of taking personal inventory and admitting wrongs, implying a cycle of reflection and accountability.",
+    "conditions_for_usefulness": "The statement would be useful if an individual or group values self-improvement, reflection, and ethical behavior, and is in an environment where admitting mistakes is accepted and leads to positive growth or development.",
+    "conditions_for_misleading": "The statement could be misleading if the culture or environment punishes admissions of wrongdoing, hence discouraging honest reflection or if the process of self-inventory does not include a clear criterion for evaluation, potentially leading to confusion or arbitrary admissions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 198,
+  "error": "",
+  "retry_count": 0
+}

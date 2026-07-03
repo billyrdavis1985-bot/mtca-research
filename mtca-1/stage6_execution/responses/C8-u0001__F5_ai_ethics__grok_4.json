@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0001__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:56:08.405036+00:00",
+  "wall_clock_seconds": 7.563004016876221,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a personal commitment to cognitive self-correction and realistic risk assessment\",\n  \"implicit_claims\": [\n    \"catastrophizing is identifiable in real time\",\n    \"a distinguishable 'realistic worst case' exists and can be articulated\",\n    \"inquiring into that worst case reduces distortion or harm\",\n    \"willingness to perform this inquiry is a stable, valuable disposition\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presupposes metacognitive access and the possibility of calibrated realism without logical contradiction\",\n  \"conditions_for_usefulness\": \"the speaker possesses reliable metacognition, realistic assessment yields actionable insight rather than paralysis, and the context values emotional regulation over other priorities\",\n  \"conditions_for_misleading\": \"real risks are systematically underestimated under the label of 'realistic,' the speaker lacks accurate probability calibration, or the practice is invoked to dismiss legitimate concerns\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a personal commitment to cognitive self-correction and realistic risk assessment",
+    "implicit_claims": [
+      "catastrophizing is identifiable in real time",
+      "a distinguishable 'realistic worst case' exists and can be articulated",
+      "inquiring into that worst case reduces distortion or harm",
+      "willingness to perform this inquiry is a stable, valuable disposition"
+    ],
+    "coherence_assessment": "internally coherent; presupposes metacognitive access and the possibility of calibrated realism without logical contradiction",
+    "conditions_for_usefulness": "the speaker possesses reliable metacognition, realistic assessment yields actionable insight rather than paralysis, and the context values emotional regulation over other priorities",
+    "conditions_for_misleading": "real risks are systematically underestimated under the label of 'realistic,' the speaker lacks accurate probability calibration, or the practice is invoked to dismiss legitimate concerns"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 284,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

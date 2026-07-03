@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0004__F3_behavioral__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:09:54.255477+00:00",
+  "wall_clock_seconds": 9.830421209335327,
+  "raw_response": "{\n  \"communicative_function\": \"performative commitment to an act of confession and moral disclosure\",\n  \"implicit_claims\": [\n    \"the speaker possesses identifiable 'wrongs' that can be known exactly\",\n    \"admission to God, self, and another human being constitutes a meaningful behavioral change\",\n    \"such admission is feasible and beneficial for the speaker\",\n    \"a higher power ('God') is an appropriate or necessary recipient of the admission\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a pledge of accountability within a theistic or quasi-theistic framework; assumes the existence of objective wrongs and the value of external disclosure\",\n  \"conditions_for_usefulness\": \"the speaker must possess genuine, specific wrongs to disclose; the process must be voluntary and non-coercive; a safe, non-judgmental recipient must be available; and the act must support subsequent behavioral change rather than serve as an endpoint\",\n  \"conditions_for_misleading\": \"the admission is insincere or incomplete; 'wrongs' are fabricated or exaggerated due to external pressure; the higher-power framing induces guilt without agency; or the statement substitutes for concrete reparative actions\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative commitment to an act of confession and moral disclosure",
+    "implicit_claims": [
+      "the speaker possesses identifiable 'wrongs' that can be known exactly",
+      "admission to God, self, and another human being constitutes a meaningful behavioral change",
+      "such admission is feasible and beneficial for the speaker",
+      "a higher power ('God') is an appropriate or necessary recipient of the admission"
+    ],
+    "coherence_assessment": "internally coherent as a pledge of accountability within a theistic or quasi-theistic framework; assumes the existence of objective wrongs and the value of external disclosure",
+    "conditions_for_usefulness": "the speaker must possess genuine, specific wrongs to disclose; the process must be voluntary and non-coercive; a safe, non-judgmental recipient must be available; and the act must support subsequent behavioral change rather than serve as an endpoint",
+    "conditions_for_misleading": "the admission is insincere or incomplete; 'wrongs' are fabricated or exaggerated due to external pressure; the higher-power framing induces guilt without agency; or the statement substitutes for concrete reparative actions"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 241,
+  "error": "",
+  "retry_count": 0
+}

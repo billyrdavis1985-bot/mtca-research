@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0002__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:02:18.231854+00:00",
+  "wall_clock_seconds": 5.75728178024292,
+  "raw_response": "{\n  \"communicative_function\": \"Expresses a decision to surrender personal control and commit to a higher power (as individually understood) as a framework for recovery or change.\",\n  \"implicit_claims\": [\n    \"There exists a higher power or God that can be understood personally.\",\n    \"Surrendering will and life to this higher power is beneficial or necessary.\",\n    \"The individual has the capacity to make and act on such a decision.\",\n    \"Prior to this decision, the individual's will and life were not under this care.\",\n    \"This act of surrender is a voluntary and conscious choice.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a self-declaration of intent, though its meaning depends on the individual's interpretation of 'God as we understood Him.' The phrase balances spiritual specificity with personal flexibility.\",\n  \"conditions_for_usefulness\": [\n    \"The client holds a belief in a higher power or is open to a spiritual framework.\",\n    \"The client struggles with control, self-will, or powerlessness in a way that surrender is therapeutically indicated.\",\n    \"The therapeutic model (e.g., 12-step, spirituality-integrated therapy) validates this language.\",\n    \"The client can operationalize 'care of God' as a source of support, not passivity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets 'God' literally and rejects any spiritual concept, leading to resistance or alienation.\",\n    \"The statement is used to bypass personal responsibility or critical self-reflection.\",\n    \"The client has experienced religious trauma or views authority figures as controlling.\",\n    \"The therapist imposes this language without client alignment, undermining autonomy.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expresses a decision to surrender personal control and commit to a higher power (as individually understood) as a framework for recovery or change.",
+    "implicit_claims": [
+      "There exists a higher power or God that can be understood personally.",
+      "Surrendering will and life to this higher power is beneficial or necessary.",
+      "The individual has the capacity to make and act on such a decision.",
+      "Prior to this decision, the individual's will and life were not under this care.",
+      "This act of surrender is a voluntary and conscious choice."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a self-declaration of intent, though its meaning depends on the individual's interpretation of 'God as we understood Him.' The phrase balances spiritual specificity with personal flexibility.",
+    "conditions_for_usefulness": [
+      "The client holds a belief in a higher power or is open to a spiritual framework.",
+      "The client struggles with control, self-will, or powerlessness in a way that surrender is therapeutically indicated.",
+      "The therapeutic model (e.g., 12-step, spirituality-integrated therapy) validates this language.",
+      "The client can operationalize 'care of God' as a source of support, not passivity."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets 'God' literally and rejects any spiritual concept, leading to resistance or alienation.",
+      "The statement is used to bypass personal responsibility or critical self-reflection.",
+      "The client has experienced religious trauma or views authority figures as controlling.",
+      "The therapist imposes this language without client alignment, undermining autonomy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 350,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0012__F1_clinical__grok_4",
+  "unit_id": "C3-u0012",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:09:47.331851+00:00",
+  "wall_clock_seconds": 6.391206979751587,
+  "raw_response": "{\n  \"communicative_function\": \"self-reminder to maintain a cosmological perspective that frames personal action as aligned with universal nature\",\n  \"implicit_claims\": [\n    \"the universe possesses an intelligible nature or order\",\n    \"the individual is a constituent part of that order with a definable relation to it\",\n    \"external obstacles cannot prevent speech or action congruent with that order\",\n    \"keeping this perspective in mind is necessary or beneficial for right conduct\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a Stoic framework that equates freedom with alignment to cosmic nature, though the claims rest on metaphysical assumptions rather than empirical derivation\",\n  \"conditions_for_usefulness\": \"the user experiences reduced distress or improved acceptance when adopting a deterministic, part-whole cosmology; the statement functions as a cognitive anchor that promotes values-congruent behavior without denying observable constraints\",\n  \"conditions_for_misleading\": \"the cosmology is treated as literally true rather than as a heuristic; external barriers are denied rather than accepted; the statement fosters fatalism or suppression of legitimate agency\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-reminder to maintain a cosmological perspective that frames personal action as aligned with universal nature",
+    "implicit_claims": [
+      "the universe possesses an intelligible nature or order",
+      "the individual is a constituent part of that order with a definable relation to it",
+      "external obstacles cannot prevent speech or action congruent with that order",
+      "keeping this perspective in mind is necessary or beneficial for right conduct"
+    ],
+    "coherence_assessment": "internally consistent within a Stoic framework that equates freedom with alignment to cosmic nature, though the claims rest on metaphysical assumptions rather than empirical derivation",
+    "conditions_for_usefulness": "the user experiences reduced distress or improved acceptance when adopting a deterministic, part-whole cosmology; the statement functions as a cognitive anchor that promotes values-congruent behavior without denying observable constraints",
+    "conditions_for_misleading": "the cosmology is treated as literally true rather than as a heuristic; external barriers are denied rather than accepted; the statement fosters fatalism or suppression of legitimate agency"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 341,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

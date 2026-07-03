@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0079__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:04:08.446296+00:00",
+  "wall_clock_seconds": 14.17396354675293,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a universal causal claim, asserting an absolute and exclusive relationship between thought and suffering. It functions as a prescriptive philosophical axiom intended to motivate the reader to take responsibility for their mental life by framing thought as the sole determinant of suffering.\",\n  \"implicit_claims\": [\n    \"There exists a category of thought that can be classified as 'wrong'.\",\n    \"All suffering, without exception, has a mental/cognitive cause.\",\n    \"Suffering has no causes outside of the sufferer's own thinking.\",\n    \"By correcting one's thinking, all suffering can be eliminated.\",\n    \"External events, physical conditions, or structural circumstances do not independently cause suffering.\",\n    \"The sufferer bears full responsibility for their own suffering.\",\n    \"There is a form of 'right' thought that would preclude suffering.\",\n    \"Suffering is never random, accidental, or externally imposed.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms — it presents a clean, logical structure (wrong thought causes suffering, always). However, it achieves this coherence only by being unfalsifiable: any counterexample could be dismissed by asserting that some 'wrong thought' must have been present. This makes it logically closed but epistemically weak.\",\n  \"conditions_for_usefulness\": [\n    \"If the reader is suffering primarily due to cognitive distortions, rumination, or maladaptive thinking patterns that are within their control to change.\",\n    \"If the statement is interpreted loosely as 'thought often influences suffering' rather than as an absolute causal law.\",\n    \"If it motivates someone who has become passive or fatalistic to take personal agency in improving their mental habits.\",\n    \"If used in a therapeutic context where the focus is on what the individual can control, not on assigning blame.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If applied to people suffering from physical illness, genetic conditions, or neurological disorders with no cognitive origin.\",\n    \"If used to dismiss or invalidate suffering caused by systemic injustice, poverty, abuse, or trauma inflicted by others.\",\n    \"If it leads someone to blame themselves for suffering they did not cause and cannot think their way out of.\",\n    \"If it discourages people from seeking medical, psychological, or social support by implying thought alone is the solution.\",\n    \"If applied to victims of violence, disaster, or oppression, implying their suffering is self-generated.\",\n    \"If it fosters shame or self-blame in people who are already vulnerable.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a universal causal claim, asserting an absolute and exclusive relationship between thought and suffering. It functions as a prescriptive philosophical axiom intended to motivate the reader to take responsibility for their mental life by framing thought as the sole determinant of suffering.",
+    "implicit_claims": [
+      "There exists a category of thought that can be classified as 'wrong'.",
+      "All suffering, without exception, has a mental/cognitive cause.",
+      "Suffering has no causes outside of the sufferer's own thinking.",
+      "By correcting one's thinking, all suffering can be eliminated.",
+      "External events, physical conditions, or structural circumstances do not independently cause suffering.",
+      "The sufferer bears full responsibility for their own suffering.",
+      "There is a form of 'right' thought that would preclude suffering.",
+      "Suffering is never random, accidental, or externally imposed."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms — it presents a clean, logical structure (wrong thought causes suffering, always). However, it achieves this coherence only by being unfalsifiable: any counterexample could be dismissed by asserting that some 'wrong thought' must have been present. This makes it logically closed but epistemically weak.",
+    "conditions_for_usefulness": [
+      "If the reader is suffering primarily due to cognitive distortions, rumination, or maladaptive thinking patterns that are within their control to change.",
+      "If the statement is interpreted loosely as 'thought often influences suffering' rather than as an absolute causal law.",
+      "If it motivates someone who has become passive or fatalistic to take personal agency in improving their mental habits.",
+      "If used in a therapeutic context where the focus is on what the individual can control, not on assigning blame."
+    ],
+    "conditions_for_misleading": [
+      "If applied to people suffering from physical illness, genetic conditions, or neurological disorders with no cognitive origin.",
+      "If used to dismiss or invalidate suffering caused by systemic injustice, poverty, abuse, or trauma inflicted by others.",
+      "If it leads someone to blame themselves for suffering they did not cause and cannot think their way out of.",
+      "If it discourages people from seeking medical, psychological, or social support by implying thought alone is the solution.",
+      "If applied to victims of violence, disaster, or oppression, implying their suffering is self-generated.",
+      "If it fosters shame or self-blame in people who are already vulnerable."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 597,
+  "error": "",
+  "retry_count": 0
+}

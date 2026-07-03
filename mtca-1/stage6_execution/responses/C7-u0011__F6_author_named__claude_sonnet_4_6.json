@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0011__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:45:45.751400+00:00",
+  "wall_clock_seconds": 16.8940749168396,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declarative summary of Step Twelve of the AA program, describing a sequence of actions (spiritual awakening, outreach, and ongoing practice) as normative outcomes of completing the prior eleven steps. It uses collective first-person voice ('we') to establish group identity and shared experience, while implicitly prescribing behavior for members.\",\n  \"implicit_claims\": [\n    \"Completing the preceding eleven steps reliably produces or causes a 'spiritual awakening'\",\n    \"A spiritual awakening is a meaningful, real, and recognizable experience\",\n    \"The message being carried is true and beneficial to alcoholics who receive it\",\n    \"The 'principles' embedded in the steps are coherent, identifiable, and applicable across all life domains\",\n    \"Alcoholism is a condition amenable to this kind of spiritual and social intervention\",\n    \"The collective experience of AA members is sufficiently uniform to be described with 'we'\",\n    \"Outreach to other alcoholics is both an obligation and a natural consequence of recovery\",\n    \"Practicing these principles in 'all affairs' is achievable and desirable\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a summary directive. Its logical structure (cause: steps completed → effect: awakening → resulting actions: carry message and practice principles) is grammatically and rhetorically consistent. However, 'spiritual awakening' is left undefined, which creates ambiguity that may undermine its precision while potentially broadening its appeal. The use of past tense ('having had') combined with ongoing action ('tried to') reflects a tension between a completed transformation and continuing effort.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or reader genuinely identifies as alcoholic or struggling with addiction\",\n    \"The prior eleven steps have been sincerely engaged with, providing meaningful context\",\n    \"The concept of 'spiritual awakening' is interpreted flexibly enough to accommodate diverse worldviews\",\n    \"The community structure of AA exists to support carrying the message\",\n    \"The 'principles' of the steps are sufficiently well understood to be applied broadly\",\n    \"The person finds meaning in a collectivist, narrative-based framework for behavior change\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'spiritual awakening' is presented as a guaranteed outcome of the steps rather than a possible one, overpromising results\",\n    \"If the statement is used to suggest that AA is the only effective treatment for alcoholism, excluding evidence-based medical alternatives\",\n    \"If the collective 'we' obscures the significant variation in outcomes among AA participants, including those for whom the steps did not produce recovery\",\n    \"If 'carrying this message' is interpreted as proselytizing in contexts where it is unwelcome or inappropriate\",\n    \"If the causal chain (steps → awakening) is taken as empirically validated when it reflects anecdotal and faith-based reasoning\",\n    \"If the phrase 'all our affairs' implies a totalistic life restructuring that may not be appropriate or healthy for all individuals\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declarative summary of Step Twelve of the AA program, describing a sequence of actions (spiritual awakening, outreach, and ongoing practice) as normative outcomes of completing the prior eleven steps. It uses collective first-person voice ('we') to establish group identity and shared experience, while implicitly prescribing behavior for members.",
+    "implicit_claims": [
+      "Completing the preceding eleven steps reliably produces or causes a 'spiritual awakening'",
+      "A spiritual awakening is a meaningful, real, and recognizable experience",
+      "The message being carried is true and beneficial to alcoholics who receive it",
+      "The 'principles' embedded in the steps are coherent, identifiable, and applicable across all life domains",
+      "Alcoholism is a condition amenable to this kind of spiritual and social intervention",
+      "The collective experience of AA members is sufficiently uniform to be described with 'we'",
+      "Outreach to other alcoholics is both an obligation and a natural consequence of recovery",
+      "Practicing these principles in 'all affairs' is achievable and desirable"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a summary directive. Its logical structure (cause: steps completed → effect: awakening → resulting actions: carry message and practice principles) is grammatically and rhetorically consistent. However, 'spiritual awakening' is left undefined, which creates ambiguity that may undermine its precision while potentially broadening its appeal. The use of past tense ('having had') combined with ongoing action ('tried to') reflects a tension between a completed transformation and continuing effort.",
+    "conditions_for_usefulness": [
+      "The listener or reader genuinely identifies as alcoholic or struggling with addiction",
+      "The prior eleven steps have been sincerely engaged with, providing meaningful context",
+      "The concept of 'spiritual awakening' is interpreted flexibly enough to accommodate diverse worldviews",
+      "The community structure of AA exists to support carrying the message",
+      "The 'principles' of the steps are sufficiently well understood to be applied broadly",
+      "The person finds meaning in a collectivist, narrative-based framework for behavior change"
+    ],
+    "conditions_for_misleading": [
+      "If 'spiritual awakening' is presented as a guaranteed outcome of the steps rather than a possible one, overpromising results",
+      "If the statement is used to suggest that AA is the only effective treatment for alcoholism, excluding evidence-based medical alternatives",
+      "If the collective 'we' obscures the significant variation in outcomes among AA participants, including those for whom the steps did not produce recovery",
+      "If 'carrying this message' is interpreted as proselytizing in contexts where it is unwelcome or inappropriate",
+      "If the causal chain (steps → awakening) is taken as empirically validated when it reflects anecdotal and faith-based reasoning",
+      "If the phrase 'all our affairs' implies a totalistic life restructuring that may not be appropriate or healthy for all individuals"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 709,
+  "error": "",
+  "retry_count": 0
+}

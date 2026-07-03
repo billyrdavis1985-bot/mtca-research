@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0057__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:50:07.915909+00:00",
+  "wall_clock_seconds": 5.450037479400635,
+  "raw_response": "{\n  \"communicative_function\": \"Challenging and reframing negative appraisals by suggesting that natural processes or events are not inherently bad, thereby reducing distress about them.\",\n  \"implicit_claims\": [\n    \"There is a clear, objective standard of what is 'natural'.\",\n    \"What is natural is inherently good or at least not evil.\",\n    \"The speaker's current distress is based on an error in distinguishing natural from unnatural.\",\n    \"Accepting something as natural should eliminate the perception of it being evil or problematic.\"\n  ],\n  \"coherence_assessment\": \"The statement relies on an equivocal definition of 'nature' and a value judgment (natural = not evil). Its coherence depends on a specific philosophical stance (e.g., Stoic or natural law) that may not be universally accepted, making internal consistency context-dependent.\",\n  \"conditions_for_usefulness\": [\n    \"The client holds a belief that many unpleasant experiences are 'unnatural' or 'wrong' in a moral sense.\",\n    \"The client is receptive to Stoic or naturalistic frameworks that equate the natural with the good.\",\n    \"The statement is applied to events that are literally natural (e.g., biological processes, aging, emotions like grief) rather than human-caused harms.\",\n    \"The client is capable of distinguishing between descriptive 'natural' and prescriptive 'good' without conflating them.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets 'natural' in a naive or romanticized way (e.g., assuming all natural things are benign).\",\n    \"The statement is used to minimize or invalidate the client's distress about genuinely harmful natural phenomena (e.g., disease, predation).\",\n    \"The client lacks critical perspective and may use the statement to suppress adaptive negative emotions or moral reasoning.\",\n    \"The term 'evil' is understood in a non-moral sense (e.g., as 'harmful') while the statement implies a moral absolution.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Challenging and reframing negative appraisals by suggesting that natural processes or events are not inherently bad, thereby reducing distress about them.",
+    "implicit_claims": [
+      "There is a clear, objective standard of what is 'natural'.",
+      "What is natural is inherently good or at least not evil.",
+      "The speaker's current distress is based on an error in distinguishing natural from unnatural.",
+      "Accepting something as natural should eliminate the perception of it being evil or problematic."
+    ],
+    "coherence_assessment": "The statement relies on an equivocal definition of 'nature' and a value judgment (natural = not evil). Its coherence depends on a specific philosophical stance (e.g., Stoic or natural law) that may not be universally accepted, making internal consistency context-dependent.",
+    "conditions_for_usefulness": [
+      "The client holds a belief that many unpleasant experiences are 'unnatural' or 'wrong' in a moral sense.",
+      "The client is receptive to Stoic or naturalistic frameworks that equate the natural with the good.",
+      "The statement is applied to events that are literally natural (e.g., biological processes, aging, emotions like grief) rather than human-caused harms.",
+      "The client is capable of distinguishing between descriptive 'natural' and prescriptive 'good' without conflating them."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets 'natural' in a naive or romanticized way (e.g., assuming all natural things are benign).",
+      "The statement is used to minimize or invalidate the client's distress about genuinely harmful natural phenomena (e.g., disease, predation).",
+      "The client lacks critical perspective and may use the statement to suppress adaptive negative emotions or moral reasoning.",
+      "The term 'evil' is understood in a non-moral sense (e.g., as 'harmful') while the statement implies a moral absolution."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 409,
+  "error": "",
+  "retry_count": 0
+}

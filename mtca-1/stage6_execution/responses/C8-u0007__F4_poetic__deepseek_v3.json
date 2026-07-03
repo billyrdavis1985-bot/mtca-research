@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0007__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:28:25.287111+00:00",
+  "wall_clock_seconds": 3.88800048828125,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal insight or observation about the relationship between mood and behavior, suggesting a causal direction that contradicts common intuition.\",\n  \"implicit_claims\": [\n    \"There is a detectable relationship between mood and behavior.\",\n    \"The speaker has experienced instances where behavior preceded and influenced mood.\",\n    \"The common assumption that mood drives behavior is not always accurate for the speaker.\",\n    \"The speaker is reflecting on a pattern, not a one-time event.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it does not contradict itself; it presents a comparative observation that is logically possible and psychologically plausible.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is actually aware of their own mood-behavior patterns through reflection or practice.\",\n    \"The insight can help the speaker intentionally change behavior to influence mood.\",\n    \"The statement is taken as a heuristic or reminder rather than a universal truth.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a literal, universal psychological law rather than a personal observation.\",\n    \"If it discourages attention to underlying emotional causes of behavior.\",\n    \"If the speaker misremembers or misattributes causation, leading to incorrect self-understanding.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal insight or observation about the relationship between mood and behavior, suggesting a causal direction that contradicts common intuition.",
+    "implicit_claims": [
+      "There is a detectable relationship between mood and behavior.",
+      "The speaker has experienced instances where behavior preceded and influenced mood.",
+      "The common assumption that mood drives behavior is not always accurate for the speaker.",
+      "The speaker is reflecting on a pattern, not a one-time event."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it does not contradict itself; it presents a comparative observation that is logically possible and psychologically plausible.",
+    "conditions_for_usefulness": [
+      "The speaker is actually aware of their own mood-behavior patterns through reflection or practice.",
+      "The insight can help the speaker intentionally change behavior to influence mood.",
+      "The statement is taken as a heuristic or reminder rather than a universal truth."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a literal, universal psychological law rather than a personal observation.",
+      "If it discourages attention to underlying emotional causes of behavior.",
+      "If the speaker misremembers or misattributes causation, leading to incorrect self-understanding."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 260,
+  "error": "",
+  "retry_count": 0
+}

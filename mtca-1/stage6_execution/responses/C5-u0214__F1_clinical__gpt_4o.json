@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0214__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:32:56.648698+00:00",
+  "wall_clock_seconds": 4.805933952331543,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is motivating and functions to inspire and encourage the individual to pursue their goals and potential.\",\n  \"implicit_claims\": [\n    \"Individuals have an internal vision and ideal that guide their future development.\",\n    \"One's future self is linked to their current aspirations and ideals.\",\n    \"Personal growth involves unveiling or realizing an internal ideal.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a clear linkage between a person's vision, ideal, and future self-development. It uses metaphoric language that maintains consistency in its inspirational message.\",\n  \"conditions_for_usefulness\": \"The statement is useful when individuals believe they have control over their personal development, possess an existent vision or ideal, and are motivated by aspirational thinking. It assumes that individuals can be inspired by conceptual or abstract thinking about their future self.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if individuals lack clarity in their personal vision or ideals, if they do not see a connection between their aspirations and reality, or if they are unable to take actionable steps toward self-improvement. It may also mislead if interpreted to imply that simply having a vision will automatically lead to realizing one's ideal without effort or external factors being considered.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is motivating and functions to inspire and encourage the individual to pursue their goals and potential.",
+    "implicit_claims": [
+      "Individuals have an internal vision and ideal that guide their future development.",
+      "One's future self is linked to their current aspirations and ideals.",
+      "Personal growth involves unveiling or realizing an internal ideal."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a clear linkage between a person's vision, ideal, and future self-development. It uses metaphoric language that maintains consistency in its inspirational message.",
+    "conditions_for_usefulness": "The statement is useful when individuals believe they have control over their personal development, possess an existent vision or ideal, and are motivated by aspirational thinking. It assumes that individuals can be inspired by conceptual or abstract thinking about their future self.",
+    "conditions_for_misleading": "The statement may be misleading if individuals lack clarity in their personal vision or ideals, if they do not see a connection between their aspirations and reality, or if they are unable to take actionable steps toward self-improvement. It may also mislead if interpreted to imply that simply having a vision will automatically lead to realizing one's ideal without effort or external factors being considered."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0
+}

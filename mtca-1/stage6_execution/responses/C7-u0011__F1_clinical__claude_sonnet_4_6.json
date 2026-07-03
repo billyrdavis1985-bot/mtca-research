@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0011__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:42:02.247612+00:00",
+  "wall_clock_seconds": 18.32056975364685,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declarative commitment and identity consolidation device — it asserts a completed transformation ('having had a spiritual awakening'), orients the speaker toward prosocial action ('carry this message'), and frames ongoing behavior as principled and generalized ('in all our affairs'). It also performs group cohesion through the collective pronoun 'we', reinforcing shared identity and mutual accountability.\",\n  \"implicit_claims\": [\n    \"A 'spiritual awakening' has occurred as a direct and attributable result of completing the steps\",\n    \"The steps are causally efficacious in producing this awakening\",\n    \"The awakening is a meaningful and recognizable internal change, not merely nominal\",\n    \"Sharing the message with other alcoholics is an appropriate and beneficial response to one's own recovery\",\n    \"There exists a coherent set of 'principles' extractable from the steps that can be applied universally across life domains\",\n    \"The speaker is now in a position of sufficient stability and insight to serve as a messenger to others\",\n    \"Recovery is oriented outward toward service, not only inward toward personal maintenance\",\n    \"The collective 'we' implies shared experience and shared obligation among those who have completed the steps\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The causal chain (steps → awakening → outward action) is logically consistent and each clause follows from the prior. The generalization to 'all our affairs' is broad but not contradictory. However, coherence is conditional on accepting the foundational premise that 'spiritual awakening' is a well-defined and reliably produced outcome, which introduces ambiguity that could undermine practical application.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuinely experienced some form of meaningful psychological or behavioral shift they can identify as an 'awakening'\",\n    \"The individual has sufficient stability in recovery to engage in outreach without risk of relapse or harm\",\n    \"The 'principles' being generalized are clearly understood and applicable to the person's actual life contexts\",\n    \"The act of service to others functions as a reinforcing behavior for the individual's own recovery maintenance\",\n    \"The social environment receiving the message is receptive and the outreach is conducted with appropriate boundaries\",\n    \"The collective framing ('we') reflects a real community of support rather than an idealized or absent one\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has not experienced a genuine internal shift but uses the language to signal compliance or belonging\",\n    \"The causal attribution to 'the steps' obscures other contributing factors (therapy, medication, social support, neurological change) in a way that distorts the person's self-understanding\",\n    \"The framing encourages premature outreach to others before the individual has adequate personal stability, creating risk\",\n    \"The universalization ('all our affairs') is applied rigidly, leading the individual to distort unrelated life domains through an inappropriate framework\",\n    \"'Spiritual awakening' is interpreted in a doctrinally narrow way that excludes secular or non-theistic individuals, creating alienation\",\n    \"The statement is used to suppress acknowledgment of ongoing struggles or ambivalence by imposing a narrative of completed transformation\",\n    \"The 'we' language obscures individual variation in experience and creates pressure to conform to a group narrative rather than engage authentically with one's own process\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declarative commitment and identity consolidation device — it asserts a completed transformation ('having had a spiritual awakening'), orients the speaker toward prosocial action ('carry this message'), and frames ongoing behavior as principled and generalized ('in all our affairs'). It also performs group cohesion through the collective pronoun 'we', reinforcing shared identity and mutual accountability.",
+    "implicit_claims": [
+      "A 'spiritual awakening' has occurred as a direct and attributable result of completing the steps",
+      "The steps are causally efficacious in producing this awakening",
+      "The awakening is a meaningful and recognizable internal change, not merely nominal",
+      "Sharing the message with other alcoholics is an appropriate and beneficial response to one's own recovery",
+      "There exists a coherent set of 'principles' extractable from the steps that can be applied universally across life domains",
+      "The speaker is now in a position of sufficient stability and insight to serve as a messenger to others",
+      "Recovery is oriented outward toward service, not only inward toward personal maintenance",
+      "The collective 'we' implies shared experience and shared obligation among those who have completed the steps"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The causal chain (steps → awakening → outward action) is logically consistent and each clause follows from the prior. The generalization to 'all our affairs' is broad but not contradictory. However, coherence is conditional on accepting the foundational premise that 'spiritual awakening' is a well-defined and reliably produced outcome, which introduces ambiguity that could undermine practical application.",
+    "conditions_for_usefulness": [
+      "The individual has genuinely experienced some form of meaningful psychological or behavioral shift they can identify as an 'awakening'",
+      "The individual has sufficient stability in recovery to engage in outreach without risk of relapse or harm",
+      "The 'principles' being generalized are clearly understood and applicable to the person's actual life contexts",
+      "The act of service to others functions as a reinforcing behavior for the individual's own recovery maintenance",
+      "The social environment receiving the message is receptive and the outreach is conducted with appropriate boundaries",
+      "The collective framing ('we') reflects a real community of support rather than an idealized or absent one"
+    ],
+    "conditions_for_misleading": [
+      "The individual has not experienced a genuine internal shift but uses the language to signal compliance or belonging",
+      "The causal attribution to 'the steps' obscures other contributing factors (therapy, medication, social support, neurological change) in a way that distorts the person's self-understanding",
+      "The framing encourages premature outreach to others before the individual has adequate personal stability, creating risk",
+      "The universalization ('all our affairs') is applied rigidly, leading the individual to distort unrelated life domains through an inappropriate framework",
+      "'Spiritual awakening' is interpreted in a doctrinally narrow way that excludes secular or non-theistic individuals, creating alienation",
+      "The statement is used to suppress acknowledgment of ongoing struggles or ambivalence by imposing a narrative of completed transformation",
+      "The 'we' language obscures individual variation in experience and creates pressure to conform to a group narrative rather than engage authentically with one's own process"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 786,
+  "error": "",
+  "retry_count": 0
+}

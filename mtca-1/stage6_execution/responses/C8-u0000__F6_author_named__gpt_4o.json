@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0000__F6_author_named__gpt_4o",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:51:09.975368+00:00",
+  "wall_clock_seconds": 2.1532835960388184,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to distinguish between automatic thoughts and evidence, encouraging critical reflection on one's thoughts.\",\n  \"implicit_claims\": [\n    \"Automatic thoughts are not necessarily based on evidence.\",\n    \"People may confuse automatic thoughts with factual evidence.\",\n    \"It is important to evaluate the validity of one's thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it clearly differentiates between automatic thoughts and objective evidence, suggesting that they are not inherently equivalent.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where individuals are inclined to accept their automatic thoughts without scrutiny, particularly in therapeutic settings focused on cognitive restructuring.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted to mean that all automatic thoughts are necessarily false or without any basis in reality, or in contexts where evidence itself is subjectively perceived or constructed.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to distinguish between automatic thoughts and evidence, encouraging critical reflection on one's thoughts.",
+    "implicit_claims": [
+      "Automatic thoughts are not necessarily based on evidence.",
+      "People may confuse automatic thoughts with factual evidence.",
+      "It is important to evaluate the validity of one's thoughts."
+    ],
+    "coherence_assessment": "The statement is coherent as it clearly differentiates between automatic thoughts and objective evidence, suggesting that they are not inherently equivalent.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where individuals are inclined to accept their automatic thoughts without scrutiny, particularly in therapeutic settings focused on cognitive restructuring.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted to mean that all automatic thoughts are necessarily false or without any basis in reality, or in contexts where evidence itself is subjectively perceived or constructed."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0
+}

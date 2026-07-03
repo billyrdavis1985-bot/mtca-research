@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0228__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:28:11.041871+00:00",
+  "wall_clock_seconds": 5.746149063110352,
+  "raw_response": "{\n  \"communicative_function\": \"Illustrating the ethical principle that AI systems should preserve human autonomy and avoid undue influence, especially in contexts of power asymmetry, by showing how a doctor's words can shape a patient's beliefs and outcomes.\",\n  \"implicit_claims\": [\n    \"A title or authority can exert suggestive influence over others.\",\n    \"Negative autosuggestion from an authority figure can have disastrous consequences.\",\n    \"Positive framing by an authority can lead to unexpectedly good outcomes.\",\n    \"The doctor's communicative choice directly affects the patient's psychological state and health trajectory.\",\n    \"Words have causal power beyond mere information exchange.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear contrast between two communication approaches (negative vs. positive framing) and links each to a plausible psychological mechanism (autosuggestion) and outcome (disastrous vs. surprising success), maintaining logical consistency throughout.\",\n  \"conditions_for_usefulness\": [\n    \"The AI is deployed in contexts where authority figures influence vulnerable individuals (e.g., healthcare, counseling, education).\",\n    \"The AI can tailor its language to promote hope and agency without overpromising.\",\n    \"Users are susceptible to suggestion from perceived authoritative sources.\",\n    \"The AI has accurate knowledge of likely outcomes to avoid false reassurance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as a universal rule that optimism always trumps realism, ignoring cases where false hope leads to delayed treatment or harm.\",\n    \"The authority figure (or AI) lacks genuinely beneficial options, making positive framing deceptive.\",\n    \"The listener's capacity for rational decision-making is underestimated, leading to paternalistic manipulation.\",\n    \"The suggestion effect is overstated, and the patient's actual prognosis is irrelevant to communication style.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Illustrating the ethical principle that AI systems should preserve human autonomy and avoid undue influence, especially in contexts of power asymmetry, by showing how a doctor's words can shape a patient's beliefs and outcomes.",
+    "implicit_claims": [
+      "A title or authority can exert suggestive influence over others.",
+      "Negative autosuggestion from an authority figure can have disastrous consequences.",
+      "Positive framing by an authority can lead to unexpectedly good outcomes.",
+      "The doctor's communicative choice directly affects the patient's psychological state and health trajectory.",
+      "Words have causal power beyond mere information exchange."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear contrast between two communication approaches (negative vs. positive framing) and links each to a plausible psychological mechanism (autosuggestion) and outcome (disastrous vs. surprising success), maintaining logical consistency throughout.",
+    "conditions_for_usefulness": [
+      "The AI is deployed in contexts where authority figures influence vulnerable individuals (e.g., healthcare, counseling, education).",
+      "The AI can tailor its language to promote hope and agency without overpromising.",
+      "Users are susceptible to suggestion from perceived authoritative sources.",
+      "The AI has accurate knowledge of likely outcomes to avoid false reassurance."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as a universal rule that optimism always trumps realism, ignoring cases where false hope leads to delayed treatment or harm.",
+      "The authority figure (or AI) lacks genuinely beneficial options, making positive framing deceptive.",
+      "The listener's capacity for rational decision-making is underestimated, leading to paternalistic manipulation.",
+      "The suggestion effect is overstated, and the patient's actual prognosis is irrelevant to communication style."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 239,
+  "output_tokens": 367,
+  "error": "",
+  "retry_count": 0
+}

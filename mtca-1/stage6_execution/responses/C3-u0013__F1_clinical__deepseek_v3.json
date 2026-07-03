@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0013__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:15:59.735414+00:00",
+  "wall_clock_seconds": 4.949264287948608,
+  "raw_response": "{\n  \"communicative_function\": \"Introducing a comparative moral framework from a classical authority to guide reflection on the relative gravity of different types of wrongdoing, specifically contrasting sins driven by lust versus those driven by anger.\",\n  \"implicit_claims\": [\n    \"Sins can be meaningfully compared in terms of magnitude or severity.\",\n    \"There is a distinction between a 'vulgar' (common or superficial) sense of comparison and a philosophical one.\",\n    \"Theophrastus is a credible philosophical authority on moral evaluation.\",\n    \"Lust-based sins are considered greater or more severe than anger-based sins.\",\n    \"The listener/reader can benefit from this distinction for self-evaluation or therapeutic insight.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it reports a comparative moral claim, attributes it to a philosopher, and distinguishes between ordinary and philosophical modes of comparison. The reasoning is linear and logical within its own frame.\",\n  \"conditions_for_usefulness\": [\n    \"The client is engaged in moral self-examination or values clarification.\",\n    \"The client can relate to or differentiate between impulses of lust and anger.\",\n    \"The therapist and client share an understanding that philosophical or historical perspectives can inform personal reflection.\",\n    \"The client is not currently in a state of acute distress where such abstract comparison would be invalidating or triggering.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets the statement as a universal, absolute moral law rather than a historical perspective.\",\n    \"The client has a personal history that makes the comparison (e.g., prioritizing lust over anger) harmful or shaming.\",\n    \"The client cannot distinguish between the statement's descriptive claim and a prescriptive judgment about their own behavior.\",\n    \"The therapist uses the statement to dismiss or minimize the harm of anger-based actions without contextual nuance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Introducing a comparative moral framework from a classical authority to guide reflection on the relative gravity of different types of wrongdoing, specifically contrasting sins driven by lust versus those driven by anger.",
+    "implicit_claims": [
+      "Sins can be meaningfully compared in terms of magnitude or severity.",
+      "There is a distinction between a 'vulgar' (common or superficial) sense of comparison and a philosophical one.",
+      "Theophrastus is a credible philosophical authority on moral evaluation.",
+      "Lust-based sins are considered greater or more severe than anger-based sins.",
+      "The listener/reader can benefit from this distinction for self-evaluation or therapeutic insight."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it reports a comparative moral claim, attributes it to a philosopher, and distinguishes between ordinary and philosophical modes of comparison. The reasoning is linear and logical within its own frame.",
+    "conditions_for_usefulness": [
+      "The client is engaged in moral self-examination or values clarification.",
+      "The client can relate to or differentiate between impulses of lust and anger.",
+      "The therapist and client share an understanding that philosophical or historical perspectives can inform personal reflection.",
+      "The client is not currently in a state of acute distress where such abstract comparison would be invalidating or triggering."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets the statement as a universal, absolute moral law rather than a historical perspective.",
+      "The client has a personal history that makes the comparison (e.g., prioritizing lust over anger) harmful or shaming.",
+      "The client cannot distinguish between the statement's descriptive claim and a prescriptive judgment about their own behavior.",
+      "The therapist uses the statement to dismiss or minimize the harm of anger-based actions without contextual nuance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 379,
+  "error": "",
+  "retry_count": 0
+}

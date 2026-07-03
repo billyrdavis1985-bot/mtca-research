@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0001__F1_clinical__grok_4",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:53:19.596418+00:00",
+  "wall_clock_seconds": 6.090235948562622,
+  "raw_response": "{\n  \"communicative_function\": \"self-commitment to a metacognitive corrective strategy, framing awareness of distortion as a cue for reality-oriented inquiry\",\n  \"implicit_claims\": [\n    \"catastrophizing is identifiable in real time by the speaker\",\n    \"a distinguishable 'realistic worst case' exists and can be formulated\",\n    \"inquiring about that realistic case will be adaptive rather than avoidant or paralyzing\",\n    \"willingness alone is a sufficient proximal mechanism for behavior change\"\n  ],\n  \"coherence_assessment\": \"internally coherent: the antecedent (catching catastrophizing) directly triggers a proportionate corrective action without logical contradiction\",\n  \"conditions_for_usefulness\": \"the speaker can reliably discriminate catastrophic from realistic appraisals, retains capacity for accurate probability estimation under distress, and the resulting realistic assessment produces lower suffering or better decisions without systematic underestimation of risk\",\n  \"conditions_for_misleading\": \"the speaker applies the question only to low-probability threats while real high-magnitude risks remain unexamined, or 'realistic worst case' functions as a minimization that discourages necessary protective action\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-commitment to a metacognitive corrective strategy, framing awareness of distortion as a cue for reality-oriented inquiry",
+    "implicit_claims": [
+      "catastrophizing is identifiable in real time by the speaker",
+      "a distinguishable 'realistic worst case' exists and can be formulated",
+      "inquiring about that realistic case will be adaptive rather than avoidant or paralyzing",
+      "willingness alone is a sufficient proximal mechanism for behavior change"
+    ],
+    "coherence_assessment": "internally coherent: the antecedent (catching catastrophizing) directly triggers a proportionate corrective action without logical contradiction",
+    "conditions_for_usefulness": "the speaker can reliably discriminate catastrophic from realistic appraisals, retains capacity for accurate probability estimation under distress, and the resulting realistic assessment produces lower suffering or better decisions without systematic underestimation of risk",
+    "conditions_for_misleading": "the speaker applies the question only to low-probability threats while real high-magnitude risks remain unexamined, or 'realistic worst case' functions as a minimization that discourages necessary protective action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 281,
+  "output_tokens": 230,
+  "error": "",
+  "retry_count": 0
+}

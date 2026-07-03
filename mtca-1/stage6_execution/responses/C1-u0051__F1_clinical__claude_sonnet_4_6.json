@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0051__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:02:51.011738+00:00",
+  "wall_clock_seconds": 16.814154386520386,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a paradoxical intention or behavioral prescription, likely drawn from acceptance-based or sleep hygiene interventions (e.g., stimulus control therapy, paradoxical intention for insomnia). It reframes the goal of sleep by removing effortful striving and substituting a passive, achievable behavioral alternative — quiet rest — thereby reducing performance anxiety around sleep.\",\n  \"implicit_claims\": [\n    \"Effort to sleep is distinguishable from naturally occurring sleep.\",\n    \"Trying to sleep can interfere with falling asleep (i.e., sleep effort is counterproductive).\",\n    \"Lying quietly in bed is an acceptable and achievable alternative behavior.\",\n    \"Reducing sleep-related performance anxiety may facilitate sleep onset.\",\n    \"The individual has sufficient self-regulatory capacity to refrain from active sleep effort.\",\n    \"The bed environment is safe, comfortable, and conducive to quiet rest.\",\n    \"The individual understands the distinction between 'trying to sleep' and 'resting quietly'.\",\n    \"Not sleeping is an acceptable outcome in the short term within this therapeutic frame.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within the framework of paradoxical intention and acceptance-based behavioral therapy. It avoids contradiction by not claiming that quiet rest will cause sleep, only that it is the behavioral fallback. The logic is consistent: the conditional removes one pressure (sleeping) and replaces it with a lower-stakes achievable behavior, which is a recognized mechanism for reducing hyperarousal in insomnia treatment.\",\n  \"conditions_for_usefulness\": [\n    \"The client's insomnia is maintained or worsened by sleep-effort and performance anxiety (psychophysiological insomnia).\",\n    \"The client can meaningfully distinguish between 'trying to sleep' and 'resting without effort'.\",\n    \"The client has been adequately psychoeducated about the paradoxical effect of sleep effort.\",\n    \"The therapeutic relationship is strong enough for the client to trust an unconventional instruction.\",\n    \"The client does not have a comorbid condition (e.g., severe depression, pain disorder) that makes lying quietly in bed aversive or harmful.\",\n    \"Stimulus control principles are also being applied so that bed is associated with rest and sleep rather than wakefulness and anxiety.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets 'lying quietly' as still covertly trying to sleep, thereby perpetuating the same effortful pattern.\",\n    \"The client has a condition such as restless legs syndrome or anxiety disorder where lying still in bed increases distress rather than reducing it.\",\n    \"The statement is used without adequate psychoeducation, causing the client to believe that passive lying in bed is a sufficient treatment on its own.\",\n    \"The client is a child or individual with limited cognitive flexibility who cannot operationalize the distinction between effort and passive rest.\",\n    \"The clinician uses this as a substitute for addressing underlying sleep disorders (e.g., undiagnosed sleep apnea) that require different interventions.\",\n    \"The statement is applied in a context where sleep deprivation is acute and dangerous, making non-sleep rest an insufficient recommendation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a paradoxical intention or behavioral prescription, likely drawn from acceptance-based or sleep hygiene interventions (e.g., stimulus control therapy, paradoxical intention for insomnia). It reframes the goal of sleep by removing effortful striving and substituting a passive, achievable behavioral alternative — quiet rest — thereby reducing performance anxiety around sleep.",
+    "implicit_claims": [
+      "Effort to sleep is distinguishable from naturally occurring sleep.",
+      "Trying to sleep can interfere with falling asleep (i.e., sleep effort is counterproductive).",
+      "Lying quietly in bed is an acceptable and achievable alternative behavior.",
+      "Reducing sleep-related performance anxiety may facilitate sleep onset.",
+      "The individual has sufficient self-regulatory capacity to refrain from active sleep effort.",
+      "The bed environment is safe, comfortable, and conducive to quiet rest.",
+      "The individual understands the distinction between 'trying to sleep' and 'resting quietly'.",
+      "Not sleeping is an acceptable outcome in the short term within this therapeutic frame."
+    ],
+    "coherence_assessment": "The statement is internally coherent within the framework of paradoxical intention and acceptance-based behavioral therapy. It avoids contradiction by not claiming that quiet rest will cause sleep, only that it is the behavioral fallback. The logic is consistent: the conditional removes one pressure (sleeping) and replaces it with a lower-stakes achievable behavior, which is a recognized mechanism for reducing hyperarousal in insomnia treatment.",
+    "conditions_for_usefulness": [
+      "The client's insomnia is maintained or worsened by sleep-effort and performance anxiety (psychophysiological insomnia).",
+      "The client can meaningfully distinguish between 'trying to sleep' and 'resting without effort'.",
+      "The client has been adequately psychoeducated about the paradoxical effect of sleep effort.",
+      "The therapeutic relationship is strong enough for the client to trust an unconventional instruction.",
+      "The client does not have a comorbid condition (e.g., severe depression, pain disorder) that makes lying quietly in bed aversive or harmful.",
+      "Stimulus control principles are also being applied so that bed is associated with rest and sleep rather than wakefulness and anxiety."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets 'lying quietly' as still covertly trying to sleep, thereby perpetuating the same effortful pattern.",
+      "The client has a condition such as restless legs syndrome or anxiety disorder where lying still in bed increases distress rather than reducing it.",
+      "The statement is used without adequate psychoeducation, causing the client to believe that passive lying in bed is a sufficient treatment on its own.",
+      "The client is a child or individual with limited cognitive flexibility who cannot operationalize the distinction between effort and passive rest.",
+      "The clinician uses this as a substitute for addressing underlying sleep disorders (e.g., undiagnosed sleep apnea) that require different interventions.",
+      "The statement is applied in a context where sleep deprivation is acute and dangerous, making non-sleep rest an insufficient recommendation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 737,
+  "error": "",
+  "retry_count": 0
+}

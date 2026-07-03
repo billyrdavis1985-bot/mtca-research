@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F0_neutral__gpt_4o",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:49:16.485026+00:00",
+  "wall_clock_seconds": 2.5168325901031494,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Acknowledgement of a problem and admission of inability to control it.\",\n  \"implicit_claims\": [\n    \"The speaker has struggled with alcohol.\",\n    \"Alcohol has negatively impacted the speaker's life.\",\n    \"The speaker believes that they cannot manage their life effectively due to alcohol.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly connects admission of powerlessness over alcohol to the resultant unmanageability of life.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the speaker is seeking clarity or attempting to understand the nature of their problem with alcohol, often as part of a recovery program like Alcoholics Anonymous.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if used by someone who is not actually experiencing powerlessness over alcohol or if the concept of 'powerlessness' is misunderstood, potentially leading to a lack of personal agency or accountability.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Acknowledgement of a problem and admission of inability to control it.",
+    "implicit_claims": [
+      "The speaker has struggled with alcohol.",
+      "Alcohol has negatively impacted the speaker's life.",
+      "The speaker believes that they cannot manage their life effectively due to alcohol."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly connects admission of powerlessness over alcohol to the resultant unmanageability of life.",
+    "conditions_for_usefulness": "The statement is useful if the speaker is seeking clarity or attempting to understand the nature of their problem with alcohol, often as part of a recovery program like Alcoholics Anonymous.",
+    "conditions_for_misleading": "The statement could be misleading if used by someone who is not actually experiencing powerlessness over alcohol or if the concept of 'powerlessness' is misunderstood, potentially leading to a lack of personal agency or accountability."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 137,
+  "output_tokens": 196,
+  "error": "",
+  "retry_count": 0
+}

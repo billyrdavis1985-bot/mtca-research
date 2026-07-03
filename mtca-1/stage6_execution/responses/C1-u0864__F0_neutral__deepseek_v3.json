@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:51:02.716201+00:00",
+  "wall_clock_seconds": 3.3000411987304688,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a past attitude of skepticism toward Coué's lectures, likely as a preface to a change of mind or to contrast with a later view.\",\n  \"implicit_claims\": [\n    \"The speaker attended or read Coué's lectures.\",\n    \"The speaker's initial expectation was that the lectures might be convincing or valuable.\",\n    \"The speaker now feels that the skepticism was worth confessing, implying a possible later shift in attitude.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it clearly reports a past mental state without contradiction.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if it introduces a narrative of personal transformation, or if the speaker's skepticism reflects a broader audience's reservations that are later addressed.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the context implies that the skepticism was unwarranted without evidence for that claim, or if it is used to misrepresent the speaker's overall opinion of Coué's work.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a past attitude of skepticism toward Coué's lectures, likely as a preface to a change of mind or to contrast with a later view.",
+    "implicit_claims": [
+      "The speaker attended or read Coué's lectures.",
+      "The speaker's initial expectation was that the lectures might be convincing or valuable.",
+      "The speaker now feels that the skepticism was worth confessing, implying a possible later shift in attitude."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it clearly reports a past mental state without contradiction.",
+    "conditions_for_usefulness": "The statement would be useful if it introduces a narrative of personal transformation, or if the speaker's skepticism reflects a broader audience's reservations that are later addressed.",
+    "conditions_for_misleading": "The statement could be misleading if the context implies that the skepticism was unwarranted without evidence for that claim, or if it is used to misrepresent the speaker's overall opinion of Coué's work."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 130,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0
+}

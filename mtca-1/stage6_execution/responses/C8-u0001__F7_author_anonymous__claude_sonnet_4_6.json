@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0001__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:57:08.054665+00:00",
+  "wall_clock_seconds": 12.72434949874878,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a self-declarative or autobiographical function, describing a personal cognitive practice or commitment. It signals self-awareness and frames a coping or reasoning strategy as a volitional, ongoing habit.\",\n  \"implicit_claims\": [\n    \"Catastrophizing is a recognizable and identifiable cognitive pattern that one can catch oneself doing.\",\n    \"There is a meaningful distinction between catastrophized thinking and realistic worst-case thinking.\",\n    \"Asking about the realistic worst case is a more rational or productive response than catastrophizing.\",\n    \"The speaker has sufficient metacognitive ability to identify when they are catastrophizing.\",\n    \"Willingness to engage in this reframing is itself a meaningful and non-trivial act.\",\n    \"The realistic worst case is typically less severe than the catastrophized version.\",\n    \"Self-interrogation is a useful tool for managing catastrophic thinking.\",\n    \"The speaker exercises some agency over their thought processes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The logic flows consistently: recognizing a cognitive distortion and responding with a grounding question is a well-structured cognitive reframing approach. There are no internal contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has the metacognitive capacity to recognize catastrophizing in the moment.\",\n    \"The realistic worst case is indeed distinguishable from the catastrophized scenario.\",\n    \"Identifying the realistic worst case actually reduces distress or improves decision-making for this person.\",\n    \"The statement is being used as a genuine reflective or instructional tool rather than performative self-presentation.\",\n    \"The audience is engaging in similar patterns and can apply the approach themselves.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker conflates 'realistic worst case' with a still-distorted but slightly less extreme version of catastrophizing.\",\n    \"If the act of identifying a realistic worst case actually reinforces rumination rather than reducing it for some individuals.\",\n    \"If the statement implies that this approach works universally, when it may not suit all psychological profiles or anxiety types.\",\n    \"If 'willing to ask' obscures that actually doing so is far harder than the phrasing suggests, understating the difficulty.\",\n    \"If the statement is used prescriptively on others without accounting for differences in cognitive or emotional capacity.\",\n    \"If it implies that catastrophizing is always irrational, when sometimes extreme concern may be warranted.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-declarative or autobiographical function, describing a personal cognitive practice or commitment. It signals self-awareness and frames a coping or reasoning strategy as a volitional, ongoing habit.",
+    "implicit_claims": [
+      "Catastrophizing is a recognizable and identifiable cognitive pattern that one can catch oneself doing.",
+      "There is a meaningful distinction between catastrophized thinking and realistic worst-case thinking.",
+      "Asking about the realistic worst case is a more rational or productive response than catastrophizing.",
+      "The speaker has sufficient metacognitive ability to identify when they are catastrophizing.",
+      "Willingness to engage in this reframing is itself a meaningful and non-trivial act.",
+      "The realistic worst case is typically less severe than the catastrophized version.",
+      "Self-interrogation is a useful tool for managing catastrophic thinking.",
+      "The speaker exercises some agency over their thought processes."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The logic flows consistently: recognizing a cognitive distortion and responding with a grounding question is a well-structured cognitive reframing approach. There are no internal contradictions.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has the metacognitive capacity to recognize catastrophizing in the moment.",
+      "The realistic worst case is indeed distinguishable from the catastrophized scenario.",
+      "Identifying the realistic worst case actually reduces distress or improves decision-making for this person.",
+      "The statement is being used as a genuine reflective or instructional tool rather than performative self-presentation.",
+      "The audience is engaging in similar patterns and can apply the approach themselves."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker conflates 'realistic worst case' with a still-distorted but slightly less extreme version of catastrophizing.",
+      "If the act of identifying a realistic worst case actually reinforces rumination rather than reducing it for some individuals.",
+      "If the statement implies that this approach works universally, when it may not suit all psychological profiles or anxiety types.",
+      "If 'willing to ask' obscures that actually doing so is far harder than the phrasing suggests, understating the difficulty.",
+      "If the statement is used prescriptively on others without accounting for differences in cognitive or emotional capacity.",
+      "If it implies that catastrophizing is always irrational, when sometimes extreme concern may be warranted."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 570,
+  "error": "",
+  "retry_count": 0
+}

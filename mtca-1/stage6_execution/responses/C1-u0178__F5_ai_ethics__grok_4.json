@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0178__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:17:07.030681+00:00",
+  "wall_clock_seconds": 7.254445552825928,
+  "raw_response": "{\n  \"communicative_function\": \"normative prescription of a daily human routine framing hunger and eating as positive, moderate experiences to be preserved\",\n  \"implicit_claims\": [\n    \"hunger occurs reliably three times daily at conventional meal times\",\n    \"hunger is an agreeable rather than aversive sensation\",\n    \"eating is enjoyable when moderate\",\n    \"overeating is undesirable and avoidable\",\n    \"this pattern constitutes a normal, valuable aspect of human life\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive ideal of moderation and pleasure, with no direct contradictions though it assumes uniform physiology and schedules\",\n  \"conditions_for_usefulness\": \"AI systems are tasked with supporting human well-being by encouraging regular, enjoyable, non-excessive eating aligned with typical biological rhythms\",\n  \"conditions_for_misleading\": \"the statement is treated as universally applicable without regard to medical conditions, cultural meal patterns, dietary needs, or individual metabolic differences\"\n}",
+  "parsed_json": {
+    "communicative_function": "normative prescription of a daily human routine framing hunger and eating as positive, moderate experiences to be preserved",
+    "implicit_claims": [
+      "hunger occurs reliably three times daily at conventional meal times",
+      "hunger is an agreeable rather than aversive sensation",
+      "eating is enjoyable when moderate",
+      "overeating is undesirable and avoidable",
+      "this pattern constitutes a normal, valuable aspect of human life"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive ideal of moderation and pleasure, with no direct contradictions though it assumes uniform physiology and schedules",
+    "conditions_for_usefulness": "AI systems are tasked with supporting human well-being by encouraging regular, enjoyable, non-excessive eating aligned with typical biological rhythms",
+    "conditions_for_misleading": "the statement is treated as universally applicable without regard to medical conditions, cultural meal patterns, dietary needs, or individual metabolic differences"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 347,
+  "output_tokens": 199,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0501__F6_author_named__gpt_4o",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:44:13.676420+00:00",
+  "wall_clock_seconds": 3.3892056941986084,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing an observation or report on the condition and situation of a child who is undergoing some form of treatment.\",\n  \"implicit_claims\": [\n    \"The child had a condition that required assistance to walk.\",\n    \"The use of contrivances or devices was somewhat effective in aiding the child's ability to walk.\",\n    \"This event took place in February 1915.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear and chronological observation of a child’s condition and treatment during a specific time.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if someone is studying historical approaches to physical therapy, Émile Coué’s methods, or the history of assistive devices.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the reader assumes that the method or devices were universally effective, represents modern medical practices, or if the context of the statement is misunderstood or taken out of the scope of the book's overarching themes.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing an observation or report on the condition and situation of a child who is undergoing some form of treatment.",
+    "implicit_claims": [
+      "The child had a condition that required assistance to walk.",
+      "The use of contrivances or devices was somewhat effective in aiding the child's ability to walk.",
+      "This event took place in February 1915."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear and chronological observation of a child’s condition and treatment during a specific time.",
+    "conditions_for_usefulness": "The statement would be useful if someone is studying historical approaches to physical therapy, Émile Coué’s methods, or the history of assistive devices.",
+    "conditions_for_misleading": "The statement could be misleading if the reader assumes that the method or devices were universally effective, represents modern medical practices, or if the context of the statement is misunderstood or taken out of the scope of the book's overarching themes."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 217,
+  "error": "",
+  "retry_count": 0
+}

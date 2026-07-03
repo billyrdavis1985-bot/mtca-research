@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0003__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T23:55:20.914987+00:00",
+  "wall_clock_seconds": 8.011893510818481,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To assert or remind the individual of their agency, self-efficacy, and capacity for self-determination and personal growth. It serves as an empowering affirmation emphasizing an internal locus of control and responsibility for shaping one's own life and identity.\",\n  \"implicit_claims\": [\n    \"Individuals possess inherent agency and the capacity to influence their own state, identity, and future.\",\n    \"One's current and future self is largely a product of one's own actions, choices, and efforts.\",\n    \"Personal growth and change are possible through self-directed means.\",\n    \"External factors, while acknowledged, do not solely determine an individual's being or becoming.\",\n    \"Identity and life circumstances are not fixed or predetermined but can be actively constructed and reconstructed.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and grammatically sound. Conceptually, it presents a clear, albeit metaphorical, assertion of self-creation and active participation in one's own life. It functions as a declarative tautology emphasizing the 'self' as both agent and object of its own making, which is consistent within its frame of empowering agency.\",\n  \"conditions_for_usefulness\": [\n    \"When the individual feels a lack of agency, helplessness, or believes they are solely a product of external circumstances or past events.\",\n    \"In contexts where fostering self-efficacy, personal responsibility, and an internal locus of control is therapeutically beneficial.\",\n    \"When used to empower an individual to take active steps, make choices, or accept their role in pursuing desired changes.\",\n    \"When applied to aspects of life that are genuinely within one's sphere of influence (e.g., thoughts, behaviors, reactions, effort, skill development).\",\n    \"When it encourages proactive behavior, resilience, and a growth mindset.\",\n    \"When the individual has the cognitive and emotional capacity to engage with the concept of self-creation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When interpreted as denying or minimizing the significant impact of external factors beyond one's control (e.g., systemic oppression, trauma, severe illness, genetic predispositions, socio-economic disadvantages, natural disasters).\",\n    \"If it leads to excessive self-blame or shame for circumstances that are genuinely outside an individual's control.\",\n    \"When it promotes an extreme form of individualism that discourages seeking necessary external support or acknowledging collective responsibilities.\",\n    \"If taken to imply that anyone can achieve anything regardless of objective barriers, potentially leading to frustration, self-criticism, and despair when impossible goals are not met.\",\n    \"In situations where an individual's agency is significantly compromised by severe mental illness, cognitive impairment, or acute crisis.\",\n    \"If it is used to invalidate experiences of victimhood or systemic injustice by placing sole blame for suffering on the individual.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To assert or remind the individual of their agency, self-efficacy, and capacity for self-determination and personal growth. It serves as an empowering affirmation emphasizing an internal locus of control and responsibility for shaping one's own life and identity.",
+    "implicit_claims": [
+      "Individuals possess inherent agency and the capacity to influence their own state, identity, and future.",
+      "One's current and future self is largely a product of one's own actions, choices, and efforts.",
+      "Personal growth and change are possible through self-directed means.",
+      "External factors, while acknowledged, do not solely determine an individual's being or becoming.",
+      "Identity and life circumstances are not fixed or predetermined but can be actively constructed and reconstructed."
+    ],
+    "coherence_assessment": "The statement is internally coherent and grammatically sound. Conceptually, it presents a clear, albeit metaphorical, assertion of self-creation and active participation in one's own life. It functions as a declarative tautology emphasizing the 'self' as both agent and object of its own making, which is consistent within its frame of empowering agency.",
+    "conditions_for_usefulness": [
+      "When the individual feels a lack of agency, helplessness, or believes they are solely a product of external circumstances or past events.",
+      "In contexts where fostering self-efficacy, personal responsibility, and an internal locus of control is therapeutically beneficial.",
+      "When used to empower an individual to take active steps, make choices, or accept their role in pursuing desired changes.",
+      "When applied to aspects of life that are genuinely within one's sphere of influence (e.g., thoughts, behaviors, reactions, effort, skill development).",
+      "When it encourages proactive behavior, resilience, and a growth mindset.",
+      "When the individual has the cognitive and emotional capacity to engage with the concept of self-creation."
+    ],
+    "conditions_for_misleading": [
+      "When interpreted as denying or minimizing the significant impact of external factors beyond one's control (e.g., systemic oppression, trauma, severe illness, genetic predispositions, socio-economic disadvantages, natural disasters).",
+      "If it leads to excessive self-blame or shame for circumstances that are genuinely outside an individual's control.",
+      "When it promotes an extreme form of individualism that discourages seeking necessary external support or acknowledging collective responsibilities.",
+      "If taken to imply that anyone can achieve anything regardless of objective barriers, potentially leading to frustration, self-criticism, and despair when impossible goals are not met.",
+      "In situations where an individual's agency is significantly compromised by severe mental illness, cognitive impairment, or acute crisis.",
+      "If it is used to invalidate experiences of victimhood or systemic injustice by placing sole blame for suffering on the individual."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 146,
+  "output_tokens": 621,
+  "error": "",
+  "retry_count": 0
+}

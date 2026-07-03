@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0285__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:32:12.448894+00:00",
+  "wall_clock_seconds": 5.344594240188599,
+  "raw_response": "{\n  \"communicative_function\": \"The statement dismisses safety concerns by relativizing danger, suggesting that risk is ubiquitous and therefore not a valid reason to avoid the specific thing in question.\",\n  \"implicit_claims\": [\n    \"The object or activity in question poses no actual danger (or minimal danger).\",\n    \"All commonly used things are inherently dangerous.\",\n    \"If everything is dangerous, then singling out this one thing is unfair or irrational.\",\n    \"The objector's concern is hypocritical because they presumably use other dangerous things.\",\n    \"The absence of perfect safety is a sufficient reason to ignore a specific risk.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent but rhetorically flawed: it conflates degree and kind of risk, treating all dangers as equivalent. The claim 'which is not so' contradicts the hypothetical admission of 'some danger,' creating a minor inconsistency.\",\n  \"conditions_for_usefulness\": [\n    \"The listener accepts that all common activities carry roughly equal risk.\",\n    \"The specific danger is genuinely negligible or comparable to everyday risks.\",\n    \"The goal is to reduce overblown fear or to encourage reasoned risk-benefit analysis.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The danger is actually significant or novel (e.g., a new technology with unknown long-term effects).\",\n    \"The listener fails to distinguish between voluntary and involuntary risks, or between acceptable and unacceptable levels of danger.\",\n    \"The statement is used to dismiss legitimate precaution without proper evidence.\",\n    \"The risks of other common items are not actually comparable (e.g., crossing the street vs. using an untested drug).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement dismisses safety concerns by relativizing danger, suggesting that risk is ubiquitous and therefore not a valid reason to avoid the specific thing in question.",
+    "implicit_claims": [
+      "The object or activity in question poses no actual danger (or minimal danger).",
+      "All commonly used things are inherently dangerous.",
+      "If everything is dangerous, then singling out this one thing is unfair or irrational.",
+      "The objector's concern is hypocritical because they presumably use other dangerous things.",
+      "The absence of perfect safety is a sufficient reason to ignore a specific risk."
+    ],
+    "coherence_assessment": "Internally coherent but rhetorically flawed: it conflates degree and kind of risk, treating all dangers as equivalent. The claim 'which is not so' contradicts the hypothetical admission of 'some danger,' creating a minor inconsistency.",
+    "conditions_for_usefulness": [
+      "The listener accepts that all common activities carry roughly equal risk.",
+      "The specific danger is genuinely negligible or comparable to everyday risks.",
+      "The goal is to reduce overblown fear or to encourage reasoned risk-benefit analysis."
+    ],
+    "conditions_for_misleading": [
+      "The danger is actually significant or novel (e.g., a new technology with unknown long-term effects).",
+      "The listener fails to distinguish between voluntary and involuntary risks, or between acceptable and unacceptable levels of danger.",
+      "The statement is used to dismiss legitimate precaution without proper evidence.",
+      "The risks of other common items are not actually comparable (e.g., crossing the street vs. using an untested drug)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 342,
+  "error": "",
+  "retry_count": 0
+}

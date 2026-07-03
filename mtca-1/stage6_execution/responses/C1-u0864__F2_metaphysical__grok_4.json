@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0864__F2_metaphysical__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:52:24.272925+00:00",
+  "wall_clock_seconds": 7.237043380737305,
+  "raw_response": "{\n  \"communicative_function\": \"Admitting prior personal skepticism toward a set of teachings or methods\",\n  \"implicit_claims\": [\n    \"Coué delivered lectures containing ideas open to evaluation\",\n    \"The speaker had direct or reported exposure to those lectures\",\n    \"Skepticism was the speaker's initial epistemic stance\",\n    \"A contrast (implied but unstated) may exist between that skepticism and a later position\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a factual self-report of attitude; no metaphysical contradiction arises because the statement makes no positive ontological claims\",\n  \"conditions_for_usefulness\": \"The surrounding context supplies a narrative of changed belief or practical outcome that renders the initial skepticism informative about the persuasive power of the ideas\",\n  \"conditions_for_misleading\": \"The statement is isolated or presented as conclusive evidence that the ideas are false, while suppressing any subsequent shift in the speaker's assessment or empirical results\"\n}",
+  "parsed_json": {
+    "communicative_function": "Admitting prior personal skepticism toward a set of teachings or methods",
+    "implicit_claims": [
+      "Coué delivered lectures containing ideas open to evaluation",
+      "The speaker had direct or reported exposure to those lectures",
+      "Skepticism was the speaker's initial epistemic stance",
+      "A contrast (implied but unstated) may exist between that skepticism and a later position"
+    ],
+    "coherence_assessment": "Internally consistent as a factual self-report of attitude; no metaphysical contradiction arises because the statement makes no positive ontological claims",
+    "conditions_for_usefulness": "The surrounding context supplies a narrative of changed belief or practical outcome that renders the initial skepticism informative about the persuasive power of the ideas",
+    "conditions_for_misleading": "The statement is isolated or presented as conclusive evidence that the ideas are false, while suppressing any subsequent shift in the speaker's assessment or empirical results"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 196,
+  "error": "",
+  "retry_count": 0
+}

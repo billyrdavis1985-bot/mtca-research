@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F0_neutral__grok_4",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:19:04.553536+00:00",
+  "wall_clock_seconds": 5.527491569519043,
+  "raw_response": "{\n  \"communicative_function\": \"Providing prescriptive guidance on tapering therapeutic suggestions\",\n  \"implicit_claims\": [\n    \"Suggestions form the core mechanism of cure in every case\",\n    \"Progress is measurable by reduced frequency of needed suggestions\",\n    \"Complete cure occurs precisely when external suggestions become unnecessary\",\n    \"Spacing intervals should always lengthen monotonically with improvement\"\n  ],\n  \"coherence_assessment\": \"Internally consistent procedural description with clear tapering logic, though assumes universal applicability without qualification\",\n  \"conditions_for_usefulness\": \"The intervention model is suggestion-based therapy and gradual withdrawal demonstrably produces lasting independence from suggestions\",\n  \"conditions_for_misleading\": \"Suggestions are not causal to cure, abrupt cessation is superior, or the method applies only to specific conditions rather than every case\"\n}",
+  "parsed_json": {
+    "communicative_function": "Providing prescriptive guidance on tapering therapeutic suggestions",
+    "implicit_claims": [
+      "Suggestions form the core mechanism of cure in every case",
+      "Progress is measurable by reduced frequency of needed suggestions",
+      "Complete cure occurs precisely when external suggestions become unnecessary",
+      "Spacing intervals should always lengthen monotonically with improvement"
+    ],
+    "coherence_assessment": "Internally consistent procedural description with clear tapering logic, though assumes universal applicability without qualification",
+    "conditions_for_usefulness": "The intervention model is suggestion-based therapy and gradual withdrawal demonstrably produces lasting independence from suggestions",
+    "conditions_for_misleading": "Suggestions are not causal to cure, abrupt cessation is superior, or the method applies only to specific conditions rather than every case"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 295,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

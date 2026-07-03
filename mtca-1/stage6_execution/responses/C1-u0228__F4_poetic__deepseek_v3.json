@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0228__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:27:27.331871+00:00",
+  "wall_clock_seconds": 5.211667537689209,
+  "raw_response": "{\n  \"communicative_function\": \"It illustrates the power of suggestion and the impact of a doctor's words on a patient's outcome, urging careful communication.\",\n  \"implicit_claims\": [\n    \"A doctor's title alone gives them suggestive influence over a patient.\",\n    \"A negative prognosis (incurable) can trigger harmful autosuggestion.\",\n    \"A hopeful prognosis (curable with care) can lead to positive results beyond medical expectations.\",\n    \"The patient's mind plays a causal role in the course of illness.\",\n    \"Success in treatment can depend on the doctor's verbal framing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting two contrasting scenarios with plausible psychological mechanisms (autosuggestion and placebo-like effects).\",\n  \"conditions_for_usefulness\": [\n    \"The doctor's words are taken seriously by the patient.\",\n    \"The patient is susceptible to suggestion.\",\n    \"The illness is partially responsive to psychological factors or has a psychosomatic component.\",\n    \"Time, care, and patience are actually available and beneficial.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the illness is purely organic and unresponsive to suggestion, false hope could delay effective treatment.\",\n    \"If the doctor's optimistic claim prevents the patient from seeking appropriate care elsewhere.\",\n    \"If the statement is interpreted as evidence that all illnesses can be cured by positive thinking.\",\n    \"If it is used to blame patients for negative outcomes (e.g., 'you didn't believe enough').\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It illustrates the power of suggestion and the impact of a doctor's words on a patient's outcome, urging careful communication.",
+    "implicit_claims": [
+      "A doctor's title alone gives them suggestive influence over a patient.",
+      "A negative prognosis (incurable) can trigger harmful autosuggestion.",
+      "A hopeful prognosis (curable with care) can lead to positive results beyond medical expectations.",
+      "The patient's mind plays a causal role in the course of illness.",
+      "Success in treatment can depend on the doctor's verbal framing."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting two contrasting scenarios with plausible psychological mechanisms (autosuggestion and placebo-like effects).",
+    "conditions_for_usefulness": [
+      "The doctor's words are taken seriously by the patient.",
+      "The patient is susceptible to suggestion.",
+      "The illness is partially responsive to psychological factors or has a psychosomatic component.",
+      "Time, care, and patience are actually available and beneficial."
+    ],
+    "conditions_for_misleading": [
+      "If the illness is purely organic and unresponsive to suggestion, false hope could delay effective treatment.",
+      "If the doctor's optimistic claim prevents the patient from seeking appropriate care elsewhere.",
+      "If the statement is interpreted as evidence that all illnesses can be cured by positive thinking.",
+      "If it is used to blame patients for negative outcomes (e.g., 'you didn't believe enough')."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 236,
+  "output_tokens": 313,
+  "error": "",
+  "retry_count": 0
+}

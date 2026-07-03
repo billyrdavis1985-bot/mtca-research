@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0005__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:17:53.967937+00:00",
+  "wall_clock_seconds": 16.95205807685852,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a first-person commitment or resolution, modeling an epistemic virtue (intellectual humility and nuance-seeking) that the speaker endorses as a personal practice. It functions as a normative self-directive, signaling willingness to resist binary thinking and engage in more integrative reasoning.\",\n  \"implicit_claims\": [\n    \"All-or-nothing framing is a recognizable cognitive pattern that individuals can detect in themselves.\",\n    \"Most all-or-nothing framings contain partial truths on both sides rather than being fully resolved by one pole.\",\n    \"Recognizing and naming a cognitive frame is a precondition for changing how one responds to it.\",\n    \"The capacity to look for partial truths is a virtue worth cultivating.\",\n    \"There exist situations where one side of a binary is entirely correct and this approach may not be optimal.\",\n    \"Self-awareness about one's own framing tendencies is achievable and actionable.\",\n    \"Nuanced thinking produces better outcomes than binary thinking in most relevant contexts.\",\n    \"Willingness (a motivational state) is the relevant bottleneck, not just cognitive ability.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not contradict itself: the willingness to look for partial truth does not deny that one side might ultimately be more correct. The framing is modest ('willing to look' rather than 'will always find equal truth on both sides'), which avoids overclaiming. The conditional structure ('when I find myself') appropriately limits scope.\",\n  \"conditions_for_usefulness\": [\n    \"The person genuinely encounters situations where binary thinking distorts their judgment.\",\n    \"Both sides of a binary in question actually do contain some partial truth or valid consideration.\",\n    \"The individual has enough metacognitive awareness to detect when they are in an all-or-nothing frame.\",\n    \"The context rewards nuance rather than demanding a clear binary decision (e.g., ethical deliberation, policy analysis, interpersonal conflict).\",\n    \"Acting on the insight does not require excessive time or cognitive resources in the moment.\",\n    \"AI systems applying this principle have access to sufficiently diverse perspectives to surface partial truths.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Some situations genuinely are binary with one side being entirely correct (e.g., factual questions with one true answer, clear ethical violations), and the principle could falsely legitimize the wrong side.\",\n    \"If applied indiscriminately, it could produce false balance or bothsidesism, equating well-supported and poorly-supported positions.\",\n    \"The framing could be weaponized to deflect from moral clarity by insisting there is always a 'partial truth' in harmful positions.\",\n    \"If users interpret 'partial truth on either side' as 'equal truth on either side,' the statement would be misleading about epistemic symmetry.\",\n    \"In high-stakes urgent decisions requiring commitment, encouraging further search for partial truths could introduce harmful hesitation.\",\n    \"AI systems trained on this principle could apply it to disinformation or extremist content, inadvertently lending legitimacy to demonstrably false claims.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a first-person commitment or resolution, modeling an epistemic virtue (intellectual humility and nuance-seeking) that the speaker endorses as a personal practice. It functions as a normative self-directive, signaling willingness to resist binary thinking and engage in more integrative reasoning.",
+    "implicit_claims": [
+      "All-or-nothing framing is a recognizable cognitive pattern that individuals can detect in themselves.",
+      "Most all-or-nothing framings contain partial truths on both sides rather than being fully resolved by one pole.",
+      "Recognizing and naming a cognitive frame is a precondition for changing how one responds to it.",
+      "The capacity to look for partial truths is a virtue worth cultivating.",
+      "There exist situations where one side of a binary is entirely correct and this approach may not be optimal.",
+      "Self-awareness about one's own framing tendencies is achievable and actionable.",
+      "Nuanced thinking produces better outcomes than binary thinking in most relevant contexts.",
+      "Willingness (a motivational state) is the relevant bottleneck, not just cognitive ability."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not contradict itself: the willingness to look for partial truth does not deny that one side might ultimately be more correct. The framing is modest ('willing to look' rather than 'will always find equal truth on both sides'), which avoids overclaiming. The conditional structure ('when I find myself') appropriately limits scope.",
+    "conditions_for_usefulness": [
+      "The person genuinely encounters situations where binary thinking distorts their judgment.",
+      "Both sides of a binary in question actually do contain some partial truth or valid consideration.",
+      "The individual has enough metacognitive awareness to detect when they are in an all-or-nothing frame.",
+      "The context rewards nuance rather than demanding a clear binary decision (e.g., ethical deliberation, policy analysis, interpersonal conflict).",
+      "Acting on the insight does not require excessive time or cognitive resources in the moment.",
+      "AI systems applying this principle have access to sufficiently diverse perspectives to surface partial truths."
+    ],
+    "conditions_for_misleading": [
+      "Some situations genuinely are binary with one side being entirely correct (e.g., factual questions with one true answer, clear ethical violations), and the principle could falsely legitimize the wrong side.",
+      "If applied indiscriminately, it could produce false balance or bothsidesism, equating well-supported and poorly-supported positions.",
+      "The framing could be weaponized to deflect from moral clarity by insisting there is always a 'partial truth' in harmful positions.",
+      "If users interpret 'partial truth on either side' as 'equal truth on either side,' the statement would be misleading about epistemic symmetry.",
+      "In high-stakes urgent decisions requiring commitment, encouraging further search for partial truths could introduce harmful hesitation.",
+      "AI systems trained on this principle could apply it to disinformation or extremist content, inadvertently lending legitimacy to demonstrably false claims."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 724,
+  "error": "",
+  "retry_count": 0
+}

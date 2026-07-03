@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0006__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:23:43.967966+00:00",
+  "wall_clock_seconds": 5.6891090869903564,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal value or commitment to acting courageously based on evidence, serving as a normative principle for decision-making.\",\n  \"implicit_claims\": [\n    \"The speaker values personal growth or risk-taking when evidence supports it.\",\n    \"The speaker believes that evidence can reliably indicate that a scary action is likely to help.\",\n    \"The speaker acknowledges the existence of fear but prioritizes rational assessment over fear.\",\n    \"The speaker assumes a link between facing fear and achieving beneficial outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it pairs a disposition (willingness) with a condition (evidence of likely help), creating a consistent rule for action that balances emotion and reason.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to reliable evidence about outcomes.\",\n    \"The speaker can accurately assess when an action is 'likely to help'.\",\n    \"The speaker's fear is not overwhelming or irrational to the point of preventing reasoned evaluation.\",\n    \"The context involves situations where facing fear can indeed lead to positive results.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The evidence available is incomplete, biased, or misinterpreted, leading to harmful actions despite apparent benefits.\",\n    \"The speaker conflates 'scary' with 'risky in a way that is actually dangerous' without proper risk assessment.\",\n    \"The statement is used to justify reckless behavior by overemphasizing potential help while ignoring potential harm.\",\n    \"The speaker applies this principle in contexts where fear is a valuable warning signal against genuine threats.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal value or commitment to acting courageously based on evidence, serving as a normative principle for decision-making.",
+    "implicit_claims": [
+      "The speaker values personal growth or risk-taking when evidence supports it.",
+      "The speaker believes that evidence can reliably indicate that a scary action is likely to help.",
+      "The speaker acknowledges the existence of fear but prioritizes rational assessment over fear.",
+      "The speaker assumes a link between facing fear and achieving beneficial outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it pairs a disposition (willingness) with a condition (evidence of likely help), creating a consistent rule for action that balances emotion and reason.",
+    "conditions_for_usefulness": [
+      "The speaker has access to reliable evidence about outcomes.",
+      "The speaker can accurately assess when an action is 'likely to help'.",
+      "The speaker's fear is not overwhelming or irrational to the point of preventing reasoned evaluation.",
+      "The context involves situations where facing fear can indeed lead to positive results."
+    ],
+    "conditions_for_misleading": [
+      "The evidence available is incomplete, biased, or misinterpreted, leading to harmful actions despite apparent benefits.",
+      "The speaker conflates 'scary' with 'risky in a way that is actually dangerous' without proper risk assessment.",
+      "The statement is used to justify reckless behavior by overemphasizing potential help while ignoring potential harm.",
+      "The speaker applies this principle in contexts where fear is a valuable warning signal against genuine threats."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 331,
+  "error": "",
+  "retry_count": 0
+}

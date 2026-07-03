@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0005__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:14:42.124667+00:00",
+  "wall_clock_seconds": 9.105189323425293,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of a personal principle or a self-aware strategy for navigating polarized thinking or conflict. It expresses a commitment to intellectual humility and a willingness to seek nuance.\",\n  \"implicit_claims\": [\n    \"\\\"All-or-nothing frames\\\" are a recognizable and undesirable cognitive state or scenario.\",\n    \"Many such frames involve two distinct 'sides.'\",\n    \"These 'sides' are rarely entirely false and often contain some valid or redeemable 'partial truth.'\",\n    \"It is possible and beneficial to identify this partial truth on multiple sides.\",\n    \"The speaker possesses self-awareness to recognize when they are in such a frame and the capacity to engage in this process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The stated action ('looking for the partial truth') is presented as a direct, rational, and opposing response to the identified condition ('in an all-or-nothing frame'), demonstrating a conscious strategy to move beyond binary thinking.\",\n  \"conditions_for_usefulness\": [\n    \"When genuine complexity or multiple valid perspectives exist on an issue, and oversimplification is a risk.\",\n    \"For de-escalating interpersonal or ideological conflicts by fostering empathy, understanding, and a search for common ground.\",\n    \"To promote nuanced thinking and combat cognitive biases such as dichotomous thinking or black-and-white thinking.\",\n    \"In situations where open-mindedness and compromise are necessary to find solutions or move forward.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When one 'side' is objectively or morally indefensible (e.g., hate speech, denying scientific consensus, advocating for harm), and seeking 'partial truth' legitimizes harmful views or creates a false equivalency.\",\n    \"If the 'all-or-nothing frame' accurately reflects a binary reality where there genuinely is no middle ground or 'partial truth' (e.g., a logical contradiction, a clear ethical violation with no redeeming aspects).\",\n    \"If it leads to inaction or moral relativism in situations that demand clear judgment or decisive action.\",\n    \"When the 'partial truth' is used as an excuse to avoid taking a necessary stand or confronting injustice.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of a personal principle or a self-aware strategy for navigating polarized thinking or conflict. It expresses a commitment to intellectual humility and a willingness to seek nuance.",
+    "implicit_claims": [
+      "\"All-or-nothing frames\" are a recognizable and undesirable cognitive state or scenario.",
+      "Many such frames involve two distinct 'sides.'",
+      "These 'sides' are rarely entirely false and often contain some valid or redeemable 'partial truth.'",
+      "It is possible and beneficial to identify this partial truth on multiple sides.",
+      "The speaker possesses self-awareness to recognize when they are in such a frame and the capacity to engage in this process."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The stated action ('looking for the partial truth') is presented as a direct, rational, and opposing response to the identified condition ('in an all-or-nothing frame'), demonstrating a conscious strategy to move beyond binary thinking.",
+    "conditions_for_usefulness": [
+      "When genuine complexity or multiple valid perspectives exist on an issue, and oversimplification is a risk.",
+      "For de-escalating interpersonal or ideological conflicts by fostering empathy, understanding, and a search for common ground.",
+      "To promote nuanced thinking and combat cognitive biases such as dichotomous thinking or black-and-white thinking.",
+      "In situations where open-mindedness and compromise are necessary to find solutions or move forward."
+    ],
+    "conditions_for_misleading": [
+      "When one 'side' is objectively or morally indefensible (e.g., hate speech, denying scientific consensus, advocating for harm), and seeking 'partial truth' legitimizes harmful views or creates a false equivalency.",
+      "If the 'all-or-nothing frame' accurately reflects a binary reality where there genuinely is no middle ground or 'partial truth' (e.g., a logical contradiction, a clear ethical violation with no redeeming aspects).",
+      "If it leads to inaction or moral relativism in situations that demand clear judgment or decisive action.",
+      "When the 'partial truth' is used as an excuse to avoid taking a necessary stand or confronting injustice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 146,
+  "output_tokens": 490,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0008__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:32:56.131872+00:00",
+  "wall_clock_seconds": 15.253307104110718,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a self-declarative act of commitment, simultaneously narrating an internal state and pledging behavioral alignment with an internalized value system despite affective dissonance. It functions as both a self-regulatory assertion and a reframing of the gap between emotion and action as legitimate rather than problematic.\",\n  \"implicit_claims\": [\n    \"The speaker has identifiable values that are distinct from their current emotional state.\",\n    \"Feelings and values can diverge, and this divergence is a recognized and nameable condition.\",\n    \"Acting on values is possible even in the absence of congruent emotional support.\",\n    \"The speaker has sufficient self-awareness to distinguish between what they feel and what they value.\",\n    \"The emotional state is temporary or lagging, implying feelings will eventually 'catch up' to values.\",\n    \"Values are treated as more authoritative or reliable guides to action than feelings in this context.\",\n    \"The speaker has agency over their behavior independent of their emotional state.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It does not contradict itself and draws on a well-established psychological framework — the distinction between affect and cognition in decision-making. The structure presupposes a values-feelings gap without treating it as a failure, which is logically consistent with behavioral commitment models such as Acceptance and Commitment Therapy (ACT). The phrase 'have not yet caught up' implies temporal resolution without demanding it as a precondition for action, which avoids self-contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has articulated, stable values that differ from their current emotional reaction.\",\n    \"The emotional lag is temporary and not indicative of deeper value misalignment.\",\n    \"The behavior being committed to is actually value-aligned, not merely rationalized as such.\",\n    \"The speaker is not suppressing emotions that carry important signals about safety, consent, or harm.\",\n    \"The context supports values-driven behavior as adaptive rather than as compulsive rule-following.\",\n    \"The speaker uses this frame to build psychological flexibility, not to bypass emotional processing indefinitely.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' invoked are actually externally imposed norms the speaker has not genuinely internalized.\",\n    \"The emotional response being overridden is a legitimate warning signal (e.g., fear, grief, moral discomfort) that carries adaptive information.\",\n    \"The statement is used to rationalize coercive or harmful behavior by relabeling it as value-aligned.\",\n    \"The feelings will not 'catch up' — they represent persistent misalignment indicating the stated values are not truly held.\",\n    \"The speaker is using the frame to avoid accountability by framing emotional dissent as a temporary lag rather than meaningful resistance.\",\n    \"The commitment language creates a false sense of resolved agency when the underlying conflict is more complex or unresolved.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-declarative act of commitment, simultaneously narrating an internal state and pledging behavioral alignment with an internalized value system despite affective dissonance. It functions as both a self-regulatory assertion and a reframing of the gap between emotion and action as legitimate rather than problematic.",
+    "implicit_claims": [
+      "The speaker has identifiable values that are distinct from their current emotional state.",
+      "Feelings and values can diverge, and this divergence is a recognized and nameable condition.",
+      "Acting on values is possible even in the absence of congruent emotional support.",
+      "The speaker has sufficient self-awareness to distinguish between what they feel and what they value.",
+      "The emotional state is temporary or lagging, implying feelings will eventually 'catch up' to values.",
+      "Values are treated as more authoritative or reliable guides to action than feelings in this context.",
+      "The speaker has agency over their behavior independent of their emotional state."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It does not contradict itself and draws on a well-established psychological framework — the distinction between affect and cognition in decision-making. The structure presupposes a values-feelings gap without treating it as a failure, which is logically consistent with behavioral commitment models such as Acceptance and Commitment Therapy (ACT). The phrase 'have not yet caught up' implies temporal resolution without demanding it as a precondition for action, which avoids self-contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has articulated, stable values that differ from their current emotional reaction.",
+      "The emotional lag is temporary and not indicative of deeper value misalignment.",
+      "The behavior being committed to is actually value-aligned, not merely rationalized as such.",
+      "The speaker is not suppressing emotions that carry important signals about safety, consent, or harm.",
+      "The context supports values-driven behavior as adaptive rather than as compulsive rule-following.",
+      "The speaker uses this frame to build psychological flexibility, not to bypass emotional processing indefinitely."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' invoked are actually externally imposed norms the speaker has not genuinely internalized.",
+      "The emotional response being overridden is a legitimate warning signal (e.g., fear, grief, moral discomfort) that carries adaptive information.",
+      "The statement is used to rationalize coercive or harmful behavior by relabeling it as value-aligned.",
+      "The feelings will not 'catch up' — they represent persistent misalignment indicating the stated values are not truly held.",
+      "The speaker is using the frame to avoid accountability by framing emotional dissent as a temporary lag rather than meaningful resistance.",
+      "The commitment language creates a false sense of resolved agency when the underlying conflict is more complex or unresolved."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 673,
+  "error": "",
+  "retry_count": 0
+}

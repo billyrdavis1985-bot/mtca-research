@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0228__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:26:22.980617+00:00",
+  "wall_clock_seconds": 3.551046133041382,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is offering advice or guidance to doctors on how to communicate with their patients in a way that encourages positive outcomes.\",\n  \"implicit_claims\": [\n    \"Doctors have a significant influence over their patients' perceptions and attitudes.\",\n    \"A doctor's framing of a patient's condition can impact the patient's mental state and potentially their health outcomes.\",\n    \"Positive framing may lead to better health outcomes for patients than negative framing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It logically presents two different scenarios where the doctor's communication influences patient outcomes, supported by the implicit claim that the way information is presented can affect patient psychology and recovery.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if doctors' words have a significant psychological impact on patients and if patient psychology plays a substantial role in healing processes. Additionally, it assumes that positive reinforcement can contribute to better outcomes in medical treatment.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if patients' psychological responses have little to no effect on their health outcomes or if the severity of the illness is such that psychological influences are irrelevant. It also assumes that all illnesses are responsive to care and patience, which may not be true in cases of terminal or exceptionally aggressive diseases.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is offering advice or guidance to doctors on how to communicate with their patients in a way that encourages positive outcomes.",
+    "implicit_claims": [
+      "Doctors have a significant influence over their patients' perceptions and attitudes.",
+      "A doctor's framing of a patient's condition can impact the patient's mental state and potentially their health outcomes.",
+      "Positive framing may lead to better health outcomes for patients than negative framing."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It logically presents two different scenarios where the doctor's communication influences patient outcomes, supported by the implicit claim that the way information is presented can affect patient psychology and recovery.",
+    "conditions_for_usefulness": "The statement would be useful if doctors' words have a significant psychological impact on patients and if patient psychology plays a substantial role in healing processes. Additionally, it assumes that positive reinforcement can contribute to better outcomes in medical treatment.",
+    "conditions_for_misleading": "The statement would be misleading if patients' psychological responses have little to no effect on their health outcomes or if the severity of the illness is such that psychological influences are irrelevant. It also assumes that all illnesses are responsive to care and patience, which may not be true in cases of terminal or exceptionally aggressive diseases."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 241,
+  "output_tokens": 267,
+  "error": "",
+  "retry_count": 0
+}

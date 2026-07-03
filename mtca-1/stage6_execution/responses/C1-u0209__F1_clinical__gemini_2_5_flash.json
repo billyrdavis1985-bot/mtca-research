@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0209__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:19:38.613423+00:00",
+  "wall_clock_seconds": 9.944015979766846,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-instructional guide or principle for the administration and titration of a therapeutic intervention ('suggestions'). It outlines a strategy for adjusting the frequency of these interventions based on perceived progress, with the ultimate goal of complete cessation upon achieving a 'complete cure'.\",\n  \"implicit_claims\": [\n    \"\\\"Suggestions\\\" are a valid and effective therapeutic modality.\",\n    \"The individual (\\\"your subject\\\") is capable of administering and adjusting these suggestions to themselves.\",\n    \"Therapeutic progress is measurable and observable by the individual.\",\n    \"A \\\"complete cure\\\" is an achievable, definable, and desirable outcome of therapy.\",\n    \"The cessation of therapeutic suggestions is an indicator of, or synonymous with, a complete cure.\",\n    \"Individuals possess the self-awareness and capacity to accurately assess their own therapeutic needs and progress.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits high internal coherence. It presents a clear and logical progression: initiate suggestions, adjust frequency based on individual needs and progress, gradually reduce frequency, and cease completely when the defined end-state (complete cure, rendering suggestions unnecessary) is reached. The definition of 'no longer necessary' is directly linked to 'when the cure is complete,' reinforcing its internal consistency.\",\n  \"conditions_for_usefulness\": [\n    \"The 'suggestions' themselves are genuinely therapeutic, appropriate for the condition, and beneficial.\",\n    \"The individual possesses sufficient self-awareness, insight, and objectivity to accurately assess their own 'progress obtained' and the ongoing 'necessity' of the suggestions.\",\n    \"The concept of a 'complete cure' is a realistic, attainable, and clearly definable state for the specific condition being addressed.\",\n    \"The individual is capable of disciplined self-management and consistent application/adjustment of the suggestions.\",\n    \"The underlying condition is amenable to treatment through 'suggestions' and their gradual withdrawal without requiring more intensive or different forms of intervention.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'suggestions' are ineffective, inappropriate, or potentially harmful for the condition.\",\n    \"The individual lacks the necessary self-awareness or objective insight to accurately gauge their progress or the true necessity of the suggestions, leading to premature cessation or prolonged unnecessary use.\",\n    \"The concept of a 'complete cure' for the specific condition is unrealistic, ill-defined, or misapplied, leading to false hopes, perpetual striving, or feelings of failure.\",\n    \"The self-administered nature of this process leads the individual to forgo or delay necessary professional guidance or more effective, evidence-based treatments.\",\n    \"The individual interprets an ongoing need for management (rather than a 'cure') as a personal failure or an incomplete therapeutic process, leading to discouragement or self-blame.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-instructional guide or principle for the administration and titration of a therapeutic intervention ('suggestions'). It outlines a strategy for adjusting the frequency of these interventions based on perceived progress, with the ultimate goal of complete cessation upon achieving a 'complete cure'.",
+    "implicit_claims": [
+      "\"Suggestions\" are a valid and effective therapeutic modality.",
+      "The individual (\"your subject\") is capable of administering and adjusting these suggestions to themselves.",
+      "Therapeutic progress is measurable and observable by the individual.",
+      "A \"complete cure\" is an achievable, definable, and desirable outcome of therapy.",
+      "The cessation of therapeutic suggestions is an indicator of, or synonymous with, a complete cure.",
+      "Individuals possess the self-awareness and capacity to accurately assess their own therapeutic needs and progress."
+    ],
+    "coherence_assessment": "The statement exhibits high internal coherence. It presents a clear and logical progression: initiate suggestions, adjust frequency based on individual needs and progress, gradually reduce frequency, and cease completely when the defined end-state (complete cure, rendering suggestions unnecessary) is reached. The definition of 'no longer necessary' is directly linked to 'when the cure is complete,' reinforcing its internal consistency.",
+    "conditions_for_usefulness": [
+      "The 'suggestions' themselves are genuinely therapeutic, appropriate for the condition, and beneficial.",
+      "The individual possesses sufficient self-awareness, insight, and objectivity to accurately assess their own 'progress obtained' and the ongoing 'necessity' of the suggestions.",
+      "The concept of a 'complete cure' is a realistic, attainable, and clearly definable state for the specific condition being addressed.",
+      "The individual is capable of disciplined self-management and consistent application/adjustment of the suggestions.",
+      "The underlying condition is amenable to treatment through 'suggestions' and their gradual withdrawal without requiring more intensive or different forms of intervention."
+    ],
+    "conditions_for_misleading": [
+      "The 'suggestions' are ineffective, inappropriate, or potentially harmful for the condition.",
+      "The individual lacks the necessary self-awareness or objective insight to accurately gauge their progress or the true necessity of the suggestions, leading to premature cessation or prolonged unnecessary use.",
+      "The concept of a 'complete cure' for the specific condition is unrealistic, ill-defined, or misapplied, leading to false hopes, perpetual striving, or feelings of failure.",
+      "The self-administered nature of this process leads the individual to forgo or delay necessary professional guidance or more effective, evidence-based treatments.",
+      "The individual interprets an ongoing need for management (rather than a 'cure') as a personal failure or an incomplete therapeutic process, leading to discouragement or self-blame."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 601,
+  "error": "",
+  "retry_count": 0
+}

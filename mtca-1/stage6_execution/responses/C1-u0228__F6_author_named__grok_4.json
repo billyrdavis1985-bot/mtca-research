@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0228__F6_author_named__grok_4",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:28:47.330842+00:00",
+  "wall_clock_seconds": 4.852587938308716,
+  "raw_response": "{\n  \"communicative_function\": \"illustrating via contrasting examples how a doctor's verbal framing can trigger autosuggestion that either harms or aids patient outcomes\",\n  \"implicit_claims\": [\n    \"a physician's title confers inherent suggestive power over patients\",\n    \"a doctor's negative prognosis can initiate autosuggestion producing real negative health consequences\",\n    \"a doctor's optimistic yet realistic framing can initiate autosuggestion producing unexpectedly positive health outcomes\",\n    \"autosuggestion mediates between the doctor's words and actual physiological results\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presents a clear binary contrast between two verbal interventions and their presumed causal effects without logical contradiction\",\n  \"conditions_for_usefulness\": \"the nocebo and placebo effects must operate strongly enough that physician wording materially alters disease trajectory beyond ordinary medical interventions\",\n  \"conditions_for_misleading\": \"the claimed effects of suggestion must be weaker than implied, or the statement must be taken to mean that verbal framing alone suffices without appropriate medical treatment\"\n}",
+  "parsed_json": {
+    "communicative_function": "illustrating via contrasting examples how a doctor's verbal framing can trigger autosuggestion that either harms or aids patient outcomes",
+    "implicit_claims": [
+      "a physician's title confers inherent suggestive power over patients",
+      "a doctor's negative prognosis can initiate autosuggestion producing real negative health consequences",
+      "a doctor's optimistic yet realistic framing can initiate autosuggestion producing unexpectedly positive health outcomes",
+      "autosuggestion mediates between the doctor's words and actual physiological results"
+    ],
+    "coherence_assessment": "internally coherent; presents a clear binary contrast between two verbal interventions and their presumed causal effects without logical contradiction",
+    "conditions_for_usefulness": "the nocebo and placebo effects must operate strongly enough that physician wording materially alters disease trajectory beyond ordinary medical interventions",
+    "conditions_for_misleading": "the claimed effects of suggestion must be weaker than implied, or the statement must be taken to mean that verbal framing alone suffices without appropriate medical treatment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0
+}

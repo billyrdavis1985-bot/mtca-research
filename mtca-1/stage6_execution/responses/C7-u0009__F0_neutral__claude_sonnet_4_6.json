@@ -1,0 +1,49 @@
+{
+  "call_id": "C7-u0009__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:29:45.353745+00:00",
+  "wall_clock_seconds": 13.074569463729858,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Prescribing an ongoing behavioral and moral practice — specifically, self-monitoring and accountability through admission of fault. It functions as a normative directive framed as a description of practice, likely drawn from a recovery or self-improvement framework (Step 10 of Alcoholics Anonymous).\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between being right and being wrong in one's conduct.\",\n    \"Self-monitoring of one's behavior is both possible and valuable.\",\n    \"Admitting wrongdoing is a corrective or beneficial act.\",\n    \"Promptness in admitting fault matters morally or practically.\",\n    \"Humans are capable of ongoing self-assessment with reasonable accuracy.\",\n    \"This practice leads to better outcomes for the individual or others.\",\n    \"One has sufficient self-awareness to identify when one is wrong.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two components — taking personal inventory and admitting wrongs promptly — are logically complementary: the first enables the second. The use of 'continued' implies an ongoing, iterative process, which is consistent with the behavioral nature of both actions. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuine capacity for honest self-reflection.\",\n    \"There are people or relationships affected by the person's wrongs who would benefit from admission.\",\n    \"The person has a reliable enough moral compass to distinguish right from wrong conduct.\",\n    \"Prompt admission leads to repair rather than exploitation or harm.\",\n    \"The practice is applied consistently rather than selectively.\",\n    \"The person is embedded in a social context where accountability is reciprocal.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'personal inventory' is applied with systematic bias, consistently finding oneself wrong or consistently rationalizing behavior as right.\",\n    \"If the statement is used to perform accountability without genuine behavioral change.\",\n    \"If 'promptly admitted it' is used to foreclose legitimate discussion or avoid deeper accountability.\",\n    \"If the framework is applied asymmetrically — demanding self-blame while ignoring external harms done to the individual.\",\n    \"If the statement is used to encourage excessive self-criticism in someone with poor self-esteem, leading to harm.\",\n    \"If 'wrong' is defined by an authority in a manipulative or controlling context rather than by ethical reasoning.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Prescribing an ongoing behavioral and moral practice — specifically, self-monitoring and accountability through admission of fault. It functions as a normative directive framed as a description of practice, likely drawn from a recovery or self-improvement framework (Step 10 of Alcoholics Anonymous).",
+    "implicit_claims": [
+      "There is a meaningful distinction between being right and being wrong in one's conduct.",
+      "Self-monitoring of one's behavior is both possible and valuable.",
+      "Admitting wrongdoing is a corrective or beneficial act.",
+      "Promptness in admitting fault matters morally or practically.",
+      "Humans are capable of ongoing self-assessment with reasonable accuracy.",
+      "This practice leads to better outcomes for the individual or others.",
+      "One has sufficient self-awareness to identify when one is wrong."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two components — taking personal inventory and admitting wrongs promptly — are logically complementary: the first enables the second. The use of 'continued' implies an ongoing, iterative process, which is consistent with the behavioral nature of both actions. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The individual has genuine capacity for honest self-reflection.",
+      "There are people or relationships affected by the person's wrongs who would benefit from admission.",
+      "The person has a reliable enough moral compass to distinguish right from wrong conduct.",
+      "Prompt admission leads to repair rather than exploitation or harm.",
+      "The practice is applied consistently rather than selectively.",
+      "The person is embedded in a social context where accountability is reciprocal."
+    ],
+    "conditions_for_misleading": [
+      "If 'personal inventory' is applied with systematic bias, consistently finding oneself wrong or consistently rationalizing behavior as right.",
+      "If the statement is used to perform accountability without genuine behavioral change.",
+      "If 'promptly admitted it' is used to foreclose legitimate discussion or avoid deeper accountability.",
+      "If the framework is applied asymmetrically — demanding self-blame while ignoring external harms done to the individual.",
+      "If the statement is used to encourage excessive self-criticism in someone with poor self-esteem, leading to harm.",
+      "If 'wrong' is defined by an authority in a manipulative or controlling context rather than by ethical reasoning."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 558,
+  "error": "",
+  "retry_count": 0
+}

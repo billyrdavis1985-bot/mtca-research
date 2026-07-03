@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0209__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:19:50.336146+00:00",
+  "wall_clock_seconds": 4.263270616531372,
+  "raw_response": "{\n  \"communicative_function\": \"Instructing the therapist on a technique for administering and tapering suggestions in hypnotherapy or suggestion therapy.\",\n  \"implicit_claims\": [\n    \"The cure is a gradual process requiring repeated suggestions.\",\n    \"Suggestions can be spaced at longer intervals as the patient progresses.\",\n    \"Progress is measurable and determines when suggestions can be reduced.\",\n    \"The cure is complete when suggestions are no longer necessary.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: it presents a logical sequence of increasing intervals based on progress, leading to eventual cessation of suggestions when cure is complete. The conditional structure is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The patient is suggestible and responsive to repeated verbal suggestions.\",\n    \"The therapist can accurately assess progress and adjust intervals accordingly.\",\n    \"The therapeutic context supports a gradual fading of intervention (e.g., treatment of habits, phobias, or pain).\",\n    \"The statement is used as a guideline for a trained practitioner, not as a rule for all cases.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as a universal rule, ignoring individual differences in suggestibility or resistance.\",\n    \"If the therapist assumes progress is always linear and measurable.\",\n    \"If the statement is used to justify indefinite or excessive repetition without evidence of benefit.\",\n    \"If applied in conditions where suggestion alone is insufficient (e.g., organic pathology, severe trauma).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Instructing the therapist on a technique for administering and tapering suggestions in hypnotherapy or suggestion therapy.",
+    "implicit_claims": [
+      "The cure is a gradual process requiring repeated suggestions.",
+      "Suggestions can be spaced at longer intervals as the patient progresses.",
+      "Progress is measurable and determines when suggestions can be reduced.",
+      "The cure is complete when suggestions are no longer necessary."
+    ],
+    "coherence_assessment": "Internally coherent: it presents a logical sequence of increasing intervals based on progress, leading to eventual cessation of suggestions when cure is complete. The conditional structure is consistent.",
+    "conditions_for_usefulness": [
+      "The patient is suggestible and responsive to repeated verbal suggestions.",
+      "The therapist can accurately assess progress and adjust intervals accordingly.",
+      "The therapeutic context supports a gradual fading of intervention (e.g., treatment of habits, phobias, or pain).",
+      "The statement is used as a guideline for a trained practitioner, not as a rule for all cases."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as a universal rule, ignoring individual differences in suggestibility or resistance.",
+      "If the therapist assumes progress is always linear and measurable.",
+      "If the statement is used to justify indefinite or excessive repetition without evidence of benefit.",
+      "If applied in conditions where suggestion alone is insufficient (e.g., organic pathology, severe trauma)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 305,
+  "error": "",
+  "retry_count": 0
+}

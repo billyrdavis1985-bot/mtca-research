@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F6_author_named__grok_4",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:47:57.037750+00:00",
+  "wall_clock_seconds": 5.83998703956604,
+  "raw_response": "{\n  \"communicative_function\": \"enumerating and exemplifying a case of unnatural soul behavior (aversion or harmful intent), specifically identifying anger as an instance\",\n  \"implicit_claims\": [\n    \"the soul's aversion or harmful desires constitute deviation from its proper nature\",\n    \"angry persons exemplify souls governed by such contrary affections\",\n    \"such states tend toward the prejudice of others\"\n  ],\n  \"coherence_assessment\": \"internally consistent within Stoic assumptions about nature and the soul, though the referent of 'she' requires prior context for full clarity\",\n  \"conditions_for_usefulness\": \"acceptance of a teleological view of human nature in which anger counts as deviation, plus a goal of ethical self-examination or restraint\",\n  \"conditions_for_misleading\": \"literal application outside Stoic metaphysics, or empirical contexts where anger does not reliably produce net harm or where 'nature' is defined differently\"\n}",
+  "parsed_json": {
+    "communicative_function": "enumerating and exemplifying a case of unnatural soul behavior (aversion or harmful intent), specifically identifying anger as an instance",
+    "implicit_claims": [
+      "the soul's aversion or harmful desires constitute deviation from its proper nature",
+      "angry persons exemplify souls governed by such contrary affections",
+      "such states tend toward the prejudice of others"
+    ],
+    "coherence_assessment": "internally consistent within Stoic assumptions about nature and the soul, though the referent of 'she' requires prior context for full clarity",
+    "conditions_for_usefulness": "acceptance of a teleological view of human nature in which anger counts as deviation, plus a goal of ethical self-examination or restraint",
+    "conditions_for_misleading": "literal application outside Stoic metaphysics, or empirical contexts where anger does not reliably produce net harm or where 'nature' is defined differently"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 300,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

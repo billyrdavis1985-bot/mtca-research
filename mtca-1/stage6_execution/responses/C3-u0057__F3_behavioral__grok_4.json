@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0057__F3_behavioral__grok_4",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:51:21.902413+00:00",
+  "wall_clock_seconds": 5.515198707580566,
+  "raw_response": "{\n  \"communicative_function\": \"Justifying acceptance of phenomena by reclassifying them as non-evil when labeled 'natural,' thereby committing to reduced moral resistance or behavioral avoidance.\",\n  \"implicit_claims\": [\n    \"A clear, objective boundary exists between 'natural' and 'unnatural'\",\n    \"Evil is not an intrinsic property of anything that meets the 'natural' criterion\",\n    \"Moral evaluation should be subordinated to this naturalness test\"\n  ],\n  \"coherence_assessment\": \"Internally consistent only if 'nature' and 'evil' are given non-circular definitions; otherwise tautological.\",\n  \"conditions_for_usefulness\": \"When the definition of 'nature' is stable, empirically grounded, and promotes adaptive acceptance of unavoidable events without excusing harm.\",\n  \"conditions_for_misleading\": \"When 'nature' is flexibly redefined post hoc to normalize destructive impulses, social biases, or avoidable suffering.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Justifying acceptance of phenomena by reclassifying them as non-evil when labeled 'natural,' thereby committing to reduced moral resistance or behavioral avoidance.",
+    "implicit_claims": [
+      "A clear, objective boundary exists between 'natural' and 'unnatural'",
+      "Evil is not an intrinsic property of anything that meets the 'natural' criterion",
+      "Moral evaluation should be subordinated to this naturalness test"
+    ],
+    "coherence_assessment": "Internally consistent only if 'nature' and 'evil' are given non-circular definitions; otherwise tautological.",
+    "conditions_for_usefulness": "When the definition of 'nature' is stable, empirically grounded, and promotes adaptive acceptance of unavoidable events without excusing harm.",
+    "conditions_for_misleading": "When 'nature' is flexibly redefined post hoc to normalize destructive impulses, social biases, or avoidable suffering."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 268,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

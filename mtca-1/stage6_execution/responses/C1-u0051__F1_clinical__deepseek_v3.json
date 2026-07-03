@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0051__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:03:17.908251+00:00",
+  "wall_clock_seconds": 4.664968967437744,
+  "raw_response": "{\n  \"communicative_function\": \"Reframing the client's expectation about sleep by offering an alternative, non-demanding goal for lying in bed, reducing performance anxiety around sleep.\",\n  \"implicit_claims\": [\n    \"The client is judging or pressuring themselves to 'make an effort' to sleep.\",\n    \"Lying quietly in bed is an acceptable and sufficient alternative to sleeping.\",\n    \"The client's current effort to sleep may be counterproductive.\",\n    \"The client can choose not to make an effort and still rest.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a conditional relation (if no effort, then quiet lying) that is logically consistent and aligns with the therapeutic goal of reducing sleep effort.\",\n  \"conditions_for_usefulness\": [\n    \"The client suffers from sleep performance anxiety or paradoxical effort-induced insomnia.\",\n    \"The client is willing to consider a relaxation-based rather than control-based approach to bedtime.\",\n    \"The client can accept that lying restfully is valuable even without sleep.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client believes that only active effort can lead to sleep, and the statement might be rejected as untrue.\",\n    \"The client has a medical condition (e.g., sleep apnea) requiring specific effort to stay asleep.\",\n    \"The client misinterprets 'no effort' as permission to engage in arousing activities instead of quiet rest.\",\n    \"The client is so hyperaroused that even quiet lying is distressing, requiring a different intervention.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reframing the client's expectation about sleep by offering an alternative, non-demanding goal for lying in bed, reducing performance anxiety around sleep.",
+    "implicit_claims": [
+      "The client is judging or pressuring themselves to 'make an effort' to sleep.",
+      "Lying quietly in bed is an acceptable and sufficient alternative to sleeping.",
+      "The client's current effort to sleep may be counterproductive.",
+      "The client can choose not to make an effort and still rest."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a conditional relation (if no effort, then quiet lying) that is logically consistent and aligns with the therapeutic goal of reducing sleep effort.",
+    "conditions_for_usefulness": [
+      "The client suffers from sleep performance anxiety or paradoxical effort-induced insomnia.",
+      "The client is willing to consider a relaxation-based rather than control-based approach to bedtime.",
+      "The client can accept that lying restfully is valuable even without sleep."
+    ],
+    "conditions_for_misleading": [
+      "The client believes that only active effort can lead to sleep, and the statement might be rejected as untrue.",
+      "The client has a medical condition (e.g., sleep apnea) requiring specific effort to stay asleep.",
+      "The client misinterprets 'no effort' as permission to engage in arousing activities instead of quiet rest.",
+      "The client is so hyperaroused that even quiet lying is distressing, requiring a different intervention."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 318,
+  "error": "",
+  "retry_count": 0
+}

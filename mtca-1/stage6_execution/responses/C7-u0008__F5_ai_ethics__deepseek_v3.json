@@ -1,0 +1,44 @@
+{
+  "call_id": "C7-u0008__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:28:10.113338+00:00",
+  "wall_clock_seconds": 4.785730361938477,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribes a principle for restorative action, emphasizing the importance of making amends while imposing a condition to avoid causing additional harm.\",\n  \"implicit_claims\": [\n    \"There exists a moral obligation to make amends for past wrongs.\",\n    \"Amends are typically directed at specific individuals.\",\n    \"It is possible to assess whether making amends would cause injury.\",\n    \"Avoiding harm to others can override the duty to make direct amends.\",\n    \"The concept of 'injury' includes both physical and emotional harm.\",\n    \"The agent has sufficient knowledge to predict the consequences of their amends.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it sets a clear primary obligation (make direct amends) with a well-defined exception (when doing so would cause injury). The exception logically prevents the paradox of causing harm through attempts to heal.\",\n  \"conditions_for_usefulness\": [\n    \"The agent has a clear understanding of whom they have wronged.\",\n    \"The agent can realistically identify when amends would cause injury.\",\n    \"There is a shared understanding of what constitutes 'injury' in context.\",\n    \"Alternate forms of indirect amends are available when direct amends are harmful.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the agent's judgment of 'injury' is overly broad, allowing evasion of responsibility.\",\n    \"If the standard of 'injury' is too narrow, causing harm under the guise of amends.\",\n    \"If the agent lacks awareness of systemic impacts or harms to third parties.\",\n    \"If the statement is interpreted as an exhaustive ethical rule rather than a guideline for specific contexts.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribes a principle for restorative action, emphasizing the importance of making amends while imposing a condition to avoid causing additional harm.",
+    "implicit_claims": [
+      "There exists a moral obligation to make amends for past wrongs.",
+      "Amends are typically directed at specific individuals.",
+      "It is possible to assess whether making amends would cause injury.",
+      "Avoiding harm to others can override the duty to make direct amends.",
+      "The concept of 'injury' includes both physical and emotional harm.",
+      "The agent has sufficient knowledge to predict the consequences of their amends."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it sets a clear primary obligation (make direct amends) with a well-defined exception (when doing so would cause injury). The exception logically prevents the paradox of causing harm through attempts to heal.",
+    "conditions_for_usefulness": [
+      "The agent has a clear understanding of whom they have wronged.",
+      "The agent can realistically identify when amends would cause injury.",
+      "There is a shared understanding of what constitutes 'injury' in context.",
+      "Alternate forms of indirect amends are available when direct amends are harmful."
+    ],
+    "conditions_for_misleading": [
+      "If the agent's judgment of 'injury' is overly broad, allowing evasion of responsibility.",
+      "If the standard of 'injury' is too narrow, causing harm under the guise of amends.",
+      "If the agent lacks awareness of systemic impacts or harms to third parties.",
+      "If the statement is interpreted as an exhaustive ethical rule rather than a guideline for specific contexts."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 354,
+  "error": "",
+  "retry_count": 0
+}

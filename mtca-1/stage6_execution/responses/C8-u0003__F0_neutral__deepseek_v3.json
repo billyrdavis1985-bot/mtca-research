@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0003__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:03:28.717987+00:00",
+  "wall_clock_seconds": 6.217376232147217,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is asserting a nuanced perspective on the relationship between subjective feelings and objective reality, distinguishing between their validity as internal signals and their reliability as external facts.\",\n  \"implicit_claims\": [\n    \"Feelings provide genuine information about the speaker's internal state.\",\n    \"Feelings can be inaccurate when interpreted as direct representations of external reality.\",\n    \"There is a distinction between subjective experience and objective truth.\",\n    \"One can acknowledge the reality of feelings without granting them epistemic authority over the world.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It consistently draws a clear boundary between the reliability of feelings as personal signals and their potential fallibility as judgments about the external world, without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or listener is prone to over-interpreting emotions as facts about external situations.\",\n    \"There is a need to validate emotional experience while maintaining rational perspective.\",\n    \"The context involves emotional reasoning that could lead to distorted conclusions if unchecked.\",\n    \"The statement is applied as a cognitive tool for self-reflection or therapy.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to dismiss or invalidate genuine perceptions that accurately reflect external threats or social cues.\",\n    \"If taken as justification to ignore all emotional responses as irrelevant to decision-making.\",\n    \"If the speaker uses it to avoid responsibility for actions based on inaccurate but real feelings (e.g., 'I felt threatened, so my aggression was justified').\",\n    \"In contexts where emotions are systematically devalued, the statement could reinforce harmful skepticism toward emotional intelligence.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting a nuanced perspective on the relationship between subjective feelings and objective reality, distinguishing between their validity as internal signals and their reliability as external facts.",
+    "implicit_claims": [
+      "Feelings provide genuine information about the speaker's internal state.",
+      "Feelings can be inaccurate when interpreted as direct representations of external reality.",
+      "There is a distinction between subjective experience and objective truth.",
+      "One can acknowledge the reality of feelings without granting them epistemic authority over the world."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It consistently draws a clear boundary between the reliability of feelings as personal signals and their potential fallibility as judgments about the external world, without contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker or listener is prone to over-interpreting emotions as facts about external situations.",
+      "There is a need to validate emotional experience while maintaining rational perspective.",
+      "The context involves emotional reasoning that could lead to distorted conclusions if unchecked.",
+      "The statement is applied as a cognitive tool for self-reflection or therapy."
+    ],
+    "conditions_for_misleading": [
+      "If used to dismiss or invalidate genuine perceptions that accurately reflect external threats or social cues.",
+      "If taken as justification to ignore all emotional responses as irrelevant to decision-making.",
+      "If the speaker uses it to avoid responsibility for actions based on inaccurate but real feelings (e.g., 'I felt threatened, so my aggression was justified').",
+      "In contexts where emotions are systematically devalued, the statement could reinforce harmful skepticism toward emotional intelligence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 137,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

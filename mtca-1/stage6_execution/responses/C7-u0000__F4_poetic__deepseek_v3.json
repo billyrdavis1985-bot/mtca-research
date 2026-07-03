@@ -1,0 +1,40 @@
+{
+  "call_id": "C7-u0000__F4_poetic__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:52:28.874180+00:00",
+  "wall_clock_seconds": 4.605761766433716,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an admission of limitation and a declaration of surrender, often within a therapeutic or recovery context, to foster honesty and openness to change.\",\n  \"implicit_claims\": [\n    \"There is a condition or state described as 'powerlessness over alcohol'.\",\n    \"The lives of those speaking were previously 'unmanageable'.\",\n    \"Admitting powerlessness is a necessary or beneficial step.\",\n    \"The speakers have some shared experience of alcohol's effect on their lives.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; the admission of powerlessness logically connects to the recognition of unmanageability, forming a consistent cause-and-effect or definitional structure.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or speaker is struggling with alcohol dependency.\",\n    \"The admission is part of a process (e.g., a 12-step program) where surrender is seen as a catalyst for recovery.\",\n    \"There is a supportive context that validates this framing.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is taken as a universal truth about all drinkers, rather than a personal admission.\",\n    \"If 'powerlessness' is interpreted as permanent or preventing any possibility of self-control.\",\n    \"If the statement is used to deny personal responsibility or agency in situations where change is possible.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an admission of limitation and a declaration of surrender, often within a therapeutic or recovery context, to foster honesty and openness to change.",
+    "implicit_claims": [
+      "There is a condition or state described as 'powerlessness over alcohol'.",
+      "The lives of those speaking were previously 'unmanageable'.",
+      "Admitting powerlessness is a necessary or beneficial step.",
+      "The speakers have some shared experience of alcohol's effect on their lives."
+    ],
+    "coherence_assessment": "The statement is internally coherent; the admission of powerlessness logically connects to the recognition of unmanageability, forming a consistent cause-and-effect or definitional structure.",
+    "conditions_for_usefulness": [
+      "The listener or speaker is struggling with alcohol dependency.",
+      "The admission is part of a process (e.g., a 12-step program) where surrender is seen as a catalyst for recovery.",
+      "There is a supportive context that validates this framing."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is taken as a universal truth about all drinkers, rather than a personal admission.",
+      "If 'powerlessness' is interpreted as permanent or preventing any possibility of self-control.",
+      "If the statement is used to deny personal responsibility or agency in situations where change is possible."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 286,
+  "error": "",
+  "retry_count": 0
+}

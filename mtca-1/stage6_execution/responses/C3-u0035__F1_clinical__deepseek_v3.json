@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0035__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:33:22.922103+00:00",
+  "wall_clock_seconds": 4.986048221588135,
+  "raw_response": "{\n  \"communicative_function\": \"Reframing and normalizing the temporal experience of suffering or change by equating extremes in duration as leading to the same ultimate outcome.\",\n  \"implicit_claims\": [\n    \"There is a universal endpoint or effect common to all durations.\",\n    \"Long duration and short duration are ultimately equivalent in their end result.\",\n    \"The passage of time does not alter the fundamental nature of the final outcome.\",\n    \"The listener's current temporal perspective is not as decisive as it seems.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent if interpreted as a philosophical or therapeutic tautology (all temporal experiences end in a common outcome). However, it may be inconsistent with empirical experience if the 'effect' is interpreted literally as identical across all durations (e.g., short vs. long pain clearly differ in intensity of suffering).\",\n  \"conditions_for_usefulness\": [\n    \"The client is distressed by the perceived endlessness of suffering and needs perspectival reframing.\",\n    \"The therapist and client share a therapeutic goal of reducing the emotional weight of duration.\",\n    \"The client can tolerate abstract or paradoxical logic to shift focus from time to acceptance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets the statement as dismissing the real magnitude of long-term suffering or trauma.\",\n    \"The client requires concrete validation of differential impacts of brief vs. chronic conditions.\",\n    \"The statement is used to invalidate the client's lived experience of temporal inequality (e.g., acute vs. chronic pain).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reframing and normalizing the temporal experience of suffering or change by equating extremes in duration as leading to the same ultimate outcome.",
+    "implicit_claims": [
+      "There is a universal endpoint or effect common to all durations.",
+      "Long duration and short duration are ultimately equivalent in their end result.",
+      "The passage of time does not alter the fundamental nature of the final outcome.",
+      "The listener's current temporal perspective is not as decisive as it seems."
+    ],
+    "coherence_assessment": "The statement is internally coherent if interpreted as a philosophical or therapeutic tautology (all temporal experiences end in a common outcome). However, it may be inconsistent with empirical experience if the 'effect' is interpreted literally as identical across all durations (e.g., short vs. long pain clearly differ in intensity of suffering).",
+    "conditions_for_usefulness": [
+      "The client is distressed by the perceived endlessness of suffering and needs perspectival reframing.",
+      "The therapist and client share a therapeutic goal of reducing the emotional weight of duration.",
+      "The client can tolerate abstract or paradoxical logic to shift focus from time to acceptance."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets the statement as dismissing the real magnitude of long-term suffering or trauma.",
+      "The client requires concrete validation of differential impacts of brief vs. chronic conditions.",
+      "The statement is used to invalidate the client's lived experience of temporal inequality (e.g., acute vs. chronic pain)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 322,
+  "error": "",
+  "retry_count": 0
+}

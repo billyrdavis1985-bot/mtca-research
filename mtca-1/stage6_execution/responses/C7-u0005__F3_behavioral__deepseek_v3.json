@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0005__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0005",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:15:54.240738+00:00",
+  "wall_clock_seconds": 5.483660459518433,
+  "raw_response": "{\n  \"communicative_function\": \"The speaker publicly declares a state of readiness to undergo a spiritual or psychological process of character transformation, specifically by surrendering personal defects to a higher power.\",\n  \"implicit_claims\": [\n    \"There exists a God or higher power capable of removing defects of character.\",\n    \"The speaker has defects of character that need removal.\",\n    \"The speaker has already identified these defects and is now prepared for their removal.\",\n    \"Removal of defects is an external act performed by God, not solely by the speaker's own effort.\",\n    \"The readiness is complete, not partial or conditional.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a framework that posits a divine agency and a model of recovery or spiritual growth where surrender precedes change. It implies a logical sequence: awareness of defects → readiness → divine action. However, if interpreted outside such a framework, the passive role of the speaker and the active role of God may seem contradictory to self-directed change.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker sincerely believes in a higher power capable of such change.\",\n    \"The speaker has honestly self-examined and acknowledged specific defects.\",\n    \"The speaker is part of a context (e.g., 12-step program) that supports this language and process.\",\n    \"The statement serves as a genuine step toward humility and action, not as a mere verbal formula.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid personal responsibility or effort in changing behavior.\",\n    \"The speaker says it without genuine introspection or belief, performing a ritual rather than committing.\",\n    \"The listener interprets it as a guarantee that defects will vanish without ongoing work.\",\n    \"The statement is taken out of its original spiritual or recovery context, implying a literal, magical removal.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The speaker publicly declares a state of readiness to undergo a spiritual or psychological process of character transformation, specifically by surrendering personal defects to a higher power.",
+    "implicit_claims": [
+      "There exists a God or higher power capable of removing defects of character.",
+      "The speaker has defects of character that need removal.",
+      "The speaker has already identified these defects and is now prepared for their removal.",
+      "Removal of defects is an external act performed by God, not solely by the speaker's own effort.",
+      "The readiness is complete, not partial or conditional."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a framework that posits a divine agency and a model of recovery or spiritual growth where surrender precedes change. It implies a logical sequence: awareness of defects → readiness → divine action. However, if interpreted outside such a framework, the passive role of the speaker and the active role of God may seem contradictory to self-directed change.",
+    "conditions_for_usefulness": [
+      "The speaker sincerely believes in a higher power capable of such change.",
+      "The speaker has honestly self-examined and acknowledged specific defects.",
+      "The speaker is part of a context (e.g., 12-step program) that supports this language and process.",
+      "The statement serves as a genuine step toward humility and action, not as a mere verbal formula."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid personal responsibility or effort in changing behavior.",
+      "The speaker says it without genuine introspection or belief, performing a ritual rather than committing.",
+      "The listener interprets it as a guarantee that defects will vanish without ongoing work.",
+      "The statement is taken out of its original spiritual or recovery context, implying a literal, magical removal."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 381,
+  "error": "",
+  "retry_count": 0
+}

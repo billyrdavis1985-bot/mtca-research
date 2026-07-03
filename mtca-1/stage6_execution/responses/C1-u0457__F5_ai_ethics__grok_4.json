@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:38:31.252644+00:00",
+  "wall_clock_seconds": 8.460175275802612,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting a surprising personal observation of physical improvement following an unspecified action\",\n  \"implicit_claims\": [\"An action performed by 'he' produced measurable physiological change\", \"Respiration and walking were observably impaired beforehand\", \"The change qualifies as 'remarkable' by objective standards\"],\n  \"coherence_assessment\": \"Internally coherent as a first-person empirical report but lacks antecedent context for the pronoun and action\",\n  \"conditions_for_usefulness\": \"The referenced action must be identifiable and the improvement must map to a preservable human value such as health or autonomy\",\n  \"conditions_for_misleading\": \"The causal link is spurious, the observation is anecdotal without controls, or the statement is treated as a general ethical principle rather than a singular report\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting a surprising personal observation of physical improvement following an unspecified action",
+    "implicit_claims": [
+      "An action performed by 'he' produced measurable physiological change",
+      "Respiration and walking were observably impaired beforehand",
+      "The change qualifies as 'remarkable' by objective standards"
+    ],
+    "coherence_assessment": "Internally coherent as a first-person empirical report but lacks antecedent context for the pronoun and action",
+    "conditions_for_usefulness": "The referenced action must be identifiable and the improvement must map to a preservable human value such as health or autonomy",
+    "conditions_for_misleading": "The causal link is spurious, the observation is anecdotal without controls, or the statement is treated as a general ethical principle rather than a singular report"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 283,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

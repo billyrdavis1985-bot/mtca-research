@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0007__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:25:38.134208+00:00",
+  "wall_clock_seconds": 4.135325193405151,
+  "raw_response": "{\n  \"communicative_function\": \"Self-observation and sharing a personal insight about the relationship between mood and behavior.\",\n  \"implicit_claims\": [\n    \"Mood and behavior are causally related.\",\n    \"The common assumption is that mood drives behavior.\",\n    \"The speaker has observed a pattern contradicting that assumption.\",\n    \"Behavior can influence mood, not just the reverse.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent. It presents a logically possible and psychologically recognized relationship (behavior → mood) without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is accurate in their self-observation over time.\",\n    \"There is a genuine interest in understanding or changing mood regulation.\",\n    \"The insight can be applied to improve emotional well-being or behavioral patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The observed correlation is coincidental or due to a third factor.\",\n    \"The speaker generalizes this pattern without recognizing exceptions.\",\n    \"The statement discourages addressing underlying mood causes by solely focusing on behavior.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-observation and sharing a personal insight about the relationship between mood and behavior.",
+    "implicit_claims": [
+      "Mood and behavior are causally related.",
+      "The common assumption is that mood drives behavior.",
+      "The speaker has observed a pattern contradicting that assumption.",
+      "Behavior can influence mood, not just the reverse."
+    ],
+    "coherence_assessment": "Internally coherent. It presents a logically possible and psychologically recognized relationship (behavior → mood) without contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker is accurate in their self-observation over time.",
+      "There is a genuine interest in understanding or changing mood regulation.",
+      "The insight can be applied to improve emotional well-being or behavioral patterns."
+    ],
+    "conditions_for_misleading": [
+      "The observed correlation is coincidental or due to a third factor.",
+      "The speaker generalizes this pattern without recognizing exceptions.",
+      "The statement discourages addressing underlying mood causes by solely focusing on behavior."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 131,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

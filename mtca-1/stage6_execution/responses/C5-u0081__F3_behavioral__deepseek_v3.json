@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0081__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:08:01.526599+00:00",
+  "wall_clock_seconds": 6.14420747756958,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of purpose or belief, framing suffering as having a singular and supreme value—purification—thereby prescribing an attitude or behavioral commitment toward enduring or even seeking suffering as a means of self-improvement.\",\n  \"implicit_claims\": [\n    \"Suffering has a universal, inherent purpose.\",\n    \"The primary value of suffering is purification, not any other outcome (e.g., learning, growth, empathy).\",\n    \"What is 'useless' or 'impure' in a person can be identified and removed through suffering.\",\n    \"Suffering is an effective and necessary mechanism for moral or spiritual cleansing.\",\n    \"Other uses or interpretations of suffering are subordinate or invalid.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a tautological definition, but its coherence is fragile because it asserts an absolute teleology for suffering, which may conflict with the varied, contingent experiences of suffering in reality.\",\n  \"conditions_for_usefulness\": [\n    \"The person holds a framework (e.g., religious or philosophical) that posits purification as a primary goal.\",\n    \"The individual can distinguish between constructive suffering (linked to growth) and pointless harm.\",\n    \"The statement is used to motivate endurance or self-reflection in the face of unavoidable suffering.\",\n    \"The person has agency to reframe their experience of suffering rather than being passive victim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Suffering is extreme, chronic, or traumatic and serves no purifying function (e.g., abuse, disease).\",\n    \"The statement is used to justify inflicting suffering on others or to minimize their pain.\",\n    \"It encourages passivity or fatalism, discouraging seeking help or changing harmful circumstances.\",\n    \"It assumes a universal moral hierarchy (pure vs. impure) that may be subjective or oppressive.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of purpose or belief, framing suffering as having a singular and supreme value—purification—thereby prescribing an attitude or behavioral commitment toward enduring or even seeking suffering as a means of self-improvement.",
+    "implicit_claims": [
+      "Suffering has a universal, inherent purpose.",
+      "The primary value of suffering is purification, not any other outcome (e.g., learning, growth, empathy).",
+      "What is 'useless' or 'impure' in a person can be identified and removed through suffering.",
+      "Suffering is an effective and necessary mechanism for moral or spiritual cleansing.",
+      "Other uses or interpretations of suffering are subordinate or invalid."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a tautological definition, but its coherence is fragile because it asserts an absolute teleology for suffering, which may conflict with the varied, contingent experiences of suffering in reality.",
+    "conditions_for_usefulness": [
+      "The person holds a framework (e.g., religious or philosophical) that posits purification as a primary goal.",
+      "The individual can distinguish between constructive suffering (linked to growth) and pointless harm.",
+      "The statement is used to motivate endurance or self-reflection in the face of unavoidable suffering.",
+      "The person has agency to reframe their experience of suffering rather than being passive victim."
+    ],
+    "conditions_for_misleading": [
+      "Suffering is extreme, chronic, or traumatic and serves no purifying function (e.g., abuse, disease).",
+      "The statement is used to justify inflicting suffering on others or to minimize their pain.",
+      "It encourages passivity or fatalism, discouraging seeking help or changing harmful circumstances.",
+      "It assumes a universal moral hierarchy (pure vs. impure) that may be subjective or oppressive."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 393,
+  "error": "",
+  "retry_count": 0
+}

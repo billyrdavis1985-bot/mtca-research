@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0011__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:39:55.135022+00:00",
+  "wall_clock_seconds": 10.26046633720398,
+  "raw_response": "{\n  \"communicative_function\": \"Declaring a personal commitment to actionable self-improvement\",\n  \"implicit_claims\": [\n    \"Small observable changes are reliably superior to vague resolutions\",\n    \"The speaker possesses the capacity to identify and execute such changes\",\n    \"Vague resolutions are inherently unachievable or worthless\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the contrast between feasible and infeasible approaches is logically consistent\",\n  \"conditions_for_usefulness\": \"The speaker must translate the commitment into concrete, trackable steps with external accountability\",\n  \"conditions_for_misleading\": \"If invoked to avoid systemic change, downplay larger responsibilities, or substitute token actions for substantive progress\"\n}",
+  "parsed_json": {
+    "communicative_function": "Declaring a personal commitment to actionable self-improvement",
+    "implicit_claims": [
+      "Small observable changes are reliably superior to vague resolutions",
+      "The speaker possesses the capacity to identify and execute such changes",
+      "Vague resolutions are inherently unachievable or worthless"
+    ],
+    "coherence_assessment": "Internally coherent; the contrast between feasible and infeasible approaches is logically consistent",
+    "conditions_for_usefulness": "The speaker must translate the commitment into concrete, trackable steps with external accountability",
+    "conditions_for_misleading": "If invoked to avoid systemic change, downplay larger responsibilities, or substitute token actions for substantive progress"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 145,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0864__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:55:51.735272+00:00",
+  "wall_clock_seconds": 4.8835225105285645,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a confession of initial skepticism toward Coué's lectures, likely serving to establish the speaker's credibility as a formerly doubtful observer before possibly describing a change of mind.\",\n  \"implicit_claims\": [\n    \"The speaker attended or encountered Coué's lectures.\",\n    \"The speaker initially held a skeptical attitude toward those lectures.\",\n    \"The speaker is now recounting that past skepticism, implying a possible shift in opinion or reflection.\",\n    \"The lectures (or Coué's ideas) were such that skepticism was a natural or expected reaction.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it expresses a past mental state ('entirely sceptical') directed at a specific object ('Coué's lectures'), without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker's subsequent change of mind or insight is relevant to the audience.\",\n    \"The audience values the speaker's honesty about prior doubt as a mark of objectivity.\",\n    \"The context involves evaluating the effectiveness or credibility of Coué's methods.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker never actually changed their mind but implies openness or conversion through the confession.\",\n    \"The statement is used to discredit Coué's lectures without acknowledging the speaker's bias.\",\n    \"The audience assumes 'entirely sceptical' is a factual observation rather than an exaggerated or rhetorical stance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a confession of initial skepticism toward Coué's lectures, likely serving to establish the speaker's credibility as a formerly doubtful observer before possibly describing a change of mind.",
+    "implicit_claims": [
+      "The speaker attended or encountered Coué's lectures.",
+      "The speaker initially held a skeptical attitude toward those lectures.",
+      "The speaker is now recounting that past skepticism, implying a possible shift in opinion or reflection.",
+      "The lectures (or Coué's ideas) were such that skepticism was a natural or expected reaction."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it expresses a past mental state ('entirely sceptical') directed at a specific object ('Coué's lectures'), without contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker's subsequent change of mind or insight is relevant to the audience.",
+      "The audience values the speaker's honesty about prior doubt as a mark of objectivity.",
+      "The context involves evaluating the effectiveness or credibility of Coué's methods."
+    ],
+    "conditions_for_misleading": [
+      "The speaker never actually changed their mind but implies openness or conversion through the confession.",
+      "The statement is used to discredit Coué's lectures without acknowledging the speaker's bias.",
+      "The audience assumes 'entirely sceptical' is a factual observation rather than an exaggerated or rhetorical stance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 299,
+  "error": "",
+  "retry_count": 0
+}

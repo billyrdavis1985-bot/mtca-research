@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:20:54.073618+00:00",
+  "wall_clock_seconds": 3.8500308990478516,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement communicates an instructional guidance on the frequency of suggestions needed in a therapeutic setting, with the aim of achieving a complete cure.\",\n  \"implicit_claims\": [\n    \"Periodic suggestions can contribute to a cure.\",\n    \"The necessity of suggestions decreases as progress increases.\",\n    \"A cure is achievable through this method.\",\n    \"The progress can be measured and assessed over time.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically progresses from the initial need for frequent suggestions to the eventual aim of rendering them unnecessary as the subject improves. It outlines a clear procedural approach with a definitive goal (the cure).\",\n  \"conditions_for_usefulness\": \"This statement would be useful if it is grounded in an effective therapeutic practice where suggestions play a key role, progress can be consistently measured, and if there is empirical evidence supporting the idea that reducing the frequency of suggestions is beneficial as improvement is observed.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the underlying method involving suggestions is not empirically validated. It would also be misleading if there is no clear method for measuring progress, or if the approach fails to account for individual differences in subjects, which could make such a method inappropriate or ineffective.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement communicates an instructional guidance on the frequency of suggestions needed in a therapeutic setting, with the aim of achieving a complete cure.",
+    "implicit_claims": [
+      "Periodic suggestions can contribute to a cure.",
+      "The necessity of suggestions decreases as progress increases.",
+      "A cure is achievable through this method.",
+      "The progress can be measured and assessed over time."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically progresses from the initial need for frequent suggestions to the eventual aim of rendering them unnecessary as the subject improves. It outlines a clear procedural approach with a definitive goal (the cure).",
+    "conditions_for_usefulness": "This statement would be useful if it is grounded in an effective therapeutic practice where suggestions play a key role, progress can be consistently measured, and if there is empirical evidence supporting the idea that reducing the frequency of suggestions is beneficial as improvement is observed.",
+    "conditions_for_misleading": "The statement could be misleading if the underlying method involving suggestions is not empirically validated. It would also be misleading if there is no clear method for measuring progress, or if the approach fails to account for individual differences in subjects, which could make such a method inappropriate or ineffective."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 265,
+  "error": "",
+  "retry_count": 0
+}

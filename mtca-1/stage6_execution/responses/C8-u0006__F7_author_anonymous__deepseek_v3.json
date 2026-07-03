@@ -1,0 +1,33 @@
+{
+  "call_id": "C8-u0006__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:25:02.934747+00:00",
+  "wall_clock_seconds": 4.542321443557739,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal decision-making principle that balances emotional hesitation with rational assessment, serving as an assertion of a value or strategy for action.\",\n  \"implicit_claims\": [\n    \"The speaker distinguishes between fear and evidence-based reasoning.\",\n    \"Fear alone is not a sufficient reason to avoid an action.\",\n    \"The speaker has access to evidence that can indicate the likelihood of helpfulness.\",\n    \"The speaker believes that actions can be assessed probabilistically in terms of their outcomes.\",\n    \"The speaker is willing to act against their immediate emotional inclination when rationally warranted.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it sets a condition (evidence suggesting helpfulness) that counterbalances the emotional barrier (fear), forming a logically consistent rule for action.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the speaker has reliable evidence to evaluate likely outcomes, can accurately assess when fear is irrational, and operates in environments where calculated risks lead to growth or benefit.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the evidence is flawed or incomplete, if the speaker overestimates their ability to predict helpfulness, if 'scary things' are genuinely dangerous, or if the principle is used to justify reckless behavior under the guise of rationality.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal decision-making principle that balances emotional hesitation with rational assessment, serving as an assertion of a value or strategy for action.",
+    "implicit_claims": [
+      "The speaker distinguishes between fear and evidence-based reasoning.",
+      "Fear alone is not a sufficient reason to avoid an action.",
+      "The speaker has access to evidence that can indicate the likelihood of helpfulness.",
+      "The speaker believes that actions can be assessed probabilistically in terms of their outcomes.",
+      "The speaker is willing to act against their immediate emotional inclination when rationally warranted."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it sets a condition (evidence suggesting helpfulness) that counterbalances the emotional barrier (fear), forming a logically consistent rule for action.",
+    "conditions_for_usefulness": "The statement would be useful if the speaker has reliable evidence to evaluate likely outcomes, can accurately assess when fear is irrational, and operates in environments where calculated risks lead to growth or benefit.",
+    "conditions_for_misleading": "The statement could be misleading if the evidence is flawed or incomplete, if the speaker overestimates their ability to predict helpfulness, if 'scary things' are genuinely dangerous, or if the principle is used to justify reckless behavior under the guise of rationality."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 274,
+  "error": "",
+  "retry_count": 0
+}

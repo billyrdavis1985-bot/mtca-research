@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0229__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:46:13.750793+00:00",
+  "wall_clock_seconds": 4.161634206771851,
+  "raw_response": "{\n  \"communicative_function\": \"To encourage self-determination and align the listener's behavior with the belief that thoughts shape outcomes.\",\n  \"implicit_claims\": [\n    \"Your current environment is a direct result of your thoughts.\",\n    \"Changing your thoughts or vision can change your circumstances.\",\n    \"A person's rise or fall is primarily determined by internal mental focus, not external factors.\",\n    \"There is a causal link between holding an ideal and achieving a corresponding reality.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a tautological claim: if one's environment is defined by thoughts, then falling, remaining, or rising with thoughts is logically consistent. However, it assumes a deterministic mental causation that may not align with empirical reality.\",\n  \"conditions_for_usefulness\": [\n    \"The listener has agency to control or shift their mental focus.\",\n    \"External structural barriers (e.g., systemic inequity, health crises) are minimal or can be overcome by mindset shifts.\",\n    \"The listener is motivated to take action based on their vision, not merely visualize passively.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If external constraints (such as poverty, illness, or discrimination) objectively limit outcomes regardless of mindset.\",\n    \"If the statement is used to blame individuals for their circumstances (e.g., 'you fell because you had bad thoughts').\",\n    \"If it discourages practical problem-solving by overemphasizing internal change alone.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To encourage self-determination and align the listener's behavior with the belief that thoughts shape outcomes.",
+    "implicit_claims": [
+      "Your current environment is a direct result of your thoughts.",
+      "Changing your thoughts or vision can change your circumstances.",
+      "A person's rise or fall is primarily determined by internal mental focus, not external factors.",
+      "There is a causal link between holding an ideal and achieving a corresponding reality."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a tautological claim: if one's environment is defined by thoughts, then falling, remaining, or rising with thoughts is logically consistent. However, it assumes a deterministic mental causation that may not align with empirical reality.",
+    "conditions_for_usefulness": [
+      "The listener has agency to control or shift their mental focus.",
+      "External structural barriers (e.g., systemic inequity, health crises) are minimal or can be overcome by mindset shifts.",
+      "The listener is motivated to take action based on their vision, not merely visualize passively."
+    ],
+    "conditions_for_misleading": [
+      "If external constraints (such as poverty, illness, or discrimination) objectively limit outcomes regardless of mindset.",
+      "If the statement is used to blame individuals for their circumstances (e.g., 'you fell because you had bad thoughts').",
+      "If it discourages practical problem-solving by overemphasizing internal change alone."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 304,
+  "error": "",
+  "retry_count": 0
+}

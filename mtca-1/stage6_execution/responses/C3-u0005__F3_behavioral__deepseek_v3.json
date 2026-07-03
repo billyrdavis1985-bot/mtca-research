@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0005__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:05:32.875386+00:00",
+  "wall_clock_seconds": 5.524807453155518,
+  "raw_response": "{\n  \"communicative_function\": \"A directive to the self to engage in self-critique or self-discipline, framed as a moral or existential imperative, with an urgent reminder of mortality.\",\n  \"implicit_claims\": [\n    \"The self has the capacity to 'abuse and contemn' itself (i.e., to engage in self-criticism or self-denial).\",\n    \"There is a limited time remaining to respect oneself, implying a finite lifespan or a deadline for moral improvement.\",\n    \"Self-respect is a valuable state that will soon become impossible to achieve.\",\n    \"The current moment calls for action rather than self-indulgence.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a paradoxical exhortation: it commands the soul to treat itself harshly now, because the opportunity for self-respect is fleeting. The tension between 'abuse' and eventual 'respect' is deliberate, not contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The reader believes in a limited timeframe for personal or moral transformation.\",\n    \"The reader accepts that self-critique can be a path to eventual self-respect.\",\n    \"The reader is in a reflective or disciplined state, open to a stern motivational tone.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally to mean one should permanently harm or degrade oneself, it could encourage unhealthy self-hatred.\",\n    \"If the time for self-respect is wrongly interpreted as extremely short (e.g., imminent death when none is near), it could cause unnecessary despair.\",\n    \"If the statement is read as a license to neglect self-care or engage in self-destructive behavior under the guise of 'abuse'.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "A directive to the self to engage in self-critique or self-discipline, framed as a moral or existential imperative, with an urgent reminder of mortality.",
+    "implicit_claims": [
+      "The self has the capacity to 'abuse and contemn' itself (i.e., to engage in self-criticism or self-denial).",
+      "There is a limited time remaining to respect oneself, implying a finite lifespan or a deadline for moral improvement.",
+      "Self-respect is a valuable state that will soon become impossible to achieve.",
+      "The current moment calls for action rather than self-indulgence."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a paradoxical exhortation: it commands the soul to treat itself harshly now, because the opportunity for self-respect is fleeting. The tension between 'abuse' and eventual 'respect' is deliberate, not contradictory.",
+    "conditions_for_usefulness": [
+      "The reader believes in a limited timeframe for personal or moral transformation.",
+      "The reader accepts that self-critique can be a path to eventual self-respect.",
+      "The reader is in a reflective or disciplined state, open to a stern motivational tone."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally to mean one should permanently harm or degrade oneself, it could encourage unhealthy self-hatred.",
+      "If the time for self-respect is wrongly interpreted as extremely short (e.g., imminent death when none is near), it could cause unnecessary despair.",
+      "If the statement is read as a license to neglect self-care or engage in self-destructive behavior under the guise of 'abuse'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 358,
+  "error": "",
+  "retry_count": 0
+}

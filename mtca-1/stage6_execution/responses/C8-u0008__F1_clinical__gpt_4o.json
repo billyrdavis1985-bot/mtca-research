@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:31:29.228362+00:00",
+  "wall_clock_seconds": 3.1542985439300537,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a commitment to align actions with personal values, indicating a proactive approach to behavior despite current emotional states.\",\n  \"implicit_claims\": [\n    \"Values and feelings can be distinct and sometimes in conflict.\",\n    \"Actions can be consciously controlled and aligned with values.\",\n    \"Values are perceived as a guide for behavior.\",\n    \"Feelings may lag behind or not always reflect values.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it acknowledges the potential disparity between feelings and values while emphasizing the ability to make deliberate choices based on values.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the individual has a clear understanding of their values, recognizes the distinction between emotions and values, and is motivated to act consistently with their values despite contrary feelings.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual is not aware of or has not defined their values, if acting against immediate feelings causes psychological distress, or if there is a cognitive dissonance without eventual reconciliation between values and emotions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a commitment to align actions with personal values, indicating a proactive approach to behavior despite current emotional states.",
+    "implicit_claims": [
+      "Values and feelings can be distinct and sometimes in conflict.",
+      "Actions can be consciously controlled and aligned with values.",
+      "Values are perceived as a guide for behavior.",
+      "Feelings may lag behind or not always reflect values."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it acknowledges the potential disparity between feelings and values while emphasizing the ability to make deliberate choices based on values.",
+    "conditions_for_usefulness": "The statement is useful if the individual has a clear understanding of their values, recognizes the distinction between emotions and values, and is motivated to act consistently with their values despite contrary feelings.",
+    "conditions_for_misleading": "The statement could be misleading if the individual is not aware of or has not defined their values, if acting against immediate feelings causes psychological distress, or if there is a cognitive dissonance without eventual reconciliation between values and emotions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 228,
+  "error": "",
+  "retry_count": 0
+}

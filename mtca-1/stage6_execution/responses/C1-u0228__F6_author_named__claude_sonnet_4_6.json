@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0228__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:28:30.149501+00:00",
+  "wall_clock_seconds": 18.793816089630127,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a normative and causal argument about the power of physician communication, using a contrastive example to advocate for optimistic framing of diagnoses. It functions as both a practical recommendation to medical practitioners and a theoretical illustration of Coué's broader thesis that suggestion shapes health outcomes.\",\n  \"implicit_claims\": [\n    \"Doctors inherently possess suggestive authority over patients by virtue of their title and role.\",\n    \"Patient beliefs about their illness causally influence health outcomes.\",\n    \"Negative prognoses can worsen patient outcomes beyond what the underlying illness would cause.\",\n    \"Optimistic or hopeful communication by doctors can produce real physiological or psychological improvement.\",\n    \"Autosuggestion is a mechanism through which external suggestions become internalized and operative.\",\n    \"There exists a meaningful distinction between telling a patient the truth about severity and telling them recovery is impossible.\",\n    \"Doctors can ethically frame prognoses optimistically without necessarily being dishonest.\",\n    \"The mind has measurable influence over the body's healing capacity.\",\n    \"A doctor declaring a case incurable is not merely descriptive but is itself an intervention with consequences.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within Coué's theoretical framework. The contrast between the two scenarios is logically structured, and the causal chain (doctor speaks → patient internalizes → autosuggestion operates → outcome follows) is consistent. However, the coherence is somewhat circular: it presupposes the very mechanism (autosuggestion) it is ostensibly illustrating, making it more of an assertion than a demonstration.\",\n  \"conditions_for_usefulness\": [\n    \"Autosuggestion and the placebo effect must have genuine, clinically meaningful impact on health outcomes.\",\n    \"Physician communication must measurably influence patient belief and compliance.\",\n    \"The optimistic framing must not lead patients to forgo effective treatments or delay necessary interventions.\",\n    \"The claim must be limited to conditions where psychological state genuinely modulates outcomes, such as chronic pain, immune function, or recovery rates.\",\n    \"Doctors must be able to offer hope without making false promises or misrepresenting prognosis.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If autosuggestion is overstated as a mechanism, patients may attribute insufficient importance to medical treatment itself.\",\n    \"If doctors withhold accurate prognoses to maintain suggestive optimism, patients may be denied the ability to make informed decisions about end-of-life care, finances, or personal affairs.\",\n    \"If applied to conditions with no meaningful psychosomatic component, the framework implies false hope with no benefit.\",\n    \"The statement could be used to rationalize medical paternalism, wherein doctors decide what truth patients can handle.\",\n    \"It may imply that poor outcomes following a negative prognosis are caused by the doctor's communication rather than the underlying disease, misassigning causal responsibility.\",\n    \"Given Coué's broader context promoting autosuggestion as a primary therapeutic tool, the statement could be used to justify replacing evidence-based medicine with suggestion-based approaches.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a normative and causal argument about the power of physician communication, using a contrastive example to advocate for optimistic framing of diagnoses. It functions as both a practical recommendation to medical practitioners and a theoretical illustration of Coué's broader thesis that suggestion shapes health outcomes.",
+    "implicit_claims": [
+      "Doctors inherently possess suggestive authority over patients by virtue of their title and role.",
+      "Patient beliefs about their illness causally influence health outcomes.",
+      "Negative prognoses can worsen patient outcomes beyond what the underlying illness would cause.",
+      "Optimistic or hopeful communication by doctors can produce real physiological or psychological improvement.",
+      "Autosuggestion is a mechanism through which external suggestions become internalized and operative.",
+      "There exists a meaningful distinction between telling a patient the truth about severity and telling them recovery is impossible.",
+      "Doctors can ethically frame prognoses optimistically without necessarily being dishonest.",
+      "The mind has measurable influence over the body's healing capacity.",
+      "A doctor declaring a case incurable is not merely descriptive but is itself an intervention with consequences."
+    ],
+    "coherence_assessment": "The statement is internally coherent within Coué's theoretical framework. The contrast between the two scenarios is logically structured, and the causal chain (doctor speaks → patient internalizes → autosuggestion operates → outcome follows) is consistent. However, the coherence is somewhat circular: it presupposes the very mechanism (autosuggestion) it is ostensibly illustrating, making it more of an assertion than a demonstration.",
+    "conditions_for_usefulness": [
+      "Autosuggestion and the placebo effect must have genuine, clinically meaningful impact on health outcomes.",
+      "Physician communication must measurably influence patient belief and compliance.",
+      "The optimistic framing must not lead patients to forgo effective treatments or delay necessary interventions.",
+      "The claim must be limited to conditions where psychological state genuinely modulates outcomes, such as chronic pain, immune function, or recovery rates.",
+      "Doctors must be able to offer hope without making false promises or misrepresenting prognosis."
+    ],
+    "conditions_for_misleading": [
+      "If autosuggestion is overstated as a mechanism, patients may attribute insufficient importance to medical treatment itself.",
+      "If doctors withhold accurate prognoses to maintain suggestive optimism, patients may be denied the ability to make informed decisions about end-of-life care, finances, or personal affairs.",
+      "If applied to conditions with no meaningful psychosomatic component, the framework implies false hope with no benefit.",
+      "The statement could be used to rationalize medical paternalism, wherein doctors decide what truth patients can handle.",
+      "It may imply that poor outcomes following a negative prognosis are caused by the doctor's communication rather than the underlying disease, misassigning causal responsibility.",
+      "Given Coué's broader context promoting autosuggestion as a primary therapeutic tool, the statement could be used to justify replacing evidence-based medicine with suggestion-based approaches."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 265,
+  "output_tokens": 716,
+  "error": "",
+  "retry_count": 0
+}

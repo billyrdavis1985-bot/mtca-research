@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0229__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:48:17.519886+00:00",
+  "wall_clock_seconds": 4.420436859130859,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is offering a philosophical or motivational assertion about the power of thoughts and ideals to determine one's life trajectory, urging the reader to take responsibility for their mental focus.\",\n  \"implicit_claims\": [\n    \"One's thoughts directly cause their rise, fall, or stagnation in life.\",\n    \"External environment is not the primary determinant of success or failure.\",\n    \"Having a clear Vision or Ideal is necessary for upward progress.\",\n    \"Thoughts are the sole or most decisive factor in personal outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its causal logic: it posits a direct relationship between internal mental states and external life circumstances, which is consistent within its own worldview.\",\n  \"conditions_for_usefulness\": [\n    \"The reader has agency to choose and direct their own thoughts.\",\n    \"The reader's environment does not severely constrain or override the power of positive thinking (e.g., systemic oppression, extreme poverty).\",\n    \"The statement is used as a motivational catalyst, not a complete explanation of life outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If external factors (e.g., structural inequality, trauma, illness) can overpower the effect of one's thoughts.\",\n    \"If the reader interprets 'rise' or 'fall' in purely material terms and then blames themselves for circumstances beyond their control.\",\n    \"If the statement is taken as a universal law that denies the role of luck, privilege, or biology.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is offering a philosophical or motivational assertion about the power of thoughts and ideals to determine one's life trajectory, urging the reader to take responsibility for their mental focus.",
+    "implicit_claims": [
+      "One's thoughts directly cause their rise, fall, or stagnation in life.",
+      "External environment is not the primary determinant of success or failure.",
+      "Having a clear Vision or Ideal is necessary for upward progress.",
+      "Thoughts are the sole or most decisive factor in personal outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its causal logic: it posits a direct relationship between internal mental states and external life circumstances, which is consistent within its own worldview.",
+    "conditions_for_usefulness": [
+      "The reader has agency to choose and direct their own thoughts.",
+      "The reader's environment does not severely constrain or override the power of positive thinking (e.g., systemic oppression, extreme poverty).",
+      "The statement is used as a motivational catalyst, not a complete explanation of life outcomes."
+    ],
+    "conditions_for_misleading": [
+      "If external factors (e.g., structural inequality, trauma, illness) can overpower the effect of one's thoughts.",
+      "If the reader interprets 'rise' or 'fall' in purely material terms and then blames themselves for circumstances beyond their control.",
+      "If the statement is taken as a universal law that denies the role of luck, privilege, or biology."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 313,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0045__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:45:53.847088+00:00",
+  "wall_clock_seconds": 6.622883081436157,
+  "raw_response": "{\n  \"communicative_function\": \"Describing or proscribing a specific psychological or behavioral state—being averse or led by contrary desires/affections toward a man's hurt—as a form of commitment to avoid such a state.\",\n  \"implicit_claims\": [\n    \"There is a normative standard by which being averse or having contrary affections toward another is problematic.\",\n    \"The speaker or signatory can identify and regulate such internal states.\",\n    \"Anger is an example of such contrary affections that lead to hurt or prejudice.\",\n    \"The statement assumes a dyadic relationship where one person's affections can be directed toward another's harm.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a description of an emotional/cognitive state, but its abrupt shift from 'being averse' to 'contrary desires or affections' to 'souls of them that are angry' creates a mild logical aposiopesis—it ends by identifying a class of people rather than completing a commitment clause.\",\n  \"conditions_for_usefulness\": [\n    \"The individual accepts that such internal states are subject to moral or behavioral commitment.\",\n    \"The individual is capable of self-monitoring for aversion or antagonistic affections.\",\n    \"The context involves interpersonal relationships where avoiding harm or prejudice is valued.\",\n    \"The statement is part of a larger framework (e.g., ethical code, therapeutic practice) that defines 'hurt and prejudice' clearly.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement treats all aversion or contrary affections as necessarily harmful, ignoring legitimate self-protective or justice-oriented emotions.\",\n    \"If it implies that any angry feeling is automatically a violation of the commitment, rather than distinguishing between felt emotion and intended action.\",\n    \"If it is used to silence justified criticism or boundary-setting under the guise of avoiding 'hurt and prejudice.'\",\n    \"If the historical or philosophical context (e.g., from a text like Spinoza's Ethics) is lost and the statement is applied anachronistically or out of context.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Describing or proscribing a specific psychological or behavioral state—being averse or led by contrary desires/affections toward a man's hurt—as a form of commitment to avoid such a state.",
+    "implicit_claims": [
+      "There is a normative standard by which being averse or having contrary affections toward another is problematic.",
+      "The speaker or signatory can identify and regulate such internal states.",
+      "Anger is an example of such contrary affections that lead to hurt or prejudice.",
+      "The statement assumes a dyadic relationship where one person's affections can be directed toward another's harm."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a description of an emotional/cognitive state, but its abrupt shift from 'being averse' to 'contrary desires or affections' to 'souls of them that are angry' creates a mild logical aposiopesis—it ends by identifying a class of people rather than completing a commitment clause.",
+    "conditions_for_usefulness": [
+      "The individual accepts that such internal states are subject to moral or behavioral commitment.",
+      "The individual is capable of self-monitoring for aversion or antagonistic affections.",
+      "The context involves interpersonal relationships where avoiding harm or prejudice is valued.",
+      "The statement is part of a larger framework (e.g., ethical code, therapeutic practice) that defines 'hurt and prejudice' clearly."
+    ],
+    "conditions_for_misleading": [
+      "If the statement treats all aversion or contrary affections as necessarily harmful, ignoring legitimate self-protective or justice-oriented emotions.",
+      "If it implies that any angry feeling is automatically a violation of the commitment, rather than distinguishing between felt emotion and intended action.",
+      "If it is used to silence justified criticism or boundary-setting under the guise of avoiding 'hurt and prejudice.'",
+      "If the historical or philosophical context (e.g., from a text like Spinoza's Ethics) is lost and the statement is applied anachronistically or out of context."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 431,
+  "error": "",
+  "retry_count": 0
+}

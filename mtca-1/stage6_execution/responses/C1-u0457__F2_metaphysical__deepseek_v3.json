@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0457__F2_metaphysical__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:36:42.324902+00:00",
+  "wall_clock_seconds": 5.123412132263184,
+  "raw_response": "{\n  \"communicative_function\": \"The statement reports an observed effect of a mysterious or transformative event, conveying astonishment and implying a causal link between an unspecified action ('when he does so') and a notable physical improvement.\",\n  \"implicit_claims\": [\n    \"There is a causal connection between the subject's action and the observed improvement.\",\n    \"The improvement is remarkable and unexpected, suggesting it is not ordinary or easily explained.\",\n    \"The speaker is an attentive and credible observer.\",\n    \"The improvement is in both respiration and walking, implying holistic or non-specific healing.\",\n    \"The action 'when he does so' refers to a spiritual or metaphysical practice or intervention.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a narrative of observed change, but its coherence depends on the plausibility of the causal link between the action and the improvement, which is not explained.\",\n  \"conditions_for_usefulness\": [\n    \"The action referred to is a genuine spiritual or metaphysical practice that can reliably produce such effects.\",\n    \"The improvement is significant and verifiable by other observers.\",\n    \"The statement serves to inspire, guide, or validate spiritual or healing practices.\",\n    \"The audience is open to non-physical explanations of physical phenomena.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is coincidental or due to placebo effect, natural recovery, or other unnoticed factors.\",\n    \"The speaker misattributes the cause or exaggerates the effect.\",\n    \"The action is not reproducible or is based on a false premise.\",\n    \"The statement is used to promote harmful or fraudulent practices by creating false expectations.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observed effect of a mysterious or transformative event, conveying astonishment and implying a causal link between an unspecified action ('when he does so') and a notable physical improvement.",
+    "implicit_claims": [
+      "There is a causal connection between the subject's action and the observed improvement.",
+      "The improvement is remarkable and unexpected, suggesting it is not ordinary or easily explained.",
+      "The speaker is an attentive and credible observer.",
+      "The improvement is in both respiration and walking, implying holistic or non-specific healing.",
+      "The action 'when he does so' refers to a spiritual or metaphysical practice or intervention."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a narrative of observed change, but its coherence depends on the plausibility of the causal link between the action and the improvement, which is not explained.",
+    "conditions_for_usefulness": [
+      "The action referred to is a genuine spiritual or metaphysical practice that can reliably produce such effects.",
+      "The improvement is significant and verifiable by other observers.",
+      "The statement serves to inspire, guide, or validate spiritual or healing practices.",
+      "The audience is open to non-physical explanations of physical phenomena."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is coincidental or due to placebo effect, natural recovery, or other unnoticed factors.",
+      "The speaker misattributes the cause or exaggerates the effect.",
+      "The action is not reproducible or is based on a false premise.",
+      "The statement is used to promote harmful or fraudulent practices by creating false expectations."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 338,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0457__F1_clinical__grok_4",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:35:55.943149+00:00",
+  "wall_clock_seconds": 6.603978633880615,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting a temporally linked observation of clinical change, foregrounding surprise to underscore perceived efficacy of an unspecified patient action.\",\n  \"implicit_claims\": [\n    \"The action ('when he does so') is causally responsible for the respiratory and gait improvement\",\n    \"The change is objectively 'remarkable' rather than minor or subjective\",\n    \"The improvement exceeds the clinician's prior expectations or baseline predictions\",\n    \"Respiration and walking are meaningfully interrelated markers of the same underlying process\"\n  ],\n  \"coherence_assessment\": \"Coherent as a descriptive report but presupposes unstated causal linkage and relies on the clinician's astonishment as evidence of clinical significance.\",\n  \"conditions_for_usefulness\": \"The temporal association reflects a replicable, mechanism-based therapeutic effect that can be tested, taught, or reinforced in subsequent sessions.\",\n  \"conditions_for_misleading\": \"The improvement is coincidental, expectancy-driven, or due to unrelated factors, yet is interpreted as confirming the efficacy of the preceding action.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting a temporally linked observation of clinical change, foregrounding surprise to underscore perceived efficacy of an unspecified patient action.",
+    "implicit_claims": [
+      "The action ('when he does so') is causally responsible for the respiratory and gait improvement",
+      "The change is objectively 'remarkable' rather than minor or subjective",
+      "The improvement exceeds the clinician's prior expectations or baseline predictions",
+      "Respiration and walking are meaningfully interrelated markers of the same underlying process"
+    ],
+    "coherence_assessment": "Coherent as a descriptive report but presupposes unstated causal linkage and relies on the clinician's astonishment as evidence of clinical significance.",
+    "conditions_for_usefulness": "The temporal association reflects a replicable, mechanism-based therapeutic effect that can be tested, taught, or reinforced in subsequent sessions.",
+    "conditions_for_misleading": "The improvement is coincidental, expectancy-driven, or due to unrelated factors, yet is interpreted as confirming the efficacy of the preceding action."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 208,
+  "error": "",
+  "retry_count": 0
+}

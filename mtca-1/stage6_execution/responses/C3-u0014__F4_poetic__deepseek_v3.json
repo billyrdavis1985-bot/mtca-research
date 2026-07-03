@@ -1,0 +1,41 @@
+{
+  "call_id": "C3-u0014__F4_poetic__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:23:56.622464+00:00",
+  "wall_clock_seconds": 5.529482126235962,
+  "raw_response": "{\n  \"communicative_function\": \"The statement draws a moral and psychological comparison between anger and lust, suggesting that lust reveals a weaker and less manly character than anger does.\",\n  \"implicit_claims\": [\n    \"Anger involves a turning away from reason, accompanied by grief and self-contraction.\",\n    \"Lust involves being overcome by pleasure, which betrays a more impotent and unmanlike disposition.\",\n    \"There is a hierarchy of vice in which lust is more contemptible than anger.\",\n    \"Reason is the standard against which both anger and lust are measured.\",\n    \"Manliness or strength of character is associated with control over base impulses.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that it presents a consistent psychological model: anger as a withdrawal from reason (implying some remnant of rational engagement), lust as a surrender to pleasure (implying total subjugation). The contrast is logically sustained.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts that reason is a normative ideal for human conduct.\",\n    \"The audience values a traditional masculine ideal of self-discipline.\",\n    \"The statement is used to persuade or refine moral judgment in a context where distinguishing between vices matters.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it is interpreted as a literal psychological or ethical truth without recognizing its rhetorical and culturally specific framing.\",\n    \"If it is used to justify harsh or unequal treatment based on gender or temperament.\",\n    \"If the implied hierarchy of vices is taken as universal or scientifically valid rather than as a literary moral contrast.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement draws a moral and psychological comparison between anger and lust, suggesting that lust reveals a weaker and less manly character than anger does.",
+    "implicit_claims": [
+      "Anger involves a turning away from reason, accompanied by grief and self-contraction.",
+      "Lust involves being overcome by pleasure, which betrays a more impotent and unmanlike disposition.",
+      "There is a hierarchy of vice in which lust is more contemptible than anger.",
+      "Reason is the standard against which both anger and lust are measured.",
+      "Manliness or strength of character is associated with control over base impulses."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that it presents a consistent psychological model: anger as a withdrawal from reason (implying some remnant of rational engagement), lust as a surrender to pleasure (implying total subjugation). The contrast is logically sustained.",
+    "conditions_for_usefulness": [
+      "The audience accepts that reason is a normative ideal for human conduct.",
+      "The audience values a traditional masculine ideal of self-discipline.",
+      "The statement is used to persuade or refine moral judgment in a context where distinguishing between vices matters."
+    ],
+    "conditions_for_misleading": [
+      "If it is interpreted as a literal psychological or ethical truth without recognizing its rhetorical and culturally specific framing.",
+      "If it is used to justify harsh or unequal treatment based on gender or temperament.",
+      "If the implied hierarchy of vices is taken as universal or scientifically valid rather than as a literary moral contrast."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 331,
+  "error": "",
+  "retry_count": 0
+}

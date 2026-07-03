@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0178__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:18:31.722315+00:00",
+  "wall_clock_seconds": 4.029235363006592,
+  "raw_response": "{\n  \"communicative_function\": \"Giving advice or instruction about eating habits, framed as a normative statement.\",\n  \"implicit_claims\": [\n    \"Hunger occurs three times a day at regular meal times.\",\n    \"Hunger is always an agreeable sensation.\",\n    \"One can reliably think 'Oh! how nice it will be to have something to eat!' when hungry.\",\n    \"Overeating is undesirable and avoidable.\",\n    \"The described pattern of hunger and eating is universal or should be universal.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its description of a regular eating routine involving pleasant hunger and moderate enjoyment, though it conflates hunger as a purely agreeable sensation, which may not align with everyone's experience.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the listener experiences predictable, moderate hunger three times a day, finds hunger consistently pleasant, and can easily avoid overeating without additional guidance.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if hunger is irregular, painful, or absent; if the listener has disordered eating, medical conditions affecting appetite, or if overeating is a concern that requires more nuanced advice.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Giving advice or instruction about eating habits, framed as a normative statement.",
+    "implicit_claims": [
+      "Hunger occurs three times a day at regular meal times.",
+      "Hunger is always an agreeable sensation.",
+      "One can reliably think 'Oh! how nice it will be to have something to eat!' when hungry.",
+      "Overeating is undesirable and avoidable.",
+      "The described pattern of hunger and eating is universal or should be universal."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its description of a regular eating routine involving pleasant hunger and moderate enjoyment, though it conflates hunger as a purely agreeable sensation, which may not align with everyone's experience.",
+    "conditions_for_usefulness": "The statement would be useful if the listener experiences predictable, moderate hunger three times a day, finds hunger consistently pleasant, and can easily avoid overeating without additional guidance.",
+    "conditions_for_misleading": "The statement would be misleading if hunger is irregular, painful, or absent; if the listener has disordered eating, medical conditions affecting appetite, or if overeating is a concern that requires more nuanced advice."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 212,
+  "output_tokens": 246,
+  "error": "",
+  "retry_count": 0
+}

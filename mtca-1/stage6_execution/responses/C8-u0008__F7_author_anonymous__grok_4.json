@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0008__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:36:03.684213+00:00",
+  "wall_clock_seconds": 7.454071998596191,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of value-driven agency and acknowledgment of emotional dissonance\",\n  \"implicit_claims\": [\n    \"the speaker possesses stable, identifiable values distinct from transient feelings\",\n    \"feelings and actions are separable and can be intentionally decoupled\",\n    \"acting from values is preferable to acting from feelings in the relevant context\",\n    \"the speaker is currently experiencing or anticipates a mismatch between values and feelings\"\n  ],\n  \"coherence_assessment\": \"internally coherent; it explicitly recognizes a values-feelings gap while asserting the capacity for deliberate prioritization without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker's values are clearly defined and prosocial, the statement reflects genuine self-monitoring rather than post-hoc rationalization, and emotional signals are not being systematically overridden when they indicate harm or misalignment\",\n  \"conditions_for_misleading\": \"the stated values are vague, inconsistently applied, or serve as cover for actions driven by unacknowledged motives; or the statement is used to dismiss legitimate emotional information that would prompt necessary value revision\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of value-driven agency and acknowledgment of emotional dissonance",
+    "implicit_claims": [
+      "the speaker possesses stable, identifiable values distinct from transient feelings",
+      "feelings and actions are separable and can be intentionally decoupled",
+      "acting from values is preferable to acting from feelings in the relevant context",
+      "the speaker is currently experiencing or anticipates a mismatch between values and feelings"
+    ],
+    "coherence_assessment": "internally coherent; it explicitly recognizes a values-feelings gap while asserting the capacity for deliberate prioritization without contradiction",
+    "conditions_for_usefulness": "the speaker's values are clearly defined and prosocial, the statement reflects genuine self-monitoring rather than post-hoc rationalization, and emotional signals are not being systematically overridden when they indicate harm or misalignment",
+    "conditions_for_misleading": "the stated values are vague, inconsistently applied, or serve as cover for actions driven by unacknowledged motives; or the statement is used to dismiss legitimate emotional information that would prompt necessary value revision"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

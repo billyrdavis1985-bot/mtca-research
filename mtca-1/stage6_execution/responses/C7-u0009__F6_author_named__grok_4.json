@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0009__F6_author_named__grok_4",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:34:20.301208+00:00",
+  "wall_clock_seconds": 8.145426034927368,
+  "raw_response": "{\n  \"communicative_function\": \"directive prescribing ongoing self-monitoring and accountability as a behavioral commitment within a recovery program\",\n  \"implicit_claims\": [\n    \"individuals are capable of accurately identifying personal wrongs through ongoing inventory\",\n    \"prompt admission of wrongs produces beneficial outcomes\",\n    \"wrongs occur regularly enough to require a continued practice\",\n    \"self-assessment is a learnable and maintainable skill\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a concise prescriptive step linking observation to corrective action without internal contradiction\",\n  \"conditions_for_usefulness\": \"participants must possess sufficient self-awareness, value honesty over self-protection, and operate in an environment where admissions yield constructive rather than punitive results\",\n  \"conditions_for_misleading\": \"if 'wrong' is defined subjectively or punitively, if self-inventory is distorted by shame or denial, or if prompt admission produces harm rather than repair\"\n}",
+  "parsed_json": {
+    "communicative_function": "directive prescribing ongoing self-monitoring and accountability as a behavioral commitment within a recovery program",
+    "implicit_claims": [
+      "individuals are capable of accurately identifying personal wrongs through ongoing inventory",
+      "prompt admission of wrongs produces beneficial outcomes",
+      "wrongs occur regularly enough to require a continued practice",
+      "self-assessment is a learnable and maintainable skill"
+    ],
+    "coherence_assessment": "internally coherent as a concise prescriptive step linking observation to corrective action without internal contradiction",
+    "conditions_for_usefulness": "participants must possess sufficient self-awareness, value honesty over self-protection, and operate in an environment where admissions yield constructive rather than punitive results",
+    "conditions_for_misleading": "if 'wrong' is defined subjectively or punitively, if self-inventory is distorted by shame or denial, or if prompt admission produces harm rather than repair"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 187,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0009__F7_author_anonymous__grok_4",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:34:57.253229+00:00",
+  "wall_clock_seconds": 6.4836955070495605,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting or prescribing an ongoing practice of self-assessment and error admission\",\n  \"implicit_claims\": [\"Taking personal inventory is a valuable or necessary activity\", \"Errors should be admitted promptly upon recognition\", \"The referenced group has engaged in or endorses this behavior\"],\n  \"coherence_assessment\": \"Internally coherent as a concise behavioral guideline with no logical contradictions\",\n  \"conditions_for_usefulness\": \"The statement must be situated in a self-improvement, recovery, or ethical framework where the audience accepts the described practice as beneficial\",\n  \"conditions_for_misleading\": \"Presented as a factual historical claim rather than a prescriptive step, or attributed to a group that does not actually follow the practice\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting or prescribing an ongoing practice of self-assessment and error admission",
+    "implicit_claims": [
+      "Taking personal inventory is a valuable or necessary activity",
+      "Errors should be admitted promptly upon recognition",
+      "The referenced group has engaged in or endorses this behavior"
+    ],
+    "coherence_assessment": "Internally coherent as a concise behavioral guideline with no logical contradictions",
+    "conditions_for_usefulness": "The statement must be situated in a self-improvement, recovery, or ethical framework where the audience accepts the described practice as beneficial",
+    "conditions_for_misleading": "Presented as a factual historical claim rather than a prescriptive step, or attributed to a group that does not actually follow the practice"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 266,
+  "output_tokens": 151,
+  "error": "",
+  "retry_count": 0
+}

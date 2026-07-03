@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0501__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:40:50.049425+00:00",
+  "wall_clock_seconds": 12.596547842025757,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions primarily as a historical and descriptive account, serving to document the initial presentation of a client (the child) at a specific point in time. It establishes a baseline observation of the child's physical functioning and identifies the immediate external support contributing to that function. Within a therapeutic frame, it could serve as an anchor for understanding the client's historical context, initial challenges, and the early interventions or adaptations made.\",\n  \"implicit_claims\": [\n    \"The speaker is a professional (e.g., therapist, clinician, physician) to whom patients are 'brought' for assessment or treatment.\",\n    \"There was a perceived problem with the child's ability to walk naturally or effectively without external support.\",\n    \"The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability ('walks pretty well thanks to').\",\n    \"The observation is factual, objective, and accurately documented (specific date provided).\",\n    \"The child's current (at that time) walking ability is not entirely intrinsic but is significantly reliant on external aids.\",\n    \"The speaker has a professional role in evaluating or addressing the child's condition.\"\n  ],\n  \"coherence_assessment\": \"The statement demonstrates high internal coherence. It presents a clear, logical sequence of events and observations: a child's initial visit, their observed walking ability, and the specific reason for that ability (the contrivances). The language is objective and descriptive, lacking internal contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"If the therapeutic intention is to establish a historical baseline or starting point for understanding a client's long-term developmental trajectory or chronic condition.\",\n    \"If the focus of therapy involves addressing the impact of physical limitations, assistive devices, or early interventions on a client's current functioning or self-perception.\",\n    \"If the therapeutic goal includes exploring the client's relationship with external support systems, both past and present.\",\n    \"If the intention is to acknowledge observed (even if assisted) functionality rather than solely focusing on deficits, setting a context for building upon existing capacities.\",\n    \"If the purpose is to ground therapeutic inquiry in concrete, observable facts as part of an initial assessment or case formulation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is used to overemphasize physical/mechanical aspects to the exclusion of crucial psychological, emotional, or social factors influencing the child's well-being or development.\",\n    \"If it is taken to imply that the child's 'pretty well' walking is *only* due to the contrivances, potentially underestimating the child's own effort, resilience, or intrinsic capabilities.\",\n    \"If it is applied as a current diagnostic framing without acknowledging the passage of time (since 1915) and potential significant changes in the child's condition, the nature of the 'contrivances,' or therapeutic understanding.\",\n    \"If the objective, descriptive tone leads to neglecting the child's subjective experience, feelings about their condition, the devices, or being 'brought' to the professional.\",\n    \"If it is used to imply a fixed or immutable condition, thereby limiting the scope for therapeutic intervention aimed at greater independence or functional change beyond the 'contrivances'.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions primarily as a historical and descriptive account, serving to document the initial presentation of a client (the child) at a specific point in time. It establishes a baseline observation of the child's physical functioning and identifies the immediate external support contributing to that function. Within a therapeutic frame, it could serve as an anchor for understanding the client's historical context, initial challenges, and the early interventions or adaptations made.",
+    "implicit_claims": [
+      "The speaker is a professional (e.g., therapist, clinician, physician) to whom patients are 'brought' for assessment or treatment.",
+      "There was a perceived problem with the child's ability to walk naturally or effectively without external support.",
+      "The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability ('walks pretty well thanks to').",
+      "The observation is factual, objective, and accurately documented (specific date provided).",
+      "The child's current (at that time) walking ability is not entirely intrinsic but is significantly reliant on external aids.",
+      "The speaker has a professional role in evaluating or addressing the child's condition."
+    ],
+    "coherence_assessment": "The statement demonstrates high internal coherence. It presents a clear, logical sequence of events and observations: a child's initial visit, their observed walking ability, and the specific reason for that ability (the contrivances). The language is objective and descriptive, lacking internal contradictions.",
+    "conditions_for_usefulness": [
+      "If the therapeutic intention is to establish a historical baseline or starting point for understanding a client's long-term developmental trajectory or chronic condition.",
+      "If the focus of therapy involves addressing the impact of physical limitations, assistive devices, or early interventions on a client's current functioning or self-perception.",
+      "If the therapeutic goal includes exploring the client's relationship with external support systems, both past and present.",
+      "If the intention is to acknowledge observed (even if assisted) functionality rather than solely focusing on deficits, setting a context for building upon existing capacities.",
+      "If the purpose is to ground therapeutic inquiry in concrete, observable facts as part of an initial assessment or case formulation."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is used to overemphasize physical/mechanical aspects to the exclusion of crucial psychological, emotional, or social factors influencing the child's well-being or development.",
+      "If it is taken to imply that the child's 'pretty well' walking is *only* due to the contrivances, potentially underestimating the child's own effort, resilience, or intrinsic capabilities.",
+      "If it is applied as a current diagnostic framing without acknowledging the passage of time (since 1915) and potential significant changes in the child's condition, the nature of the 'contrivances,' or therapeutic understanding.",
+      "If the objective, descriptive tone leads to neglecting the child's subjective experience, feelings about their condition, the devices, or being 'brought' to the professional.",
+      "If it is used to imply a fixed or immutable condition, thereby limiting the scope for therapeutic intervention aimed at greater independence or functional change beyond the 'contrivances'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 717,
+  "error": "",
+  "retry_count": 0
+}

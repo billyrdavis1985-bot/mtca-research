@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0285__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:30:20.988642+00:00",
+  "wall_clock_seconds": 14.211914300918579,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a defensive rhetorical maneuver — it simultaneously denies the validity of a danger claim while preemptively deflecting scrutiny through a whataboutist challenge. It functions as resistance to critical evaluation, framed as reasoned rebuttal.\",\n  \"implicit_claims\": [\n    \"The thing in question is not actually dangerous (asserted as fact while nominally framed as a concession).\",\n    \"All things carry some danger, therefore danger is not a meaningful objection.\",\n    \"The burden of proof lies with the person raising the concern, not the person promoting the thing.\",\n    \"Universal risk equivalence: all risks are roughly comparable and therefore none are uniquely disqualifying.\",\n    \"The objection to danger is intellectually illegitimate or at least incomplete.\",\n    \"No special scrutiny is warranted for this particular thing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally incoherent. It opens by denying the premise ('which is not so') while simultaneously arguing 'even if true, it doesn't matter.' These two moves undermine each other: if the danger is genuinely absent, the comparative argument is unnecessary; if the comparative argument is needed, the denial is rhetorical rather than substantive. The logic also commits a false equivalence fallacy — not all dangers are equivalent in type, probability, or magnitude.\",\n  \"conditions_for_usefulness\": [\n    \"The client is engaging in catastrophizing or zero-risk thinking that prevents any adaptive action.\",\n    \"The risk in question has been objectively assessed and shown to be proportionate to comparable accepted risks.\",\n    \"The statement is used to gently challenge cognitive distortions, not to dismiss legitimate safety concerns.\",\n    \"The therapist has already validated the underlying concern before introducing relativistic reframing.\",\n    \"The context involves everyday anxiety about normal life activities where risk tolerance is clinically relevant.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The danger being discussed is real, specific, and significantly greater than ordinary risks.\",\n    \"The statement is used to override a client's legitimate risk perception rather than distorted catastrophizing.\",\n    \"It is deployed to discourage the client from seeking a second opinion or raising safety concerns.\",\n    \"The 'everything is dangerous' framing is used to justify continued exposure to an objectively harmful situation (e.g., abuse, unsafe substances, dangerous relationships).\",\n    \"The therapist has a conflict of interest in minimizing the perceived danger of a particular intervention or recommendation.\",\n    \"The client lacks the critical thinking resources to identify the false equivalence embedded in the argument.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a defensive rhetorical maneuver — it simultaneously denies the validity of a danger claim while preemptively deflecting scrutiny through a whataboutist challenge. It functions as resistance to critical evaluation, framed as reasoned rebuttal.",
+    "implicit_claims": [
+      "The thing in question is not actually dangerous (asserted as fact while nominally framed as a concession).",
+      "All things carry some danger, therefore danger is not a meaningful objection.",
+      "The burden of proof lies with the person raising the concern, not the person promoting the thing.",
+      "Universal risk equivalence: all risks are roughly comparable and therefore none are uniquely disqualifying.",
+      "The objection to danger is intellectually illegitimate or at least incomplete.",
+      "No special scrutiny is warranted for this particular thing."
+    ],
+    "coherence_assessment": "The statement is internally incoherent. It opens by denying the premise ('which is not so') while simultaneously arguing 'even if true, it doesn't matter.' These two moves undermine each other: if the danger is genuinely absent, the comparative argument is unnecessary; if the comparative argument is needed, the denial is rhetorical rather than substantive. The logic also commits a false equivalence fallacy — not all dangers are equivalent in type, probability, or magnitude.",
+    "conditions_for_usefulness": [
+      "The client is engaging in catastrophizing or zero-risk thinking that prevents any adaptive action.",
+      "The risk in question has been objectively assessed and shown to be proportionate to comparable accepted risks.",
+      "The statement is used to gently challenge cognitive distortions, not to dismiss legitimate safety concerns.",
+      "The therapist has already validated the underlying concern before introducing relativistic reframing.",
+      "The context involves everyday anxiety about normal life activities where risk tolerance is clinically relevant."
+    ],
+    "conditions_for_misleading": [
+      "The danger being discussed is real, specific, and significantly greater than ordinary risks.",
+      "The statement is used to override a client's legitimate risk perception rather than distorted catastrophizing.",
+      "It is deployed to discourage the client from seeking a second opinion or raising safety concerns.",
+      "The 'everything is dangerous' framing is used to justify continued exposure to an objectively harmful situation (e.g., abuse, unsafe substances, dangerous relationships).",
+      "The therapist has a conflict of interest in minimizing the perceived danger of a particular intervention or recommendation.",
+      "The client lacks the critical thinking resources to identify the false equivalence embedded in the argument."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 194,
+  "output_tokens": 601,
+  "error": "",
+  "retry_count": 0
+}

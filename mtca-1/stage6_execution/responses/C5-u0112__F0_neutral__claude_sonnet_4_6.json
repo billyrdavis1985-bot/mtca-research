@@ -1,0 +1,44 @@
+{
+  "call_id": "C5-u0112__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:16:21.566933+00:00",
+  "wall_clock_seconds": 13.145943880081177,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a causal or expressive relationship between mental states ('sickly thoughts') and physical health outcomes ('sickly body'), functioning as a motivational or philosophical aphorism that implicitly encourages positive thinking as a path to physical wellbeing.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct or necessary influence on physical health.\",\n    \"There exists a meaningful category called 'sickly thoughts' that can be identified and distinguished from healthy ones.\",\n    \"Physical illness is, at least in part, an expression or product of mental states.\",\n    \"Improving one's thoughts could improve or prevent physical illness.\",\n    \"The mind-body relationship is primarily unidirectional (mind affecting body), rather than bidirectional or complex.\",\n    \"People with physical illness may be responsible for it through their thinking patterns.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as an aphorism but relies on an undefined and metaphorical use of 'sickly thoughts.' It borrows rhetorical symmetry to suggest causation, but the parallelism is aesthetic rather than logical. The coherence is surface-level; deeper scrutiny reveals equivocation on what 'sickly' means in each context.\",\n  \"conditions_for_usefulness\": [\n    \"If the statement is interpreted as a reminder that chronic stress, rumination, or negative cognitive patterns can contribute to measurable physiological outcomes (e.g., via psychoneuroimmunology).\",\n    \"If used in a therapeutic context to encourage patients to examine how mental habits may interact with physical symptoms.\",\n    \"If 'sickly thoughts' is clearly defined and the claim is appropriately qualified (e.g., 'can contribute to' rather than 'will express themselves through').\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it is used to imply that physical illness is caused solely or primarily by negative thinking, ignoring genetic, environmental, microbial, and systemic factors.\",\n    \"If it leads individuals to blame themselves or others for illness, causing guilt or shame.\",\n    \"If it discourages people from seeking medical treatment in favor of purely mental or spiritual interventions.\",\n    \"If the absolutist language ('will') is taken literally, overstating the scientific evidence for mind-body causation.\",\n    \"If applied to populations with serious illnesses (e.g., cancer, autoimmune disorders) where such framing is reductive and potentially harmful.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a causal or expressive relationship between mental states ('sickly thoughts') and physical health outcomes ('sickly body'), functioning as a motivational or philosophical aphorism that implicitly encourages positive thinking as a path to physical wellbeing.",
+    "implicit_claims": [
+      "Thoughts have a direct or necessary influence on physical health.",
+      "There exists a meaningful category called 'sickly thoughts' that can be identified and distinguished from healthy ones.",
+      "Physical illness is, at least in part, an expression or product of mental states.",
+      "Improving one's thoughts could improve or prevent physical illness.",
+      "The mind-body relationship is primarily unidirectional (mind affecting body), rather than bidirectional or complex.",
+      "People with physical illness may be responsible for it through their thinking patterns."
+    ],
+    "coherence_assessment": "The statement is internally coherent as an aphorism but relies on an undefined and metaphorical use of 'sickly thoughts.' It borrows rhetorical symmetry to suggest causation, but the parallelism is aesthetic rather than logical. The coherence is surface-level; deeper scrutiny reveals equivocation on what 'sickly' means in each context.",
+    "conditions_for_usefulness": [
+      "If the statement is interpreted as a reminder that chronic stress, rumination, or negative cognitive patterns can contribute to measurable physiological outcomes (e.g., via psychoneuroimmunology).",
+      "If used in a therapeutic context to encourage patients to examine how mental habits may interact with physical symptoms.",
+      "If 'sickly thoughts' is clearly defined and the claim is appropriately qualified (e.g., 'can contribute to' rather than 'will express themselves through')."
+    ],
+    "conditions_for_misleading": [
+      "If it is used to imply that physical illness is caused solely or primarily by negative thinking, ignoring genetic, environmental, microbial, and systemic factors.",
+      "If it leads individuals to blame themselves or others for illness, causing guilt or shame.",
+      "If it discourages people from seeking medical treatment in favor of purely mental or spiritual interventions.",
+      "If the absolutist language ('will') is taken literally, overstating the scientific evidence for mind-body causation.",
+      "If applied to populations with serious illnesses (e.g., cancer, autoimmune disorders) where such framing is reductive and potentially harmful."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 576,
+  "error": "",
+  "retry_count": 0
+}

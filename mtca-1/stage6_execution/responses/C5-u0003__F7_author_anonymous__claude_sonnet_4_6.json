@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0003__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:58:50.072736+00:00",
+  "wall_clock_seconds": 13.406002521514893,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a claim about human agency and self-determination, functioning as an affirmation of autonomy. It attributes to individuals the primary causal role in shaping who they become, likely intended as motivational, philosophical, or explanatory.\",\n  \"implicit_claims\": [\n    \"Individuals have meaningful agency over their own development.\",\n    \"The self is not primarily determined by external forces such as environment, genetics, or circumstance.\",\n    \"There is a 'self' that exists prior to or independently of the making process, capable of doing the making.\",\n    \"The process of self-formation is largely or entirely internal to the individual.\",\n    \"Individuals bear significant responsibility for who they are.\",\n    \"Self-transformation or self-improvement is possible and within one's own power.\",\n    \"External factors (society, upbringing, biology) are secondary or subordinate to individual will.\"\n  ],\n  \"coherence_assessment\": \"The statement contains a mild paradox: if 'they' are the makers of 'themselves,' there must be a pre-existing agent doing the making, raising questions about what that initial self is and where it comes from. This creates a bootstrapping problem — a self must exist to make the self. Internally, the statement is grammatically and rhetorically coherent, but philosophically it presupposes a stable subject prior to self-formation, which it simultaneously denies by making formation primary.\",\n  \"conditions_for_usefulness\": [\n    \"Individuals have genuine and meaningful freedom of choice in their development.\",\n    \"The context involves motivating people who have underestimated their own agency.\",\n    \"External constraints are not so severe as to override individual choice.\",\n    \"The audience is not being used to deflect systemic responsibility onto individuals.\",\n    \"It is paired with acknowledgment of structural or environmental factors to avoid reductionism.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Structural, environmental, genetic, or social forces play a dominant role in shaping individuals that the statement obscures.\",\n    \"The statement is used to blame individuals for circumstances largely outside their control.\",\n    \"It is deployed to justify withholding systemic support by implying people need only rely on themselves.\",\n    \"The audience faces severe constraints (poverty, trauma, discrimination) that substantially limit self-determination.\",\n    \"It is used to dismiss the role of luck, privilege, or historical circumstance in individual outcomes.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a claim about human agency and self-determination, functioning as an affirmation of autonomy. It attributes to individuals the primary causal role in shaping who they become, likely intended as motivational, philosophical, or explanatory.",
+    "implicit_claims": [
+      "Individuals have meaningful agency over their own development.",
+      "The self is not primarily determined by external forces such as environment, genetics, or circumstance.",
+      "There is a 'self' that exists prior to or independently of the making process, capable of doing the making.",
+      "The process of self-formation is largely or entirely internal to the individual.",
+      "Individuals bear significant responsibility for who they are.",
+      "Self-transformation or self-improvement is possible and within one's own power.",
+      "External factors (society, upbringing, biology) are secondary or subordinate to individual will."
+    ],
+    "coherence_assessment": "The statement contains a mild paradox: if 'they' are the makers of 'themselves,' there must be a pre-existing agent doing the making, raising questions about what that initial self is and where it comes from. This creates a bootstrapping problem — a self must exist to make the self. Internally, the statement is grammatically and rhetorically coherent, but philosophically it presupposes a stable subject prior to self-formation, which it simultaneously denies by making formation primary.",
+    "conditions_for_usefulness": [
+      "Individuals have genuine and meaningful freedom of choice in their development.",
+      "The context involves motivating people who have underestimated their own agency.",
+      "External constraints are not so severe as to override individual choice.",
+      "The audience is not being used to deflect systemic responsibility onto individuals.",
+      "It is paired with acknowledgment of structural or environmental factors to avoid reductionism."
+    ],
+    "conditions_for_misleading": [
+      "Structural, environmental, genetic, or social forces play a dominant role in shaping individuals that the statement obscures.",
+      "The statement is used to blame individuals for circumstances largely outside their control.",
+      "It is deployed to justify withholding systemic support by implying people need only rely on themselves.",
+      "The audience faces severe constraints (poverty, trauma, discrimination) that substantially limit self-determination.",
+      "It is used to dismiss the role of luck, privilege, or historical circumstance in individual outcomes."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 560,
+  "error": "",
+  "retry_count": 0
+}

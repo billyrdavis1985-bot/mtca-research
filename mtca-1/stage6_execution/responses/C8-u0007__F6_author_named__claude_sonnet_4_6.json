@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0007__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:29:24.059517+00:00",
+  "wall_clock_seconds": 15.8843412399292,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a first-person observational report, framing a cognitive-behavioral principle (behavioral activation) as a personal empirical discovery. It mimics the phenomenology of insight, presenting a theoretical claim as though it emerged from the speaker's own noticing rather than being taught or asserted.\",\n  \"implicit_claims\": [\n    \"The speaker has been monitoring the relationship between their mood and behavior over time.\",\n    \"Mood and behavior are sufficiently distinct that a directional relationship between them can be observed.\",\n    \"The speaker has access to reliable introspective data about their own internal states.\",\n    \"Causality or consistent temporal precedence can be inferred from personal observation alone.\",\n    \"The reverse pattern (mood preceding behavior) also occurs, just less frequently.\",\n    \"This observation is stable enough to generalize ('more often than the reverse').\",\n    \"Acting on this observation would be beneficial or is implied to be so.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in a narrow sense: it does not contradict itself. However, it embeds a significant epistemological tension: casual self-observation is not a reliable method for establishing the directional precedence of mood versus behavior, given recall bias, simultaneity of the phenomena, and the difficulty of isolating causal direction. The hedge 'more often than the reverse' adds apparent epistemic humility while still asserting a directional claim that the evidence cited (personal noticing) cannot adequately support.\",\n  \"conditions_for_usefulness\": [\n    \"The person using the statement is already in a depressive or avoidant cycle where behavioral activation is clinically indicated.\",\n    \"The statement is used as a motivational heuristic rather than a factual claim about causality.\",\n    \"It is paired with psychoeducation that contextualizes why behavior-first approaches can help.\",\n    \"The speaker genuinely has been tracking this pattern and is not simply rehearsing a script.\",\n    \"The listener or user understands the statement as a working assumption rather than an established personal finding.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented or internalized as a factual discovery rather than a therapeutic reframe or heuristic.\",\n    \"The person's mood is not primarily maintained by behavioral avoidance (e.g., mood is driven by biological, situational, or trauma-related factors where behavioral activation alone is insufficient).\",\n    \"The statement is used to dismiss or minimize the role of mood, affect, or emotion as meaningful signals warranting attention.\",\n    \"It discourages the person from seeking to understand emotional causes of behavior by implying behavior is always the appropriate lever.\",\n    \"The synthetic, authored nature of the statement is not disclosed, leading the user to believe it reflects genuine self-discovery rather than a constructed cognitive script.\",\n    \"It fosters a false sense of insight, satisfying the felt need for self-understanding without producing actual self-knowledge.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a first-person observational report, framing a cognitive-behavioral principle (behavioral activation) as a personal empirical discovery. It mimics the phenomenology of insight, presenting a theoretical claim as though it emerged from the speaker's own noticing rather than being taught or asserted.",
+    "implicit_claims": [
+      "The speaker has been monitoring the relationship between their mood and behavior over time.",
+      "Mood and behavior are sufficiently distinct that a directional relationship between them can be observed.",
+      "The speaker has access to reliable introspective data about their own internal states.",
+      "Causality or consistent temporal precedence can be inferred from personal observation alone.",
+      "The reverse pattern (mood preceding behavior) also occurs, just less frequently.",
+      "This observation is stable enough to generalize ('more often than the reverse').",
+      "Acting on this observation would be beneficial or is implied to be so."
+    ],
+    "coherence_assessment": "The statement is internally coherent in a narrow sense: it does not contradict itself. However, it embeds a significant epistemological tension: casual self-observation is not a reliable method for establishing the directional precedence of mood versus behavior, given recall bias, simultaneity of the phenomena, and the difficulty of isolating causal direction. The hedge 'more often than the reverse' adds apparent epistemic humility while still asserting a directional claim that the evidence cited (personal noticing) cannot adequately support.",
+    "conditions_for_usefulness": [
+      "The person using the statement is already in a depressive or avoidant cycle where behavioral activation is clinically indicated.",
+      "The statement is used as a motivational heuristic rather than a factual claim about causality.",
+      "It is paired with psychoeducation that contextualizes why behavior-first approaches can help.",
+      "The speaker genuinely has been tracking this pattern and is not simply rehearsing a script.",
+      "The listener or user understands the statement as a working assumption rather than an established personal finding."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented or internalized as a factual discovery rather than a therapeutic reframe or heuristic.",
+      "The person's mood is not primarily maintained by behavioral avoidance (e.g., mood is driven by biological, situational, or trauma-related factors where behavioral activation alone is insufficient).",
+      "The statement is used to dismiss or minimize the role of mood, affect, or emotion as meaningful signals warranting attention.",
+      "It discourages the person from seeking to understand emotional causes of behavior by implying behavior is always the appropriate lever.",
+      "The synthetic, authored nature of the statement is not disclosed, leading the user to believe it reflects genuine self-discovery rather than a constructed cognitive script.",
+      "It fosters a false sense of insight, satisfying the felt need for self-understanding without producing actual self-knowledge."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 673,
+  "error": "",
+  "retry_count": 0
+}

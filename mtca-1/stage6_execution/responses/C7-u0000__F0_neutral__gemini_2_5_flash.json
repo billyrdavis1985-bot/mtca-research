@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0000__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:49:22.620258+00:00",
+  "wall_clock_seconds": 5.823673486709595,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To declare a past realization and acceptance of a specific condition (powerlessness over alcohol leading to unmanageability). It functions as a public or self-acknowledgment, often serving as a foundational step in a recovery process.\",\n  \"implicit_claims\": [\n    \"The speaker(s) previously had, or were perceived to have, an issue with alcohol.\",\n    \"There is a causal link between alcohol use and the unmanageability of their lives.\",\n    \"The admission itself is a significant, likely difficult, act.\",\n    \"This admission is a prerequisite or a first step towards addressing the problem.\",\n    \"The state of powerlessness and unmanageability existed prior to the admission.\",\n    \"There is an underlying desire for change or recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The second clause ('that our lives had become unmanageable') directly explains or elaborates on the consequence of the first clause ('powerless over alcohol'), establishing a clear cause-and-effect relationship or a definitional link. The 'that' functions effectively as an explanatory conjunction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker(s) genuinely believe the statement to be true for themselves.\",\n    \"The admission leads to seeking help or taking steps towards recovery.\",\n    \"It helps to alleviate self-blame for past inability to control alcohol.\",\n    \"It fosters solidarity and shared understanding within a support group context.\",\n    \"It accurately reflects the individual's experience with alcohol addiction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker(s) do not genuinely believe the statement but are merely saying it for external validation or to manipulate others.\",\n    \"It is misinterpreted as a permanent state of helplessness, discouraging agency in recovery efforts beyond the admission itself.\",\n    \"It is applied to individuals who are not genuinely powerless over alcohol or whose lives are not unmanageable due to alcohol.\",\n    \"It is used as an excuse for inaction rather than a catalyst for change.\",\n    \"It implies that 'powerlessness' is the *only* valid pathway or framework for addressing alcohol-related problems.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To declare a past realization and acceptance of a specific condition (powerlessness over alcohol leading to unmanageability). It functions as a public or self-acknowledgment, often serving as a foundational step in a recovery process.",
+    "implicit_claims": [
+      "The speaker(s) previously had, or were perceived to have, an issue with alcohol.",
+      "There is a causal link between alcohol use and the unmanageability of their lives.",
+      "The admission itself is a significant, likely difficult, act.",
+      "This admission is a prerequisite or a first step towards addressing the problem.",
+      "The state of powerlessness and unmanageability existed prior to the admission.",
+      "There is an underlying desire for change or recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The second clause ('that our lives had become unmanageable') directly explains or elaborates on the consequence of the first clause ('powerless over alcohol'), establishing a clear cause-and-effect relationship or a definitional link. The 'that' functions effectively as an explanatory conjunction.",
+    "conditions_for_usefulness": [
+      "The speaker(s) genuinely believe the statement to be true for themselves.",
+      "The admission leads to seeking help or taking steps towards recovery.",
+      "It helps to alleviate self-blame for past inability to control alcohol.",
+      "It fosters solidarity and shared understanding within a support group context.",
+      "It accurately reflects the individual's experience with alcohol addiction."
+    ],
+    "conditions_for_misleading": [
+      "The speaker(s) do not genuinely believe the statement but are merely saying it for external validation or to manipulate others.",
+      "It is misinterpreted as a permanent state of helplessness, discouraging agency in recovery efforts beyond the admission itself.",
+      "It is applied to individuals who are not genuinely powerless over alcohol or whose lives are not unmanageable due to alcohol.",
+      "It is used as an excuse for inaction rather than a catalyst for change.",
+      "It implies that 'powerlessness' is the *only* valid pathway or framework for addressing alcohol-related problems."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 137,
+  "output_tokens": 479,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0007__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:26:23.443286+00:00",
+  "wall_clock_seconds": 4.679899215698242,
+  "raw_response": "{\n  \"communicative_function\": \"Encourages self-reflection on the causal relationship between behavior and mood, often to counteract passive emotional reasoning and promote behavioral activation.\",\n  \"implicit_claims\": [\n    \"Mood is not the primary driver of behavior; behavior can influence mood.\",\n    \"The speaker has observed a pattern where changes in behavior precede changes in mood.\",\n    \"It is possible to deliberately change behavior to improve mood.\",\n    \"The speaker's prior belief may have assumed the reverse (mood drives behavior).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it asserts an observed pattern (mood follows behavior more often) without contradiction, though 'more often' allows for exceptions.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is experiencing low mood or inertia that can be shifted by small behavioral changes.\",\n    \"The speaker is open to testing new behaviors and observing their effect on mood.\",\n    \"The speaker has a history of noticing behavioral changes leading to mood shifts.\",\n    \"The therapeutic context supports behavioral activation or cognitive-behavioral principles.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker's mood is primarily driven by biological or chemical factors (e.g., severe depression) that are not responsive to behavior alone.\",\n    \"The speaker misinterprets correlation as causation (e.g., mood changes might follow behavior by coincidence or third factors).\",\n    \"The statement discourages exploring genuine emotional needs or limits validation of current mood.\",\n    \"The speaker’s behavior is predominantly compulsive or avoidant, making the pattern harmful rather than helpful.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Encourages self-reflection on the causal relationship between behavior and mood, often to counteract passive emotional reasoning and promote behavioral activation.",
+    "implicit_claims": [
+      "Mood is not the primary driver of behavior; behavior can influence mood.",
+      "The speaker has observed a pattern where changes in behavior precede changes in mood.",
+      "It is possible to deliberately change behavior to improve mood.",
+      "The speaker's prior belief may have assumed the reverse (mood drives behavior)."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it asserts an observed pattern (mood follows behavior more often) without contradiction, though 'more often' allows for exceptions.",
+    "conditions_for_usefulness": [
+      "The speaker is experiencing low mood or inertia that can be shifted by small behavioral changes.",
+      "The speaker is open to testing new behaviors and observing their effect on mood.",
+      "The speaker has a history of noticing behavioral changes leading to mood shifts.",
+      "The therapeutic context supports behavioral activation or cognitive-behavioral principles."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's mood is primarily driven by biological or chemical factors (e.g., severe depression) that are not responsive to behavior alone.",
+      "The speaker misinterprets correlation as causation (e.g., mood changes might follow behavior by coincidence or third factors).",
+      "The statement discourages exploring genuine emotional needs or limits validation of current mood.",
+      "The speaker’s behavior is predominantly compulsive or avoidant, making the pattern harmful rather than helpful."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 333,
+  "error": "",
+  "retry_count": 0
+}

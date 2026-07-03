@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:04:20.428454+00:00",
+  "wall_clock_seconds": 4.258439779281616,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement sets an intention or commitment regarding behavior in the context of unsuccessfully attempting to sleep.\",\n  \"implicit_claims\": [\n    \"He has trouble sleeping or frequently does not make an effort to sleep.\",\n    \"Lying quietly in bed is seen as a sufficient alternative to making an effort to sleep.\",\n    \"There is some value in lying quietly even if sleep is not achieved.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly describes a fallback behavior in the absence of sleep effort.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where achieving restful states is a goal, even if sleep is not achieved, or when quiet rest is beneficial for relaxation or adherence to a bedtime routine.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the context assumes that simply lying quietly will induce rest comparable to sleep, or if not making an effort to sleep is perceived as generally more detrimental than beneficial.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement sets an intention or commitment regarding behavior in the context of unsuccessfully attempting to sleep.",
+    "implicit_claims": [
+      "He has trouble sleeping or frequently does not make an effort to sleep.",
+      "Lying quietly in bed is seen as a sufficient alternative to making an effort to sleep.",
+      "There is some value in lying quietly even if sleep is not achieved."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly describes a fallback behavior in the absence of sleep effort.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where achieving restful states is a goal, even if sleep is not achieved, or when quiet rest is beneficial for relaxation or adherence to a bedtime routine.",
+    "conditions_for_misleading": "The statement could be misleading if the context assumes that simply lying quietly will induce rest comparable to sleep, or if not making an effort to sleep is perceived as generally more detrimental than beneficial."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0
+}

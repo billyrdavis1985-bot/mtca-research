@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0285__F0_neutral__grok_4",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:30:01.978923+00:00",
+  "wall_clock_seconds": 7.206637382507324,
+  "raw_response": "{\n  \"communicative_function\": \"Rhetorical deflection of an objection by universalizing risk and challenging selective criticism\",\n  \"implicit_claims\": [\"The thing in question offers no real danger\", \"Every usable thing carries some danger\", \"An objection based solely on danger is invalid unless applied universally\"],\n  \"coherence_assessment\": \"Internally coherent as a concessive rhetorical move that both denies and hypothetically grants danger to shift burden\",\n  \"conditions_for_usefulness\": \"The debate concerns whether danger alone justifies rejection, comparable risks exist across alternatives, and specific risk magnitudes are not at issue\",\n  \"conditions_for_misleading\": \"The objected-to item has distinctive or unacceptable dangers not shared by alternatives, or the question substitutes for addressing quantified risks\"\n}",
+  "parsed_json": {
+    "communicative_function": "Rhetorical deflection of an objection by universalizing risk and challenging selective criticism",
+    "implicit_claims": [
+      "The thing in question offers no real danger",
+      "Every usable thing carries some danger",
+      "An objection based solely on danger is invalid unless applied universally"
+    ],
+    "coherence_assessment": "Internally coherent as a concessive rhetorical move that both denies and hypothetically grants danger to shift burden",
+    "conditions_for_usefulness": "The debate concerns whether danger alone justifies rejection, comparable risks exist across alternatives, and specific risk magnitudes are not at issue",
+    "conditions_for_misleading": "The objected-to item has distinctive or unacceptable dangers not shared by alternatives, or the question substitutes for addressing quantified risks"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 278,
+  "output_tokens": 156,
+  "error": "",
+  "retry_count": 0
+}

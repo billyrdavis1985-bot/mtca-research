@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0214__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:32:51.532290+00:00",
+  "wall_clock_seconds": 14.57259202003479,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmative-declarative utterance intended to instill motivational orientation toward future self-development. It rhetorically conflates having a vision or ideal with a guaranteed developmental trajectory, using prophetic/promissory language to create felt certainty about personal growth outcomes.\",\n  \"implicit_claims\": [\n    \"Every person has a 'Vision' and an 'Ideal' that are meaningful and directionally coherent\",\n    \"These internal constructs reliably predict or determine future states of the self\",\n    \"Self-development has a telos — a final, unveilable form that pre-exists its realization\",\n    \"The future self is already latent and waiting to be 'unveiled' rather than constructed\",\n    \"Holding a vision or ideal is sufficient or necessary for achieving the described outcome\",\n    \"The relationship between current aspiration and future outcome is deterministic or near-certain\",\n    \"Personal transformation is a linear progression toward a pre-defined endpoint\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent as rhetorical poetry but lacks internal logical coherence as a clinical claim. 'Vision' and 'Ideal' are used near-synonymously yet treated as distinct constructs without differentiation. The terms 'promise' and 'prophecy' introduce deterministic certainty that is not logically entailed by merely having aspirational cognitions. The distinction between the two halves is rhetorically ornamental rather than clinically meaningful.\",\n  \"conditions_for_usefulness\": [\n    \"The client has a stable, realistic, and values-aligned vision that has been therapeutically examined\",\n    \"The client suffers from motivational deficits or lacks future orientation (e.g., depression-related anhedonia)\",\n    \"The statement is used as an evocative prompt for exploration rather than as a factual assertion\",\n    \"The therapist contextualizes it within a broader framework that acknowledges effort, uncertainty, and agency\",\n    \"The client can distinguish aspirational framing from literal prediction\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client has an untested, grandiose, or distorted self-ideal (e.g., narcissistic or manic presentations)\",\n    \"The client interprets the promissory language as guarantee, reducing tolerance for setbacks or failure\",\n    \"The statement bypasses necessary grief work around unachievable ideals\",\n    \"The client's 'vision' is externally imposed or trauma-reactive rather than autonomously developed\",\n    \"It is used to discourage critical examination of whether the stated ideal is healthy or achievable\",\n    \"The deterministic framing undermines the client's sense of active agency by implying outcomes are foreordained\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmative-declarative utterance intended to instill motivational orientation toward future self-development. It rhetorically conflates having a vision or ideal with a guaranteed developmental trajectory, using prophetic/promissory language to create felt certainty about personal growth outcomes.",
+    "implicit_claims": [
+      "Every person has a 'Vision' and an 'Ideal' that are meaningful and directionally coherent",
+      "These internal constructs reliably predict or determine future states of the self",
+      "Self-development has a telos — a final, unveilable form that pre-exists its realization",
+      "The future self is already latent and waiting to be 'unveiled' rather than constructed",
+      "Holding a vision or ideal is sufficient or necessary for achieving the described outcome",
+      "The relationship between current aspiration and future outcome is deterministic or near-certain",
+      "Personal transformation is a linear progression toward a pre-defined endpoint"
+    ],
+    "coherence_assessment": "The statement is internally consistent as rhetorical poetry but lacks internal logical coherence as a clinical claim. 'Vision' and 'Ideal' are used near-synonymously yet treated as distinct constructs without differentiation. The terms 'promise' and 'prophecy' introduce deterministic certainty that is not logically entailed by merely having aspirational cognitions. The distinction between the two halves is rhetorically ornamental rather than clinically meaningful.",
+    "conditions_for_usefulness": [
+      "The client has a stable, realistic, and values-aligned vision that has been therapeutically examined",
+      "The client suffers from motivational deficits or lacks future orientation (e.g., depression-related anhedonia)",
+      "The statement is used as an evocative prompt for exploration rather than as a factual assertion",
+      "The therapist contextualizes it within a broader framework that acknowledges effort, uncertainty, and agency",
+      "The client can distinguish aspirational framing from literal prediction"
+    ],
+    "conditions_for_misleading": [
+      "The client has an untested, grandiose, or distorted self-ideal (e.g., narcissistic or manic presentations)",
+      "The client interprets the promissory language as guarantee, reducing tolerance for setbacks or failure",
+      "The statement bypasses necessary grief work around unachievable ideals",
+      "The client's 'vision' is externally imposed or trauma-reactive rather than autonomously developed",
+      "It is used to discourage critical examination of whether the stated ideal is healthy or achievable",
+      "The deterministic framing undermines the client's sense of active agency by implying outcomes are foreordained"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 635,
+  "error": "",
+  "retry_count": 0
+}

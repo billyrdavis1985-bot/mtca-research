@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0008__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:25:22.178698+00:00",
+  "wall_clock_seconds": 4.250869512557983,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a guiding principle or behavioral norm, instructing a person to take reparative action while setting a boundary to prevent harm.\",\n  \"implicit_claims\": [\n    \"The speaker has committed past wrongs that require amends.\",\n    \"Amends are generally desirable and morally appropriate.\",\n    \"It is possible to assess whether making amends would cause injury.\",\n    \"The person can reliably determine when injury to others would occur.\",\n    \"Avoiding harm is a higher priority than making amends in certain circumstances.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it provides a clear action rule with a conditional exception, avoiding logical contradiction between the directive to amend and the imperative to avoid harm.\",\n  \"conditions_for_usefulness\": [\n    \"The person has a genuine desire to repair past harm.\",\n    \"The person can realistically identify whom to approach and how.\",\n    \"The person has the capacity to foresee consequences of their actions.\",\n    \"The statement is used in a context that supports self-reflection and accountability.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person lacks insight into their own impact on others.\",\n    \"The person uses the exception as a rationalization to avoid uncomfortable amends.\",\n    \"The person underestimates or overestimates the likelihood of causing injury.\",\n    \"The statement is applied without professional guidance in complex relational situations.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a guiding principle or behavioral norm, instructing a person to take reparative action while setting a boundary to prevent harm.",
+    "implicit_claims": [
+      "The speaker has committed past wrongs that require amends.",
+      "Amends are generally desirable and morally appropriate.",
+      "It is possible to assess whether making amends would cause injury.",
+      "The person can reliably determine when injury to others would occur.",
+      "Avoiding harm is a higher priority than making amends in certain circumstances."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it provides a clear action rule with a conditional exception, avoiding logical contradiction between the directive to amend and the imperative to avoid harm.",
+    "conditions_for_usefulness": [
+      "The person has a genuine desire to repair past harm.",
+      "The person can realistically identify whom to approach and how.",
+      "The person has the capacity to foresee consequences of their actions.",
+      "The statement is used in a context that supports self-reflection and accountability."
+    ],
+    "conditions_for_misleading": [
+      "The person lacks insight into their own impact on others.",
+      "The person uses the exception as a rationalization to avoid uncomfortable amends.",
+      "The person underestimates or overestimates the likelihood of causing injury.",
+      "The statement is applied without professional guidance in complex relational situations."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 297,
+  "error": "",
+  "retry_count": 0
+}

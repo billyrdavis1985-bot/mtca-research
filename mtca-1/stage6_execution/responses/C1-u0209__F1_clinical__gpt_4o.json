@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:19:28.358924+00:00",
+  "wall_clock_seconds": 3.0847928524017334,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides guidance on the application frequency of therapeutic suggestions according to the progress observed in the subject.\",\n  \"implicit_claims\": [\n    \"Therapeutic suggestions can contribute to a cure.\",\n    \"The frequency of suggestions should be adjusted over time.\",\n    \"Progress can be assessed accurately to inform the pacing of suggestions.\",\n    \"A point can be reached where suggestions are no longer necessary.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically progresses from frequent interventions to gradually less frequent ones, based on the subject's progress until a cure is achieved.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if therapeutic suggestions have been empirically shown to aid in curing certain conditions, if progress can be consistently and accurately measured, and if a structured schedule of interventions can be individualized.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if there is no empirical evidence that the suggestions lead to a cure, if progress is difficult to measure or not reliably quantifiable, or if the condition in question does not improve through therapeutic suggestions alone.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides guidance on the application frequency of therapeutic suggestions according to the progress observed in the subject.",
+    "implicit_claims": [
+      "Therapeutic suggestions can contribute to a cure.",
+      "The frequency of suggestions should be adjusted over time.",
+      "Progress can be assessed accurately to inform the pacing of suggestions.",
+      "A point can be reached where suggestions are no longer necessary."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically progresses from frequent interventions to gradually less frequent ones, based on the subject's progress until a cure is achieved.",
+    "conditions_for_usefulness": "This statement would be useful if therapeutic suggestions have been empirically shown to aid in curing certain conditions, if progress can be consistently and accurately measured, and if a structured schedule of interventions can be individualized.",
+    "conditions_for_misleading": "This statement could be misleading if there is no empirical evidence that the suggestions lead to a cure, if progress is difficult to measure or not reliably quantifiable, or if the condition in question does not improve through therapeutic suggestions alone."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 196,
+  "output_tokens": 235,
+  "error": "",
+  "retry_count": 0
+}

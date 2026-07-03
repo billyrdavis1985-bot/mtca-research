@@ -1,0 +1,44 @@
+{
+  "call_id": "C5-u0110__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:13:29.351969+00:00",
+  "wall_clock_seconds": 4.905455112457275,
+  "raw_response": "{\n  \"communicative_function\": \"Encouraging a mindset shift by asserting a causal link between thoughts and physical health, promoting positive thinking as a form of self-care or moral discipline.\",\n  \"implicit_claims\": [\n    \"Unlawful or negative thoughts directly cause physical illness and decay.\",\n    \"Glad and beautiful thoughts directly cause youthfulness and beauty.\",\n    \"Thoughts have a deterministic, one-to-one causal power over bodily states.\",\n    \"Moral or aesthetic quality of thoughts (unlawful vs. glad/beautiful) determines physical outcomes.\",\n    \"The body is passive and entirely subject to the mind's influence.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent only if one accepts a strong mind-body dualism where thoughts directly govern physiology without mediating factors. It is not coherent with modern biopsychosocial models that acknowledge multidirectional influences.\",\n  \"conditions_for_usefulness\": [\n    \"The person using it believes in or is open to psychosomatic influences.\",\n    \"It is used as motivational rhetoric to cultivate a positive mental habit.\",\n    \"The listener understands it metaphorically rather than as a literal medical claim.\",\n    \"It is part of a broader practice (e.g., meditation, cognitive therapy) that integrates evidence-based mechanisms.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, it could lead to guilt or shame over illness (blaming the sufferer's thoughts).\",\n    \"It could discourage seeking medical treatment by overstating mental control over disease.\",\n    \"It ignores genetic, environmental, and social determinants of health.\",\n    \"It falsely equates 'unlawful' thoughts (moral judgment) with biological causation.\",\n    \"It promises unrealistic outcomes (youthfulness/beauty) that may foster disappointment or denial.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Encouraging a mindset shift by asserting a causal link between thoughts and physical health, promoting positive thinking as a form of self-care or moral discipline.",
+    "implicit_claims": [
+      "Unlawful or negative thoughts directly cause physical illness and decay.",
+      "Glad and beautiful thoughts directly cause youthfulness and beauty.",
+      "Thoughts have a deterministic, one-to-one causal power over bodily states.",
+      "Moral or aesthetic quality of thoughts (unlawful vs. glad/beautiful) determines physical outcomes.",
+      "The body is passive and entirely subject to the mind's influence."
+    ],
+    "coherence_assessment": "Internally coherent only if one accepts a strong mind-body dualism where thoughts directly govern physiology without mediating factors. It is not coherent with modern biopsychosocial models that acknowledge multidirectional influences.",
+    "conditions_for_usefulness": [
+      "The person using it believes in or is open to psychosomatic influences.",
+      "It is used as motivational rhetoric to cultivate a positive mental habit.",
+      "The listener understands it metaphorically rather than as a literal medical claim.",
+      "It is part of a broader practice (e.g., meditation, cognitive therapy) that integrates evidence-based mechanisms."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, it could lead to guilt or shame over illness (blaming the sufferer's thoughts).",
+      "It could discourage seeking medical treatment by overstating mental control over disease.",
+      "It ignores genetic, environmental, and social determinants of health.",
+      "It falsely equates 'unlawful' thoughts (moral judgment) with biological causation.",
+      "It promises unrealistic outcomes (youthfulness/beauty) that may foster disappointment or denial."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 372,
+  "error": "",
+  "retry_count": 0
+}

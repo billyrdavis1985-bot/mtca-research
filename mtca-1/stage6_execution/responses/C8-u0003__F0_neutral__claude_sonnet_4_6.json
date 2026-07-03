@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0003__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:03:05.132132+00:00",
+  "wall_clock_seconds": 11.261250495910645,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a dual acknowledgment: it validates subjective emotional experience as meaningful data while simultaneously introducing epistemic humility about the reliability of feelings as guides to external reality. It functions as a self-regulating cognitive commitment, likely intended to balance emotional validation with critical self-reflection.\",\n  \"implicit_claims\": [\n    \"Feelings and accurate perceptions of the world are distinct categories\",\n    \"Feelings carry informational content worth attending to\",\n    \"The world exists independently of one's feelings about it\",\n    \"It is possible to have feelings that misrepresent external states of affairs\",\n    \"The speaker has some capacity to distinguish between internal states and external reality\",\n    \"Neither dismissing feelings nor uncritically trusting them is the correct approach\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two clauses are not in tension but complementary: granting feelings epistemic status as real data about internal states does not logically require them to be accurate about external states. The distinction between 'information about my state' and 'information about the world' is meaningful and defensible.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is prone to either dismissing emotions entirely or over-relying on them as guides to reality\",\n    \"The speaker is in a situation where emotional responses may be distorted by bias, trauma, or cognitive error\",\n    \"The speaker has sufficient metacognitive capacity to act on the distinction being drawn\",\n    \"There is a genuine external reality the speaker's feelings may be misrepresenting\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to systematically discount feelings that are in fact accurate signals about external harm or danger\",\n    \"If the distinction between internal state and world-accuracy is used to gaslight oneself at others' prompting\",\n    \"If 'not always accurate' is operationalized as 'rarely accurate,' collapsing into emotional dismissal\",\n    \"If the statement becomes a rehearsed deflection rather than a genuine epistemic practice\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a dual acknowledgment: it validates subjective emotional experience as meaningful data while simultaneously introducing epistemic humility about the reliability of feelings as guides to external reality. It functions as a self-regulating cognitive commitment, likely intended to balance emotional validation with critical self-reflection.",
+    "implicit_claims": [
+      "Feelings and accurate perceptions of the world are distinct categories",
+      "Feelings carry informational content worth attending to",
+      "The world exists independently of one's feelings about it",
+      "It is possible to have feelings that misrepresent external states of affairs",
+      "The speaker has some capacity to distinguish between internal states and external reality",
+      "Neither dismissing feelings nor uncritically trusting them is the correct approach"
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two clauses are not in tension but complementary: granting feelings epistemic status as real data about internal states does not logically require them to be accurate about external states. The distinction between 'information about my state' and 'information about the world' is meaningful and defensible.",
+    "conditions_for_usefulness": [
+      "The speaker is prone to either dismissing emotions entirely or over-relying on them as guides to reality",
+      "The speaker is in a situation where emotional responses may be distorted by bias, trauma, or cognitive error",
+      "The speaker has sufficient metacognitive capacity to act on the distinction being drawn",
+      "There is a genuine external reality the speaker's feelings may be misrepresenting"
+    ],
+    "conditions_for_misleading": [
+      "If used to systematically discount feelings that are in fact accurate signals about external harm or danger",
+      "If the distinction between internal state and world-accuracy is used to gaslight oneself at others' prompting",
+      "If 'not always accurate' is operationalized as 'rarely accurate,' collapsing into emotional dismissal",
+      "If the statement becomes a rehearsed deflection rather than a genuine epistemic practice"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 478,
+  "error": "",
+  "retry_count": 0
+}

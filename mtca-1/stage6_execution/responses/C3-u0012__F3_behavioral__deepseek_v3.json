@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0012__F3_behavioral__deepseek_v3",
+  "unit_id": "C3-u0012",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:11:33.811318+00:00",
+  "wall_clock_seconds": 6.968188762664795,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-directed injunction or rule for living, aiming to align the speaker's actions and thoughts with a perceived cosmic order and personal role within it.\",\n  \"implicit_claims\": [\n    \"The universe has a definable, singular nature.\",\n    \"The individual has a specific nature or essence (a 'mine').\",\n    \"The individual's nature and actions have a fixed, ascertainable relationship to the universe's nature.\",\n    \"External obstacles cannot genuinely prevent one from acting in accordance with one's nature.\",\n    \"It is possible to know exactly what is 'agreeable' to one's nature and the universe's nature.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a Stoic framework, assuming a deterministic, rationally ordered universe and a self that can perfectly align with that order. However, it may be incoherent if one rejects a fixed universal nature or the possibility of such perfect alignment with external conditions.\",\n  \"conditions_for_usefulness\": [\n    \"The person accepts a worldview where nature is rational and purposeful.\",\n    \"The person seeks a clear, principled guide for ethical action.\",\n    \"The person believes in the possibility of inner freedom despite external circumstances.\",\n    \"The person is willing to engage in reflective self-examination to discern their role.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the universe is seen as chaotic or indifferent, the claim of an 'agreeable' nature may lead to false certainty.\",\n    \"If used to deny real external constraints (e.g., oppression, illness) that genuinely limit action.\",\n    \"If it fosters fatalistic passivity by overstating the individual's power over all circumstances.\",\n    \"If it assumes a singular correct interpretation of 'nature' that suppresses individual moral diversity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directed injunction or rule for living, aiming to align the speaker's actions and thoughts with a perceived cosmic order and personal role within it.",
+    "implicit_claims": [
+      "The universe has a definable, singular nature.",
+      "The individual has a specific nature or essence (a 'mine').",
+      "The individual's nature and actions have a fixed, ascertainable relationship to the universe's nature.",
+      "External obstacles cannot genuinely prevent one from acting in accordance with one's nature.",
+      "It is possible to know exactly what is 'agreeable' to one's nature and the universe's nature."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a Stoic framework, assuming a deterministic, rationally ordered universe and a self that can perfectly align with that order. However, it may be incoherent if one rejects a fixed universal nature or the possibility of such perfect alignment with external conditions.",
+    "conditions_for_usefulness": [
+      "The person accepts a worldview where nature is rational and purposeful.",
+      "The person seeks a clear, principled guide for ethical action.",
+      "The person believes in the possibility of inner freedom despite external circumstances.",
+      "The person is willing to engage in reflective self-examination to discern their role."
+    ],
+    "conditions_for_misleading": [
+      "If the universe is seen as chaotic or indifferent, the claim of an 'agreeable' nature may lead to false certainty.",
+      "If used to deny real external constraints (e.g., oppression, illness) that genuinely limit action.",
+      "If it fosters fatalistic passivity by overstating the individual's power over all circumstances.",
+      "If it assumes a singular correct interpretation of 'nature' that suppresses individual moral diversity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 216,
+  "output_tokens": 376,
+  "error": "",
+  "retry_count": 0
+}

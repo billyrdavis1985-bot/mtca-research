@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0001__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:56:55.020849+00:00",
+  "wall_clock_seconds": 6.608893156051636,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a willingness to engage in cognitive reframing when engaging in a common thinking distortion (catastrophizing), serving as a self-instructional coping statement.\",\n  \"implicit_claims\": [\n    \"Catastrophizing is a recognizable cognitive pattern.\",\n    \"One can 'catch' oneself in the act of catastrophizing.\",\n    \"There is a distinction between the catastrophic thought and a realistic worst-case scenario.\",\n    \"The speaker possesses the ability and willingness to question their own catastrophic thoughts.\",\n    \"The realistic worst case is less severe or more manageable than the catastrophized outcome.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it identifies a cognitive distortion, proposes a specific corrective action (asking about the realistic worst case), and frames the action as voluntary. The logic is consistent with cognitive-behavioral principles.\",\n  \"conditions_for_usefulness\": [\n    \"The person can indeed recognize when they are catastrophizing.\",\n    \"The person has the cognitive capacity to distinguish between a catastrophic thought and a realistic worst case.\",\n    \"The person is in a state of calm enough to pause and reflect.\",\n    \"The realistic worst case is actually less threatening than the catastrophized version (i.e., the catastrophic thought is indeed an exaggeration).\",\n    \"The individual is motivated to reduce distress and is open to self-questioning.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the person's catastrophic thought is actually accurate and the realistic worst case is equally severe.\",\n    \"If the person uses this statement to suppress valid fear or avoid necessary precaution.\",\n    \"If the person has difficulty distinguishing realistic from catastrophic thinking due to a genuine high-risk situation.\",\n    \"If the statement is used as a substitute for seeking professional help when catastrophizing is a symptom of a treatable condition.\",\n    \"If the person habitually asks the question but does not follow through with any change in thinking or behavior.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a willingness to engage in cognitive reframing when engaging in a common thinking distortion (catastrophizing), serving as a self-instructional coping statement.",
+    "implicit_claims": [
+      "Catastrophizing is a recognizable cognitive pattern.",
+      "One can 'catch' oneself in the act of catastrophizing.",
+      "There is a distinction between the catastrophic thought and a realistic worst-case scenario.",
+      "The speaker possesses the ability and willingness to question their own catastrophic thoughts.",
+      "The realistic worst case is less severe or more manageable than the catastrophized outcome."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it identifies a cognitive distortion, proposes a specific corrective action (asking about the realistic worst case), and frames the action as voluntary. The logic is consistent with cognitive-behavioral principles.",
+    "conditions_for_usefulness": [
+      "The person can indeed recognize when they are catastrophizing.",
+      "The person has the cognitive capacity to distinguish between a catastrophic thought and a realistic worst case.",
+      "The person is in a state of calm enough to pause and reflect.",
+      "The realistic worst case is actually less threatening than the catastrophized version (i.e., the catastrophic thought is indeed an exaggeration).",
+      "The individual is motivated to reduce distress and is open to self-questioning."
+    ],
+    "conditions_for_misleading": [
+      "If the person's catastrophic thought is actually accurate and the realistic worst case is equally severe.",
+      "If the person uses this statement to suppress valid fear or avoid necessary precaution.",
+      "If the person has difficulty distinguishing realistic from catastrophic thinking due to a genuine high-risk situation.",
+      "If the statement is used as a substitute for seeking professional help when catastrophizing is a symptom of a treatable condition.",
+      "If the person habitually asks the question but does not follow through with any change in thinking or behavior."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 411,
+  "error": "",
+  "retry_count": 0
+}

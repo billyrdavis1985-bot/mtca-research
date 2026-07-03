@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F7_author_anonymous__gpt_4o",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:39:28.567150+00:00",
+  "wall_clock_seconds": 3.5261728763580322,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is communicating an observation and expressing surprise about an improvement in someone's physical condition.\",\n  \"implicit_claims\": [\n    \"The person referenced had a less favorable condition in their respiration and walking previously.\",\n    \"The speaker has the ability to perceive changes in the person's physical condition.\",\n    \"The person performed some action ('When he does so') that led to the improvement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it clearly communicates an observed change and the speaker's emotional response to it.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the speaker has accurate knowledge about the person's prior condition and possesses credible observation skills. Additionally, the action leading to improvement should be clearly identifiable and replicable.\",\n  \"conditions_for_misleading\": \"The statement might be misleading if the speaker's observation is incorrect or biased, if the improvement is wrongly attributed to the action taken, or if there are other factors influencing the improvement that are not acknowledged.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is communicating an observation and expressing surprise about an improvement in someone's physical condition.",
+    "implicit_claims": [
+      "The person referenced had a less favorable condition in their respiration and walking previously.",
+      "The speaker has the ability to perceive changes in the person's physical condition.",
+      "The person performed some action ('When he does so') that led to the improvement."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it clearly communicates an observed change and the speaker's emotional response to it.",
+    "conditions_for_usefulness": "The statement would be useful if the speaker has accurate knowledge about the person's prior condition and possesses credible observation skills. Additionally, the action leading to improvement should be clearly identifiable and replicable.",
+    "conditions_for_misleading": "The statement might be misleading if the speaker's observation is incorrect or biased, if the improvement is wrongly attributed to the action taken, or if there are other factors influencing the improvement that are not acknowledged."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0
+}

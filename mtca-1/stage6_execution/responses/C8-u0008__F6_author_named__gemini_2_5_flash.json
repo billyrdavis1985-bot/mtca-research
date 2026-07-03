@@ -1,0 +1,51 @@
+{
+  "call_id": "C8-u0008__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:35:15.911456+00:00",
+  "wall_clock_seconds": 9.690148830413818,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"This statement functions as a self-affirmation, a cognitive restructuring tool, and a declaration of intent. It serves to reinforce one's commitment to value-driven action, assert agency over behavior, and provide a strategy for navigating internal emotional discrepancy, especially in situations where immediate feelings might conflict with long-term goals or deeply held principles. It encourages perseverance and emotional regulation.\",\n  \"implicit_claims\": [\n    \"The speaker possesses agency and free will over their actions.\",\n    \"The speaker has clearly defined and understood values.\",\n    \"The speaker is capable of identifying when their actions align with their values.\",\n    \"There can be a discrepancy between one's feelings and one's values/desired actions.\",\n    \"Feelings are not necessarily static and can 'catch up' to actions over time.\",\n    \"Feelings are not always reliable or sufficient guides for action.\",\n    \"Values provide a more stable and guiding framework for behavior than transient feelings.\",\n    \"It is possible and sometimes necessary to act despite emotional discomfort or resistance.\",\n    \"Action can precede and potentially influence emotional states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a logical and psychologically valid concept: the ability to prioritize chosen values and actions even when immediate emotional states are not in alignment. It acknowledges a common human experience of internal conflict and offers a strategy for resolution that emphasizes volitional control and value-driven behavior.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuinely identified and committed to their values.\",\n    \"The individual believes they have agency and choice in their actions.\",\n    \"The individual is able to distinguish between their feelings and the actions they choose to take.\",\n    \"The individual possesses a degree of emotional tolerance to act despite discomfort.\",\n    \"The situation genuinely requires acting in line with values despite conflicting feelings (e.g., pursuing long-term goals, maintaining integrity in difficult situations, engaging in necessary but unpleasant tasks).\",\n    \"The statement is used as part of a balanced approach that also allows for emotional processing and self-compassion, rather than pure suppression.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' being acted upon are unexamined, potentially harmful, or not genuinely held by the individual (e.g., internalized societal pressures, unhealthy perfectionism).\",\n    \"The statement is used to consistently suppress or ignore important emotional signals that require attention (e.g., signs of burnout, trauma, or unhealthy relationships).\",\n    \"The individual genuinely lacks agency in a situation (e.g., due to coercion, severe mental health crisis, or external constraints), leading to self-blame or denial of their actual circumstances.\",\n    \"It fosters emotional bypassing, where uncomfortable feelings are always overridden without being acknowledged or processed, potentially leading to long-term emotional dysregulation.\",\n    \"It leads to a rigid interpretation of 'values' that prevents necessary flexibility or responsiveness to changing circumstances or new information.\",\n    \"It promotes a lack of self-compassion, where the individual judges themselves harshly for having feelings that don't immediately align with their chosen actions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a self-affirmation, a cognitive restructuring tool, and a declaration of intent. It serves to reinforce one's commitment to value-driven action, assert agency over behavior, and provide a strategy for navigating internal emotional discrepancy, especially in situations where immediate feelings might conflict with long-term goals or deeply held principles. It encourages perseverance and emotional regulation.",
+    "implicit_claims": [
+      "The speaker possesses agency and free will over their actions.",
+      "The speaker has clearly defined and understood values.",
+      "The speaker is capable of identifying when their actions align with their values.",
+      "There can be a discrepancy between one's feelings and one's values/desired actions.",
+      "Feelings are not necessarily static and can 'catch up' to actions over time.",
+      "Feelings are not always reliable or sufficient guides for action.",
+      "Values provide a more stable and guiding framework for behavior than transient feelings.",
+      "It is possible and sometimes necessary to act despite emotional discomfort or resistance.",
+      "Action can precede and potentially influence emotional states."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a logical and psychologically valid concept: the ability to prioritize chosen values and actions even when immediate emotional states are not in alignment. It acknowledges a common human experience of internal conflict and offers a strategy for resolution that emphasizes volitional control and value-driven behavior.",
+    "conditions_for_usefulness": [
+      "The individual has genuinely identified and committed to their values.",
+      "The individual believes they have agency and choice in their actions.",
+      "The individual is able to distinguish between their feelings and the actions they choose to take.",
+      "The individual possesses a degree of emotional tolerance to act despite discomfort.",
+      "The situation genuinely requires acting in line with values despite conflicting feelings (e.g., pursuing long-term goals, maintaining integrity in difficult situations, engaging in necessary but unpleasant tasks).",
+      "The statement is used as part of a balanced approach that also allows for emotional processing and self-compassion, rather than pure suppression."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' being acted upon are unexamined, potentially harmful, or not genuinely held by the individual (e.g., internalized societal pressures, unhealthy perfectionism).",
+      "The statement is used to consistently suppress or ignore important emotional signals that require attention (e.g., signs of burnout, trauma, or unhealthy relationships).",
+      "The individual genuinely lacks agency in a situation (e.g., due to coercion, severe mental health crisis, or external constraints), leading to self-blame or denial of their actual circumstances.",
+      "It fosters emotional bypassing, where uncomfortable feelings are always overridden without being acknowledged or processed, potentially leading to long-term emotional dysregulation.",
+      "It leads to a rigid interpretation of 'values' that prevents necessary flexibility or responsiveness to changing circumstances or new information.",
+      "It promotes a lack of self-compassion, where the individual judges themselves harshly for having feelings that don't immediately align with their chosen actions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 683,
+  "error": "",
+  "retry_count": 0
+}

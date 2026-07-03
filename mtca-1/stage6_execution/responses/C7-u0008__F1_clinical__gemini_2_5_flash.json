@@ -1,0 +1,49 @@
+{
+  "call_id": "C7-u0008__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:25:10.824276+00:00",
+  "wall_clock_seconds": 10.552260637283325,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of a past or ongoing ethical commitment to repair harm, specifically through making direct amends. It serves as a self-instructional principle for navigating interpersonal responsibility, emphasizing accountability while also incorporating a crucial ethical boundary to prevent further harm to oneself or others. It implicitly outlines a personal moral compass guiding actions of restitution.\",\n  \"implicit_claims\": [\n    \"The speaker acknowledges past actions that caused harm or wrongdoing, creating a need for amends.\",\n    \"Making direct amends is generally a desirable and beneficial action.\",\n    \"The speaker possesses the agency and capacity to take steps to make amends.\",\n    \"The speaker has the capacity for ethical discernment, able to assess potential harm or injury resulting from their actions.\",\n    \"Preventing further injury (to self or others) is a higher ethical priority than making direct amends in certain circumstances.\",\n    \"The speaker is committed to acting responsibly and ethically in their relationships.\",\n    \"Amends, when appropriate, can contribute to healing, restoration, or resolution.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear primary intention (making amends) and a well-defined, ethically grounded exception (avoiding injury). This structure reflects a nuanced understanding of moral responsibility, acknowledging that even well-intentioned actions can have negative consequences, and prioritizes harm reduction. The 'wherever possible' clause adds a layer of practical coherence, acknowledging situational constraints.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely believes they have caused harm requiring amends.\",\n    \"The individual possesses sufficient self-awareness and empathy to accurately identify 'such people' and assess the impact of their past actions.\",\n    \"The individual can realistically and objectively evaluate whether making amends 'would injure them or others', rather than using it as an excuse for avoidance.\",\n    \"The therapeutic context supports the individual in discerning appropriate actions, managing potential emotional responses, and processing the outcomes of making or not making amends.\",\n    \"The individual is prepared for the potential discomfort or resistance that may arise from making amends, and does not conflate discomfort with injury.\",\n    \"The statement is a guide to action, not merely a performative declaration, leading to concrete, well-considered steps.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets 'injury' to justify avoiding responsibility, for example, by conflating personal discomfort or fear with actual harm to self or others.\",\n    \"The individual lacks the necessary judgment or insight to accurately assess potential injury, leading to either unnecessary harm or unjustified inaction.\",\n    \"The statement is used as a rationalization for not taking responsibility without genuine ethical consideration (e.g., 'it would injure them to hear it,' when in fact they are capable of handling it and deserve to).\",\n    \"The individual applies the statement rigidly without considering the specific dynamics or needs of the wronged party (e.g., making amends to an abuser, or demanding forgiveness from a victim).\",\n    \"The statement is used to avoid facing the consequences of past actions, rather than as a thoughtful ethical guideline.\",\n    \"The individual uses the statement performatively without a genuine commitment to the underlying principle of repair and harm reduction.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of a past or ongoing ethical commitment to repair harm, specifically through making direct amends. It serves as a self-instructional principle for navigating interpersonal responsibility, emphasizing accountability while also incorporating a crucial ethical boundary to prevent further harm to oneself or others. It implicitly outlines a personal moral compass guiding actions of restitution.",
+    "implicit_claims": [
+      "The speaker acknowledges past actions that caused harm or wrongdoing, creating a need for amends.",
+      "Making direct amends is generally a desirable and beneficial action.",
+      "The speaker possesses the agency and capacity to take steps to make amends.",
+      "The speaker has the capacity for ethical discernment, able to assess potential harm or injury resulting from their actions.",
+      "Preventing further injury (to self or others) is a higher ethical priority than making direct amends in certain circumstances.",
+      "The speaker is committed to acting responsibly and ethically in their relationships.",
+      "Amends, when appropriate, can contribute to healing, restoration, or resolution."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear primary intention (making amends) and a well-defined, ethically grounded exception (avoiding injury). This structure reflects a nuanced understanding of moral responsibility, acknowledging that even well-intentioned actions can have negative consequences, and prioritizes harm reduction. The 'wherever possible' clause adds a layer of practical coherence, acknowledging situational constraints.",
+    "conditions_for_usefulness": [
+      "The individual genuinely believes they have caused harm requiring amends.",
+      "The individual possesses sufficient self-awareness and empathy to accurately identify 'such people' and assess the impact of their past actions.",
+      "The individual can realistically and objectively evaluate whether making amends 'would injure them or others', rather than using it as an excuse for avoidance.",
+      "The therapeutic context supports the individual in discerning appropriate actions, managing potential emotional responses, and processing the outcomes of making or not making amends.",
+      "The individual is prepared for the potential discomfort or resistance that may arise from making amends, and does not conflate discomfort with injury.",
+      "The statement is a guide to action, not merely a performative declaration, leading to concrete, well-considered steps."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets 'injury' to justify avoiding responsibility, for example, by conflating personal discomfort or fear with actual harm to self or others.",
+      "The individual lacks the necessary judgment or insight to accurately assess potential injury, leading to either unnecessary harm or unjustified inaction.",
+      "The statement is used as a rationalization for not taking responsibility without genuine ethical consideration (e.g., 'it would injure them to hear it,' when in fact they are capable of handling it and deserve to).",
+      "The individual applies the statement rigidly without considering the specific dynamics or needs of the wronged party (e.g., making amends to an abuser, or demanding forgiveness from a victim).",
+      "The statement is used to avoid facing the consequences of past actions, rather than as a thoughtful ethical guideline.",
+      "The individual uses the statement performatively without a genuine commitment to the underlying principle of repair and harm reduction."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 698,
+  "error": "",
+  "retry_count": 0
+}

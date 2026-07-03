@@ -1,0 +1,52 @@
+{
+  "call_id": "C1-u0178__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:17:27.955394+00:00",
+  "wall_clock_seconds": 15.532865285873413,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a therapeutic suggestion or autosuggressive script, intended to be internalized and repeated by the subject to reprogram subconscious habits around hunger and eating. It is simultaneously a prescription, a prediction, and a performative utterance designed to bring about the reality it describes through repeated mental rehearsal.\",\n  \"implicit_claims\": [\n    \"The subconscious mind can be directed to regulate hunger patterns through verbal suggestion.\",\n    \"Hunger is at least partially a psychological or suggestible phenomenon, not purely physiological.\",\n    \"Repeating suggestions three times daily is sufficient frequency to produce behavioral change.\",\n    \"The timing of hunger (morning, midday, evening) can be consciously programmed.\",\n    \"Enjoyment of food is also subject to autosuggestion.\",\n    \"Overeating is a habit or tendency that can be corrected through suggestion.\",\n    \"The subject currently has some dysregulation in hunger, appetite, or eating behavior.\",\n    \"The method of autosuggestion is effective for producing real psychosomatic changes.\",\n    \"Healthy hunger is inherently pleasant and describable in a specific, positive way.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within Coué's framework of autosuggestion. It consistently applies his principle that imagination governs behavior, and the suggestion is structured to be affirmative, specific, and temporally anchored. However, it conflates correlation with causation by assuming the suggestion will produce the described outcome without addressing individual variability, medical conditions, or psychological complexity.\",\n  \"conditions_for_usefulness\": [\n    \"The subject has psychosomatic or habit-driven disruptions in appetite (e.g., anxiety-suppressed hunger, disordered eating patterns with psychological roots).\",\n    \"The subject genuinely believes in or is open to the efficacy of autosuggestion.\",\n    \"The subject does not have an underlying medical condition (e.g., gastroparesis, hormonal disorder) causing appetite disruption.\",\n    \"Regular repetition is actually performed as prescribed.\",\n    \"The subject is not suffering from a clinical eating disorder requiring medical intervention.\",\n    \"Placebo and expectation effects are sufficient to produce the desired physiological response in this individual.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The subject has a physiological condition causing appetite disruption that requires medical treatment.\",\n    \"The subject interprets the suggestion as a substitute for medical or psychological care.\",\n    \"The subject has a clinical eating disorder where autosuggestion could reinforce harmful thought patterns.\",\n    \"The claim implies a level of control over bodily functions that autosuggestion cannot reliably deliver.\",\n    \"The subject fails to improve and interprets this as personal failure rather than a limitation of the method.\",\n    \"The statement normalizes a rigid meal-timing structure that may not suit all metabolic types or lifestyles.\",\n    \"The technique is presented without evidence of efficacy, potentially misleading vulnerable individuals seeking help.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a therapeutic suggestion or autosuggressive script, intended to be internalized and repeated by the subject to reprogram subconscious habits around hunger and eating. It is simultaneously a prescription, a prediction, and a performative utterance designed to bring about the reality it describes through repeated mental rehearsal.",
+    "implicit_claims": [
+      "The subconscious mind can be directed to regulate hunger patterns through verbal suggestion.",
+      "Hunger is at least partially a psychological or suggestible phenomenon, not purely physiological.",
+      "Repeating suggestions three times daily is sufficient frequency to produce behavioral change.",
+      "The timing of hunger (morning, midday, evening) can be consciously programmed.",
+      "Enjoyment of food is also subject to autosuggestion.",
+      "Overeating is a habit or tendency that can be corrected through suggestion.",
+      "The subject currently has some dysregulation in hunger, appetite, or eating behavior.",
+      "The method of autosuggestion is effective for producing real psychosomatic changes.",
+      "Healthy hunger is inherently pleasant and describable in a specific, positive way."
+    ],
+    "coherence_assessment": "The statement is internally coherent within Coué's framework of autosuggestion. It consistently applies his principle that imagination governs behavior, and the suggestion is structured to be affirmative, specific, and temporally anchored. However, it conflates correlation with causation by assuming the suggestion will produce the described outcome without addressing individual variability, medical conditions, or psychological complexity.",
+    "conditions_for_usefulness": [
+      "The subject has psychosomatic or habit-driven disruptions in appetite (e.g., anxiety-suppressed hunger, disordered eating patterns with psychological roots).",
+      "The subject genuinely believes in or is open to the efficacy of autosuggestion.",
+      "The subject does not have an underlying medical condition (e.g., gastroparesis, hormonal disorder) causing appetite disruption.",
+      "Regular repetition is actually performed as prescribed.",
+      "The subject is not suffering from a clinical eating disorder requiring medical intervention.",
+      "Placebo and expectation effects are sufficient to produce the desired physiological response in this individual."
+    ],
+    "conditions_for_misleading": [
+      "The subject has a physiological condition causing appetite disruption that requires medical treatment.",
+      "The subject interprets the suggestion as a substitute for medical or psychological care.",
+      "The subject has a clinical eating disorder where autosuggestion could reinforce harmful thought patterns.",
+      "The claim implies a level of control over bodily functions that autosuggestion cannot reliably deliver.",
+      "The subject fails to improve and interprets this as personal failure rather than a limitation of the method.",
+      "The statement normalizes a rigid meal-timing structure that may not suit all metabolic types or lifestyles.",
+      "The technique is presented without evidence of efficacy, potentially misleading vulnerable individuals seeking help."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 244,
+  "output_tokens": 689,
+  "error": "",
+  "retry_count": 0
+}

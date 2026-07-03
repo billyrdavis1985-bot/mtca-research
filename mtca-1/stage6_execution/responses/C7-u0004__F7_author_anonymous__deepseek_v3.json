@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0004__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:13:06.336032+00:00",
+  "wall_clock_seconds": 5.017498254776001,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is prescribing or recommending a specific action—namely, a threefold admission of wrongdoing—likely as part of a moral, spiritual, or therapeutic practice.\",\n  \"implicit_claims\": [\n    \"There is a being or concept referred to as 'God' that can be admitted to.\",\n    \"The speaker and listener have wrongs that need to be admitted.\",\n    \"Admitting wrongs to God, oneself, and another person is beneficial or necessary.\",\n    \"The exact nature of wrongs should be specified rather than generalized.\",\n    \"Acknowledging wrongs requires multiple audiences (divine, self, and another human).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a directive, presenting a clear sequence of actions (admission to three parties) with a specific object (exact nature of wrongs). There is no logical contradiction within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used within a context where confession or accountability is valued (e.g., recovery programs, spiritual practices, therapeutic settings).\",\n    \"The individual recognizes the existence of a higher power or finds value in the concept of God.\",\n    \"Trust exists between the speaker and the other human being to receive the admission safely.\",\n    \"The person has the self-awareness to identify the exact nature of their wrongs.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener interprets it as mandatory or universally required, ignoring personal or cultural differences.\",\n    \"It is used to pressure someone into sharing details that could harm them or others.\",\n    \"The audience assumes that an admission alone is sufficient for change without further action.\",\n    \"The statement is applied in a context where no higher power is acknowledged, rendering the 'God' component meaningless or coercive.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is prescribing or recommending a specific action—namely, a threefold admission of wrongdoing—likely as part of a moral, spiritual, or therapeutic practice.",
+    "implicit_claims": [
+      "There is a being or concept referred to as 'God' that can be admitted to.",
+      "The speaker and listener have wrongs that need to be admitted.",
+      "Admitting wrongs to God, oneself, and another person is beneficial or necessary.",
+      "The exact nature of wrongs should be specified rather than generalized.",
+      "Acknowledging wrongs requires multiple audiences (divine, self, and another human)."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a directive, presenting a clear sequence of actions (admission to three parties) with a specific object (exact nature of wrongs). There is no logical contradiction within the statement itself.",
+    "conditions_for_usefulness": [
+      "The statement is used within a context where confession or accountability is valued (e.g., recovery programs, spiritual practices, therapeutic settings).",
+      "The individual recognizes the existence of a higher power or finds value in the concept of God.",
+      "Trust exists between the speaker and the other human being to receive the admission safely.",
+      "The person has the self-awareness to identify the exact nature of their wrongs."
+    ],
+    "conditions_for_misleading": [
+      "The listener interprets it as mandatory or universally required, ignoring personal or cultural differences.",
+      "It is used to pressure someone into sharing details that could harm them or others.",
+      "The audience assumes that an admission alone is sufficient for change without further action.",
+      "The statement is applied in a context where no higher power is acknowledged, rendering the 'God' component meaningless or coercive."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 380,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,30 @@
+{
+  "call_id": "C1-u0457__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:35:03.373272+00:00",
+  "wall_clock_seconds": 2.196702003479004,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing surprise at observing a noticeable improvement in someone's physical abilities.\",\n  \"implicit_claims\": [\n    \"The person referred to was experiencing issues with respiration and walking prior to this observation.\",\n    \"The improvement in respiration and walking was unexpected or more significant than anticipated.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, providing a cause (an action by 'he') and its effect (improvement in respiration and walking), along with an emotional reaction (astonishment).\",\n  \"conditions_for_usefulness\": \"For this statement to be useful, there should be relevant context on the person's prior condition, including factors that could explain the improvement, and information on what action 'he' took that led to such results.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the context of the initial state of the person's respiration and walking is not known, or if the improvements are unrelated or incorrectly attributed to the action mentioned.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing surprise at observing a noticeable improvement in someone's physical abilities.",
+    "implicit_claims": [
+      "The person referred to was experiencing issues with respiration and walking prior to this observation.",
+      "The improvement in respiration and walking was unexpected or more significant than anticipated."
+    ],
+    "coherence_assessment": "The statement is internally coherent, providing a cause (an action by 'he') and its effect (improvement in respiration and walking), along with an emotional reaction (astonishment).",
+    "conditions_for_usefulness": "For this statement to be useful, there should be relevant context on the person's prior condition, including factors that could explain the improvement, and information on what action 'he' took that led to such results.",
+    "conditions_for_misleading": "The statement could be misleading if the context of the initial state of the person's respiration and walking is not known, or if the improvements are unrelated or incorrectly attributed to the action mentioned."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 144,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

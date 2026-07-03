@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0011__F4_poetic__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:44:37.530587+00:00",
+  "wall_clock_seconds": 4.852322816848755,
+  "raw_response": "{\n  \"communicative_function\": \"It serves as a declarative mission statement, expressing a shared commitment to spiritual awakening, outreach to others, and integration of principles into daily life.\",\n  \"implicit_claims\": [\n    \"A spiritual awakening is possible and has occurred through a specific process (the steps).\",\n    \"The steps are causally linked to spiritual awakening.\",\n    \"There is a message worth carrying to alcoholics.\",\n    \"The principles referenced are identifiable and can be practiced in all life domains.\",\n    \"The speaker or group has undergone this awakening and is actively trying to share it and live by it.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a logical sequence (awakening → sharing → practicing) and uses consistent figurative language (spiritual awakening, carrying a message).\",\n  \"conditions_for_usefulness\": [\n    \"The steps and principles are clearly defined and accessible to those who encounter the statement.\",\n    \"The audience interprets 'spiritual awakening' as a meaningful, transformative experience.\",\n    \"The statement is used within a supportive community or context that encourages action and reflection.\",\n    \"It is taken as inspirational guidance rather than literal or empirical truth.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a literal or universal claim that all who follow the steps will have an identical spiritual awakening.\",\n    \"If the phrase 'spiritual awakening' is misinterpreted as a supernatural event rather than a personal insight.\",\n    \"If the statement is used to imply that alcoholics outside this process are lacking or that the steps are the only path.\",\n    \"If 'practice these principles in all our affairs' is read as a demand for perfection, leading to guilt or failure.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It serves as a declarative mission statement, expressing a shared commitment to spiritual awakening, outreach to others, and integration of principles into daily life.",
+    "implicit_claims": [
+      "A spiritual awakening is possible and has occurred through a specific process (the steps).",
+      "The steps are causally linked to spiritual awakening.",
+      "There is a message worth carrying to alcoholics.",
+      "The principles referenced are identifiable and can be practiced in all life domains.",
+      "The speaker or group has undergone this awakening and is actively trying to share it and live by it."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a logical sequence (awakening → sharing → practicing) and uses consistent figurative language (spiritual awakening, carrying a message).",
+    "conditions_for_usefulness": [
+      "The steps and principles are clearly defined and accessible to those who encounter the statement.",
+      "The audience interprets 'spiritual awakening' as a meaningful, transformative experience.",
+      "The statement is used within a supportive community or context that encourages action and reflection.",
+      "It is taken as inspirational guidance rather than literal or empirical truth."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a literal or universal claim that all who follow the steps will have an identical spiritual awakening.",
+      "If the phrase 'spiritual awakening' is misinterpreted as a supernatural event rather than a personal insight.",
+      "If the statement is used to imply that alcoholics outside this process are lacking or that the steps are the only path.",
+      "If 'practice these principles in all our affairs' is read as a demand for perfection, leading to guilt or failure."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 359,
+  "error": "",
+  "retry_count": 0
+}

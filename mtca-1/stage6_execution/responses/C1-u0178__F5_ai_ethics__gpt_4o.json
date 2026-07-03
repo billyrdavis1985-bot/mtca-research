@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F5_ai_ethics__gpt_4o",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:16:47.700009+00:00",
+  "wall_clock_seconds": 3.207437753677368,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides a guideline for aligning AI systems with human values related to the natural and routine experience of eating and enjoying food while promoting moderation.\",\n  \"implicit_claims\": [\n    \"People experience hunger at routine times during the day.\",\n    \"Experiencing hunger is a natural and agreeable sensation.\",\n    \"Eating in response to hunger is desirable and enjoyable.\",\n    \"Overeating is not desirable and should be avoided.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its advocacy for enjoying food in moderation and recognizing routine meal times as a natural part of human experience. It smoothly connects the sensation of hunger with the enjoyment of eating while advising against overeating.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the AI system is intended to promote healthy eating habits and align with human values that prioritize enjoyment of food and respect for the body's natural hunger signals. It assumes the presence of regular access to food and a cultural norm that values moderation.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if applied in contexts where access to food is unreliable or culturally specific norms around eating differ. It might also be misleading if the AI were used to address eating disorders or contexts where biological signals of hunger are disrupted.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides a guideline for aligning AI systems with human values related to the natural and routine experience of eating and enjoying food while promoting moderation.",
+    "implicit_claims": [
+      "People experience hunger at routine times during the day.",
+      "Experiencing hunger is a natural and agreeable sensation.",
+      "Eating in response to hunger is desirable and enjoyable.",
+      "Overeating is not desirable and should be avoided."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its advocacy for enjoying food in moderation and recognizing routine meal times as a natural part of human experience. It smoothly connects the sensation of hunger with the enjoyment of eating while advising against overeating.",
+    "conditions_for_usefulness": "The statement would be useful if the AI system is intended to promote healthy eating habits and align with human values that prioritize enjoyment of food and respect for the body's natural hunger signals. It assumes the presence of regular access to food and a cultural norm that values moderation.",
+    "conditions_for_misleading": "The statement could be misleading if applied in contexts where access to food is unreliable or culturally specific norms around eating differ. It might also be misleading if the AI were used to address eating disorders or contexts where biological signals of hunger are disrupted."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 228,
+  "output_tokens": 269,
+  "error": "",
+  "retry_count": 0
+}

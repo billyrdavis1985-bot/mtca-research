@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0112__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:17:28.562348+00:00",
+  "wall_clock_seconds": 4.728331804275513,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a cognitive reframe or psychoeducational warning, aiming to shift the listener's attention to the connection between mental patterns and physical symptoms, often to encourage self-monitoring or challenge denial.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct causal influence on physical bodily states.\",\n    \"Negative or 'sickly' thoughts inevitably manifest as physical illness or dysfunction.\",\n    \"A person can be held responsible for their physical health via their thinking.\",\n    \"Mind-body dualism is false in the sense that mental events produce somatic outcomes.\"\n  ],\n  \"coherence_assessment\": \"Moderately coherent within a biopsychosocial or psychosomatic framework, but logically incomplete—it conflates correlation with necessary causation and overlooks the role of external pathogens, genetics, or stochastic biological processes.\",\n  \"conditions_for_usefulness\": [\n    \"The individual experiences psychosomatic symptoms or somatic anxiety.\",\n    \"The person is open to exploring the link between stress, rumination, and physical sensations.\",\n    \"The statement is used as a catalyst for therapeutic inquiry, not a deterministic decree.\",\n    \"There is clinical evidence that the individual's 'sickly thoughts' are indeed contributing to bodily distress.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the person has an organic disease (e.g., cancer, infection) that is unrelated to thought patterns.\",\n    \"If the statement is taken as absolute truth, promoting guilt or self-blame for genuine physical illness.\",\n    \"If it discourages medical diagnosis or treatment in favor of solely cognitive intervention.\",\n    \"If the listener has a thought-disorder or psychosis, where the statement may reinforce delusional causality.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a cognitive reframe or psychoeducational warning, aiming to shift the listener's attention to the connection between mental patterns and physical symptoms, often to encourage self-monitoring or challenge denial.",
+    "implicit_claims": [
+      "Thoughts have a direct causal influence on physical bodily states.",
+      "Negative or 'sickly' thoughts inevitably manifest as physical illness or dysfunction.",
+      "A person can be held responsible for their physical health via their thinking.",
+      "Mind-body dualism is false in the sense that mental events produce somatic outcomes."
+    ],
+    "coherence_assessment": "Moderately coherent within a biopsychosocial or psychosomatic framework, but logically incomplete—it conflates correlation with necessary causation and overlooks the role of external pathogens, genetics, or stochastic biological processes.",
+    "conditions_for_usefulness": [
+      "The individual experiences psychosomatic symptoms or somatic anxiety.",
+      "The person is open to exploring the link between stress, rumination, and physical sensations.",
+      "The statement is used as a catalyst for therapeutic inquiry, not a deterministic decree.",
+      "There is clinical evidence that the individual's 'sickly thoughts' are indeed contributing to bodily distress."
+    ],
+    "conditions_for_misleading": [
+      "If the person has an organic disease (e.g., cancer, infection) that is unrelated to thought patterns.",
+      "If the statement is taken as absolute truth, promoting guilt or self-blame for genuine physical illness.",
+      "If it discourages medical diagnosis or treatment in favor of solely cognitive intervention.",
+      "If the listener has a thought-disorder or psychosis, where the statement may reinforce delusional causality."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 358,
+  "error": "",
+  "retry_count": 0
+}

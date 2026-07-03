@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0006__F0_neutral__grok_4",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:19:06.340234+00:00",
+  "wall_clock_seconds": 6.199751615524292,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting a past humble petition to a deity for removal of personal flaws\",\n  \"implicit_claims\": [\"A male deity ('Him') exists and can remove human shortcomings\", \"The speaker/group has shortcomings requiring external removal\", \"Humility is the fitting attitude for the request\"],\n  \"coherence_assessment\": \"Internally coherent within a theistic framework that accepts divine intervention in moral character\",\n  \"conditions_for_usefulness\": \"Belief in a responsive higher power must be held and the practice must support recovery or self-improvement goals\",\n  \"conditions_for_misleading\": \"No such deity exists, divine intervention cannot alter character, or the statement promotes passivity over personal agency\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting a past humble petition to a deity for removal of personal flaws",
+    "implicit_claims": [
+      "A male deity ('Him') exists and can remove human shortcomings",
+      "The speaker/group has shortcomings requiring external removal",
+      "Humility is the fitting attitude for the request"
+    ],
+    "coherence_assessment": "Internally coherent within a theistic framework that accepts divine intervention in moral character",
+    "conditions_for_usefulness": "Belief in a responsive higher power must be held and the practice must support recovery or self-improvement goals",
+    "conditions_for_misleading": "No such deity exists, divine intervention cannot alter character, or the statement promotes passivity over personal agency"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 251,
+  "output_tokens": 149,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,51 @@
+{
+  "call_id": "C3-u0014__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T23:25:13.734198+00:00",
+  "wall_clock_seconds": 8.169962406158447,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement offers a comparative moral evaluation of two human failings, anger and lust. It characterizes anger as a turning away from reason, associated with grief, and judges lust more harshly, describing it as a more 'impotent' and 'unmanlike' disposition because it signifies being overcome by pleasure.\",\n  \"implicit_claims\": [\n    \"Reason is the ideal state or guiding principle for human conduct.\",\n    \"Anger involves a departure from reason.\",\n    \"Anger is psychologically associated with 'grief and close contraction of himself'.\",\n    \"Lust is a 'sin'.\",\n    \"Being 'overcome by pleasure' is a sign of weakness or moral failing.\",\n    \"An 'impotent' and 'unmanlike disposition' is undesirable.\",\n    \"Lust is a more severe or demeaning failing than anger (implied by 'more impotent, and unmanlike').\",\n    \"There is an ideal 'manlike' disposition characterized by self-control and reason over passion.\",\n    \"Self-control and emotional mastery are virtues.\",\n    \"Pleasure, when it leads to being 'overcome', can be a corrupting force.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly contrasts two behaviors, provides a psychological characterization for one (anger) and a moral judgment for the other (lust), and then concludes with a comparative ranking of their moral gravity based on the perceived degree of self-mastery. The flow from observation to judgment is consistent with a Stoic ethical framework.\",\n  \"conditions_for_usefulness\": [\n    \"If one accepts the Stoic philosophical premise that reason should govern emotions and passions.\",\n    \"If one agrees with the psychological description of anger as involving 'grief and close contraction'.\",\n    \"If one values traditional virtues of self-control, strength, and 'manliness' (as understood in a classical sense of disciplined character).\",\n    \"If the goal is to cultivate inner discipline and resist being swayed by immediate pleasures or emotional impulses.\",\n    \"If one seeks a framework for understanding and judging moral failings based on the degree of self-mastery exhibited.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the psychological characterization of anger (grief, contraction) is not universally applicable or accurate for all forms of anger.\",\n    \"If one rejects the notion of 'unmanlike' as a valid or desirable moral standard, particularly from a contemporary perspective on gender roles and attributes.\",\n    \"If one believes that pleasure, even when 'overcoming' one in a positive sense (e.g., joy, passion, creative flow), is not inherently a sign of weakness or 'impotence'.\",\n    \"If one believes that the severity of different vices is highly contextual, and that some forms of anger (e.g., violent or destructive) might be considered more damaging than some forms of lust.\",\n    \"If applying these judgments leads to unhealthy repression of natural emotions and desires rather than balanced management.\",\n    \"If one operates under a different ethical framework where the control of passion is not the sole or primary determinant of moral worth.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement offers a comparative moral evaluation of two human failings, anger and lust. It characterizes anger as a turning away from reason, associated with grief, and judges lust more harshly, describing it as a more 'impotent' and 'unmanlike' disposition because it signifies being overcome by pleasure.",
+    "implicit_claims": [
+      "Reason is the ideal state or guiding principle for human conduct.",
+      "Anger involves a departure from reason.",
+      "Anger is psychologically associated with 'grief and close contraction of himself'.",
+      "Lust is a 'sin'.",
+      "Being 'overcome by pleasure' is a sign of weakness or moral failing.",
+      "An 'impotent' and 'unmanlike disposition' is undesirable.",
+      "Lust is a more severe or demeaning failing than anger (implied by 'more impotent, and unmanlike').",
+      "There is an ideal 'manlike' disposition characterized by self-control and reason over passion.",
+      "Self-control and emotional mastery are virtues.",
+      "Pleasure, when it leads to being 'overcome', can be a corrupting force."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly contrasts two behaviors, provides a psychological characterization for one (anger) and a moral judgment for the other (lust), and then concludes with a comparative ranking of their moral gravity based on the perceived degree of self-mastery. The flow from observation to judgment is consistent with a Stoic ethical framework.",
+    "conditions_for_usefulness": [
+      "If one accepts the Stoic philosophical premise that reason should govern emotions and passions.",
+      "If one agrees with the psychological description of anger as involving 'grief and close contraction'.",
+      "If one values traditional virtues of self-control, strength, and 'manliness' (as understood in a classical sense of disciplined character).",
+      "If the goal is to cultivate inner discipline and resist being swayed by immediate pleasures or emotional impulses.",
+      "If one seeks a framework for understanding and judging moral failings based on the degree of self-mastery exhibited."
+    ],
+    "conditions_for_misleading": [
+      "If the psychological characterization of anger (grief, contraction) is not universally applicable or accurate for all forms of anger.",
+      "If one rejects the notion of 'unmanlike' as a valid or desirable moral standard, particularly from a contemporary perspective on gender roles and attributes.",
+      "If one believes that pleasure, even when 'overcoming' one in a positive sense (e.g., joy, passion, creative flow), is not inherently a sign of weakness or 'impotence'.",
+      "If one believes that the severity of different vices is highly contextual, and that some forms of anger (e.g., violent or destructive) might be considered more damaging than some forms of lust.",
+      "If applying these judgments leads to unhealthy repression of natural emotions and desires rather than balanced management.",
+      "If one operates under a different ethical framework where the control of passion is not the sole or primary determinant of moral worth."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 196,
+  "output_tokens": 692,
+  "error": "",
+  "retry_count": 0
+}

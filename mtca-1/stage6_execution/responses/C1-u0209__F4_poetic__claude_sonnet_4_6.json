@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0209__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:21:29.871099+00:00",
+  "wall_clock_seconds": 15.242598295211792,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement instructs a practitioner in a therapeutic or suggestive technique, conveying procedural guidance through rhythmic, authoritative prose that mimics the cadence of clinical or pedagogical wisdom. It performs the role of expert transmission — the passing of craft knowledge from one who knows to one who must learn.\",\n  \"implicit_claims\": [\n    \"Suggestions have measurable, progressive effects on subjects.\",\n    \"There is a knowable relationship between the frequency of suggestion and therapeutic outcome.\",\n    \"Progress can be detected and used to calibrate the spacing of interventions.\",\n    \"A state called 'cure' exists and is achievable through this method.\",\n    \"The practitioner has the perceptual and interpretive capacity to judge when cure is complete.\",\n    \"Subjects respond predictably enough to suggestion that general procedural rules apply.\",\n    \"Reducing frequency of suggestion over time is not merely permissible but optimal.\",\n    \"The process has a natural endpoint rather than requiring indefinite maintenance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. It presents a self-consistent logic: frequent reinforcement yields progress, progress justifies reduced frequency, reduced frequency continues until the goal is met. The structure is teleological and circular in a practical sense — the method defines its own endpoint — but this circularity is a feature of many clinical protocols rather than a logical flaw.\",\n  \"conditions_for_usefulness\": [\n    \"Suggestions must actually produce the therapeutic effects attributed to them.\",\n    \"Progress must be observable and reliably distinguishable from placebo or natural remission.\",\n    \"The practitioner must be capable of accurately assessing subject response.\",\n    \"The subject must be genuinely responsive to suggestion in a clinically meaningful way.\",\n    \"The concept of 'cure' must be operationally defined and not merely assumed.\",\n    \"The technique must be applied in a context where suggestion is an appropriate intervention.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If suggestion has no reliable therapeutic mechanism, the protocol creates false confidence in a structurally sound but empirically empty procedure.\",\n    \"If 'progress' is ambiguous or subject to confirmation bias, the practitioner may misread natural fluctuation as treatment response.\",\n    \"If 'cure' is undefined, the endpoint criterion becomes arbitrary, potentially masking ongoing harm or unresolved conditions.\",\n    \"If the subject is vulnerable, the authority embedded in the procedural tone may suppress doubt and discourage seeking evidence-based alternatives.\",\n    \"If the method is applied to conditions requiring medical intervention, the framework could cause harmful delay.\",\n    \"If the practitioner lacks training, the confident procedural tone may confer unwarranted legitimacy on an unqualified application.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement instructs a practitioner in a therapeutic or suggestive technique, conveying procedural guidance through rhythmic, authoritative prose that mimics the cadence of clinical or pedagogical wisdom. It performs the role of expert transmission — the passing of craft knowledge from one who knows to one who must learn.",
+    "implicit_claims": [
+      "Suggestions have measurable, progressive effects on subjects.",
+      "There is a knowable relationship between the frequency of suggestion and therapeutic outcome.",
+      "Progress can be detected and used to calibrate the spacing of interventions.",
+      "A state called 'cure' exists and is achievable through this method.",
+      "The practitioner has the perceptual and interpretive capacity to judge when cure is complete.",
+      "Subjects respond predictably enough to suggestion that general procedural rules apply.",
+      "Reducing frequency of suggestion over time is not merely permissible but optimal.",
+      "The process has a natural endpoint rather than requiring indefinite maintenance."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. It presents a self-consistent logic: frequent reinforcement yields progress, progress justifies reduced frequency, reduced frequency continues until the goal is met. The structure is teleological and circular in a practical sense — the method defines its own endpoint — but this circularity is a feature of many clinical protocols rather than a logical flaw.",
+    "conditions_for_usefulness": [
+      "Suggestions must actually produce the therapeutic effects attributed to them.",
+      "Progress must be observable and reliably distinguishable from placebo or natural remission.",
+      "The practitioner must be capable of accurately assessing subject response.",
+      "The subject must be genuinely responsive to suggestion in a clinically meaningful way.",
+      "The concept of 'cure' must be operationally defined and not merely assumed.",
+      "The technique must be applied in a context where suggestion is an appropriate intervention."
+    ],
+    "conditions_for_misleading": [
+      "If suggestion has no reliable therapeutic mechanism, the protocol creates false confidence in a structurally sound but empirically empty procedure.",
+      "If 'progress' is ambiguous or subject to confirmation bias, the practitioner may misread natural fluctuation as treatment response.",
+      "If 'cure' is undefined, the endpoint criterion becomes arbitrary, potentially masking ongoing harm or unresolved conditions.",
+      "If the subject is vulnerable, the authority embedded in the procedural tone may suppress doubt and discourage seeking evidence-based alternatives.",
+      "If the method is applied to conditions requiring medical intervention, the framework could cause harmful delay.",
+      "If the practitioner lacks training, the confident procedural tone may confer unwarranted legitimacy on an unqualified application."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 214,
+  "output_tokens": 631,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0009__F3_behavioral__grok_4",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:32:12.484865+00:00",
+  "wall_clock_seconds": 7.637974262237549,
+  "raw_response": "{\n  \"communicative_function\": \"declaring an ongoing behavioral commitment to self-monitoring and accountability\",\n  \"implicit_claims\": [\n    \"wrongs or errors have occurred and will continue to occur\",\n    \"personal inventory is a repeatable, valuable practice\",\n    \"prompt admission of error is both feasible and preferable to delay or denial\",\n    \"the speaker/group has the capacity and intention to sustain this practice\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a description of a continuous feedback loop between observation and corrective action\",\n  \"conditions_for_usefulness\": \"the commitment must be enacted regularly, the inventory must be honest rather than self-serving, and admission must produce observable behavioral change\",\n  \"conditions_for_misleading\": \"the statement is issued without genuine intention or mechanism for follow-through, or 'we' is invoked to imply collective adherence that does not exist\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring an ongoing behavioral commitment to self-monitoring and accountability",
+    "implicit_claims": [
+      "wrongs or errors have occurred and will continue to occur",
+      "personal inventory is a repeatable, valuable practice",
+      "prompt admission of error is both feasible and preferable to delay or denial",
+      "the speaker/group has the capacity and intention to sustain this practice"
+    ],
+    "coherence_assessment": "internally coherent as a description of a continuous feedback loop between observation and corrective action",
+    "conditions_for_usefulness": "the commitment must be enacted regularly, the inventory must be honest rather than self-serving, and admission must produce observable behavioral change",
+    "conditions_for_misleading": "the statement is issued without genuine intention or mechanism for follow-through, or 'we' is invoked to imply collective adherence that does not exist"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 271,
+  "output_tokens": 182,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,30 @@
+{
+  "call_id": "C3-u0045__F0_neutral__gpt_4o",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:43:22.410484+00:00",
+  "wall_clock_seconds": 2.5955710411071777,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is offering an explanation or analysis of a condition related to emotional states and interpersonal dynamics.\",\n  \"implicit_claims\": [\n    \"Emotions such as aversion or contrary desires can lead to actions that harm others.\",\n    \"People who are angry are driven by desires that may cause harm or prejudice against others.\"\n  ],\n  \"coherence_assessment\": \"The statement is partially coherent as it connects emotional states with actions that cause harm, but it lacks context or additional information to fully support the argument.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if it is supported by psychological or social research that links emotions to harmful actions and if the context is one where emotional responses lead to predictable reactions.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if it oversimplifies complex human emotions or if interpreted as suggesting that all angry people are harmful, without considering individual differences or contextual factors.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is offering an explanation or analysis of a condition related to emotional states and interpersonal dynamics.",
+    "implicit_claims": [
+      "Emotions such as aversion or contrary desires can lead to actions that harm others.",
+      "People who are angry are driven by desires that may cause harm or prejudice against others."
+    ],
+    "coherence_assessment": "The statement is partially coherent as it connects emotional states with actions that cause harm, but it lacks context or additional information to fully support the argument.",
+    "conditions_for_usefulness": "The statement could be useful if it is supported by psychological or social research that links emotions to harmful actions and if the context is one where emotional responses lead to predictable reactions.",
+    "conditions_for_misleading": "The statement could be misleading if it oversimplifies complex human emotions or if interpreted as suggesting that all angry people are harmful, without considering individual differences or contextual factors."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0
+}

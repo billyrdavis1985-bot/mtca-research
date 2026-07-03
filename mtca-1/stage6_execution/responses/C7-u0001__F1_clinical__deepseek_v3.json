@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0001__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:56:08.054962+00:00",
+  "wall_clock_seconds": 6.47527813911438,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions to express a shift from self-reliance to openness toward external, transcendent support, and to articulate a step in the process of recovery from addiction or mental health struggles.\",\n  \"implicit_claims\": [\n    \"The speaker previously believed they could restore themselves to sanity through their own power alone.\",\n    \"The speaker acknowledges that their current state is one of 'insanity' or severe dysfunction.\",\n    \"There exists a 'Power greater than ourselves' that can effect restoration.\",\n    \"Restoration to sanity is possible through this external Power.\",\n    \"The speaker has moved from disbelief to belief in this possibility.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a logical progression from a past lack of belief to a current belief in an external restorative agency, with 'sanity' as a desired outcome. The terms 'Power' and 'sanity' are abstract, but the causal link ('could restore us') is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is struggling with a condition they perceive as uncontrollable or insane (e.g., addiction, severe anxiety, or trauma).\",\n    \"The individual is open to spiritual, existential, or higher-power concepts, or willing to adopt them as a therapeutic metaphor.\",\n    \"The therapeutic context supports surrender of excessive self-will or autonomy as a pathway to recovery.\",\n    \"The statement is used as part of a structured program (e.g., 12-step) that provides community and ongoing support.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the individual interprets 'Power' as a literal deity that will magically solve problems without personal action, leading to passivity or neglect of evidence-based treatment.\",\n    \"If the term 'sanity' is pathologized in a way that dismisses legitimate medical or psychological diagnoses that require professional intervention.\",\n    \"If the statement is used to coerce religious belief or to invalidate the individual's own agency and capacity for change.\",\n    \"If the individual has a history of trauma or abuse related to religious or authoritarian structures, making the statement retraumatizing rather than therapeutic.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions to express a shift from self-reliance to openness toward external, transcendent support, and to articulate a step in the process of recovery from addiction or mental health struggles.",
+    "implicit_claims": [
+      "The speaker previously believed they could restore themselves to sanity through their own power alone.",
+      "The speaker acknowledges that their current state is one of 'insanity' or severe dysfunction.",
+      "There exists a 'Power greater than ourselves' that can effect restoration.",
+      "Restoration to sanity is possible through this external Power.",
+      "The speaker has moved from disbelief to belief in this possibility."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a logical progression from a past lack of belief to a current belief in an external restorative agency, with 'sanity' as a desired outcome. The terms 'Power' and 'sanity' are abstract, but the causal link ('could restore us') is consistent.",
+    "conditions_for_usefulness": [
+      "The individual is struggling with a condition they perceive as uncontrollable or insane (e.g., addiction, severe anxiety, or trauma).",
+      "The individual is open to spiritual, existential, or higher-power concepts, or willing to adopt them as a therapeutic metaphor.",
+      "The therapeutic context supports surrender of excessive self-will or autonomy as a pathway to recovery.",
+      "The statement is used as part of a structured program (e.g., 12-step) that provides community and ongoing support."
+    ],
+    "conditions_for_misleading": [
+      "If the individual interprets 'Power' as a literal deity that will magically solve problems without personal action, leading to passivity or neglect of evidence-based treatment.",
+      "If the term 'sanity' is pathologized in a way that dismisses legitimate medical or psychological diagnoses that require professional intervention.",
+      "If the statement is used to coerce religious belief or to invalidate the individual's own agency and capacity for change.",
+      "If the individual has a history of trauma or abuse related to religious or authoritarian structures, making the statement retraumatizing rather than therapeutic."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 449,
+  "error": "",
+  "retry_count": 0
+}

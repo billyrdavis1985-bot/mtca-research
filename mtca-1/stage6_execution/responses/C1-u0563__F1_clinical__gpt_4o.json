@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0563__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:46:02.208106+00:00",
+  "wall_clock_seconds": 3.9534659385681152,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is attempting to provide guidance or advice, suggesting a method for influencing the characteristics of an unborn child through mental imagery.\",\n  \"implicit_claims\": [\n    \"The sex of a child can be determined post-conception through mental imagery.\",\n    \"The physical and moral qualities of a child can be influenced by the mother's thoughts during gestation.\",\n    \"A mother's thoughts and mental images during pregnancy have a direct impact on the developing fetus.\"\n  ],\n  \"coherence_assessment\": \"The statement lacks internal coherence and scientific validity. It assumes a causation between mental imagery and the biological development of a fetus without established evidence or logical connection.\",\n  \"conditions_for_usefulness\": \"For the statement to be useful, there would need to be credible scientific evidence showing that maternal thoughts can influence the genetic and developmental traits of a fetus. Additionally, it would require understanding the mechanisms by which thoughts can biologically affect fetal development.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if taken as factual advice for prenatal influence, as it is not supported by scientific evidence. It may lead individuals to rely on mental imagery for influencing outcomes that are genetically predetermined or principally influenced by broader biological and environmental factors.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is attempting to provide guidance or advice, suggesting a method for influencing the characteristics of an unborn child through mental imagery.",
+    "implicit_claims": [
+      "The sex of a child can be determined post-conception through mental imagery.",
+      "The physical and moral qualities of a child can be influenced by the mother's thoughts during gestation.",
+      "A mother's thoughts and mental images during pregnancy have a direct impact on the developing fetus."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence and scientific validity. It assumes a causation between mental imagery and the biological development of a fetus without established evidence or logical connection.",
+    "conditions_for_usefulness": "For the statement to be useful, there would need to be credible scientific evidence showing that maternal thoughts can influence the genetic and developmental traits of a fetus. Additionally, it would require understanding the mechanisms by which thoughts can biologically affect fetal development.",
+    "conditions_for_misleading": "The statement would be misleading if taken as factual advice for prenatal influence, as it is not supported by scientific evidence. It may lead individuals to rely on mental imagery for influencing outcomes that are genetically predetermined or principally influenced by broader biological and environmental factors."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 220,
+  "output_tokens": 258,
+  "error": "",
+  "retry_count": 0
+}

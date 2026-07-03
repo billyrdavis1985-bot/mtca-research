@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0000__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:47:49.038941+00:00",
+  "wall_clock_seconds": 17.38524079322815,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a metacognitive distancing move — it performs an act of self-observation that simultaneously enacts and reinforces the cognitive defusion skill it describes. It is a first-person declarative that also operates as a therapeutic intervention on the speaker's own belief system, creating separation between the observing self and the content of automatic thoughts.\",\n  \"implicit_claims\": [\n    \"There is a distinction between 'automatic thoughts' and 'evidence'\",\n    \"The speaker has a self capable of noticing its own cognition (metacognitive capacity is present)\",\n    \"Automatic thoughts have a tendency to be mistaken for evidence (i.e., this conflation is a real and common error)\",\n    \"Evidence is a meaningful and accessible category against which thoughts can be compared\",\n    \"Noticing this distinction is therapeutically or practically valuable\",\n    \"The speaker's automatic thoughts are potentially unreliable or distorted\",\n    \"There exists something like an objective or intersubjective standard of 'what is true' that is separable from internal mental content\",\n    \"The act of verbal labeling or noticing can alter the functional relationship between the speaker and their thoughts\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within the cognitive-behavioral and ACT frameworks it draws from. The structure — 'I notice that X is not the same as Y' — correctly separates the observing function from the evaluated content. However, it contains a subtle tension: the act of noticing is itself a cognitive event, so the boundary between 'automatic thought' and 'metacognitive observation' is assumed rather than established. This is not a fatal flaw but a known philosophical limitation of metacognitive models.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is experiencing distress driven by thoughts that are being treated as direct readouts of reality (cognitive fusion)\",\n    \"The speaker has sufficient metacognitive capacity to genuinely distinguish between thought-as-event and thought-as-fact\",\n    \"The domain in question involves distorted appraisals (e.g., catastrophizing, mind-reading) rather than accurate threat detection\",\n    \"The therapeutic relationship and context support the use of this reframe without it feeling dismissive\",\n    \"The speaker's automatic thoughts are, in fact, unreliable in the relevant instance\",\n    \"Evidence-based evaluation of the situation is feasible and accessible to the speaker\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The automatic thought in question is actually accurate (e.g., a realistic assessment of danger, discrimination, or relational threat) — in which case the statement pathologizes valid cognition\",\n    \"The speaker uses the statement to suppress or avoid engaging with legitimate emotional information rather than to evaluate it\",\n    \"The concept of 'evidence' is applied naively, ignoring that evidence-gathering and interpretation are themselves cognitively mediated\",\n    \"The statement is deployed by a clinician to discredit a patient's perception without adequate investigation of whether the thought reflects reality\",\n    \"The speaker lacks the cultural, linguistic, or cognitive scaffolding to meaningfully operationalize 'evidence' in their context\",\n    \"Repeated use fosters chronic self-doubt rather than calibrated epistemic humility, undermining trust in one's own perception across domains\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a metacognitive distancing move — it performs an act of self-observation that simultaneously enacts and reinforces the cognitive defusion skill it describes. It is a first-person declarative that also operates as a therapeutic intervention on the speaker's own belief system, creating separation between the observing self and the content of automatic thoughts.",
+    "implicit_claims": [
+      "There is a distinction between 'automatic thoughts' and 'evidence'",
+      "The speaker has a self capable of noticing its own cognition (metacognitive capacity is present)",
+      "Automatic thoughts have a tendency to be mistaken for evidence (i.e., this conflation is a real and common error)",
+      "Evidence is a meaningful and accessible category against which thoughts can be compared",
+      "Noticing this distinction is therapeutically or practically valuable",
+      "The speaker's automatic thoughts are potentially unreliable or distorted",
+      "There exists something like an objective or intersubjective standard of 'what is true' that is separable from internal mental content",
+      "The act of verbal labeling or noticing can alter the functional relationship between the speaker and their thoughts"
+    ],
+    "coherence_assessment": "The statement is internally coherent within the cognitive-behavioral and ACT frameworks it draws from. The structure — 'I notice that X is not the same as Y' — correctly separates the observing function from the evaluated content. However, it contains a subtle tension: the act of noticing is itself a cognitive event, so the boundary between 'automatic thought' and 'metacognitive observation' is assumed rather than established. This is not a fatal flaw but a known philosophical limitation of metacognitive models.",
+    "conditions_for_usefulness": [
+      "The speaker is experiencing distress driven by thoughts that are being treated as direct readouts of reality (cognitive fusion)",
+      "The speaker has sufficient metacognitive capacity to genuinely distinguish between thought-as-event and thought-as-fact",
+      "The domain in question involves distorted appraisals (e.g., catastrophizing, mind-reading) rather than accurate threat detection",
+      "The therapeutic relationship and context support the use of this reframe without it feeling dismissive",
+      "The speaker's automatic thoughts are, in fact, unreliable in the relevant instance",
+      "Evidence-based evaluation of the situation is feasible and accessible to the speaker"
+    ],
+    "conditions_for_misleading": [
+      "The automatic thought in question is actually accurate (e.g., a realistic assessment of danger, discrimination, or relational threat) — in which case the statement pathologizes valid cognition",
+      "The speaker uses the statement to suppress or avoid engaging with legitimate emotional information rather than to evaluate it",
+      "The concept of 'evidence' is applied naively, ignoring that evidence-gathering and interpretation are themselves cognitively mediated",
+      "The statement is deployed by a clinician to discredit a patient's perception without adequate investigation of whether the thought reflects reality",
+      "The speaker lacks the cultural, linguistic, or cognitive scaffolding to meaningfully operationalize 'evidence' in their context",
+      "Repeated use fosters chronic self-doubt rather than calibrated epistemic humility, undermining trust in one's own perception across domains"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 759,
+  "error": "",
+  "retry_count": 0
+}

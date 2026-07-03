@@ -1,0 +1,51 @@
+{
+  "call_id": "C8-u0006__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:20:42.253643+00:00",
+  "wall_clock_seconds": 9.245877742767334,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"This statement functions as a self-commitment and a guiding principle for behavior, particularly in situations involving fear or discomfort. It is a declaration of intent to act in a goal-directed manner, overriding emotional inhibition (fear) when a rational assessment (evidence of helpfulness) supports the action. It serves as a self-regulatory strategy to foster courage and progress in the face of psychological barriers.\",\n  \"implicit_claims\": [\n    \"That the speaker experiences fear or apprehension regarding certain actions.\",\n    \"That fear can be a barrier to actions that are beneficial.\",\n    \"That the speaker has agency and control over their willingness to act.\",\n    \"That 'evidence' can be identified, assessed, and interpreted.\",\n    \"That actions can be objectively evaluated for their likelihood of being 'helpful'.\",\n    \"That 'help' is a desirable outcome and aligns with the speaker's goals or values.\",\n    \"That it is possible and sometimes necessary to act despite fear.\",\n    \"That there is a rational capacity within the self to weigh potential benefits against emotional discomfort.\",\n    \"That the speaker is capable of discerning legitimate evidence from false beliefs or desires.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a conditional willingness, linking the act of confronting fear with a rational assessment of potential benefit. The 'when the evidence suggests they are likely to help me' clause provides a clear, logical boundary and justification for the 'willingness to do things that scare me', preventing it from being a blanket endorsement of reckless or unexamined action. It balances emotional experience with cognitive evaluation.\",\n  \"conditions_for_usefulness\": [\n    \"When the individual's fear response is disproportionate to the actual danger, preventing them from pursuing valued goals or necessary actions (e.g., in anxiety disorders, social phobias, exposure therapy).\",\n    \"When there is clear, reliable, and accessible evidence to suggest that the scary action is indeed likely to produce positive, desired outcomes (e.g., therapeutic protocols, expert advice, personal experience, scientific data).\",\n    \"When the individual possesses sufficient cognitive capacity and critical thinking skills to accurately evaluate evidence and its implications.\",\n    \"When the 'help' sought aligns with the individual's core values, long-term well-being, and ethical considerations.\",\n    \"When the statement empowers the individual to overcome avoidance behaviors and engage in behaviors that promote growth, healing, or problem-solving.\",\n    \"When the individual believes in their capacity to exert willingness and act in accordance with rational judgment despite discomfort.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the 'evidence' is misinterpreted, insufficient, biased, or manipulated, leading to actions that are genuinely harmful or counterproductive instead of helpful.\",\n    \"If the 'scares me' refers to legitimate, protective fear responses that are appropriate in genuinely dangerous or threatening situations (e.g., fear of self-harm, fear of abuse, fear of physically dangerous activities without proper safety measures).\",\n    \"If the individual lacks the cognitive capacity or reality testing to accurately assess evidence, making them susceptible to poor judgment (e.g., in certain psychotic states, severe cognitive impairment, or under duress).\",\n    \"If the statement is used to rationalize or justify reckless, impulsive, or self-destructive behaviors under the guise of 'facing fears' or 'seeking help' without proper critical evaluation.\",\n    \"If the 'help' is short-term relief that leads to long-term detriment, or if it conflicts with the individual's true values or ethical standards.\",\n    \"If the individual is coerced or pressured by others into believing certain actions are 'helpful' when they are not, leveraging this statement against their genuine self-preservation or well-being.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a self-commitment and a guiding principle for behavior, particularly in situations involving fear or discomfort. It is a declaration of intent to act in a goal-directed manner, overriding emotional inhibition (fear) when a rational assessment (evidence of helpfulness) supports the action. It serves as a self-regulatory strategy to foster courage and progress in the face of psychological barriers.",
+    "implicit_claims": [
+      "That the speaker experiences fear or apprehension regarding certain actions.",
+      "That fear can be a barrier to actions that are beneficial.",
+      "That the speaker has agency and control over their willingness to act.",
+      "That 'evidence' can be identified, assessed, and interpreted.",
+      "That actions can be objectively evaluated for their likelihood of being 'helpful'.",
+      "That 'help' is a desirable outcome and aligns with the speaker's goals or values.",
+      "That it is possible and sometimes necessary to act despite fear.",
+      "That there is a rational capacity within the self to weigh potential benefits against emotional discomfort.",
+      "That the speaker is capable of discerning legitimate evidence from false beliefs or desires."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a conditional willingness, linking the act of confronting fear with a rational assessment of potential benefit. The 'when the evidence suggests they are likely to help me' clause provides a clear, logical boundary and justification for the 'willingness to do things that scare me', preventing it from being a blanket endorsement of reckless or unexamined action. It balances emotional experience with cognitive evaluation.",
+    "conditions_for_usefulness": [
+      "When the individual's fear response is disproportionate to the actual danger, preventing them from pursuing valued goals or necessary actions (e.g., in anxiety disorders, social phobias, exposure therapy).",
+      "When there is clear, reliable, and accessible evidence to suggest that the scary action is indeed likely to produce positive, desired outcomes (e.g., therapeutic protocols, expert advice, personal experience, scientific data).",
+      "When the individual possesses sufficient cognitive capacity and critical thinking skills to accurately evaluate evidence and its implications.",
+      "When the 'help' sought aligns with the individual's core values, long-term well-being, and ethical considerations.",
+      "When the statement empowers the individual to overcome avoidance behaviors and engage in behaviors that promote growth, healing, or problem-solving.",
+      "When the individual believes in their capacity to exert willingness and act in accordance with rational judgment despite discomfort."
+    ],
+    "conditions_for_misleading": [
+      "If the 'evidence' is misinterpreted, insufficient, biased, or manipulated, leading to actions that are genuinely harmful or counterproductive instead of helpful.",
+      "If the 'scares me' refers to legitimate, protective fear responses that are appropriate in genuinely dangerous or threatening situations (e.g., fear of self-harm, fear of abuse, fear of physically dangerous activities without proper safety measures).",
+      "If the individual lacks the cognitive capacity or reality testing to accurately assess evidence, making them susceptible to poor judgment (e.g., in certain psychotic states, severe cognitive impairment, or under duress).",
+      "If the statement is used to rationalize or justify reckless, impulsive, or self-destructive behaviors under the guise of 'facing fears' or 'seeking help' without proper critical evaluation.",
+      "If the 'help' is short-term relief that leads to long-term detriment, or if it conflicts with the individual's true values or ethical standards.",
+      "If the individual is coerced or pressured by others into believing certain actions are 'helpful' when they are not, leveraging this statement against their genuine self-preservation or well-being."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 815,
+  "error": "",
+  "retry_count": 0
+}

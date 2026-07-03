@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0285__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:33:44.648376+00:00",
+  "wall_clock_seconds": 17.5919291973114,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Rhetorical deflection using a tu quoque-style argument; the statement preemptively concedes a hypothetical danger only to dismiss its relevance by appealing to the ubiquity of danger in all things, thereby shifting the burden of proof onto the critic rather than addressing the safety concern directly.\",\n  \"implicit_claims\": [\n    \"Autosuggestion is not actually dangerous (asserted parenthetically as fact).\",\n    \"If something is dangerous, that danger is insufficient grounds for rejecting it.\",\n    \"All useful things carry some danger, making danger a non-distinguishing criterion.\",\n    \"The critic cannot name a universally safe tool or practice, which would undermine their objection.\",\n    \"The rhetorical question implies that danger is universal and therefore unremarkable.\",\n    \"Autosuggestion belongs in the same category as other accepted useful-but-risky things.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally inconsistent: it simultaneously denies danger ('which is not so') and argues that danger would be irrelevant even if present. This double move weakens the argument — if there is genuinely no danger, the comparative argument about other dangerous things is unnecessary. The rhetorical question also commits an implicit false equivalence, treating all dangers as comparable regardless of magnitude or type.\",\n  \"conditions_for_usefulness\": [\n    \"The danger of autosuggestion would have to be genuinely comparable in magnitude and type to the dangers of other widely accepted practices.\",\n    \"The critic's objection would have to rest solely on the presence of any danger, rather than on the specific nature or magnitude of the danger.\",\n    \"There would have to be clear, demonstrated benefits of autosuggestion that justify weighing against its risks.\",\n    \"The audience would need to already accept a risk-benefit framework for evaluating practices.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If autosuggestion carries unique or disproportionate risks not present in commonly accepted practices.\",\n    \"If the critic's concern is about specific harms (e.g., delaying medical treatment, reinforcing harmful thinking patterns) rather than danger in the abstract.\",\n    \"If the benefits of autosuggestion are unproven or overstated, making the risk-benefit comparison unfavorable.\",\n    \"If vulnerable populations (those with serious illness or mental health conditions) are the primary audience and are implicitly encouraged to substitute autosuggestion for evidence-based care.\",\n    \"If the parenthetical denial of danger ('which is not so') is itself unsupported, making the entire rhetorical structure rest on an unverified premise.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Rhetorical deflection using a tu quoque-style argument; the statement preemptively concedes a hypothetical danger only to dismiss its relevance by appealing to the ubiquity of danger in all things, thereby shifting the burden of proof onto the critic rather than addressing the safety concern directly.",
+    "implicit_claims": [
+      "Autosuggestion is not actually dangerous (asserted parenthetically as fact).",
+      "If something is dangerous, that danger is insufficient grounds for rejecting it.",
+      "All useful things carry some danger, making danger a non-distinguishing criterion.",
+      "The critic cannot name a universally safe tool or practice, which would undermine their objection.",
+      "The rhetorical question implies that danger is universal and therefore unremarkable.",
+      "Autosuggestion belongs in the same category as other accepted useful-but-risky things."
+    ],
+    "coherence_assessment": "The statement is internally inconsistent: it simultaneously denies danger ('which is not so') and argues that danger would be irrelevant even if present. This double move weakens the argument — if there is genuinely no danger, the comparative argument about other dangerous things is unnecessary. The rhetorical question also commits an implicit false equivalence, treating all dangers as comparable regardless of magnitude or type.",
+    "conditions_for_usefulness": [
+      "The danger of autosuggestion would have to be genuinely comparable in magnitude and type to the dangers of other widely accepted practices.",
+      "The critic's objection would have to rest solely on the presence of any danger, rather than on the specific nature or magnitude of the danger.",
+      "There would have to be clear, demonstrated benefits of autosuggestion that justify weighing against its risks.",
+      "The audience would need to already accept a risk-benefit framework for evaluating practices."
+    ],
+    "conditions_for_misleading": [
+      "If autosuggestion carries unique or disproportionate risks not present in commonly accepted practices.",
+      "If the critic's concern is about specific harms (e.g., delaying medical treatment, reinforcing harmful thinking patterns) rather than danger in the abstract.",
+      "If the benefits of autosuggestion are unproven or overstated, making the risk-benefit comparison unfavorable.",
+      "If vulnerable populations (those with serious illness or mental health conditions) are the primary audience and are implicitly encouraged to substitute autosuggestion for evidence-based care.",
+      "If the parenthetical denial of danger ('which is not so') is itself unsupported, making the entire rhetorical structure rest on an unverified premise."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 195,
+  "output_tokens": 609,
+  "error": "",
+  "retry_count": 0
+}

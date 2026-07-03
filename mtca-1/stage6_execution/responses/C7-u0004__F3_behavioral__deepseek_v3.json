@@ -1,0 +1,45 @@
+{
+  "call_id": "C7-u0004__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:09:59.782122+00:00",
+  "wall_clock_seconds": 5.2176899909973145,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a pledge to perform a specific, vulnerable act of confession and accountability, often within a recovery or moral framework.\",\n  \"implicit_claims\": [\n    \"There exists a higher power (God) or a moral order to which one can confess.\",\n    \"The speaker has committed wrongs that have a discernible 'exact nature'.\",\n    \"Confession to self, a higher power, and another person is a necessary or beneficial step.\",\n    \"The speaker is capable of identifying and articulating these wrongs accurately.\",\n    \"The act of admission is meaningful and will lead to change or relief.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it outlines a clear, sequential process of admission with three distinct audiences. The phrase 'exact nature' implies specificity, which aligns with the commitment's goal of thorough accountability.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes in a higher power or finds value in the spiritual framing.\",\n    \"The speaker has a safe, trustworthy person to confide in.\",\n    \"The speaker is psychologically ready to confront and articulate their wrongs without evasion.\",\n    \"The context (e.g., a recovery program, therapy, or personal growth practice) supports this kind of confession.\",\n    \"The speaker has a clear understanding of what constitutes their 'wrongs' and can identify their 'exact nature'.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses this statement as a substitute for actual behavioral change or restitution.\",\n    \"If the speaker is coerced or insincere, making the admission performative rather than genuine.\",\n    \"If the concept of 'exact nature' invites harmful over-analysis or shame without resolution.\",\n    \"If the listener (the 'another human being') is untrustworthy or abusive, the confession could be exploited.\",\n    \"If the speaker has no belief in God or a higher power, the first part of the statement may feel meaningless or inauthentic.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a pledge to perform a specific, vulnerable act of confession and accountability, often within a recovery or moral framework.",
+    "implicit_claims": [
+      "There exists a higher power (God) or a moral order to which one can confess.",
+      "The speaker has committed wrongs that have a discernible 'exact nature'.",
+      "Confession to self, a higher power, and another person is a necessary or beneficial step.",
+      "The speaker is capable of identifying and articulating these wrongs accurately.",
+      "The act of admission is meaningful and will lead to change or relief."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it outlines a clear, sequential process of admission with three distinct audiences. The phrase 'exact nature' implies specificity, which aligns with the commitment's goal of thorough accountability.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes in a higher power or finds value in the spiritual framing.",
+      "The speaker has a safe, trustworthy person to confide in.",
+      "The speaker is psychologically ready to confront and articulate their wrongs without evasion.",
+      "The context (e.g., a recovery program, therapy, or personal growth practice) supports this kind of confession.",
+      "The speaker has a clear understanding of what constitutes their 'wrongs' and can identify their 'exact nature'."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses this statement as a substitute for actual behavioral change or restitution.",
+      "If the speaker is coerced or insincere, making the admission performative rather than genuine.",
+      "If the concept of 'exact nature' invites harmful over-analysis or shame without resolution.",
+      "If the listener (the 'another human being') is untrustworthy or abusive, the confession could be exploited.",
+      "If the speaker has no belief in God or a higher power, the first part of the statement may feel meaningless or inauthentic."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 423,
+  "error": "",
+  "retry_count": 0
+}

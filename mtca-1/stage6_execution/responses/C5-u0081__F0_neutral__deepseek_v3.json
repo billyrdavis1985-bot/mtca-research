@@ -1,0 +1,41 @@
+{
+  "call_id": "C5-u0081__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:05:46.415260+00:00",
+  "wall_clock_seconds": 3.7727205753326416,
+  "raw_response": "{\n  \"communicative_function\": \"Prescriptive and ideological assertion about the purpose and value of suffering.\",\n  \"implicit_claims\": [\n    \"Suffering has a single, definable purpose.\",\n    \"That purpose is inherently positive (purification).\",\n    \"Suffering can separate 'useful' from 'useless' aspects of a person.\",\n    \"The only worthwhile use of suffering is this purification process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conceptual claim, but its coherence depends on accepting a teleological view of suffering (that it has a designated purpose) without empirical or logical evidence for that purpose.\",\n  \"conditions_for_usefulness\": [\n    \"If suffering indeed functions as a mechanism for moral or psychological purification.\",\n    \"If a clear, objective standard exists for what is 'useless and impure'.\",\n    \"If the person experiencing suffering can recognize and benefit from this process.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If suffering often leads to trauma, bitterness, or harm without any purifying effect.\",\n    \"If the statement is used to justify or minimize others' suffering without their consent.\",\n    \"If it implies that those who suffer are morally superior or that avoiding suffering is morally deficient.\",\n    \"If it overlooks the social, structural, or random causes of suffering that have no inherent purpose.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescriptive and ideological assertion about the purpose and value of suffering.",
+    "implicit_claims": [
+      "Suffering has a single, definable purpose.",
+      "That purpose is inherently positive (purification).",
+      "Suffering can separate 'useful' from 'useless' aspects of a person.",
+      "The only worthwhile use of suffering is this purification process."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conceptual claim, but its coherence depends on accepting a teleological view of suffering (that it has a designated purpose) without empirical or logical evidence for that purpose.",
+    "conditions_for_usefulness": [
+      "If suffering indeed functions as a mechanism for moral or psychological purification.",
+      "If a clear, objective standard exists for what is 'useless and impure'.",
+      "If the person experiencing suffering can recognize and benefit from this process."
+    ],
+    "conditions_for_misleading": [
+      "If suffering often leads to trauma, bitterness, or harm without any purifying effect.",
+      "If the statement is used to justify or minimize others' suffering without their consent.",
+      "If it implies that those who suffer are morally superior or that avoiding suffering is morally deficient.",
+      "If it overlooks the social, structural, or random causes of suffering that have no inherent purpose."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 138,
+  "output_tokens": 289,
+  "error": "",
+  "retry_count": 0
+}

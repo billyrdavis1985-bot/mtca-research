@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0007__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:27:20.791477+00:00",
+  "wall_clock_seconds": 13.901432514190674,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a metacognitive disclosure — it signals an ongoing observational process about the self, framing a causal reorientation (behavior → mood rather than mood → behavior) as a personally discovered insight with implied commitment to act accordingly.\",\n  \"implicit_claims\": [\n    \"The speaker has been monitoring their own mood and behavior over time.\",\n    \"There is a directional causal or temporal relationship between mood and behavior that can be observed.\",\n    \"The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood.\",\n    \"Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person.\",\n    \"The speaker has sufficient self-awareness to distinguish mood states from behavioral states reliably.\",\n    \"This pattern is stable or frequent enough to warrant the word 'often'.\",\n    \"The insight has or will have practical implications for how the speaker manages themselves.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It is framed tentatively ('noticing,' 'more often than') rather than as an absolute claim, which makes it epistemically modest and defensible. The behavioral-commitment framing is consistent with the content, since recognizing behavior-first causality logically supports committing to behavioral change as a mood-regulation strategy. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The observation is based on genuine repeated self-monitoring rather than a single anecdote.\",\n    \"The speaker is prepared to use this insight to initiate behavior even in low-mood states.\",\n    \"The behaviors in question are within the speaker's volitional control.\",\n    \"The mood states involved are not so severe (e.g., clinical depression) as to require additional intervention beyond behavioral change.\",\n    \"The speaker revisits and updates the belief if counterevidence accumulates.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is overgeneralizing from a few salient instances, ignoring cases where mood clearly preceded and blocked behavior.\",\n    \"The framing is used to bypass legitimate emotional signals that should inform behavior (e.g., ignoring distress as meaningful information).\",\n    \"It is applied to contexts where the causal direction is genuinely mood-first (e.g., hypomania driving behavior).\",\n    \"The statement becomes a rigid rule that leads to dismissing mood entirely rather than treating it as one input among several.\",\n    \"It is used performatively — to signal self-awareness — without actual behavioral follow-through or continued self-monitoring.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a metacognitive disclosure — it signals an ongoing observational process about the self, framing a causal reorientation (behavior → mood rather than mood → behavior) as a personally discovered insight with implied commitment to act accordingly.",
+    "implicit_claims": [
+      "The speaker has been monitoring their own mood and behavior over time.",
+      "There is a directional causal or temporal relationship between mood and behavior that can be observed.",
+      "The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood.",
+      "Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person.",
+      "The speaker has sufficient self-awareness to distinguish mood states from behavioral states reliably.",
+      "This pattern is stable or frequent enough to warrant the word 'often'.",
+      "The insight has or will have practical implications for how the speaker manages themselves."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It is framed tentatively ('noticing,' 'more often than') rather than as an absolute claim, which makes it epistemically modest and defensible. The behavioral-commitment framing is consistent with the content, since recognizing behavior-first causality logically supports committing to behavioral change as a mood-regulation strategy. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The observation is based on genuine repeated self-monitoring rather than a single anecdote.",
+      "The speaker is prepared to use this insight to initiate behavior even in low-mood states.",
+      "The behaviors in question are within the speaker's volitional control.",
+      "The mood states involved are not so severe (e.g., clinical depression) as to require additional intervention beyond behavioral change.",
+      "The speaker revisits and updates the belief if counterevidence accumulates."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is overgeneralizing from a few salient instances, ignoring cases where mood clearly preceded and blocked behavior.",
+      "The framing is used to bypass legitimate emotional signals that should inform behavior (e.g., ignoring distress as meaningful information).",
+      "It is applied to contexts where the causal direction is genuinely mood-first (e.g., hypomania driving behavior).",
+      "The statement becomes a rigid rule that leads to dismissing mood entirely rather than treating it as one input among several.",
+      "It is used performatively — to signal self-awareness — without actual behavioral follow-through or continued self-monitoring."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 594,
+  "error": "",
+  "retry_count": 0
+}

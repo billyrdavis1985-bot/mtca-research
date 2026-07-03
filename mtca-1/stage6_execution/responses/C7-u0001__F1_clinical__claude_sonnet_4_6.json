@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0001__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:55:38.052378+00:00",
+  "wall_clock_seconds": 19.759249925613403,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a cognitive-affective reorientation prompt, inviting the practitioner or client to adopt a stance of epistemic humility and openness toward external sources of support. It narrates a process of belief change (coming to believe) rather than asserting a fixed doctrine, and frames recovery as dependent on relinquishing sole reliance on one's own will or cognition.\",\n  \"implicit_claims\": [\n    \"The self, in its current state, is not sufficient to restore its own sanity — i.e., a deficit or limitation in autonomous self-regulation is presupposed.\",\n    \"Something categorized as 'greater than ourselves' exists or can be functionally operationalized.\",\n    \"The individual was previously in a state of 'insanity' or disordered functioning that requires restoration.\",\n    \"Belief itself is a therapeutic mechanism — that holding a belief in external support has causal efficacy on recovery.\",\n    \"The process of 'coming to believe' is gradual and achievable, implying that prior disbelief or ambivalence is normal and not disqualifying.\",\n    \"Restoration to a prior or normative state of sanity is a meaningful and achievable goal.\",\n    \"Surrender of self-sufficiency is therapeutically beneficial rather than harmful.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The narrative arc (gradual belief formation → external resource → functional restoration) is logically consistent. However, key terms such as 'Power greater than ourselves' and 'sanity' are semantically underdetermined, which creates interpretive flexibility that can be either a strength (allowing personalization) or a weakness (allowing inconsistent application). The coherence is pragmatic rather than propositional — it functions as a therapeutic heuristic rather than a falsifiable claim.\",\n  \"conditions_for_usefulness\": [\n    \"The client is able to functionally operationalize 'a Power greater than themselves' in a personally meaningful way, whether theistic, naturalistic, communal, or symbolic.\",\n    \"The client genuinely experiences their own self-directed efforts as having been insufficient, making the relinquishment of control feel accurate rather than imposed.\",\n    \"The therapeutic context supports exploration of what 'sanity' means for the individual rather than imposing a normative standard.\",\n    \"The statement is used as an invitation to reflection rather than a doctrinal requirement.\",\n    \"The practitioner contextualizes the statement within a broader evidence-based framework and does not present it as a standalone cure.\",\n    \"The client has the psychological safety to engage with spiritual or philosophical concepts without coercion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as empirically validated in a medical sense without disclosing its origins in a spiritual/mutual-aid tradition (Alcoholics Anonymous Step 2).\",\n    \"The term 'sanity' is used without definition, inadvertently pathologizing the client or implying a more severe diagnosis than is clinically warranted.\",\n    \"The concept of a 'greater Power' is conflated with a specific religious entity, alienating clients with secular, atheist, or religiously traumatized backgrounds.\",\n    \"The statement is used to discourage the client from seeking or continuing pharmacological or other evidence-based interventions by implying that external belief alone is sufficient.\",\n    \"The practitioner uses the statement to shift responsibility for recovery outcomes onto the client's level of belief, enabling therapeutic blame if progress stalls.\",\n    \"The presupposition of prior 'insanity' is accepted uncritically, reinforcing stigmatizing self-narratives without clinical justification.\",\n    \"The gradual belief process ('came to believe') is treated as a mandatory milestone, creating a barrier to participation for those who cannot adopt the belief frame.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a cognitive-affective reorientation prompt, inviting the practitioner or client to adopt a stance of epistemic humility and openness toward external sources of support. It narrates a process of belief change (coming to believe) rather than asserting a fixed doctrine, and frames recovery as dependent on relinquishing sole reliance on one's own will or cognition.",
+    "implicit_claims": [
+      "The self, in its current state, is not sufficient to restore its own sanity — i.e., a deficit or limitation in autonomous self-regulation is presupposed.",
+      "Something categorized as 'greater than ourselves' exists or can be functionally operationalized.",
+      "The individual was previously in a state of 'insanity' or disordered functioning that requires restoration.",
+      "Belief itself is a therapeutic mechanism — that holding a belief in external support has causal efficacy on recovery.",
+      "The process of 'coming to believe' is gradual and achievable, implying that prior disbelief or ambivalence is normal and not disqualifying.",
+      "Restoration to a prior or normative state of sanity is a meaningful and achievable goal.",
+      "Surrender of self-sufficiency is therapeutically beneficial rather than harmful."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The narrative arc (gradual belief formation → external resource → functional restoration) is logically consistent. However, key terms such as 'Power greater than ourselves' and 'sanity' are semantically underdetermined, which creates interpretive flexibility that can be either a strength (allowing personalization) or a weakness (allowing inconsistent application). The coherence is pragmatic rather than propositional — it functions as a therapeutic heuristic rather than a falsifiable claim.",
+    "conditions_for_usefulness": [
+      "The client is able to functionally operationalize 'a Power greater than themselves' in a personally meaningful way, whether theistic, naturalistic, communal, or symbolic.",
+      "The client genuinely experiences their own self-directed efforts as having been insufficient, making the relinquishment of control feel accurate rather than imposed.",
+      "The therapeutic context supports exploration of what 'sanity' means for the individual rather than imposing a normative standard.",
+      "The statement is used as an invitation to reflection rather than a doctrinal requirement.",
+      "The practitioner contextualizes the statement within a broader evidence-based framework and does not present it as a standalone cure.",
+      "The client has the psychological safety to engage with spiritual or philosophical concepts without coercion."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as empirically validated in a medical sense without disclosing its origins in a spiritual/mutual-aid tradition (Alcoholics Anonymous Step 2).",
+      "The term 'sanity' is used without definition, inadvertently pathologizing the client or implying a more severe diagnosis than is clinically warranted.",
+      "The concept of a 'greater Power' is conflated with a specific religious entity, alienating clients with secular, atheist, or religiously traumatized backgrounds.",
+      "The statement is used to discourage the client from seeking or continuing pharmacological or other evidence-based interventions by implying that external belief alone is sufficient.",
+      "The practitioner uses the statement to shift responsibility for recovery outcomes onto the client's level of belief, enabling therapeutic blame if progress stalls.",
+      "The presupposition of prior 'insanity' is accepted uncritically, reinforcing stigmatizing self-narratives without clinical justification.",
+      "The gradual belief process ('came to believe') is treated as a mandatory milestone, creating a barrier to participation for those who cannot adopt the belief frame."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 871,
+  "error": "",
+  "retry_count": 0
+}

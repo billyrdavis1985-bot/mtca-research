@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0004__F1_clinical__grok_4",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:09:45.487286+00:00",
+  "wall_clock_seconds": 5.054234027862549,
+  "raw_response": "{\n  \"communicative_function\": \"self-declarative commitment to metacognitive differentiation between automatic and endorsed cognition\",\n  \"implicit_claims\": [\n    \"a meaningful distinction exists between passively occurring thoughts and those actively endorsed\",\n    \"this distinction can be cultivated through deliberate practice\",\n    \"practicing the distinction is therapeutically relevant or beneficial\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presupposes standard metacognitive and cognitive-behavioral models separating occurrence from endorsement\",\n  \"conditions_for_usefulness\": \"the individual experiences distress from over-identifying with transient thoughts, possesses sufficient metacognitive capacity to notice the distinction, and the practice reduces fusion without impairing necessary belief formation\",\n  \"conditions_for_misleading\": \"no stable difference exists between occurrence and endorsement for the individual, the practice fosters chronic doubt or depersonalization, or endorsement is treated as optional when it is in fact constitutive of agency\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-declarative commitment to metacognitive differentiation between automatic and endorsed cognition",
+    "implicit_claims": [
+      "a meaningful distinction exists between passively occurring thoughts and those actively endorsed",
+      "this distinction can be cultivated through deliberate practice",
+      "practicing the distinction is therapeutically relevant or beneficial"
+    ],
+    "coherence_assessment": "internally coherent; presupposes standard metacognitive and cognitive-behavioral models separating occurrence from endorsement",
+    "conditions_for_usefulness": "the individual experiences distress from over-identifying with transient thoughts, possesses sufficient metacognitive capacity to notice the distinction, and the practice reduces fusion without impairing necessary belief formation",
+    "conditions_for_misleading": "no stable difference exists between occurrence and endorsement for the individual, the practice fosters chronic doubt or depersonalization, or endorsement is treated as optional when it is in fact constitutive of agency"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 188,
+  "error": "",
+  "retry_count": 0
+}

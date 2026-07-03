@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0178__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:16:44.182616+00:00",
+  "wall_clock_seconds": 18.887753009796143,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a prescriptive and normative function, describing an idealized, regularized pattern of human hunger and eating as though it were a universal baseline experience. It presents a culturally and historically situated vision of 'healthy' or 'natural' eating rhythms as if they were self-evident biological facts applicable to all humans.\",\n  \"implicit_claims\": [\n    \"Hunger is experienced exactly three times per day, aligned with conventional meal times.\",\n    \"Hunger is inherently an 'agreeable' or pleasurable sensation.\",\n    \"The experience of hunger is uniform across all individuals.\",\n    \"There is a natural and obvious boundary between appropriate eating and 'overeating'.\",\n    \"A three-meal-per-day structure is the natural or correct human eating pattern.\",\n    \"Eating is straightforwardly enjoyable when done at the right times.\",\n    \"Self-regulation of food intake is simple and intuitive.\",\n    \"Meal timing is culturally neutral and universally applicable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms but rests on a narrow and idealized model. It is logically consistent within its assumptions, but those assumptions are empirically contestable, making the statement coherent yet potentially misleading as a universal principle.\",\n  \"conditions_for_usefulness\": [\n    \"The audience shares the same cultural and socioeconomic context that normalizes three meals per day.\",\n    \"The individuals in question do not have eating disorders, metabolic conditions, or irregular schedules.\",\n    \"The statement is framed explicitly as one possible pattern rather than a universal norm.\",\n    \"It is used to encourage mindful, non-compulsive eating in a population with access to regular food.\",\n    \"It is paired with acknowledgment of individual variation in hunger patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as a universal biological fact applicable to all humans.\",\n    \"It is used in contexts involving people with eating disorders, for whom hunger cues may be distorted or absent.\",\n    \"It is applied to individuals with medical conditions affecting hunger signals (e.g., diabetes, ADHD, thyroid disorders).\",\n    \"It is used across cultural contexts where meal structures differ significantly.\",\n    \"It is applied to people experiencing food insecurity, for whom hunger is not 'agreeable'.\",\n    \"An AI system uses it to pathologize eating patterns that deviate from the three-meal model.\",\n    \"It is interpreted as implying that not feeling hungry at these times indicates dysfunction.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a prescriptive and normative function, describing an idealized, regularized pattern of human hunger and eating as though it were a universal baseline experience. It presents a culturally and historically situated vision of 'healthy' or 'natural' eating rhythms as if they were self-evident biological facts applicable to all humans.",
+    "implicit_claims": [
+      "Hunger is experienced exactly three times per day, aligned with conventional meal times.",
+      "Hunger is inherently an 'agreeable' or pleasurable sensation.",
+      "The experience of hunger is uniform across all individuals.",
+      "There is a natural and obvious boundary between appropriate eating and 'overeating'.",
+      "A three-meal-per-day structure is the natural or correct human eating pattern.",
+      "Eating is straightforwardly enjoyable when done at the right times.",
+      "Self-regulation of food intake is simple and intuitive.",
+      "Meal timing is culturally neutral and universally applicable."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms but rests on a narrow and idealized model. It is logically consistent within its assumptions, but those assumptions are empirically contestable, making the statement coherent yet potentially misleading as a universal principle.",
+    "conditions_for_usefulness": [
+      "The audience shares the same cultural and socioeconomic context that normalizes three meals per day.",
+      "The individuals in question do not have eating disorders, metabolic conditions, or irregular schedules.",
+      "The statement is framed explicitly as one possible pattern rather than a universal norm.",
+      "It is used to encourage mindful, non-compulsive eating in a population with access to regular food.",
+      "It is paired with acknowledgment of individual variation in hunger patterns."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as a universal biological fact applicable to all humans.",
+      "It is used in contexts involving people with eating disorders, for whom hunger cues may be distorted or absent.",
+      "It is applied to individuals with medical conditions affecting hunger signals (e.g., diabetes, ADHD, thyroid disorders).",
+      "It is used across cultural contexts where meal structures differ significantly.",
+      "It is applied to people experiencing food insecurity, for whom hunger is not 'agreeable'.",
+      "An AI system uses it to pathologize eating patterns that deviate from the three-meal model.",
+      "It is interpreted as implying that not feeling hungry at these times indicates dysfunction."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 243,
+  "output_tokens": 595,
+  "error": "",
+  "retry_count": 0
+}

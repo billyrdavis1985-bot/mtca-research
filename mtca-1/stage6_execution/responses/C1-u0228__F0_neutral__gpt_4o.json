@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0228__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:24:10.688051+00:00",
+  "wall_clock_seconds": 2.9559555053710938,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is illustrating the impact of a doctor's communication on a patient's mental state and health outcome.\",\n  \"implicit_claims\": [\n    \"A doctor's words have a powerful influence on a patient's mindset.\",\n    \"Patients are susceptible to autosuggestion influenced by authority figures.\",\n    \"Positive communication can lead to better health outcomes.\",\n    \"Negative prognoses, even if factual, can have harmful effects beyond the physical illness itself.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically follows that a doctor's authoritative communication can induce either positive or negative autosuggestion in a patient, impacting their psychological and possibly physical state.\",\n  \"conditions_for_usefulness\": \"For this statement to be useful, it must be true that patient outcomes are significantly influenced by their mindset, and that a doctor's communication can be a crucial factor in shaping this mindset.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the influence of autosuggestion is exaggerated, or if in reality, a doctor's words have minimal impact on the progression or treatment of certain illnesses.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is illustrating the impact of a doctor's communication on a patient's mental state and health outcome.",
+    "implicit_claims": [
+      "A doctor's words have a powerful influence on a patient's mindset.",
+      "Patients are susceptible to autosuggestion influenced by authority figures.",
+      "Positive communication can lead to better health outcomes.",
+      "Negative prognoses, even if factual, can have harmful effects beyond the physical illness itself."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically follows that a doctor's authoritative communication can induce either positive or negative autosuggestion in a patient, impacting their psychological and possibly physical state.",
+    "conditions_for_usefulness": "For this statement to be useful, it must be true that patient outcomes are significantly influenced by their mindset, and that a doctor's communication can be a crucial factor in shaping this mindset.",
+    "conditions_for_misleading": "The statement could be misleading if the influence of autosuggestion is exaggerated, or if in reality, a doctor's words have minimal impact on the progression or treatment of certain illnesses."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 223,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0
+}

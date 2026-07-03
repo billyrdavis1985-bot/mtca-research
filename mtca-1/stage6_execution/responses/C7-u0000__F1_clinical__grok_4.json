@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F1_clinical__grok_4",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:50:16.642086+00:00",
+  "wall_clock_seconds": 7.771269798278809,
+  "raw_response": "{\n  \"communicative_function\": \"performative admission of limitation that enacts surrender and opens a pathway to external support or structured recovery\",\n  \"implicit_claims\": [\n    \"the speaker's relationship to alcohol is characterized by loss of control rather than voluntary choice\",\n    \"life difficulties are causally downstream of alcohol use rather than independent or bidirectional\",\n    \"admission itself constitutes a necessary and discrete first move toward change\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a compressed causal narrative linking uncontrollability to global dysfunction; logically consistent within a disease-model or 12-step framework but treats correlation as unidirectional\",\n  \"conditions_for_usefulness\": \"the individual meets criteria for severe alcohol use disorder with repeated failed attempts at moderation, the statement reduces shame-driven concealment, and it is paired with structured behavioral or social interventions that convert admission into concrete action\",\n  \"conditions_for_misleading\": \"the individual retains capacity for controlled use, external life problems predate or are independent of alcohol, or the statement fosters global helplessness that discourages personal agency or evidence-based treatments emphasizing self-efficacy\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative admission of limitation that enacts surrender and opens a pathway to external support or structured recovery",
+    "implicit_claims": [
+      "the speaker's relationship to alcohol is characterized by loss of control rather than voluntary choice",
+      "life difficulties are causally downstream of alcohol use rather than independent or bidirectional",
+      "admission itself constitutes a necessary and discrete first move toward change"
+    ],
+    "coherence_assessment": "internally coherent as a compressed causal narrative linking uncontrollability to global dysfunction; logically consistent within a disease-model or 12-step framework but treats correlation as unidirectional",
+    "conditions_for_usefulness": "the individual meets criteria for severe alcohol use disorder with repeated failed attempts at moderation, the statement reduces shame-driven concealment, and it is paired with structured behavioral or social interventions that convert admission into concrete action",
+    "conditions_for_misleading": "the individual retains capacity for controlled use, external life problems predate or are independent of alcohol, or the statement fosters global helplessness that discourages personal agency or evidence-based treatments emphasizing self-efficacy"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 226,
+  "error": "",
+  "retry_count": 0
+}

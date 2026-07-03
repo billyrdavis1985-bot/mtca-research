@@ -1,0 +1,39 @@
+{
+  "call_id": "C5-u0003__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:58:36.353915+00:00",
+  "wall_clock_seconds": 4.162848711013794,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a philosophical claim about human agency and self-determination, emphasizing that individuals are responsible for their own character and destiny through their thoughts and actions.\",\n  \"implicit_claims\": [\n    \"Humans have the capacity to shape their own identity and life outcomes.\",\n    \"There is no external force or fate that primarily determines a person's character or destiny.\",\n    \"Personal responsibility and self-directed effort are the primary factors in becoming who one is.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a tautological or self-referential claim: 'they themselves are makers of themselves' is logically consistent, though it relies on a specific view of human autonomy. It is not contradictory in structure.\",\n  \"conditions_for_usefulness\": [\n    \"If individuals have meaningful agency and free will to change their thoughts and behaviors.\",\n    \"If the statement is used to inspire self-reflection and personal growth in a context where external constraints are minimal or surmountable.\",\n    \"If the audience is capable of introspection and willing to take responsibility for their own development.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If structural, social, or biological factors heavily limit a person's ability to change (e.g., poverty, discrimination, mental illness).\",\n    \"If the statement is interpreted to blame individuals for circumstances beyond their control.\",\n    \"If it denies the role of luck, systemic privilege, or external support in shaping a person's life.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a philosophical claim about human agency and self-determination, emphasizing that individuals are responsible for their own character and destiny through their thoughts and actions.",
+    "implicit_claims": [
+      "Humans have the capacity to shape their own identity and life outcomes.",
+      "There is no external force or fate that primarily determines a person's character or destiny.",
+      "Personal responsibility and self-directed effort are the primary factors in becoming who one is."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a tautological or self-referential claim: 'they themselves are makers of themselves' is logically consistent, though it relies on a specific view of human autonomy. It is not contradictory in structure.",
+    "conditions_for_usefulness": [
+      "If individuals have meaningful agency and free will to change their thoughts and behaviors.",
+      "If the statement is used to inspire self-reflection and personal growth in a context where external constraints are minimal or surmountable.",
+      "If the audience is capable of introspection and willing to take responsibility for their own development."
+    ],
+    "conditions_for_misleading": [
+      "If structural, social, or biological factors heavily limit a person's ability to change (e.g., poverty, discrimination, mental illness).",
+      "If the statement is interpreted to blame individuals for circumstances beyond their control.",
+      "If it denies the role of luck, systemic privilege, or external support in shaping a person's life."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 309,
+  "error": "",
+  "retry_count": 0
+}

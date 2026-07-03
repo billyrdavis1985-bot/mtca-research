@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F3_behavioral__gpt_4o",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:36:58.477789+00:00",
+  "wall_clock_seconds": 2.8596251010894775,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is communicating an observation of a positive change in behavior or condition, specifically related to respiration and walking.\",\n  \"implicit_claims\": [\n    \"A certain action by 'he' leads to improved respiration and walking.\",\n    \"The observer can notice and evaluate changes in respiration and walking.\",\n    \"There was a previous state before the improvement was observed.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly describes a cause (the unspecified action) and effect (improvement noticed in respiration and walking).\",\n  \"conditions_for_usefulness\": \"The statement is useful if the action that leads to improvement can be identified, replicated, and the improvement is consistently observable.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the observed improvement is coincidental, if 'he' does not actually perform an action leading to change, or if the observation is subjective and not based on measurable criteria.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is communicating an observation of a positive change in behavior or condition, specifically related to respiration and walking.",
+    "implicit_claims": [
+      "A certain action by 'he' leads to improved respiration and walking.",
+      "The observer can notice and evaluate changes in respiration and walking.",
+      "There was a previous state before the improvement was observed."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly describes a cause (the unspecified action) and effect (improvement noticed in respiration and walking).",
+    "conditions_for_usefulness": "The statement is useful if the action that leads to improvement can be identified, replicated, and the improvement is consistently observable.",
+    "conditions_for_misleading": "The statement could be misleading if the observed improvement is coincidental, if 'he' does not actually perform an action leading to change, or if the observation is subjective and not based on measurable criteria."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0
+}

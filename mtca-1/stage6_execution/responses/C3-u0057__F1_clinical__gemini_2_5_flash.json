@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0057__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T23:49:56.616773+00:00",
+  "wall_clock_seconds": 10.109759092330933,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To reframe a client's perception of an inherent or natural aspect of themselves or their experience, aiming to reduce self-judgment, shame, or guilt, and promote self-acceptance by asserting that such 'natural' things are not inherently 'evil' or morally corrupt.\",\n  \"implicit_claims\": [\n    \"There exists a category of phenomena or attributes that can be classified as 'according to nature' (e.g., inherent biological processes, universal human emotions, intrinsic identity traits).\",\n    \"There exists a category of phenomena or attributes that can be classified as 'evil' (e.g., morally reprehensible, fundamentally corrupt, intentionally destructive).\",\n    \"These two categories ('according to nature' and 'evil') are mutually exclusive or at least distinct in a way that prevents an 'evil' thing from being 'according to nature'.\",\n    \"Being 'according to nature' inherently implies a lack of malice, moral fault, or fundamental brokenness.\",\n    \"The client may be experiencing or perceiving something about themselves as 'evil' that is, in fact, 'according to nature'.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent *if* 'nature' is understood to refer to fundamental, non-volitional, or inherent aspects of existence (e.g., biological functions, natural emotions, intrinsic identity) and 'evil' is understood as a moral judgment pertaining to intentional harm, corruption, or malice. The coherence relies on the specific definitions of 'nature' and 'evil' held by the individual using the statement.\",\n  \"conditions_for_usefulness\": [\n    \"The client is experiencing shame, guilt, or self-condemnation for something they perceive as a flaw or 'evil' within themselves, but which is an inherent, involuntary, or natural part of their being (e.g., certain emotions like anger or sadness, sexual orientation, neurodivergent traits, physiological responses).\",\n    \"The therapist and client align on a definition of 'nature' that encompasses intrinsic human experience, biological processes, or universal patterns, distinct from volitional harm or moral transgression.\",\n    \"The therapist and client align on a definition of 'evil' that refers to moral culpability, malicious intent, or fundamental corruption, rather than simply discomfort, pain, or difficulty.\",\n    \"The statement helps to reduce self-stigma, foster self-compassion, and validate the client's internal experience as fundamentally acceptable or neutral, rather than inherently 'bad'.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is misinterpreted or misapplied to justify or excuse genuinely harmful, maladaptive, or destructive behaviors (e.g., 'it's natural for me to be aggressive, so it's not evil' or 'my addiction is natural, so it's not evil and doesn't need to change').\",\n    \"The definition of 'nature' is expanded to include phenomena that, while 'natural' in occurrence (e.g., disease, certain mental health symptoms, reactive aggression), are nevertheless harmful, undesirable, and require intervention or mitigation.\",\n    \"The statement leads to a dismissal of personal responsibility for managing challenging 'natural' impulses or seeking help for 'natural' conditions that cause suffering.\",\n    \"The client equates 'not evil' with 'not needing change' or 'not causing harm', thereby overlooking the impact of natural processes that are detrimental to well-being (e.g., the 'natural' progression of a debilitating illness).\",\n    \"The statement is used to invalidate a client's moral compass when they identify something inherently problematic, even if 'natural' (e.g., societal 'natural' inequalities).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To reframe a client's perception of an inherent or natural aspect of themselves or their experience, aiming to reduce self-judgment, shame, or guilt, and promote self-acceptance by asserting that such 'natural' things are not inherently 'evil' or morally corrupt.",
+    "implicit_claims": [
+      "There exists a category of phenomena or attributes that can be classified as 'according to nature' (e.g., inherent biological processes, universal human emotions, intrinsic identity traits).",
+      "There exists a category of phenomena or attributes that can be classified as 'evil' (e.g., morally reprehensible, fundamentally corrupt, intentionally destructive).",
+      "These two categories ('according to nature' and 'evil') are mutually exclusive or at least distinct in a way that prevents an 'evil' thing from being 'according to nature'.",
+      "Being 'according to nature' inherently implies a lack of malice, moral fault, or fundamental brokenness.",
+      "The client may be experiencing or perceiving something about themselves as 'evil' that is, in fact, 'according to nature'."
+    ],
+    "coherence_assessment": "The statement is internally coherent *if* 'nature' is understood to refer to fundamental, non-volitional, or inherent aspects of existence (e.g., biological functions, natural emotions, intrinsic identity) and 'evil' is understood as a moral judgment pertaining to intentional harm, corruption, or malice. The coherence relies on the specific definitions of 'nature' and 'evil' held by the individual using the statement.",
+    "conditions_for_usefulness": [
+      "The client is experiencing shame, guilt, or self-condemnation for something they perceive as a flaw or 'evil' within themselves, but which is an inherent, involuntary, or natural part of their being (e.g., certain emotions like anger or sadness, sexual orientation, neurodivergent traits, physiological responses).",
+      "The therapist and client align on a definition of 'nature' that encompasses intrinsic human experience, biological processes, or universal patterns, distinct from volitional harm or moral transgression.",
+      "The therapist and client align on a definition of 'evil' that refers to moral culpability, malicious intent, or fundamental corruption, rather than simply discomfort, pain, or difficulty.",
+      "The statement helps to reduce self-stigma, foster self-compassion, and validate the client's internal experience as fundamentally acceptable or neutral, rather than inherently 'bad'."
+    ],
+    "conditions_for_misleading": [
+      "The statement is misinterpreted or misapplied to justify or excuse genuinely harmful, maladaptive, or destructive behaviors (e.g., 'it's natural for me to be aggressive, so it's not evil' or 'my addiction is natural, so it's not evil and doesn't need to change').",
+      "The definition of 'nature' is expanded to include phenomena that, while 'natural' in occurrence (e.g., disease, certain mental health symptoms, reactive aggression), are nevertheless harmful, undesirable, and require intervention or mitigation.",
+      "The statement leads to a dismissal of personal responsibility for managing challenging 'natural' impulses or seeking help for 'natural' conditions that cause suffering.",
+      "The client equates 'not evil' with 'not needing change' or 'not causing harm', thereby overlooking the impact of natural processes that are detrimental to well-being (e.g., the 'natural' progression of a debilitating illness).",
+      "The statement is used to invalidate a client's moral compass when they identify something inherently problematic, even if 'natural' (e.g., societal 'natural' inequalities)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 794,
+  "error": "",
+  "retry_count": 0
+}

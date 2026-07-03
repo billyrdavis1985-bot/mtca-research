@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0174__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:29:04.965321+00:00",
+  "wall_clock_seconds": 8.060711860656738,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"As a behavioral commitment, this statement functions as a declaration of personal agency and responsibility. It serves as a self-directive, aiming to empower the individual by emphasizing their internal locus of control and motivating action based on the belief that one holds the primary power to change their circumstances.\",\n  \"implicit_claims\": [\n    \"The individual possesses the capacity for agency and choice.\",\n    \"The individual is ultimately responsible for their condition and its alteration.\",\n    \"Personal actions and choices are the primary drivers of one's condition.\",\n    \"One's 'condition' is alterable through individual effort.\",\n    \"External factors (other people, society, luck) do not possess the *ultimate* power to alter one's condition, at least not without the individual's engagement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly and consistently links the concept of 'self' as the sole agent capable of 'altering' one's 'condition,' creating a direct and exclusive causal relationship without internal logical contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely possesses agency and capacity for choice within their specific context.\",\n    \"The 'condition' in question is genuinely amenable to alteration through individual action (e.g., habits, mindset, personal skills, career path choices).\",\n    \"The individual interprets the statement as taking primary responsibility for their own effort and attitude, rather than an absolute exclusion of all external support or systemic influences.\",\n    \"The statement fosters an internal locus of control and empowers the individual to take actionable steps.\",\n    \"It is applied in situations where external factors are not overwhelmingly restrictive or deterministic.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual lacks genuine agency due to severe external constraints (e.g., systemic oppression, severe illness, poverty, lack of basic rights, mental health crisis, imprisonment).\",\n    \"The 'condition' is primarily determined by insurmountable external or systemic factors beyond individual control.\",\n    \"It is interpreted as negating the importance of external support, collaboration, or collective action.\",\n    \"It leads to self-blame or victim-blaming when an individual's condition is largely outside their sphere of influence.\",\n    \"The statement is used to dismiss legitimate needs for external help, resources, or systemic change.\",\n    \"The 'condition' refers to something immutable or unchangeable (e.g., past events, certain physical limitations, genetic predispositions).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "As a behavioral commitment, this statement functions as a declaration of personal agency and responsibility. It serves as a self-directive, aiming to empower the individual by emphasizing their internal locus of control and motivating action based on the belief that one holds the primary power to change their circumstances.",
+    "implicit_claims": [
+      "The individual possesses the capacity for agency and choice.",
+      "The individual is ultimately responsible for their condition and its alteration.",
+      "Personal actions and choices are the primary drivers of one's condition.",
+      "One's 'condition' is alterable through individual effort.",
+      "External factors (other people, society, luck) do not possess the *ultimate* power to alter one's condition, at least not without the individual's engagement."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly and consistently links the concept of 'self' as the sole agent capable of 'altering' one's 'condition,' creating a direct and exclusive causal relationship without internal logical contradictions.",
+    "conditions_for_usefulness": [
+      "The individual genuinely possesses agency and capacity for choice within their specific context.",
+      "The 'condition' in question is genuinely amenable to alteration through individual action (e.g., habits, mindset, personal skills, career path choices).",
+      "The individual interprets the statement as taking primary responsibility for their own effort and attitude, rather than an absolute exclusion of all external support or systemic influences.",
+      "The statement fosters an internal locus of control and empowers the individual to take actionable steps.",
+      "It is applied in situations where external factors are not overwhelmingly restrictive or deterministic."
+    ],
+    "conditions_for_misleading": [
+      "The individual lacks genuine agency due to severe external constraints (e.g., systemic oppression, severe illness, poverty, lack of basic rights, mental health crisis, imprisonment).",
+      "The 'condition' is primarily determined by insurmountable external or systemic factors beyond individual control.",
+      "It is interpreted as negating the importance of external support, collaboration, or collective action.",
+      "It leads to self-blame or victim-blaming when an individual's condition is largely outside their sphere of influence.",
+      "The statement is used to dismiss legitimate needs for external help, resources, or systemic change.",
+      "The 'condition' refers to something immutable or unchangeable (e.g., past events, certain physical limitations, genetic predispositions)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 544,
+  "error": "",
+  "retry_count": 0
+}

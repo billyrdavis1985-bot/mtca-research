@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0002__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:58:49.247330+00:00",
+  "wall_clock_seconds": 6.1016762256622314,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a cognitive restructuring self-instruction, guiding the speaker to shift attention from fear-based predictions to evidence-based reality testing. It reinforces a deliberate, behavioral commitment to empirical verification.\",\n  \"implicit_claims\": [\n    \"The speaker has a tendency to make predictions based on fear rather than on actual evidence.\",\n    \"The speaker can distinguish between fear-based predictions and reality-based observations.\",\n    \"The speaker has agency and choice in how they evaluate predictions.\",\n    \"There is a meaningful difference between what one fears and what actually happens.\",\n    \"The speaker's fears are, to some extent, inaccurate or exaggerated relative to reality.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it logically contrasts two modes of prediction evaluation (fear vs. actual events) and asserts a deliberate choice to favor empirical testing. No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker can identify specific fear-based predictions in real time.\",\n    \"The speaker has access to objective or observable evidence about actual outcomes.\",\n    \"The speaker is motivated and willing to suspend reliance on fear-driven thinking.\",\n    \"Fear-based predictions are indeed often disproven or unsupported by reality.\",\n    \"The speaker is in a context where reality-testing is safe and feasible.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker's fears are actually accurate or based on reliable data (e.g., in genuinely dangerous situations).\",\n    \"The speaker misinterprets the statement as invalidating all intuitive or emotional warnings.\",\n    \"The speaker has difficulty distinguishing fear from other valid cognitive signals (e.g., caution, reasonable risk assessment).\",\n    \"The speaker uses the statement to dismiss legitimate anxiety that serves a protective function.\",\n    \"External circumstances prevent the speaker from obtaining reliable evidence about what actually happens.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a cognitive restructuring self-instruction, guiding the speaker to shift attention from fear-based predictions to evidence-based reality testing. It reinforces a deliberate, behavioral commitment to empirical verification.",
+    "implicit_claims": [
+      "The speaker has a tendency to make predictions based on fear rather than on actual evidence.",
+      "The speaker can distinguish between fear-based predictions and reality-based observations.",
+      "The speaker has agency and choice in how they evaluate predictions.",
+      "There is a meaningful difference between what one fears and what actually happens.",
+      "The speaker's fears are, to some extent, inaccurate or exaggerated relative to reality."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it logically contrasts two modes of prediction evaluation (fear vs. actual events) and asserts a deliberate choice to favor empirical testing. No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker can identify specific fear-based predictions in real time.",
+      "The speaker has access to objective or observable evidence about actual outcomes.",
+      "The speaker is motivated and willing to suspend reliance on fear-driven thinking.",
+      "Fear-based predictions are indeed often disproven or unsupported by reality.",
+      "The speaker is in a context where reality-testing is safe and feasible."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's fears are actually accurate or based on reliable data (e.g., in genuinely dangerous situations).",
+      "The speaker misinterprets the statement as invalidating all intuitive or emotional warnings.",
+      "The speaker has difficulty distinguishing fear from other valid cognitive signals (e.g., caution, reasonable risk assessment).",
+      "The speaker uses the statement to dismiss legitimate anxiety that serves a protective function.",
+      "External circumstances prevent the speaker from obtaining reliable evidence about what actually happens."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 386,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0229__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:43:56.915546+00:00",
+  "wall_clock_seconds": 5.6230387687683105,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is offering a motivational or philosophical assertion about the causal relationship between one's inner mental states (thoughts, vision, ideal) and one's external circumstances or life outcomes.\",\n  \"implicit_claims\": [\n    \"One's thoughts, vision, and ideal are primary determinants of one's rise, fall, or stasis in any environment.\",\n    \"External environment does not independently determine one's fate; the individual's mindset overrides it.\",\n    \"There is a direct, almost deterministic link between inner mental content and life trajectory.\",\n    \"Change in circumstances is achievable primarily through changing one's thoughts or ideals.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a causal claim (thoughts → outcome), though it is expressed in absolute terms ('whatever your present environment') that may conflict with empirical reality. It holds logical consistency within a framework that prioritizes mental causation.\",\n  \"conditions_for_usefulness\": [\n    \"If someone has agency and ability to influence their own thoughts and ideals.\",\n    \"If the listener is in a situation where external constraints are not overwhelmingly deterministic (e.g., not in immediate physical danger or systemic oppression).\",\n    \"If the listener finds motivation or empowerment in attributing outcomes to their own mindset.\",\n    \"If used as a heuristic for personal growth rather than a universal law.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If external factors (poverty, illness, discrimination, accidents) are so severe that mindset alone cannot overcome them, leading to false hope or self-blame.\",\n    \"If it discourages seeking structural or collective solutions to systemic problems.\",\n    \"If taken to imply that those who do not 'rise' simply failed to think rightly, ignoring privilege and circumstance.\",\n    \"If the target audience lacks the resources or support to translate changed thoughts into changed actions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is offering a motivational or philosophical assertion about the causal relationship between one's inner mental states (thoughts, vision, ideal) and one's external circumstances or life outcomes.",
+    "implicit_claims": [
+      "One's thoughts, vision, and ideal are primary determinants of one's rise, fall, or stasis in any environment.",
+      "External environment does not independently determine one's fate; the individual's mindset overrides it.",
+      "There is a direct, almost deterministic link between inner mental content and life trajectory.",
+      "Change in circumstances is achievable primarily through changing one's thoughts or ideals."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a causal claim (thoughts → outcome), though it is expressed in absolute terms ('whatever your present environment') that may conflict with empirical reality. It holds logical consistency within a framework that prioritizes mental causation.",
+    "conditions_for_usefulness": [
+      "If someone has agency and ability to influence their own thoughts and ideals.",
+      "If the listener is in a situation where external constraints are not overwhelmingly deterministic (e.g., not in immediate physical danger or systemic oppression).",
+      "If the listener finds motivation or empowerment in attributing outcomes to their own mindset.",
+      "If used as a heuristic for personal growth rather than a universal law."
+    ],
+    "conditions_for_misleading": [
+      "If external factors (poverty, illness, discrimination, accidents) are so severe that mindset alone cannot overcome them, leading to false hope or self-blame.",
+      "If it discourages seeking structural or collective solutions to systemic problems.",
+      "If taken to imply that those who do not 'rise' simply failed to think rightly, ignoring privilege and circumstance.",
+      "If the target audience lacks the resources or support to translate changed thoughts into changed actions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 387,
+  "error": "",
+  "retry_count": 0
+}

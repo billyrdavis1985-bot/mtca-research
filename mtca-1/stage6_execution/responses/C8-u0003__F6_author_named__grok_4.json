@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0003__F6_author_named__grok_4",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:07:48.871817+00:00",
+  "wall_clock_seconds": 9.682922840118408,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of emotional metacognition, reframing feelings as valid subjective data while limiting their epistemic scope.\",\n  \"implicit_claims\": [\n    \"Feelings constitute genuine informational content about the speaker's internal state.\",\n    \"Feelings lack guaranteed correspondence to external facts.\",\n    \"The speaker can reliably distinguish these two functions.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the conjunction of 'real information about my state' and 'not always accurate about the world' draws a non-contradictory distinction between subjective phenomenology and objective reference.\",\n  \"conditions_for_usefulness\": \"The user tends to either treat emotions as infallible or dismiss them as meaningless noise; the statement supplies a usable middle position for affect regulation and reality-testing.\",\n  \"conditions_for_misleading\": \"Emotions are treated as categorically non-epistemic (so that even accurate intuitions are discounted) or the phrase 'real information about my state' is read as licensing uncritical deference to feelings as authoritative self-knowledge.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of emotional metacognition, reframing feelings as valid subjective data while limiting their epistemic scope.",
+    "implicit_claims": [
+      "Feelings constitute genuine informational content about the speaker's internal state.",
+      "Feelings lack guaranteed correspondence to external facts.",
+      "The speaker can reliably distinguish these two functions."
+    ],
+    "coherence_assessment": "Internally coherent; the conjunction of 'real information about my state' and 'not always accurate about the world' draws a non-contradictory distinction between subjective phenomenology and objective reference.",
+    "conditions_for_usefulness": "The user tends to either treat emotions as infallible or dismiss them as meaningless noise; the statement supplies a usable middle position for affect regulation and reality-testing.",
+    "conditions_for_misleading": "Emotions are treated as categorically non-epistemic (so that even accurate intuitions are discounted) or the phrase 'real information about my state' is read as licensing uncritical deference to feelings as authoritative self-knowledge."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 284,
+  "output_tokens": 214,
+  "error": "",
+  "retry_count": 0
+}

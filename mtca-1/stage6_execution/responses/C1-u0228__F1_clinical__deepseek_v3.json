@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0228__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:25:13.185718+00:00",
+  "wall_clock_seconds": 5.158015966415405,
+  "raw_response": "{\n  \"communicative_function\": \"Illustrates the power of suggestion in clinical communication by contrasting two ways a doctor's words can influence patient outcomes.\",\n  \"implicit_claims\": [\n    \"A doctor's title alone gives them suggestive influence over a patient.\",\n    \"Negative prognostic statements can trigger harmful autosuggestion in the patient.\",\n    \"Positive yet honest framing of serious illness can lead to surprising therapeutic results.\",\n    \"The patient's mental state (autosuggestion) directly affects physical outcome.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the statement presents a clear causal contrast between two communication styles and their likely effects, consistent with principles of suggestion and placebo/nocebo effects.\",\n  \"conditions_for_usefulness\": [\n    \"The doctor-patient relationship includes a degree of trust or authority.\",\n    \"The patient is suggestible or open to autosuggestion.\",\n    \"The illness is not rapidly terminal or beyond any possibility of improvement.\",\n    \"The doctor can deliver the positive message with genuine conviction and without false hope.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The disease is truly incurable despite the positive framing, leading to false hope.\",\n    \"The patient's suggestibility is low, making the positive statement ineffective but the negative one potentially more accurate.\",\n    \"The doctor uses this as a substitute for evidence-based treatment rather than as an adjunct.\",\n    \"The statement implies that cure is primarily a matter of suggestion, ignoring biological realities.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Illustrates the power of suggestion in clinical communication by contrasting two ways a doctor's words can influence patient outcomes.",
+    "implicit_claims": [
+      "A doctor's title alone gives them suggestive influence over a patient.",
+      "Negative prognostic statements can trigger harmful autosuggestion in the patient.",
+      "Positive yet honest framing of serious illness can lead to surprising therapeutic results.",
+      "The patient's mental state (autosuggestion) directly affects physical outcome."
+    ],
+    "coherence_assessment": "Internally coherent: the statement presents a clear causal contrast between two communication styles and their likely effects, consistent with principles of suggestion and placebo/nocebo effects.",
+    "conditions_for_usefulness": [
+      "The doctor-patient relationship includes a degree of trust or authority.",
+      "The patient is suggestible or open to autosuggestion.",
+      "The illness is not rapidly terminal or beyond any possibility of improvement.",
+      "The doctor can deliver the positive message with genuine conviction and without false hope."
+    ],
+    "conditions_for_misleading": [
+      "The disease is truly incurable despite the positive framing, leading to false hope.",
+      "The patient's suggestibility is low, making the positive statement ineffective but the negative one potentially more accurate.",
+      "The doctor uses this as a substitute for evidence-based treatment rather than as an adjunct.",
+      "The statement implies that cure is primarily a matter of suggestion, ignoring biological realities."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 236,
+  "output_tokens": 304,
+  "error": "",
+  "retry_count": 0
+}

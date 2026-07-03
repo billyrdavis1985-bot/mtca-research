@@ -1,0 +1,49 @@
+{
+  "call_id": "C1-u0228__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:24:07.421043+00:00",
+  "wall_clock_seconds": 14.039422512054443,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a normative argument about how doctors should communicate with patients, using a comparative illustration to advocate for hopeful framing over pessimistic prognosis. It is simultaneously descriptive (claiming what happens) and prescriptive (implying what doctors ought to do).\",\n  \"implicit_claims\": [\n    \"Doctors hold inherent suggestive authority over patients by virtue of their title alone.\",\n    \"Patient belief or expectation can materially influence health outcomes.\",\n    \"Autosuggestion is a real and consequential psychological mechanism.\",\n    \"Negative prognoses can cause harm beyond the disease itself.\",\n    \"Hopeful communication by a doctor is not inherently dishonest, even when the situation is serious.\",\n    \"The doctor's framing of a diagnosis is a form of therapeutic intervention.\",\n    \"There is a meaningful causal link between a doctor's words and patient recovery trajectories.\",\n    \"Doctors routinely have the option to choose between these two communicative approaches.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and logically structured. The contrast between the two doctor behaviors maps consistently onto the proposed outcomes. The argument follows a clear if-then logic and does not contradict itself. However, it relies heavily on unargued presuppositions about autosuggestion and authority that, if questioned, would weaken the internal structure.\",\n  \"conditions_for_usefulness\": [\n    \"The placebo and nocebo effects must be empirically real and clinically significant.\",\n    \"The doctor-patient relationship must carry meaningful psychological weight.\",\n    \"Patients must be susceptible to suggestion in ways that affect physiological outcomes.\",\n    \"The recommended hopeful framing must not constitute dishonesty or undermine informed consent.\",\n    \"The context is one where prognosis is genuinely uncertain, making hopeful framing plausible rather than false.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the nocebo/placebo framing is overstated to the point that it discourages honest disclosure of terminal or serious diagnoses.\",\n    \"If it is used to justify withholding accurate medical information from patients, violating informed consent.\",\n    \"If the claim about 'surprising results' is interpreted as evidence that positive framing can cure otherwise incurable diseases.\",\n    \"If it implies that doctors bear moral responsibility for patient deterioration solely due to honest pessimistic prognosis.\",\n    \"If the mechanism of 'autosuggestion' is presented as settled science rather than a contested or partially supported concept.\",\n    \"If applied universally without accounting for cases where accurate negative prognosis is essential for patient planning and autonomy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a normative argument about how doctors should communicate with patients, using a comparative illustration to advocate for hopeful framing over pessimistic prognosis. It is simultaneously descriptive (claiming what happens) and prescriptive (implying what doctors ought to do).",
+    "implicit_claims": [
+      "Doctors hold inherent suggestive authority over patients by virtue of their title alone.",
+      "Patient belief or expectation can materially influence health outcomes.",
+      "Autosuggestion is a real and consequential psychological mechanism.",
+      "Negative prognoses can cause harm beyond the disease itself.",
+      "Hopeful communication by a doctor is not inherently dishonest, even when the situation is serious.",
+      "The doctor's framing of a diagnosis is a form of therapeutic intervention.",
+      "There is a meaningful causal link between a doctor's words and patient recovery trajectories.",
+      "Doctors routinely have the option to choose between these two communicative approaches."
+    ],
+    "coherence_assessment": "The statement is internally coherent and logically structured. The contrast between the two doctor behaviors maps consistently onto the proposed outcomes. The argument follows a clear if-then logic and does not contradict itself. However, it relies heavily on unargued presuppositions about autosuggestion and authority that, if questioned, would weaken the internal structure.",
+    "conditions_for_usefulness": [
+      "The placebo and nocebo effects must be empirically real and clinically significant.",
+      "The doctor-patient relationship must carry meaningful psychological weight.",
+      "Patients must be susceptible to suggestion in ways that affect physiological outcomes.",
+      "The recommended hopeful framing must not constitute dishonesty or undermine informed consent.",
+      "The context is one where prognosis is genuinely uncertain, making hopeful framing plausible rather than false."
+    ],
+    "conditions_for_misleading": [
+      "If the nocebo/placebo framing is overstated to the point that it discourages honest disclosure of terminal or serious diagnoses.",
+      "If it is used to justify withholding accurate medical information from patients, violating informed consent.",
+      "If the claim about 'surprising results' is interpreted as evidence that positive framing can cure otherwise incurable diseases.",
+      "If it implies that doctors bear moral responsibility for patient deterioration solely due to honest pessimistic prognosis.",
+      "If the mechanism of 'autosuggestion' is presented as settled science rather than a contested or partially supported concept.",
+      "If applied universally without accounting for cases where accurate negative prognosis is essential for patient planning and autonomy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 244,
+  "output_tokens": 617,
+  "error": "",
+  "retry_count": 0
+}

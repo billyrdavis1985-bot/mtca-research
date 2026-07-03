@@ -1,0 +1,52 @@
+{
+  "call_id": "C1-u0178__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:15:29.969904+00:00",
+  "wall_clock_seconds": 9.165973424911499,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of intent or an aspirational commitment regarding one's relationship with hunger and eating. It sets an idealized expectation for experiencing hunger as an agreeable sensation at regular meal times, leading to mindful enjoyment of food without overeating. It is prescriptive in nature, outlining a desired behavioral pattern and internal experience.\",\n  \"implicit_claims\": [\n    \"The speaker (or person committing) believes they can consciously regulate or influence their experience of hunger, making it an 'agreeable sensation'.\",\n    \"The speaker believes that hunger should naturally align with traditional meal times (morning, midday, evening).\",\n    \"The speaker believes that experiencing agreeable hunger enhances the enjoyment of food.\",\n    \"The speaker believes they have control over their eating behavior to prevent overeating.\",\n    \"The statement implies that the described state (agreeable hunger, enjoyment, no overeating) is a desirable and achievable norm for healthy eating.\",\n    \"The statement suggests that a departure from this pattern (e.g., not feeling hungry, overeating, not enjoying food) is an undesirable state that can be remedied through commitment.\",\n    \"The statement implicitly claims that hunger is a sensation to be embraced and appreciated, rather than merely a physical urge.\",\n    \"The statement assumes a certain level of bodily autonomy and control over physiological responses and behavioral choices related to food.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It describes a logical and desirable sequence of events: experiencing agreeable hunger at expected times, leading to positive anticipation, followed by enjoyable eating without overindulgence. The description of hunger as 'agreeable' directly supports the subsequent enjoyment of food and the goal of not overeating, creating a consistent narrative of a healthy and mindful eating experience.\",\n  \"conditions_for_usefulness\": [\n    \"The individual's current eating habits are not aligned with this ideal, and they genuinely wish to change them.\",\n    \"The individual has a relatively healthy metabolic system and consistent hunger/satiety cues that can be influenced or recognized.\",\n    \"The individual has access to food at regular intervals and control over their meal timing and choices.\",\n    \"The individual finds this specific, vivid description of desired behavior motivating and actionable.\",\n    \"The individual interprets 'agreeable sensation' in a healthy, moderate way, rather than aiming for extreme hunger.\",\n    \"The individual is not suffering from an eating disorder, significant physiological dysregulation, or medical conditions that alter hunger signals (e.g., certain medications, diabetes).\",\n    \"The individual has the self-awareness and discipline to listen to their body's cues and stop eating when satisfied, not just full.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual's hunger signals are genuinely dysregulated due to physiological issues, medication, or medical conditions, making it difficult or impossible to feel 'agreeably' hungry at precise meal times.\",\n    \"The individual has an eating disorder (e.g., anorexia, bulimia, binge eating disorder) where hunger cues are distorted, suppressed, or lead to unhealthy behaviors, and this commitment could exacerbate guilt or unrealistic expectations.\",\n    \"The statement is interpreted rigidly, leading to self-blame or feelings of failure if the 'agreeable sensation' isn't consistently achieved or if overeating occasionally occurs.\",\n    \"The statement oversimplifies the complex interplay of physiological, psychological, and environmental factors that influence hunger, satiety, and eating behavior.\",\n    \"The statement could promote an unhealthy focus on 'achieving' hunger, potentially leading to restriction or delayed eating for individuals who might need to eat more frequently.\",\n    \"The statement implicitly suggests that this specific, positive experience of hunger is universally attainable and desirable, which may not be true for everyone.\",\n    \"The individual lacks control over their meal timing or food access due to external circumstances (e.g., work schedule, poverty), making the commitment impractical.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of intent or an aspirational commitment regarding one's relationship with hunger and eating. It sets an idealized expectation for experiencing hunger as an agreeable sensation at regular meal times, leading to mindful enjoyment of food without overeating. It is prescriptive in nature, outlining a desired behavioral pattern and internal experience.",
+    "implicit_claims": [
+      "The speaker (or person committing) believes they can consciously regulate or influence their experience of hunger, making it an 'agreeable sensation'.",
+      "The speaker believes that hunger should naturally align with traditional meal times (morning, midday, evening).",
+      "The speaker believes that experiencing agreeable hunger enhances the enjoyment of food.",
+      "The speaker believes they have control over their eating behavior to prevent overeating.",
+      "The statement implies that the described state (agreeable hunger, enjoyment, no overeating) is a desirable and achievable norm for healthy eating.",
+      "The statement suggests that a departure from this pattern (e.g., not feeling hungry, overeating, not enjoying food) is an undesirable state that can be remedied through commitment.",
+      "The statement implicitly claims that hunger is a sensation to be embraced and appreciated, rather than merely a physical urge.",
+      "The statement assumes a certain level of bodily autonomy and control over physiological responses and behavioral choices related to food."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It describes a logical and desirable sequence of events: experiencing agreeable hunger at expected times, leading to positive anticipation, followed by enjoyable eating without overindulgence. The description of hunger as 'agreeable' directly supports the subsequent enjoyment of food and the goal of not overeating, creating a consistent narrative of a healthy and mindful eating experience.",
+    "conditions_for_usefulness": [
+      "The individual's current eating habits are not aligned with this ideal, and they genuinely wish to change them.",
+      "The individual has a relatively healthy metabolic system and consistent hunger/satiety cues that can be influenced or recognized.",
+      "The individual has access to food at regular intervals and control over their meal timing and choices.",
+      "The individual finds this specific, vivid description of desired behavior motivating and actionable.",
+      "The individual interprets 'agreeable sensation' in a healthy, moderate way, rather than aiming for extreme hunger.",
+      "The individual is not suffering from an eating disorder, significant physiological dysregulation, or medical conditions that alter hunger signals (e.g., certain medications, diabetes).",
+      "The individual has the self-awareness and discipline to listen to their body's cues and stop eating when satisfied, not just full."
+    ],
+    "conditions_for_misleading": [
+      "The individual's hunger signals are genuinely dysregulated due to physiological issues, medication, or medical conditions, making it difficult or impossible to feel 'agreeably' hungry at precise meal times.",
+      "The individual has an eating disorder (e.g., anorexia, bulimia, binge eating disorder) where hunger cues are distorted, suppressed, or lead to unhealthy behaviors, and this commitment could exacerbate guilt or unrealistic expectations.",
+      "The statement is interpreted rigidly, leading to self-blame or feelings of failure if the 'agreeable sensation' isn't consistently achieved or if overeating occasionally occurs.",
+      "The statement oversimplifies the complex interplay of physiological, psychological, and environmental factors that influence hunger, satiety, and eating behavior.",
+      "The statement could promote an unhealthy focus on 'achieving' hunger, potentially leading to restriction or delayed eating for individuals who might need to eat more frequently.",
+      "The statement implicitly suggests that this specific, positive experience of hunger is universally attainable and desirable, which may not be true for everyone.",
+      "The individual lacks control over their meal timing or food access due to external circumstances (e.g., work schedule, poverty), making the commitment impractical."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 222,
+  "output_tokens": 842,
+  "error": "",
+  "retry_count": 0
+}

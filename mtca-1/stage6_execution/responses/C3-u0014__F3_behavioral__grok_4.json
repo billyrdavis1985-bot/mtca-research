@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F3_behavioral__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:23:07.019161+00:00",
+  "wall_clock_seconds": 6.424539089202881,
+  "raw_response": "{\n  \"communicative_function\": \"Distinguishing vices to commit to viewing lust as the greater character flaw warranting stricter self-regulation than anger\",\n  \"implicit_claims\": [\n    \"Anger represents a grief-driven, reason-avoidant contraction that remains somewhat human\",\n    \"Lust represents a pleasure-driven loss of self-control revealing deeper impotence and unmanliness\",\n    \"The two passions are qualitatively different in their implications for rational agency and virtue\",\n    \"Moral evaluation should track these differences when shaping future conduct\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a Stoic-style comparison that ranks dispositions by their distance from reason and self-mastery\",\n  \"conditions_for_usefulness\": \"The recipient accepts Stoic premises about reason, self-control, and gendered virtue language, and intends to use the distinction to guide deliberate restraint of appetites\",\n  \"conditions_for_misleading\": \"The distinction is treated as empirical psychology rather than normative framing, or the 'unmanlike' language is applied to justify shame-based behavioral change without supporting evidence\"\n}",
+  "parsed_json": {
+    "communicative_function": "Distinguishing vices to commit to viewing lust as the greater character flaw warranting stricter self-regulation than anger",
+    "implicit_claims": [
+      "Anger represents a grief-driven, reason-avoidant contraction that remains somewhat human",
+      "Lust represents a pleasure-driven loss of self-control revealing deeper impotence and unmanliness",
+      "The two passions are qualitatively different in their implications for rational agency and virtue",
+      "Moral evaluation should track these differences when shaping future conduct"
+    ],
+    "coherence_assessment": "Internally coherent as a Stoic-style comparison that ranks dispositions by their distance from reason and self-mastery",
+    "conditions_for_usefulness": "The recipient accepts Stoic premises about reason, self-control, and gendered virtue language, and intends to use the distinction to guide deliberate restraint of appetites",
+    "conditions_for_misleading": "The distinction is treated as empirical psychology rather than normative framing, or the 'unmanlike' language is applied to justify shame-based behavioral change without supporting evidence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 310,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

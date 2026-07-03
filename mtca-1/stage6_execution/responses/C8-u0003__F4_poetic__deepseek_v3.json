@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0003__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:06:19.074572+00:00",
+  "wall_clock_seconds": 4.769698143005371,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a reflective, self-aware declaration that distinguishes between internal subjective experience and external objective reality, encouraging emotional insight without conflating feelings with facts.\",\n  \"implicit_claims\": [\n    \"Feelings are a form of information about one's internal state.\",\n    \"Feelings can be inaccurate as representations of external reality.\",\n    \"It is possible to recognize and evaluate the accuracy of one's feelings.\",\n    \"There is a meaningful distinction between internal states and external facts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it consistently separates subjective experience from objective truth without contradiction, and acknowledges both the value and limitation of emotional data.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or speaker is capable of self-reflection and emotional awareness.\",\n    \"The context involves decision-making or interpretation where emotional bias might lead to error.\",\n    \"There is a shared understanding that feelings are not infallible guides to external reality.\",\n    \"The speaker intends to foster emotional regulation or critical thinking about personal reactions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is taken to imply that feelings are always inaccurate or unreliable about the world.\",\n    \"It is used to invalidate or dismiss legitimate emotional responses without consideration.\",\n    \"The distinction between internal state and external reality is oversimplified in contexts where feelings accurately reflect social or environmental facts.\",\n    \"The listener mistakes this poetic expression for a literal, universally applicable epistemological claim.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a reflective, self-aware declaration that distinguishes between internal subjective experience and external objective reality, encouraging emotional insight without conflating feelings with facts.",
+    "implicit_claims": [
+      "Feelings are a form of information about one's internal state.",
+      "Feelings can be inaccurate as representations of external reality.",
+      "It is possible to recognize and evaluate the accuracy of one's feelings.",
+      "There is a meaningful distinction between internal states and external facts."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it consistently separates subjective experience from objective truth without contradiction, and acknowledges both the value and limitation of emotional data.",
+    "conditions_for_usefulness": [
+      "The listener or speaker is capable of self-reflection and emotional awareness.",
+      "The context involves decision-making or interpretation where emotional bias might lead to error.",
+      "There is a shared understanding that feelings are not infallible guides to external reality.",
+      "The speaker intends to foster emotional regulation or critical thinking about personal reactions."
+    ],
+    "conditions_for_misleading": [
+      "It is taken to imply that feelings are always inaccurate or unreliable about the world.",
+      "It is used to invalidate or dismiss legitimate emotional responses without consideration.",
+      "The distinction between internal state and external reality is oversimplified in contexts where feelings accurately reflect social or environmental facts.",
+      "The listener mistakes this poetic expression for a literal, universally applicable epistemological claim."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 310,
+  "error": "",
+  "retry_count": 0
+}

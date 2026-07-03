@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0007__F0_neutral__grok_4",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:25:33.686078+00:00",
+  "wall_clock_seconds": 8.068026542663574,
+  "raw_response": "{\n  \"communicative_function\": \"reporting a personal introspective observation about the directional relationship between mood and behavior\",\n  \"implicit_claims\": [\n    \"mood and behavior are separable phenomena capable of directional influence\",\n    \"the speaker has sufficient self-observation data to compare relative frequencies\",\n    \"a predominant pattern (behavior → mood) exists more often than the reverse\"\n  ],\n  \"coherence_assessment\": \"internally coherent; expresses a clear empirical self-claim without contradiction or vagueness\",\n  \"conditions_for_usefulness\": \"the observation must be accurate, based on reliable self-monitoring, and used to guide adaptive behavioral changes that improve mood\",\n  \"conditions_for_misleading\": \"the reported pattern stems from biased recall, ignores confounding variables, or leads to erroneous causal assumptions about mood regulation\"\n}",
+  "parsed_json": {
+    "communicative_function": "reporting a personal introspective observation about the directional relationship between mood and behavior",
+    "implicit_claims": [
+      "mood and behavior are separable phenomena capable of directional influence",
+      "the speaker has sufficient self-observation data to compare relative frequencies",
+      "a predominant pattern (behavior → mood) exists more often than the reverse"
+    ],
+    "coherence_assessment": "internally coherent; expresses a clear empirical self-claim without contradiction or vagueness",
+    "conditions_for_usefulness": "the observation must be accurate, based on reliable self-monitoring, and used to guide adaptive behavioral changes that improve mood",
+    "conditions_for_misleading": "the reported pattern stems from biased recall, ignores confounding variables, or leads to erroneous causal assumptions about mood regulation"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 256,
+  "output_tokens": 167,
+  "error": "",
+  "retry_count": 0
+}

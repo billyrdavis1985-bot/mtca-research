@@ -1,0 +1,52 @@
+{
+  "call_id": "C7-u0008__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:26:22.510321+00:00",
+  "wall_clock_seconds": 16.59505009651184,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a commitment to a specific course of remedial action — repairing harm done to others through direct engagement — while simultaneously encoding a limiting condition that preserves the actor's discretionary judgment about when such action would cause further harm. It functions as both a moral pledge and a self-regulating caveat.\",\n  \"implicit_claims\": [\n    \"The speaker has previously caused harm to identifiable people.\",\n    \"Those people are known or knowable to the speaker.\",\n    \"Direct amends (as opposed to indirect or symbolic ones) is the appropriate form of repair.\",\n    \"It is possible to injure people or third parties through the act of making amends itself.\",\n    \"The speaker has or will develop the capacity to accurately judge when amends would cause injury.\",\n    \"'Wherever possible' implies real-world constraints (death, inaccessibility, refusal) that legitimately limit the obligation.\",\n    \"The speaker accepts moral responsibility for past actions.\",\n    \"Making amends is a process that is ongoing or at least not yet complete.\",\n    \"The harm-avoidance exception is bounded and not a general escape clause.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The primary commitment (make direct amends) and the limiting condition (except when harmful) are logically compatible and do not contradict each other. The caveat is structurally necessary to prevent the commitment from becoming an instrument of further harm. However, a tension exists: the same judgment that caused original harm is now tasked with assessing when amends would be injurious, which is a coherent but practically fragile arrangement.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has honestly identified people they have harmed and is not using the list selectively.\",\n    \"The speaker has developed sufficient self-awareness to distinguish genuine harm-prevention from avoidance or self-protection when invoking the exception.\",\n    \"There is accountability to others (e.g., a sponsor, therapist, community) who can challenge misuse of the caveat.\",\n    \"The speaker understands 'direct amends' to include behavioral change, not merely verbal apology.\",\n    \"The people to whom amends are owed are reachable and the amends are actionable.\",\n    \"The speaker is genuinely committed to the process rather than performing compliance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the harm-exception clause routinely to avoid uncomfortable or inconvenient amends without genuine assessment.\",\n    \"The statement is invoked as a completed act when the process is actually ongoing or incomplete.\",\n    \"The speaker conflates their own emotional discomfort with injury to the other party.\",\n    \"The statement is used to signal moral progress to observers without corresponding behavioral change.\",\n    \"The speaker lacks the self-knowledge to accurately assess whether amends would cause injury.\",\n    \"The phrase 'wherever possible' is interpreted so broadly that most amends are deemed impossible.\",\n    \"The commitment is made publicly as a social or reputational performance rather than as a genuine guide to action.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a commitment to a specific course of remedial action — repairing harm done to others through direct engagement — while simultaneously encoding a limiting condition that preserves the actor's discretionary judgment about when such action would cause further harm. It functions as both a moral pledge and a self-regulating caveat.",
+    "implicit_claims": [
+      "The speaker has previously caused harm to identifiable people.",
+      "Those people are known or knowable to the speaker.",
+      "Direct amends (as opposed to indirect or symbolic ones) is the appropriate form of repair.",
+      "It is possible to injure people or third parties through the act of making amends itself.",
+      "The speaker has or will develop the capacity to accurately judge when amends would cause injury.",
+      "'Wherever possible' implies real-world constraints (death, inaccessibility, refusal) that legitimately limit the obligation.",
+      "The speaker accepts moral responsibility for past actions.",
+      "Making amends is a process that is ongoing or at least not yet complete.",
+      "The harm-avoidance exception is bounded and not a general escape clause."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The primary commitment (make direct amends) and the limiting condition (except when harmful) are logically compatible and do not contradict each other. The caveat is structurally necessary to prevent the commitment from becoming an instrument of further harm. However, a tension exists: the same judgment that caused original harm is now tasked with assessing when amends would be injurious, which is a coherent but practically fragile arrangement.",
+    "conditions_for_usefulness": [
+      "The speaker has honestly identified people they have harmed and is not using the list selectively.",
+      "The speaker has developed sufficient self-awareness to distinguish genuine harm-prevention from avoidance or self-protection when invoking the exception.",
+      "There is accountability to others (e.g., a sponsor, therapist, community) who can challenge misuse of the caveat.",
+      "The speaker understands 'direct amends' to include behavioral change, not merely verbal apology.",
+      "The people to whom amends are owed are reachable and the amends are actionable.",
+      "The speaker is genuinely committed to the process rather than performing compliance."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the harm-exception clause routinely to avoid uncomfortable or inconvenient amends without genuine assessment.",
+      "The statement is invoked as a completed act when the process is actually ongoing or incomplete.",
+      "The speaker conflates their own emotional discomfort with injury to the other party.",
+      "The statement is used to signal moral progress to observers without corresponding behavioral change.",
+      "The speaker lacks the self-knowledge to accurately assess whether amends would cause injury.",
+      "The phrase 'wherever possible' is interpreted so broadly that most amends are deemed impossible.",
+      "The commitment is made publicly as a social or reputational performance rather than as a genuine guide to action."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 705,
+  "error": "",
+  "retry_count": 0
+}

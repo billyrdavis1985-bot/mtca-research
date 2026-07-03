@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0002__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:01:35.570610+00:00",
+  "wall_clock_seconds": 5.724283933639526,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a personal commitment to epistemic humility and reality-testing, positioning empirical verification as a corrective to fear-driven reasoning.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to distinguish between predictions based on evidence and predictions based on fear.\",\n    \"Fear can distort judgment and lead to inaccurate predictions.\",\n    \"Testing against actual outcomes is a reliable method for improving accuracy.\",\n    \"The speaker is currently choosing to prioritize evidence over emotional response.\",\n    \"There is a meaningful difference between what one fears and what actually happens.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it expresses a clear epistemic value (empiricism over emotion) and a deliberate action (choosing to test predictions against reality). No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to reliable data about actual outcomes.\",\n    \"The speaker is psychologically capable of overcoming fear-based cognitive biases.\",\n    \"The predictions in question are empirically testable within a reasonable time frame.\",\n    \"Fear is indeed leading to systematically distorted predictions in the relevant context.\",\n    \"The speaker’s environment tolerates or rewards empirical testing over risk-averse avoidance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker mistakes subjective feelings for true fear, or uses 'fear' as a strawman for legitimate caution.\",\n    \"Actual outcomes are unobservable, delayed, or systematically ambiguous (e.g., long-term societal risks).\",\n    \"Fear in this context is actually a rational heuristic for low-probability high-impact events.\",\n    \"The statement is used to dismiss valid precautionary principles without empirical basis.\",\n    \"The speaker’s predictions were never shaped by fear, but rather by other biases, making the contrast false.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal commitment to epistemic humility and reality-testing, positioning empirical verification as a corrective to fear-driven reasoning.",
+    "implicit_claims": [
+      "The speaker has the capacity to distinguish between predictions based on evidence and predictions based on fear.",
+      "Fear can distort judgment and lead to inaccurate predictions.",
+      "Testing against actual outcomes is a reliable method for improving accuracy.",
+      "The speaker is currently choosing to prioritize evidence over emotional response.",
+      "There is a meaningful difference between what one fears and what actually happens."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it expresses a clear epistemic value (empiricism over emotion) and a deliberate action (choosing to test predictions against reality). No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker has access to reliable data about actual outcomes.",
+      "The speaker is psychologically capable of overcoming fear-based cognitive biases.",
+      "The predictions in question are empirically testable within a reasonable time frame.",
+      "Fear is indeed leading to systematically distorted predictions in the relevant context.",
+      "The speaker’s environment tolerates or rewards empirical testing over risk-averse avoidance."
+    ],
+    "conditions_for_misleading": [
+      "The speaker mistakes subjective feelings for true fear, or uses 'fear' as a strawman for legitimate caution.",
+      "Actual outcomes are unobservable, delayed, or systematically ambiguous (e.g., long-term societal risks).",
+      "Fear in this context is actually a rational heuristic for low-probability high-impact events.",
+      "The statement is used to dismiss valid precautionary principles without empirical basis.",
+      "The speaker’s predictions were never shaped by fear, but rather by other biases, making the contrast false."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 374,
+  "error": "",
+  "retry_count": 0
+}

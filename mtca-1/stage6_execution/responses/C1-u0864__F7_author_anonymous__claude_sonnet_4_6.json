@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0864__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:55:25.126858+00:00",
+  "wall_clock_seconds": 12.58655071258545,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing an act of personal disclosure or confession, signaling an initial stance of disbelief toward Coué's lectures. It functions rhetorically to establish credibility by admitting prior skepticism, likely as a setup for a subsequent reversal (e.g., 'but then I was convinced').\",\n  \"implicit_claims\": [\n    \"The speaker attended or was exposed to Coué's lectures.\",\n    \"The speaker had a prior attitude of complete skepticism toward Coué's ideas or methods.\",\n    \"Coué is a known or identifiable figure whose lectures are a subject of discussion.\",\n    \"The speaker considers their skepticism noteworthy enough to disclose, implying it may contrast with a later position.\",\n    \"The word 'confess' implies the speaker recognizes their skepticism as potentially surprising, embarrassing, or worth acknowledging openly.\",\n    \"There is an implied audience for whom this disclosure is relevant.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly expresses a single, consistent idea: the speaker's admitted skepticism toward Coué's lectures. The use of 'I confess' is consistent with the disclosure of a personal attitude. However, as a fragment, it lacks full context and likely depends on surrounding text for its complete meaning.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a larger narrative where the speaker's initial skepticism is later contrasted with changed views.\",\n    \"The audience knows who Coué is and why skepticism toward him would be meaningful.\",\n    \"The speaker's credibility or authority is relevant, making their initial stance worth disclosing.\",\n    \"The statement serves as an honest framing device to signal objectivity before presenting evidence or an argument.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker was not actually skeptical and is fabricating an initial stance to appear more credible or objective.\",\n    \"The 'confession' is used rhetorically to manipulate the audience into trusting a subsequent endorsement of Coué.\",\n    \"The speaker's skepticism is selectively disclosed while omitting prior positive biases or conflicts of interest.\",\n    \"Coué's identity or the content of the lectures is misrepresented, making the skepticism seem more or less warranted than it actually was.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing an act of personal disclosure or confession, signaling an initial stance of disbelief toward Coué's lectures. It functions rhetorically to establish credibility by admitting prior skepticism, likely as a setup for a subsequent reversal (e.g., 'but then I was convinced').",
+    "implicit_claims": [
+      "The speaker attended or was exposed to Coué's lectures.",
+      "The speaker had a prior attitude of complete skepticism toward Coué's ideas or methods.",
+      "Coué is a known or identifiable figure whose lectures are a subject of discussion.",
+      "The speaker considers their skepticism noteworthy enough to disclose, implying it may contrast with a later position.",
+      "The word 'confess' implies the speaker recognizes their skepticism as potentially surprising, embarrassing, or worth acknowledging openly.",
+      "There is an implied audience for whom this disclosure is relevant."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly expresses a single, consistent idea: the speaker's admitted skepticism toward Coué's lectures. The use of 'I confess' is consistent with the disclosure of a personal attitude. However, as a fragment, it lacks full context and likely depends on surrounding text for its complete meaning.",
+    "conditions_for_usefulness": [
+      "The statement is part of a larger narrative where the speaker's initial skepticism is later contrasted with changed views.",
+      "The audience knows who Coué is and why skepticism toward him would be meaningful.",
+      "The speaker's credibility or authority is relevant, making their initial stance worth disclosing.",
+      "The statement serves as an honest framing device to signal objectivity before presenting evidence or an argument."
+    ],
+    "conditions_for_misleading": [
+      "The speaker was not actually skeptical and is fabricating an initial stance to appear more credible or objective.",
+      "The 'confession' is used rhetorically to manipulate the audience into trusting a subsequent endorsement of Coué.",
+      "The speaker's skepticism is selectively disclosed while omitting prior positive biases or conflicts of interest.",
+      "Coué's identity or the content of the lectures is misrepresented, making the skepticism seem more or less warranted than it actually was."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 543,
+  "error": "",
+  "retry_count": 0
+}

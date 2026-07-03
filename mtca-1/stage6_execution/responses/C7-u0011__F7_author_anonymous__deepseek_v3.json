@@ -1,0 +1,45 @@
+{
+  "call_id": "C7-u0011__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:46:59.039091+00:00",
+  "wall_clock_seconds": 5.735082626342773,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is both a declaration of personal transformation and a directive for future action, serving to inspire and instruct its audience to continue a recovery program by sharing its message and applying its principles universally.\",\n  \"implicit_claims\": [\n    \"The speaker has undergone a spiritual awakening.\",\n    \"This awakening is the direct result of completing a specific set of steps.\",\n    \"The steps are effective in producing spiritual awakenings.\",\n    \"The message of this awakening is intended for alcoholics specifically.\",\n    \"There is a set of principles that can be practiced in all aspects of life.\",\n    \"Practicing these principles is both possible and desirable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it establishes a causal chain (steps lead to awakening), then logically derives two consequent actions (carrying the message and practicing principles). The shift from a personal experience to a universal application is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The audience is familiar with or involved in a 12-step recovery program (e.g., Alcoholics Anonymous).\",\n    \"The speaker genuinely experienced a transformation through the steps.\",\n    \"The listener is open to the concept of spiritual awakening.\",\n    \"The listener seeks practical guidance for personal change and helping others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as universally applicable to all people, regardless of addiction or spiritual orientation.\",\n    \"The 'spiritual awakening' is interpreted as a literal supernatural event rather than a psychological or experiential shift.\",\n    \"The steps are assumed to be the only valid path to recovery or spiritual growth.\",\n    \"The statement is taken to imply that all alcoholics need exactly this message, ignoring individual differences.\",\n    \"It is used to pressure others into following a specific program without informed consent.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is both a declaration of personal transformation and a directive for future action, serving to inspire and instruct its audience to continue a recovery program by sharing its message and applying its principles universally.",
+    "implicit_claims": [
+      "The speaker has undergone a spiritual awakening.",
+      "This awakening is the direct result of completing a specific set of steps.",
+      "The steps are effective in producing spiritual awakenings.",
+      "The message of this awakening is intended for alcoholics specifically.",
+      "There is a set of principles that can be practiced in all aspects of life.",
+      "Practicing these principles is both possible and desirable."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it establishes a causal chain (steps lead to awakening), then logically derives two consequent actions (carrying the message and practicing principles). The shift from a personal experience to a universal application is logically consistent.",
+    "conditions_for_usefulness": [
+      "The audience is familiar with or involved in a 12-step recovery program (e.g., Alcoholics Anonymous).",
+      "The speaker genuinely experienced a transformation through the steps.",
+      "The listener is open to the concept of spiritual awakening.",
+      "The listener seeks practical guidance for personal change and helping others."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as universally applicable to all people, regardless of addiction or spiritual orientation.",
+      "The 'spiritual awakening' is interpreted as a literal supernatural event rather than a psychological or experiential shift.",
+      "The steps are assumed to be the only valid path to recovery or spiritual growth.",
+      "The statement is taken to imply that all alcoholics need exactly this message, ignoring individual differences.",
+      "It is used to pressure others into following a specific program without informed consent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 378,
+  "error": "",
+  "retry_count": 0
+}

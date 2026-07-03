@@ -1,0 +1,49 @@
+{
+  "call_id": "C8-u0008__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:34:20.706473+00:00",
+  "wall_clock_seconds": 16.88511633872986,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs an act of self-affirmation or internal justification, framing a behavioral choice as virtuous by positioning it as the deliberate overriding of emotional inertia in favor of moral commitment. It functions as a kind of internal coaching or resolve-maintenance utterance.\",\n  \"implicit_claims\": [\n    \"Values and feelings are separable and can be in tension with one another.\",\n    \"Values are more authoritative or reliable guides to action than feelings in cases of conflict.\",\n    \"The speaker has clear, stable, and identifiable values they can act upon.\",\n    \"Feelings are expected to eventually 'catch up,' implying they are not fundamentally opposed to the values but are merely lagging.\",\n    \"Acting against one's current feelings in favor of values is a praiseworthy or at least acceptable form of self-governance.\",\n    \"The speaker has sufficient self-knowledge to distinguish their values from their feelings.\",\n    \"There is an implicit narrative of moral growth or emotional integration over time.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a broadly Kantian or virtue-ethics framework where reason or character-based values can and should override immediate affect. The tension it describes is psychologically recognizable and philosophically grounded. However, it presupposes that 'values' are reliably accessible and well-formed, which is not always the case, and it does not account for situations where feelings themselves carry morally relevant information that values-as-articulated might miss.\",\n  \"conditions_for_usefulness\": [\n    \"The person's stated values are genuinely reflective of their considered, autonomous commitments rather than internalized social pressure or coercion.\",\n    \"The feelings being overridden are transient discomforts rather than deep signals of moral distress or harm.\",\n    \"The values in question have been examined and are ethically sound.\",\n    \"The context involves akrasia or weakness of will rather than a genuine conflict between competing legitimate values.\",\n    \"The person has a reliable process for distinguishing values from conditioned beliefs or biases.\",\n    \"An AI system using this as a design principle is helping users act on their own authentic values, not substituting the system's values for the user's.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' being invoked are themselves unreflective, harmful, or socially conditioned in ways the person has not examined.\",\n    \"The feelings being suppressed are actually morally significant warning signals (e.g., guilt, empathy, or discomfort indicating the action is wrong).\",\n    \"The statement is used to rationalize behavior that others are pressuring the person into, disguising coercion as autonomous value-alignment.\",\n    \"An AI system applies this principle paternalistically, deciding for users what their values are and overriding their expressed preferences.\",\n    \"The framing is used to pathologize or dismiss emotional intelligence as an inferior guide to behavior.\",\n    \"The gap between values and feelings is not a temporary lag but a persistent signal that the stated values are not genuinely held or are in conflict with deeper commitments.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs an act of self-affirmation or internal justification, framing a behavioral choice as virtuous by positioning it as the deliberate overriding of emotional inertia in favor of moral commitment. It functions as a kind of internal coaching or resolve-maintenance utterance.",
+    "implicit_claims": [
+      "Values and feelings are separable and can be in tension with one another.",
+      "Values are more authoritative or reliable guides to action than feelings in cases of conflict.",
+      "The speaker has clear, stable, and identifiable values they can act upon.",
+      "Feelings are expected to eventually 'catch up,' implying they are not fundamentally opposed to the values but are merely lagging.",
+      "Acting against one's current feelings in favor of values is a praiseworthy or at least acceptable form of self-governance.",
+      "The speaker has sufficient self-knowledge to distinguish their values from their feelings.",
+      "There is an implicit narrative of moral growth or emotional integration over time."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a broadly Kantian or virtue-ethics framework where reason or character-based values can and should override immediate affect. The tension it describes is psychologically recognizable and philosophically grounded. However, it presupposes that 'values' are reliably accessible and well-formed, which is not always the case, and it does not account for situations where feelings themselves carry morally relevant information that values-as-articulated might miss.",
+    "conditions_for_usefulness": [
+      "The person's stated values are genuinely reflective of their considered, autonomous commitments rather than internalized social pressure or coercion.",
+      "The feelings being overridden are transient discomforts rather than deep signals of moral distress or harm.",
+      "The values in question have been examined and are ethically sound.",
+      "The context involves akrasia or weakness of will rather than a genuine conflict between competing legitimate values.",
+      "The person has a reliable process for distinguishing values from conditioned beliefs or biases.",
+      "An AI system using this as a design principle is helping users act on their own authentic values, not substituting the system's values for the user's."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' being invoked are themselves unreflective, harmful, or socially conditioned in ways the person has not examined.",
+      "The feelings being suppressed are actually morally significant warning signals (e.g., guilt, empathy, or discomfort indicating the action is wrong).",
+      "The statement is used to rationalize behavior that others are pressuring the person into, disguising coercion as autonomous value-alignment.",
+      "An AI system applies this principle paternalistically, deciding for users what their values are and overriding their expressed preferences.",
+      "The framing is used to pathologize or dismiss emotional intelligence as an inferior guide to behavior.",
+      "The gap between values and feelings is not a temporary lag but a persistent signal that the stated values are not genuinely held or are in conflict with deeper commitments."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 716,
+  "error": "",
+  "retry_count": 0
+}

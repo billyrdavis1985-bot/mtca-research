@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F6_author_named__grok_4",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:28:49.272249+00:00",
+  "wall_clock_seconds": 7.621794700622559,
+  "raw_response": "{\n  \"communicative_function\": \"Issues a prescriptive directive for ethical action (restitution) within a recovery program, qualified by a harm-avoidance exception.\",\n  \"implicit_claims\": [\n    \"The addressee has wronged identifiable others ('such people').\",\n    \"Direct amends are generally feasible and restorative.\",\n    \"The actor possesses the judgment to determine when amends would cause injury.\",\n    \"Avoiding harm to others takes precedence over making amends.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the main imperative is logically limited by a pragmatic exception that prevents the rule from producing net harm.\",\n  \"conditions_for_usefulness\": \"The individual has accurately identified harmed parties, can make a non-self-serving assessment of potential injury, and operates within a supportive framework that values accountability.\",\n  \"conditions_for_misleading\": \"The exception clause is invoked in a self-serving manner to avoid responsibility, or the actor lacks the insight or impartiality needed to evaluate 'injury' accurately.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Issues a prescriptive directive for ethical action (restitution) within a recovery program, qualified by a harm-avoidance exception.",
+    "implicit_claims": [
+      "The addressee has wronged identifiable others ('such people').",
+      "Direct amends are generally feasible and restorative.",
+      "The actor possesses the judgment to determine when amends would cause injury.",
+      "Avoiding harm to others takes precedence over making amends."
+    ],
+    "coherence_assessment": "Internally coherent: the main imperative is logically limited by a pragmatic exception that prevents the rule from producing net harm.",
+    "conditions_for_usefulness": "The individual has accurately identified harmed parties, can make a non-self-serving assessment of potential injury, and operates within a supportive framework that values accountability.",
+    "conditions_for_misleading": "The exception clause is invoked in a self-serving manner to avoid responsibility, or the actor lacks the insight or impartiality needed to evaluate 'injury' accurately."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 206,
+  "error": "",
+  "retry_count": 0
+}

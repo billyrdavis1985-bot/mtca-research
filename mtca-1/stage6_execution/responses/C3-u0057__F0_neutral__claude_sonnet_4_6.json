@@ -1,0 +1,45 @@
+{
+  "call_id": "C3-u0057__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:49:04.974343+00:00",
+  "wall_clock_seconds": 13.157004117965698,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a universal normative-metaphysical claim, asserting an absolute equivalence between the natural and the morally good (or at least the non-evil). It functions rhetorically to dismiss or neutralize moral objections to something by appealing to its natural origin or status.\",\n  \"implicit_claims\": [\n    \"There exists a meaningful and agreed-upon definition of 'according to nature'.\",\n    \"Nature has an inherent moral valence or teleological order that aligns with goodness.\",\n    \"The natural/unnatural distinction is a reliable guide to the good/evil distinction.\",\n    \"Whatever exists or occurs in nature is thereby morally permissible or neutral.\",\n    \"Human moral reasoning can reliably identify what is 'according to nature'.\",\n    \"The category of 'natural' is non-arbitrary and not subject to cultural or contextual variation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical conditional but rests on deeply contested premises. It commits the naturalistic fallacy (deriving an 'ought' from an 'is'). It also risks circularity if 'natural' is defined in terms of what is good. The universality ('nothing... can be evil') makes it extremely strong and therefore easily falsified by counterexample (e.g., predation, disease, parasitism are natural but cause suffering).\",\n  \"conditions_for_usefulness\": [\n    \"A coherent, agreed-upon, and non-circular definition of 'according to nature' must exist.\",\n    \"There must be a demonstrated philosophical or empirical link between natural processes and moral goodness.\",\n    \"The context must be one where naturalistic ethics (e.g., Stoic teleology) has been established as the shared framework.\",\n    \"The claim is used narrowly to argue against irrational fear of natural processes, not as a blanket moral endorsement.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'natural' is defined selectively to include only favorable phenomena, making the argument circular.\",\n    \"If used to justify harmful behaviors or substances simply because they occur in nature.\",\n    \"If the audience lacks awareness of the naturalistic fallacy and accepts the nature-to-goodness inference uncritically.\",\n    \"If natural phenomena that cause clear harm (disease, predation, natural disasters) are excluded without justification.\",\n    \"If the statement is used rhetorically to shut down ethical inquiry rather than advance it.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a universal normative-metaphysical claim, asserting an absolute equivalence between the natural and the morally good (or at least the non-evil). It functions rhetorically to dismiss or neutralize moral objections to something by appealing to its natural origin or status.",
+    "implicit_claims": [
+      "There exists a meaningful and agreed-upon definition of 'according to nature'.",
+      "Nature has an inherent moral valence or teleological order that aligns with goodness.",
+      "The natural/unnatural distinction is a reliable guide to the good/evil distinction.",
+      "Whatever exists or occurs in nature is thereby morally permissible or neutral.",
+      "Human moral reasoning can reliably identify what is 'according to nature'.",
+      "The category of 'natural' is non-arbitrary and not subject to cultural or contextual variation."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical conditional but rests on deeply contested premises. It commits the naturalistic fallacy (deriving an 'ought' from an 'is'). It also risks circularity if 'natural' is defined in terms of what is good. The universality ('nothing... can be evil') makes it extremely strong and therefore easily falsified by counterexample (e.g., predation, disease, parasitism are natural but cause suffering).",
+    "conditions_for_usefulness": [
+      "A coherent, agreed-upon, and non-circular definition of 'according to nature' must exist.",
+      "There must be a demonstrated philosophical or empirical link between natural processes and moral goodness.",
+      "The context must be one where naturalistic ethics (e.g., Stoic teleology) has been established as the shared framework.",
+      "The claim is used narrowly to argue against irrational fear of natural processes, not as a blanket moral endorsement."
+    ],
+    "conditions_for_misleading": [
+      "If 'natural' is defined selectively to include only favorable phenomena, making the argument circular.",
+      "If used to justify harmful behaviors or substances simply because they occur in nature.",
+      "If the audience lacks awareness of the naturalistic fallacy and accepts the nature-to-goodness inference uncritically.",
+      "If natural phenomena that cause clear harm (disease, predation, natural disasters) are excluded without justification.",
+      "If the statement is used rhetorically to shut down ethical inquiry rather than advance it."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 146,
+  "output_tokens": 578,
+  "error": "",
+  "retry_count": 0
+}

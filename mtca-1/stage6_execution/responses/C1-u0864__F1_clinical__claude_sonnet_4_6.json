@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0864__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:51:15.782526+00:00",
+  "wall_clock_seconds": 12.756893157958984,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a retrospective admission of doubt or disbelief regarding Coué's lectures, functioning as a disclosure of prior skepticism. As a self-statement, it communicates intellectual honesty about one's starting point of doubt, potentially normalizing skepticism as a valid initial stance.\",\n  \"implicit_claims\": [\n    \"The speaker attended or was exposed to Coué's lectures.\",\n    \"The speaker had a skeptical attitude at the time of exposure.\",\n    \"The skepticism is being disclosed now, implying a possible shift in perspective since then.\",\n    \"Coué's lectures are a known reference point shared with the listener.\",\n    \"Admitting skepticism is meaningful or relevant to the current context.\",\n    \"The word 'confess' implies the skepticism may have been somewhat hidden or contrary to an expected or later-adopted belief.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a disclosure of past skepticism. However, as a standalone clinical self-statement, it is incomplete — it lacks a present-tense resolution, therapeutic reframe, or actionable intention. It reads more as a fragment of a narrative than a fully formed therapeutic self-statement.\",\n  \"conditions_for_usefulness\": [\n    \"It is used as part of a longer narrative arc that resolves the skepticism into openness or changed belief.\",\n    \"The client or practitioner is working on themes of intellectual humility or openness to change.\",\n    \"It normalizes doubt as a valid starting point in a therapeutic or learning process.\",\n    \"The reference to Coué is contextually understood and relevant to the therapeutic work (e.g., autosuggestion, self-efficacy).\",\n    \"It is paired with a follow-up statement describing what changed or what was learned.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as a complete therapeutic affirmation without resolution, leaving the user anchored in skepticism.\",\n    \"The reference to Coué is unfamiliar to the client, making the statement contextually meaningless.\",\n    \"The 'confess' framing induces unnecessary shame around holding skeptical views.\",\n    \"It is used to implicitly endorse Coué's methods without critical evaluation of their evidence base.\",\n    \"The fragment is taken out of its original context and misrepresented as a standalone therapeutic tool.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a retrospective admission of doubt or disbelief regarding Coué's lectures, functioning as a disclosure of prior skepticism. As a self-statement, it communicates intellectual honesty about one's starting point of doubt, potentially normalizing skepticism as a valid initial stance.",
+    "implicit_claims": [
+      "The speaker attended or was exposed to Coué's lectures.",
+      "The speaker had a skeptical attitude at the time of exposure.",
+      "The skepticism is being disclosed now, implying a possible shift in perspective since then.",
+      "Coué's lectures are a known reference point shared with the listener.",
+      "Admitting skepticism is meaningful or relevant to the current context.",
+      "The word 'confess' implies the skepticism may have been somewhat hidden or contrary to an expected or later-adopted belief."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a disclosure of past skepticism. However, as a standalone clinical self-statement, it is incomplete — it lacks a present-tense resolution, therapeutic reframe, or actionable intention. It reads more as a fragment of a narrative than a fully formed therapeutic self-statement.",
+    "conditions_for_usefulness": [
+      "It is used as part of a longer narrative arc that resolves the skepticism into openness or changed belief.",
+      "The client or practitioner is working on themes of intellectual humility or openness to change.",
+      "It normalizes doubt as a valid starting point in a therapeutic or learning process.",
+      "The reference to Coué is contextually understood and relevant to the therapeutic work (e.g., autosuggestion, self-efficacy).",
+      "It is paired with a follow-up statement describing what changed or what was learned."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as a complete therapeutic affirmation without resolution, leaving the user anchored in skepticism.",
+      "The reference to Coué is unfamiliar to the client, making the statement contextually meaningless.",
+      "The 'confess' framing induces unnecessary shame around holding skeptical views.",
+      "It is used to implicitly endorse Coué's methods without critical evaluation of their evidence base.",
+      "The fragment is taken out of its original context and misrepresented as a standalone therapeutic tool."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 552,
+  "error": "",
+  "retry_count": 0
+}

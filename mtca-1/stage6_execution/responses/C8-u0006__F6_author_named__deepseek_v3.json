@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0006__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:24:24.939465+00:00",
+  "wall_clock_seconds": 4.586471319198608,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and commitment to adaptive risk-taking based on evidence.\",\n  \"implicit_claims\": [\n    \"There exists evidence that can indicate whether a fearful action is likely to help.\",\n    \"The speaker is capable of recognizing and evaluating such evidence.\",\n    \"Fear is not necessarily a reason to avoid an action if evidence supports it.\",\n    \"The speaker has a choice about whether to engage in the action.\",\n    \"Likely helpfulness is a valid criterion for decision-making.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: it connects willingness, fear, evidence, and anticipated benefit in a logical conditional structure.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to reliable evidence about outcomes.\",\n    \"The speaker can accurately assess the likelihood of help.\",\n    \"The speaker is able to act despite fear when evidence supports it.\",\n    \"The action is indeed likely to help, not just perceived as such.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The evidence is incomplete, biased, or misinterpreted.\",\n    \"The speaker overestimates the helpfulness or underestimates risks.\",\n    \"Fear may be an important signal of genuine danger that evidence fails to capture.\",\n    \"The statement could be used to justify reckless behavior under the guise of evidence-based courage.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and commitment to adaptive risk-taking based on evidence.",
+    "implicit_claims": [
+      "There exists evidence that can indicate whether a fearful action is likely to help.",
+      "The speaker is capable of recognizing and evaluating such evidence.",
+      "Fear is not necessarily a reason to avoid an action if evidence supports it.",
+      "The speaker has a choice about whether to engage in the action.",
+      "Likely helpfulness is a valid criterion for decision-making."
+    ],
+    "coherence_assessment": "Internally coherent: it connects willingness, fear, evidence, and anticipated benefit in a logical conditional structure.",
+    "conditions_for_usefulness": [
+      "The speaker has access to reliable evidence about outcomes.",
+      "The speaker can accurately assess the likelihood of help.",
+      "The speaker is able to act despite fear when evidence supports it.",
+      "The action is indeed likely to help, not just perceived as such."
+    ],
+    "conditions_for_misleading": [
+      "The evidence is incomplete, biased, or misinterpreted.",
+      "The speaker overestimates the helpfulness or underestimates risks.",
+      "Fear may be an important signal of genuine danger that evidence fails to capture.",
+      "The statement could be used to justify reckless behavior under the guise of evidence-based courage."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 279,
+  "error": "",
+  "retry_count": 0
+}

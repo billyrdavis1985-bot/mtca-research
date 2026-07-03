@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0014__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:24:42.458827+00:00",
+  "wall_clock_seconds": 6.762072563171387,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is prescribing a moral hierarchy of passions, ranking anger as less blameworthy than lust, by describing their respective psychological and behavioral effects.\",\n  \"implicit_claims\": [\n    \"Anger involves a turning away from reason, while lust involves being overcome by pleasure.\",\n    \"Being overcome by pleasure is a more impotent and unmanlike disposition than turning away from reason.\",\n    \"There is a normative judgement that some sins (lust) are worse or less manly than others (anger).\",\n    \"The ideal human state is rational, self-controlled, and 'manlike' (in a gendered sense).\",\n    \"Grief and contraction of self are associated with anger, but these are less morally problematic than being mastered by pleasure.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in contrasting two forms of irrationality, one driven by grief/contraction and the other by pleasure/overcoming, and explicitly judges the latter as more impotent. However, the coherence depends on accepting its gendered and hierarchical assumptions about passions.\",\n  \"conditions_for_usefulness\": [\n    \"If the goal is to design AI that discourages impulsive pleasure-seeking more strongly than reactive anger.\",\n    \"If the AI operates in a context where moral self-control and rational deliberation are valued over other virtues.\",\n    \"If the target users accept the premise that certain dispositions (e.g., being 'unmanlike') are undesirable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is taken as an objective psychological or ethical truth, rather than a culturally specific value judgment.\",\n    \"If the gendered language ('unmanlike') is interpreted as endorsing gender stereotypes that may harm or exclude.\",\n    \"If the claim that anger 'turns away from reason' is assumed to be less harmful than lust-driven behavior, ignoring cases where anger leads to violence or injustice.\",\n    \"If the statement is used to rank harms without considering situational context or modern ethical frameworks.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is prescribing a moral hierarchy of passions, ranking anger as less blameworthy than lust, by describing their respective psychological and behavioral effects.",
+    "implicit_claims": [
+      "Anger involves a turning away from reason, while lust involves being overcome by pleasure.",
+      "Being overcome by pleasure is a more impotent and unmanlike disposition than turning away from reason.",
+      "There is a normative judgement that some sins (lust) are worse or less manly than others (anger).",
+      "The ideal human state is rational, self-controlled, and 'manlike' (in a gendered sense).",
+      "Grief and contraction of self are associated with anger, but these are less morally problematic than being mastered by pleasure."
+    ],
+    "coherence_assessment": "The statement is internally coherent in contrasting two forms of irrationality, one driven by grief/contraction and the other by pleasure/overcoming, and explicitly judges the latter as more impotent. However, the coherence depends on accepting its gendered and hierarchical assumptions about passions.",
+    "conditions_for_usefulness": [
+      "If the goal is to design AI that discourages impulsive pleasure-seeking more strongly than reactive anger.",
+      "If the AI operates in a context where moral self-control and rational deliberation are valued over other virtues.",
+      "If the target users accept the premise that certain dispositions (e.g., being 'unmanlike') are undesirable."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is taken as an objective psychological or ethical truth, rather than a culturally specific value judgment.",
+      "If the gendered language ('unmanlike') is interpreted as endorsing gender stereotypes that may harm or exclude.",
+      "If the claim that anger 'turns away from reason' is assumed to be less harmful than lust-driven behavior, ignoring cases where anger leads to violence or injustice.",
+      "If the statement is used to rank harms without considering situational context or modern ethical frameworks."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 415,
+  "error": "",
+  "retry_count": 0
+}

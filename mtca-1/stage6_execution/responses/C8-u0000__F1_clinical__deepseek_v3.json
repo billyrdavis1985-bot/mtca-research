@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0000__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:48:14.963149+00:00",
+  "wall_clock_seconds": 4.040336847305298,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is used to help the speaker differentiate between automatic negative thoughts and objective reality, promoting cognitive distancing and reality testing.\",\n  \"implicit_claims\": [\n    \"There is a distinction between automatic thoughts and objective evidence.\",\n    \"Automatic thoughts can be inaccurate or not aligned with evidence.\",\n    \"The speaker has access to both their automatic thoughts and external evidence.\",\n    \"Evidence is a reliable standard for determining truth.\",\n    \"The speaker may have previously conflated thoughts with facts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it logically contrasts subjective cognitive events (automatic thoughts) with external or objective evidence, and posits that they may diverge.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is able to identify their automatic thoughts.\",\n    \"The speaker has access to relevant evidence (e.g., through observation or data).\",\n    \"The speaker is open to the possibility that their thoughts may be biased.\",\n    \"The statement is used in a therapeutic context that supports cognitive restructuring.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker lacks access to reliable evidence, the statement may imply false equivalence or overconfidence in incomplete data.\",\n    \"If the speaker’s automatic thoughts are actually accurate, the statement could dismiss valid intuitions as mere distortions.\",\n    \"If the therapeutic context discourages critical evaluation of external evidence, the statement may reinforce unhelpful skepticism.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is used to help the speaker differentiate between automatic negative thoughts and objective reality, promoting cognitive distancing and reality testing.",
+    "implicit_claims": [
+      "There is a distinction between automatic thoughts and objective evidence.",
+      "Automatic thoughts can be inaccurate or not aligned with evidence.",
+      "The speaker has access to both their automatic thoughts and external evidence.",
+      "Evidence is a reliable standard for determining truth.",
+      "The speaker may have previously conflated thoughts with facts."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it logically contrasts subjective cognitive events (automatic thoughts) with external or objective evidence, and posits that they may diverge.",
+    "conditions_for_usefulness": [
+      "The speaker is able to identify their automatic thoughts.",
+      "The speaker has access to relevant evidence (e.g., through observation or data).",
+      "The speaker is open to the possibility that their thoughts may be biased.",
+      "The statement is used in a therapeutic context that supports cognitive restructuring."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker lacks access to reliable evidence, the statement may imply false equivalence or overconfidence in incomplete data.",
+      "If the speaker’s automatic thoughts are actually accurate, the statement could dismiss valid intuitions as mere distortions.",
+      "If the therapeutic context discourages critical evaluation of external evidence, the statement may reinforce unhelpful skepticism."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 304,
+  "error": "",
+  "retry_count": 0
+}

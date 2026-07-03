@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0002__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:57:47.896216+00:00",
+  "wall_clock_seconds": 2.0191938877105713,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement communicates a decision or intention to prioritize objective evidence over subjective fear.\",\n  \"implicit_claims\": [\n    \"Testing predictions against actual outcomes is valuable.\",\n    \"Fear can lead to inaccurate assessments or predictions.\",\n    \"Relying on actual outcomes is preferable to relying on fears.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it contrasts two approaches (testing against outcomes vs. testing against fear) and clearly indicates a preference for the former.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if actual outcomes are accessible, measurable, and provide clear feedback on the predictions; and if fear is a significant factor negatively influencing decision-making.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the available data does not accurately capture the reality or if fear is a justified and rational response based on past outcomes.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement communicates a decision or intention to prioritize objective evidence over subjective fear.",
+    "implicit_claims": [
+      "Testing predictions against actual outcomes is valuable.",
+      "Fear can lead to inaccurate assessments or predictions.",
+      "Relying on actual outcomes is preferable to relying on fears."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it contrasts two approaches (testing against outcomes vs. testing against fear) and clearly indicates a preference for the former.",
+    "conditions_for_usefulness": "The statement would be useful if actual outcomes are accessible, measurable, and provide clear feedback on the predictions; and if fear is a significant factor negatively influencing decision-making.",
+    "conditions_for_misleading": "The statement could be misleading if the available data does not accurately capture the reality or if fear is a justified and rational response based on past outcomes."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 139,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

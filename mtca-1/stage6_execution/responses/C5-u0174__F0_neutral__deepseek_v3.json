@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0174__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:27:28.405006+00:00",
+  "wall_clock_seconds": 3.2956831455230713,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting exclusive agency or self-determination\",\n  \"implicit_claims\": [\n    \"The person's condition is alterable\",\n    \"No external factor or person can change the condition\",\n    \"The person has the power to alter their own condition\",\n    \"The condition is under the person's control\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical assertion of exclusivity: if X can alter Y, and only X can, then no one else can. However, its coherence depends on the implied possibility of alteration.\",\n  \"conditions_for_usefulness\": [\n    \"The person genuinely has the capacity and means to change their condition\",\n    \"The condition is indeed modifiable\",\n    \"The statement is used to encourage personal responsibility or autonomy\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition is not actually alterable (e.g., a permanent disability or systemic constraint)\",\n    \"External factors (e.g., laws, lack of resources, dependency) prevent meaningful self-change\",\n    \"The statement is used to blame someone for circumstances beyond their control\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting exclusive agency or self-determination",
+    "implicit_claims": [
+      "The person's condition is alterable",
+      "No external factor or person can change the condition",
+      "The person has the power to alter their own condition",
+      "The condition is under the person's control"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical assertion of exclusivity: if X can alter Y, and only X can, then no one else can. However, its coherence depends on the implied possibility of alteration.",
+    "conditions_for_usefulness": [
+      "The person genuinely has the capacity and means to change their condition",
+      "The condition is indeed modifiable",
+      "The statement is used to encourage personal responsibility or autonomy"
+    ],
+    "conditions_for_misleading": [
+      "The condition is not actually alterable (e.g., a permanent disability or systemic constraint)",
+      "External factors (e.g., laws, lack of resources, dependency) prevent meaningful self-change",
+      "The statement is used to blame someone for circumstances beyond their control"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 124,
+  "output_tokens": 238,
+  "error": "",
+  "retry_count": 0
+}

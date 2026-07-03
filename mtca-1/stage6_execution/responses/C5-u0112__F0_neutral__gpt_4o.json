@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F0_neutral__gpt_4o",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:16:24.934886+00:00",
+  "wall_clock_seconds": 3.0575950145721436,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making an assertion about the relationship between mental and physical health.\",\n  \"implicit_claims\": [\n    \"There is a direct connection between mental states and physical health.\",\n    \"Negative or 'sickly' thoughts can cause physical ailments.\",\n    \"A person's mental health can manifest in their physical body.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent if one accepts the premise that mental states influence physical health. Without this acceptance, the statement lacks a connection between mental and physical states.\",\n  \"conditions_for_usefulness\": \"The statement is useful if there is scientific support for the idea that psychological factors can influence physical health, and if understanding this relationship helps in addressing health issues through mental health interventions.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if it overemphasizes the impact of thoughts on the body without acknowledging other significant factors like genetics, environment, and lifestyle, or if it implies causal relationships not supported by evidence.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making an assertion about the relationship between mental and physical health.",
+    "implicit_claims": [
+      "There is a direct connection between mental states and physical health.",
+      "Negative or 'sickly' thoughts can cause physical ailments.",
+      "A person's mental health can manifest in their physical body."
+    ],
+    "coherence_assessment": "The statement is internally coherent if one accepts the premise that mental states influence physical health. Without this acceptance, the statement lacks a connection between mental and physical states.",
+    "conditions_for_usefulness": "The statement is useful if there is scientific support for the idea that psychological factors can influence physical health, and if understanding this relationship helps in addressing health issues through mental health interventions.",
+    "conditions_for_misleading": "The statement may be misleading if it overemphasizes the impact of thoughts on the body without acknowledging other significant factors like genetics, environment, and lifestyle, or if it implies causal relationships not supported by evidence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 134,
+  "output_tokens": 214,
+  "error": "",
+  "retry_count": 0
+}

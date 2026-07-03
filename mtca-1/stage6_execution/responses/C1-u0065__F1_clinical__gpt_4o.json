@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0065__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:08:21.848387+00:00",
+  "wall_clock_seconds": 3.885558605194092,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement aims to highlight a tendency towards conformity and to prompt self-reflection on the automaticity of following social examples.\",\n    \"implicit_claims\": [\n        \"Humans often act in ways similar to sheep by following others without conscious thought.\",\n        \"There is an involuntary aspect to human behavior that compels imitation.\",\n        \"Humans imagine that their actions are predetermined by external examples.\"\n    ],\n    \"coherence_assessment\": \"The statement coherently presents an analogy between human and sheep behavior, followed by an explanation of the involuntary nature of this behavior and the role of imagination in justifying actions.\",\n    \"conditions_for_usefulness\": \"The statement could be useful if an individual tends to uncritically follow social norms and is seeking insight into why this occurs, fostering awareness and encouraging autonomous decision-making.\",\n    \"conditions_for_misleading\": \"The statement could be misleading if it is interpreted as denying any capacity for individual agency or critical thinking, or if it suggests that following others is always involuntary and negative.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to highlight a tendency towards conformity and to prompt self-reflection on the automaticity of following social examples.",
+    "implicit_claims": [
+      "Humans often act in ways similar to sheep by following others without conscious thought.",
+      "There is an involuntary aspect to human behavior that compels imitation.",
+      "Humans imagine that their actions are predetermined by external examples."
+    ],
+    "coherence_assessment": "The statement coherently presents an analogy between human and sheep behavior, followed by an explanation of the involuntary nature of this behavior and the role of imagination in justifying actions.",
+    "conditions_for_usefulness": "The statement could be useful if an individual tends to uncritically follow social norms and is seeking insight into why this occurs, fostering awareness and encouraging autonomous decision-making.",
+    "conditions_for_misleading": "The statement could be misleading if it is interpreted as denying any capacity for individual agency or critical thinking, or if it suggests that following others is always involuntary and negative."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0174__F5_ai_ethics__grok_4",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:30:25.397333+00:00",
+  "wall_clock_seconds": 6.941660165786743,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a principle of exclusive individual agency over personal circumstances\",\n  \"implicit_claims\": [\n    \"only the self possesses the capacity to change one's condition\",\n    \"external agents or forces lack any power to alter an individual's state\",\n    \"personal condition is fully within the domain of self-directed action\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a strong claim of radical self-reliance, though logically absolute and thus brittle under empirical counterexamples\",\n  \"conditions_for_usefulness\": \"contexts that prioritize individual responsibility, self-help frameworks, or motivational settings where emphasizing personal agency produces adaptive behavior\",\n  \"conditions_for_misleading\": \"environments containing structural constraints, systemic barriers, or interdependent social conditions that demonstrably limit unilateral self-change\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a principle of exclusive individual agency over personal circumstances",
+    "implicit_claims": [
+      "only the self possesses the capacity to change one's condition",
+      "external agents or forces lack any power to alter an individual's state",
+      "personal condition is fully within the domain of self-directed action"
+    ],
+    "coherence_assessment": "internally consistent as a strong claim of radical self-reliance, though logically absolute and thus brittle under empirical counterexamples",
+    "conditions_for_usefulness": "contexts that prioritize individual responsibility, self-help frameworks, or motivational settings where emphasizing personal agency produces adaptive behavior",
+    "conditions_for_misleading": "environments containing structural constraints, systemic barriers, or interdependent social conditions that demonstrably limit unilateral self-change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 162,
+  "error": "",
+  "retry_count": 0
+}

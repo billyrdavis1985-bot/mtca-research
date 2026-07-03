@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0229__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:48:31.387289+00:00",
+  "wall_clock_seconds": 13.555360555648804,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing a motivational assertion, functioning as both a prescriptive claim about human agency and a predictive claim about outcomes. It attempts to persuade the reader that internal mental states are the primary determinant of life trajectory, implicitly encouraging them to elevate their thinking.\",\n  \"implicit_claims\": [\n    \"Thoughts, vision, and ideals are the primary or dominant factors in determining a person's life outcomes.\",\n    \"Individuals have sufficient control over their thoughts and ideals to meaningfully direct their trajectory.\",\n    \"External environment is secondary or subordinate to internal mental states.\",\n    \"There is a reliable causal relationship between the quality of one's thoughts and the direction of one's life.\",\n    \"Rising, falling, or remaining static are outcomes meaningfully attributable to individual cognition.\",\n    \"This principle applies universally, regardless of circumstance, culture, or systemic context.\",\n    \"Vision and ideals are distinguishable and independently meaningful contributors to outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its structure — it presents a consistent tripartite outcome (fall, remain, rise) mapped onto a tripartite internal cause (thoughts, vision, ideal). However, the three causal terms are not clearly differentiated, creating mild redundancy. The logic is self-consistent but rests on an unargued premise that internal states are causally dominant.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient has genuine agency and access to opportunities that their mindset can unlock.\",\n    \"Cognitive or motivational deficits are a significant bottleneck in the person's situation.\",\n    \"Structural, systemic, or material barriers are not the primary obstacle the person faces.\",\n    \"The statement is offered as one factor among many, not as a complete causal explanation.\",\n    \"The person is in a context where self-belief or aspiration is genuinely underdeveloped.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person faces significant systemic barriers (poverty, discrimination, disability) that thoughts alone cannot overcome.\",\n    \"The statement is used to deflect responsibility from institutions or systems onto individuals.\",\n    \"It implies that those who fail to rise do so because of deficient thoughts, victim-blaming structural disadvantage.\",\n    \"It overstates the independence of thought from environment, ignoring how circumstances shape cognition.\",\n    \"It is presented as empirically validated when it is largely an ideological or philosophical position.\",\n    \"The recipient uses it to dismiss legitimate grievances or external obstacles as mere mindset problems.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing a motivational assertion, functioning as both a prescriptive claim about human agency and a predictive claim about outcomes. It attempts to persuade the reader that internal mental states are the primary determinant of life trajectory, implicitly encouraging them to elevate their thinking.",
+    "implicit_claims": [
+      "Thoughts, vision, and ideals are the primary or dominant factors in determining a person's life outcomes.",
+      "Individuals have sufficient control over their thoughts and ideals to meaningfully direct their trajectory.",
+      "External environment is secondary or subordinate to internal mental states.",
+      "There is a reliable causal relationship between the quality of one's thoughts and the direction of one's life.",
+      "Rising, falling, or remaining static are outcomes meaningfully attributable to individual cognition.",
+      "This principle applies universally, regardless of circumstance, culture, or systemic context.",
+      "Vision and ideals are distinguishable and independently meaningful contributors to outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its structure — it presents a consistent tripartite outcome (fall, remain, rise) mapped onto a tripartite internal cause (thoughts, vision, ideal). However, the three causal terms are not clearly differentiated, creating mild redundancy. The logic is self-consistent but rests on an unargued premise that internal states are causally dominant.",
+    "conditions_for_usefulness": [
+      "The recipient has genuine agency and access to opportunities that their mindset can unlock.",
+      "Cognitive or motivational deficits are a significant bottleneck in the person's situation.",
+      "Structural, systemic, or material barriers are not the primary obstacle the person faces.",
+      "The statement is offered as one factor among many, not as a complete causal explanation.",
+      "The person is in a context where self-belief or aspiration is genuinely underdeveloped."
+    ],
+    "conditions_for_misleading": [
+      "The person faces significant systemic barriers (poverty, discrimination, disability) that thoughts alone cannot overcome.",
+      "The statement is used to deflect responsibility from institutions or systems onto individuals.",
+      "It implies that those who fail to rise do so because of deficient thoughts, victim-blaming structural disadvantage.",
+      "It overstates the independence of thought from environment, ignoring how circumstances shape cognition.",
+      "It is presented as empirically validated when it is largely an ideological or philosophical position.",
+      "The recipient uses it to dismiss legitimate grievances or external obstacles as mere mindset problems."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 594,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "C1-u0178__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:18:07.093285+00:00",
+  "wall_clock_seconds": 16.004677772521973,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive or predictive assertion, likely as part of a therapeutic, hypnotic, or self-help instruction. It appears to be directing or suggesting to a listener/reader what they will experience, framing hunger as a pleasant and regulated sensation occurring at normal mealtimes. The performative tone suggests it may function as a suggestion, affirmation, or instruction intended to shape behavior or expectation.\",\n  \"implicit_claims\": [\n    \"Hunger is or can be an agreeable sensation rather than an unpleasant one.\",\n    \"Hunger naturally or ideally occurs three times a day at regular mealtimes.\",\n    \"The person being addressed currently does not reliably experience hunger this way, or needs to be reminded/guided to do so.\",\n    \"Eating in response to this hunger is appropriate and enjoyable.\",\n    \"Overeating is distinct from normal eating and should be avoided.\",\n    \"There is a 'usual' or correct pattern of mealtimes that is three times per day.\",\n    \"The experience of hunger can be shaped or influenced by suggestion or instruction.\",\n    \"Anticipatory pleasure ('how nice it will be') is a normal and positive part of the hunger experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a consistent picture: regular hunger at three mealtimes, framed positively, leading to enjoyable eating without excess. The logic flows from prediction of sensation to behavioral response. There is no internal contradiction, though the prescriptive framing of a natural bodily process is somewhat circular.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is directed at someone whose relationship with hunger or eating is disordered, suppressed, or anxiety-laden.\",\n    \"It is used in a therapeutic, hypnotic, or autosuggestion context where reframing hunger positively serves a therapeutic goal.\",\n    \"The recipient has been eating irregularly or skipping meals and needs encouragement toward regular eating patterns.\",\n    \"The audience accepts the authority or method of the speaker (e.g., a hypnotherapist or coach).\",\n    \"The person struggles to distinguish appropriate hunger from compulsive or absent hunger signals.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The recipient has a medical condition that alters normal hunger patterns (e.g., diabetes, eating disorders, gastroparesis), making the described experience inaccurate.\",\n    \"The statement is used to convince someone that three meals a day is the only valid eating pattern, ignoring individual metabolic variation.\",\n    \"It is presented as universally applicable when in fact hunger frequency and character vary significantly among individuals.\",\n    \"The framing of hunger as always 'agreeable' may mislead someone into ignoring pathological hunger signals or minimizing genuine distress.\",\n    \"It is used to override a person's own bodily signals by substituting an externally prescribed pattern, potentially undermining bodily autonomy.\",\n    \"The context involves a commercial or ideological agenda (e.g., diet industry) that benefits from normalizing a specific eating schedule.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive or predictive assertion, likely as part of a therapeutic, hypnotic, or self-help instruction. It appears to be directing or suggesting to a listener/reader what they will experience, framing hunger as a pleasant and regulated sensation occurring at normal mealtimes. The performative tone suggests it may function as a suggestion, affirmation, or instruction intended to shape behavior or expectation.",
+    "implicit_claims": [
+      "Hunger is or can be an agreeable sensation rather than an unpleasant one.",
+      "Hunger naturally or ideally occurs three times a day at regular mealtimes.",
+      "The person being addressed currently does not reliably experience hunger this way, or needs to be reminded/guided to do so.",
+      "Eating in response to this hunger is appropriate and enjoyable.",
+      "Overeating is distinct from normal eating and should be avoided.",
+      "There is a 'usual' or correct pattern of mealtimes that is three times per day.",
+      "The experience of hunger can be shaped or influenced by suggestion or instruction.",
+      "Anticipatory pleasure ('how nice it will be') is a normal and positive part of the hunger experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a consistent picture: regular hunger at three mealtimes, framed positively, leading to enjoyable eating without excess. The logic flows from prediction of sensation to behavioral response. There is no internal contradiction, though the prescriptive framing of a natural bodily process is somewhat circular.",
+    "conditions_for_usefulness": [
+      "The statement is directed at someone whose relationship with hunger or eating is disordered, suppressed, or anxiety-laden.",
+      "It is used in a therapeutic, hypnotic, or autosuggestion context where reframing hunger positively serves a therapeutic goal.",
+      "The recipient has been eating irregularly or skipping meals and needs encouragement toward regular eating patterns.",
+      "The audience accepts the authority or method of the speaker (e.g., a hypnotherapist or coach).",
+      "The person struggles to distinguish appropriate hunger from compulsive or absent hunger signals."
+    ],
+    "conditions_for_misleading": [
+      "The recipient has a medical condition that alters normal hunger patterns (e.g., diabetes, eating disorders, gastroparesis), making the described experience inaccurate.",
+      "The statement is used to convince someone that three meals a day is the only valid eating pattern, ignoring individual metabolic variation.",
+      "It is presented as universally applicable when in fact hunger frequency and character vary significantly among individuals.",
+      "The framing of hunger as always 'agreeable' may mislead someone into ignoring pathological hunger signals or minimizing genuine distress.",
+      "It is used to override a person's own bodily signals by substituting an externally prescribed pattern, potentially undermining bodily autonomy.",
+      "The context involves a commercial or ideological agenda (e.g., diet industry) that benefits from normalizing a specific eating schedule."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 235,
+  "output_tokens": 707,
+  "error": "",
+  "retry_count": 0
+}

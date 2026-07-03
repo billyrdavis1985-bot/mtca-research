@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:44:01.418633+00:00",
+  "wall_clock_seconds": 2.7289376258850098,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is being used to identify and frame emotional states or reactions, specifically aversion and anger, in a therapeutic context.\",\n  \"implicit_claims\": [\n    \"Emotions such as aversion and anger lead to actions against others.\",\n    \"These emotional responses are universal and recognizable.\",\n    \"Identifying contrary desires or affections is beneficial in understanding behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is somewhat coherent in suggesting that anger and aversion are linked to actions against others. However, it lacks specific context or explanation of how these aspects function within a therapeutic framework.\",\n  \"conditions_for_usefulness\": \"This statement might be useful if the individual recognizes these emotional responses in themselves and wants to explore their roots and impact on relationships. Additionally, a therapeutic context where understanding emotional drives is crucial for treatment can benefit from such reflections.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the person doesn't identify with these emotions or experiences them differently. It might also be unhelpful if taken as a universal truth without accounting for individual differences or if it leads to oversimplified conclusions about complex emotions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is being used to identify and frame emotional states or reactions, specifically aversion and anger, in a therapeutic context.",
+    "implicit_claims": [
+      "Emotions such as aversion and anger lead to actions against others.",
+      "These emotional responses are universal and recognizable.",
+      "Identifying contrary desires or affections is beneficial in understanding behavior."
+    ],
+    "coherence_assessment": "The statement is somewhat coherent in suggesting that anger and aversion are linked to actions against others. However, it lacks specific context or explanation of how these aspects function within a therapeutic framework.",
+    "conditions_for_usefulness": "This statement might be useful if the individual recognizes these emotional responses in themselves and wants to explore their roots and impact on relationships. Additionally, a therapeutic context where understanding emotional drives is crucial for treatment can benefit from such reflections.",
+    "conditions_for_misleading": "The statement could be misleading if the person doesn't identify with these emotions or experiences them differently. It might also be unhelpful if taken as a universal truth without accounting for individual differences or if it leads to oversimplified conclusions about complex emotions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 244,
+  "error": "",
+  "retry_count": 0
+}

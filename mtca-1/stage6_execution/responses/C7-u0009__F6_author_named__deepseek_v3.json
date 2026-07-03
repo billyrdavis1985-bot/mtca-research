@@ -1,0 +1,44 @@
+{
+  "call_id": "C7-u0009__F6_author_named__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:34:25.742461+00:00",
+  "wall_clock_seconds": 5.109822511672974,
+  "raw_response": "{\n  \"communicative_function\": \"It is instructing or advising the reader to adopt a practice of self-examination and honest admission of faults.\",\n  \"implicit_claims\": [\n    \"People are capable of objectively taking personal inventory of their own wrongs.\",\n    \"There is a shared standard of right and wrong that makes admission meaningful.\",\n    \"Promptly admitting wrongs is a beneficial or therapeutic action.\",\n    \"The reader is likely to have wrongs to admit on an ongoing basis.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a simple two-part action (self-inventory + prompt admission) that is logically consistent and non-contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The person has a reliable method for honest self-reflection.\",\n    \"The person values humility and accountability.\",\n    \"The person is in an environment where admitting wrongs is safe and encouraged.\",\n    \"The person has a clear understanding of what constitutes 'wrong' in their context.\",\n    \"The person has the emotional maturity to accept their own fallibility.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person has a distorted or overly harsh self-concept, leading to excessive guilt from inventory.\",\n    \"The social environment punishes or exploits admissions of wrongdoing.\",\n    \"The person uses the inventory to dwell on past mistakes instead of growing.\",\n    \"The statement is taken as a mandate to admit wrongs even when doing so harms others or oneself (e.g., in abusive dynamics).\",\n    \"The concept of 'wrong' is defined solely by external authority, suppressing legitimate dissent or self-trust.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It is instructing or advising the reader to adopt a practice of self-examination and honest admission of faults.",
+    "implicit_claims": [
+      "People are capable of objectively taking personal inventory of their own wrongs.",
+      "There is a shared standard of right and wrong that makes admission meaningful.",
+      "Promptly admitting wrongs is a beneficial or therapeutic action.",
+      "The reader is likely to have wrongs to admit on an ongoing basis."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a simple two-part action (self-inventory + prompt admission) that is logically consistent and non-contradictory.",
+    "conditions_for_usefulness": [
+      "The person has a reliable method for honest self-reflection.",
+      "The person values humility and accountability.",
+      "The person is in an environment where admitting wrongs is safe and encouraged.",
+      "The person has a clear understanding of what constitutes 'wrong' in their context.",
+      "The person has the emotional maturity to accept their own fallibility."
+    ],
+    "conditions_for_misleading": [
+      "The person has a distorted or overly harsh self-concept, leading to excessive guilt from inventory.",
+      "The social environment punishes or exploits admissions of wrongdoing.",
+      "The person uses the inventory to dwell on past mistakes instead of growing.",
+      "The statement is taken as a mandate to admit wrongs even when doing so harms others or oneself (e.g., in abusive dynamics).",
+      "The concept of 'wrong' is defined solely by external authority, suppressing legitimate dissent or self-trust."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 339,
+  "error": "",
+  "retry_count": 0
+}

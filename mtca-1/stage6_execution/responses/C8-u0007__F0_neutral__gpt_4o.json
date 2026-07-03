@@ -1,0 +1,30 @@
+{
+  "call_id": "C8-u0007__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:25:16.570170+00:00",
+  "wall_clock_seconds": 2.290648937225342,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Expressing a personal observation about the relationship between mood and behavior.\",\n  \"implicit_claims\": [\n    \"Behavior can influence mood.\",\n    \"Mood does not always precede behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly expresses the observed relationship between mood and behavior without contradiction.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if there is a valid causal relationship between behavior and mood, providing insights for behavioral interventions to improve emotional well-being.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if there is no reliable causal link between behavior and mood for this individual, or if the observation is an anomaly not widely applicable.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Expressing a personal observation about the relationship between mood and behavior.",
+    "implicit_claims": [
+      "Behavior can influence mood.",
+      "Mood does not always precede behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly expresses the observed relationship between mood and behavior without contradiction.",
+    "conditions_for_usefulness": "The statement would be useful if there is a valid causal relationship between behavior and mood, providing insights for behavioral interventions to improve emotional well-being.",
+    "conditions_for_misleading": "The statement could be misleading if there is no reliable causal link between behavior and mood for this individual, or if the observation is an anomaly not widely applicable."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 156,
+  "error": "",
+  "retry_count": 0
+}

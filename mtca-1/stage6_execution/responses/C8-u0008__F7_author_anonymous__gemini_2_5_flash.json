@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0008__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:35:55.921546+00:00",
+  "wall_clock_seconds": 7.5823915004730225,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a declaration of intent and a commitment to self-regulated behavior. It conveys self-awareness regarding an internal conflict between current emotional state and chosen principles, explaining a decision to prioritize values over immediate feelings.\",\n  \"implicit_claims\": [\n    \"The speaker possesses clearly defined personal values.\",\n    \"The speaker is currently experiencing feelings that are misaligned with or lagging behind these values.\",\n    \"The speaker believes they have agency and the ability to choose their actions independently of their immediate emotional state.\",\n    \"The speaker believes that feelings can eventually align ('catch up') with actions and values, suggesting a desired state of emotional integration or resolution.\",\n    \"The speaker acknowledges a potential internal struggle or discomfort associated with acting against immediate feelings but in favor of values.\",\n    \"The speaker implies that acting in line with values is a desirable or 'right' course of action, even when difficult.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a logical tension between an individual's immediate emotional state ('feelings') and their guiding principles ('values'), and then articulates a clear resolution through conscious choice and action. The concept of feelings 'catching up' is understandable as a process of emotional integration or delayed acceptance.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker's 'values' are genuinely held, ethically sound, and clearly defined, providing a constructive framework for action.\",\n    \"The conflict between feelings and values is real and the chosen action genuinely aligns with positive or constructive values.\",\n    \"The statement empowers the speaker to overcome inertia, procrastination, or immediate gratification in pursuit of long-term goals or ethical commitments.\",\n    \"It promotes resilience and perseverance in the face of emotional discomfort or resistance.\",\n    \"It serves as a healthy strategy for self-regulation, ensuring actions are driven by considered principles rather than fleeting emotions, especially in challenging situations.\",\n    \"The speaker is capable of distinguishing between transient feelings and important emotional signals that should be heeded.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' are actually rationalizations for self-serving, harmful, or emotionally avoidant behaviors.\",\n    \"The speaker is suppressing or ignoring important emotional signals (e.g., intuition about danger, genuine discomfort with an unhealthy situation) under the guise of 'acting on values'.\",\n    \"The statement is used to justify a lack of empathy or emotional sensitivity towards others, portraying detachment as principled action.\",\n    \"The speaker is pathologically detached from their feelings, and the statement masks an inability or unwillingness to engage with their emotional landscape in a healthy way.\",\n    \"The statement is a form of self-deception, where the claimed 'values' are not truly internal but external pressures, and the suppression of feelings leads to psychological harm in the long run.\",\n    \"The 'choice to act' is performative rather than authentic, or the actions taken do not actually align with espoused values.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of intent and a commitment to self-regulated behavior. It conveys self-awareness regarding an internal conflict between current emotional state and chosen principles, explaining a decision to prioritize values over immediate feelings.",
+    "implicit_claims": [
+      "The speaker possesses clearly defined personal values.",
+      "The speaker is currently experiencing feelings that are misaligned with or lagging behind these values.",
+      "The speaker believes they have agency and the ability to choose their actions independently of their immediate emotional state.",
+      "The speaker believes that feelings can eventually align ('catch up') with actions and values, suggesting a desired state of emotional integration or resolution.",
+      "The speaker acknowledges a potential internal struggle or discomfort associated with acting against immediate feelings but in favor of values.",
+      "The speaker implies that acting in line with values is a desirable or 'right' course of action, even when difficult."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a logical tension between an individual's immediate emotional state ('feelings') and their guiding principles ('values'), and then articulates a clear resolution through conscious choice and action. The concept of feelings 'catching up' is understandable as a process of emotional integration or delayed acceptance.",
+    "conditions_for_usefulness": [
+      "The speaker's 'values' are genuinely held, ethically sound, and clearly defined, providing a constructive framework for action.",
+      "The conflict between feelings and values is real and the chosen action genuinely aligns with positive or constructive values.",
+      "The statement empowers the speaker to overcome inertia, procrastination, or immediate gratification in pursuit of long-term goals or ethical commitments.",
+      "It promotes resilience and perseverance in the face of emotional discomfort or resistance.",
+      "It serves as a healthy strategy for self-regulation, ensuring actions are driven by considered principles rather than fleeting emotions, especially in challenging situations.",
+      "The speaker is capable of distinguishing between transient feelings and important emotional signals that should be heeded."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' are actually rationalizations for self-serving, harmful, or emotionally avoidant behaviors.",
+      "The speaker is suppressing or ignoring important emotional signals (e.g., intuition about danger, genuine discomfort with an unhealthy situation) under the guise of 'acting on values'.",
+      "The statement is used to justify a lack of empathy or emotional sensitivity towards others, portraying detachment as principled action.",
+      "The speaker is pathologically detached from their feelings, and the statement masks an inability or unwillingness to engage with their emotional landscape in a healthy way.",
+      "The statement is a form of self-deception, where the claimed 'values' are not truly internal but external pressures, and the suppression of feelings leads to psychological harm in the long run.",
+      "The 'choice to act' is performative rather than authentic, or the actions taken do not actually align with espoused values."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 646,
+  "error": "",
+  "retry_count": 0
+}

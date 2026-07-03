@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F6_author_named__gpt_4o",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:20:31.513794+00:00",
+  "wall_clock_seconds": 3.3561949729919434,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a causal claim linking mental thoughts to physical health.\",\n  \"implicit_claims\": [\n    \"There is a connection between mental and physical health.\",\n    \"The mind has a direct impact on the health of the body.\",\n    \"Negative thoughts can manifest as physical illness.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a clear cause-and-effect relationship between sickly thoughts and a sickly body. However, it lacks specificity in defining what constitutes 'sickly thoughts' and how exactly they affect physical health.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if there is a psychological or physiological mechanism connecting mental states to physical health that can be influenced by changes in thought patterns.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if there is no scientific basis for the claim, if physical illness is determined by factors entirely unrelated to mental health, or if it leads people to neglect medical treatment in favor of solely addressing mental states.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a causal claim linking mental thoughts to physical health.",
+    "implicit_claims": [
+      "There is a connection between mental and physical health.",
+      "The mind has a direct impact on the health of the body.",
+      "Negative thoughts can manifest as physical illness."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a clear cause-and-effect relationship between sickly thoughts and a sickly body. However, it lacks specificity in defining what constitutes 'sickly thoughts' and how exactly they affect physical health.",
+    "conditions_for_usefulness": "The statement would be useful if there is a psychological or physiological mechanism connecting mental states to physical health that can be influenced by changes in thought patterns.",
+    "conditions_for_misleading": "The statement could be misleading if there is no scientific basis for the claim, if physical illness is determined by factors entirely unrelated to mental health, or if it leads people to neglect medical treatment in favor of solely addressing mental states."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 144,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

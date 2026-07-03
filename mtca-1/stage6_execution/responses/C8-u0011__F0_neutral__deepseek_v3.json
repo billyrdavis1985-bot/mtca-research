@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0011__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:36:40.365438+00:00",
+  "wall_clock_seconds": 3.719236373901367,
+  "raw_response": "{\n  \"communicative_function\": \"The speaker is declaring a commitment to a specific, actionable strategy for personal change or goal-setting, while implicitly contrasting it with a less effective alternative.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less effective or harder to carry out than small, observable changes.\",\n    \"The speaker has previously made vague resolutions that were not carried out.\",\n    \"Small, observable changes are more feasible and actionable than vague ones.\",\n    \"The speaker is capable of identifying and committing to such changes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear contrast between two approaches and commits to the more concrete one, which is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker follows through on the small, observable changes.\",\n    \"The changes are genuinely manageable and aligned with the speaker's values or goals.\",\n    \"The speaker has a method to track or observe the changes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The small changes are too trivial to produce meaningful results, creating a false sense of progress.\",\n    \"The speaker uses the statement to avoid addressing deeper issues that require larger shifts.\",\n    \"The speaker never actually enumerates or commits to specific small changes, making the claim hollow.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The speaker is declaring a commitment to a specific, actionable strategy for personal change or goal-setting, while implicitly contrasting it with a less effective alternative.",
+    "implicit_claims": [
+      "Vague resolutions are less effective or harder to carry out than small, observable changes.",
+      "The speaker has previously made vague resolutions that were not carried out.",
+      "Small, observable changes are more feasible and actionable than vague ones.",
+      "The speaker is capable of identifying and committing to such changes."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear contrast between two approaches and commits to the more concrete one, which is logically consistent.",
+    "conditions_for_usefulness": [
+      "The speaker follows through on the small, observable changes.",
+      "The changes are genuinely manageable and aligned with the speaker's values or goals.",
+      "The speaker has a method to track or observe the changes."
+    ],
+    "conditions_for_misleading": [
+      "The small changes are too trivial to produce meaningful results, creating a false sense of progress.",
+      "The speaker uses the statement to avoid addressing deeper issues that require larger shifts.",
+      "The speaker never actually enumerates or commits to specific small changes, making the claim hollow."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 269,
+  "error": "",
+  "retry_count": 0
+}

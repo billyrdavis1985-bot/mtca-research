@@ -1,0 +1,48 @@
+{
+  "call_id": "C3-u0057__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:49:42.216649+00:00",
+  "wall_clock_seconds": 14.90893006324768,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a cognitive reframe or disputation, attempting to neutralize moral self-condemnation or distress by appealing to naturalistic grounds. It seeks to reduce guilt, shame, or aversion by categorizing an experience, impulse, or behavior as 'natural' and therefore not morally negative.\",\n  \"implicit_claims\": [\n    \"There exists a meaningful and identifiable category called 'according to nature'\",\n    \"Moral evaluation (good/evil) is properly derived from or constrained by natural categorization\",\n    \"What is natural is morally neutral or positive\",\n    \"The referent of concern in the therapeutic context falls within the category of 'natural'\",\n    \"Nature provides a reliable normative standard\",\n    \"Evil or harm is not a feature of naturally occurring phenomena\",\n    \"The speaker/client has reliable access to what counts as 'natural'\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical conditional but rests on a well-documented philosophical fallacy — the naturalistic fallacy (Hume's is-ought problem; G.E. Moore's open question argument). Its internal logic is valid only if one accepts that natural = not evil, which is a contested normative premise, not a self-evident truth. Many naturally occurring phenomena (disease, predation, neurological dysregulation) cause harm. The statement's coherence collapses under scrutiny of its foundational premise.\",\n  \"conditions_for_usefulness\": [\n    \"The client is experiencing disproportionate shame or self-condemnation about normative biological or psychological experiences (e.g., grief, sexual response, fear responses)\",\n    \"The therapeutic goal is reducing over-pathologization of common human experiences\",\n    \"The 'natural' referent is something genuinely harmless that cultural stigma has falsely labeled as evil\",\n    \"The client has the cognitive scaffolding to apply the reframe contextually rather than universally\",\n    \"The statement is used as one tool among many, not as a global moral principle\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The behavior or impulse in question causes real harm to self or others (e.g., aggression, addiction-driven behavior)\",\n    \"The client uses it to rationalize harmful actions by appealing to naturalistic justification\",\n    \"It is applied universally, foreclosing moral reasoning rather than supporting adaptive cognition\",\n    \"The client's presenting issue involves harm minimization or antisocial behavior patterns\",\n    \"It reinforces a cognitive distortion pattern (e.g., externalization of responsibility) rather than correcting one\",\n    \"The therapeutic context requires accountability and moral differentiation, not moral neutralization\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a cognitive reframe or disputation, attempting to neutralize moral self-condemnation or distress by appealing to naturalistic grounds. It seeks to reduce guilt, shame, or aversion by categorizing an experience, impulse, or behavior as 'natural' and therefore not morally negative.",
+    "implicit_claims": [
+      "There exists a meaningful and identifiable category called 'according to nature'",
+      "Moral evaluation (good/evil) is properly derived from or constrained by natural categorization",
+      "What is natural is morally neutral or positive",
+      "The referent of concern in the therapeutic context falls within the category of 'natural'",
+      "Nature provides a reliable normative standard",
+      "Evil or harm is not a feature of naturally occurring phenomena",
+      "The speaker/client has reliable access to what counts as 'natural'"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical conditional but rests on a well-documented philosophical fallacy — the naturalistic fallacy (Hume's is-ought problem; G.E. Moore's open question argument). Its internal logic is valid only if one accepts that natural = not evil, which is a contested normative premise, not a self-evident truth. Many naturally occurring phenomena (disease, predation, neurological dysregulation) cause harm. The statement's coherence collapses under scrutiny of its foundational premise.",
+    "conditions_for_usefulness": [
+      "The client is experiencing disproportionate shame or self-condemnation about normative biological or psychological experiences (e.g., grief, sexual response, fear responses)",
+      "The therapeutic goal is reducing over-pathologization of common human experiences",
+      "The 'natural' referent is something genuinely harmless that cultural stigma has falsely labeled as evil",
+      "The client has the cognitive scaffolding to apply the reframe contextually rather than universally",
+      "The statement is used as one tool among many, not as a global moral principle"
+    ],
+    "conditions_for_misleading": [
+      "The behavior or impulse in question causes real harm to self or others (e.g., aggression, addiction-driven behavior)",
+      "The client uses it to rationalize harmful actions by appealing to naturalistic justification",
+      "It is applied universally, foreclosing moral reasoning rather than supporting adaptive cognition",
+      "The client's presenting issue involves harm minimization or antisocial behavior patterns",
+      "It reinforces a cognitive distortion pattern (e.g., externalization of responsibility) rather than correcting one",
+      "The therapeutic context requires accountability and moral differentiation, not moral neutralization"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 631,
+  "error": "",
+  "retry_count": 0
+}

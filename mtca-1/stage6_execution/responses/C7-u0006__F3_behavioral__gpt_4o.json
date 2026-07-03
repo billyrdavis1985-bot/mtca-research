@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0006__F3_behavioral__gpt_4o",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:20:59.552351+00:00",
+  "wall_clock_seconds": 2.6851441860198975,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a request or prayer for self-improvement or change, acknowledging a reliance on a higher power.\",\n  \"implicit_claims\": [\n    \"There is a belief in a higher power that can aid in personal change.\",\n    \"The speaker acknowledges the presence of personal shortcomings.\",\n    \"There is a humility or willingness to admit to needing help.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently frames the action (asking) in a humble manner, directed towards a higher power for the removal of shortcomings.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the individual or group believes in the effectiveness of prayer or asking a higher power for help in improving oneself, and if the value of humility is held.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if the individual does not believe in a higher power or rejects the idea that shortcomings can be removed through divine intervention, or if the humility expressed is insincere.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a request or prayer for self-improvement or change, acknowledging a reliance on a higher power.",
+    "implicit_claims": [
+      "There is a belief in a higher power that can aid in personal change.",
+      "The speaker acknowledges the presence of personal shortcomings.",
+      "There is a humility or willingness to admit to needing help."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently frames the action (asking) in a humble manner, directed towards a higher power for the removal of shortcomings.",
+    "conditions_for_usefulness": "The statement is useful if the individual or group believes in the effectiveness of prayer or asking a higher power for help in improving oneself, and if the value of humility is held.",
+    "conditions_for_misleading": "The statement may be misleading if the individual does not believe in a higher power or rejects the idea that shortcomings can be removed through divine intervention, or if the humility expressed is insincere."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0
+}

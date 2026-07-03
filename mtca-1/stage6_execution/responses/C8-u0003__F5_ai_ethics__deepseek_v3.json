@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0003__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:07:09.376765+00:00",
+  "wall_clock_seconds": 5.280149698257446,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a distinction between the subjective validity of emotions and their objective accuracy, encouraging self-awareness and epistemic humility.\",\n  \"implicit_claims\": [\n    \"Feelings are a form of information about one's internal state.\",\n    \"Feelings can be inaccurate representations of external reality.\",\n    \"There is a meaningful distinction between internal experience and external fact.\",\n    \"Individuals have the capacity to evaluate the accuracy of their feelings.\",\n    \"Recognizing this distinction is valuable for reasoning or well-being.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it posits that feelings are information (true in an introspective sense) while acknowledging they may not correspond to external facts, which is a logically consistent position.\",\n  \"conditions_for_usefulness\": [\n    \"Individuals can distinguish between their feelings and objective facts.\",\n    \"The context involves decision-making where emotional bias could lead to error.\",\n    \"The listener values self-reflection and rational analysis of emotional input.\",\n    \"The statement is used to promote psychological resilience or critical thinking.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as an absolute dismissal of emotional validity, it could undermine trust in intuition in contexts where emotions are accurate guides (e.g., social danger).\",\n    \"If used to gaslight or invalidate legitimate emotional responses to real situations.\",\n    \"In cultures or therapies that prioritize emotional validation, the statement might be misinterpreted as requiring skepticism about all feelings.\",\n    \"If applied without recognizing that some feelings (e.g., pain) are directly accurate about bodily state.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a distinction between the subjective validity of emotions and their objective accuracy, encouraging self-awareness and epistemic humility.",
+    "implicit_claims": [
+      "Feelings are a form of information about one's internal state.",
+      "Feelings can be inaccurate representations of external reality.",
+      "There is a meaningful distinction between internal experience and external fact.",
+      "Individuals have the capacity to evaluate the accuracy of their feelings.",
+      "Recognizing this distinction is valuable for reasoning or well-being."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it posits that feelings are information (true in an introspective sense) while acknowledging they may not correspond to external facts, which is a logically consistent position.",
+    "conditions_for_usefulness": [
+      "Individuals can distinguish between their feelings and objective facts.",
+      "The context involves decision-making where emotional bias could lead to error.",
+      "The listener values self-reflection and rational analysis of emotional input.",
+      "The statement is used to promote psychological resilience or critical thinking."
+    ],
+    "conditions_for_misleading": [
+      "If taken as an absolute dismissal of emotional validity, it could undermine trust in intuition in contexts where emotions are accurate guides (e.g., social danger).",
+      "If used to gaslight or invalidate legitimate emotional responses to real situations.",
+      "In cultures or therapies that prioritize emotional validation, the statement might be misinterpreted as requiring skepticism about all feelings.",
+      "If applied without recognizing that some feelings (e.g., pain) are directly accurate about bodily state."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0
+}

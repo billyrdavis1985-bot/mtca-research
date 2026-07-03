@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0079__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:00:51.331386+00:00",
+  "wall_clock_seconds": 25.802236080169678,
+  "raw_response": "{\n  \"communicative_function\": \"To challenge the patient's belief that suffering is caused by external events and to reframe suffering as a consequence of internal cognitive processes, thereby encouraging self-examination and cognitive restructuring.\",\n  \"implicit_claims\": [\n    \"All suffering originates from erroneous thinking.\",\n    \"Suffering can be eliminated by correcting one's thoughts.\",\n    \"There are correct and incorrect ways of thinking.\",\n    \"External circumstances or biology are never the sole or primary causes of suffering.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a strict cognitive-behavioral or stoic framework, but it is logically absolute (using 'always') and therefore inconsistent with empirical evidence of suffering from physical pain, trauma, or systemic injustice that cannot be entirely reduced to thought errors.\",\n  \"conditions_for_usefulness\": [\n    \"The patient has a tendency toward catastrophic or distorted thinking patterns.\",\n    \"The patient is willing to take responsibility for their cognitive responses.\",\n    \"The suffering in question is primarily psychological and responsive to cognitive reframing.\",\n    \"The therapeutic context allows for nuanced exploration rather than literal interpretation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The patient is experiencing suffering due to organic illness, injury, or external oppression where thought change alone is insufficient.\",\n    \"The patient has a history of self-blame or guilt that would be reinforced by suggesting all suffering is self-caused.\",\n    \"The statement is taken literally and used to invalidate legitimate experiences of pain or trauma.\",\n    \"The patient is not ready to distinguish between controllable cognitive responses and uncontrollable external factors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To challenge the patient's belief that suffering is caused by external events and to reframe suffering as a consequence of internal cognitive processes, thereby encouraging self-examination and cognitive restructuring.",
+    "implicit_claims": [
+      "All suffering originates from erroneous thinking.",
+      "Suffering can be eliminated by correcting one's thoughts.",
+      "There are correct and incorrect ways of thinking.",
+      "External circumstances or biology are never the sole or primary causes of suffering."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a strict cognitive-behavioral or stoic framework, but it is logically absolute (using 'always') and therefore inconsistent with empirical evidence of suffering from physical pain, trauma, or systemic injustice that cannot be entirely reduced to thought errors.",
+    "conditions_for_usefulness": [
+      "The patient has a tendency toward catastrophic or distorted thinking patterns.",
+      "The patient is willing to take responsibility for their cognitive responses.",
+      "The suffering in question is primarily psychological and responsive to cognitive reframing.",
+      "The therapeutic context allows for nuanced exploration rather than literal interpretation."
+    ],
+    "conditions_for_misleading": [
+      "The patient is experiencing suffering due to organic illness, injury, or external oppression where thought change alone is insufficient.",
+      "The patient has a history of self-blame or guilt that would be reinforced by suggesting all suffering is self-caused.",
+      "The statement is taken literally and used to invalidate legitimate experiences of pain or trauma.",
+      "The patient is not ready to distinguish between controllable cognitive responses and uncontrollable external factors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 333,
+  "error": "",
+  "retry_count": 0
+}

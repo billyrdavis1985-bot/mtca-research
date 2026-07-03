@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0209__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:18:44.358501+00:00",
+  "wall_clock_seconds": 12.319141626358032,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing a procedural instruction or clinical guideline, directing a practitioner on how to administer therapeutic suggestions over time, with an implied teleological endpoint of 'cure'.\",\n  \"implicit_claims\": [\n    \"Therapeutic suggestions require repetition to be effective.\",\n    \"The frequency of suggestions can and should be tapered as progress is made.\",\n    \"There exists an identifiable state called 'cure' that marks the end of treatment.\",\n    \"Progress is measurable or at least observable enough to guide spacing decisions.\",\n    \"The practitioner has reliable judgment about when intervals should be extended.\",\n    \"Suggestion-based treatment has a definable, finite endpoint.\",\n    \"The relationship between suggestion frequency and therapeutic outcome is roughly predictable.\",\n    \"The subject's improvement is causally linked to the suggestions rather than other factors.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its logic: it describes a tapering schedule tied to observable progress leading to a terminal condition. The structure is consistent and the reasoning flows without contradiction. However, the coherence is somewhat circular — 'cure' is both the goal and the criterion for stopping, without independent definition.\",\n  \"conditions_for_usefulness\": [\n    \"Suggestion-based therapy (e.g., hypnotherapy or autosuggestion) has genuine therapeutic efficacy for the condition being treated.\",\n    \"Progress is objectively or reliably measurable by the practitioner.\",\n    \"The practitioner can accurately distinguish genuine improvement from placebo response or subject compliance.\",\n    \"The concept of 'cure' is clearly defined for the specific condition.\",\n    \"The tapering of suggestions does not itself cause regression or relapse.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Suggestion-based therapy lacks efficacy for the condition, making the procedural guidance moot or harmful by delaying effective treatment.\",\n    \"The concept of 'cure' is vague or undefined, leading practitioners to prematurely or indefinitely continue treatment.\",\n    \"Progress is subjective and susceptible to confirmation bias, causing the practitioner to misread the subject's state.\",\n    \"The statement is applied to conditions requiring medical or psychological intervention beyond suggestion alone.\",\n    \"The framing implies universal applicability across all subjects and conditions, which overstates generalizability.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing a procedural instruction or clinical guideline, directing a practitioner on how to administer therapeutic suggestions over time, with an implied teleological endpoint of 'cure'.",
+    "implicit_claims": [
+      "Therapeutic suggestions require repetition to be effective.",
+      "The frequency of suggestions can and should be tapered as progress is made.",
+      "There exists an identifiable state called 'cure' that marks the end of treatment.",
+      "Progress is measurable or at least observable enough to guide spacing decisions.",
+      "The practitioner has reliable judgment about when intervals should be extended.",
+      "Suggestion-based treatment has a definable, finite endpoint.",
+      "The relationship between suggestion frequency and therapeutic outcome is roughly predictable.",
+      "The subject's improvement is causally linked to the suggestions rather than other factors."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its logic: it describes a tapering schedule tied to observable progress leading to a terminal condition. The structure is consistent and the reasoning flows without contradiction. However, the coherence is somewhat circular — 'cure' is both the goal and the criterion for stopping, without independent definition.",
+    "conditions_for_usefulness": [
+      "Suggestion-based therapy (e.g., hypnotherapy or autosuggestion) has genuine therapeutic efficacy for the condition being treated.",
+      "Progress is objectively or reliably measurable by the practitioner.",
+      "The practitioner can accurately distinguish genuine improvement from placebo response or subject compliance.",
+      "The concept of 'cure' is clearly defined for the specific condition.",
+      "The tapering of suggestions does not itself cause regression or relapse."
+    ],
+    "conditions_for_misleading": [
+      "Suggestion-based therapy lacks efficacy for the condition, making the procedural guidance moot or harmful by delaying effective treatment.",
+      "The concept of 'cure' is vague or undefined, leading practitioners to prematurely or indefinitely continue treatment.",
+      "Progress is subjective and susceptible to confirmation bias, causing the practitioner to misread the subject's state.",
+      "The statement is applied to conditions requiring medical or psychological intervention beyond suggestion alone.",
+      "The framing implies universal applicability across all subjects and conditions, which overstates generalizability."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 538,
+  "error": "",
+  "retry_count": 0
+}

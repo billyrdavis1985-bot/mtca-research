@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0110__F6_author_named__gpt_4o",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:15:02.581755+00:00",
+  "wall_clock_seconds": 2.30973744392395,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making an assertion about the relationship between thoughts and physical health.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct impact on physical health.\",\n    \"Negative or unlawful thoughts lead to physical deterioration.\",\n    \"Positive or beautiful thoughts lead to physical rejuvenation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its context, presenting a cause-and-effect relationship between thoughts and physical state.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if there is evidence supporting a link between mental states and physical health, such as psychosomatic effects or the placebo/nocebo effect.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if there is no scientific basis for the claim that thoughts can directly affect physical health, or if it oversimplifies complex health issues by attributing them solely to thought patterns.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making an assertion about the relationship between thoughts and physical health.",
+    "implicit_claims": [
+      "Thoughts have a direct impact on physical health.",
+      "Negative or unlawful thoughts lead to physical deterioration.",
+      "Positive or beautiful thoughts lead to physical rejuvenation."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its context, presenting a cause-and-effect relationship between thoughts and physical state.",
+    "conditions_for_usefulness": "The statement would be useful if there is evidence supporting a link between mental states and physical health, such as psychosomatic effects or the placebo/nocebo effect.",
+    "conditions_for_misleading": "The statement would be misleading if there is no scientific basis for the claim that thoughts can directly affect physical health, or if it oversimplifies complex health issues by attributing them solely to thought patterns."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

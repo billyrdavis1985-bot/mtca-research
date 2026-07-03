@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0012__F3_behavioral__grok_4",
+  "unit_id": "C3-u0012",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:11:26.533100+00:00",
+  "wall_clock_seconds": 6.306103467941284,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes an ongoing cognitive practice of recalling one's relational place in the cosmos to guide speech and action\",\n  \"implicit_claims\": [\n    \"the universe possesses an intelligible nature or order\",\n    \"the individual is a functional part whose identity is defined by that order\",\n    \"understanding this part-whole relation is both possible and necessary for right conduct\",\n    \"no external force can ultimately prevent one from acting and speaking in accordance with that nature\",\n    \"such alignment is always available through internal disposition\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a Stoic framework that posits a rational cosmos and identifies freedom with rational assent; coherence weakens if the premise of an ordered universe is rejected\",\n  \"conditions_for_usefulness\": \"the addressee accepts (or is willing to act as if) there exists a discoverable cosmic order in which personal agency can be meaningfully aligned, and finds mnemonic focus on that relation conducive to ethical stability\",\n  \"conditions_for_misleading\": \"the universe lacks any objective nature or relational structure, external constraints can fully block chosen speech and action, or the claim of unhindered alignment fosters fatalism or self-deception about actual limitations\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes an ongoing cognitive practice of recalling one's relational place in the cosmos to guide speech and action",
+    "implicit_claims": [
+      "the universe possesses an intelligible nature or order",
+      "the individual is a functional part whose identity is defined by that order",
+      "understanding this part-whole relation is both possible and necessary for right conduct",
+      "no external force can ultimately prevent one from acting and speaking in accordance with that nature",
+      "such alignment is always available through internal disposition"
+    ],
+    "coherence_assessment": "internally consistent within a Stoic framework that posits a rational cosmos and identifies freedom with rational assent; coherence weakens if the premise of an ordered universe is rejected",
+    "conditions_for_usefulness": "the addressee accepts (or is willing to act as if) there exists a discoverable cosmic order in which personal agency can be meaningfully aligned, and finds mnemonic focus on that relation conducive to ethical stability",
+    "conditions_for_misleading": "the universe lacks any objective nature or relational structure, external constraints can fully block chosen speech and action, or the claim of unhindered alignment fosters fatalism or self-deception about actual limitations"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 339,
+  "output_tokens": 252,
+  "error": "",
+  "retry_count": 0
+}

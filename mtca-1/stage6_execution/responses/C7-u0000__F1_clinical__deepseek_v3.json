@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0000__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:50:21.376019+00:00",
+  "wall_clock_seconds": 4.414769411087036,
+  "raw_response": "{\n  \"communicative_function\": \"Acknowledgment of personal limitation and acceptance of loss of control, often to facilitate surrender and readiness for change in a therapeutic or recovery context.\",\n  \"implicit_claims\": [\n    \"The speaker previously believed they had control over alcohol use.\",\n    \"The speaker's alcohol use has led to negative consequences (unmanageability).\",\n    \"Admission of powerlessness is a necessary step toward recovery.\",\n    \"The problem is primarily about alcohol, not other factors.\",\n    \"The speaker accepts a shared identity with others in similar circumstances ('we').\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: the claim of powerlessness directly supports the conclusion of unmanageability, and the collective 'we' aligns with group-based therapeutic models like 12-step programs.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences loss of control over alcohol use.\",\n    \"The speaker is in a context where admitting powerlessness is culturally or therapeutically accepted (e.g., AA, CBT).\",\n    \"The speaker is ready to engage with recovery steps that follow from this admission.\",\n    \"The statement leads to reduced shame or increased openness to help.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is not actually powerless but uses the statement as an excuse to avoid responsibility.\",\n    \"The speaker's life unmanageability stems from other issues (e.g., trauma, mental illness) misattributed to alcohol.\",\n    \"The collective 'we' implies a false universality or pressure to conform to a single narrative.\",\n    \"The statement may discourage exploring moderation or alternative treatments that could be effective for some individuals.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Acknowledgment of personal limitation and acceptance of loss of control, often to facilitate surrender and readiness for change in a therapeutic or recovery context.",
+    "implicit_claims": [
+      "The speaker previously believed they had control over alcohol use.",
+      "The speaker's alcohol use has led to negative consequences (unmanageability).",
+      "Admission of powerlessness is a necessary step toward recovery.",
+      "The problem is primarily about alcohol, not other factors.",
+      "The speaker accepts a shared identity with others in similar circumstances ('we')."
+    ],
+    "coherence_assessment": "The statement is internally coherent: the claim of powerlessness directly supports the conclusion of unmanageability, and the collective 'we' aligns with group-based therapeutic models like 12-step programs.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences loss of control over alcohol use.",
+      "The speaker is in a context where admitting powerlessness is culturally or therapeutically accepted (e.g., AA, CBT).",
+      "The speaker is ready to engage with recovery steps that follow from this admission.",
+      "The statement leads to reduced shame or increased openness to help."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is not actually powerless but uses the statement as an excuse to avoid responsibility.",
+      "The speaker's life unmanageability stems from other issues (e.g., trauma, mental illness) misattributed to alcohol.",
+      "The collective 'we' implies a false universality or pressure to conform to a single narrative.",
+      "The statement may discourage exploring moderation or alternative treatments that could be effective for some individuals."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 349,
+  "error": "",
+  "retry_count": 0
+}

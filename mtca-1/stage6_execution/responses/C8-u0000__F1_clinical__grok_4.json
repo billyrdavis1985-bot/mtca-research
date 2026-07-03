@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0000__F1_clinical__grok_4",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:48:10.610868+00:00",
+  "wall_clock_seconds": 6.26063346862793,
+  "raw_response": "{\n  \"communicative_function\": \"metacognitive self-observation that distinguishes mental events from factual status\",\n  \"implicit_claims\": [\n    \"automatic thoughts can be introspectively noticed as distinct events\",\n    \"evidence about reality exists independently of those thoughts\",\n    \"the speaker possesses the capacity to compare the two\",\n    \"thoughts are not automatically equivalent to evidence or truth\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the statement rests on a standard distinction between cognition and epistemic warrant without self-contradiction\",\n  \"conditions_for_usefulness\": \"the speaker experiences recurrent, affectively charged automatic thoughts that diverge from observable evidence and benefits from explicitly marking that divergence to reduce fusion or distress\",\n  \"conditions_for_misleading\": \"the distinction is treated as absolute (all thoughts dismissed as non-evidential) or used to invalidate legitimate intuitive or experiential knowledge that actually aligns with evidence\"\n}",
+  "parsed_json": {
+    "communicative_function": "metacognitive self-observation that distinguishes mental events from factual status",
+    "implicit_claims": [
+      "automatic thoughts can be introspectively noticed as distinct events",
+      "evidence about reality exists independently of those thoughts",
+      "the speaker possesses the capacity to compare the two",
+      "thoughts are not automatically equivalent to evidence or truth"
+    ],
+    "coherence_assessment": "internally coherent; the statement rests on a standard distinction between cognition and epistemic warrant without self-contradiction",
+    "conditions_for_usefulness": "the speaker experiences recurrent, affectively charged automatic thoughts that diverge from observable evidence and benefits from explicitly marking that divergence to reduce fusion or distress",
+    "conditions_for_misleading": "the distinction is treated as absolute (all thoughts dismissed as non-evidential) or used to invalidate legitimate intuitive or experiential knowledge that actually aligns with evidence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 188,
+  "error": "",
+  "retry_count": 0
+}

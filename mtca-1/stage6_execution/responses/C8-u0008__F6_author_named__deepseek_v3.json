@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0008__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:35:30.712280+00:00",
+  "wall_clock_seconds": 4.154751777648926,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a self-affirmation or cognitive reframing tool, reinforcing commitment to values-based action despite emotional discomfort.\",\n  \"implicit_claims\": [\n    \"Values are distinct from and can override momentary feelings.\",\n    \"Feelings may lag behind conscious value-driven choices.\",\n    \"The speaker has identified stable, personal values.\",\n    \"Acting in line with values is a valid and preferable course of action.\",\n    \"Emotional alignment is not necessary for value-consistent behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it posits a separation between cognitive/volitional choice and emotional state, which is a psychologically recognized phenomenon.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has clearly defined values.\",\n    \"The speaker experiences a conflict between current feelings and those values.\",\n    \"The speaker is capable of intentional, value-directed action.\",\n    \"The statement is used in a context that supports emotional regulation or self-discipline.\",\n    \"The speaker can tolerate emotional discomfort without acting impulsively.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker’s values are poorly defined, contradictory, or imposed externally.\",\n    \"The speaker chronically suppresses or invalidates their feelings, leading to emotional neglect.\",\n    \"The statement is used to justify harmful actions by overriding appropriate emotional signals.\",\n    \"The speaker lacks agency or capacity to act differently (e.g., due to coercion or mental health crisis).\",\n    \"Feelings are systematically dismissed rather than integrated into value-based decision-making.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-affirmation or cognitive reframing tool, reinforcing commitment to values-based action despite emotional discomfort.",
+    "implicit_claims": [
+      "Values are distinct from and can override momentary feelings.",
+      "Feelings may lag behind conscious value-driven choices.",
+      "The speaker has identified stable, personal values.",
+      "Acting in line with values is a valid and preferable course of action.",
+      "Emotional alignment is not necessary for value-consistent behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it posits a separation between cognitive/volitional choice and emotional state, which is a psychologically recognized phenomenon.",
+    "conditions_for_usefulness": [
+      "The speaker has clearly defined values.",
+      "The speaker experiences a conflict between current feelings and those values.",
+      "The speaker is capable of intentional, value-directed action.",
+      "The statement is used in a context that supports emotional regulation or self-discipline.",
+      "The speaker can tolerate emotional discomfort without acting impulsively."
+    ],
+    "conditions_for_misleading": [
+      "The speaker’s values are poorly defined, contradictory, or imposed externally.",
+      "The speaker chronically suppresses or invalidates their feelings, leading to emotional neglect.",
+      "The statement is used to justify harmful actions by overriding appropriate emotional signals.",
+      "The speaker lacks agency or capacity to act differently (e.g., due to coercion or mental health crisis).",
+      "Feelings are systematically dismissed rather than integrated into value-based decision-making."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 326,
+  "error": "",
+  "retry_count": 0
+}

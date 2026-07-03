@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0011__F6_author_named__gpt_4o",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:40:20.694529+00:00",
+  "wall_clock_seconds": 2.5723817348480225,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is an expression of a commitment to action.\",\n  \"implicit_claims\": [\n    \"Small, observable changes are better than vague resolutions.\",\n    \"Vague resolutions are ineffective or less effective.\",\n    \"Commitments are best when they are actionable and specific.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it sets a clear preference for actionable changes over abstract resolutions, which aligns with its commitment to practicality.\",\n  \"conditions_for_usefulness\": \"This statement is useful if the goal is to encourage practical, achievable behavior change and if setting clear, specific goals leads to higher chances of success.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if the context requires broad, visionary thinking instead of specific changes, or if 'vague resolutions' may sometimes be necessary as initial motivational tools before breaking down into specific actions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is an expression of a commitment to action.",
+    "implicit_claims": [
+      "Small, observable changes are better than vague resolutions.",
+      "Vague resolutions are ineffective or less effective.",
+      "Commitments are best when they are actionable and specific."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it sets a clear preference for actionable changes over abstract resolutions, which aligns with its commitment to practicality.",
+    "conditions_for_usefulness": "This statement is useful if the goal is to encourage practical, achievable behavior change and if setting clear, specific goals leads to higher chances of success.",
+    "conditions_for_misleading": "This statement could be misleading if the context requires broad, visionary thinking instead of specific changes, or if 'vague resolutions' may sometimes be necessary as initial motivational tools before breaking down into specific actions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0002__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:59:48.823273+00:00",
+  "wall_clock_seconds": 13.27115273475647,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a public or internal declaration of epistemic reorientation — committing to empirical self-testing over anxiety-driven evaluation. It functions as a rule-setting act that defines a new standard for validating one's own beliefs or expectations.\",\n  \"implicit_claims\": [\n    \"The speaker has previously tested predictions against feared outcomes rather than actual outcomes.\",\n    \"Fear-based evaluation is distinguishable from reality-based evaluation.\",\n    \"The speaker has predictions that can, in principle, be tested against observable events.\",\n    \"Actual outcomes are accessible and identifiable by the speaker.\",\n    \"The current default mode involves fear distorting the feedback loop between prediction and evidence.\",\n    \"This shift in evaluation method is within the speaker's volitional control.\",\n    \"Testing against reality is epistemically or psychologically superior in the relevant context.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It sets up a clear contrast between two evaluation standards (feared outcomes vs. actual outcomes) and positions the speaker as actively choosing between them. The structure presupposes agency and awareness, which are consistent with a behavioral commitment frame. No logical contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has a pattern of catastrophizing or fear-driven distortion that overrides empirical feedback.\",\n    \"Actual outcomes are observable and distinguishable from feared projections.\",\n    \"The speaker has the metacognitive capacity to notice when fear is substituting for evidence.\",\n    \"The commitment is paired with concrete practices for tracking predictions and outcomes.\",\n    \"The domain of predictions involves testable, time-bound events rather than existential or unfalsifiable concerns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The feared outcome and the actual outcome are not cleanly separable (e.g., fear influences the situation itself via avoidance behavior).\",\n    \"The speaker uses 'what actually happens' selectively, attending only to disconfirming or confirming evidence that suits a prior narrative.\",\n    \"The commitment creates false confidence that one is being empirical while still applying motivated reasoning.\",\n    \"Some fears are accurate risk assessments, and dismissing them as distortions could lead to underprepared responses to real threats.\",\n    \"The framing implies that all fear-based predictions are epistemically inferior, which is not universally true.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a public or internal declaration of epistemic reorientation — committing to empirical self-testing over anxiety-driven evaluation. It functions as a rule-setting act that defines a new standard for validating one's own beliefs or expectations.",
+    "implicit_claims": [
+      "The speaker has previously tested predictions against feared outcomes rather than actual outcomes.",
+      "Fear-based evaluation is distinguishable from reality-based evaluation.",
+      "The speaker has predictions that can, in principle, be tested against observable events.",
+      "Actual outcomes are accessible and identifiable by the speaker.",
+      "The current default mode involves fear distorting the feedback loop between prediction and evidence.",
+      "This shift in evaluation method is within the speaker's volitional control.",
+      "Testing against reality is epistemically or psychologically superior in the relevant context."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It sets up a clear contrast between two evaluation standards (feared outcomes vs. actual outcomes) and positions the speaker as actively choosing between them. The structure presupposes agency and awareness, which are consistent with a behavioral commitment frame. No logical contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has a pattern of catastrophizing or fear-driven distortion that overrides empirical feedback.",
+      "Actual outcomes are observable and distinguishable from feared projections.",
+      "The speaker has the metacognitive capacity to notice when fear is substituting for evidence.",
+      "The commitment is paired with concrete practices for tracking predictions and outcomes.",
+      "The domain of predictions involves testable, time-bound events rather than existential or unfalsifiable concerns."
+    ],
+    "conditions_for_misleading": [
+      "The feared outcome and the actual outcome are not cleanly separable (e.g., fear influences the situation itself via avoidance behavior).",
+      "The speaker uses 'what actually happens' selectively, attending only to disconfirming or confirming evidence that suits a prior narrative.",
+      "The commitment creates false confidence that one is being empirical while still applying motivated reasoning.",
+      "Some fears are accurate risk assessments, and dismissing them as distortions could lead to underprepared responses to real threats.",
+      "The framing implies that all fear-based predictions are epistemically inferior, which is not universally true."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 552,
+  "error": "",
+  "retry_count": 0
+}

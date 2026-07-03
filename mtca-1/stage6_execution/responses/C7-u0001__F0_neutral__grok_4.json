@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0001__F0_neutral__grok_4",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:55:12.613000+00:00",
+  "wall_clock_seconds": 6.092306613922119,
+  "raw_response": "{\n  \"communicative_function\": \"testimonial admission of adopting a belief in external restorative agency\",\n  \"implicit_claims\": [\n    \"a Power greater than ourselves exists\",\n    \"this Power is capable of restoring sanity\",\n    \"the speaker/group previously lacked sanity\",\n    \"belief in the Power is a pivotal development\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a recovery narrative but hinges on vague, non-falsifiable terms like 'Power' and 'sanity'\",\n  \"conditions_for_usefulness\": \"the belief fosters sustained behavioral change and complements evidence-based support without replacing personal agency\",\n  \"conditions_for_misleading\": \"the statement is taken as literal supernatural causation or used to discourage professional medical/psychological treatment\"\n}",
+  "parsed_json": {
+    "communicative_function": "testimonial admission of adopting a belief in external restorative agency",
+    "implicit_claims": [
+      "a Power greater than ourselves exists",
+      "this Power is capable of restoring sanity",
+      "the speaker/group previously lacked sanity",
+      "belief in the Power is a pivotal development"
+    ],
+    "coherence_assessment": "internally coherent within a recovery narrative but hinges on vague, non-falsifiable terms like 'Power' and 'sanity'",
+    "conditions_for_usefulness": "the belief fosters sustained behavioral change and complements evidence-based support without replacing personal agency",
+    "conditions_for_misleading": "the statement is taken as literal supernatural causation or used to discourage professional medical/psychological treatment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 257,
+  "output_tokens": 154,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C3-u0005__F0_neutral__deepseek_v3",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:03:12.813337+00:00",
+  "wall_clock_seconds": 4.802822113037109,
+  "raw_response": "{\n  \"communicative_function\": \"Exhortation or self-address, urging the soul to engage in self-abasement while there is still time, with an implied warning of urgency.\",\n  \"implicit_claims\": [\n    \"The soul has the capacity to choose its own attitude (to abuse or respect itself).\",\n    \"There is a finite period during which self-respect is possible.\",\n    \"The end of that period is approaching or inevitable.\",\n    \"Current self-abuse or contempt is a justified or necessary preparation.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: it presents a paradoxical directive (abuse thyself now to later respect thyself) that relies on a temporal urgency and a moral or existential framework. The contradiction is resolved by the implied logic of purification or repentance.\",\n  \"conditions_for_usefulness\": [\n    \"The audience believes in a limited time for moral self-correction.\",\n    \"The audience accepts that self-criticism or humility is a path to later self-worth.\",\n    \"The statement is delivered in a context where urgency and self-reflection are valued.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted literally as a command to permanently debase oneself, it may promote harmful self-loathing.\",\n    \"If the temporal limit is not real (e.g., infinite time for change), the urgency is false.\",\n    \"If self-abuse is taken to mean actual harm rather than metaphorical humility, it becomes dangerous.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Exhortation or self-address, urging the soul to engage in self-abasement while there is still time, with an implied warning of urgency.",
+    "implicit_claims": [
+      "The soul has the capacity to choose its own attitude (to abuse or respect itself).",
+      "There is a finite period during which self-respect is possible.",
+      "The end of that period is approaching or inevitable.",
+      "Current self-abuse or contempt is a justified or necessary preparation."
+    ],
+    "coherence_assessment": "Internally coherent: it presents a paradoxical directive (abuse thyself now to later respect thyself) that relies on a temporal urgency and a moral or existential framework. The contradiction is resolved by the implied logic of purification or repentance.",
+    "conditions_for_usefulness": [
+      "The audience believes in a limited time for moral self-correction.",
+      "The audience accepts that self-criticism or humility is a path to later self-worth.",
+      "The statement is delivered in a context where urgency and self-reflection are valued."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted literally as a command to permanently debase oneself, it may promote harmful self-loathing.",
+      "If the temporal limit is not real (e.g., infinite time for change), the urgency is false.",
+      "If self-abuse is taken to mean actual harm rather than metaphorical humility, it becomes dangerous."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 309,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F1_clinical__grok_4",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:20:51.230706+00:00",
+  "wall_clock_seconds": 8.6672842502594,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of values-based willingness; declarative commitment to prioritize evidence over fear-based avoidance\",\n  \"implicit_claims\": [\n    \"Fear is not an infallible guide to action\",\n    \"Evidence can reliably indicate whether an action is likely to be helpful\",\n    \"Willingness is a choosable stance rather than a feeling\",\n    \"The speaker experiences fear in relation to potentially beneficial actions\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; distinguishes emotional response (fear) from evaluative criterion (evidence) without contradiction\",\n  \"conditions_for_usefulness\": \"The individual can accurately evaluate evidence of likely benefit, the feared actions are in fact adaptive, and willingness functions as a workable alternative to avoidance\",\n  \"conditions_for_misleading\": \"Evidence assessment is biased or incomplete, the actions are not actually beneficial, or willingness is treated as a feeling rather than a behavioral choice\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of values-based willingness; declarative commitment to prioritize evidence over fear-based avoidance",
+    "implicit_claims": [
+      "Fear is not an infallible guide to action",
+      "Evidence can reliably indicate whether an action is likely to be helpful",
+      "Willingness is a choosable stance rather than a feeling",
+      "The speaker experiences fear in relation to potentially beneficial actions"
+    ],
+    "coherence_assessment": "Internally coherent; distinguishes emotional response (fear) from evaluative criterion (evidence) without contradiction",
+    "conditions_for_usefulness": "The individual can accurately evaluate evidence of likely benefit, the feared actions are in fact adaptive, and willingness functions as a workable alternative to avoidance",
+    "conditions_for_misleading": "Evidence assessment is biased or incomplete, the actions are not actually beneficial, or willingness is treated as a feeling rather than a behavioral choice"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

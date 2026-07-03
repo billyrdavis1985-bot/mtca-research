@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0457__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:35:00.867396+00:00",
+  "wall_clock_seconds": 13.84395980834961,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is reporting a firsthand observation, conveying surprise at an unexpectedly significant positive outcome linked to a specific action performed by a third party ('he'). It functions as testimonial evidence or anecdotal report, likely intended to support a claim about the effectiveness of whatever 'he' does.\",\n  \"implicit_claims\": [\n    \"There is a specific, identifiable action ('when he does so') that precedes the observed improvement.\",\n    \"The observer has a baseline or prior expectation against which the improvement is measured as 'remarkable'.\",\n    \"The improvement in respiration and walking is causally or at least temporally linked to the action performed.\",\n    \"The observer is capable of reliably detecting changes in respiration and walking.\",\n    \"The subject ('he') has pre-existing difficulties with respiration and/or walking that are capable of improvement.\",\n    \"The observer's astonishment implies the improvement exceeded normal or expected levels.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The emotional marker ('astonishment') aligns logically with the qualifier ('remarkable'), and the observation of dual improvements (respiration and walking) is consistent with a single underlying cause. No logical contradictions are present within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The action referred to by 'when he does so' is clearly defined and known to the audience.\",\n    \"The observer has relevant expertise or credibility to assess changes in respiration and walking.\",\n    \"The observation is part of a controlled or systematic context rather than a one-time event.\",\n    \"The subject's prior condition is documented, providing a meaningful baseline for comparison.\",\n    \"The statement is part of a broader body of evidence rather than standing alone.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The action ('he does so') is vague or undefined, allowing the audience to project any meaning onto it.\",\n    \"The improvement is coincidental and not causally related to the action.\",\n    \"The observer has a confirmation bias or vested interest in reporting improvement.\",\n    \"The word 'remarkable' is subjective and may exaggerate a minor or transient change.\",\n    \"The observation is a single instance being generalized to imply consistent or reproducible results.\",\n    \"The subject's improvement was due to other concurrent factors not mentioned in the statement.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting a firsthand observation, conveying surprise at an unexpectedly significant positive outcome linked to a specific action performed by a third party ('he'). It functions as testimonial evidence or anecdotal report, likely intended to support a claim about the effectiveness of whatever 'he' does.",
+    "implicit_claims": [
+      "There is a specific, identifiable action ('when he does so') that precedes the observed improvement.",
+      "The observer has a baseline or prior expectation against which the improvement is measured as 'remarkable'.",
+      "The improvement in respiration and walking is causally or at least temporally linked to the action performed.",
+      "The observer is capable of reliably detecting changes in respiration and walking.",
+      "The subject ('he') has pre-existing difficulties with respiration and/or walking that are capable of improvement.",
+      "The observer's astonishment implies the improvement exceeded normal or expected levels."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The emotional marker ('astonishment') aligns logically with the qualifier ('remarkable'), and the observation of dual improvements (respiration and walking) is consistent with a single underlying cause. No logical contradictions are present within the statement itself.",
+    "conditions_for_usefulness": [
+      "The action referred to by 'when he does so' is clearly defined and known to the audience.",
+      "The observer has relevant expertise or credibility to assess changes in respiration and walking.",
+      "The observation is part of a controlled or systematic context rather than a one-time event.",
+      "The subject's prior condition is documented, providing a meaningful baseline for comparison.",
+      "The statement is part of a broader body of evidence rather than standing alone."
+    ],
+    "conditions_for_misleading": [
+      "The action ('he does so') is vague or undefined, allowing the audience to project any meaning onto it.",
+      "The improvement is coincidental and not causally related to the action.",
+      "The observer has a confirmation bias or vested interest in reporting improvement.",
+      "The word 'remarkable' is subjective and may exaggerate a minor or transient change.",
+      "The observation is a single instance being generalized to imply consistent or reproducible results.",
+      "The subject's improvement was due to other concurrent factors not mentioned in the statement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 546,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0004__F5_ai_ethics__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:11:26.843895+00:00",
+  "wall_clock_seconds": 9.144858121871948,
+  "raw_response": "{\n  \"communicative_function\": \"directive prescribing a practice of confession and moral inventory\",\n  \"implicit_claims\": [\n    \"admitting wrongs to a higher power, oneself, and another person produces psychological or moral benefit\",\n    \"wrongs have an 'exact nature' that can be accurately identified and articulated\",\n    \"involving a deity is relevant or necessary to ethical self-examination\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive step within a recovery framework but rests on unargued theological and psychological premises\",\n  \"conditions_for_usefulness\": \"the intended users accept theistic language, value radical honesty, and operate in contexts where structured moral accountability demonstrably reduces harm\",\n  \"conditions_for_misleading\": \"the statement is treated as a universal or evidence-based ethical requirement rather than a culturally specific recovery practice\"\n}",
+  "parsed_json": {
+    "communicative_function": "directive prescribing a practice of confession and moral inventory",
+    "implicit_claims": [
+      "admitting wrongs to a higher power, oneself, and another person produces psychological or moral benefit",
+      "wrongs have an 'exact nature' that can be accurately identified and articulated",
+      "involving a deity is relevant or necessary to ethical self-examination"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive step within a recovery framework but rests on unargued theological and psychological premises",
+    "conditions_for_usefulness": "the intended users accept theistic language, value radical honesty, and operate in contexts where structured moral accountability demonstrably reduces harm",
+    "conditions_for_misleading": "the statement is treated as a universal or evidence-based ethical requirement rather than a culturally specific recovery practice"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 175,
+  "error": "",
+  "retry_count": 0
+}

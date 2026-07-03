@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0038__F5_ai_ethics__grok_4",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:41:45.516396+00:00",
+  "wall_clock_seconds": 5.667627811431885,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a philosophical claim about the nature of time and possession\",\n  \"implicit_claims\": [\n    \"only the present can be properly possessed or lost\",\n    \"past and future exist outside the domain of personal loss or parting\",\n    \"human concern should be limited to the present moment\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a present-focused metaphysical framework but relies on stipulative definitions of 'part with'\",\n  \"conditions_for_usefulness\": \"AI systems must be designed to redirect user attention exclusively to present actions without diminishing planning or memory functions\",\n  \"conditions_for_misleading\": \"the statement is taken to imply that reflection on the past or anticipation of the future has no legitimate value for human decision-making\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a philosophical claim about the nature of time and possession",
+    "implicit_claims": [
+      "only the present can be properly possessed or lost",
+      "past and future exist outside the domain of personal loss or parting",
+      "human concern should be limited to the present moment"
+    ],
+    "coherence_assessment": "internally coherent within a present-focused metaphysical framework but relies on stipulative definitions of 'part with'",
+    "conditions_for_usefulness": "AI systems must be designed to redirect user attention exclusively to present actions without diminishing planning or memory functions",
+    "conditions_for_misleading": "the statement is taken to imply that reflection on the past or anticipation of the future has no legitimate value for human decision-making"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 285,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

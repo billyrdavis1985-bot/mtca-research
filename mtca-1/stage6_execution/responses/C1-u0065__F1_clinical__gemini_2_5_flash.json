@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0065__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:08:31.411890+00:00",
+  "wall_clock_seconds": 9.254688024520874,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a psychoeducational self-reflection designed to normalize and externalize a common human tendency towards conformity. It aims to foster self-awareness about the involuntary nature of social influence while simultaneously highlighting that the perception of being unable to act otherwise is a cognitive construction ('imagining') rather than an absolute truth. It may implicitly invite questioning of this 'imagining'.\",\n  \"implicit_claims\": [\n    \"Human beings possess an inherent, involuntary, and strong predisposition to conform to others' behaviors and examples.\",\n    \"This predisposition is likened to the instinctual behavior of sheep, implying a lack of conscious deliberation or individual will in the act of following.\",\n    \"The feeling of being unable to act differently in such situations is often a cognitive distortion or limiting belief ('imagining'), implying that agency might exist despite the subjective feeling of its absence.\",\n    \"Conformity is a universal human trait.\",\n    \"There is a potential for greater individual agency or choice that is obscured by this 'imagining'.\",\n    \"A certain level of unconscious or automatic processing drives social following.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The seeming tension between 'irresistibly impelled' and 'imagining that we cannot do otherwise' is resolved by understanding the former as describing a powerful *subjective experience* or *automatic tendency*, and the latter as identifying a *cognitive interpretation* of that experience. The 'imagining' part is crucial, as it provides a therapeutic leverage point, suggesting that while the impulse is strong, the absolute lack of choice is not necessarily a reality, but a belief that can be examined.\",\n  \"conditions_for_usefulness\": [\n    \"When a client struggles with people-pleasing, conformity, or feels trapped by social expectations, lacking a sense of individual choice.\",\n    \"To normalize the experience of being influenced by others, reducing shame or self-blame.\",\n    \"As an initial step in cognitive restructuring, by introducing the idea that perceived limitations ('cannot do otherwise') are often imagined or constructed.\",\n    \"To encourage self-compassion by framing conformity as a universal human tendency rather than a personal failing.\",\n    \"To validate a client's feeling of being overwhelmed by social pressure, while simultaneously empowering them to question their interpretation of that pressure.\",\n    \"When the therapeutic goal involves increasing self-awareness, personal agency, and independent decision-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted literally as an absolute truth, it could reinforce fatalism or a sense of helplessness, undermining a client's self-efficacy and belief in their capacity for choice.\",\n    \"For clients who already struggle with a lack of personal responsibility or agency, it might provide an excuse for inaction or validate a passive approach to life.\",\n    \"If used without subsequent therapeutic exploration of the 'imagining' aspect, it could leave a client feeling disempowered rather than enlightened.\",\n    \"For clients who are already highly individualistic or contrarian, it might be perceived as irrelevant or contrary to their self-perception, potentially disengaging them.\",\n    \"If it is misconstrued to imply that all social following or conformity is negative or pathological, ignoring the beneficial aspects of social cohesion and learning from others.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a psychoeducational self-reflection designed to normalize and externalize a common human tendency towards conformity. It aims to foster self-awareness about the involuntary nature of social influence while simultaneously highlighting that the perception of being unable to act otherwise is a cognitive construction ('imagining') rather than an absolute truth. It may implicitly invite questioning of this 'imagining'.",
+    "implicit_claims": [
+      "Human beings possess an inherent, involuntary, and strong predisposition to conform to others' behaviors and examples.",
+      "This predisposition is likened to the instinctual behavior of sheep, implying a lack of conscious deliberation or individual will in the act of following.",
+      "The feeling of being unable to act differently in such situations is often a cognitive distortion or limiting belief ('imagining'), implying that agency might exist despite the subjective feeling of its absence.",
+      "Conformity is a universal human trait.",
+      "There is a potential for greater individual agency or choice that is obscured by this 'imagining'.",
+      "A certain level of unconscious or automatic processing drives social following."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The seeming tension between 'irresistibly impelled' and 'imagining that we cannot do otherwise' is resolved by understanding the former as describing a powerful *subjective experience* or *automatic tendency*, and the latter as identifying a *cognitive interpretation* of that experience. The 'imagining' part is crucial, as it provides a therapeutic leverage point, suggesting that while the impulse is strong, the absolute lack of choice is not necessarily a reality, but a belief that can be examined.",
+    "conditions_for_usefulness": [
+      "When a client struggles with people-pleasing, conformity, or feels trapped by social expectations, lacking a sense of individual choice.",
+      "To normalize the experience of being influenced by others, reducing shame or self-blame.",
+      "As an initial step in cognitive restructuring, by introducing the idea that perceived limitations ('cannot do otherwise') are often imagined or constructed.",
+      "To encourage self-compassion by framing conformity as a universal human tendency rather than a personal failing.",
+      "To validate a client's feeling of being overwhelmed by social pressure, while simultaneously empowering them to question their interpretation of that pressure.",
+      "When the therapeutic goal involves increasing self-awareness, personal agency, and independent decision-making."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted literally as an absolute truth, it could reinforce fatalism or a sense of helplessness, undermining a client's self-efficacy and belief in their capacity for choice.",
+      "For clients who already struggle with a lack of personal responsibility or agency, it might provide an excuse for inaction or validate a passive approach to life.",
+      "If used without subsequent therapeutic exploration of the 'imagining' aspect, it could leave a client feeling disempowered rather than enlightened.",
+      "For clients who are already highly individualistic or contrarian, it might be perceived as irrelevant or contrary to their self-perception, potentially disengaging them.",
+      "If it is misconstrued to imply that all social following or conformity is negative or pathological, ignoring the beneficial aspects of social cohesion and learning from others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 709,
+  "error": "",
+  "retry_count": 0
+}

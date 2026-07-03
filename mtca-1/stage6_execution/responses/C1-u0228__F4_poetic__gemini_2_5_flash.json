@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0228__F4_poetic__gemini_2_5_flash",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:27:15.381124+00:00",
+  "wall_clock_seconds": 10.471635103225708,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a piece of wisdom or an ethical exhortation, highlighting the profound psychological power of a doctor's words. It advocates for a communicative approach that fosters hope and positive autosuggestion in patients, implying that such an approach can significantly influence health outcomes. It's a cautionary tale against nihilistic prognoses and a persuasive argument for mindful, compassionate medical language.\",\n  \"implicit_claims\": [\n    \"A physician's title and position inherently bestow a powerful 'suggestive influence' over patients.\",\n    \"The human mind possesses a strong capacity for self-influence (autosuggestion) that can impact physical health and recovery.\",\n    \"Negative pronouncements from an authority figure can create detrimental autosuggestion.\",\n    \"Positive, yet realistic, encouragement can generate beneficial autosuggestion and lead to unexpected positive results.\",\n    \"The doctor's ethical responsibility extends beyond diagnosis and treatment to include the careful stewardship of a patient's mental and emotional state.\",\n    \"Hope and belief are significant, sometimes underestimated, factors in the healing process.\",\n    \"There is a direct causal link between a doctor's framing of an illness and the patient's psychological and potentially physical response.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear contrast between two doctor-patient communication scenarios and their hypothesized outcomes. The narrative flows logically from the premise of 'suggestive influence' to the potential 'disastrous consequences' of negativity versus the 'surprising results' of positivity, creating a compelling and consistent argument for mindful communication.\",\n  \"conditions_for_usefulness\": [\n    \"When the mind-body connection plays a genuine role in a patient's recovery, resilience, or management of illness.\",\n    \"When a doctor's ethical duty includes fostering hope, agency, and a positive outlook within the bounds of truth.\",\n    \"As a philosophical or moral guide for healthcare professionals to consider the psychological impact of their words.\",\n    \"In situations where an illness has a significant subjective component or where the 'placebo effect' can contribute to well-being.\",\n    \"As a reminder that compassionate communication can enhance patient engagement and adherence to treatment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as suggesting that all illnesses, regardless of their biological severity, can be cured by positive thinking alone, thereby downplaying the need for rigorous medical intervention.\",\n    \"If it leads to doctors withholding necessary, honest (albeit difficult) prognoses, which can undermine informed consent or hinder preparation for palliative care.\",\n    \"If it implies a doctor should intentionally mislead or lie to a patient rather than carefully frame a difficult truth.\",\n    \"If it promotes a view that patients are solely responsible for their outcomes through autosuggestion, potentially leading to victim-blaming for chronic or terminal conditions.\",\n    \"If it encourages doctors to ignore objective medical facts in favor of purely psychological encouragement when facts are critical for treatment decisions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a piece of wisdom or an ethical exhortation, highlighting the profound psychological power of a doctor's words. It advocates for a communicative approach that fosters hope and positive autosuggestion in patients, implying that such an approach can significantly influence health outcomes. It's a cautionary tale against nihilistic prognoses and a persuasive argument for mindful, compassionate medical language.",
+    "implicit_claims": [
+      "A physician's title and position inherently bestow a powerful 'suggestive influence' over patients.",
+      "The human mind possesses a strong capacity for self-influence (autosuggestion) that can impact physical health and recovery.",
+      "Negative pronouncements from an authority figure can create detrimental autosuggestion.",
+      "Positive, yet realistic, encouragement can generate beneficial autosuggestion and lead to unexpected positive results.",
+      "The doctor's ethical responsibility extends beyond diagnosis and treatment to include the careful stewardship of a patient's mental and emotional state.",
+      "Hope and belief are significant, sometimes underestimated, factors in the healing process.",
+      "There is a direct causal link between a doctor's framing of an illness and the patient's psychological and potentially physical response."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear contrast between two doctor-patient communication scenarios and their hypothesized outcomes. The narrative flows logically from the premise of 'suggestive influence' to the potential 'disastrous consequences' of negativity versus the 'surprising results' of positivity, creating a compelling and consistent argument for mindful communication.",
+    "conditions_for_usefulness": [
+      "When the mind-body connection plays a genuine role in a patient's recovery, resilience, or management of illness.",
+      "When a doctor's ethical duty includes fostering hope, agency, and a positive outlook within the bounds of truth.",
+      "As a philosophical or moral guide for healthcare professionals to consider the psychological impact of their words.",
+      "In situations where an illness has a significant subjective component or where the 'placebo effect' can contribute to well-being.",
+      "As a reminder that compassionate communication can enhance patient engagement and adherence to treatment."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as suggesting that all illnesses, regardless of their biological severity, can be cured by positive thinking alone, thereby downplaying the need for rigorous medical intervention.",
+      "If it leads to doctors withholding necessary, honest (albeit difficult) prognoses, which can undermine informed consent or hinder preparation for palliative care.",
+      "If it implies a doctor should intentionally mislead or lie to a patient rather than carefully frame a difficult truth.",
+      "If it promotes a view that patients are solely responsible for their outcomes through autosuggestion, potentially leading to victim-blaming for chronic or terminal conditions.",
+      "If it encourages doctors to ignore objective medical facts in favor of purely psychological encouragement when facts are critical for treatment decisions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 240,
+  "output_tokens": 640,
+  "error": "",
+  "retry_count": 0
+}

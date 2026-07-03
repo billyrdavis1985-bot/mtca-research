@@ -1,0 +1,52 @@
+{
+  "call_id": "C1-u0209__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:19:24.964165+00:00",
+  "wall_clock_seconds": 16.123358964920044,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing a procedural directive or clinical guideline, instructing a practitioner on how to titrate the frequency of therapeutic suggestions over time, with the implied goal of fading intervention as the patient improves toward cure.\",\n  \"implicit_claims\": [\n    \"Therapeutic suggestions can produce measurable clinical progress.\",\n    \"Progress can be tracked and used to inform the spacing of subsequent suggestions.\",\n    \"There exists a definable endpoint called 'cure' or 'complete cure' that can be recognized.\",\n    \"The relationship between suggestion frequency and therapeutic outcome is monotonically manageable — more spacing correlates with sustained or improved progress.\",\n    \"The practitioner has reliable means to assess the subject's progress between sessions.\",\n    \"Suggestion-based intervention is the primary or sufficient mechanism of change being described.\",\n    \"Individual differences among subjects ('according to your subject') are clinically significant and must guide pacing.\",\n    \"Reducing frequency of suggestions does not itself undermine progress.\",\n    \"The process is time-limited and has a natural terminus.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a procedural rule: it links subject variability to scheduling decisions, ties spacing to observed progress, and defines a logical endpoint. The logic of graduated withdrawal mirroring improvement is consistent with general principles of fading in behavioral and supportive therapies. However, the term 'cure' introduces ambiguity — it is not defined, and its use presupposes a binary or achievable endpoint that may not reflect the reality of many clinical conditions.\",\n  \"conditions_for_usefulness\": [\n    \"The practitioner has a validated and reliable method for assessing degree of patient progress.\",\n    \"The condition being treated is one for which suggestion-based intervention has demonstrated efficacy.\",\n    \"The concept of 'cure' or complete remission is operationally defined and measurable for the condition in question.\",\n    \"The patient population is one for whom responsiveness to suggestion is a meaningful therapeutic variable.\",\n    \"The practitioner is trained to individualize pacing based on objective or well-validated subjective indicators.\",\n    \"There is no contraindication to reducing session frequency as improvement is observed.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The condition being treated is chronic, relapsing, or does not admit of 'cure' in any meaningful clinical sense.\",\n    \"Progress is being assessed by unreliable, subjective, or placebo-confounded measures.\",\n    \"The statement is applied outside a validated therapeutic context, such as to justify non-evidence-based hypnotic or persuasion-based practices.\",\n    \"The practitioner lacks the clinical training to distinguish genuine progress from transient symptom suppression.\",\n    \"The framing of 'cure' leads practitioners or patients to prematurely discontinue necessary ongoing care.\",\n    \"The suggestion mechanism itself has not been established as causally responsible for the observed improvement, making spacing decisions empirically ungrounded.\",\n    \"The statement is used to legitimate authority-based or coercive suggestion practices under the guise of clinical method.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing a procedural directive or clinical guideline, instructing a practitioner on how to titrate the frequency of therapeutic suggestions over time, with the implied goal of fading intervention as the patient improves toward cure.",
+    "implicit_claims": [
+      "Therapeutic suggestions can produce measurable clinical progress.",
+      "Progress can be tracked and used to inform the spacing of subsequent suggestions.",
+      "There exists a definable endpoint called 'cure' or 'complete cure' that can be recognized.",
+      "The relationship between suggestion frequency and therapeutic outcome is monotonically manageable — more spacing correlates with sustained or improved progress.",
+      "The practitioner has reliable means to assess the subject's progress between sessions.",
+      "Suggestion-based intervention is the primary or sufficient mechanism of change being described.",
+      "Individual differences among subjects ('according to your subject') are clinically significant and must guide pacing.",
+      "Reducing frequency of suggestions does not itself undermine progress.",
+      "The process is time-limited and has a natural terminus."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a procedural rule: it links subject variability to scheduling decisions, ties spacing to observed progress, and defines a logical endpoint. The logic of graduated withdrawal mirroring improvement is consistent with general principles of fading in behavioral and supportive therapies. However, the term 'cure' introduces ambiguity — it is not defined, and its use presupposes a binary or achievable endpoint that may not reflect the reality of many clinical conditions.",
+    "conditions_for_usefulness": [
+      "The practitioner has a validated and reliable method for assessing degree of patient progress.",
+      "The condition being treated is one for which suggestion-based intervention has demonstrated efficacy.",
+      "The concept of 'cure' or complete remission is operationally defined and measurable for the condition in question.",
+      "The patient population is one for whom responsiveness to suggestion is a meaningful therapeutic variable.",
+      "The practitioner is trained to individualize pacing based on objective or well-validated subjective indicators.",
+      "There is no contraindication to reducing session frequency as improvement is observed."
+    ],
+    "conditions_for_misleading": [
+      "The condition being treated is chronic, relapsing, or does not admit of 'cure' in any meaningful clinical sense.",
+      "Progress is being assessed by unreliable, subjective, or placebo-confounded measures.",
+      "The statement is applied outside a validated therapeutic context, such as to justify non-evidence-based hypnotic or persuasion-based practices.",
+      "The practitioner lacks the clinical training to distinguish genuine progress from transient symptom suppression.",
+      "The framing of 'cure' leads practitioners or patients to prematurely discontinue necessary ongoing care.",
+      "The suggestion mechanism itself has not been established as causally responsible for the observed improvement, making spacing decisions empirically ungrounded.",
+      "The statement is used to legitimate authority-based or coercive suggestion practices under the guise of clinical method."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 211,
+  "output_tokens": 705,
+  "error": "",
+  "retry_count": 0
+}

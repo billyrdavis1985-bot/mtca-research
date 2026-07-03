@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0009__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:34:40.362946+00:00",
+  "wall_clock_seconds": 14.30666208267212,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is prescribing a behavioral practice — it functions as a normative directive or guideline, describing an ongoing habitual action (self-monitoring and accountability) as something to be continued or adopted. It has the tone of a principle or step in a structured program.\",\n  \"implicit_claims\": [\n    \"Personal inventory (self-examination) is a meaningful and valuable practice.\",\n    \"People are sometimes wrong and can recognize when they are.\",\n    \"Admitting wrongness promptly is preferable to delayed or no admission.\",\n    \"There is a 'we' — a group context in which this practice is shared or communal.\",\n    \"Being wrong is a recurring enough occurrence to warrant an ongoing practice.\",\n    \"Self-awareness and accountability are connected behaviors that should be practiced together.\",\n    \"The ability to identify one's own errors is assumed to be achievable.\",\n    \"Prompt admission of wrongness produces better outcomes than silence or delay.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two components — taking personal inventory and admitting wrongness — logically complement each other: inventory identifies errors, and admission responds to them. The use of 'when' (not 'if') presupposes wrongness will occur, which is realistic and consistent with the overall humility implied by the practice.\",\n  \"conditions_for_usefulness\": [\n    \"The individual or group has genuine capacity for honest self-reflection.\",\n    \"There is a safe environment where admitting wrongness does not result in disproportionate punishment or exploitation.\",\n    \"The concept of 'wrong' is sufficiently defined or shared within the relevant context.\",\n    \"The practice is applied consistently, not selectively.\",\n    \"Admission of wrongness is followed by corrective action, not just verbal acknowledgment.\",\n    \"The person has the psychological stability to engage in self-examination without destructive rumination.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'personal inventory' is used to assign blame inward for systemic or external harms, deflecting structural accountability.\",\n    \"If the practice is applied asymmetrically — e.g., encouraged only in subordinate or less powerful individuals.\",\n    \"If 'being wrong' is defined by authority figures rather than objective or ethical standards, making the practice a tool of control.\",\n    \"If prompt admission is demanded in contexts where it creates legal, social, or physical risk for the person admitting.\",\n    \"If the statement implies that self-monitoring alone is sufficient for moral or ethical growth, neglecting external feedback or systemic change.\",\n    \"If used to cultivate excessive self-criticism or guilt in vulnerable individuals.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is prescribing a behavioral practice — it functions as a normative directive or guideline, describing an ongoing habitual action (self-monitoring and accountability) as something to be continued or adopted. It has the tone of a principle or step in a structured program.",
+    "implicit_claims": [
+      "Personal inventory (self-examination) is a meaningful and valuable practice.",
+      "People are sometimes wrong and can recognize when they are.",
+      "Admitting wrongness promptly is preferable to delayed or no admission.",
+      "There is a 'we' — a group context in which this practice is shared or communal.",
+      "Being wrong is a recurring enough occurrence to warrant an ongoing practice.",
+      "Self-awareness and accountability are connected behaviors that should be practiced together.",
+      "The ability to identify one's own errors is assumed to be achievable.",
+      "Prompt admission of wrongness produces better outcomes than silence or delay."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two components — taking personal inventory and admitting wrongness — logically complement each other: inventory identifies errors, and admission responds to them. The use of 'when' (not 'if') presupposes wrongness will occur, which is realistic and consistent with the overall humility implied by the practice.",
+    "conditions_for_usefulness": [
+      "The individual or group has genuine capacity for honest self-reflection.",
+      "There is a safe environment where admitting wrongness does not result in disproportionate punishment or exploitation.",
+      "The concept of 'wrong' is sufficiently defined or shared within the relevant context.",
+      "The practice is applied consistently, not selectively.",
+      "Admission of wrongness is followed by corrective action, not just verbal acknowledgment.",
+      "The person has the psychological stability to engage in self-examination without destructive rumination."
+    ],
+    "conditions_for_misleading": [
+      "If 'personal inventory' is used to assign blame inward for systemic or external harms, deflecting structural accountability.",
+      "If the practice is applied asymmetrically — e.g., encouraged only in subordinate or less powerful individuals.",
+      "If 'being wrong' is defined by authority figures rather than objective or ethical standards, making the practice a tool of control.",
+      "If prompt admission is demanded in contexts where it creates legal, social, or physical risk for the person admitting.",
+      "If the statement implies that self-monitoring alone is sufficient for moral or ethical growth, neglecting external feedback or systemic change.",
+      "If used to cultivate excessive self-criticism or guilt in vulnerable individuals."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 613,
+  "error": "",
+  "retry_count": 0
+}

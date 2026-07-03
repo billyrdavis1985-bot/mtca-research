@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0501__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:43:56.448127+00:00",
+  "wall_clock_seconds": 4.49911642074585,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting a specific historical observation about a child's physical state and assistive devices.\",\n  \"implicit_claims\": [\n    \"The speaker is a caregiver or medical professional encountering the child for the first time.\",\n    \"The child has a condition that affects foot positioning, requiring corrective devices.\",\n    \"The contrivances are effective enough to allow the child to walk 'pretty well'.\",\n    \"The speaker considers this information relevant (e.g., for medical or developmental records).\",\n    \"The year 1915 places this in a specific historical context of medical practices.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it provides a clear temporal frame, subject, and observation about mobility aided by devices.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a historical or medical record where documenting early interventions is relevant.\",\n    \"The reader is interested in assistive technology outcomes or pediatric case histories.\",\n    \"The context (e.g., a clinical note or memoir) grants the observation interpretive value.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken out of context (e.g., presented as a universal claim about all children with similar conditions).\",\n    \"If the speaker's qualifications or reliability are unknown, leading to overgeneralization.\",\n    \"If the contrivances are assumed to be appropriate or successful without further evidence.\",\n    \"If the historical context (1915) is ignored, causing anachronistic judgments about medical care.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting a specific historical observation about a child's physical state and assistive devices.",
+    "implicit_claims": [
+      "The speaker is a caregiver or medical professional encountering the child for the first time.",
+      "The child has a condition that affects foot positioning, requiring corrective devices.",
+      "The contrivances are effective enough to allow the child to walk 'pretty well'.",
+      "The speaker considers this information relevant (e.g., for medical or developmental records).",
+      "The year 1915 places this in a specific historical context of medical practices."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it provides a clear temporal frame, subject, and observation about mobility aided by devices.",
+    "conditions_for_usefulness": [
+      "The statement is part of a historical or medical record where documenting early interventions is relevant.",
+      "The reader is interested in assistive technology outcomes or pediatric case histories.",
+      "The context (e.g., a clinical note or memoir) grants the observation interpretive value."
+    ],
+    "conditions_for_misleading": [
+      "If taken out of context (e.g., presented as a universal claim about all children with similar conditions).",
+      "If the speaker's qualifications or reliability are unknown, leading to overgeneralization.",
+      "If the contrivances are assumed to be appropriate or successful without further evidence.",
+      "If the historical context (1915) is ignored, causing anachronistic judgments about medical care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 317,
+  "error": "",
+  "retry_count": 0
+}

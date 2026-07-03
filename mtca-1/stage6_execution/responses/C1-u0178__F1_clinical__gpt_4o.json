@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:13:49.596188+00:00",
+  "wall_clock_seconds": 3.843658208847046,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing a guided self-suggestion intended to influence the listener’s experience of hunger and enjoyment of meals.\",\n  \"implicit_claims\": [\n    \"Experiencing hunger three times a day is a natural and desirable pattern.\",\n    \"There is an ideal amount of hunger that should be experienced before meals.\",\n    \"Experiencing hunger will lead to enjoying meals more.\",\n    \"Self-statements can influence physical sensations like hunger.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in the sense that it consistently reinforces the idea of experiencing hunger at mealtime and enjoying food without overeating. However, it assumes a certain regularity and predictability in physiological responses that may not be universally applicable.\",\n  \"conditions_for_usefulness\": \"This statement could be useful if the individual has a healthy relationship with food, does not have medical conditions affecting hunger, and is open to the power of suggestion to positively influence their eating habits.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual has an eating disorder, experiences disordered eating patterns, or if there are medical reasons that disrupt their natural hunger cues. Additionally, it could be misleading if the individual interprets this guidance as an endorsement of rigid meal timings without considering personal hunger cues.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing a guided self-suggestion intended to influence the listener’s experience of hunger and enjoyment of meals.",
+    "implicit_claims": [
+      "Experiencing hunger three times a day is a natural and desirable pattern.",
+      "There is an ideal amount of hunger that should be experienced before meals.",
+      "Experiencing hunger will lead to enjoying meals more.",
+      "Self-statements can influence physical sensations like hunger."
+    ],
+    "coherence_assessment": "The statement is internally coherent in the sense that it consistently reinforces the idea of experiencing hunger at mealtime and enjoying food without overeating. However, it assumes a certain regularity and predictability in physiological responses that may not be universally applicable.",
+    "conditions_for_usefulness": "This statement could be useful if the individual has a healthy relationship with food, does not have medical conditions affecting hunger, and is open to the power of suggestion to positively influence their eating habits.",
+    "conditions_for_misleading": "The statement could be misleading if the individual has an eating disorder, experiences disordered eating patterns, or if there are medical reasons that disrupt their natural hunger cues. Additionally, it could be misleading if the individual interprets this guidance as an endorsement of rigid meal timings without considering personal hunger cues."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 227,
+  "output_tokens": 273,
+  "error": "",
+  "retry_count": 0
+}

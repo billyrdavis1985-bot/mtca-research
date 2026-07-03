@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0006__F0_neutral__gpt_4o",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:19:49.676655+00:00",
+  "wall_clock_seconds": 2.691422700881958,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Expressing willingness to take calculated risks\",\n  \"implicit_claims\": [\n    \"The speaker believes there is evidence indicating the benefits of certain actions.\",\n    \"The speaker is aware of and acknowledges personal fears.\",\n    \"The speaker values evidence-based decision-making.\",\n    \"The speaker distinguishes between actions based on their likelihood of success or benefit.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects fear (a potential deterrent) with evidence (a motivator) to justify certain behaviors.\",\n  \"conditions_for_usefulness\": \"There must be reliable evidence suggesting a positive outcome for the action considered, and the individual must trust this evidence.\",\n  \"conditions_for_misleading\": \"The evidence could be misrepresented or misinterpreted, or the fear could outweigh the potential benefits, leading to an unreasonable risk.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Expressing willingness to take calculated risks",
+    "implicit_claims": [
+      "The speaker believes there is evidence indicating the benefits of certain actions.",
+      "The speaker is aware of and acknowledges personal fears.",
+      "The speaker values evidence-based decision-making.",
+      "The speaker distinguishes between actions based on their likelihood of success or benefit."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects fear (a potential deterrent) with evidence (a motivator) to justify certain behaviors.",
+    "conditions_for_usefulness": "There must be reliable evidence suggesting a positive outcome for the action considered, and the individual must trust this evidence.",
+    "conditions_for_misleading": "The evidence could be misrepresented or misinterpreted, or the fear could outweigh the potential benefits, leading to an unreasonable risk."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 141,
+  "output_tokens": 185,
+  "error": "",
+  "retry_count": 0
+}

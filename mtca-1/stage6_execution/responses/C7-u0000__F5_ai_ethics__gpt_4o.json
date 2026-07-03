@@ -1,0 +1,37 @@
+{
+  "call_id": "C7-u0000__F5_ai_ethics__gpt_4o",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:52:48.877445+00:00",
+  "wall_clock_seconds": 4.014968395233154,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement communicates an acknowledgment of having an addiction problem and a lack of control over it, typically used as a surrender to the need for help.\",\n  \"implicit_claims\": [\n    \"The individual suffers from alcohol addiction.\",\n    \"Alcoholism has negatively impacted the individual's life.\",\n    \"Acknowledgment of powerlessness is a step towards recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent within the context of addiction recovery, particularly within frameworks like the 12-step program where admitting powerlessness is a foundational step.\",\n  \"conditions_for_usefulness\": [\n    \"The individual or AI system is assisting someone who suffers from alcohol addiction and is aligned with recovery programs that emphasize self-admittance and acknowledgment of the problem.\",\n    \"The AI system is designed to support individuals in recognizing their vulnerabilities and guiding them towards seeking help.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is presented outside the context of addiction or without support from a structured program that gives further guidance after acknowledgment.\",\n    \"If used in other contexts where admittance of powerlessness is not constructive or could be manipulated to foster helplessness without a path to empowerment or recovery.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement communicates an acknowledgment of having an addiction problem and a lack of control over it, typically used as a surrender to the need for help.",
+    "implicit_claims": [
+      "The individual suffers from alcohol addiction.",
+      "Alcoholism has negatively impacted the individual's life.",
+      "Acknowledgment of powerlessness is a step towards recovery."
+    ],
+    "coherence_assessment": "The statement is coherent within the context of addiction recovery, particularly within frameworks like the 12-step program where admitting powerlessness is a foundational step.",
+    "conditions_for_usefulness": [
+      "The individual or AI system is assisting someone who suffers from alcohol addiction and is aligned with recovery programs that emphasize self-admittance and acknowledgment of the problem.",
+      "The AI system is designed to support individuals in recognizing their vulnerabilities and guiding them towards seeking help."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is presented outside the context of addiction or without support from a structured program that gives further guidance after acknowledgment.",
+      "If used in other contexts where admittance of powerlessness is not constructive or could be manipulated to foster helplessness without a path to empowerment or recovery."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 255,
+  "error": "",
+  "retry_count": 0
+}

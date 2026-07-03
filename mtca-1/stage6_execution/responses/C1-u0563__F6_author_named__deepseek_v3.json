@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0563__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:49:50.231413+00:00",
+  "wall_clock_seconds": 3.769946813583374,
+  "raw_response": "{\n  \"communicative_function\": \"instruction or prescription\",\n  \"implicit_claims\": [\n    \"Mental imagery during pregnancy can determine the sex of a child.\",\n    \"Mental imagery during pregnancy can determine the physical and moral qualities of a child.\",\n    \"A woman's conscious autosuggestion has causal power over fetal development.\",\n    \"The sex and qualities of a child are not fixed at conception but can be influenced by maternal thought.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that it presents a clear causal claim, but it contradicts established biological and genetic understanding of human reproduction.\",\n  \"conditions_for_usefulness\": [\n    \"If autosuggestion actually had the power to determine fetal sex and traits.\",\n    \"If biological sex were not determined at conception by chromosomes.\",\n    \"If moral and physical qualities were entirely malleable by maternal thought.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If readers believe the claim without scientific evidence.\",\n    \"If women blame themselves for not controlling outcomes through thought.\",\n    \"If false hope or guilt is generated from inability to produce desired results.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "instruction or prescription",
+    "implicit_claims": [
+      "Mental imagery during pregnancy can determine the sex of a child.",
+      "Mental imagery during pregnancy can determine the physical and moral qualities of a child.",
+      "A woman's conscious autosuggestion has causal power over fetal development.",
+      "The sex and qualities of a child are not fixed at conception but can be influenced by maternal thought."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that it presents a clear causal claim, but it contradicts established biological and genetic understanding of human reproduction.",
+    "conditions_for_usefulness": [
+      "If autosuggestion actually had the power to determine fetal sex and traits.",
+      "If biological sex were not determined at conception by chromosomes.",
+      "If moral and physical qualities were entirely malleable by maternal thought."
+    ],
+    "conditions_for_misleading": [
+      "If readers believe the claim without scientific evidence.",
+      "If women blame themselves for not controlling outcomes through thought.",
+      "If false hope or guilt is generated from inability to produce desired results."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 208,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0
+}

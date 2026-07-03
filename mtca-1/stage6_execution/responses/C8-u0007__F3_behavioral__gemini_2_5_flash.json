@@ -1,0 +1,45 @@
+{
+  "call_id": "C8-u0007__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:27:31.373471+00:00",
+  "wall_clock_seconds": 5.316981315612793,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-observation or insight, signaling a shift in understanding personal causality regarding mood and behavior. Under a behavioral-commitment frame, it serves as a foundational realization that can inform subsequent behavioral strategies, suggesting an intention to leverage behavior to influence mood rather than waiting for mood to dictate behavior.\",\n  \"implicit_claims\": [\n    \"There is a discernible relationship between one's mood and one's behavior.\",\n    \"The speaker previously believed (or tended to act as if) mood primarily dictated behavior.\",\n    \"The speaker is capable of self-observation and reflective analysis of their internal states and actions.\",\n    \"The observed pattern ('more often than the reverse') is a significant enough finding to warrant attention or a change in approach.\",\n    \"There is a potential for agency in managing one's emotional state by focusing on behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a self-observation without contradiction. It is a reflective meta-cognitive statement about a personal experience, not a universal truth claim, making its internal consistency robust.\",\n  \"conditions_for_usefulness\": [\n    \"The observation is empirically accurate for the individual in question.\",\n    \"It empowers the individual to focus on actionable behaviors rather than passively waiting for mood shifts.\",\n    \"It leads to the adoption of behavioral activation strategies (e.g., 'acting as if', scheduling positive behaviors regardless of mood).\",\n    \"It reduces rumination on mood as an uncontrollable precursor to action.\",\n    \"It serves as a catalyst for breaking cycles of inaction driven by negative mood states.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The observation is inaccurate, and for the individual, mood genuinely and often uncontrollably dictates behavior (e.g., in severe mood disorders).\",\n    \"It leads to an oversimplified view of complex mood regulation, ignoring biological, environmental, or psychological factors that genuinely influence mood first.\",\n    \"It results in self-blame or a lack of compassion for genuine struggles with mood, suggesting that 'if only I acted differently, my mood would improve' even when severe mood issues are present.\",\n    \"It discourages seeking professional help for mood disorders by promoting a 'pull yourself up by your bootstraps' mentality based on an inaccurate self-assessment.\",\n    \"It neglects the important, bidirectional relationship between mood and behavior, implying a one-way street where a more nuanced understanding would be more beneficial.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-observation or insight, signaling a shift in understanding personal causality regarding mood and behavior. Under a behavioral-commitment frame, it serves as a foundational realization that can inform subsequent behavioral strategies, suggesting an intention to leverage behavior to influence mood rather than waiting for mood to dictate behavior.",
+    "implicit_claims": [
+      "There is a discernible relationship between one's mood and one's behavior.",
+      "The speaker previously believed (or tended to act as if) mood primarily dictated behavior.",
+      "The speaker is capable of self-observation and reflective analysis of their internal states and actions.",
+      "The observed pattern ('more often than the reverse') is a significant enough finding to warrant attention or a change in approach.",
+      "There is a potential for agency in managing one's emotional state by focusing on behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a self-observation without contradiction. It is a reflective meta-cognitive statement about a personal experience, not a universal truth claim, making its internal consistency robust.",
+    "conditions_for_usefulness": [
+      "The observation is empirically accurate for the individual in question.",
+      "It empowers the individual to focus on actionable behaviors rather than passively waiting for mood shifts.",
+      "It leads to the adoption of behavioral activation strategies (e.g., 'acting as if', scheduling positive behaviors regardless of mood).",
+      "It reduces rumination on mood as an uncontrollable precursor to action.",
+      "It serves as a catalyst for breaking cycles of inaction driven by negative mood states."
+    ],
+    "conditions_for_misleading": [
+      "The observation is inaccurate, and for the individual, mood genuinely and often uncontrollably dictates behavior (e.g., in severe mood disorders).",
+      "It leads to an oversimplified view of complex mood regulation, ignoring biological, environmental, or psychological factors that genuinely influence mood first.",
+      "It results in self-blame or a lack of compassion for genuine struggles with mood, suggesting that 'if only I acted differently, my mood would improve' even when severe mood issues are present.",
+      "It discourages seeking professional help for mood disorders by promoting a 'pull yourself up by your bootstraps' mentality based on an inaccurate self-assessment.",
+      "It neglects the important, bidirectional relationship between mood and behavior, implying a one-way street where a more nuanced understanding would be more beneficial."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 541,
+  "error": "",
+  "retry_count": 0
+}

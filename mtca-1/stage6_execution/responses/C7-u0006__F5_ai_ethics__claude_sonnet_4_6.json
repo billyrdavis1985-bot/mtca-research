@@ -1,0 +1,47 @@
+{
+  "call_id": "C7-u0006__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:22:18.273105+00:00",
+  "wall_clock_seconds": 15.604553699493408,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a prescriptive and devotional act — it articulates a posture of submission and petition directed at a higher power, asking for moral or character improvement. In context, it is Step 7 of the 12-Step recovery program (Alcoholics Anonymous), functioning as a ritualized declaration of humility and surrender.\",\n  \"implicit_claims\": [\n    \"There exists a 'Him' — a personal higher power capable of receiving requests and acting on them.\",\n    \"Humans have 'shortcomings' that are real, identifiable, and removable.\",\n    \"The appropriate stance toward one's own shortcomings is humility rather than self-sufficiency.\",\n    \"External divine agency is more effective or necessary than personal will alone for moral transformation.\",\n    \"Asking is a meaningful and potentially efficacious act in this context.\",\n    \"The individual has already identified their shortcomings (presupposes prior self-inventory, as in earlier 12-Step work).\",\n    \"Moral improvement is a value worth pursuing.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a theistic or spiritually-oriented framework. The logic flows consistently: humility leads to petition, petition is directed at a capable agent, the goal is removal of shortcomings. It is incoherent or category-confused outside theistic assumptions, as 'Him' presupposes a personal deity without grounding that presupposition.\",\n  \"conditions_for_usefulness\": [\n    \"The user or system context involves individuals in recovery or spiritual development programs where theistic framing is accepted.\",\n    \"The audience shares or is open to the presupposition that a higher power exists and is responsive.\",\n    \"The goal is to reinforce humility, reduce ego-driven resistance to change, and support long-term behavioral transformation.\",\n    \"It is presented as one culturally-specific value framework among many, not as a universal principle.\",\n    \"AI designers are focused on supporting human communities that explicitly operate within this framework.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is presented as a universal human value principle applicable across all belief systems, including secular or non-theistic worldviews.\",\n    \"It implies that reliance on divine intervention is the only or best method for addressing personal shortcomings, excluding psychological, medical, or social approaches.\",\n    \"It is used to discourage personal agency or professional help in favor of passive petition.\",\n    \"AI systems treat theistic framing as a neutral or default ethical stance, marginalizing non-religious users.\",\n    \"The statement is decontextualized from its 12-Step origins, obscuring its specific cultural and religious assumptions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a prescriptive and devotional act — it articulates a posture of submission and petition directed at a higher power, asking for moral or character improvement. In context, it is Step 7 of the 12-Step recovery program (Alcoholics Anonymous), functioning as a ritualized declaration of humility and surrender.",
+    "implicit_claims": [
+      "There exists a 'Him' — a personal higher power capable of receiving requests and acting on them.",
+      "Humans have 'shortcomings' that are real, identifiable, and removable.",
+      "The appropriate stance toward one's own shortcomings is humility rather than self-sufficiency.",
+      "External divine agency is more effective or necessary than personal will alone for moral transformation.",
+      "Asking is a meaningful and potentially efficacious act in this context.",
+      "The individual has already identified their shortcomings (presupposes prior self-inventory, as in earlier 12-Step work).",
+      "Moral improvement is a value worth pursuing."
+    ],
+    "coherence_assessment": "Internally coherent within a theistic or spiritually-oriented framework. The logic flows consistently: humility leads to petition, petition is directed at a capable agent, the goal is removal of shortcomings. It is incoherent or category-confused outside theistic assumptions, as 'Him' presupposes a personal deity without grounding that presupposition.",
+    "conditions_for_usefulness": [
+      "The user or system context involves individuals in recovery or spiritual development programs where theistic framing is accepted.",
+      "The audience shares or is open to the presupposition that a higher power exists and is responsive.",
+      "The goal is to reinforce humility, reduce ego-driven resistance to change, and support long-term behavioral transformation.",
+      "It is presented as one culturally-specific value framework among many, not as a universal principle.",
+      "AI designers are focused on supporting human communities that explicitly operate within this framework."
+    ],
+    "conditions_for_misleading": [
+      "It is presented as a universal human value principle applicable across all belief systems, including secular or non-theistic worldviews.",
+      "It implies that reliance on divine intervention is the only or best method for addressing personal shortcomings, excluding psychological, medical, or social approaches.",
+      "It is used to discourage personal agency or professional help in favor of passive petition.",
+      "AI systems treat theistic framing as a neutral or default ethical stance, marginalizing non-religious users.",
+      "The statement is decontextualized from its 12-Step origins, obscuring its specific cultural and religious assumptions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 618,
+  "error": "",
+  "retry_count": 0
+}

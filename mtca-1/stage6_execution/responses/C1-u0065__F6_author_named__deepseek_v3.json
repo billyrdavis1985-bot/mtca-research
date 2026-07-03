@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0065__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:12:13.008437+00:00",
+  "wall_clock_seconds": 4.615970849990845,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making an observation about human behavior, comparing people to sheep to illustrate a tendency toward imitation and conformity, and it suggests that this tendency is both involuntary and compelling.\",\n  \"implicit_claims\": [\n    \"Humans have a natural, automatic inclination to imitate others.\",\n    \"This imitation is often irresistible and not a matter of conscious choice.\",\n    \"People commonly believe they have no alternative but to follow others' examples.\",\n    \"The comparison to sheep implies a lack of independent thought or agency in these situations.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear analogy (humans as sheep) and a causal claim (involuntary impulsion to follow examples) that is consistent with the author's focus on autosuggestion and subconscious influence.\",\n  \"conditions_for_usefulness\": [\n    \"The reader recognizes a tendency in themselves or others to conform unconsciously.\",\n    \"The statement is used as a starting point for reflection on how to cultivate greater self-awareness and independent choice.\",\n    \"The idea of 'imagining we cannot do otherwise' is understood as a suggestion that can be counteracted through conscious autosuggestion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as an absolute truth that all human behavior is merely imitative with no room for individual agency.\",\n    \"If used to excuse conformity as unavoidable rather than a habit that can be changed.\",\n    \"If the analogy to sheep is interpreted as demeaning or as denying the capacity for reasoned decision-making in all contexts.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making an observation about human behavior, comparing people to sheep to illustrate a tendency toward imitation and conformity, and it suggests that this tendency is both involuntary and compelling.",
+    "implicit_claims": [
+      "Humans have a natural, automatic inclination to imitate others.",
+      "This imitation is often irresistible and not a matter of conscious choice.",
+      "People commonly believe they have no alternative but to follow others' examples.",
+      "The comparison to sheep implies a lack of independent thought or agency in these situations."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear analogy (humans as sheep) and a causal claim (involuntary impulsion to follow examples) that is consistent with the author's focus on autosuggestion and subconscious influence.",
+    "conditions_for_usefulness": [
+      "The reader recognizes a tendency in themselves or others to conform unconsciously.",
+      "The statement is used as a starting point for reflection on how to cultivate greater self-awareness and independent choice.",
+      "The idea of 'imagining we cannot do otherwise' is understood as a suggestion that can be counteracted through conscious autosuggestion."
+    ],
+    "conditions_for_misleading": [
+      "If taken as an absolute truth that all human behavior is merely imitative with no room for individual agency.",
+      "If used to excuse conformity as unavoidable rather than a habit that can be changed.",
+      "If the analogy to sheep is interpreted as demeaning or as denying the capacity for reasoned decision-making in all contexts."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 327,
+  "error": "",
+  "retry_count": 0
+}

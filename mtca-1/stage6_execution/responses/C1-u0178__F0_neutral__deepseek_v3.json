@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0178__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:13:27.443454+00:00",
+  "wall_clock_seconds": 4.081197261810303,
+  "raw_response": "{\n  \"communicative_function\": \"Giving advice or instruction about expected bodily experiences and proper eating behavior.\",\n  \"implicit_claims\": [\n    \"Hunger occurs at predictable, regular meal times three times a day.\",\n    \"Hunger is always an agreeable sensation.\",\n    \"Eating only at meal times is natural and desirable.\",\n    \"Overeating is avoidable and undesirable.\",\n    \"The reader will naturally enjoy their food if they follow this pattern.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its prescriptive frame, assuming a highly regular daily schedule and uniform appetite. However, the claim that hunger is always 'agreeable' may conflict with common experiences of intense or painful hunger.\",\n  \"conditions_for_usefulness\": [\n    \"The reader has a stable daily routine with three set meal times.\",\n    \"The reader typically experiences hunger at those times.\",\n    \"The reader finds the sensation of hunger pleasant or motivating.\",\n    \"The reader has access to sufficient, enjoyable food at each meal.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The reader experiences irregular hunger due to medical conditions or lifestyle.\",\n    \"The reader finds hunger uncomfortable or distressing.\",\n    \"The reader is in a situation where food is scarce or not regularly available.\",\n    \"The reader has an eating disorder or disordered relationship with hunger cues.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Giving advice or instruction about expected bodily experiences and proper eating behavior.",
+    "implicit_claims": [
+      "Hunger occurs at predictable, regular meal times three times a day.",
+      "Hunger is always an agreeable sensation.",
+      "Eating only at meal times is natural and desirable.",
+      "Overeating is avoidable and undesirable.",
+      "The reader will naturally enjoy their food if they follow this pattern."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its prescriptive frame, assuming a highly regular daily schedule and uniform appetite. However, the claim that hunger is always 'agreeable' may conflict with common experiences of intense or painful hunger.",
+    "conditions_for_usefulness": [
+      "The reader has a stable daily routine with three set meal times.",
+      "The reader typically experiences hunger at those times.",
+      "The reader finds the sensation of hunger pleasant or motivating.",
+      "The reader has access to sufficient, enjoyable food at each meal."
+    ],
+    "conditions_for_misleading": [
+      "The reader experiences irregular hunger due to medical conditions or lifestyle.",
+      "The reader finds hunger uncomfortable or distressing.",
+      "The reader is in a situation where food is scarce or not regularly available.",
+      "The reader has an eating disorder or disordered relationship with hunger cues."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 201,
+  "output_tokens": 280,
+  "error": "",
+  "retry_count": 0
+}

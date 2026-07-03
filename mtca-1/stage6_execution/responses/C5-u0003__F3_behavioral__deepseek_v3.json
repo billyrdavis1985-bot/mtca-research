@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0003__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:56:48.449089+00:00",
+  "wall_clock_seconds": 4.117952823638916,
+  "raw_response": "{\n  \"communicative_function\": \"Empowerment and self-determination, asserting personal agency and responsibility for self-creation.\",\n  \"implicit_claims\": [\n    \"Individuals have the capacity to shape their own identity and character.\",\n    \"External influences are not determinative of who a person becomes.\",\n    \"Self-making is an active, ongoing process.\",\n    \"The speaker or recipient is capable of and responsible for this self-construction.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a philosophical assertion of autonomy, though it may conflict with deterministic or social-constructivist views externally.\",\n  \"conditions_for_usefulness\": [\n    \"The person believes in their own agency and capacity for change.\",\n    \"They are in a context where self-directed action is possible (e.g., not under extreme coercion).\",\n    \"The statement is used to inspire or motivate behavioral change rather than to deny systemic constraints.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to deny the impact of systemic barriers (e.g., poverty, discrimination) on personal development.\",\n    \"If used to blame individuals for circumstances beyond their control.\",\n    \"If the listener lacks the actual resources or support to enact self-directed change.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Empowerment and self-determination, asserting personal agency and responsibility for self-creation.",
+    "implicit_claims": [
+      "Individuals have the capacity to shape their own identity and character.",
+      "External influences are not determinative of who a person becomes.",
+      "Self-making is an active, ongoing process.",
+      "The speaker or recipient is capable of and responsible for this self-construction."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a philosophical assertion of autonomy, though it may conflict with deterministic or social-constructivist views externally.",
+    "conditions_for_usefulness": [
+      "The person believes in their own agency and capacity for change.",
+      "They are in a context where self-directed action is possible (e.g., not under extreme coercion).",
+      "The statement is used to inspire or motivate behavioral change rather than to deny systemic constraints."
+    ],
+    "conditions_for_misleading": [
+      "If used to deny the impact of systemic barriers (e.g., poverty, discrimination) on personal development.",
+      "If used to blame individuals for circumstances beyond their control.",
+      "If the listener lacks the actual resources or support to enact self-directed change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 257,
+  "error": "",
+  "retry_count": 0
+}

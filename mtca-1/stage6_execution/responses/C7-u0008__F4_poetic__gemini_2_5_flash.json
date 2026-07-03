@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0008__F4_poetic__gemini_2_5_flash",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:27:11.355130+00:00",
+  "wall_clock_seconds": 7.853409051895142,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To articulate a guiding principle of ethical conduct regarding past harms, emphasizing both the commitment to making amends and a moral caveat for situations where amends might cause further harm. It serves as a declaration of intent or a statement of practiced principle.\",\n  \"implicit_claims\": [\n    \"The speaker (or subject of the statement) acknowledges having caused harm to 'such people.'\",\n    \"There are specific individuals ('such people') who have been negatively impacted.\",\n    \"Making direct amends is generally considered a morally desirable or necessary action.\",\n    \"It is often possible to make amends.\",\n    \"Making amends can, in some circumstances, cause additional harm to the people involved or others.\",\n    \"The speaker (or subject) is capable of discerning when making amends would cause injury.\",\n    \"Avoiding further injury is a higher ethical priority than making amends in specific situations.\",\n    \"The statement implies a process of moral inventory and ethical repair.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear ethical guideline ('make amends wherever possible') and then provides a logical and ethically justifiable exception ('except when to do so would injure them or others'). There are no contradictions within the statement itself; the exception refines rather than negates the primary principle.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely intends to follow this principle and has made sincere efforts to do so.\",\n    \"The speaker possesses a reasonable capacity for self-reflection and empathy to identify 'such people' and assess potential harm/injury.\",\n    \"The definition of 'amends' is understood to be a genuine effort to right a wrong, not merely a superficial apology.\",\n    \"The 'injury' clause is applied judiciously and not as a broad excuse to avoid responsibility.\",\n    \"The context is one where past harms are acknowledged, and a path toward ethical reconciliation is desired.\",\n    \"The statement serves as a sincere personal or group ethical guideline for navigating complex situations involving past wrongs.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'except when to do so would injure them or others' clause is used as a convenient excuse to avoid making difficult or uncomfortable amends.\",\n    \"The speaker's assessment of 'injury' is self-serving, overly broad, or lacks genuine empathy, thus preventing necessary amends.\",\n    \"The statement is presented as a completed action ('Made direct amends') when, in reality, the process is largely unfulfilled or insincere.\",\n    \"The speaker's definition of 'amends' is minimal or superficial, failing to address the actual harm caused.\",\n    \"The statement is used to project an image of moral rectitude without the underlying actions or genuine intent.\",\n    \"The speaker's judgment regarding potential injury is biased or flawed, leading to the avoidance of responsibility under false pretenses.\",\n    \"The 'others' in the exception clause is vaguely defined, allowing for easy rationalization to avoid amends.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To articulate a guiding principle of ethical conduct regarding past harms, emphasizing both the commitment to making amends and a moral caveat for situations where amends might cause further harm. It serves as a declaration of intent or a statement of practiced principle.",
+    "implicit_claims": [
+      "The speaker (or subject of the statement) acknowledges having caused harm to 'such people.'",
+      "There are specific individuals ('such people') who have been negatively impacted.",
+      "Making direct amends is generally considered a morally desirable or necessary action.",
+      "It is often possible to make amends.",
+      "Making amends can, in some circumstances, cause additional harm to the people involved or others.",
+      "The speaker (or subject) is capable of discerning when making amends would cause injury.",
+      "Avoiding further injury is a higher ethical priority than making amends in specific situations.",
+      "The statement implies a process of moral inventory and ethical repair."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear ethical guideline ('make amends wherever possible') and then provides a logical and ethically justifiable exception ('except when to do so would injure them or others'). There are no contradictions within the statement itself; the exception refines rather than negates the primary principle.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely intends to follow this principle and has made sincere efforts to do so.",
+      "The speaker possesses a reasonable capacity for self-reflection and empathy to identify 'such people' and assess potential harm/injury.",
+      "The definition of 'amends' is understood to be a genuine effort to right a wrong, not merely a superficial apology.",
+      "The 'injury' clause is applied judiciously and not as a broad excuse to avoid responsibility.",
+      "The context is one where past harms are acknowledged, and a path toward ethical reconciliation is desired.",
+      "The statement serves as a sincere personal or group ethical guideline for navigating complex situations involving past wrongs."
+    ],
+    "conditions_for_misleading": [
+      "The 'except when to do so would injure them or others' clause is used as a convenient excuse to avoid making difficult or uncomfortable amends.",
+      "The speaker's assessment of 'injury' is self-serving, overly broad, or lacks genuine empathy, thus preventing necessary amends.",
+      "The statement is presented as a completed action ('Made direct amends') when, in reality, the process is largely unfulfilled or insincere.",
+      "The speaker's definition of 'amends' is minimal or superficial, failing to address the actual harm caused.",
+      "The statement is used to project an image of moral rectitude without the underlying actions or genuine intent.",
+      "The speaker's judgment regarding potential injury is biased or flawed, leading to the avoidance of responsibility under false pretenses.",
+      "The 'others' in the exception clause is vaguely defined, allowing for easy rationalization to avoid amends."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 645,
+  "error": "",
+  "retry_count": 0
+}

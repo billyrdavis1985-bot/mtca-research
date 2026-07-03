@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0228__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:27:01.335596+00:00",
+  "wall_clock_seconds": 13.636969804763794,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a persuasive illustration, using a concrete medical scenario to advocate for the power of positive suggestion and the ethical responsibility of practitioners in shaping patient outcomes. It evokes an implicit moral contrast between harmful and helpful speech acts.\",\n  \"implicit_claims\": [\n    \"Doctors possess inherent suggestive authority derived from their social role and title.\",\n    \"Words spoken by authority figures can produce real physiological or psychological effects (autosuggestion).\",\n    \"Negative prognoses can causally worsen patient outcomes beyond the disease itself.\",\n    \"Hopeful framing by a physician can produce measurable healing benefits.\",\n    \"The physician has an ethical obligation to frame prognoses constructively.\",\n    \"Patient belief states are medically relevant variables, not merely epiphenomenal.\",\n    \"There exists a meaningful distinction between truth-telling and harm-inducing pessimism.\",\n    \"The mind has influence over bodily illness and recovery processes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent and logically structured: it presents a binary scenario (negative vs. hopeful prognosis), assigns asymmetric outcomes to each, and grounds the mechanism in the concept of autosuggestion. The causal chain from authority-speech to belief to outcome is consistent throughout, though the mechanism is asserted rather than demonstrated.\",\n  \"conditions_for_usefulness\": [\n    \"The placebo and nocebo effects are real and clinically significant in the relevant context.\",\n    \"Physician authority does translate into measurable suggestive influence on patient psychology.\",\n    \"Framing a prognosis hopefully does not systematically mislead patients in ways that harm their decision-making.\",\n    \"The patient population is susceptible to suggestion in ways that affect recovery.\",\n    \"Honest hopeful framing is distinguishable from deception and can be achieved without false promises.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If nocebo and placebo effects are negligible or highly context-dependent, the causal claims are overstated.\",\n    \"If the statement is used to justify withholding accurate diagnostic information from patients, it undermines informed consent.\",\n    \"If 'hopeful framing' is conflated with false reassurance, it could encourage medical deception.\",\n    \"If the mechanism of autosuggestion is treated as universally operative rather than probabilistic, it overgeneralizes.\",\n    \"If the statement implies that all incurable conditions can be improved through suggestion alone, it sets false expectations for patients and practitioners.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a persuasive illustration, using a concrete medical scenario to advocate for the power of positive suggestion and the ethical responsibility of practitioners in shaping patient outcomes. It evokes an implicit moral contrast between harmful and helpful speech acts.",
+    "implicit_claims": [
+      "Doctors possess inherent suggestive authority derived from their social role and title.",
+      "Words spoken by authority figures can produce real physiological or psychological effects (autosuggestion).",
+      "Negative prognoses can causally worsen patient outcomes beyond the disease itself.",
+      "Hopeful framing by a physician can produce measurable healing benefits.",
+      "The physician has an ethical obligation to frame prognoses constructively.",
+      "Patient belief states are medically relevant variables, not merely epiphenomenal.",
+      "There exists a meaningful distinction between truth-telling and harm-inducing pessimism.",
+      "The mind has influence over bodily illness and recovery processes."
+    ],
+    "coherence_assessment": "The statement is internally coherent and logically structured: it presents a binary scenario (negative vs. hopeful prognosis), assigns asymmetric outcomes to each, and grounds the mechanism in the concept of autosuggestion. The causal chain from authority-speech to belief to outcome is consistent throughout, though the mechanism is asserted rather than demonstrated.",
+    "conditions_for_usefulness": [
+      "The placebo and nocebo effects are real and clinically significant in the relevant context.",
+      "Physician authority does translate into measurable suggestive influence on patient psychology.",
+      "Framing a prognosis hopefully does not systematically mislead patients in ways that harm their decision-making.",
+      "The patient population is susceptible to suggestion in ways that affect recovery.",
+      "Honest hopeful framing is distinguishable from deception and can be achieved without false promises."
+    ],
+    "conditions_for_misleading": [
+      "If nocebo and placebo effects are negligible or highly context-dependent, the causal claims are overstated.",
+      "If the statement is used to justify withholding accurate diagnostic information from patients, it undermines informed consent.",
+      "If 'hopeful framing' is conflated with false reassurance, it could encourage medical deception.",
+      "If the mechanism of autosuggestion is treated as universally operative rather than probabilistic, it overgeneralizes.",
+      "If the statement implies that all incurable conditions can be improved through suggestion alone, it sets false expectations for patients and practitioners."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 267,
+  "output_tokens": 588,
+  "error": "",
+  "retry_count": 0
+}

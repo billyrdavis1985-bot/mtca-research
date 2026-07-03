@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0110__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:14:18.971341+00:00",
+  "wall_clock_seconds": 13.998983144760132,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive-causal claim, asserting a direct and deterministic relationship between the moral/emotional quality of thoughts and physical bodily health outcomes. It functions rhetorically as motivational or moralistic guidance, encouraging positive thinking by framing it as having literal physiological consequences.\",\n  \"implicit_claims\": [\n    \"Thoughts can be categorized as 'unlawful' (negative/immoral) or 'glad and beautiful' (positive/virtuous)\",\n    \"Thought quality has direct, primary causal power over physical health and appearance\",\n    \"Disease and decay are caused or strongly influenced by negative thinking\",\n    \"Youthfulness and beauty are achievable outcomes of positive thinking\",\n    \"The body is subordinate to and commanded by mental/moral states\",\n    \"There is a morally evaluative dimension to physical illness (sick people may have 'unlawful thoughts')\",\n    \"Physical health is substantially within an individual's mental control\",\n    \"The relationship is rapid and reliable, not probabilistic or partial\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical device — its parallel structure creates logical symmetry. However, it conflates correlation with causation, uses moralized language ('unlawful') that embeds unexamined normative assumptions, and presents a deterministic model that contradicts established understanding of disease etiology. Its coherence is literary rather than empirical.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted loosely as a metaphor for the documented psychosomatic connections between chronic stress and health outcomes\",\n    \"If used only to encourage beneficial mental health practices like reducing rumination or cultivating positive affect\",\n    \"If the audience understands it as poetic or motivational rather than literal medical guidance\",\n    \"If psychoneuroimmunological research were to establish strong, direct, and reliable causal pathways from thought-patterns to physical disease and appearance\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally as medical guidance, potentially causing people to forgo treatment in favor of 'positive thinking'\",\n    \"If used to imply that ill or aging people are morally deficient or thinking 'unlawfully'\",\n    \"If it discourages acknowledgment of structural, genetic, environmental, or microbial causes of disease\",\n    \"If applied to populations experiencing illness or disability in ways that generate shame or blame\",\n    \"If AI systems treat it as empirically validated science rather than 19th-century idealist philosophy\",\n    \"If it is used to suggest that mental effort alone is sufficient to reverse serious physical conditions\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive-causal claim, asserting a direct and deterministic relationship between the moral/emotional quality of thoughts and physical bodily health outcomes. It functions rhetorically as motivational or moralistic guidance, encouraging positive thinking by framing it as having literal physiological consequences.",
+    "implicit_claims": [
+      "Thoughts can be categorized as 'unlawful' (negative/immoral) or 'glad and beautiful' (positive/virtuous)",
+      "Thought quality has direct, primary causal power over physical health and appearance",
+      "Disease and decay are caused or strongly influenced by negative thinking",
+      "Youthfulness and beauty are achievable outcomes of positive thinking",
+      "The body is subordinate to and commanded by mental/moral states",
+      "There is a morally evaluative dimension to physical illness (sick people may have 'unlawful thoughts')",
+      "Physical health is substantially within an individual's mental control",
+      "The relationship is rapid and reliable, not probabilistic or partial"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical device — its parallel structure creates logical symmetry. However, it conflates correlation with causation, uses moralized language ('unlawful') that embeds unexamined normative assumptions, and presents a deterministic model that contradicts established understanding of disease etiology. Its coherence is literary rather than empirical.",
+    "conditions_for_usefulness": [
+      "If interpreted loosely as a metaphor for the documented psychosomatic connections between chronic stress and health outcomes",
+      "If used only to encourage beneficial mental health practices like reducing rumination or cultivating positive affect",
+      "If the audience understands it as poetic or motivational rather than literal medical guidance",
+      "If psychoneuroimmunological research were to establish strong, direct, and reliable causal pathways from thought-patterns to physical disease and appearance"
+    ],
+    "conditions_for_misleading": [
+      "If taken literally as medical guidance, potentially causing people to forgo treatment in favor of 'positive thinking'",
+      "If used to imply that ill or aging people are morally deficient or thinking 'unlawfully'",
+      "If it discourages acknowledgment of structural, genetic, environmental, or microbial causes of disease",
+      "If applied to populations experiencing illness or disability in ways that generate shame or blame",
+      "If AI systems treat it as empirically validated science rather than 19th-century idealist philosophy",
+      "If it is used to suggest that mental effort alone is sufficient to reverse serious physical conditions"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 613,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0228__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:27:42.929481+00:00",
+  "wall_clock_seconds": 15.287780046463013,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive argument about how authority figures (specifically doctors) should communicate with patients, using an illustrative contrast between two communication styles to argue that hopeful framing produces better outcomes than fatalistic framing. It functions as a consequentialist justification for optimistic communication.\",\n  \"implicit_claims\": [\n    \"Doctors possess inherent suggestive authority over patients by virtue of their title alone.\",\n    \"Patient beliefs about their illness causally influence health outcomes (mind-body connection).\",\n    \"Negative prognoses can worsen outcomes through autosuggestion.\",\n    \"Hopeful but honest framing of serious illness can produce genuine medical improvements.\",\n    \"The psychological mechanism of autosuggestion is real and clinically significant.\",\n    \"It is ethically permissible or preferable to frame prognoses optimistically even when the outcome is uncertain.\",\n    \"The doctor's communication style is a meaningful variable in patient recovery.\",\n    \"There is a meaningful distinction between 'incurable' framing and 'curable with effort' framing that goes beyond semantics.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms — the contrast between the two communication approaches is logically structured and the causal mechanism (autosuggestion) is consistently applied. However, it creates a tension it does not resolve: it implicitly endorses selective or optimistic framing even when the doctor may not know if cure is possible, raising questions about the boundary between therapeutic optimism and deception.\",\n  \"conditions_for_usefulness\": [\n    \"Autosuggestion or placebo-like psychological effects genuinely influence measurable health outcomes.\",\n    \"The hopeful prognosis offered is not demonstrably false — i.e., cure is at least plausible.\",\n    \"The patient's belief state meaningfully affects their compliance, stress levels, or immune function.\",\n    \"Doctors can reliably distinguish cases where hopeful framing is warranted from those where it is not.\",\n    \"The guidance is applied in contexts where patients retain full agency and are not misled about risks requiring informed consent.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The illness truly is incurable and the patient needs accurate information to make end-of-life decisions.\",\n    \"Autosuggestion effects are overstated or not reliably reproducible across conditions.\",\n    \"The principle is used to justify systematic deception of patients under the guise of therapeutic optimism.\",\n    \"It is applied to AI systems that interact with users in medical or health contexts, encouraging AI to downplay serious diagnoses.\",\n    \"The framing conflates correlation (optimistic patients fare better) with causation (optimistic framing causes better outcomes).\",\n    \"It is used to override patient autonomy or informed consent norms in clinical or AI-assisted health settings.\",\n    \"The statement's 19th-century origins (it reflects Émile Coué's philosophy) are not acknowledged, and it is treated as established medical consensus.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive argument about how authority figures (specifically doctors) should communicate with patients, using an illustrative contrast between two communication styles to argue that hopeful framing produces better outcomes than fatalistic framing. It functions as a consequentialist justification for optimistic communication.",
+    "implicit_claims": [
+      "Doctors possess inherent suggestive authority over patients by virtue of their title alone.",
+      "Patient beliefs about their illness causally influence health outcomes (mind-body connection).",
+      "Negative prognoses can worsen outcomes through autosuggestion.",
+      "Hopeful but honest framing of serious illness can produce genuine medical improvements.",
+      "The psychological mechanism of autosuggestion is real and clinically significant.",
+      "It is ethically permissible or preferable to frame prognoses optimistically even when the outcome is uncertain.",
+      "The doctor's communication style is a meaningful variable in patient recovery.",
+      "There is a meaningful distinction between 'incurable' framing and 'curable with effort' framing that goes beyond semantics."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms — the contrast between the two communication approaches is logically structured and the causal mechanism (autosuggestion) is consistently applied. However, it creates a tension it does not resolve: it implicitly endorses selective or optimistic framing even when the doctor may not know if cure is possible, raising questions about the boundary between therapeutic optimism and deception.",
+    "conditions_for_usefulness": [
+      "Autosuggestion or placebo-like psychological effects genuinely influence measurable health outcomes.",
+      "The hopeful prognosis offered is not demonstrably false — i.e., cure is at least plausible.",
+      "The patient's belief state meaningfully affects their compliance, stress levels, or immune function.",
+      "Doctors can reliably distinguish cases where hopeful framing is warranted from those where it is not.",
+      "The guidance is applied in contexts where patients retain full agency and are not misled about risks requiring informed consent."
+    ],
+    "conditions_for_misleading": [
+      "The illness truly is incurable and the patient needs accurate information to make end-of-life decisions.",
+      "Autosuggestion effects are overstated or not reliably reproducible across conditions.",
+      "The principle is used to justify systematic deception of patients under the guise of therapeutic optimism.",
+      "It is applied to AI systems that interact with users in medical or health contexts, encouraging AI to downplay serious diagnoses.",
+      "The framing conflates correlation (optimistic patients fare better) with causation (optimistic framing causes better outcomes).",
+      "It is used to override patient autonomy or informed consent norms in clinical or AI-assisted health settings.",
+      "The statement's 19th-century origins (it reflects Émile Coué's philosophy) are not acknowledged, and it is treated as established medical consensus."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 264,
+  "output_tokens": 695,
+  "error": "",
+  "retry_count": 0
+}

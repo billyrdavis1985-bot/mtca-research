@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0457__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:38:35.422020+00:00",
+  "wall_clock_seconds": 3.8597865104675293,
+  "raw_response": "{\n  \"communicative_function\": \"The statement reports an observation of a notable improvement in someone's respiration and walking, expressing astonishment at the change.\",\n  \"implicit_claims\": [\n    \"There is a baseline state of respiration and walking that was previously observed.\",\n    \"The improvement is significant enough to cause astonishment.\",\n    \"The improvement is attributed to the action described by 'when he does so'.\",\n    \"The speaker is a reliable observer of respiration and walking.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a clear causal observation (action leads to improvement) with an emotional response (astonishment).\",\n  \"conditions_for_usefulness\": [\n    \"The improvement is indeed attributable to the specified action.\",\n    \"The baseline condition was accurately observed and compared.\",\n    \"The context (e.g., medical, rehabilitative) values tracking such improvements.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is temporary or coincidental rather than causally linked.\",\n    \"The observer's astonishment overstates a trivial change.\",\n    \"The baseline was not properly measured or recalled.\",\n    \"The statement is taken as evidence for a broader claim without further support.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement reports an observation of a notable improvement in someone's respiration and walking, expressing astonishment at the change.",
+    "implicit_claims": [
+      "There is a baseline state of respiration and walking that was previously observed.",
+      "The improvement is significant enough to cause astonishment.",
+      "The improvement is attributed to the action described by 'when he does so'.",
+      "The speaker is a reliable observer of respiration and walking."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a clear causal observation (action leads to improvement) with an emotional response (astonishment).",
+    "conditions_for_usefulness": [
+      "The improvement is indeed attributable to the specified action.",
+      "The baseline condition was accurately observed and compared.",
+      "The context (e.g., medical, rehabilitative) values tracking such improvements."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is temporary or coincidental rather than causally linked.",
+      "The observer's astonishment overstates a trivial change.",
+      "The baseline was not properly measured or recalled.",
+      "The statement is taken as evidence for a broader claim without further support."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 254,
+  "error": "",
+  "retry_count": 0
+}

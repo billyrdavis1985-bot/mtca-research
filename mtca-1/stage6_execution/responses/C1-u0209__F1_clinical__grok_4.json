@@ -1,0 +1,33 @@
+{
+  "call_id": "C1-u0209__F1_clinical__grok_4",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:19:45.755196+00:00",
+  "wall_clock_seconds": 6.8322601318359375,
+  "raw_response": "{\n  \"communicative_function\": \"prescriptive procedural guidance on tapering therapeutic suggestions\",\n  \"implicit_claims\": [\n    \"renewal of suggestions is required in every case\",\n    \"optimal spacing of suggestions can be determined from observed progress\",\n    \"progress occurs along a measurable trajectory toward a definitive endpoint\",\n    \"a complete cure exists at which point suggestions become unnecessary\",\n    \"increasing intervals prevent over-dependence while maintaining gains\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a suggestion-based, tapering model but rests on an unexamined assumption of universal applicability and a clear terminal state\",\n  \"conditions_for_usefulness\": \"the intervention model must be suggestion-driven, progress must be reliably observable, and a finite cure state must be attainable\",\n  \"conditions_for_misleading\": \"the approach does not rely on repeated suggestion, improvement is non-linear or open-ended, or ongoing support is required after initial gains\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescriptive procedural guidance on tapering therapeutic suggestions",
+    "implicit_claims": [
+      "renewal of suggestions is required in every case",
+      "optimal spacing of suggestions can be determined from observed progress",
+      "progress occurs along a measurable trajectory toward a definitive endpoint",
+      "a complete cure exists at which point suggestions become unnecessary",
+      "increasing intervals prevent over-dependence while maintaining gains"
+    ],
+    "coherence_assessment": "internally consistent within a suggestion-based, tapering model but rests on an unexamined assumption of universal applicability and a clear terminal state",
+    "conditions_for_usefulness": "the intervention model must be suggestion-driven, progress must be reliably observable, and a finite cure state must be attainable",
+    "conditions_for_misleading": "the approach does not rely on repeated suggestion, improvement is non-linear or open-ended, or ongoing support is required after initial gains"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 313,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

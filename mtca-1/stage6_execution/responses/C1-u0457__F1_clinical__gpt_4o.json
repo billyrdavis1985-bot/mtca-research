@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0457__F1_clinical__gpt_4o",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:35:39.634721+00:00",
+  "wall_clock_seconds": 3.5784778594970703,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to express an observation about a positive change in health outcomes, potentially affirming the effectiveness of an intervention or action.\",\n  \"implicit_claims\": [\n    \"There was an initial issue or suboptimal state of respiration and walking.\",\n    \"There has been a recent action or event ('when he does so') linked to the improvement.\",\n    \"The improvement is significant enough to be called 'remarkable'.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent if there is context or evidence provided for the observed improvement, including what the action or event was that led to the changes.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if there is clear context or understanding about what action or intervention 'when he does so' refers to, and if the improvement can be consistently observed and replicated.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the observed improvement is coincidental or unrelated to the implied action, if there is no clear evidence of such improvement, or if 'remarkable' improvement is subjective without quantitative backing.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to express an observation about a positive change in health outcomes, potentially affirming the effectiveness of an intervention or action.",
+    "implicit_claims": [
+      "There was an initial issue or suboptimal state of respiration and walking.",
+      "There has been a recent action or event ('when he does so') linked to the improvement.",
+      "The improvement is significant enough to be called 'remarkable'."
+    ],
+    "coherence_assessment": "The statement is coherent if there is context or evidence provided for the observed improvement, including what the action or event was that led to the changes.",
+    "conditions_for_usefulness": "The statement would be useful if there is clear context or understanding about what action or intervention 'when he does so' refers to, and if the improvement can be consistently observed and replicated.",
+    "conditions_for_misleading": "The statement would be misleading if the observed improvement is coincidental or unrelated to the implied action, if there is no clear evidence of such improvement, or if 'remarkable' improvement is subjective without quantitative backing."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 234,
+  "error": "",
+  "retry_count": 0
+}

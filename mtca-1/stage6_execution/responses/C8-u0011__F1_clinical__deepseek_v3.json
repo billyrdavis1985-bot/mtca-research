@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0011__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:37:17.648014+00:00",
+  "wall_clock_seconds": 4.527945518493652,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming commitment to behavior change, emphasizing concreteness and feasibility over abstract or unattainable goals.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are typically not carried out or are unsuccessful.\",\n    \"The speaker has previously made vague resolutions that were not followed through.\",\n    \"Small, observable changes are more likely to be implemented successfully.\",\n    \"The speaker is capable of identifying and executing small, observable changes.\",\n    \"Commitment to specific actions is more effective than general intention.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it contrasts two categories (small/observable vs. vague/resolution) and expresses a clear preference for the former, consistent with evidence-based behavioral change principles.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely struggles with vague goal-setting or follow-through.\",\n    \"The speaker can identify at least one small, observable change relevant to their therapeutic goals.\",\n    \"The environment supports the execution of such small changes.\",\n    \"The statement is used as part of a therapeutic process that includes action planning and accountability.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker interprets 'small changes' as trivial or irrelevant, leading to neglect of necessary larger shifts.\",\n    \"If the statement is used to avoid confronting deeper emotional or systemic issues that require broader resolutions.\",\n    \"If the speaker lacks the ability to realistically assess what changes they can carry out, leading to false confidence.\",\n    \"If the statement is recited without genuine commitment or follow-up action, it may reinforce inaction as a substitute for real change.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming commitment to behavior change, emphasizing concreteness and feasibility over abstract or unattainable goals.",
+    "implicit_claims": [
+      "Vague resolutions are typically not carried out or are unsuccessful.",
+      "The speaker has previously made vague resolutions that were not followed through.",
+      "Small, observable changes are more likely to be implemented successfully.",
+      "The speaker is capable of identifying and executing small, observable changes.",
+      "Commitment to specific actions is more effective than general intention."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it contrasts two categories (small/observable vs. vague/resolution) and expresses a clear preference for the former, consistent with evidence-based behavioral change principles.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely struggles with vague goal-setting or follow-through.",
+      "The speaker can identify at least one small, observable change relevant to their therapeutic goals.",
+      "The environment supports the execution of such small changes.",
+      "The statement is used as part of a therapeutic process that includes action planning and accountability."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker interprets 'small changes' as trivial or irrelevant, leading to neglect of necessary larger shifts.",
+      "If the statement is used to avoid confronting deeper emotional or systemic issues that require broader resolutions.",
+      "If the speaker lacks the ability to realistically assess what changes they can carry out, leading to false confidence.",
+      "If the statement is recited without genuine commitment or follow-up action, it may reinforce inaction as a substitute for real change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 344,
+  "error": "",
+  "retry_count": 0
+}

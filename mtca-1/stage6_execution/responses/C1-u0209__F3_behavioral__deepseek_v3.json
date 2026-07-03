@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0209__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:21:14.318223+00:00",
+  "wall_clock_seconds": 4.48209810256958,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a method for administering repeated suggestions in a therapeutic or behavior-change context, emphasizing the need for gradual spacing and eventual cessation upon cure.\",\n  \"implicit_claims\": [\n    \"Cure or complete resolution is achievable through this method.\",\n    \"Progress is measurable and can determine the frequency of suggestions.\",\n    \"Suggestions are effective tools for behavior or symptom change.\",\n    \"The practitioner has control over the timing and spacing of suggestions.\",\n    \"Longer intervals indicate successful progress.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a sequential logic: frequent renewal, gradual lengthening of intervals, and eventual discontinuation upon cure.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is responsive to suggestion-based interventions.\",\n    \"Progress can be reliably assessed or observed.\",\n    \"The practitioner has sufficient skill to adjust timing appropriately.\",\n    \"The intervention is part of a valid therapeutic or self-improvement framework.\",\n    \"Longer intervals genuinely correlate with sustained improvement.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'cure' is not clearly defined or is unattainable for the condition.\",\n    \"If progress is not linear or cannot be reliably gauged.\",\n    \"If the subject becomes dependent on frequent suggestions.\",\n    \"If the statement is taken as a universal rule without considering individual variability.\",\n    \"If the underlying mechanism (e.g., placebo, conditioning) is mistaken for a genuine cure.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a method for administering repeated suggestions in a therapeutic or behavior-change context, emphasizing the need for gradual spacing and eventual cessation upon cure.",
+    "implicit_claims": [
+      "Cure or complete resolution is achievable through this method.",
+      "Progress is measurable and can determine the frequency of suggestions.",
+      "Suggestions are effective tools for behavior or symptom change.",
+      "The practitioner has control over the timing and spacing of suggestions.",
+      "Longer intervals indicate successful progress."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a sequential logic: frequent renewal, gradual lengthening of intervals, and eventual discontinuation upon cure.",
+    "conditions_for_usefulness": [
+      "The subject is responsive to suggestion-based interventions.",
+      "Progress can be reliably assessed or observed.",
+      "The practitioner has sufficient skill to adjust timing appropriately.",
+      "The intervention is part of a valid therapeutic or self-improvement framework.",
+      "Longer intervals genuinely correlate with sustained improvement."
+    ],
+    "conditions_for_misleading": [
+      "If 'cure' is not clearly defined or is unattainable for the condition.",
+      "If progress is not linear or cannot be reliably gauged.",
+      "If the subject becomes dependent on frequent suggestions.",
+      "If the statement is taken as a universal rule without considering individual variability.",
+      "If the underlying mechanism (e.g., placebo, conditioning) is mistaken for a genuine cure."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 309,
+  "error": "",
+  "retry_count": 0
+}

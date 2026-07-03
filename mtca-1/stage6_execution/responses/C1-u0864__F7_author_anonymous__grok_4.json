@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:55:46.542837+00:00",
+  "wall_clock_seconds": 6.896177053451538,
+  "raw_response": "{\n  \"communicative_function\": \"Admitting to an initial attitude of complete skepticism toward Coué's lectures\",\n  \"implicit_claims\": [\n    \"Coué delivered lectures that the speaker encountered\",\n    \"The speaker formed a judgment about those lectures\",\n    \"The speaker's initial stance was one of total skepticism\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a concise admission of prior disbelief, though the phrasing is slightly elliptical\",\n  \"conditions_for_usefulness\": \"The surrounding text must supply the speaker's identity, the date or occasion, and whether skepticism later changed, allowing the statement to serve as evidence of reception history or personal conversion\",\n  \"conditions_for_misleading\": \"The statement is quoted without context so that readers infer the speaker remained permanently skeptical, never attended the lectures, or that the skepticism was fabricated for rhetorical effect\"\n}",
+  "parsed_json": {
+    "communicative_function": "Admitting to an initial attitude of complete skepticism toward Coué's lectures",
+    "implicit_claims": [
+      "Coué delivered lectures that the speaker encountered",
+      "The speaker formed a judgment about those lectures",
+      "The speaker's initial stance was one of total skepticism"
+    ],
+    "coherence_assessment": "Internally coherent as a concise admission of prior disbelief, though the phrasing is slightly elliptical",
+    "conditions_for_usefulness": "The surrounding text must supply the speaker's identity, the date or occasion, and whether skepticism later changed, allowing the statement to serve as evidence of reception history or personal conversion",
+    "conditions_for_misleading": "The statement is quoted without context so that readers infer the speaker remained permanently skeptical, never attended the lectures, or that the skepticism was fabricated for rhetorical effect"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 265,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

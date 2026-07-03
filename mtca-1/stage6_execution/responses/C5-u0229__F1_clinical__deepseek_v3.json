@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0229__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:44:43.903629+00:00",
+  "wall_clock_seconds": 6.502112150192261,
+  "raw_response": "{\n  \"communicative_function\": \"To instill agency and self-determination by framing internal mental states as the primary driver of one's external circumstances and outcomes.\",\n  \"implicit_claims\": [\n    \"One's thoughts, vision, and ideal directly determine one's rise, fall, or stasis in any environment.\",\n    \"External environment is secondary or derivative to internal cognition.\",\n    \"Change in one's condition is always achievable through changing one's thoughts or vision.\",\n    \"There is a direct, causal link between mental orientation and life trajectory.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a cognitive or mindset-focused framework, but lacks nuance regarding external constraints (e.g., systemic barriers, trauma, or physical limitations). The statement treats 'thoughts' and 'vision' as universally sufficient causes, which is not logically exhaustive.\",\n  \"conditions_for_usefulness\": [\n    \"The listener is in a context where cognitive reframing can actually influence outcomes (e.g., goal-setting, cognitive behavioral therapy, motivational coaching).\",\n    \"The listener has some degree of agency and control over their environment.\",\n    \"The listener is not experiencing severe trauma, psychosis, or overwhelming external oppression that invalidates the premise of self-determined change.\",\n    \"The statement is used to inspire proactive mindset shifts rather than as a literal deterministic claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener faces systemic or material barriers (e.g., poverty, discrimination, illness) that cannot be overcome by thought alone, leading to self-blame.\",\n    \"The listener interprets 'your thoughts' as implying all suffering is self-inflicted, invalidating legitimate external causes.\",\n    \"The statement is used to dismiss social, economic, or biological determinants of wellbeing, promoting toxic positivity.\",\n    \"The listener is in a vulnerable state and may internalize failure as a personal thought deficit rather than a complex interaction of factors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To instill agency and self-determination by framing internal mental states as the primary driver of one's external circumstances and outcomes.",
+    "implicit_claims": [
+      "One's thoughts, vision, and ideal directly determine one's rise, fall, or stasis in any environment.",
+      "External environment is secondary or derivative to internal cognition.",
+      "Change in one's condition is always achievable through changing one's thoughts or vision.",
+      "There is a direct, causal link between mental orientation and life trajectory."
+    ],
+    "coherence_assessment": "Internally coherent within a cognitive or mindset-focused framework, but lacks nuance regarding external constraints (e.g., systemic barriers, trauma, or physical limitations). The statement treats 'thoughts' and 'vision' as universally sufficient causes, which is not logically exhaustive.",
+    "conditions_for_usefulness": [
+      "The listener is in a context where cognitive reframing can actually influence outcomes (e.g., goal-setting, cognitive behavioral therapy, motivational coaching).",
+      "The listener has some degree of agency and control over their environment.",
+      "The listener is not experiencing severe trauma, psychosis, or overwhelming external oppression that invalidates the premise of self-determined change.",
+      "The statement is used to inspire proactive mindset shifts rather than as a literal deterministic claim."
+    ],
+    "conditions_for_misleading": [
+      "The listener faces systemic or material barriers (e.g., poverty, discrimination, illness) that cannot be overcome by thought alone, leading to self-blame.",
+      "The listener interprets 'your thoughts' as implying all suffering is self-inflicted, invalidating legitimate external causes.",
+      "The statement is used to dismiss social, economic, or biological determinants of wellbeing, promoting toxic positivity.",
+      "The listener is in a vulnerable state and may internalize failure as a personal thought deficit rather than a complex interaction of factors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 394,
+  "error": "",
+  "retry_count": 0
+}

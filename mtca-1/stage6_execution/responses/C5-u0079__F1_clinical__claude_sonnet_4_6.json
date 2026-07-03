@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0079__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:00:01.935577+00:00",
+  "wall_clock_seconds": 15.153392553329468,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a universal causal attribution, asserting that suffering is entirely and always produced by cognitive error. It positions the therapeutic frame as one in which the locus of suffering is internal and cognitive, implicitly directing the patient toward cognitive self-examination as the primary or exclusive remedial action.\",\n  \"implicit_claims\": [\n    \"All suffering, without exception, has a cognitive cause.\",\n    \"Thought can be categorized as 'wrong' in some meaningful and identifiable way.\",\n    \"Correcting thought is sufficient (or necessary) to relieve suffering.\",\n    \"Suffering that persists is evidence of ongoing cognitive error.\",\n    \"Suffering arising from physical illness, structural injustice, grief, or trauma is reducible to or mediated entirely by thought.\",\n    \"The patient bears epistemic and causal responsibility for their own suffering.\",\n    \"There exists a knowable 'correct' direction of thought whose adoption would eliminate suffering.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent only within a strict Stoic or early Cognitive Behavioral framework that treats cognition as the proximate cause of all affective states. However, the universal quantifier 'always' creates logical vulnerability: a single counterexample (e.g., suffering caused by nociceptive pain independent of appraisal, or suffering caused by structural oppression not amenable to reframing) falsifies the claim. The qualifier 'in some direction' introduces vagueness that either rescues the claim through unfalsifiability or weakens its clinical precision. Overall, the statement sacrifices empirical accuracy for rhetorical universality.\",\n  \"conditions_for_usefulness\": [\n    \"The patient's suffering is primarily driven by identifiable and modifiable cognitive distortions.\",\n    \"The patient has sufficient psychological safety to engage in self-examination without self-blame becoming harmful.\",\n    \"The clinician uses the statement as an invitation to explore cognition, not as a verdict on the patient's culpability.\",\n    \"The patient's context includes suffering that is genuinely amenable to cognitive reappraisal.\",\n    \"The statement is offered provisionally and not as a universal law.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The patient is suffering due to ongoing abuse, trauma, or structural harm that requires external intervention, not cognitive reframing.\",\n    \"The patient has a pain disorder, neurological condition, or biological depression in which suffering has significant non-cognitive substrates.\",\n    \"The patient interprets the statement as blame, concluding that their suffering is their own fault.\",\n    \"The clinician applies the statement universally, discouraging the patient from seeking environmental or somatic remedies.\",\n    \"The patient uses the statement to suppress or invalidate legitimate emotional responses to real-world events.\",\n    \"The statement reinforces a toxic positivity framework in which negative affect is treated as a cognitive failure rather than adaptive signal.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a universal causal attribution, asserting that suffering is entirely and always produced by cognitive error. It positions the therapeutic frame as one in which the locus of suffering is internal and cognitive, implicitly directing the patient toward cognitive self-examination as the primary or exclusive remedial action.",
+    "implicit_claims": [
+      "All suffering, without exception, has a cognitive cause.",
+      "Thought can be categorized as 'wrong' in some meaningful and identifiable way.",
+      "Correcting thought is sufficient (or necessary) to relieve suffering.",
+      "Suffering that persists is evidence of ongoing cognitive error.",
+      "Suffering arising from physical illness, structural injustice, grief, or trauma is reducible to or mediated entirely by thought.",
+      "The patient bears epistemic and causal responsibility for their own suffering.",
+      "There exists a knowable 'correct' direction of thought whose adoption would eliminate suffering."
+    ],
+    "coherence_assessment": "The statement is internally coherent only within a strict Stoic or early Cognitive Behavioral framework that treats cognition as the proximate cause of all affective states. However, the universal quantifier 'always' creates logical vulnerability: a single counterexample (e.g., suffering caused by nociceptive pain independent of appraisal, or suffering caused by structural oppression not amenable to reframing) falsifies the claim. The qualifier 'in some direction' introduces vagueness that either rescues the claim through unfalsifiability or weakens its clinical precision. Overall, the statement sacrifices empirical accuracy for rhetorical universality.",
+    "conditions_for_usefulness": [
+      "The patient's suffering is primarily driven by identifiable and modifiable cognitive distortions.",
+      "The patient has sufficient psychological safety to engage in self-examination without self-blame becoming harmful.",
+      "The clinician uses the statement as an invitation to explore cognition, not as a verdict on the patient's culpability.",
+      "The patient's context includes suffering that is genuinely amenable to cognitive reappraisal.",
+      "The statement is offered provisionally and not as a universal law."
+    ],
+    "conditions_for_misleading": [
+      "The patient is suffering due to ongoing abuse, trauma, or structural harm that requires external intervention, not cognitive reframing.",
+      "The patient has a pain disorder, neurological condition, or biological depression in which suffering has significant non-cognitive substrates.",
+      "The patient interprets the statement as blame, concluding that their suffering is their own fault.",
+      "The clinician applies the statement universally, discouraging the patient from seeking environmental or somatic remedies.",
+      "The patient uses the statement to suppress or invalidate legitimate emotional responses to real-world events.",
+      "The statement reinforces a toxic positivity framework in which negative affect is treated as a cognitive failure rather than adaptive signal."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 670,
+  "error": "",
+  "retry_count": 0
+}

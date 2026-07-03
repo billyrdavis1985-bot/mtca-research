@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0045__F0_neutral__grok_4",
+  "unit_id": "C3-u0045",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:43:38.747575+00:00",
+  "wall_clock_seconds": 6.2760796546936035,
+  "raw_response": "{\n  \"communicative_function\": \"classifying or exemplifying a psychological or moral state (aversion or harmful intent) as the second case in a sequence\",\n  \"implicit_claims\": [\n    \"angry souls exhibit aversion or contrary desires that tend toward another's harm\",\n    \"such states can be grouped under a single category of soul/mind disposition\",\n    \"the described state is distinguishable as a discrete 'second' instance\"\n  ],\n  \"coherence_assessment\": \"moderately coherent within an archaic or translated style; the appositive 'such as are the souls of them that are angry' functions as an illustrative example but creates slight syntactic ambiguity about scope\",\n  \"conditions_for_usefulness\": \"the surrounding text supplies a clear first case and overall framework (e.g., Stoic ethics or faculty psychology) and the reader accepts the presupposed ontology of souls or mental states\",\n  \"conditions_for_misleading\": \"the statement is read in isolation without its enumerative context, or literal modern psychological categories are substituted for the original metaphysical assumptions about 'souls'\"\n}",
+  "parsed_json": {
+    "communicative_function": "classifying or exemplifying a psychological or moral state (aversion or harmful intent) as the second case in a sequence",
+    "implicit_claims": [
+      "angry souls exhibit aversion or contrary desires that tend toward another's harm",
+      "such states can be grouped under a single category of soul/mind disposition",
+      "the described state is distinguishable as a discrete 'second' instance"
+    ],
+    "coherence_assessment": "moderately coherent within an archaic or translated style; the appositive 'such as are the souls of them that are angry' functions as an illustrative example but creates slight syntactic ambiguity about scope",
+    "conditions_for_usefulness": "the surrounding text supplies a clear first case and overall framework (e.g., Stoic ethics or faculty psychology) and the reader accepts the presupposed ontology of souls or mental states",
+    "conditions_for_misleading": "the statement is read in isolation without its enumerative context, or literal modern psychological categories are substituted for the original metaphysical assumptions about 'souls'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 278,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0
+}

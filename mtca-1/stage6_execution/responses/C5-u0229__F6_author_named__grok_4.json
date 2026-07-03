@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F6_author_named__grok_4",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:48:12.783664+00:00",
+  "wall_clock_seconds": 9.115127325057983,
+  "raw_response": "{\n  \"communicative_function\": \"Motivational assertion of personal agency, framing thoughts and ideals as the decisive factor in one's trajectory regardless of circumstances\",\n  \"implicit_claims\": [\n    \"Thoughts, vision, and ideals exert primary causal influence over whether one falls, remains, or rises\",\n    \"External environment is secondary or subordinate to internal mental states\",\n    \"Individuals possess sufficient agency to direct their thoughts and ideals\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within a monistic idealist framework that treats mind as the dominant causal force; logically coherent but rests on an unexamined direct causal premise\",\n  \"conditions_for_usefulness\": \"Mental attitudes must substantially shape behavior and outcomes, and readers must be able to cultivate chosen thoughts and ideals in practice\",\n  \"conditions_for_misleading\": \"Environmental, structural, or external constraints must exert stronger causal influence than the statement allows, or the claim must encourage attribution of all outcomes solely to mindset\"\n}",
+  "parsed_json": {
+    "communicative_function": "Motivational assertion of personal agency, framing thoughts and ideals as the decisive factor in one's trajectory regardless of circumstances",
+    "implicit_claims": [
+      "Thoughts, vision, and ideals exert primary causal influence over whether one falls, remains, or rises",
+      "External environment is secondary or subordinate to internal mental states",
+      "Individuals possess sufficient agency to direct their thoughts and ideals"
+    ],
+    "coherence_assessment": "Internally consistent within a monistic idealist framework that treats mind as the dominant causal force; logically coherent but rests on an unexamined direct causal premise",
+    "conditions_for_usefulness": "Mental attitudes must substantially shape behavior and outcomes, and readers must be able to cultivate chosen thoughts and ideals in practice",
+    "conditions_for_misleading": "Environmental, structural, or external constraints must exert stronger causal influence than the statement allows, or the claim must encourage attribution of all outcomes solely to mindset"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 276,
+  "output_tokens": 199,
+  "error": "",
+  "retry_count": 0
+}

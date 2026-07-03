@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0035__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:33:00.330317+00:00",
+  "wall_clock_seconds": 2.667518377304077,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement aims to offer perspective by highlighting the equivalence of outcomes regardless of the duration of experiences.\",\n  \"implicit_claims\": [\n    \"The duration of events does not impact their ultimate outcome.\",\n    \"All experiences or events lead to the same end result.\",\n    \"Perception of time is less significant than we believe in determining outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent in its assertion that duration does not alter the fundamental nature of the final outcome, though it may be oversimplified or metaphorical.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where individuals are overly focused on the temporal aspects of their experiences, helping them to adopt a broader perspective and reduce anxiety about time-related pressures.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if taken literally in scenarios where duration directly affects the quality or nature of an outcome, such as investments of time leading to skill acquisition or relationship deepening.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement aims to offer perspective by highlighting the equivalence of outcomes regardless of the duration of experiences.",
+    "implicit_claims": [
+      "The duration of events does not impact their ultimate outcome.",
+      "All experiences or events lead to the same end result.",
+      "Perception of time is less significant than we believe in determining outcomes."
+    ],
+    "coherence_assessment": "The statement is coherent in its assertion that duration does not alter the fundamental nature of the final outcome, though it may be oversimplified or metaphorical.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where individuals are overly focused on the temporal aspects of their experiences, helping them to adopt a broader perspective and reduce anxiety about time-related pressures.",
+    "conditions_for_misleading": "The statement could be misleading if taken literally in scenarios where duration directly affects the quality or nature of an outcome, such as investments of time leading to skill acquisition or relationship deepening."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0
+}

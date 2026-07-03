@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0563__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:47:24.451973+00:00",
+  "wall_clock_seconds": 14.876945734024048,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement presents itself as a prescriptive guide or instruction, framing a pseudoscientific belief as actionable advice ('sober truth'), implying that if a woman follows the described mental practice during pregnancy, she can deterministically shape her child's sex and character. It functions rhetorically as an authoritative behavioral prescription.\",\n  \"implicit_claims\": [\n    \"Maternal mental imagery during gestation has direct causal influence on fetal biological and psychological development.\",\n    \"The sex of a child is not fixed at fertilization but can be altered or determined by post-conception mental focus.\",\n    \"Moral and physical qualities of a child are substantially or entirely shaped by maternal visualization rather than genetics, environment, or stochastic developmental processes.\",\n    \"A woman bears personal responsibility for the traits of her child based on her mental discipline during pregnancy.\",\n    \"This is an established or reliable truth ('sober truth'), not speculation or folk belief.\",\n    \"The mechanism is reliable and repeatable across cases.\",\n    \"Mental states of the mother can override chromosomal sex determination.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of instructions — it specifies an agent (the woman), a timing (weeks after conception through gestation), an action (sustained mental visualization), and promised outcomes (sex and qualities of child). However, its internal logic contradicts established biology: sex is determined at fertilization by chromosomal inheritance, and complex traits arise from genetic and environmental interactions. The coherence is narrative and rhetorical, not scientific.\",\n  \"conditions_for_usefulness\": [\n    \"Maternal mental states would need to demonstrably and reliably alter chromosomal sex determination post-fertilization.\",\n    \"Sustained visualization would need a plausible biological mechanism by which it could reprogram fetal gene expression, neurological development, and morphology.\",\n    \"Empirical studies would need to show statistically significant correlation between maternal mental imagery and child outcomes beyond chance.\",\n    \"The claimed effect would need to be reproducible and consistent across diverse populations and conditions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Sex is determined at fertilization by sperm chromosomes, making post-conception mental influence on sex biologically impossible — which is the actual scientific consensus.\",\n    \"No credible empirical evidence supports the claim that visualization during pregnancy determines a child's physical or moral traits in the manner described.\",\n    \"The statement may cause women to feel guilt or blame if their child does not match their visualized image, implying negligence or insufficient mental effort.\",\n    \"Framing this as 'sober truth' suppresses appropriate epistemic skepticism and misrepresents the certainty of the claim.\",\n    \"It could discourage evidence-based prenatal care by substituting magical thinking for medical guidance.\",\n    \"The claim places undue and false moral burden on mothers for traits that are genetically or developmentally determined.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement presents itself as a prescriptive guide or instruction, framing a pseudoscientific belief as actionable advice ('sober truth'), implying that if a woman follows the described mental practice during pregnancy, she can deterministically shape her child's sex and character. It functions rhetorically as an authoritative behavioral prescription.",
+    "implicit_claims": [
+      "Maternal mental imagery during gestation has direct causal influence on fetal biological and psychological development.",
+      "The sex of a child is not fixed at fertilization but can be altered or determined by post-conception mental focus.",
+      "Moral and physical qualities of a child are substantially or entirely shaped by maternal visualization rather than genetics, environment, or stochastic developmental processes.",
+      "A woman bears personal responsibility for the traits of her child based on her mental discipline during pregnancy.",
+      "This is an established or reliable truth ('sober truth'), not speculation or folk belief.",
+      "The mechanism is reliable and repeatable across cases.",
+      "Mental states of the mother can override chromosomal sex determination."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of instructions — it specifies an agent (the woman), a timing (weeks after conception through gestation), an action (sustained mental visualization), and promised outcomes (sex and qualities of child). However, its internal logic contradicts established biology: sex is determined at fertilization by chromosomal inheritance, and complex traits arise from genetic and environmental interactions. The coherence is narrative and rhetorical, not scientific.",
+    "conditions_for_usefulness": [
+      "Maternal mental states would need to demonstrably and reliably alter chromosomal sex determination post-fertilization.",
+      "Sustained visualization would need a plausible biological mechanism by which it could reprogram fetal gene expression, neurological development, and morphology.",
+      "Empirical studies would need to show statistically significant correlation between maternal mental imagery and child outcomes beyond chance.",
+      "The claimed effect would need to be reproducible and consistent across diverse populations and conditions."
+    ],
+    "conditions_for_misleading": [
+      "Sex is determined at fertilization by sperm chromosomes, making post-conception mental influence on sex biologically impossible — which is the actual scientific consensus.",
+      "No credible empirical evidence supports the claim that visualization during pregnancy determines a child's physical or moral traits in the manner described.",
+      "The statement may cause women to feel guilt or blame if their child does not match their visualized image, implying negligence or insufficient mental effort.",
+      "Framing this as 'sober truth' suppresses appropriate epistemic skepticism and misrepresents the certainty of the claim.",
+      "It could discourage evidence-based prenatal care by substituting magical thinking for medical guidance.",
+      "The claim places undue and false moral burden on mothers for traits that are genetically or developmentally determined."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 232,
+  "output_tokens": 665,
+  "error": "",
+  "retry_count": 0
+}

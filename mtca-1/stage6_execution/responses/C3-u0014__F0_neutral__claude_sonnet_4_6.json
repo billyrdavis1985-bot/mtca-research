@@ -1,0 +1,46 @@
+{
+  "call_id": "C3-u0014__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:20:23.909509+00:00",
+  "wall_clock_seconds": 14.018093824386597,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a comparative moral judgment, arguing that sinning through lust is worse than sinning through anger, by appealing to a hierarchy of weakness and self-control. It is persuading the reader to rank vices by the degree of rational agency retained during the sin.\",\n  \"implicit_claims\": [\n    \"Reason is the standard by which moral failures should be judged.\",\n    \"Anger involves a partial retention of or orientation toward reason, even if distorted.\",\n    \"Pleasure is a more corrupting force than anger because it is more willingly embraced.\",\n    \"Masculinity ('unmanlike') is implicitly associated with rational self-mastery.\",\n    \"There exists a meaningful moral hierarchy among vices based on the agent's disposition at the time of the act.\",\n    \"Being 'overcome' by something external (pleasure) is more blameworthy than being driven by an internal reactive state (anger).\",\n    \"The degree of agency lost during a sin correlates with the moral severity of that sin.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. It applies a consistent criterion — proximity to or distance from reason — to distinguish two types of moral failure. The logic follows: if anger contracts one toward reason even in distortion, and lust abandons reason for pleasure entirely, then the ranking is consistent. However, the coherence depends on accepting its foundational premises about reason and gender, which are contestable.\",\n  \"conditions_for_usefulness\": [\n    \"One accepts that rational agency is the primary measure of moral responsibility.\",\n    \"One is engaged in a philosophical or ethical framework (e.g., Aristotelian) where virtue is defined by mastery of appetite.\",\n    \"The distinction between reactive emotional states and appetite-driven states is considered morally significant.\",\n    \"The audience is attempting to understand gradations of culpability rather than binary judgments of right and wrong.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If anger and lust are not meaningfully distinguishable in terms of rational control in practice.\",\n    \"If the gendered framing ('unmanlike') smuggles in cultural bias that distorts the moral analysis.\",\n    \"If pleasure-seeking is sometimes more consciously chosen and therefore more, not less, subject to rational critique than reactive anger.\",\n    \"If the claim that anger 'turns toward reason' is empirically false or overstated — anger can also entirely bypass rational deliberation.\",\n    \"If the listener takes this as a general exculpation of anger-driven behavior relative to lust-driven behavior without further qualification.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral judgment, arguing that sinning through lust is worse than sinning through anger, by appealing to a hierarchy of weakness and self-control. It is persuading the reader to rank vices by the degree of rational agency retained during the sin.",
+    "implicit_claims": [
+      "Reason is the standard by which moral failures should be judged.",
+      "Anger involves a partial retention of or orientation toward reason, even if distorted.",
+      "Pleasure is a more corrupting force than anger because it is more willingly embraced.",
+      "Masculinity ('unmanlike') is implicitly associated with rational self-mastery.",
+      "There exists a meaningful moral hierarchy among vices based on the agent's disposition at the time of the act.",
+      "Being 'overcome' by something external (pleasure) is more blameworthy than being driven by an internal reactive state (anger).",
+      "The degree of agency lost during a sin correlates with the moral severity of that sin."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. It applies a consistent criterion — proximity to or distance from reason — to distinguish two types of moral failure. The logic follows: if anger contracts one toward reason even in distortion, and lust abandons reason for pleasure entirely, then the ranking is consistent. However, the coherence depends on accepting its foundational premises about reason and gender, which are contestable.",
+    "conditions_for_usefulness": [
+      "One accepts that rational agency is the primary measure of moral responsibility.",
+      "One is engaged in a philosophical or ethical framework (e.g., Aristotelian) where virtue is defined by mastery of appetite.",
+      "The distinction between reactive emotional states and appetite-driven states is considered morally significant.",
+      "The audience is attempting to understand gradations of culpability rather than binary judgments of right and wrong."
+    ],
+    "conditions_for_misleading": [
+      "If anger and lust are not meaningfully distinguishable in terms of rational control in practice.",
+      "If the gendered framing ('unmanlike') smuggles in cultural bias that distorts the moral analysis.",
+      "If pleasure-seeking is sometimes more consciously chosen and therefore more, not less, subject to rational critique than reactive anger.",
+      "If the claim that anger 'turns toward reason' is empirically false or overstated — anger can also entirely bypass rational deliberation.",
+      "If the listener takes this as a general exculpation of anger-driven behavior relative to lust-driven behavior without further qualification."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 604,
+  "error": "",
+  "retry_count": 0
+}

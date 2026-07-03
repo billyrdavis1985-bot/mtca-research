@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0209__F0_neutral__gpt_4o",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:18:48.843691+00:00",
+  "wall_clock_seconds": 4.175264120101929,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides guidance on the administration of suggestions in a therapeutic setting with instructions for adjusting frequency based on client progress.\",\n  \"implicit_claims\": [\n    \"Suggestions have therapeutic value.\",\n    \"Progress can be objectively measured.\",\n    \"Intervals between suggestions can be lengthened as progress is made.\",\n    \"A cure implies the cessation of suggestions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, outlining a logical process for decreasing the frequency of suggestions as the subject shows progress, culminating in the cessation of suggestions upon completion of the cure.\",\n  \"conditions_for_usefulness\": \"It assumes the effectiveness of suggestions in therapy, a reliable way to measure progress, and a context where decreasing frequency is appropriate.\",\n  \"conditions_for_misleading\": \"It would be misleading if suggestions do not have therapeutic effects, progress is subjective and not measurable objectively, or if certain contexts require continued suggestions beyond a perceived cure.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides guidance on the administration of suggestions in a therapeutic setting with instructions for adjusting frequency based on client progress.",
+    "implicit_claims": [
+      "Suggestions have therapeutic value.",
+      "Progress can be objectively measured.",
+      "Intervals between suggestions can be lengthened as progress is made.",
+      "A cure implies the cessation of suggestions."
+    ],
+    "coherence_assessment": "The statement is internally coherent, outlining a logical process for decreasing the frequency of suggestions as the subject shows progress, culminating in the cessation of suggestions upon completion of the cure.",
+    "conditions_for_usefulness": "It assumes the effectiveness of suggestions in therapy, a reliable way to measure progress, and a context where decreasing frequency is appropriate.",
+    "conditions_for_misleading": "It would be misleading if suggestions do not have therapeutic effects, progress is subjective and not measurable objectively, or if certain contexts require continued suggestions beyond a perceived cure."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0
+}

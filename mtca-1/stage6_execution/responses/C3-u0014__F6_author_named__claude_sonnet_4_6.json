@@ -1,0 +1,52 @@
+{
+  "call_id": "C3-u0014__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:25:00.451889+00:00",
+  "wall_clock_seconds": 17.679006576538086,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a comparative moral evaluation, arguing that sin through lust is worse than sin through anger, by characterizing each disposition and ranking their relative weakness or unmanliness. It is didactic and persuasive, aimed at motivating the reader toward self-discipline by shaming lustful behavior more severely than angry behavior.\",\n  \"implicit_claims\": [\n    \"Reason is the standard against which human behavior should be measured.\",\n    \"Anger involves a kind of grief or contraction away from reason, making it a lesser moral failure.\",\n    \"Pleasure can overcome a person's rational faculty, leading to sin.\",\n    \"Yielding to pleasure reflects a weaker and less virtuous character than yielding to anger.\",\n    \"There is a hierarchy of moral failures, with some vices being worse than others.\",\n    \"Self-mastery over pleasure is a defining characteristic of a strong, manly character.\",\n    \"The concept of 'manliness' (virtus) is a meaningful moral category applicable here.\",\n    \"Both anger and lust involve deviation from reason, but in morally distinct ways.\",\n    \"Moral weakness is properly characterized in gendered terms (unmanlike).\",\n    \"The person who sins through anger retains some connection to reason (via grief), while the lustful person does not.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its Stoic framework. It consistently applies the standard of reason and self-control to distinguish two types of moral failure. The logic follows: anger involves a reactive contraction from reason (a kind of active resistance gone wrong), while lust involves passive surrender to pleasure (a more complete abdication of rational control). The distinction is philosophically consistent with Stoic ethics, though the gendered framing ('unmanlike') introduces an assumption that is asserted rather than argued.\",\n  \"conditions_for_usefulness\": [\n    \"The reader accepts that reason is the highest human faculty and the proper guide for action.\",\n    \"The reader accepts that vices can be meaningfully ranked in severity.\",\n    \"The reader is engaged in genuine moral self-examination and seeks to understand their own weaknesses.\",\n    \"The Stoic framework, in which passions are disturbances of reason, is accepted as valid.\",\n    \"The distinction between reactive passions (anger) and appetitive passions (lust) is considered morally significant.\",\n    \"The reader finds motivational value in shame-based moral reasoning.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If anger and lust are not actually meaningfully ranked by moral severity, the comparative judgment would be false.\",\n    \"If the gendered framing ('unmanlike') causes readers to associate virtue with masculinity in a way that excludes or demeans others, the statement misleads about the nature of virtue.\",\n    \"If the reader interprets this as minimizing the harm of anger-driven behavior, which can cause significant damage to others, the statement could justify or excuse it.\",\n    \"If the characterization of lust as purely passive and impotent fails to capture cases where lustful behavior involves active aggression or harm, the framing is incomplete and potentially misleading.\",\n    \"If the reader lacks the Stoic philosophical context, 'reason' may be interpreted too narrowly or differently, distorting the intended meaning.\",\n    \"If shame and hierarchical moral ranking are not effective or appropriate motivational tools for a given reader, the statement could produce counterproductive self-judgment rather than improvement.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral evaluation, arguing that sin through lust is worse than sin through anger, by characterizing each disposition and ranking their relative weakness or unmanliness. It is didactic and persuasive, aimed at motivating the reader toward self-discipline by shaming lustful behavior more severely than angry behavior.",
+    "implicit_claims": [
+      "Reason is the standard against which human behavior should be measured.",
+      "Anger involves a kind of grief or contraction away from reason, making it a lesser moral failure.",
+      "Pleasure can overcome a person's rational faculty, leading to sin.",
+      "Yielding to pleasure reflects a weaker and less virtuous character than yielding to anger.",
+      "There is a hierarchy of moral failures, with some vices being worse than others.",
+      "Self-mastery over pleasure is a defining characteristic of a strong, manly character.",
+      "The concept of 'manliness' (virtus) is a meaningful moral category applicable here.",
+      "Both anger and lust involve deviation from reason, but in morally distinct ways.",
+      "Moral weakness is properly characterized in gendered terms (unmanlike).",
+      "The person who sins through anger retains some connection to reason (via grief), while the lustful person does not."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its Stoic framework. It consistently applies the standard of reason and self-control to distinguish two types of moral failure. The logic follows: anger involves a reactive contraction from reason (a kind of active resistance gone wrong), while lust involves passive surrender to pleasure (a more complete abdication of rational control). The distinction is philosophically consistent with Stoic ethics, though the gendered framing ('unmanlike') introduces an assumption that is asserted rather than argued.",
+    "conditions_for_usefulness": [
+      "The reader accepts that reason is the highest human faculty and the proper guide for action.",
+      "The reader accepts that vices can be meaningfully ranked in severity.",
+      "The reader is engaged in genuine moral self-examination and seeks to understand their own weaknesses.",
+      "The Stoic framework, in which passions are disturbances of reason, is accepted as valid.",
+      "The distinction between reactive passions (anger) and appetitive passions (lust) is considered morally significant.",
+      "The reader finds motivational value in shame-based moral reasoning."
+    ],
+    "conditions_for_misleading": [
+      "If anger and lust are not actually meaningfully ranked by moral severity, the comparative judgment would be false.",
+      "If the gendered framing ('unmanlike') causes readers to associate virtue with masculinity in a way that excludes or demeans others, the statement misleads about the nature of virtue.",
+      "If the reader interprets this as minimizing the harm of anger-driven behavior, which can cause significant damage to others, the statement could justify or excuse it.",
+      "If the characterization of lust as purely passive and impotent fails to capture cases where lustful behavior involves active aggression or harm, the framing is incomplete and potentially misleading.",
+      "If the reader lacks the Stoic philosophical context, 'reason' may be interpreted too narrowly or differently, distorting the intended meaning.",
+      "If shame and hierarchical moral ranking are not effective or appropriate motivational tools for a given reader, the statement could produce counterproductive self-judgment rather than improvement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 215,
+  "output_tokens": 796,
+  "error": "",
+  "retry_count": 0
+}

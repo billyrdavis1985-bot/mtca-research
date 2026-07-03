@@ -1,0 +1,48 @@
+{
+  "call_id": "C7-u0006__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:18:50.821083+00:00",
+  "wall_clock_seconds": 12.578792333602905,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement describes a prescribed action or step, functioning as a directive or instructional claim. It is the seventh step of Alcoholics Anonymous' Twelve Steps, framing a recommended behavior involving petition, humility, and reliance on an external higher power.\",\n  \"implicit_claims\": [\n    \"A 'Him' (a higher power or God) exists and is capable of receiving requests\",\n    \"This higher power has the ability to remove human shortcomings\",\n    \"Humans have identifiable 'shortcomings' worth removing\",\n    \"Humility is the appropriate disposition for making such a request\",\n    \"Asking in this way is meaningfully different from not asking, implying the higher power responds to petitions\",\n    \"Human effort alone is insufficient to remove these shortcomings\",\n    \"The removal of shortcomings is desirable and leads to improvement\",\n    \"The individual has previously identified their shortcomings (presupposing prior steps)\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. The subject, action, manner, and object are all clearly defined. Its coherence depends on accepting its theological and metaphysical presuppositions; within that framework, the logic is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual sincerely believes in a higher power capable of intervening\",\n    \"The act of humble petition fosters a psychological shift that aids behavioral change\",\n    \"The individual has genuinely reflected on and identified their shortcomings\",\n    \"The practice reduces ego-driven resistance to personal growth\",\n    \"It is used within a supportive community context that reinforces accountability\"\n  ],\n  \"conditions_for_misleading\": [\n    \"No higher power exists or intervenes in human behavior, making the petition ineffective\",\n    \"Relying on external removal of shortcomings discourages personal agency and active effort\",\n    \"The language obscures that behavioral change requires concrete skills and practice\",\n    \"It implies shortcomings can be passively removed, potentially fostering passivity\",\n    \"The theological framing excludes or alienates individuals without compatible beliefs, who may forgo helpful recovery practices\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement describes a prescribed action or step, functioning as a directive or instructional claim. It is the seventh step of Alcoholics Anonymous' Twelve Steps, framing a recommended behavior involving petition, humility, and reliance on an external higher power.",
+    "implicit_claims": [
+      "A 'Him' (a higher power or God) exists and is capable of receiving requests",
+      "This higher power has the ability to remove human shortcomings",
+      "Humans have identifiable 'shortcomings' worth removing",
+      "Humility is the appropriate disposition for making such a request",
+      "Asking in this way is meaningfully different from not asking, implying the higher power responds to petitions",
+      "Human effort alone is insufficient to remove these shortcomings",
+      "The removal of shortcomings is desirable and leads to improvement",
+      "The individual has previously identified their shortcomings (presupposing prior steps)"
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. The subject, action, manner, and object are all clearly defined. Its coherence depends on accepting its theological and metaphysical presuppositions; within that framework, the logic is consistent.",
+    "conditions_for_usefulness": [
+      "The individual sincerely believes in a higher power capable of intervening",
+      "The act of humble petition fosters a psychological shift that aids behavioral change",
+      "The individual has genuinely reflected on and identified their shortcomings",
+      "The practice reduces ego-driven resistance to personal growth",
+      "It is used within a supportive community context that reinforces accountability"
+    ],
+    "conditions_for_misleading": [
+      "No higher power exists or intervenes in human behavior, making the petition ineffective",
+      "Relying on external removal of shortcomings discourages personal agency and active effort",
+      "The language obscures that behavioral change requires concrete skills and practice",
+      "It implies shortcomings can be passively removed, potentially fostering passivity",
+      "The theological framing excludes or alienates individuals without compatible beliefs, who may forgo helpful recovery practices"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 509,
+  "error": "",
+  "retry_count": 0
+}

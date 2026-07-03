@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0051__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:04:45.411829+00:00",
+  "wall_clock_seconds": 5.227044343948364,
+  "raw_response": "{\n  \"communicative_function\": \"Expressing a conditional behavioral rule or commitment for a third person, likely as part of a sleep-related routine or expectation.\",\n  \"implicit_claims\": [\n    \"The subject ('he') has difficulty or may choose not to make an effort to sleep.\",\n    \"The speaker or enforcer expects quiet behavior in bed as an acceptable alternative to sleeping.\",\n    \"Quiet lying in bed is a behavioral goal distinct from actual sleep.\",\n    \"The subject's effort to sleep is voluntary and can be withheld.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional behavioral rule: if condition A (no effort to sleep) holds, then behavior B (lie quietly in bed) follows. However, it may pragmatically conflict with the typical goal of bedtime (to sleep) unless quiet rest is the intended outcome.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is capable of lying quietly in bed without disturbing others.\",\n    \"The subject understands and agrees to the conditional rule.\",\n    \"Quiet rest is considered an acceptable substitute for sleep in the context.\",\n    \"The statement is used as a clear boundary or expectation for bedtime behavior.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the subject is expected to sleep, the statement might imply that no effort to sleep is permissible as long as he lies still.\",\n    \"If 'quiet lying' is interpreted as passive compliance while the subject is actually awake and distressed, it could mask unmet sleep needs.\",\n    \"If the statement is used without explanation, it could be taken as a commitment to tolerate wakefulness rather than address underlying issues.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expressing a conditional behavioral rule or commitment for a third person, likely as part of a sleep-related routine or expectation.",
+    "implicit_claims": [
+      "The subject ('he') has difficulty or may choose not to make an effort to sleep.",
+      "The speaker or enforcer expects quiet behavior in bed as an acceptable alternative to sleeping.",
+      "Quiet lying in bed is a behavioral goal distinct from actual sleep.",
+      "The subject's effort to sleep is voluntary and can be withheld."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional behavioral rule: if condition A (no effort to sleep) holds, then behavior B (lie quietly in bed) follows. However, it may pragmatically conflict with the typical goal of bedtime (to sleep) unless quiet rest is the intended outcome.",
+    "conditions_for_usefulness": [
+      "The subject is capable of lying quietly in bed without disturbing others.",
+      "The subject understands and agrees to the conditional rule.",
+      "Quiet rest is considered an acceptable substitute for sleep in the context.",
+      "The statement is used as a clear boundary or expectation for bedtime behavior."
+    ],
+    "conditions_for_misleading": [
+      "If the subject is expected to sleep, the statement might imply that no effort to sleep is permissible as long as he lies still.",
+      "If 'quiet lying' is interpreted as passive compliance while the subject is actually awake and distressed, it could mask unmet sleep needs.",
+      "If the statement is used without explanation, it could be taken as a commitment to tolerate wakefulness rather than address underlying issues."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 343,
+  "error": "",
+  "retry_count": 0
+}

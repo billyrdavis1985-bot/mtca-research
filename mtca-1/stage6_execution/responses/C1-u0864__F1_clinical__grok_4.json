@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F1_clinical__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:51:41.329656+00:00",
+  "wall_clock_seconds": 6.293540716171265,
+  "raw_response": "{\n  \"communicative_function\": \"Retrospective self-disclosure of initial doubt to frame openness or later change\",\n  \"implicit_claims\": [\"Speaker attended or encountered Coué's lectures\", \"Speaker held a prior skeptical stance\", \"The skepticism is presented as noteworthy or potentially superseded\"],\n  \"coherence_assessment\": \"Coherent as a simple past-tense admission; no internal contradiction\",\n  \"conditions_for_usefulness\": \"Accurately reflects speaker's history and is deployed to model willingness to examine beliefs or track attitude shift in therapy\",\n  \"conditions_for_misleading\": \"Speaker never held the claimed skepticism, or the statement is used to imply unearned endorsement of Coué's methods\"\n}",
+  "parsed_json": {
+    "communicative_function": "Retrospective self-disclosure of initial doubt to frame openness or later change",
+    "implicit_claims": [
+      "Speaker attended or encountered Coué's lectures",
+      "Speaker held a prior skeptical stance",
+      "The skepticism is presented as noteworthy or potentially superseded"
+    ],
+    "coherence_assessment": "Coherent as a simple past-tense admission; no internal contradiction",
+    "conditions_for_usefulness": "Accurately reflects speaker's history and is deployed to model willingness to examine beliefs or track attitude shift in therapy",
+    "conditions_for_misleading": "Speaker never held the claimed skepticism, or the statement is used to imply unearned endorsement of Coué's methods"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 145,
+  "error": "",
+  "retry_count": 0
+}

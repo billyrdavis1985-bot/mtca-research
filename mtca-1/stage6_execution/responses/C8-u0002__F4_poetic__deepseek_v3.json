@@ -1,0 +1,41 @@
+{
+  "call_id": "C8-u0002__F4_poetic__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:00:52.393399+00:00",
+  "wall_clock_seconds": 5.022977590560913,
+  "raw_response": "{\n  \"communicative_function\": \"Declares a conscious shift in epistemic practice — from prediction shaped by fear to prediction tested by empirical outcomes.\",\n  \"implicit_claims\": [\n    \"The speaker has previously been testing predictions against fears rather than against actual events.\",\n    \"The speaker has the capacity to distinguish between actual outcomes and feared outcomes.\",\n    \"Fear-based predictions are a recognizable alternative approach.\",\n    \"Testing against actual happenings is a more reliable or preferable method.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the statement contrasts two ways of testing predictions and asserts a deliberate choice for one over the other.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine predictive claims or hypotheses to test.\",\n    \"The speaker can access or observe actual outcomes.\",\n    \"The speaker is capable of distinguishing fear-based expectations from reality-based observations.\",\n    \"The speaker intends to learn or adjust based on results.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker cannot reliably access or identify actual outcomes, the statement may suggest a rigor that is not possible.\",\n    \"If the speaker conflates 'what actually happens' with their interpretation of events, the distinction collapses.\",\n    \"If the statement is taken literally as a psychological claim, it may oversimplify how fear influences perception of reality.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Declares a conscious shift in epistemic practice — from prediction shaped by fear to prediction tested by empirical outcomes.",
+    "implicit_claims": [
+      "The speaker has previously been testing predictions against fears rather than against actual events.",
+      "The speaker has the capacity to distinguish between actual outcomes and feared outcomes.",
+      "Fear-based predictions are a recognizable alternative approach.",
+      "Testing against actual happenings is a more reliable or preferable method."
+    ],
+    "coherence_assessment": "Internally coherent: the statement contrasts two ways of testing predictions and asserts a deliberate choice for one over the other.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine predictive claims or hypotheses to test.",
+      "The speaker can access or observe actual outcomes.",
+      "The speaker is capable of distinguishing fear-based expectations from reality-based observations.",
+      "The speaker intends to learn or adjust based on results."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker cannot reliably access or identify actual outcomes, the statement may suggest a rigor that is not possible.",
+      "If the speaker conflates 'what actually happens' with their interpretation of events, the distinction collapses.",
+      "If the statement is taken literally as a psychological claim, it may oversimplify how fear influences perception of reality."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 276,
+  "error": "",
+  "retry_count": 0
+}

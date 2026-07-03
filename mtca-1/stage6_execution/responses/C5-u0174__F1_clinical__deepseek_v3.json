@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0174__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:27:54.563857+00:00",
+  "wall_clock_seconds": 3.6876986026763916,
+  "raw_response": "{\n  \"communicative_function\": \"Empowering the individual by affirming personal agency and responsibility for change, while challenging external locus of control.\",\n  \"implicit_claims\": [\n    \"The individual has the capacity to alter their own condition.\",\n    \"External agents or circumstances cannot directly change the individual's condition.\",\n    \"The individual's condition is not predetermined or fixed.\",\n    \"Self-directed action is both necessary and sufficient for change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a proposition about personal agency. However, it may conflict with contexts where external factors (e.g., systemic barriers, illness) significantly constrain change.\",\n  \"conditions_for_usefulness\": [\n    \"The individual perceives themselves as having some degree of control or choice.\",\n    \"The therapy aims to reduce learned helplessness or dependency.\",\n    \"The individual is cognitively and physically capable of initiating change.\",\n    \"The environment minimally obstructs self-directed action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces severe external constraints (e.g., poverty, discrimination, serious illness).\",\n    \"The statement is used to blame the individual for circumstances beyond their control.\",\n    \"The individual has a condition that requires external intervention (e.g., medication, surgery).\",\n    \"The statement discourages seeking legitimate help or community support.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Empowering the individual by affirming personal agency and responsibility for change, while challenging external locus of control.",
+    "implicit_claims": [
+      "The individual has the capacity to alter their own condition.",
+      "External agents or circumstances cannot directly change the individual's condition.",
+      "The individual's condition is not predetermined or fixed.",
+      "Self-directed action is both necessary and sufficient for change."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a proposition about personal agency. However, it may conflict with contexts where external factors (e.g., systemic barriers, illness) significantly constrain change.",
+    "conditions_for_usefulness": [
+      "The individual perceives themselves as having some degree of control or choice.",
+      "The therapy aims to reduce learned helplessness or dependency.",
+      "The individual is cognitively and physically capable of initiating change.",
+      "The environment minimally obstructs self-directed action."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces severe external constraints (e.g., poverty, discrimination, serious illness).",
+      "The statement is used to blame the individual for circumstances beyond their control.",
+      "The individual has a condition that requires external intervention (e.g., medication, surgery).",
+      "The statement discourages seeking legitimate help or community support."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 278,
+  "error": "",
+  "retry_count": 0
+}

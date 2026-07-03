@@ -1,0 +1,39 @@
+{
+  "call_id": "C1-u0285__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:34:06.878196+00:00",
+  "wall_clock_seconds": 4.168505907058716,
+  "raw_response": "{\n  \"communicative_function\": \"Rhetorical rebuttal to an objection, using a question to challenge the critic's consistency.\",\n  \"implicit_claims\": [\n    \"The objection's premise that autosuggestion is dangerous is false.\",\n    \"All commonly used things carry some danger.\",\n    \"If all things are dangerous, singling out autosuggestion as dangerous is irrational or hypocritical.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a rhetorical device: it uses a universal generalization to undermine a specific objection. However, the logic is fallacious if the degree or type of danger differs significantly between common things and autosuggestion.\",\n  \"conditions_for_usefulness\": [\n    \"The audience accepts that typical everyday activities or tools are dangerous yet still used.\",\n    \"The danger of autosuggestion is comparable in magnitude and nature to those accepted dangers.\",\n    \"The objection is based on a principle of avoiding all danger rather than weighing risks versus benefits.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The danger of autosuggestion is substantially greater or less avoidable than that of common items.\",\n    \"The comparison ignores differences in necessity, benefit, or controllability.\",\n    \"The audience is unaware of the fallacy of false equivalence.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Rhetorical rebuttal to an objection, using a question to challenge the critic's consistency.",
+    "implicit_claims": [
+      "The objection's premise that autosuggestion is dangerous is false.",
+      "All commonly used things carry some danger.",
+      "If all things are dangerous, singling out autosuggestion as dangerous is irrational or hypocritical."
+    ],
+    "coherence_assessment": "Internally coherent as a rhetorical device: it uses a universal generalization to undermine a specific objection. However, the logic is fallacious if the degree or type of danger differs significantly between common things and autosuggestion.",
+    "conditions_for_usefulness": [
+      "The audience accepts that typical everyday activities or tools are dangerous yet still used.",
+      "The danger of autosuggestion is comparable in magnitude and nature to those accepted dangers.",
+      "The objection is based on a principle of avoiding all danger rather than weighing risks versus benefits."
+    ],
+    "conditions_for_misleading": [
+      "The danger of autosuggestion is substantially greater or less avoidable than that of common items.",
+      "The comparison ignores differences in necessity, benefit, or controllability.",
+      "The audience is unaware of the fallacy of false equivalence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 263,
+  "error": "",
+  "retry_count": 0
+}

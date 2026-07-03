@@ -1,0 +1,34 @@
+{
+  "call_id": "C1-u0501__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T21:28:54.039981+00:00",
+  "wall_clock_seconds": 12.756153106689453,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a descriptive historical record or an observation of a past event. Within the 'behavioral commitment' frame, it fails to function as a commitment because it describes what 'was' rather than what 'will be' or 'is intended to be'. It does not express an intended future action, a value-aligned pledge, or a behavior change commitment, but rather a factual report.\",\n  \"implicit_claims\": [\n    \"The speaker ('me') is a professional involved in the child's care or assessment.\",\n    \"The child has a physical condition related to walking or feet that requires intervention.\",\n    \"The 'contrivances' are external devices used to assist or correct the child's walking.\",\n    \"The 'contrivances' are effective in improving the child's ability to walk ('thanks to').\",\n    \"The speaker values detailed observation and documentation of patient conditions and interventions.\",\n    \"The event described occurred in February 1915.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a descriptive sentence detailing a past event. However, it is incoherent when assessed as a 'behavioral commitment' because its tense (past) and descriptive nature fundamentally contradict the forward-looking, intentional nature of a commitment.\",\n  \"conditions_for_usefulness\": \"For this statement to be useful *as a behavioral commitment* (which it is not, due to its descriptive, past-tense nature), it would have to be understood as implicitly informing or exemplifying a larger, unstated commitment. For instance:\\n- If it serves as an *example* of the meticulous observational standard the speaker *commits* to maintaining in future interactions.\\n- If it establishes a *baseline* of a patient's condition as part of a commitment to a future treatment plan for that child.\\n- If the speaker's commitment is to *thoroughly document* all initial patient assessments, and this statement is presented as an example of fulfilling that commitment.\",\n  \"conditions_for_misleading\": \"This statement would be misleading under the 'behavioral commitment' frame if:\\n- It were presented as a pledge or promise for future behavior, when it is merely a historical observation.\\n- It led an audience to believe that recounting a past event constitutes a commitment to a specific future action or behavior change.\\n- It obscured the absence of a clear, forward-looking commitment by offering historical detail in its place.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a descriptive historical record or an observation of a past event. Within the 'behavioral commitment' frame, it fails to function as a commitment because it describes what 'was' rather than what 'will be' or 'is intended to be'. It does not express an intended future action, a value-aligned pledge, or a behavior change commitment, but rather a factual report.",
+    "implicit_claims": [
+      "The speaker ('me') is a professional involved in the child's care or assessment.",
+      "The child has a physical condition related to walking or feet that requires intervention.",
+      "The 'contrivances' are external devices used to assist or correct the child's walking.",
+      "The 'contrivances' are effective in improving the child's ability to walk ('thanks to').",
+      "The speaker values detailed observation and documentation of patient conditions and interventions.",
+      "The event described occurred in February 1915."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a descriptive sentence detailing a past event. However, it is incoherent when assessed as a 'behavioral commitment' because its tense (past) and descriptive nature fundamentally contradict the forward-looking, intentional nature of a commitment.",
+    "conditions_for_usefulness": "For this statement to be useful *as a behavioral commitment* (which it is not, due to its descriptive, past-tense nature), it would have to be understood as implicitly informing or exemplifying a larger, unstated commitment. For instance:\n- If it serves as an *example* of the meticulous observational standard the speaker *commits* to maintaining in future interactions.\n- If it establishes a *baseline* of a patient's condition as part of a commitment to a future treatment plan for that child.\n- If the speaker's commitment is to *thoroughly document* all initial patient assessments, and this statement is presented as an example of fulfilling that commitment.",
+    "conditions_for_misleading": "This statement would be misleading under the 'behavioral commitment' frame if:\n- It were presented as a pledge or promise for future behavior, when it is merely a historical observation.\n- It led an audience to believe that recounting a past event constitutes a commitment to a specific future action or behavior change.\n- It obscured the absence of a clear, forward-looking commitment by offering historical detail in its place."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 530,
+  "error": "",
+  "retry_count": 1
+}

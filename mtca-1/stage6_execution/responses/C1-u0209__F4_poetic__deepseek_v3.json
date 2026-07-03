@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0209__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:21:53.189250+00:00",
+  "wall_clock_seconds": 4.98872184753418,
+  "raw_response": "{\n  \"communicative_function\": \"Gives advice or instruction on a process of suggestion-based therapy or conditioning, emphasizing a tapering-off strategy.\",\n  \"implicit_claims\": [\n    \"The subject (person) is responsive to suggestions.\",\n    \"Progress in the cure can be observed and measured.\",\n    \"Increasing intervals between suggestions correlate with progress.\",\n    \"A complete cure is achievable where suggestions are no longer needed.\",\n    \"The spacin regime is universally applicable across different subjects.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a procedural guideline: it describes a logical progression from frequent to infrequent suggestions, ending when no longer needed.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is amenable to suggestion-based treatment.\",\n    \"The practitioner can accurately gauge progress.\",\n    \"The intervals can be practically adjusted over time.\",\n    \"The condition being treated is responsive to this tapering method.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the condition does not respond to suggestion or has a variable course, the advice may falsely imply universal efficacy.\",\n    \"If progress is not objectively measurable, the instruction to space suggestions 'according to progress obtained' becomes vague and potentially self-deceptive.\",\n    \"If the cure is never complete, the promise that suggestions become 'no longer necessary' may create false hope.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Gives advice or instruction on a process of suggestion-based therapy or conditioning, emphasizing a tapering-off strategy.",
+    "implicit_claims": [
+      "The subject (person) is responsive to suggestions.",
+      "Progress in the cure can be observed and measured.",
+      "Increasing intervals between suggestions correlate with progress.",
+      "A complete cure is achievable where suggestions are no longer needed.",
+      "The spacin regime is universally applicable across different subjects."
+    ],
+    "coherence_assessment": "Internally coherent as a procedural guideline: it describes a logical progression from frequent to infrequent suggestions, ending when no longer needed.",
+    "conditions_for_usefulness": [
+      "The subject is amenable to suggestion-based treatment.",
+      "The practitioner can accurately gauge progress.",
+      "The intervals can be practically adjusted over time.",
+      "The condition being treated is responsive to this tapering method."
+    ],
+    "conditions_for_misleading": [
+      "If the condition does not respond to suggestion or has a variable course, the advice may falsely imply universal efficacy.",
+      "If progress is not objectively measurable, the instruction to space suggestions 'according to progress obtained' becomes vague and potentially self-deceptive.",
+      "If the cure is never complete, the promise that suggestions become 'no longer necessary' may create false hope."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 279,
+  "error": "",
+  "retry_count": 0
+}

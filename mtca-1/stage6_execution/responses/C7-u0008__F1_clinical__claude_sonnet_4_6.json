@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0008__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:24:57.011162+00:00",
+  "wall_clock_seconds": 17.04968523979187,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a behavioral commitment and action-orienting intention, directing the speaker toward restorative action with others they have harmed, while simultaneously encoding a harm-limitation clause that preserves ethical discretion. It operates as both a declaration of past or ongoing action and a normative guideline structuring future behavior.\",\n  \"implicit_claims\": [\n    \"The speaker has harmed identifiable others in ways that warrant amends.\",\n    \"Direct amends (as opposed to indirect or symbolic) are the preferred or most effective form of repair.\",\n    \"It is possible to meaningfully assess whether making amends would cause harm to the recipient or third parties.\",\n    \"The speaker possesses sufficient insight and judgment to make that harm-assessment reliably.\",\n    \"Amends-making is a therapeutic or moral good that promotes healing for both parties.\",\n    \"There exists a category of people to whom amends cannot or should not be made, and this is ethically acceptable.\",\n    \"The act of making amends is within the speaker's agency and capacity.\",\n    \"Harm avoidance functions as a legitimate override condition, not an avoidance strategy.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in structure: it asserts a prosocial behavioral intention and qualifies it with a harm-limitation clause, which is logically consistent. The tension point lies in the qualifier — 'except when to do so would injure them or others' — which requires reliable harm-prediction, a cognitively and emotionally demanding task that the statement does not address. This creates a latent coherence gap: the exception clause could be applied defensively or selectively, undermining the primary intention without appearing to do so.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuinely identified specific people they have harmed and is prepared to take concrete action.\",\n    \"The speaker has access to guidance (therapeutic, sponsor-based, or relational) to help distinguish authentic harm-risk from avoidance rationalization.\",\n    \"The speaker has sufficient emotional regulation to engage in amends-making without becoming destabilized.\",\n    \"The recipient of amends is in a position where contact would not retraumatize them.\",\n    \"The harm-exception clause is applied with external accountability rather than unilateral self-assessment.\",\n    \"The statement is embedded in a broader structured process (e.g., 12-step, restorative practice) with defined steps and support.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the harm-exception clause as a rationalization to avoid uncomfortable but necessary amends.\",\n    \"The speaker lacks the clinical or relational support needed to distinguish genuine harm risk from avoidance.\",\n    \"The statement is used as a one-time declaration rather than an ongoing process, creating an illusion of completion.\",\n    \"The definition of 'direct amends' is unclear or inconsistent, leading to performative rather than substantive action.\",\n    \"The speaker conflates their own discomfort with harm to the other party.\",\n    \"Third-party harm is invoked vaguely without concrete justification, functioning as a blanket exemption.\",\n    \"The statement encourages premature closure on interpersonal repair before the relationship is ready or the harm fully understood.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a behavioral commitment and action-orienting intention, directing the speaker toward restorative action with others they have harmed, while simultaneously encoding a harm-limitation clause that preserves ethical discretion. It operates as both a declaration of past or ongoing action and a normative guideline structuring future behavior.",
+    "implicit_claims": [
+      "The speaker has harmed identifiable others in ways that warrant amends.",
+      "Direct amends (as opposed to indirect or symbolic) are the preferred or most effective form of repair.",
+      "It is possible to meaningfully assess whether making amends would cause harm to the recipient or third parties.",
+      "The speaker possesses sufficient insight and judgment to make that harm-assessment reliably.",
+      "Amends-making is a therapeutic or moral good that promotes healing for both parties.",
+      "There exists a category of people to whom amends cannot or should not be made, and this is ethically acceptable.",
+      "The act of making amends is within the speaker's agency and capacity.",
+      "Harm avoidance functions as a legitimate override condition, not an avoidance strategy."
+    ],
+    "coherence_assessment": "The statement is internally coherent in structure: it asserts a prosocial behavioral intention and qualifies it with a harm-limitation clause, which is logically consistent. The tension point lies in the qualifier — 'except when to do so would injure them or others' — which requires reliable harm-prediction, a cognitively and emotionally demanding task that the statement does not address. This creates a latent coherence gap: the exception clause could be applied defensively or selectively, undermining the primary intention without appearing to do so.",
+    "conditions_for_usefulness": [
+      "The speaker has genuinely identified specific people they have harmed and is prepared to take concrete action.",
+      "The speaker has access to guidance (therapeutic, sponsor-based, or relational) to help distinguish authentic harm-risk from avoidance rationalization.",
+      "The speaker has sufficient emotional regulation to engage in amends-making without becoming destabilized.",
+      "The recipient of amends is in a position where contact would not retraumatize them.",
+      "The harm-exception clause is applied with external accountability rather than unilateral self-assessment.",
+      "The statement is embedded in a broader structured process (e.g., 12-step, restorative practice) with defined steps and support."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the harm-exception clause as a rationalization to avoid uncomfortable but necessary amends.",
+      "The speaker lacks the clinical or relational support needed to distinguish genuine harm risk from avoidance.",
+      "The statement is used as a one-time declaration rather than an ongoing process, creating an illusion of completion.",
+      "The definition of 'direct amends' is unclear or inconsistent, leading to performative rather than substantive action.",
+      "The speaker conflates their own discomfort with harm to the other party.",
+      "Third-party harm is invoked vaguely without concrete justification, functioning as a blanket exemption.",
+      "The statement encourages premature closure on interpersonal repair before the relationship is ready or the harm fully understood."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 177,
+  "output_tokens": 749,
+  "error": "",
+  "retry_count": 0
+}

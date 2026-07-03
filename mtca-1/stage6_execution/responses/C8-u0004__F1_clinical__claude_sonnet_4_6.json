@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0004__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:09:24.582689+00:00",
+  "wall_clock_seconds": 18.786512851715088,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a metacognitive reorientation cue — it directs the speaker's attention toward a distinction between passive cognitive events (thoughts that arise automatically) and active epistemic endorsement (thoughts one identifies with or affirms as true/one's own). It also performs a self-legitimizing function by framing the activity as 'practice,' implying skill-building over time rather than immediate mastery.\",\n\n  \"implicit_claims\": [\n    \"There exists a meaningful distinction between a thought occurring and a thought being endorsed.\",\n    \"This distinction is learnable and improvable through deliberate practice.\",\n    \"Some thoughts arise without the thinker's volitional initiation.\",\n    \"A person has some capacity to withhold or grant endorsement to thoughts.\",\n    \"Not all thoughts that occur are or should be treated as self-defining or action-guiding.\",\n    \"Conflating occurrence with endorsement is a common error with therapeutic consequences.\",\n    \"The self that endorses is in some meaningful sense separable from the stream of thought content.\",\n    \"Practicing this distinction has clinical value, implying it reduces suffering or maladaptive behavior.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent within the frameworks of defusion (Acceptance and Commitment Therapy) and cognitive distancing (Cognitive Behavioral Therapy). The distinction it draws — between thought-as-event and thought-as-endorsed-belief — is conceptually stable and well-supported in the cognitive science of metacognition. There is a minor philosophical tension: the act of noticing and not-endorsing a thought still involves a cognitive agent who must 'show up' to make that evaluation, raising questions about infinite regress (who endorses the endorser), but this tension does not undermine practical clinical utility.\",\n\n  \"conditions_for_usefulness\": [\n    \"The individual is experiencing distress caused by automatic, intrusive, or ego-dystonic thoughts they are treating as self-defining or as commands.\",\n    \"The individual has sufficient metacognitive capacity to observe their own thought processes.\",\n    \"There is a therapeutic relationship or context that clarifies what 'endorsement' means operationally.\",\n    \"The distinction is introduced gradually and not used to dismiss or suppress thoughts that require genuine processing.\",\n    \"The individual can tolerate ambiguity about the nature of the self doing the observing.\",\n    \"The practice is paired with behavioral engagement strategies so that non-endorsement does not collapse into avoidance.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"If the statement is used to suggest that thoughts one 'doesn't endorse' are therefore harmless or ignorable, potentially bypassing necessary emotional processing.\",\n    \"If it implies a stronger degree of volitional control over thought occurrence than the individual actually has, creating shame when intrusive thoughts persist.\",\n    \"If 'not endorsing' is functionally used as suppression or dissociation rather than genuine defusion.\",\n    \"If the concept of a stable endorsing-self is taken as metaphysically literal rather than as a pragmatic therapeutic frame, leading to confusion or reification of a fixed inner observer.\",\n    \"If applied in contexts (e.g., certain psychotic or dissociative presentations) where the distinction between occurring and endorsed is already pathologically disrupted.\",\n    \"If it implies that thoughts without endorsement carry no behavioral or emotional influence, which contradicts evidence on implicit cognition.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a metacognitive reorientation cue — it directs the speaker's attention toward a distinction between passive cognitive events (thoughts that arise automatically) and active epistemic endorsement (thoughts one identifies with or affirms as true/one's own). It also performs a self-legitimizing function by framing the activity as 'practice,' implying skill-building over time rather than immediate mastery.",
+    "implicit_claims": [
+      "There exists a meaningful distinction between a thought occurring and a thought being endorsed.",
+      "This distinction is learnable and improvable through deliberate practice.",
+      "Some thoughts arise without the thinker's volitional initiation.",
+      "A person has some capacity to withhold or grant endorsement to thoughts.",
+      "Not all thoughts that occur are or should be treated as self-defining or action-guiding.",
+      "Conflating occurrence with endorsement is a common error with therapeutic consequences.",
+      "The self that endorses is in some meaningful sense separable from the stream of thought content.",
+      "Practicing this distinction has clinical value, implying it reduces suffering or maladaptive behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent within the frameworks of defusion (Acceptance and Commitment Therapy) and cognitive distancing (Cognitive Behavioral Therapy). The distinction it draws — between thought-as-event and thought-as-endorsed-belief — is conceptually stable and well-supported in the cognitive science of metacognition. There is a minor philosophical tension: the act of noticing and not-endorsing a thought still involves a cognitive agent who must 'show up' to make that evaluation, raising questions about infinite regress (who endorses the endorser), but this tension does not undermine practical clinical utility.",
+    "conditions_for_usefulness": [
+      "The individual is experiencing distress caused by automatic, intrusive, or ego-dystonic thoughts they are treating as self-defining or as commands.",
+      "The individual has sufficient metacognitive capacity to observe their own thought processes.",
+      "There is a therapeutic relationship or context that clarifies what 'endorsement' means operationally.",
+      "The distinction is introduced gradually and not used to dismiss or suppress thoughts that require genuine processing.",
+      "The individual can tolerate ambiguity about the nature of the self doing the observing.",
+      "The practice is paired with behavioral engagement strategies so that non-endorsement does not collapse into avoidance."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is used to suggest that thoughts one 'doesn't endorse' are therefore harmless or ignorable, potentially bypassing necessary emotional processing.",
+      "If it implies a stronger degree of volitional control over thought occurrence than the individual actually has, creating shame when intrusive thoughts persist.",
+      "If 'not endorsing' is functionally used as suppression or dissociation rather than genuine defusion.",
+      "If the concept of a stable endorsing-self is taken as metaphysically literal rather than as a pragmatic therapeutic frame, leading to confusion or reification of a fixed inner observer.",
+      "If applied in contexts (e.g., certain psychotic or dissociative presentations) where the distinction between occurring and endorsed is already pathologically disrupted.",
+      "If it implies that thoughts without endorsement carry no behavioral or emotional influence, which contradicts evidence on implicit cognition."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 781,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F1_clinical__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:21:28.277538+00:00",
+  "wall_clock_seconds": 5.610563516616821,
+  "raw_response": "{\n  \"communicative_function\": \"moral-philosophical reframing that hierarchically judges two emotional impulses to guide self-regulation\",\n  \"implicit_claims\": [\n    \"anger constitutes a grief-driven withdrawal from reason\",\n    \"lust constitutes submission to pleasure that reveals greater weakness\",\n    \"lust is more 'impotent' and 'unmanlike' than anger\",\n    \"a normative ranking of impulses exists that can inform therapeutic self-statements\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a Stoic virtue framework but relies on culturally dated gender and moral premises that lack empirical grounding\",\n  \"conditions_for_usefulness\": \"the recipient endorses the underlying Stoic hierarchy, experiences the distinction as non-shaming, and can translate the judgment into adaptive behavioral change\",\n  \"conditions_for_misleading\": \"the statement is taken as literal psychological fact, reinforces shame or toxic masculinity norms, or substitutes moral ranking for evidence-based emotion-regulation techniques\"\n}",
+  "parsed_json": {
+    "communicative_function": "moral-philosophical reframing that hierarchically judges two emotional impulses to guide self-regulation",
+    "implicit_claims": [
+      "anger constitutes a grief-driven withdrawal from reason",
+      "lust constitutes submission to pleasure that reveals greater weakness",
+      "lust is more 'impotent' and 'unmanlike' than anger",
+      "a normative ranking of impulses exists that can inform therapeutic self-statements"
+    ],
+    "coherence_assessment": "internally consistent within a Stoic virtue framework but relies on culturally dated gender and moral premises that lack empirical grounding",
+    "conditions_for_usefulness": "the recipient endorses the underlying Stoic hierarchy, experiences the distinction as non-shaming, and can translate the judgment into adaptive behavioral change",
+    "conditions_for_misleading": "the statement is taken as literal psychological fact, reinforces shame or toxic masculinity norms, or substitutes moral ranking for evidence-based emotion-regulation techniques"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 312,
+  "output_tokens": 197,
+  "error": "",
+  "retry_count": 0
+}

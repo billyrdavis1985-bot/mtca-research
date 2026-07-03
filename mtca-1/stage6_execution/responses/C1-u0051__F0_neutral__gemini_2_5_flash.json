@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0051__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:02:24.288870+00:00",
+  "wall_clock_seconds": 8.554389715194702,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To predict or describe a conditional behavior of an individual ('he'), specifically how they will act in bed if they cease active attempts to sleep.\",\n  \"implicit_claims\": [\n    \"The individual ('he') exists and is identifiable.\",\n    \"The individual is capable of 'making an effort to sleep'.\",\n    \"There are actions or states that constitute 'making an effort to sleep'.\",\n    \"There are discernible differences between 'making an effort to sleep' and 'lying quietly in bed'.\",\n    \"The individual is, or can be, 'in bed'.\",\n    \"The state of 'lying quietly in bed' is an observable behavior.\",\n    \"The statement implies a causal or correlational link: lack of effort leads to quiet lying.\",\n    \"Other behaviors (e.g., tossing, turning, getting out of bed) might occur if effort is made or if effort is not made but quiet lying does not ensue.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional proposition. The concepts of 'making an effort to sleep' and 'lying quietly in bed' are generally understandable and plausible as distinct behaviors, creating a logically structured 'if-then' relationship.\",\n  \"conditions_for_usefulness\": [\n    \"If the listener needs to understand the individual's typical response to sleeplessness without active trying.\",\n    \"If the listener needs assurance that the individual will not engage in disruptive behavior when not actively trying to sleep.\",\n    \"If 'making an effort to sleep' is understood to involve actions distinct from simply lying still (e.g., active relaxation techniques, tossing/turning in frustration).\",\n    \"If the speaker intends to convey a predictable and potentially non-disruptive coping mechanism of the individual.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'lying quietly in bed' is misinterpreted as 'sleeping' (it only describes behavior, not the state of consciousness).\",\n    \"If 'not making any effort to sleep' actually leads to other behaviors not mentioned (e.g., getting up, reading, watching TV, tossing restlessly but quietly).\",\n    \"If the individual *always* lies quietly regardless of effort, making the conditional irrelevant or incomplete.\",\n    \"If the statement implies a *positive* or *desired* outcome, when lying quietly without sleep could signify resignation, prolonged insomnia, or other issues.\",\n    \"If 'effort to sleep' is vaguely defined and could encompass passive actions that *include* lying quietly, blurring the distinction.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To predict or describe a conditional behavior of an individual ('he'), specifically how they will act in bed if they cease active attempts to sleep.",
+    "implicit_claims": [
+      "The individual ('he') exists and is identifiable.",
+      "The individual is capable of 'making an effort to sleep'.",
+      "There are actions or states that constitute 'making an effort to sleep'.",
+      "There are discernible differences between 'making an effort to sleep' and 'lying quietly in bed'.",
+      "The individual is, or can be, 'in bed'.",
+      "The state of 'lying quietly in bed' is an observable behavior.",
+      "The statement implies a causal or correlational link: lack of effort leads to quiet lying.",
+      "Other behaviors (e.g., tossing, turning, getting out of bed) might occur if effort is made or if effort is not made but quiet lying does not ensue."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional proposition. The concepts of 'making an effort to sleep' and 'lying quietly in bed' are generally understandable and plausible as distinct behaviors, creating a logically structured 'if-then' relationship.",
+    "conditions_for_usefulness": [
+      "If the listener needs to understand the individual's typical response to sleeplessness without active trying.",
+      "If the listener needs assurance that the individual will not engage in disruptive behavior when not actively trying to sleep.",
+      "If 'making an effort to sleep' is understood to involve actions distinct from simply lying still (e.g., active relaxation techniques, tossing/turning in frustration).",
+      "If the speaker intends to convey a predictable and potentially non-disruptive coping mechanism of the individual."
+    ],
+    "conditions_for_misleading": [
+      "If 'lying quietly in bed' is misinterpreted as 'sleeping' (it only describes behavior, not the state of consciousness).",
+      "If 'not making any effort to sleep' actually leads to other behaviors not mentioned (e.g., getting up, reading, watching TV, tossing restlessly but quietly).",
+      "If the individual *always* lies quietly regardless of effort, making the conditional irrelevant or incomplete.",
+      "If the statement implies a *positive* or *desired* outcome, when lying quietly without sleep could signify resignation, prolonged insomnia, or other issues.",
+      "If 'effort to sleep' is vaguely defined and could encompass passive actions that *include* lying quietly, blurring the distinction."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 137,
+  "output_tokens": 560,
+  "error": "",
+  "retry_count": 0
+}

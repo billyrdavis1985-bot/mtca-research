@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0174__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T21:31:15.811133+00:00",
+  "wall_clock_seconds": 7.461254119873047,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To assert radical personal agency and responsibility for self-directed change; to internalize the locus of control; to empower and motivate an individual to take active steps in altering their situation, rather than waiting for external forces or relying solely on others.\",\n  \"implicit_claims\": [\n    \"The individual possesses the capacity for agency and self-reflection.\",\n    \"The individual has the potential to influence or change their 'condition' through their own actions, choices, or internal state.\",\n    \"The 'condition' in question is, at least in part, amenable to internal alteration.\",\n    \"External factors, while they may influence or contribute to the 'condition,' do not ultimately *alter* it without the individual's internal engagement and response.\",\n    \"Responsibility for meaningful change rests primarily with the individual.\",\n    \"There is a 'condition' that is perceived as undesirable or requiring alteration.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally highly coherent. It presents a singular, clear, and unambiguous assertion regarding the source of alteration for one's condition, logically excluding all external agents in favor of the self. Its strength lies in this direct and focused message of self-empowerment.\",\n  \"conditions_for_usefulness\": [\n    \"When an individual is experiencing feelings of helplessness, passivity, or external locus of control, leading to a lack of initiative.\",\n    \"When the 'condition' is predominantly psychological, behavioral, or stems from personal choices and interpretations (e.g., coping mechanisms, cognitive distortions, procrastination).\",\n    \"When the therapeutic goal is to foster self-efficacy, personal responsibility, and proactive problem-solving.\",\n    \"When differentiating between external influences (which may exist) and internal response/action (which is required for personal change).\",\n    \"In contexts where an individual may be prone to blaming others or external circumstances exclusively, hindering their own progress.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When the 'condition' is primarily due to systemic oppression, severe lack of resources, critical physical illness, natural disasters, or direct interpersonal violence/abuse beyond the individual's control (e.g., poverty, war, terminal illness, severe disability, active domestic abuse).\",\n    \"If it leads to victim-blaming or self-blame for circumstances that are genuinely outside an individual's sphere of influence or capacity.\",\n    \"When it implicitly discourages seeking necessary external support, medical intervention, community resources, or advocacy for structural change.\",\n    \"For individuals with severe mental illness (e.g., psychosis, severe depression, certain neurodevelopmental disorders) where agency and capacity for self-alteration are significantly impaired and require external support (medication, intensive therapy, assisted living).\",\n    \"If interpreted as negating the importance of therapeutic collaboration, environmental accommodations, or social determinants of health.\",\n    \"When it fosters an unhealthy sense of isolation or an unrealistic expectation of individual omnipotence over all life circumstances.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To assert radical personal agency and responsibility for self-directed change; to internalize the locus of control; to empower and motivate an individual to take active steps in altering their situation, rather than waiting for external forces or relying solely on others.",
+    "implicit_claims": [
+      "The individual possesses the capacity for agency and self-reflection.",
+      "The individual has the potential to influence or change their 'condition' through their own actions, choices, or internal state.",
+      "The 'condition' in question is, at least in part, amenable to internal alteration.",
+      "External factors, while they may influence or contribute to the 'condition,' do not ultimately *alter* it without the individual's internal engagement and response.",
+      "Responsibility for meaningful change rests primarily with the individual.",
+      "There is a 'condition' that is perceived as undesirable or requiring alteration."
+    ],
+    "coherence_assessment": "The statement is internally highly coherent. It presents a singular, clear, and unambiguous assertion regarding the source of alteration for one's condition, logically excluding all external agents in favor of the self. Its strength lies in this direct and focused message of self-empowerment.",
+    "conditions_for_usefulness": [
+      "When an individual is experiencing feelings of helplessness, passivity, or external locus of control, leading to a lack of initiative.",
+      "When the 'condition' is predominantly psychological, behavioral, or stems from personal choices and interpretations (e.g., coping mechanisms, cognitive distortions, procrastination).",
+      "When the therapeutic goal is to foster self-efficacy, personal responsibility, and proactive problem-solving.",
+      "When differentiating between external influences (which may exist) and internal response/action (which is required for personal change).",
+      "In contexts where an individual may be prone to blaming others or external circumstances exclusively, hindering their own progress."
+    ],
+    "conditions_for_misleading": [
+      "When the 'condition' is primarily due to systemic oppression, severe lack of resources, critical physical illness, natural disasters, or direct interpersonal violence/abuse beyond the individual's control (e.g., poverty, war, terminal illness, severe disability, active domestic abuse).",
+      "If it leads to victim-blaming or self-blame for circumstances that are genuinely outside an individual's sphere of influence or capacity.",
+      "When it implicitly discourages seeking necessary external support, medical intervention, community resources, or advocacy for structural change.",
+      "For individuals with severe mental illness (e.g., psychosis, severe depression, certain neurodevelopmental disorders) where agency and capacity for self-alteration are significantly impaired and require external support (medication, intensive therapy, assisted living).",
+      "If interpreted as negating the importance of therapeutic collaboration, environmental accommodations, or social determinants of health.",
+      "When it fosters an unhealthy sense of isolation or an unrealistic expectation of individual omnipotence over all life circumstances."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 650,
+  "error": "",
+  "retry_count": 1
+}

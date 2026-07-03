@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0216__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0216",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:38:53.326233+00:00",
+  "wall_clock_seconds": 6.3287529945373535,
+  "raw_response": "{\n  \"communicative_function\": \"The statement offers a metaphor of potential and growth, aiming to instill hope and a sense of innate purpose or destiny in the listener, often to counter feelings of stagnation or despair.\",\n  \"implicit_claims\": [\n    \"Development is a natural, preordained process (like acorn to oak or egg to bird).\",\n    \"The soul contains a dormant, higher aspect (angel) that will emerge under the right conditions.\",\n    \"Current difficulties or smallness are temporary and part of a larger, positive unfolding.\",\n    \"The listener possesses an inherent, valuable potential that is guaranteed to actualize.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic analogy; it uses parallel biological and spiritual metaphors to suggest a unified teleological view of development. However, it conflates deterministic biological growth with volitional psychological change, which may create logical tension if interpreted literally.\",\n  \"conditions_for_usefulness\": [\n    \"The listener is receptive to metaphorical or spiritual language.\",\n    \"The listener feels stuck or hopeless about their current state and needs a narrative of innate potential.\",\n    \"The therapeutic context supports positive reframing and future-oriented thinking.\",\n    \"The listener can accept the analogy without requiring empirical or logical proof.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener interprets the statement as guaranteeing a positive outcome without effort or agency.\",\n    \"The listener is in a situation where their potential is genuinely blocked (e.g., trauma, systemic oppression) and the metaphor minimizes their struggle.\",\n    \"The listener has a cognitive style that demands literal or scientific precision, causing confusion or distrust.\",\n    \"The statement is used to dismiss real limitations or distress by implying they are merely part of a predestined growth process.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement offers a metaphor of potential and growth, aiming to instill hope and a sense of innate purpose or destiny in the listener, often to counter feelings of stagnation or despair.",
+    "implicit_claims": [
+      "Development is a natural, preordained process (like acorn to oak or egg to bird).",
+      "The soul contains a dormant, higher aspect (angel) that will emerge under the right conditions.",
+      "Current difficulties or smallness are temporary and part of a larger, positive unfolding.",
+      "The listener possesses an inherent, valuable potential that is guaranteed to actualize."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic analogy; it uses parallel biological and spiritual metaphors to suggest a unified teleological view of development. However, it conflates deterministic biological growth with volitional psychological change, which may create logical tension if interpreted literally.",
+    "conditions_for_usefulness": [
+      "The listener is receptive to metaphorical or spiritual language.",
+      "The listener feels stuck or hopeless about their current state and needs a narrative of innate potential.",
+      "The therapeutic context supports positive reframing and future-oriented thinking.",
+      "The listener can accept the analogy without requiring empirical or logical proof."
+    ],
+    "conditions_for_misleading": [
+      "The listener interprets the statement as guaranteeing a positive outcome without effort or agency.",
+      "The listener is in a situation where their potential is genuinely blocked (e.g., trauma, systemic oppression) and the metaphor minimizes their struggle.",
+      "The listener has a cognitive style that demands literal or scientific precision, causing confusion or distrust.",
+      "The statement is used to dismiss real limitations or distress by implying they are merely part of a predestined growth process."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 369,
+  "error": "",
+  "retry_count": 0
+}

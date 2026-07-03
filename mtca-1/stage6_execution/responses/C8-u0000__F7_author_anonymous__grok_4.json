@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0000__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:52:03.903556+00:00",
+  "wall_clock_seconds": 6.987455129623413,
+  "raw_response": "{\n  \"communicative_function\": \"Self-reflective observation stating a metacognitive distinction between subjective mental events and objective evidence.\",\n  \"implicit_claims\": [\n    \"Automatic thoughts exist as a distinct category of mental content.\",\n    \"Evidence about what is true can be identified separately from those thoughts.\",\n    \"The speaker is capable of noticing and reporting this distinction.\",\n    \"Automatic thoughts are not automatically equivalent to truth.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the statement draws a clear, non-contradictory distinction without logical inconsistency.\",\n  \"conditions_for_usefulness\": \"The distinction must be applied in contexts such as cognitive therapy, mindfulness practice, or critical reasoning where separating mental events from evidence improves accuracy or reduces distress.\",\n  \"conditions_for_misleading\": \"The statement is taken to imply that all automatic thoughts are false, that evidence is always easily accessible, or that noticing the gap is sufficient without further evaluation of either thoughts or evidence.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-reflective observation stating a metacognitive distinction between subjective mental events and objective evidence.",
+    "implicit_claims": [
+      "Automatic thoughts exist as a distinct category of mental content.",
+      "Evidence about what is true can be identified separately from those thoughts.",
+      "The speaker is capable of noticing and reporting this distinction.",
+      "Automatic thoughts are not automatically equivalent to truth."
+    ],
+    "coherence_assessment": "Internally coherent; the statement draws a clear, non-contradictory distinction without logical inconsistency.",
+    "conditions_for_usefulness": "The distinction must be applied in contexts such as cognitive therapy, mindfulness practice, or critical reasoning where separating mental events from evidence improves accuracy or reduces distress.",
+    "conditions_for_misleading": "The statement is taken to imply that all automatic thoughts are false, that evidence is always easily accessible, or that noticing the gap is sufficient without further evaluation of either thoughts or evidence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 269,
+  "output_tokens": 198,
+  "error": "",
+  "retry_count": 0
+}

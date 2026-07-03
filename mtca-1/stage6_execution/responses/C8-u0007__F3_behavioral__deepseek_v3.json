@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0007__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:27:46.016758+00:00",
+  "wall_clock_seconds": 3.8032915592193604,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is making an observation and expressing a shift in awareness, committing to the idea that behavior precedes and influences mood rather than the reverse.\",\n  \"implicit_claims\": [\n    \"Mood and behavior are causally linked.\",\n    \"Behavior often leads mood, not the other way around.\",\n    \"The speaker has noticed a pattern in their own experience supporting this direction of influence.\",\n    \"This pattern may be generalizable or worth adopting as a principle.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it describes a personal observation of a causal relationship without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences behavior influencing their mood in practice.\",\n    \"The statement is used to motivate intentional action even when mood is low.\",\n    \"The speaker is open to testing and validating the claim through further experience.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker ignores or dismisses clear instances where mood drives behavior (e.g., clinical depression).\",\n    \"The statement is taken as an absolute truth rather than a heuristic.\",\n    \"The speaker uses it to invalidate the role of emotions or to blame themselves for moods they cannot control.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is making an observation and expressing a shift in awareness, committing to the idea that behavior precedes and influences mood rather than the reverse.",
+    "implicit_claims": [
+      "Mood and behavior are causally linked.",
+      "Behavior often leads mood, not the other way around.",
+      "The speaker has noticed a pattern in their own experience supporting this direction of influence.",
+      "This pattern may be generalizable or worth adopting as a principle."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it describes a personal observation of a causal relationship without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences behavior influencing their mood in practice.",
+      "The statement is used to motivate intentional action even when mood is low.",
+      "The speaker is open to testing and validating the claim through further experience."
+    ],
+    "conditions_for_misleading": [
+      "The speaker ignores or dismisses clear instances where mood drives behavior (e.g., clinical depression).",
+      "The statement is taken as an absolute truth rather than a heuristic.",
+      "The speaker uses it to invalidate the role of emotions or to blame themselves for moods they cannot control."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 258,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0081__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:06:31.101081+00:00",
+  "wall_clock_seconds": 5.464843273162842,
+  "raw_response": "{\n  \"communicative_function\": \"Reframes suffering as purposeful and transformative, offering a cognitive restructuring that assigns meaning and value to pain.\",\n  \"implicit_claims\": [\n    \"Suffering has a single, supreme purpose.\",\n    \"Suffering inherently leads to purification.\",\n    \"Suffering burns out what is useless and impure.\",\n    \"The useless and impure are separable from the self through suffering.\",\n    \"Suffering is a necessary or beneficial process for achieving purity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a metaphorical or spiritual frame, but it is not empirically testable and relies on a unidirectional, value-laden view of suffering that may conflict with clinical evidence of suffering's often harmful or non-transformative effects.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is experiencing suffering that feels meaningless and seeks a narrative to endure it.\",\n    \"The individual has sufficient psychological resilience and support to process suffering without harm.\",\n    \"The therapeutic context validates the individual's experience while offering this reframe as one among many possible meanings.\",\n    \"The statement is used in a targeted way for specific symptoms (e.g., existential distress, grief) rather than as a universal truth.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in acute trauma or crisis, where minimizing suffering's negative impact is dangerous.\",\n    \"The statement is applied to all forms of suffering indiscriminately, including chronic pain, abuse, or systemic oppression.\",\n    \"It implies that those who do not find meaning in suffering are somehow failing or impure.\",\n    \"It discourages seeking help or relief from suffering by framing it as solely beneficial.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reframes suffering as purposeful and transformative, offering a cognitive restructuring that assigns meaning and value to pain.",
+    "implicit_claims": [
+      "Suffering has a single, supreme purpose.",
+      "Suffering inherently leads to purification.",
+      "Suffering burns out what is useless and impure.",
+      "The useless and impure are separable from the self through suffering.",
+      "Suffering is a necessary or beneficial process for achieving purity."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a metaphorical or spiritual frame, but it is not empirically testable and relies on a unidirectional, value-laden view of suffering that may conflict with clinical evidence of suffering's often harmful or non-transformative effects.",
+    "conditions_for_usefulness": [
+      "The individual is experiencing suffering that feels meaningless and seeks a narrative to endure it.",
+      "The individual has sufficient psychological resilience and support to process suffering without harm.",
+      "The therapeutic context validates the individual's experience while offering this reframe as one among many possible meanings.",
+      "The statement is used in a targeted way for specific symptoms (e.g., existential distress, grief) rather than as a universal truth."
+    ],
+    "conditions_for_misleading": [
+      "The individual is in acute trauma or crisis, where minimizing suffering's negative impact is dangerous.",
+      "The statement is applied to all forms of suffering indiscriminately, including chronic pain, abuse, or systemic oppression.",
+      "It implies that those who do not find meaning in suffering are somehow failing or impure.",
+      "It discourages seeking help or relief from suffering by framing it as solely beneficial."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 352,
+  "error": "",
+  "retry_count": 0
+}

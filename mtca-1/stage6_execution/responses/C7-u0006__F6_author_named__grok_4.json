@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0006__F6_author_named__grok_4",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:23:21.204624+00:00",
+  "wall_clock_seconds": 6.416657209396362,
+  "raw_response": "{\n  \"communicative_function\": \"Describes a prescribed action within a recovery program: a humble petition to a higher power for character change.\",\n  \"implicit_claims\": [\n    \"A higher power ('Him') exists and possesses the capacity to remove personal shortcomings.\",\n    \"The speaker (or group) has identifiable shortcomings requiring external removal.\",\n    \"Humility is the appropriate stance for requesting such removal.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a theistic or spiritual framework that posits an interventionist higher power; assumes the efficacy of prayer-like requests.\",\n  \"conditions_for_usefulness\": \"The individual accepts the existence and efficacy of a higher power, embraces the 12-step model, and finds that framing change as a humble request supports sustained recovery.\",\n  \"conditions_for_misleading\": \"No such higher power exists or intervenes; the statement fosters passivity or externalizes responsibility, undermining personal agency in addressing shortcomings.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Describes a prescribed action within a recovery program: a humble petition to a higher power for character change.",
+    "implicit_claims": [
+      "A higher power ('Him') exists and possesses the capacity to remove personal shortcomings.",
+      "The speaker (or group) has identifiable shortcomings requiring external removal.",
+      "Humility is the appropriate stance for requesting such removal."
+    ],
+    "coherence_assessment": "Internally coherent within a theistic or spiritual framework that posits an interventionist higher power; assumes the efficacy of prayer-like requests.",
+    "conditions_for_usefulness": "The individual accepts the existence and efficacy of a higher power, embraces the 12-step model, and finds that framing change as a humble request supports sustained recovery.",
+    "conditions_for_misleading": "No such higher power exists or intervenes; the statement fosters passivity or externalizes responsibility, undermining personal agency in addressing shortcomings."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 266,
+  "output_tokens": 195,
+  "error": "",
+  "retry_count": 0
+}

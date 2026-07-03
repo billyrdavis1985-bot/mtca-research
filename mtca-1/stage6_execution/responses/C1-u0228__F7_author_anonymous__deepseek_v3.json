@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0228__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:29:32.191750+00:00",
+  "wall_clock_seconds": 4.835155248641968,
+  "raw_response": "{\n  \"communicative_function\": \"The statement argues for the power of a doctor's words to influence patient outcomes through autosuggestion, advocating for hopeful communication over despair-inducing pronouncements.\",\n  \"implicit_claims\": [\n    \"A doctor's title alone grants suggestive influence over a patient.\",\n    \"A doctor's statement that an illness is incurable can trigger harmful autosuggestion in the patient.\",\n    \"A doctor's statement that an illness is curable with care, time, and patience can produce positive, sometimes surprising, results.\",\n    \"The patient's mental state (autosuggestion) directly affects the course of the illness.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear cause-effect relationship between the doctor's words and the patient's autosuggestion, with contrasting outcomes for negative versus positive framing.\",\n  \"conditions_for_usefulness\": [\n    \"The doctor's words genuinely influence the patient's beliefs and expectations.\",\n    \"Autosuggestion has a significant effect on the patient's physiological or psychological state.\",\n    \"The illness is actually treatable or amenable to such influence (i.e., not truly beyond help).\",\n    \"The doctor has the interpersonal skill to deliver such messages without deception.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The illness is genuinely incurable or untreatable, making the hopeful message false or harmful by delaying appropriate end-of-life care.\",\n    \"The patient's condition is entirely organic and unresponsive to psychological influence, leading to false hope.\",\n    \"The doctor uses the statement to avoid difficult truths, undermining informed consent.\",\n    \"The patient interprets the hopeful message as a guarantee of cure, disregarding necessary medical care.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement argues for the power of a doctor's words to influence patient outcomes through autosuggestion, advocating for hopeful communication over despair-inducing pronouncements.",
+    "implicit_claims": [
+      "A doctor's title alone grants suggestive influence over a patient.",
+      "A doctor's statement that an illness is incurable can trigger harmful autosuggestion in the patient.",
+      "A doctor's statement that an illness is curable with care, time, and patience can produce positive, sometimes surprising, results.",
+      "The patient's mental state (autosuggestion) directly affects the course of the illness."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear cause-effect relationship between the doctor's words and the patient's autosuggestion, with contrasting outcomes for negative versus positive framing.",
+    "conditions_for_usefulness": [
+      "The doctor's words genuinely influence the patient's beliefs and expectations.",
+      "Autosuggestion has a significant effect on the patient's physiological or psychological state.",
+      "The illness is actually treatable or amenable to such influence (i.e., not truly beyond help).",
+      "The doctor has the interpersonal skill to deliver such messages without deception."
+    ],
+    "conditions_for_misleading": [
+      "The illness is genuinely incurable or untreatable, making the hopeful message false or harmful by delaying appropriate end-of-life care.",
+      "The patient's condition is entirely organic and unresponsive to psychological influence, leading to false hope.",
+      "The doctor uses the statement to avoid difficult truths, undermining informed consent.",
+      "The patient interprets the hopeful message as a guarantee of cure, disregarding necessary medical care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 229,
+  "output_tokens": 355,
+  "error": "",
+  "retry_count": 0
+}

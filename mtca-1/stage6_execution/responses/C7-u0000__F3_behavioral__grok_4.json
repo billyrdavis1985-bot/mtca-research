@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F3_behavioral__grok_4",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:51:42.905265+00:00",
+  "wall_clock_seconds": 7.62526798248291,
+  "raw_response": "{\n  \"communicative_function\": \"public declaration committing to acceptance of powerlessness as the first value-aligned step toward behavioral change\",\n  \"implicit_claims\": [\n    \"the speaker's relationship to alcohol is one of powerlessness rather than controllable choice\",\n    \"unmanageability of life follows directly from that powerlessness\",\n    \"admitting this constitutes a meaningful, actionable shift in orientation\"\n  ],\n  \"coherence_assessment\": \"internally coherent within its framework, as the second clause is presented as a direct consequence of the first\",\n  \"conditions_for_usefulness\": \"the admission accurately reflects the speaker's experience and functions as a catalyst for subsequent constructive action rather than resignation\",\n  \"conditions_for_misleading\": \"the speaker retains meaningful control yet uses the claim to evade responsibility, or the admission entrenches helplessness without enabling change\"\n}",
+  "parsed_json": {
+    "communicative_function": "public declaration committing to acceptance of powerlessness as the first value-aligned step toward behavioral change",
+    "implicit_claims": [
+      "the speaker's relationship to alcohol is one of powerlessness rather than controllable choice",
+      "unmanageability of life follows directly from that powerlessness",
+      "admitting this constitutes a meaningful, actionable shift in orientation"
+    ],
+    "coherence_assessment": "internally coherent within its framework, as the second clause is presented as a direct consequence of the first",
+    "conditions_for_usefulness": "the admission accurately reflects the speaker's experience and functions as a catalyst for subsequent constructive action rather than resignation",
+    "conditions_for_misleading": "the speaker retains meaningful control yet uses the claim to evade responsibility, or the admission entrenches helplessness without enabling change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 173,
+  "error": "",
+  "retry_count": 0
+}

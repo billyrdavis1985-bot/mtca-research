@@ -1,0 +1,39 @@
+{
+  "call_id": "C8-u0005__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:15:16.018984+00:00",
+  "wall_clock_seconds": 3.7866077423095703,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement encourages cognitive restructuring by prompting the individual to recognize and amend dichotomous thinking.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is detrimental or limiting.\",\n    \"There is value in seeking a balanced or nuanced perspective.\",\n    \"Individuals have the capacity to challenge and change their thought patterns.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a process for addressing all-or-nothing thinking by actively searching for partial truths, implying a balanced approach.\",\n  \"conditions_for_usefulness\": [\n    \"The individual recognizes patterns of all-or-nothing thinking in themselves.\",\n    \"The individual is motivated to change their cognitive patterns.\",\n    \"There is an understanding of how to identify partial truths and nuance in a situation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the individual misinterprets the statement as suggesting that all extreme viewpoints are invalid.\",\n    \"If the context requires clear-cut decisions or stances rather than nuanced thinking.\",\n    \"If the individual lacks the necessary skills to identify or understand partial truths.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement encourages cognitive restructuring by prompting the individual to recognize and amend dichotomous thinking.",
+    "implicit_claims": [
+      "All-or-nothing thinking is detrimental or limiting.",
+      "There is value in seeking a balanced or nuanced perspective.",
+      "Individuals have the capacity to challenge and change their thought patterns."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a process for addressing all-or-nothing thinking by actively searching for partial truths, implying a balanced approach.",
+    "conditions_for_usefulness": [
+      "The individual recognizes patterns of all-or-nothing thinking in themselves.",
+      "The individual is motivated to change their cognitive patterns.",
+      "There is an understanding of how to identify partial truths and nuance in a situation."
+    ],
+    "conditions_for_misleading": [
+      "If the individual misinterprets the statement as suggesting that all extreme viewpoints are invalid.",
+      "If the context requires clear-cut decisions or stances rather than nuanced thinking.",
+      "If the individual lacks the necessary skills to identify or understand partial truths."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 235,
+  "error": "",
+  "retry_count": 0
+}

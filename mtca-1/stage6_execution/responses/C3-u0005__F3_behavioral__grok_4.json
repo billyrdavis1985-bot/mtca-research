@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0005__F3_behavioral__grok_4",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:05:27.039770+00:00",
+  "wall_clock_seconds": 8.285925388336182,
+  "raw_response": "{\n  \"communicative_function\": \"self-exhortation committing to temporary harsh self-discipline framed as preparation before mortality ends opportunity for self-respect\",\n  \"implicit_claims\": [\n    \"time for self-respect is finite and approaching its end\",\n    \"self-abuse and contempt are instrumentally useful behaviors for a limited period\",\n    \"current action ('do') must precede and enable later self-respect\",\n    \"the speaker's soul requires externalized internal pressure to change behavior\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a mortality-salience prompt for immediate behavioral effort, though the sequencing of contempt preceding respect is counterintuitive without a stoic interpretive frame\",\n  \"conditions_for_usefulness\": \"recipient accepts mortality awareness as valid motivator, interprets 'abuse' as constructive self-critique rather than harm, and possesses capacity to transition from contempt to respect within the stated timeframe\",\n  \"conditions_for_misleading\": \"recipient interprets self-contempt as an end in itself, lacks clear transition mechanism to self-respect, or uses mortality reminder to justify present-moment harshness without productive action\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-exhortation committing to temporary harsh self-discipline framed as preparation before mortality ends opportunity for self-respect",
+    "implicit_claims": [
+      "time for self-respect is finite and approaching its end",
+      "self-abuse and contempt are instrumentally useful behaviors for a limited period",
+      "current action ('do') must precede and enable later self-respect",
+      "the speaker's soul requires externalized internal pressure to change behavior"
+    ],
+    "coherence_assessment": "internally coherent as a mortality-salience prompt for immediate behavioral effort, though the sequencing of contempt preceding respect is counterintuitive without a stoic interpretive frame",
+    "conditions_for_usefulness": "recipient accepts mortality awareness as valid motivator, interprets 'abuse' as constructive self-critique rather than harm, and possesses capacity to transition from contempt to respect within the stated timeframe",
+    "conditions_for_misleading": "recipient interprets self-contempt as an end in itself, lacks clear transition mechanism to self-respect, or uses mortality reminder to justify present-moment harshness without productive action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 287,
+  "output_tokens": 227,
+  "error": "",
+  "retry_count": 0
+}

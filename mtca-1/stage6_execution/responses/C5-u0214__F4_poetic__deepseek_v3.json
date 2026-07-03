@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0214__F4_poetic__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:35:27.115232+00:00",
+  "wall_clock_seconds": 5.605217456817627,
+  "raw_response": "{\n  \"communicative_function\": \"The statement inspires and motivates by equating personal vision and ideal with inevitable future actualization, using poetic parallelism to evoke a sense of destiny and self-realization.\",\n  \"implicit_claims\": [\n    \"A person's vision and ideal are distinct but related concepts.\",\n    \"Vision is a present promise that guarantees a future state.\",\n    \"Ideal is a present prophecy that will inevitably be unveiled or realized.\",\n    \"The future self or outcome is prefigured in current mental constructs.\",\n    \"Personal development follows a teleological path from inner vision to outer manifestation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic parallel: it pairs 'vision' with 'promise' and 'ideal' with 'prophecy,' creating a symmetrical structure that suggests causation and inevitability. However, it relies on figurative rather than literal logic, so its coherence is rhetorical and metaphorical, not factual.\",\n  \"conditions_for_usefulness\": [\n    \"The hearer believes in self-determination or the power of positive thinking.\",\n    \"The hearer seeks motivation or encouragement to pursue a goal.\",\n    \"The context is aspirational (e.g., self-help, commencement speech, spiritual guidance).\",\n    \"The statement is treated as inspirational metaphor rather than empirical claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The hearer interprets it as a literal guarantee of future success regardless of effort or circumstances.\",\n    \"The statement discourages critical planning or action by implying inevitability.\",\n    \"It is used to dismiss counterexamples where visions and ideals are never realized.\",\n    \"The hearer conflates poetic expression with empirical or predictive truth.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement inspires and motivates by equating personal vision and ideal with inevitable future actualization, using poetic parallelism to evoke a sense of destiny and self-realization.",
+    "implicit_claims": [
+      "A person's vision and ideal are distinct but related concepts.",
+      "Vision is a present promise that guarantees a future state.",
+      "Ideal is a present prophecy that will inevitably be unveiled or realized.",
+      "The future self or outcome is prefigured in current mental constructs.",
+      "Personal development follows a teleological path from inner vision to outer manifestation."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic parallel: it pairs 'vision' with 'promise' and 'ideal' with 'prophecy,' creating a symmetrical structure that suggests causation and inevitability. However, it relies on figurative rather than literal logic, so its coherence is rhetorical and metaphorical, not factual.",
+    "conditions_for_usefulness": [
+      "The hearer believes in self-determination or the power of positive thinking.",
+      "The hearer seeks motivation or encouragement to pursue a goal.",
+      "The context is aspirational (e.g., self-help, commencement speech, spiritual guidance).",
+      "The statement is treated as inspirational metaphor rather than empirical claim."
+    ],
+    "conditions_for_misleading": [
+      "The hearer interprets it as a literal guarantee of future success regardless of effort or circumstances.",
+      "The statement discourages critical planning or action by implying inevitability.",
+      "It is used to dismiss counterexamples where visions and ideals are never realized.",
+      "The hearer conflates poetic expression with empirical or predictive truth."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 350,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0008__F4_poetic__grok_4",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:33:59.220406+00:00",
+  "wall_clock_seconds": 8.962632179260254,
+  "raw_response": "{\n  \"communicative_function\": \"affirming a deliberate prioritization of value-congruent behavior over immediate affective alignment\",\n  \"implicit_claims\": [\n    \"values and feelings are separable and can temporarily diverge\",\n    \"the speaker possesses stable, identifiable values that can guide action independently of emotion\",\n    \"acting from values while awaiting emotional congruence is both possible and preferable\"\n  ],\n  \"coherence_assessment\": \"internally coherent; treats values as higher-order commitments that can regulate behavior during emotional lag without logical contradiction\",\n  \"conditions_for_usefulness\": \"the values in question are reflectively endorsed and prosocial, the emotional lag is transient, and the statement supports sustained self-regulation rather than emotional suppression\",\n  \"conditions_for_misleading\": \"the values are unexamined or harmful, the statement is used to chronically override valid emotional feedback, or it presents emotional alignment as perpetually secondary rather than potentially informative\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirming a deliberate prioritization of value-congruent behavior over immediate affective alignment",
+    "implicit_claims": [
+      "values and feelings are separable and can temporarily diverge",
+      "the speaker possesses stable, identifiable values that can guide action independently of emotion",
+      "acting from values while awaiting emotional congruence is both possible and preferable"
+    ],
+    "coherence_assessment": "internally coherent; treats values as higher-order commitments that can regulate behavior during emotional lag without logical contradiction",
+    "conditions_for_usefulness": "the values in question are reflectively endorsed and prosocial, the emotional lag is transient, and the statement supports sustained self-regulation rather than emotional suppression",
+    "conditions_for_misleading": "the values are unexamined or harmful, the statement is used to chronically override valid emotional feedback, or it presents emotional alignment as perpetually secondary rather than potentially informative"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 187,
+  "error": "",
+  "retry_count": 0
+}

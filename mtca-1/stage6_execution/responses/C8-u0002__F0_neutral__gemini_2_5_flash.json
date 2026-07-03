@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0002__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:57:57.774772+00:00",
+  "wall_clock_seconds": 9.565200567245483,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Declaration of a chosen strategy or principle for evaluating beliefs/predictions; articulation of a commitment to objective reality over subjective emotional influence.\",\n  \"implicit_claims\": [\n    \"The speaker has predictions they wish to evaluate.\",\n    \"The speaker experiences fear.\",\n    \"Fear can influence or distort the evaluation of predictions.\",\n    \"There is a perceived distinction between 'what I fear' and 'what actually happens'.\",\n    \"Testing against 'what actually happens' is a superior or more rational evaluation method.\",\n    \"The speaker possesses agency and conscious choice regarding their method of evaluation.\",\n    \"Previous or alternative evaluation methods might have been unduly influenced by fear.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear contrast between two distinct methods of evaluation ('against what actually happens' vs. 'against what I fear') and asserts a conscious choice for one over the other. It implicitly rests on the premise that subjective fear is distinct from objective reality, which is a widely accepted logical distinction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely struggles with fear-based reasoning that impedes objective analysis.\",\n    \"The 'predictions' are concrete, falsifiable hypotheses.\",\n    \"'What actually happens' is objectively observable and distinguishable from subjective interpretation.\",\n    \"The speaker is committed to learning from reality, even if it contradicts their desires or comfort.\",\n    \"The context requires a shift from subjective anxiety to objective data analysis for effective decision-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misidentifies legitimate risk assessment, caution, or well-founded concerns as mere 'fear' to be disregarded.\",\n    \"The statement is used as an excuse for recklessness or denial of probable negative outcomes under the guise of being 'unafraid'.\",\n    \"'What actually happens' is selectively interpreted or observed to confirm a desired outcome, rather than objectively assessed.\",\n    \"The 'predictions' are vague, unfalsifiable, or lack a clear methodology for testing.\",\n    \"The statement is merely an aspirational platitude, and the speaker lacks the genuine intent or capability to act on this declared choice.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Declaration of a chosen strategy or principle for evaluating beliefs/predictions; articulation of a commitment to objective reality over subjective emotional influence.",
+    "implicit_claims": [
+      "The speaker has predictions they wish to evaluate.",
+      "The speaker experiences fear.",
+      "Fear can influence or distort the evaluation of predictions.",
+      "There is a perceived distinction between 'what I fear' and 'what actually happens'.",
+      "Testing against 'what actually happens' is a superior or more rational evaluation method.",
+      "The speaker possesses agency and conscious choice regarding their method of evaluation.",
+      "Previous or alternative evaluation methods might have been unduly influenced by fear."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear contrast between two distinct methods of evaluation ('against what actually happens' vs. 'against what I fear') and asserts a conscious choice for one over the other. It implicitly rests on the premise that subjective fear is distinct from objective reality, which is a widely accepted logical distinction.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely struggles with fear-based reasoning that impedes objective analysis.",
+      "The 'predictions' are concrete, falsifiable hypotheses.",
+      "'What actually happens' is objectively observable and distinguishable from subjective interpretation.",
+      "The speaker is committed to learning from reality, even if it contradicts their desires or comfort.",
+      "The context requires a shift from subjective anxiety to objective data analysis for effective decision-making."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misidentifies legitimate risk assessment, caution, or well-founded concerns as mere 'fear' to be disregarded.",
+      "The statement is used as an excuse for recklessness or denial of probable negative outcomes under the guise of being 'unafraid'.",
+      "'What actually happens' is selectively interpreted or observed to confirm a desired outcome, rather than objectively assessed.",
+      "The 'predictions' are vague, unfalsifiable, or lack a clear methodology for testing.",
+      "The statement is merely an aspirational platitude, and the speaker lacks the genuine intent or capability to act on this declared choice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 138,
+  "output_tokens": 482,
+  "error": "",
+  "retry_count": 0
+}

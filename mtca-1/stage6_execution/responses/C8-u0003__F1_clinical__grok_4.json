@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0003__F1_clinical__grok_4",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:04:03.885761+00:00",
+  "wall_clock_seconds": 5.85808253288269,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed cognitive reappraisal that validates internal experience while introducing epistemic distance from emotional content\",\n  \"implicit_claims\": [\n    \"feelings carry veridical information about the speaker's internal state\",\n    \"feelings do not reliably track external facts or states of affairs\",\n    \"the speaker possesses the capacity to distinguish the two sources of information\",\n    \"recognizing this distinction is therapeutically beneficial\"\n  ],\n  \"coherence_assessment\": \"internally coherent; draws a clear, non-contradictory distinction between phenomenal and representational functions of affect\",\n  \"conditions_for_usefulness\": \"the individual tends to treat feelings as direct evidence about external reality; the therapeutic goal is reduced emotional reasoning without wholesale dismissal of affect\",\n  \"conditions_for_misleading\": \"emotions are systematically accurate about the world in the relevant domain, or the statement is used to chronically invalidate legitimate affective signals\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed cognitive reappraisal that validates internal experience while introducing epistemic distance from emotional content",
+    "implicit_claims": [
+      "feelings carry veridical information about the speaker's internal state",
+      "feelings do not reliably track external facts or states of affairs",
+      "the speaker possesses the capacity to distinguish the two sources of information",
+      "recognizing this distinction is therapeutically beneficial"
+    ],
+    "coherence_assessment": "internally coherent; draws a clear, non-contradictory distinction between phenomenal and representational functions of affect",
+    "conditions_for_usefulness": "the individual tends to treat feelings as direct evidence about external reality; the therapeutic goal is reduced emotional reasoning without wholesale dismissal of affect",
+    "conditions_for_misleading": "emotions are systematically accurate about the world in the relevant domain, or the statement is used to chronically invalidate legitimate affective signals"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

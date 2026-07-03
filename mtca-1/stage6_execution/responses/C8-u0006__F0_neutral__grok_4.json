@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0006__F0_neutral__grok_4",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:20:07.884773+00:00",
+  "wall_clock_seconds": 8.714029312133789,
+  "raw_response": "{\n  \"communicative_function\": \"Self-attribution of an evidence-based approach to overcoming fear for self-benefit\",\n  \"implicit_claims\": [\"Evidence can reliably indicate actions that help the speaker\", \"Fear is a relevant but surmountable factor in the speaker's decisions\", \"Helping oneself is a primary goal\"],\n  \"coherence_assessment\": \"Internally coherent; describes a conditional, rational override of emotion without contradiction\",\n  \"conditions_for_usefulness\": \"Evidence assessment must be accurate, actions must genuinely help, and application must be consistent\",\n  \"conditions_for_misleading\": \"Speaker fails to act accordingly, misinterprets evidence, or defines 'help' in harmful/subjective ways\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-attribution of an evidence-based approach to overcoming fear for self-benefit",
+    "implicit_claims": [
+      "Evidence can reliably indicate actions that help the speaker",
+      "Fear is a relevant but surmountable factor in the speaker's decisions",
+      "Helping oneself is a primary goal"
+    ],
+    "coherence_assessment": "Internally coherent; describes a conditional, rational override of emotion without contradiction",
+    "conditions_for_usefulness": "Evidence assessment must be accurate, actions must genuinely help, and application must be consistent",
+    "conditions_for_misleading": "Speaker fails to act accordingly, misinterprets evidence, or defines 'help' in harmful/subjective ways"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 261,
+  "output_tokens": 145,
+  "error": "",
+  "retry_count": 0
+}

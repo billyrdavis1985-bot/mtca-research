@@ -1,0 +1,37 @@
+{
+  "call_id": "C5-u0174__F5_ai_ethics__gpt_4o",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:30:10.559110+00:00",
+  "wall_clock_seconds": 2.3375842571258545,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a philosophical principle emphasizing individual autonomy and responsibility.\",\n  \"implicit_claims\": [\n    \"Individuals have complete control over their personal circumstances.\",\n    \"External factors, including AI systems, should not interfere with or dictate personal change.\",\n    \"Self-agency is paramount in altering one's condition.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it succinctly communicates the belief in self-determination. However, it assumes absolute personal control, which may not universally apply in situations involving systemic, societal, or circumstantial limitations.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system operates in contexts where individuals have the necessary resources, knowledge, and freedom to effect personal change.\",\n    \"There is a cultural or philosophical alignment that values individual autonomy and self-direction.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Ignorance of systemic, societal, or external factors that significantly impact an individual's condition.\",\n    \"Situations where individuals lack the capability or resources to change their condition independently.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a philosophical principle emphasizing individual autonomy and responsibility.",
+    "implicit_claims": [
+      "Individuals have complete control over their personal circumstances.",
+      "External factors, including AI systems, should not interfere with or dictate personal change.",
+      "Self-agency is paramount in altering one's condition."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it succinctly communicates the belief in self-determination. However, it assumes absolute personal control, which may not universally apply in situations involving systemic, societal, or circumstantial limitations.",
+    "conditions_for_usefulness": [
+      "The AI system operates in contexts where individuals have the necessary resources, knowledge, and freedom to effect personal change.",
+      "There is a cultural or philosophical alignment that values individual autonomy and self-direction."
+    ],
+    "conditions_for_misleading": [
+      "Ignorance of systemic, societal, or external factors that significantly impact an individual's condition.",
+      "Situations where individuals lack the capability or resources to change their condition independently."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 226,
+  "error": "",
+  "retry_count": 0
+}

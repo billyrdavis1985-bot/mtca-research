@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0501__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:45:05.326682+00:00",
+  "wall_clock_seconds": 5.474705934524536,
+  "raw_response": "{\n  \"communicative_function\": \"report an observational fact about a first clinical encounter and the patient's observed mobility\",\n  \"implicit_claims\": [\n    \"the speaker is a clinician or authority figure receiving patients\",\n    \"the child has a pre-existing foot condition requiring mechanical correction\",\n    \"the two contrivances are responsible for the observed walking ability\",\n    \"February 1915 marks the initial presentation of this case to the speaker\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the causal link between contrivances and walking is clearly asserted and temporally anchored\",\n  \"conditions_for_usefulness\": \"the statement forms part of a verifiable case record, medical history, or biographical timeline and the described contrivances and date can be independently corroborated\",\n  \"conditions_for_misleading\": \"the statement is presented as authoritative evidence while the speaker's expertise, the efficacy of the contrivances, or the accuracy of the date prove false or fabricated\"\n}",
+  "parsed_json": {
+    "communicative_function": "report an observational fact about a first clinical encounter and the patient's observed mobility",
+    "implicit_claims": [
+      "the speaker is a clinician or authority figure receiving patients",
+      "the child has a pre-existing foot condition requiring mechanical correction",
+      "the two contrivances are responsible for the observed walking ability",
+      "February 1915 marks the initial presentation of this case to the speaker"
+    ],
+    "coherence_assessment": "internally coherent; the causal link between contrivances and walking is clearly asserted and temporally anchored",
+    "conditions_for_usefulness": "the statement forms part of a verifiable case record, medical history, or biographical timeline and the described contrivances and date can be independently corroborated",
+    "conditions_for_misleading": "the statement is presented as authoritative evidence while the speaker's expertise, the efficacy of the contrivances, or the accuracy of the date prove false or fabricated"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 286,
+  "output_tokens": 199,
+  "error": "",
+  "retry_count": 0
+}

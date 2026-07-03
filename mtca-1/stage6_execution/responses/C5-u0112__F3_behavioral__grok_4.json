@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F3_behavioral__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:18:45.546315+00:00",
+  "wall_clock_seconds": 5.229681491851807,
+  "raw_response": "{\n  \"communicative_function\": \"assertive principle linking mental states to physical outcomes, functioning as a cautionary reminder to monitor and adjust thought patterns\",\n  \"implicit_claims\": [\n    \"mental states exert causal influence on bodily health\",\n    \"negative or 'sickly' thoughts produce detectable physical manifestations\",\n    \"self-regulation of thoughts can prevent or mitigate bodily illness\"\n  ],\n  \"coherence_assessment\": \"internally consistent under a mind-body unity premise but relies on metaphorical rather than mechanistic causation\",\n  \"conditions_for_usefulness\": \"the user accepts mind-body influence as actionable, uses the statement to prompt cognitive monitoring without denying medical realities, and experiences it as motivating rather than punitive\",\n  \"conditions_for_misleading\": \"physical symptoms are attributed primarily to thought quality while ignoring organic, environmental, or genetic factors, or the statement induces self-blame for illness\"\n}",
+  "parsed_json": {
+    "communicative_function": "assertive principle linking mental states to physical outcomes, functioning as a cautionary reminder to monitor and adjust thought patterns",
+    "implicit_claims": [
+      "mental states exert causal influence on bodily health",
+      "negative or 'sickly' thoughts produce detectable physical manifestations",
+      "self-regulation of thoughts can prevent or mitigate bodily illness"
+    ],
+    "coherence_assessment": "internally consistent under a mind-body unity premise but relies on metaphorical rather than mechanistic causation",
+    "conditions_for_usefulness": "the user accepts mind-body influence as actionable, uses the statement to prompt cognitive monitoring without denying medical realities, and experiences it as motivating rather than punitive",
+    "conditions_for_misleading": "physical symptoms are attributed primarily to thought quality while ignoring organic, environmental, or genetic factors, or the statement induces self-blame for illness"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 269,
+  "output_tokens": 182,
+  "error": "",
+  "retry_count": 0
+}

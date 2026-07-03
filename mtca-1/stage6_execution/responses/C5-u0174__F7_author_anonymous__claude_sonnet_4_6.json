@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0174__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:31:22.813167+00:00",
+  "wall_clock_seconds": 11.545158863067627,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is asserting exclusive personal agency — it functions as an emphatic claim about the sole locus of responsibility for an individual's circumstances, likely intended to motivate, admonish, or affirm self-determination.\",\n  \"implicit_claims\": [\n    \"The individual has sufficient agency to alter their own condition.\",\n    \"External forces (other people, institutions, systems, chance) cannot meaningfully alter a person's condition.\",\n    \"The individual's condition is alterable in principle.\",\n    \"There is a singular 'self' with coherent, stable agency capable of effecting change.\",\n    \"Responsibility for one's condition rests solely with the individual.\",\n    \"Others who might intervene are either absent, ineffective, or irrelevant.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical assertion — it is grammatically clear and logically consistent on its own terms. However, it contains an implicit tension: if no one else can alter his condition, this seems to deny the obvious reality of external causal forces, making it coherent as a motivational claim but potentially incoherent as a descriptive one.\",\n  \"conditions_for_usefulness\": [\n    \"The person in question has genuine agency and real options available to them.\",\n    \"External barriers are not so severe as to make individual effort futile.\",\n    \"The person is in a state of passivity or self-doubt that self-directed action could remedy.\",\n    \"The context is one of personal motivation or overcoming internalized limitation.\",\n    \"Structural or social factors are not the primary determinants of the person's condition.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person faces systemic, structural, or institutional barriers largely outside their control (e.g., poverty, discrimination, illness).\",\n    \"The statement is used to deflect collective or institutional responsibility for someone's suffering.\",\n    \"The individual lacks the resources, information, or freedom necessary to act effectively.\",\n    \"The statement is applied to populations whose conditions are historically shaped by external forces.\",\n    \"It is used to discourage seeking help, solidarity, or legitimate external support.\",\n    \"The person's condition is in fact substantially determined by others' actions or inaction.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting exclusive personal agency — it functions as an emphatic claim about the sole locus of responsibility for an individual's circumstances, likely intended to motivate, admonish, or affirm self-determination.",
+    "implicit_claims": [
+      "The individual has sufficient agency to alter their own condition.",
+      "External forces (other people, institutions, systems, chance) cannot meaningfully alter a person's condition.",
+      "The individual's condition is alterable in principle.",
+      "There is a singular 'self' with coherent, stable agency capable of effecting change.",
+      "Responsibility for one's condition rests solely with the individual.",
+      "Others who might intervene are either absent, ineffective, or irrelevant."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical assertion — it is grammatically clear and logically consistent on its own terms. However, it contains an implicit tension: if no one else can alter his condition, this seems to deny the obvious reality of external causal forces, making it coherent as a motivational claim but potentially incoherent as a descriptive one.",
+    "conditions_for_usefulness": [
+      "The person in question has genuine agency and real options available to them.",
+      "External barriers are not so severe as to make individual effort futile.",
+      "The person is in a state of passivity or self-doubt that self-directed action could remedy.",
+      "The context is one of personal motivation or overcoming internalized limitation.",
+      "Structural or social factors are not the primary determinants of the person's condition."
+    ],
+    "conditions_for_misleading": [
+      "The person faces systemic, structural, or institutional barriers largely outside their control (e.g., poverty, discrimination, illness).",
+      "The statement is used to deflect collective or institutional responsibility for someone's suffering.",
+      "The individual lacks the resources, information, or freedom necessary to act effectively.",
+      "The statement is applied to populations whose conditions are historically shaped by external forces.",
+      "It is used to discourage seeking help, solidarity, or legitimate external support.",
+      "The person's condition is in fact substantially determined by others' actions or inaction."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 521,
+  "error": "",
+  "retry_count": 0
+}

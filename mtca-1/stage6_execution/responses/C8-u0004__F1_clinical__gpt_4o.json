@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0004__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:09:27.844977+00:00",
+  "wall_clock_seconds": 2.9523086547851562,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a cognitive restructuring tool, encouraging self-awareness and discrimination between involuntary thoughts and those that the individual consciously accepts or agrees with.\",\n  \"implicit_claims\": [\n    \"Thoughts can arise without conscious endorsement.\",\n    \"Individuals have the capacity to differentiate between spontaneous thoughts and those they consciously support.\",\n    \"Practicing this differentiation can have therapeutic benefits.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly distinguishes two types of cognitive processes and implies a practice of awareness and differentiation between them.\",\n  \"conditions_for_usefulness\": \"The individual must have the capacity for introspection and self-reflection, along with an understanding of metacognition. Additionally, the person should be in a state of readiness to engage in self-regulatory practices.\",\n  \"conditions_for_misleading\": \"If an individual interprets the statement to mean that all involuntary thoughts are negative or should be dismissed, it could be misleading. Similarly, if someone lacks the cognitive ability to engage in this practice or misunderstands the process of thought endorsement, the statement might not be helpful.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a cognitive restructuring tool, encouraging self-awareness and discrimination between involuntary thoughts and those that the individual consciously accepts or agrees with.",
+    "implicit_claims": [
+      "Thoughts can arise without conscious endorsement.",
+      "Individuals have the capacity to differentiate between spontaneous thoughts and those they consciously support.",
+      "Practicing this differentiation can have therapeutic benefits."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly distinguishes two types of cognitive processes and implies a practice of awareness and differentiation between them.",
+    "conditions_for_usefulness": "The individual must have the capacity for introspection and self-reflection, along with an understanding of metacognition. Additionally, the person should be in a state of readiness to engage in self-regulatory practices.",
+    "conditions_for_misleading": "If an individual interprets the statement to mean that all involuntary thoughts are negative or should be dismissed, it could be misleading. Similarly, if someone lacks the cognitive ability to engage in this practice or misunderstands the process of thought endorsement, the statement might not be helpful."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 237,
+  "error": "",
+  "retry_count": 0
+}

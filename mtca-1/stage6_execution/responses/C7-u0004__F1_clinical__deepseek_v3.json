@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0004__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:08:28.330548+00:00",
+  "wall_clock_seconds": 7.802112579345703,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a declaration of intent or commitment to a process of confession, accountability, and vulnerability, often in the context of a therapeutic or recovery program (e.g., 12-step). It announces a three-part disclosure—to a higher power, oneself, and another person—of one's acknowledged wrongdoings.\",\n  \"implicit_claims\": [\n    \"There exists a higher power (God) to which one can admit wrongs.\",\n    \"The speaker has wrongs that are identifiable and can be fully disclosed.\",\n    \"Disclosure to another human being is a necessary or beneficial step.\",\n    \"The speaker is capable of accurately knowing and articulating the 'exact nature' of their wrongs.\",\n    \"Such admission leads to healing or moral progress.\",\n    \"The process is voluntary and meaningful.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a directive for action. It sets a clear sequence (God, self, another) and a precise object (exact nature of wrongs). However, coherence depends on the speaker's acceptance of the presupposed metaphysical and relational claims (e.g., existence of God, value of confession). Without these, the statement may seem inconsistent or empty.\",\n  \"conditions_for_usefulness\": [\n    \"The individual believes in or is willing to engage with the concept of a higher power (or can reinterpret 'God' non-theistically).\",\n    \"The individual has identified specific wrongs and is ready to disclose them.\",\n    \"A safe, non-judgmental other person is available for the disclosure.\",\n    \"The therapeutic context supports confession as a means of reducing shame or guilt.\",\n    \"The individual is in a psychological state where vulnerability is possible without retraumatization.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'God' is interpreted in a dogmatic or coercive way, pressuring the individual to conform to a specific religious framework against their beliefs.\",\n    \"If the statement implies that full confession is always necessary or sufficient for recovery, ignoring cases where disclosure could harm self or others (e.g., in abusive relationships).\",\n    \"If 'exact nature of our wrongs' suggests an exhaustive, perfectionist self-examination that leads to rumination rather than healing.\",\n    \"If the statement is used to imply that wrongdoing is solely individual, ignoring systemic or contextual factors.\",\n    \"If the other human being is not trustworthy, leading to exploitation or betrayal.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a declaration of intent or commitment to a process of confession, accountability, and vulnerability, often in the context of a therapeutic or recovery program (e.g., 12-step). It announces a three-part disclosure—to a higher power, oneself, and another person—of one's acknowledged wrongdoings.",
+    "implicit_claims": [
+      "There exists a higher power (God) to which one can admit wrongs.",
+      "The speaker has wrongs that are identifiable and can be fully disclosed.",
+      "Disclosure to another human being is a necessary or beneficial step.",
+      "The speaker is capable of accurately knowing and articulating the 'exact nature' of their wrongs.",
+      "Such admission leads to healing or moral progress.",
+      "The process is voluntary and meaningful."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a directive for action. It sets a clear sequence (God, self, another) and a precise object (exact nature of wrongs). However, coherence depends on the speaker's acceptance of the presupposed metaphysical and relational claims (e.g., existence of God, value of confession). Without these, the statement may seem inconsistent or empty.",
+    "conditions_for_usefulness": [
+      "The individual believes in or is willing to engage with the concept of a higher power (or can reinterpret 'God' non-theistically).",
+      "The individual has identified specific wrongs and is ready to disclose them.",
+      "A safe, non-judgmental other person is available for the disclosure.",
+      "The therapeutic context supports confession as a means of reducing shame or guilt.",
+      "The individual is in a psychological state where vulnerability is possible without retraumatization."
+    ],
+    "conditions_for_misleading": [
+      "If 'God' is interpreted in a dogmatic or coercive way, pressuring the individual to conform to a specific religious framework against their beliefs.",
+      "If the statement implies that full confession is always necessary or sufficient for recovery, ignoring cases where disclosure could harm self or others (e.g., in abusive relationships).",
+      "If 'exact nature of our wrongs' suggests an exhaustive, perfectionist self-examination that leads to rumination rather than healing.",
+      "If the statement is used to imply that wrongdoing is solely individual, ignoring systemic or contextual factors.",
+      "If the other human being is not trustworthy, leading to exploitation or betrayal."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 513,
+  "error": "",
+  "retry_count": 0
+}

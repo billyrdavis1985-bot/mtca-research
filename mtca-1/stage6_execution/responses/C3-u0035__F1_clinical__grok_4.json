@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0035__F1_clinical__grok_4",
+  "unit_id": "C3-u0035",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:33:17.626434+00:00",
+  "wall_clock_seconds": 5.776717662811279,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed reframing to equalize perceived significance of temporal extremes\",\n  \"implicit_claims\": [\n    \"duration does not alter final experiential outcome\",\n    \"long and short intervals share an identical terminal effect\",\n    \"subjective weighting of time length is irrelevant to result\"\n  ],\n  \"coherence_assessment\": \"internally consistent under a teleological view of time but collapses if duration itself constitutes part of the effect\",\n  \"conditions_for_usefulness\": \"patient experiences distress specifically from overvaluing temporal length rather than from objective differences in duration or intensity\",\n  \"conditions_for_misleading\": \"actual differences in duration produce materially different psychological, physiological or behavioral sequelae that the statement dismisses\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed reframing to equalize perceived significance of temporal extremes",
+    "implicit_claims": [
+      "duration does not alter final experiential outcome",
+      "long and short intervals share an identical terminal effect",
+      "subjective weighting of time length is irrelevant to result"
+    ],
+    "coherence_assessment": "internally consistent under a teleological view of time but collapses if duration itself constitutes part of the effect",
+    "conditions_for_usefulness": "patient experiences distress specifically from overvaluing temporal length rather than from objective differences in duration or intensity",
+    "conditions_for_misleading": "actual differences in duration produce materially different psychological, physiological or behavioral sequelae that the statement dismisses"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 152,
+  "error": "",
+  "retry_count": 0
+}

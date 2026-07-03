@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0014__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:21:36.215012+00:00",
+  "wall_clock_seconds": 7.625830411911011,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions to differentiate two types of moral/emotional failings—anger versus lust—by characterizing anger as a grief-driven withdrawal from reason, and lust as a pleasure-driven weakness that reveals a more impotent and unmanly disposition. It aims to instill self-reflection and moral discernment in the client.\",\n  \"implicit_claims\": [\n    \"Anger involves a kind of grief and self-contraction that distances one from reason.\",\n    \"Lust involves being overcome by pleasure, which reveals a weaker, less masculine character.\",\n    \"One can compare and rank these two failings in terms of severity or moral quality (lust being worse).\",\n    \"Reason is a desirable standard from which both anger and lust deviate.\",\n    \"The speaker assumes a traditional gender-normative framework (unmanlike as pejorative).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in its contrastive structure, linking each affect to distinct mechanisms (grief/contraction vs. pleasure/being overcome) and evaluative consequences (turning from reason vs. revealing impotence). However, the causal claims (e.g., that anger necessarily turns from reason) are oversimplified and may not hold in all contexts.\",\n  \"conditions_for_usefulness\": [\n    \"The client must resonate with the moral or philosophical framing (e.g., Stoic or virtue-ethics perspective).\",\n    \"The client should be able to reflect on their own experiences of anger and lust in relation to the described patterns.\",\n    \"The therapeutic setting values introspection and self-judgment regarding emotional responses.\",\n    \"The client accepts the implied hierarchy that lust is more shameful or disempowering than anger.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the client internalizes unwarranted shame about sexuality or normal desires.\",\n    \"If the statement reinforces rigid gender stereotypes (unmanlike) in a way that harms the client’s self-concept.\",\n    \"If the client conflates the statement with clinical truth rather than a perspective for reflection.\",\n    \"If the claim about anger and reason is taken as absolute, invalidating legitimate anger in response to injustice.\",\n    \"If the client uses it to harshly judge themselves or others without contextual nuance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions to differentiate two types of moral/emotional failings—anger versus lust—by characterizing anger as a grief-driven withdrawal from reason, and lust as a pleasure-driven weakness that reveals a more impotent and unmanly disposition. It aims to instill self-reflection and moral discernment in the client.",
+    "implicit_claims": [
+      "Anger involves a kind of grief and self-contraction that distances one from reason.",
+      "Lust involves being overcome by pleasure, which reveals a weaker, less masculine character.",
+      "One can compare and rank these two failings in terms of severity or moral quality (lust being worse).",
+      "Reason is a desirable standard from which both anger and lust deviate.",
+      "The speaker assumes a traditional gender-normative framework (unmanlike as pejorative)."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its contrastive structure, linking each affect to distinct mechanisms (grief/contraction vs. pleasure/being overcome) and evaluative consequences (turning from reason vs. revealing impotence). However, the causal claims (e.g., that anger necessarily turns from reason) are oversimplified and may not hold in all contexts.",
+    "conditions_for_usefulness": [
+      "The client must resonate with the moral or philosophical framing (e.g., Stoic or virtue-ethics perspective).",
+      "The client should be able to reflect on their own experiences of anger and lust in relation to the described patterns.",
+      "The therapeutic setting values introspection and self-judgment regarding emotional responses.",
+      "The client accepts the implied hierarchy that lust is more shameful or disempowering than anger."
+    ],
+    "conditions_for_misleading": [
+      "If the client internalizes unwarranted shame about sexuality or normal desires.",
+      "If the statement reinforces rigid gender stereotypes (unmanlike) in a way that harms the client’s self-concept.",
+      "If the client conflates the statement with clinical truth rather than a perspective for reflection.",
+      "If the claim about anger and reason is taken as absolute, invalidating legitimate anger in response to injustice.",
+      "If the client uses it to harshly judge themselves or others without contextual nuance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 471,
+  "error": "",
+  "retry_count": 0
+}

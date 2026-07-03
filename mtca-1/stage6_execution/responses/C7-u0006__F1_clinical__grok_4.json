@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0006__F1_clinical__grok_4",
+  "unit_id": "C7-u0006",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:19:53.338558+00:00",
+  "wall_clock_seconds": 10.331167459487915,
+  "raw_response": "{\n  \"communicative_function\": \"affirmation of a submissive request for external intervention to alter personal traits\",\n  \"implicit_claims\": [\n    \"a 'Him' exists with capacity to remove psychological or behavioral shortcomings\",\n    \"shortcomings are removable entities rather than enduring patterns requiring active skill-building\",\n    \"humility is the necessary stance for such change to occur\",\n    \"the speaker is part of a collective ('our') sharing this process\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a theistic or 12-step ontology but presupposes unverifiable external agency, reducing coherence in strictly secular or evidence-based models\",\n  \"conditions_for_usefulness\": \"the individual holds compatible spiritual beliefs, derives reduced shame and increased motivation from the practice, and pairs it with concrete behavioral steps\",\n  \"conditions_for_misleading\": \"the statement is presented as sufficient without complementary evidence-based methods, or fosters passivity by attributing change exclusively to external removal rather than personal effort\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmation of a submissive request for external intervention to alter personal traits",
+    "implicit_claims": [
+      "a 'Him' exists with capacity to remove psychological or behavioral shortcomings",
+      "shortcomings are removable entities rather than enduring patterns requiring active skill-building",
+      "humility is the necessary stance for such change to occur",
+      "the speaker is part of a collective ('our') sharing this process"
+    ],
+    "coherence_assessment": "internally consistent within a theistic or 12-step ontology but presupposes unverifiable external agency, reducing coherence in strictly secular or evidence-based models",
+    "conditions_for_usefulness": "the individual holds compatible spiritual beliefs, derives reduced shame and increased motivation from the practice, and pairs it with concrete behavioral steps",
+    "conditions_for_misleading": "the statement is presented as sufficient without complementary evidence-based methods, or fosters passivity by attributing change exclusively to external removal rather than personal effort"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 269,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0
+}

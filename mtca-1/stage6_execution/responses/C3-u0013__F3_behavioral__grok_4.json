@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F3_behavioral__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:17:15.249716+00:00",
+  "wall_clock_seconds": 5.47554612159729,
+  "raw_response": "{\n  \"communicative_function\": \"asserting a normative hierarchy of moral failings to guide value-aligned self-assessment and behavioral restraint\",\n  \"implicit_claims\": [\n    \"sins admit of comparative magnitude\",\n    \"lust-driven wrongs are morally worse than anger-driven wrongs\",\n    \"Theophrastus's ranking is philosophically authoritative\",\n    \"such a ranking should inform personal conduct or judgment\"\n  ],\n  \"coherence_assessment\": \"internally consistent once the parenthetical qualifier is accepted; the comparative claim follows directly from the cited authority\",\n  \"conditions_for_usefulness\": \"the recipient accepts sin as a meaningful category, believes comparative moral weighting can usefully direct self-regulation, and treats the hierarchy as actionable for behavior change\",\n  \"conditions_for_misleading\": \"no objective metric exists for ranking sins, the lust/anger distinction collapses under scrutiny, or the claim is used to justify differential leniency toward one's own anger-driven conduct\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserting a normative hierarchy of moral failings to guide value-aligned self-assessment and behavioral restraint",
+    "implicit_claims": [
+      "sins admit of comparative magnitude",
+      "lust-driven wrongs are morally worse than anger-driven wrongs",
+      "Theophrastus's ranking is philosophically authoritative",
+      "such a ranking should inform personal conduct or judgment"
+    ],
+    "coherence_assessment": "internally consistent once the parenthetical qualifier is accepted; the comparative claim follows directly from the cited authority",
+    "conditions_for_usefulness": "the recipient accepts sin as a meaningful category, believes comparative moral weighting can usefully direct self-regulation, and treats the hierarchy as actionable for behavior change",
+    "conditions_for_misleading": "no objective metric exists for ranking sins, the lust/anger distinction collapses under scrutiny, or the claim is used to justify differential leniency toward one's own anger-driven conduct"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 308,
+  "output_tokens": 194,
+  "error": "",
+  "retry_count": 0
+}

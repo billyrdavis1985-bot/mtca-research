@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0000__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:53:18.664780+00:00",
+  "wall_clock_seconds": 5.171266317367554,
+  "raw_response": "{\n  \"communicative_function\": \"This statement confesses a personal failing and redefines the speaker's relationship with alcohol as one of powerlessness, serving as a first step in a recovery framework.\",\n  \"implicit_claims\": [\n    \"Alcohol addiction is a condition beyond the individual's control.\",\n    \"Admitting powerlessness is a necessary prerequisite for recovery.\",\n    \"The speaker's life was previously unmanageable due to alcohol.\",\n    \"A higher power or external support may be required for change.\",\n    \"The group sharing this statement collectively validates this experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within the context of 12-step programs: it builds a logical progression from admitting lack of control to acknowledging unmanageability, though it may seem paradoxical if interpreted as resignation rather than surrender.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely acknowledges their addiction.\",\n    \"The statement is part of a supportive therapeutic or recovery context.\",\n    \"The speaker is willing to accept help or follow a structured program.\",\n    \"The audience understands the statement as a step toward recovery, not defeat.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to justify harmful behavior without seeking change.\",\n    \"It is applied to situations where the speaker has genuine control or agency.\",\n    \"The concept of 'powerlessness' is taken as an absolute rather than a starting point.\",\n    \"It discourages personal responsibility or medical intervention in treatable conditions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement confesses a personal failing and redefines the speaker's relationship with alcohol as one of powerlessness, serving as a first step in a recovery framework.",
+    "implicit_claims": [
+      "Alcohol addiction is a condition beyond the individual's control.",
+      "Admitting powerlessness is a necessary prerequisite for recovery.",
+      "The speaker's life was previously unmanageable due to alcohol.",
+      "A higher power or external support may be required for change.",
+      "The group sharing this statement collectively validates this experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent within the context of 12-step programs: it builds a logical progression from admitting lack of control to acknowledging unmanageability, though it may seem paradoxical if interpreted as resignation rather than surrender.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely acknowledges their addiction.",
+      "The statement is part of a supportive therapeutic or recovery context.",
+      "The speaker is willing to accept help or follow a structured program.",
+      "The audience understands the statement as a step toward recovery, not defeat."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to justify harmful behavior without seeking change.",
+      "It is applied to situations where the speaker has genuine control or agency.",
+      "The concept of 'powerlessness' is taken as an absolute rather than a starting point.",
+      "It discourages personal responsibility or medical intervention in treatable conditions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 311,
+  "error": "",
+  "retry_count": 0
+}

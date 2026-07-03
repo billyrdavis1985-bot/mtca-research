@@ -1,0 +1,30 @@
+{
+  "call_id": "C3-u0038__F1_clinical__gpt_4o",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:38:22.871206+00:00",
+  "wall_clock_seconds": 2.3716354370117188,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement is intended to focus attention on the present moment by highlighting that people cannot truly possess or relinquish the past or future.\",\n    \"implicit_claims\": [\n        \"The past and future are not within a person's control.\",\n        \"Focusing on the present moment is more beneficial than dwelling on past or future events.\"\n    ],\n    \"coherence_assessment\": \"The statement is internally coherent as it provides a logical reasoning regarding the impossibility of 'parting with' time periods that are not present.\",\n    \"conditions_for_usefulness\": \"This statement would be useful if an individual is struggling with anxiety or regret related to past or future events and would benefit from mindfulness or a present-oriented approach.\",\n    \"conditions_for_misleading\": \"This statement could be misleading if interpreted to mean that past experiences or future planning have no impact or value, potentially leading someone to neglect valuable insights from past experiences or necessary preparations for the future.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is intended to focus attention on the present moment by highlighting that people cannot truly possess or relinquish the past or future.",
+    "implicit_claims": [
+      "The past and future are not within a person's control.",
+      "Focusing on the present moment is more beneficial than dwelling on past or future events."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it provides a logical reasoning regarding the impossibility of 'parting with' time periods that are not present.",
+    "conditions_for_usefulness": "This statement would be useful if an individual is struggling with anxiety or regret related to past or future events and would benefit from mindfulness or a present-oriented approach.",
+    "conditions_for_misleading": "This statement could be misleading if interpreted to mean that past experiences or future planning have no impact or value, potentially leading someone to neglect valuable insights from past experiences or necessary preparations for the future."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0
+}

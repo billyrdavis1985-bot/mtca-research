@@ -1,0 +1,48 @@
+{
+  "call_id": "C3-u0013__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:16:54.647457+00:00",
+  "wall_clock_seconds": 15.51125979423523,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is citing philosophical authority (Theophrastus) to endorse a moral hierarchy of sins, distinguishing between sins of lust and sins of anger, while simultaneously hedging with a caveat that such comparisons are only valid in a 'vulgar' or common-sense framework. It functions as a qualified affirmation of a value judgment about moral culpability.\",\n  \"implicit_claims\": [\n    \"Sins can be ranked or compared in terms of severity, at least in a common or practical sense.\",\n    \"Theophrastus is a credible philosophical authority on moral matters.\",\n    \"Lust-driven sins are worse than anger-driven sins because lust involves deliberate desire, while anger is more impulsive.\",\n    \"There exists a 'higher' philosophical framework where such comparisons may be inappropriate or insufficient.\",\n    \"Moral agency and premeditation increase the gravity of a transgression.\",\n    \"Anger diminishes rational control, which may partially excuse sins committed under its influence.\",\n    \"The speaker accepts this hierarchy as broadly correct, even if with reservations about the comparison method.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent but contains a notable tension: the speaker acknowledges that comparing sins is only valid in a 'vulgar' or ordinary sense, yet proceeds to endorse the comparison as philosophically sound. This hedge somewhat undermines the authority of the claim while simultaneously invoking philosophical credibility. The logic — that lust involves more deliberate will than anger — is a recognizable Aristotelian-adjacent argument and holds together reasonably well.\",\n  \"conditions_for_usefulness\": [\n    \"A shared moral framework exists in which degrees of culpability are meaningful and actionable.\",\n    \"The audience accepts that intentionality and premeditation are relevant to moral severity.\",\n    \"The distinction between lust and anger as motivators is psychologically and behaviorally meaningful in context.\",\n    \"The statement is used to guide reflection on moral responsibility rather than to excuse or condemn specific individuals.\",\n    \"Theophrastus's authority is recognized or the underlying reasoning is assessed independently.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'vulgar' caveat is ignored, leading audiences to treat the hierarchy as an absolute or universal moral truth.\",\n    \"The citation of Theophrastus is used to lend false authority to what is essentially a contested moral claim.\",\n    \"The comparison is applied prescriptively to judge individuals rather than as a general philosophical observation.\",\n    \"Cultural or contextual differences make the lust/anger distinction morally irrelevant or harmful in application.\",\n    \"The statement is used to minimize anger-driven harms (e.g., violence) by framing them as less culpable than lust-driven ones.\",\n    \"It presupposes a rigid taxonomy of sin that may not map onto diverse ethical systems or psychological realities.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is citing philosophical authority (Theophrastus) to endorse a moral hierarchy of sins, distinguishing between sins of lust and sins of anger, while simultaneously hedging with a caveat that such comparisons are only valid in a 'vulgar' or common-sense framework. It functions as a qualified affirmation of a value judgment about moral culpability.",
+    "implicit_claims": [
+      "Sins can be ranked or compared in terms of severity, at least in a common or practical sense.",
+      "Theophrastus is a credible philosophical authority on moral matters.",
+      "Lust-driven sins are worse than anger-driven sins because lust involves deliberate desire, while anger is more impulsive.",
+      "There exists a 'higher' philosophical framework where such comparisons may be inappropriate or insufficient.",
+      "Moral agency and premeditation increase the gravity of a transgression.",
+      "Anger diminishes rational control, which may partially excuse sins committed under its influence.",
+      "The speaker accepts this hierarchy as broadly correct, even if with reservations about the comparison method."
+    ],
+    "coherence_assessment": "The statement is internally coherent but contains a notable tension: the speaker acknowledges that comparing sins is only valid in a 'vulgar' or ordinary sense, yet proceeds to endorse the comparison as philosophically sound. This hedge somewhat undermines the authority of the claim while simultaneously invoking philosophical credibility. The logic — that lust involves more deliberate will than anger — is a recognizable Aristotelian-adjacent argument and holds together reasonably well.",
+    "conditions_for_usefulness": [
+      "A shared moral framework exists in which degrees of culpability are meaningful and actionable.",
+      "The audience accepts that intentionality and premeditation are relevant to moral severity.",
+      "The distinction between lust and anger as motivators is psychologically and behaviorally meaningful in context.",
+      "The statement is used to guide reflection on moral responsibility rather than to excuse or condemn specific individuals.",
+      "Theophrastus's authority is recognized or the underlying reasoning is assessed independently."
+    ],
+    "conditions_for_misleading": [
+      "The 'vulgar' caveat is ignored, leading audiences to treat the hierarchy as an absolute or universal moral truth.",
+      "The citation of Theophrastus is used to lend false authority to what is essentially a contested moral claim.",
+      "The comparison is applied prescriptively to judge individuals rather than as a general philosophical observation.",
+      "Cultural or contextual differences make the lust/anger distinction morally irrelevant or harmful in application.",
+      "The statement is used to minimize anger-driven harms (e.g., violence) by framing them as less culpable than lust-driven ones.",
+      "It presupposes a rigid taxonomy of sin that may not map onto diverse ethical systems or psychological realities."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 207,
+  "output_tokens": 670,
+  "error": "",
+  "retry_count": 0
+}

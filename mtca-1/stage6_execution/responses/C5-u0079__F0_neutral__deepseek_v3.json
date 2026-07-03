@@ -1,0 +1,41 @@
+{
+  "call_id": "C5-u0079__F0_neutral__deepseek_v3",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:59:46.472055+00:00",
+  "wall_clock_seconds": 5.669981002807617,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a universal causal relationship between thought and suffering, providing a metaphysical or psychological explanation for suffering that invites introspection or moral responsibility.\",\n  \"implicit_claims\": [\n    \"Suffering has a single, mental cause (wrong thought).\",\n    \"All instances of suffering are preventable or avoidable by correcting thought.\",\n    \"External or physical causes of suffering (e.g., illness, injury, loss) are reducible to or originate in wrong thought.\",\n    \"There exists a correct or right way to think that can eliminate suffering.\",\n    \"The speaker implies a deterministic or idealist worldview where mental states entirely determine experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a universal generalization, but its truth depends on an unproven premise that all suffering is mentally caused. It may be inconsistent with empirical evidence of non-mental suffering (e.g., physical trauma, genetic disorders, natural disasters) unless 'wrong thought' is defined so broadly as to be tautological.\",\n  \"conditions_for_usefulness\": [\n    \"The listener accepts a philosophical framework (e.g., certain forms of Buddhism or Stoicism) where mental attitude shapes all experience.\",\n    \"The statement is used as a motivational or therapeutic prompt to encourage self-reflection and mental discipline, not as a literal claim about all suffering.\",\n    \"It is applied within contexts where the primary cause of suffering is indeed cognitive (e.g., anxiety, resentment, distorted beliefs).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Applied to suffering from clear physical or external causes (e.g., famine, chronic pain, bereavement) without acknowledging their independence from thought.\",\n    \"If used to blame individuals for their suffering (e.g., victims of violence or illness) by implying they could have avoided it with 'right thought'.\",\n    \"If taken as an absolute, invariable truth that denies the role of random chance, biology, or systemic injustice in causing suffering.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a universal causal relationship between thought and suffering, providing a metaphysical or psychological explanation for suffering that invites introspection or moral responsibility.",
+    "implicit_claims": [
+      "Suffering has a single, mental cause (wrong thought).",
+      "All instances of suffering are preventable or avoidable by correcting thought.",
+      "External or physical causes of suffering (e.g., illness, injury, loss) are reducible to or originate in wrong thought.",
+      "There exists a correct or right way to think that can eliminate suffering.",
+      "The speaker implies a deterministic or idealist worldview where mental states entirely determine experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a universal generalization, but its truth depends on an unproven premise that all suffering is mentally caused. It may be inconsistent with empirical evidence of non-mental suffering (e.g., physical trauma, genetic disorders, natural disasters) unless 'wrong thought' is defined so broadly as to be tautological.",
+    "conditions_for_usefulness": [
+      "The listener accepts a philosophical framework (e.g., certain forms of Buddhism or Stoicism) where mental attitude shapes all experience.",
+      "The statement is used as a motivational or therapeutic prompt to encourage self-reflection and mental discipline, not as a literal claim about all suffering.",
+      "It is applied within contexts where the primary cause of suffering is indeed cognitive (e.g., anxiety, resentment, distorted beliefs)."
+    ],
+    "conditions_for_misleading": [
+      "Applied to suffering from clear physical or external causes (e.g., famine, chronic pain, bereavement) without acknowledging their independence from thought.",
+      "If used to blame individuals for their suffering (e.g., victims of violence or illness) by implying they could have avoided it with 'right thought'.",
+      "If taken as an absolute, invariable truth that denies the role of random chance, biology, or systemic injustice in causing suffering."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 132,
+  "output_tokens": 413,
+  "error": "",
+  "retry_count": 0
+}

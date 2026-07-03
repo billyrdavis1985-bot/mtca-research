@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0007__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:29:07.862454+00:00",
+  "wall_clock_seconds": 3.470304250717163,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is an introspective observation about the relationship between behavior and mood, suggesting that behavior often leads mood rather than the opposite.\",\n  \"implicit_claims\": [\n    \"Mood and behavior are causally linked.\",\n    \"The direction of causality is typically from behavior to mood.\",\n    \"The speaker's self-awareness is reliable.\",\n    \"This pattern is generalizable beyond the speaker's own experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a subjective observation; it does not contradict itself, though it may oversimplify bidirectional influences.\",\n  \"conditions_for_usefulness\": [\n    \"It is used to promote practical strategies like acting to improve mood (e.g., behavioral activation).\",\n    \"It is applied in contexts where self-regulation or mental health is being discussed.\",\n    \"The listener or system recognizes that behavior can be a lever for emotional change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a universal law ignoring cases where mood drives behavior (e.g., depression).\",\n    \"If used to dismiss the validity of emotional experiences or the need for emotional support.\",\n    \"If the speaker lacks accurate self-insight or is in a context where external factors dominate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is an introspective observation about the relationship between behavior and mood, suggesting that behavior often leads mood rather than the opposite.",
+    "implicit_claims": [
+      "Mood and behavior are causally linked.",
+      "The direction of causality is typically from behavior to mood.",
+      "The speaker's self-awareness is reliable.",
+      "This pattern is generalizable beyond the speaker's own experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a subjective observation; it does not contradict itself, though it may oversimplify bidirectional influences.",
+    "conditions_for_usefulness": [
+      "It is used to promote practical strategies like acting to improve mood (e.g., behavioral activation).",
+      "It is applied in contexts where self-regulation or mental health is being discussed.",
+      "The listener or system recognizes that behavior can be a lever for emotional change."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a universal law ignoring cases where mood drives behavior (e.g., depression).",
+      "If used to dismiss the validity of emotional experiences or the need for emotional support.",
+      "If the speaker lacks accurate self-insight or is in a context where external factors dominate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 263,
+  "error": "",
+  "retry_count": 0
+}

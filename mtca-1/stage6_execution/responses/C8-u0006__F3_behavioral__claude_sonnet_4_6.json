@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0006__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:21:55.953129+00:00",
+  "wall_clock_seconds": 13.016761541366577,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a first-person volitional commitment, signaling readiness to override fear-based avoidance in favor of evidence-informed action. It also implicitly performs self-definition, positioning the speaker as someone who values rationality and growth over comfort.\",\n  \"implicit_claims\": [\n    \"Fear is a meaningful and recognizable internal signal that the speaker can identify reliably.\",\n    \"Evidence can be gathered or consulted before acting on fear-inducing situations.\",\n    \"The speaker has sufficient epistemic access to evaluate what 'likely to help' means in a given context.\",\n    \"Fear and evidence-based benefit can co-occur in the same situation.\",\n    \"Acting despite fear is instrumentally valuable when justified by evidence.\",\n    \"The speaker has or can develop the agency to act contrary to their emotional state.\",\n    \"There exists a threshold of evidence sufficiency that the speaker can identify.\",\n    \"'Helping' has a stable enough meaning for the speaker to use it as a criterion.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The conditional structure ('when the evidence suggests') appropriately limits the commitment, avoiding blanket recklessness. The pairing of emotional acknowledgment ('scare me') with epistemic grounding ('evidence suggests') creates a reasonable tension that the commitment is designed to resolve. No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has developed reliable methods for gathering or interpreting relevant evidence.\",\n    \"The speaker can distinguish fear rooted in accurate threat assessment from fear rooted in bias or avoidance.\",\n    \"The commitment is applied to situations where fear is genuinely inhibiting beneficial action.\",\n    \"The speaker revisits and updates what counts as sufficient evidence over time.\",\n    \"There are concrete situations in the speaker's life where this commitment would be activated.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates 'evidence suggests benefit' with 'I want to do this anyway,' using the frame to rationalize impulsive decisions.\",\n    \"Fear itself is an important adaptive signal in the specific contexts where the commitment is applied, making its suppression harmful.\",\n    \"The speaker lacks the expertise to evaluate evidence in the relevant domain, leading to overconfidence.\",\n    \"The commitment becomes a performative identity claim rather than an action-guiding principle, creating cognitive dissonance without behavioral change.\",\n    \"The statement is used to pressure others to act despite fear by framing fear-avoidance as irrational.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a first-person volitional commitment, signaling readiness to override fear-based avoidance in favor of evidence-informed action. It also implicitly performs self-definition, positioning the speaker as someone who values rationality and growth over comfort.",
+    "implicit_claims": [
+      "Fear is a meaningful and recognizable internal signal that the speaker can identify reliably.",
+      "Evidence can be gathered or consulted before acting on fear-inducing situations.",
+      "The speaker has sufficient epistemic access to evaluate what 'likely to help' means in a given context.",
+      "Fear and evidence-based benefit can co-occur in the same situation.",
+      "Acting despite fear is instrumentally valuable when justified by evidence.",
+      "The speaker has or can develop the agency to act contrary to their emotional state.",
+      "There exists a threshold of evidence sufficiency that the speaker can identify.",
+      "'Helping' has a stable enough meaning for the speaker to use it as a criterion."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The conditional structure ('when the evidence suggests') appropriately limits the commitment, avoiding blanket recklessness. The pairing of emotional acknowledgment ('scare me') with epistemic grounding ('evidence suggests') creates a reasonable tension that the commitment is designed to resolve. No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker has developed reliable methods for gathering or interpreting relevant evidence.",
+      "The speaker can distinguish fear rooted in accurate threat assessment from fear rooted in bias or avoidance.",
+      "The commitment is applied to situations where fear is genuinely inhibiting beneficial action.",
+      "The speaker revisits and updates what counts as sufficient evidence over time.",
+      "There are concrete situations in the speaker's life where this commitment would be activated."
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates 'evidence suggests benefit' with 'I want to do this anyway,' using the frame to rationalize impulsive decisions.",
+      "Fear itself is an important adaptive signal in the specific contexts where the commitment is applied, making its suppression harmful.",
+      "The speaker lacks the expertise to evaluate evidence in the relevant domain, leading to overconfidence.",
+      "The commitment becomes a performative identity claim rather than an action-guiding principle, creating cognitive dissonance without behavioral change.",
+      "The statement is used to pressure others to act despite fear by framing fear-avoidance as irrational."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 582,
+  "error": "",
+  "retry_count": 0
+}

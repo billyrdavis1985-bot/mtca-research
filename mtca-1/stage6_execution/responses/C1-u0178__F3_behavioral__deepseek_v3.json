@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0178__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:15:43.076732+00:00",
+  "wall_clock_seconds": 5.352839231491089,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a directive or prescriptive commitment, instructing the reader to anticipate and experience hunger at specific times and to eat without overeating, framed as a behavioral intention.\",\n  \"implicit_claims\": [\n    \"Hunger is an agreeable and desirable sensation.\",\n    \"Hunger can be reliably scheduled to occur three times daily at fixed meal times.\",\n    \"The reader currently does not experience hunger at these times or overeats, necessitating this commitment.\",\n    \"The sensation of hunger is a sufficient and appropriate cue for eating.\",\n    \"Overeating is a potential problem that can be avoided through conscious intention.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that it presents a clear sequence (feel hunger → eat → enjoy → stop before overeating). However, it assumes a mechanistic regularity of hunger that conflicts with biological variability and satiety cues, creating tension with real-world physiology.\",\n  \"conditions_for_usefulness\": [\n    \"The reader has a stable daily routine with consistent meal times.\",\n    \"The reader is capable of recognizing and distinguishing hunger from other sensations.\",\n    \"The reader has sufficient access to food at those times.\",\n    \"The reader has no medical condition that disrupts normal hunger signals.\",\n    \"The reader is motivated to change eating habits and can follow structured instructions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The reader has a medical condition (e.g., diabetes, hypoglycemia) that makes scheduled hunger risky.\",\n    \"The reader interprets hunger as a sign of deprivation or as a cue to overeat later.\",\n    \"The reader has an eating disorder where structured hunger scheduling could worsen symptoms.\",\n    \"The statement is taken as a universal truth rather than a personalized commitment.\",\n    \"The reader feels shame or guilt if they do not experience hunger at the prescribed times.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a directive or prescriptive commitment, instructing the reader to anticipate and experience hunger at specific times and to eat without overeating, framed as a behavioral intention.",
+    "implicit_claims": [
+      "Hunger is an agreeable and desirable sensation.",
+      "Hunger can be reliably scheduled to occur three times daily at fixed meal times.",
+      "The reader currently does not experience hunger at these times or overeats, necessitating this commitment.",
+      "The sensation of hunger is a sufficient and appropriate cue for eating.",
+      "Overeating is a potential problem that can be avoided through conscious intention."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that it presents a clear sequence (feel hunger → eat → enjoy → stop before overeating). However, it assumes a mechanistic regularity of hunger that conflicts with biological variability and satiety cues, creating tension with real-world physiology.",
+    "conditions_for_usefulness": [
+      "The reader has a stable daily routine with consistent meal times.",
+      "The reader is capable of recognizing and distinguishing hunger from other sensations.",
+      "The reader has sufficient access to food at those times.",
+      "The reader has no medical condition that disrupts normal hunger signals.",
+      "The reader is motivated to change eating habits and can follow structured instructions."
+    ],
+    "conditions_for_misleading": [
+      "The reader has a medical condition (e.g., diabetes, hypoglycemia) that makes scheduled hunger risky.",
+      "The reader interprets hunger as a sign of deprivation or as a cue to overeat later.",
+      "The reader has an eating disorder where structured hunger scheduling could worsen symptoms.",
+      "The statement is taken as a universal truth rather than a personalized commitment.",
+      "The reader feels shame or guilt if they do not experience hunger at the prescribed times."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 219,
+  "output_tokens": 386,
+  "error": "",
+  "retry_count": 0
+}

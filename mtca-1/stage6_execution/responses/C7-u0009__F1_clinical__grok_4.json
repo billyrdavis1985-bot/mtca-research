@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0009__F1_clinical__grok_4",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:30:50.028117+00:00",
+  "wall_clock_seconds": 11.565611362457275,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming an ongoing behavioral commitment to self-monitoring and accountability\",\n  \"implicit_claims\": [\n    \"Personal inventory is a continuing, repeatable process rather than a one-time event\",\n    \"Wrongs are identifiable through inventory and can be promptly admitted\",\n    \"Admission of wrongs is the appropriate and timely response to self-identified errors\",\n    \"The practice applies collectively ('we') as well as individually\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the two clauses form a logical sequence of detection followed by corrective action with no contradiction\",\n  \"conditions_for_usefulness\": \"The user possesses sufficient self-awareness and emotional regulation to conduct accurate inventory, and the practice occurs within a supportive therapeutic frame that frames admission as growth rather than punishment\",\n  \"conditions_for_misleading\": \"Inventory is distorted by excessive self-blame or denial, 'wrong' is applied to neutral or healthy behavior, or admission becomes performative without corresponding behavioral change\"\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming an ongoing behavioral commitment to self-monitoring and accountability",
+    "implicit_claims": [
+      "Personal inventory is a continuing, repeatable process rather than a one-time event",
+      "Wrongs are identifiable through inventory and can be promptly admitted",
+      "Admission of wrongs is the appropriate and timely response to self-identified errors",
+      "The practice applies collectively ('we') as well as individually"
+    ],
+    "coherence_assessment": "Internally coherent: the two clauses form a logical sequence of detection followed by corrective action with no contradiction",
+    "conditions_for_usefulness": "The user possesses sufficient self-awareness and emotional regulation to conduct accurate inventory, and the practice occurs within a supportive therapeutic frame that frames admission as growth rather than punishment",
+    "conditions_for_misleading": "Inventory is distorted by excessive self-blame or denial, 'wrong' is applied to neutral or healthy behavior, or admission becomes performative without corresponding behavioral change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 273,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0
+}

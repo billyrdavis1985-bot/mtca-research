@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0009__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:30:56.165028+00:00",
+  "wall_clock_seconds": 5.826708555221558,
+  "raw_response": "{\n  \"communicative_function\": \"Affirms and reinforces a commitment to ongoing self-reflection and accountability, specifically acknowledging and correcting mistakes in interpersonal or behavioral contexts.\",\n  \"implicit_claims\": [\n    \"The speaker has a capacity for self-examination and honesty about their own errors.\",\n    \"Errors are identifiable and can be promptly admitted.\",\n    \"Admitting wrongdoing is a morally or therapeutically valuable action.\",\n    \"The speaker is engaged in a continuous process of personal improvement.\",\n    \"Past errors are not shameful but part of a growth process.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a sequential, recursive action (taking inventory, then promptly admitting errors) that aligns with a goal of personal accountability and behavioral change.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a safe environment where admitting mistakes is met with constructive rather than punitive responses.\",\n    \"The speaker possesses self-awareness and willingness to identify their own faults.\",\n    \"The statement is used as a cognitive or behavioral prompt in a therapeutic or recovery context (e.g., 12-step programs).\",\n    \"The speaker has realistic expectations about the frequency and nature of errors (i.e., it is feasible to admit when wrong).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used in a context where admitting wrongdoing is used to manipulate or gain false absolution without genuine change.\",\n    \"If the speaker's 'personal inventory' is overly harsh or punitive, leading to excessive self-blame rather than balanced reflection.\",\n    \"If the statement implies that all errors must be immediately admitted without considering nuance or context (e.g., when an apology would cause harm or be inappropriate).\",\n    \"If it fosters a rigid or perfectionist standard where any failure to immediately admit an error is seen as a moral failing.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirms and reinforces a commitment to ongoing self-reflection and accountability, specifically acknowledging and correcting mistakes in interpersonal or behavioral contexts.",
+    "implicit_claims": [
+      "The speaker has a capacity for self-examination and honesty about their own errors.",
+      "Errors are identifiable and can be promptly admitted.",
+      "Admitting wrongdoing is a morally or therapeutically valuable action.",
+      "The speaker is engaged in a continuous process of personal improvement.",
+      "Past errors are not shameful but part of a growth process."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a sequential, recursive action (taking inventory, then promptly admitting errors) that aligns with a goal of personal accountability and behavioral change.",
+    "conditions_for_usefulness": [
+      "The speaker has a safe environment where admitting mistakes is met with constructive rather than punitive responses.",
+      "The speaker possesses self-awareness and willingness to identify their own faults.",
+      "The statement is used as a cognitive or behavioral prompt in a therapeutic or recovery context (e.g., 12-step programs).",
+      "The speaker has realistic expectations about the frequency and nature of errors (i.e., it is feasible to admit when wrong)."
+    ],
+    "conditions_for_misleading": [
+      "If used in a context where admitting wrongdoing is used to manipulate or gain false absolution without genuine change.",
+      "If the speaker's 'personal inventory' is overly harsh or punitive, leading to excessive self-blame rather than balanced reflection.",
+      "If the statement implies that all errors must be immediately admitted without considering nuance or context (e.g., when an apology would cause harm or be inappropriate).",
+      "If it fosters a rigid or perfectionist standard where any failure to immediately admit an error is seen as a moral failing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 378,
+  "error": "",
+  "retry_count": 0
+}

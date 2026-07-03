@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0002__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:03:51.731930+00:00",
+  "wall_clock_seconds": 5.6883604526519775,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is a declaration of a personal commitment to surrender control and trust a higher power, often used in the context of spiritual or recovery programs.\",\n  \"implicit_claims\": [\n    \"There is a God or a higher power that can be understood by the speaker.\",\n    \"The speaker has the capacity to turn their will and life over to this God.\",\n    \"This action is beneficial or necessary for the speaker's well-being or moral growth.\",\n    \"The speaker's previous state involved holding onto their own will and life, which was problematic.\",\n    \"The concept of 'care' implies that this God is benevolent and actively involved.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a behavioral commitment, as it expresses a clear intention to perform a specific action (turning over will and life) toward a defined entity (God as understood). However, the vagueness of 'as we understood Him' allows for multiple interpretations, which can affect coherence across different individuals.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes in a higher power or is open to such a belief.\",\n    \"The speaker is seeking relief from self-centeredness or addiction-related behaviors.\",\n    \"The speaker is part of a support system (e.g., 12-step group) that reinforces this commitment.\",\n    \"The speaker has a clear, functional understanding of what 'turning over' looks like in daily actions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker does not actually believe in God or a higher power but uses the statement performatively.\",\n    \"The statement is used to imply surrender without any subsequent behavioral change (false commitment).\",\n    \"The term 'God as we understood Him' is used to justify passivity or avoidance of personal responsibility.\",\n    \"The statement is presented as universally applicable, ignoring that some individuals lack any conception of a caring higher power.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is a declaration of a personal commitment to surrender control and trust a higher power, often used in the context of spiritual or recovery programs.",
+    "implicit_claims": [
+      "There is a God or a higher power that can be understood by the speaker.",
+      "The speaker has the capacity to turn their will and life over to this God.",
+      "This action is beneficial or necessary for the speaker's well-being or moral growth.",
+      "The speaker's previous state involved holding onto their own will and life, which was problematic.",
+      "The concept of 'care' implies that this God is benevolent and actively involved."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a behavioral commitment, as it expresses a clear intention to perform a specific action (turning over will and life) toward a defined entity (God as understood). However, the vagueness of 'as we understood Him' allows for multiple interpretations, which can affect coherence across different individuals.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes in a higher power or is open to such a belief.",
+      "The speaker is seeking relief from self-centeredness or addiction-related behaviors.",
+      "The speaker is part of a support system (e.g., 12-step group) that reinforces this commitment.",
+      "The speaker has a clear, functional understanding of what 'turning over' looks like in daily actions."
+    ],
+    "conditions_for_misleading": [
+      "The speaker does not actually believe in God or a higher power but uses the statement performatively.",
+      "The statement is used to imply surrender without any subsequent behavioral change (false commitment).",
+      "The term 'God as we understood Him' is used to justify passivity or avoidance of personal responsibility.",
+      "The statement is presented as universally applicable, ignoring that some individuals lack any conception of a caring higher power."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 401,
+  "error": "",
+  "retry_count": 0
+}

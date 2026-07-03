@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0011__F0_neutral__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:41:43.616805+00:00",
+  "wall_clock_seconds": 6.051118850708008,
+  "raw_response": "{\n  \"communicative_function\": \"The statement articulates the concluding step of a recovery program, describing the expected behavioral and spiritual outcomes of following a prior set of steps. It serves as both a personal testimony and an imperative for ongoing action.\",\n  \"implicit_claims\": [\n    \"That a 'spiritual awakening' is a real, identifiable experience that results from completing a specific sequence of steps.\",\n    \"That the speaker and intended audience have undergone or are capable of undergoing such an awakening.\",\n    \"That carrying a message to other alcoholics is an appropriate and necessary response to that awakening.\",\n    \"That the principles of the recovery program are universal enough to apply to 'all affairs' of life, not just addiction.\",\n    \"That the speaker has the authority or responsibility to help others who are alcoholics.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a causal sequence (awakening → outreach → practicing principles), and each clause logically follows from the previous. However, coherence relies on the undefined term 'spiritual awakening' being accepted as a meaningful outcome.\",\n  \"conditions_for_usefulness\": [\n    \"That the audience considers spiritual awakening a desirable or necessary goal.\",\n    \"That the audience belongs to a recovery community (e.g., AA) that values step-based work.\",\n    \"That the statement is used as part of a shared tradition or program of action, not as a universal prescription.\",\n    \"That the listeners are willing to apply abstract principles to concrete life situations.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'spiritual awakening' is interpreted as a guarantee or one-time event rather than an ongoing process.\",\n    \"If the statement is taken to mean that all alcoholics who complete the steps will have the same awakening or identical call to service.\",\n    \"If the phrase 'practice these principles in all our affairs' implies that these principles are sufficient for all life contexts (e.g., legal, medical, financial) without additional expertise.\",\n    \"If the statement is used to pressure someone who has not had such an awakening or who is not alcoholic.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement articulates the concluding step of a recovery program, describing the expected behavioral and spiritual outcomes of following a prior set of steps. It serves as both a personal testimony and an imperative for ongoing action.",
+    "implicit_claims": [
+      "That a 'spiritual awakening' is a real, identifiable experience that results from completing a specific sequence of steps.",
+      "That the speaker and intended audience have undergone or are capable of undergoing such an awakening.",
+      "That carrying a message to other alcoholics is an appropriate and necessary response to that awakening.",
+      "That the principles of the recovery program are universal enough to apply to 'all affairs' of life, not just addiction.",
+      "That the speaker has the authority or responsibility to help others who are alcoholics."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a causal sequence (awakening → outreach → practicing principles), and each clause logically follows from the previous. However, coherence relies on the undefined term 'spiritual awakening' being accepted as a meaningful outcome.",
+    "conditions_for_usefulness": [
+      "That the audience considers spiritual awakening a desirable or necessary goal.",
+      "That the audience belongs to a recovery community (e.g., AA) that values step-based work.",
+      "That the statement is used as part of a shared tradition or program of action, not as a universal prescription.",
+      "That the listeners are willing to apply abstract principles to concrete life situations."
+    ],
+    "conditions_for_misleading": [
+      "If 'spiritual awakening' is interpreted as a guarantee or one-time event rather than an ongoing process.",
+      "If the statement is taken to mean that all alcoholics who complete the steps will have the same awakening or identical call to service.",
+      "If the phrase 'practice these principles in all our affairs' implies that these principles are sufficient for all life contexts (e.g., legal, medical, financial) without additional expertise.",
+      "If the statement is used to pressure someone who has not had such an awakening or who is not alcoholic."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 435,
+  "error": "",
+  "retry_count": 0
+}

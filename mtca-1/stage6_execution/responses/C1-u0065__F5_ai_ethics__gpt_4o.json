@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0065__F5_ai_ethics__gpt_4o",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:11:14.078484+00:00",
+  "wall_clock_seconds": 3.375074625015259,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing an observation about human behavior, suggesting an assumption or critique that humans tend to conform to societal norms and follow others' behaviors.\",\n  \"implicit_claims\": [\n    \"Humans have a tendency to conform and follow others without question.\",\n    \"There is a lack of individual autonomy in human decision-making.\",\n    \"This behavior is an inherent trait among humans.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent in conveying the idea that humans often follow others, although it implies a deterministic view of human behavior that may not account for individual differences in autonomy or resistance to conformity.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the intended message is to address the potential risks of conformity and encourage systems that promote individual decision-making and critical thinking among users.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if it overgeneralizes human behavior and ignores evidence of individual and cultural variations in conformity and autonomy, or if it suggests that humans are incapable of independent thought, thereby downplaying the complexity of human decision-making.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing an observation about human behavior, suggesting an assumption or critique that humans tend to conform to societal norms and follow others' behaviors.",
+    "implicit_claims": [
+      "Humans have a tendency to conform and follow others without question.",
+      "There is a lack of individual autonomy in human decision-making.",
+      "This behavior is an inherent trait among humans."
+    ],
+    "coherence_assessment": "The statement is coherent in conveying the idea that humans often follow others, although it implies a deterministic view of human behavior that may not account for individual differences in autonomy or resistance to conformity.",
+    "conditions_for_usefulness": "The statement would be useful if the intended message is to address the potential risks of conformity and encourage systems that promote individual decision-making and critical thinking among users.",
+    "conditions_for_misleading": "The statement could be misleading if it overgeneralizes human behavior and ignores evidence of individual and cultural variations in conformity and autonomy, or if it suggests that humans are incapable of independent thought, thereby downplaying the complexity of human decision-making."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 232,
+  "error": "",
+  "retry_count": 0
+}

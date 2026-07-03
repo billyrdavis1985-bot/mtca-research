@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0563__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:48:41.919887+00:00",
+  "wall_clock_seconds": 13.200037002563477,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement presents a prescriptive claim — framed as factual ('in sober truth') — asserting that a pregnant person can determine the sex and traits of their child through sustained mental visualization during gestation. It functions as instructional guidance, implying scientific or empirical authority while offering a technique for desired reproductive outcomes.\",\n  \"implicit_claims\": [\n    \"Mental imagery during pregnancy has direct causal effects on fetal development.\",\n    \"The sex of a child is not determined at fertilization but remains malleable during gestation.\",\n    \"A parent's psychological state can override biological and genetic mechanisms.\",\n    \"Sustained focused thought is a reliable mechanism for shaping physical and moral traits in offspring.\",\n    \"Moral qualities are heritable or inducible through prenatal mental influence.\",\n    \"This effect is consistent and predictable enough to be stated as a general truth.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a prescriptive instruction — it specifies a condition, an action, and an expected outcome. However, it is built on premises that contradict established biology and genetics. The internal logic follows IF-THEN structure, but the foundational premises are false, making the coherence superficial and the overall argument unsound.\",\n  \"conditions_for_usefulness\": [\n    \"Mental states during pregnancy could causally influence chromosomal sex determination.\",\n    \"Epigenetic or developmental mechanisms existed by which sustained visualization altered gene expression in predictable, trait-specific ways.\",\n    \"Moral qualities were fixed physical properties inducible through parental thought.\",\n    \"Empirical evidence supported the claimed correlation between maternal visualization and offspring outcomes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Sex is determined at fertilization by chromosomal inheritance and is not alterable by maternal thought — which is empirically true.\",\n    \"No reliable biological mechanism exists linking maternal mental imagery to fetal sex or trait outcomes — which is empirically true.\",\n    \"Parents acting on this belief may experience guilt, self-blame, or false expectations when outcomes differ.\",\n    \"The statement is presented with false epistemic confidence ('in sober truth'), which could suppress critical evaluation.\",\n    \"It could delay or replace evidence-based prenatal care with pseudoscientific practices.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement presents a prescriptive claim — framed as factual ('in sober truth') — asserting that a pregnant person can determine the sex and traits of their child through sustained mental visualization during gestation. It functions as instructional guidance, implying scientific or empirical authority while offering a technique for desired reproductive outcomes.",
+    "implicit_claims": [
+      "Mental imagery during pregnancy has direct causal effects on fetal development.",
+      "The sex of a child is not determined at fertilization but remains malleable during gestation.",
+      "A parent's psychological state can override biological and genetic mechanisms.",
+      "Sustained focused thought is a reliable mechanism for shaping physical and moral traits in offspring.",
+      "Moral qualities are heritable or inducible through prenatal mental influence.",
+      "This effect is consistent and predictable enough to be stated as a general truth."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a prescriptive instruction — it specifies a condition, an action, and an expected outcome. However, it is built on premises that contradict established biology and genetics. The internal logic follows IF-THEN structure, but the foundational premises are false, making the coherence superficial and the overall argument unsound.",
+    "conditions_for_usefulness": [
+      "Mental states during pregnancy could causally influence chromosomal sex determination.",
+      "Epigenetic or developmental mechanisms existed by which sustained visualization altered gene expression in predictable, trait-specific ways.",
+      "Moral qualities were fixed physical properties inducible through parental thought.",
+      "Empirical evidence supported the claimed correlation between maternal visualization and offspring outcomes."
+    ],
+    "conditions_for_misleading": [
+      "Sex is determined at fertilization by chromosomal inheritance and is not alterable by maternal thought — which is empirically true.",
+      "No reliable biological mechanism exists linking maternal mental imagery to fetal sex or trait outcomes — which is empirically true.",
+      "Parents acting on this belief may experience guilt, self-blame, or false expectations when outcomes differ.",
+      "The statement is presented with false epistemic confidence ('in sober truth'), which could suppress critical evaluation.",
+      "It could delay or replace evidence-based prenatal care with pseudoscientific practices."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 236,
+  "output_tokens": 524,
+  "error": "",
+  "retry_count": 0
+}

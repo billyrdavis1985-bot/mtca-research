@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0065__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:10:13.768224+00:00",
+  "wall_clock_seconds": 4.980404376983643,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a descriptive admonition, aiming to increase self-awareness about social conformity and reduce automatic compliance by reframing perceived necessity as imagination.\",\n  \"implicit_claims\": [\n    \"Humans have an innate tendency to imitate others involuntarily.\",\n    \"The belief that one cannot act otherwise is often illusory (a product of imagination, not necessity).\",\n    \"Social conformity is largely automatic and not based on rational choice.\",\n    \"Acknowledging this tendency can empower individuals to resist it.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it compares humans to sheep, asserts involuntary imitation, and then attributes the feeling of impossibility to imagination, which aligns with the idea that the constraint is psychological rather than actual.\",\n  \"conditions_for_usefulness\": [\n    \"The audience is open to self-reflection about their own conformity.\",\n    \"The statement is used in a context where social pressure is high but not physically coercive.\",\n    \"The speaker intends to provoke critical thinking rather than to dismiss all social influence.\",\n    \"There is room for alternative behavior (i.e., the environment does not truly prevent different action).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken to imply that all social conformity is bad or should be resisted.\",\n    \"If used to deny legitimate constraints (e.g., laws, safety norms, physical impossibilities).\",\n    \"If the audience fails to distinguish between involuntary impulses and genuine inability.\",\n    \"If used to blame individuals for conforming in situations where non-conformity carries severe consequences (e.g., survival contexts).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a descriptive admonition, aiming to increase self-awareness about social conformity and reduce automatic compliance by reframing perceived necessity as imagination.",
+    "implicit_claims": [
+      "Humans have an innate tendency to imitate others involuntarily.",
+      "The belief that one cannot act otherwise is often illusory (a product of imagination, not necessity).",
+      "Social conformity is largely automatic and not based on rational choice.",
+      "Acknowledging this tendency can empower individuals to resist it."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it compares humans to sheep, asserts involuntary imitation, and then attributes the feeling of impossibility to imagination, which aligns with the idea that the constraint is psychological rather than actual.",
+    "conditions_for_usefulness": [
+      "The audience is open to self-reflection about their own conformity.",
+      "The statement is used in a context where social pressure is high but not physically coercive.",
+      "The speaker intends to provoke critical thinking rather than to dismiss all social influence.",
+      "There is room for alternative behavior (i.e., the environment does not truly prevent different action)."
+    ],
+    "conditions_for_misleading": [
+      "If taken to imply that all social conformity is bad or should be resisted.",
+      "If used to deny legitimate constraints (e.g., laws, safety norms, physical impossibilities).",
+      "If the audience fails to distinguish between involuntary impulses and genuine inability.",
+      "If used to blame individuals for conforming in situations where non-conformity carries severe consequences (e.g., survival contexts)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0
+}

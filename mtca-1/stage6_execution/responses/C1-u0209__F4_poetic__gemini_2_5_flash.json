@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0209__F4_poetic__gemini_2_5_flash",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:21:41.300413+00:00",
+  "wall_clock_seconds": 6.929077386856079,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To provide prescriptive guidance on the administration and eventual withdrawal of support or intervention, framed within a therapeutic or developmental process aimed at achieving self-sufficiency or resolution for a 'subject'. It functions as an instruction set for a caregiver, mentor, or therapist.\",\n  \"implicit_claims\": [\n    \"There is a 'subject' that requires 'suggestions' or guidance.\",\n    \"These 'suggestions' contribute to 'progress' in the 'subject'.\",\n    \"There is a definable and achievable state called 'cure is complete'.\",\n    \"The need for external 'suggestions' diminishes as 'progress' is made.\",\n    \"The frequency of intervention should be adjusted based on the 'subject's' progress.\",\n    \"The ultimate goal of the intervention is the 'subject's' independence from external support.\",\n    \"Progress is observable and measurable to some degree.\",\n    \"The process of gradual withdrawal of support is beneficial and appropriate.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits high internal coherence. It presents a clear, logical, and consistent sequence of actions (renewing suggestions, spacing them out) tied directly to a stated goal (progress, cure complete, no longer necessary). The 'that is to say' clause explicitly reinforces and clarifies the equivalence between the cessation of necessity and the completion of the cure, demonstrating a well-defined conceptual framework.\",\n  \"conditions_for_usefulness\": [\n    \"The 'suggestions' provided are genuinely effective and beneficial for the 'subject's' condition or development.\",\n    \"The 'subject' is receptive to and benefits from the 'suggestions'.\",\n    \"There is a measurable and observable 'progress' towards a definable 'cure' or state of independence.\",\n    \"The person administering the 'suggestions' can accurately assess the 'subject's' 'progress'.\",\n    \"The gradual withdrawal of support (spacing out suggestions) is indeed appropriate and beneficial for the 'subject' and condition.\",\n    \"The 'cure' is an achievable state where the 'subject' truly becomes self-sufficient and no longer requires external input in that specific domain.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'suggestions' are ineffective, harmful, or inappropriate for the 'subject's' condition.\",\n    \"The 'progress' is misjudged or not genuinely occurring, leading to premature withdrawal of necessary support.\",\n    \"The 'cure' is unattainable or not the appropriate goal (e.g., for chronic conditions requiring ongoing management rather than a 'cure').\",\n    \"The 'subject' becomes dependent on the 'suggestions', and their withdrawal leads to regression or a sense of abandonment.\",\n    \"The 'spacing out' of suggestions causes anxiety, insecurity, or a feeling of being unsupported by the 'subject'.\",\n    \"The 'suggestions' are a form of control, and their withdrawal leaves the 'subject' vulnerable without true self-sufficiency.\",\n    \"The concept of 'cure' oversimplifies a complex developmental or therapeutic process.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To provide prescriptive guidance on the administration and eventual withdrawal of support or intervention, framed within a therapeutic or developmental process aimed at achieving self-sufficiency or resolution for a 'subject'. It functions as an instruction set for a caregiver, mentor, or therapist.",
+    "implicit_claims": [
+      "There is a 'subject' that requires 'suggestions' or guidance.",
+      "These 'suggestions' contribute to 'progress' in the 'subject'.",
+      "There is a definable and achievable state called 'cure is complete'.",
+      "The need for external 'suggestions' diminishes as 'progress' is made.",
+      "The frequency of intervention should be adjusted based on the 'subject's' progress.",
+      "The ultimate goal of the intervention is the 'subject's' independence from external support.",
+      "Progress is observable and measurable to some degree.",
+      "The process of gradual withdrawal of support is beneficial and appropriate."
+    ],
+    "coherence_assessment": "The statement exhibits high internal coherence. It presents a clear, logical, and consistent sequence of actions (renewing suggestions, spacing them out) tied directly to a stated goal (progress, cure complete, no longer necessary). The 'that is to say' clause explicitly reinforces and clarifies the equivalence between the cessation of necessity and the completion of the cure, demonstrating a well-defined conceptual framework.",
+    "conditions_for_usefulness": [
+      "The 'suggestions' provided are genuinely effective and beneficial for the 'subject's' condition or development.",
+      "The 'subject' is receptive to and benefits from the 'suggestions'.",
+      "There is a measurable and observable 'progress' towards a definable 'cure' or state of independence.",
+      "The person administering the 'suggestions' can accurately assess the 'subject's' 'progress'.",
+      "The gradual withdrawal of support (spacing out suggestions) is indeed appropriate and beneficial for the 'subject' and condition.",
+      "The 'cure' is an achievable state where the 'subject' truly becomes self-sufficient and no longer requires external input in that specific domain."
+    ],
+    "conditions_for_misleading": [
+      "The 'suggestions' are ineffective, harmful, or inappropriate for the 'subject's' condition.",
+      "The 'progress' is misjudged or not genuinely occurring, leading to premature withdrawal of necessary support.",
+      "The 'cure' is unattainable or not the appropriate goal (e.g., for chronic conditions requiring ongoing management rather than a 'cure').",
+      "The 'subject' becomes dependent on the 'suggestions', and their withdrawal leads to regression or a sense of abandonment.",
+      "The 'spacing out' of suggestions causes anxiety, insecurity, or a feeling of being unsupported by the 'subject'.",
+      "The 'suggestions' are a form of control, and their withdrawal leaves the 'subject' vulnerable without true self-sufficiency.",
+      "The concept of 'cure' oversimplifies a complex developmental or therapeutic process."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 658,
+  "error": "",
+  "retry_count": 0
+}

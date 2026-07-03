@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F1_clinical__grok_4",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:44:37.091544+00:00",
+  "wall_clock_seconds": 7.444233179092407,
+  "raw_response": "{\n  \"communicative_function\": \"asserts a principle of personal agency and mindset primacy to guide therapeutic focus toward internal cognitive factors\",\n  \"implicit_claims\": [\n    \"thoughts, vision, and ideal are the decisive determinants of life outcomes\",\n    \"environmental factors are secondary or non-determinative\",\n    \"individuals possess sufficient control over their thoughts/vision/ideal to shape their trajectory\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a prescriptive motivational claim but logically incomplete by presupposing unidirectional causation from mind to outcome without reciprocal environmental influence\",\n  \"conditions_for_usefulness\": \"the individual benefits from strengthening internal locus of control and the statement is applied within a context where cognitive reframing can incrementally affect behavior or perception without denying external constraints\",\n  \"conditions_for_misleading\": \"the statement is taken literally to imply that external adversity or structural barriers can be overcome solely by altering thoughts, leading to self-blame or neglect of actionable environmental changes\"\n}",
+  "parsed_json": {
+    "communicative_function": "asserts a principle of personal agency and mindset primacy to guide therapeutic focus toward internal cognitive factors",
+    "implicit_claims": [
+      "thoughts, vision, and ideal are the decisive determinants of life outcomes",
+      "environmental factors are secondary or non-determinative",
+      "individuals possess sufficient control over their thoughts/vision/ideal to shape their trajectory"
+    ],
+    "coherence_assessment": "internally consistent as a prescriptive motivational claim but logically incomplete by presupposing unidirectional causation from mind to outcome without reciprocal environmental influence",
+    "conditions_for_usefulness": "the individual benefits from strengthening internal locus of control and the statement is applied within a context where cognitive reframing can incrementally affect behavior or perception without denying external constraints",
+    "conditions_for_misleading": "the statement is taken literally to imply that external adversity or structural barriers can be overcome solely by altering thoughts, leading to self-blame or neglect of actionable environmental changes"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 284,
+  "output_tokens": 200,
+  "error": "",
+  "retry_count": 0
+}

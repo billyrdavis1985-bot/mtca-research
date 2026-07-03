@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0079__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:02:25.660865+00:00",
+  "wall_clock_seconds": 5.028673410415649,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a directive or prescriptive claim that reframes suffering as a consequence of mental error, thereby urging the listener to examine and correct their thoughts as a means to alleviate suffering.\",\n  \"implicit_claims\": [\n    \"All suffering has a mental or cognitive cause.\",\n    \"Wrong thought is a necessary and sufficient condition for suffering.\",\n    \"Suffering cannot arise from purely physical, environmental, or external factors independent of thought.\",\n    \"There is a correct or right way to think that prevents suffering.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a logical proposition (if A then B), but its universal quantifier ('always') makes it vulnerable to empirical counterexamples (e.g., suffering from physical trauma without prior thought).\",\n  \"conditions_for_usefulness\": [\n    \"The user accepts a cognitive or philosophical framework (e.g., Stoicism, certain schools of Buddhism, or cognitive-behavioral therapy) that prioritizes mental interpretation over external events.\",\n    \"The statement is applied as a heuristic for self-reflection rather than a literal truth.\",\n    \"The user is willing to examine their beliefs and thought patterns to reduce unnecessary suffering.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If applied to all forms of suffering, especially those with clear physical or external causes (e.g., injury, disease, poverty, systemic oppression), it risks victim-blaming or invalidating legitimate pain.\",\n    \"If the speaker uses it to dismiss others' suffering without understanding their context.\",\n    \"If the statement is interpreted as denying the reality of non-cognitive suffering (e.g., infant pain, neurological disorders).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a directive or prescriptive claim that reframes suffering as a consequence of mental error, thereby urging the listener to examine and correct their thoughts as a means to alleviate suffering.",
+    "implicit_claims": [
+      "All suffering has a mental or cognitive cause.",
+      "Wrong thought is a necessary and sufficient condition for suffering.",
+      "Suffering cannot arise from purely physical, environmental, or external factors independent of thought.",
+      "There is a correct or right way to think that prevents suffering."
+    ],
+    "coherence_assessment": "Internally coherent as a logical proposition (if A then B), but its universal quantifier ('always') makes it vulnerable to empirical counterexamples (e.g., suffering from physical trauma without prior thought).",
+    "conditions_for_usefulness": [
+      "The user accepts a cognitive or philosophical framework (e.g., Stoicism, certain schools of Buddhism, or cognitive-behavioral therapy) that prioritizes mental interpretation over external events.",
+      "The statement is applied as a heuristic for self-reflection rather than a literal truth.",
+      "The user is willing to examine their beliefs and thought patterns to reduce unnecessary suffering."
+    ],
+    "conditions_for_misleading": [
+      "If applied to all forms of suffering, especially those with clear physical or external causes (e.g., injury, disease, poverty, systemic oppression), it risks victim-blaming or invalidating legitimate pain.",
+      "If the speaker uses it to dismiss others' suffering without understanding their context.",
+      "If the statement is interpreted as denying the reality of non-cognitive suffering (e.g., infant pain, neurological disorders)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 348,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0457__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:38:48.826796+00:00",
+  "wall_clock_seconds": 13.093646764755249,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a first-person testimonial or anecdotal report, presenting an observed outcome as evidence for the efficacy of autosuggestion. It uses emotionally loaded language ('astonishment', 'remarkable') to amplify the perceived significance of the claimed result and to build credibility through performed surprise.\",\n  \"implicit_claims\": [\n    \"The improvement was caused by the subject following Coué's method or instruction.\",\n    \"The improvement was objectively real and perceptible, not merely subjective.\",\n    \"The observer (Coué) is a reliable and unbiased witness.\",\n    \"The word 'remarkable' reflects an objective standard of improvement, not just the observer's expectation.\",\n    \"The subject's prior condition was worse, making the improvement meaningful.\",\n    \"Autosuggestion or conscious suggestion is the operative mechanism behind the change.\",\n    \"Single observed instances of improvement are meaningful evidence for the method's effectiveness.\",\n    \"The observer's astonishment lends epistemic weight to the claim.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a narrative sentence, but it contains a rhetorical tension: if Coué regularly uses and advocates this method, expressing 'astonishment' at its results is inconsistent with confident prior belief in its efficacy. This suggests the astonishment may be performative rather than genuine, undermining the statement's credibility as objective reporting.\",\n  \"conditions_for_usefulness\": [\n    \"The observation was made under controlled or at least systematic conditions.\",\n    \"The improvement was measured by an objective standard, not just subjective impression.\",\n    \"The observer had no strong prior expectation or confirmation bias.\",\n    \"The improvement was documented consistently across multiple subjects.\",\n    \"Alternative explanations (placebo effect, natural recovery, regression to the mean) were considered and ruled out.\",\n    \"The subject's prior baseline was clearly established.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The observer (Coué) had a strong financial, reputational, or ideological stake in confirming positive results.\",\n    \"The 'improvement' was a natural fluctuation or placebo response, not causally linked to the method.\",\n    \"The language 'remarkable' and 'astonishment' is being used rhetorically to manufacture persuasion rather than report facts.\",\n    \"No baseline measurement or control comparison was made.\",\n    \"The anecdote is selectively reported while cases of no improvement are omitted.\",\n    \"The reader lacks the context to evaluate whether the improvement was clinically significant.\",\n    \"The performative surprise is used to simulate independent corroboration when the witness is not independent.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a first-person testimonial or anecdotal report, presenting an observed outcome as evidence for the efficacy of autosuggestion. It uses emotionally loaded language ('astonishment', 'remarkable') to amplify the perceived significance of the claimed result and to build credibility through performed surprise.",
+    "implicit_claims": [
+      "The improvement was caused by the subject following Coué's method or instruction.",
+      "The improvement was objectively real and perceptible, not merely subjective.",
+      "The observer (Coué) is a reliable and unbiased witness.",
+      "The word 'remarkable' reflects an objective standard of improvement, not just the observer's expectation.",
+      "The subject's prior condition was worse, making the improvement meaningful.",
+      "Autosuggestion or conscious suggestion is the operative mechanism behind the change.",
+      "Single observed instances of improvement are meaningful evidence for the method's effectiveness.",
+      "The observer's astonishment lends epistemic weight to the claim."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a narrative sentence, but it contains a rhetorical tension: if Coué regularly uses and advocates this method, expressing 'astonishment' at its results is inconsistent with confident prior belief in its efficacy. This suggests the astonishment may be performative rather than genuine, undermining the statement's credibility as objective reporting.",
+    "conditions_for_usefulness": [
+      "The observation was made under controlled or at least systematic conditions.",
+      "The improvement was measured by an objective standard, not just subjective impression.",
+      "The observer had no strong prior expectation or confirmation bias.",
+      "The improvement was documented consistently across multiple subjects.",
+      "Alternative explanations (placebo effect, natural recovery, regression to the mean) were considered and ruled out.",
+      "The subject's prior baseline was clearly established."
+    ],
+    "conditions_for_misleading": [
+      "The observer (Coué) had a strong financial, reputational, or ideological stake in confirming positive results.",
+      "The 'improvement' was a natural fluctuation or placebo response, not causally linked to the method.",
+      "The language 'remarkable' and 'astonishment' is being used rhetorically to manufacture persuasion rather than report facts.",
+      "No baseline measurement or control comparison was made.",
+      "The anecdote is selectively reported while cases of no improvement are omitted.",
+      "The reader lacks the context to evaluate whether the improvement was clinically significant.",
+      "The performative surprise is used to simulate independent corroboration when the witness is not independent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 619,
+  "error": "",
+  "retry_count": 0
+}

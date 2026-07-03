@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0001__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:52:23.306887+00:00",
+  "wall_clock_seconds": 14.429341077804565,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a conditional self-commitment or intention, framing a cognitive-behavioral coping strategy as a personal disposition. It signals self-awareness and willingness to engage in cognitive reappraisal without claiming guaranteed outcomes.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to recognize when they are catastrophizing in real time.\",\n    \"Catastrophizing and realistic worst-case thinking are meaningfully distinct cognitive activities.\",\n    \"Asking about the realistic worst case is a useful or therapeutic response to catastrophizing.\",\n    \"The speaker has or can develop sufficient self-awareness to catch the cognitive pattern before or during its occurrence.\",\n    \"Willingness alone is a meaningful and relevant precondition for this kind of cognitive intervention.\",\n    \"There exists a 'realistic' worst case that is accessible through reflection and distinct from the catastrophized version.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The conditional structure ('when I catch myself') appropriately limits the claim to situations where self-awareness is already active, avoiding overreach. The commitment is modest and proportionate, making it logically consistent and psychologically plausible.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker can reliably detect catastrophizing while it is occurring, not only in retrospect.\",\n    \"The act of identifying a realistic worst case reliably reduces distress or improves decision-making for this person.\",\n    \"The speaker has sufficient cognitive and emotional bandwidth to pause and reflect during anxious episodes.\",\n    \"The distinction between catastrophized and realistic worst-case outcomes is meaningful in the specific contexts the speaker faces.\",\n    \"The statement is being used as a genuine intention rather than as a performative or deflective claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If catastrophizing is a symptom of a condition that impairs the metacognitive awareness required to 'catch' it, the statement may create false confidence.\",\n    \"If the 'realistic worst case' exercise is itself subject to distortion by anxiety, the reframing may not be genuinely more accurate.\",\n    \"If the statement is used to suggest that cognitive reappraisal alone is sufficient for managing severe anxiety, it may discourage seeking additional support.\",\n    \"If 'willingness' is conflated with 'ability,' the statement may obscure real barriers to executing the strategy.\",\n    \"If the person rarely or never actually catches themselves catastrophizing in the moment, the conditional framing renders the commitment practically empty.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a conditional self-commitment or intention, framing a cognitive-behavioral coping strategy as a personal disposition. It signals self-awareness and willingness to engage in cognitive reappraisal without claiming guaranteed outcomes.",
+    "implicit_claims": [
+      "The speaker has the capacity to recognize when they are catastrophizing in real time.",
+      "Catastrophizing and realistic worst-case thinking are meaningfully distinct cognitive activities.",
+      "Asking about the realistic worst case is a useful or therapeutic response to catastrophizing.",
+      "The speaker has or can develop sufficient self-awareness to catch the cognitive pattern before or during its occurrence.",
+      "Willingness alone is a meaningful and relevant precondition for this kind of cognitive intervention.",
+      "There exists a 'realistic' worst case that is accessible through reflection and distinct from the catastrophized version."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The conditional structure ('when I catch myself') appropriately limits the claim to situations where self-awareness is already active, avoiding overreach. The commitment is modest and proportionate, making it logically consistent and psychologically plausible.",
+    "conditions_for_usefulness": [
+      "The speaker can reliably detect catastrophizing while it is occurring, not only in retrospect.",
+      "The act of identifying a realistic worst case reliably reduces distress or improves decision-making for this person.",
+      "The speaker has sufficient cognitive and emotional bandwidth to pause and reflect during anxious episodes.",
+      "The distinction between catastrophized and realistic worst-case outcomes is meaningful in the specific contexts the speaker faces.",
+      "The statement is being used as a genuine intention rather than as a performative or deflective claim."
+    ],
+    "conditions_for_misleading": [
+      "If catastrophizing is a symptom of a condition that impairs the metacognitive awareness required to 'catch' it, the statement may create false confidence.",
+      "If the 'realistic worst case' exercise is itself subject to distortion by anxiety, the reframing may not be genuinely more accurate.",
+      "If the statement is used to suggest that cognitive reappraisal alone is sufficient for managing severe anxiety, it may discourage seeking additional support.",
+      "If 'willingness' is conflated with 'ability,' the statement may obscure real barriers to executing the strategy.",
+      "If the person rarely or never actually catches themselves catastrophizing in the moment, the conditional framing renders the commitment practically empty."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 574,
+  "error": "",
+  "retry_count": 0
+}

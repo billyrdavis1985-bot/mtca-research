@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0229__F0_neutral__grok_4",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:43:50.981423+00:00",
+  "wall_clock_seconds": 7.545024871826172,
+  "raw_response": "{\n  \"communicative_function\": \"Motivational assertion of personal agency via mindset\",\n  \"implicit_claims\": [\n    \"Thoughts/vision/ideal primarily determine rise/fall/stasis\",\n    \"Environment exerts no decisive causal influence\",\n    \"Individuals fully control their thoughts/vision/ideal\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as prescriptive philosophy; oversimplifies causation\",\n  \"conditions_for_usefulness\": \"Mindset reliably shapes outcomes and statement spurs adaptive action without denying constraints\",\n  \"conditions_for_misleading\": \"External structural factors dominate outcomes, fostering false agency or blame\"\n}",
+  "parsed_json": {
+    "communicative_function": "Motivational assertion of personal agency via mindset",
+    "implicit_claims": [
+      "Thoughts/vision/ideal primarily determine rise/fall/stasis",
+      "Environment exerts no decisive causal influence",
+      "Individuals fully control their thoughts/vision/ideal"
+    ],
+    "coherence_assessment": "Internally consistent as prescriptive philosophy; oversimplifies causation",
+    "conditions_for_usefulness": "Mindset reliably shapes outcomes and statement spurs adaptive action without denying constraints",
+    "conditions_for_misleading": "External structural factors dominate outcomes, fostering false agency or blame"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 266,
+  "output_tokens": 128,
+  "error": "",
+  "retry_count": 0
+}

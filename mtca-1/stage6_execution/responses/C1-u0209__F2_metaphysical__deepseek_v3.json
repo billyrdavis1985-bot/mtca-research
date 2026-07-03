@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0209__F2_metaphysical__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:20:35.778645+00:00",
+  "wall_clock_seconds": 4.848628282546997,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a method for achieving a desired outcome through repeated, gradually spaced suggestions, with the aim of rendering them unnecessary upon completion.\",\n  \"implicit_claims\": [\n    \"Suggestions can influence and alter subjective or objective states (e.g., curing).\",\n    \"The effectiveness of suggestions depends on frequency and timing relative to the subject.\",\n    \"A progression exists from needing frequent suggestions to eventually requiring none.\",\n    \"Complete cure is attainable through this method.\",\n    \"The practitioner can accurately assess progress and adjust intervals accordingly.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it describes a progressive, goal-oriented process with clear temporal stages (frequent, then spaced, then unnecessary) tied to an assumed outcome (cure).\",\n  \"conditions_for_usefulness\": [\n    \"Suggestions have real efficacy in altering the subject's condition.\",\n    \"The subject is receptive to suggestion and responds to spacing patterns.\",\n    \"The practitioner can reliably gauge progress and adjust intervals.\",\n    \"A cure or complete resolution is a realistic possibility for the subject.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Suggestions have no verifiable effect on the condition.\",\n    \"The condition is not curable or progress is not linear.\",\n    \"Spacing intervals incorrectly worsens or stalls progress.\",\n    \"The statement is taken as a universal rule when it applies only to certain subjects or contexts.\",\n    \"The claim of eventual non-necessity creates false hope or abandonment of necessary ongoing care.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a method for achieving a desired outcome through repeated, gradually spaced suggestions, with the aim of rendering them unnecessary upon completion.",
+    "implicit_claims": [
+      "Suggestions can influence and alter subjective or objective states (e.g., curing).",
+      "The effectiveness of suggestions depends on frequency and timing relative to the subject.",
+      "A progression exists from needing frequent suggestions to eventually requiring none.",
+      "Complete cure is attainable through this method.",
+      "The practitioner can accurately assess progress and adjust intervals accordingly."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it describes a progressive, goal-oriented process with clear temporal stages (frequent, then spaced, then unnecessary) tied to an assumed outcome (cure).",
+    "conditions_for_usefulness": [
+      "Suggestions have real efficacy in altering the subject's condition.",
+      "The subject is receptive to suggestion and responds to spacing patterns.",
+      "The practitioner can reliably gauge progress and adjust intervals.",
+      "A cure or complete resolution is a realistic possibility for the subject."
+    ],
+    "conditions_for_misleading": [
+      "Suggestions have no verifiable effect on the condition.",
+      "The condition is not curable or progress is not linear.",
+      "Spacing intervals incorrectly worsens or stalls progress.",
+      "The statement is taken as a universal rule when it applies only to certain subjects or contexts.",
+      "The claim of eventual non-necessity creates false hope or abandonment of necessary ongoing care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 319,
+  "error": "",
+  "retry_count": 0
+}

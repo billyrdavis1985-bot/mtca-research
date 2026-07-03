@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0003__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:07:25.919666+00:00",
+  "wall_clock_seconds": 16.23106074333191,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a reframing heuristic intended to shift a person's epistemic relationship to their own emotional states — validating the reality of feelings while introducing a distinction between phenomenological reality and propositional accuracy about the external world.\",\n  \"implicit_claims\": [\n    \"Feelings have informational content (they are 'about' something).\",\n    \"There is a meaningful distinction between a feeling being 'real' and it being 'accurate'.\",\n    \"The world is a domain about which accuracy claims can be made independently of felt states.\",\n    \"Feelings can be systematically misleading about the world even when they are genuine.\",\n    \"It is possible and useful for a person to hold both of these recognitions simultaneously.\",\n    \"The appropriate response to feelings involves neither uncritical acceptance nor dismissal.\",\n    \"The self doing the recognizing is capable of a meta-level perspective on its own feelings.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The two clauses are not contradictory — 'real' (phenomenologically present and informationally significant) and 'accurate about the world' (propositionally correct regarding external states of affairs) operate on different levels. The tension is productive rather than contradictory, and the qualifier 'not always' avoids overclaiming that feelings are never accurate, preserving calibration.\",\n  \"conditions_for_usefulness\": [\n    \"The person tends toward emotional reasoning — treating the intensity or presence of a feeling as direct evidence for a belief about the world.\",\n    \"The person has enough metacognitive capacity to apply the distinction in real time.\",\n    \"The context involves feelings that are disproportionate to or mismatched with external circumstances (e.g., anxiety without present danger).\",\n    \"The person is not currently dismissing or suppressing feelings, in which case the 'feelings as real information' half is the relevant corrective.\",\n    \"The statement is accompanied by enough scaffolding to make the distinction operationalizable rather than merely conceptual.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person interprets 'not always accurate' as license to generally discount emotional information, collapsing back into suppression.\",\n    \"The statement is applied in contexts where the feeling is in fact tracking something accurate about the world, and the framing is used to override a valid signal.\",\n    \"The concept of 'information about my state' is too vague to guide any particular action or reappraisal, making the statement feel validating without being functionally useful.\",\n    \"The person lacks the stabilizing context to know when to trust the feeling as world-signal versus when to treat it as state-signal only.\",\n    \"As a synthetic specimen authored for MTCA-1, the statement may prioritize clinical elegance or cognitive-behavioral framing over applicability to individuals whose emotional dysregulation has different structural causes (e.g., trauma responses, neurological differences).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a reframing heuristic intended to shift a person's epistemic relationship to their own emotional states — validating the reality of feelings while introducing a distinction between phenomenological reality and propositional accuracy about the external world.",
+    "implicit_claims": [
+      "Feelings have informational content (they are 'about' something).",
+      "There is a meaningful distinction between a feeling being 'real' and it being 'accurate'.",
+      "The world is a domain about which accuracy claims can be made independently of felt states.",
+      "Feelings can be systematically misleading about the world even when they are genuine.",
+      "It is possible and useful for a person to hold both of these recognitions simultaneously.",
+      "The appropriate response to feelings involves neither uncritical acceptance nor dismissal.",
+      "The self doing the recognizing is capable of a meta-level perspective on its own feelings."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The two clauses are not contradictory — 'real' (phenomenologically present and informationally significant) and 'accurate about the world' (propositionally correct regarding external states of affairs) operate on different levels. The tension is productive rather than contradictory, and the qualifier 'not always' avoids overclaiming that feelings are never accurate, preserving calibration.",
+    "conditions_for_usefulness": [
+      "The person tends toward emotional reasoning — treating the intensity or presence of a feeling as direct evidence for a belief about the world.",
+      "The person has enough metacognitive capacity to apply the distinction in real time.",
+      "The context involves feelings that are disproportionate to or mismatched with external circumstances (e.g., anxiety without present danger).",
+      "The person is not currently dismissing or suppressing feelings, in which case the 'feelings as real information' half is the relevant corrective.",
+      "The statement is accompanied by enough scaffolding to make the distinction operationalizable rather than merely conceptual."
+    ],
+    "conditions_for_misleading": [
+      "The person interprets 'not always accurate' as license to generally discount emotional information, collapsing back into suppression.",
+      "The statement is applied in contexts where the feeling is in fact tracking something accurate about the world, and the framing is used to override a valid signal.",
+      "The concept of 'information about my state' is too vague to guide any particular action or reappraisal, making the statement feel validating without being functionally useful.",
+      "The person lacks the stabilizing context to know when to trust the feeling as world-signal versus when to treat it as state-signal only.",
+      "As a synthetic specimen authored for MTCA-1, the statement may prioritize clinical elegance or cognitive-behavioral framing over applicability to individuals whose emotional dysregulation has different structural causes (e.g., trauma responses, neurological differences)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 678,
+  "error": "",
+  "retry_count": 0
+}

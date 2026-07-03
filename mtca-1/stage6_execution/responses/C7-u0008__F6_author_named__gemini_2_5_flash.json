@@ -1,0 +1,50 @@
+{
+  "call_id": "C7-u0008__F6_author_named__gemini_2_5_flash",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:28:41.341097+00:00",
+  "wall_clock_seconds": 9.179717063903809,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a directive or an instruction, outlining a specific ethical action (making direct amends) as part of a recovery process, while simultaneously providing a crucial moral and practical caveat (the 'except when' clause). It prescribes a standard of conduct and a principle for interaction with those one has harmed.\",\n  \"implicit_claims\": [\n    \"The individual has harmed or wronged others ('such people') for whom amends are necessary.\",\n    \"Making amends is a morally and practically desirable action for recovery and reconciliation.\",\n    \"Direct communication is the preferred method for making amends.\",\n    \"Making amends is not always harmless and can potentially cause further injury.\",\n    \"Preventing further injury to others (or the original harmed party) is a higher ethical priority than making amends.\",\n    \"The individual making amends has the capacity to discern potential injury to others.\",\n    \"The well-being of 'others' beyond the directly harmed party is also a consideration.\",\n    \"There are situations where making direct amends is not 'possible' or advisable due to potential harm.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The primary directive to 'Made direct amends' is clearly stated, and the subsequent clause 'except when to do so would injure them or others' provides a necessary and morally sound limitation. This exception enhances the coherence by acknowledging the complexities and potential negative consequences of such actions, preventing a rigid or potentially harmful application of the primary rule. It demonstrates a nuanced understanding of ethical responsibility.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has genuinely caused harm to others and acknowledges this responsibility.\",\n    \"The individual possesses sufficient self-awareness and empathy to understand the nature and impact of their past wrongs.\",\n    \"The individual has developed the capacity for sound judgment to accurately assess whether an amend would cause injury.\",\n    \"The individual is acting with sincere remorse and a desire for reconciliation, not merely to alleviate their own guilt or complete a step.\",\n    \"The individual is committed to sustained behavioral change that supports the spirit of the amends.\",\n    \"There is a reasonable expectation that the amend, if made, could contribute positively to the healing process for either party or at least not cause further harm.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets 'injure' too broadly, using it as an excuse to avoid uncomfortable but necessary amends, thereby shirking responsibility.\",\n    \"The individual misinterprets 'injure' too narrowly, proceeding with amends that cause significant emotional or psychological harm because they only consider physical injury.\",\n    \"The individual lacks the necessary judgment or insight to accurately assess potential injury, leading to either inaction when action is needed or action that causes unintended harm.\",\n    \"The individual makes superficial amends without genuine remorse or commitment to changing harmful behaviors, leading the recipient to believe a change has occurred when it has not, thus perpetuating deceit or causing further trust issues.\",\n    \"The statement is applied rigidly without considering the safety or emotional well-being of the person making amends, particularly in cases involving past abuse or violence where contact could be dangerous.\",\n    \"The individual focuses solely on the act of making amends without having first completed other foundational steps of self-reflection, acceptance, and spiritual growth, making the amends hollow or poorly executed.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a directive or an instruction, outlining a specific ethical action (making direct amends) as part of a recovery process, while simultaneously providing a crucial moral and practical caveat (the 'except when' clause). It prescribes a standard of conduct and a principle for interaction with those one has harmed.",
+    "implicit_claims": [
+      "The individual has harmed or wronged others ('such people') for whom amends are necessary.",
+      "Making amends is a morally and practically desirable action for recovery and reconciliation.",
+      "Direct communication is the preferred method for making amends.",
+      "Making amends is not always harmless and can potentially cause further injury.",
+      "Preventing further injury to others (or the original harmed party) is a higher ethical priority than making amends.",
+      "The individual making amends has the capacity to discern potential injury to others.",
+      "The well-being of 'others' beyond the directly harmed party is also a consideration.",
+      "There are situations where making direct amends is not 'possible' or advisable due to potential harm."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The primary directive to 'Made direct amends' is clearly stated, and the subsequent clause 'except when to do so would injure them or others' provides a necessary and morally sound limitation. This exception enhances the coherence by acknowledging the complexities and potential negative consequences of such actions, preventing a rigid or potentially harmful application of the primary rule. It demonstrates a nuanced understanding of ethical responsibility.",
+    "conditions_for_usefulness": [
+      "The individual has genuinely caused harm to others and acknowledges this responsibility.",
+      "The individual possesses sufficient self-awareness and empathy to understand the nature and impact of their past wrongs.",
+      "The individual has developed the capacity for sound judgment to accurately assess whether an amend would cause injury.",
+      "The individual is acting with sincere remorse and a desire for reconciliation, not merely to alleviate their own guilt or complete a step.",
+      "The individual is committed to sustained behavioral change that supports the spirit of the amends.",
+      "There is a reasonable expectation that the amend, if made, could contribute positively to the healing process for either party or at least not cause further harm."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets 'injure' too broadly, using it as an excuse to avoid uncomfortable but necessary amends, thereby shirking responsibility.",
+      "The individual misinterprets 'injure' too narrowly, proceeding with amends that cause significant emotional or psychological harm because they only consider physical injury.",
+      "The individual lacks the necessary judgment or insight to accurately assess potential injury, leading to either inaction when action is needed or action that causes unintended harm.",
+      "The individual makes superficial amends without genuine remorse or commitment to changing harmful behaviors, leading the recipient to believe a change has occurred when it has not, thus perpetuating deceit or causing further trust issues.",
+      "The statement is applied rigidly without considering the safety or emotional well-being of the person making amends, particularly in cases involving past abuse or violence where contact could be dangerous.",
+      "The individual focuses solely on the act of making amends without having first completed other foundational steps of self-reflection, acceptance, and spiritual growth, making the amends hollow or poorly executed."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 713,
+  "error": "",
+  "retry_count": 0
+}

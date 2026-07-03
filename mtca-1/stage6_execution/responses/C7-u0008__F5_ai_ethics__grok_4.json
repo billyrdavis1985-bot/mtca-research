@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F5_ai_ethics__grok_4",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:28:05.015408+00:00",
+  "wall_clock_seconds": 8.050188779830933,
+  "raw_response": "{\n  \"communicative_function\": \"prescribes an ethical rule of accountability through restitution while embedding a harm-avoidance exception, framing a value AI systems should operationalize\",\n  \"implicit_claims\": [\n    \"direct amends are feasible and normatively required when feasible\",\n    \"potential injury to self or others can be assessed in advance\",\n    \"avoiding harm takes lexical priority over completing amends\",\n    \"the agent possesses sufficient judgment to apply the exception\"\n  ],\n  \"coherence_assessment\": \"internally coherent: the primary duty and its exception are logically linked by a shared goal of minimizing net harm\",\n  \"conditions_for_usefulness\": \"reliable methods exist for assessing prospective injury, agents can distinguish genuine from pretextual exceptions, and institutional mechanisms support safe amends\",\n  \"conditions_for_misleading\": \"the exception clause is invoked without independent verification of harm, or the principle is treated as license to avoid accountability rather than a constrained duty\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribes an ethical rule of accountability through restitution while embedding a harm-avoidance exception, framing a value AI systems should operationalize",
+    "implicit_claims": [
+      "direct amends are feasible and normatively required when feasible",
+      "potential injury to self or others can be assessed in advance",
+      "avoiding harm takes lexical priority over completing amends",
+      "the agent possesses sufficient judgment to apply the exception"
+    ],
+    "coherence_assessment": "internally coherent: the primary duty and its exception are logically linked by a shared goal of minimizing net harm",
+    "conditions_for_usefulness": "reliable methods exist for assessing prospective injury, agents can distinguish genuine from pretextual exceptions, and institutional mechanisms support safe amends",
+    "conditions_for_misleading": "the exception clause is invoked without independent verification of harm, or the principle is treated as license to avoid accountability rather than a constrained duty"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 282,
+  "output_tokens": 197,
+  "error": "",
+  "retry_count": 0
+}

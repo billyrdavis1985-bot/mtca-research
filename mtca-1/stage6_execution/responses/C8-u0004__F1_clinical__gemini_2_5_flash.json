@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0004__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:09:40.122462+00:00",
+  "wall_clock_seconds": 11.966191291809082,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a self-instructional reminder and intention-setting mechanism. It declares an active, ongoing cognitive practice aimed at developing metacognitive discernment regarding one's thoughts. It frames a specific therapeutic task – differentiating automatic mental phenomena from volitionally accepted or acted-upon beliefs/judgments – and reinforces the client's agency in this process.\",\n  \"implicit_claims\": [\n    \"There are at least two distinct categories of mental phenomena related to 'thoughts': those that merely arise ('occur') and those that are actively accepted or affirmed ('endorsed').\",\n    \"It is possible and beneficial to learn to differentiate between these two categories of thoughts.\",\n    \"One possesses agency and choice regarding which thoughts to endorse.\",\n    \"Not all thoughts that occur are necessarily true, helpful, or worthy of belief/action.\",\n    \"The act of 'practicing' implies this is a skill that can be developed and refined over time.\",\n    \"Developing this distinction has therapeutic value, presumably leading to reduced suffering or improved functioning.\",\n    \"The 'self' is an active observer and agent in relation to its thoughts, rather than being passively controlled by them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly defines two concepts ('thoughts that occur,' 'thoughts I endorse') and states an intention to practice distinguishing between them. There are no logical contradictions within its structure. The act of 'practicing a difference' is a conceptually sound and actionable objective.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is experiencing distress, anxiety, or unhelpful behaviors driven by thoughts they do not wish to endorse (e.g., intrusive thoughts, automatic negative thoughts).\",\n    \"The individual has the cognitive capacity for metacognition – the ability to observe their own thoughts rather than being entirely fused with them.\",\n    \"The individual understands the distinction between 'occurring' and 'endorsing' within the therapeutic framework (e.g., not suppressing thoughts, but relating differently to them).\",\n    \"The individual is willing and able to actively engage in the 'practice' of observation and discernment.\",\n    \"The therapeutic context supports this distinction (e.g., CBT, ACT, mindfulness-based therapies that emphasize cognitive defusion and acceptance).\",\n    \"The practice leads to a reduction in emotional suffering and an increase in psychological flexibility.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'endorse' is misinterpreted as 'suppress' or 'force away' thoughts, leading to counterproductive thought suppression efforts and increased distress.\",\n    \"If the distinction is applied rigidly, leading to excessive self-judgment for having 'unendorsed' thoughts or an inability to process difficult emotions.\",\n    \"If it is used to avoid genuine self-reflection or to dismiss important insights or concerns that actually warrant endorsement or action.\",\n    \"If the individual lacks the cognitive capacity for metacognitive observation, leading to frustration or feelings of failure.\",\n    \"If it is used to rationalize inaction on important issues by labeling all challenging thoughts as 'not endorsed.'\",\n    \"If it implies that *all* thoughts must be explicitly endorsed to be valid, leading to an exhausting and overly critical internal monologue.\",\n    \"If it is taken to mean that one can completely control which thoughts 'occur,' leading to self-blame when unwanted thoughts inevitably arise.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-instructional reminder and intention-setting mechanism. It declares an active, ongoing cognitive practice aimed at developing metacognitive discernment regarding one's thoughts. It frames a specific therapeutic task – differentiating automatic mental phenomena from volitionally accepted or acted-upon beliefs/judgments – and reinforces the client's agency in this process.",
+    "implicit_claims": [
+      "There are at least two distinct categories of mental phenomena related to 'thoughts': those that merely arise ('occur') and those that are actively accepted or affirmed ('endorsed').",
+      "It is possible and beneficial to learn to differentiate between these two categories of thoughts.",
+      "One possesses agency and choice regarding which thoughts to endorse.",
+      "Not all thoughts that occur are necessarily true, helpful, or worthy of belief/action.",
+      "The act of 'practicing' implies this is a skill that can be developed and refined over time.",
+      "Developing this distinction has therapeutic value, presumably leading to reduced suffering or improved functioning.",
+      "The 'self' is an active observer and agent in relation to its thoughts, rather than being passively controlled by them."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly defines two concepts ('thoughts that occur,' 'thoughts I endorse') and states an intention to practice distinguishing between them. There are no logical contradictions within its structure. The act of 'practicing a difference' is a conceptually sound and actionable objective.",
+    "conditions_for_usefulness": [
+      "The individual is experiencing distress, anxiety, or unhelpful behaviors driven by thoughts they do not wish to endorse (e.g., intrusive thoughts, automatic negative thoughts).",
+      "The individual has the cognitive capacity for metacognition – the ability to observe their own thoughts rather than being entirely fused with them.",
+      "The individual understands the distinction between 'occurring' and 'endorsing' within the therapeutic framework (e.g., not suppressing thoughts, but relating differently to them).",
+      "The individual is willing and able to actively engage in the 'practice' of observation and discernment.",
+      "The therapeutic context supports this distinction (e.g., CBT, ACT, mindfulness-based therapies that emphasize cognitive defusion and acceptance).",
+      "The practice leads to a reduction in emotional suffering and an increase in psychological flexibility."
+    ],
+    "conditions_for_misleading": [
+      "If 'endorse' is misinterpreted as 'suppress' or 'force away' thoughts, leading to counterproductive thought suppression efforts and increased distress.",
+      "If the distinction is applied rigidly, leading to excessive self-judgment for having 'unendorsed' thoughts or an inability to process difficult emotions.",
+      "If it is used to avoid genuine self-reflection or to dismiss important insights or concerns that actually warrant endorsement or action.",
+      "If the individual lacks the cognitive capacity for metacognitive observation, leading to frustration or feelings of failure.",
+      "If it is used to rationalize inaction on important issues by labeling all challenging thoughts as 'not endorsed.'",
+      "If it implies that *all* thoughts must be explicitly endorsed to be valid, leading to an exhausting and overly critical internal monologue.",
+      "If it is taken to mean that one can completely control which thoughts 'occur,' leading to self-blame when unwanted thoughts inevitably arise."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 734,
+  "error": "",
+  "retry_count": 0
+}

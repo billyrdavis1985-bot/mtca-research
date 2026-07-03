@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0001__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:57:32.261163+00:00",
+  "wall_clock_seconds": 6.330303907394409,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal coping strategy for managing cognitive distortion, specifically catastrophizing, by advocating a rational reappraisal of feared outcomes.\",\n  \"implicit_claims\": [\n    \"The speaker acknowledges a tendency to catastrophize.\",\n    \"Catastrophizing involves an unrealistic or exaggerated worst-case scenario.\",\n    \"There is a distinction between realistic and unrealistic worst cases.\",\n    \"The speaker has some ability to question their own catastrophic thoughts.\",\n    \"Identifying the realistic worst case is a helpful step in reducing distress.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It describes a self-aware cognitive reframing technique that is logically consistent: if one is prone to catastrophizing, asking about the realistic worst case is a rational corrective step.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has sufficient self-awareness to recognize when they are catastrophizing.\",\n    \"The speaker can distinguish between realistic and unrealistic worst-case scenarios.\",\n    \"The speaker has enough emotional regulation to engage in the questioning process.\",\n    \"The realistic worst case is not actually catastrophic, or if it is, the speaker can handle that knowledge.\",\n    \"The technique is used as part of a broader coping strategy, not in isolation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker confuses 'realistic worst case' with an overly optimistic or dismissive reframe, minimizing real risks.\",\n    \"If the speaker consistently assumes the realistic worst case is manageable when it is not, leading to underpreparation.\",\n    \"If the technique is used to avoid addressing deeper emotional patterns or to suppress anxiety rather than process it.\",\n    \"If the speaker applies it to situations where the actual worst case is genuinely catastrophic, making the question itself invalidating.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal coping strategy for managing cognitive distortion, specifically catastrophizing, by advocating a rational reappraisal of feared outcomes.",
+    "implicit_claims": [
+      "The speaker acknowledges a tendency to catastrophize.",
+      "Catastrophizing involves an unrealistic or exaggerated worst-case scenario.",
+      "There is a distinction between realistic and unrealistic worst cases.",
+      "The speaker has some ability to question their own catastrophic thoughts.",
+      "Identifying the realistic worst case is a helpful step in reducing distress."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It describes a self-aware cognitive reframing technique that is logically consistent: if one is prone to catastrophizing, asking about the realistic worst case is a rational corrective step.",
+    "conditions_for_usefulness": [
+      "The speaker has sufficient self-awareness to recognize when they are catastrophizing.",
+      "The speaker can distinguish between realistic and unrealistic worst-case scenarios.",
+      "The speaker has enough emotional regulation to engage in the questioning process.",
+      "The realistic worst case is not actually catastrophic, or if it is, the speaker can handle that knowledge.",
+      "The technique is used as part of a broader coping strategy, not in isolation."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker confuses 'realistic worst case' with an overly optimistic or dismissive reframe, minimizing real risks.",
+      "If the speaker consistently assumes the realistic worst case is manageable when it is not, leading to underpreparation.",
+      "If the technique is used to avoid addressing deeper emotional patterns or to suppress anxiety rather than process it.",
+      "If the speaker applies it to situations where the actual worst case is genuinely catastrophic, making the question itself invalidating."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 372,
+  "error": "",
+  "retry_count": 0
+}

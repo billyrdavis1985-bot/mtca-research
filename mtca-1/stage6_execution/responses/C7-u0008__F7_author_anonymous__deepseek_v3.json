@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0008__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:29:31.967986+00:00",
+  "wall_clock_seconds": 4.549236536026001,
+  "raw_response": "{\n  \"communicative_function\": \"Giving a directive or principle for action, with a qualifier that limits its application.\",\n  \"implicit_claims\": [\n    \"There exist people to whom amends are owed.\",\n    \"It is possible to make direct amends.\",\n    \"Making amends is generally good or required.\",\n    \"Sometimes making amends can cause harm to oneself or others.\",\n    \"Avoiding harm can override the obligation to make amends.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it sets a rule and provides a clear exception that prevents contradiction with the goal of not causing injury.\",\n  \"conditions_for_usefulness\": [\n    \"The listener/reader has a clear understanding of what constitutes 'direct amends'.\",\n    \"The listener/reader can reliably assess whether an action would 'injure' someone.\",\n    \"The listener/reader is in a situation where they have wronged others or have debts to repay.\",\n    \"The principle is applied in a context that values non-harm as a moral constraint.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The term 'injure' is interpreted too broadly or too narrowly, excusing inaction or causing unintended harm.\",\n    \"The exception is used to avoid making amends that are merely uncomfortable rather than truly injurious.\",\n    \"The statement is applied without considering that avoiding amends might itself cause injury (e.g., by denying closure).\",\n    \"The source or authority of the statement is unknown, so it could be misapplied outside its original context (e.g., 12-step programs, legal mediation, etc.).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Giving a directive or principle for action, with a qualifier that limits its application.",
+    "implicit_claims": [
+      "There exist people to whom amends are owed.",
+      "It is possible to make direct amends.",
+      "Making amends is generally good or required.",
+      "Sometimes making amends can cause harm to oneself or others.",
+      "Avoiding harm can override the obligation to make amends."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it sets a rule and provides a clear exception that prevents contradiction with the goal of not causing injury.",
+    "conditions_for_usefulness": [
+      "The listener/reader has a clear understanding of what constitutes 'direct amends'.",
+      "The listener/reader can reliably assess whether an action would 'injure' someone.",
+      "The listener/reader is in a situation where they have wronged others or have debts to repay.",
+      "The principle is applied in a context that values non-harm as a moral constraint."
+    ],
+    "conditions_for_misleading": [
+      "The term 'injure' is interpreted too broadly or too narrowly, excusing inaction or causing unintended harm.",
+      "The exception is used to avoid making amends that are merely uncomfortable rather than truly injurious.",
+      "The statement is applied without considering that avoiding amends might itself cause injury (e.g., by denying closure).",
+      "The source or authority of the statement is unknown, so it could be misapplied outside its original context (e.g., 12-step programs, legal mediation, etc.)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 343,
+  "error": "",
+  "retry_count": 0
+}

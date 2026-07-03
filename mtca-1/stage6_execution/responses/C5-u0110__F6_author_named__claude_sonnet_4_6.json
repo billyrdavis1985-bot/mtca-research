@@ -1,0 +1,48 @@
+{
+  "call_id": "C5-u0110__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:14:59.956638+00:00",
+  "wall_clock_seconds": 14.176484107971191,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a prescriptive-descriptive claim, asserting a causal relationship between the quality of one's thoughts and physical health outcomes, while implicitly urging the reader to cultivate 'glad and beautiful' thoughts. It functions rhetorically as both a warning and an encouragement.\",\n  \"implicit_claims\": [\n    \"Thoughts have direct causal power over the physical body\",\n    \"There exist categories of thoughts that can be classified as 'lawful' and 'unlawful'\",\n    \"Disease and decay are primarily or significantly caused by negative or 'unlawful' thoughts\",\n    \"Youthfulness and beauty are achievable outcomes of mental discipline\",\n    \"The mind-body relationship is largely or entirely under volitional control\",\n    \"People who are ill or aging have, at least in part, brought this upon themselves through their thinking\",\n    \"Physical health is a reliable indicator of one's inner moral or mental state\",\n    \"The process is rapid and direct, not mediated by complex biological mechanisms\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms — it presents a clean symmetrical structure (bad thoughts → decay; good thoughts → vitality). However, it achieves coherence partly by oversimplification, setting up a binary that ignores confounding variables, making it logically tidy but empirically fragile.\",\n  \"conditions_for_usefulness\": [\n    \"If chronic stress and negative emotional states do meaningfully contribute to physical health decline, which has some psychoneuroimmunological support\",\n    \"If the reader interprets the claim metaphorically or as a tendency rather than an absolute causal law\",\n    \"If the statement motivates someone to reduce harmful rumination or adopt healthier mental habits\",\n    \"If it is read as one contributing factor among many, not as a complete theory of health and disease\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If readers conclude that illness is always or primarily caused by bad thinking, leading to victim-blaming of the sick\",\n    \"If people forgo medical treatment in favor of positive thinking, believing thought alone can reverse disease\",\n    \"If it causes those with depression, anxiety, or trauma to feel morally responsible for their own suffering\",\n    \"If 'unlawful thoughts' is left undefined, allowing the reader to project culturally or religiously specific biases onto the term\",\n    \"If the symmetry of the claim implies that youthfulness and physical beauty are reliably attainable through thought alone, setting unrealistic expectations\",\n    \"If genetic, environmental, socioeconomic, or microbial causes of disease are ignored or dismissed as secondary to mental states\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a prescriptive-descriptive claim, asserting a causal relationship between the quality of one's thoughts and physical health outcomes, while implicitly urging the reader to cultivate 'glad and beautiful' thoughts. It functions rhetorically as both a warning and an encouragement.",
+    "implicit_claims": [
+      "Thoughts have direct causal power over the physical body",
+      "There exist categories of thoughts that can be classified as 'lawful' and 'unlawful'",
+      "Disease and decay are primarily or significantly caused by negative or 'unlawful' thoughts",
+      "Youthfulness and beauty are achievable outcomes of mental discipline",
+      "The mind-body relationship is largely or entirely under volitional control",
+      "People who are ill or aging have, at least in part, brought this upon themselves through their thinking",
+      "Physical health is a reliable indicator of one's inner moral or mental state",
+      "The process is rapid and direct, not mediated by complex biological mechanisms"
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms — it presents a clean symmetrical structure (bad thoughts → decay; good thoughts → vitality). However, it achieves coherence partly by oversimplification, setting up a binary that ignores confounding variables, making it logically tidy but empirically fragile.",
+    "conditions_for_usefulness": [
+      "If chronic stress and negative emotional states do meaningfully contribute to physical health decline, which has some psychoneuroimmunological support",
+      "If the reader interprets the claim metaphorically or as a tendency rather than an absolute causal law",
+      "If the statement motivates someone to reduce harmful rumination or adopt healthier mental habits",
+      "If it is read as one contributing factor among many, not as a complete theory of health and disease"
+    ],
+    "conditions_for_misleading": [
+      "If readers conclude that illness is always or primarily caused by bad thinking, leading to victim-blaming of the sick",
+      "If people forgo medical treatment in favor of positive thinking, believing thought alone can reverse disease",
+      "If it causes those with depression, anxiety, or trauma to feel morally responsible for their own suffering",
+      "If 'unlawful thoughts' is left undefined, allowing the reader to project culturally or religiously specific biases onto the term",
+      "If the symmetry of the claim implies that youthfulness and physical beauty are reliably attainable through thought alone, setting unrealistic expectations",
+      "If genetic, environmental, socioeconomic, or microbial causes of disease are ignored or dismissed as secondary to mental states"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 624,
+  "error": "",
+  "retry_count": 0
+}

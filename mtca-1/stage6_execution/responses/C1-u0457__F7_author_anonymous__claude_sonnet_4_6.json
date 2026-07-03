@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0457__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:39:24.730704+00:00",
+  "wall_clock_seconds": 13.48759937286377,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is reporting an observed outcome or effect, presenting a personal testimonial or anecdotal observation about a notable change in a third party's physical condition following some unspecified action.\",\n  \"implicit_claims\": [\n    \"There is a specific male individual being referenced ('he').\",\n    \"This individual performs some prior action ('does so') that is referenced from earlier context.\",\n    \"The speaker has the ability to observe and assess this individual's respiration and walking.\",\n    \"The improvement in respiration and walking is causally linked or at least temporally associated with 'doing so'.\",\n    \"The improvement is significant enough to be described as 'remarkable'.\",\n    \"The speaker did not expect such a notable improvement (presupposed by 'astonishment').\",\n    \"There was a prior baseline state of respiration and walking against which the improvement is measured.\",\n    \"The speaker is positioned as a credible or direct witness to the change.\",\n    \"The unspecified action ('does so') has some agency or mechanism capable of affecting physical health.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in structure and grammar, but it is referentially incomplete. It relies heavily on prior context for meaning ('he', 'does so'), making it semantically dependent and opaque in isolation. The emotional framing ('astonishment', 'remarkable') is consistent with each other and with reporting an unexpected positive outcome.\",\n  \"conditions_for_usefulness\": [\n    \"The referent of 'he' must be clearly established in prior context.\",\n    \"The action referred to by 'does so' must be specified and understood.\",\n    \"The speaker must have reliable means to assess respiration and walking quality.\",\n    \"There must be a documented or observable baseline for comparison.\",\n    \"The statement must be part of a coherent narrative or argument about treatment, intervention, or behavior.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'he' and the action are selectively chosen to support a predetermined conclusion.\",\n    \"If the improvement is coincidental rather than causally related to 'doing so'.\",\n    \"If the speaker lacks the expertise to accurately assess respiration and walking quality.\",\n    \"If the words 'remarkable' and 'astonishment' are rhetorically exaggerated to persuade rather than accurately describe.\",\n    \"If the observation is a single instance being generalized to imply a reliable pattern.\",\n    \"If the speaker has a conflict of interest in reporting a positive outcome.\",\n    \"If relevant negative outcomes or side effects are omitted from the account.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is reporting an observed outcome or effect, presenting a personal testimonial or anecdotal observation about a notable change in a third party's physical condition following some unspecified action.",
+    "implicit_claims": [
+      "There is a specific male individual being referenced ('he').",
+      "This individual performs some prior action ('does so') that is referenced from earlier context.",
+      "The speaker has the ability to observe and assess this individual's respiration and walking.",
+      "The improvement in respiration and walking is causally linked or at least temporally associated with 'doing so'.",
+      "The improvement is significant enough to be described as 'remarkable'.",
+      "The speaker did not expect such a notable improvement (presupposed by 'astonishment').",
+      "There was a prior baseline state of respiration and walking against which the improvement is measured.",
+      "The speaker is positioned as a credible or direct witness to the change.",
+      "The unspecified action ('does so') has some agency or mechanism capable of affecting physical health."
+    ],
+    "coherence_assessment": "The statement is internally coherent in structure and grammar, but it is referentially incomplete. It relies heavily on prior context for meaning ('he', 'does so'), making it semantically dependent and opaque in isolation. The emotional framing ('astonishment', 'remarkable') is consistent with each other and with reporting an unexpected positive outcome.",
+    "conditions_for_usefulness": [
+      "The referent of 'he' must be clearly established in prior context.",
+      "The action referred to by 'does so' must be specified and understood.",
+      "The speaker must have reliable means to assess respiration and walking quality.",
+      "There must be a documented or observable baseline for comparison.",
+      "The statement must be part of a coherent narrative or argument about treatment, intervention, or behavior."
+    ],
+    "conditions_for_misleading": [
+      "If 'he' and the action are selectively chosen to support a predetermined conclusion.",
+      "If the improvement is coincidental rather than causally related to 'doing so'.",
+      "If the speaker lacks the expertise to accurately assess respiration and walking quality.",
+      "If the words 'remarkable' and 'astonishment' are rhetorically exaggerated to persuade rather than accurately describe.",
+      "If the observation is a single instance being generalized to imply a reliable pattern.",
+      "If the speaker has a conflict of interest in reporting a positive outcome.",
+      "If relevant negative outcomes or side effects are omitted from the account."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 171,
+  "output_tokens": 600,
+  "error": "",
+  "retry_count": 0
+}

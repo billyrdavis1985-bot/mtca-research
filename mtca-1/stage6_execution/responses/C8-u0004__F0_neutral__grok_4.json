@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0004__F0_neutral__grok_4",
+  "unit_id": "C8-u0004",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:08:59.631050+00:00",
+  "wall_clock_seconds": 5.055684566497803,
+  "raw_response": "{\n  \"communicative_function\": \"self-description of a metacognitive practice\",\n  \"implicit_claims\": [\n    \"a distinction exists between occurrent thoughts and endorsed thoughts\",\n    \"this distinction is learnable through practice\",\n    \"the speaker is currently engaged in cultivating that distinction\"\n  ],\n  \"coherence_assessment\": \"internally coherent; presupposes a standard philosophy-of-mind or CBT-style separation between automatic cognition and reflective endorsement\",\n  \"conditions_for_usefulness\": \"speaker is genuinely attempting to monitor endorsement; listener shares the relevant conceptual framework; context rewards accurate self-report of mental processes\",\n  \"conditions_for_misleading\": \"speaker uses the claim to disclaim responsibility for thoughts they in fact endorse or act on; distinction is invoked rhetorically rather than applied consistently\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-description of a metacognitive practice",
+    "implicit_claims": [
+      "a distinction exists between occurrent thoughts and endorsed thoughts",
+      "this distinction is learnable through practice",
+      "the speaker is currently engaged in cultivating that distinction"
+    ],
+    "coherence_assessment": "internally coherent; presupposes a standard philosophy-of-mind or CBT-style separation between automatic cognition and reflective endorsement",
+    "conditions_for_usefulness": "speaker is genuinely attempting to monitor endorsement; listener shares the relevant conceptual framework; context rewards accurate self-report of mental processes",
+    "conditions_for_misleading": "speaker uses the claim to disclaim responsibility for thoughts they in fact endorse or act on; distinction is invoked rhetorically rather than applied consistently"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 259,
+  "output_tokens": 160,
+  "error": "",
+  "retry_count": 0
+}

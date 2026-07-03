@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0214__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:33:18.278757+00:00",
+  "wall_clock_seconds": 5.479466199874878,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions to instill hope and a forward-looking perspective, encouraging the client to perceive their current aspirations and ideals as reliable indicators of future actualization.\",\n  \"implicit_claims\": [\n    \"A person's vision and ideal are distinct and directional (vision precedes ideal).\",\n    \"Vision and ideal are innate or self-generated, not externally imposed.\",\n    \"One's present vision inevitably leads to a future state of being.\",\n    \"The ideal is a final, unveilable endpoint of personal development.\",\n    \"The process of becoming is linear and predictable (promise → prophecy → unveiling).\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a metaphorical or aspirational statement: it posits a progression from a less defined 'vision' to a culminating 'ideal.' However, it lacks empirical or logical specificity, relying on poetic parallelism rather than operational definitions.\",\n  \"conditions_for_usefulness\": [\n    \"The client holds a hopeful or growth-oriented mindset.\",\n    \"The client can identify a personal vision and ideal that feel meaningful.\",\n    \"The client is open to metaphorical or future-directed language.\",\n    \"The therapeutic context values inspiration and motivation over concrete problem-solving.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client has a tendency toward unrealistic optimism or magical thinking.\",\n    \"The client’s vision/ideal is based on external expectations rather than authentic self-knowledge.\",\n    \"The client is in acute distress and needs immediate, concrete coping strategies rather than future-oriented abstraction.\",\n    \"The statement may be interpreted as implying failure if the 'vision' or 'ideal' does not manifest over time.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions to instill hope and a forward-looking perspective, encouraging the client to perceive their current aspirations and ideals as reliable indicators of future actualization.",
+    "implicit_claims": [
+      "A person's vision and ideal are distinct and directional (vision precedes ideal).",
+      "Vision and ideal are innate or self-generated, not externally imposed.",
+      "One's present vision inevitably leads to a future state of being.",
+      "The ideal is a final, unveilable endpoint of personal development.",
+      "The process of becoming is linear and predictable (promise → prophecy → unveiling)."
+    ],
+    "coherence_assessment": "Internally coherent as a metaphorical or aspirational statement: it posits a progression from a less defined 'vision' to a culminating 'ideal.' However, it lacks empirical or logical specificity, relying on poetic parallelism rather than operational definitions.",
+    "conditions_for_usefulness": [
+      "The client holds a hopeful or growth-oriented mindset.",
+      "The client can identify a personal vision and ideal that feel meaningful.",
+      "The client is open to metaphorical or future-directed language.",
+      "The therapeutic context values inspiration and motivation over concrete problem-solving."
+    ],
+    "conditions_for_misleading": [
+      "The client has a tendency toward unrealistic optimism or magical thinking.",
+      "The client’s vision/ideal is based on external expectations rather than authentic self-knowledge.",
+      "The client is in acute distress and needs immediate, concrete coping strategies rather than future-oriented abstraction.",
+      "The statement may be interpreted as implying failure if the 'vision' or 'ideal' does not manifest over time."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 345,
+  "error": "",
+  "retry_count": 0
+}

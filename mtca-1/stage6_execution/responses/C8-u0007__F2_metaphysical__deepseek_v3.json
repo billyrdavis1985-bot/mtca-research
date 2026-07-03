@@ -1,0 +1,41 @@
+{
+  "call_id": "C8-u0007__F2_metaphysical__deepseek_v3",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:27:06.579083+00:00",
+  "wall_clock_seconds": 4.444360733032227,
+  "raw_response": "{\n  \"communicative_function\": \"The statement reports a personal observation that reverses a common psychological assumption, suggesting that behavior precedes and influences mood rather than mood determining behavior.\",\n  \"implicit_claims\": [\n    \"The speaker has introspective access to the temporal order of mood and behavior.\",\n    \"Mood and behavior are distinct, causally related phenomena.\",\n    \"The observed pattern is reliable enough to state as a general tendency.\",\n    \"This pattern may be counterintuitive or interesting to share.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it expresses a subjective observation about a causal relationship between two defined internal states, without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"If the observation is accurate for the speaker, it can be used to intentionally change mood by changing behavior (e.g., acting 'as if').\",\n    \"If the statement encourages self-aware experimentation with behavior-mood dynamics.\",\n    \"If it serves as a practical heuristic in contexts like cognitive-behavioral therapy or mindfulness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If misinterpreted as a universal law that behavior always precedes mood for everyone.\",\n    \"If used to deny the valid influence of mood on behavior in certain situations.\",\n    \"If it leads to ignoring underlying emotional or physiological causes that also drive mood.\",\n    \"If presented as a metaphysical truth about non-physical reality rather than a subjective psychological pattern.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement reports a personal observation that reverses a common psychological assumption, suggesting that behavior precedes and influences mood rather than mood determining behavior.",
+    "implicit_claims": [
+      "The speaker has introspective access to the temporal order of mood and behavior.",
+      "Mood and behavior are distinct, causally related phenomena.",
+      "The observed pattern is reliable enough to state as a general tendency.",
+      "This pattern may be counterintuitive or interesting to share."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it expresses a subjective observation about a causal relationship between two defined internal states, without logical contradiction.",
+    "conditions_for_usefulness": [
+      "If the observation is accurate for the speaker, it can be used to intentionally change mood by changing behavior (e.g., acting 'as if').",
+      "If the statement encourages self-aware experimentation with behavior-mood dynamics.",
+      "If it serves as a practical heuristic in contexts like cognitive-behavioral therapy or mindfulness."
+    ],
+    "conditions_for_misleading": [
+      "If misinterpreted as a universal law that behavior always precedes mood for everyone.",
+      "If used to deny the valid influence of mood on behavior in certain situations.",
+      "If it leads to ignoring underlying emotional or physiological causes that also drive mood.",
+      "If presented as a metaphysical truth about non-physical reality rather than a subjective psychological pattern."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 298,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0008__F1_clinical__grok_4",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:25:17.611871+00:00",
+  "wall_clock_seconds": 6.468183755874634,
+  "raw_response": "{\n  \"communicative_function\": \"Self-report of completed reparative action qualified by an ethical exception clause\",\n  \"implicit_claims\": [\n    \"identifiable others have been harmed by the speaker\",\n    \"direct amends are feasible in the majority of cases\",\n    \"the speaker possesses reliable judgment to determine when amends would cause injury\",\n    \"non-injury to self or others is a higher-order constraint than making amends\"\n  ],\n  \"coherence_assessment\": \"Coherent; the exception clause prevents the rule from becoming self-defeating or harmful\",\n  \"conditions_for_usefulness\": \"Speaker has actually caused harm, can accurately forecast injury, and operates in a therapeutic context where behavioral follow-through is being tracked\",\n  \"conditions_for_misleading\": \"No genuine harms exist, the exception is invoked to avoid accountability, or 'injury' is defined so broadly that amends are never attempted\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-report of completed reparative action qualified by an ethical exception clause",
+    "implicit_claims": [
+      "identifiable others have been harmed by the speaker",
+      "direct amends are feasible in the majority of cases",
+      "the speaker possesses reliable judgment to determine when amends would cause injury",
+      "non-injury to self or others is a higher-order constraint than making amends"
+    ],
+    "coherence_assessment": "Coherent; the exception clause prevents the rule from becoming self-defeating or harmful",
+    "conditions_for_usefulness": "Speaker has actually caused harm, can accurately forecast injury, and operates in a therapeutic context where behavioral follow-through is being tracked",
+    "conditions_for_misleading": "No genuine harms exist, the exception is invoked to avoid accountability, or 'injury' is defined so broadly that amends are never attempted"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 185,
+  "error": "",
+  "retry_count": 0
+}

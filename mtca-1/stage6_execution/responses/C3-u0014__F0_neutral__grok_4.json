@@ -1,0 +1,31 @@
+{
+  "call_id": "C3-u0014__F0_neutral__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:20:43.753372+00:00",
+  "wall_clock_seconds": 6.535933494567871,
+  "raw_response": "{\n  \"communicative_function\": \"Moral-philosophical comparison asserting anger is less unmanly than lust\",\n  \"implicit_claims\": [\n    \"Anger involves grief-like self-contraction that turns one from reason\",\n    \"Lust overcomes one via pleasure and thereby reveals impotence and unmanliness\",\n    \"Lust constitutes a greater moral failing than anger in terms of disposition\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: structured contrast with causal attributions and value ranking\",\n  \"conditions_for_usefulness\": \"Acceptance of Stoic or traditional frameworks that value reason and 'manly' self-control for ethical self-assessment\",\n  \"conditions_for_misleading\": \"Rejection of gendered moral language or empirical mismatch with described mechanisms of anger and lust\"\n}",
+  "parsed_json": {
+    "communicative_function": "Moral-philosophical comparison asserting anger is less unmanly than lust",
+    "implicit_claims": [
+      "Anger involves grief-like self-contraction that turns one from reason",
+      "Lust overcomes one via pleasure and thereby reveals impotence and unmanliness",
+      "Lust constitutes a greater moral failing than anger in terms of disposition"
+    ],
+    "coherence_assessment": "Internally coherent: structured contrast with causal attributions and value ranking",
+    "conditions_for_usefulness": "Acceptance of Stoic or traditional frameworks that value reason and 'manly' self-control for ethical self-assessment",
+    "conditions_for_misleading": "Rejection of gendered moral language or empirical mismatch with described mechanisms of anger and lust"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 294,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

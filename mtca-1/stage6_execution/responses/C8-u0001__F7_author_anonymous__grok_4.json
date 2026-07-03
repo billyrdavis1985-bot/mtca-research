@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0001__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:57:25.619967+00:00",
+  "wall_clock_seconds": 6.3874831199646,
+  "raw_response": "{\n  \"communicative_function\": \"self-declaration of a cognitive strategy or commitment to reframe catastrophic thinking\",\n  \"implicit_claims\": [\n    \"the speaker sometimes engages in catastrophizing\",\n    \"catastrophizing can be consciously detected\",\n    \"a distinguishable 'realistic worst case' exists and can be identified\",\n    \"inquiring about that realistic case is a preferable response to catastrophizing\"\n  ],\n  \"coherence_assessment\": \"internally coherent; describes a conditional metacognitive response without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker does catastrophize, can reliably distinguish realistic from exaggerated outcomes, and the practice reduces distress or improves decisions\",\n  \"conditions_for_misleading\": \"the speaker does not catastrophize, realistic assessment still yields paralyzing negativity, or the statement masks avoidance of action\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-declaration of a cognitive strategy or commitment to reframe catastrophic thinking",
+    "implicit_claims": [
+      "the speaker sometimes engages in catastrophizing",
+      "catastrophizing can be consciously detected",
+      "a distinguishable 'realistic worst case' exists and can be identified",
+      "inquiring about that realistic case is a preferable response to catastrophizing"
+    ],
+    "coherence_assessment": "internally coherent; describes a conditional metacognitive response without contradiction",
+    "conditions_for_usefulness": "the speaker does catastrophize, can reliably distinguish realistic from exaggerated outcomes, and the practice reduces distress or improves decisions",
+    "conditions_for_misleading": "the speaker does not catastrophize, realistic assessment still yields paralyzing negativity, or the statement masks avoidance of action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 274,
+  "output_tokens": 175,
+  "error": "",
+  "retry_count": 0
+}

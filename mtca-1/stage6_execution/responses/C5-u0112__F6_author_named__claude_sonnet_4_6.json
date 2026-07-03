@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0112__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:20:27.845221+00:00",
+  "wall_clock_seconds": 15.743168354034424,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a causal assertion, linking the quality of a person's thoughts directly to the physical condition of their body. It functions rhetorically as a motivational warning, urging the reader to cultivate positive thinking to achieve physical well-being, consistent with Allen's broader thesis that mind governs all life outcomes.\",\n  \"implicit_claims\": [\n    \"Thoughts have a direct and deterministic causal relationship with physical health.\",\n    \"The body is a faithful expression or mirror of the mind's contents.\",\n    \"Physical illness is, at least in part, a product of mental or moral deficiency.\",\n    \"A person with a healthy body must therefore be cultivating healthy thoughts.\",\n    \"The individual has sufficient control over their thoughts to influence their physical health.\",\n    \"There is a correspondence between the 'quality' of thoughts and the 'quality' of bodily states.\",\n    \"Physical illness is not primarily caused by pathogens, genetics, environment, or random chance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within Allen's idealist framework, where mind is primary and matter is secondary. It is logically consistent with his broader thesis. However, it relies on an undefined and metaphorical use of 'sickly thoughts,' making the causal mechanism vague and unfalsifiable. The parallelism is rhetorically elegant but glosses over the complexity of the mind-body relationship.\",\n  \"conditions_for_usefulness\": [\n    \"Chronic stress, anxiety, or negative thought patterns genuinely contribute to psychosomatic illness or immune suppression in the individual.\",\n    \"The person has a lifestyle where mental habits are a primary driver of health outcomes and other factors (genetics, environment, access to healthcare) are relatively stable.\",\n    \"It is used as an invitation to explore the psychological dimensions of health, not as a complete medical explanation.\",\n    \"The reader interprets 'sickly thoughts' broadly to include persistent stress, hopelessness, or self-destructive mental habits that are known to correlate with poor health.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"A person with a serious illness (e.g., cancer, autoimmune disease, genetic disorder) is led to believe their condition is a result of moral or mental failure.\",\n    \"It discourages people from seeking medical treatment by implying that thought reform is the primary or sufficient remedy.\",\n    \"It is applied to populations whose illness is caused primarily by poverty, environmental toxins, malnutrition, or infectious disease, effectively blaming them for their condition.\",\n    \"It implies a deterministic one-way causation, ignoring that physical illness can itself cause negative or 'sickly' thinking.\",\n    \"The reader conflates correlation (stressed people may be less healthy) with the strong causation the statement asserts.\",\n    \"It is used to stigmatize or moralize illness, treating sick people as spiritually or mentally deficient.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a causal assertion, linking the quality of a person's thoughts directly to the physical condition of their body. It functions rhetorically as a motivational warning, urging the reader to cultivate positive thinking to achieve physical well-being, consistent with Allen's broader thesis that mind governs all life outcomes.",
+    "implicit_claims": [
+      "Thoughts have a direct and deterministic causal relationship with physical health.",
+      "The body is a faithful expression or mirror of the mind's contents.",
+      "Physical illness is, at least in part, a product of mental or moral deficiency.",
+      "A person with a healthy body must therefore be cultivating healthy thoughts.",
+      "The individual has sufficient control over their thoughts to influence their physical health.",
+      "There is a correspondence between the 'quality' of thoughts and the 'quality' of bodily states.",
+      "Physical illness is not primarily caused by pathogens, genetics, environment, or random chance."
+    ],
+    "coherence_assessment": "The statement is internally coherent within Allen's idealist framework, where mind is primary and matter is secondary. It is logically consistent with his broader thesis. However, it relies on an undefined and metaphorical use of 'sickly thoughts,' making the causal mechanism vague and unfalsifiable. The parallelism is rhetorically elegant but glosses over the complexity of the mind-body relationship.",
+    "conditions_for_usefulness": [
+      "Chronic stress, anxiety, or negative thought patterns genuinely contribute to psychosomatic illness or immune suppression in the individual.",
+      "The person has a lifestyle where mental habits are a primary driver of health outcomes and other factors (genetics, environment, access to healthcare) are relatively stable.",
+      "It is used as an invitation to explore the psychological dimensions of health, not as a complete medical explanation.",
+      "The reader interprets 'sickly thoughts' broadly to include persistent stress, hopelessness, or self-destructive mental habits that are known to correlate with poor health."
+    ],
+    "conditions_for_misleading": [
+      "A person with a serious illness (e.g., cancer, autoimmune disease, genetic disorder) is led to believe their condition is a result of moral or mental failure.",
+      "It discourages people from seeking medical treatment by implying that thought reform is the primary or sufficient remedy.",
+      "It is applied to populations whose illness is caused primarily by poverty, environmental toxins, malnutrition, or infectious disease, effectively blaming them for their condition.",
+      "It implies a deterministic one-way causation, ignoring that physical illness can itself cause negative or 'sickly' thinking.",
+      "The reader conflates correlation (stressed people may be less healthy) with the strong causation the statement asserts.",
+      "It is used to stigmatize or moralize illness, treating sick people as spiritually or mentally deficient."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 673,
+  "error": "",
+  "retry_count": 0
+}

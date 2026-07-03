@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0003__F1_clinical__grok_4",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:55:26.242875+00:00",
+  "wall_clock_seconds": 4.990967512130737,
+  "raw_response": "{\n  \"communicative_function\": \"affirmation of personal agency and self-determination\",\n  \"implicit_claims\": [\n    \"individuals possess primary causal power over their own identity and development\",\n    \"external influences are secondary to internal self-construction\",\n    \"self-making is an active, ongoing process under personal control\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a concise assertion of agency but circular in presupposing the very capacity for self-making it asserts\",\n  \"conditions_for_usefulness\": \"the recipient experiences it as empowering rather than blaming, has sufficient psychological resources to exercise agency, and the therapeutic context allows integration with acknowledgment of external constraints\",\n  \"conditions_for_misleading\": \"the statement is taken to imply total self-determination irrespective of genetics, trauma, socioeconomic factors or neurobiology, leading to unrealistic self-blame or denial of systemic influences\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmation of personal agency and self-determination",
+    "implicit_claims": [
+      "individuals possess primary causal power over their own identity and development",
+      "external influences are secondary to internal self-construction",
+      "self-making is an active, ongoing process under personal control"
+    ],
+    "coherence_assessment": "internally coherent as a concise assertion of agency but circular in presupposing the very capacity for self-making it asserts",
+    "conditions_for_usefulness": "the recipient experiences it as empowering rather than blaming, has sufficient psychological resources to exercise agency, and the therapeutic context allows integration with acknowledgment of external constraints",
+    "conditions_for_misleading": "the statement is taken to imply total self-determination irrespective of genetics, trauma, socioeconomic factors or neurobiology, leading to unrealistic self-blame or denial of systemic influences"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 267,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0
+}

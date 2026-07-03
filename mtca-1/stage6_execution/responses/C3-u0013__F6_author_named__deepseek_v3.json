@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0013__F6_author_named__deepseek_v3",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:19:30.974666+00:00",
+  "wall_clock_seconds": 4.807010650634766,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is evaluating and endorsing a philosophical comparison between types of sins, specifically asserting that sins from lust are greater than those from anger, while acknowledging the comparison is made from a common or vulgar perspective.\",\n  \"implicit_claims\": [\n    \"Sins can be meaningfully compared in terms of magnitude or gravity.\",\n    \"There is a distinction between sins arising from lust and those arising from anger.\",\n    \"Lust-based sins are worse or more serious than anger-based sins.\",\n    \"Theophrastus's view is philosophically sound.\",\n    \"The comparison is made from a common (non-technical) sense of sin.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear comparative claim, attributes it to Theophrastus, and endorses it while noting the basis of comparison. No logical contradiction is evident.\",\n  \"conditions_for_usefulness\": [\n    \"One accepts that sins can be ranked in severity.\",\n    \"One finds the distinction between lust and anger morally relevant.\",\n    \"One values ancient philosophical perspectives on ethics.\",\n    \"The statement is used to guide moral reflection or ethical prioritization.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If sins are not comparable in any objective or useful sense.\",\n    \"If the distinction between lust and anger is arbitrary or irrelevant to moral evaluation.\",\n    \"If the statement is taken as universally applicable without considering cultural or contextual differences.\",\n    \"If the reader assumes the 'vulgar sense' is the only valid frame, ignoring deeper ethical analysis.\",\n    \"If the statement is used to justify harsh judgment of lust while downplaying harm from anger.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is evaluating and endorsing a philosophical comparison between types of sins, specifically asserting that sins from lust are greater than those from anger, while acknowledging the comparison is made from a common or vulgar perspective.",
+    "implicit_claims": [
+      "Sins can be meaningfully compared in terms of magnitude or gravity.",
+      "There is a distinction between sins arising from lust and those arising from anger.",
+      "Lust-based sins are worse or more serious than anger-based sins.",
+      "Theophrastus's view is philosophically sound.",
+      "The comparison is made from a common (non-technical) sense of sin."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear comparative claim, attributes it to Theophrastus, and endorses it while noting the basis of comparison. No logical contradiction is evident.",
+    "conditions_for_usefulness": [
+      "One accepts that sins can be ranked in severity.",
+      "One finds the distinction between lust and anger morally relevant.",
+      "One values ancient philosophical perspectives on ethics.",
+      "The statement is used to guide moral reflection or ethical prioritization."
+    ],
+    "conditions_for_misleading": [
+      "If sins are not comparable in any objective or useful sense.",
+      "If the distinction between lust and anger is arbitrary or irrelevant to moral evaluation.",
+      "If the statement is taken as universally applicable without considering cultural or contextual differences.",
+      "If the reader assumes the 'vulgar sense' is the only valid frame, ignoring deeper ethical analysis.",
+      "If the statement is used to justify harsh judgment of lust while downplaying harm from anger."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 350,
+  "error": "",
+  "retry_count": 0
+}

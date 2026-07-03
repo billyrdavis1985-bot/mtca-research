@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0457__F6_author_named__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:39:10.920252+00:00",
+  "wall_clock_seconds": 5.1147565841674805,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting an observation of an improvement in a subject's respiration and walking after following a suggestion, likely from autosuggestion practice, to highlight the effectiveness of the method.\",\n  \"implicit_claims\": [\n    \"The speaker (Coué) is a credible observer of the subject's respiration and walking.\",\n    \"The improvement is directly caused by the subject's action ('when he does so').\",\n    \"The improvement is remarkable, implying it is significant and noticeable.\",\n    \"The subject had prior respiration and walking issues that were amenable to change.\",\n    \"The method being described (conscious autosuggestion) produces observable physical outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple firsthand observation. The connection between the action and the improvement is asserted but not explained, which is consistent with anecdotal reporting.\",\n  \"conditions_for_usefulness\": [\n    \"The subject's respiration and walking were indeed impaired beforehand.\",\n    \"The improvement is sustained and not a momentary placebo effect.\",\n    \"The reader trusts Coué's observational accuracy and the context of the method.\",\n    \"The statement is part of a broader, empirically supported framework of autosuggestion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is coincidental or caused by an unrelated factor (e.g., passage of time, other treatment).\",\n    \"The 'remarkable' improvement is exaggerated or subjective without objective measurement.\",\n    \"The reader generalizes this single case to all people without evidence.\",\n    \"The method itself is ineffective, but the statement gives a false sense of efficacy.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting an observation of an improvement in a subject's respiration and walking after following a suggestion, likely from autosuggestion practice, to highlight the effectiveness of the method.",
+    "implicit_claims": [
+      "The speaker (Coué) is a credible observer of the subject's respiration and walking.",
+      "The improvement is directly caused by the subject's action ('when he does so').",
+      "The improvement is remarkable, implying it is significant and noticeable.",
+      "The subject had prior respiration and walking issues that were amenable to change.",
+      "The method being described (conscious autosuggestion) produces observable physical outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple firsthand observation. The connection between the action and the improvement is asserted but not explained, which is consistent with anecdotal reporting.",
+    "conditions_for_usefulness": [
+      "The subject's respiration and walking were indeed impaired beforehand.",
+      "The improvement is sustained and not a momentary placebo effect.",
+      "The reader trusts Coué's observational accuracy and the context of the method.",
+      "The statement is part of a broader, empirically supported framework of autosuggestion."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is coincidental or caused by an unrelated factor (e.g., passage of time, other treatment).",
+      "The 'remarkable' improvement is exaggerated or subjective without objective measurement.",
+      "The reader generalizes this single case to all people without evidence.",
+      "The method itself is ineffective, but the statement gives a false sense of efficacy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 336,
+  "error": "",
+  "retry_count": 0
+}

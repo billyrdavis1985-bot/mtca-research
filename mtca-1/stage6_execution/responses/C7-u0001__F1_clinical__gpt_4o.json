@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0001__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T00:55:41.502020+00:00",
+  "wall_clock_seconds": 3.1396708488464355,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions to express belief in a higher power as a source of healing and restoration from a state of distress or dysfunction.\",\n  \"implicit_claims\": [\n    \"There exists a Power greater than ourselves.\",\n    \"This Power has the capacity to restore sanity.\",\n    \"The individual requires restoration to sanity.\",\n    \"Belief in a Higher Power is a step towards recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent if one accepts the premise of the existence of a Higher Power that can aid in restoring sanity. It logically connects a belief to a potential outcome.\",\n  \"conditions_for_usefulness\": \"The statement could be useful if the individual already has or is open to adopting a belief in a Higher Power. Additionally, it presupposes a situation where the individual recognizes a need for restoration and is open to the idea that external, greater forces could facilitate their recovery.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if applied to individuals who do not subscribe to belief systems involving a Higher Power or if the concept of 'sanity' is not relevant to their situation. Furthermore, it can be misleading if the focus on external power detracts from personal agency or other therapeutic strategies.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions to express belief in a higher power as a source of healing and restoration from a state of distress or dysfunction.",
+    "implicit_claims": [
+      "There exists a Power greater than ourselves.",
+      "This Power has the capacity to restore sanity.",
+      "The individual requires restoration to sanity.",
+      "Belief in a Higher Power is a step towards recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent if one accepts the premise of the existence of a Higher Power that can aid in restoring sanity. It logically connects a belief to a potential outcome.",
+    "conditions_for_usefulness": "The statement could be useful if the individual already has or is open to adopting a belief in a Higher Power. Additionally, it presupposes a situation where the individual recognizes a need for restoration and is open to the idea that external, greater forces could facilitate their recovery.",
+    "conditions_for_misleading": "The statement may be misleading if applied to individuals who do not subscribe to belief systems involving a Higher Power or if the concept of 'sanity' is not relevant to their situation. Furthermore, it can be misleading if the focus on external power detracts from personal agency or other therapeutic strategies."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 263,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0563__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:45:42.010194+00:00",
+  "wall_clock_seconds": 3.803105592727661,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a method for influencing fetal development through maternal visualization, presented as factual advice.\",\n  \"implicit_claims\": [\n    \"Maternal mental imagery can determine the sex of a fetus.\",\n    \"Maternal mental imagery can determine the physical and moral qualities of a child.\",\n    \"The mother's thoughts have a direct causal power over biological and genetic outcomes.\",\n    \"This process is reliable if the mother follows the described practice consistently.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a self-contained proposition, but it contradicts established biological and genetic knowledge, making it incoherent with external reality.\",\n  \"conditions_for_usefulness\": [\n    \"Maternal mental processes must have causal influence over fetal genetics and development.\",\n    \"The timing and repetition of visualization must be sufficient to override genetic and environmental factors.\",\n    \"The mother must be able to accurately and consistently form and maintain the desired mental image.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as scientific or medical advice, it misleads by ignoring biological mechanisms of sex determination and heredity.\",\n    \"If a mother believes the claim and the desired outcome does not occur, she may experience unwarranted guilt or blame.\",\n    \"If the statement is used to make health or reproductive decisions, it could lead to neglect of evidence-based prenatal care.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a method for influencing fetal development through maternal visualization, presented as factual advice.",
+    "implicit_claims": [
+      "Maternal mental imagery can determine the sex of a fetus.",
+      "Maternal mental imagery can determine the physical and moral qualities of a child.",
+      "The mother's thoughts have a direct causal power over biological and genetic outcomes.",
+      "This process is reliable if the mother follows the described practice consistently."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a self-contained proposition, but it contradicts established biological and genetic knowledge, making it incoherent with external reality.",
+    "conditions_for_usefulness": [
+      "Maternal mental processes must have causal influence over fetal genetics and development.",
+      "The timing and repetition of visualization must be sufficient to override genetic and environmental factors.",
+      "The mother must be able to accurately and consistently form and maintain the desired mental image."
+    ],
+    "conditions_for_misleading": [
+      "If taken as scientific or medical advice, it misleads by ignoring biological mechanisms of sex determination and heredity.",
+      "If a mother believes the claim and the desired outcome does not occur, she may experience unwarranted guilt or blame.",
+      "If the statement is used to make health or reproductive decisions, it could lead to neglect of evidence-based prenatal care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 286,
+  "error": "",
+  "retry_count": 0
+}

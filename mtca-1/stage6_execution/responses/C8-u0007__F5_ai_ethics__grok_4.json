@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0007__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:29:04.067361+00:00",
+  "wall_clock_seconds": 9.779968500137329,
+  "raw_response": "{\n  \"communicative_function\": \"sharing a personal empirical observation about psychological causality\",\n  \"implicit_claims\": [\"behavior exerts greater causal influence on mood than mood exerts on behavior\", \"this directional pattern is detectable through introspection\", \"the relationship is probabilistic rather than absolute\"],\n  \"coherence_assessment\": \"coherent as a first-person generalization; no internal logical contradiction\",\n  \"conditions_for_usefulness\": \"the reported pattern must hold reliably for the individual or population and interventions based on it must improve well-being\",\n  \"conditions_for_misleading\": \"the actual dominant causal direction is reversed or the observation reflects confirmation bias rather than stable regularities\"\n}",
+  "parsed_json": {
+    "communicative_function": "sharing a personal empirical observation about psychological causality",
+    "implicit_claims": [
+      "behavior exerts greater causal influence on mood than mood exerts on behavior",
+      "this directional pattern is detectable through introspection",
+      "the relationship is probabilistic rather than absolute"
+    ],
+    "coherence_assessment": "coherent as a first-person generalization; no internal logical contradiction",
+    "conditions_for_usefulness": "the reported pattern must hold reliably for the individual or population and interventions based on it must improve well-being",
+    "conditions_for_misleading": "the actual dominant causal direction is reversed or the observation reflects confirmation bias rather than stable regularities"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 277,
+  "output_tokens": 135,
+  "error": "",
+  "retry_count": 0
+}

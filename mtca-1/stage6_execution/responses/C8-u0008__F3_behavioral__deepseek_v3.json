@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0008__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:33:23.446563+00:00",
+  "wall_clock_seconds": 4.570124387741089,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is a self-directed commitment to align behavior with values despite emotional discord, serving to reinforce resolve and declare a value-consistent intention.\",\n  \"implicit_claims\": [\n    \"There is a distinction between feelings and values.\",\n    \"Feelings may lag behind or contradict one's values.\",\n    \"One has the capacity to choose actions independently of immediate feelings.\",\n    \"Values are stable and worthy of priority over transient feelings.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it posits a choice to act by a stable value framework while acknowledging that feelings may not yet align, which is a plausible and consistent psychological stance.\",\n  \"conditions_for_usefulness\": [\n    \"The values are genuinely held and clearly defined by the individual.\",\n    \"The individual has sufficient self-awareness to recognize when feelings conflict with values.\",\n    \"The individual possesses the psychological or practical capacity to override immediate feelings.\",\n    \"The context allows for deliberate choice rather than reflexive response.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the stated values are not actually the individual's true priorities, the commitment becomes performative.\",\n    \"If feelings are consistently suppressed without later integration, the statement could justify emotional avoidance.\",\n    \"If the individual lacks the capacity to act in line with values (e.g., due to external constraints), the statement may create false assurance.\",\n    \"If the statement is used to dismiss legitimate emotional information that should inform value revision, it can be misleading.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is a self-directed commitment to align behavior with values despite emotional discord, serving to reinforce resolve and declare a value-consistent intention.",
+    "implicit_claims": [
+      "There is a distinction between feelings and values.",
+      "Feelings may lag behind or contradict one's values.",
+      "One has the capacity to choose actions independently of immediate feelings.",
+      "Values are stable and worthy of priority over transient feelings."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it posits a choice to act by a stable value framework while acknowledging that feelings may not yet align, which is a plausible and consistent psychological stance.",
+    "conditions_for_usefulness": [
+      "The values are genuinely held and clearly defined by the individual.",
+      "The individual has sufficient self-awareness to recognize when feelings conflict with values.",
+      "The individual possesses the psychological or practical capacity to override immediate feelings.",
+      "The context allows for deliberate choice rather than reflexive response."
+    ],
+    "conditions_for_misleading": [
+      "If the stated values are not actually the individual's true priorities, the commitment becomes performative.",
+      "If feelings are consistently suppressed without later integration, the statement could justify emotional avoidance.",
+      "If the individual lacks the capacity to act in line with values (e.g., due to external constraints), the statement may create false assurance.",
+      "If the statement is used to dismiss legitimate emotional information that should inform value revision, it can be misleading."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 314,
+  "error": "",
+  "retry_count": 0
+}

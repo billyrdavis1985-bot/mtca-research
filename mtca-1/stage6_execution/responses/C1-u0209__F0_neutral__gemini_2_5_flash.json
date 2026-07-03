@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0209__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:18:58.717206+00:00",
+  "wall_clock_seconds": 9.563662052154541,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To provide prescriptive advice or a guideline for the strategic application and gradual withdrawal of an intervention ('suggestions') in a process aimed at achieving a complete and lasting resolution ('cure').\",\n  \"implicit_claims\": [\n    \"A 'subject' exists that can receive and be influenced by 'suggestions'.\",\n    \"'Suggestions' are an effective intervention for addressing an underlying problem or condition.\",\n    \"There is an initial state of need or deficiency that requires 'suggestions'.\",\n    \"Measurable 'progress' can be obtained in the 'subject' towards a desired outcome.\",\n    \"A 'cure' (a complete resolution of the problem) is an attainable state for the 'subject'.\",\n    \"The frequency and spacing of 'suggestions' are controllable variables that influence progress and the final outcome.\",\n    \"There is an optimal strategy for adjusting suggestion frequency (longer intervals with progress) to achieve the 'cure'.\",\n    \"The ultimate goal is for the 'suggestions' to become unnecessary, indicating the 'cure' is complete.\",\n    \"The process of healing or improvement is generally linear and predictable enough to allow for a phased reduction of intervention.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear, logical progression for an intervention: initiating with appropriate frequency, reducing frequency proportionally to observed progress, and ceasing the intervention entirely upon the achievement of a complete and stable resolution. The sequence of 'more or less frequently' to 'longer and longer intervals' until 'no longer necessary' forms a consistent instructional flow.\",\n  \"conditions_for_usefulness\": [\n    \"The 'subject' is amenable to change or improvement through the specified 'suggestions'.\",\n    \"The 'cure' is a clearly definable, measurable, and achievable state.\",\n    \"There are reliable indicators of 'progress' that can be used to adjust the frequency of 'suggestions'.\",\n    \"The 'suggestions' are genuinely effective in facilitating progress and contributing to the 'cure'.\",\n    \"The underlying problem or condition has a finite resolution, rather than being chronic or requiring continuous management.\",\n    \"The gradual reduction of support or intervention promotes long-term independence or sustained resolution in the 'subject'.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'cure' is not possible, ill-defined, or the condition is chronic/relapsing, leading to false expectations of a permanent end-state.\",\n    \"The 'suggestions' are ineffective, harmful, or an inappropriate intervention for the 'subject' or condition.\",\n    \"'Progress' is not linear, or the withdrawal of 'suggestions' leads to relapse, regression, or new problems.\",\n    \"The 'subject' develops a dependency on the 'suggestions', making their withdrawal detrimental even with apparent progress.\",\n    \"The criteria for determining when the 'cure is complete' are ambiguous or subjective, leading to premature cessation of necessary support.\",\n    \"The statement implies universal applicability where this method of intervention and withdrawal may not be appropriate or effective for certain subjects or conditions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To provide prescriptive advice or a guideline for the strategic application and gradual withdrawal of an intervention ('suggestions') in a process aimed at achieving a complete and lasting resolution ('cure').",
+    "implicit_claims": [
+      "A 'subject' exists that can receive and be influenced by 'suggestions'.",
+      "'Suggestions' are an effective intervention for addressing an underlying problem or condition.",
+      "There is an initial state of need or deficiency that requires 'suggestions'.",
+      "Measurable 'progress' can be obtained in the 'subject' towards a desired outcome.",
+      "A 'cure' (a complete resolution of the problem) is an attainable state for the 'subject'.",
+      "The frequency and spacing of 'suggestions' are controllable variables that influence progress and the final outcome.",
+      "There is an optimal strategy for adjusting suggestion frequency (longer intervals with progress) to achieve the 'cure'.",
+      "The ultimate goal is for the 'suggestions' to become unnecessary, indicating the 'cure' is complete.",
+      "The process of healing or improvement is generally linear and predictable enough to allow for a phased reduction of intervention."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear, logical progression for an intervention: initiating with appropriate frequency, reducing frequency proportionally to observed progress, and ceasing the intervention entirely upon the achievement of a complete and stable resolution. The sequence of 'more or less frequently' to 'longer and longer intervals' until 'no longer necessary' forms a consistent instructional flow.",
+    "conditions_for_usefulness": [
+      "The 'subject' is amenable to change or improvement through the specified 'suggestions'.",
+      "The 'cure' is a clearly definable, measurable, and achievable state.",
+      "There are reliable indicators of 'progress' that can be used to adjust the frequency of 'suggestions'.",
+      "The 'suggestions' are genuinely effective in facilitating progress and contributing to the 'cure'.",
+      "The underlying problem or condition has a finite resolution, rather than being chronic or requiring continuous management.",
+      "The gradual reduction of support or intervention promotes long-term independence or sustained resolution in the 'subject'."
+    ],
+    "conditions_for_misleading": [
+      "The 'cure' is not possible, ill-defined, or the condition is chronic/relapsing, leading to false expectations of a permanent end-state.",
+      "The 'suggestions' are ineffective, harmful, or an inappropriate intervention for the 'subject' or condition.",
+      "'Progress' is not linear, or the withdrawal of 'suggestions' leads to relapse, regression, or new problems.",
+      "The 'subject' develops a dependency on the 'suggestions', making their withdrawal detrimental even with apparent progress.",
+      "The criteria for determining when the 'cure is complete' are ambiguous or subjective, leading to premature cessation of necessary support.",
+      "The statement implies universal applicability where this method of intervention and withdrawal may not be appropriate or effective for certain subjects or conditions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 660,
+  "error": "",
+  "retry_count": 0
+}

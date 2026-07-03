@@ -1,0 +1,50 @@
+{
+  "call_id": "C1-u0228__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:26:19.118550+00:00",
+  "wall_clock_seconds": 17.899866342544556,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is advocating for a specific communicative practice by physicians — framing diagnoses with hopeful, constructive language rather than fatalistic language — and committing to the behavioral norm that how a doctor speaks to a patient has real causal consequences on patient outcomes.\",\n  \"implicit_claims\": [\n    \"Doctors hold inherent suggestive authority over patients by virtue of their title and role.\",\n    \"A patient's psychological state (belief, expectation) can materially affect the course of their illness.\",\n    \"Negative prognoses delivered authoritatively can cause harm beyond what the illness itself would cause.\",\n    \"Positive or qualified prognoses can trigger healing mechanisms (autosuggestion) that improve outcomes.\",\n    \"There is a meaningful and consequential difference between saying 'incurable' and saying 'curable with care and patience'.\",\n    \"Physicians have an ethical obligation to consider the psychological impact of their words.\",\n    \"Autosuggestion is a real and clinically relevant phenomenon.\",\n    \"Optimistic framing by a doctor is not inherently deceptive and can be medically justified.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear contrast between two communicative approaches and links each to a plausible outcome via a consistent mechanism (autosuggestion/placebo-like effect). The logic flows from premise (doctor has suggestive authority) to mechanism (patient internalizes the message) to outcome (positive or negative health consequences). No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The psychosomatic and placebo literature supports that patient expectation influences health outcomes.\",\n    \"Doctors genuinely hold authority-based suggestive influence over their patients.\",\n    \"The physician cannot be certain the illness is truly incurable, making hopeful framing epistemically honest.\",\n    \"The patient's mental state is a relevant variable in their recovery.\",\n    \"Communication training for physicians is practically implementable and scalable.\",\n    \"The hopeful framing does not lead to harmful delays in seeking alternative care or treatment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The illness is definitively terminal or incurable, making hopeful framing a form of deception that prevents informed consent and end-of-life planning.\",\n    \"Autosuggestion is overstated as a mechanism and does not actually produce clinically significant outcomes in the relevant condition.\",\n    \"The framing is used to justify withholding accurate prognostic information patients have a right to.\",\n    \"Patients use the optimistic framing to forgo necessary interventions or second opinions.\",\n    \"The statement generalizes too broadly across all illness types, ignoring conditions where realistic prognosis is critical for decision-making.\",\n    \"The framework places undue burden on patients' mental states for outcomes that are primarily physiological.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is advocating for a specific communicative practice by physicians — framing diagnoses with hopeful, constructive language rather than fatalistic language — and committing to the behavioral norm that how a doctor speaks to a patient has real causal consequences on patient outcomes.",
+    "implicit_claims": [
+      "Doctors hold inherent suggestive authority over patients by virtue of their title and role.",
+      "A patient's psychological state (belief, expectation) can materially affect the course of their illness.",
+      "Negative prognoses delivered authoritatively can cause harm beyond what the illness itself would cause.",
+      "Positive or qualified prognoses can trigger healing mechanisms (autosuggestion) that improve outcomes.",
+      "There is a meaningful and consequential difference between saying 'incurable' and saying 'curable with care and patience'.",
+      "Physicians have an ethical obligation to consider the psychological impact of their words.",
+      "Autosuggestion is a real and clinically relevant phenomenon.",
+      "Optimistic framing by a doctor is not inherently deceptive and can be medically justified."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear contrast between two communicative approaches and links each to a plausible outcome via a consistent mechanism (autosuggestion/placebo-like effect). The logic flows from premise (doctor has suggestive authority) to mechanism (patient internalizes the message) to outcome (positive or negative health consequences). No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The psychosomatic and placebo literature supports that patient expectation influences health outcomes.",
+      "Doctors genuinely hold authority-based suggestive influence over their patients.",
+      "The physician cannot be certain the illness is truly incurable, making hopeful framing epistemically honest.",
+      "The patient's mental state is a relevant variable in their recovery.",
+      "Communication training for physicians is practically implementable and scalable.",
+      "The hopeful framing does not lead to harmful delays in seeking alternative care or treatment."
+    ],
+    "conditions_for_misleading": [
+      "The illness is definitively terminal or incurable, making hopeful framing a form of deception that prevents informed consent and end-of-life planning.",
+      "Autosuggestion is overstated as a mechanism and does not actually produce clinically significant outcomes in the relevant condition.",
+      "The framing is used to justify withholding accurate prognostic information patients have a right to.",
+      "Patients use the optimistic framing to forgo necessary interventions or second opinions.",
+      "The statement generalizes too broadly across all illness types, ignoring conditions where realistic prognosis is critical for decision-making.",
+      "The framework places undue burden on patients' mental states for outcomes that are primarily physiological."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 260,
+  "output_tokens": 664,
+  "error": "",
+  "retry_count": 0
+}

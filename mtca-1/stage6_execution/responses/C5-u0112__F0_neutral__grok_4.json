@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0112__F0_neutral__grok_4",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:16:41.318491+00:00",
+  "wall_clock_seconds": 8.737541675567627,
+  "raw_response": "{\n  \"communicative_function\": \"Asserting a causal or expressive link between mental states and physical health as a piece of proverbial wisdom or warning\",\n  \"implicit_claims\": [\n    \"Thoughts can be classified as 'sickly' (unhealthy/negative)\",\n    \"Mental states directly manifest in or cause bodily illness\",\n    \"The mind-body relationship is primarily unidirectional and expressive\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a metaphorical claim but relies on an oversimplified deterministic causal model\",\n  \"conditions_for_usefulness\": \"Psychosomatic influences are significant, the statement encourages beneficial mental habits, and it is not treated as excluding other medical factors\",\n  \"conditions_for_misleading\": \"Taken literally as the primary or sole cause of illness, promoting victim-blaming or discouraging evidence-based medical treatment\"\n}",
+  "parsed_json": {
+    "communicative_function": "Asserting a causal or expressive link between mental states and physical health as a piece of proverbial wisdom or warning",
+    "implicit_claims": [
+      "Thoughts can be classified as 'sickly' (unhealthy/negative)",
+      "Mental states directly manifest in or cause bodily illness",
+      "The mind-body relationship is primarily unidirectional and expressive"
+    ],
+    "coherence_assessment": "Internally consistent as a metaphorical claim but relies on an oversimplified deterministic causal model",
+    "conditions_for_usefulness": "Psychosomatic influences are significant, the statement encourages beneficial mental habits, and it is not treated as excluding other medical factors",
+    "conditions_for_misleading": "Taken literally as the primary or sole cause of illness, promoting victim-blaming or discouraging evidence-based medical treatment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 253,
+  "output_tokens": 173,
+  "error": "",
+  "retry_count": 0
+}

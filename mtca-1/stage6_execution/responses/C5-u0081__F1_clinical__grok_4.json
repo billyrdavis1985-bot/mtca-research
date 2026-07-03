@@ -1,0 +1,32 @@
+{
+  "call_id": "C5-u0081__F1_clinical__grok_4",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:06:25.317890+00:00",
+  "wall_clock_seconds": 7.872500419616699,
+  "raw_response": "{\n  \"communicative_function\": \"reframes suffering as purposeful and transformative, offering a meaning-making attribution to reduce existential distress\",\n  \"implicit_claims\": [\n    \"suffering possesses a singular, supreme teleological function\",\n    \"purification is achieved by the elimination of elements deemed useless or impure\",\n    \"this process is inherently beneficial and exhaustive of suffering's value\",\n    \"human experience is subject to a hierarchical ordering of utility and purity\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a teleological or purgative worldview but logically circular, as it defines suffering's value solely by its asserted outcome without independent criteria\",\n  \"conditions_for_usefulness\": \"patient holds compatible metaphysical or spiritual beliefs; statement fosters acceptance and agency rather than fatalism; applied within a collaborative therapeutic alliance that monitors for avoidance of actionable change\",\n  \"conditions_for_misleading\": \"suffering arises from modifiable external conditions or treatable pathology; patient interprets statement to justify endurance of harm or self-blame; cultural or personal frameworks reject notions of inherent purification through pain\"\n}",
+  "parsed_json": {
+    "communicative_function": "reframes suffering as purposeful and transformative, offering a meaning-making attribution to reduce existential distress",
+    "implicit_claims": [
+      "suffering possesses a singular, supreme teleological function",
+      "purification is achieved by the elimination of elements deemed useless or impure",
+      "this process is inherently beneficial and exhaustive of suffering's value",
+      "human experience is subject to a hierarchical ordering of utility and purity"
+    ],
+    "coherence_assessment": "internally consistent within a teleological or purgative worldview but logically circular, as it defines suffering's value solely by its asserted outcome without independent criteria",
+    "conditions_for_usefulness": "patient holds compatible metaphysical or spiritual beliefs; statement fosters acceptance and agency rather than fatalism; applied within a collaborative therapeutic alliance that monitors for avoidance of actionable change",
+    "conditions_for_misleading": "suffering arises from modifiable external conditions or treatable pathology; patient interprets statement to justify endurance of harm or self-blame; cultural or personal frameworks reject notions of inherent purification through pain"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

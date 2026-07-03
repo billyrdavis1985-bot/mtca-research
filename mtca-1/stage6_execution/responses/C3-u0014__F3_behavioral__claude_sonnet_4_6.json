@@ -1,0 +1,51 @@
+{
+  "call_id": "C3-u0014__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:22:44.844619+00:00",
+  "wall_clock_seconds": 16.0002498626709,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a comparative moral evaluation, ranking two types of vice (anger and lust) on a scale of culpability and character weakness. It functions as a normative judgment that implicitly instructs the listener to view lust-driven sin as more shameful than anger-driven sin, potentially serving as a deterrent or a framework for self-assessment and moral hierarchy.\",\n  \"implicit_claims\": [\n    \"Reason is the highest faculty and deviations from it are morally significant\",\n    \"Anger, while wrong, involves a kind of active resistance or contraction that implies some engagement with reason\",\n    \"Lust represents a passive surrender to pleasure, making it a more complete moral failure\",\n    \"Strength of character is defined by resistance to pleasure\",\n    \"Being 'overcome' by pleasure is worse than being 'overcome' by grief or anger\",\n    \"Moral worth is partially determined by the nature of the passion that causes the sin, not just the act itself\",\n    \"Masculinity or manliness is an appropriate standard for moral evaluation\",\n    \"There is a meaningful hierarchy among vices\",\n    \"Self-control over pleasure is more fundamental to virtue than self-control over anger\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own Aristotelian/Stoic framework. It consistently applies a single criterion — proximity to or distance from reason — to rank two vices. The logic flows: anger involves a kind of painful recoil that acknowledges reason's pull, while lust involves a pleasurable dissolution of rational agency. However, it conflates moral weakness with gendered character judgments, which introduces a secondary and potentially inconsistent normative framework.\",\n  \"conditions_for_usefulness\": [\n    \"If the goal is to motivate resistance to pleasure-seeking behavior by attaching shame to it\",\n    \"If the audience accepts reason as the supreme arbiter of moral worth\",\n    \"If the audience shares an Aristotelian framework where vices are categorized by their relationship to rational agency\",\n    \"If distinguishing degrees of moral failure is therapeutically or practically useful for the individual's self-improvement\",\n    \"If the context is philosophical education aimed at cultivating virtue through comparative moral reasoning\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the gendered framing ('unmanlike') causes the moral argument to be filtered through sexist bias rather than rational evaluation\",\n    \"If the hierarchy of vices is used to excuse anger-driven harm by suggesting it is 'less bad' than lust\",\n    \"If the audience interprets 'more impotent' as a literal character condemnation rather than a philosophical observation about rational agency\",\n    \"If the framework is applied to judge individuals rather than to understand motivational psychology\",\n    \"If it leads to the conclusion that anger-based sins require less accountability or remediation\",\n    \"If it universalizes a culturally specific virtue ethic as though it were an objective moral truth\",\n    \"If used to shame individuals struggling with compulsive behavior rather than to assist in self-understanding\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral evaluation, ranking two types of vice (anger and lust) on a scale of culpability and character weakness. It functions as a normative judgment that implicitly instructs the listener to view lust-driven sin as more shameful than anger-driven sin, potentially serving as a deterrent or a framework for self-assessment and moral hierarchy.",
+    "implicit_claims": [
+      "Reason is the highest faculty and deviations from it are morally significant",
+      "Anger, while wrong, involves a kind of active resistance or contraction that implies some engagement with reason",
+      "Lust represents a passive surrender to pleasure, making it a more complete moral failure",
+      "Strength of character is defined by resistance to pleasure",
+      "Being 'overcome' by pleasure is worse than being 'overcome' by grief or anger",
+      "Moral worth is partially determined by the nature of the passion that causes the sin, not just the act itself",
+      "Masculinity or manliness is an appropriate standard for moral evaluation",
+      "There is a meaningful hierarchy among vices",
+      "Self-control over pleasure is more fundamental to virtue than self-control over anger"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own Aristotelian/Stoic framework. It consistently applies a single criterion — proximity to or distance from reason — to rank two vices. The logic flows: anger involves a kind of painful recoil that acknowledges reason's pull, while lust involves a pleasurable dissolution of rational agency. However, it conflates moral weakness with gendered character judgments, which introduces a secondary and potentially inconsistent normative framework.",
+    "conditions_for_usefulness": [
+      "If the goal is to motivate resistance to pleasure-seeking behavior by attaching shame to it",
+      "If the audience accepts reason as the supreme arbiter of moral worth",
+      "If the audience shares an Aristotelian framework where vices are categorized by their relationship to rational agency",
+      "If distinguishing degrees of moral failure is therapeutically or practically useful for the individual's self-improvement",
+      "If the context is philosophical education aimed at cultivating virtue through comparative moral reasoning"
+    ],
+    "conditions_for_misleading": [
+      "If the gendered framing ('unmanlike') causes the moral argument to be filtered through sexist bias rather than rational evaluation",
+      "If the hierarchy of vices is used to excuse anger-driven harm by suggesting it is 'less bad' than lust",
+      "If the audience interprets 'more impotent' as a literal character condemnation rather than a philosophical observation about rational agency",
+      "If the framework is applied to judge individuals rather than to understand motivational psychology",
+      "If it leads to the conclusion that anger-based sins require less accountability or remediation",
+      "If it universalizes a culturally specific virtue ethic as though it were an objective moral truth",
+      "If used to shame individuals struggling with compulsive behavior rather than to assist in self-understanding"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 208,
+  "output_tokens": 710,
+  "error": "",
+  "retry_count": 0
+}

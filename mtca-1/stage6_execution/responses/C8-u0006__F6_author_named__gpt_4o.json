@@ -1,0 +1,39 @@
+{
+  "call_id": "C8-u0006__F6_author_named__gpt_4o",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T02:24:03.089721+00:00",
+  "wall_clock_seconds": 3.289384365081787,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a personal commitment to action based on evidence, even in the presence of fear.\",\n  \"implicit_claims\": [\n    \"Facing fears can lead to beneficial outcomes.\",\n    \"Evidence is a reliable guide for decision-making.\",\n    \"Courage can be chosen despite feeling fear.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly connects the willingness to confront fear with the conditional presence of evidence supporting potential benefits.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has reliable evidence suggesting that the action will be beneficial.\",\n    \"The individual has a clear understanding of the potential outcomes.\",\n    \"There are no undue risks or consequences that outweigh the potential benefits.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The evidence is misinterpreted or insufficient to support the likelihood of benefit.\",\n    \"The individual overestimates their ability to handle fear safely.\",\n    \"There are significant unacknowledged risks that compromise safety.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal commitment to action based on evidence, even in the presence of fear.",
+    "implicit_claims": [
+      "Facing fears can lead to beneficial outcomes.",
+      "Evidence is a reliable guide for decision-making.",
+      "Courage can be chosen despite feeling fear."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly connects the willingness to confront fear with the conditional presence of evidence supporting potential benefits.",
+    "conditions_for_usefulness": [
+      "The individual has reliable evidence suggesting that the action will be beneficial.",
+      "The individual has a clear understanding of the potential outcomes.",
+      "There are no undue risks or consequences that outweigh the potential benefits."
+    ],
+    "conditions_for_misleading": [
+      "The evidence is misinterpreted or insufficient to support the likelihood of benefit.",
+      "The individual overestimates their ability to handle fear safely.",
+      "There are significant unacknowledged risks that compromise safety."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0
+}

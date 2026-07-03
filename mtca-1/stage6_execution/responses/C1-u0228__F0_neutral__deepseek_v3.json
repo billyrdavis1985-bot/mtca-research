@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0228__F0_neutral__deepseek_v3",
+  "unit_id": "C1-u0228",
+  "text_id": "C1",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:24:30.723275+00:00",
+  "wall_clock_seconds": 6.229487180709839,
+  "raw_response": "{\n  \"communicative_function\": \"The statement uses a hypothetical example to illustrate the power of suggestion in medical practice, arguing that a doctor's words can significantly influence patient outcomes through autosuggestion.\",\n  \"implicit_claims\": [\n    \"A doctor's title alone carries suggestive influence over a patient.\",\n    \"Negative suggestions (e.g., declaring an illness incurable) can lead to disastrous psychological and physical consequences.\",\n    \"Positive suggestions (e.g., emphasizing curability with effort) can lead to surprising healing results.\",\n    \"The placebo effect or psychological influence can sometimes or often override medical prognosis.\",\n    \"Patient belief and expectation play a causal role in recovery.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear contrast between two communicative approaches by a doctor and their hypothesized outcomes, grounded in a consistent logic of autosuggestion.\",\n  \"conditions_for_usefulness\": [\n    \"The phenomenon of autosuggestion (or placebo/nocebo effect) is real and clinically significant.\",\n    \"Patients are susceptible to suggestion from authority figures.\",\n    \"The doctor's words are taken as credible and influential by the patient.\",\n    \"The medical condition is one that can be affected by psychological factors (e.g., not purely structural or terminal).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the illness is genuinely incurable and the doctor falsely suggests curability, the statement could mislead by implying hope can replace accurate prognosis.\",\n    \"If autosuggestion is negligible or the patient is resistant to suggestion, the statement overstates the physician's influence.\",\n    \"If the example is interpreted as a general rule, it may mislead by ignoring cases where honesty about incurability is necessary for end-of-life planning.\",\n    \"If the statement is used to justify withholding truthful diagnoses, it could be ethically misleading.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement uses a hypothetical example to illustrate the power of suggestion in medical practice, arguing that a doctor's words can significantly influence patient outcomes through autosuggestion.",
+    "implicit_claims": [
+      "A doctor's title alone carries suggestive influence over a patient.",
+      "Negative suggestions (e.g., declaring an illness incurable) can lead to disastrous psychological and physical consequences.",
+      "Positive suggestions (e.g., emphasizing curability with effort) can lead to surprising healing results.",
+      "The placebo effect or psychological influence can sometimes or often override medical prognosis.",
+      "Patient belief and expectation play a causal role in recovery."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear contrast between two communicative approaches by a doctor and their hypothesized outcomes, grounded in a consistent logic of autosuggestion.",
+    "conditions_for_usefulness": [
+      "The phenomenon of autosuggestion (or placebo/nocebo effect) is real and clinically significant.",
+      "Patients are susceptible to suggestion from authority figures.",
+      "The doctor's words are taken as credible and influential by the patient.",
+      "The medical condition is one that can be affected by psychological factors (e.g., not purely structural or terminal)."
+    ],
+    "conditions_for_misleading": [
+      "If the illness is genuinely incurable and the doctor falsely suggests curability, the statement could mislead by implying hope can replace accurate prognosis.",
+      "If autosuggestion is negligible or the patient is resistant to suggestion, the statement overstates the physician's influence.",
+      "If the example is interpreted as a general rule, it may mislead by ignoring cases where honesty about incurability is necessary for end-of-life planning.",
+      "If the statement is used to justify withholding truthful diagnoses, it could be ethically misleading."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 218,
+  "output_tokens": 382,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C7-u0009__F0_neutral__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:30:05.477065+00:00",
+  "wall_clock_seconds": 3.747589349746704,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a continuous practice of self-reflection and accountability\",\n  \"implicit_claims\": [\n    \"Individuals have the capacity to take a regular, honest inventory of their own behavior\",\n    \"Individuals can recognize when they are wrong\",\n    \"Admitting wrongdoing promptly is possible and beneficial\",\n    \"There is an objective or shared standard of right and wrong\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the two actions (inventory and admission) form a logical sequence, and the continuation implies a habitual process.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is committed to self-improvement and honesty\",\n    \"There is a safe environment for admitting mistakes without excessive punishment\",\n    \"The individual has the self-awareness to identify their own errors\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is used to pressure people into admitting faults they do not genuinely believe are wrong\",\n    \"It is taken to mean that admitting wrong automatically absolves all consequences\",\n    \"The standard of 'wrong' is imposed externally or unjustly, leading to false guilt\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a continuous practice of self-reflection and accountability",
+    "implicit_claims": [
+      "Individuals have the capacity to take a regular, honest inventory of their own behavior",
+      "Individuals can recognize when they are wrong",
+      "Admitting wrongdoing promptly is possible and beneficial",
+      "There is an objective or shared standard of right and wrong"
+    ],
+    "coherence_assessment": "Internally coherent: the two actions (inventory and admission) form a logical sequence, and the continuation implies a habitual process.",
+    "conditions_for_usefulness": [
+      "The individual is committed to self-improvement and honesty",
+      "There is a safe environment for admitting mistakes without excessive punishment",
+      "The individual has the self-awareness to identify their own errors"
+    ],
+    "conditions_for_misleading": [
+      "It is used to pressure people into admitting faults they do not genuinely believe are wrong",
+      "It is taken to mean that admitting wrong automatically absolves all consequences",
+      "The standard of 'wrong' is imposed externally or unjustly, leading to false guilt"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 130,
+  "output_tokens": 235,
+  "error": "",
+  "retry_count": 0
+}

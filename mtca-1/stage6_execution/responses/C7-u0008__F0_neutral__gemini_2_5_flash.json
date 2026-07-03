@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0008__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C7-u0008",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:24:29.379626+00:00",
+  "wall_clock_seconds": 6.063031435012817,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To report on a past action taken, specifically making amends, while also qualifying the extent and limitations of that action based on ethical considerations.\",\n  \"implicit_claims\": [\n    \"The speaker has previously wronged or harmed 'such people'.\",\n    \"Making amends is generally considered a desirable or necessary action.\",\n    \"The speaker has attempted to discern when making amends is 'possible'.\",\n    \"The speaker has attempted to discern when making amends would cause 'injury' to themselves or others.\",\n    \"The speaker has not made amends to all people they may have wronged, specifically those where injury was foreseen.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a general principle of action ('made direct amends') and then provides a clear, ethically grounded exception ('except when to do so would injure them or others') that defines the boundaries of 'wherever possible'.\",\n  \"conditions_for_usefulness\": [\n    \"The audience understands the context of 'such people' and the nature of the 'amends' being referred to.\",\n    \"The speaker's judgment in assessing 'wherever possible' and potential 'injury' is considered reliable and ethical.\",\n    \"The statement is part of a larger process of accountability, recovery, or ethical reflection.\",\n    \"The statement serves as a report of progress towards an agreed-upon goal (e.g., in a recovery program).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker's definition of 'wherever possible' is overly restrictive or used to avoid difficult but necessary amends.\",\n    \"The speaker's assessment of 'injury' is self-serving, overly cautious, or lacks genuine empathy for the wronged party, thereby serving as an excuse to avoid responsibility.\",\n    \"The statement implies a more complete process of amends than has actually occurred, by overemphasizing the 'except' clause or understating the number of omitted amends.\",\n    \"The audience is unaware of the specific 'such people' or the extent of harm that necessitated amends, leading to a misjudgment of the statement's true scope.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To report on a past action taken, specifically making amends, while also qualifying the extent and limitations of that action based on ethical considerations.",
+    "implicit_claims": [
+      "The speaker has previously wronged or harmed 'such people'.",
+      "Making amends is generally considered a desirable or necessary action.",
+      "The speaker has attempted to discern when making amends is 'possible'.",
+      "The speaker has attempted to discern when making amends would cause 'injury' to themselves or others.",
+      "The speaker has not made amends to all people they may have wronged, specifically those where injury was foreseen."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a general principle of action ('made direct amends') and then provides a clear, ethically grounded exception ('except when to do so would injure them or others') that defines the boundaries of 'wherever possible'.",
+    "conditions_for_usefulness": [
+      "The audience understands the context of 'such people' and the nature of the 'amends' being referred to.",
+      "The speaker's judgment in assessing 'wherever possible' and potential 'injury' is considered reliable and ethical.",
+      "The statement is part of a larger process of accountability, recovery, or ethical reflection.",
+      "The statement serves as a report of progress towards an agreed-upon goal (e.g., in a recovery program)."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's definition of 'wherever possible' is overly restrictive or used to avoid difficult but necessary amends.",
+      "The speaker's assessment of 'injury' is self-serving, overly cautious, or lacks genuine empathy for the wronged party, thereby serving as an excuse to avoid responsibility.",
+      "The statement implies a more complete process of amends than has actually occurred, by overemphasizing the 'except' clause or understating the number of omitted amends.",
+      "The audience is unaware of the specific 'such people' or the extent of harm that necessitated amends, leading to a misjudgment of the statement's true scope."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 140,
+  "output_tokens": 469,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "C5-u0081__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C5-u0081",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:06:03.744113+00:00",
+  "wall_clock_seconds": 17.0184109210968,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a reframing device, attempting to assign deterministic meaning and teleological purpose to suffering. It positions suffering as instrumentally valuable rather than arbitrary, which may serve to reduce perceived helplessness. It also carries a prescriptive or quasi-normative tone, implying how suffering *should* be interpreted.\",\n  \"implicit_claims\": [\n    \"Suffering has a single, definable purpose ('sole and supreme').\",\n    \"That purpose is purification — the elimination of what is 'useless and impure'.\",\n    \"There exists a meaningful category of things within a person that are 'useless and impure'.\",\n    \"Suffering reliably and necessarily produces purification rather than damage, stagnation, or deterioration.\",\n    \"The value of suffering is intrinsic or universal, not context-dependent.\",\n    \"Enduring suffering is preferable to alleviating it, at least until purification is achieved.\",\n    \"The person suffering is, at least in part, constituted by something that needs to be burned away.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical or metaphorical proposition but is logically overclaimed. The use of 'sole and supreme' forecloses alternative functions or meanings of suffering, making it empirically falsifiable and clinically brittle. It conflates a possible outcome of some suffering (growth, clarity) with a necessary and exclusive mechanism, which is a logical non-sequitur. The purification metaphor is evocative but undefined, reducing rather than enhancing precision.\",\n  \"conditions_for_usefulness\": [\n    \"The client is in a post-acute phase and is actively seeking meaning in retrospect, not in the midst of acute crisis.\",\n    \"The therapist contextualizes the statement as one possible interpretive lens, not a universal truth.\",\n    \"The client's cultural or spiritual framework already includes purification narratives, making the metaphor resonant rather than imposed.\",\n    \"The suffering in question was survivable and has demonstrably ended or diminished.\",\n    \"The client is not at risk of using this frame to justify ongoing harmful situations or self-neglect.\",\n    \"It is used to support post-traumatic growth exploration, not as a directive to continue suffering.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is presented as objective clinical fact rather than as a metaphorical or philosophical perspective.\",\n    \"The client is currently in acute suffering, where the statement may function to invalidate or minimize distress.\",\n    \"The client has experienced trauma, abuse, or chronic illness, where implying a purifying function could induce shame or suggest they deserved or needed the harm.\",\n    \"The statement discourages help-seeking by implying suffering must run its full course to be meaningful.\",\n    \"It is used to rationalize or normalize ongoing harmful circumstances (e.g., abusive relationships, self-harm).\",\n    \"The therapist's intent is to suppress complaint or emotional expression rather than facilitate processing.\",\n    \"The client internalizes 'useless and impure' as a self-concept, reinforcing rather than alleviating negative core beliefs.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a reframing device, attempting to assign deterministic meaning and teleological purpose to suffering. It positions suffering as instrumentally valuable rather than arbitrary, which may serve to reduce perceived helplessness. It also carries a prescriptive or quasi-normative tone, implying how suffering *should* be interpreted.",
+    "implicit_claims": [
+      "Suffering has a single, definable purpose ('sole and supreme').",
+      "That purpose is purification — the elimination of what is 'useless and impure'.",
+      "There exists a meaningful category of things within a person that are 'useless and impure'.",
+      "Suffering reliably and necessarily produces purification rather than damage, stagnation, or deterioration.",
+      "The value of suffering is intrinsic or universal, not context-dependent.",
+      "Enduring suffering is preferable to alleviating it, at least until purification is achieved.",
+      "The person suffering is, at least in part, constituted by something that needs to be burned away."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical or metaphorical proposition but is logically overclaimed. The use of 'sole and supreme' forecloses alternative functions or meanings of suffering, making it empirically falsifiable and clinically brittle. It conflates a possible outcome of some suffering (growth, clarity) with a necessary and exclusive mechanism, which is a logical non-sequitur. The purification metaphor is evocative but undefined, reducing rather than enhancing precision.",
+    "conditions_for_usefulness": [
+      "The client is in a post-acute phase and is actively seeking meaning in retrospect, not in the midst of acute crisis.",
+      "The therapist contextualizes the statement as one possible interpretive lens, not a universal truth.",
+      "The client's cultural or spiritual framework already includes purification narratives, making the metaphor resonant rather than imposed.",
+      "The suffering in question was survivable and has demonstrably ended or diminished.",
+      "The client is not at risk of using this frame to justify ongoing harmful situations or self-neglect.",
+      "It is used to support post-traumatic growth exploration, not as a directive to continue suffering."
+    ],
+    "conditions_for_misleading": [
+      "The statement is presented as objective clinical fact rather than as a metaphorical or philosophical perspective.",
+      "The client is currently in acute suffering, where the statement may function to invalidate or minimize distress.",
+      "The client has experienced trauma, abuse, or chronic illness, where implying a purifying function could induce shame or suggest they deserved or needed the harm.",
+      "The statement discourages help-seeking by implying suffering must run its full course to be meaningful.",
+      "It is used to rationalize or normalize ongoing harmful circumstances (e.g., abusive relationships, self-harm).",
+      "The therapist's intent is to suppress complaint or emotional expression rather than facilitate processing.",
+      "The client internalizes 'useless and impure' as a self-concept, reinforcing rather than alleviating negative core beliefs."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 729,
+  "error": "",
+  "retry_count": 0
+}

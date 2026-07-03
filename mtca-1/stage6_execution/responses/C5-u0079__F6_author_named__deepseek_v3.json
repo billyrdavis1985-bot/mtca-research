@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0079__F6_author_named__deepseek_v3",
+  "unit_id": "C5-u0079",
+  "text_id": "C5",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:04:32.497142+00:00",
+  "wall_clock_seconds": 4.594752311706543,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a universal causal relationship between mental states (wrong thought) and experiences (suffering), functioning as a definitive moral and psychological principle.\",\n  \"implicit_claims\": [\n    \"All suffering originates from the individual's own thoughts.\",\n    \"There is a direct, invariable causal link between thought and experience.\",\n    \"Wrong thought is a necessary and sufficient condition for suffering.\",\n    \"Suffering serves as an indicator of incorrect thinking.\",\n    \"Thought is entirely within the individual's control.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a logical assertion: if 'always' is taken seriously, then every instance of suffering is necessarily preceded by wrong thought. The coherence relies entirely on this absolute causal claim being true within the author's worldview.\",\n  \"conditions_for_usefulness\": [\n    \"The individual accepts total responsibility for their mental state.\",\n    \"The statement is used as a motivational tool to encourage self-reflection and behavioral change.\",\n    \"One believes that changing thoughts can alleviate or prevent suffering.\",\n    \"It is applied in contexts where suffering is psychological or self-induced, not from external physical or systemic causes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If suffering arises from causes beyond the individual's control (e.g., disease, trauma, natural disasters, oppression).\",\n    \"If it leads to victim-blaming, suggesting people 'deserve' their suffering.\",\n    \"If it discourages empathy or social action by implying suffering is always a personal mental failure.\",\n    \"If taken literally, it denies the reality of accidental or structural suffering.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a universal causal relationship between mental states (wrong thought) and experiences (suffering), functioning as a definitive moral and psychological principle.",
+    "implicit_claims": [
+      "All suffering originates from the individual's own thoughts.",
+      "There is a direct, invariable causal link between thought and experience.",
+      "Wrong thought is a necessary and sufficient condition for suffering.",
+      "Suffering serves as an indicator of incorrect thinking.",
+      "Thought is entirely within the individual's control."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a logical assertion: if 'always' is taken seriously, then every instance of suffering is necessarily preceded by wrong thought. The coherence relies entirely on this absolute causal claim being true within the author's worldview.",
+    "conditions_for_usefulness": [
+      "The individual accepts total responsibility for their mental state.",
+      "The statement is used as a motivational tool to encourage self-reflection and behavioral change.",
+      "One believes that changing thoughts can alleviate or prevent suffering.",
+      "It is applied in contexts where suffering is psychological or self-induced, not from external physical or systemic causes."
+    ],
+    "conditions_for_misleading": [
+      "If suffering arises from causes beyond the individual's control (e.g., disease, trauma, natural disasters, oppression).",
+      "If it leads to victim-blaming, suggesting people 'deserve' their suffering.",
+      "If it discourages empathy or social action by implying suffering is always a personal mental failure.",
+      "If taken literally, it denies the reality of accidental or structural suffering."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 339,
+  "error": "",
+  "retry_count": 0
+}

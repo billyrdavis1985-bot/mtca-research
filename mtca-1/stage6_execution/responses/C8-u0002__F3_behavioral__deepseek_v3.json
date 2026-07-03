@@ -1,0 +1,41 @@
+{
+  "call_id": "C8-u0002__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:00:15.610949+00:00",
+  "wall_clock_seconds": 4.907836675643921,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-directed declaration of intent to shift cognitive and behavioral habits from fear-driven anticipation to empirical testing.\",\n  \"implicit_claims\": [\n    \"The speaker currently tests predictions against fears rather than against actual outcomes.\",\n    \"Fear and reality are distinct and can be differentiated.\",\n    \"Testing against actual outcomes is a preferable or more accurate method.\",\n    \"The speaker has agency to choose this alternative behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it clearly contrasts two different standards for evaluating predictions (fear vs. actual events) and commits to switching from one to the other.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a tendency to confuse feared outcomes with likely outcomes.\",\n    \"The speaker has access to actual outcomes after making predictions.\",\n    \"The speaker is willing to observe and accept disconfirming evidence.\",\n    \"The environment allows for safe testing of predictions without severe consequences.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker's fears are often accurate predictors of harm, then abandoning fear-based testing could lead to increased risk.\",\n    \"If the speaker has no reliable way to observe actual outcomes, the commitment becomes unactionable and potentially self-deceptive.\",\n    \"If the statement is used to dismiss legitimate fear as irrational without due caution, it could lead to recklessness.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-directed declaration of intent to shift cognitive and behavioral habits from fear-driven anticipation to empirical testing.",
+    "implicit_claims": [
+      "The speaker currently tests predictions against fears rather than against actual outcomes.",
+      "Fear and reality are distinct and can be differentiated.",
+      "Testing against actual outcomes is a preferable or more accurate method.",
+      "The speaker has agency to choose this alternative behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it clearly contrasts two different standards for evaluating predictions (fear vs. actual events) and commits to switching from one to the other.",
+    "conditions_for_usefulness": [
+      "The speaker has a tendency to confuse feared outcomes with likely outcomes.",
+      "The speaker has access to actual outcomes after making predictions.",
+      "The speaker is willing to observe and accept disconfirming evidence.",
+      "The environment allows for safe testing of predictions without severe consequences."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker's fears are often accurate predictors of harm, then abandoning fear-based testing could lead to increased risk.",
+      "If the speaker has no reliable way to observe actual outcomes, the commitment becomes unactionable and potentially self-deceptive.",
+      "If the statement is used to dismiss legitimate fear as irrational without due caution, it could lead to recklessness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 291,
+  "error": "",
+  "retry_count": 0
+}

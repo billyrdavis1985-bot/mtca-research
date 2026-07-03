@@ -1,0 +1,51 @@
+{
+  "call_id": "C8-u0002__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:58:24.381463+00:00",
+  "wall_clock_seconds": 16.461782455444336,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a performative self-commitment and attentional redirect, declaring an intention to shift the evaluative standard for belief-testing from fear-driven anticipation to empirical observation. It enacts a meta-cognitive stance, positioning the speaker as an agent capable of choosing their epistemic reference point.\",\n  \"implicit_claims\": [\n    \"The speaker currently has, or is prone to having, predictions that are evaluated against feared outcomes rather than actual outcomes.\",\n    \"Fear-based evaluation is distinguishable from reality-based evaluation.\",\n    \"The speaker has sufficient agency to choose between these evaluative modes.\",\n    \"There exists a meaningful gap between what one fears will happen and what actually happens.\",\n    \"Testing predictions against actual outcomes is clinically preferable to testing them against feared outcomes.\",\n    \"Behavioral observation of outcomes is accessible and interpretable by the speaker.\",\n    \"The speaker has identifiable predictions that can be operationalized and tracked.\",\n    \"Fear functions as a distorting lens rather than a neutral signal in the relevant context.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. The contrast it draws — between feared outcomes and actual outcomes as reference standards — is logically consistent and maps onto well-established cognitive-behavioral constructs such as behavioral experiments and disconfirmatory testing. The framing of choice is consistent with the agentic stance cultivated in CBT and ACT. No internal contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker's fear-based predictions are empirically testable in accessible real-world contexts.\",\n    \"The speaker's fears are systematically overestimating negative outcomes relative to base rates.\",\n    \"The speaker has sufficient observational access to actual outcomes and can interpret them without heavy confirmation bias.\",\n    \"The therapeutic relationship or self-monitoring framework supports tracking predictions and outcomes over time.\",\n    \"The speaker has enough psychological safety to tolerate the uncertainty inherent in running behavioral experiments.\",\n    \"The statement is embedded in a broader psychoeducational context that operationalizes what 'testing predictions' means concretely.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The feared outcomes reflect accurate threat appraisal in genuinely dangerous environments, making fear a valid signal rather than a distortion.\",\n    \"The speaker lacks the observational skills or cognitive capacity to accurately register and interpret actual outcomes.\",\n    \"Confirmation bias or safety behaviors prevent clean observation of outcomes, creating an illusion of disconfirmation.\",\n    \"The statement is used as a suppression strategy — replacing fear with forced rationalism — rather than as genuine empirical engagement.\",\n    \"The speaker interprets 'what actually happens' through a negatively biased perceptual filter, making the distinction between feared and actual outcomes collapse in practice.\",\n    \"The relevant predictions involve low-frequency, high-stakes events where observable disconfirmation is not practically available.\",\n    \"The statement fosters premature closure on ambiguous situations by pressuring the speaker to declare outcomes 'not as feared' before adequate evidence is available.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a performative self-commitment and attentional redirect, declaring an intention to shift the evaluative standard for belief-testing from fear-driven anticipation to empirical observation. It enacts a meta-cognitive stance, positioning the speaker as an agent capable of choosing their epistemic reference point.",
+    "implicit_claims": [
+      "The speaker currently has, or is prone to having, predictions that are evaluated against feared outcomes rather than actual outcomes.",
+      "Fear-based evaluation is distinguishable from reality-based evaluation.",
+      "The speaker has sufficient agency to choose between these evaluative modes.",
+      "There exists a meaningful gap between what one fears will happen and what actually happens.",
+      "Testing predictions against actual outcomes is clinically preferable to testing them against feared outcomes.",
+      "Behavioral observation of outcomes is accessible and interpretable by the speaker.",
+      "The speaker has identifiable predictions that can be operationalized and tracked.",
+      "Fear functions as a distorting lens rather than a neutral signal in the relevant context."
+    ],
+    "coherence_assessment": "The statement is internally coherent. The contrast it draws — between feared outcomes and actual outcomes as reference standards — is logically consistent and maps onto well-established cognitive-behavioral constructs such as behavioral experiments and disconfirmatory testing. The framing of choice is consistent with the agentic stance cultivated in CBT and ACT. No internal contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker's fear-based predictions are empirically testable in accessible real-world contexts.",
+      "The speaker's fears are systematically overestimating negative outcomes relative to base rates.",
+      "The speaker has sufficient observational access to actual outcomes and can interpret them without heavy confirmation bias.",
+      "The therapeutic relationship or self-monitoring framework supports tracking predictions and outcomes over time.",
+      "The speaker has enough psychological safety to tolerate the uncertainty inherent in running behavioral experiments.",
+      "The statement is embedded in a broader psychoeducational context that operationalizes what 'testing predictions' means concretely."
+    ],
+    "conditions_for_misleading": [
+      "The feared outcomes reflect accurate threat appraisal in genuinely dangerous environments, making fear a valid signal rather than a distortion.",
+      "The speaker lacks the observational skills or cognitive capacity to accurately register and interpret actual outcomes.",
+      "Confirmation bias or safety behaviors prevent clean observation of outcomes, creating an illusion of disconfirmation.",
+      "The statement is used as a suppression strategy — replacing fear with forced rationalism — rather than as genuine empirical engagement.",
+      "The speaker interprets 'what actually happens' through a negatively biased perceptual filter, making the distinction between feared and actual outcomes collapse in practice.",
+      "The relevant predictions involve low-frequency, high-stakes events where observable disconfirmation is not practically available.",
+      "The statement fosters premature closure on ambiguous situations by pressuring the speaker to declare outcomes 'not as feared' before adequate evidence is available."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 697,
+  "error": "",
+  "retry_count": 0
+}

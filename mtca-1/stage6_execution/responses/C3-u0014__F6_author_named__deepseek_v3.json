@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0014__F6_author_named__deepseek_v3",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:25:32.568073+00:00",
+  "wall_clock_seconds": 6.145505905151367,
+  "raw_response": "{\n  \"communicative_function\": \"The statement contrasts two types of moral failings (anger and lust) to assert a hierarchy of vice, with lust being more shameful and indicative of a weaker character.\",\n  \"implicit_claims\": [\n    \"Anger involves a turning away from reason accompanied by grief and self-contraction.\",\n    \"Lust involves being overcome by pleasure, revealing impotence and unmanliness.\",\n    \"Moral failings can be ranked by how much they diminish one's rational and masculine self-control.\",\n    \"The audience shares a value system that prioritizes reason and manly self-discipline.\",\n    \"The speaker (or the philosophical tradition) assumes a normative standard of human excellence tied to rationality and masculinity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within the Stoic framework, which views reason as the highest good and both anger and lust as disturbances of reason. However, the comparative judgment that lust is more 'impotent and unmanlike' relies on culturally specific gender norms not universally shared.\",\n  \"conditions_for_usefulness\": [\n    \"One accepts the Stoic premise that reason is the sole guide to virtue.\",\n    \"One shares the cultural evaluation that 'unmanlike' behavior is a meaningful moral category.\",\n    \"The statement is used as a tool for self-reflection within a Stoic regimen of self-discipline.\",\n    \"The audience is committed to overcoming personal vices and sees value in comparative moral assessment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"One does not accept the Stoic hierarchy of passions or its equation of reason with virtue.\",\n    \"The gendered language ('unmanlike') is taken as a universal moral standard rather than a culturally contingent metaphor.\",\n    \"The statement is interpreted as an empirical psychological claim rather than a rhetorical moral exhortation.\",\n    \"It is used to justify dismissive attitudes toward people who struggle with different types of desires, ignoring contextual or situational factors.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement contrasts two types of moral failings (anger and lust) to assert a hierarchy of vice, with lust being more shameful and indicative of a weaker character.",
+    "implicit_claims": [
+      "Anger involves a turning away from reason accompanied by grief and self-contraction.",
+      "Lust involves being overcome by pleasure, revealing impotence and unmanliness.",
+      "Moral failings can be ranked by how much they diminish one's rational and masculine self-control.",
+      "The audience shares a value system that prioritizes reason and manly self-discipline.",
+      "The speaker (or the philosophical tradition) assumes a normative standard of human excellence tied to rationality and masculinity."
+    ],
+    "coherence_assessment": "The statement is internally coherent within the Stoic framework, which views reason as the highest good and both anger and lust as disturbances of reason. However, the comparative judgment that lust is more 'impotent and unmanlike' relies on culturally specific gender norms not universally shared.",
+    "conditions_for_usefulness": [
+      "One accepts the Stoic premise that reason is the sole guide to virtue.",
+      "One shares the cultural evaluation that 'unmanlike' behavior is a meaningful moral category.",
+      "The statement is used as a tool for self-reflection within a Stoic regimen of self-discipline.",
+      "The audience is committed to overcoming personal vices and sees value in comparative moral assessment."
+    ],
+    "conditions_for_misleading": [
+      "One does not accept the Stoic hierarchy of passions or its equation of reason with virtue.",
+      "The gendered language ('unmanlike') is taken as a universal moral standard rather than a culturally contingent metaphor.",
+      "The statement is interpreted as an empirical psychological claim rather than a rhetorical moral exhortation.",
+      "It is used to justify dismissive attitudes toward people who struggle with different types of desires, ignoring contextual or situational factors."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 406,
+  "error": "",
+  "retry_count": 0
+}

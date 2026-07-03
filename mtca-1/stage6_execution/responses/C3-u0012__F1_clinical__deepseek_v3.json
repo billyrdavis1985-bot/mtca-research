@@ -1,0 +1,43 @@
+{
+  "call_id": "C3-u0012__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0012",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:09:54.402580+00:00",
+  "wall_clock_seconds": 6.755652189254761,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves to instill a sense of perspective, agency, and alignment with a larger natural order, encouraging the speaker to focus on their role within the universe and to act in accordance with that nature, while reinforcing that external obstacles cannot prevent such alignment.\",\n  \"implicit_claims\": [\n    \"There is a fixed, knowable nature of the universe.\",\n    \"The individual has a specific, determined part or role within that universe.\",\n    \"One's own nature is ultimately harmonious with the universe's nature.\",\n    \"Acting and speaking in accord with that nature is always possible, regardless of external circumstances.\",\n    \"No external person or event can truly hinder one from living in accord with their nature.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a Stoic philosophical framework, where the nature of the universe is assumed to be rational and orderly, and the individual's nature is a part of that order. However, it relies on metaphysical assumptions that may not be shared by all clinical frameworks.\",\n  \"conditions_for_usefulness\": [\n    \"The individual accepts or is open to a Stoic or similar philosophical worldview.\",\n    \"The individual struggles with feelings of powerlessness, overwhelm, or lack of purpose.\",\n    \"The individual is able to identify a meaningful sense of 'nature' or 'role' that feels authentic.\",\n    \"The statement is used in a context where cognitive reframing is encouraged and the person has sufficient psychological safety to explore it.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has a history of trauma or oppression where 'accepting one's place' could be used to justify passivity or compliance with harmful systems.\",\n    \"The statement is interpreted as denying the reality of external constraints (e.g., systemic injustice, physical limitations).\",\n    \"The individual's psychopathology involves rigid or fatalistic thinking, leading to harmful resignation rather than empowered action.\",\n    \"The concept of 'nature' is used to impose external moral or social norms that conflict with the individual's authentic needs or identity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves to instill a sense of perspective, agency, and alignment with a larger natural order, encouraging the speaker to focus on their role within the universe and to act in accordance with that nature, while reinforcing that external obstacles cannot prevent such alignment.",
+    "implicit_claims": [
+      "There is a fixed, knowable nature of the universe.",
+      "The individual has a specific, determined part or role within that universe.",
+      "One's own nature is ultimately harmonious with the universe's nature.",
+      "Acting and speaking in accord with that nature is always possible, regardless of external circumstances.",
+      "No external person or event can truly hinder one from living in accord with their nature."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a Stoic philosophical framework, where the nature of the universe is assumed to be rational and orderly, and the individual's nature is a part of that order. However, it relies on metaphysical assumptions that may not be shared by all clinical frameworks.",
+    "conditions_for_usefulness": [
+      "The individual accepts or is open to a Stoic or similar philosophical worldview.",
+      "The individual struggles with feelings of powerlessness, overwhelm, or lack of purpose.",
+      "The individual is able to identify a meaningful sense of 'nature' or 'role' that feels authentic.",
+      "The statement is used in a context where cognitive reframing is encouraged and the person has sufficient psychological safety to explore it."
+    ],
+    "conditions_for_misleading": [
+      "The individual has a history of trauma or oppression where 'accepting one's place' could be used to justify passivity or compliance with harmful systems.",
+      "The statement is interpreted as denying the reality of external constraints (e.g., systemic injustice, physical limitations).",
+      "The individual's psychopathology involves rigid or fatalistic thinking, leading to harmful resignation rather than empowered action.",
+      "The concept of 'nature' is used to impose external moral or social norms that conflict with the individual's authentic needs or identity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 216,
+  "output_tokens": 430,
+  "error": "",
+  "retry_count": 0
+}

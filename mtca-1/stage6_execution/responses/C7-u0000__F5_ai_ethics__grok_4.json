@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0000__F5_ai_ethics__grok_4",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:53:13.183729+00:00",
+  "wall_clock_seconds": 11.033212184906006,
+  "raw_response": "{\n  \"communicative_function\": \"personal admission of surrender and limitation\",\n  \"implicit_claims\": [\"alcohol exerts controlling power over the speaker\", \"unmanageability of life follows directly from that powerlessness\", \"verbal admission constitutes a necessary first step toward change\"],\n  \"coherence_assessment\": \"internally coherent as a concise statement linking cause (powerlessness) to effect (unmanageability) within a recovery narrative\",\n  \"conditions_for_usefulness\": \"the principle must be applied only to contexts of substance addiction where voluntary acknowledgment of limits demonstrably aids recovery and where AI systems are designed to support rather than override human agency\",\n  \"conditions_for_misleading\": \"the statement is generalized beyond addiction to imply universal human powerlessness, or is used to justify AI non-intervention in harmful behaviors\"\n}",
+  "parsed_json": {
+    "communicative_function": "personal admission of surrender and limitation",
+    "implicit_claims": [
+      "alcohol exerts controlling power over the speaker",
+      "unmanageability of life follows directly from that powerlessness",
+      "verbal admission constitutes a necessary first step toward change"
+    ],
+    "coherence_assessment": "internally coherent as a concise statement linking cause (powerlessness) to effect (unmanageability) within a recovery narrative",
+    "conditions_for_usefulness": "the principle must be applied only to contexts of substance addiction where voluntary acknowledgment of limits demonstrably aids recovery and where AI systems are designed to support rather than override human agency",
+    "conditions_for_misleading": "the statement is generalized beyond addiction to imply universal human powerlessness, or is used to justify AI non-intervention in harmful behaviors"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 165,
+  "error": "",
+  "retry_count": 0
+}

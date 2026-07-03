@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0009__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:32:17.443493+00:00",
+  "wall_clock_seconds": 4.644196033477783,
+  "raw_response": "{\n  \"communicative_function\": \"Expresses a commitment to ongoing self-reflection and accountability by acknowledging mistakes and correcting them promptly.\",\n  \"implicit_claims\": [\n    \"The speaker acknowledges they are fallible and may make mistakes.\",\n    \"The speaker values honesty and integrity in relationships.\",\n    \"The speaker believes in the importance of regular self-assessment.\",\n    \"The speaker implies that admitting wrongs promptly is a moral or practical good.\",\n    \"The speaker presupposes a community or context where such admissions are expected or beneficial.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it pairs a continuous action (taking personal inventory) with a conditional response (admitting wrong when found). No logical contradiction is present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has the self-awareness and emotional capacity to recognize their own errors.\",\n    \"The speaker operates in a social environment where admitting mistakes is safe and respected.\",\n    \"The speaker has a reliable method or practice for regular self-inventory.\",\n    \"The speaker values personal growth and relational repair over ego protection.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses the statement performatively without actual self-inventory or willingness to admit faults.\",\n    \"If the statement is used to imply moral superiority or deflect criticism by claiming a commitment that is not upheld.\",\n    \"If the context punishes honesty, making the commitment impractical or insincere.\",\n    \"If 'promptly' is interpreted so narrowly that it becomes an impossible standard, leading to guilt or avoidance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Expresses a commitment to ongoing self-reflection and accountability by acknowledging mistakes and correcting them promptly.",
+    "implicit_claims": [
+      "The speaker acknowledges they are fallible and may make mistakes.",
+      "The speaker values honesty and integrity in relationships.",
+      "The speaker believes in the importance of regular self-assessment.",
+      "The speaker implies that admitting wrongs promptly is a moral or practical good.",
+      "The speaker presupposes a community or context where such admissions are expected or beneficial."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it pairs a continuous action (taking personal inventory) with a conditional response (admitting wrong when found). No logical contradiction is present.",
+    "conditions_for_usefulness": [
+      "The speaker has the self-awareness and emotional capacity to recognize their own errors.",
+      "The speaker operates in a social environment where admitting mistakes is safe and respected.",
+      "The speaker has a reliable method or practice for regular self-inventory.",
+      "The speaker values personal growth and relational repair over ego protection."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses the statement performatively without actual self-inventory or willingness to admit faults.",
+      "If the statement is used to imply moral superiority or deflect criticism by claiming a commitment that is not upheld.",
+      "If the context punishes honesty, making the commitment impractical or insincere.",
+      "If 'promptly' is interpreted so narrowly that it becomes an impossible standard, leading to guilt or avoidance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 324,
+  "error": "",
+  "retry_count": 0
+}

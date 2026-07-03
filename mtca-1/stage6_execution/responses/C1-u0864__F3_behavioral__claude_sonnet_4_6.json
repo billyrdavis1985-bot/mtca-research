@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0864__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:52:41.722546+00:00",
+  "wall_clock_seconds": 12.833038330078125,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a retrospective confession of personal doubt or disbelief, functioning as an admission of prior skepticism. It is not a behavioral commitment — it is a declarative statement about a past epistemic state, likely serving as a rhetorical setup (e.g., 'I was skeptical, but then...').\",\n  \"implicit_claims\": [\n    \"The speaker attended or was exposed to Coué's lectures.\",\n    \"The speaker had an initial negative or doubtful attitude toward Coué's ideas or methods.\",\n    \"The speaker considers this skepticism worth disclosing, implying it may have changed.\",\n    \"Coué's lectures are presumed to be known or identifiable to the audience.\",\n    \"Honesty or transparency is being performed through the act of confession.\",\n    \"There is an implicit contrast being set up — skepticism before, possibly belief or openness after.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a confession of past skepticism. However, it is notably incomplete — it reads as the opening clause of a longer sentence or narrative. On its own, it lacks a resolution or behavioral dimension, making its framing as a 'behavioral commitment' incoherent.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is part of a larger narrative where the speaker's change of mind is relevant.\",\n    \"The audience knows who Coué is and why skepticism toward his methods is meaningful.\",\n    \"The confession serves to establish credibility by demonstrating intellectual honesty.\",\n    \"The speaker goes on to describe what changed their mind, making the skepticism a meaningful contrast.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker was not actually skeptical and is performing humility falsely.\",\n    \"The confession of skepticism is used to lend false credibility to an uncritical endorsement of Coué's methods.\",\n    \"The audience is led to believe that overcoming skepticism validates Coué's methods, without actual evidence being presented.\",\n    \"The statement is framed as a behavioral commitment when it is purely a retrospective descriptive claim with no forward-looking action.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a retrospective confession of personal doubt or disbelief, functioning as an admission of prior skepticism. It is not a behavioral commitment — it is a declarative statement about a past epistemic state, likely serving as a rhetorical setup (e.g., 'I was skeptical, but then...').",
+    "implicit_claims": [
+      "The speaker attended or was exposed to Coué's lectures.",
+      "The speaker had an initial negative or doubtful attitude toward Coué's ideas or methods.",
+      "The speaker considers this skepticism worth disclosing, implying it may have changed.",
+      "Coué's lectures are presumed to be known or identifiable to the audience.",
+      "Honesty or transparency is being performed through the act of confession.",
+      "There is an implicit contrast being set up — skepticism before, possibly belief or openness after."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a confession of past skepticism. However, it is notably incomplete — it reads as the opening clause of a longer sentence or narrative. On its own, it lacks a resolution or behavioral dimension, making its framing as a 'behavioral commitment' incoherent.",
+    "conditions_for_usefulness": [
+      "The statement is part of a larger narrative where the speaker's change of mind is relevant.",
+      "The audience knows who Coué is and why skepticism toward his methods is meaningful.",
+      "The confession serves to establish credibility by demonstrating intellectual honesty.",
+      "The speaker goes on to describe what changed their mind, making the skepticism a meaningful contrast."
+    ],
+    "conditions_for_misleading": [
+      "The speaker was not actually skeptical and is performing humility falsely.",
+      "The confession of skepticism is used to lend false credibility to an uncritical endorsement of Coué's methods.",
+      "The audience is led to believe that overcoming skepticism validates Coué's methods, without actual evidence being presented.",
+      "The statement is framed as a behavioral commitment when it is purely a retrospective descriptive claim with no forward-looking action."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 506,
+  "error": "",
+  "retry_count": 0
+}

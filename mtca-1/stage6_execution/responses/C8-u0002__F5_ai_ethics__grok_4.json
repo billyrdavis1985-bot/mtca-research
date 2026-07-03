@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0002__F5_ai_ethics__grok_4",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:01:29.535720+00:00",
+  "wall_clock_seconds": 8.633634090423584,
+  "raw_response": "{\n  \"communicative_function\": \"Declaring a personal commitment to empirical validation of predictions rather than fear-based evaluation\",\n  \"implicit_claims\": [\n    \"Predictions can be tested against independent, observable outcomes\",\n    \"Fear is a distinct and inferior alternative basis for evaluating predictions\",\n    \"The speaker has agency to choose evidence over emotion in assessment\",\n    \"Testing against reality is feasible and preferable in the relevant domain\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; cleanly contrasts falsifiable observation with emotional bias without contradiction\",\n  \"conditions_for_usefulness\": \"Falsifiable predictions, accessible objective outcomes, and capacity to distinguish evidence from affect must all hold\",\n  \"conditions_for_misleading\": \"Outcomes are subjective or manipulated, fear conflates with valid risk assessment, or predictions lack clear testability\"\n}",
+  "parsed_json": {
+    "communicative_function": "Declaring a personal commitment to empirical validation of predictions rather than fear-based evaluation",
+    "implicit_claims": [
+      "Predictions can be tested against independent, observable outcomes",
+      "Fear is a distinct and inferior alternative basis for evaluating predictions",
+      "The speaker has agency to choose evidence over emotion in assessment",
+      "Testing against reality is feasible and preferable in the relevant domain"
+    ],
+    "coherence_assessment": "Internally coherent; cleanly contrasts falsifiable observation with emotional bias without contradiction",
+    "conditions_for_usefulness": "Falsifiable predictions, accessible objective outcomes, and capacity to distinguish evidence from affect must all hold",
+    "conditions_for_misleading": "Outcomes are subjective or manipulated, fear conflates with valid risk assessment, or predictions lack clear testability"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 170,
+  "error": "",
+  "retry_count": 0
+}

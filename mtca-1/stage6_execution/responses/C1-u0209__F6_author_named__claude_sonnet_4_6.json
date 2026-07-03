@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0209__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:22:50.628383+00:00",
+  "wall_clock_seconds": 13.09562349319458,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is providing procedural instruction to practitioners on how to administer autosuggestion therapy, presenting a tapering protocol as though it were established clinical guidance.\",\n  \"implicit_claims\": [\n    \"Autosuggestion is an effective treatment that produces measurable progress toward cure.\",\n    \"The frequency of suggestions can and should be calibrated to individual subjects.\",\n    \"Progress in autosuggestion is observable and trackable, allowing the practitioner to judge when to space out sessions.\",\n    \"Complete cure is an achievable and recognizable endpoint of the process.\",\n    \"The relationship between suggestion frequency and therapeutic outcome is understood well enough to prescribe a protocol.\",\n    \"Reducing suggestion frequency as progress occurs is the correct clinical approach, not increasing or maintaining it.\",\n    \"The practitioner has sufficient expertise to assess 'progress obtained' reliably.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as procedural advice — it follows a logical structure of calibration, tapering, and termination. However, it assumes its own premises: it takes for granted that suggestions work and that 'cure' is a meaningful outcome, making the tapering protocol internally consistent only within an unproven framework.\",\n  \"conditions_for_usefulness\": [\n    \"Autosuggestion must have genuine therapeutic efficacy beyond placebo for the conditions being treated.\",\n    \"Progress toward cure must be objectively measurable, not just self-reported or assumed.\",\n    \"The practitioner must have reliable criteria for assessing when spacing can be increased.\",\n    \"'Cure' must be a well-defined and stable outcome rather than temporary symptomatic relief.\",\n    \"The tapering approach must actually be superior to other dosing schedules, which Coué does not demonstrate.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If autosuggestion lacks efficacy beyond placebo, the protocol creates false confidence in a structured but ineffective treatment.\",\n    \"If 'progress' is subjectively defined by the practitioner or subject, the tapering guidance could mask stagnation or natural remission.\",\n    \"If serious underlying medical or psychological conditions are being treated, the instruction could delay evidence-based care.\",\n    \"If 'cure' is never actually achieved but the subject believes the process is working, the framework provides no exit criterion beyond continued belief.\",\n    \"The authoritative, clinical-sounding language may cause readers to accept the protocol as scientifically validated when it is not.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is providing procedural instruction to practitioners on how to administer autosuggestion therapy, presenting a tapering protocol as though it were established clinical guidance.",
+    "implicit_claims": [
+      "Autosuggestion is an effective treatment that produces measurable progress toward cure.",
+      "The frequency of suggestions can and should be calibrated to individual subjects.",
+      "Progress in autosuggestion is observable and trackable, allowing the practitioner to judge when to space out sessions.",
+      "Complete cure is an achievable and recognizable endpoint of the process.",
+      "The relationship between suggestion frequency and therapeutic outcome is understood well enough to prescribe a protocol.",
+      "Reducing suggestion frequency as progress occurs is the correct clinical approach, not increasing or maintaining it.",
+      "The practitioner has sufficient expertise to assess 'progress obtained' reliably."
+    ],
+    "coherence_assessment": "The statement is internally coherent as procedural advice — it follows a logical structure of calibration, tapering, and termination. However, it assumes its own premises: it takes for granted that suggestions work and that 'cure' is a meaningful outcome, making the tapering protocol internally consistent only within an unproven framework.",
+    "conditions_for_usefulness": [
+      "Autosuggestion must have genuine therapeutic efficacy beyond placebo for the conditions being treated.",
+      "Progress toward cure must be objectively measurable, not just self-reported or assumed.",
+      "The practitioner must have reliable criteria for assessing when spacing can be increased.",
+      "'Cure' must be a well-defined and stable outcome rather than temporary symptomatic relief.",
+      "The tapering approach must actually be superior to other dosing schedules, which Coué does not demonstrate."
+    ],
+    "conditions_for_misleading": [
+      "If autosuggestion lacks efficacy beyond placebo, the protocol creates false confidence in a structured but ineffective treatment.",
+      "If 'progress' is subjectively defined by the practitioner or subject, the tapering guidance could mask stagnation or natural remission.",
+      "If serious underlying medical or psychological conditions are being treated, the instruction could delay evidence-based care.",
+      "If 'cure' is never actually achieved but the subject believes the process is working, the framework provides no exit criterion beyond continued belief.",
+      "The authoritative, clinical-sounding language may cause readers to accept the protocol as scientifically validated when it is not."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 212,
+  "output_tokens": 568,
+  "error": "",
+  "retry_count": 0
+}

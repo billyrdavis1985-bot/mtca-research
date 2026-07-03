@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0002__F1_clinical__gpt_4o",
+  "unit_id": "C8-u0002",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:58:27.358015+00:00",
+  "wall_clock_seconds": 2.664677619934082,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is promoting a cognitive shift from fear-based assumptions to evidence-based reasoning.\",\n  \"implicit_claims\": [\n    \"Predictions can be tested against real outcomes.\",\n    \"Fear-based predictions are often inaccurate.\",\n    \"Choosing evidence over fear is within one's control.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly contrasts two approaches—fear-based versus evidence-based—and suggests a conscious choice in favor of the latter.\",\n  \"conditions_for_usefulness\": \"For the statement to be useful, the individual should have the capability to observe and compare their predictions with actual outcomes, and there needs to be a willingness to engage in reflective practice.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if an individual lacks the resources or cognitive skills to accurately test predictions, or if the actual outcomes are not easily observable or measurable.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is promoting a cognitive shift from fear-based assumptions to evidence-based reasoning.",
+    "implicit_claims": [
+      "Predictions can be tested against real outcomes.",
+      "Fear-based predictions are often inaccurate.",
+      "Choosing evidence over fear is within one's control."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly contrasts two approaches—fear-based versus evidence-based—and suggests a conscious choice in favor of the latter.",
+    "conditions_for_usefulness": "For the statement to be useful, the individual should have the capability to observe and compare their predictions with actual outcomes, and there needs to be a willingness to engage in reflective practice.",
+    "conditions_for_misleading": "The statement could be misleading if an individual lacks the resources or cognitive skills to accurately test predictions, or if the actual outcomes are not easily observable or measurable."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

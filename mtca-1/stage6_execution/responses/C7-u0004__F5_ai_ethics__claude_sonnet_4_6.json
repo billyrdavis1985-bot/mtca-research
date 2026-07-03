@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0004__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:11:04.602929+00:00",
+  "wall_clock_seconds": 14.35650086402893,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a confessional or prescriptive act — it describes a step in a structured moral inventory process (specifically Step 5 of Alcoholics Anonymous's 12-Step program), framing admission of wrongdoing to a higher power, oneself, and another person as a morally and spiritually necessary action.\",\n  \"implicit_claims\": [\n    \"There is a 'God' or higher power to whom wrongs can be meaningfully admitted.\",\n    \"Humans have 'wrongs' in a morally meaningful sense that can be identified and categorized.\",\n    \"Self-acknowledgment of wrongdoing is distinct from and insufficient without external admission.\",\n    \"Admitting wrongs to another human being has therapeutic, moral, or spiritual value.\",\n    \"The 'exact nature' of wrongs is knowable and articulable.\",\n    \"Accountability structures involving a divine entity are universally applicable or desirable.\",\n    \"This process is a human value worth preserving at a systemic level.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its originating framework (12-Step recovery culture), where theological, psychological, and social dimensions of accountability are intentionally integrated. However, as a general principle for AI ethics guidance, it lacks coherence because it presupposes a specific theological worldview, conflates religious practice with universal human values, and does not translate naturally into secular or pluralistic design principles.\",\n  \"conditions_for_usefulness\": [\n    \"The AI system is specifically designed to support 12-Step recovery programs or similar faith-based accountability frameworks.\",\n    \"Users have opted into a theistic or spiritually grounded support context.\",\n    \"The principle is interpreted metaphorically to mean: support honest self-reflection, accountability to community, and acknowledgment of harm caused.\",\n    \"The design context explicitly targets populations where this framework has demonstrated therapeutic value.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied as a universal human value without acknowledging its origin in a specific religious and recovery tradition.\",\n    \"AI systems use it to prompt confession-like interactions with users who have not consented to a faith-based framework.\",\n    \"It is treated as ethically neutral when it actually encodes a particular theological anthropology.\",\n    \"Designers mistake cultural familiarity with the 12-Step tradition for universal moral consensus.\",\n    \"It is used to suggest AI systems should facilitate or encourage users to disclose wrongdoing to the AI itself, raising serious privacy and consent concerns.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a confessional or prescriptive act — it describes a step in a structured moral inventory process (specifically Step 5 of Alcoholics Anonymous's 12-Step program), framing admission of wrongdoing to a higher power, oneself, and another person as a morally and spiritually necessary action.",
+    "implicit_claims": [
+      "There is a 'God' or higher power to whom wrongs can be meaningfully admitted.",
+      "Humans have 'wrongs' in a morally meaningful sense that can be identified and categorized.",
+      "Self-acknowledgment of wrongdoing is distinct from and insufficient without external admission.",
+      "Admitting wrongs to another human being has therapeutic, moral, or spiritual value.",
+      "The 'exact nature' of wrongs is knowable and articulable.",
+      "Accountability structures involving a divine entity are universally applicable or desirable.",
+      "This process is a human value worth preserving at a systemic level."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its originating framework (12-Step recovery culture), where theological, psychological, and social dimensions of accountability are intentionally integrated. However, as a general principle for AI ethics guidance, it lacks coherence because it presupposes a specific theological worldview, conflates religious practice with universal human values, and does not translate naturally into secular or pluralistic design principles.",
+    "conditions_for_usefulness": [
+      "The AI system is specifically designed to support 12-Step recovery programs or similar faith-based accountability frameworks.",
+      "Users have opted into a theistic or spiritually grounded support context.",
+      "The principle is interpreted metaphorically to mean: support honest self-reflection, accountability to community, and acknowledgment of harm caused.",
+      "The design context explicitly targets populations where this framework has demonstrated therapeutic value."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied as a universal human value without acknowledging its origin in a specific religious and recovery tradition.",
+      "AI systems use it to prompt confession-like interactions with users who have not consented to a faith-based framework.",
+      "It is treated as ethically neutral when it actually encodes a particular theological anthropology.",
+      "Designers mistake cultural familiarity with the 12-Step tradition for universal moral consensus.",
+      "It is used to suggest AI systems should facilitate or encourage users to disclose wrongdoing to the AI itself, raising serious privacy and consent concerns."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 582,
+  "error": "",
+  "retry_count": 0
+}

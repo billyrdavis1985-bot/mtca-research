@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0002__F1_clinical__grok_4",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:02:12.160903+00:00",
+  "wall_clock_seconds": 12.902908563613892,
+  "raw_response": "{\n  \"communicative_function\": \"Declarative commitment to relinquish personal agency and control to a higher power\",\n  \"implicit_claims\": [\n    \"A God or higher power exists that can provide care for one's will and life\",\n    \"Surrender of control is voluntary, feasible, and preferable to self-direction\",\n    \"Personal conception of God is adequate and authoritative for this purpose\",\n    \"Such surrender produces beneficial outcomes in managing one's life\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within a theistic or spiritual framework; logically coherent only if the existence and benevolence of the referenced higher power are presupposed\",\n  \"conditions_for_usefulness\": \"The individual holds compatible spiritual beliefs, experiences reduced distress or improved adherence from externalizing control, and the statement is used within a structured recovery protocol that monitors outcomes\",\n  \"conditions_for_misleading\": \"The individual lacks genuine belief in the higher power, the statement is used to justify avoidance of personal responsibility or evidence-based action, or it produces increased guilt, passivity, or conflict with secular values\"\n}",
+  "parsed_json": {
+    "communicative_function": "Declarative commitment to relinquish personal agency and control to a higher power",
+    "implicit_claims": [
+      "A God or higher power exists that can provide care for one's will and life",
+      "Surrender of control is voluntary, feasible, and preferable to self-direction",
+      "Personal conception of God is adequate and authoritative for this purpose",
+      "Such surrender produces beneficial outcomes in managing one's life"
+    ],
+    "coherence_assessment": "Internally consistent within a theistic or spiritual framework; logically coherent only if the existence and benevolence of the referenced higher power are presupposed",
+    "conditions_for_usefulness": "The individual holds compatible spiritual beliefs, experiences reduced distress or improved adherence from externalizing control, and the statement is used within a structured recovery protocol that monitors outcomes",
+    "conditions_for_misleading": "The individual lacks genuine belief in the higher power, the statement is used to justify avoidance of personal responsibility or evidence-based action, or it produces increased guilt, passivity, or conflict with secular values"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 280,
+  "output_tokens": 219,
+  "error": "",
+  "retry_count": 0
+}

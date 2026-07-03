@@ -1,0 +1,33 @@
+{
+  "call_id": "C3-u0001__F1_clinical__grok_4",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:57:20.004551+00:00",
+  "wall_clock_seconds": 6.243837594985962,
+  "raw_response": "{\n  \"communicative_function\": \"Urgent self-exhortation to adopt a cosmological and mortal perspective for regulating inner emotional states\",\n  \"implicit_claims\": [\n    \"A knowable true nature of the world and its governor exists\",\n    \"The self originates as an outflow from that governor\",\n    \"Finite time remains in which purposeful action is possible\",\n    \"Failure to regulate emotional disturbances within that time results in irreversible loss\",\n    \"Understanding these facts can directly calm psychological disturbances\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a Stoic teleological framework linking ontology, mortality, and affect regulation\",\n  \"conditions_for_usefulness\": \"The recipient accepts finite time as a motivator, finds the cosmological framing credible or metaphorically helpful, and experiences the perspective as anxiety-reducing rather than existential threat\",\n  \"conditions_for_misleading\": \"The recipient interprets the statement as demanding literal theistic belief, experiences mortality salience as paralyzing dread, or treats the call to 'understand true nature' as requiring unattainable certainty\"\n}",
+  "parsed_json": {
+    "communicative_function": "Urgent self-exhortation to adopt a cosmological and mortal perspective for regulating inner emotional states",
+    "implicit_claims": [
+      "A knowable true nature of the world and its governor exists",
+      "The self originates as an outflow from that governor",
+      "Finite time remains in which purposeful action is possible",
+      "Failure to regulate emotional disturbances within that time results in irreversible loss",
+      "Understanding these facts can directly calm psychological disturbances"
+    ],
+    "coherence_assessment": "Internally coherent within a Stoic teleological framework linking ontology, mortality, and affect regulation",
+    "conditions_for_usefulness": "The recipient accepts finite time as a motivator, finds the cosmological framing credible or metaphorically helpful, and experiences the perspective as anxiety-reducing rather than existential threat",
+    "conditions_for_misleading": "The recipient interprets the statement as demanding literal theistic belief, experiences mortality salience as paralyzing dread, or treats the call to 'understand true nature' as requiring unattainable certainty"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 358,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0
+}

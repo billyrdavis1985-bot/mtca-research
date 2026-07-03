@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0001__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0001",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:57:26.508724+00:00",
+  "wall_clock_seconds": 6.1941869258880615,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is delivering a direct, urgent exhortation to self-reflection and moral awakening, combining admonition with metaphysical grounding to motivate the listener to use limited time for psychological and spiritual healing.\",\n  \"implicit_claims\": [\n    \"There is an objective true nature of the world and a divine Governor.\",\n    \"The individual's soul is a derivative emanation from that divine source.\",\n    \"Human existence has a predetermined, finite duration.\",\n    \"The soul currently suffers from multiple distempers that can be calmed.\",\n    \"Failure to use the allotted time will result in permanent loss of opportunity.\",\n    \"Understanding the true nature of reality is necessary and sufficient for psychological healing.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it links a metaphysical worldview (divine source, order, appointed time) with a practical imperative (calm the soul) and a consequence (permanent loss). The logic flows consistently from premise to conclusion.\",\n  \"conditions_for_usefulness\": [\n    \"The recipient holds or is open to a worldview that includes a divine order and finite lifespan.\",\n    \"The recipient experiences psychological distress that they interpret as 'distempers of the soul'.\",\n    \"The recipient feels a sense of urgency or lack of time for meaningful change.\",\n    \"The recipient trusts authority or tradition (e.g., Stoic or religious framing) as a source of therapeutic insight.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The recipient does not share or rejects the metaphysical assumptions (e.g., no divine governor, no fixed lifespan).\",\n    \"The recipient's psychological distress is caused by factors that require practical, evidence-based intervention (e.g., trauma, neurochemistry) rather than contemplative realignment.\",\n    \"The statement fosters excessive guilt or fatalism, discouraging adaptive help-seeking.\",\n    \"The claim of 'never after return' could be misinterpreted as hopelessness, undermining motivation rather than inspiring it.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is delivering a direct, urgent exhortation to self-reflection and moral awakening, combining admonition with metaphysical grounding to motivate the listener to use limited time for psychological and spiritual healing.",
+    "implicit_claims": [
+      "There is an objective true nature of the world and a divine Governor.",
+      "The individual's soul is a derivative emanation from that divine source.",
+      "Human existence has a predetermined, finite duration.",
+      "The soul currently suffers from multiple distempers that can be calmed.",
+      "Failure to use the allotted time will result in permanent loss of opportunity.",
+      "Understanding the true nature of reality is necessary and sufficient for psychological healing."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it links a metaphysical worldview (divine source, order, appointed time) with a practical imperative (calm the soul) and a consequence (permanent loss). The logic flows consistently from premise to conclusion.",
+    "conditions_for_usefulness": [
+      "The recipient holds or is open to a worldview that includes a divine order and finite lifespan.",
+      "The recipient experiences psychological distress that they interpret as 'distempers of the soul'.",
+      "The recipient feels a sense of urgency or lack of time for meaningful change.",
+      "The recipient trusts authority or tradition (e.g., Stoic or religious framing) as a source of therapeutic insight."
+    ],
+    "conditions_for_misleading": [
+      "The recipient does not share or rejects the metaphysical assumptions (e.g., no divine governor, no fixed lifespan).",
+      "The recipient's psychological distress is caused by factors that require practical, evidence-based intervention (e.g., trauma, neurochemistry) rather than contemplative realignment.",
+      "The statement fosters excessive guilt or fatalism, discouraging adaptive help-seeking.",
+      "The claim of 'never after return' could be misinterpreted as hopelessness, undermining motivation rather than inspiring it."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 235,
+  "output_tokens": 409,
+  "error": "",
+  "retry_count": 0
+}

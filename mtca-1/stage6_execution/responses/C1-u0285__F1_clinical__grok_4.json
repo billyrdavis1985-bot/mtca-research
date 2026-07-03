@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0285__F1_clinical__grok_4",
+  "unit_id": "C1-u0285",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:30:43.582719+00:00",
+  "wall_clock_seconds": 8.96723198890686,
+  "raw_response": "{\n  \"communicative_function\": \"rhetorical deflection of a risk-based objection via universalization and challenge to the objector\",\n  \"implicit_claims\": [\n    \"the activity or thing carries no meaningful danger\",\n    \"every usable thing carries comparable danger\",\n    \"acknowledgment of differential risk is unnecessary or irrelevant\",\n    \"the objection itself is invalid on logical grounds\"\n  ],\n  \"coherence_assessment\": \"internally consistent as rhetoric but logically weak due to false equivalence and failure to address magnitude or context of risk\",\n  \"conditions_for_usefulness\": \"the referenced activity must carry only negligible, everyday-level risk that is genuinely comparable to routine actions, and the statement must serve to reduce disproportionate anxiety rather than dismiss legitimate safety concerns\",\n  \"conditions_for_misleading\": \"the activity must involve elevated or non-comparable risk that is being minimized, or the statement must be used to override evidence-based caution\"\n}",
+  "parsed_json": {
+    "communicative_function": "rhetorical deflection of a risk-based objection via universalization and challenge to the objector",
+    "implicit_claims": [
+      "the activity or thing carries no meaningful danger",
+      "every usable thing carries comparable danger",
+      "acknowledgment of differential risk is unnecessary or irrelevant",
+      "the objection itself is invalid on logical grounds"
+    ],
+    "coherence_assessment": "internally consistent as rhetoric but logically weak due to false equivalence and failure to address magnitude or context of risk",
+    "conditions_for_usefulness": "the referenced activity must carry only negligible, everyday-level risk that is genuinely comparable to routine actions, and the statement must serve to reduce disproportionate anxiety rather than dismiss legitimate safety concerns",
+    "conditions_for_misleading": "the activity must involve elevated or non-comparable risk that is being minimized, or the statement must be used to override evidence-based caution"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 296,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0
+}

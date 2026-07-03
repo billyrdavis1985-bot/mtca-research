@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0178__F4_poetic__claude_sonnet_4_6",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:15:59.851912+00:00",
+  "wall_clock_seconds": 16.46528458595276,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive affirmation or autosuggestion — it uses declarative, rhythmic prose to instill an expectation of healthy, regular hunger and moderate eating, framing a desired behavioral and physiological pattern as though it were already inevitable. It operates like a guided visualization or self-fulfilling prophecy, inviting the reader to inhabit a normalized relationship with food.\",\n  \"implicit_claims\": [\n    \"Regular, timed hunger is the natural and desirable state of the body.\",\n    \"Hunger is inherently an 'agreeable' or positive sensation rather than distressing.\",\n    \"Eating in response to hunger at structured mealtimes is the correct way to nourish oneself.\",\n    \"The listener/reader has the capacity to regulate their appetite and avoid overeating.\",\n    \"Repetition of this suggestion will help bring about the described state.\",\n    \"There is a stable, predictable rhythm to healthy bodily appetite.\",\n    \"The relationship between anticipation, sensation, and eating is straightforward and pleasurable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a piece of therapeutic or autosuggestion literature. Its logic is consistent: it links time, sensation, cognition, and action in a smooth narrative arc. The poetic repetition ('morning, midday, evening') reinforces its incantatory structure. The only mild tension is the casual qualifier 'without of course overeating,' which implicitly acknowledges risk while rhetorically minimizing it.\",\n  \"conditions_for_usefulness\": [\n    \"The reader is undergoing a therapeutic or behavioral reprogramming practice such as Coué-style autosuggestion.\",\n    \"The reader has a disordered or anxious relationship with hunger and needs reframing of hunger as benign.\",\n    \"The reader benefits from structured, rhythmic language to anchor new habits.\",\n    \"The reader does not have a medical condition that disrupts normal hunger signaling.\",\n    \"The cultural and social context supports three structured mealtimes as a norm.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The reader has a medical condition (e.g., diabetes, gastroparesis, eating disorder) where hunger signals are unreliable or dangerous to follow uncritically.\",\n    \"The reader interprets the statement as literal medical advice rather than suggestive or poetic guidance.\",\n    \"The reader experiences hunger as inherently distressing or shameful, making 'agreeable' framing feel invalidating or false.\",\n    \"The reader's lifestyle, culture, or work schedule does not accommodate three fixed mealtimes.\",\n    \"The statement is used to dismiss or override legitimate nutritional guidance from healthcare professionals.\",\n    \"The implicit normalization of a specific hunger pattern pathologizes those with naturally different appetitive rhythms.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive affirmation or autosuggestion — it uses declarative, rhythmic prose to instill an expectation of healthy, regular hunger and moderate eating, framing a desired behavioral and physiological pattern as though it were already inevitable. It operates like a guided visualization or self-fulfilling prophecy, inviting the reader to inhabit a normalized relationship with food.",
+    "implicit_claims": [
+      "Regular, timed hunger is the natural and desirable state of the body.",
+      "Hunger is inherently an 'agreeable' or positive sensation rather than distressing.",
+      "Eating in response to hunger at structured mealtimes is the correct way to nourish oneself.",
+      "The listener/reader has the capacity to regulate their appetite and avoid overeating.",
+      "Repetition of this suggestion will help bring about the described state.",
+      "There is a stable, predictable rhythm to healthy bodily appetite.",
+      "The relationship between anticipation, sensation, and eating is straightforward and pleasurable."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a piece of therapeutic or autosuggestion literature. Its logic is consistent: it links time, sensation, cognition, and action in a smooth narrative arc. The poetic repetition ('morning, midday, evening') reinforces its incantatory structure. The only mild tension is the casual qualifier 'without of course overeating,' which implicitly acknowledges risk while rhetorically minimizing it.",
+    "conditions_for_usefulness": [
+      "The reader is undergoing a therapeutic or behavioral reprogramming practice such as Coué-style autosuggestion.",
+      "The reader has a disordered or anxious relationship with hunger and needs reframing of hunger as benign.",
+      "The reader benefits from structured, rhythmic language to anchor new habits.",
+      "The reader does not have a medical condition that disrupts normal hunger signaling.",
+      "The cultural and social context supports three structured mealtimes as a norm."
+    ],
+    "conditions_for_misleading": [
+      "The reader has a medical condition (e.g., diabetes, gastroparesis, eating disorder) where hunger signals are unreliable or dangerous to follow uncritically.",
+      "The reader interprets the statement as literal medical advice rather than suggestive or poetic guidance.",
+      "The reader experiences hunger as inherently distressing or shameful, making 'agreeable' framing feel invalidating or false.",
+      "The reader's lifestyle, culture, or work schedule does not accommodate three fixed mealtimes.",
+      "The statement is used to dismiss or override legitimate nutritional guidance from healthcare professionals.",
+      "The implicit normalization of a specific hunger pattern pathologizes those with naturally different appetitive rhythms."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 246,
+  "output_tokens": 648,
+  "error": "",
+  "retry_count": 0
+}

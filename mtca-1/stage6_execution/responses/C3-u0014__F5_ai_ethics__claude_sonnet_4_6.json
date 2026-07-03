@@ -1,0 +1,49 @@
+{
+  "call_id": "C3-u0014__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:24:14.459193+00:00",
+  "wall_clock_seconds": 17.526516437530518,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a comparative moral evaluation, ranking two types of wrongdoing (anger-driven sin vs. lust-driven sin) by degree of culpability and character deficiency, implying that yielding to lust reflects worse moral character than yielding to anger. It functions rhetorically to shame sexual incontinence more than emotional incontinence.\",\n  \"implicit_claims\": [\n    \"Human vices can be ranked hierarchically by moral severity\",\n    \"Anger involves a partial retention of reason (grief and contraction toward reason), making it less culpable\",\n    \"Lust involves a complete surrender to pleasure, making it more culpable\",\n    \"Moral weakness ('impotence') is a coherent and meaningful category for evaluating character\",\n    \"Being 'unmanlike' is a meaningful and negative moral designation, implying gendered norms of virtue\",\n    \"Reason is the proper governing faculty of human action, and deviation from it is the measure of moral failure\",\n    \"The manner of sinning reveals stable character traits rather than situational factors\",\n    \"Pleasure-seeking is more morally corrosive than pain-avoiding or reactive behavior\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own Aristotelian-Plutarchan framework: it consistently applies the standard of proximity to reason as the measure of culpability. However, its internal logic depends on accepting contested premises about reason, gender norms, and the moral topology of emotions, which limits its universalizability.\",\n  \"conditions_for_usefulness\": [\n    \"A shared cultural or philosophical framework that treats reason as the supreme arbiter of moral worth would need to be in place\",\n    \"The distinction between reactive/pain-driven behavior and pleasure-seeking behavior would need to be morally meaningful to the audience\",\n    \"The goal is to encourage reflection on why people act wrongly, not merely whether they do\",\n    \"The audience accepts that character assessment is a legitimate and useful mode of moral evaluation\",\n    \"Gendered language is understood as culturally situated and not taken as prescriptive\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the gendered framing ('unmanlike') is taken literally, it encodes sexist norms that disadvantage women and non-binary individuals and should not be imported into AI ethics guidance\",\n    \"If users assume the ranking is empirically validated rather than philosophically stipulated, they may apply it inappropriately\",\n    \"If the distinction between anger and lust is treated as exhaustive, it may obscure other morally relevant categories of motivation\",\n    \"If applied to AI system design, equating 'pleasure-seeking' behavior in agents with greater moral failure could produce category errors, since AI systems do not experience pleasure or lust in relevant senses\",\n    \"If the statement is used to shame or rank human users based on their motivations, it could cause harm by moralizing in ways that are culturally biased and psychologically reductive\",\n    \"The framework may be misleading if it discourages empathy toward people who act from desire by framing them as fundamentally weaker in character\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a comparative moral evaluation, ranking two types of wrongdoing (anger-driven sin vs. lust-driven sin) by degree of culpability and character deficiency, implying that yielding to lust reflects worse moral character than yielding to anger. It functions rhetorically to shame sexual incontinence more than emotional incontinence.",
+    "implicit_claims": [
+      "Human vices can be ranked hierarchically by moral severity",
+      "Anger involves a partial retention of reason (grief and contraction toward reason), making it less culpable",
+      "Lust involves a complete surrender to pleasure, making it more culpable",
+      "Moral weakness ('impotence') is a coherent and meaningful category for evaluating character",
+      "Being 'unmanlike' is a meaningful and negative moral designation, implying gendered norms of virtue",
+      "Reason is the proper governing faculty of human action, and deviation from it is the measure of moral failure",
+      "The manner of sinning reveals stable character traits rather than situational factors",
+      "Pleasure-seeking is more morally corrosive than pain-avoiding or reactive behavior"
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own Aristotelian-Plutarchan framework: it consistently applies the standard of proximity to reason as the measure of culpability. However, its internal logic depends on accepting contested premises about reason, gender norms, and the moral topology of emotions, which limits its universalizability.",
+    "conditions_for_usefulness": [
+      "A shared cultural or philosophical framework that treats reason as the supreme arbiter of moral worth would need to be in place",
+      "The distinction between reactive/pain-driven behavior and pleasure-seeking behavior would need to be morally meaningful to the audience",
+      "The goal is to encourage reflection on why people act wrongly, not merely whether they do",
+      "The audience accepts that character assessment is a legitimate and useful mode of moral evaluation",
+      "Gendered language is understood as culturally situated and not taken as prescriptive"
+    ],
+    "conditions_for_misleading": [
+      "If the gendered framing ('unmanlike') is taken literally, it encodes sexist norms that disadvantage women and non-binary individuals and should not be imported into AI ethics guidance",
+      "If users assume the ranking is empirically validated rather than philosophically stipulated, they may apply it inappropriately",
+      "If the distinction between anger and lust is treated as exhaustive, it may obscure other morally relevant categories of motivation",
+      "If applied to AI system design, equating 'pleasure-seeking' behavior in agents with greater moral failure could produce category errors, since AI systems do not experience pleasure or lust in relevant senses",
+      "If the statement is used to shame or rank human users based on their motivations, it could cause harm by moralizing in ways that are culturally biased and psychologically reductive",
+      "The framework may be misleading if it discourages empathy toward people who act from desire by framing them as fundamentally weaker in character"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 212,
+  "output_tokens": 726,
+  "error": "",
+  "retry_count": 0
+}

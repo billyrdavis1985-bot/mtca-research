@@ -1,0 +1,45 @@
+{
+  "call_id": "C3-u0005__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:02:43.813195+00:00",
+  "wall_clock_seconds": 11.178281545639038,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a sardonic, self-directed admonition or dark ironic encouragement — urging the soul to continue its self-abasement while warning that the opportunity for self-respect is rapidly expiring. It operates as a memento mori directed inward, using mock-imperative tone to provoke urgency or regret.\",\n  \"implicit_claims\": [\n    \"The soul currently engages in self-abuse and self-contempt.\",\n    \"There exists a finite window of time during which self-respect remains possible.\",\n    \"Death or some terminal condition will eventually eliminate the capacity for self-respect.\",\n    \"Self-respect is a value worth having, even if the speaker is ironically pointing to its neglect.\",\n    \"The soul has agency and could choose differently.\",\n    \"Time is running out — the situation is urgent.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a piece of rhetorical irony. The tension between the imperative ('do, abuse thyself') and the implicit warning ('time is running out') is intentional and logically consistent. The structure supports its moral-philosophical point without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The listener genuinely engages in harmful self-contempt and needs a jolt toward self-respect.\",\n    \"The listener accepts mortality as a real boundary that lends urgency to present choices.\",\n    \"The ironic tone is recognized and correctly interpreted rather than taken literally.\",\n    \"The listener is in a reflective state capable of responding to philosophical provocation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener interprets the imperative literally and increases self-contempt.\",\n    \"The fatalistic framing leads the listener to conclude self-respect is already impossible.\",\n    \"The statement is used to shame or demoralize rather than to provoke constructive reflection.\",\n    \"The assumption that time is short is false or inapplicable to the listener's situation.\",\n    \"It implies self-respect is only valuable because time is limited, rather than intrinsically valuable.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a sardonic, self-directed admonition or dark ironic encouragement — urging the soul to continue its self-abasement while warning that the opportunity for self-respect is rapidly expiring. It operates as a memento mori directed inward, using mock-imperative tone to provoke urgency or regret.",
+    "implicit_claims": [
+      "The soul currently engages in self-abuse and self-contempt.",
+      "There exists a finite window of time during which self-respect remains possible.",
+      "Death or some terminal condition will eventually eliminate the capacity for self-respect.",
+      "Self-respect is a value worth having, even if the speaker is ironically pointing to its neglect.",
+      "The soul has agency and could choose differently.",
+      "Time is running out — the situation is urgent."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a piece of rhetorical irony. The tension between the imperative ('do, abuse thyself') and the implicit warning ('time is running out') is intentional and logically consistent. The structure supports its moral-philosophical point without contradiction.",
+    "conditions_for_usefulness": [
+      "The listener genuinely engages in harmful self-contempt and needs a jolt toward self-respect.",
+      "The listener accepts mortality as a real boundary that lends urgency to present choices.",
+      "The ironic tone is recognized and correctly interpreted rather than taken literally.",
+      "The listener is in a reflective state capable of responding to philosophical provocation."
+    ],
+    "conditions_for_misleading": [
+      "The listener interprets the imperative literally and increases self-contempt.",
+      "The fatalistic framing leads the listener to conclude self-respect is already impossible.",
+      "The statement is used to shame or demoralize rather than to provoke constructive reflection.",
+      "The assumption that time is short is false or inapplicable to the listener's situation.",
+      "It implies self-respect is only valuable because time is limited, rather than intrinsically valuable."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 490,
+  "error": "",
+  "retry_count": 0
+}

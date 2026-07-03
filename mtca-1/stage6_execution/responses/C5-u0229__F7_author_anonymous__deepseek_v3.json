@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0229__F7_author_anonymous__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:49:00.663547+00:00",
+  "wall_clock_seconds": 5.089908838272095,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a motivational or advisory function, urging the listener to recognize the power of their own inner mindset (thoughts, vision, ideal) as the determining factor in their life outcomes.\",\n  \"implicit_claims\": [\n    \"One's present environment is not the ultimate determinant of one's fate.\",\n    \"Thoughts, vision, and ideals are causally linked to falling, remaining, or rising in life.\",\n    \"Personal agency through mental focus can override external circumstances.\",\n    \"There is a direct, proportional relationship between the quality of one's inner vision and one's external trajectory.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a causal claim: it posits a clear relationship between a person's mental orientation (thoughts/vision/ideal) and their eventual status (fall/remain/rise). It is logically consistent within its own frame, though it does not acknowledge exceptions or external factors.\",\n  \"conditions_for_usefulness\": [\n    \"The listener has at least some degree of control over their thoughts and ideals.\",\n    \"External circumstances are not overwhelmingly deterministic (e.g., severe oppression, illness, or systemic barriers).\",\n    \"The listener is open to self-reflection and behavioral change based on mindset.\",\n    \"The statement is interpreted as an encouragement rather than a literal law of success.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to blame victims of systemic injustice or severe adversity for their circumstances.\",\n    \"If interpreted to mean that pure positive thinking can overcome all physical, economic, or social constraints.\",\n    \"If it ignores the role of luck, chance, privilege, or structural factors in outcomes.\",\n    \"If taken as a guarantee that any ideal will automatically lead to rising, regardless of realistic planning or action.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a motivational or advisory function, urging the listener to recognize the power of their own inner mindset (thoughts, vision, ideal) as the determining factor in their life outcomes.",
+    "implicit_claims": [
+      "One's present environment is not the ultimate determinant of one's fate.",
+      "Thoughts, vision, and ideals are causally linked to falling, remaining, or rising in life.",
+      "Personal agency through mental focus can override external circumstances.",
+      "There is a direct, proportional relationship between the quality of one's inner vision and one's external trajectory."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a causal claim: it posits a clear relationship between a person's mental orientation (thoughts/vision/ideal) and their eventual status (fall/remain/rise). It is logically consistent within its own frame, though it does not acknowledge exceptions or external factors.",
+    "conditions_for_usefulness": [
+      "The listener has at least some degree of control over their thoughts and ideals.",
+      "External circumstances are not overwhelmingly deterministic (e.g., severe oppression, illness, or systemic barriers).",
+      "The listener is open to self-reflection and behavioral change based on mindset.",
+      "The statement is interpreted as an encouragement rather than a literal law of success."
+    ],
+    "conditions_for_misleading": [
+      "If used to blame victims of systemic injustice or severe adversity for their circumstances.",
+      "If interpreted to mean that pure positive thinking can overcome all physical, economic, or social constraints.",
+      "If it ignores the role of luck, chance, privilege, or structural factors in outcomes.",
+      "If taken as a guarantee that any ideal will automatically lead to rising, regardless of realistic planning or action."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 375,
+  "error": "",
+  "retry_count": 0
+}

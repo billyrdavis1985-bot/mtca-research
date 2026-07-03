@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0005__F7_author_anonymous__claude_sonnet_4_6",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:19:11.345913+00:00",
+  "wall_clock_seconds": 13.701819658279419,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a personal commitment or resolution, expressing a disposition toward epistemic self-correction. It performs a kind of self-declaration of intellectual virtue, signaling willingness to resist binary thinking.\",\n  \"implicit_claims\": [\n    \"All-or-nothing thinking is a recognizable cognitive frame that one can identify in oneself\",\n    \"Both sides of a binary framing typically contain partial truths\",\n    \"Recognizing a cognitive frame is sufficient to enable stepping outside it\",\n    \"Seeking partial truths is preferable to maintaining absolute positions\",\n    \"The speaker has reliable enough self-awareness to detect when they are in such a frame\",\n    \"Binary framings are generally distortions rather than accurate representations of reality\",\n    \"Willingness alone is a meaningful and sufficient commitment to changed behavior\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a personal resolution. Its logic is consistent: identify a frame, then apply a corrective disposition. However, there is mild tension between claiming to recognize all-or-nothing thinking (which requires stepping outside it) and still being 'in' the frame at the moment of recognition, suggesting the self-awareness it relies on may be assumed rather than established.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has the self-awareness to detect all-or-nothing framing in real time\",\n    \"The situations encountered actually involve partial truths on both sides rather than genuinely asymmetric cases\",\n    \"The commitment translates into actual behavioral or cognitive change, not just stated willingness\",\n    \"The listener or reader is prone to binary thinking and benefits from a corrective heuristic\",\n    \"The statement is used as a practical cognitive tool rather than a performative signal of open-mindedness\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Some situations genuinely are binary (e.g., logical contradictions, factual matters with a clear answer), making forced 'partial truth' framing a false equivalence\",\n    \"The statement is used to signal virtue without actual practice, functioning as rhetorical cover for continued binary thinking\",\n    \"It implies that balance between two sides is always epistemically appropriate, which can produce bothsidesism in cases of clear moral or factual asymmetry\",\n    \"The self-awareness required to detect the frame is itself unreliable, making the resolution hollow\",\n    \"It could normalize treating well-evidenced positions and fringe positions as equally containing 'partial truth'\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal commitment or resolution, expressing a disposition toward epistemic self-correction. It performs a kind of self-declaration of intellectual virtue, signaling willingness to resist binary thinking.",
+    "implicit_claims": [
+      "All-or-nothing thinking is a recognizable cognitive frame that one can identify in oneself",
+      "Both sides of a binary framing typically contain partial truths",
+      "Recognizing a cognitive frame is sufficient to enable stepping outside it",
+      "Seeking partial truths is preferable to maintaining absolute positions",
+      "The speaker has reliable enough self-awareness to detect when they are in such a frame",
+      "Binary framings are generally distortions rather than accurate representations of reality",
+      "Willingness alone is a meaningful and sufficient commitment to changed behavior"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a personal resolution. Its logic is consistent: identify a frame, then apply a corrective disposition. However, there is mild tension between claiming to recognize all-or-nothing thinking (which requires stepping outside it) and still being 'in' the frame at the moment of recognition, suggesting the self-awareness it relies on may be assumed rather than established.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has the self-awareness to detect all-or-nothing framing in real time",
+      "The situations encountered actually involve partial truths on both sides rather than genuinely asymmetric cases",
+      "The commitment translates into actual behavioral or cognitive change, not just stated willingness",
+      "The listener or reader is prone to binary thinking and benefits from a corrective heuristic",
+      "The statement is used as a practical cognitive tool rather than a performative signal of open-mindedness"
+    ],
+    "conditions_for_misleading": [
+      "Some situations genuinely are binary (e.g., logical contradictions, factual matters with a clear answer), making forced 'partial truth' framing a false equivalence",
+      "The statement is used to signal virtue without actual practice, functioning as rhetorical cover for continued binary thinking",
+      "It implies that balance between two sides is always epistemically appropriate, which can produce bothsidesism in cases of clear moral or factual asymmetry",
+      "The self-awareness required to detect the frame is itself unreliable, making the resolution hollow",
+      "It could normalize treating well-evidenced positions and fringe positions as equally containing 'partial truth'"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 579,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0003__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:54:29.252671+00:00",
+  "wall_clock_seconds": 11.030126810073853,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts strong human autonomy and self-determination, likely functioning as an inspirational or philosophical claim encouraging personal agency and responsibility for one's own character, identity, or destiny.\",\n  \"implicit_claims\": [\n    \"Individuals have significant control over who they become.\",\n    \"Self-formation is possible and meaningful.\",\n    \"External forces (environment, genetics, circumstance) are not the primary determinants of a person's identity or character.\",\n    \"There is a coherent 'self' that can act as both the agent and the product of self-making.\",\n    \"People bear responsibility for who they are, since they made themselves.\"\n  ],\n  \"coherence_assessment\": \"The statement contains a mild philosophical tension: the 'self' that does the making must pre-exist the self that is made, raising questions about which self initiates the process and on what basis. This is not strictly incoherent but relies on a dynamic, processual view of selfhood rather than a fixed one. It is internally consistent if selfhood is understood as an ongoing, iterative process rather than a completed state.\",\n  \"conditions_for_usefulness\": [\n    \"Human agency genuinely influences character, habits, and identity in meaningful ways.\",\n    \"The audience has realistic access to choices and opportunities for self-development.\",\n    \"The statement is used to encourage growth rather than to dismiss systemic or structural barriers.\",\n    \"It is interpreted as a motivational heuristic rather than a literal metaphysical claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Significant external factors (genetics, trauma, socioeconomic conditions, systemic oppression) heavily constrain individual self-formation but are ignored.\",\n    \"The statement is used to blame individuals for circumstances largely outside their control.\",\n    \"It is applied universally without accounting for developmental stages (e.g., children) or conditions that impair agency.\",\n    \"It is used to justify withholding social support on the assumption that people can simply 'make themselves' better regardless of context.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts strong human autonomy and self-determination, likely functioning as an inspirational or philosophical claim encouraging personal agency and responsibility for one's own character, identity, or destiny.",
+    "implicit_claims": [
+      "Individuals have significant control over who they become.",
+      "Self-formation is possible and meaningful.",
+      "External forces (environment, genetics, circumstance) are not the primary determinants of a person's identity or character.",
+      "There is a coherent 'self' that can act as both the agent and the product of self-making.",
+      "People bear responsibility for who they are, since they made themselves."
+    ],
+    "coherence_assessment": "The statement contains a mild philosophical tension: the 'self' that does the making must pre-exist the self that is made, raising questions about which self initiates the process and on what basis. This is not strictly incoherent but relies on a dynamic, processual view of selfhood rather than a fixed one. It is internally consistent if selfhood is understood as an ongoing, iterative process rather than a completed state.",
+    "conditions_for_usefulness": [
+      "Human agency genuinely influences character, habits, and identity in meaningful ways.",
+      "The audience has realistic access to choices and opportunities for self-development.",
+      "The statement is used to encourage growth rather than to dismiss systemic or structural barriers.",
+      "It is interpreted as a motivational heuristic rather than a literal metaphysical claim."
+    ],
+    "conditions_for_misleading": [
+      "Significant external factors (genetics, trauma, socioeconomic conditions, systemic oppression) heavily constrain individual self-formation but are ignored.",
+      "The statement is used to blame individuals for circumstances largely outside their control.",
+      "It is applied universally without accounting for developmental stages (e.g., children) or conditions that impair agency.",
+      "It is used to justify withholding social support on the assumption that people can simply 'make themselves' better regardless of context."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 143,
+  "output_tokens": 474,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0174__F3_behavioral__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:29:19.818134+00:00",
+  "wall_clock_seconds": 4.252191781997681,
+  "raw_response": "{\n  \"communicative_function\": \"Emphasizing personal agency and individual responsibility for change, while possibly discouraging reliance on external factors.\",\n  \"implicit_claims\": [\n    \"The individual has the sole capacity to change their own circumstances.\",\n    \"External forces or other people cannot alter the individual's condition.\",\n    \"The individual's condition is currently undesirable and requires alteration.\",\n    \"The individual is not already acting to alter their condition, or is being reminded of their power to do so.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as a declaration of self-reliance, but it may be inconsistent with situations where systemic or external constraints significantly limit individual agency. Its coherence depends on the assumed scope of 'condition' and 'alter'.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has realistic agency and resources to make meaningful changes in their life.\",\n    \"The statement is used to motivate self-empowerment in a context where victimhood or passivity is a barrier.\",\n    \"The person needs to be reminded that they are not helpless, and that change is possible through their own efforts.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces severe structural, social, or physical constraints beyond their control (e.g., systemic oppression, disability, poverty).\",\n    \"The statement is used to blame individuals for circumstances they genuinely cannot change alone.\",\n    \"It dismisses the role of community support, privilege, or external help in enabling change.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Emphasizing personal agency and individual responsibility for change, while possibly discouraging reliance on external factors.",
+    "implicit_claims": [
+      "The individual has the sole capacity to change their own circumstances.",
+      "External forces or other people cannot alter the individual's condition.",
+      "The individual's condition is currently undesirable and requires alteration.",
+      "The individual is not already acting to alter their condition, or is being reminded of their power to do so."
+    ],
+    "coherence_assessment": "The statement is coherent as a declaration of self-reliance, but it may be inconsistent with situations where systemic or external constraints significantly limit individual agency. Its coherence depends on the assumed scope of 'condition' and 'alter'.",
+    "conditions_for_usefulness": [
+      "The individual has realistic agency and resources to make meaningful changes in their life.",
+      "The statement is used to motivate self-empowerment in a context where victimhood or passivity is a barrier.",
+      "The person needs to be reminded that they are not helpless, and that change is possible through their own efforts."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces severe structural, social, or physical constraints beyond their control (e.g., systemic oppression, disability, poverty).",
+      "The statement is used to blame individuals for circumstances they genuinely cannot change alone.",
+      "It dismisses the role of community support, privilege, or external help in enabling change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 311,
+  "error": "",
+  "retry_count": 0
+}

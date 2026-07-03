@@ -1,0 +1,48 @@
+{
+  "call_id": "C3-u0057__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C3-u0057",
+  "text_id": "C3",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:51:01.983588+00:00",
+  "wall_clock_seconds": 13.109534740447998,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a philosophical justification or rationalization — it invokes an appeal to nature to exempt naturally-occurring phenomena or impulses from moral condemnation, potentially serving to license certain behaviors by framing them as beyond ethical critique.\",\n  \"implicit_claims\": [\n    \"Nature is a reliable or authoritative moral standard.\",\n    \"There exists a clear and agreed-upon definition of what counts as 'according to nature'.\",\n    \"Evil is a meaningful category that can be mapped onto natural vs. unnatural distinctions.\",\n    \"Whatever is natural is inherently good or at least morally neutral.\",\n    \"Human moral judgment should defer to natural order rather than override it.\",\n    \"The natural/unnatural distinction is stable, objective, and not culturally constructed.\",\n    \"Actions or phenomena that arise from nature carry no moral responsibility or culpability.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional claim within Stoic or certain natural law frameworks, but it relies on an undefended and potentially circular premise — that 'nature' has inherent moral valence. It conflates descriptive claims (what is natural) with normative claims (what is good), committing the naturalistic fallacy. The coherence collapses if 'nature' is not defined, since disease, predation, and suffering are also natural.\",\n  \"conditions_for_usefulness\": [\n    \"A rigorous and shared definition of 'nature' and 'natural' is established in advance.\",\n    \"The context is a Stoic or natural law philosophical tradition where this premise is accepted.\",\n    \"It is used to argue against arbitrary or culturally-imposed taboos rather than to justify harm.\",\n    \"The speaker is engaging in abstract philosophical inquiry rather than practical ethical decision-making.\",\n    \"It is paired with acknowledgment of its limits and counterexamples.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is used to justify harmful behaviors (e.g., aggression, disease, coercion) by labeling them 'natural'.\",\n    \"No definition of 'natural' is provided, allowing selective application.\",\n    \"It is used to shut down moral inquiry rather than open it.\",\n    \"The audience lacks familiarity with the naturalistic fallacy and may accept the claim uncritically.\",\n    \"It is deployed to rationalize a specific behavior the speaker wishes to avoid accountability for.\",\n    \"Counterexamples (e.g., cancer, parasitism, infanticide in animals) are ignored or suppressed.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a philosophical justification or rationalization — it invokes an appeal to nature to exempt naturally-occurring phenomena or impulses from moral condemnation, potentially serving to license certain behaviors by framing them as beyond ethical critique.",
+    "implicit_claims": [
+      "Nature is a reliable or authoritative moral standard.",
+      "There exists a clear and agreed-upon definition of what counts as 'according to nature'.",
+      "Evil is a meaningful category that can be mapped onto natural vs. unnatural distinctions.",
+      "Whatever is natural is inherently good or at least morally neutral.",
+      "Human moral judgment should defer to natural order rather than override it.",
+      "The natural/unnatural distinction is stable, objective, and not culturally constructed.",
+      "Actions or phenomena that arise from nature carry no moral responsibility or culpability."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional claim within Stoic or certain natural law frameworks, but it relies on an undefended and potentially circular premise — that 'nature' has inherent moral valence. It conflates descriptive claims (what is natural) with normative claims (what is good), committing the naturalistic fallacy. The coherence collapses if 'nature' is not defined, since disease, predation, and suffering are also natural.",
+    "conditions_for_usefulness": [
+      "A rigorous and shared definition of 'nature' and 'natural' is established in advance.",
+      "The context is a Stoic or natural law philosophical tradition where this premise is accepted.",
+      "It is used to argue against arbitrary or culturally-imposed taboos rather than to justify harm.",
+      "The speaker is engaging in abstract philosophical inquiry rather than practical ethical decision-making.",
+      "It is paired with acknowledgment of its limits and counterexamples."
+    ],
+    "conditions_for_misleading": [
+      "It is used to justify harmful behaviors (e.g., aggression, disease, coercion) by labeling them 'natural'.",
+      "No definition of 'natural' is provided, allowing selective application.",
+      "It is used to shut down moral inquiry rather than open it.",
+      "The audience lacks familiarity with the naturalistic fallacy and may accept the claim uncritically.",
+      "It is deployed to rationalize a specific behavior the speaker wishes to avoid accountability for.",
+      "Counterexamples (e.g., cancer, parasitism, infanticide in animals) are ignored or suppressed."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 590,
+  "error": "",
+  "retry_count": 0
+}

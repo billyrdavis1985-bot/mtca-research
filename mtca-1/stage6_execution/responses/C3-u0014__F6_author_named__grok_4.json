@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0014__F6_author_named__grok_4",
+  "unit_id": "C3-u0014",
+  "text_id": "C3",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:25:26.112720+00:00",
+  "wall_clock_seconds": 12.068317174911499,
+  "raw_response": "{\n  \"communicative_function\": \"To draw a comparative moral distinction between anger and lust as failures of reason and self-control, ranking lust as the more shameful vice within a Stoic ethical framework.\",\n  \"implicit_claims\": [\n    \"Anger constitutes a turning away from reason accompanied by an inward contraction resembling grief.\",\n    \"Sinning through lust involves being mastered by pleasure rather than actively choosing to reject reason.\",\n    \"A disposition overcome by pleasure is more 'impotent' and 'unmanlike' than one distorted by anger.\",\n    \"Virtue is properly measured by alignment with reason and a masculine ideal of self-mastery.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a Stoic contrast between passions; the reasoning follows consistently once the premises equating reason with virtue and self-control with manliness are granted.\",\n  \"conditions_for_usefulness\": \"The audience shares Stoic assumptions that reason is the sovereign good, that self-mastery is a masculine virtue, and that comparative moral diagnosis aids ethical progress.\",\n  \"conditions_for_misleading\": \"The audience rejects the equation of virtue with manliness, views anger and lust as comparable or context-dependent phenomena rather than ranked vices, or regards the Stoic model of passions as psychologically reductive.\"\n}",
+  "parsed_json": {
+    "communicative_function": "To draw a comparative moral distinction between anger and lust as failures of reason and self-control, ranking lust as the more shameful vice within a Stoic ethical framework.",
+    "implicit_claims": [
+      "Anger constitutes a turning away from reason accompanied by an inward contraction resembling grief.",
+      "Sinning through lust involves being mastered by pleasure rather than actively choosing to reject reason.",
+      "A disposition overcome by pleasure is more 'impotent' and 'unmanlike' than one distorted by anger.",
+      "Virtue is properly measured by alignment with reason and a masculine ideal of self-mastery."
+    ],
+    "coherence_assessment": "Internally coherent as a Stoic contrast between passions; the reasoning follows consistently once the premises equating reason with virtue and self-control with manliness are granted.",
+    "conditions_for_usefulness": "The audience shares Stoic assumptions that reason is the sovereign good, that self-mastery is a masculine virtue, and that comparative moral diagnosis aids ethical progress.",
+    "conditions_for_misleading": "The audience rejects the equation of virtue with manliness, views anger and lust as comparable or context-dependent phenomena rather than ranked vices, or regards the Stoic model of passions as psychologically reductive."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 316,
+  "output_tokens": 259,
+  "error": "",
+  "retry_count": 0
+}

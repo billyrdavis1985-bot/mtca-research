@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F6_author_named__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:06:24.152603+00:00",
+  "wall_clock_seconds": 3.0942676067352295,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides advice on how to achieve a calm state conducive to sleep by suggesting the absence of effort.\",\n  \"implicit_claims\": [\n    \"Effort or trying to sleep can be counterproductive.\",\n    \"Lying quietly in bed is inherently calming or restful.\",\n    \"The absence of effort can lead to a state conducive to sleep.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it logically connects the absence of effort with a relaxed state that is conducive to sleep.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual struggles with insomnia or overthinking at night, and if a relaxed, non-forceful approach can indeed help them fall asleep more easily.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual has a medical condition affecting sleep that requires intervention beyond simple relaxation techniques, or if their environment is not conducive to rest.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides advice on how to achieve a calm state conducive to sleep by suggesting the absence of effort.",
+    "implicit_claims": [
+      "Effort or trying to sleep can be counterproductive.",
+      "Lying quietly in bed is inherently calming or restful.",
+      "The absence of effort can lead to a state conducive to sleep."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it logically connects the absence of effort with a relaxed state that is conducive to sleep.",
+    "conditions_for_usefulness": "The statement would be useful if the individual struggles with insomnia or overthinking at night, and if a relaxed, non-forceful approach can indeed help them fall asleep more easily.",
+    "conditions_for_misleading": "The statement could be misleading if the individual has a medical condition affecting sleep that requires intervention beyond simple relaxation techniques, or if their environment is not conducive to rest."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 152,
+  "output_tokens": 200,
+  "error": "",
+  "retry_count": 0
+}

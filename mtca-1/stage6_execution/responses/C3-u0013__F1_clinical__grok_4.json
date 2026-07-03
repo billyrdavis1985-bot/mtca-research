@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F1_clinical__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:15:54.476754+00:00",
+  "wall_clock_seconds": 8.98574161529541,
+  "raw_response": "{\n  \"communicative_function\": \"Invoking philosophical authority to assert a ranked moral distinction between categories of wrongdoing based on emotional motive\",\n  \"implicit_claims\": [\n    \"Sins (or moral failings) can legitimately be compared by degree\",\n    \"Lust-driven wrongs are more severe than anger-driven wrongs\",\n    \"Theophrastus advanced this specific ranking\",\n    \"A philosophical (vs. vulgar) perspective permits such ranking\"\n  ],\n  \"coherence_assessment\": \"Internally consistent once the premise that motives determine moral weight is granted, though the parenthetical concession that comparison is vulgar slightly undermines the claim of philosophical superiority\",\n  \"conditions_for_usefulness\": \"The recipient accepts graded moral hierarchies as psychologically helpful, the distinction usefully reduces self-condemnation or clarifies emotional patterns, and the statement is offered within a collaborative therapeutic exploration rather than as dogma\",\n  \"conditions_for_misleading\": \"The attribution to Theophrastus is treated as historical fact, the hierarchy is applied rigidly to induce shame or self-justification, or the client lacks capacity to examine the underlying premise that lust and anger are cleanly separable and rankable motives\"\n}",
+  "parsed_json": {
+    "communicative_function": "Invoking philosophical authority to assert a ranked moral distinction between categories of wrongdoing based on emotional motive",
+    "implicit_claims": [
+      "Sins (or moral failings) can legitimately be compared by degree",
+      "Lust-driven wrongs are more severe than anger-driven wrongs",
+      "Theophrastus advanced this specific ranking",
+      "A philosophical (vs. vulgar) perspective permits such ranking"
+    ],
+    "coherence_assessment": "Internally consistent once the premise that motives determine moral weight is granted, though the parenthetical concession that comparison is vulgar slightly undermines the claim of philosophical superiority",
+    "conditions_for_usefulness": "The recipient accepts graded moral hierarchies as psychologically helpful, the distinction usefully reduces self-condemnation or clarifies emotional patterns, and the statement is offered within a collaborative therapeutic exploration rather than as dogma",
+    "conditions_for_misleading": "The attribution to Theophrastus is treated as historical fact, the hierarchy is applied rigidly to induce shame or self-justification, or the client lacks capacity to examine the underlying premise that lust and anger are cleanly separable and rankable motives"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 310,
+  "output_tokens": 236,
+  "error": "",
+  "retry_count": 0
+}

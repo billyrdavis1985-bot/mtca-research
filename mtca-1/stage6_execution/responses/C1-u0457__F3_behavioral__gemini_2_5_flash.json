@@ -1,0 +1,47 @@
+{
+  "call_id": "C1-u0457__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:37:09.561958+00:00",
+  "wall_clock_seconds": 10.770905494689941,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Within a behavioral commitment frame, this statement functions as an affirmation of observed positive outcomes linked to another's action. It implicitly commits the speaker to attentiveness, valuing specific improvements (respiration, walking), and acknowledging these effects, thereby potentially reinforcing the 'he's' behavior or the speaker's own observational practice.\",\n  \"implicit_claims\": [\n    \"There is a specific, preceding action ('he does so') performed by 'he'.\",\n    \"This action is the cause of the observed improvement.\",\n    \"The speaker is an attentive observer capable of accurately assessing changes in respiration and walking.\",\n    \"The observed improvement is significant and noteworthy ('remarkable').\",\n    \"The speaker values improvements in respiration and walking.\",\n    \"The speaker's astonishment is a genuine emotional response to the degree of improvement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents an observation ('improvement in his respiration and his walking') and a subjective reaction ('I notice to my astonishment') to that observation, with a clear causal link implied by 'When he does so'. There are no contradictory elements.\",\n  \"conditions_for_usefulness\": [\n    \"The action referred to by 'he does so' is clearly defined, actionable, and repeatable by 'he'.\",\n    \"The speaker genuinely observes the 'remarkable' improvement and feels astonished, providing authentic feedback or internal motivation.\",\n    \"The improvements in respiration and walking are relevant and desired outcomes for 'he'.\",\n    \"The speaker uses this observation to guide 'he' towards continuing or refining the beneficial action, or to reinforce their own commitment to positive observation and reinforcement.\",\n    \"The statement is part of a larger communicative context aimed at positive behavioral change or maintenance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The action 'he does so' is vague, undefined, or unknown to 'he', making it impossible to replicate the desired behavior.\",\n    \"The observed 'improvement' is not genuine, is exaggerated, or is inaccurately attributed to the specific action 'he does so'.\",\n    \"The speaker's astonishment is feigned, undermining the authenticity and trustworthiness of the feedback.\",\n    \"The statement is used manipulatively to control 'he's' behavior without a genuine basis for the claim.\",\n    \"The speaker makes this commitment to noticing and valuing but fails to consistently follow through, leading to inconsistency or loss of credibility.\",\n    \"The focus on 'astonishment' overshadows the need for consistent, incremental feedback or other important aspects of the behavioral change process.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Within a behavioral commitment frame, this statement functions as an affirmation of observed positive outcomes linked to another's action. It implicitly commits the speaker to attentiveness, valuing specific improvements (respiration, walking), and acknowledging these effects, thereby potentially reinforcing the 'he's' behavior or the speaker's own observational practice.",
+    "implicit_claims": [
+      "There is a specific, preceding action ('he does so') performed by 'he'.",
+      "This action is the cause of the observed improvement.",
+      "The speaker is an attentive observer capable of accurately assessing changes in respiration and walking.",
+      "The observed improvement is significant and noteworthy ('remarkable').",
+      "The speaker values improvements in respiration and walking.",
+      "The speaker's astonishment is a genuine emotional response to the degree of improvement."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents an observation ('improvement in his respiration and his walking') and a subjective reaction ('I notice to my astonishment') to that observation, with a clear causal link implied by 'When he does so'. There are no contradictory elements.",
+    "conditions_for_usefulness": [
+      "The action referred to by 'he does so' is clearly defined, actionable, and repeatable by 'he'.",
+      "The speaker genuinely observes the 'remarkable' improvement and feels astonished, providing authentic feedback or internal motivation.",
+      "The improvements in respiration and walking are relevant and desired outcomes for 'he'.",
+      "The speaker uses this observation to guide 'he' towards continuing or refining the beneficial action, or to reinforce their own commitment to positive observation and reinforcement.",
+      "The statement is part of a larger communicative context aimed at positive behavioral change or maintenance."
+    ],
+    "conditions_for_misleading": [
+      "The action 'he does so' is vague, undefined, or unknown to 'he', making it impossible to replicate the desired behavior.",
+      "The observed 'improvement' is not genuine, is exaggerated, or is inaccurately attributed to the specific action 'he does so'.",
+      "The speaker's astonishment is feigned, undermining the authenticity and trustworthiness of the feedback.",
+      "The statement is used manipulatively to control 'he's' behavior without a genuine basis for the claim.",
+      "The speaker makes this commitment to noticing and valuing but fails to consistently follow through, leading to inconsistency or loss of credibility.",
+      "The focus on 'astonishment' overshadows the need for consistent, incremental feedback or other important aspects of the behavioral change process."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 564,
+  "error": "",
+  "retry_count": 0
+}

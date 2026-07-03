@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0000__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:50:08.558858+00:00",
+  "wall_clock_seconds": 11.083444833755493,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"To declare an admission of powerlessness and unmanageability regarding alcohol. It functions as a foundational act of self-acknowledgment, surrender, and acceptance, signaling a readiness to seek external help and embark on a recovery process. It shifts from a state of denial or struggle to one of honest appraisal.\",\n  \"implicit_claims\": [\n    \"The individual has a significant problem with alcohol that they cannot solve through their own willpower or current strategies.\",\n    \"The individual's life has experienced demonstrable negative consequences (unmanageability) that are directly linked to or exacerbated by their alcohol use.\",\n    \"Prior attempts by the individual to control their alcohol consumption or manage their life independently in the face of alcohol have been insufficient or failed.\",\n    \"A new approach, often involving external support or a structured program, is necessary because self-reliance in this specific domain has proven ineffective.\",\n    \"This admission is a necessary prerequisite for genuine recovery and lasting change.\",\n    \"There is a hope or belief that admitting powerlessness is the first step toward regaining control or managing one's life differently.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits strong internal coherence. It logically connects the admission of powerlessness over alcohol to the subsequent and resultant unmanageability of one's life, implying a cause-and-effect relationship. The act of 'admitting' implies a prior state of non-acknowledgment or denial, making the statement a coherent shift in perspective and a readiness for a different path.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences a lack of control over their alcohol consumption despite attempts to stop or moderate.\",\n    \"The individual's life circumstances (e.g., relationships, work, health, finances) are demonstrably and negatively impacted, contributing to a sense of unmanageability directly or indirectly linked to alcohol use.\",\n    \"The individual is ready to accept help and engage in a structured recovery process that builds upon this admission.\",\n    \"The admission leads to a release from denial and opens the individual to new strategies, support systems, and coping mechanisms, rather than fostering despair.\",\n    \"The therapeutic frame correctly interprets 'powerlessness' as specific to the addiction, allowing for the development of agency and responsibility in other areas of life and for the recovery process itself.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is not truly powerless over alcohol, or their 'unmanageable' life is primarily due to other untreated mental health issues, external circumstances, or a lack of skills, which are then misattributed solely to alcohol.\",\n    \"The interpretation of 'powerless' extends beyond the specific context of active addiction to imply a broader, chronic state of helplessness or lack of agency over one's life or future ability to change.\",\n    \"The statement is coerced or made without genuine internal acceptance, leading to superficial engagement rather than transformative change.\",\n    \"It is used as an excuse to avoid personal responsibility for actions or consequences without leading to a commitment to recovery and amends.\",\n    \"The admission is not followed by concrete steps, support, or a pathway to recovery, thereby becoming a statement of defeat rather than a catalyst for empowerment and change.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "To declare an admission of powerlessness and unmanageability regarding alcohol. It functions as a foundational act of self-acknowledgment, surrender, and acceptance, signaling a readiness to seek external help and embark on a recovery process. It shifts from a state of denial or struggle to one of honest appraisal.",
+    "implicit_claims": [
+      "The individual has a significant problem with alcohol that they cannot solve through their own willpower or current strategies.",
+      "The individual's life has experienced demonstrable negative consequences (unmanageability) that are directly linked to or exacerbated by their alcohol use.",
+      "Prior attempts by the individual to control their alcohol consumption or manage their life independently in the face of alcohol have been insufficient or failed.",
+      "A new approach, often involving external support or a structured program, is necessary because self-reliance in this specific domain has proven ineffective.",
+      "This admission is a necessary prerequisite for genuine recovery and lasting change.",
+      "There is a hope or belief that admitting powerlessness is the first step toward regaining control or managing one's life differently."
+    ],
+    "coherence_assessment": "The statement exhibits strong internal coherence. It logically connects the admission of powerlessness over alcohol to the subsequent and resultant unmanageability of one's life, implying a cause-and-effect relationship. The act of 'admitting' implies a prior state of non-acknowledgment or denial, making the statement a coherent shift in perspective and a readiness for a different path.",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences a lack of control over their alcohol consumption despite attempts to stop or moderate.",
+      "The individual's life circumstances (e.g., relationships, work, health, finances) are demonstrably and negatively impacted, contributing to a sense of unmanageability directly or indirectly linked to alcohol use.",
+      "The individual is ready to accept help and engage in a structured recovery process that builds upon this admission.",
+      "The admission leads to a release from denial and opens the individual to new strategies, support systems, and coping mechanisms, rather than fostering despair.",
+      "The therapeutic frame correctly interprets 'powerlessness' as specific to the addiction, allowing for the development of agency and responsibility in other areas of life and for the recovery process itself."
+    ],
+    "conditions_for_misleading": [
+      "The individual is not truly powerless over alcohol, or their 'unmanageable' life is primarily due to other untreated mental health issues, external circumstances, or a lack of skills, which are then misattributed solely to alcohol.",
+      "The interpretation of 'powerless' extends beyond the specific context of active addiction to imply a broader, chronic state of helplessness or lack of agency over one's life or future ability to change.",
+      "The statement is coerced or made without genuine internal acceptance, leading to superficial engagement rather than transformative change.",
+      "It is used as an excuse to avoid personal responsibility for actions or consequences without leading to a commitment to recovery and amends.",
+      "The admission is not followed by concrete steps, support, or a pathway to recovery, thereby becoming a statement of defeat rather than a catalyst for empowerment and change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 690,
+  "error": "",
+  "retry_count": 0
+}

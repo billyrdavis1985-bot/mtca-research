@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0010__F6_author_named__grok_4",
+  "unit_id": "C7-u0010",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:40:15.758259+00:00",
+  "wall_clock_seconds": 7.730700492858887,
+  "raw_response": "{\n  \"communicative_function\": \"describes a recommended spiritual practice as one of the steps in a recovery program\",\n  \"implicit_claims\": [\n    \"a God exists with whom conscious contact is possible\",\n    \"prayer and meditation can improve such contact\",\n    \"God possesses a specific will for individuals\",\n    \"knowledge of that will is obtainable and actionable\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a theistic framework that posits a personal deity with knowable intentions\",\n  \"conditions_for_usefulness\": \"the individual accepts a theistic worldview, finds prayer/meditation subjectively beneficial, and attributes improved functioning or sobriety to the practice\",\n  \"conditions_for_misleading\": \"no deity exists, prayer is inert, or the practice substitutes supernatural reliance for evidence-based agency and coping skills\"\n}",
+  "parsed_json": {
+    "communicative_function": "describes a recommended spiritual practice as one of the steps in a recovery program",
+    "implicit_claims": [
+      "a God exists with whom conscious contact is possible",
+      "prayer and meditation can improve such contact",
+      "God possesses a specific will for individuals",
+      "knowledge of that will is obtainable and actionable"
+    ],
+    "coherence_assessment": "internally consistent within a theistic framework that posits a personal deity with knowable intentions",
+    "conditions_for_usefulness": "the individual accepts a theistic worldview, finds prayer/meditation subjectively beneficial, and attributes improved functioning or sobriety to the practice",
+    "conditions_for_misleading": "no deity exists, prayer is inert, or the practice substitutes supernatural reliance for evidence-based agency and coping skills"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 291,
+  "output_tokens": 170,
+  "error": "",
+  "retry_count": 0
+}

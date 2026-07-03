@@ -1,0 +1,44 @@
+{
+  "call_id": "C3-u0038__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T23:37:43.660778+00:00",
+  "wall_clock_seconds": 10.824585676193237,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is making a conceptual or definitional claim about the nature of ownership and parting with something, arguing that one can only properly relinquish what one currently possesses in the present.\",\n  \"implicit_claims\": [\n    \"Ownership or possession is meaningfully tied to the present moment.\",\n    \"The past is no longer held by a person in any relevant sense.\",\n    \"The future is not yet held by a person in any relevant sense.\",\n    \"The verb 'to part with' presupposes active present possession.\",\n    \"There is a meaningful distinction between 'proper' and 'improper' uses of the phrase 'to part with'.\",\n    \"Temporal location of an object or state is relevant to determining whether relinquishment is possible.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent on its own terms. It consistently applies a present-tense criterion for what it means to 'part with' something, and the restriction to present possession logically excludes past and future. However, it relies on an unstated and contestable definition of possession that privileges the present moment.\",\n  \"conditions_for_usefulness\": [\n    \"If one is trying to clarify legal or philosophical distinctions about what can be contracted, promised, or transferred.\",\n    \"If the audience conflates anticipatory relinquishment with actual relinquishment.\",\n    \"If the context requires precision about what 'giving up' something truly entails.\",\n    \"If discussing the nature of consent or obligation in a temporal context.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If future rights or entitlements are legally or practically transferable, making the claim overly restrictive.\",\n    \"If 'parting with' is being used in a broader colloquial sense that the statement artificially narrows.\",\n    \"If the statement is used to deny the validity of forward contracts, wills, or promises involving future goods.\",\n    \"If it obscures that people can meaningfully relinquish claims to future or past-related interests (e.g., inheritance, legal claims about past events).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is making a conceptual or definitional claim about the nature of ownership and parting with something, arguing that one can only properly relinquish what one currently possesses in the present.",
+    "implicit_claims": [
+      "Ownership or possession is meaningfully tied to the present moment.",
+      "The past is no longer held by a person in any relevant sense.",
+      "The future is not yet held by a person in any relevant sense.",
+      "The verb 'to part with' presupposes active present possession.",
+      "There is a meaningful distinction between 'proper' and 'improper' uses of the phrase 'to part with'.",
+      "Temporal location of an object or state is relevant to determining whether relinquishment is possible."
+    ],
+    "coherence_assessment": "The statement is internally coherent on its own terms. It consistently applies a present-tense criterion for what it means to 'part with' something, and the restriction to present possession logically excludes past and future. However, it relies on an unstated and contestable definition of possession that privileges the present moment.",
+    "conditions_for_usefulness": [
+      "If one is trying to clarify legal or philosophical distinctions about what can be contracted, promised, or transferred.",
+      "If the audience conflates anticipatory relinquishment with actual relinquishment.",
+      "If the context requires precision about what 'giving up' something truly entails.",
+      "If discussing the nature of consent or obligation in a temporal context."
+    ],
+    "conditions_for_misleading": [
+      "If future rights or entitlements are legally or practically transferable, making the claim overly restrictive.",
+      "If 'parting with' is being used in a broader colloquial sense that the statement artificially narrows.",
+      "If the statement is used to deny the validity of forward contracts, wills, or promises involving future goods.",
+      "If it obscures that people can meaningfully relinquish claims to future or past-related interests (e.g., inheritance, legal claims about past events)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 495,
+  "error": "",
+  "retry_count": 0
+}

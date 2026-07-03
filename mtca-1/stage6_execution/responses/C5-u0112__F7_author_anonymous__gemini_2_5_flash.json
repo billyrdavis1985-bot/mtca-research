@@ -1,0 +1,44 @@
+{
+  "call_id": "C5-u0112__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:21:17.079979+00:00",
+  "wall_clock_seconds": 8.083826065063477,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a direct, causal relationship between a person's mental state (thoughts) and their physical health (body), implying that negative or unhealthy thoughts will inevitably manifest as physical ailments. It functions as an explanatory claim or a cautionary principle.\",\n  \"implicit_claims\": [\n    \"A strong, perhaps deterministic, mind-body connection exists.\",\n    \"The primary direction of causality runs from mental state to physical state (thoughts cause physical conditions).\",\n    \"There is a qualitative or moral judgment on thoughts ('sickly'), implying that certain thought patterns are inherently detrimental.\",\n    \"Physical illness, or a 'sickly body,' is often a direct manifestation or expression of one's internal mental state.\",\n    \"Individuals have significant control over their physical health through the nature of their thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple, declarative assertion of a cause-and-effect relationship. It is syntactically sound and presents a clear, albeit unproven, proposition.\",\n  \"conditions_for_usefulness\": [\n    \"If interpreted metaphorically to highlight the well-documented impact of chronic stress, anxiety, depression, or negative thought patterns on overall physical well-being (e.g., psychosomatic conditions, weakened immune system).\",\n    \"In contexts where it encourages individuals to practice mindfulness, positive psychology, or stress management as part of a holistic approach to health, without dismissing other medical needs.\",\n    \"As a motivational tool to foster mental resilience and emphasize the importance of mental health for a good quality of life.\",\n    \"If the 'sickly thoughts' refer specifically to self-destructive behaviors or persistent unhealthy coping mechanisms that directly lead to poor physical health.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted literally as the sole or primary cause of all physical illness, leading to the neglect of biological, genetic, environmental, infectious, or accidental factors in disease.\",\n    \"If it leads to victim-blaming, suggesting that individuals with illnesses are personally responsible for their condition due to their 'sickly thoughts,' fostering guilt and shame.\",\n    \"If it discourages individuals from seeking conventional medical diagnosis and treatment by implying that simply changing one's thoughts is sufficient for a cure.\",\n    \"If it oversimplifies the complex etiology of disease and the multifaceted nature of health and illness.\",\n    \"If it implies a moral failing associated with physical illness, leading to judgmental attitudes towards those who are sick.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a direct, causal relationship between a person's mental state (thoughts) and their physical health (body), implying that negative or unhealthy thoughts will inevitably manifest as physical ailments. It functions as an explanatory claim or a cautionary principle.",
+    "implicit_claims": [
+      "A strong, perhaps deterministic, mind-body connection exists.",
+      "The primary direction of causality runs from mental state to physical state (thoughts cause physical conditions).",
+      "There is a qualitative or moral judgment on thoughts ('sickly'), implying that certain thought patterns are inherently detrimental.",
+      "Physical illness, or a 'sickly body,' is often a direct manifestation or expression of one's internal mental state.",
+      "Individuals have significant control over their physical health through the nature of their thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple, declarative assertion of a cause-and-effect relationship. It is syntactically sound and presents a clear, albeit unproven, proposition.",
+    "conditions_for_usefulness": [
+      "If interpreted metaphorically to highlight the well-documented impact of chronic stress, anxiety, depression, or negative thought patterns on overall physical well-being (e.g., psychosomatic conditions, weakened immune system).",
+      "In contexts where it encourages individuals to practice mindfulness, positive psychology, or stress management as part of a holistic approach to health, without dismissing other medical needs.",
+      "As a motivational tool to foster mental resilience and emphasize the importance of mental health for a good quality of life.",
+      "If the 'sickly thoughts' refer specifically to self-destructive behaviors or persistent unhealthy coping mechanisms that directly lead to poor physical health."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted literally as the sole or primary cause of all physical illness, leading to the neglect of biological, genetic, environmental, infectious, or accidental factors in disease.",
+      "If it leads to victim-blaming, suggesting that individuals with illnesses are personally responsible for their condition due to their 'sickly thoughts,' fostering guilt and shame.",
+      "If it discourages individuals from seeking conventional medical diagnosis and treatment by implying that simply changing one's thoughts is sufficient for a cure.",
+      "If it oversimplifies the complex etiology of disease and the multifaceted nature of health and illness.",
+      "If it implies a moral failing associated with physical illness, leading to judgmental attitudes towards those who are sick."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 542,
+  "error": "",
+  "retry_count": 0
+}

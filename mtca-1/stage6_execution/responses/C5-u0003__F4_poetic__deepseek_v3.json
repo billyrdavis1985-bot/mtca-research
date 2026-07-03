@@ -1,0 +1,39 @@
+{
+  "call_id": "C5-u0003__F4_poetic__deepseek_v3",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:57:20.791485+00:00",
+  "wall_clock_seconds": 3.557305097579956,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts human agency and self-determination, often to inspire or emphasize individual responsibility in shaping one's identity and destiny.\",\n  \"implicit_claims\": [\n    \"Humans have the capacity to shape their own identity and character.\",\n    \"External factors (e.g., society, biology, fate) are not fully determinative.\",\n    \"There is an active, ongoing process of self-creation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a figurative expression of self-authorship, but it relies on a metaphor that may be logically paradoxical if taken literally (since a self cannot create itself from nothing).\",\n  \"conditions_for_usefulness\": [\n    \"One is addressing individuals or groups seeking motivation for personal growth or change.\",\n    \"The audience interprets it as a call to agency rather than a literal ontological claim.\",\n    \"It is used in contexts where environmental constraints are acknowledged but not absolute.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is taken as a literal denial of social, biological, or historical influences on identity.\",\n    \"It is used to blame individuals for circumstances beyond their control.\",\n    \"The audience lacks awareness of systemic barriers that limit self-determination.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts human agency and self-determination, often to inspire or emphasize individual responsibility in shaping one's identity and destiny.",
+    "implicit_claims": [
+      "Humans have the capacity to shape their own identity and character.",
+      "External factors (e.g., society, biology, fate) are not fully determinative.",
+      "There is an active, ongoing process of self-creation."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a figurative expression of self-authorship, but it relies on a metaphor that may be logically paradoxical if taken literally (since a self cannot create itself from nothing).",
+    "conditions_for_usefulness": [
+      "One is addressing individuals or groups seeking motivation for personal growth or change.",
+      "The audience interprets it as a call to agency rather than a literal ontological claim.",
+      "It is used in contexts where environmental constraints are acknowledged but not absolute."
+    ],
+    "conditions_for_misleading": [
+      "It is taken as a literal denial of social, biological, or historical influences on identity.",
+      "It is used to blame individuals for circumstances beyond their control.",
+      "The audience lacks awareness of systemic barriers that limit self-determination."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 260,
+  "error": "",
+  "retry_count": 0
+}

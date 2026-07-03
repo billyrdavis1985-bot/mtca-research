@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0457__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:37:55.692746+00:00",
+  "wall_clock_seconds": 5.206008672714233,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses surprise and observation of a positive change in someone's physical state, likely in a narrative or testimonial context.\",\n  \"implicit_claims\": [\n    \"The speaker has observed the subject over time and can compare before and after states.\",\n    \"The improvement in respiration and walking is notable and unexpected.\",\n    \"The subject's respiration and walking were previously worse or unremarkable.\",\n    \"The improvement is causally linked to an unspecified action ('when he does so').\",\n    \"The speaker's astonishment indicates the change is significant.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a clear cause (an action) and observed effects (improved respiration and walking), with an emotional response (astonishment) that aligns with the surprising nature of the improvement.\",\n  \"conditions_for_usefulness\": [\n    \"The action referred to ('does so') is known or can be inferred from context.\",\n    \"The improvement is genuinely observable and verifiable.\",\n    \"The audience understands that 'remarkable' is meant figuratively to emphasize surprise, not as a clinical measure.\",\n    \"The statement is part of a narrative where such a change is meaningful (e.g., recovery from illness, physical therapy).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is exaggerated or not objectively measurable (e.g., due to placebo or observer bias).\",\n    \"The causal link between the action and improvement is assumed but not established.\",\n    \"The statement is taken as a literal, scientific claim rather than a poetic expression.\",\n    \"The action referred to is misidentified or the context is missing, leading to false conclusions.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses surprise and observation of a positive change in someone's physical state, likely in a narrative or testimonial context.",
+    "implicit_claims": [
+      "The speaker has observed the subject over time and can compare before and after states.",
+      "The improvement in respiration and walking is notable and unexpected.",
+      "The subject's respiration and walking were previously worse or unremarkable.",
+      "The improvement is causally linked to an unspecified action ('when he does so').",
+      "The speaker's astonishment indicates the change is significant."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a clear cause (an action) and observed effects (improved respiration and walking), with an emotional response (astonishment) that aligns with the surprising nature of the improvement.",
+    "conditions_for_usefulness": [
+      "The action referred to ('does so') is known or can be inferred from context.",
+      "The improvement is genuinely observable and verifiable.",
+      "The audience understands that 'remarkable' is meant figuratively to emphasize surprise, not as a clinical measure.",
+      "The statement is part of a narrative where such a change is meaningful (e.g., recovery from illness, physical therapy)."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is exaggerated or not objectively measurable (e.g., due to placebo or observer bias).",
+      "The causal link between the action and improvement is assumed but not established.",
+      "The statement is taken as a literal, scientific claim rather than a poetic expression.",
+      "The action referred to is misidentified or the context is missing, leading to false conclusions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 353,
+  "error": "",
+  "retry_count": 0
+}

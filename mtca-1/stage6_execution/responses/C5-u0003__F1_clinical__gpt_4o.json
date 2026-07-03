@@ -1,0 +1,31 @@
+{
+  "call_id": "C5-u0003__F1_clinical__gpt_4o",
+  "unit_id": "C5-u0003",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T23:55:12.590999+00:00",
+  "wall_clock_seconds": 6.180708408355713,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is acting as an affirmation or mantra to promote self-efficacy and self-determination.\",\n  \"implicit_claims\": [\n    \"Individuals have the power to shape their own lives.\",\n    \"Personal responsibility plays a crucial role in self-development.\",\n    \"Change and growth are within the control of the individual.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it emphasizes the idea of individuals being responsible and capable of constructing their own identity and destiny.\",\n  \"conditions_for_usefulness\": \"The statement would be useful when individuals are in a stable enough environment to exert agency, when they have access to resources and support to facilitate self-improvement, and when they are cognitively and emotionally able to engage in self-reflection and personal growth.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if individuals are in situations where external factors severely limit their ability to influence outcomes, such as systemic inequalities, or if they lack the mental health or cognitive capacity to make significant changes in their lives.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is acting as an affirmation or mantra to promote self-efficacy and self-determination.",
+    "implicit_claims": [
+      "Individuals have the power to shape their own lives.",
+      "Personal responsibility plays a crucial role in self-development.",
+      "Change and growth are within the control of the individual."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it emphasizes the idea of individuals being responsible and capable of constructing their own identity and destiny.",
+    "conditions_for_usefulness": "The statement would be useful when individuals are in a stable enough environment to exert agency, when they have access to resources and support to facilitate self-improvement, and when they are cognitively and emotionally able to engage in self-reflection and personal growth.",
+    "conditions_for_misleading": "The statement could be misleading if individuals are in situations where external factors severely limit their ability to influence outcomes, such as systemic inequalities, or if they lack the mental health or cognitive capacity to make significant changes in their lives."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 150,
+  "output_tokens": 224,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C7-u0001__F0_neutral__deepseek_v3",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:55:17.975706+00:00",
+  "wall_clock_seconds": 5.052069902420044,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an expression of personal transformation or spiritual awakening, often within the context of recovery programs like AA. It communicates a shift from self-reliance to reliance on a higher power.\",\n  \"implicit_claims\": [\n    \"The speaker previously believed they were not sane.\",\n    \"The speaker lacked the power to restore their own sanity.\",\n    \"There exists a Power greater than the speaker.\",\n    \"This greater Power is capable of restoring sanity.\",\n    \"The speaker has come to believe in this Power.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in a narrative sense: it describes a logical progression from a state of insanity to belief in an external restorative force. However, it presupposes a definition of 'sanity' and 'Power' that may be ambiguous or subjective.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely feels a loss of control or mental distress.\",\n    \"The concept of a 'greater Power' is meaningful and non-coercive to the speaker.\",\n    \"The statement is used within a supportive framework (e.g., a 12-step group) that validates such beliefs.\",\n    \"The speaker is open to a spiritual or non-rational explanation for recovery.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'sanity' is used in a clinical psychiatric sense, the statement could discourage seeking medical or therapeutic help.\",\n    \"If the Power is interpreted as a specific deity or doctrine, it may alienate non-theists or those with different beliefs.\",\n    \"If the statement is taken as a universal prescription (e.g., everyone must believe in a higher power to recover), it may be misleading for those who recover through secular means.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an expression of personal transformation or spiritual awakening, often within the context of recovery programs like AA. It communicates a shift from self-reliance to reliance on a higher power.",
+    "implicit_claims": [
+      "The speaker previously believed they were not sane.",
+      "The speaker lacked the power to restore their own sanity.",
+      "There exists a Power greater than the speaker.",
+      "This greater Power is capable of restoring sanity.",
+      "The speaker has come to believe in this Power."
+    ],
+    "coherence_assessment": "The statement is internally coherent in a narrative sense: it describes a logical progression from a state of insanity to belief in an external restorative force. However, it presupposes a definition of 'sanity' and 'Power' that may be ambiguous or subjective.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely feels a loss of control or mental distress.",
+      "The concept of a 'greater Power' is meaningful and non-coercive to the speaker.",
+      "The statement is used within a supportive framework (e.g., a 12-step group) that validates such beliefs.",
+      "The speaker is open to a spiritual or non-rational explanation for recovery."
+    ],
+    "conditions_for_misleading": [
+      "If 'sanity' is used in a clinical psychiatric sense, the statement could discourage seeking medical or therapeutic help.",
+      "If the Power is interpreted as a specific deity or doctrine, it may alienate non-theists or those with different beliefs.",
+      "If the statement is taken as a universal prescription (e.g., everyone must believe in a higher power to recover), it may be misleading for those who recover through secular means."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 132,
+  "output_tokens": 362,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0178__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:17:12.110585+00:00",
+  "wall_clock_seconds": 4.770741701126099,
+  "raw_response": "{\n  \"communicative_function\": \"Prescribing a structured daily habit for experiencing hunger and eating with moderation, aiming to promote a harmonious relationship with food.\",\n  \"implicit_claims\": [\n    \"Hunger is an agreeable sensation that occurs three times a day at fixed times.\",\n    \"Regular, timed eating is natural and beneficial.\",\n    \"Overeating is undesirable and can be avoided through conscious restraint.\",\n    \"The experience of hunger and eating should be accompanied by positive reflection ('Oh! how nice...').\",\n    \"All people share the same circadian or meal-time rhythm.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that it presents a sequential, cause-effect routine (feeling hungry, then eating enjoyably without overeating). However, the fixed timing of hunger (three times daily) may conflict with biological variability in appetite.\",\n  \"conditions_for_usefulness\": [\n    \"Individuals have regular access to three meals per day at consistent times.\",\n    \"People experience natural hunger cues aligning with those times.\",\n    \"The guidance is intended for a population without eating disorders or metabolic conditions that disrupt normal hunger signals.\",\n    \"The audience values moderate eating and structured routines.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If applied to people with irregular schedules, shift work, or different cultural meal patterns.\",\n    \"If hunger is absent or pathological (e.g., due to illness, depression, or medication).\",\n    \"If the prescription is interpreted as a universal moral requirement rather than a preference.\",\n    \"If the 'agreeable sensation' claim ignores the distress of genuine hunger or food insecurity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Prescribing a structured daily habit for experiencing hunger and eating with moderation, aiming to promote a harmonious relationship with food.",
+    "implicit_claims": [
+      "Hunger is an agreeable sensation that occurs three times a day at fixed times.",
+      "Regular, timed eating is natural and beneficial.",
+      "Overeating is undesirable and can be avoided through conscious restraint.",
+      "The experience of hunger and eating should be accompanied by positive reflection ('Oh! how nice...').",
+      "All people share the same circadian or meal-time rhythm."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that it presents a sequential, cause-effect routine (feeling hungry, then eating enjoyably without overeating). However, the fixed timing of hunger (three times daily) may conflict with biological variability in appetite.",
+    "conditions_for_usefulness": [
+      "Individuals have regular access to three meals per day at consistent times.",
+      "People experience natural hunger cues aligning with those times.",
+      "The guidance is intended for a population without eating disorders or metabolic conditions that disrupt normal hunger signals.",
+      "The audience values moderate eating and structured routines."
+    ],
+    "conditions_for_misleading": [
+      "If applied to people with irregular schedules, shift work, or different cultural meal patterns.",
+      "If hunger is absent or pathological (e.g., due to illness, depression, or medication).",
+      "If the prescription is interpreted as a universal moral requirement rather than a preference.",
+      "If the 'agreeable sensation' claim ignores the distress of genuine hunger or food insecurity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 222,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

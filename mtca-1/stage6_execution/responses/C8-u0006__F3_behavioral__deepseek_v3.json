@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0006__F3_behavioral__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:22:20.028734+00:00",
+  "wall_clock_seconds": 5.080024480819702,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal commitment to act courageously based on evidence, signaling a willingness to override fear for potential benefit.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to recognize when evidence suggests an action is helpful.\",\n    \"The speaker experiences fear as a barrier to action.\",\n    \"There exists a reliable link between evidence-based likelihood of help and the speaker's fear response.\",\n    \"The speaker values future benefit over present comfort or safety.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it pairs a conditional trigger (evidence of likely help) with a behavioral response (willingness to face fear), creating a logical if-then commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has access to credible evidence about what actions are likely helpful.\",\n    \"The speaker can accurately identify when fear is present and distinguish it from genuine risk.\",\n    \"The speaker possesses sufficient self-awareness and agency to follow through on the commitment.\",\n    \"The actions in question are indeed likely to help and not just perceived as such.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misinterprets fear as a signal of danger rather than discomfort, leading to reckless behavior.\",\n    \"The 'evidence' is flawed, biased, or incomplete, causing the speaker to act on false premises.\",\n    \"The statement is used to justify unnecessary risk-taking in situations where fear is a valid protective response.\",\n    \"The commitment is invoked to pressure others into actions they are not ready for, ignoring their own risk assessment.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal commitment to act courageously based on evidence, signaling a willingness to override fear for potential benefit.",
+    "implicit_claims": [
+      "The speaker has the capacity to recognize when evidence suggests an action is helpful.",
+      "The speaker experiences fear as a barrier to action.",
+      "There exists a reliable link between evidence-based likelihood of help and the speaker's fear response.",
+      "The speaker values future benefit over present comfort or safety."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it pairs a conditional trigger (evidence of likely help) with a behavioral response (willingness to face fear), creating a logical if-then commitment.",
+    "conditions_for_usefulness": [
+      "The speaker has access to credible evidence about what actions are likely helpful.",
+      "The speaker can accurately identify when fear is present and distinguish it from genuine risk.",
+      "The speaker possesses sufficient self-awareness and agency to follow through on the commitment.",
+      "The actions in question are indeed likely to help and not just perceived as such."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misinterprets fear as a signal of danger rather than discomfort, leading to reckless behavior.",
+      "The 'evidence' is flawed, biased, or incomplete, causing the speaker to act on false premises.",
+      "The statement is used to justify unnecessary risk-taking in situations where fear is a valid protective response.",
+      "The commitment is invoked to pressure others into actions they are not ready for, ignoring their own risk assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 331,
+  "error": "",
+  "retry_count": 0
+}

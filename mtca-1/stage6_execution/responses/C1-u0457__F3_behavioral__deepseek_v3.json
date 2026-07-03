@@ -1,0 +1,43 @@
+{
+  "call_id": "C1-u0457__F3_behavioral__deepseek_v3",
+  "unit_id": "C1-u0457",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:37:22.660439+00:00",
+  "wall_clock_seconds": 5.408740043640137,
+  "raw_response": "{\n  \"communicative_function\": \"Describes an observed improvement in another person's respiration and walking, likely as evidence for a positive intervention or treatment.\",\n  \"implicit_claims\": [\n    \"There is a specific person referred to by 'he' whose respiration and walking were previously poor or abnormal.\",\n    \"The speaker has direct observational access to this person's behavior.\",\n    \"The improvement is notable and unexpected ('to my astonishment').\",\n    \"The improvement is causally linked to a prior action or condition ('when he does so').\",\n    \"Respiration and walking are measurable or observable indicators of health or function.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the statement clearly connects an action or event ('when he does so') with a subjective observation of improvement, though the causal link is implicit.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is a credible observer, such as a clinician or caregiver.\",\n    \"The baseline state of the person's respiration and walking was accurately known.\",\n    \"The 'so' refers to a specific treatment, intervention, or behavior that can be replicated.\",\n    \"The observation is not influenced by placebo effects or confirmation bias.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The improvement is coincidental or due to natural recovery, not the intervention.\",\n    \"The speaker's astonishment exaggerates the degree of change.\",\n    \"The baseline was misremembered or never properly assessed.\",\n    \"The statement is used out of context to imply a generalizable cause-effect relationship without controlled evidence.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Describes an observed improvement in another person's respiration and walking, likely as evidence for a positive intervention or treatment.",
+    "implicit_claims": [
+      "There is a specific person referred to by 'he' whose respiration and walking were previously poor or abnormal.",
+      "The speaker has direct observational access to this person's behavior.",
+      "The improvement is notable and unexpected ('to my astonishment').",
+      "The improvement is causally linked to a prior action or condition ('when he does so').",
+      "Respiration and walking are measurable or observable indicators of health or function."
+    ],
+    "coherence_assessment": "Internally coherent: the statement clearly connects an action or event ('when he does so') with a subjective observation of improvement, though the causal link is implicit.",
+    "conditions_for_usefulness": [
+      "The speaker is a credible observer, such as a clinician or caregiver.",
+      "The baseline state of the person's respiration and walking was accurately known.",
+      "The 'so' refers to a specific treatment, intervention, or behavior that can be replicated.",
+      "The observation is not influenced by placebo effects or confirmation bias."
+    ],
+    "conditions_for_misleading": [
+      "The improvement is coincidental or due to natural recovery, not the intervention.",
+      "The speaker's astonishment exaggerates the degree of change.",
+      "The baseline was misremembered or never properly assessed.",
+      "The statement is used out of context to imply a generalizable cause-effect relationship without controlled evidence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 325,
+  "error": "",
+  "retry_count": 0
+}

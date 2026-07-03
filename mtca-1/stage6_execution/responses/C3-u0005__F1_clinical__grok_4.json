@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0005__F1_clinical__grok_4",
+  "unit_id": "C3-u0005",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:03:52.877779+00:00",
+  "wall_clock_seconds": 7.558945417404175,
+  "raw_response": "{\n  \"communicative_function\": \"Self-directed imperative urging continued self-criticism with an implicit deadline, functioning as motivational self-talk to prioritize humility before mortality ends the chance for positive self-regard\",\n  \"implicit_claims\": [\n    \"The soul is currently or should be engaged in self-abuse and contempt\",\n    \"A finite window remains before death or dissolution removes the opportunity for self-respect\",\n    \"Self-respect is a time-limited prospect whose end is imminent\",\n    \"Continued self-contempt serves a preparatory or corrective purpose\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a Stoic-style memento mori exhortation but contains tension between endorsing ongoing self-contempt and presupposing self-respect as a valued state that will soon be unavailable\",\n  \"conditions_for_usefulness\": \"The user must hold excessive self-regard or avoidance patterns where brief, mortality-framed self-criticism produces adaptive behavior change without triggering shame spirals or depressive rumination\",\n  \"conditions_for_misleading\": \"The user interprets the statement as literal endorsement of self-harm, experiences it as invalidating self-compassion needs, or applies it when no realistic deadline or behavioral target exists\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-directed imperative urging continued self-criticism with an implicit deadline, functioning as motivational self-talk to prioritize humility before mortality ends the chance for positive self-regard",
+    "implicit_claims": [
+      "The soul is currently or should be engaged in self-abuse and contempt",
+      "A finite window remains before death or dissolution removes the opportunity for self-respect",
+      "Self-respect is a time-limited prospect whose end is imminent",
+      "Continued self-contempt serves a preparatory or corrective purpose"
+    ],
+    "coherence_assessment": "Internally coherent as a Stoic-style memento mori exhortation but contains tension between endorsing ongoing self-contempt and presupposing self-respect as a valued state that will soon be unavailable",
+    "conditions_for_usefulness": "The user must hold excessive self-regard or avoidance patterns where brief, mortality-framed self-criticism produces adaptive behavior change without triggering shame spirals or depressive rumination",
+    "conditions_for_misleading": "The user interprets the statement as literal endorsement of self-harm, experiences it as invalidating self-compassion needs, or applies it when no realistic deadline or behavioral target exists"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 289,
+  "output_tokens": 243,
+  "error": "",
+  "retry_count": 0
+}

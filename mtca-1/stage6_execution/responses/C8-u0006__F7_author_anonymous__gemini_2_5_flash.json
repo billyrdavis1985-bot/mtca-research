@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0006__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:24:49.820139+00:00",
+  "wall_clock_seconds": 8.135974168777466,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a personal declaration of a decision-making principle or a self-description of the speaker's approach to confronting challenging situations. It communicates a willingness to overcome fear when a rational, evidence-based assessment indicates a beneficial outcome for the speaker.\",\n  \"implicit_claims\": [\n    \"The speaker experiences fear.\",\n    \"The speaker values personal benefit/help.\",\n    \"The speaker believes in the existence and utility of 'evidence' for predicting outcomes.\",\n    \"The speaker believes they possess the capacity to evaluate and interpret 'evidence'.\",\n    \"The speaker prioritizes rational assessment (evidence) over pure emotional response (fear) in certain situations.\",\n    \"The speaker views fear as a potential barrier to beneficial outcomes that can be overcome through rational assessment.\",\n    \"The speaker distinguishes between things that *just* scare them and things that scare them but are also supported by evidence of potential benefit.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a clear, conditional approach to action: willingness to confront fear (doing things that scare me) is contingent upon a rational assessment of potential positive outcomes (evidence suggests they are likely to help me). There is no logical contradiction within the statement itself.\",\n  \"conditions_for_usefulness\": [\n    \"The 'evidence' is reliable, accurate, objective, and comprehensively evaluated.\",\n    \"The speaker's ability to interpret and weigh evidence is sound and not clouded by bias or wishful thinking.\",\n    \"The definition of 'help me' is constructive, ethical, and leads to genuinely positive personal growth or beneficial outcomes (e.g., overcoming phobias, learning new skills, achieving worthwhile goals).\",\n    \"The potential risks or negative consequences of 'doing things that scare me' are appropriately assessed and deemed acceptable or manageable in light of the likely benefits.\",\n    \"The fear is genuinely a barrier to a beneficial outcome, and overcoming it is a necessary step.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'evidence' is flawed, incomplete, anecdotal, biased, or misinterpreted (e.g., confirmation bias, cherry-picking data).\",\n    \"The speaker overestimates their ability to assess risk or interpret complex evidence accurately.\",\n    \"The definition of 'help me' is narrow, self-serving, short-sighted, or justifies unethical/destructive behavior (e.g., justifying harmful actions, addiction, reckless gambles).\",\n    \"The statement is used as a rationalization for impulsive, dangerous, or ill-advised actions under the guise of 'evidence-based decisions'.\",\n    \"The fear being experienced is actually a healthy, appropriate warning signal that should be heeded, and ignoring it based on perceived 'evidence' leads to significant harm or regret.\",\n    \"The 'evidence' is manipulated to justify actions that benefit the speaker at the expense of others.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal declaration of a decision-making principle or a self-description of the speaker's approach to confronting challenging situations. It communicates a willingness to overcome fear when a rational, evidence-based assessment indicates a beneficial outcome for the speaker.",
+    "implicit_claims": [
+      "The speaker experiences fear.",
+      "The speaker values personal benefit/help.",
+      "The speaker believes in the existence and utility of 'evidence' for predicting outcomes.",
+      "The speaker believes they possess the capacity to evaluate and interpret 'evidence'.",
+      "The speaker prioritizes rational assessment (evidence) over pure emotional response (fear) in certain situations.",
+      "The speaker views fear as a potential barrier to beneficial outcomes that can be overcome through rational assessment.",
+      "The speaker distinguishes between things that *just* scare them and things that scare them but are also supported by evidence of potential benefit."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a clear, conditional approach to action: willingness to confront fear (doing things that scare me) is contingent upon a rational assessment of potential positive outcomes (evidence suggests they are likely to help me). There is no logical contradiction within the statement itself.",
+    "conditions_for_usefulness": [
+      "The 'evidence' is reliable, accurate, objective, and comprehensively evaluated.",
+      "The speaker's ability to interpret and weigh evidence is sound and not clouded by bias or wishful thinking.",
+      "The definition of 'help me' is constructive, ethical, and leads to genuinely positive personal growth or beneficial outcomes (e.g., overcoming phobias, learning new skills, achieving worthwhile goals).",
+      "The potential risks or negative consequences of 'doing things that scare me' are appropriately assessed and deemed acceptable or manageable in light of the likely benefits.",
+      "The fear is genuinely a barrier to a beneficial outcome, and overcoming it is a necessary step."
+    ],
+    "conditions_for_misleading": [
+      "The 'evidence' is flawed, incomplete, anecdotal, biased, or misinterpreted (e.g., confirmation bias, cherry-picking data).",
+      "The speaker overestimates their ability to assess risk or interpret complex evidence accurately.",
+      "The definition of 'help me' is narrow, self-serving, short-sighted, or justifies unethical/destructive behavior (e.g., justifying harmful actions, addiction, reckless gambles).",
+      "The statement is used as a rationalization for impulsive, dangerous, or ill-advised actions under the guise of 'evidence-based decisions'.",
+      "The fear being experienced is actually a healthy, appropriate warning signal that should be heeded, and ignoring it based on perceived 'evidence' leads to significant harm or regret.",
+      "The 'evidence' is manipulated to justify actions that benefit the speaker at the expense of others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 629,
+  "error": "",
+  "retry_count": 0
+}

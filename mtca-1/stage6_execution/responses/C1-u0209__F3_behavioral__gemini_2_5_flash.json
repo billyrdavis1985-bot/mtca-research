@@ -1,0 +1,48 @@
+{
+  "call_id": "C1-u0209__F3_behavioral__gemini_2_5_flash",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-29T22:21:02.285182+00:00",
+  "wall_clock_seconds": 7.9007110595703125,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a procedural guideline or an instruction for how to manage an intervention (referred to as 'suggestions') over time, aiming for a complete resolution ('cure'). It prescribes an adaptive strategy for dosage and frequency based on observable progress, with the ultimate goal of cessation of the intervention.\",\n  \"implicit_claims\": [\n    \"There exists a measurable state of 'progress' that can be obtained by a 'subject'.\",\n    \"There exists a definitive state of 'cure' that can be 'complete'.\",\n    \"The 'suggestions' are an effective intervention that contributes to this progress and cure.\",\n    \"The frequency of these 'suggestions' is a controllable variable that impacts outcomes.\",\n    \"Gradually decreasing the frequency of 'suggestions' is a suitable and beneficial strategy.\",\n    \"It is possible and necessary to assess a 'subject's' progress to adjust the intervention.\",\n    \"The ultimate goal of the intervention is self-sufficiency, where external suggestions are no longer required.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a logical, adaptive process for managing an intervention: begin with necessary frequency, decrease frequency as progress occurs, and cease entirely upon the completion of the cure. The steps are causally linked and consistently oriented towards the stated goal.\",\n  \"conditions_for_usefulness\": [\n    \"The 'suggestions' are genuinely effective and contribute to the desired 'cure'.\",\n    \"Progress and the completion of the 'cure' can be objectively and reliably measured or observed.\",\n    \"The 'subject' is capable of eventually internalizing the 'suggestions' or overcoming the underlying issue, allowing for a reduction and cessation of external support.\",\n    \"The condition being addressed is amenable to a finite intervention period leading to a 'complete cure'.\",\n    \"The professional or individual delivering the suggestions possesses the skill to accurately assess progress and adjust intervals appropriately.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'suggestions' are ineffective, harmful, or create dependency, making a true 'cure' impossible or harder to achieve.\",\n    \"Progress or the 'cure' is subjective, poorly defined, or impossible to measure accurately, leading to arbitrary or premature cessation of support.\",\n    \"The 'subject' requires ongoing or lifelong support, and a 'complete cure' in the sense of no longer needing suggestions is unrealistic or detrimental.\",\n    \"Tapering off 'suggestions' too early or too rapidly could lead to relapse or incomplete resolution.\",\n    \"The statement fosters an unrealistic expectation of a 'complete cure' for conditions that might require ongoing management or support.\",\n    \"The 'suggestions' themselves are not the primary drivers of change, and focusing on their frequency distracts from other necessary interventions.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a procedural guideline or an instruction for how to manage an intervention (referred to as 'suggestions') over time, aiming for a complete resolution ('cure'). It prescribes an adaptive strategy for dosage and frequency based on observable progress, with the ultimate goal of cessation of the intervention.",
+    "implicit_claims": [
+      "There exists a measurable state of 'progress' that can be obtained by a 'subject'.",
+      "There exists a definitive state of 'cure' that can be 'complete'.",
+      "The 'suggestions' are an effective intervention that contributes to this progress and cure.",
+      "The frequency of these 'suggestions' is a controllable variable that impacts outcomes.",
+      "Gradually decreasing the frequency of 'suggestions' is a suitable and beneficial strategy.",
+      "It is possible and necessary to assess a 'subject's' progress to adjust the intervention.",
+      "The ultimate goal of the intervention is self-sufficiency, where external suggestions are no longer required."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a logical, adaptive process for managing an intervention: begin with necessary frequency, decrease frequency as progress occurs, and cease entirely upon the completion of the cure. The steps are causally linked and consistently oriented towards the stated goal.",
+    "conditions_for_usefulness": [
+      "The 'suggestions' are genuinely effective and contribute to the desired 'cure'.",
+      "Progress and the completion of the 'cure' can be objectively and reliably measured or observed.",
+      "The 'subject' is capable of eventually internalizing the 'suggestions' or overcoming the underlying issue, allowing for a reduction and cessation of external support.",
+      "The condition being addressed is amenable to a finite intervention period leading to a 'complete cure'.",
+      "The professional or individual delivering the suggestions possesses the skill to accurately assess progress and adjust intervals appropriately."
+    ],
+    "conditions_for_misleading": [
+      "The 'suggestions' are ineffective, harmful, or create dependency, making a true 'cure' impossible or harder to achieve.",
+      "Progress or the 'cure' is subjective, poorly defined, or impossible to measure accurately, leading to arbitrary or premature cessation of support.",
+      "The 'subject' requires ongoing or lifelong support, and a 'complete cure' in the sense of no longer needing suggestions is unrealistic or detrimental.",
+      "Tapering off 'suggestions' too early or too rapidly could lead to relapse or incomplete resolution.",
+      "The statement fosters an unrealistic expectation of a 'complete cure' for conditions that might require ongoing management or support.",
+      "The 'suggestions' themselves are not the primary drivers of change, and focusing on their frequency distracts from other necessary interventions."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 600,
+  "error": "",
+  "retry_count": 0
+}

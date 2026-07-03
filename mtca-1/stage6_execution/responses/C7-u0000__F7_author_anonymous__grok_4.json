@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0000__F7_author_anonymous__grok_4",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:54:36.585353+00:00",
+  "wall_clock_seconds": 6.52178692817688,
+  "raw_response": "{\n  \"communicative_function\": \"admission or confession of personal powerlessness and resulting life disorder\",\n  \"implicit_claims\": [\n    \"the speakers have repeatedly failed to control their drinking\",\n    \"alcohol exerts dominating influence over their behavior and decisions\",\n    \"their current life state constitutes a state of disorder or dysfunction directly attributable to alcohol\",\n    \"prior non-admission of these facts has been an obstacle\"\n  ],\n  \"coherence_assessment\": \"internally coherent: the second clause supplies the consequence that justifies the first claim, linked by apposition\",\n  \"conditions_for_usefulness\": \"the intended audience must be persons seeking recovery from alcohol dependence who accept a premise that honest self-assessment of loss of control is a necessary precondition for change\",\n  \"conditions_for_misleading\": \"the statement is presented as an objective, universally true description of all alcohol use rather than a first-person experiential claim, or is used to imply that no other explanatory factors or remedies exist\"\n}",
+  "parsed_json": {
+    "communicative_function": "admission or confession of personal powerlessness and resulting life disorder",
+    "implicit_claims": [
+      "the speakers have repeatedly failed to control their drinking",
+      "alcohol exerts dominating influence over their behavior and decisions",
+      "their current life state constitutes a state of disorder or dysfunction directly attributable to alcohol",
+      "prior non-admission of these facts has been an obstacle"
+    ],
+    "coherence_assessment": "internally coherent: the second clause supplies the consequence that justifies the first claim, linked by apposition",
+    "conditions_for_usefulness": "the intended audience must be persons seeking recovery from alcohol dependence who accept a premise that honest self-assessment of loss of control is a necessary precondition for change",
+    "conditions_for_misleading": "the statement is presented as an objective, universally true description of all alcohol use rather than a first-person experiential claim, or is used to imply that no other explanatory factors or remedies exist"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 269,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0
+}

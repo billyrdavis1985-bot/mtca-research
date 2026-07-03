@@ -1,0 +1,42 @@
+{
+  "call_id": "C8-u0000__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0000",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:51:30.755350+00:00",
+  "wall_clock_seconds": 4.9628424644470215,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a self-reflective observation, distinguishing automatic thoughts from objective evidence, likely to promote cognitive distancing or metacognitive awareness.\",\n  \"implicit_claims\": [\n    \"There is a distinction between automatic thoughts and evidence.\",\n    \"Automatic thoughts may not align with evidence.\",\n    \"The speaker has access to both their automatic thoughts and evidence about what is true.\",\n    \"Evidence about what is true exists and is identifiable.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it clearly distinguishes between subjective cognitive events (automatic thoughts) and objective referents (evidence), a standard distinction in cognitive therapy.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is capable of identifying and articulating their automatic thoughts.\",\n    \"The speaker has access to relevant evidence or can seek it.\",\n    \"The statement is used in a therapeutic or reflective context to facilitate cognitive restructuring.\",\n    \"The speaker is open to revising beliefs based on evidence.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The concept of 'evidence' is treated as unproblematic or universally agreed upon, ignoring interpretive or contextual biases.\",\n    \"The speaker assumes automatic thoughts are always false or evidence is always true, leading to overcorrection.\",\n    \"The statement is used to dismiss legitimate emotional or intuitive insights that may have evidential value in another framework.\",\n    \"The speaker lacks the ability to distinguish between different types of evidence (e.g., scientific, personal, anecdotal).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-reflective observation, distinguishing automatic thoughts from objective evidence, likely to promote cognitive distancing or metacognitive awareness.",
+    "implicit_claims": [
+      "There is a distinction between automatic thoughts and evidence.",
+      "Automatic thoughts may not align with evidence.",
+      "The speaker has access to both their automatic thoughts and evidence about what is true.",
+      "Evidence about what is true exists and is identifiable."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it clearly distinguishes between subjective cognitive events (automatic thoughts) and objective referents (evidence), a standard distinction in cognitive therapy.",
+    "conditions_for_usefulness": [
+      "The speaker is capable of identifying and articulating their automatic thoughts.",
+      "The speaker has access to relevant evidence or can seek it.",
+      "The statement is used in a therapeutic or reflective context to facilitate cognitive restructuring.",
+      "The speaker is open to revising beliefs based on evidence."
+    ],
+    "conditions_for_misleading": [
+      "The concept of 'evidence' is treated as unproblematic or universally agreed upon, ignoring interpretive or contextual biases.",
+      "The speaker assumes automatic thoughts are always false or evidence is always true, leading to overcorrection.",
+      "The statement is used to dismiss legitimate emotional or intuitive insights that may have evidential value in another framework.",
+      "The speaker lacks the ability to distinguish between different types of evidence (e.g., scientific, personal, anecdotal)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 316,
+  "error": "",
+  "retry_count": 0
+}

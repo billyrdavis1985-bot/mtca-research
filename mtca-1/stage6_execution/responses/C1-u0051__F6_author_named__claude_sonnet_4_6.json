@@ -1,0 +1,46 @@
+{
+  "call_id": "C1-u0051__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:06:20.743581+00:00",
+  "wall_clock_seconds": 13.327718019485474,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is offering a reassurance or prescriptive guidance, implying that relinquishing effortful striving for sleep is itself a beneficial or sufficient strategy for rest, consistent with Coué's broader autosuggestion framework that conscious effort can be counterproductive.\",\n  \"implicit_claims\": [\n    \"Effort to sleep is what causes or exacerbates sleeplessness or restlessness.\",\n    \"The absence of effort naturally leads to a calm, restful state.\",\n    \"Lying quietly in bed is a desirable or sufficient outcome, possibly leading to sleep.\",\n    \"The individual has conscious control over whether to 'make an effort' to sleep.\",\n    \"Passivity or surrender of will is achievable and beneficial in this context.\",\n    \"There is an implicit subject ('he') who is presumed to be struggling with sleep due to trying too hard.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within Coué's framework, which holds that the imagination overrides willpower and that striving consciously can sabotage unconscious processes. It aligns with his principle that effort reinforces failure. However, it presents a conditional that treats 'not making an effort' as straightforwardly achievable, which may itself require effort — a potential self-referential tension.\",\n  \"conditions_for_usefulness\": [\n    \"The person's sleeplessness is indeed caused or worsened by performance anxiety or conscious striving.\",\n    \"The person is capable of disengaging from effortful trying when instructed or suggested to do so.\",\n    \"Lying quietly without sleeping provides meaningful rest or eventually leads to sleep.\",\n    \"The autosuggestion or framing reduces arousal rather than increasing focus on the problem.\",\n    \"No underlying physiological or clinical cause of insomnia is present that requires medical attention.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person's insomnia has a physiological or clinical basis unrelated to conscious effort.\",\n    \"The instruction to 'not make an effort' is itself interpreted as a new effort, creating a paradox.\",\n    \"Lying quietly in bed without sleep reinforces wakefulness associations with the bed (contrary to modern sleep hygiene advice such as stimulus control therapy).\",\n    \"The person interprets 'lying quietly' as sufficient treatment, delaying seeking appropriate medical or psychological care.\",\n    \"The statement creates a false binary: either effort or calm rest, ignoring other contributing factors to sleeplessness.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is offering a reassurance or prescriptive guidance, implying that relinquishing effortful striving for sleep is itself a beneficial or sufficient strategy for rest, consistent with Coué's broader autosuggestion framework that conscious effort can be counterproductive.",
+    "implicit_claims": [
+      "Effort to sleep is what causes or exacerbates sleeplessness or restlessness.",
+      "The absence of effort naturally leads to a calm, restful state.",
+      "Lying quietly in bed is a desirable or sufficient outcome, possibly leading to sleep.",
+      "The individual has conscious control over whether to 'make an effort' to sleep.",
+      "Passivity or surrender of will is achievable and beneficial in this context.",
+      "There is an implicit subject ('he') who is presumed to be struggling with sleep due to trying too hard."
+    ],
+    "coherence_assessment": "The statement is internally coherent within Coué's framework, which holds that the imagination overrides willpower and that striving consciously can sabotage unconscious processes. It aligns with his principle that effort reinforces failure. However, it presents a conditional that treats 'not making an effort' as straightforwardly achievable, which may itself require effort — a potential self-referential tension.",
+    "conditions_for_usefulness": [
+      "The person's sleeplessness is indeed caused or worsened by performance anxiety or conscious striving.",
+      "The person is capable of disengaging from effortful trying when instructed or suggested to do so.",
+      "Lying quietly without sleeping provides meaningful rest or eventually leads to sleep.",
+      "The autosuggestion or framing reduces arousal rather than increasing focus on the problem.",
+      "No underlying physiological or clinical cause of insomnia is present that requires medical attention."
+    ],
+    "conditions_for_misleading": [
+      "The person's insomnia has a physiological or clinical basis unrelated to conscious effort.",
+      "The instruction to 'not make an effort' is itself interpreted as a new effort, creating a paradox.",
+      "Lying quietly in bed without sleep reinforces wakefulness associations with the bed (contrary to modern sleep hygiene advice such as stimulus control therapy).",
+      "The person interprets 'lying quietly' as sufficient treatment, delaying seeking appropriate medical or psychological care.",
+      "The statement creates a false binary: either effort or calm rest, ignoring other contributing factors to sleeplessness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 582,
+  "error": "",
+  "retry_count": 0
+}

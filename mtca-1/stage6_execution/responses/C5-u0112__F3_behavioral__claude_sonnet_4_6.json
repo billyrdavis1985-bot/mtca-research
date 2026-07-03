@@ -1,0 +1,46 @@
+{
+  "call_id": "C5-u0112__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C5-u0112",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:18:27.188122+00:00",
+  "wall_clock_seconds": 13.201732635498047,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a prescriptive assertion framed as causal fact, implying that mental states directly and reliably produce physical health outcomes. As a behavioral commitment, it positions the speaker as intending to cultivate positive mental states to improve or maintain physical health.\",\n  \"implicit_claims\": [\n    \"There is a direct causal relationship between thought quality and physical health outcomes.\",\n    \"Thoughts can be categorized as 'sickly' in a meaningful and identifiable way.\",\n    \"Physical illness is at least partially a manifestation of mental or psychological states.\",\n    \"Improving one's thoughts would improve or prevent physical illness.\",\n    \"The body is a reliable expressive medium for the mind's condition.\",\n    \"Individuals bear significant personal responsibility for their physical health through their thinking patterns.\",\n    \"This relationship is consistent and generalizable across people and conditions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a metaphor or heuristic but is logically underdetermined as a causal claim. It mirrors psychosomatic frameworks and mind-body connection research, giving it partial plausibility, but the absolute framing ('will express') lacks the conditionality required for scientific coherence. As a commitment statement, it is coherent in intent but vague in operationalization.\",\n  \"conditions_for_usefulness\": [\n    \"The person is experiencing stress, anxiety, or rumination that is empirically linked to measurable physiological effects (e.g., cortisol elevation, immune suppression).\",\n    \"The statement is interpreted as a motivational heuristic rather than a literal causal law.\",\n    \"The person uses it to increase mindfulness or reduce harmful thought patterns without dismissing legitimate medical care.\",\n    \"The relationship between mental state and physical symptom is actually present and traceable in the individual's situation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"A person with a physical illness caused by genetic, environmental, infectious, or structural factors is led to believe their illness stems from their thinking.\",\n    \"The statement is used to blame individuals for their physical conditions, discouraging medical treatment.\",\n    \"It fosters shame or guilt in chronically or terminally ill individuals who cannot attribute their condition to thought patterns.\",\n    \"It is treated as a universal causal law rather than a contextually limited heuristic.\",\n    \"It delays or replaces evidence-based medical intervention with cognitive or spiritual practices alone.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a prescriptive assertion framed as causal fact, implying that mental states directly and reliably produce physical health outcomes. As a behavioral commitment, it positions the speaker as intending to cultivate positive mental states to improve or maintain physical health.",
+    "implicit_claims": [
+      "There is a direct causal relationship between thought quality and physical health outcomes.",
+      "Thoughts can be categorized as 'sickly' in a meaningful and identifiable way.",
+      "Physical illness is at least partially a manifestation of mental or psychological states.",
+      "Improving one's thoughts would improve or prevent physical illness.",
+      "The body is a reliable expressive medium for the mind's condition.",
+      "Individuals bear significant personal responsibility for their physical health through their thinking patterns.",
+      "This relationship is consistent and generalizable across people and conditions."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a metaphor or heuristic but is logically underdetermined as a causal claim. It mirrors psychosomatic frameworks and mind-body connection research, giving it partial plausibility, but the absolute framing ('will express') lacks the conditionality required for scientific coherence. As a commitment statement, it is coherent in intent but vague in operationalization.",
+    "conditions_for_usefulness": [
+      "The person is experiencing stress, anxiety, or rumination that is empirically linked to measurable physiological effects (e.g., cortisol elevation, immune suppression).",
+      "The statement is interpreted as a motivational heuristic rather than a literal causal law.",
+      "The person uses it to increase mindfulness or reduce harmful thought patterns without dismissing legitimate medical care.",
+      "The relationship between mental state and physical symptom is actually present and traceable in the individual's situation."
+    ],
+    "conditions_for_misleading": [
+      "A person with a physical illness caused by genetic, environmental, infectious, or structural factors is led to believe their illness stems from their thinking.",
+      "The statement is used to blame individuals for their physical conditions, discouraging medical treatment.",
+      "It fosters shame or guilt in chronically or terminally ill individuals who cannot attribute their condition to thought patterns.",
+      "It is treated as a universal causal law rather than a contextually limited heuristic.",
+      "It delays or replaces evidence-based medical intervention with cognitive or spiritual practices alone."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 564,
+  "error": "",
+  "retry_count": 0
+}

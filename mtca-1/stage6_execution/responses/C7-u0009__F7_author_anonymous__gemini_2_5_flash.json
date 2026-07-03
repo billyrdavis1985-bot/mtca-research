@@ -1,0 +1,49 @@
+{
+  "call_id": "C7-u0009__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C7-u0009",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:34:50.460055+00:00",
+  "wall_clock_seconds": 7.4262535572052,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement describes a consistent practice of self-assessment and accountability, likely serving to report on or declare a commitment to ethical conduct, self-improvement, or transparency on behalf of a collective 'we'.\",\n  \"implicit_claims\": [\n    \"The speaker(s) engage in a process of self-reflection ('personal inventory').\",\n    \"The speaker(s) are capable of identifying instances where they have erred ('were wrong').\",\n    \"The speaker(s) value honesty and accountability ('promptly admitted it').\",\n    \"There is an understanding or standard of what constitutes 'wrong'.\",\n    \"The act of admitting wrongness is considered a positive and important action.\",\n    \"The speaker(s) are an ongoing entity ('Continued to take...', 'we').\",\n    \"There is an implicit audience or recipient for these admissions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Taking 'personal inventory' logically precedes and enables the identification of 'when we were wrong', and 'promptly admitted it' is a consistent and expected follow-through if accountability is valued within that framework.\",\n  \"conditions_for_usefulness\": [\n    \"The audience trusts the sincerity and integrity of the speaker(s).\",\n    \"The statement is followed or supported by concrete examples of such inventory-taking and admissions.\",\n    \"The admissions of wrongness lead to meaningful corrective actions or changes in behavior.\",\n    \"The context requires reassurance of the speaker's commitment to self-correction and accountability (e.g., after a mistake, as a mission statement).\",\n    \"The 'wrong' being admitted is significant enough to warrant attention, not just trivial errors.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'personal inventory' is superficial or non-existent, serving as a mere platitude.\",\n    \"The admissions of wrongness are strategic rather than genuine, perhaps to mitigate larger issues or gain sympathy.\",\n    \"Only minor or easily justifiable 'wrongs' are admitted, while more significant errors are overlooked or concealed.\",\n    \"The promptness of admission is exaggerated, or admissions are made only when 'wrongness' becomes undeniable.\",\n    \"The admissions are not followed by any meaningful changes in behavior or corrective actions.\",\n    \"The statement is used as a deflection to avoid current criticism by pointing to past (alleged) good practices.\",\n    \"The 'we' is ill-defined or does not truly represent collective accountability.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement describes a consistent practice of self-assessment and accountability, likely serving to report on or declare a commitment to ethical conduct, self-improvement, or transparency on behalf of a collective 'we'.",
+    "implicit_claims": [
+      "The speaker(s) engage in a process of self-reflection ('personal inventory').",
+      "The speaker(s) are capable of identifying instances where they have erred ('were wrong').",
+      "The speaker(s) value honesty and accountability ('promptly admitted it').",
+      "There is an understanding or standard of what constitutes 'wrong'.",
+      "The act of admitting wrongness is considered a positive and important action.",
+      "The speaker(s) are an ongoing entity ('Continued to take...', 'we').",
+      "There is an implicit audience or recipient for these admissions."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Taking 'personal inventory' logically precedes and enables the identification of 'when we were wrong', and 'promptly admitted it' is a consistent and expected follow-through if accountability is valued within that framework.",
+    "conditions_for_usefulness": [
+      "The audience trusts the sincerity and integrity of the speaker(s).",
+      "The statement is followed or supported by concrete examples of such inventory-taking and admissions.",
+      "The admissions of wrongness lead to meaningful corrective actions or changes in behavior.",
+      "The context requires reassurance of the speaker's commitment to self-correction and accountability (e.g., after a mistake, as a mission statement).",
+      "The 'wrong' being admitted is significant enough to warrant attention, not just trivial errors."
+    ],
+    "conditions_for_misleading": [
+      "The 'personal inventory' is superficial or non-existent, serving as a mere platitude.",
+      "The admissions of wrongness are strategic rather than genuine, perhaps to mitigate larger issues or gain sympathy.",
+      "Only minor or easily justifiable 'wrongs' are admitted, while more significant errors are overlooked or concealed.",
+      "The promptness of admission is exaggerated, or admissions are made only when 'wrongness' becomes undeniable.",
+      "The admissions are not followed by any meaningful changes in behavior or corrective actions.",
+      "The statement is used as a deflection to avoid current criticism by pointing to past (alleged) good practices.",
+      "The 'we' is ill-defined or does not truly represent collective accountability."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 145,
+  "output_tokens": 548,
+  "error": "",
+  "retry_count": 0
+}

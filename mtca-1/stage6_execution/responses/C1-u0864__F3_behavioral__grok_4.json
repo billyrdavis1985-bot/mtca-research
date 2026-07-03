@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0864__F3_behavioral__grok_4",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:53:08.231593+00:00",
+  "wall_clock_seconds": 7.881326198577881,
+  "raw_response": "{\n  \"communicative_function\": \"Admitting prior skepticism to signal openness to subsequent belief or behavior revision\",\n  \"implicit_claims\": [\"Speaker encountered or considered Coué's lectures\", \"Initial stance was full skepticism rather than neutrality or endorsement\", \"A change in attitude or commitment is now being signaled\"],\n  \"coherence_assessment\": \"Internally coherent as a simple past-tense self-report that sets up potential contrast with later acceptance\",\n  \"conditions_for_usefulness\": \"The admission accurately reflects the speaker's history and is used to mark genuine subsequent adoption of autosuggestion practices or aligned values\",\n  \"conditions_for_misleading\": \"The claimed skepticism is fabricated or exaggerated to manufacture a conversion narrative without corresponding behavior change\"\n}",
+  "parsed_json": {
+    "communicative_function": "Admitting prior skepticism to signal openness to subsequent belief or behavior revision",
+    "implicit_claims": [
+      "Speaker encountered or considered Coué's lectures",
+      "Initial stance was full skepticism rather than neutrality or endorsement",
+      "A change in attitude or commitment is now being signaled"
+    ],
+    "coherence_assessment": "Internally coherent as a simple past-tense self-report that sets up potential contrast with later acceptance",
+    "conditions_for_usefulness": "The admission accurately reflects the speaker's history and is used to mark genuine subsequent adoption of autosuggestion practices or aligned values",
+    "conditions_for_misleading": "The claimed skepticism is fabricated or exaggerated to manufacture a conversion narrative without corresponding behavior change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 270,
+  "output_tokens": 150,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "C1-u0209__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:22:37.222790+00:00",
+  "wall_clock_seconds": 5.640476703643799,
+  "raw_response": "{\n  \"communicative_function\": \"The statement provides instructional guidance on a method for gradually reducing the frequency of suggestions during a therapeutic or conditioning process until the goal of a complete cure is achieved.\",\n  \"implicit_claims\": [\n    \"The process of cure or change can be achieved through repeated suggestions.\",\n    \"Suggestions can be spaced out over increasing intervals without losing effectiveness.\",\n    \"Progress in the subject is measurable and correlates with the spacing of suggestions.\",\n    \"Complete cure is an attainable endpoint after which suggestions are no longer needed.\",\n    \"The method described is universally applicable across different subjects and contexts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it prescribes a clear, logical sequence: start with frequent suggestions, gradually increase intervals based on progress, and stop when the cure is complete. The causal chain is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The subject is responsive to the type of suggestion being used.\",\n    \"Progress can be reliably monitored and evaluated.\",\n    \"The interval increase does not cause regression or loss of prior gains.\",\n    \"The cure is a well-defined and achievable state.\",\n    \"The practitioner has the skill to time and adjust intervals appropriately.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the subject's condition requires continuous or unchanging support rather than fading suggestions.\",\n    \"If progress is not linear or cannot be objectively assessed.\",\n    \"If the concept of 'complete cure' is unrealistic or undefined for the given condition.\",\n    \"If spacing out suggestions too quickly undermines the therapeutic effect.\",\n    \"If the statement is taken as universally valid across all cultural, medical, or psychological contexts without adaptation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement provides instructional guidance on a method for gradually reducing the frequency of suggestions during a therapeutic or conditioning process until the goal of a complete cure is achieved.",
+    "implicit_claims": [
+      "The process of cure or change can be achieved through repeated suggestions.",
+      "Suggestions can be spaced out over increasing intervals without losing effectiveness.",
+      "Progress in the subject is measurable and correlates with the spacing of suggestions.",
+      "Complete cure is an attainable endpoint after which suggestions are no longer needed.",
+      "The method described is universally applicable across different subjects and contexts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it prescribes a clear, logical sequence: start with frequent suggestions, gradually increase intervals based on progress, and stop when the cure is complete. The causal chain is consistent.",
+    "conditions_for_usefulness": [
+      "The subject is responsive to the type of suggestion being used.",
+      "Progress can be reliably monitored and evaluated.",
+      "The interval increase does not cause regression or loss of prior gains.",
+      "The cure is a well-defined and achievable state.",
+      "The practitioner has the skill to time and adjust intervals appropriately."
+    ],
+    "conditions_for_misleading": [
+      "If the subject's condition requires continuous or unchanging support rather than fading suggestions.",
+      "If progress is not linear or cannot be objectively assessed.",
+      "If the concept of 'complete cure' is unrealistic or undefined for the given condition.",
+      "If spacing out suggestions too quickly undermines the therapeutic effect.",
+      "If the statement is taken as universally valid across all cultural, medical, or psychological contexts without adaptation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 348,
+  "error": "",
+  "retry_count": 0
+}

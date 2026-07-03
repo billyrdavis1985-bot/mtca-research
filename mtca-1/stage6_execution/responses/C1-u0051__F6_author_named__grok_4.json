@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F6_author_named__grok_4",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:06:40.229560+00:00",
+  "wall_clock_seconds": 6.54673957824707,
+  "raw_response": "{\n  \"communicative_function\": \"providing conditional guidance or suggestion within an autosuggestion framework to promote relaxation and sleep by reducing deliberate effort\",\n  \"implicit_claims\": [\n    \"effort to sleep creates tension or prevents quiet lying\",\n    \"absence of effort naturally results in lying quietly\",\n    \"lying quietly is the desired or effective state in bed\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a simple conditional but relies on an unstated causal assumption about effort versus relaxation that may not hold universally\",\n  \"conditions_for_usefulness\": \"the recipient experiences sleep difficulty due to performance anxiety or excessive effort, and the suggestion reduces that tension enough to allow natural sleep onset\",\n  \"conditions_for_misleading\": \"sleep issues stem from physiological causes, pain, or external factors rather than effort, rendering the advice ineffective or dismissive of real problems\"\n}",
+  "parsed_json": {
+    "communicative_function": "providing conditional guidance or suggestion within an autosuggestion framework to promote relaxation and sleep by reducing deliberate effort",
+    "implicit_claims": [
+      "effort to sleep creates tension or prevents quiet lying",
+      "absence of effort naturally results in lying quietly",
+      "lying quietly is the desired or effective state in bed"
+    ],
+    "coherence_assessment": "internally coherent as a simple conditional but relies on an unstated causal assumption about effort versus relaxation that may not hold universally",
+    "conditions_for_usefulness": "the recipient experiences sleep difficulty due to performance anxiety or excessive effort, and the suggestion reduces that tension enough to allow natural sleep onset",
+    "conditions_for_misleading": "sleep issues stem from physiological causes, pain, or external factors rather than effort, rendering the advice ineffective or dismissive of real problems"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 271,
+  "output_tokens": 178,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0000__F0_neutral__deepseek_v3",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:49:34.147346+00:00",
+  "wall_clock_seconds": 4.40535569190979,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing an act of admission or confession, acknowledging a shared vulnerability and setting a foundation for collective recovery.\",\n  \"implicit_claims\": [\n    \"The speaker and the group are or were alcoholics.\",\n    \"Alcoholism involves a loss of control over drinking (powerlessness).\",\n    \"Loss of control over alcohol leads to broader life disorganization (unmanageability).\",\n    \"Admitting powerlessness is a necessary first step toward recovery.\",\n    \"The experience of powerlessness and unmanageability is uniform or recognizable across the group.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: the admission of powerlessness directly links to the consequence of unmanageability, forming a logical cause-and-effect relationship within the context of the twelve-step tradition.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or speaker genuinely experiences alcohol as uncontrollable.\",\n    \"The admission serves as a catalyst for seeking help or changing behavior.\",\n    \"The group context provides a supportive environment for honest self-disclosure.\",\n    \"The concept of 'powerlessness' is understood as a starting point, not a permanent state.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker does not actually have an alcohol problem, the admission is inauthentic.\",\n    \"If 'powerlessness' is interpreted as a permanent, helpless condition that prevents any possibility of change.\",\n    \"If the statement is used to absolve personal responsibility for harmful actions caused by drinking.\",\n    \"If it is applied to individuals who can moderate their drinking, pathologizing normal behavior.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing an act of admission or confession, acknowledging a shared vulnerability and setting a foundation for collective recovery.",
+    "implicit_claims": [
+      "The speaker and the group are or were alcoholics.",
+      "Alcoholism involves a loss of control over drinking (powerlessness).",
+      "Loss of control over alcohol leads to broader life disorganization (unmanageability).",
+      "Admitting powerlessness is a necessary first step toward recovery.",
+      "The experience of powerlessness and unmanageability is uniform or recognizable across the group."
+    ],
+    "coherence_assessment": "The statement is internally coherent: the admission of powerlessness directly links to the consequence of unmanageability, forming a logical cause-and-effect relationship within the context of the twelve-step tradition.",
+    "conditions_for_usefulness": [
+      "The listener or speaker genuinely experiences alcohol as uncontrollable.",
+      "The admission serves as a catalyst for seeking help or changing behavior.",
+      "The group context provides a supportive environment for honest self-disclosure.",
+      "The concept of 'powerlessness' is understood as a starting point, not a permanent state."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker does not actually have an alcohol problem, the admission is inauthentic.",
+      "If 'powerlessness' is interpreted as a permanent, helpless condition that prevents any possibility of change.",
+      "If the statement is used to absolve personal responsibility for harmful actions caused by drinking.",
+      "If it is applied to individuals who can moderate their drinking, pathologizing normal behavior."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 133,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0563__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0563",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:46:26.738202+00:00",
+  "wall_clock_seconds": 5.693036079406738,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing the function of prescribing a specific self-suggestion or visualization technique, intended to empower the speaker (typically a pregnant woman) by asserting that mental focus can directly determine fetal sex and qualities during gestation.\",\n  \"implicit_claims\": [\n    \"A woman can determine the sex of her unborn child through mental imagery alone.\",\n    \"A woman can determine the physical and moral qualities of her unborn child through sustained mental imagery.\",\n    \"The mind has direct causal power over biological development in utero.\",\n    \"The sex and qualities of a child are not fixed at conception but remain malleable for weeks afterward.\",\n    \"Consistent self-suggestion over the course of pregnancy is sufficient to override genetic and environmental determinants.\"\n  ],\n  \"coherence_assessment\": \"The statement lacks internal coherence with established biological science, as sex is determined genetically at fertilization and physical/moral qualities are influenced by genetics, epigenetics, and environment, not maternal visualization. As a therapeutic suggestion, it may hold psychological coherence if viewed as a metaphor for fostering positive maternal attitude and bonding, but it is factually incoherent.\",\n  \"conditions_for_usefulness\": [\n    \"The statement is used as a metaphor or ritual to enhance maternal calm, hope, and attachment, not as a literal claim.\",\n    \"The patient believes in the power of intention setting and finds it psychologically beneficial.\",\n    \"The therapeutic context emphasizes emotional empowerment rather than factual accuracy.\",\n    \"The patient does not experience guilt or shame if outcomes do not match visualizations.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as a literal, scientifically accurate claim.\",\n    \"A patient blames herself for a child's sex or qualities different from those visualized.\",\n    \"The statement discourages seeking evidence-based medical care or genetic counseling.\",\n    \"A patient uses it to reject or override medical information about fetal development.\",\n    \"The statement reinforces unrealistic expectations about parental control over offspring characteristics.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing the function of prescribing a specific self-suggestion or visualization technique, intended to empower the speaker (typically a pregnant woman) by asserting that mental focus can directly determine fetal sex and qualities during gestation.",
+    "implicit_claims": [
+      "A woman can determine the sex of her unborn child through mental imagery alone.",
+      "A woman can determine the physical and moral qualities of her unborn child through sustained mental imagery.",
+      "The mind has direct causal power over biological development in utero.",
+      "The sex and qualities of a child are not fixed at conception but remain malleable for weeks afterward.",
+      "Consistent self-suggestion over the course of pregnancy is sufficient to override genetic and environmental determinants."
+    ],
+    "coherence_assessment": "The statement lacks internal coherence with established biological science, as sex is determined genetically at fertilization and physical/moral qualities are influenced by genetics, epigenetics, and environment, not maternal visualization. As a therapeutic suggestion, it may hold psychological coherence if viewed as a metaphor for fostering positive maternal attitude and bonding, but it is factually incoherent.",
+    "conditions_for_usefulness": [
+      "The statement is used as a metaphor or ritual to enhance maternal calm, hope, and attachment, not as a literal claim.",
+      "The patient believes in the power of intention setting and finds it psychologically beneficial.",
+      "The therapeutic context emphasizes emotional empowerment rather than factual accuracy.",
+      "The patient does not experience guilt or shame if outcomes do not match visualizations."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as a literal, scientifically accurate claim.",
+      "A patient blames herself for a child's sex or qualities different from those visualized.",
+      "The statement discourages seeking evidence-based medical care or genetic counseling.",
+      "A patient uses it to reject or override medical information about fetal development.",
+      "The statement reinforces unrealistic expectations about parental control over offspring characteristics."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 211,
+  "output_tokens": 408,
+  "error": "",
+  "retry_count": 0
+}

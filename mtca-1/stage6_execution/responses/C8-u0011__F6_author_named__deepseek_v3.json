@@ -1,0 +1,40 @@
+{
+  "call_id": "C8-u0011__F6_author_named__deepseek_v3",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:40:41.461731+00:00",
+  "wall_clock_seconds": 4.185046911239624,
+  "raw_response": "{\n  \"communicative_function\": \"The statement declares a commitment to a specific behavioral strategy, contrasting it with a less effective alternative.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less likely to be carried out than small, observable changes.\",\n    \"The speaker previously made or considered vague resolutions that were not carried out.\",\n    \"Committing to small changes increases the probability of follow-through.\",\n    \"The speaker has the capacity to identify and implement small, observable changes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it sets up a clear dichotomy (small/observable vs. vague) and aligns the commitment with the more actionable option.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely can identify small, observable changes relevant to their goal.\",\n    \"The speaker is able to follow through on these small commitments.\",\n    \"The environment supports incremental change without overwhelming the speaker.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker mistakes 'small' for 'trivial' and fails to address the core issue.\",\n    \"If the speaker uses the statement to avoid necessary large-scale changes or difficult decisions.\",\n    \"If the speaker's 'small changes' are not actually observable or measurable in practice.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement declares a commitment to a specific behavioral strategy, contrasting it with a less effective alternative.",
+    "implicit_claims": [
+      "Vague resolutions are less likely to be carried out than small, observable changes.",
+      "The speaker previously made or considered vague resolutions that were not carried out.",
+      "Committing to small changes increases the probability of follow-through.",
+      "The speaker has the capacity to identify and implement small, observable changes."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it sets up a clear dichotomy (small/observable vs. vague) and aligns the commitment with the more actionable option.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely can identify small, observable changes relevant to their goal.",
+      "The speaker is able to follow through on these small commitments.",
+      "The environment supports incremental change without overwhelming the speaker."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker mistakes 'small' for 'trivial' and fails to address the core issue.",
+      "If the speaker uses the statement to avoid necessary large-scale changes or difficult decisions.",
+      "If the speaker's 'small changes' are not actually observable or measurable in practice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 160,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0
+}

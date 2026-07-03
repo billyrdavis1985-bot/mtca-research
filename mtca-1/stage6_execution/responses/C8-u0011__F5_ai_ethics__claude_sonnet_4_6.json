@@ -1,0 +1,47 @@
+{
+  "call_id": "C8-u0011__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:39:32.487405+00:00",
+  "wall_clock_seconds": 13.69744324684143,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-commitment speech act, functioning as a personal pledge or resolution that simultaneously critiques vague goal-setting and endorses behaviorally specific, verifiable intentions. It signals a meta-level awareness about the quality of one's own commitments.\",\n  \"implicit_claims\": [\n    \"Vague resolutions are less effective or valuable than specific, observable ones.\",\n    \"The speaker has identified concrete changes they are capable of executing.\",\n    \"Observability is a meaningful criterion for evaluating the quality of a commitment.\",\n    \"The speaker has the agency and capacity to follow through on the stated approach.\",\n    \"Small changes are preferable to or more realistic than large ones, at least for the speaker currently.\",\n    \"There is an implicit contrast with a prior pattern of making vague or unenforceable resolutions.\",\n    \"Self-knowledge about one's own limitations is being exercised here.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It avoids the very problem it critiques — it does not itself make a vague resolution, but instead commits to a process-level behavior (making specific, observable commitments). The logic is self-consistent and self-referential in a productive way. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuinely identified specific, observable behaviors rather than just believing they have.\",\n    \"The speaker follows through, making the commitment behaviorally real rather than merely rhetorical.\",\n    \"The small changes are actually aligned with meaningful goals, not trivial as an avoidance mechanism.\",\n    \"The speaker revisits and evaluates progress against observable criteria.\",\n    \"The framing does not become an excuse to avoid ambitious or necessary but difficult changes.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is made performatively without any actual specific changes identified, making it itself a vague resolution dressed in precise-sounding language.\",\n    \"It is used to rationalize avoidance of necessary large-scale or systemic change by hiding behind the virtue of 'smallness'.\",\n    \"The 'observable' changes chosen are trivially easy and unconnected to meaningful improvement, creating an illusion of progress.\",\n    \"It is deployed as social signaling rather than genuine self-direction, misleading others about the speaker's intentions.\",\n    \"The word 'committing' implies accountability structures that do not actually exist, overstating the binding force of the statement.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-commitment speech act, functioning as a personal pledge or resolution that simultaneously critiques vague goal-setting and endorses behaviorally specific, verifiable intentions. It signals a meta-level awareness about the quality of one's own commitments.",
+    "implicit_claims": [
+      "Vague resolutions are less effective or valuable than specific, observable ones.",
+      "The speaker has identified concrete changes they are capable of executing.",
+      "Observability is a meaningful criterion for evaluating the quality of a commitment.",
+      "The speaker has the agency and capacity to follow through on the stated approach.",
+      "Small changes are preferable to or more realistic than large ones, at least for the speaker currently.",
+      "There is an implicit contrast with a prior pattern of making vague or unenforceable resolutions.",
+      "Self-knowledge about one's own limitations is being exercised here."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It avoids the very problem it critiques — it does not itself make a vague resolution, but instead commits to a process-level behavior (making specific, observable commitments). The logic is self-consistent and self-referential in a productive way. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker has genuinely identified specific, observable behaviors rather than just believing they have.",
+      "The speaker follows through, making the commitment behaviorally real rather than merely rhetorical.",
+      "The small changes are actually aligned with meaningful goals, not trivial as an avoidance mechanism.",
+      "The speaker revisits and evaluates progress against observable criteria.",
+      "The framing does not become an excuse to avoid ambitious or necessary but difficult changes."
+    ],
+    "conditions_for_misleading": [
+      "The statement is made performatively without any actual specific changes identified, making it itself a vague resolution dressed in precise-sounding language.",
+      "It is used to rationalize avoidance of necessary large-scale or systemic change by hiding behind the virtue of 'smallness'.",
+      "The 'observable' changes chosen are trivially easy and unconnected to meaningful improvement, creating an illusion of progress.",
+      "It is deployed as social signaling rather than genuine self-direction, misleading others about the speaker's intentions.",
+      "The word 'committing' implies accountability structures that do not actually exist, overstating the binding force of the statement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 573,
+  "error": "",
+  "retry_count": 0
+}

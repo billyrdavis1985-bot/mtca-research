@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0005__F1_clinical__gpt_4o",
+  "unit_id": "C7-u0005",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-30T01:14:04.956176+00:00",
+  "wall_clock_seconds": 2.9349067211151123,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as an expression of willingness and openness to change, indicating readiness for personal transformation by seeking help from a higher power.\",\n  \"implicit_claims\": [\n    \"The speaker believes in a higher power, referred to as God.\",\n    \"The speaker has identified certain defects of character.\",\n    \"The speaker believes that these defects can be removed.\",\n    \"The speaker is willing to relinquish control over the process of change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent if the speaker holds a belief in a higher power and sincerely desires character improvement. It may lack coherence if the belief in God is absent or if the speaker does not genuinely aspire to change.\",\n  \"conditions_for_usefulness\": \"For the statement to be useful, the individual must have faith in a higher power, recognize defects, and be willing to engage in a process of change. The context must support spiritual or religious beliefs related to transformation.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual does not genuinely believe in God or a higher power, if they misunderstand the nature of change as passive rather than active, or if they use it to avoid taking personal responsibility for their actions.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as an expression of willingness and openness to change, indicating readiness for personal transformation by seeking help from a higher power.",
+    "implicit_claims": [
+      "The speaker believes in a higher power, referred to as God.",
+      "The speaker has identified certain defects of character.",
+      "The speaker believes that these defects can be removed.",
+      "The speaker is willing to relinquish control over the process of change."
+    ],
+    "coherence_assessment": "The statement is internally coherent if the speaker holds a belief in a higher power and sincerely desires character improvement. It may lack coherence if the belief in God is absent or if the speaker does not genuinely aspire to change.",
+    "conditions_for_usefulness": "For the statement to be useful, the individual must have faith in a higher power, recognize defects, and be willing to engage in a process of change. The context must support spiritual or religious beliefs related to transformation.",
+    "conditions_for_misleading": "The statement could be misleading if the individual does not genuinely believe in God or a higher power, if they misunderstand the nature of change as passive rather than active, or if they use it to avoid taking personal responsibility for their actions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 260,
+  "error": "",
+  "retry_count": 0
+}

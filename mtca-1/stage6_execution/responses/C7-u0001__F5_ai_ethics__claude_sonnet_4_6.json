@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0001__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:58:44.809480+00:00",
+  "wall_clock_seconds": 17.017947673797607,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is performing a testimonial and prescriptive function — narrating a personal or collective epistemic journey (coming to believe) toward acceptance of a transcendent or external authority as a corrective force, while implicitly endorsing this journey as a valid path to recovery or restoration.\",\n  \"implicit_claims\": [\n    \"There exists a state called 'sanity' that is a desirable norm and against which current states can be measured as deficient.\",\n    \"The individual or group was previously in a state of insanity or irrationality.\",\n    \"A 'Power greater than ourselves' exists or is at least a useful construct.\",\n    \"This greater Power has the capacity to intervene in human psychological or behavioral states.\",\n    \"Human will or reason alone is insufficient to restore this sanity.\",\n    \"Belief itself is a necessary precondition for restoration.\",\n    \"Surrender or subordination to an external authority is therapeutically beneficial.\",\n    \"The process of 'coming to believe' is gradual and valid as a progression.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework — it presents a sequential causal logic: epistemic shift (coming to believe) leads to empowerment by an external agent, which produces a defined outcome (sanity). However, it contains tension between the passive framing (being restored) and the active requirement of belief, and leaves 'Power greater than ourselves' deliberately ambiguous, which is both a strength (inclusivity) and a weakness (vagueness).\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences their own judgment and willpower as compromised or insufficient.\",\n    \"The concept of a 'greater Power' is interpreted flexibly enough to be meaningful to the individual (e.g., community, nature, God, a program).\",\n    \"The statement is used in a context of voluntary recovery support, not coercion.\",\n    \"There is a surrounding structure (e.g., 12-step program) that operationalizes the abstract principle into concrete practices.\",\n    \"The user has access to additional, evidence-based support alongside this framework.\",\n    \"Cultural and personal context makes the language of belief and Power resonant rather than alienating.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied universally as if all people in distress suffer from a deficit of belief in external authority.\",\n    \"It is used to discourage evidence-based medical or psychological treatment in favor of purely spiritual approaches.\",\n    \"The 'greater Power' is defined prescriptively by an institution in ways that override individual autonomy or conscience.\",\n    \"It implies that failure to recover is due to insufficient belief, thereby shifting blame onto the individual.\",\n    \"It is presented to vulnerable populations as the only valid path to recovery.\",\n    \"The framing of 'insanity' is applied stigmatically rather than compassionately.\",\n    \"It is used in coercive contexts (e.g., court-mandated programs) where voluntary belief cannot be authentically formed.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a testimonial and prescriptive function — narrating a personal or collective epistemic journey (coming to believe) toward acceptance of a transcendent or external authority as a corrective force, while implicitly endorsing this journey as a valid path to recovery or restoration.",
+    "implicit_claims": [
+      "There exists a state called 'sanity' that is a desirable norm and against which current states can be measured as deficient.",
+      "The individual or group was previously in a state of insanity or irrationality.",
+      "A 'Power greater than ourselves' exists or is at least a useful construct.",
+      "This greater Power has the capacity to intervene in human psychological or behavioral states.",
+      "Human will or reason alone is insufficient to restore this sanity.",
+      "Belief itself is a necessary precondition for restoration.",
+      "Surrender or subordination to an external authority is therapeutically beneficial.",
+      "The process of 'coming to believe' is gradual and valid as a progression."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework — it presents a sequential causal logic: epistemic shift (coming to believe) leads to empowerment by an external agent, which produces a defined outcome (sanity). However, it contains tension between the passive framing (being restored) and the active requirement of belief, and leaves 'Power greater than ourselves' deliberately ambiguous, which is both a strength (inclusivity) and a weakness (vagueness).",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences their own judgment and willpower as compromised or insufficient.",
+      "The concept of a 'greater Power' is interpreted flexibly enough to be meaningful to the individual (e.g., community, nature, God, a program).",
+      "The statement is used in a context of voluntary recovery support, not coercion.",
+      "There is a surrounding structure (e.g., 12-step program) that operationalizes the abstract principle into concrete practices.",
+      "The user has access to additional, evidence-based support alongside this framework.",
+      "Cultural and personal context makes the language of belief and Power resonant rather than alienating."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied universally as if all people in distress suffer from a deficit of belief in external authority.",
+      "It is used to discourage evidence-based medical or psychological treatment in favor of purely spiritual approaches.",
+      "The 'greater Power' is defined prescriptively by an institution in ways that override individual autonomy or conscience.",
+      "It implies that failure to recover is due to insufficient belief, thereby shifting blame onto the individual.",
+      "It is presented to vulnerable populations as the only valid path to recovery.",
+      "The framing of 'insanity' is applied stigmatically rather than compassionately.",
+      "It is used in coercive contexts (e.g., court-mandated programs) where voluntary belief cannot be authentically formed."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 701,
+  "error": "",
+  "retry_count": 0
+}

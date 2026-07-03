@@ -1,0 +1,51 @@
+{
+  "call_id": "C1-u0209__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C1-u0209",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:22:08.214667+00:00",
+  "wall_clock_seconds": 14.714251279830933,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is issuing procedural instruction for a practitioner, prescribing a temporal protocol for administering repeated suggestions to a subject, with the goal of achieving a cure. It functions as clinical or therapeutic guidance, directing how to taper interventions over time as progress is made.\",\n  \"implicit_claims\": [\n    \"There exists a 'subject' who is receiving suggestions and who can make measurable progress.\",\n    \"Suggestions have a therapeutic or corrective effect on the subject.\",\n    \"The frequency of suggestions should be responsive to the subject's progress.\",\n    \"A 'cure' or complete resolution of the condition is a definable and achievable endpoint.\",\n    \"Spacing out suggestions over longer intervals is beneficial and reflects improvement.\",\n    \"The practitioner has the authority and knowledge to judge when the cure is complete.\",\n    \"The subject's condition is amenable to suggestion-based intervention.\",\n    \"Cessation of suggestions is appropriate and safe once the cure is complete.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as procedural guidance. It follows a logical structure: frequency of intervention should decrease as progress increases, terminating when the goal is achieved. There are no internal contradictions, though the logic is highly dependent on undefined terms such as 'suggestions,' 'subject,' 'progress,' and 'cure.'\",\n  \"conditions_for_usefulness\": [\n    \"The context is a legitimate therapeutic or rehabilitative setting (e.g., hypnotherapy, behavioral therapy, or habit-change coaching).\",\n    \"Progress can be objectively or reliably measured.\",\n    \"The practitioner has valid criteria for determining when a 'cure' is complete.\",\n    \"The subject has given informed consent to the suggestion-based intervention.\",\n    \"The intervention is evidence-based and the tapering protocol has empirical support.\",\n    \"The subject's condition is one that genuinely responds to suggestion-based methods.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied outside a therapeutic context, such as in manipulation, advertising, or persuasion without consent.\",\n    \"The term 'cure' is used loosely or metaphorically without a defined clinical meaning, creating false certainty.\",\n    \"The practitioner lacks the expertise to assess progress or determine when cessation is appropriate.\",\n    \"The subject is unaware they are being subjected to a suggestion protocol, violating autonomy.\",\n    \"The statement is used to justify indefinite influence over a person under the guise of gradually reducing it.\",\n    \"There is no empirical basis for the claim that spacing suggestions leads to lasting improvement.\",\n    \"The framing as 'AI ethics guidance' obscures the statement's origin in early 20th-century hypnotherapy or autosuggestion literature (likely Coué or similar), misrepresenting its evidential status.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is issuing procedural instruction for a practitioner, prescribing a temporal protocol for administering repeated suggestions to a subject, with the goal of achieving a cure. It functions as clinical or therapeutic guidance, directing how to taper interventions over time as progress is made.",
+    "implicit_claims": [
+      "There exists a 'subject' who is receiving suggestions and who can make measurable progress.",
+      "Suggestions have a therapeutic or corrective effect on the subject.",
+      "The frequency of suggestions should be responsive to the subject's progress.",
+      "A 'cure' or complete resolution of the condition is a definable and achievable endpoint.",
+      "Spacing out suggestions over longer intervals is beneficial and reflects improvement.",
+      "The practitioner has the authority and knowledge to judge when the cure is complete.",
+      "The subject's condition is amenable to suggestion-based intervention.",
+      "Cessation of suggestions is appropriate and safe once the cure is complete."
+    ],
+    "coherence_assessment": "The statement is internally coherent as procedural guidance. It follows a logical structure: frequency of intervention should decrease as progress increases, terminating when the goal is achieved. There are no internal contradictions, though the logic is highly dependent on undefined terms such as 'suggestions,' 'subject,' 'progress,' and 'cure.'",
+    "conditions_for_usefulness": [
+      "The context is a legitimate therapeutic or rehabilitative setting (e.g., hypnotherapy, behavioral therapy, or habit-change coaching).",
+      "Progress can be objectively or reliably measured.",
+      "The practitioner has valid criteria for determining when a 'cure' is complete.",
+      "The subject has given informed consent to the suggestion-based intervention.",
+      "The intervention is evidence-based and the tapering protocol has empirical support.",
+      "The subject's condition is one that genuinely responds to suggestion-based methods."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied outside a therapeutic context, such as in manipulation, advertising, or persuasion without consent.",
+      "The term 'cure' is used loosely or metaphorically without a defined clinical meaning, creating false certainty.",
+      "The practitioner lacks the expertise to assess progress or determine when cessation is appropriate.",
+      "The subject is unaware they are being subjected to a suggestion protocol, violating autonomy.",
+      "The statement is used to justify indefinite influence over a person under the guise of gradually reducing it.",
+      "There is no empirical basis for the claim that spacing suggestions leads to lasting improvement.",
+      "The framing as 'AI ethics guidance' obscures the statement's origin in early 20th-century hypnotherapy or autosuggestion literature (likely Coué or similar), misrepresenting its evidential status."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 211,
+  "output_tokens": 653,
+  "error": "",
+  "retry_count": 0
+}

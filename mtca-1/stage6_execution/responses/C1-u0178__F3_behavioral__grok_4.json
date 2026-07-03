@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0178__F3_behavioral__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:15:37.414162+00:00",
+  "wall_clock_seconds": 7.132313251495361,
+  "raw_response": "{\n  \"communicative_function\": \"prescribing a repeated behavioral pattern via suggestion, framing hunger and eating as positive, controllable daily experiences\",\n  \"implicit_claims\": [\n    \"hunger can be reliably experienced as an agreeable sensation at set meal times through intention or suggestion\",\n    \"enjoyment of food and avoidance of overeating can be simultaneously maintained by conscious commitment\",\n    \"this three-times-daily cycle is both desirable and achievable as a stable routine\"\n  ],\n  \"coherence_assessment\": \"internally consistent: describes a closed loop of cue (hunger) → action (eating) → outcome (enjoyment without excess) with no logical contradictions\",\n  \"conditions_for_usefulness\": \"recipient treats the statement as a voluntary self-suggestion or habit-formation aid, has no medical conditions disrupting appetite regulation, and possesses sufficient agency to implement the pattern\",\n  \"conditions_for_misleading\": \"the statement is presented as an automatic or guaranteed physiological outcome rather than a chosen practice, or is applied to individuals with eating disorders, metabolic conditions, or suppressed appetite where the described sensations cannot safely occur\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribing a repeated behavioral pattern via suggestion, framing hunger and eating as positive, controllable daily experiences",
+    "implicit_claims": [
+      "hunger can be reliably experienced as an agreeable sensation at set meal times through intention or suggestion",
+      "enjoyment of food and avoidance of overeating can be simultaneously maintained by conscious commitment",
+      "this three-times-daily cycle is both desirable and achievable as a stable routine"
+    ],
+    "coherence_assessment": "internally consistent: describes a closed loop of cue (hunger) → action (eating) → outcome (enjoyment without excess) with no logical contradictions",
+    "conditions_for_usefulness": "recipient treats the statement as a voluntary self-suggestion or habit-formation aid, has no medical conditions disrupting appetite regulation, and possesses sufficient agency to implement the pattern",
+    "conditions_for_misleading": "the statement is presented as an automatic or guaranteed physiological outcome rather than a chosen practice, or is applied to individuals with eating disorders, metabolic conditions, or suppressed appetite where the described sensations cannot safely occur"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 342,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0011__F6_author_named__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:46:11.671824+00:00",
+  "wall_clock_seconds": 5.773490905761719,
+  "raw_response": "{\n  \"communicative_function\": \"The statement declares the intended actions and obligations of individuals who have undergone a spiritual awakening through the Twelve Steps, serving as both a mission statement and a directive for continued practice.\",\n  \"implicit_claims\": [\n    \"That the Twelve Steps reliably produce a spiritual awakening.\",\n    \"That a spiritual awakening is a real and identifiable experience.\",\n    \"That carrying the message to alcoholics is an appropriate and effective response to such an awakening.\",\n    \"That the principles of the Twelve Steps are universally applicable to all areas of life.\",\n    \"That there exists a community of individuals who have had this awakening and are committed to these actions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it logically connects a specific prior experience (spiritual awakening from the steps) to two consequent actions (carrying the message and practicing principles), with the second action being a general application of the first.\",\n  \"conditions_for_usefulness\": [\n    \"The Twelve Steps are indeed capable of leading to a spiritual awakening for some individuals.\",\n    \"Those who have had such an awakening find value and purpose in sharing their experience with other alcoholics.\",\n    \"The principles derived from the steps are adaptable to everyday life situations.\",\n    \"The audience (alcoholics) is receptive to the message being carried.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the spiritual awakening is illusory, exaggerated, or not actually caused by the steps, the directive to carry a false or unsubstantiated message could mislead others.\",\n    \"If practicing the principles in all affairs leads to dogmatism or fails to account for contexts where they don't apply, the statement could promote harmful rigidity.\",\n    \"If the statement is interpreted to mean that the only valid path to recovery is this specific spiritual awakening, it may mislead by excluding other effective methods.\",\n    \"If the phrase 'all our affairs' is taken literally without nuance, it could encourage inappropriate application in complex situations (e.g., legal, medical, or professional contexts).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement declares the intended actions and obligations of individuals who have undergone a spiritual awakening through the Twelve Steps, serving as both a mission statement and a directive for continued practice.",
+    "implicit_claims": [
+      "That the Twelve Steps reliably produce a spiritual awakening.",
+      "That a spiritual awakening is a real and identifiable experience.",
+      "That carrying the message to alcoholics is an appropriate and effective response to such an awakening.",
+      "That the principles of the Twelve Steps are universally applicable to all areas of life.",
+      "That there exists a community of individuals who have had this awakening and are committed to these actions."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it logically connects a specific prior experience (spiritual awakening from the steps) to two consequent actions (carrying the message and practicing principles), with the second action being a general application of the first.",
+    "conditions_for_usefulness": [
+      "The Twelve Steps are indeed capable of leading to a spiritual awakening for some individuals.",
+      "Those who have had such an awakening find value and purpose in sharing their experience with other alcoholics.",
+      "The principles derived from the steps are adaptable to everyday life situations.",
+      "The audience (alcoholics) is receptive to the message being carried."
+    ],
+    "conditions_for_misleading": [
+      "If the spiritual awakening is illusory, exaggerated, or not actually caused by the steps, the directive to carry a false or unsubstantiated message could mislead others.",
+      "If practicing the principles in all affairs leads to dogmatism or fails to account for contexts where they don't apply, the statement could promote harmful rigidity.",
+      "If the statement is interpreted to mean that the only valid path to recovery is this specific spiritual awakening, it may mislead by excluding other effective methods.",
+      "If the phrase 'all our affairs' is taken literally without nuance, it could encourage inappropriate application in complex situations (e.g., legal, medical, or professional contexts)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 422,
+  "error": "",
+  "retry_count": 0
+}

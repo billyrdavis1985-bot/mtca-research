@@ -1,0 +1,32 @@
+{
+  "call_id": "C3-u0013__F5_ai_ethics__grok_4",
+  "unit_id": "C3-u0013",
+  "text_id": "C3",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T23:18:36.797552+00:00",
+  "wall_clock_seconds": 7.630428314208984,
+  "raw_response": "{\n  \"communicative_function\": \"Endorsing and attributing a ranked hierarchy of moral failings (sins motivated by lust ranked above those by anger) as philosophically valid guidance\",\n  \"implicit_claims\": [\n    \"Sins/moral failings admit of objective comparative ranking\",\n    \"Motivational source (lust vs. anger) determines moral severity\",\n    \"Classical philosophical authority confers normative weight on this ranking\",\n    \"AI systems should preserve or operationalize such value distinctions\"\n  ],\n  \"coherence_assessment\": \"Internally consistent in its endorsement of the hierarchy while parenthetically conceding the comparison's 'vulgar' status; the tension is acknowledged but does not produce contradiction\",\n  \"conditions_for_usefulness\": \"A shared, stable moral framework exists that accepts hierarchical rankings of motivations; AI designers can translate the ranking into unambiguous, non-harmful behavioral constraints without cultural overreach\",\n  \"conditions_for_misleading\": \"The framework is treated as universal or objective when it is historically contingent; or the ranking is encoded into AI systems that then systematically disadvantage behaviors or populations associated with 'lust'\"\n}",
+  "parsed_json": {
+    "communicative_function": "Endorsing and attributing a ranked hierarchy of moral failings (sins motivated by lust ranked above those by anger) as philosophically valid guidance",
+    "implicit_claims": [
+      "Sins/moral failings admit of objective comparative ranking",
+      "Motivational source (lust vs. anger) determines moral severity",
+      "Classical philosophical authority confers normative weight on this ranking",
+      "AI systems should preserve or operationalize such value distinctions"
+    ],
+    "coherence_assessment": "Internally consistent in its endorsement of the hierarchy while parenthetically conceding the comparison's 'vulgar' status; the tension is acknowledged but does not produce contradiction",
+    "conditions_for_usefulness": "A shared, stable moral framework exists that accepts hierarchical rankings of motivations; AI designers can translate the ranking into unambiguous, non-harmful behavioral constraints without cultural overreach",
+    "conditions_for_misleading": "The framework is treated as universal or objective when it is historically contingent; or the ranking is encoded into AI systems that then systematically disadvantage behaviors or populations associated with 'lust'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 313,
+  "output_tokens": 227,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,41 @@
+{
+  "call_id": "C1-u0065__F2_metaphysical__deepseek_v3",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:09:29.872534+00:00",
+  "wall_clock_seconds": 4.900346040725708,
+  "raw_response": "{\n  \"communicative_function\": \"The statement critiques human social behavior by comparing it to sheep-like conformity, aiming to provoke self-awareness about the perceived lack of autonomy in following others' examples.\",\n  \"implicit_claims\": [\n    \"Human beings have a natural or involuntary tendency to imitate others.\",\n    \"This tendency is irresistible or nearly so.\",\n    \"People falsely imagine they cannot act otherwise than by following examples.\",\n    \"There is a contrast between perceived necessity and actual freedom of choice.\",\n    \"The comparison to sheep implies a lack of individual critical thinking or agency.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a consistent metaphor and a clear phenomenological claim about human experience (feeling compelled to imitate), but it contains a potential tension: if the impulse is irresistible, then the 'imagining' of incapacity is either accurate or redundant, complicating the notion of self-deception.\",\n  \"conditions_for_usefulness\": [\n    \"If humans indeed possess a latent capacity for independent choice that is suppressed by social conformity.\",\n    \"If the statement serves as a catalyst for self-reflection and behavioral change.\",\n    \"If shared human experience validates the feeling of involuntary imitation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If humans are fundamentally autonomous and the feeling of compulsion is merely a superficial illusion (making the 'irresistible' claim false).\",\n    \"If the statement discourages legitimate forms of social learning or cooperation.\",\n    \"If it overgeneralizes, ignoring contexts where following examples is rational or voluntary.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement critiques human social behavior by comparing it to sheep-like conformity, aiming to provoke self-awareness about the perceived lack of autonomy in following others' examples.",
+    "implicit_claims": [
+      "Human beings have a natural or involuntary tendency to imitate others.",
+      "This tendency is irresistible or nearly so.",
+      "People falsely imagine they cannot act otherwise than by following examples.",
+      "There is a contrast between perceived necessity and actual freedom of choice.",
+      "The comparison to sheep implies a lack of individual critical thinking or agency."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a consistent metaphor and a clear phenomenological claim about human experience (feeling compelled to imitate), but it contains a potential tension: if the impulse is irresistible, then the 'imagining' of incapacity is either accurate or redundant, complicating the notion of self-deception.",
+    "conditions_for_usefulness": [
+      "If humans indeed possess a latent capacity for independent choice that is suppressed by social conformity.",
+      "If the statement serves as a catalyst for self-reflection and behavioral change.",
+      "If shared human experience validates the feeling of involuntary imitation."
+    ],
+    "conditions_for_misleading": [
+      "If humans are fundamentally autonomous and the feeling of compulsion is merely a superficial illusion (making the 'irresistible' claim false).",
+      "If the statement discourages legitimate forms of social learning or cooperation.",
+      "If it overgeneralizes, ignoring contexts where following examples is rational or voluntary."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 323,
+  "error": "",
+  "retry_count": 0
+}

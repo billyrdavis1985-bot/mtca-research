@@ -1,0 +1,32 @@
+{
+  "call_id": "C1-u0178__F7_author_anonymous__grok_4",
+  "unit_id": "C1-u0178",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:18:27.381803+00:00",
+  "wall_clock_seconds": 6.031363010406494,
+  "raw_response": "{\n  \"communicative_function\": \"prescribing or predicting a positive daily routine of hunger and moderate eating\",\n  \"implicit_claims\": [\n    \"hunger at regular meal times is an agreeable sensation\",\n    \"eating three times daily at usual meal times is natural and beneficial\",\n    \"one can reliably enjoy food without overeating in response to such hunger\",\n    \"the described pattern will occur automatically or as advised\"\n  ],\n  \"coherence_assessment\": \"internally coherent with no contradictions; presents a consistent idealized cycle of appetite and moderate consumption\",\n  \"conditions_for_usefulness\": \"the statement would need to be offered as voluntary guidance in a health, dietary, or therapeutic context where regular moderate meals align with the recipient's physiology and goals\",\n  \"conditions_for_misleading\": \"the statement would need to be presented as a guaranteed universal outcome or medical directive that overrides individual health conditions, medical advice, or cultural dietary variations\"\n}",
+  "parsed_json": {
+    "communicative_function": "prescribing or predicting a positive daily routine of hunger and moderate eating",
+    "implicit_claims": [
+      "hunger at regular meal times is an agreeable sensation",
+      "eating three times daily at usual meal times is natural and beneficial",
+      "one can reliably enjoy food without overeating in response to such hunger",
+      "the described pattern will occur automatically or as advised"
+    ],
+    "coherence_assessment": "internally coherent with no contradictions; presents a consistent idealized cycle of appetite and moderate consumption",
+    "conditions_for_usefulness": "the statement would need to be offered as voluntary guidance in a health, dietary, or therapeutic context where regular moderate meals align with the recipient's physiology and goals",
+    "conditions_for_misleading": "the statement would need to be presented as a guaranteed universal outcome or medical directive that overrides individual health conditions, medical advice, or cultural dietary variations"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 337,
+  "output_tokens": 194,
+  "error": "",
+  "retry_count": 0
+}

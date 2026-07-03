@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0051__F4_poetic__deepseek_v3",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:05:28.177984+00:00",
+  "wall_clock_seconds": 5.014672517776489,
+  "raw_response": "{\n  \"communicative_function\": \"The statement offers a conditional observation or quiet reassurance about a person's behavior, perhaps as part of a lullaby or soothing instruction.\",\n  \"implicit_claims\": [\n    \"The person is capable of lying quietly in bed.\",\n    \"There is a distinction between making an effort to sleep and simply lying still.\",\n    \"Lying quietly is a possible alternative to actively trying to sleep.\",\n    \"The person might otherwise not lie quietly if they were making no effort to sleep.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a conditional: it describes a situation (no effort to sleep) and a consequent behavior (lying quietly). The logic holds if the premise and consequence are accepted as plausible.\",\n  \"conditions_for_usefulness\": [\n    \"The listener is comforting or instructing a restless person, perhaps a child or an insomniac.\",\n    \"The goal is to reduce pressure or anxiety about sleeping.\",\n    \"The person is physically able and willing to stay still in bed.\",\n    \"The context is one where stillness is valued over active striving for sleep.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the person interprets 'no effort to sleep' as permission to stay awake and active, leading to restlessness.\",\n    \"If the person cannot lie quietly due to pain, anxiety, or discomfort, the statement implies an unrealistic expectation.\",\n    \"If the statement is taken as a medical or literal prescription for insomnia, it may oversimplify the condition.\",\n    \"If the listener believes lying quietly will automatically lead to sleep, but the text only says 'lie quietly,' not 'fall asleep.'\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement offers a conditional observation or quiet reassurance about a person's behavior, perhaps as part of a lullaby or soothing instruction.",
+    "implicit_claims": [
+      "The person is capable of lying quietly in bed.",
+      "There is a distinction between making an effort to sleep and simply lying still.",
+      "Lying quietly is a possible alternative to actively trying to sleep.",
+      "The person might otherwise not lie quietly if they were making no effort to sleep."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a conditional: it describes a situation (no effort to sleep) and a consequent behavior (lying quietly). The logic holds if the premise and consequence are accepted as plausible.",
+    "conditions_for_usefulness": [
+      "The listener is comforting or instructing a restless person, perhaps a child or an insomniac.",
+      "The goal is to reduce pressure or anxiety about sleeping.",
+      "The person is physically able and willing to stay still in bed.",
+      "The context is one where stillness is valued over active striving for sleep."
+    ],
+    "conditions_for_misleading": [
+      "If the person interprets 'no effort to sleep' as permission to stay awake and active, leading to restlessness.",
+      "If the person cannot lie quietly due to pain, anxiety, or discomfort, the statement implies an unrealistic expectation.",
+      "If the statement is taken as a medical or literal prescription for insomnia, it may oversimplify the condition.",
+      "If the listener believes lying quietly will automatically lead to sleep, but the text only says 'lie quietly,' not 'fall asleep.'"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 347,
+  "error": "",
+  "retry_count": 0
+}

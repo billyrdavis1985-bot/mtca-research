@@ -1,0 +1,45 @@
+{
+  "call_id": "C7-u0005__F1_clinical__deepseek_v3",
+  "unit_id": "C7-u0005",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:14:28.986857+00:00",
+  "wall_clock_seconds": 5.423056125640869,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an expression of readiness, surrender, and willingness to undergo change by invoking a higher power (God) to remove personal character defects, often used in Step 6 of AA's 12-step program.\",\n  \"implicit_claims\": [\n    \"There exists a higher power (God) capable of removing defects of character.\",\n    \"The speaker has identified specific defects of character.\",\n    \"Defects of character are undesirable and can be removed.\",\n    \"The speaker is not yet entirely ready but is in a process of becoming ready.\",\n    \"Personal effort alone is insufficient; divine intervention is needed.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent within a theistic or spiritual framework, but logically problematic if interpreted literally (e.g., 'entirely ready' implies a state that may be aspirational rather than factual, and 'remove all defects' suggests a perfection that may be unattainable).\",\n  \"conditions_for_usefulness\": [\n    \"The individual accepts a theistic or spiritual worldview.\",\n    \"The individual has undergone self-reflection to identify character defects.\",\n    \"The individual feels stuck or powerless and seeks external support.\",\n    \"The statement is used as part of a structured program (e.g., AA) with guidance.\",\n    \"The individual is willing to engage in ongoing work beyond the statement.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual does not believe in a higher power, making the statement empty or disingenuous.\",\n    \"The individual uses the statement as a substitute for active behavioral change.\",\n    \"The statement implies that defects can be removed without personal responsibility or effort.\",\n    \"The individual has not identified specific defects, leading to vague or magical thinking.\",\n    \"The statement reinforces passivity or dependency on an external agent without accountability.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an expression of readiness, surrender, and willingness to undergo change by invoking a higher power (God) to remove personal character defects, often used in Step 6 of AA's 12-step program.",
+    "implicit_claims": [
+      "There exists a higher power (God) capable of removing defects of character.",
+      "The speaker has identified specific defects of character.",
+      "Defects of character are undesirable and can be removed.",
+      "The speaker is not yet entirely ready but is in a process of becoming ready.",
+      "Personal effort alone is insufficient; divine intervention is needed."
+    ],
+    "coherence_assessment": "Internally coherent within a theistic or spiritual framework, but logically problematic if interpreted literally (e.g., 'entirely ready' implies a state that may be aspirational rather than factual, and 'remove all defects' suggests a perfection that may be unattainable).",
+    "conditions_for_usefulness": [
+      "The individual accepts a theistic or spiritual worldview.",
+      "The individual has undergone self-reflection to identify character defects.",
+      "The individual feels stuck or powerless and seeks external support.",
+      "The statement is used as part of a structured program (e.g., AA) with guidance.",
+      "The individual is willing to engage in ongoing work beyond the statement."
+    ],
+    "conditions_for_misleading": [
+      "The individual does not believe in a higher power, making the statement empty or disingenuous.",
+      "The individual uses the statement as a substitute for active behavioral change.",
+      "The statement implies that defects can be removed without personal responsibility or effort.",
+      "The individual has not identified specific defects, leading to vague or magical thinking.",
+      "The statement reinforces passivity or dependency on an external agent without accountability."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 382,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0001__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:56:15.077191+00:00",
+  "wall_clock_seconds": 6.360412359237671,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal commitment to a cognitive reframing technique aimed at countering catastrophic thinking, thereby modeling a value of rational self-correction.\",\n  \"implicit_claims\": [\n    \"Catastrophizing is a phenomenon that can be recognized and intentionally addressed.\",\n    \"The speaker has the capacity to catch themselves in the act of catastrophizing.\",\n    \"There is a distinction between a catastrophic thought and a realistic worst case.\",\n    \"Asking what the realistic worst case looks like is a useful corrective to catastrophizing.\",\n    \"The speaker is willing to engage in this self-questioning (implying a value placed on rationality and emotional regulation).\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It presents a conditional act (when catching catastrophizing) followed by a willing action (asking for realistic worst case), which aligns logically with the goal of reducing cognitive distortion.\",\n  \"conditions_for_usefulness\": [\n    \"The person can reliably identify when they are catastrophizing.\",\n    \"They have the cognitive and emotional resources to pause and reflect.\",\n    \"The distinction between catastrophic and realistic worst cases is accessible and meaningful in their context.\",\n    \"The act of asking the question actually reduces distress or leads to more balanced thinking.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Catastrophizing is misidentified (e.g., a genuine high-risk situation is dismissed as irrational).\",\n    \"The person lacks the ability to distinguish realistic worst case from catastrophic worst case (e.g., due to trauma or lack of information).\",\n    \"The statement is used to invalidate legitimate fears or discourage appropriate precaution.\",\n    \"The person may use the question as a way to deny or avoid emotional processing rather than integrate it.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal commitment to a cognitive reframing technique aimed at countering catastrophic thinking, thereby modeling a value of rational self-correction.",
+    "implicit_claims": [
+      "Catastrophizing is a phenomenon that can be recognized and intentionally addressed.",
+      "The speaker has the capacity to catch themselves in the act of catastrophizing.",
+      "There is a distinction between a catastrophic thought and a realistic worst case.",
+      "Asking what the realistic worst case looks like is a useful corrective to catastrophizing.",
+      "The speaker is willing to engage in this self-questioning (implying a value placed on rationality and emotional regulation)."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It presents a conditional act (when catching catastrophizing) followed by a willing action (asking for realistic worst case), which aligns logically with the goal of reducing cognitive distortion.",
+    "conditions_for_usefulness": [
+      "The person can reliably identify when they are catastrophizing.",
+      "They have the cognitive and emotional resources to pause and reflect.",
+      "The distinction between catastrophic and realistic worst cases is accessible and meaningful in their context.",
+      "The act of asking the question actually reduces distress or leads to more balanced thinking."
+    ],
+    "conditions_for_misleading": [
+      "Catastrophizing is misidentified (e.g., a genuine high-risk situation is dismissed as irrational).",
+      "The person lacks the ability to distinguish realistic worst case from catastrophic worst case (e.g., due to trauma or lack of information).",
+      "The statement is used to invalidate legitimate fears or discourage appropriate precaution.",
+      "The person may use the question as a way to deny or avoid emotional processing rather than integrate it."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 373,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C3-u0038__F1_clinical__deepseek_v3",
+  "unit_id": "C3-u0038",
+  "text_id": "C3",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T23:38:47.744361+00:00",
+  "wall_clock_seconds": 5.564960956573486,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions to challenge the client's attachment to temporal control or regret, reframing the notion of 'having' or 'losing' past and future events as a cognitive illusion.\",\n  \"implicit_claims\": [\n    \"One cannot truly possess or own past or future events.\",\n    \"The only thing one can properly part with is the present moment or what is currently held.\",\n    \"Temporal experiences (past and future) are not objects that can be transferred or relinquished.\",\n    \"Regret and anxiety are based on a mistaken belief in ownership of time-bound events.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a Stoic or present-focused philosophical framework, relying on a precise definition of 'parting with' that distinguishes between psychological attachment and literal possession. It is logically consistent if one accepts that only present-moment phenomena can be subject to volitional control.\",\n  \"conditions_for_usefulness\": [\n    \"The client experiences excessive guilt, regret, or rumination about past events.\",\n    \"The client has unrealistic beliefs about controlling or changing the past.\",\n    \"The client is overly anxious or attached to future outcomes beyond their control.\",\n    \"The therapeutic context supports present-moment focus (e.g., mindfulness, ACT, Stoic CBT).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets the statement as invalidating genuine emotional responses to loss or trauma.\",\n    \"The client uses the statement to avoid acknowledging past events that have present consequences (e.g., legal, relational).\",\n    \"The client has a cognitive style that literalizes the metaphor, leading to dismissal of practical planning or historical learning.\",\n    \"The client is in acute distress where validation of pain is needed before reframing.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions to challenge the client's attachment to temporal control or regret, reframing the notion of 'having' or 'losing' past and future events as a cognitive illusion.",
+    "implicit_claims": [
+      "One cannot truly possess or own past or future events.",
+      "The only thing one can properly part with is the present moment or what is currently held.",
+      "Temporal experiences (past and future) are not objects that can be transferred or relinquished.",
+      "Regret and anxiety are based on a mistaken belief in ownership of time-bound events."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a Stoic or present-focused philosophical framework, relying on a precise definition of 'parting with' that distinguishes between psychological attachment and literal possession. It is logically consistent if one accepts that only present-moment phenomena can be subject to volitional control.",
+    "conditions_for_usefulness": [
+      "The client experiences excessive guilt, regret, or rumination about past events.",
+      "The client has unrealistic beliefs about controlling or changing the past.",
+      "The client is overly anxious or attached to future outcomes beyond their control.",
+      "The therapeutic context supports present-moment focus (e.g., mindfulness, ACT, Stoic CBT)."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets the statement as invalidating genuine emotional responses to loss or trauma.",
+      "The client uses the statement to avoid acknowledging past events that have present consequences (e.g., legal, relational).",
+      "The client has a cognitive style that literalizes the metaphor, leading to dismissal of practical planning or historical learning.",
+      "The client is in acute distress where validation of pain is needed before reframing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 157,
+  "output_tokens": 373,
+  "error": "",
+  "retry_count": 0
+}

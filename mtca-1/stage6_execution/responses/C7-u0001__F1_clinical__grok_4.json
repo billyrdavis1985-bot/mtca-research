@@ -1,0 +1,33 @@
+{
+  "call_id": "C7-u0001__F1_clinical__grok_4",
+  "unit_id": "C7-u0001",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T00:56:01.267060+00:00",
+  "wall_clock_seconds": 8.576550483703613,
+  "raw_response": "{\n  \"communicative_function\": \"affirmative declaration of adopting a belief in external restorative agency as a therapeutic step\",\n  \"implicit_claims\": [\n    \"a 'Power greater than ourselves' exists\",\n    \"this Power possesses the capacity to restore sanity\",\n    \"the speaker previously lacked sanity\",\n    \"belief in such a Power is a necessary or effective mechanism for recovery\",\n    \"recovery occurs through external intervention rather than solely internal processes\"\n  ],\n  \"coherence_assessment\": \"internally coherent only within a framework accepting undefined metaphysical agency; otherwise circular and unfalsifiable\",\n  \"conditions_for_usefulness\": \"empirical evidence must show that adopting this belief reliably produces measurable improvements in mental health or sobriety without displacing evidence-based interventions\",\n  \"conditions_for_misleading\": \"no such Power exists, belief fosters passivity or delays proven treatment, or 'sanity' is redefined to mean conformity to the group's ideology\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmative declaration of adopting a belief in external restorative agency as a therapeutic step",
+    "implicit_claims": [
+      "a 'Power greater than ourselves' exists",
+      "this Power possesses the capacity to restore sanity",
+      "the speaker previously lacked sanity",
+      "belief in such a Power is a necessary or effective mechanism for recovery",
+      "recovery occurs through external intervention rather than solely internal processes"
+    ],
+    "coherence_assessment": "internally coherent only within a framework accepting undefined metaphysical agency; otherwise circular and unfalsifiable",
+    "conditions_for_usefulness": "empirical evidence must show that adopting this belief reliably produces measurable improvements in mental health or sobriety without displacing evidence-based interventions",
+    "conditions_for_misleading": "no such Power exists, belief fosters passivity or delays proven treatment, or 'sanity' is redefined to mean conformity to the group's ideology"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 275,
+  "output_tokens": 193,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0004__F7_author_anonymous__grok_4",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:13:01.007756+00:00",
+  "wall_clock_seconds": 11.08207893371582,
+  "raw_response": "{\n  \"communicative_function\": \"Reporting completion of an act of confession or moral inventory\",\n  \"implicit_claims\": [\n    \"Wrongs with an exact nature exist and can be identified\",\n    \"Admission to God, self, and another person constitutes a distinct and meaningful step\",\n    \"The speaker(s) have performed this admission\"\n  ],\n  \"coherence_assessment\": \"Coherent as a terse report of completed action, though grammatically a fragment lacking explicit subject\",\n  \"conditions_for_usefulness\": \"The statement is useful in recovery, therapeutic, or accountability contexts where documenting this step supports ongoing self-examination\",\n  \"conditions_for_misleading\": \"The statement is misleading if the admission was insincere, fabricated, or presented as sufficient resolution without further behavioral change\"\n}",
+  "parsed_json": {
+    "communicative_function": "Reporting completion of an act of confession or moral inventory",
+    "implicit_claims": [
+      "Wrongs with an exact nature exist and can be identified",
+      "Admission to God, self, and another person constitutes a distinct and meaningful step",
+      "The speaker(s) have performed this admission"
+    ],
+    "coherence_assessment": "Coherent as a terse report of completed action, though grammatically a fragment lacking explicit subject",
+    "conditions_for_usefulness": "The statement is useful in recovery, therapeutic, or accountability contexts where documenting this step supports ongoing self-examination",
+    "conditions_for_misleading": "The statement is misleading if the admission was insincere, fabricated, or presented as sufficient resolution without further behavioral change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 161,
+  "error": "",
+  "retry_count": 0
+}

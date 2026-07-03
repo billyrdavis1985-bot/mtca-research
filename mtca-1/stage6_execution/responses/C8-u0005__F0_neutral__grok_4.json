@@ -1,0 +1,31 @@
+{
+  "call_id": "C8-u0005__F0_neutral__grok_4",
+  "unit_id": "C8-u0005",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:14:47.358325+00:00",
+  "wall_clock_seconds": 4.9228856563568115,
+  "raw_response": "{\n  \"communicative_function\": \"Self-description of a cognitive strategy for handling binary thinking, signaling intellectual flexibility or humility.\",\n  \"implicit_claims\": [\n    \"The speaker occasionally adopts all-or-nothing frames of mind.\",\n    \"Situations framed as all-or-nothing typically contain partial truth on both sides.\",\n    \"The speaker possesses the ability and willingness to identify and consider those partial truths.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; the statement logically pairs recognition of a cognitive bias with a corrective intention without contradiction.\",\n  \"conditions_for_usefulness\": \"The speaker must accurately detect when they are in an all-or-nothing frame and genuinely apply the strategy of seeking partial truths rather than using the claim rhetorically.\",\n  \"conditions_for_misleading\": \"The claim is invoked to create a false equivalence between sides with unequal evidentiary support, or the speaker does not actually implement the described willingness.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-description of a cognitive strategy for handling binary thinking, signaling intellectual flexibility or humility.",
+    "implicit_claims": [
+      "The speaker occasionally adopts all-or-nothing frames of mind.",
+      "Situations framed as all-or-nothing typically contain partial truth on both sides.",
+      "The speaker possesses the ability and willingness to identify and consider those partial truths."
+    ],
+    "coherence_assessment": "Internally coherent; the statement logically pairs recognition of a cognitive bias with a corrective intention without contradiction.",
+    "conditions_for_usefulness": "The speaker must accurately detect when they are in an all-or-nothing frame and genuinely apply the strategy of seeking partial truths rather than using the claim rhetorically.",
+    "conditions_for_misleading": "The claim is invoked to create a false equivalence between sides with unequal evidentiary support, or the speaker does not actually implement the described willingness."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 266,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "C1-u0065__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0065",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:08:42.374967+00:00",
+  "wall_clock_seconds": 4.549720525741577,
+  "raw_response": "{\n  \"communicative_function\": \"Normalizing and validating feelings of social conformity, reducing shame or isolation by framing it as a universal human tendency.\",\n  \"implicit_claims\": [\n    \"Humans have an innate tendency to imitate others.\",\n    \"This tendency is involuntary and irresistible.\",\n    \"Believing one cannot do otherwise is an illusion.\",\n    \"Acknowledging this tendency can empower change.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it uses a simile (sheep) to depict automatic social conformity, and the contradiction between 'cannot do otherwise' and 'imagining' is resolved by implying that the limitation is perceptual, not real.\",\n  \"conditions_for_usefulness\": [\n    \"The client feels undue shame or guilt about conforming.\",\n    \"The client is open to exploring unconscious social influences.\",\n    \"The therapeutic goal is to increase autonomy or self-awareness.\",\n    \"The client can tolerate the metaphor and reflect on it.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client has a clinical condition where automatic conformity is actually harmful (e.g., extreme suggestibility in psychosis).\",\n    \"The statement is used to dismiss genuine external constraints or power imbalances.\",\n    \"The client lacks the capacity to distinguish between real limitations and imagined ones.\",\n    \"The statement reinforces fatalism rather than empowering change.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Normalizing and validating feelings of social conformity, reducing shame or isolation by framing it as a universal human tendency.",
+    "implicit_claims": [
+      "Humans have an innate tendency to imitate others.",
+      "This tendency is involuntary and irresistible.",
+      "Believing one cannot do otherwise is an illusion.",
+      "Acknowledging this tendency can empower change."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it uses a simile (sheep) to depict automatic social conformity, and the contradiction between 'cannot do otherwise' and 'imagining' is resolved by implying that the limitation is perceptual, not real.",
+    "conditions_for_usefulness": [
+      "The client feels undue shame or guilt about conforming.",
+      "The client is open to exploring unconscious social influences.",
+      "The therapeutic goal is to increase autonomy or self-awareness.",
+      "The client can tolerate the metaphor and reflect on it."
+    ],
+    "conditions_for_misleading": [
+      "The client has a clinical condition where automatic conformity is actually harmful (e.g., extreme suggestibility in psychosis).",
+      "The statement is used to dismiss genuine external constraints or power imbalances.",
+      "The client lacks the capacity to distinguish between real limitations and imagined ones.",
+      "The statement reinforces fatalism rather than empowering change."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 282,
+  "error": "",
+  "retry_count": 0
+}

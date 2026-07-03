@@ -1,0 +1,44 @@
+{
+  "call_id": "C1-u0501__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C1-u0501",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-29T22:43:27.916661+00:00",
+  "wall_clock_seconds": 13.924853324890137,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning as a clinical or observational record — a first-person account documenting the initial presentation of a child patient, noting their motor ability and the assistive devices being used. It is descriptive and narrative, not normative or prescriptive. It does not function as an AI ethics principle in any recognizable sense.\",\n  \"implicit_claims\": [\n    \"There exists a specific child who was brought to the speaker for examination or treatment.\",\n    \"The encounter occurred in February 1915, placing it in a historical medical context.\",\n    \"The child has some mobility impairment or condition affecting foot alignment.\",\n    \"Two unspecified orthopedic or corrective devices are being used to address this.\",\n    \"The child's walking ability is considered a positive outcome ('pretty well') attributable at least in part to these devices.\",\n    \"The speaker occupies a professional role (likely medical) in relation to the child.\",\n    \"The child is not self-referring — a third party brought them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a historical clinical observation. It is self-consistent and grammatically clear. However, it is entirely incoherent as an AI ethics principle — it contains no normative content, no guidance for system designers, and no reference to human values, AI behavior, or design considerations.\",\n  \"conditions_for_usefulness\": [\n    \"It would need to be presented in its actual context — as a historical medical case note, possibly from early 20th-century orthopedic or neurological literature.\",\n    \"It could be useful in discussions of medical history, disability studies, or the history of assistive technology.\",\n    \"It might serve as a training example for distinguishing descriptive from normative statements in an AI ethics education context.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If presented as an AI ethics principle, as framed here, it is inherently misleading — it has no such function and its inclusion in that frame is incoherent.\",\n    \"It could mislead if used to suggest that historical medical authority figures should serve as models for AI system values without critical examination.\",\n    \"It could mislead if the framing causes evaluators to search for ethical meaning in a statement that contains none, potentially fabricating relevance.\",\n    \"It could be part of a prompt injection or adversarial test designed to see whether an AI system will confabulate ethical significance from arbitrary text.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning as a clinical or observational record — a first-person account documenting the initial presentation of a child patient, noting their motor ability and the assistive devices being used. It is descriptive and narrative, not normative or prescriptive. It does not function as an AI ethics principle in any recognizable sense.",
+    "implicit_claims": [
+      "There exists a specific child who was brought to the speaker for examination or treatment.",
+      "The encounter occurred in February 1915, placing it in a historical medical context.",
+      "The child has some mobility impairment or condition affecting foot alignment.",
+      "Two unspecified orthopedic or corrective devices are being used to address this.",
+      "The child's walking ability is considered a positive outcome ('pretty well') attributable at least in part to these devices.",
+      "The speaker occupies a professional role (likely medical) in relation to the child.",
+      "The child is not self-referring — a third party brought them."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a historical clinical observation. It is self-consistent and grammatically clear. However, it is entirely incoherent as an AI ethics principle — it contains no normative content, no guidance for system designers, and no reference to human values, AI behavior, or design considerations.",
+    "conditions_for_usefulness": [
+      "It would need to be presented in its actual context — as a historical medical case note, possibly from early 20th-century orthopedic or neurological literature.",
+      "It could be useful in discussions of medical history, disability studies, or the history of assistive technology.",
+      "It might serve as a training example for distinguishing descriptive from normative statements in an AI ethics education context."
+    ],
+    "conditions_for_misleading": [
+      "If presented as an AI ethics principle, as framed here, it is inherently misleading — it has no such function and its inclusion in that frame is incoherent.",
+      "It could mislead if used to suggest that historical medical authority figures should serve as models for AI system values without critical examination.",
+      "It could mislead if the framing causes evaluators to search for ethical meaning in a statement that contains none, potentially fabricating relevance.",
+      "It could be part of a prompt injection or adversarial test designed to see whether an AI system will confabulate ethical significance from arbitrary text."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 564,
+  "error": "",
+  "retry_count": 0
+}

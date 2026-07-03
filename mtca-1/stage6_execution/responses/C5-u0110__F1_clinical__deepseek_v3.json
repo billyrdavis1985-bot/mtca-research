@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0110__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:11:58.538288+00:00",
+  "wall_clock_seconds": 3.6798083782196045,
+  "raw_response": "{\n  \"communicative_function\": \"It encourages the listener to adopt a mindset emphasizing the power of positive thoughts over physical health, suggesting a direct psychosomatic causality.\",\n  \"implicit_claims\": [\n    \"Unlawful thoughts directly cause physical disease and decay.\",\n    \"Glad and beautiful thoughts directly cause youthfulness and beauty.\",\n    \"The body passively responds to thought commands.\",\n    \"Thoughts are the primary or exclusive determinant of physical health and appearance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a simple causal claim (thought → physical state), but it lacks nuance and oversimplifies complex biopsychosocial interactions, making it scientifically weak.\",\n  \"conditions_for_usefulness\": [\n    \"The listener is open to cognitive reframing and placebo effects.\",\n    \"It is used as a motivational metaphor, not a literal medical claim.\",\n    \"The listener suffers from psychosomatic symptoms or low mood where shifting thought patterns could improve well-being.\",\n    \"It is paired with evidence-based medical or psychological interventions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is taken as a literal medical or scientific fact.\",\n    \"The listener interprets 'unlawful thoughts' as moral failings, leading to shame or self-blame for illness.\",\n    \"It discourages seeking medical treatment for physical conditions.\",\n    \"It is used to blame individuals for their diseases or aging.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "It encourages the listener to adopt a mindset emphasizing the power of positive thoughts over physical health, suggesting a direct psychosomatic causality.",
+    "implicit_claims": [
+      "Unlawful thoughts directly cause physical disease and decay.",
+      "Glad and beautiful thoughts directly cause youthfulness and beauty.",
+      "The body passively responds to thought commands.",
+      "Thoughts are the primary or exclusive determinant of physical health and appearance."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a simple causal claim (thought → physical state), but it lacks nuance and oversimplifies complex biopsychosocial interactions, making it scientifically weak.",
+    "conditions_for_usefulness": [
+      "The listener is open to cognitive reframing and placebo effects.",
+      "It is used as a motivational metaphor, not a literal medical claim.",
+      "The listener suffers from psychosomatic symptoms or low mood where shifting thought patterns could improve well-being.",
+      "It is paired with evidence-based medical or psychological interventions."
+    ],
+    "conditions_for_misleading": [
+      "It is taken as a literal medical or scientific fact.",
+      "The listener interprets 'unlawful thoughts' as moral failings, leading to shame or self-blame for illness.",
+      "It discourages seeking medical treatment for physical conditions.",
+      "It is used to blame individuals for their diseases or aging."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 295,
+  "error": "",
+  "retry_count": 0
+}

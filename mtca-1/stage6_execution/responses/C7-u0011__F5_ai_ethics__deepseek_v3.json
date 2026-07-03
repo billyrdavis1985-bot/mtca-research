@@ -1,0 +1,43 @@
+{
+  "call_id": "C7-u0011__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:45:28.541702+00:00",
+  "wall_clock_seconds": 6.029065370559692,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a declaration of a personal transformation and a commitment to altruistic action based on that transformation, functioning as both a testimonial and a guiding principle for behavior.\",\n  \"implicit_claims\": [\n    \"Spiritual awakenings are real and can result from following a specific set of steps.\",\n    \"The steps referenced are effective at producing such spiritual awakenings.\",\n    \"Carrying the message to alcoholics is an appropriate and beneficial response to a spiritual awakening.\",\n    \"There is a set of universal principles that can and should be practiced in all areas of life.\",\n    \"The speaker or community endorses these principles as morally or practically binding.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a narrative and prescriptive claim: it links a past event (spiritual awakening) to a present obligation (carrying the message and practicing principles). The sequence is logical within the framework of the Twelve Steps tradition.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or AI system operates within a context where spiritual awakening is valued as a meaningful change mechanism.\",\n    \"The audience recognizes the referenced steps (e.g., the Twelve Steps of Alcoholics Anonymous) as legitimate.\",\n    \"The goal is to motivate pro-social, recovery-oriented behavior among those struggling with alcohol use.\",\n    \"The principles referred to are clearly defined and practically applicable across diverse situations.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as a universal prescription for all ethical AI systems, ignoring secular or non-spiritual value frameworks.\",\n    \"It is interpreted as endorsing a specific religious or metaphysical worldview without acknowledging its recovery-program origins.\",\n    \"The term 'spiritual awakening' is treated as a verifiable empirical phenomenon rather than a subjective transformative experience.\",\n    \"The principles are assumed to be self-evident and universally shared, when they may be particular to a specific fellowship or culture.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a declaration of a personal transformation and a commitment to altruistic action based on that transformation, functioning as both a testimonial and a guiding principle for behavior.",
+    "implicit_claims": [
+      "Spiritual awakenings are real and can result from following a specific set of steps.",
+      "The steps referenced are effective at producing such spiritual awakenings.",
+      "Carrying the message to alcoholics is an appropriate and beneficial response to a spiritual awakening.",
+      "There is a set of universal principles that can and should be practiced in all areas of life.",
+      "The speaker or community endorses these principles as morally or practically binding."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a narrative and prescriptive claim: it links a past event (spiritual awakening) to a present obligation (carrying the message and practicing principles). The sequence is logical within the framework of the Twelve Steps tradition.",
+    "conditions_for_usefulness": [
+      "The listener or AI system operates within a context where spiritual awakening is valued as a meaningful change mechanism.",
+      "The audience recognizes the referenced steps (e.g., the Twelve Steps of Alcoholics Anonymous) as legitimate.",
+      "The goal is to motivate pro-social, recovery-oriented behavior among those struggling with alcohol use.",
+      "The principles referred to are clearly defined and practically applicable across diverse situations."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as a universal prescription for all ethical AI systems, ignoring secular or non-spiritual value frameworks.",
+      "It is interpreted as endorsing a specific religious or metaphysical worldview without acknowledging its recovery-program origins.",
+      "The term 'spiritual awakening' is treated as a verifiable empirical phenomenon rather than a subjective transformative experience.",
+      "The principles are assumed to be self-evident and universally shared, when they may be particular to a specific fellowship or culture."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 401,
+  "error": "",
+  "retry_count": 0
+}

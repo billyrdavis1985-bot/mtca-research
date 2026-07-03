@@ -1,0 +1,46 @@
+{
+  "call_id": "C7-u0000__F7_author_anonymous__gemini_2_5_flash",
+  "unit_id": "C7-u0000",
+  "text_id": "C7",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T00:54:29.735887+00:00",
+  "wall_clock_seconds": 9.68539571762085,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Declaration of a shared past recognition and acceptance of a specific personal state, often serving as a foundational step in a recovery or self-improvement process.\",\n  \"implicit_claims\": [\n    \"The speaker and a group ('we') previously struggled with problematic alcohol use.\",\n    \"Alcohol was the primary cause of their lives becoming unmanageable.\",\n    \"Admitting powerlessness over alcohol and unmanageability of life is a significant and necessary step (implying towards recovery or change).\",\n    \"There was a prior state of denial or non-recognition of this powerlessness and unmanageability.\",\n    \"The speaker identifies with a collective experience or group that shares this admission.\"\n  ],\n  \"coherence_assessment\": \"High internal coherence. The statement logically connects powerlessness over alcohol as the root cause of an unmanageable life, with the second clause elaborating on and clarifying the first. The use of the dash signifies further explanation or a natural consequence.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes and identifies with the admission.\",\n    \"It serves as a first step towards seeking help, making changes, or engaging in a recovery process.\",\n    \"It is shared in a supportive context where vulnerability is encouraged (e.g., group therapy, peer support meetings).\",\n    \"It fosters self-awareness and encourages individuals to take responsibility for addressing their situation.\",\n    \"It allows others to understand the speaker's past or current struggles and offer appropriate support.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The admission is insincere or merely performative, not reflecting genuine belief.\",\n    \"The term 'powerless' is misinterpreted as absolving all personal responsibility for future actions or choices (e.g., to seek help).\",\n    \"It is presented as the *only* necessary step for recovery, neglecting the need for ongoing effort, additional support, or professional intervention.\",\n    \"The actual primary cause of life's unmanageability is not alcohol, leading to a misdiagnosis of the problem.\",\n    \"It leads to a fatalistic acceptance of the problem without encouraging agency or action towards change.\",\n    \"The 'we' refers to a group that does not actually share this specific experience, misrepresenting collective identity.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Declaration of a shared past recognition and acceptance of a specific personal state, often serving as a foundational step in a recovery or self-improvement process.",
+    "implicit_claims": [
+      "The speaker and a group ('we') previously struggled with problematic alcohol use.",
+      "Alcohol was the primary cause of their lives becoming unmanageable.",
+      "Admitting powerlessness over alcohol and unmanageability of life is a significant and necessary step (implying towards recovery or change).",
+      "There was a prior state of denial or non-recognition of this powerlessness and unmanageability.",
+      "The speaker identifies with a collective experience or group that shares this admission."
+    ],
+    "coherence_assessment": "High internal coherence. The statement logically connects powerlessness over alcohol as the root cause of an unmanageable life, with the second clause elaborating on and clarifying the first. The use of the dash signifies further explanation or a natural consequence.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes and identifies with the admission.",
+      "It serves as a first step towards seeking help, making changes, or engaging in a recovery process.",
+      "It is shared in a supportive context where vulnerability is encouraged (e.g., group therapy, peer support meetings).",
+      "It fosters self-awareness and encourages individuals to take responsibility for addressing their situation.",
+      "It allows others to understand the speaker's past or current struggles and offer appropriate support."
+    ],
+    "conditions_for_misleading": [
+      "The admission is insincere or merely performative, not reflecting genuine belief.",
+      "The term 'powerless' is misinterpreted as absolving all personal responsibility for future actions or choices (e.g., to seek help).",
+      "It is presented as the *only* necessary step for recovery, neglecting the need for ongoing effort, additional support, or professional intervention.",
+      "The actual primary cause of life's unmanageability is not alcohol, leading to a misdiagnosis of the problem.",
+      "It leads to a fatalistic acceptance of the problem without encouraging agency or action towards change.",
+      "The 'we' refers to a group that does not actually share this specific experience, misrepresenting collective identity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 503,
+  "error": "",
+  "retry_count": 0
+}

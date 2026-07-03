@@ -1,0 +1,32 @@
+{
+  "call_id": "C7-u0002__F3_behavioral__grok_4",
+  "unit_id": "C7-u0002",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:03:45.731642+00:00",
+  "wall_clock_seconds": 7.5480451583862305,
+  "raw_response": "{\n  \"communicative_function\": \"avowal of a personal commitment to surrender agency to a higher power\",\n  \"implicit_claims\": [\n    \"a God or higher power exists that can provide care\",\n    \"surrendering one's will and life produces beneficial behavioral change\",\n    \"the speaker has both the capacity and the intention to enact this surrender\",\n    \"God can be meaningfully understood by the speaker\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a first-person pledge; the qualifier 'as we understood Him' preserves subjectivity while maintaining the commitment's form\",\n  \"conditions_for_usefulness\": \"the speaker holds a workable conception of a higher power, believes surrender supports recovery or value-aligned action, and the commitment is reinforced by community or practice\",\n  \"conditions_for_misleading\": \"the statement is treated as a completed achievement rather than an ongoing intention, or is used to justify avoidance of personal responsibility without external accountability structures\"\n}",
+  "parsed_json": {
+    "communicative_function": "avowal of a personal commitment to surrender agency to a higher power",
+    "implicit_claims": [
+      "a God or higher power exists that can provide care",
+      "surrendering one's will and life produces beneficial behavioral change",
+      "the speaker has both the capacity and the intention to enact this surrender",
+      "God can be meaningfully understood by the speaker"
+    ],
+    "coherence_assessment": "internally coherent as a first-person pledge; the qualifier 'as we understood Him' preserves subjectivity while maintaining the commitment's form",
+    "conditions_for_usefulness": "the speaker holds a workable conception of a higher power, believes surrender supports recovery or value-aligned action, and the commitment is reinforced by community or practice",
+    "conditions_for_misleading": "the statement is treated as a completed achievement rather than an ongoing intention, or is used to justify avoidance of personal responsibility without external accountability structures"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 278,
+  "output_tokens": 196,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "call_id": "C5-u0110__F4_poetic__deepseek_v3",
+  "unit_id": "C5-u0110",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:14:04.661967+00:00",
+  "wall_clock_seconds": 4.600521087646484,
+  "raw_response": "{\n  \"communicative_function\": \"The statement uses metaphorical contrast to assert a causal relationship between mental states and physical health, aiming to inspire or persuade by linking inner thoughts with bodily outcomes.\",\n  \"implicit_claims\": [\n    \"Unlawful thoughts (unethical or negative thoughts) directly cause physical disease and decay.\",\n    \"Glad and beautiful thoughts (positive or virtuous thoughts) directly cause physical youthfulness and beauty.\",\n    \"The mind has a direct, immediate, and deterministic power over the body's health and appearance.\",\n    \"Physical states are primarily or significantly governed by the moral or emotional quality of one's thoughts.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic metaphor, establishing a clear symmetrical contrast. However, taken as a literal causal claim, it lacks logical coherence with empirical medical understanding, as it ignores biological, genetic, and environmental factors.\",\n  \"conditions_for_usefulness\": [\n    \"If taken as an inspirational or motivational metaphor to encourage positive thinking and ethical behavior.\",\n    \"If the audience understands it as a poetic exaggeration, not a literal medical claim.\",\n    \"In contexts where mind-body connection is emphasized for holistic well-being, but not as a replacement for medical treatment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a literal medical fact, leading to blame of individuals for their illnesses or aging.\",\n    \"If used to discourage seeking medical help by implying that only thought control is necessary.\",\n    \"If it reinforces harmful stereotypes about moral inferiority causing disease (e.g., linking poverty or chronic illness to 'unlawful thoughts').\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement uses metaphorical contrast to assert a causal relationship between mental states and physical health, aiming to inspire or persuade by linking inner thoughts with bodily outcomes.",
+    "implicit_claims": [
+      "Unlawful thoughts (unethical or negative thoughts) directly cause physical disease and decay.",
+      "Glad and beautiful thoughts (positive or virtuous thoughts) directly cause physical youthfulness and beauty.",
+      "The mind has a direct, immediate, and deterministic power over the body's health and appearance.",
+      "Physical states are primarily or significantly governed by the moral or emotional quality of one's thoughts."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic metaphor, establishing a clear symmetrical contrast. However, taken as a literal causal claim, it lacks logical coherence with empirical medical understanding, as it ignores biological, genetic, and environmental factors.",
+    "conditions_for_usefulness": [
+      "If taken as an inspirational or motivational metaphor to encourage positive thinking and ethical behavior.",
+      "If the audience understands it as a poetic exaggeration, not a literal medical claim.",
+      "In contexts where mind-body connection is emphasized for holistic well-being, but not as a replacement for medical treatment."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a literal medical fact, leading to blame of individuals for their illnesses or aging.",
+      "If used to discourage seeking medical help by implying that only thought control is necessary.",
+      "If it reinforces harmful stereotypes about moral inferiority causing disease (e.g., linking poverty or chronic illness to 'unlawful thoughts')."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 335,
+  "error": "",
+  "retry_count": 0
+}

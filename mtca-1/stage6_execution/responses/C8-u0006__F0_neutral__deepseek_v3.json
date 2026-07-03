@@ -1,0 +1,44 @@
+{
+  "call_id": "C8-u0006__F0_neutral__deepseek_v3",
+  "unit_id": "C8-u0006",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:20:12.735178+00:00",
+  "wall_clock_seconds": 4.538617134094238,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal principle or decision rule for behavior, signaling a willingness to take risks when justified by evidence.\",\n  \"implicit_claims\": [\n    \"The speaker has access to evidence that can assess likelihood of help.\",\n    \"The speaker is capable of distinguishing between helpful and unhelpful outcomes.\",\n    \"The speaker acknowledges that fear is a relevant emotional factor but not a decisive one.\",\n    \"The speaker implies that they sometimes engage in actions despite fear.\",\n    \"The speaker values evidence-based decision-making over purely emotional responses.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a conditional principle ('if evidence suggests help, then willing to do despite fear') that does not contradict itself.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has reliable evidence about the likely outcomes of fear-inducing actions.\",\n    \"The speaker can accurately assess when evidence is sufficient to override fear.\",\n    \"The speaker's fear does not systematically impair their judgment of evidence.\",\n    \"The actions in question are genuinely within the speaker's control to choose.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker overestimates the quality or quantity of evidence available.\",\n    \"The speaker confuses 'likely to help' with 'feels comfortable' or 'is popular'.\",\n    \"The speaker uses the statement to justify reckless behavior under the guise of evidence.\",\n    \"The speaker ignores evidence that the action is harmful because it is also scary.\",\n    \"The statement is used to pressure others into taking risks they are not equipped to evaluate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal principle or decision rule for behavior, signaling a willingness to take risks when justified by evidence.",
+    "implicit_claims": [
+      "The speaker has access to evidence that can assess likelihood of help.",
+      "The speaker is capable of distinguishing between helpful and unhelpful outcomes.",
+      "The speaker acknowledges that fear is a relevant emotional factor but not a decisive one.",
+      "The speaker implies that they sometimes engage in actions despite fear.",
+      "The speaker values evidence-based decision-making over purely emotional responses."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a conditional principle ('if evidence suggests help, then willing to do despite fear') that does not contradict itself.",
+    "conditions_for_usefulness": [
+      "The speaker has reliable evidence about the likely outcomes of fear-inducing actions.",
+      "The speaker can accurately assess when evidence is sufficient to override fear.",
+      "The speaker's fear does not systematically impair their judgment of evidence.",
+      "The actions in question are genuinely within the speaker's control to choose."
+    ],
+    "conditions_for_misleading": [
+      "The speaker overestimates the quality or quantity of evidence available.",
+      "The speaker confuses 'likely to help' with 'feels comfortable' or 'is popular'.",
+      "The speaker uses the statement to justify reckless behavior under the guise of evidence.",
+      "The speaker ignores evidence that the action is harmful because it is also scary.",
+      "The statement is used to pressure others into taking risks they are not equipped to evaluate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 136,
+  "output_tokens": 333,
+  "error": "",
+  "retry_count": 0
+}

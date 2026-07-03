@@ -1,0 +1,38 @@
+{
+  "call_id": "C5-u0174__F4_poetic__deepseek_v3",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:29:52.912172+00:00",
+  "wall_clock_seconds": 3.5376157760620117,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts the sole agency of the individual in changing their own circumstances, emphasizing personal autonomy and responsibility.\",\n  \"implicit_claims\": [\n    \"The individual has the power or capacity to alter their condition.\",\n    \"No external force, person, or circumstance can effect a change in the individual's condition without their own action.\",\n    \"The individual's condition is not determined by factors beyond their control.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a self-contained assertion of radical autonomy, though it may be challenged by external constraints in practical interpretation.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is in a position to actually change their condition (i.e., has relevant agency, resources, and opportunity).\",\n    \"The statement is used to encourage self-reliance or personal empowerment in a context where external help is absent or counterproductive.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual faces severe systemic or physical constraints (e.g., illness, poverty, oppression) that limit or nullify personal agency.\",\n    \"The statement is interpreted as denying the validity or necessity of external support, social intervention, or collective action.\",\n    \"It is used to blame individuals for circumstances beyond their control.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts the sole agency of the individual in changing their own circumstances, emphasizing personal autonomy and responsibility.",
+    "implicit_claims": [
+      "The individual has the power or capacity to alter their condition.",
+      "No external force, person, or circumstance can effect a change in the individual's condition without their own action.",
+      "The individual's condition is not determined by factors beyond their control."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a self-contained assertion of radical autonomy, though it may be challenged by external constraints in practical interpretation.",
+    "conditions_for_usefulness": [
+      "The individual is in a position to actually change their condition (i.e., has relevant agency, resources, and opportunity).",
+      "The statement is used to encourage self-reliance or personal empowerment in a context where external help is absent or counterproductive."
+    ],
+    "conditions_for_misleading": [
+      "The individual faces severe systemic or physical constraints (e.g., illness, poverty, oppression) that limit or nullify personal agency.",
+      "The statement is interpreted as denying the validity or necessity of external support, social intervention, or collective action.",
+      "It is used to blame individuals for circumstances beyond their control."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 267,
+  "error": "",
+  "retry_count": 0
+}

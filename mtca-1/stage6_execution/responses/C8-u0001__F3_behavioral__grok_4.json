@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0001__F3_behavioral__grok_4",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:54:47.166126+00:00",
+  "wall_clock_seconds": 7.653638124465942,
+  "raw_response": "{\n  \"communicative_function\": \"behavioral commitment expressing willingness to interrupt catastrophizing via reality-checking\",\n  \"implicit_claims\": [\n    \"the speaker can reliably detect their own catastrophizing\",\n    \"a distinguishable 'realistic worst case' exists and can be identified\",\n    \"inquiring about that worst case constitutes a useful response\",\n    \"the speaker is currently not already doing this or is willing to increase its frequency\"\n  ],\n  \"coherence_assessment\": \"internally coherent: links detection of a target mental event to a concrete, executable cognitive action without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker must accurately recognize catastrophizing episodes, the realistic-worst-case question must produce lower distress or better decisions than the original thought, and follow-through must occur\",\n  \"conditions_for_misleading\": \"catastrophizing is misidentified, the 'realistic' worst case remains highly aversive or paralyzing, or the practice displaces more effective problem-solving or emotional processing\"\n}",
+  "parsed_json": {
+    "communicative_function": "behavioral commitment expressing willingness to interrupt catastrophizing via reality-checking",
+    "implicit_claims": [
+      "the speaker can reliably detect their own catastrophizing",
+      "a distinguishable 'realistic worst case' exists and can be identified",
+      "inquiring about that worst case constitutes a useful response",
+      "the speaker is currently not already doing this or is willing to increase its frequency"
+    ],
+    "coherence_assessment": "internally coherent: links detection of a target mental event to a concrete, executable cognitive action without contradiction",
+    "conditions_for_usefulness": "the speaker must accurately recognize catastrophizing episodes, the realistic-worst-case question must produce lower distress or better decisions than the original thought, and follow-through must occur",
+    "conditions_for_misleading": "catastrophizing is misidentified, the 'realistic' worst case remains highly aversive or paralyzing, or the practice displaces more effective problem-solving or emotional processing"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 209,
+  "error": "",
+  "retry_count": 0
+}

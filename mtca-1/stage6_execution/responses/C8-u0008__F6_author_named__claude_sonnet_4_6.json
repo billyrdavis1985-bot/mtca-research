@@ -1,0 +1,48 @@
+{
+  "call_id": "C8-u0008__F6_author_named__claude_sonnet_4_6",
+  "unit_id": "C8-u0008",
+  "text_id": "C8",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T02:35:03.118623+00:00",
+  "wall_clock_seconds": 14.68848991394043,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation or cognitive reframe, narrating one's current behavior in terms of values-alignment rather than emotional state, thereby reinforcing volitional agency and tolerating affective-behavioral dissonance.\",\n  \"implicit_claims\": [\n    \"The speaker has identifiable, accessible values distinct from their current feelings.\",\n    \"Feelings and values can diverge and that divergence is a normal, temporary condition.\",\n    \"Deliberate action can precede emotional congruence ('feelings catching up' implies emotions will eventually align).\",\n    \"Acting without emotional support is possible and does not constitute inauthenticity.\",\n    \"The speaker has sufficient self-awareness to distinguish values from feelings in real time.\",\n    \"Agency (choosing) is meaningfully operative even under emotional duress.\",\n    \"The metaphor of 'catching up' presupposes a linear, directional relationship between action and emotion.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a description of values-behavior committed action consistent with ACT (Acceptance and Commitment Therapy) principles. The logic holds: values can guide behavior independent of emotional state. The phrase 'feelings have not yet caught up' introduces a mild tension by implying eventual emotional alignment, which is not guaranteed and subtly undermines the unconditional framing of values-based action. Otherwise the structure is sound.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuinely clarified and internalized their values prior to using the statement.\",\n    \"The emotional lag is situational and temporary rather than a sign of deeper conflict or suppression.\",\n    \"The action being taken is actually consistent with stated values and not a rationalization.\",\n    \"The speaker is using it to tolerate discomfort, not to bypass important emotional information.\",\n    \"The context is one where acting despite uncomfortable feelings is adaptive (e.g., avoidance patterns, grief-related withdrawal).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'values' being invoked are poorly defined, externally imposed, or rationalizations for harmful behavior.\",\n    \"The emotional resistance being overridden is a legitimate signal (e.g., distress indicating the action is actually harmful or wrong).\",\n    \"The expectation that feelings will 'catch up' creates false reassurance, causing the speaker to ignore persistent emotional data.\",\n    \"The statement is used to suppress or dissociate from feelings rather than to acknowledge and act alongside them.\",\n    \"It is deployed as a scripted phrase without genuine reflection, functioning as an empty affirmation rather than an authentic cognitive reframe.\",\n    \"The speaker lacks actual agency in the situation and the statement obscures that constraint.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or cognitive reframe, narrating one's current behavior in terms of values-alignment rather than emotional state, thereby reinforcing volitional agency and tolerating affective-behavioral dissonance.",
+    "implicit_claims": [
+      "The speaker has identifiable, accessible values distinct from their current feelings.",
+      "Feelings and values can diverge and that divergence is a normal, temporary condition.",
+      "Deliberate action can precede emotional congruence ('feelings catching up' implies emotions will eventually align).",
+      "Acting without emotional support is possible and does not constitute inauthenticity.",
+      "The speaker has sufficient self-awareness to distinguish values from feelings in real time.",
+      "Agency (choosing) is meaningfully operative even under emotional duress.",
+      "The metaphor of 'catching up' presupposes a linear, directional relationship between action and emotion."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a description of values-behavior committed action consistent with ACT (Acceptance and Commitment Therapy) principles. The logic holds: values can guide behavior independent of emotional state. The phrase 'feelings have not yet caught up' introduces a mild tension by implying eventual emotional alignment, which is not guaranteed and subtly undermines the unconditional framing of values-based action. Otherwise the structure is sound.",
+    "conditions_for_usefulness": [
+      "The speaker has genuinely clarified and internalized their values prior to using the statement.",
+      "The emotional lag is situational and temporary rather than a sign of deeper conflict or suppression.",
+      "The action being taken is actually consistent with stated values and not a rationalization.",
+      "The speaker is using it to tolerate discomfort, not to bypass important emotional information.",
+      "The context is one where acting despite uncomfortable feelings is adaptive (e.g., avoidance patterns, grief-related withdrawal)."
+    ],
+    "conditions_for_misleading": [
+      "The 'values' being invoked are poorly defined, externally imposed, or rationalizations for harmful behavior.",
+      "The emotional resistance being overridden is a legitimate signal (e.g., distress indicating the action is actually harmful or wrong).",
+      "The expectation that feelings will 'catch up' creates false reassurance, causing the speaker to ignore persistent emotional data.",
+      "The statement is used to suppress or dissociate from feelings rather than to acknowledge and act alongside them.",
+      "It is deployed as a scripted phrase without genuine reflection, functioning as an empty affirmation rather than an authentic cognitive reframe.",
+      "The speaker lacks actual agency in the situation and the statement obscures that constraint."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 628,
+  "error": "",
+  "retry_count": 0
+}

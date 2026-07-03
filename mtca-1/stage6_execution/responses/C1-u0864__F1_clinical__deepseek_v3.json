@@ -1,0 +1,40 @@
+{
+  "call_id": "C1-u0864__F1_clinical__deepseek_v3",
+  "unit_id": "C1-u0864",
+  "text_id": "C1",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-29T22:51:46.061134+00:00",
+  "wall_clock_seconds": 4.422317028045654,
+  "raw_response": "{\n  \"communicative_function\": \"The speaker is expressing a personal admission of prior skepticism toward Coué's lectures, likely as a self-disclosure to build rapport or demonstrate a shift in perspective.\",\n  \"implicit_claims\": [\n    \"Coué's lectures have some value or influence worth discussing.\",\n    \"The speaker previously held a skeptical stance that may now be revised or acknowledged.\",\n    \"The listener is familiar with Coué or the concept of autosuggestion.\",\n    \"Admitting skepticism is relevant to the therapeutic context.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the statement combines an admission of skepticism with a framed context (Coué's lectures), creating a clear narrative of prior disbelief.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker’s skepticism is relevant to current therapeutic work (e.g., exploring resistance, belief change).\",\n    \"The statement is used to normalize the client’s own doubts or to model honest self-reflection.\",\n    \"The context supports further exploration of the speaker’s evolving beliefs.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as an objective fact rather than a subjective admission.\",\n    \"The listener infers that the speaker now fully endorses Coué’s methods without explicit revision.\",\n    \"The skepticism is presented as resolved, but unresolved ambivalence remains unnoticed.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The speaker is expressing a personal admission of prior skepticism toward Coué's lectures, likely as a self-disclosure to build rapport or demonstrate a shift in perspective.",
+    "implicit_claims": [
+      "Coué's lectures have some value or influence worth discussing.",
+      "The speaker previously held a skeptical stance that may now be revised or acknowledged.",
+      "The listener is familiar with Coué or the concept of autosuggestion.",
+      "Admitting skepticism is relevant to the therapeutic context."
+    ],
+    "coherence_assessment": "Internally coherent: the statement combines an admission of skepticism with a framed context (Coué's lectures), creating a clear narrative of prior disbelief.",
+    "conditions_for_usefulness": [
+      "The speaker’s skepticism is relevant to current therapeutic work (e.g., exploring resistance, belief change).",
+      "The statement is used to normalize the client’s own doubts or to model honest self-reflection.",
+      "The context supports further exploration of the speaker’s evolving beliefs."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as an objective fact rather than a subjective admission.",
+      "The listener infers that the speaker now fully endorses Coué’s methods without explicit revision.",
+      "The skepticism is presented as resolved, but unresolved ambivalence remains unnoticed."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 148,
+  "output_tokens": 284,
+  "error": "",
+  "retry_count": 0
+}

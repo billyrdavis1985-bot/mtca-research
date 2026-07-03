@@ -1,0 +1,42 @@
+{
+  "call_id": "C5-u0229__F4_poetic__deepseek_v3",
+  "unit_id": "C5-u0229",
+  "text_id": "C5",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:46:51.845561+00:00",
+  "wall_clock_seconds": 5.433493614196777,
+  "raw_response": "{\n  \"communicative_function\": \"To inspire or exhort by asserting a deterministic relationship between one's inner mental states (thoughts, vision, ideal) and one's external circumstances or fate.\",\n  \"implicit_claims\": [\n    \"One's environment is causally dependent on one's thoughts, vision, or ideal.\",\n    \"A person's thoughts and ideals are primary agents of change in their life trajectory.\",\n    \"The outcome of 'fall, remain, or rise' is entirely a function of internal mental content, not external factors.\",\n    \"There is a direct, predictable correspondence between the quality of one's thoughts/vision/ideal and one's life outcomes.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a poetic assertion, because it presents a simple causal metaphor (thoughts as determinant of outcome) without logical contradiction. However, it omits complexity (e.g., external constraints, luck, systemic factors), which makes it coherent only within a narrow idealistic worldview.\",\n  \"conditions_for_usefulness\": [\n    \"The audience is seeking motivation or a sense of personal agency.\",\n    \"External circumstances are malleable or neutral enough that mindset can significantly influence outcomes.\",\n    \"The listener has the ability to change their thoughts, vision, or ideal.\",\n    \"The statement is applied contextually (e.g., in personal development, coaching, or spiritual guidance).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"External factors (like poverty, illness, oppression, or systemic barriers) actually determine outcomes more than thoughts or ideals.\",\n    \"The statement is taken as a universal literal truth rather than a poetic encouragement.\",\n    \"A person fails or suffers due to uncontrollable circumstances and interprets this as a failure of their thoughts or vision, leading to self-blame.\",\n    \"The statement dismisses the role of luck, resources, social support, or structural inequality in shaping one's environment.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To inspire or exhort by asserting a deterministic relationship between one's inner mental states (thoughts, vision, ideal) and one's external circumstances or fate.",
+    "implicit_claims": [
+      "One's environment is causally dependent on one's thoughts, vision, or ideal.",
+      "A person's thoughts and ideals are primary agents of change in their life trajectory.",
+      "The outcome of 'fall, remain, or rise' is entirely a function of internal mental content, not external factors.",
+      "There is a direct, predictable correspondence between the quality of one's thoughts/vision/ideal and one's life outcomes."
+    ],
+    "coherence_assessment": "Internally coherent as a poetic assertion, because it presents a simple causal metaphor (thoughts as determinant of outcome) without logical contradiction. However, it omits complexity (e.g., external constraints, luck, systemic factors), which makes it coherent only within a narrow idealistic worldview.",
+    "conditions_for_usefulness": [
+      "The audience is seeking motivation or a sense of personal agency.",
+      "External circumstances are malleable or neutral enough that mindset can significantly influence outcomes.",
+      "The listener has the ability to change their thoughts, vision, or ideal.",
+      "The statement is applied contextually (e.g., in personal development, coaching, or spiritual guidance)."
+    ],
+    "conditions_for_misleading": [
+      "External factors (like poverty, illness, oppression, or systemic barriers) actually determine outcomes more than thoughts or ideals.",
+      "The statement is taken as a universal literal truth rather than a poetic encouragement.",
+      "A person fails or suffers due to uncontrollable circumstances and interprets this as a failure of their thoughts or vision, leading to self-blame.",
+      "The statement dismisses the role of luck, resources, social support, or structural inequality in shaping one's environment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 394,
+  "error": "",
+  "retry_count": 0
+}

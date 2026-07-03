@@ -1,0 +1,45 @@
+{
+  "call_id": "C7-u0011__F3_behavioral__deepseek_v3",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T01:43:52.731981+00:00",
+  "wall_clock_seconds": 4.844122886657715,
+  "raw_response": "{\n  \"communicative_function\": \"The statement declares a commitment to action based on a prior transformative experience, serving to motivate continued behavior change and to explicitly link personal recovery with service to others.\",\n  \"implicit_claims\": [\n    \"The speaker has undergone a spiritual awakening.\",\n    \"The awakening was a result of following specific steps.\",\n    \"The speaker has an obligation to share their experience with other alcoholics.\",\n    \"The principles learned can and should be applied to all areas of life.\",\n    \"The listener is expected to accept the reality of spiritual awakening and the value of these steps.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it logically connects a past cause (the steps leading to an awakening) to a present commitment (carrying the message and practicing principles). The causal chain is clear and consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely believes they have had a spiritual awakening.\",\n    \"The speaker has a desire to help other alcoholics.\",\n    \"The listener is open to the concept of spiritual awakening or shared experience.\",\n    \"The principles referred to are clearly defined and actionable in daily life.\",\n    \"The statement is used in a context (e.g., 12-step meetings) where such language is understood and valued.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker has not actually had a spiritual awakening but claims one to gain social approval or authority.\",\n    \"The speaker uses the statement to manipulate others or avoid accountability for their own actions.\",\n    \"The listener is coerced into accepting the statement's claims without evidence.\",\n    \"The statement is taken as a universal truth rather than a personal experience.\",\n    \"The principles are applied selectively or hypocritically, contradicting the commitment to practice them in all affairs.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement declares a commitment to action based on a prior transformative experience, serving to motivate continued behavior change and to explicitly link personal recovery with service to others.",
+    "implicit_claims": [
+      "The speaker has undergone a spiritual awakening.",
+      "The awakening was a result of following specific steps.",
+      "The speaker has an obligation to share their experience with other alcoholics.",
+      "The principles learned can and should be applied to all areas of life.",
+      "The listener is expected to accept the reality of spiritual awakening and the value of these steps."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it logically connects a past cause (the steps leading to an awakening) to a present commitment (carrying the message and practicing principles). The causal chain is clear and consistent.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely believes they have had a spiritual awakening.",
+      "The speaker has a desire to help other alcoholics.",
+      "The listener is open to the concept of spiritual awakening or shared experience.",
+      "The principles referred to are clearly defined and actionable in daily life.",
+      "The statement is used in a context (e.g., 12-step meetings) where such language is understood and valued."
+    ],
+    "conditions_for_misleading": [
+      "The speaker has not actually had a spiritual awakening but claims one to gain social approval or authority.",
+      "The speaker uses the statement to manipulate others or avoid accountability for their own actions.",
+      "The listener is coerced into accepting the statement's claims without evidence.",
+      "The statement is taken as a universal truth rather than a personal experience.",
+      "The principles are applied selectively or hypocritically, contradicting the commitment to practice them in all affairs."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 372,
+  "error": "",
+  "retry_count": 0
+}

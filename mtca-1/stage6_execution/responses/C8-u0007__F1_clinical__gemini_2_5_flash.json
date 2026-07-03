@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0007__F1_clinical__gemini_2_5_flash",
+  "unit_id": "C8-u0007",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T02:26:08.508619+00:00",
+  "wall_clock_seconds": 8.995489120483398,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a self-observation, an act of metacognition, and a re-framing of the relationship between internal states and external actions. It indicates a developing insight or a conscious recognition of a pattern, often foundational for challenging cognitive distortions or initiating behavioral change (e.g., in behavioral activation therapy, ACT, CBT). It functions to highlight agency through behavior.\",\n  \"implicit_claims\": [\n    \"There is a discernible relationship between mood and behavior.\",\n    \"This relationship is not always unidirectional (mood -> behavior); the reverse is also possible.\",\n    \"The speaker possesses the capacity for self-observation, reflection, and pattern recognition.\",\n    \"The observed pattern ('mood follows behavior more often than the reverse') is significant or noteworthy for the speaker.\",\n    \"There might be a prior, possibly unexamined, assumption that mood primarily dictates behavior.\",\n    \"Behavior can be a lever or an antecedent for influencing mood.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It makes a clear, qualified observational claim about the temporal or causal relationship between two phenomena (mood and behavior), acknowledging variability ('more often than the reverse') rather than asserting an absolute. It presents a consistent logical structure.\",\n  \"conditions_for_usefulness\": [\n    \"When the individual genuinely experiences this pattern, where initiating behaviors can positively influence their mood, particularly when feeling stuck or lacking motivation.\",\n    \"When the individual tends to wait for an improvement in mood before engaging in activities (common in depression or anxiety), as it provides a rationale for behavioral activation.\",\n    \"When the therapeutic goal involves increasing agency, breaking cycles of inertia, or shifting focus from internal rumination to actionable steps.\",\n    \"When it helps the individual recognize that they have some control over their internal state through their actions, fostering empowerment.\",\n    \"When it is used to challenge the belief that mood is purely an uncontrollable, pre-existing condition for action.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the individual's mood is primarily driven by factors largely outside immediate behavioral control (e.g., severe endogenous mood disorders, significant physiological conditions, unaddressed trauma, overwhelming external stressors).\",\n    \"If it leads to self-blame or shame for negative mood states ('My mood is bad because I'm not behaving correctly').\",\n    \"If it is interpreted as dismissing or invalidating genuine emotional experiences, encouraging suppression rather than healthy processing.\",\n    \"If it oversimplifies the complex interplay of biological, psychological, and social factors that influence both mood and behavior.\",\n    \"If it is applied rigidly without considering individual context, potentially leading to 'toxic positivity' or an unrealistic expectation of emotional regulation solely through behavior.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-observation, an act of metacognition, and a re-framing of the relationship between internal states and external actions. It indicates a developing insight or a conscious recognition of a pattern, often foundational for challenging cognitive distortions or initiating behavioral change (e.g., in behavioral activation therapy, ACT, CBT). It functions to highlight agency through behavior.",
+    "implicit_claims": [
+      "There is a discernible relationship between mood and behavior.",
+      "This relationship is not always unidirectional (mood -> behavior); the reverse is also possible.",
+      "The speaker possesses the capacity for self-observation, reflection, and pattern recognition.",
+      "The observed pattern ('mood follows behavior more often than the reverse') is significant or noteworthy for the speaker.",
+      "There might be a prior, possibly unexamined, assumption that mood primarily dictates behavior.",
+      "Behavior can be a lever or an antecedent for influencing mood."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It makes a clear, qualified observational claim about the temporal or causal relationship between two phenomena (mood and behavior), acknowledging variability ('more often than the reverse') rather than asserting an absolute. It presents a consistent logical structure.",
+    "conditions_for_usefulness": [
+      "When the individual genuinely experiences this pattern, where initiating behaviors can positively influence their mood, particularly when feeling stuck or lacking motivation.",
+      "When the individual tends to wait for an improvement in mood before engaging in activities (common in depression or anxiety), as it provides a rationale for behavioral activation.",
+      "When the therapeutic goal involves increasing agency, breaking cycles of inertia, or shifting focus from internal rumination to actionable steps.",
+      "When it helps the individual recognize that they have some control over their internal state through their actions, fostering empowerment.",
+      "When it is used to challenge the belief that mood is purely an uncontrollable, pre-existing condition for action."
+    ],
+    "conditions_for_misleading": [
+      "If the individual's mood is primarily driven by factors largely outside immediate behavioral control (e.g., severe endogenous mood disorders, significant physiological conditions, unaddressed trauma, overwhelming external stressors).",
+      "If it leads to self-blame or shame for negative mood states ('My mood is bad because I'm not behaving correctly').",
+      "If it is interpreted as dismissing or invalidating genuine emotional experiences, encouraging suppression rather than healthy processing.",
+      "If it oversimplifies the complex interplay of biological, psychological, and social factors that influence both mood and behavior.",
+      "If it is applied rigidly without considering individual context, potentially leading to 'toxic positivity' or an unrealistic expectation of emotional regulation solely through behavior."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 595,
+  "error": "",
+  "retry_count": 0
+}

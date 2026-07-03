@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0214__F5_ai_ethics__deepseek_v3",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T00:36:09.103680+00:00",
+  "wall_clock_seconds": 6.024121046066284,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is conveying an inspirational and aspirational message about personal growth and self-actualization, suggesting that one's vision and ideal are predictive of future fulfillment.\",\n  \"implicit_claims\": [\n    \"Humans have an inherent capacity to form visions and ideals that are meaningful.\",\n    \"A person's current vision or ideal reliably indicates their future state or achievement.\",\n    \"The process of unveiling or actualizing one's potential is a linear or inevitable progression.\",\n    \"Visions and ideals are distinct but complementary forces guiding human development.\",\n    \"The 'promise' and 'prophecy' suggest a deterministic or teleological view of personal destiny.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a poetic or motivational metaphor, linking vision to promise and ideal to prophecy. However, it lacks logical rigor: it assumes a direct causal link between present ideals and future outcomes without acknowledging uncertainty or external constraints.\",\n  \"conditions_for_usefulness\": [\n    \"The audience interprets the statement as motivational rather than literal.\",\n    \"The audience values self-reflection and goal-setting as means to personal growth.\",\n    \"The statement is used in contexts where aspirational language is appropriate (e.g., coaching, self-help, leadership).\",\n    \"The listener has agency and resources to act on their vision and ideal.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is taken as a factual or deterministic claim about inevitable success.\",\n    \"It discourages critical assessment of one's own limitations or external obstacles.\",\n    \"It is applied to contexts requiring measurable outcomes or precise ethical guidance.\",\n    \"It oversimplifies complex human development by ignoring failure, setbacks, or changing values.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is conveying an inspirational and aspirational message about personal growth and self-actualization, suggesting that one's vision and ideal are predictive of future fulfillment.",
+    "implicit_claims": [
+      "Humans have an inherent capacity to form visions and ideals that are meaningful.",
+      "A person's current vision or ideal reliably indicates their future state or achievement.",
+      "The process of unveiling or actualizing one's potential is a linear or inevitable progression.",
+      "Visions and ideals are distinct but complementary forces guiding human development.",
+      "The 'promise' and 'prophecy' suggest a deterministic or teleological view of personal destiny."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a poetic or motivational metaphor, linking vision to promise and ideal to prophecy. However, it lacks logical rigor: it assumes a direct causal link between present ideals and future outcomes without acknowledging uncertainty or external constraints.",
+    "conditions_for_usefulness": [
+      "The audience interprets the statement as motivational rather than literal.",
+      "The audience values self-reflection and goal-setting as means to personal growth.",
+      "The statement is used in contexts where aspirational language is appropriate (e.g., coaching, self-help, leadership).",
+      "The listener has agency and resources to act on their vision and ideal."
+    ],
+    "conditions_for_misleading": [
+      "The statement is taken as a factual or deterministic claim about inevitable success.",
+      "It discourages critical assessment of one's own limitations or external obstacles.",
+      "It is applied to contexts requiring measurable outcomes or precise ethical guidance.",
+      "It oversimplifies complex human development by ignoring failure, setbacks, or changing values."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 358,
+  "error": "",
+  "retry_count": 0
+}

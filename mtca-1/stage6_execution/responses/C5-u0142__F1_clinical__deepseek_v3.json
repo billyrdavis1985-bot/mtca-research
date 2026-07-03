@@ -1,0 +1,43 @@
+{
+  "call_id": "C5-u0142__F1_clinical__deepseek_v3",
+  "unit_id": "C5-u0142",
+  "text_id": "C5",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T21:31:07.841245+00:00",
+  "wall_clock_seconds": 5.622251987457275,
+  "raw_response": "{\n  \"communicative_function\": \"Redirects attention from unexamined or automatic thinking to intentional, goal-directed cognition, asserting that clarity of purpose is necessary for effective action.\",\n  \"implicit_claims\": [\n    \"Thought without purpose cannot yield intelligent accomplishment.\",\n    \"Intelligent accomplishment is the standard by which thought is evaluated.\",\n    \"Purpose is a necessary condition for intelligent action.\",\n    \"Linking thought with purpose is an achievable psychological process.\",\n    \"The absence of purpose renders thinking non-intelligent or unproductive.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a conditional claim: it defines a relationship between thought, purpose, and intelligent accomplishment. Its truth depends on how 'intelligent accomplishment' is defined, but within a pragmatic therapeutic frame it is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The client is engaging in rumination, worry, or unproductive thinking without clear goals.\",\n    \"The client is open to examining the relationship between their thoughts and their desired outcomes.\",\n    \"The client has capacity to identify or articulate personal purposes or values.\",\n    \"The therapeutic context values intentionality and goal-directed behavior (e.g., CBT, ACT).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The client interprets 'purpose' so narrowly that creativity, play, or exploration are devalued.\",\n    \"The client feels pressured to have a clear purpose before thinking is allowed, leading to paralysis.\",\n    \"The client’s difficulties involve rigid, overly purposeful thought that excludes flexibility.\",\n    \"The statement is taken as an absolute truth rather than a therapeutic heuristic, ignoring that non-purposeful thought can lead to insight or serendipity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Redirects attention from unexamined or automatic thinking to intentional, goal-directed cognition, asserting that clarity of purpose is necessary for effective action.",
+    "implicit_claims": [
+      "Thought without purpose cannot yield intelligent accomplishment.",
+      "Intelligent accomplishment is the standard by which thought is evaluated.",
+      "Purpose is a necessary condition for intelligent action.",
+      "Linking thought with purpose is an achievable psychological process.",
+      "The absence of purpose renders thinking non-intelligent or unproductive."
+    ],
+    "coherence_assessment": "Internally coherent as a conditional claim: it defines a relationship between thought, purpose, and intelligent accomplishment. Its truth depends on how 'intelligent accomplishment' is defined, but within a pragmatic therapeutic frame it is logically consistent.",
+    "conditions_for_usefulness": [
+      "The client is engaging in rumination, worry, or unproductive thinking without clear goals.",
+      "The client is open to examining the relationship between their thoughts and their desired outcomes.",
+      "The client has capacity to identify or articulate personal purposes or values.",
+      "The therapeutic context values intentionality and goal-directed behavior (e.g., CBT, ACT)."
+    ],
+    "conditions_for_misleading": [
+      "The client interprets 'purpose' so narrowly that creativity, play, or exploration are devalued.",
+      "The client feels pressured to have a clear purpose before thinking is allowed, leading to paralysis.",
+      "The client’s difficulties involve rigid, overly purposeful thought that excludes flexibility.",
+      "The statement is taken as an absolute truth rather than a therapeutic heuristic, ignoring that non-purposeful thought can lead to insight or serendipity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 351,
+  "error": "",
+  "retry_count": 1
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "C8-u0011__F7_author_anonymous__grok_4",
+  "unit_id": "C8-u0011",
+  "text_id": "C8",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T02:41:13.332185+00:00",
+  "wall_clock_seconds": 8.265718698501587,
+  "raw_response": "{\n  \"communicative_function\": \"declaring a personal commitment to a specific approach to self-improvement\",\n  \"implicit_claims\": [\n    \"vague resolutions are inherently unachievable\",\n    \"small observable changes are reliably executable\",\n    \"the speaker can accurately distinguish executable changes from vague ones\",\n    \"this shift in approach represents a meaningful improvement over prior behavior\"\n  ],\n  \"coherence_assessment\": \"internally coherent; clearly contrasts two resolution styles and endorses the practical alternative without contradiction\",\n  \"conditions_for_usefulness\": \"the speaker must subsequently identify, track, and execute concrete changes whose cumulative effect produces desired outcomes\",\n  \"conditions_for_misleading\": \"the statement functions only as aspirational rhetoric without follow-through, or the 'small changes' remain undefined or unmeasured\"\n}",
+  "parsed_json": {
+    "communicative_function": "declaring a personal commitment to a specific approach to self-improvement",
+    "implicit_claims": [
+      "vague resolutions are inherently unachievable",
+      "small observable changes are reliably executable",
+      "the speaker can accurately distinguish executable changes from vague ones",
+      "this shift in approach represents a meaningful improvement over prior behavior"
+    ],
+    "coherence_assessment": "internally coherent; clearly contrasts two resolution styles and endorses the practical alternative without contradiction",
+    "conditions_for_usefulness": "the speaker must subsequently identify, track, and execute concrete changes whose cumulative effect produces desired outcomes",
+    "conditions_for_misleading": "the statement functions only as aspirational rhetoric without follow-through, or the 'small changes' remain undefined or unmeasured"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 272,
+  "output_tokens": 166,
+  "error": "",
+  "retry_count": 0
+}

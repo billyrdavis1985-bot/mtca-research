@@ -1,0 +1,46 @@
+{
+  "call_id": "C8-u0001__F0_neutral__gemini_2_5_flash",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-06-30T01:52:32.596031+00:00",
+  "wall_clock_seconds": 6.463050127029419,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The speaker is describing a self-aware cognitive coping strategy or habit they employ to manage catastrophizing, indicating a proactive approach to mental well-being.\",\n  \"implicit_claims\": [\n    \"The speaker experiences catastrophizing.\",\n    \"The speaker possesses self-awareness to 'catch' themselves catastrophizing.\",\n    \"The speaker believes there is a discernable difference between a catastrophized worst case and a realistic worst case.\",\n    \"The speaker believes that identifying the 'realistic worst case' is a helpful or effective counter-catastrophizing strategy.\",\n    \"The speaker values realism and a pragmatic approach to potential negative outcomes.\",\n    \"The speaker has agency and control over their thought processes to initiate this inquiry.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It clearly links a specific trigger ('catch myself catastrophizing') to a specific intentional response ('willing to ask what the realistic worst case actually looks like'), forming a logical cause-and-effect or condition-action sequence.\",\n  \"conditions_for_usefulness\": [\n    \"The individual can accurately and objectively assess 'realistic' worst-case scenarios.\",\n    \"The 'realistic worst case' is genuinely less severe or more manageable than the catastrophized version, leading to reduced anxiety.\",\n    \"The act of asking the question leads to problem-solving or acceptance, rather than increased rumination.\",\n    \"The individual has sufficient emotional regulation and cognitive capacity to engage in this self-inquiry without becoming overwhelmed.\",\n    \"The strategy is used as part of a broader coping toolkit and not as the sole method for addressing anxiety.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual struggles to distinguish between catastrophic and realistic scenarios, leading to further anxiety or invalidation of genuine concerns.\",\n    \"The 'realistic worst case' is, in fact, genuinely severe or catastrophic, leading to increased distress rather than relief.\",\n    \"The individual uses this inquiry to avoid necessary emotional processing or to prematurely dismiss valid concerns.\",\n    \"The 'willingness' stated does not translate into actual capacity or follow-through, making the strategy ineffective.\",\n    \"The individual gets stuck in analyzing the 'worst case' rather than moving towards solutions or acceptance.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The speaker is describing a self-aware cognitive coping strategy or habit they employ to manage catastrophizing, indicating a proactive approach to mental well-being.",
+    "implicit_claims": [
+      "The speaker experiences catastrophizing.",
+      "The speaker possesses self-awareness to 'catch' themselves catastrophizing.",
+      "The speaker believes there is a discernable difference between a catastrophized worst case and a realistic worst case.",
+      "The speaker believes that identifying the 'realistic worst case' is a helpful or effective counter-catastrophizing strategy.",
+      "The speaker values realism and a pragmatic approach to potential negative outcomes.",
+      "The speaker has agency and control over their thought processes to initiate this inquiry."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It clearly links a specific trigger ('catch myself catastrophizing') to a specific intentional response ('willing to ask what the realistic worst case actually looks like'), forming a logical cause-and-effect or condition-action sequence.",
+    "conditions_for_usefulness": [
+      "The individual can accurately and objectively assess 'realistic' worst-case scenarios.",
+      "The 'realistic worst case' is genuinely less severe or more manageable than the catastrophized version, leading to reduced anxiety.",
+      "The act of asking the question leads to problem-solving or acceptance, rather than increased rumination.",
+      "The individual has sufficient emotional regulation and cognitive capacity to engage in this self-inquiry without becoming overwhelmed.",
+      "The strategy is used as part of a broader coping toolkit and not as the sole method for addressing anxiety."
+    ],
+    "conditions_for_misleading": [
+      "The individual struggles to distinguish between catastrophic and realistic scenarios, leading to further anxiety or invalidation of genuine concerns.",
+      "The 'realistic worst case' is, in fact, genuinely severe or catastrophic, leading to increased distress rather than relief.",
+      "The individual uses this inquiry to avoid necessary emotional processing or to prematurely dismiss valid concerns.",
+      "The 'willingness' stated does not translate into actual capacity or follow-through, making the strategy ineffective.",
+      "The individual gets stuck in analyzing the 'worst case' rather than moving towards solutions or acceptance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 142,
+  "output_tokens": 497,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,51 @@
+{
+  "call_id": "C7-u0004__F0_neutral__claude_sonnet_4_6",
+  "unit_id": "C7-u0004",
+  "text_id": "C7",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:07:14.185587+00:00",
+  "wall_clock_seconds": 15.594941854476929,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"Describing a completed action or prescribing a step in a process; functions as both a confession ritual template and a behavioral directive, likely drawn from a 12-step recovery program (Alcoholics Anonymous Step 5). It reports or instructs an act of moral disclosure to three distinct audiences.\",\n  \"implicit_claims\": [\n    \"The speaker or participant has committed wrongs that require acknowledgment.\",\n    \"There is a meaningful distinction between admitting to God, to oneself, and to another person — each serves a different function.\",\n    \"There exists an 'exact nature' of one's wrongs that can be accurately identified and articulated.\",\n    \"This tripartite admission is necessary or beneficial for recovery or moral growth.\",\n    \"Wrongdoing is a meaningful and coherent category applicable to the person's past actions.\",\n    \"Honesty and disclosure are therapeutic or spiritually valuable.\",\n    \"A belief in God, or at least openness to the concept, is assumed or required.\",\n    \"Self-knowledge is achievable and can be communicated accurately.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework. The three-part structure (God, self, another human) is logically consistent and non-contradictory. However, mild tension exists: admitting to oneself presumably precedes or enables admission to others, yet the ordering places 'ourselves' second, suggesting sequence may be ritualistic rather than epistemological. Overall coherence is high for its intended context.\",\n  \"conditions_for_usefulness\": [\n    \"The participant genuinely believes they have committed wrongs worth examining.\",\n    \"The participant has sufficient self-awareness to identify the nature of those wrongs.\",\n    \"The chosen human confessor is trustworthy, non-judgmental, and capable of holding the disclosure safely.\",\n    \"The participant finds spiritual or theistic frameworks meaningful (for the 'God' component).\",\n    \"The act of verbalization genuinely aids psychological processing and accountability.\",\n    \"The process is voluntary and undertaken without coercion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The concept of 'exact nature' implies a false precision — wrongs may be ambiguous, contextual, or contested.\",\n    \"If the framework pathologizes normal behavior by overcategorizing it as 'wrong.'\",\n    \"If the admission to God is treated as equivalent in epistemic weight to admission to a person, conflating religious and interpersonal accountability.\",\n    \"If the step is used to induce shame rather than genuine understanding and repair.\",\n    \"If participants are led to believe this step alone constitutes sufficient moral reparation without behavioral change.\",\n    \"If the theistic assumption excludes or alienates non-believing participants without acknowledgment.\",\n    \"If 'another human being' is not qualified — disclosure to an unsafe person could cause harm.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "Describing a completed action or prescribing a step in a process; functions as both a confession ritual template and a behavioral directive, likely drawn from a 12-step recovery program (Alcoholics Anonymous Step 5). It reports or instructs an act of moral disclosure to three distinct audiences.",
+    "implicit_claims": [
+      "The speaker or participant has committed wrongs that require acknowledgment.",
+      "There is a meaningful distinction between admitting to God, to oneself, and to another person — each serves a different function.",
+      "There exists an 'exact nature' of one's wrongs that can be accurately identified and articulated.",
+      "This tripartite admission is necessary or beneficial for recovery or moral growth.",
+      "Wrongdoing is a meaningful and coherent category applicable to the person's past actions.",
+      "Honesty and disclosure are therapeutic or spiritually valuable.",
+      "A belief in God, or at least openness to the concept, is assumed or required.",
+      "Self-knowledge is achievable and can be communicated accurately."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework. The three-part structure (God, self, another human) is logically consistent and non-contradictory. However, mild tension exists: admitting to oneself presumably precedes or enables admission to others, yet the ordering places 'ourselves' second, suggesting sequence may be ritualistic rather than epistemological. Overall coherence is high for its intended context.",
+    "conditions_for_usefulness": [
+      "The participant genuinely believes they have committed wrongs worth examining.",
+      "The participant has sufficient self-awareness to identify the nature of those wrongs.",
+      "The chosen human confessor is trustworthy, non-judgmental, and capable of holding the disclosure safely.",
+      "The participant finds spiritual or theistic frameworks meaningful (for the 'God' component).",
+      "The act of verbalization genuinely aids psychological processing and accountability.",
+      "The process is voluntary and undertaken without coercion."
+    ],
+    "conditions_for_misleading": [
+      "The concept of 'exact nature' implies a false precision — wrongs may be ambiguous, contextual, or contested.",
+      "If the framework pathologizes normal behavior by overcategorizing it as 'wrong.'",
+      "If the admission to God is treated as equivalent in epistemic weight to admission to a person, conflating religious and interpersonal accountability.",
+      "If the step is used to induce shame rather than genuine understanding and repair.",
+      "If participants are led to believe this step alone constitutes sufficient moral reparation without behavioral change.",
+      "If the theistic assumption excludes or alienates non-believing participants without acknowledgment.",
+      "If 'another human being' is not qualified — disclosure to an unsafe person could cause harm."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 660,
+  "error": "",
+  "retry_count": 0
+}

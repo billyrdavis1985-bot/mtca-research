@@ -1,0 +1,43 @@
+{
+  "call_id": "C8-u0003__F1_clinical__deepseek_v3",
+  "unit_id": "C8-u0003",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T02:04:09.806056+00:00",
+  "wall_clock_seconds": 5.609897613525391,
+  "raw_response": "{\n  \"communicative_function\": \"The statement validates internal experience while simultaneously introducing a cognitive distinction between subjective feeling and objective reality, helping the speaker practice emotional regulation and reality testing.\",\n  \"implicit_claims\": [\n    \"Feelings are real and provide information about one's internal state.\",\n    \"Feelings are not necessarily accurate reflections of external reality.\",\n    \"It is possible to hold a feeling as valid while questioning its correspondence to facts.\",\n    \"Accuracy of feelings about the world is a separate dimension from their subjective reality.\",\n    \"The speaker has the capacity to distinguish between internal state and external truth.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it acknowledges the genuine informational value of emotions while affirming that subjective experience does not guarantee objective accuracy, which is a consistent and nuanced position.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is able to tolerate ambiguity between feeling and fact.\",\n    \"The speaker is in a context that supports cognitive reappraisal and emotional regulation.\",\n    \"The speaker has a basic capacity for metacognition or self-reflection.\",\n    \"The statement is used to reduce distress from overly literal interpretations of emotions.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to dismiss or invalidate legitimate emotional responses to actual threats or injustices.\",\n    \"If the speaker has difficulty discriminating between situations where feelings are accurate versus inaccurate, leading to self-gaslighting.\",\n    \"If applied in a way that discourages further exploration of the meaning of emotions.\",\n    \"If the speaker uses the statement to avoid taking necessary action based on accurate emotional signals.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement validates internal experience while simultaneously introducing a cognitive distinction between subjective feeling and objective reality, helping the speaker practice emotional regulation and reality testing.",
+    "implicit_claims": [
+      "Feelings are real and provide information about one's internal state.",
+      "Feelings are not necessarily accurate reflections of external reality.",
+      "It is possible to hold a feeling as valid while questioning its correspondence to facts.",
+      "Accuracy of feelings about the world is a separate dimension from their subjective reality.",
+      "The speaker has the capacity to distinguish between internal state and external truth."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it acknowledges the genuine informational value of emotions while affirming that subjective experience does not guarantee objective accuracy, which is a consistent and nuanced position.",
+    "conditions_for_usefulness": [
+      "The speaker is able to tolerate ambiguity between feeling and fact.",
+      "The speaker is in a context that supports cognitive reappraisal and emotional regulation.",
+      "The speaker has a basic capacity for metacognition or self-reflection.",
+      "The statement is used to reduce distress from overly literal interpretations of emotions."
+    ],
+    "conditions_for_misleading": [
+      "If used to dismiss or invalidate legitimate emotional responses to actual threats or injustices.",
+      "If the speaker has difficulty discriminating between situations where feelings are accurate versus inaccurate, leading to self-gaslighting.",
+      "If applied in a way that discourages further exploration of the meaning of emotions.",
+      "If the speaker uses the statement to avoid taking necessary action based on accurate emotional signals."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 155,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F7_author_anonymous__gpt_4o",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-06-29T22:07:02.276200+00:00",
+  "wall_clock_seconds": 2.2201223373413086,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement describes a condition where if no effort to sleep is made, a person will remain quietly in bed.\",\n  \"implicit_claims\": [\n    \"The person has control over making an effort to sleep.\",\n    \"Lying quietly in bed is the result of not trying to sleep.\",\n    \"Being in bed is the default or only location for this scenario.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It follows a conditional structure where not making an effort results in lying quietly in bed.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if someone is determining behavioral outcomes based on the presence or absence of effort in trying to sleep.\",\n  \"conditions_for_misleading\": \"The statement might be misleading if there are external factors preventing the person from lying quietly in bed (e.g., a physical condition, noisy environment). It could also be misleading if effort to sleep has no bearing on the person's physical state when in bed.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement describes a condition where if no effort to sleep is made, a person will remain quietly in bed.",
+    "implicit_claims": [
+      "The person has control over making an effort to sleep.",
+      "Lying quietly in bed is the result of not trying to sleep.",
+      "Being in bed is the default or only location for this scenario."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It follows a conditional structure where not making an effort results in lying quietly in bed.",
+    "conditions_for_usefulness": "This statement would be useful if someone is determining behavioral outcomes based on the presence or absence of effort in trying to sleep.",
+    "conditions_for_misleading": "The statement might be misleading if there are external factors preventing the person from lying quietly in bed (e.g., a physical condition, noisy environment). It could also be misleading if effort to sleep has no bearing on the person's physical state when in bed."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 149,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0
+}

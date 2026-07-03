@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0214__F3_behavioral__claude_sonnet_4_6",
+  "unit_id": "C5-u0214",
+  "text_id": "C5",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:34:16.482417+00:00",
+  "wall_clock_seconds": 13.423223733901978,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning as motivational rhetoric, framing abstract psychological constructs (vision and ideal) as deterministic or prophetic forces that guarantee future outcomes. It attempts to inspire commitment by asserting that one's aspirations are not merely hopes but inevitable realities awaiting revelation.\",\n  \"implicit_claims\": [\n    \"Vision and Ideal are distinct but related constructs with different roles in personal development.\",\n    \"Having a vision or ideal is sufficient to guarantee eventual fulfillment of that vision or ideal.\",\n    \"Personal development follows a teleological path — a predetermined endpoint exists and will be reached.\",\n    \"The self is something that gets 'unveiled' rather than constructed, implying an essentialist view of identity.\",\n    \"Aspiration has predictive or prophetic power over outcomes.\",\n    \"The future version of oneself already exists in some meaningful sense, awaiting discovery.\",\n    \"All people who hold visions or ideals will eventually realize them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as rhetoric but conflates metaphorical language with behavioral commitment. The parallelism between 'promise' and 'prophecy' creates aesthetic cohesion, but the two terms smuggle in unfounded determinism. It does not account for failure, revision of ideals, or external constraints, making it logically incomplete as a behavioral framework despite its rhetorical polish.\",\n  \"conditions_for_usefulness\": [\n    \"The listener interprets 'promise' and 'prophecy' as motivational metaphors rather than literal guarantees.\",\n    \"The statement is used to encourage persistence in the face of short-term setbacks, not as a strategic planning tool.\",\n    \"The individual already has a clearly defined, realistic, and actionable vision and ideal.\",\n    \"It is paired with concrete behavioral commitments and accountability mechanisms.\",\n    \"The audience understands that vision and ideal require effort, not just existence, to be realized.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The listener interprets the statement as a guarantee that aspirations will be fulfilled regardless of effort or circumstance.\",\n    \"It is used to discourage critical reassessment of unrealistic or harmful ideals by framing them as prophetically fixed.\",\n    \"It fosters passive waiting rather than active behavioral change, since the outcome is framed as inevitable.\",\n    \"It is applied to populations facing systemic barriers where individual vision alone is insufficient for outcome change.\",\n    \"It is used to deflect accountability for lack of progress by attributing failure to a delayed 'unveiling' rather than inadequate action or planning.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning as motivational rhetoric, framing abstract psychological constructs (vision and ideal) as deterministic or prophetic forces that guarantee future outcomes. It attempts to inspire commitment by asserting that one's aspirations are not merely hopes but inevitable realities awaiting revelation.",
+    "implicit_claims": [
+      "Vision and Ideal are distinct but related constructs with different roles in personal development.",
+      "Having a vision or ideal is sufficient to guarantee eventual fulfillment of that vision or ideal.",
+      "Personal development follows a teleological path — a predetermined endpoint exists and will be reached.",
+      "The self is something that gets 'unveiled' rather than constructed, implying an essentialist view of identity.",
+      "Aspiration has predictive or prophetic power over outcomes.",
+      "The future version of oneself already exists in some meaningful sense, awaiting discovery.",
+      "All people who hold visions or ideals will eventually realize them."
+    ],
+    "coherence_assessment": "The statement is internally coherent as rhetoric but conflates metaphorical language with behavioral commitment. The parallelism between 'promise' and 'prophecy' creates aesthetic cohesion, but the two terms smuggle in unfounded determinism. It does not account for failure, revision of ideals, or external constraints, making it logically incomplete as a behavioral framework despite its rhetorical polish.",
+    "conditions_for_usefulness": [
+      "The listener interprets 'promise' and 'prophecy' as motivational metaphors rather than literal guarantees.",
+      "The statement is used to encourage persistence in the face of short-term setbacks, not as a strategic planning tool.",
+      "The individual already has a clearly defined, realistic, and actionable vision and ideal.",
+      "It is paired with concrete behavioral commitments and accountability mechanisms.",
+      "The audience understands that vision and ideal require effort, not just existence, to be realized."
+    ],
+    "conditions_for_misleading": [
+      "The listener interprets the statement as a guarantee that aspirations will be fulfilled regardless of effort or circumstance.",
+      "It is used to discourage critical reassessment of unrealistic or harmful ideals by framing them as prophetically fixed.",
+      "It fosters passive waiting rather than active behavioral change, since the outcome is framed as inevitable.",
+      "It is applied to populations facing systemic barriers where individual vision alone is insufficient for outcome change.",
+      "It is used to deflect accountability for lack of progress by attributing failure to a delayed 'unveiling' rather than inadequate action or planning."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 596,
+  "error": "",
+  "retry_count": 0
+}

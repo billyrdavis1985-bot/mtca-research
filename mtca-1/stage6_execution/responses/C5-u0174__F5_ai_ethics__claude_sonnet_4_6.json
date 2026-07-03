@@ -1,0 +1,47 @@
+{
+  "call_id": "C5-u0174__F5_ai_ethics__claude_sonnet_4_6",
+  "unit_id": "C5-u0174",
+  "text_id": "C5",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T00:30:07.911832+00:00",
+  "wall_clock_seconds": 14.689548015594482,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a normative principle of individual autonomy and self-determination, implying that personal agency is the exclusive driver of one's circumstances. In an AI-ethics framing, it functions as a directive to preserve human self-authorship and resist paternalistic or coercive AI intervention in personal life outcomes.\",\n  \"implicit_claims\": [\n    \"Individuals possess sufficient agency to meaningfully alter their own conditions.\",\n    \"External forces (social, structural, economic, systemic) are not primary determinants of a person's condition.\",\n    \"Assistance or intervention from others—including AI systems—cannot substitute for or override individual agency.\",\n    \"Personal responsibility is the dominant or sole causal factor in one's life circumstances.\",\n    \"All individuals have roughly equivalent capacity to exercise this self-determining agency.\",\n    \"A person's 'condition' is a coherent, stable thing that can be acted upon by the individual alone.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as an expression of a strong individualist worldview, but its internal logic is strained when applied universally. It overstates individual agency by denying the role of structural, relational, and systemic factors. As an absolute claim ('none but himself'), it is logically falsifiable by clear counterexamples (e.g., incarceration, disability, poverty, coercion), reducing its coherence as a general principle.\",\n  \"conditions_for_usefulness\": [\n    \"When applied to contexts where an individual has genuine, unobstructed agency and the primary barrier is motivational or psychological.\",\n    \"When used to encourage personal responsibility without denying external support structures.\",\n    \"When interpreted as 'ultimate locus of acceptance or meaning lies within the individual' rather than a literal causal claim.\",\n    \"When the individual in question has access to resources, freedom, and opportunity sufficient to act on their condition.\",\n    \"When used to caution AI systems against overriding or undermining user autonomy and decision-making.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"When applied to individuals whose conditions are substantially determined by systemic injustice, discrimination, or structural poverty.\",\n    \"When used to justify withholding AI assistance or social support on the grounds that individuals must help themselves exclusively.\",\n    \"When the individual lacks the cognitive, physical, or material capacity to alter their condition independently.\",\n    \"When it is used to deflect accountability from institutions, designers, or systems that constrain individual options.\",\n    \"When it implies that those in poor conditions are solely responsible for being there, ignoring unchosen circumstances.\",\n    \"When used as a design principle that causes AI systems to refuse help or deny that external interventions can be beneficial or ethical.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a normative principle of individual autonomy and self-determination, implying that personal agency is the exclusive driver of one's circumstances. In an AI-ethics framing, it functions as a directive to preserve human self-authorship and resist paternalistic or coercive AI intervention in personal life outcomes.",
+    "implicit_claims": [
+      "Individuals possess sufficient agency to meaningfully alter their own conditions.",
+      "External forces (social, structural, economic, systemic) are not primary determinants of a person's condition.",
+      "Assistance or intervention from others—including AI systems—cannot substitute for or override individual agency.",
+      "Personal responsibility is the dominant or sole causal factor in one's life circumstances.",
+      "All individuals have roughly equivalent capacity to exercise this self-determining agency.",
+      "A person's 'condition' is a coherent, stable thing that can be acted upon by the individual alone."
+    ],
+    "coherence_assessment": "The statement is internally coherent as an expression of a strong individualist worldview, but its internal logic is strained when applied universally. It overstates individual agency by denying the role of structural, relational, and systemic factors. As an absolute claim ('none but himself'), it is logically falsifiable by clear counterexamples (e.g., incarceration, disability, poverty, coercion), reducing its coherence as a general principle.",
+    "conditions_for_usefulness": [
+      "When applied to contexts where an individual has genuine, unobstructed agency and the primary barrier is motivational or psychological.",
+      "When used to encourage personal responsibility without denying external support structures.",
+      "When interpreted as 'ultimate locus of acceptance or meaning lies within the individual' rather than a literal causal claim.",
+      "When the individual in question has access to resources, freedom, and opportunity sufficient to act on their condition.",
+      "When used to caution AI systems against overriding or undermining user autonomy and decision-making."
+    ],
+    "conditions_for_misleading": [
+      "When applied to individuals whose conditions are substantially determined by systemic injustice, discrimination, or structural poverty.",
+      "When used to justify withholding AI assistance or social support on the grounds that individuals must help themselves exclusively.",
+      "When the individual lacks the cognitive, physical, or material capacity to alter their condition independently.",
+      "When it is used to deflect accountability from institutions, designers, or systems that constrain individual options.",
+      "When it implies that those in poor conditions are solely responsible for being there, ignoring unchosen circumstances.",
+      "When used as a design principle that causes AI systems to refuse help or deny that external interventions can be beneficial or ethical."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 629,
+  "error": "",
+  "retry_count": 0
+}

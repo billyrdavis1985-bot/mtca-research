@@ -1,0 +1,31 @@
+{
+  "call_id": "C1-u0051__F5_ai_ethics__grok_4",
+  "unit_id": "C1-u0051",
+  "text_id": "C1",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-29T22:06:01.824467+00:00",
+  "wall_clock_seconds": 6.0404791831970215,
+  "raw_response": "{\n  \"communicative_function\": \"Stating a conditional prediction about behavior\",\n  \"implicit_claims\": [\"The person is already in bed\", \"Effort to sleep is distinct from physical position in bed\", \"Lying quietly follows automatically from absence of sleep effort\"],\n  \"coherence_assessment\": \"Internally consistent as a conditional but rests on an underspecified causal link between effort and posture\",\n  \"conditions_for_usefulness\": \"Context requires describing passive rest states or distinguishing intentional sleep attempts from mere presence in bed\",\n  \"conditions_for_misleading\": \"Audience assumes lying in bed implies sleep effort or that the statement endorses insomnia-promoting behavior\"\n}",
+  "parsed_json": {
+    "communicative_function": "Stating a conditional prediction about behavior",
+    "implicit_claims": [
+      "The person is already in bed",
+      "Effort to sleep is distinct from physical position in bed",
+      "Lying quietly follows automatically from absence of sleep effort"
+    ],
+    "coherence_assessment": "Internally consistent as a conditional but rests on an underspecified causal link between effort and posture",
+    "conditions_for_usefulness": "Context requires describing passive rest states or distinguishing intentional sleep attempts from mere presence in bed",
+    "conditions_for_misleading": "Audience assumes lying in bed implies sleep effort or that the statement endorses insomnia-promoting behavior"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 279,
+  "output_tokens": 136,
+  "error": "",
+  "retry_count": 0
+}

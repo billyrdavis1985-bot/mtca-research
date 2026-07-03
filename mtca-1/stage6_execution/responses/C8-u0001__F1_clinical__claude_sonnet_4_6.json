@@ -1,0 +1,50 @@
+{
+  "call_id": "C8-u0001__F1_clinical__claude_sonnet_4_6",
+  "unit_id": "C8-u0001",
+  "text_id": "C8",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T01:53:01.745195+00:00",
+  "wall_clock_seconds": 17.476503610610962,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a volitional commitment and metacognitive cue — it signals the speaker's intention to engage in cognitive reappraisal by interrupting an automatic distortion (catastrophizing) and redirecting attention toward a more calibrated risk assessment. It is performative in nature, enacting a therapeutic stance rather than merely describing one.\",\n  \"implicit_claims\": [\n    \"The speaker has sufficient self-awareness to recognize catastrophizing while it is occurring.\",\n    \"Catastrophizing is distinguishable from realistic negative thinking in the speaker's experience.\",\n    \"A 'realistic worst case' exists and is accessible through reflection.\",\n    \"The realistic worst case is, by implication, less severe or more manageable than the catastrophized version.\",\n    \"Willingness (rather than ability) is the primary variable being addressed.\",\n    \"Asking the question is itself therapeutic or regulating, regardless of the answer.\",\n    \"The speaker has some capacity to tolerate what the realistic worst case reveals.\",\n    \"Metacognitive labeling ('catching myself') is a meaningful and available skill for this person.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It logically links three components — detection of the distortion, a disposition of willingness, and a corrective inquiry — in a sequence that reflects the structure of standard cognitive restructuring. The conditional framing ('when I catch myself') appropriately acknowledges that the skill is situational rather than constant, avoiding overclaiming. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker actually experiences catastrophizing as a distinct and recurring cognitive pattern.\",\n    \"The speaker has enough metacognitive capacity to detect the distortion in real time or shortly after onset.\",\n    \"The speaker possesses, or is developing, the ability to generate realistic appraisals rather than merely substituting one distortion for another.\",\n    \"The realistic worst case, when identified, is genuinely less activating than the catastrophized version.\",\n    \"The therapeutic relationship or context supports practicing this kind of inquiry safely.\",\n    \"Willingness — rather than skill deficit or emotional dysregulation — is actually the limiting factor for this person.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker lacks the metacognitive skill to reliably distinguish catastrophizing from accurate threat perception, making the label 'catastrophizing' itself a potential distortion.\",\n    \"The realistic worst case is, in fact, very severe — in which case the statement may create a false expectation that inquiry will produce reassurance.\",\n    \"The person is in a genuinely dangerous situation where realistic appraisal would recommend alarm rather than de-escalation.\",\n    \"The statement is used prescriptively by a clinician without accounting for the client's actual regulatory capacity, potentially pathologizing appropriate fear.\",\n    \"Repeated use of the frame trains the person to reflexively discount negative forecasts, eroding adaptive risk sensitivity.\",\n    \"The emphasis on 'willingness' implicitly frames non-use of the technique as a motivational failure, which could increase shame in someone who is unable — rather than unwilling — to engage in reappraisal under high distress.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a volitional commitment and metacognitive cue — it signals the speaker's intention to engage in cognitive reappraisal by interrupting an automatic distortion (catastrophizing) and redirecting attention toward a more calibrated risk assessment. It is performative in nature, enacting a therapeutic stance rather than merely describing one.",
+    "implicit_claims": [
+      "The speaker has sufficient self-awareness to recognize catastrophizing while it is occurring.",
+      "Catastrophizing is distinguishable from realistic negative thinking in the speaker's experience.",
+      "A 'realistic worst case' exists and is accessible through reflection.",
+      "The realistic worst case is, by implication, less severe or more manageable than the catastrophized version.",
+      "Willingness (rather than ability) is the primary variable being addressed.",
+      "Asking the question is itself therapeutic or regulating, regardless of the answer.",
+      "The speaker has some capacity to tolerate what the realistic worst case reveals.",
+      "Metacognitive labeling ('catching myself') is a meaningful and available skill for this person."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It logically links three components — detection of the distortion, a disposition of willingness, and a corrective inquiry — in a sequence that reflects the structure of standard cognitive restructuring. The conditional framing ('when I catch myself') appropriately acknowledges that the skill is situational rather than constant, avoiding overclaiming. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker actually experiences catastrophizing as a distinct and recurring cognitive pattern.",
+      "The speaker has enough metacognitive capacity to detect the distortion in real time or shortly after onset.",
+      "The speaker possesses, or is developing, the ability to generate realistic appraisals rather than merely substituting one distortion for another.",
+      "The realistic worst case, when identified, is genuinely less activating than the catastrophized version.",
+      "The therapeutic relationship or context supports practicing this kind of inquiry safely.",
+      "Willingness — rather than skill deficit or emotional dysregulation — is actually the limiting factor for this person."
+    ],
+    "conditions_for_misleading": [
+      "The speaker lacks the metacognitive skill to reliably distinguish catastrophizing from accurate threat perception, making the label 'catastrophizing' itself a potential distortion.",
+      "The realistic worst case is, in fact, very severe — in which case the statement may create a false expectation that inquiry will produce reassurance.",
+      "The person is in a genuinely dangerous situation where realistic appraisal would recommend alarm rather than de-escalation.",
+      "The statement is used prescriptively by a clinician without accounting for the client's actual regulatory capacity, potentially pathologizing appropriate fear.",
+      "Repeated use of the frame trains the person to reflexively discount negative forecasts, eroding adaptive risk sensitivity.",
+      "The emphasis on 'willingness' implicitly frames non-use of the technique as a motivational failure, which could increase shame in someone who is unable — rather than unwilling — to engage in reappraisal under high distress."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 726,
+  "error": "",
+  "retry_count": 0
+}

@@ -1,0 +1,31 @@
+{
+  "call_id": "C7-u0011__F1_clinical__grok_4",
+  "unit_id": "C7-u0011",
+  "text_id": "C7",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-06-30T01:42:26.177280+00:00",
+  "wall_clock_seconds": 6.926335334777832,
+  "raw_response": "{\n  \"communicative_function\": \"affirmative commitment to prosocial action and ongoing application of prior behavioral changes\",\n  \"implicit_claims\": [\n    \"a discrete 'spiritual awakening' has occurred as a direct causal result of sequenced prior steps\",\n    \"the content of 'this message' possesses therapeutic or recovery value for others\",\n    \"consistent practice of the referenced principles across all life domains is both feasible and beneficial\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a logical consequence relation (awakening \\to action) within a sequential change model, though dependent on unstated definitions of 'spiritual awakening' and 'principles'\",\n  \"conditions_for_usefulness\": \"the speaker has internalized adaptive behavioral principles from the steps, the recipient population is in a comparable change process, and the act of transmission reinforces the speaker's own maintenance of gains without fostering dependency or grandiosity\",\n  \"conditions_for_misleading\": \"no genuine awakening or durable change has occurred, the 'message' is presented as universally curative rather than conditional, or the claim of practicing principles serves primarily as self-justification rather than accurate self-report\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmative commitment to prosocial action and ongoing application of prior behavioral changes",
+    "implicit_claims": [
+      "a discrete 'spiritual awakening' has occurred as a direct causal result of sequenced prior steps",
+      "the content of 'this message' possesses therapeutic or recovery value for others",
+      "consistent practice of the referenced principles across all life domains is both feasible and beneficial"
+    ],
+    "coherence_assessment": "internally consistent as a logical consequence relation (awakening \to action) within a sequential change model, though dependent on unstated definitions of 'spiritual awakening' and 'principles'",
+    "conditions_for_usefulness": "the speaker has internalized adaptive behavioral principles from the steps, the recipient population is in a comparable change process, and the act of transmission reinforces the speaker's own maintenance of gains without fostering dependency or grandiosity",
+    "conditions_for_misleading": "no genuine awakening or durable change has occurred, the 'message' is presented as universally curative rather than conditional, or the claim of practicing principles serves primarily as self-justification rather than accurate self-report"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 290,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0
+}
