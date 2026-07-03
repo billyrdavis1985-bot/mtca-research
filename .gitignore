@@ -1,0 +1,16 @@
+# Credentials - never commit
+*.env
+.env*
+credentials.json
+api_keys.json
+*_secrets*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
