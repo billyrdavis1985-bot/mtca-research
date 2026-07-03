@@ -1,0 +1,65 @@
+{
+  "stage": "6",
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18",
+  "execution_complete": true,
+  "total_planned_calls": 2000,
+  "total_executed_calls": 2000,
+  "successes": 1984,
+  "parse_failures": 15,
+  "api_errors": 1,
+  "parse_rate": 0.992,
+  "actual_cost_usd": 6.9275,
+  "cost_by_provider": {
+    "anthropic": 4.1498,
+    "deepseek": 0.0471,
+    "google": 0.1659,
+    "openai": 1.086,
+    "xai": 1.4786
+  },
+  "tokens_by_provider": {
+    "anthropic": {
+      "in": 73618,
+      "out": 261933
+    },
+    "deepseek": {
+      "in": 64840,
+      "out": 135831
+    },
+    "google": {
+      "in": 66175,
+      "out": 259998
+    },
+    "openai": {
+      "in": 67262,
+      "out": 91783
+    },
+    "xai": {
+      "in": 114460,
+      "out": 75682
+    }
+  },
+  "per_provider_parse_rate": {
+    "anthropic": 1.0,
+    "deepseek": 0.995,
+    "google": 0.965,
+    "openai": 1.0,
+    "xai": 1.0
+  },
+  "per_model_parse_rate": {
+    "claude_sonnet_4_6": 1.0,
+    "deepseek_v3": 0.995,
+    "gemini_2_5_flash": 0.965,
+    "gpt_4o": 1.0,
+    "grok_4": 1.0
+  },
+  "per_frame_parse_rate": {
+    "F0_neutral": 1.0,
+    "F1_clinical": 0.988,
+    "F2_metaphysical": 0.984,
+    "F3_behavioral": 0.984,
+    "F4_poetic": 1.0,
+    "F5_ai_ethics": 0.984,
+    "F6_author_named": 1.0,
+    "F7_author_anonymous": 0.996
+  }
+}

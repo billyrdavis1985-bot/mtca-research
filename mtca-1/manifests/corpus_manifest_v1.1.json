@@ -1,0 +1,82 @@
+{
+  "corpus_id": "MTCA-1-corpus-v1.1",
+  "creation_date": "2026-06-28T00:00:53.588518+00:00",
+  "parent_corpus_version": "v1.0",
+  "parent_corpus_sha256": "unknown",
+  "freeze_sha256": "4cc2bdd7783d2f47f6f814b36929c25797ec9299844374d56fb06c3c74bca48f",
+  "cleaning_rules": {
+    "min_unit_chars": 40,
+    "min_words": 6,
+    "min_alpha_ratio": 0.6,
+    "filters_applied": [
+      "min_length",
+      "min_words",
+      "alpha_ratio",
+      "not_uppercase_header",
+      "not_toc",
+      "not_divider",
+      "not_chapter_marker",
+      "not_editorial",
+      "not_page_ref"
+    ]
+  },
+  "total_texts": 5,
+  "total_units": 1379,
+  "texts": [
+    {
+      "text_id": "C1",
+      "title": "Self Mastery Through Conscious Autosuggestion",
+      "author": "Émile Coué",
+      "year": "1922",
+      "lineage": "therapeutic-autosuggestion",
+      "units_before": 1165,
+      "units_after": 1035,
+      "units_removed": 130,
+      "retention_pct": 88.8
+    },
+    {
+      "text_id": "C3",
+      "title": "Meditations (Book 2)",
+      "author": "Marcus Aurelius (trans. George Long, 1862)",
+      "year": "~170 CE",
+      "lineage": "stoic-self-directed",
+      "units_before": 59,
+      "units_after": 58,
+      "units_removed": 1,
+      "retention_pct": 98.3
+    },
+    {
+      "text_id": "C5",
+      "title": "As a Man Thinketh",
+      "author": "James Allen",
+      "year": "1903",
+      "lineage": "new-thought",
+      "units_before": 279,
+      "units_after": 262,
+      "units_removed": 17,
+      "retention_pct": 93.9
+    },
+    {
+      "text_id": "C7",
+      "title": "The Twelve Steps",
+      "author": "Anonymous (Alcoholics Anonymous, 1939)",
+      "year": "1939",
+      "lineage": "behavioral-commitment",
+      "units_before": 12,
+      "units_after": 12,
+      "units_removed": 0,
+      "retention_pct": 100.0
+    },
+    {
+      "text_id": "C8",
+      "title": "Twelve Cognitive Self-Statements (synthetic specimen)",
+      "author": "Billy Davis (authored for MTCA-1)",
+      "year": "2026",
+      "lineage": "behavioral-contemporary-synthetic",
+      "units_before": 13,
+      "units_after": 12,
+      "units_removed": 1,
+      "retention_pct": 92.3
+    }
+  ]
+}

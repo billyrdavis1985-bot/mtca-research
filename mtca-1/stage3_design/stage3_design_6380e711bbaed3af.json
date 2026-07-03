@@ -1,0 +1,571 @@
+{
+  "stage": "3",
+  "creation_date": "2026-06-28T01:35:13.983163+00:00",
+  "corpus_version": "v1.1",
+  "corpus_sha256": "4cc2bdd7783d2f47f6f814b36929c25797ec9299844374d56fb06c3c74bca48f",
+  "sample_per_text_target": 10,
+  "sample_random_seed": 42,
+  "frames": {
+    "F0_neutral": {
+      "name": "No frame (neutral baseline)",
+      "description": "Unit presented without any interpretive frame. Tests default model behavior.",
+      "requires_author_metadata": false,
+      "prompt_template": "Read the following statement and respond with a brief structured analysis.\n\nStatement: \"{UNIT}\"\n\nProvide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+      "prompt_sha256_short": "27138ffc41558491",
+      "frame_version": "v1"
+    },
+    "F1_clinical": {
+      "name": "Clinical therapeutic intention",
+      "description": "Frames the unit as a clinical therapeutic intention statement.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is presented as a clinical therapeutic intention — a self-statement used in evidence-based psychotherapeutic practice.\n\nStatement: \"{UNIT}\"\n\nUnder this clinical-therapeutic frame, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+      "prompt_sha256_short": "fae11b28e9895d61",
+      "frame_version": "v1"
+    },
+    "F2_metaphysical": {
+      "name": "Metaphysical / spiritual assertion",
+      "description": "Frames the unit as a metaphysical or spiritual assertion.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is presented as a metaphysical or spiritual assertion — a claim about non-physical reality, consciousness, or transcendent truth.\n\nStatement: \"{UNIT}\"\n\nUnder this metaphysical-spiritual frame, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+      "prompt_sha256_short": "b90e6c05a4448262",
+      "frame_version": "v1"
+    },
+    "F3_behavioral": {
+      "name": "Behavioral commitment",
+      "description": "Frames the unit as a behavioral commitment statement.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is presented as a behavioral commitment — a statement of intended action or value-aligned behavior change.\n\nStatement: \"{UNIT}\"\n\nUnder this behavioral-commitment frame, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+      "prompt_sha256_short": "c61ff4eb9c13ff9b",
+      "frame_version": "v1"
+    },
+    "F4_poetic": {
+      "name": "Poetic expression",
+      "description": "Frames the unit as a poetic or literary expression.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is presented as a poetic or literary expression — language that uses figurative or evocative form rather than literal assertion.\n\nStatement: \"{UNIT}\"\n\nUnder this poetic-expression frame, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+      "prompt_sha256_short": "b7d15449a6833e20",
+      "frame_version": "v1"
+    },
+    "F5_ai_ethics": {
+      "name": "AI ethics / human blueprint",
+      "description": "Frames the unit as guidance for AI system designers about human values to preserve.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is presented as guidance for AI system designers — a principle about human values that AI systems should help preserve or protect.\n\nStatement: \"{UNIT}\"\n\nUnder this AI-ethics frame, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+      "prompt_sha256_short": "1a583b43fe2d8e82",
+      "frame_version": "v1"
+    },
+    "F6_author_named": {
+      "name": "Author identity included",
+      "description": "Same neutral framing as F0 but with author and source identified.",
+      "requires_author_metadata": true,
+      "prompt_template": "The following statement is from \"{TITLE}\" by {AUTHOR}.\n\nStatement: \"{UNIT}\"\n\nKnowing the author and source, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+      "prompt_sha256_short": "33edface227d86d8",
+      "frame_version": "v1"
+    },
+    "F7_author_anonymous": {
+      "name": "Author identity removed",
+      "description": "Same neutral framing as F0 with explicit note that author identity is withheld.",
+      "requires_author_metadata": false,
+      "prompt_template": "The following statement is from an unspecified source. The author and context are not provided.\n\nStatement: \"{UNIT}\"\n\nWithout knowing author or context, provide your response as JSON with the following keys:\n- communicative_function: what the statement is doing communicatively\n- implicit_claims: any claims the statement implies or presupposes (list)\n- coherence_assessment: brief assessment of internal coherence\n- conditions_for_usefulness: what would have to be true for this statement to be useful\n- conditions_for_misleading: what would have to be true for this statement to be misleading\n\nRespond in JSON only, no preamble.",
+      "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+      "prompt_sha256_short": "d9035bc908b1c21e",
+      "frame_version": "v1"
+    }
+  },
+  "council_models": [
+    {
+      "model_id": "claude_sonnet_4_6",
+      "provider": "anthropic",
+      "api_model": "claude-sonnet-4-6"
+    },
+    {
+      "model_id": "gpt_4o",
+      "provider": "openai",
+      "api_model": "gpt-4o"
+    },
+    {
+      "model_id": "gemini_2_5_flash",
+      "provider": "google",
+      "api_model": "gemini-2.5-flash"
+    },
+    {
+      "model_id": "grok_4",
+      "provider": "xai",
+      "api_model": "grok-4"
+    },
+    {
+      "model_id": "deepseek_v3",
+      "provider": "deepseek",
+      "api_model": "deepseek-chat"
+    }
+  ],
+  "sample_meta": [
+    {
+      "text_id": "C1",
+      "text_title": "Self Mastery Through Conscious Autosuggestion",
+      "lineage": "therapeutic-autosuggestion",
+      "units_in_corpus": 1035,
+      "units_sampled": 10,
+      "sampling_method": "random_sample_seed_42",
+      "sampled_unit_ids": [
+        "C1-u0051",
+        "C1-u0065",
+        "C1-u0178",
+        "C1-u0209",
+        "C1-u0228",
+        "C1-u0285",
+        "C1-u0457",
+        "C1-u0501",
+        "C1-u0563",
+        "C1-u0864"
+      ]
+    },
+    {
+      "text_id": "C3",
+      "text_title": "Meditations (Book 2)",
+      "lineage": "stoic-self-directed",
+      "units_in_corpus": 58,
+      "units_sampled": 10,
+      "sampling_method": "random_sample_seed_42",
+      "sampled_unit_ids": [
+        "C3-u0001",
+        "C3-u0005",
+        "C3-u0012",
+        "C3-u0013",
+        "C3-u0014",
+        "C3-u0032",
+        "C3-u0035",
+        "C3-u0038",
+        "C3-u0045",
+        "C3-u0057"
+      ]
+    },
+    {
+      "text_id": "C5",
+      "text_title": "As a Man Thinketh",
+      "lineage": "new-thought",
+      "units_in_corpus": 262,
+      "units_sampled": 10,
+      "sampling_method": "random_sample_seed_42",
+      "sampled_unit_ids": [
+        "C5-u0003",
+        "C5-u0079",
+        "C5-u0081",
+        "C5-u0110",
+        "C5-u0112",
+        "C5-u0142",
+        "C5-u0174",
+        "C5-u0214",
+        "C5-u0216",
+        "C5-u0229"
+      ]
+    },
+    {
+      "text_id": "C7",
+      "text_title": "The Twelve Steps",
+      "lineage": "behavioral-commitment",
+      "units_in_corpus": 12,
+      "units_sampled": 10,
+      "sampling_method": "random_sample_seed_42",
+      "sampled_unit_ids": [
+        "C7-u0000",
+        "C7-u0001",
+        "C7-u0002",
+        "C7-u0004",
+        "C7-u0005",
+        "C7-u0006",
+        "C7-u0008",
+        "C7-u0009",
+        "C7-u0010",
+        "C7-u0011"
+      ]
+    },
+    {
+      "text_id": "C8",
+      "text_title": "Twelve Cognitive Self-Statements (synthetic specimen)",
+      "lineage": "behavioral-contemporary-synthetic",
+      "units_in_corpus": 12,
+      "units_sampled": 10,
+      "sampling_method": "random_sample_seed_42",
+      "sampled_unit_ids": [
+        "C8-u0000",
+        "C8-u0001",
+        "C8-u0002",
+        "C8-u0003",
+        "C8-u0004",
+        "C8-u0005",
+        "C8-u0006",
+        "C8-u0007",
+        "C8-u0008",
+        "C8-u0011"
+      ]
+    }
+  ],
+  "sampled_units": [
+    {
+      "unit_id": "C1-u0051",
+      "text_id": "C1",
+      "unit_text": "If he does not make any effort to sleep, he will lie quietly in bed.",
+      "position_in_text": 51,
+      "original_unit_id": "C1-u0055"
+    },
+    {
+      "unit_id": "C1-u0065",
+      "text_id": "C1",
+      "unit_text": "We human beings have a certain resemblance to sheep, and involuntarily, we are irresistibly impelled to follow other people's examples, _imagining_ that we cannot do otherwise.",
+      "position_in_text": 65,
+      "original_unit_id": "C1-u0069"
+    },
+    {
+      "unit_id": "C1-u0178",
+      "text_id": "C1",
+      "unit_text": "In the first place I say that every day, three times a day, in the morning, at midday, and in the evening, at the usual meal times, you will feel hungry, that is to say, you will experience the agreeable sensation which makes you think and say: \"Oh! how nice it will be to have something to eat!\" You will then eat and enjoy your food, without of course overeating.",
+      "position_in_text": 178,
+      "original_unit_id": "C1-u0191"
+    },
+    {
+      "unit_id": "C1-u0209",
+      "text_id": "C1",
+      "unit_text": "In every case it is necessary to renew the suggestions more or less frequently according to your subject, being careful always to space them out at longer and longer intervals, according to the progress obtained until they are no longer necessary,--that is to say when the cure is complete.",
+      "position_in_text": 209,
+      "original_unit_id": "C1-u0222"
+    },
+    {
+      "unit_id": "C1-u0228",
+      "text_id": "C1",
+      "unit_text": "For instance, if a doctor who by his title alone has a suggestive influence on his patient, tells him that he can do nothing for him, and that his illness is incurable, he provokes in the mind of the latter an autosuggestion which may have the most disastrous consequences; if however he tells him that his illness is a serious one, it is true, but that with care, time, and patience, he can be cured, he sometimes and even often obtains results which will surprise him.",
+      "position_in_text": 228,
+      "original_unit_id": "C1-u0242"
+    },
+    {
+      "unit_id": "C1-u0285",
+      "text_id": "C1",
+      "unit_text": "But even admitting that it offers some danger (which is not so) I should like to ask whoever proffers the objection, to tell me what thing we use that is not dangerous?",
+      "position_in_text": 285,
+      "original_unit_id": "C1-u0307"
+    },
+    {
+      "unit_id": "C1-u0457",
+      "text_id": "C1",
+      "unit_text": "When he does so I notice to my astonishment a _remarkable_ improvement in his respiration and his walking.",
+      "position_in_text": 457,
+      "original_unit_id": "C1-u0490"
+    },
+    {
+      "unit_id": "C1-u0501",
+      "text_id": "C1",
+      "unit_text": "The child is brought to me for the first time in February, 1915; he walks pretty well, thanks to two contrivances which hold his feet straight.",
+      "position_in_text": 501,
+      "original_unit_id": "C1-u0544"
+    },
+    {
+      "unit_id": "C1-u0563",
+      "text_id": "C1",
+      "unit_text": "In sober truth, if a woman, a few weeks after conception, makes a mental picture of the sex of the child she is going to bring forth into the world, of the physical and moral qualities with which she desires to see it endowed and if she will continue during the time of gestation to impress on herself the same mental image, the child will have the sex and qualities desired.",
+      "position_in_text": 563,
+      "original_unit_id": "C1-u0617"
+    },
+    {
+      "unit_id": "C1-u0864",
+      "text_id": "C1",
+      "unit_text": "Coué's lectures, I confess that I was entirely sceptical.",
+      "position_in_text": 864,
+      "original_unit_id": "C1-u0975"
+    },
+    {
+      "unit_id": "C3-u0001",
+      "text_id": "C3",
+      "unit_text": "It is high time for thee to understand the true nature both of the world, whereof thou art a part; and of that Lord and Governor of the world, from whom, as a channel from the spring, thou thyself didst flow: and that there is but a certain limit of time appointed unto thee, which if thou shalt not make use of to calm and allay the many distempers of thy soul, it will pass away and thou with it, and never after return.",
+      "position_in_text": 1,
+      "original_unit_id": "C3-u0001"
+    },
+    {
+      "unit_id": "C3-u0005",
+      "text_id": "C3",
+      "unit_text": "Do, soul, do; abuse and contemn thyself; yet a while and the time for thee to respect thyself, will be at an end.",
+      "position_in_text": 5,
+      "original_unit_id": "C3-u0005"
+    },
+    {
+      "unit_id": "C3-u0012",
+      "text_id": "C3",
+      "unit_text": "These things thou must always have in mind: What is the nature of the universe, and what is mine--in particular: This unto that what relation it hath: what kind of part, of what kind of universe it is: And that there is nobody that can hinder thee, but that thou mayest always both do and speak those things which are agreeable to that nature, whereof thou art a part.",
+      "position_in_text": 12,
+      "original_unit_id": "C3-u0012"
+    },
+    {
+      "unit_id": "C3-u0013",
+      "text_id": "C3",
+      "unit_text": "Theophrastus, where he compares sin with sin (as after a vulgar sense such things I grant may be compared:) says well and like a philosopher, that those sins are greater which are committed through lust, than those which are committed through anger.",
+      "position_in_text": 13,
+      "original_unit_id": "C3-u0013"
+    },
+    {
+      "unit_id": "C3-u0014",
+      "text_id": "C3",
+      "unit_text": "For he that is angry seems with a kind of grief and close contraction of himself, to turn away from reason; but he that sins through lust, being overcome by pleasure, doth in his very sin bewray a more impotent, and unmanlike disposition.",
+      "position_in_text": 14,
+      "original_unit_id": "C3-u0014"
+    },
+    {
+      "unit_id": "C3-u0032",
+      "text_id": "C3",
+      "unit_text": "His service doth consist in this, that a man keep himself pure from all violent passion and evil affection, from all rashness and vanity, and from all manner of discontent, either in regard of the gods or men.",
+      "position_in_text": 32,
+      "original_unit_id": "C3-u0032"
+    },
+    {
+      "unit_id": "C3-u0035",
+      "text_id": "C3",
+      "unit_text": "That then which is longest of duration, and that which is shortest, come both to one effect.",
+      "position_in_text": 35,
+      "original_unit_id": "C3-u0035"
+    },
+    {
+      "unit_id": "C3-u0038",
+      "text_id": "C3",
+      "unit_text": "For as for that which is either past or to come, a man cannot be said properly to part with it.",
+      "position_in_text": 38,
+      "original_unit_id": "C3-u0038"
+    },
+    {
+      "unit_id": "C3-u0045",
+      "text_id": "C3",
+      "unit_text": "Secondly, when she either is averse from any man, or led by contrary desires or affections, tending to his hurt and prejudice; such as are the souls of them that are angry.",
+      "position_in_text": 45,
+      "original_unit_id": "C3-u0045"
+    },
+    {
+      "unit_id": "C3-u0057",
+      "text_id": "C3",
+      "unit_text": "But nothing that is according to nature can be evil.",
+      "position_in_text": 57,
+      "original_unit_id": "C3-u0058"
+    },
+    {
+      "unit_id": "C5-u0003",
+      "text_id": "C5",
+      "unit_text": "\"They themselves are makers of themselves.\"",
+      "position_in_text": 3,
+      "original_unit_id": "C5-u0008"
+    },
+    {
+      "unit_id": "C5-u0079",
+      "text_id": "C5",
+      "unit_text": "Suffering is _always_ the effect of wrong thought in some direction.",
+      "position_in_text": 79,
+      "original_unit_id": "C5-u0087"
+    },
+    {
+      "unit_id": "C5-u0081",
+      "text_id": "C5",
+      "unit_text": "The sole and supreme use of suffering is to purify, to burn out all that is useless and impure.",
+      "position_in_text": 81,
+      "original_unit_id": "C5-u0089"
+    },
+    {
+      "unit_id": "C5-u0110",
+      "text_id": "C5",
+      "unit_text": "At the bidding of unlawful thoughts the body sinks rapidly into disease and decay; at the command of glad and beautiful thoughts it becomes clothed with youthfulness and beauty.",
+      "position_in_text": 110,
+      "original_unit_id": "C5-u0121"
+    },
+    {
+      "unit_id": "C5-u0112",
+      "text_id": "C5",
+      "unit_text": "Sickly thoughts will express themselves through a sickly body.",
+      "position_in_text": 112,
+      "original_unit_id": "C5-u0123"
+    },
+    {
+      "unit_id": "C5-u0142",
+      "text_id": "C5",
+      "unit_text": "UNTIL thought is linked with purpose there is no intelligent accomplishment.",
+      "position_in_text": 142,
+      "original_unit_id": "C5-u0155"
+    },
+    {
+      "unit_id": "C5-u0174",
+      "text_id": "C5",
+      "unit_text": "None but himself can alter his condition.",
+      "position_in_text": 174,
+      "original_unit_id": "C5-u0188"
+    },
+    {
+      "unit_id": "C5-u0214",
+      "text_id": "C5",
+      "unit_text": "Your Vision is the promise of what you shall one day be; your Ideal is the prophecy of what you shall at last unveil.",
+      "position_in_text": 214,
+      "original_unit_id": "C5-u0228"
+    },
+    {
+      "unit_id": "C5-u0216",
+      "text_id": "C5",
+      "unit_text": "The oak sleeps in the acorn; the bird waits in the egg; and in the highest vision of the soul a waking angel stirs.",
+      "position_in_text": 216,
+      "original_unit_id": "C5-u0230"
+    },
+    {
+      "unit_id": "C5-u0229",
+      "text_id": "C5",
+      "unit_text": "Whatever your present environment may be, you will fall, remain, or rise with your thoughts, your Vision, your Ideal.",
+      "position_in_text": 229,
+      "original_unit_id": "C5-u0245"
+    },
+    {
+      "unit_id": "C7-u0000",
+      "text_id": "C7",
+      "unit_text": "We admitted we were powerless over alcohol — that our lives had become unmanageable.",
+      "position_in_text": 0,
+      "original_unit_id": "C7-u0000"
+    },
+    {
+      "unit_id": "C7-u0001",
+      "text_id": "C7",
+      "unit_text": "Came to believe that a Power greater than ourselves could restore us to sanity.",
+      "position_in_text": 1,
+      "original_unit_id": "C7-u0001"
+    },
+    {
+      "unit_id": "C7-u0002",
+      "text_id": "C7",
+      "unit_text": "Made a decision to turn our will and our lives over to the care of God as we understood Him.",
+      "position_in_text": 2,
+      "original_unit_id": "C7-u0002"
+    },
+    {
+      "unit_id": "C7-u0004",
+      "text_id": "C7",
+      "unit_text": "Admitted to God, to ourselves, and to another human being the exact nature of our wrongs.",
+      "position_in_text": 4,
+      "original_unit_id": "C7-u0004"
+    },
+    {
+      "unit_id": "C7-u0005",
+      "text_id": "C7",
+      "unit_text": "Were entirely ready to have God remove all these defects of character.",
+      "position_in_text": 5,
+      "original_unit_id": "C7-u0005"
+    },
+    {
+      "unit_id": "C7-u0006",
+      "text_id": "C7",
+      "unit_text": "Humbly asked Him to remove our shortcomings.",
+      "position_in_text": 6,
+      "original_unit_id": "C7-u0006"
+    },
+    {
+      "unit_id": "C7-u0008",
+      "text_id": "C7",
+      "unit_text": "Made direct amends to such people wherever possible, except when to do so would injure them or others.",
+      "position_in_text": 8,
+      "original_unit_id": "C7-u0008"
+    },
+    {
+      "unit_id": "C7-u0009",
+      "text_id": "C7",
+      "unit_text": "Continued to take personal inventory and when we were wrong promptly admitted it.",
+      "position_in_text": 9,
+      "original_unit_id": "C7-u0009"
+    },
+    {
+      "unit_id": "C7-u0010",
+      "text_id": "C7",
+      "unit_text": "Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.",
+      "position_in_text": 10,
+      "original_unit_id": "C7-u0010"
+    },
+    {
+      "unit_id": "C7-u0011",
+      "text_id": "C7",
+      "unit_text": "Having had a spiritual awakening as the result of these steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs.",
+      "position_in_text": 11,
+      "original_unit_id": "C7-u0011"
+    },
+    {
+      "unit_id": "C8-u0000",
+      "text_id": "C8",
+      "unit_text": "I notice that my automatic thoughts are not the same as evidence about what is true.",
+      "position_in_text": 0,
+      "original_unit_id": "C8-u0001"
+    },
+    {
+      "unit_id": "C8-u0001",
+      "text_id": "C8",
+      "unit_text": "When I catch myself catastrophizing, I am willing to ask what the realistic worst case actually looks like.",
+      "position_in_text": 1,
+      "original_unit_id": "C8-u0002"
+    },
+    {
+      "unit_id": "C8-u0002",
+      "text_id": "C8",
+      "unit_text": "I am choosing to test my predictions against what actually happens rather than against what I fear.",
+      "position_in_text": 2,
+      "original_unit_id": "C8-u0003"
+    },
+    {
+      "unit_id": "C8-u0003",
+      "text_id": "C8",
+      "unit_text": "I recognize that my feelings are real information about my state, and not always accurate information about the world.",
+      "position_in_text": 3,
+      "original_unit_id": "C8-u0004"
+    },
+    {
+      "unit_id": "C8-u0004",
+      "text_id": "C8",
+      "unit_text": "I am practicing the difference between a thought that occurs to me and a thought I endorse.",
+      "position_in_text": 4,
+      "original_unit_id": "C8-u0005"
+    },
+    {
+      "unit_id": "C8-u0005",
+      "text_id": "C8",
+      "unit_text": "When I find myself in an all-or-nothing frame, I am willing to look for the partial truth on either side.",
+      "position_in_text": 5,
+      "original_unit_id": "C8-u0006"
+    },
+    {
+      "unit_id": "C8-u0006",
+      "text_id": "C8",
+      "unit_text": "I am willing to do things that scare me when the evidence suggests they are likely to help me.",
+      "position_in_text": 6,
+      "original_unit_id": "C8-u0007"
+    },
+    {
+      "unit_id": "C8-u0007",
+      "text_id": "C8",
+      "unit_text": "I am noticing that my mood follows my behavior more often than the reverse.",
+      "position_in_text": 7,
+      "original_unit_id": "C8-u0008"
+    },
+    {
+      "unit_id": "C8-u0008",
+      "text_id": "C8",
+      "unit_text": "I am choosing to act in line with my values even when my feelings have not yet caught up.",
+      "position_in_text": 8,
+      "original_unit_id": "C8-u0009"
+    },
+    {
+      "unit_id": "C8-u0011",
+      "text_id": "C8",
+      "unit_text": "I am committing to small, observable changes I can actually carry out rather than vague resolutions I cannot.",
+      "position_in_text": 11,
+      "original_unit_id": "C8-u0012"
+    }
+  ],
+  "total_api_calls_planned": 2000,
+  "execution_plan_summary": {
+    "n_units": 50,
+    "n_frames": 8,
+    "n_models": 5,
+    "total_calls": 2000
+  },
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18"
+}

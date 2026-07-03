@@ -1,0 +1,49 @@
+{
+  "stage": "5",
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18",
+  "pilot_unit_id": "C8-u0000",
+  "pilot_unit_text": "I notice that my automatic thoughts are not the same as evidence about what is true.",
+  "final_state_after_retries": true,
+  "total_calls": 40,
+  "successes": 40,
+  "parse_failures": 0,
+  "api_errors": 0,
+  "parse_rate": 1.0,
+  "retry_lessons": {
+    "gemini_flash_needs_higher_token_limit": true,
+    "recommended_gemini_max_tokens": 2500,
+    "recommended_other_providers_max_tokens": 1500
+  },
+  "pilot_cost_usd": 0.1282,
+  "stage6_extrapolated_cost_usd": 6.41,
+  "cost_by_provider": {
+    "anthropic": 0.077,
+    "openai": 0.0197,
+    "google": 0.0032,
+    "xai": 0.0275,
+    "deepseek": 0.0008
+  },
+  "tokens_by_provider": {
+    "anthropic": {
+      "in": 1356,
+      "out": 4859
+    },
+    "openai": {
+      "in": 1243,
+      "out": 1656
+    },
+    "google": {
+      "in": 1224,
+      "out": 5055
+    },
+    "xai": {
+      "in": 2190,
+      "out": 1395
+    },
+    "deepseek": {
+      "in": 1195,
+      "out": 2373
+    }
+  },
+  "stage6_ready": true
+}

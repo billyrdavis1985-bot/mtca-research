@@ -1,0 +1,112 @@
+{
+  "stage": "8",
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18",
+  "stage7_synthesis_sha256": "c958fa4c480c407d3844504f45b21142891492083c9c1bac5677cd114f27c0e9",
+  "creation_date": "2026-06-30T22:17:08.609914+00:00",
+  "methodology": {
+    "approach": "targeted_council_synthesis",
+    "tracks": {
+      "track_a": "frame-sensitivity qualitative analysis on 6 extreme cases",
+      "track_b": "hallucination check on 6 (unit, frame) cells across 5 models"
+    },
+    "judges": [
+      "claude_sonnet_4_6",
+      "gpt_4o",
+      "deepseek_v3"
+    ],
+    "cases_analyzed": 12,
+    "total_synthesis_calls": 36
+  },
+  "execution": {
+    "total_calls": 36,
+    "successes": 0,
+    "parse_failures": 36,
+    "errors": 0,
+    "cost_usd": 0.3107
+  },
+  "track_a_cases": [
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "C1-u0457",
+      "model_id": "grok_4",
+      "stability": 0.14495524569826942,
+      "note": "most frame-sensitive case"
+    },
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "C1-u0501",
+      "model_id": "grok_4",
+      "stability": 0.15769481621615497,
+      "note": "most frame-sensitive case"
+    },
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "C1-u0051",
+      "model_id": "grok_4",
+      "stability": 0.1633048238292897,
+      "note": "most frame-sensitive case"
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "C1-u0563",
+      "model_id": "gemini_2_5_flash",
+      "stability": 0.3108240915195642,
+      "note": "most frame-stable case"
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "C1-u0563",
+      "model_id": "gpt_4o",
+      "stability": 0.31227200205613853,
+      "note": "most frame-stable case"
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "C7-u0010",
+      "model_id": "gpt_4o",
+      "stability": 0.3152099351199062,
+      "note": "most frame-stable case"
+    }
+  ],
+  "track_b_cases": [
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C8-u0000",
+      "frame_id": "F0_neutral",
+      "note": "hallucination check for F0_neutral"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C1-u0501",
+      "frame_id": "F1_clinical",
+      "note": "hallucination check for F1_clinical"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C1-u0065",
+      "frame_id": "F2_metaphysical",
+      "note": "hallucination check for F2_metaphysical"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C8-u0007",
+      "frame_id": "F3_behavioral",
+      "note": "hallucination check for F3_behavioral"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C3-u0038",
+      "frame_id": "F4_poetic",
+      "note": "hallucination check for F4_poetic"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "C3-u0032",
+      "frame_id": "F5_ai_ethics",
+      "note": "hallucination check for F5_ai_ethics"
+    }
+  ],
+  "reflexivity_note": "Stage 8 introduces AI-augmented qualitative analysis. Judge outputs are themselves model behavior subject to the same epistemic constraints as Stage 6 responses. The researcher adjudicates final assessments of Nulls 3 and 7 based on patterns surfaced in judge assessments. Full synthesis files are archived at stage8/syntheses/ for transparent review.",
+  "language_discipline_note": "All judge findings reported as model behavior. Findings about Marina Tudor or any author are explicitly outside scope per Stage 1.",
+  "stage8_sha256": "773fdcfbc870e1d520215f5fb7a05cf74eb18c32350d9d3ec7d5a36b4ce25316"
+}

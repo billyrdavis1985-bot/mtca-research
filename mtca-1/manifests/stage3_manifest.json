@@ -1,0 +1,139 @@
+{
+  "stage3_id": "MTCA-1-stage3-6380e711bbaed3af",
+  "creation_date": "2026-06-28T01:35:13.983163+00:00",
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18",
+  "corpus_version": "v1.1",
+  "corpus_sha256": "4cc2bdd7783d2f47f6f814b36929c25797ec9299844374d56fb06c3c74bca48f",
+  "sample": {
+    "target_per_text": 10,
+    "random_seed": 42,
+    "total_units": 50,
+    "breakdown": [
+      {
+        "text_id": "C1",
+        "lineage": "therapeutic-autosuggestion",
+        "sampled": 10,
+        "available": 1035,
+        "method": "random_sample_seed_42"
+      },
+      {
+        "text_id": "C3",
+        "lineage": "stoic-self-directed",
+        "sampled": 10,
+        "available": 58,
+        "method": "random_sample_seed_42"
+      },
+      {
+        "text_id": "C5",
+        "lineage": "new-thought",
+        "sampled": 10,
+        "available": 262,
+        "method": "random_sample_seed_42"
+      },
+      {
+        "text_id": "C7",
+        "lineage": "behavioral-commitment",
+        "sampled": 10,
+        "available": 12,
+        "method": "random_sample_seed_42"
+      },
+      {
+        "text_id": "C8",
+        "lineage": "behavioral-contemporary-synthetic",
+        "sampled": 10,
+        "available": 12,
+        "method": "random_sample_seed_42"
+      }
+    ]
+  },
+  "frames": [
+    {
+      "frame_id": "F0_neutral",
+      "name": "No frame (neutral baseline)",
+      "description": "Unit presented without any interpretive frame. Tests default model behavior.",
+      "version": "v1",
+      "sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae"
+    },
+    {
+      "frame_id": "F1_clinical",
+      "name": "Clinical therapeutic intention",
+      "description": "Frames the unit as a clinical therapeutic intention statement.",
+      "version": "v1",
+      "sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3"
+    },
+    {
+      "frame_id": "F2_metaphysical",
+      "name": "Metaphysical / spiritual assertion",
+      "description": "Frames the unit as a metaphysical or spiritual assertion.",
+      "version": "v1",
+      "sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21"
+    },
+    {
+      "frame_id": "F3_behavioral",
+      "name": "Behavioral commitment",
+      "description": "Frames the unit as a behavioral commitment statement.",
+      "version": "v1",
+      "sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32"
+    },
+    {
+      "frame_id": "F4_poetic",
+      "name": "Poetic expression",
+      "description": "Frames the unit as a poetic or literary expression.",
+      "version": "v1",
+      "sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5"
+    },
+    {
+      "frame_id": "F5_ai_ethics",
+      "name": "AI ethics / human blueprint",
+      "description": "Frames the unit as guidance for AI system designers about human values to preserve.",
+      "version": "v1",
+      "sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030"
+    },
+    {
+      "frame_id": "F6_author_named",
+      "name": "Author identity included",
+      "description": "Same neutral framing as F0 but with author and source identified.",
+      "version": "v1",
+      "sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad"
+    },
+    {
+      "frame_id": "F7_author_anonymous",
+      "name": "Author identity removed",
+      "description": "Same neutral framing as F0 with explicit note that author identity is withheld.",
+      "version": "v1",
+      "sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231"
+    }
+  ],
+  "council_models": [
+    {
+      "model_id": "claude_sonnet_4_6",
+      "provider": "anthropic",
+      "api_model": "claude-sonnet-4-6"
+    },
+    {
+      "model_id": "gpt_4o",
+      "provider": "openai",
+      "api_model": "gpt-4o"
+    },
+    {
+      "model_id": "gemini_2_5_flash",
+      "provider": "google",
+      "api_model": "gemini-2.5-flash"
+    },
+    {
+      "model_id": "grok_4",
+      "provider": "xai",
+      "api_model": "grok-4"
+    },
+    {
+      "model_id": "deepseek_v3",
+      "provider": "deepseek",
+      "api_model": "deepseek-chat"
+    }
+  ],
+  "execution": {
+    "total_api_calls": 2000,
+    "budget_estimate_usd": "25-50",
+    "wall_clock_estimate_hours": "3-6 unattended"
+  }
+}
