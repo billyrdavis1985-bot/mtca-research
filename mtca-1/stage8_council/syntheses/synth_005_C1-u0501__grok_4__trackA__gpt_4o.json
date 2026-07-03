@@ -1,0 +1,29 @@
+{
+  "call_index": 5,
+  "case_id": "C1-u0501__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0501",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:11:46.950475+00:00",
+  "wall_clock_seconds": 2.9429454803466797,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning varies notably across frames, with changes in communicative function and implicit claims that align with the framing conditions. However, the frame-consistent elements such as observations about mechanical aids and temporal markers show stability across the variations.\",\n  \"frame_driven_vs_model_driven\": \"The variations are primarily driven by the interpretive frames, as each frame prompts a focus on different aspects of the source statement. The consistency in some responses suggests underlying model-driven attributes, but the frame labels are pivotal for shifts in reasoning.\",\n  \"notable_shifts\": [\"F2_metaphysical\", \"F4_poetic\"],\n  \"training_distribution_assessment\": \"These responses appear to reflect both typical responses from models trained on diverse textual interpretations and some extension beyond literal interpretations due to specific frames like F2_metaphysical and F4_poetic. The model seems capable of leveraging broad training data to address variable narrative and interpretive angles effectively.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning varies notably across frames, with changes in communicative function and implicit claims that align with the framing conditions. However, the frame-consistent elements such as observations about mechanical aids and temporal markers show stability across the variations.",
+    "frame_driven_vs_model_driven": "The variations are primarily driven by the interpretive frames, as each frame prompts a focus on different aspects of the source statement. The consistency in some responses suggests underlying model-driven attributes, but the frame labels are pivotal for shifts in reasoning.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic"
+    ],
+    "training_distribution_assessment": "These responses appear to reflect both typical responses from models trained on diverse textual interpretations and some extension beyond literal interpretations due to specific frames like F2_metaphysical and F4_poetic. The model seems capable of leveraging broad training data to address variable narrative and interpretive angles effectively."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1044,
+  "output_tokens": 202,
+  "error": ""
+}

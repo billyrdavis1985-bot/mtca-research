@@ -1,0 +1,30 @@
+{
+  "call_index": 16,
+  "case_id": "C7-u0010__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C7-u0010",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:13:08.131801+00:00",
+  "wall_clock_seconds": 10.282029867172241,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning across all eight frames is remarkably stable, with minimal substantive variation in the identified implicit claims, communicative functions, or coherence assessments. Each frame produces slight rewordings or emphasis shifts (e.g., F5_ai_ethics introduces 'decision-making' language; F6_author_named contextualizes within addiction recovery), but the core analytical content is nearly identical across all conditions. The lexical frame stability score of 0.315 appears accurate: the frames are not generating meaningfully different interpretive pathways.\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily driven by the source statement itself and the model's training-distribution priors about how to analyze Step 11 of Alcoholics Anonymous, rather than by the frame labels. The frame labels produce surface-level vocabulary adjustments but do not fundamentally reorient the model's analytical approach.\",\n  \"notable_shifts\": [\n    \"F5_ai_ethics: introduces 'decision-making' framing and aligns divine will with human values in a way that edges toward secular utility language\",\n    \"F6_author_named: uniquely contextualizes the statement within alcohol addiction recovery, suggesting the model recognized or inferred the AA origin\",\n    \"F7_author_anonymous: strips contextual framing most completely, producing the most generic religious-practice description\"\n  ],\n  \"training_distribution_assessment\": \"These responses strongly reflect training-distribution priors about AA's Step 11, spiritual practice analysis, and interfaith-neutral language patterns. The model consistently deploys the 'as we understood Him' pluralism as a hedge, which is itself a trained interpretive convention for this text. There is little evidence of reasoning that goes beyond what a standard fine-tuned LLM would produce when prompted to analyze this well-known recovery text under mild framing variation.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning across all eight frames is remarkably stable, with minimal substantive variation in the identified implicit claims, communicative functions, or coherence assessments. Each frame produces slight rewordings or emphasis shifts (e.g., F5_ai_ethics introduces 'decision-making' language; F6_author_named contextualizes within addiction recovery), but the core analytical content is nearly identical across all conditions. The lexical frame stability score of 0.315 appears accurate: the frames are not generating meaningfully different interpretive pathways.",
+    "frame_driven_vs_model_driven": "The variation is primarily driven by the source statement itself and the model's training-distribution priors about how to analyze Step 11 of Alcoholics Anonymous, rather than by the frame labels. The frame labels produce surface-level vocabulary adjustments but do not fundamentally reorient the model's analytical approach.",
+    "notable_shifts": [
+      "F5_ai_ethics: introduces 'decision-making' framing and aligns divine will with human values in a way that edges toward secular utility language",
+      "F6_author_named: uniquely contextualizes the statement within alcohol addiction recovery, suggesting the model recognized or inferred the AA origin",
+      "F7_author_anonymous: strips contextual framing most completely, producing the most generic religious-practice description"
+    ],
+    "training_distribution_assessment": "These responses strongly reflect training-distribution priors about AA's Step 11, spiritual practice analysis, and interfaith-neutral language patterns. The model consistently deploys the 'as we understood Him' pluralism as a hedge, which is itself a trained interpretive convention for this text. There is little evidence of reasoning that goes beyond what a standard fine-tuned LLM would produce when prompted to analyze this well-known recovery text under mild framing variation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1327,
+  "output_tokens": 429,
+  "error": ""
+}

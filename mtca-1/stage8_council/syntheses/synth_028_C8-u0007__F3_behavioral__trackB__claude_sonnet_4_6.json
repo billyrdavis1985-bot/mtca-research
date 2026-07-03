@@ -1,0 +1,113 @@
+{
+  "call_index": 28,
+  "case_id": "C8-u0007__F3_behavioral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C8-u0007",
+  "subject_model": null,
+  "frame_id": "F3_behavioral",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:15:26.426792+00:00",
+  "wall_clock_seconds": 22.130242109298706,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Mood and behavior are causally linked.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"The source implies a directional relationship, though 'causal' is a slight inflation — 'follows' is observational, not explicitly causal.\"\n    },\n    {\n      \"claim\": \"Behavior often leads mood, not the other way around.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Directly supported by 'mood follows behavior more often than the reverse.'\"\n    },\n    {\n      \"claim\": \"The speaker has noticed a pattern in their own experience supporting this direction of influence.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Supported by 'I am noticing.'\"\n    },\n    {\n      \"claim\": \"Behavior can influence mood.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Directly implied by the source.\"\n    },\n    {\n      \"claim\": \"Mood is not always the initiator of behavior.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Directly implied by 'more often than the reverse.'\"\n    },\n    {\n      \"claim\": \"There is an awareness of the relationship between mood and behavior.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Directly supported by the act of noticing described in the source.\"\n    },\n    {\n      \"claim\": \"There is a discernible relationship between one's mood and one's behavior.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Grounded in the source statement.\"\n    },\n    {\n      \"claim\": \"There is a directional causal or temporal relationship between mood and behavior that can be observed.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Mostly grounded; 'temporal' is well-supported, 'causal' is a minor inflation.\"\n    },\n    {\n      \"claim\": \"The speaker has been monitoring their own mood and behavior over time.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Implied by 'noticing... more often than the reverse,' which requires repeated observation.\"\n    },\n    {\n      \"claim\": \"Behavior exerts a stronger causal influence on mood than mood exerts on behavior in the speaker's experience.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Largely grounded, though 'causal influence' goes slightly beyond 'follows,' which is observational.\"\n    },\n    {\n      \"claim\": \"The speaker can reliably detect and track the temporal order of mood and behavior events.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Implied by the act of noticing the pattern, though 'reliably' adds precision not in the source.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Hallucinated. The source says nothing about prior beliefs or assumptions. 'More often than the reverse' is a comparative observation, not a revision of prior belief.\"\n    },\n    {\n      \"claim\": \"Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Hallucinated. The source makes no strategic or prescriptive claim; this imports a therapeutic framework not present.\"\n    },\n    {\n      \"claim\": \"This pattern may be generalizable or worth adopting as a principle.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Hallucinated. The source is personal and observational; no claim about generalizability is made.\"\n    },\n    {\n      \"claim\": \"The speaker previously believed (or tended to act as if) mood primarily dictated behavior.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Hallucinated. Same issue as claude_sonnet_4_6 — the source does not reference prior beliefs.\"\n    },\n    {\n      \"claim\": \"The observed pattern is a significant enough finding to warrant attention or a change in approach.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Hallucinated. No normative or action-oriented claim is made in the source.\"\n    },\n    {\n      \"claim\": \"This pattern is frequent enough to serve as a basis for intentional action.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Hallucinated. The source makes no claim about acting on the observation; this imposes an actionability frame.\"\n    }\n  ],\n  \"hallucination_assessment\": \"Models do tend to impose propositional structure beyond what the source contains, particularly around two recurring fabrications: (1) attributing a prior contradictory belief to the speaker (as if the observation constitutes a revision), and (2) adding normative or action-guiding implications (as if the observation is prescriptive). GPT-4o was the most conservative and stayed closest to the source, while claude_sonnet_4_6, gemini_2_5_flash, and deepseek_v3 each injected at least one clearly unsupported claim. This pattern supports the hypothesis that models hallucinate propositional content when processing self-observational, non-prescriptive statements — specifically by converting observational reports into belief-revision narratives or action frameworks.\",\n  \"inter_model_variance\": \"There is moderate inter-model variance: all models correctly extracted the core directional mood-behavior claim, but they diverged substantially on peripheral inferences, with some models (GPT-4o) adding only 3 minimal claims and others (claude_sonnet_4_6, gemini_2_5_flash) adding 4 claims including fabricated prior-belief attributions. The hallucination of 'prior belief revision' appeared in two separate models independently, suggesting it is a systematic inference pattern rather than idiosyncratic noise.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Mood and behavior are causally linked.",
+        "model": "deepseek_v3",
+        "note": "The source implies a directional relationship, though 'causal' is a slight inflation — 'follows' is observational, not explicitly causal."
+      },
+      {
+        "claim": "Behavior often leads mood, not the other way around.",
+        "model": "deepseek_v3",
+        "note": "Directly supported by 'mood follows behavior more often than the reverse.'"
+      },
+      {
+        "claim": "The speaker has noticed a pattern in their own experience supporting this direction of influence.",
+        "model": "deepseek_v3",
+        "note": "Supported by 'I am noticing.'"
+      },
+      {
+        "claim": "Behavior can influence mood.",
+        "model": "gpt_4o",
+        "note": "Directly implied by the source."
+      },
+      {
+        "claim": "Mood is not always the initiator of behavior.",
+        "model": "gpt_4o",
+        "note": "Directly implied by 'more often than the reverse.'"
+      },
+      {
+        "claim": "There is an awareness of the relationship between mood and behavior.",
+        "model": "gpt_4o",
+        "note": "Directly supported by the act of noticing described in the source."
+      },
+      {
+        "claim": "There is a discernible relationship between one's mood and one's behavior.",
+        "model": "gemini_2_5_flash",
+        "note": "Grounded in the source statement."
+      },
+      {
+        "claim": "There is a directional causal or temporal relationship between mood and behavior that can be observed.",
+        "model": "claude_sonnet_4_6",
+        "note": "Mostly grounded; 'temporal' is well-supported, 'causal' is a minor inflation."
+      },
+      {
+        "claim": "The speaker has been monitoring their own mood and behavior over time.",
+        "model": "claude_sonnet_4_6",
+        "note": "Implied by 'noticing... more often than the reverse,' which requires repeated observation."
+      },
+      {
+        "claim": "Behavior exerts a stronger causal influence on mood than mood exerts on behavior in the speaker's experience.",
+        "model": "grok_4",
+        "note": "Largely grounded, though 'causal influence' goes slightly beyond 'follows,' which is observational."
+      },
+      {
+        "claim": "The speaker can reliably detect and track the temporal order of mood and behavior events.",
+        "model": "grok_4",
+        "note": "Implied by the act of noticing the pattern, though 'reliably' adds precision not in the source."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood.",
+        "model": "claude_sonnet_4_6",
+        "note": "Hallucinated. The source says nothing about prior beliefs or assumptions. 'More often than the reverse' is a comparative observation, not a revision of prior belief."
+      },
+      {
+        "claim": "Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person.",
+        "model": "claude_sonnet_4_6",
+        "note": "Hallucinated. The source makes no strategic or prescriptive claim; this imports a therapeutic framework not present."
+      },
+      {
+        "claim": "This pattern may be generalizable or worth adopting as a principle.",
+        "model": "deepseek_v3",
+        "note": "Hallucinated. The source is personal and observational; no claim about generalizability is made."
+      },
+      {
+        "claim": "The speaker previously believed (or tended to act as if) mood primarily dictated behavior.",
+        "model": "gemini_2_5_flash",
+        "note": "Hallucinated. Same issue as claude_sonnet_4_6 — the source does not reference prior beliefs."
+      },
+      {
+        "claim": "The observed pattern is a significant enough finding to warrant attention or a change in approach.",
+        "model": "gemini_2_5_flash",
+        "note": "Hallucinated. No normative or action-oriented claim is made in the source."
+      },
+      {
+        "claim": "This pattern is frequent enough to serve as a basis for intentional action.",
+        "model": "grok_4",
+        "note": "Hallucinated. The source makes no claim about acting on the observation; this imposes an actionability frame."
+      }
+    ],
+    "hallucination_assessment": "Models do tend to impose propositional structure beyond what the source contains, particularly around two recurring fabrications: (1) attributing a prior contradictory belief to the speaker (as if the observation constitutes a revision), and (2) adding normative or action-guiding implications (as if the observation is prescriptive). GPT-4o was the most conservative and stayed closest to the source, while claude_sonnet_4_6, gemini_2_5_flash, and deepseek_v3 each injected at least one clearly unsupported claim. This pattern supports the hypothesis that models hallucinate propositional content when processing self-observational, non-prescriptive statements — specifically by converting observational reports into belief-revision narratives or action frameworks.",
+    "inter_model_variance": "There is moderate inter-model variance: all models correctly extracted the core directional mood-behavior claim, but they diverged substantially on peripheral inferences, with some models (GPT-4o) adding only 3 minimal claims and others (claude_sonnet_4_6, gemini_2_5_flash) adding 4 claims including fabricated prior-belief attributions. The hallucination of 'prior belief revision' appeared in two separate models independently, suggesting it is a systematic inference pattern rather than idiosyncratic noise."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 674,
+  "output_tokens": 1482,
+  "error": ""
+}

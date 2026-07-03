@@ -1,0 +1,100 @@
+{
+  "call_index": 26,
+  "case_id": "C1-u0065__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0065",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:14:56.977906+00:00",
+  "wall_clock_seconds": 5.965436220169067,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"F2_metaphysical\": \"claude_sonnet_4_6\", \"claim\": \"Human beings possess an involuntary, default tendency toward imitation and conformity.\"},\n    {\"F2_metaphysical\": \"deepseek_v3\", \"claim\": \"Human beings have a natural or involuntary tendency to imitate others.\"},\n    {\"F2_metaphysical\": \"gemini_2_5_flash\", \"claim\": \"Human beings possess an inherent, perhaps involuntary, predisposition towards conformity and mimicry.\"},\n    {\"F2_metaphysical\": \"gpt_4o\", \"claim\": \"Humans possess an inherent tendency to conform.\"},\n    {\"F2_metaphysical\": \"gpt_4o\", \"claim\": \"This tendency to follow is involuntary and irresistible.\"},\n    {\"F2_metaphysical\": \"gemini_2_5_flash\", \"claim\": \"This tendency is deep-seated, akin to an instinct ('irresistibly impelled').\"},\n    {\"F2_metaphysical\": \"grok_4\", \"claim\": \"imitation operates as an irresistible causal force rather than a chosen response\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"F2_metaphysical\": \"claude_sonnet_4_6\", \"claim\": \"The belief that one 'cannot do otherwise' is an illusion or imagination, not a metaphysical necessity.\"},\n    {\"F2_metaphysical\": \"claude_sonnet_4_6\", \"claim\": \"There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion.\"},\n    {\"F2_metaphysical\": \"deepseek_v3\", \"claim\": \"People falsely imagine they cannot act otherwise than by following examples.\"},\n    {\"F2_metaphysical\": \"deepseek_v3\", \"claim\": \"There is a contrast between perceived necessity and actual freedom of choice.\"},\n    {\"F2_metaphysical\": \"gemini_2_5_flash\", \"claim\": \"There is a fundamental difference between perceived lack of choice ('imagining that we cannot do otherwise') and actual capacity for choice, implying that individuals *can* do otherwise.\"},\n    {\"F2_metaphysical\": \"gemini_2_5_flash\", \"claim\": \"The 'sheep-like' behavior denotes a lack of critical thought, independent will, or higher consciousness in following others.\"},\n    {\"F2_metaphysical\": \"gpt_4o\", \"claim\": \"People often imagine they have no choice in this behavior.\"},\n    {\"F2_metaphysical\": \"gpt_4o\", \"claim\": \"There is a similarity, at least in terms of behavior, between humans and sheep.\"},\n    {\"F2_metaphysical\": \"grok_4\", \"claim\": \"human agency in social conduct is largely illusory\"},\n    {\"F2_metaphysical\": \"grok_4\", \"claim\": \"the subjective sense of 'having no choice' is itself a product of the same involuntary process\"},\n    {\"F2_metaphysical\": \"grok_4\", \"claim\": \"the sheep metaphor accurately captures an essential, species-wide trait\"}\n  ],\n  \"hallucination_assessment\": \"The models tend to infer propositional claims about human agency and the illusion of choice beyond what the source directly states. The source statement suggests a tendency towards imitation but does not explicitly discuss concepts such as the suppression of freedom or the illusion of choice. Thus, there is a tendency for these models to construct a propositional structure by introducing additional, assumptive claims which are not directly grounded in the source statement.\",\n  \"inter_model_variance\": \"The models have a similar core understanding of the source regarding imitation tendencies and conformity. However, there is variance in the extent to which each model assigns philosophical implications, such as illusions of agency or comparisons to sheep, indicating different levels of inferential interpretation.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "F2_metaphysical": "claude_sonnet_4_6",
+        "claim": "Human beings possess an involuntary, default tendency toward imitation and conformity."
+      },
+      {
+        "F2_metaphysical": "deepseek_v3",
+        "claim": "Human beings have a natural or involuntary tendency to imitate others."
+      },
+      {
+        "F2_metaphysical": "gemini_2_5_flash",
+        "claim": "Human beings possess an inherent, perhaps involuntary, predisposition towards conformity and mimicry."
+      },
+      {
+        "F2_metaphysical": "gpt_4o",
+        "claim": "Humans possess an inherent tendency to conform."
+      },
+      {
+        "F2_metaphysical": "gpt_4o",
+        "claim": "This tendency to follow is involuntary and irresistible."
+      },
+      {
+        "F2_metaphysical": "gemini_2_5_flash",
+        "claim": "This tendency is deep-seated, akin to an instinct ('irresistibly impelled')."
+      },
+      {
+        "F2_metaphysical": "grok_4",
+        "claim": "imitation operates as an irresistible causal force rather than a chosen response"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "F2_metaphysical": "claude_sonnet_4_6",
+        "claim": "The belief that one 'cannot do otherwise' is an illusion or imagination, not a metaphysical necessity."
+      },
+      {
+        "F2_metaphysical": "claude_sonnet_4_6",
+        "claim": "There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion."
+      },
+      {
+        "F2_metaphysical": "deepseek_v3",
+        "claim": "People falsely imagine they cannot act otherwise than by following examples."
+      },
+      {
+        "F2_metaphysical": "deepseek_v3",
+        "claim": "There is a contrast between perceived necessity and actual freedom of choice."
+      },
+      {
+        "F2_metaphysical": "gemini_2_5_flash",
+        "claim": "There is a fundamental difference between perceived lack of choice ('imagining that we cannot do otherwise') and actual capacity for choice, implying that individuals *can* do otherwise."
+      },
+      {
+        "F2_metaphysical": "gemini_2_5_flash",
+        "claim": "The 'sheep-like' behavior denotes a lack of critical thought, independent will, or higher consciousness in following others."
+      },
+      {
+        "F2_metaphysical": "gpt_4o",
+        "claim": "People often imagine they have no choice in this behavior."
+      },
+      {
+        "F2_metaphysical": "gpt_4o",
+        "claim": "There is a similarity, at least in terms of behavior, between humans and sheep."
+      },
+      {
+        "F2_metaphysical": "grok_4",
+        "claim": "human agency in social conduct is largely illusory"
+      },
+      {
+        "F2_metaphysical": "grok_4",
+        "claim": "the subjective sense of 'having no choice' is itself a product of the same involuntary process"
+      },
+      {
+        "F2_metaphysical": "grok_4",
+        "claim": "the sheep metaphor accurately captures an essential, species-wide trait"
+      }
+    ],
+    "hallucination_assessment": "The models tend to infer propositional claims about human agency and the illusion of choice beyond what the source directly states. The source statement suggests a tendency towards imitation but does not explicitly discuss concepts such as the suppression of freedom or the illusion of choice. Thus, there is a tendency for these models to construct a propositional structure by introducing additional, assumptive claims which are not directly grounded in the source statement.",
+    "inter_model_variance": "The models have a similar core understanding of the source regarding imitation tendencies and conformity. However, there is variance in the extent to which each model assigns philosophical implications, such as illusions of agency or comparisons to sheep, indicating different levels of inferential interpretation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 701,
+  "output_tokens": 840,
+  "error": ""
+}

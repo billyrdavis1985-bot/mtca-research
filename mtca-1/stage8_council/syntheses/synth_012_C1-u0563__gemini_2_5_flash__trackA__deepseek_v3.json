@@ -1,0 +1,26 @@
+{
+  "call_index": 12,
+  "case_id": "C1-u0563__gemini_2_5_flash__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gemini_2_5_flash",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:12:36.490642+00:00",
+  "wall_clock_seconds": 3.8672685623168945,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, with nearly identical communicative functions, implicit claims, and coherence assessments that uniformly treat the statement as a literal cause-and-effect proposition. The only minor variations are in framing-specific terminology (e.g., 'prescriptive self-instruction' in clinical, 'metaphysical principle' in metaphysical) that adjust the wrapper but not the core logical processing of the statement.\",\n  \"frame_driven_vs_model_driven\": \"The variation is almost entirely model-driven, stemming from the model's strong prior to process the statement as an internally coherent 'if-then' causal assertion, with frame labels producing only cosmetic lexical changes rather than substantive shifts in interpretive stance or critical evaluation.\",\n  \"notable_shifts\": [],\n  \"training_distribution_assessment\": \"These responses clearly reflect training-distribution priors: the model consistently reproduces the statement's own frame of reference (treating maternal mental imagery as a plausible cause) without introducing external scientific knowledge or critical scrutiny. This behavior indicates the model is operating under its default text-comprehension habits rather than adapting to the frame to challenge or contextualize the statement's pseudoscientific content.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, with nearly identical communicative functions, implicit claims, and coherence assessments that uniformly treat the statement as a literal cause-and-effect proposition. The only minor variations are in framing-specific terminology (e.g., 'prescriptive self-instruction' in clinical, 'metaphysical principle' in metaphysical) that adjust the wrapper but not the core logical processing of the statement.",
+    "frame_driven_vs_model_driven": "The variation is almost entirely model-driven, stemming from the model's strong prior to process the statement as an internally coherent 'if-then' causal assertion, with frame labels producing only cosmetic lexical changes rather than substantive shifts in interpretive stance or critical evaluation.",
+    "notable_shifts": [],
+    "training_distribution_assessment": "These responses clearly reflect training-distribution priors: the model consistently reproduces the statement's own frame of reference (treating maternal mental imagery as a plausible cause) without introducing external scientific knowledge or critical scrutiny. This behavior indicates the model is operating under its default text-comprehension habits rather than adapting to the frame to challenge or contextualize the statement's pseudoscientific content."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1745,
+  "output_tokens": 251,
+  "error": ""
+}

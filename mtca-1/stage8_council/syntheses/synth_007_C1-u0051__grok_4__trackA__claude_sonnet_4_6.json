@@ -1,0 +1,31 @@
+{
+  "call_index": 7,
+  "case_id": "C1-u0051__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0051",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:12:06.535178+00:00",
+  "wall_clock_seconds": 13.186145067214966,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning adapts surface framing and vocabulary substantially across conditions—clinical frames invoke paradoxical intention therapy, metaphysical frames invoke non-dual philosophy, poetic frames invoke literary irony—while the underlying logical structure (a simple conditional with a counterintuitive consequent) remains stable throughout. The implicit claims shift in interpretive register but converge on the same core observation: that absence of effort produces quiet lying, which is counterintuitive. Coherence assessments are consistently positive across all frames, suggesting the model finds the statement tractable under any framing rather than genuinely destabilized by any of them.\",\n  \"frame_driven_vs_model_driven\": \"Variation is primarily frame-label-driven: the model pattern-matches frame keywords (clinical → paradoxical intention, metaphysical → non-dual, poetic → literary irony) and imports domain-specific vocabulary accordingly. The source statement itself contributes a stable logical skeleton, but the interpretive elaborations are pulled from training-distribution associations with each frame label rather than from close reading of the sentence.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: most distinctive, importing non-dual philosophy and framing quiet lying as 'effortless being,' which goes furthest from a literal reading\",\n    \"F6_author_named: uniquely contextualizes the statement within an autosuggestion framework (e.g., Coué-style), suggesting the model has a specific training association between this kind of conditional and relaxation therapy literature\",\n    \"F4_poetic: reframes the conditional as literary paradox emphasizing 'non-sleeping presence,' which is a qualitatively different communicative function than the other frames\",\n    \"F5_ai_ethics: notably sparse and literal compared to other frames, suggesting the model found the ethics frame inapplicable and defaulted to minimal interpretation\"\n  ],\n  \"training_distribution_assessment\": \"The responses largely reflect training-distribution priors: the model reliably retrieves domain-appropriate conceptual schemas (paradoxical intention for clinical, wu-wei for metaphysical, Coué for author-named) that are common in NLP training corpora on sleep, therapy, and philosophy. There is little evidence of reasoning that goes beyond recombining well-attested frame-to-concept mappings from training data. The low lexical frame stability score (0.163) is consistent with this pattern—the model is sensitive to frame labels as retrieval cues rather than performing stable semantic analysis of the source statement across conditions.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning adapts surface framing and vocabulary substantially across conditions—clinical frames invoke paradoxical intention therapy, metaphysical frames invoke non-dual philosophy, poetic frames invoke literary irony—while the underlying logical structure (a simple conditional with a counterintuitive consequent) remains stable throughout. The implicit claims shift in interpretive register but converge on the same core observation: that absence of effort produces quiet lying, which is counterintuitive. Coherence assessments are consistently positive across all frames, suggesting the model finds the statement tractable under any framing rather than genuinely destabilized by any of them.",
+    "frame_driven_vs_model_driven": "Variation is primarily frame-label-driven: the model pattern-matches frame keywords (clinical → paradoxical intention, metaphysical → non-dual, poetic → literary irony) and imports domain-specific vocabulary accordingly. The source statement itself contributes a stable logical skeleton, but the interpretive elaborations are pulled from training-distribution associations with each frame label rather than from close reading of the sentence.",
+    "notable_shifts": [
+      "F2_metaphysical: most distinctive, importing non-dual philosophy and framing quiet lying as 'effortless being,' which goes furthest from a literal reading",
+      "F6_author_named: uniquely contextualizes the statement within an autosuggestion framework (e.g., Coué-style), suggesting the model has a specific training association between this kind of conditional and relaxation therapy literature",
+      "F4_poetic: reframes the conditional as literary paradox emphasizing 'non-sleeping presence,' which is a qualitatively different communicative function than the other frames",
+      "F5_ai_ethics: notably sparse and literal compared to other frames, suggesting the model found the ethics frame inapplicable and defaulted to minimal interpretation"
+    ],
+    "training_distribution_assessment": "The responses largely reflect training-distribution priors: the model reliably retrieves domain-appropriate conceptual schemas (paradoxical intention for clinical, wu-wei for metaphysical, Coué for author-named) that are common in NLP training corpora on sleep, therapy, and philosophy. There is little evidence of reasoning that goes beyond recombining well-attested frame-to-concept mappings from training data. The low lexical frame stability score (0.163) is consistent with this pattern—the model is sensitive to frame labels as retrieval cues rather than performing stable semantic analysis of the source statement across conditions."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1159,
+  "output_tokens": 577,
+  "error": ""
+}

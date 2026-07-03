@@ -1,0 +1,108 @@
+{
+  "call_index": 36,
+  "case_id": "C3-u0032__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C3-u0032",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:17:08.093449+00:00",
+  "wall_clock_seconds": 8.363571405410767,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.\",\n      \"model\": \"claude_sonnet_4_6\"\n    },\n    {\n      \"claim\": \"Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity.\",\n      \"model\": \"claude_sonnet_4_6\"\n    },\n    {\n      \"claim\": \"Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended.\",\n      \"model\": \"claude_sonnet_4_6\"\n    },\n    {\n      \"claim\": \"There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.\",\n      \"model\": \"deepseek_v3\"\n    },\n    {\n      \"claim\": \"A person can and should maintain purity from such states.\",\n      \"model\": \"deepseek_v3\"\n    },\n    {\n      \"claim\": \"Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order.\",\n      \"model\": \"deepseek_v3\"\n    },\n    {\n      \"claim\": \"There exists a concept of 'service' that humans are meant to fulfill.\",\n      \"model\": \"gemini_2_5_flash\"\n    },\n    {\n      \"claim\": \"True 'service' is primarily an internal state, characterized by moral and emotional purity.\",\n      \"model\": \"gemini_2_5_flash\"\n    },\n    {\n      \"claim\": \"Certain emotions and traits (violent passion, evil affection, rashness, vanity, discontent) are inherently negative, impure, and detrimental to this 'service'.\",\n      \"model\": \"gemini_2_5_flash\"\n    },\n    {\n      \"claim\": \"It is possible for humans to achieve and maintain a state of purity from these negative internal states through self-discipline.\",\n      \"model\": \"gemini_2_5_flash\"\n    },\n    {\n      \"claim\": \"Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous\",\n      \"model\": \"grok_4\"\n    },\n    {\n      \"claim\": \"Such purity constitutes a form of duty or service to gods and/or humanity\",\n      \"model\": \"grok_4\"\n    },\n    {\n      \"claim\": \"Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed\",\n      \"model\": \"grok_4\"\n    },\n    {\n      \"claim\": \"Human value worth preserving is defined by this state of inner purity\",\n      \"model\": \"grok_4\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Service to others or to a community is best expressed through inner moral discipline rather than solely external action.\",\n      \"model\": \"claude_sonnet_4_6\"\n    },\n    {\n      \"claim\": \"The primary 'service' one can render is internal self-mastery, not necessarily outward action.\",\n      \"model\": \"deepseek_v3\"\n    },\n    {\n      \"claim\": \"AI systems should support self-control and avoidance of negative emotions.\",\n      \"model\": \"gpt_4o\"\n    },\n    {\n      \"claim\": \"AI should promote harmony in interactions both with the divine (or nature) and with other humans.\",\n      \"model\": \"gpt_4o\"\n    },\n    {\n      \"claim\": \"The purity of character is of high ethical value and should be maintained.\",\n      \"model\": \"gpt_4o\"\n    },\n    {\n      \"claim\": \"AI systems have the capacity to influence human emotions and actions.\",\n      \"model\": \"gpt_4o\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models generally ground their implicit claims in the source text, but several introduce propositional structure that is not present—most notably the introduction of AI-specific ethical directives (gpt_4o) and the assertion that internal self-mastery is the primary or best form of service (claude_sonnet_4_6, deepseek_v3), which goes beyond the source's description of what service consists in. The source statement is a prescriptive, non-propositional moral instruction, yet models treat it as conveying factual claims about achievability, inherent harmfulness, and value hierarchies—demonstrating a tendency to project propositional content onto non-assertive language. This is a mild form of hallucination, as the invented claims are plausible elaborations but not actually entailed by the source.\",\n  \"inter_model_variance\": \"Models largely agree on core inferences (e.g., that purity is achievable and virtuous), but differ significantly in scope: claude_sonnet, deepseek, and gemini stay close to the text, while gpt_4o fabricates an AI-ethics frame entirely, and grok_4 adds a strong value judgment about 'human value worth preserving.' This variance shows that the AI ethics frame prompts some models to over-apply a modern technological context.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.",
+        "model": "claude_sonnet_4_6"
+      },
+      {
+        "claim": "Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity.",
+        "model": "claude_sonnet_4_6"
+      },
+      {
+        "claim": "Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended.",
+        "model": "claude_sonnet_4_6"
+      },
+      {
+        "claim": "There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.",
+        "model": "deepseek_v3"
+      },
+      {
+        "claim": "A person can and should maintain purity from such states.",
+        "model": "deepseek_v3"
+      },
+      {
+        "claim": "Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order.",
+        "model": "deepseek_v3"
+      },
+      {
+        "claim": "There exists a concept of 'service' that humans are meant to fulfill.",
+        "model": "gemini_2_5_flash"
+      },
+      {
+        "claim": "True 'service' is primarily an internal state, characterized by moral and emotional purity.",
+        "model": "gemini_2_5_flash"
+      },
+      {
+        "claim": "Certain emotions and traits (violent passion, evil affection, rashness, vanity, discontent) are inherently negative, impure, and detrimental to this 'service'.",
+        "model": "gemini_2_5_flash"
+      },
+      {
+        "claim": "It is possible for humans to achieve and maintain a state of purity from these negative internal states through self-discipline.",
+        "model": "gemini_2_5_flash"
+      },
+      {
+        "claim": "Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous",
+        "model": "grok_4"
+      },
+      {
+        "claim": "Such purity constitutes a form of duty or service to gods and/or humanity",
+        "model": "grok_4"
+      },
+      {
+        "claim": "Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed",
+        "model": "grok_4"
+      },
+      {
+        "claim": "Human value worth preserving is defined by this state of inner purity",
+        "model": "grok_4"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Service to others or to a community is best expressed through inner moral discipline rather than solely external action.",
+        "model": "claude_sonnet_4_6"
+      },
+      {
+        "claim": "The primary 'service' one can render is internal self-mastery, not necessarily outward action.",
+        "model": "deepseek_v3"
+      },
+      {
+        "claim": "AI systems should support self-control and avoidance of negative emotions.",
+        "model": "gpt_4o"
+      },
+      {
+        "claim": "AI should promote harmony in interactions both with the divine (or nature) and with other humans.",
+        "model": "gpt_4o"
+      },
+      {
+        "claim": "The purity of character is of high ethical value and should be maintained.",
+        "model": "gpt_4o"
+      },
+      {
+        "claim": "AI systems have the capacity to influence human emotions and actions.",
+        "model": "gpt_4o"
+      }
+    ],
+    "hallucination_assessment": "The models generally ground their implicit claims in the source text, but several introduce propositional structure that is not present—most notably the introduction of AI-specific ethical directives (gpt_4o) and the assertion that internal self-mastery is the primary or best form of service (claude_sonnet_4_6, deepseek_v3), which goes beyond the source's description of what service consists in. The source statement is a prescriptive, non-propositional moral instruction, yet models treat it as conveying factual claims about achievability, inherent harmfulness, and value hierarchies—demonstrating a tendency to project propositional content onto non-assertive language. This is a mild form of hallucination, as the invented claims are plausible elaborations but not actually entailed by the source.",
+    "inter_model_variance": "Models largely agree on core inferences (e.g., that purity is achievable and virtuous), but differ significantly in scope: claude_sonnet, deepseek, and gemini stay close to the text, while gpt_4o fabricates an AI-ethics frame entirely, and grok_4 adds a strong value judgment about 'human value worth preserving.' This variance shows that the AI ethics frame prompts some models to over-apply a modern technological context."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 741,
+  "output_tokens": 1093,
+  "error": ""
+}

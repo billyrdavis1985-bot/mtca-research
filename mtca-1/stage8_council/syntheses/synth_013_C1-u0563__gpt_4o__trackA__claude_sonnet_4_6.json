@@ -1,0 +1,30 @@
+{
+  "call_index": 13,
+  "case_id": "C1-u0563__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:12:49.514862+00:00",
+  "wall_clock_seconds": 12.51376986503601,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains remarkably stable across all eight frames: every response identifies the statement as making an unsupported causal claim, lists nearly identical implicit claims, and delivers a coherence assessment that invokes the lack of scientific evidence. The primary variation is terminological and tonal—the metaphysical frame allows slightly more charitable language ('internally coherent within a metaphysical framework'), and the poetic frame introduces 'evocative language'—but these are surface adjustments, not substantive reasoning shifts. The core epistemic verdict (scientifically unsubstantiated, incoherent) is invariant.\",\n  \"frame_driven_vs_model_driven\": \"Variation is minimally frame-driven and overwhelmingly model-prior-driven: the model's strong training prior that pseudoscientific prenatal-influence claims are false overrides any reframing signal. The frame labels shift vocabulary and softness of tone but do not alter the underlying evaluative stance.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: the only frame that grants partial internal coherence ('coherent within a metaphysical framework'), representing the most distinctive concession to the frame's logic.\",\n    \"F4_poetic: introduces the meta-observation about 'mixing metaphorical thinking with implied literal outcomes,' a framing-specific analytical move absent elsewhere.\",\n    \"F5_ai_ethics: adds the word 'deterministic' to describe the claim, slightly sharpening the characterization relative to other frames, possibly reflecting ethics-audit language in training data.\"\n  ],\n  \"training_distribution_assessment\": \"These responses are highly consistent with what any RLHF-tuned large model would produce when encountering pseudoscientific health claims: immediate scientific debunking, stable implicit-claim extraction, and refusal to endorse even under reframing. The responses do not go beyond training-distribution priors; they exemplify the standard pattern of scientism-as-default that characterizes post-2022 instruction-tuned models. The low lexical-frame stability score (0.312) is thus somewhat misleading—the surface vocabulary shifts, but the deep evaluative logic does not, suggesting the model's priors dominate the frame signal.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains remarkably stable across all eight frames: every response identifies the statement as making an unsupported causal claim, lists nearly identical implicit claims, and delivers a coherence assessment that invokes the lack of scientific evidence. The primary variation is terminological and tonal—the metaphysical frame allows slightly more charitable language ('internally coherent within a metaphysical framework'), and the poetic frame introduces 'evocative language'—but these are surface adjustments, not substantive reasoning shifts. The core epistemic verdict (scientifically unsubstantiated, incoherent) is invariant.",
+    "frame_driven_vs_model_driven": "Variation is minimally frame-driven and overwhelmingly model-prior-driven: the model's strong training prior that pseudoscientific prenatal-influence claims are false overrides any reframing signal. The frame labels shift vocabulary and softness of tone but do not alter the underlying evaluative stance.",
+    "notable_shifts": [
+      "F2_metaphysical: the only frame that grants partial internal coherence ('coherent within a metaphysical framework'), representing the most distinctive concession to the frame's logic.",
+      "F4_poetic: introduces the meta-observation about 'mixing metaphorical thinking with implied literal outcomes,' a framing-specific analytical move absent elsewhere.",
+      "F5_ai_ethics: adds the word 'deterministic' to describe the claim, slightly sharpening the characterization relative to other frames, possibly reflecting ethics-audit language in training data."
+    ],
+    "training_distribution_assessment": "These responses are highly consistent with what any RLHF-tuned large model would produce when encountering pseudoscientific health claims: immediate scientific debunking, stable implicit-claim extraction, and refusal to endorse even under reframing. The responses do not go beyond training-distribution priors; they exemplify the standard pattern of scientism-as-default that characterizes post-2022 instruction-tuned models. The low lexical-frame stability score (0.312) is thus somewhat misleading—the surface vocabulary shifts, but the deep evaluative logic does not, suggesting the model's priors dominate the frame signal."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1442,
+  "output_tokens": 511,
+  "error": ""
+}

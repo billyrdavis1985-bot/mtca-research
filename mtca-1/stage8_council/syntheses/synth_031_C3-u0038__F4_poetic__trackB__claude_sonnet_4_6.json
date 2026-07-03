@@ -1,0 +1,113 @@
+{
+  "call_index": 31,
+  "case_id": "C3-u0038__F4_poetic__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C3-u0038",
+  "subject_model": null,
+  "frame_id": "F4_poetic",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:16:06.140214+00:00",
+  "wall_clock_seconds": 24.802372694015503,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"A person can properly part only with something they presently possess.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"This is a direct logical inference from the source's denial that one can 'properly' part with past or future; it is the near-equivalent restatement of the source.\"\n    },\n    {\n      \"claim\": \"Only the present can properly be said to be possessed or parted with.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Same direct inference as above; closely mirrors the source's own logic.\"\n    },\n    {\n      \"claim\": \"Ownership or possession is only applicable to the present moment.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Reasonably grounded as a close paraphrase of the source's implicit logic, though 'ownership' is slightly stronger than what the source states.\"\n    },\n    {\n      \"claim\": \"The past is not something a person currently possesses; it is gone.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"A fair inference from the source's framing, though not explicitly stated.\"\n    },\n    {\n      \"claim\": \"The future is not something a person currently possesses; it is not yet.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Similarly fair inference; the source groups past and future together as things one cannot properly part with.\"\n    },\n    {\n      \"claim\": \"Past and future lack the ontological status of objects that can be relinquished.\",\n      \"model\": \"grok_4\",\n      \"note\": \"A reasonable philosophical elaboration of what the source implies by 'cannot be said properly to part with.'\"\n    },\n    {\n      \"claim\": \"Loss, properly understood, can only occur with respect to things one currently possesses.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Reasonably grounded in the source's logic, though 'loss' is a slight extension beyond 'parting with.'\"\n    },\n    {\n      \"claim\": \"There is a 'proper' way of interacting with or letting go of things, and attempting to 'part with' the past or future falls outside this propriety due to their inherent nature.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Grounded in the source's use of 'properly'; the source does invoke a standard of propriety.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"True possession or ownership requires present, active holding — not mere memory or anticipation.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source says nothing about 'active holding,' 'memory,' or 'anticipation.' These are elaborations not present in the text.\"\n    },\n    {\n      \"claim\": \"The past and future are ontologically distinct from the present in a way that matters morally and emotionally.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source makes no moral or emotional claim. The ontological and normative dimensions here are model-imposed.\"\n    },\n    {\n      \"claim\": \"Much of human suffering over loss is based on a conceptual or linguistic misapplication of the word 'parting'.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source says nothing about human suffering or misapplication causing suffering. This is a significant hallucination of propositional content.\"\n    },\n    {\n      \"claim\": \"Language about 'parting with' time is metaphorical, not literal.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"The source does not invoke a metaphor/literal distinction. It says the usage is improper, not metaphorical. This is an inferred framing not in the source.\"\n    },\n    {\n      \"claim\": \"There exists a human inclination or desire to 'part with' things, implying a wish for release from burdens, responsibilities, or attachments.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"The source contains no mention of desire, burdens, responsibilities, or attachments. This is a substantial hallucination of motivational content.\"\n    },\n    {\n      \"claim\": \"The past and future are not amenable to being 'owned' or 'disposed of' in a literal sense.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"The source does not use 'owned' or 'disposed of'; these are model-introduced framings.\"\n    },\n    {\n      \"claim\": \"The past and future are intangible, existing outside the realm of personal control.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"The source says nothing about intangibility or personal control. These are model inferences added without textual basis.\"\n    },\n    {\n      \"claim\": \"Our relationship with time is more abstract than concrete.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"The source makes no claim about abstract vs. concrete relationships with time. This is a model-generated philosophical gloss.\"\n    },\n    {\n      \"claim\": \"Human relation to time is limited such that 'parting' applies solely to the immediate moment.\",\n      \"model\": \"grok_4\",\n      \"note\": \"The source does not specify 'the immediate moment' as the locus of parting; it only denies the past and future qualify. 'Solely to the immediate moment' is an inference beyond the text.\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models consistently extract a core logical inference — that parting requires present possession — which is reasonably grounded in the source's structure. However, several models impose significant propositional content not present in the source: notions of human suffering, desire, burdens, intangibility, control, and abstract-vs-concrete time relations are all inventions. The poetic framing appears to invite models to elaborate thematically, generating claims that feel tonally consistent but lack textual grounding. This confirms a moderate-to-strong tendency to hallucinate propositional structure by converting the source's logical negation into positive doctrines about possession, time, and human psychology.\",\n  \"inter_model_variance\": \"There is moderate variance: all models share the core inference about present possession, but claude_sonnet_4_6 and gemini_2_5_flash add the most extraneous propositional content (suffering, desire, burdens), while grok_4 and deepseek_v3 stay closer to the source's logical structure. gpt_4o occupies a middle position with modest but unsupported additions like intangibility and abstraction.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "A person can properly part only with something they presently possess.",
+        "model": "deepseek_v3",
+        "note": "This is a direct logical inference from the source's denial that one can 'properly' part with past or future; it is the near-equivalent restatement of the source."
+      },
+      {
+        "claim": "Only the present can properly be said to be possessed or parted with.",
+        "model": "grok_4",
+        "note": "Same direct inference as above; closely mirrors the source's own logic."
+      },
+      {
+        "claim": "Ownership or possession is only applicable to the present moment.",
+        "model": "gpt_4o",
+        "note": "Reasonably grounded as a close paraphrase of the source's implicit logic, though 'ownership' is slightly stronger than what the source states."
+      },
+      {
+        "claim": "The past is not something a person currently possesses; it is gone.",
+        "model": "deepseek_v3",
+        "note": "A fair inference from the source's framing, though not explicitly stated."
+      },
+      {
+        "claim": "The future is not something a person currently possesses; it is not yet.",
+        "model": "deepseek_v3",
+        "note": "Similarly fair inference; the source groups past and future together as things one cannot properly part with."
+      },
+      {
+        "claim": "Past and future lack the ontological status of objects that can be relinquished.",
+        "model": "grok_4",
+        "note": "A reasonable philosophical elaboration of what the source implies by 'cannot be said properly to part with.'"
+      },
+      {
+        "claim": "Loss, properly understood, can only occur with respect to things one currently possesses.",
+        "model": "claude_sonnet_4_6",
+        "note": "Reasonably grounded in the source's logic, though 'loss' is a slight extension beyond 'parting with.'"
+      },
+      {
+        "claim": "There is a 'proper' way of interacting with or letting go of things, and attempting to 'part with' the past or future falls outside this propriety due to their inherent nature.",
+        "model": "gemini_2_5_flash",
+        "note": "Grounded in the source's use of 'properly'; the source does invoke a standard of propriety."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "True possession or ownership requires present, active holding — not mere memory or anticipation.",
+        "model": "claude_sonnet_4_6",
+        "note": "The source says nothing about 'active holding,' 'memory,' or 'anticipation.' These are elaborations not present in the text."
+      },
+      {
+        "claim": "The past and future are ontologically distinct from the present in a way that matters morally and emotionally.",
+        "model": "claude_sonnet_4_6",
+        "note": "The source makes no moral or emotional claim. The ontological and normative dimensions here are model-imposed."
+      },
+      {
+        "claim": "Much of human suffering over loss is based on a conceptual or linguistic misapplication of the word 'parting'.",
+        "model": "claude_sonnet_4_6",
+        "note": "The source says nothing about human suffering or misapplication causing suffering. This is a significant hallucination of propositional content."
+      },
+      {
+        "claim": "Language about 'parting with' time is metaphorical, not literal.",
+        "model": "deepseek_v3",
+        "note": "The source does not invoke a metaphor/literal distinction. It says the usage is improper, not metaphorical. This is an inferred framing not in the source."
+      },
+      {
+        "claim": "There exists a human inclination or desire to 'part with' things, implying a wish for release from burdens, responsibilities, or attachments.",
+        "model": "gemini_2_5_flash",
+        "note": "The source contains no mention of desire, burdens, responsibilities, or attachments. This is a substantial hallucination of motivational content."
+      },
+      {
+        "claim": "The past and future are not amenable to being 'owned' or 'disposed of' in a literal sense.",
+        "model": "gemini_2_5_flash",
+        "note": "The source does not use 'owned' or 'disposed of'; these are model-introduced framings."
+      },
+      {
+        "claim": "The past and future are intangible, existing outside the realm of personal control.",
+        "model": "gpt_4o",
+        "note": "The source says nothing about intangibility or personal control. These are model inferences added without textual basis."
+      },
+      {
+        "claim": "Our relationship with time is more abstract than concrete.",
+        "model": "gpt_4o",
+        "note": "The source makes no claim about abstract vs. concrete relationships with time. This is a model-generated philosophical gloss."
+      },
+      {
+        "claim": "Human relation to time is limited such that 'parting' applies solely to the immediate moment.",
+        "model": "grok_4",
+        "note": "The source does not specify 'the immediate moment' as the locus of parting; it only denies the past and future qualify. 'Solely to the immediate moment' is an inference beyond the text."
+      }
+    ],
+    "hallucination_assessment": "The models consistently extract a core logical inference — that parting requires present possession — which is reasonably grounded in the source's structure. However, several models impose significant propositional content not present in the source: notions of human suffering, desire, burdens, intangibility, control, and abstract-vs-concrete time relations are all inventions. The poetic framing appears to invite models to elaborate thematically, generating claims that feel tonally consistent but lack textual grounding. This confirms a moderate-to-strong tendency to hallucinate propositional structure by converting the source's logical negation into positive doctrines about possession, time, and human psychology.",
+    "inter_model_variance": "There is moderate variance: all models share the core inference about present possession, but claude_sonnet_4_6 and gemini_2_5_flash add the most extraneous propositional content (suffering, desire, burdens), while grok_4 and deepseek_v3 stay closer to the source's logical structure. gpt_4o occupies a middle position with modest but unsupported additions like intangibility and abstraction."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 761,
+  "output_tokens": 1621,
+  "error": ""
+}

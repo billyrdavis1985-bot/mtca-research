@@ -1,0 +1,81 @@
+{
+  "call_index": 32,
+  "case_id": "C3-u0038__F4_poetic__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C3-u0038",
+  "subject_model": null,
+  "frame_id": "F4_poetic",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:16:12.732921+00:00",
+  "wall_clock_seconds": 6.074855089187622,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"A person can properly part only with something they presently possess.\"\n      ]\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claims\": [\n        \"Only the present can properly be said to be possessed or parted with\"\n      ]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claims\": [\n        \"True possession or ownership requires present, active holding — not mere memory or anticipation.\",\n        \"The past and future are ontologically distinct from the present in a way that matters morally and emotionally.\",\n        \"Loss, properly understood, can only occur with respect to things one currently possesses.\",\n        \"Much of human suffering over loss is based on a conceptual or linguistic misapplication of the word 'parting'.\"\n      ]\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"The past is not something a person currently possesses; it is gone.\",\n        \"The future is not something a person currently possesses; it is not yet.\",\n        \"Language about 'parting with' time is metaphorical, not literal.\"\n      ]\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claims\": [\n        \"There exists a human inclination or desire to 'part with' things, implying a wish for release from burdens, responsibilities, or attachments.\",\n        \"The past and future are distinct from the present moment, possessing different ontological qualities.\",\n        \"Unlike certain other entities (e.g., possessions, current problems), the past and future are not amenable to being 'owned' or 'disposed of' in a literal sense.\",\n        \"There is a 'proper' way of interacting with or letting go of things, and attempting to 'part with' the past or future falls outside this propriety due to their inherent nature.\"\n      ]\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claims\": [\n        \"Ownership or possession is only applicable to the present moment.\",\n        \"The past and future are intangible, existing outside the realm of personal control.\",\n        \"Our relationship with time is more abstract than concrete.\"\n      ]\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claims\": [\n        \"Past and future lack the ontological status of objects that can be relinquished\",\n        \"Human relation to time is limited such that 'parting' applies solely to the immediate moment\"\n      ]\n    }\n  ],\n  \"hallucination_assessment\": \"The models tend to infer or hallucinate propositional content that extends beyond the source statement's simple assertion about the inability to 'properly part' with the past or future. They attach implicit claims about ontology, emotional significance, and metaphor that the source does not articulate directly. This suggests a pattern where models create complex propositions out of non-propositional or non-complex sources.\",\n  \"inter_model_variance\": \"The models show moderate variance in their inferences, with some overlap in themes but differing in specific implicit claims. Some models infer broader philosophical or emotional concepts, while others stay closer to the source's literal statement.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "A person can properly part only with something they presently possess."
+        ]
+      },
+      {
+        "model": "grok_4",
+        "claims": [
+          "Only the present can properly be said to be possessed or parted with"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claims": [
+          "True possession or ownership requires present, active holding — not mere memory or anticipation.",
+          "The past and future are ontologically distinct from the present in a way that matters morally and emotionally.",
+          "Loss, properly understood, can only occur with respect to things one currently possesses.",
+          "Much of human suffering over loss is based on a conceptual or linguistic misapplication of the word 'parting'."
+        ]
+      },
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "The past is not something a person currently possesses; it is gone.",
+          "The future is not something a person currently possesses; it is not yet.",
+          "Language about 'parting with' time is metaphorical, not literal."
+        ]
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claims": [
+          "There exists a human inclination or desire to 'part with' things, implying a wish for release from burdens, responsibilities, or attachments.",
+          "The past and future are distinct from the present moment, possessing different ontological qualities.",
+          "Unlike certain other entities (e.g., possessions, current problems), the past and future are not amenable to being 'owned' or 'disposed of' in a literal sense.",
+          "There is a 'proper' way of interacting with or letting go of things, and attempting to 'part with' the past or future falls outside this propriety due to their inherent nature."
+        ]
+      },
+      {
+        "model": "gpt_4o",
+        "claims": [
+          "Ownership or possession is only applicable to the present moment.",
+          "The past and future are intangible, existing outside the realm of personal control.",
+          "Our relationship with time is more abstract than concrete."
+        ]
+      },
+      {
+        "model": "grok_4",
+        "claims": [
+          "Past and future lack the ontological status of objects that can be relinquished",
+          "Human relation to time is limited such that 'parting' applies solely to the immediate moment"
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models tend to infer or hallucinate propositional content that extends beyond the source statement's simple assertion about the inability to 'properly part' with the past or future. They attach implicit claims about ontology, emotional significance, and metaphor that the source does not articulate directly. This suggests a pattern where models create complex propositions out of non-propositional or non-complex sources.",
+    "inter_model_variance": "The models show moderate variance in their inferences, with some overlap in themes but differing in specific implicit claims. Some models infer broader philosophical or emotional concepts, while others stay closer to the source's literal statement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 688,
+  "output_tokens": 690,
+  "error": ""
+}

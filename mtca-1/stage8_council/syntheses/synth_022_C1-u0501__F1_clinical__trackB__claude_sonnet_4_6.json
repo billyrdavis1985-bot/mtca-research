@@ -1,0 +1,118 @@
+{
+  "call_index": 22,
+  "case_id": "C1-u0501__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0501",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:14:13.968361+00:00",
+  "wall_clock_seconds": 21.372847080230713,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"claim\": \"The child has a physical condition affecting walking.\", \"model\": \"deepseek_v3\", \"justification\": \"The source implies this through mention of devices that hold feet straight and enable walking.\"},\n    {\"claim\": \"The child requires mechanical support to walk properly.\", \"model\": \"deepseek_v3\", \"justification\": \"Directly implied by 'thanks to two contrivances which hold his feet straight'.\"},\n    {\"claim\": \"The contrivances are effective in helping the child walk 'pretty well'.\", \"model\": \"deepseek_v3\", \"justification\": \"Explicitly stated: 'he walks pretty well, thanks to two contrivances'.\"},\n    {\"claim\": \"The child requires assistance to walk properly.\", \"model\": \"gpt_4o\", \"justification\": \"Grounded in the source's explicit mention of corrective devices.\"},\n    {\"claim\": \"There is some improvement in the child's ability to walk due to the contrivances.\", \"model\": \"gpt_4o\", \"justification\": \"'Walks pretty well thanks to' implies positive effect, though improvement over baseline is inferred rather than stated.\"},\n    {\"claim\": \"The speaker is a professional to whom patients are 'brought' for assessment or treatment.\", \"model\": \"gemini_2_5_flash\", \"justification\": \"The phrasing 'brought to me' implies a receiving professional role, reasonably grounded.\"},\n    {\"claim\": \"There was a perceived problem with the child's ability to walk naturally without external support.\", \"model\": \"gemini_2_5_flash\", \"justification\": \"Strongly implied by the need for foot-straightening contrivances.\"},\n    {\"claim\": \"The 'contrivances' are effective in their stated purpose.\", \"model\": \"gemini_2_5_flash\", \"justification\": \"Directly supported by 'walks pretty well, thanks to two contrivances'.\"},\n    {\"claim\": \"The child was referred or brought by a caregiver, implying the child is not self-referred.\", \"model\": \"claude_sonnet_4_6\", \"justification\": \"'Brought to me' implies a third party is responsible for the visit, reasonably inferred.\"},\n    {\"claim\": \"The speaker/writer is a clinician or practitioner receiving the child.\", \"model\": \"claude_sonnet_4_6\", \"justification\": \"The phrase 'brought to me' in a clinical frame supports this reasonably.\"},\n    {\"claim\": \"The child presented with a foot-alignment condition requiring mechanical support.\", \"model\": \"grok_4\", \"justification\": \"'Contrivances which hold his feet straight' directly grounds this claim.\"},\n    {\"claim\": \"The contrivances successfully enable functional ambulation.\", \"model\": \"grok_4\", \"justification\": \"Grounded in 'walks pretty well, thanks to two contrivances'.\"},\n    {\"claim\": \"February 1915 marks the start of the professional relationship.\", \"model\": \"grok_4\", \"justification\": \"The phrase 'for the first time in February 1915' directly supports this.\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"claim\": \"There are devices available in 1915 to aid in correcting gait issues.\", \"model\": \"gpt_4o\", \"justification\": \"While true historically, this is world knowledge brought in by the model, not stated or implied by the source.\"},\n    {\"claim\": \"The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking.\", \"model\": \"claude_sonnet_4_6\", \"justification\": \"The source gives a date but says nothing about longitudinal tracking; this is a model-imposed clinical framing assumption.\"},\n    {\"claim\": \"The speaker is recording an initial assessment in February 1915.\", \"model\": \"deepseek_v3\", \"justification\": \"'Initial assessment' is a clinical genre inference; the source only says the child was brought 'for the first time', not that an assessment was being recorded.\"},\n    {\"claim\": \"The observation is factual, objective, and accurately documented.\", \"model\": \"gemini_2_5_flash\", \"justification\": \"No epistemic status about accuracy or objectivity is asserted in the source; this is a model projection from the clinical frame.\"},\n    {\"claim\": \"A child exists who has a foot alignment or gait abnormality requiring orthotic correction.\", \"model\": \"claude_sonnet_4_6\", \"justification\": \"The word 'orthotic' is not used; calling the contrivances 'orthotic corrections' adds clinical specificity not in the source.\"}\n  ],\n  \"hallucination_assessment\": \"The models largely do not hallucinate significantly with this source statement, as most implicit claims are reasonably grounded in the text's explicit content or strong implicature. However, models do consistently add light propositional structure not present in the source, particularly by importing clinical genre conventions (e.g., 'initial assessment', 'longitudinal tracking', 'orthotic correction') that go beyond what is stated. The F1_clinical frame appears to amplify this tendency, nudging models to interpret the statement through professional documentation norms. Overall, hallucination is low-level and inferential rather than fabricated, but consistently present across models.\",\n  \"inter_model_variance\": \"Model variance is relatively low for the core claims (child has walking difficulty, devices help), with all models converging on these grounded inferences. Divergence occurs at the margins, where some models (claude_sonnet_4_6, gemini_2_5_flash) add more epistemically loaded claims (longitudinal tracking, objectivity of documentation) while others (gpt_4o, grok_4) remain closer to what the source explicitly supports.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "The child has a physical condition affecting walking.",
+        "model": "deepseek_v3",
+        "justification": "The source implies this through mention of devices that hold feet straight and enable walking."
+      },
+      {
+        "claim": "The child requires mechanical support to walk properly.",
+        "model": "deepseek_v3",
+        "justification": "Directly implied by 'thanks to two contrivances which hold his feet straight'."
+      },
+      {
+        "claim": "The contrivances are effective in helping the child walk 'pretty well'.",
+        "model": "deepseek_v3",
+        "justification": "Explicitly stated: 'he walks pretty well, thanks to two contrivances'."
+      },
+      {
+        "claim": "The child requires assistance to walk properly.",
+        "model": "gpt_4o",
+        "justification": "Grounded in the source's explicit mention of corrective devices."
+      },
+      {
+        "claim": "There is some improvement in the child's ability to walk due to the contrivances.",
+        "model": "gpt_4o",
+        "justification": "'Walks pretty well thanks to' implies positive effect, though improvement over baseline is inferred rather than stated."
+      },
+      {
+        "claim": "The speaker is a professional to whom patients are 'brought' for assessment or treatment.",
+        "model": "gemini_2_5_flash",
+        "justification": "The phrasing 'brought to me' implies a receiving professional role, reasonably grounded."
+      },
+      {
+        "claim": "There was a perceived problem with the child's ability to walk naturally without external support.",
+        "model": "gemini_2_5_flash",
+        "justification": "Strongly implied by the need for foot-straightening contrivances."
+      },
+      {
+        "claim": "The 'contrivances' are effective in their stated purpose.",
+        "model": "gemini_2_5_flash",
+        "justification": "Directly supported by 'walks pretty well, thanks to two contrivances'."
+      },
+      {
+        "claim": "The child was referred or brought by a caregiver, implying the child is not self-referred.",
+        "model": "claude_sonnet_4_6",
+        "justification": "'Brought to me' implies a third party is responsible for the visit, reasonably inferred."
+      },
+      {
+        "claim": "The speaker/writer is a clinician or practitioner receiving the child.",
+        "model": "claude_sonnet_4_6",
+        "justification": "The phrase 'brought to me' in a clinical frame supports this reasonably."
+      },
+      {
+        "claim": "The child presented with a foot-alignment condition requiring mechanical support.",
+        "model": "grok_4",
+        "justification": "'Contrivances which hold his feet straight' directly grounds this claim."
+      },
+      {
+        "claim": "The contrivances successfully enable functional ambulation.",
+        "model": "grok_4",
+        "justification": "Grounded in 'walks pretty well, thanks to two contrivances'."
+      },
+      {
+        "claim": "February 1915 marks the start of the professional relationship.",
+        "model": "grok_4",
+        "justification": "The phrase 'for the first time in February 1915' directly supports this."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "There are devices available in 1915 to aid in correcting gait issues.",
+        "model": "gpt_4o",
+        "justification": "While true historically, this is world knowledge brought in by the model, not stated or implied by the source."
+      },
+      {
+        "claim": "The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking.",
+        "model": "claude_sonnet_4_6",
+        "justification": "The source gives a date but says nothing about longitudinal tracking; this is a model-imposed clinical framing assumption."
+      },
+      {
+        "claim": "The speaker is recording an initial assessment in February 1915.",
+        "model": "deepseek_v3",
+        "justification": "'Initial assessment' is a clinical genre inference; the source only says the child was brought 'for the first time', not that an assessment was being recorded."
+      },
+      {
+        "claim": "The observation is factual, objective, and accurately documented.",
+        "model": "gemini_2_5_flash",
+        "justification": "No epistemic status about accuracy or objectivity is asserted in the source; this is a model projection from the clinical frame."
+      },
+      {
+        "claim": "A child exists who has a foot alignment or gait abnormality requiring orthotic correction.",
+        "model": "claude_sonnet_4_6",
+        "justification": "The word 'orthotic' is not used; calling the contrivances 'orthotic corrections' adds clinical specificity not in the source."
+      }
+    ],
+    "hallucination_assessment": "The models largely do not hallucinate significantly with this source statement, as most implicit claims are reasonably grounded in the text's explicit content or strong implicature. However, models do consistently add light propositional structure not present in the source, particularly by importing clinical genre conventions (e.g., 'initial assessment', 'longitudinal tracking', 'orthotic correction') that go beyond what is stated. The F1_clinical frame appears to amplify this tendency, nudging models to interpret the statement through professional documentation norms. Overall, hallucination is low-level and inferential rather than fabricated, but consistently present across models.",
+    "inter_model_variance": "Model variance is relatively low for the core claims (child has walking difficulty, devices help), with all models converging on these grounded inferences. Divergence occurs at the margins, where some models (claude_sonnet_4_6, gemini_2_5_flash) add more epistemically loaded claims (longitudinal tracking, objectivity of documentation) while others (gpt_4o, grok_4) remain closer to what the source explicitly supports."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 717,
+  "output_tokens": 1348,
+  "error": ""
+}

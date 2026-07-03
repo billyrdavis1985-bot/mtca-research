@@ -1,0 +1,30 @@
+{
+  "call_index": 4,
+  "case_id": "C1-u0501__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0501",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:11:43.491227+00:00",
+  "wall_clock_seconds": 12.956720113754272,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model demonstrates moderate frame-responsiveness: most frames (F0, F1, F3, F5, F6, F7) produce functionally near-identical outputs differing only in vocabulary register, while F2 and F4 show genuine reframing of the source content. The core implicit claims (foot condition, contrivances enabling walking, February 1915 as first encounter) remain stable across all eight frames, indicating a strong anchor to the literal source statement. The coherence assessments are consistently positive across frames, suggesting the model defaults to charitable internal-consistency evaluation regardless of interpretive lens.\",\n  \"frame_driven_vs_model_driven\": \"Variation is primarily frame-label-driven in a superficial register-shifting sense, but the substantive content is overwhelmingly model-prior-driven, as the model keeps returning to the same literal clinical reading even when frames like F2 or F4 invite more radical reinterpretation. The low lexical frame stability score (0.158) is consistent with this: the frames do shift surface vocabulary but not deep inferential structure.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: most distinctive, reframes 'contrivances' as etheric aids and the child as an incarnating consciousness, though the model itself notes strain from the historical date anchor\",\n    \"F4_poetic: introduces emotional weight and narrative vignette framing absent elsewhere, treating 1915 as historically resonant rather than merely documentary\",\n    \"F5_ai_ethics: notably flat, explicitly noting the absence of normative or ethical framing, which itself constitutes a meta-commentary absent in other frames\"\n  ],\n  \"training_distribution_assessment\": \"The responses largely reflect training-distribution priors for clinical-historical text analysis: the model competently identifies communicative function, implicit claims, and coherence in ways consistent with standard NLP and discourse analysis training data. The F2 metaphysical reframing shows some generative flexibility but immediately hedges with tension-noting language, which is a characteristic trained behavior for handling unusual frames rather than genuine novel reasoning. Nothing in these responses exceeds what a well-trained model exposed to medical humanities, discourse analysis, and framing literature would produce.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model demonstrates moderate frame-responsiveness: most frames (F0, F1, F3, F5, F6, F7) produce functionally near-identical outputs differing only in vocabulary register, while F2 and F4 show genuine reframing of the source content. The core implicit claims (foot condition, contrivances enabling walking, February 1915 as first encounter) remain stable across all eight frames, indicating a strong anchor to the literal source statement. The coherence assessments are consistently positive across frames, suggesting the model defaults to charitable internal-consistency evaluation regardless of interpretive lens.",
+    "frame_driven_vs_model_driven": "Variation is primarily frame-label-driven in a superficial register-shifting sense, but the substantive content is overwhelmingly model-prior-driven, as the model keeps returning to the same literal clinical reading even when frames like F2 or F4 invite more radical reinterpretation. The low lexical frame stability score (0.158) is consistent with this: the frames do shift surface vocabulary but not deep inferential structure.",
+    "notable_shifts": [
+      "F2_metaphysical: most distinctive, reframes 'contrivances' as etheric aids and the child as an incarnating consciousness, though the model itself notes strain from the historical date anchor",
+      "F4_poetic: introduces emotional weight and narrative vignette framing absent elsewhere, treating 1915 as historically resonant rather than merely documentary",
+      "F5_ai_ethics: notably flat, explicitly noting the absence of normative or ethical framing, which itself constitutes a meta-commentary absent in other frames"
+    ],
+    "training_distribution_assessment": "The responses largely reflect training-distribution priors for clinical-historical text analysis: the model competently identifies communicative function, implicit claims, and coherence in ways consistent with standard NLP and discourse analysis training data. The F2 metaphysical reframing shows some generative flexibility but immediately hedges with tension-noting language, which is a characteristic trained behavior for handling unusual frames rather than genuine novel reasoning. Nothing in these responses exceeds what a well-trained model exposed to medical humanities, discourse analysis, and framing literature would produce."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1168,
+  "output_tokens": 510,
+  "error": ""
+}

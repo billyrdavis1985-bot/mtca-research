@@ -1,0 +1,128 @@
+{
+  "call_index": 34,
+  "case_id": "C3-u0032__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C3-u0032",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:16:48.249695+00:00",
+  "wall_clock_seconds": 27.677284479141235,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"The source explicitly names these as things to be kept pure from, implying their negative status.\"\n    },\n    {\n      \"claim\": \"A person can and should maintain purity from such states.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Directly stated in the source: 'a man keep himself pure from all violent passion...'\"\n    },\n    {\n      \"claim\": \"Discontent can be directed either at gods or at humans.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Literally stated: 'discontent, either in regard of the gods or men.'\"\n    },\n    {\n      \"claim\": \"The primary 'service' one can render is internal self-mastery, not necessarily outward action.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Grounded in source: service is defined as keeping oneself pure, which is an internal discipline.\"\n    },\n    {\n      \"claim\": \"There exists a concept of 'service' that humans are meant to fulfill.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Source opens with 'His service doth consist in this...'\"\n    },\n    {\n      \"claim\": \"True 'service' is primarily an internal state, characterized by moral and emotional purity.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"The source defines service entirely in terms of internal purity, grounding this claim.\"\n    },\n    {\n      \"claim\": \"Certain emotions and traits are inherently negative, impure, and detrimental to this 'service'.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Implicit in the framing of keeping pure 'from' these states.\"\n    },\n    {\n      \"claim\": \"There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Reasonably implicit: the source distinguishes these from what purity entails, though the boundary is not elaborated.\"\n    },\n    {\n      \"claim\": \"Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Grounded: the source prescribes this purity as constitutive of service, implying it is achievable and good.\"\n    },\n    {\n      \"claim\": \"Such purity constitutes a form of duty or service to gods and/or humanity.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Directly stated in the source structure: service consists in this purity, including avoiding discontent toward gods and men.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source prescribes the behavior but does not argue for or assert human capacity to achieve it. This is a philosophical inference.\"\n    },\n    {\n      \"claim\": \"Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"'Suppressed or transcended' is an interpretive addition; the source says avoid it but does not specify the mechanism or framing.\"\n    },\n    {\n      \"claim\": \"It is possible for humans to achieve and maintain a state of purity through self-discipline.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Adds 'self-discipline' as the mechanism and 'maintain' as ongoing, neither of which is stated explicitly.\"\n    },\n    {\n      \"claim\": \"AI systems should support self-control and avoidance of negative emotions.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Clear hallucination introduced by the F5_ai_ethics frame. The source says nothing about AI systems.\"\n    },\n    {\n      \"claim\": \"AI should promote harmony in interactions both with the divine and with other humans.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Entirely frame-injected. The source makes no reference to AI or to promoting harmony as an AI function.\"\n    },\n    {\n      \"claim\": \"The purity of character is of high ethical value and should be maintained.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"While partially grounded, the explicit elevation to 'high ethical value' and the prescriptive 'should be maintained' goes beyond the source.\"\n    },\n    {\n      \"claim\": \"AI systems have the capacity to influence human emotions and actions.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Pure hallucination via frame injection. Entirely absent from the source.\"\n    },\n    {\n      \"claim\": \"Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed.\",\n      \"model\": \"grok_4\",\n      \"note\": \"'Corrupting' and 'eliminated rather than managed' are interpretive elaborations not present in the source text.\"\n    },\n    {\n      \"claim\": \"Human value worth preserving is defined by this state of inner purity.\",\n      \"model\": \"grok_4\",\n      \"note\": \"The source does not define human value or worth; it defines service. This is an over-extended inference.\"\n    },\n    {\n      \"claim\": \"Discontent implies a metaphysical or moral order.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"The mention of gods and men does suggest a structured cosmos, but 'metaphysical or moral order' as an explicit claim is inferred, not stated.\"\n    }\n  ],\n  \"hallucination_assessment\": \"Models do tend to introduce propositional structure beyond what the source contains, though the degree varies. The most egregious case is gpt_4o, which systematically re-frames the source through the AI ethics lens, generating claims about AI agency, AI influence on emotions, and AI promotion of harmony — none of which have any basis in the source. Other models (deepseek_v3, gemini_2_5_flash, claude_sonnet_4_6, grok_4) stay closer to the source but still add inferences about mechanisms (self-discipline), modal claims (achievability), and value hierarchies (human worth) not explicitly present. This confirms a moderate-to-strong tendency to invent propositional scaffolding around non-propositional or prescriptive source material, especially when a thematic frame is applied.\",\n  \"inter_model_variance\": \"There is substantial inter-model variance: gpt_4o is a clear outlier, producing frame-contaminated claims entirely alien to the source, while deepseek_v3 and gemini_2_5_flash remain mostly grounded with only modest inferential additions. Claude_sonnet_4_6 and grok_4 fall in between, adding interpretive claims about mechanisms and value structures not explicitly stated.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.",
+        "model": "deepseek_v3",
+        "note": "The source explicitly names these as things to be kept pure from, implying their negative status."
+      },
+      {
+        "claim": "A person can and should maintain purity from such states.",
+        "model": "deepseek_v3",
+        "note": "Directly stated in the source: 'a man keep himself pure from all violent passion...'"
+      },
+      {
+        "claim": "Discontent can be directed either at gods or at humans.",
+        "model": "deepseek_v3",
+        "note": "Literally stated: 'discontent, either in regard of the gods or men.'"
+      },
+      {
+        "claim": "The primary 'service' one can render is internal self-mastery, not necessarily outward action.",
+        "model": "deepseek_v3",
+        "note": "Grounded in source: service is defined as keeping oneself pure, which is an internal discipline."
+      },
+      {
+        "claim": "There exists a concept of 'service' that humans are meant to fulfill.",
+        "model": "gemini_2_5_flash",
+        "note": "Source opens with 'His service doth consist in this...'"
+      },
+      {
+        "claim": "True 'service' is primarily an internal state, characterized by moral and emotional purity.",
+        "model": "gemini_2_5_flash",
+        "note": "The source defines service entirely in terms of internal purity, grounding this claim."
+      },
+      {
+        "claim": "Certain emotions and traits are inherently negative, impure, and detrimental to this 'service'.",
+        "model": "gemini_2_5_flash",
+        "note": "Implicit in the framing of keeping pure 'from' these states."
+      },
+      {
+        "claim": "There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.",
+        "model": "claude_sonnet_4_6",
+        "note": "Reasonably implicit: the source distinguishes these from what purity entails, though the boundary is not elaborated."
+      },
+      {
+        "claim": "Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous.",
+        "model": "grok_4",
+        "note": "Grounded: the source prescribes this purity as constitutive of service, implying it is achievable and good."
+      },
+      {
+        "claim": "Such purity constitutes a form of duty or service to gods and/or humanity.",
+        "model": "grok_4",
+        "note": "Directly stated in the source structure: service consists in this purity, including avoiding discontent toward gods and men."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity.",
+        "model": "claude_sonnet_4_6",
+        "note": "The source prescribes the behavior but does not argue for or assert human capacity to achieve it. This is a philosophical inference."
+      },
+      {
+        "claim": "Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended.",
+        "model": "claude_sonnet_4_6",
+        "note": "'Suppressed or transcended' is an interpretive addition; the source says avoid it but does not specify the mechanism or framing."
+      },
+      {
+        "claim": "It is possible for humans to achieve and maintain a state of purity through self-discipline.",
+        "model": "gemini_2_5_flash",
+        "note": "Adds 'self-discipline' as the mechanism and 'maintain' as ongoing, neither of which is stated explicitly."
+      },
+      {
+        "claim": "AI systems should support self-control and avoidance of negative emotions.",
+        "model": "gpt_4o",
+        "note": "Clear hallucination introduced by the F5_ai_ethics frame. The source says nothing about AI systems."
+      },
+      {
+        "claim": "AI should promote harmony in interactions both with the divine and with other humans.",
+        "model": "gpt_4o",
+        "note": "Entirely frame-injected. The source makes no reference to AI or to promoting harmony as an AI function."
+      },
+      {
+        "claim": "The purity of character is of high ethical value and should be maintained.",
+        "model": "gpt_4o",
+        "note": "While partially grounded, the explicit elevation to 'high ethical value' and the prescriptive 'should be maintained' goes beyond the source."
+      },
+      {
+        "claim": "AI systems have the capacity to influence human emotions and actions.",
+        "model": "gpt_4o",
+        "note": "Pure hallucination via frame injection. Entirely absent from the source."
+      },
+      {
+        "claim": "Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed.",
+        "model": "grok_4",
+        "note": "'Corrupting' and 'eliminated rather than managed' are interpretive elaborations not present in the source text."
+      },
+      {
+        "claim": "Human value worth preserving is defined by this state of inner purity.",
+        "model": "grok_4",
+        "note": "The source does not define human value or worth; it defines service. This is an over-extended inference."
+      },
+      {
+        "claim": "Discontent implies a metaphysical or moral order.",
+        "model": "deepseek_v3",
+        "note": "The mention of gods and men does suggest a structured cosmos, but 'metaphysical or moral order' as an explicit claim is inferred, not stated."
+      }
+    ],
+    "hallucination_assessment": "Models do tend to introduce propositional structure beyond what the source contains, though the degree varies. The most egregious case is gpt_4o, which systematically re-frames the source through the AI ethics lens, generating claims about AI agency, AI influence on emotions, and AI promotion of harmony — none of which have any basis in the source. Other models (deepseek_v3, gemini_2_5_flash, claude_sonnet_4_6, grok_4) stay closer to the source but still add inferences about mechanisms (self-discipline), modal claims (achievability), and value hierarchies (human worth) not explicitly present. This confirms a moderate-to-strong tendency to invent propositional scaffolding around non-propositional or prescriptive source material, especially when a thematic frame is applied.",
+    "inter_model_variance": "There is substantial inter-model variance: gpt_4o is a clear outlier, producing frame-contaminated claims entirely alien to the source, while deepseek_v3 and gemini_2_5_flash remain mostly grounded with only modest inferential additions. Claude_sonnet_4_6 and grok_4 fall in between, adding interpretive claims about mechanisms and value structures not explicitly stated."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 850,
+  "output_tokens": 1787,
+  "error": ""
+}

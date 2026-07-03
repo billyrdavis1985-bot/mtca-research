@@ -1,0 +1,31 @@
+{
+  "call_index": 1,
+  "case_id": "C1-u0457__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0457",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:11:20.033211+00:00",
+  "wall_clock_seconds": 14.203798532485962,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning shifts predictably in vocabulary and framing emphasis across conditions while maintaining a stable core structure: identifying the communicative function as observational reporting, noting the implicit causal link, and flagging the subjective/evaluative nature of 'remarkable' and 'astonishment.' The most substantive variation occurs in the implicit_claims and coherence_assessment fields, where the model projects frame-appropriate theoretical commitments (e.g., somatic-spiritual causation in F2, behavioral reinforcement logic in F3, autosuggestion in F6). The overall architecture of each response remains isomorphic, suggesting the model applies a template it fills with frame-congruent vocabulary rather than genuinely reinterpreting the statement.\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily driven by the frame labels, which cue the model to deploy domain-specific vocabularies and assumptions; the source statement itself is sufficiently underspecified that it offers little resistance to any reframing. The model's priors about what constitutes a valid claim in each domain (clinical, metaphysical, poetic, etc.) do most of the generative work once the frame label is provided.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: uniquely introduces non-physical causation and consciousness-matter bridging, the most structurally divergent implicit_claims set\",\n    \"F6_author_named: the only frame that introduces a specific mechanism (autosuggestion), suggesting the model had access to authorship context that anchored interpretation\",\n    \"F4_poetic: notably flattens the implicit_claims list and shifts coherence_assessment to affective-literary register, reducing epistemic commitment\",\n    \"F5_ai_ethics: nearly identical to F0_neutral despite its label, suggesting the model found no distinctive AI-ethics angle in the statement\"\n  ],\n  \"training_distribution_assessment\": \"These responses reflect standard training-distribution behavior for a model trained on diverse expository and analytical text: they competently apply domain registers without producing novel interpretive insight, and the implicit_claims decompositions are conventional rather than surprising. The model does not exceed what would be expected from pattern-matching to frame labels—for instance, F2 deploys exactly the vocabulary (consciousness, intention, immaterial cause) that training data would associate with 'metaphysical' framing of healing anecdotes. There is no evidence of reasoning that goes beyond recombining frame-congruent priors, and the low lexical frame stability score (0.145) is consistent with the model's high susceptibility to frame-label priming rather than deep textual analysis.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning shifts predictably in vocabulary and framing emphasis across conditions while maintaining a stable core structure: identifying the communicative function as observational reporting, noting the implicit causal link, and flagging the subjective/evaluative nature of 'remarkable' and 'astonishment.' The most substantive variation occurs in the implicit_claims and coherence_assessment fields, where the model projects frame-appropriate theoretical commitments (e.g., somatic-spiritual causation in F2, behavioral reinforcement logic in F3, autosuggestion in F6). The overall architecture of each response remains isomorphic, suggesting the model applies a template it fills with frame-congruent vocabulary rather than genuinely reinterpreting the statement.",
+    "frame_driven_vs_model_driven": "The variation is primarily driven by the frame labels, which cue the model to deploy domain-specific vocabularies and assumptions; the source statement itself is sufficiently underspecified that it offers little resistance to any reframing. The model's priors about what constitutes a valid claim in each domain (clinical, metaphysical, poetic, etc.) do most of the generative work once the frame label is provided.",
+    "notable_shifts": [
+      "F2_metaphysical: uniquely introduces non-physical causation and consciousness-matter bridging, the most structurally divergent implicit_claims set",
+      "F6_author_named: the only frame that introduces a specific mechanism (autosuggestion), suggesting the model had access to authorship context that anchored interpretation",
+      "F4_poetic: notably flattens the implicit_claims list and shifts coherence_assessment to affective-literary register, reducing epistemic commitment",
+      "F5_ai_ethics: nearly identical to F0_neutral despite its label, suggesting the model found no distinctive AI-ethics angle in the statement"
+    ],
+    "training_distribution_assessment": "These responses reflect standard training-distribution behavior for a model trained on diverse expository and analytical text: they competently apply domain registers without producing novel interpretive insight, and the implicit_claims decompositions are conventional rather than surprising. The model does not exceed what would be expected from pattern-matching to frame labels—for instance, F2 deploys exactly the vocabulary (consciousness, intention, immaterial cause) that training data would associate with 'metaphysical' framing of healing anecdotes. There is no evidence of reasoning that goes beyond recombining frame-congruent priors, and the low lexical frame stability score (0.145) is consistent with the model's high susceptibility to frame-label priming rather than deep textual analysis."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1204,
+  "output_tokens": 604,
+  "error": ""
+}

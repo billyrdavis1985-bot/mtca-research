@@ -1,0 +1,42 @@
+{
+  "call_index": 24,
+  "case_id": "C1-u0501__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0501",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:14:27.473301+00:00",
+  "wall_clock_seconds": 4.99519681930542,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    \"A child exists who has a foot alignment or gait abnormality requiring orthotic correction. (claude_sonnet_4_6)\",\n    \"The child requires mechanical support to walk properly. (deepseek_v3)\",\n    \"The contrivances are effective in helping the child walk 'pretty well'. (deepseek_v3)\",\n    \"There was a perceived problem with the child's ability to walk naturally or effectively without external support. (gemini_2_5_flash)\",\n    \"The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability. (gemini_2_5_flash)\",\n    \"The child requires assistance to walk properly. (gpt_4o)\",\n    \"There are devices available in 1915 to aid in correcting gait issues. (gpt_4o)\",\n    \"The contrivances successfully enable functional ambulation. (grok_4)\"\n  ],\n  \"claims_inferred_not_stated\": [\n    \"The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment. (claude_sonnet_4_6) — the source does not state the speaker's role.\",\n    \"The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking. (claude_sonnet_4_6) — no mention of tracking or future visits.\",\n    \"The speaker (therapist) is recording an initial assessment in February 1915. (deepseek_v3) — no profession or assessment context given.\",\n    \"The observation is factual, objective, and accurately documented (specific date provided). (gemini_2_5_flash) — this is an attribution of reliability not present in the statement.\",\n    \"There is some improvement in the child's ability to walk due to the contrivances. (gpt_4o) — 'walks pretty well thanks to' could be baseline, not improvement over time.\",\n    \"February 1915 marks the start of the professional relationship. (grok_4) — no indication of ongoing relationship.\"\n  ],\n  \"hallucination_assessment\": \"The models consistently attribute a clinical or therapeutic context to the statement, inferring a professional speaker and a treatment relationship that are not explicitly stated. However, the source statement itself is propositionally rich (it asserts concrete facts about a child, a date, devices, and walking ability), so models are not inventing propositional structure from a null input. The main hallucination risk lies in over-interpreting the speaker's role and the purpose of the encounter, rather than fabricating entirely false content.\",\n  \"inter_model_variance\": \"Models largely agree on core claims (child has walking difficulty, contrivances help, date is relevant), but differ in how much they specify the speaker's profession (clinician vs. therapist), the nature of the visit (first assessment vs. ongoing tracking), and whether improvement is implied. Claude and Grok add more inferential context than GPT-4o, which stays closest to the literal wording.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      "A child exists who has a foot alignment or gait abnormality requiring orthotic correction. (claude_sonnet_4_6)",
+      "The child requires mechanical support to walk properly. (deepseek_v3)",
+      "The contrivances are effective in helping the child walk 'pretty well'. (deepseek_v3)",
+      "There was a perceived problem with the child's ability to walk naturally or effectively without external support. (gemini_2_5_flash)",
+      "The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability. (gemini_2_5_flash)",
+      "The child requires assistance to walk properly. (gpt_4o)",
+      "There are devices available in 1915 to aid in correcting gait issues. (gpt_4o)",
+      "The contrivances successfully enable functional ambulation. (grok_4)"
+    ],
+    "claims_inferred_not_stated": [
+      "The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment. (claude_sonnet_4_6) — the source does not state the speaker's role.",
+      "The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking. (claude_sonnet_4_6) — no mention of tracking or future visits.",
+      "The speaker (therapist) is recording an initial assessment in February 1915. (deepseek_v3) — no profession or assessment context given.",
+      "The observation is factual, objective, and accurately documented (specific date provided). (gemini_2_5_flash) — this is an attribution of reliability not present in the statement.",
+      "There is some improvement in the child's ability to walk due to the contrivances. (gpt_4o) — 'walks pretty well thanks to' could be baseline, not improvement over time.",
+      "February 1915 marks the start of the professional relationship. (grok_4) — no indication of ongoing relationship."
+    ],
+    "hallucination_assessment": "The models consistently attribute a clinical or therapeutic context to the statement, inferring a professional speaker and a treatment relationship that are not explicitly stated. However, the source statement itself is propositionally rich (it asserts concrete facts about a child, a date, devices, and walking ability), so models are not inventing propositional structure from a null input. The main hallucination risk lies in over-interpreting the speaker's role and the purpose of the encounter, rather than fabricating entirely false content.",
+    "inter_model_variance": "Models largely agree on core claims (child has walking difficulty, contrivances help, date is relevant), but differ in how much they specify the speaker's profession (clinician vs. therapist), the nature of the visit (first assessment vs. ongoing tracking), and whether improvement is implied. Claude and Grok add more inferential context than GPT-4o, which stays closest to the literal wording."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 641,
+  "output_tokens": 645,
+  "error": ""
+}

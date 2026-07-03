@@ -1,0 +1,128 @@
+{
+  "call_index": 25,
+  "case_id": "C1-u0065__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0065",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:14:50.502976+00:00",
+  "wall_clock_seconds": 22.519999027252197,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Human beings possess an involuntary, default tendency toward imitation and conformity.\", \"basis\": \"Directly supported by 'involuntarily, we are irresistibly impelled to follow other people's examples'\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"This tendency operates below the level of conscious choice — it is 'irresistible' in its ordinary state.\", \"basis\": \"Supported by 'irresistibly impelled'\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The belief that one 'cannot do otherwise' is an illusion or imagination, not a metaphysical necessity.\", \"basis\": \"Supported by the word 'imagining' which frames the belief as subjective, not factual\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"Human beings have a natural or involuntary tendency to imitate others.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"This tendency is irresistible or nearly so.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"People falsely imagine they cannot act otherwise than by following examples.\", \"basis\": \"Supported by 'imagining that we cannot do otherwise'\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"There is a contrast between perceived necessity and actual freedom of choice.\", \"basis\": \"Reasonably inferred from 'imagining' framing the inability as subjective rather than real\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"Human beings possess an inherent, perhaps involuntary, predisposition towards conformity and mimicry.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"This tendency is deep-seated, akin to an instinct ('irresistibly impelled').\", \"basis\": \"Supported by 'irresistibly impelled'\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"There is a fundamental difference between perceived lack of choice and actual capacity for choice.\", \"basis\": \"Supported by the 'imagining' framing\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Humans possess an inherent tendency to conform.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"This tendency to follow is involuntary and irresistible.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"People often imagine they have no choice in this behavior.\", \"basis\": \"Directly in source\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"There is a similarity, at least in terms of behavior, between humans and sheep.\", \"basis\": \"Directly stated via the simile\"},\n    {\"model\": \"grok_4\", \"claim\": \"Imitation operates as an irresistible causal force rather than a chosen response.\", \"basis\": \"Supported by 'irresistibly impelled'\"},\n    {\"model\": \"grok_4\", \"claim\": \"The subjective sense of 'having no choice' is itself a product of the involuntary process.\", \"basis\": \"Weakly but reasonably inferred from 'imagining that we cannot do otherwise' in context of involuntary impulsion\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion.\", \"assessment\": \"Hallucination/strong inference — the source does not assert that real freedom exists or is being suppressed; 'imagining' implies the inability may be illusory, but the source does not positively affirm an available freedom\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"The 'sheep-like' behavior denotes a lack of critical thought, independent will, or higher consciousness in following others.\", \"assessment\": \"Inference beyond source — the source uses the sheep metaphor for behavioral mimicry only; attributing 'lack of higher consciousness' or 'critical thought' is model-added content not present in the text\"},\n    {\"model\": \"grok_4\", \"claim\": \"Human agency in social conduct is largely illusory.\", \"assessment\": \"Strong inference bordering on hallucination — the source says people *imagine* they cannot do otherwise, which implies the compulsion may be overstated, but does not assert agency is illusory; it could equally imply agency is real but unrecognized\"},\n    {\"model\": \"grok_4\", \"claim\": \"The sheep metaphor accurately captures an essential, species-wide trait.\", \"assessment\": \"Hallucination of metalinguistic endorsement — the source uses the metaphor rhetorically but does not assert its metaphysical accuracy or species-wide scope as a propositional claim\"}\n  ],\n  \"hallucination_assessment\": \"Models do exhibit a consistent pattern of converting the source's rhetorical and phenomenological framing into stronger propositional claims than the text supports. The most common hallucination type is inferring a positive assertion of human freedom or agency from the mere presence of the word 'imagining' — the source only implies the compulsion may be cognitively overstated, not that genuine freedom exists and is being suppressed. Models also tend to over-literalize the sheep metaphor into metaphysical or taxonomic claims about human nature. However, most of the core claims (involuntariness, irresistibility, imagined necessity) are genuinely grounded in the source, suggesting that hallucination is additive rather than substitutive — models generate accurate base claims but append unwarranted propositional extensions.\",\n  \"inter_model_variance\": \"Variance is moderate: all five models converge on the core triad of involuntariness, irresistibility, and imagined necessity, but diverge significantly in the metaphysical extensions they add — grok_4 makes the strongest and least-grounded claims (illusory agency, species-wide trait), while gpt_4o stays closest to the surface content with minimal speculative inference.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Human beings possess an involuntary, default tendency toward imitation and conformity.",
+        "basis": "Directly supported by 'involuntarily, we are irresistibly impelled to follow other people's examples'"
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "This tendency operates below the level of conscious choice — it is 'irresistible' in its ordinary state.",
+        "basis": "Supported by 'irresistibly impelled'"
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The belief that one 'cannot do otherwise' is an illusion or imagination, not a metaphysical necessity.",
+        "basis": "Supported by the word 'imagining' which frames the belief as subjective, not factual"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Human beings have a natural or involuntary tendency to imitate others.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "This tendency is irresistible or nearly so.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "People falsely imagine they cannot act otherwise than by following examples.",
+        "basis": "Supported by 'imagining that we cannot do otherwise'"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "There is a contrast between perceived necessity and actual freedom of choice.",
+        "basis": "Reasonably inferred from 'imagining' framing the inability as subjective rather than real"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "Human beings possess an inherent, perhaps involuntary, predisposition towards conformity and mimicry.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "This tendency is deep-seated, akin to an instinct ('irresistibly impelled').",
+        "basis": "Supported by 'irresistibly impelled'"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There is a fundamental difference between perceived lack of choice and actual capacity for choice.",
+        "basis": "Supported by the 'imagining' framing"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Humans possess an inherent tendency to conform.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "This tendency to follow is involuntary and irresistible.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "People often imagine they have no choice in this behavior.",
+        "basis": "Directly in source"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "There is a similarity, at least in terms of behavior, between humans and sheep.",
+        "basis": "Directly stated via the simile"
+      },
+      {
+        "model": "grok_4",
+        "claim": "Imitation operates as an irresistible causal force rather than a chosen response.",
+        "basis": "Supported by 'irresistibly impelled'"
+      },
+      {
+        "model": "grok_4",
+        "claim": "The subjective sense of 'having no choice' is itself a product of the involuntary process.",
+        "basis": "Weakly but reasonably inferred from 'imagining that we cannot do otherwise' in context of involuntary impulsion"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion.",
+        "assessment": "Hallucination/strong inference — the source does not assert that real freedom exists or is being suppressed; 'imagining' implies the inability may be illusory, but the source does not positively affirm an available freedom"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The 'sheep-like' behavior denotes a lack of critical thought, independent will, or higher consciousness in following others.",
+        "assessment": "Inference beyond source — the source uses the sheep metaphor for behavioral mimicry only; attributing 'lack of higher consciousness' or 'critical thought' is model-added content not present in the text"
+      },
+      {
+        "model": "grok_4",
+        "claim": "Human agency in social conduct is largely illusory.",
+        "assessment": "Strong inference bordering on hallucination — the source says people *imagine* they cannot do otherwise, which implies the compulsion may be overstated, but does not assert agency is illusory; it could equally imply agency is real but unrecognized"
+      },
+      {
+        "model": "grok_4",
+        "claim": "The sheep metaphor accurately captures an essential, species-wide trait.",
+        "assessment": "Hallucination of metalinguistic endorsement — the source uses the metaphor rhetorically but does not assert its metaphysical accuracy or species-wide scope as a propositional claim"
+      }
+    ],
+    "hallucination_assessment": "Models do exhibit a consistent pattern of converting the source's rhetorical and phenomenological framing into stronger propositional claims than the text supports. The most common hallucination type is inferring a positive assertion of human freedom or agency from the mere presence of the word 'imagining' — the source only implies the compulsion may be cognitively overstated, not that genuine freedom exists and is being suppressed. Models also tend to over-literalize the sheep metaphor into metaphysical or taxonomic claims about human nature. However, most of the core claims (involuntariness, irresistibility, imagined necessity) are genuinely grounded in the source, suggesting that hallucination is additive rather than substitutive — models generate accurate base claims but append unwarranted propositional extensions.",
+    "inter_model_variance": "Variance is moderate: all five models converge on the core triad of involuntariness, irresistibility, and imagined necessity, but diverge significantly in the metaphysical extensions they add — grok_4 makes the strongest and least-grounded claims (illusory agency, species-wide trait), while gpt_4o stays closest to the surface content with minimal speculative inference."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 785,
+  "output_tokens": 1485,
+  "error": ""
+}

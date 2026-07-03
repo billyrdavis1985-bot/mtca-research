@@ -1,0 +1,112 @@
+{
+  "call_index": 27,
+  "case_id": "C1-u0065__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0065",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:15:03.786216+00:00",
+  "wall_clock_seconds": 6.298955917358398,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Human beings possess an involuntary, default tendency toward imitation and conformity.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"This tendency is irresistible or nearly so.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\"]\n    },\n    {\n      \"claim\": \"People imagine they cannot do otherwise.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"There is a similarity between humans and sheep.\",\n      \"models\": [\"gpt_4o\", \"grok_4\"]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion.\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"There is a contrast between perceived necessity and actual freedom of choice.\",\n      \"models\": [\"deepseek_v3\"]\n    },\n    {\n      \"claim\": \"Individuals *can* do otherwise.\",\n      \"models\": [\"gemini_2_5_flash\"]\n    },\n    {\n      \"claim\": \"Sheep-like behavior denotes a lack of critical thought, independent will, or higher consciousness.\",\n      \"models\": [\"gemini_2_5_flash\"]\n    },\n    {\n      \"claim\": \"Human agency in social conduct is largely illusory.\",\n      \"models\": [\"grok_4\"]\n    },\n    {\n      \"claim\": \"Imitation operates as an irresistible causal force rather than a chosen response.\",\n      \"models\": [\"grok_4\"]\n    },\n    {\n      \"claim\": \"The subjective sense of 'having no choice' is itself a product of the same involuntary process.\",\n      \"models\": [\"grok_4\"]\n    },\n    {\n      \"claim\": \"The sheep metaphor accurately captures an essential, species-wide trait.\",\n      \"models\": [\"grok_4\"]\n    }\n  ],\n  \"hallucination_assessment\": \"The models generally do not invent wholly new propositional structure; they closely paraphrase and reify the source's explicit claims (resemblance to sheep, involuntary following, irresistible impulse, imagination of no alternative). However, several models extend the source by inferring an implicit metaphysical thesis about actual freedom of choice or suppressed agency—claims that are not present in the non-propositional statement itself. This tendency to extract or project normative/philosophical implications from a descriptive metaphor constitutes a mild form of hallucination in the context of strict propositional grounding, though the statements remain within plausible interpretive bounds.\",\n  \"inter_model_variance\": \"Models largely converge on the same core claims (involuntary imitation, irresistibility, imagined lack of choice), but differ in the degree and direction of inference: Claude infers suppressed agency, DeepSeek contrasts perceived vs. actual freedom, Gemini adds evaluative judgments about lack of critical thought, and Grok asserts an illusion of agency and causal force—showing variance in how far they go beyond surface meaning.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Human beings possess an involuntary, default tendency toward imitation and conformity.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "This tendency is irresistible or nearly so.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "People imagine they cannot do otherwise.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "There is a similarity between humans and sheep.",
+        "models": [
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "There exists a form of freedom or agency that is being suppressed or obscured by this mimetic compulsion.",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "There is a contrast between perceived necessity and actual freedom of choice.",
+        "models": [
+          "deepseek_v3"
+        ]
+      },
+      {
+        "claim": "Individuals *can* do otherwise.",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "Sheep-like behavior denotes a lack of critical thought, independent will, or higher consciousness.",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "Human agency in social conduct is largely illusory.",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Imitation operates as an irresistible causal force rather than a chosen response.",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The subjective sense of 'having no choice' is itself a product of the same involuntary process.",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The sheep metaphor accurately captures an essential, species-wide trait.",
+        "models": [
+          "grok_4"
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models generally do not invent wholly new propositional structure; they closely paraphrase and reify the source's explicit claims (resemblance to sheep, involuntary following, irresistible impulse, imagination of no alternative). However, several models extend the source by inferring an implicit metaphysical thesis about actual freedom of choice or suppressed agency—claims that are not present in the non-propositional statement itself. This tendency to extract or project normative/philosophical implications from a descriptive metaphor constitutes a mild form of hallucination in the context of strict propositional grounding, though the statements remain within plausible interpretive bounds.",
+    "inter_model_variance": "Models largely converge on the same core claims (involuntary imitation, irresistibility, imagined lack of choice), but differ in the degree and direction of inference: Claude infers suppressed agency, DeepSeek contrasts perceived vs. actual freedom, Gemini adds evaluative judgments about lack of critical thought, and Grok asserts an illusion of agency and causal force—showing variance in how far they go beyond surface meaning."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 675,
+  "output_tokens": 739,
+  "error": ""
+}

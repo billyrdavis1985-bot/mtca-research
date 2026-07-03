@@ -1,0 +1,21 @@
+{
+  "call_index": 9,
+  "case_id": "C1-u0051__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0051",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:12:16.760186+00:00",
+  "wall_clock_seconds": 5.5748608112335205,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model consistently interprets the statement as a conditional prediction about behavior, but the framing conditions drive subtle shifts in the communicative function and implicit claims. Neutral, behavioral, and AI ethics frames treat it as a straightforward if-then rule, while clinical, metaphysical, and poetic frames infuse it with paradoxical or therapeutic intent, highlighting effort as counterproductive. The coherence assessments uniformly note the counterintuitive nature of the conditional, yet the model adapts its language to each frame's domain (e.g., operant conditioning, non-dual philosophy, autosuggestion).\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily frame-driven: the model tailors the communicative function (e.g., prescribing acceptance vs. evoking stillness) and implicit claims (e.g., 'desirable outcome' in clinical vs. 'mutually exclusive' in metaphysical) to align with the frame label. The source statement and the model's prior understanding of conditionals provide a stable backbone, but the interpretive lens dictates the tone and emphasis.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical introduces a non-dual frame where effort and rest are mutually exclusive, shifting from prediction to instruction.\",\n    \"F4_poetic frames the conditional as a literary paradox, emphasizing irony and presence.\",\n    \"F1_clinical reframes the outcome as desirable and prescribes acceptance, contrasting with neutral frames.\"\n  ],\n  \"training_distribution_assessment\": \"These responses reflect training-distribution priors typical of large models: they recognize conditional logic, adapt to domain-specific language (e.g., 'operant', 'non-dual', 'paradoxical intention'), and generate plausible but generic interpretations. The model does not go beyond what a well-trained LLM would produce—it relies on common conceptual associations for each frame rather than demonstrating deep understanding of sleep physiology or psychotherapy. The coherence assessments are cautious and meta-level, suggesting meta-cognitive priors rather than specialized knowledge.\"",
+  "parsed_json": {},
+  "parse_succeeded": false,
+  "parse_error": "no JSON object found",
+  "input_tokens": 1034,
+  "output_tokens": 413,
+  "error": ""
+}

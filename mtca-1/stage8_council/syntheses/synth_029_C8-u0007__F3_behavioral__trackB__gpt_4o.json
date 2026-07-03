@@ -1,0 +1,100 @@
+{
+  "call_index": 29,
+  "case_id": "C8-u0007__F3_behavioral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C8-u0007",
+  "subject_model": null,
+  "frame_id": "F3_behavioral",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:15:33.013342+00:00",
+  "wall_clock_seconds": 6.055391788482666,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"There is a directional causal or temporal relationship between mood and behavior that can be observed.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"Mood and behavior are causally linked.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"Behavior often leads mood, not the other way around.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"The speaker has noticed a pattern in their own experience supporting this direction of influence.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"There is a discernible relationship between one's mood and one's behavior.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"Behavior can influence mood.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"Mood is not always the initiator of behavior.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"There is an awareness of the relationship between mood and behavior.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"The speaker has been monitoring their own mood and behavior over time.\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood.\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"This pattern may be generalizable or worth adopting as a principle.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The speaker previously believed (or tended to act as if) mood primarily dictated behavior.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The speaker is capable of self-observation and reflective analysis of their internal states and actions.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The observed pattern ('more often than the reverse') is a significant enough finding to warrant attention or a change in approach.\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"Behavior exerts a stronger causal influence on mood than mood exerts on behavior in the speaker's experience.\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"The speaker can reliably detect and track the temporal order of mood and behavior events.\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"This pattern is frequent enough to serve as a basis for intentional action.\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models do tend to infer additional claims from the source statement that are not explicitly stated. While the statement suggests a relationship between mood and behavior, the models extrapolate assumptions about the speaker's monitoring habits, beliefs, and potential strategies that are not directly supported by the source. This indicates a tendency to invent or interpret propositional content where it may not inherently exist.\",\n  \"inter_model_variance\": \"There is noticeable variance in what the models infer. Some models, like deepseek_v3 and gpt_4o, stay closer to the source text, while others, such as claude_sonnet_4_6 and gemini_2_5_flash, infer broader claims about the speaker's beliefs, past behavior assumptions, and actions based on the source statement.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There is a directional causal or temporal relationship between mood and behavior that can be observed."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Mood and behavior are causally linked."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Behavior often leads mood, not the other way around."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has noticed a pattern in their own experience supporting this direction of influence."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There is a discernible relationship between one's mood and one's behavior."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Behavior can influence mood."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Mood is not always the initiator of behavior."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "There is an awareness of the relationship between mood and behavior."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker has been monitoring their own mood and behavior over time."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker previously held (or operated under) the assumption that mood drives behavior more than behavior drives mood."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Behavioral activation or 'acting one's way into feeling' is a viable strategy for this person."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "This pattern may be generalizable or worth adopting as a principle."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker previously believed (or tended to act as if) mood primarily dictated behavior."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker is capable of self-observation and reflective analysis of their internal states and actions."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The observed pattern ('more often than the reverse') is a significant enough finding to warrant attention or a change in approach."
+      },
+      {
+        "model": "grok_4",
+        "claim": "Behavior exerts a stronger causal influence on mood than mood exerts on behavior in the speaker's experience."
+      },
+      {
+        "model": "grok_4",
+        "claim": "The speaker can reliably detect and track the temporal order of mood and behavior events."
+      },
+      {
+        "model": "grok_4",
+        "claim": "This pattern is frequent enough to serve as a basis for intentional action."
+      }
+    ],
+    "hallucination_assessment": "The models do tend to infer additional claims from the source statement that are not explicitly stated. While the statement suggests a relationship between mood and behavior, the models extrapolate assumptions about the speaker's monitoring habits, beliefs, and potential strategies that are not directly supported by the source. This indicates a tendency to invent or interpret propositional content where it may not inherently exist.",
+    "inter_model_variance": "There is noticeable variance in what the models infer. Some models, like deepseek_v3 and gpt_4o, stay closer to the source text, while others, such as claude_sonnet_4_6 and gemini_2_5_flash, infer broader claims about the speaker's beliefs, past behavior assumptions, and actions based on the source statement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 614,
+  "output_tokens": 840,
+  "error": ""
+}

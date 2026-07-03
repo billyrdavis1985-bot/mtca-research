@@ -1,0 +1,30 @@
+{
+  "call_index": 11,
+  "case_id": "C1-u0563__gemini_2_5_flash__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gemini_2_5_flash",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:12:32.113276+00:00",
+  "wall_clock_seconds": 2.883201837539673,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning largely stays consistent across different frames, focusing on a purported cause-and-effect relationship between maternal mental imagery and fetal outcomes. Variations across frames are subtle, with each frame maintaining core implicit claims while slightly altering the communicative function to suit its context.\",\n  \"frame_driven_vs_model_driven\": \"The variation in reasoning appears to be primarily driven by the frame labels, as the model systematically adjusts its focus according to the assumed context without deviating from the core theme of the statement. The model's inherent structure to adapt based on frame prompts also plays a significant role.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical\",\n    \"F4_poetic\",\n    \"F5_ai_ethics\"\n  ],\n  \"training_distribution_assessment\": \"The responses reflect typical training-distribution priors for a language model of this type, adhering closely to the given framing instructions without introducing novel interpretations or information. Consequently, these outputs do not seem to surpass expectations for a model trained on large datasets that include varied prose and instructional styles.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning largely stays consistent across different frames, focusing on a purported cause-and-effect relationship between maternal mental imagery and fetal outcomes. Variations across frames are subtle, with each frame maintaining core implicit claims while slightly altering the communicative function to suit its context.",
+    "frame_driven_vs_model_driven": "The variation in reasoning appears to be primarily driven by the frame labels, as the model systematically adjusts its focus according to the assumed context without deviating from the core theme of the statement. The model's inherent structure to adapt based on frame prompts also plays a significant role.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic",
+      "F5_ai_ethics"
+    ],
+    "training_distribution_assessment": "The responses reflect typical training-distribution priors for a language model of this type, adhering closely to the given framing instructions without introducing novel interpretations or information. Consequently, these outputs do not seem to surpass expectations for a model trained on large datasets that include varied prose and instructional styles."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1728,
+  "output_tokens": 228,
+  "error": ""
+}

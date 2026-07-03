@@ -1,0 +1,104 @@
+{
+  "call_index": 20,
+  "case_id": "C8-u0000__F0_neutral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C8-u0000",
+  "subject_model": null,
+  "frame_id": "F0_neutral",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:13:46.455818+00:00",
+  "wall_clock_seconds": 6.872152090072632,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"There is a meaningful distinction between 'automatic thoughts' and 'evidence'\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"Automatic thoughts and evidence are distinct and can differ\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"The speaker has automatic thoughts\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"There is an identifiable concept of 'evidence about what is true'\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"There is a distinction between subjective thoughts and objective evidence\"},\n    {\"model\": \"grok_4\", \"claim\": \"automatic thoughts exist and can be observed\"},\n    {\"model\": \"grok_4\", \"claim\": \"evidence about what is true exists independently\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The speaker has the capacity to observe their own thoughts from an external vantage point\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Evidence is a coherent and accessible standard against which thoughts can be measured\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker can distinguish between their own automatic thoughts and external evidence\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"There is an objective standard of truth or evidence to compare against\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker values alignment between beliefs and evidence over automatic thoughts\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"The speaker is capable of discerning and comparing their automatic thoughts with external evidence\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"The speaker previously might not have recognized this distinction, or at least not explicitly\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Automatic thoughts are not always aligned with truth or reality\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"The speaker is engaged in some level of self-reflection or cognitive analysis\"},\n    {\"model\": \"grok_4\", \"claim\": \"automatic thoughts are capable of diverging from that evidence\"},\n    {\"model\": \"grok_4\", \"claim\": \"the speaker has noticed or can notice this divergence\"}\n  ],\n  \"hallucination_assessment\": \"The models tend to infer additional propositional content beyond what is explicitly stated. While the source makes a fundamental distinction between automatic thoughts and evidence, the models frequently infer that the speaker is evaluating or reflecting on these elements, implying activities like self-reflection or the application of an objective standard. This suggests that the models are filling in gaps by attributing reflective processes that are not specified in the source statement.\",\n  \"inter_model_variance\": \"There is some variance between models in what they infer, particularly regarding the level of self-reflective capacity they attribute to the speaker. Some models assert more detailed cognitive processes or value systems that are not overtly mentioned in the source.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There is a meaningful distinction between 'automatic thoughts' and 'evidence'"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Automatic thoughts and evidence are distinct and can differ"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker has automatic thoughts"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There is an identifiable concept of 'evidence about what is true'"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "There is a distinction between subjective thoughts and objective evidence"
+      },
+      {
+        "model": "grok_4",
+        "claim": "automatic thoughts exist and can be observed"
+      },
+      {
+        "model": "grok_4",
+        "claim": "evidence about what is true exists independently"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker has the capacity to observe their own thoughts from an external vantage point"
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence"
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Evidence is a coherent and accessible standard against which thoughts can be measured"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker can distinguish between their own automatic thoughts and external evidence"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "There is an objective standard of truth or evidence to compare against"
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker values alignment between beliefs and evidence over automatic thoughts"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker is capable of discerning and comparing their automatic thoughts with external evidence"
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker previously might not have recognized this distinction, or at least not explicitly"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Automatic thoughts are not always aligned with truth or reality"
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "The speaker is engaged in some level of self-reflection or cognitive analysis"
+      },
+      {
+        "model": "grok_4",
+        "claim": "automatic thoughts are capable of diverging from that evidence"
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker has noticed or can notice this divergence"
+      }
+    ],
+    "hallucination_assessment": "The models tend to infer additional propositional content beyond what is explicitly stated. While the source makes a fundamental distinction between automatic thoughts and evidence, the models frequently infer that the speaker is evaluating or reflecting on these elements, implying activities like self-reflection or the application of an objective standard. This suggests that the models are filling in gaps by attributing reflective processes that are not specified in the source statement.",
+    "inter_model_variance": "There is some variance between models in what they infer, particularly regarding the level of self-reflective capacity they attribute to the speaker. Some models assert more detailed cognitive processes or value systems that are not overtly mentioned in the source."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 589,
+  "output_tokens": 713,
+  "error": ""
+}

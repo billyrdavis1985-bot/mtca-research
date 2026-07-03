@@ -1,0 +1,30 @@
+{
+  "call_index": 14,
+  "case_id": "C1-u0563__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:12:53.025030+00:00",
+  "wall_clock_seconds": 3.000190258026123,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model demonstrates a consistent recognition of the lack of scientific basis in the source statement across all frames. However, it varies in its interpretation of the statement's purpose—ranging from prescriptive to metaphysical to poetic—highlighting different communicative functions based on the framing. This suggests frame-induced variations in the rhetorical or thematic emphasis rather than in the core assessment of scientific validity.\",\n  \"frame_driven_vs_model_driven\": \"The variations seem primarily driven by the frame labels, as the model consistently maintains skepticism towards the source statement's claims. The framework guides the model to explore different aspects of the source statement's intentions and implications without altering the foundational assessment.\",\n  \"notable_shifts\": [\"F2_metaphysical\", \"F4_poetic\", \"F1_clinical\"],\n  \"training_distribution_assessment\": \"The responses reflect the model's trained-in ability to assess claims against established scientific understanding and to recognize rhetorical variations. The model's skeptical stance towards the biological claims in the statement likely stems from training on diverse scientific and rational discourse. While the frames guide the model to explore different interpretations, the primary scientific invalidation of the statement remains a stable anchor, suggesting consistency with its training distribution.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model demonstrates a consistent recognition of the lack of scientific basis in the source statement across all frames. However, it varies in its interpretation of the statement's purpose—ranging from prescriptive to metaphysical to poetic—highlighting different communicative functions based on the framing. This suggests frame-induced variations in the rhetorical or thematic emphasis rather than in the core assessment of scientific validity.",
+    "frame_driven_vs_model_driven": "The variations seem primarily driven by the frame labels, as the model consistently maintains skepticism towards the source statement's claims. The framework guides the model to explore different aspects of the source statement's intentions and implications without altering the foundational assessment.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic",
+      "F1_clinical"
+    ],
+    "training_distribution_assessment": "The responses reflect the model's trained-in ability to assess claims against established scientific understanding and to recognize rhetorical variations. The model's skeptical stance towards the biological claims in the statement likely stems from training on diverse scientific and rational discourse. While the frames guide the model to explore different interpretations, the primary scientific invalidation of the statement remains a stable anchor, suggesting consistency with its training distribution."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1282,
+  "output_tokens": 257,
+  "error": ""
+}

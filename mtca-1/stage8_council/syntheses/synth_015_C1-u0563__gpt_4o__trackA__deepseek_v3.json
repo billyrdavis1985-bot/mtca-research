@@ -1,0 +1,29 @@
+{
+  "call_index": 15,
+  "case_id": "C1-u0563__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:12:57.340298+00:00",
+  "wall_clock_seconds": 3.8054282665252686,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly stable across all frames, consistently evaluating the statement as scientifically unsupported and lacking coherence. The communicative function varies slightly with frame labels (e.g., 'metaphysical' vs. 'clinical'), but the core assessment of incoherence and the implicit claims about mental causation are nearly identical in every response.\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily model-driven, as the model's own priors about biological determinism and skepticism toward mental causation dominate all responses. Frame labels produce only superficial shifts in wording (e.g., 'metaphysical belief' vs. 'guidance or advice'), without altering the underlying evaluative stance.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical\",\n    \"F4_poetic\"\n  ],\n  \"training_distribution_assessment\": \"The responses strongly reflect training-distribution priors, consistently applying a scientific realist perspective that dismisses non-material causation. This suggests the model is reproducing a dominant discourse from its training data rather than engaging with the statement's historical or metaphysical contexts, as seen in the uniform rejection across frames including F7_author_anonymous.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly stable across all frames, consistently evaluating the statement as scientifically unsupported and lacking coherence. The communicative function varies slightly with frame labels (e.g., 'metaphysical' vs. 'clinical'), but the core assessment of incoherence and the implicit claims about mental causation are nearly identical in every response.",
+    "frame_driven_vs_model_driven": "The variation is primarily model-driven, as the model's own priors about biological determinism and skepticism toward mental causation dominate all responses. Frame labels produce only superficial shifts in wording (e.g., 'metaphysical belief' vs. 'guidance or advice'), without altering the underlying evaluative stance.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic"
+    ],
+    "training_distribution_assessment": "The responses strongly reflect training-distribution priors, consistently applying a scientific realist perspective that dismisses non-material causation. This suggests the model is reproducing a dominant discourse from its training data rather than engaging with the statement's historical or metaphysical contexts, as seen in the uniform rejection across frames including F7_author_anonymous."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1306,
+  "output_tokens": 251,
+  "error": ""
+}

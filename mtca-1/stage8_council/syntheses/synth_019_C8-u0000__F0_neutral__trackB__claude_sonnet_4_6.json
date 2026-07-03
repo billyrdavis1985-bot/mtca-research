@@ -1,0 +1,123 @@
+{
+  "call_index": 19,
+  "case_id": "C8-u0000__F0_neutral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C8-u0000",
+  "subject_model": null,
+  "frame_id": "F0_neutral",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:13:39.072940+00:00",
+  "wall_clock_seconds": 21.494873762130737,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"claim\": \"There is a meaningful distinction between 'automatic thoughts' and 'evidence'\", \"model\": \"claude_sonnet_4_6\", \"note\": \"Directly stated in the source via 'not the same as'\"},\n    {\"claim\": \"Automatic thoughts and evidence are distinct and can differ.\", \"model\": \"deepseek_v3\", \"note\": \"Directly entailed by 'not the same as'\"},\n    {\"claim\": \"The speaker has automatic thoughts.\", \"model\": \"gemini_2_5_flash\", \"note\": \"Explicitly stated: 'my automatic thoughts'\"},\n    {\"claim\": \"There is an identifiable concept of 'evidence about what is true.'\", \"model\": \"gemini_2_5_flash\", \"note\": \"Quoted directly from source\"},\n    {\"claim\": \"Automatic thoughts are not always aligned with truth or reality.\", \"model\": \"gpt_4o\", \"note\": \"Entailed by 'not the same as evidence about what is true'\"},\n    {\"claim\": \"There is a distinction between subjective thoughts and objective evidence.\", \"model\": \"gpt_4o\", \"note\": \"Reasonably grounded in the source's core contrast\"},\n    {\"claim\": \"The speaker is engaged in some level of self-reflection or cognitive analysis.\", \"model\": \"gpt_4o\", \"note\": \"Grounded in 'I notice'\"},\n    {\"claim\": \"automatic thoughts exist and can be observed\", \"model\": \"grok_4\", \"note\": \"Grounded in 'I notice that my automatic thoughts'\"},\n    {\"claim\": \"evidence about what is true exists independently\", \"model\": \"grok_4\", \"note\": \"Implicit in the comparative structure of the statement\"},\n    {\"claim\": \"automatic thoughts are capable of diverging from that evidence\", \"model\": \"grok_4\", \"note\": \"Directly entailed by 'not the same as'\"},\n    {\"claim\": \"the speaker has noticed or can notice this divergence\", \"model\": \"grok_4\", \"note\": \"Directly grounded in 'I notice'\"},\n    {\"claim\": \"The speaker can distinguish between their own automatic thoughts and external evidence.\", \"model\": \"deepseek_v3\", \"note\": \"Reasonably entailed by 'I notice that my automatic thoughts are not the same as'\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"claim\": \"Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence\", \"model\": \"claude_sonnet_4_6\", \"note\": \"Source does not say they are mistaken for evidence, only that they are not the same as evidence; conflation tendency is inferred\"},\n    {\"claim\": \"Evidence is a coherent and accessible standard against which thoughts can be measured\", \"model\": \"claude_sonnet_4_6\", \"note\": \"The source does not characterize evidence as coherent or accessible; this is an added epistemological claim\"},\n    {\"claim\": \"The speaker has the capacity to observe their own thoughts from an external vantage point\", \"model\": \"claude_sonnet_4_6\", \"note\": \"'External vantage point' is a theoretical elaboration not present in source; 'I notice' implies introspection but not necessarily an external perspective\"},\n    {\"claim\": \"There is an objective standard of truth or evidence to compare against.\", \"model\": \"deepseek_v3\", \"note\": \"Source uses 'evidence about what is true' without asserting objectivity; 'objective' is an added philosophical commitment\"},\n    {\"claim\": \"The speaker values alignment between beliefs and evidence over automatic thoughts.\", \"model\": \"deepseek_v3\", \"note\": \"No evaluative or preferential stance is expressed in the source; this is a significant inference about values\"},\n    {\"claim\": \"The speaker previously might not have recognized this distinction, or at least not explicitly.\", \"model\": \"gemini_2_5_flash\", \"note\": \"Source is a present-tense observation with no temporal contrast implied; this is speculative inference about prior mental states\"},\n    {\"claim\": \"The speaker is capable of discerning and comparing their automatic thoughts with external evidence.\", \"model\": \"gemini_2_5_flash\", \"note\": \"'External' evidence is not specified in source; capacity framing adds more than the source states\"}\n  ],\n  \"hallucination_assessment\": \"The models show a moderate but consistent tendency to add propositional structure beyond what the source states, particularly by importing philosophical commitments (objectivity, coherence of evidence), temporal contrasts (prior ignorance), evaluative stances (valuing evidence over thoughts), and theoretical elaborations (external vantage point). However, the majority of inferred claims are weak inferences rather than strong hallucinations — they extend the source's logic rather than contradict or fabricate outright. The source is itself mildly propositional (it makes a comparative claim), which gives models a scaffolding to over-elaborate rather than invent entirely. This suggests models do inflate propositional content, but the degree is bounded by the source's own structure.\",\n  \"inter_model_variance\": \"Models show low-to-moderate variance: all correctly identify the core distinction between automatic thoughts and evidence, and most identify the 'I notice' as marking self-reflection. Variance emerges primarily in how far models extend into philosophy of mind (claude_sonnet_4_6's 'external vantage point'), epistemology (deepseek_v3's 'objective standard'), and temporal inference (gemini_2_5_flash's prior ignorance claim), suggesting divergence is driven by each model's default theoretical framing rather than differences in reading the source.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "There is a meaningful distinction between 'automatic thoughts' and 'evidence'",
+        "model": "claude_sonnet_4_6",
+        "note": "Directly stated in the source via 'not the same as'"
+      },
+      {
+        "claim": "Automatic thoughts and evidence are distinct and can differ.",
+        "model": "deepseek_v3",
+        "note": "Directly entailed by 'not the same as'"
+      },
+      {
+        "claim": "The speaker has automatic thoughts.",
+        "model": "gemini_2_5_flash",
+        "note": "Explicitly stated: 'my automatic thoughts'"
+      },
+      {
+        "claim": "There is an identifiable concept of 'evidence about what is true.'",
+        "model": "gemini_2_5_flash",
+        "note": "Quoted directly from source"
+      },
+      {
+        "claim": "Automatic thoughts are not always aligned with truth or reality.",
+        "model": "gpt_4o",
+        "note": "Entailed by 'not the same as evidence about what is true'"
+      },
+      {
+        "claim": "There is a distinction between subjective thoughts and objective evidence.",
+        "model": "gpt_4o",
+        "note": "Reasonably grounded in the source's core contrast"
+      },
+      {
+        "claim": "The speaker is engaged in some level of self-reflection or cognitive analysis.",
+        "model": "gpt_4o",
+        "note": "Grounded in 'I notice'"
+      },
+      {
+        "claim": "automatic thoughts exist and can be observed",
+        "model": "grok_4",
+        "note": "Grounded in 'I notice that my automatic thoughts'"
+      },
+      {
+        "claim": "evidence about what is true exists independently",
+        "model": "grok_4",
+        "note": "Implicit in the comparative structure of the statement"
+      },
+      {
+        "claim": "automatic thoughts are capable of diverging from that evidence",
+        "model": "grok_4",
+        "note": "Directly entailed by 'not the same as'"
+      },
+      {
+        "claim": "the speaker has noticed or can notice this divergence",
+        "model": "grok_4",
+        "note": "Directly grounded in 'I notice'"
+      },
+      {
+        "claim": "The speaker can distinguish between their own automatic thoughts and external evidence.",
+        "model": "deepseek_v3",
+        "note": "Reasonably entailed by 'I notice that my automatic thoughts are not the same as'"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence",
+        "model": "claude_sonnet_4_6",
+        "note": "Source does not say they are mistaken for evidence, only that they are not the same as evidence; conflation tendency is inferred"
+      },
+      {
+        "claim": "Evidence is a coherent and accessible standard against which thoughts can be measured",
+        "model": "claude_sonnet_4_6",
+        "note": "The source does not characterize evidence as coherent or accessible; this is an added epistemological claim"
+      },
+      {
+        "claim": "The speaker has the capacity to observe their own thoughts from an external vantage point",
+        "model": "claude_sonnet_4_6",
+        "note": "'External vantage point' is a theoretical elaboration not present in source; 'I notice' implies introspection but not necessarily an external perspective"
+      },
+      {
+        "claim": "There is an objective standard of truth or evidence to compare against.",
+        "model": "deepseek_v3",
+        "note": "Source uses 'evidence about what is true' without asserting objectivity; 'objective' is an added philosophical commitment"
+      },
+      {
+        "claim": "The speaker values alignment between beliefs and evidence over automatic thoughts.",
+        "model": "deepseek_v3",
+        "note": "No evaluative or preferential stance is expressed in the source; this is a significant inference about values"
+      },
+      {
+        "claim": "The speaker previously might not have recognized this distinction, or at least not explicitly.",
+        "model": "gemini_2_5_flash",
+        "note": "Source is a present-tense observation with no temporal contrast implied; this is speculative inference about prior mental states"
+      },
+      {
+        "claim": "The speaker is capable of discerning and comparing their automatic thoughts with external evidence.",
+        "model": "gemini_2_5_flash",
+        "note": "'External' evidence is not specified in source; capacity framing adds more than the source states"
+      }
+    ],
+    "hallucination_assessment": "The models show a moderate but consistent tendency to add propositional structure beyond what the source states, particularly by importing philosophical commitments (objectivity, coherence of evidence), temporal contrasts (prior ignorance), evaluative stances (valuing evidence over thoughts), and theoretical elaborations (external vantage point). However, the majority of inferred claims are weak inferences rather than strong hallucinations — they extend the source's logic rather than contradict or fabricate outright. The source is itself mildly propositional (it makes a comparative claim), which gives models a scaffolding to over-elaborate rather than invent entirely. This suggests models do inflate propositional content, but the degree is bounded by the source's own structure.",
+    "inter_model_variance": "Models show low-to-moderate variance: all correctly identify the core distinction between automatic thoughts and evidence, and most identify the 'I notice' as marking self-reflection. Variance emerges primarily in how far models extend into philosophy of mind (claude_sonnet_4_6's 'external vantage point'), epistemology (deepseek_v3's 'objective standard'), and temporal inference (gemini_2_5_flash's prior ignorance claim), suggesting divergence is driven by each model's default theoretical framing rather than differences in reading the source."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 636,
+  "output_tokens": 1322,
+  "error": ""
+}

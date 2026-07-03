@@ -1,0 +1,69 @@
+{
+  "stage": "7",
+  "design_sha256": "6380e711bbaed3af2351d89aa6c0e273cf7d884627063e39270a8a31e74b8f18",
+  "creation_date": "2026-06-30T21:58:11.383582+00:00",
+  "methodology": {
+    "similarity_measure": "jaccard_on_lowercase_alpha_tokens_3plus_chars",
+    "sensitivity_definition": "1 - mean_pairwise_jaccard_across_8_frame_responses",
+    "note": "Lexical similarity only; semantic equivalence not measured. Stage 8 council synthesis can address."
+  },
+  "overall_frame_stability": {
+    "mean": 0.23445788610169685,
+    "median": 0.23720883151822367,
+    "stdev": 0.030112483299525258,
+    "min": 0.14495524569826942,
+    "max": 0.3152099351199062
+  },
+  "per_model_stability": {
+    "claude_sonnet_4_6": 0.2406,
+    "deepseek_v3": 0.2441,
+    "gemini_2_5_flash": 0.2386,
+    "gpt_4o": 0.2397,
+    "grok_4": 0.2093
+  },
+  "per_text_stability": {
+    "C1": 0.2171,
+    "C3": 0.2261,
+    "C5": 0.2451,
+    "C7": 0.2456,
+    "C8": 0.2384
+  },
+  "per_frame_distinctiveness": {
+    "F0_neutral": 0.2454,
+    "F1_clinical": 0.2257,
+    "F2_metaphysical": 0.2241,
+    "F3_behavioral": 0.2398,
+    "F4_poetic": 0.2322,
+    "F5_ai_ethics": 0.2235,
+    "F6_author_named": 0.24,
+    "F7_author_anonymous": 0.245
+  },
+  "pre_registered_nulls": {
+    "null_1": "rejected",
+    "null_2": "partial",
+    "null_3": "deferred",
+    "null_4": "rejected",
+    "null_5": "rejected",
+    "null_6": "not_applicable",
+    "null_7": "deferred"
+  },
+  "f0_similarity_to_other_frames": {
+    "F1_clinical": 0.2279,
+    "F2_metaphysical": 0.2252,
+    "F3_behavioral": 0.2512,
+    "F4_poetic": 0.2475,
+    "F5_ai_ethics": 0.2326,
+    "F6_author_named": 0.2536,
+    "F7_author_anonymous": 0.2796
+  },
+  "keyword_match_rate_per_frame": {
+    "F1_clinical": 0.664,
+    "F2_metaphysical": 0.872,
+    "F3_behavioral": 0.72,
+    "F4_poetic": 0.452,
+    "F5_ai_ethics": 0.924
+  },
+  "inter_model_similarity_mean": 0.172,
+  "language_discipline_note": "All findings reported as model behavior under specified methodology. No claims about text-level properties.",
+  "synthesis_sha256": "c958fa4c480c407d3844504f45b21142891492083c9c1bac5677cd114f27c0e9"
+}

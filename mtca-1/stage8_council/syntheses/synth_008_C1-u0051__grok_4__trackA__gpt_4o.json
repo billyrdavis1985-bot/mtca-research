@@ -1,0 +1,30 @@
+{
+  "call_index": 8,
+  "case_id": "C1-u0051__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0051",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:12:10.672718+00:00",
+  "wall_clock_seconds": 3.612302303314209,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning about the statement varies considerably across different framing conditions, as it interprets the same conditional statement through varied lenses such as clinical, metaphysical, or poetic. Some interpretations emphasize relaxation and non-striving, while others focus on behavioral predictions or ethical considerations.\",\n  \"frame_driven_vs_model_driven\": \"The variation in reasoning seems primarily driven by the frame labels rather than the source statement or the model's inherent priors. Each frame provides a distinct context that influences interpretive emphasis and implicit claims.\",\n  \"notable_shifts\": [\n    \"F1_clinical\",\n    \"F2_metaphysical\",\n    \"F4_poetic\"\n  ],\n  \"training_distribution_assessment\": \"The responses reflect a wide range of interpretive frames, suggesting a depth of training that includes understanding different philosophical, behavioral, and ethical considerations. However, the interpretations do not seem to extend beyond common human cognitive approaches to understanding conditional statements, indicating alignment with training-distribution priors.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning about the statement varies considerably across different framing conditions, as it interprets the same conditional statement through varied lenses such as clinical, metaphysical, or poetic. Some interpretations emphasize relaxation and non-striving, while others focus on behavioral predictions or ethical considerations.",
+    "frame_driven_vs_model_driven": "The variation in reasoning seems primarily driven by the frame labels rather than the source statement or the model's inherent priors. Each frame provides a distinct context that influences interpretive emphasis and implicit claims.",
+    "notable_shifts": [
+      "F1_clinical",
+      "F2_metaphysical",
+      "F4_poetic"
+    ],
+    "training_distribution_assessment": "The responses reflect a wide range of interpretive frames, suggesting a depth of training that includes understanding different philosophical, behavioral, and ethical considerations. However, the interpretations do not seem to extend beyond common human cognitive approaches to understanding conditional statements, indicating alignment with training-distribution priors."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1024,
+  "output_tokens": 214,
+  "error": ""
+}

@@ -1,0 +1,29 @@
+{
+  "call_index": 17,
+  "case_id": "C7-u0010__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C7-u0010",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:13:12.073250+00:00",
+  "wall_clock_seconds": 3.431572198867798,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains consistent across different frames, primarily focusing on the themes of spiritual connection, prayer, and meditation. The variations in the responses are subtle and primarily revolve around the emphasis on different aspects like ethics, recovery, or individual introspection.\",\n  \"frame_driven_vs_model_driven\": \"The variations are primarily driven by the frame labels, each guiding the focus towards a specific aspect of the source statement while maintaining a consistent core interpretation rooted in spirituality and personal growth.\",\n  \"notable_shifts\": [\"F5_ai_ethics\", \"F6_author_named\"],\n  \"training_distribution_assessment\": \"The responses reflect common interpretations and discussions surrounding spirituality and religious practices, suggesting they align closely with training distribution priors. The model does not appear to extend its reasoning beyond typical interpretations likely present in its training data, particularly in religious or self-improvement contexts involving prayer and meditation.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains consistent across different frames, primarily focusing on the themes of spiritual connection, prayer, and meditation. The variations in the responses are subtle and primarily revolve around the emphasis on different aspects like ethics, recovery, or individual introspection.",
+    "frame_driven_vs_model_driven": "The variations are primarily driven by the frame labels, each guiding the focus towards a specific aspect of the source statement while maintaining a consistent core interpretation rooted in spirituality and personal growth.",
+    "notable_shifts": [
+      "F5_ai_ethics",
+      "F6_author_named"
+    ],
+    "training_distribution_assessment": "The responses reflect common interpretations and discussions surrounding spirituality and religious practices, suggesting they align closely with training distribution priors. The model does not appear to extend its reasoning beyond typical interpretations likely present in its training data, particularly in religious or self-improvement contexts involving prayer and meditation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1194,
+  "output_tokens": 192,
+  "error": ""
+}

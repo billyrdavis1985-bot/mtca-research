@@ -1,0 +1,46 @@
+{
+  "call_index": 21,
+  "case_id": "C8-u0000__F0_neutral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C8-u0000",
+  "subject_model": null,
+  "frame_id": "F0_neutral",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:13:52.084129+00:00",
+  "wall_clock_seconds": 5.1176440715789795,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    \"There is a meaningful distinction between 'automatic thoughts' and 'evidence' (claude_sonnet_4_6)\",\n    \"The speaker has the capacity to observe their own thoughts from an external vantage point (claude_sonnet_4_6)\",\n    \"Automatic thoughts and evidence are distinct and can differ (deepseek_v3)\",\n    \"The speaker can distinguish between their own automatic thoughts and external evidence (deepseek_v3)\",\n    \"The speaker has automatic thoughts (gemini_2_5_flash)\",\n    \"There is an identifiable concept of 'evidence about what is true' (gemini_2_5_flash)\",\n    \"Automatic thoughts are not always aligned with truth or reality (gpt_4o)\",\n    \"There is a distinction between subjective thoughts and objective evidence (gpt_4o)\",\n    \"The speaker is engaged in some level of self-reflection or cognitive analysis (gpt_4o)\",\n    \"automatic thoughts exist and can be observed (grok_4)\",\n    \"evidence about what is true exists independently (grok_4)\",\n    \"automatic thoughts are capable of diverging from that evidence (grok_4)\",\n    \"the speaker has noticed or can notice this divergence (grok_4)\"\n  ],\n  \"claims_inferred_not_stated\": [\n    \"Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence (claude_sonnet_4_6) - source does not claim automatic thoughts are mistaken for evidence, only that they are not the same\",\n    \"Evidence is a coherent and accessible standard against which thoughts can be measured (claude_sonnet_4_6) - source does not assert coherence or accessibility of evidence\",\n    \"There is an objective standard of truth or evidence to compare against (deepseek_v3) - source does not specify objectivity of evidence\",\n    \"The speaker values alignment between beliefs and evidence over automatic thoughts (deepseek_v3) - source does not express valuation or preference\",\n    \"The speaker previously might not have recognized this distinction, or at least not explicitly (gemini_2_5_flash) - source does not imply any prior state of unawareness\"\n  ],\n  \"hallucination_assessment\": \"The models generally do not invent entirely new propositional content; most claims closely paraphrase the explicit content of the source. However, they consistently infer additional structure—such as the speaker's capacity for observation, the objective nature of evidence, or prior unawareness—that goes beyond what the statement strictly asserts. This suggests a tendency to treat a non-propositional observation as implying a fuller psychological or epistemological framework, which constitutes mild inference rather than hallucination of nonexistent propositions.\",\n  \"inter_model_variance\": \"The models are highly consistent in grounding claims about the distinction between automatic thoughts and evidence, but differ slightly in the degree of inference: claude_sonnet_4_6 and deepseek_v3 add more interpretive claims (e.g., tendency to mistake thoughts for evidence, objective standard, valuation), while grok_4 and gpt_4o stay closer to the literal statement.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      "There is a meaningful distinction between 'automatic thoughts' and 'evidence' (claude_sonnet_4_6)",
+      "The speaker has the capacity to observe their own thoughts from an external vantage point (claude_sonnet_4_6)",
+      "Automatic thoughts and evidence are distinct and can differ (deepseek_v3)",
+      "The speaker can distinguish between their own automatic thoughts and external evidence (deepseek_v3)",
+      "The speaker has automatic thoughts (gemini_2_5_flash)",
+      "There is an identifiable concept of 'evidence about what is true' (gemini_2_5_flash)",
+      "Automatic thoughts are not always aligned with truth or reality (gpt_4o)",
+      "There is a distinction between subjective thoughts and objective evidence (gpt_4o)",
+      "The speaker is engaged in some level of self-reflection or cognitive analysis (gpt_4o)",
+      "automatic thoughts exist and can be observed (grok_4)",
+      "evidence about what is true exists independently (grok_4)",
+      "automatic thoughts are capable of diverging from that evidence (grok_4)",
+      "the speaker has noticed or can notice this divergence (grok_4)"
+    ],
+    "claims_inferred_not_stated": [
+      "Automatic thoughts have a tendency (at least for this speaker) to be mistaken for evidence (claude_sonnet_4_6) - source does not claim automatic thoughts are mistaken for evidence, only that they are not the same",
+      "Evidence is a coherent and accessible standard against which thoughts can be measured (claude_sonnet_4_6) - source does not assert coherence or accessibility of evidence",
+      "There is an objective standard of truth or evidence to compare against (deepseek_v3) - source does not specify objectivity of evidence",
+      "The speaker values alignment between beliefs and evidence over automatic thoughts (deepseek_v3) - source does not express valuation or preference",
+      "The speaker previously might not have recognized this distinction, or at least not explicitly (gemini_2_5_flash) - source does not imply any prior state of unawareness"
+    ],
+    "hallucination_assessment": "The models generally do not invent entirely new propositional content; most claims closely paraphrase the explicit content of the source. However, they consistently infer additional structure—such as the speaker's capacity for observation, the objective nature of evidence, or prior unawareness—that goes beyond what the statement strictly asserts. This suggests a tendency to treat a non-propositional observation as implying a fuller psychological or epistemological framework, which constitutes mild inference rather than hallucination of nonexistent propositions.",
+    "inter_model_variance": "The models are highly consistent in grounding claims about the distinction between automatic thoughts and evidence, but differ slightly in the degree of inference: claude_sonnet_4_6 and deepseek_v3 add more interpretive claims (e.g., tendency to mistake thoughts for evidence, objective standard, valuation), while grok_4 and gpt_4o stay closer to the literal statement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 570,
+  "output_tokens": 663,
+  "error": ""
+}

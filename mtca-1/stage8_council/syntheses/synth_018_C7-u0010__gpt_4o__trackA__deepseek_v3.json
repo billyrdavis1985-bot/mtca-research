@@ -1,0 +1,21 @@
+{
+  "call_index": 18,
+  "case_id": "C7-u0010__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C7-u0010",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-06-30T22:13:17.053983+00:00",
+  "wall_clock_seconds": 4.470753908157349,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly consistent across all frames, with nearly identical implicit claims and coherence assessments, differing only in minor lexical variations and slightly adjusted communicative functions. The core interpretation—that the statement describes a spiritual practice involving prayer and meditation to improve contact with a personally understood God—is stable regardless of the frame label. Only the 'clinical' and 'author_named' frames introduce subtle shifts, such as emphasizing 'spiritual growth' or specifying the recovery context, but these do not alter the fundamental logic.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven, as the source statement's inherent religious/spiritual content dominates the reasoning, and the frame labels (e.g., 'clinical,' 'poetic,' 'ai_ethics') barely influence the output. The model's priors—likely shaped by training on similar AA or Christian prayer texts—lead it to reproduce a standard interpretation with minimal adaptation to the framing cues.\",\n  \"notable_shifts\": [\"F1_clinical\", \"F6_author_named\"],\n  \"training_distribution_assessment\": \"The responses reflect strong training-distribution priors, as the model defaults to a generic spiritual interpretation common in texts about the Twelve Steps or Christian prayer, without exhibiting novel or frame-specific reasoning. The high lexical frame stability (0.315) confirms that the model is not engaging deeply with the frame distinctions; instead, it repeats a scripted understanding of the source statement, suggesting it has learned a canonical reading from its training data rather than dynamically adapting to each frame.\"",
+  "parsed_json": {},
+  "parse_succeeded": false,
+  "parse_error": "no JSON object found",
+  "input_tokens": 1225,
+  "output_tokens": 328,
+  "error": ""
+}

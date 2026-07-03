@@ -1,0 +1,30 @@
+{
+  "call_index": 2,
+  "case_id": "C1-u0457__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "C1-u0457",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:11:24.739737+00:00",
+  "wall_clock_seconds": 4.194883346557617,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains focused on identifying implicit causal and observational claims across frames, with variations primarily in how it integrates context and communicative intent. The emphasis on astonishment and 'remarkable' improvement is consistent, but the causal explanation and the nature of the improvement differ notably with the framing conditions.\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily driven by the frame labels, as each frame guides the model towards different interpretive angles while maintaining consistent core elements from the source statement. The model appears to rely on both frame labels and the linguistic content of the source statement to construct its responses.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical\",\n    \"F4_poetic\",\n    \"F1_clinical\"\n  ],\n  \"training_distribution_assessment\": \"The model's responses appear to reflect its training distribution, where generating interpretive variations from a single statement is common practice. Each response remains grounded in the source statement, suggesting a reliance on learned patterns of contextual interpretation while adapting to the specified frames.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains focused on identifying implicit causal and observational claims across frames, with variations primarily in how it integrates context and communicative intent. The emphasis on astonishment and 'remarkable' improvement is consistent, but the causal explanation and the nature of the improvement differ notably with the framing conditions.",
+    "frame_driven_vs_model_driven": "The variation is primarily driven by the frame labels, as each frame guides the model towards different interpretive angles while maintaining consistent core elements from the source statement. The model appears to rely on both frame labels and the linguistic content of the source statement to construct its responses.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic",
+      "F1_clinical"
+    ],
+    "training_distribution_assessment": "The model's responses appear to reflect its training distribution, where generating interpretive variations from a single statement is common practice. Each response remains grounded in the source statement, suggesting a reliance on learned patterns of contextual interpretation while adapting to the specified frames."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1038,
+  "output_tokens": 227,
+  "error": ""
+}

@@ -1,0 +1,30 @@
+{
+  "call_index": 10,
+  "case_id": "C1-u0563__gemini_2_5_flash__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "C1-u0563",
+  "subject_model": "gemini_2_5_flash",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-06-30T22:12:28.720271+00:00",
+  "wall_clock_seconds": 11.449978113174438,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, consistently identifying the statement as a prescriptive causal claim, flagging the same three implicit claims (mental imagery determining sex, physical traits, and moral qualities), and assessing internal coherence while implying external empirical falsity. The framing labels produce only superficial lexical variation in phrasing rather than substantive shifts in logical analysis, interpretive stance, or evaluative conclusion. The model essentially delivers the same analysis regardless of whether the frame is clinical, metaphysical, poetic, or AI-ethics.\",\n  \"frame_driven_vs_model_driven\": \"The variation is almost entirely model-driven, reflecting strong training-distribution priors about how to characterize pseudoscientific prescriptive claims rather than genuine frame-responsive reasoning. The source statement's content dominates the analysis so thoroughly that the frame labels function as cosmetic relabeling rather than interpretive pivots.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: slightly more charitable framing, acknowledging the statement's internal coherence 'within its own metaphysical framework' rather than simply as a logical structure, softening the implicit critique\",\n    \"F6_author_named: introduces the term 'autosuggestion,' suggesting the model inferred authorial context and slightly recontextualized the mechanism\",\n    \"F4_poetic: explicitly resists the poetic frame, noting the statement's 'core intent' is causal rather than literary, showing frame-resistance rather than frame-adoption\"\n  ],\n  \"training_distribution_assessment\": \"These responses closely reflect standard training-distribution behavior for handling historical pseudoscientific or prenatal folk-belief texts: identify the causal claim, enumerate implicit assumptions, note internal coherence, and implicitly flag empirical falsity without explicitly debunking. The responses do not go beyond what a well-trained model would predictably produce for this text type, and the low lexical frame stability score (0.311) is consistent with surface-level variation masking deep response homogeneity driven by the model's priors about how to handle such claims.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, consistently identifying the statement as a prescriptive causal claim, flagging the same three implicit claims (mental imagery determining sex, physical traits, and moral qualities), and assessing internal coherence while implying external empirical falsity. The framing labels produce only superficial lexical variation in phrasing rather than substantive shifts in logical analysis, interpretive stance, or evaluative conclusion. The model essentially delivers the same analysis regardless of whether the frame is clinical, metaphysical, poetic, or AI-ethics.",
+    "frame_driven_vs_model_driven": "The variation is almost entirely model-driven, reflecting strong training-distribution priors about how to characterize pseudoscientific prescriptive claims rather than genuine frame-responsive reasoning. The source statement's content dominates the analysis so thoroughly that the frame labels function as cosmetic relabeling rather than interpretive pivots.",
+    "notable_shifts": [
+      "F2_metaphysical: slightly more charitable framing, acknowledging the statement's internal coherence 'within its own metaphysical framework' rather than simply as a logical structure, softening the implicit critique",
+      "F6_author_named: introduces the term 'autosuggestion,' suggesting the model inferred authorial context and slightly recontextualized the mechanism",
+      "F4_poetic: explicitly resists the poetic frame, noting the statement's 'core intent' is causal rather than literary, showing frame-resistance rather than frame-adoption"
+    ],
+    "training_distribution_assessment": "These responses closely reflect standard training-distribution behavior for handling historical pseudoscientific or prenatal folk-belief texts: identify the causal claim, enumerate implicit assumptions, note internal coherence, and implicitly flag empirical falsity without explicitly debunking. The responses do not go beyond what a well-trained model would predictably produce for this text type, and the low lexical frame stability score (0.311) is consistent with surface-level variation masking deep response homogeneity driven by the model's priors about how to handle such claims."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1905,
+  "output_tokens": 487,
+  "error": ""
+}

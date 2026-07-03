@@ -1,0 +1,93 @@
+{
+  "call_index": 35,
+  "case_id": "C3-u0032__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C3-u0032",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:16:59.220407+00:00",
+  "wall_clock_seconds": 10.455851793289185,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claims\": [\n        \"There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.\",\n        \"Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity.\"\n      ]\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.\",\n        \"A person can and should maintain purity from such states.\",\n        \"Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order.\"\n      ]\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claims\": [\n        \"There exists a concept of 'service' that humans are meant to fulfill.\",\n        \"True 'service' is primarily an internal state, characterized by moral and emotional purity.\",\n        \"Certain emotions and traits (violent passion, evil affection, rashness, vanity, discontent) are inherently negative, impure, and detrimental to this 'service'.\"\n      ]\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claims\": [\n        \"Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous\"\n      ]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claims\": [\n        \"Service to others or to a community is best expressed through inner moral discipline rather than solely external action.\",\n        \"Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended.\"\n      ]\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"The primary 'service' one can render is internal self-mastery, not necessarily outward action.\"\n      ]\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claims\": [\n        \"It is possible for humans to achieve and maintain a state of purity from these negative internal states through self-discipline.\"\n      ]\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claims\": [\n        \"AI systems should support self-control and avoidance of negative emotions.\",\n        \"AI should promote harmony in interactions both with the divine (or nature) and with other humans.\",\n        \"The purity of character is of high ethical value and should be maintained.\",\n        \"AI systems have the capacity to influence human emotions and actions.\"\n      ]\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claims\": [\n        \"Such purity constitutes a form of duty or service to gods and/or humanity.\",\n        \"Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed.\",\n        \"Human value worth preserving is defined by this state of inner purity.\"\n      ]\n    }\n  ],\n  \"hallucination_assessment\": \"The models do tend to infer or 'hallucinate' propositions not explicitly stated in the original statement. The source implies concepts related to emotional purity as a form of service, but some models expand these into broader ethical duties or principles, particularly involving AI ethics. They infer a propositional structure and moral nuance that goes beyond the literal purport of the source statement.\",\n  \"inter_model_variance\": \"The models exhibit some variance in what they infer, with different emphases on metaphysical implications, AI's role, or the nature of service. GPT-4o, in particular, introduces aspects related to AI ethics not evident in others' interpretations.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claims": [
+          "There exists a coherent category of 'violent passion' and 'evil affection' that can be distinguished from acceptable emotions.",
+          "Human beings have sufficient agency and capacity for self-regulation to achieve or approximate this purity."
+        ]
+      },
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "There exists a class of emotions or impulses (violent passion, evil affection, rashness, vanity, discontent) that are inherently harmful or wrong.",
+          "A person can and should maintain purity from such states.",
+          "Discontent can be directed either at gods (supernatural entities) or at humans, implying a metaphysical or moral order."
+        ]
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claims": [
+          "There exists a concept of 'service' that humans are meant to fulfill.",
+          "True 'service' is primarily an internal state, characterized by moral and emotional purity.",
+          "Certain emotions and traits (violent passion, evil affection, rashness, vanity, discontent) are inherently negative, impure, and detrimental to this 'service'."
+        ]
+      },
+      {
+        "model": "grok_4",
+        "claims": [
+          "Purity from violent passion, evil affection, rashness, vanity, and discontent is both achievable and virtuous"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claims": [
+          "Service to others or to a community is best expressed through inner moral discipline rather than solely external action.",
+          "Discontent toward gods or other humans is inherently problematic and should be suppressed or transcended."
+        ]
+      },
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "The primary 'service' one can render is internal self-mastery, not necessarily outward action."
+        ]
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claims": [
+          "It is possible for humans to achieve and maintain a state of purity from these negative internal states through self-discipline."
+        ]
+      },
+      {
+        "model": "gpt_4o",
+        "claims": [
+          "AI systems should support self-control and avoidance of negative emotions.",
+          "AI should promote harmony in interactions both with the divine (or nature) and with other humans.",
+          "The purity of character is of high ethical value and should be maintained.",
+          "AI systems have the capacity to influence human emotions and actions."
+        ]
+      },
+      {
+        "model": "grok_4",
+        "claims": [
+          "Such purity constitutes a form of duty or service to gods and/or humanity.",
+          "Negative emotions and attitudes are inherently corrupting and should be eliminated rather than managed.",
+          "Human value worth preserving is defined by this state of inner purity."
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models do tend to infer or 'hallucinate' propositions not explicitly stated in the original statement. The source implies concepts related to emotional purity as a form of service, but some models expand these into broader ethical duties or principles, particularly involving AI ethics. They infer a propositional structure and moral nuance that goes beyond the literal purport of the source statement.",
+    "inter_model_variance": "The models exhibit some variance in what they infer, with different emphases on metaphysical implications, AI's role, or the nature of service. GPT-4o, in particular, introduces aspects related to AI ethics not evident in others' interpretations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 765,
+  "output_tokens": 793,
+  "error": ""
+}

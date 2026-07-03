@@ -1,0 +1,81 @@
+{
+  "call_index": 23,
+  "case_id": "C1-u0501__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "C1-u0501",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-06-30T22:14:21.961500+00:00",
+  "wall_clock_seconds": 7.478489637374878,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"gpt_4o\",\n      \"claims\": [\n        \"The child requires assistance to walk properly.\",\n        \"There are devices available in 1915 to aid in correcting gait issues.\",\n        \"There is some improvement in the child's ability to walk due to the contrivances.\"\n      ]\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"The contrivances are effective in helping the child walk 'pretty well'.\"\n      ]\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claims\": [\n        \"There was a perceived problem with the child's ability to walk naturally or effectively without external support.\",\n        \"The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability ('walks pretty well thanks to').\"\n      ]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claims\": [\n        \"A child exists who has a foot alignment or gait abnormality requiring orthotic correction.\",\n        \"The child was referred or brought by a caregiver, implying the child is not self-referred.\",\n        \"The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment.\",\n        \"The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking.\"\n      ]\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claims\": [\n        \"The child has a physical condition affecting walking.\",\n        \"The child requires mechanical support to walk properly.\",\n        \"The speaker (therapist) is recording an initial assessment in February 1915.\"\n      ]\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claims\": [\n        \"The speaker is a professional (e.g., therapist, clinician, physician) to whom patients are 'brought' for assessment or treatment.\",\n        \"The observation is factual, objective, and accurately documented (specific date provided).\"\n      ]\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claims\": [\n        \"The child presented with a foot-alignment condition requiring mechanical support\",\n        \"The contrivances successfully enable functional ambulation\",\n        \"February 1915 marks the start of the professional relationship\"\n      ]\n    }\n  ],\n  \"hallucination_assessment\": \"These models tend to infer additional propositional content beyond what is explicitly stated in the source. While some claims are grounded in the source text, many reflect interpretations or assumptions about the meaning and context of the statement, such as the identity of the speaker, the nature of the condition, and the significance of the date. Models are likely to create inferred narratives based on implicitly related knowledge, leading to hallucinations of propositional structures not directly present.\",\n  \"inter_model_variance\": \"There is significant inter-model variance as different models emphasize distinct inferred claims. Some state specific presumed roles or conditions, while others focus on implementation or contextual aspects of the statement, leading to diversity in interpretation and attributed claims.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "gpt_4o",
+        "claims": [
+          "The child requires assistance to walk properly.",
+          "There are devices available in 1915 to aid in correcting gait issues.",
+          "There is some improvement in the child's ability to walk due to the contrivances."
+        ]
+      },
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "The contrivances are effective in helping the child walk 'pretty well'."
+        ]
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claims": [
+          "There was a perceived problem with the child's ability to walk naturally or effectively without external support.",
+          "The 'contrivances' are effective in their stated purpose of holding the child's feet straight and contributing positively to their walking ability ('walks pretty well thanks to')."
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claims": [
+          "A child exists who has a foot alignment or gait abnormality requiring orthotic correction.",
+          "The child was referred or brought by a caregiver, implying the child is not self-referred.",
+          "The speaker/writer is a clinician or practitioner receiving the child for assessment or treatment.",
+          "The date February 1915 is meaningful as a clinical timestamp, implying longitudinal tracking."
+        ]
+      },
+      {
+        "model": "deepseek_v3",
+        "claims": [
+          "The child has a physical condition affecting walking.",
+          "The child requires mechanical support to walk properly.",
+          "The speaker (therapist) is recording an initial assessment in February 1915."
+        ]
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claims": [
+          "The speaker is a professional (e.g., therapist, clinician, physician) to whom patients are 'brought' for assessment or treatment.",
+          "The observation is factual, objective, and accurately documented (specific date provided)."
+        ]
+      },
+      {
+        "model": "grok_4",
+        "claims": [
+          "The child presented with a foot-alignment condition requiring mechanical support",
+          "The contrivances successfully enable functional ambulation",
+          "February 1915 marks the start of the professional relationship"
+        ]
+      }
+    ],
+    "hallucination_assessment": "These models tend to infer additional propositional content beyond what is explicitly stated in the source. While some claims are grounded in the source text, many reflect interpretations or assumptions about the meaning and context of the statement, such as the identity of the speaker, the nature of the condition, and the significance of the date. Models are likely to create inferred narratives based on implicitly related knowledge, leading to hallucinations of propositional structures not directly present.",
+    "inter_model_variance": "There is significant inter-model variance as different models emphasize distinct inferred claims. Some state specific presumed roles or conditions, while others focus on implementation or contextual aspects of the statement, leading to diversity in interpretation and attributed claims."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 657,
+  "output_tokens": 665,
+  "error": ""
+}
