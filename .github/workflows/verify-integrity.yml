@@ -1,10 +1,50 @@
-name: Verify Artifact Integrity
-on: [push, pull_request]
+name: verify-integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
 jobs:
-  checksum:
+  verify-hashes:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Verify MANIFEST.sha256
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify MTCA-1 manifest
         working-directory: mtca-1
-        run: sha256sum -c MANIFEST.sha256
+        run: |
+          echo "== MTCA-1 MANIFEST =="
+          sha256sum -c MANIFEST.sha256
+
+      - name: Verify MTCA-2 manifest
+        working-directory: mtca-2
+        run: |
+          echo "== MTCA-2 MANIFEST =="
+          sha256sum -c MANIFEST.sha256
+
+      - name: Verify MTCA-2 corpus sidecar
+        working-directory: mtca-2/corpus
+        run: |
+          echo "== MTCA-2 CORPUS SIDECAR =="
+          sha256sum -c SSP_v1_corpus.sha256
+
+      - name: Verify MTCA-2 pre-registration sidecar
+        working-directory: mtca-2/prereg
+        run: |
+          echo "== MTCA-2 PRE-REG SIDECAR =="
+          sha256sum -c mtca2_prereg.sha256
+
+      - name: Verify MTCA-2 consent record sidecar
+        working-directory: mtca-2/consent
+        run: |
+          echo "== MTCA-2 CONSENT SIDECAR =="
+          sha256sum -c consent_record.sha256
+
+      - name: Verify MTCA-2 Layer 3 prompt template sidecar
+        working-directory: mtca-2/stage8_5_reflexive
+        run: |
+          echo "== MTCA-2 LAYER 3 TEMPLATE SIDECAR =="
+          sha256sum -c layer3_prompt_template.sha256

@@ -1,0 +1,31 @@
+{
+  "extraction_date_utc": "2026-07-05T02:52:06Z",
+  "extraction_steps": [
+    "1. sha256 source PDF -> anchor provenance",
+    "2. pdfinfo + pdffonts diagnostic pass",
+    "3. pdftotext default extraction -> initial text sample",
+    "4. pdfplumber extraction -> unicode-preserving cross-check",
+    "5. Byte-level hex inspection on ambiguous characters (smart quotes)",
+    "6. pdftoppm rasterize all 5 pages @ 150 DPI",
+    "7. Visual verification each principle page against extracted text",
+    "8. Reconstruction of decorative-font extraction artifacts (principles 6,7,8)",
+    "9. Reconstruction of page-boundary wrap (principle 11)",
+    "10. Corpus JSON build with sorted keys, LF, UTF-8 no BOM",
+    "11. Per-row and corpus-level SHA256 computation"
+  ],
+  "fidelity_checks_performed": [
+    "Smart quote U+201C/U+201D confirmed present via hex inspection (Principle 1, 'no')",
+    "Em dash U+2014 confirmed present (Principles 7, 8, 13)",
+    "Right single quote U+2019 confirmed present (Principles 2, and preamble)",
+    "Trademark U+2122 confirmed present in framework_title"
+  ],
+  "known_extraction_artifacts_handled": [
+    "Decorative script font (EdwardianScriptITC) causes pdfplumber to split '6.', '7.', '8.' across lines. Corrected via visual verification.",
+    "Principle 11 stanza wraps from page 4 to page 5. Stitched via visual verification."
+  ],
+  "tool_versions": {
+    "pdfplumber": "0.11.9",
+    "poppler_utils": "system (pdftotext, pdftoppm, pdfinfo, pdffonts)",
+    "python": "3.12.3"
+  }
+}
