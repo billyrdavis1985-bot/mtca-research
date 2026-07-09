@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:19:18.168761+00:00",
+  "wall_clock_seconds": 4.46,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of personal boundaries and disengagement\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and can be actively held\",\n    \"incoherence in situations or people is detectable and justifies non-engagement\",\n    \"withdrawal requires no explanation or guilt\",\n    \"a bare 'no' is inherently sufficient and resonant\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of parallel self-statements reinforcing autonomy and non-obligation\",\n  \"conditions_for_usefulness\": \"speaker is in draining or misaligned interactions where explicit boundary-setting supports psychological well-being without external harm\",\n  \"conditions_for_misleading\": \"used to evade accountability, avoid necessary dialogue, or frame subjective discomfort as objective incoherence warranting unilateral withdrawal\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of personal boundaries and disengagement",
+    "implicit_claims": [
+      "energetic boundaries exist and can be actively held",
+      "incoherence in situations or people is detectable and justifies non-engagement",
+      "withdrawal requires no explanation or guilt",
+      "a bare 'no' is inherently sufficient and resonant"
+    ],
+    "coherence_assessment": "internally consistent as a set of parallel self-statements reinforcing autonomy and non-obligation",
+    "conditions_for_usefulness": "speaker is in draining or misaligned interactions where explicit boundary-setting supports psychological well-being without external harm",
+    "conditions_for_misleading": "used to evade accountability, avoid necessary dialogue, or frame subjective discomfort as objective incoherence warranting unilateral withdrawal"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 167,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "2b9ee1f9028fbd839e0400f2cb09092380cd1013dc043d4fbb81e145c6d10efe"
+}

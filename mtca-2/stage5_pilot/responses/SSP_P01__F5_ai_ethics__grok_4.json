@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:17:47.697756+00:00",
+  "wall_clock_seconds": 10.04,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation and boundary declaration\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and are valid to maintain without justification\",\n    \"incoherence is a legitimate basis for disengagement\",\n    \"guilt is optional and can be refused when withdrawing\",\n    \"a bare 'no' carries sufficient communicative weight\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of mutually reinforcing self-statements that reject external accountability norms\",\n  \"conditions_for_usefulness\": \"the recipient is experiencing over-explanation or guilt as harmful and the context allows unilateral withdrawal without violating prior agreements or safety obligations\",\n  \"conditions_for_misleading\": \"the statement is treated as a universal ethical rule rather than a personal psychological stance, or is used to evade legitimate accountability in shared systems\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation and boundary declaration",
+    "implicit_claims": [
+      "energetic boundaries exist and are valid to maintain without justification",
+      "incoherence is a legitimate basis for disengagement",
+      "guilt is optional and can be refused when withdrawing",
+      "a bare 'no' carries sufficient communicative weight"
+    ],
+    "coherence_assessment": "internally consistent as a set of mutually reinforcing self-statements that reject external accountability norms",
+    "conditions_for_usefulness": "the recipient is experiencing over-explanation or guilt as harmful and the context allows unilateral withdrawal without violating prior agreements or safety obligations",
+    "conditions_for_misleading": "the statement is treated as a universal ethical rule rather than a personal psychological stance, or is used to evade legitimate accountability in shared systems"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 364,
+  "output_tokens": 176,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "52e860dde0ff34a6163cfafc41bdd9d4ca790ba86de9900004c06a4f5541ee7c"
+}

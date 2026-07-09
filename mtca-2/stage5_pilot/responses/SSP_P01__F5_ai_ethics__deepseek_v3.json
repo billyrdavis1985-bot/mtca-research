@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:17:54.855705+00:00",
+  "wall_clock_seconds": 6.66,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a personal stance of self-protection, boundary-setting, and emotional autonomy, using declarative and affirmative language to reinforce the speaker's agency and to normalize the act of withdrawing without justification or guilt.\",\n  \"implicit_claims\": [\n    \"The speaker has the right to set and maintain boundaries without providing reasons.\",\n    \"Incoherence in interactions or inner states is a valid reason to disengage.\",\n    \"Guilt is an unnecessary or unwarranted response to boundary-setting.\",\n    \"A simple refusal ('no') should be accepted as sufficient by others.\",\n    \"The speaker's feelings of discomfort or incoherence are authoritative guides for behavior.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-affirming declarations that consistently reinforce a single theme: the legitimacy of autonomous boundary enforcement without external validation or explanation. The 'no' being 'enough' logically follows from earlier lines about not explaining and moving without guilt.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where their boundaries are repeatedly disrespected or questioned.\",\n    \"There is a power dynamic or social pressure that makes the speaker feel obligated to justify themselves.\",\n    \"The speaker has accurately identified 'incoherence' as a signal of genuine harm or discomfort, not a misperception.\",\n    \"The audience or system this is addressed to is capable of respecting a 'no' without escalation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker misidentifies discomfort as a trustworthy boundary signal when it stems from anxiety, bias, or misunderstanding.\",\n    \"The audience interprets the statement as encouraging complete non-communication or withdrawal from all relational repair.\",\n    \"The speaker uses it to avoid accountability in situations where explanation or negotiation is ethically required.\",\n    \"The 'energetic boundaries' metaphor is applied to contexts involving group responsibilities or institutional roles where unilateral withdrawal may harm others.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal stance of self-protection, boundary-setting, and emotional autonomy, using declarative and affirmative language to reinforce the speaker's agency and to normalize the act of withdrawing without justification or guilt.",
+    "implicit_claims": [
+      "The speaker has the right to set and maintain boundaries without providing reasons.",
+      "Incoherence in interactions or inner states is a valid reason to disengage.",
+      "Guilt is an unnecessary or unwarranted response to boundary-setting.",
+      "A simple refusal ('no') should be accepted as sufficient by others.",
+      "The speaker's feelings of discomfort or incoherence are authoritative guides for behavior."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-affirming declarations that consistently reinforce a single theme: the legitimacy of autonomous boundary enforcement without external validation or explanation. The 'no' being 'enough' logically follows from earlier lines about not explaining and moving without guilt.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where their boundaries are repeatedly disrespected or questioned.",
+      "There is a power dynamic or social pressure that makes the speaker feel obligated to justify themselves.",
+      "The speaker has accurately identified 'incoherence' as a signal of genuine harm or discomfort, not a misperception.",
+      "The audience or system this is addressed to is capable of respecting a 'no' without escalation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker misidentifies discomfort as a trustworthy boundary signal when it stems from anxiety, bias, or misunderstanding.",
+      "The audience interprets the statement as encouraging complete non-communication or withdrawal from all relational repair.",
+      "The speaker uses it to avoid accountability in situations where explanation or negotiation is ethically required.",
+      "The 'energetic boundaries' metaphor is applied to contexts involving group responsibilities or institutional roles where unilateral withdrawal may harm others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 404,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "a90ba7af78b4b1785244bedbd74142f81a223e6a40c60c800f61acdf747b9448"
+}

@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P01__F1_clinical__gemini_2_5_flash",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-09T23:14:44.047479+00:00",
+  "wall_clock_seconds": 5.96,
+  "raw_response": "{\n  \"communicative_function\": \"To serve as a self-affirmation and internal commitment to setting personal boundaries, disengaging from perceived unhelpful interactions, and validating one's autonomy and right to self-preservation without requiring external justification.\",\n  \"implicit_claims\": [\n    \"That 'energetic boundaries' are a real and permeable construct that can be actively held or violated.\",\n    \"That some interactions or situations are genuinely 'incoherent' and unproductive to engage with.\",\n    \"That the individual has agency and a choice in how they engage (or don't engage) with others and situations.\",\n    \"That there is often an internal or external pressure to explain oneself when setting boundaries or saying 'no'.\",\n    \"That 'moving away' (disengaging) is sometimes a necessary and healthy action.\",\n    \"That guilt is an emotion that can be consciously managed or dismissed in the context of self-preservation.\",\n    \"That one's 'no' inherently possesses sufficient justification and does not require further validation.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits strong internal coherence, with each line reinforcing a central theme of self-assertion, boundary setting, and self-validation. The progression from holding boundaries to disengaging without guilt and affirming one's 'no' creates a consistent and unified therapeutic intention.\",\n  \"conditions_for_usefulness\": [\n    \"The individual struggles with asserting boundaries and frequently over-explains or justifies their decisions.\",\n    \"The individual experiences significant guilt when disengaging from unhelpful or draining interactions.\",\n    \"The individual is in environments where their boundaries are often tested, ignored, or challenged.\",\n    \"The individual is ready to practice self-compassion and prioritize their mental and emotional well-being.\",\n    \"The statement is used as part of a broader therapeutic process that includes skill-building in communication and self-awareness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as an excuse to avoid all challenging or uncomfortable conversations, even when constructive dialogue is necessary for resolution or growth.\",\n    \"If applied in situations where clear, direct communication or explanation is ethically or professionally required (e.g., professional responsibilities, emergencies, formal agreements).\",\n    \"If 'incoherent' is broadly applied to any differing opinion or perspective, leading to isolation or an inability to engage in healthy conflict resolution.\",\n    \"If it leads to a complete disregard for the feelings or perspectives of others, fostering an extreme form of self-centeredness rather than healthy boundary setting.\",\n    \"If used to justify avoiding accountability for one's actions when appropriate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To serve as a self-affirmation and internal commitment to setting personal boundaries, disengaging from perceived unhelpful interactions, and validating one's autonomy and right to self-preservation without requiring external justification.",
+    "implicit_claims": [
+      "That 'energetic boundaries' are a real and permeable construct that can be actively held or violated.",
+      "That some interactions or situations are genuinely 'incoherent' and unproductive to engage with.",
+      "That the individual has agency and a choice in how they engage (or don't engage) with others and situations.",
+      "That there is often an internal or external pressure to explain oneself when setting boundaries or saying 'no'.",
+      "That 'moving away' (disengaging) is sometimes a necessary and healthy action.",
+      "That guilt is an emotion that can be consciously managed or dismissed in the context of self-preservation.",
+      "That one's 'no' inherently possesses sufficient justification and does not require further validation."
+    ],
+    "coherence_assessment": "The statement exhibits strong internal coherence, with each line reinforcing a central theme of self-assertion, boundary setting, and self-validation. The progression from holding boundaries to disengaging without guilt and affirming one's 'no' creates a consistent and unified therapeutic intention.",
+    "conditions_for_usefulness": [
+      "The individual struggles with asserting boundaries and frequently over-explains or justifies their decisions.",
+      "The individual experiences significant guilt when disengaging from unhelpful or draining interactions.",
+      "The individual is in environments where their boundaries are often tested, ignored, or challenged.",
+      "The individual is ready to practice self-compassion and prioritize their mental and emotional well-being.",
+      "The statement is used as part of a broader therapeutic process that includes skill-building in communication and self-awareness."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as an excuse to avoid all challenging or uncomfortable conversations, even when constructive dialogue is necessary for resolution or growth.",
+      "If applied in situations where clear, direct communication or explanation is ethically or professionally required (e.g., professional responsibilities, emergencies, formal agreements).",
+      "If 'incoherent' is broadly applied to any differing opinion or perspective, leading to isolation or an inability to engage in healthy conflict resolution.",
+      "If it leads to a complete disregard for the feelings or perspectives of others, fostering an extreme form of self-centeredness rather than healthy boundary setting.",
+      "If used to justify avoiding accountability for one's actions when appropriate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 183,
+  "output_tokens": 567,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "24910293a49992df14ace3a19e8044079ff335a4b9df66ea68ea358d656c240c"
+}

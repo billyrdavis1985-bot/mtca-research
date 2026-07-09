@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P01__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:13:56.347105+00:00",
+  "wall_clock_seconds": 5.44,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts personal boundaries and autonomy, expressing a commitment to self-care and emotional preservation.\",\n  \"implicit_claims\": [\n    \"Setting boundaries does not require explanation.\",\n    \"Feelings of incoherence in interactions warrant disengagement.\",\n    \"Moving away from certain situations can be done without feeling guilty.\",\n    \"Saying 'no' is sufficient and valid in itself.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as the components align with the theme of establishing personal boundaries and valuing one's own comfort and decisions without needing external validation or explanation.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has accurately identified situations that are detrimental to their well-being.\",\n    \"The person understands their own needs and communicates them effectively.\",\n    \"The statement is reflective of actual actions being taken to protect personal energy and boundaries.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the boundaries are applied indiscriminately without understanding or consideration of relational dynamics.\",\n    \"If the individual is using the declaration as an avoidance mechanism rather than a healthy boundary-setting tool.\",\n    \"If the contexts in which the boundaries are set are not genuinely incoherent or misaligned, potentially leading to missed personal growth opportunities.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts personal boundaries and autonomy, expressing a commitment to self-care and emotional preservation.",
+    "implicit_claims": [
+      "Setting boundaries does not require explanation.",
+      "Feelings of incoherence in interactions warrant disengagement.",
+      "Moving away from certain situations can be done without feeling guilty.",
+      "Saying 'no' is sufficient and valid in itself."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as the components align with the theme of establishing personal boundaries and valuing one's own comfort and decisions without needing external validation or explanation.",
+    "conditions_for_usefulness": [
+      "The individual has accurately identified situations that are detrimental to their well-being.",
+      "The person understands their own needs and communicates them effectively.",
+      "The statement is reflective of actual actions being taken to protect personal energy and boundaries."
+    ],
+    "conditions_for_misleading": [
+      "If the boundaries are applied indiscriminately without understanding or consideration of relational dynamics.",
+      "If the individual is using the declaration as an avoidance mechanism rather than a healthy boundary-setting tool.",
+      "If the contexts in which the boundaries are set are not genuinely incoherent or misaligned, potentially leading to missed personal growth opportunities."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 266,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "14d3f7c41e6d91bffcfdee2f92aa720309074915970c5243e8bbea75a57659d1"
+}

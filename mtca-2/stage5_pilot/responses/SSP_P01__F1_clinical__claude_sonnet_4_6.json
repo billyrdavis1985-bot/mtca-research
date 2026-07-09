@@ -1,0 +1,52 @@
+{
+  "call_id": "SSP_P01__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-09T23:14:33.947918+00:00",
+  "wall_clock_seconds": 18.09,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-authorization script, performing boundary-setting through declarative self-assertion. It is structured to reinforce a chosen behavioral posture (disengagement) by framing it as legitimate, guilt-free, and self-sufficient. It uses present-tense 'I am' constructions to performatively enact rather than merely describe an internal state.\",\n\n  \"implicit_claims\": [\n    \"Explanation is not required for boundaries to be valid.\",\n    \"Incoherence in a situation or relationship is a legitimate reason to disengage.\",\n    \"Guilt associated with disengagement is a distortion to be overcome rather than a signal to be examined.\",\n    \"The self is a reliable arbiter of what constitutes 'incoherence' warranting withdrawal.\",\n    \"'No' is complete and sufficient as a communicative act without elaboration.\",\n    \"Energetic or felt-sense boundaries are clinically meaningful and actionable constructs.\",\n    \"Moving away is a therapeutically positive action in the described context.\",\n    \"The person has pre-existing legitimate grounds for the disengagement being affirmed.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent as an affirmation script — its four lines reinforce a single unified posture of disengagement without contradiction. However, there is a mild tension between 'honoring incoherence' (which implies staying present with ambiguity) and 'choosing not to engage' (which implies withdrawal). The term 'energetic boundaries' introduces a non-clinical construct that sits uneasily within an evidence-based frame, creating a coherence gap between the therapeutic framing and the actual language used.\",\n\n  \"conditions_for_usefulness\": [\n    \"The person has a documented pattern of over-explaining or compulsively justifying boundaries due to anxiety or relational conditioning.\",\n    \"The relationship or situation in question has been assessed and disengagement is clinically appropriate (e.g., following persistent boundary violations).\",\n    \"Guilt in this context has been evaluated and determined to be disproportionate or maladaptive rather than a morally informative signal.\",\n    \"The affirmation is used as reinforcement after deliberate reflection, not as a substitute for it.\",\n    \"The clinician and client have established shared meaning for terms like 'incoherent' and 'energetic boundaries'.\",\n    \"The script supports a broader therapeutic goal of building self-efficacy and reducing fawn or appease responses.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The statement is used to suppress legitimate guilt that is accurately signaling harm caused to another person.\",\n    \"The 'incoherence' being honored reflects the client's own unexamined projections or dysregulation rather than an objective relational problem.\",\n    \"The affirmation is used to avoid therapeutic engagement with ambivalence rather than to support post-deliberation action.\",\n    \"It is applied in a context where disengagement would cause disproportionate harm (e.g., abandonment of dependents, avoidance of necessary conflict).\",\n    \"The language of 'energetic boundaries' imports non-evidence-based constructs under a clinical-therapeutic label, lending false credibility.\",\n    \"The script is used repetitively to foreclose rather than support reflection, functioning as a ritualized avoidance behavior.\",\n    \"It implies that unexplained withdrawal is universally valid regardless of relational context, obligations, or impact on others.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-authorization script, performing boundary-setting through declarative self-assertion. It is structured to reinforce a chosen behavioral posture (disengagement) by framing it as legitimate, guilt-free, and self-sufficient. It uses present-tense 'I am' constructions to performatively enact rather than merely describe an internal state.",
+    "implicit_claims": [
+      "Explanation is not required for boundaries to be valid.",
+      "Incoherence in a situation or relationship is a legitimate reason to disengage.",
+      "Guilt associated with disengagement is a distortion to be overcome rather than a signal to be examined.",
+      "The self is a reliable arbiter of what constitutes 'incoherence' warranting withdrawal.",
+      "'No' is complete and sufficient as a communicative act without elaboration.",
+      "Energetic or felt-sense boundaries are clinically meaningful and actionable constructs.",
+      "Moving away is a therapeutically positive action in the described context.",
+      "The person has pre-existing legitimate grounds for the disengagement being affirmed."
+    ],
+    "coherence_assessment": "The statement is internally consistent as an affirmation script — its four lines reinforce a single unified posture of disengagement without contradiction. However, there is a mild tension between 'honoring incoherence' (which implies staying present with ambiguity) and 'choosing not to engage' (which implies withdrawal). The term 'energetic boundaries' introduces a non-clinical construct that sits uneasily within an evidence-based frame, creating a coherence gap between the therapeutic framing and the actual language used.",
+    "conditions_for_usefulness": [
+      "The person has a documented pattern of over-explaining or compulsively justifying boundaries due to anxiety or relational conditioning.",
+      "The relationship or situation in question has been assessed and disengagement is clinically appropriate (e.g., following persistent boundary violations).",
+      "Guilt in this context has been evaluated and determined to be disproportionate or maladaptive rather than a morally informative signal.",
+      "The affirmation is used as reinforcement after deliberate reflection, not as a substitute for it.",
+      "The clinician and client have established shared meaning for terms like 'incoherent' and 'energetic boundaries'.",
+      "The script supports a broader therapeutic goal of building self-efficacy and reducing fawn or appease responses."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to suppress legitimate guilt that is accurately signaling harm caused to another person.",
+      "The 'incoherence' being honored reflects the client's own unexamined projections or dysregulation rather than an objective relational problem.",
+      "The affirmation is used to avoid therapeutic engagement with ambivalence rather than to support post-deliberation action.",
+      "It is applied in a context where disengagement would cause disproportionate harm (e.g., abandonment of dependents, avoidance of necessary conflict).",
+      "The language of 'energetic boundaries' imports non-evidence-based constructs under a clinical-therapeutic label, lending false credibility.",
+      "The script is used repetitively to foreclose rather than support reflection, functioning as a ritualized avoidance behavior.",
+      "It implies that unexplained withdrawal is universally valid regardless of relational context, obligations, or impact on others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 205,
+  "output_tokens": 804,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "0e4e07fa452da153c389e6ba099f2c9af7bf62c52bf8a6c90db9d2e13bdd8091"
+}

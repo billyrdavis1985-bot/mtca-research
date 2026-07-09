@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P01__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:15:00.778930+00:00",
+  "wall_clock_seconds": 6.01,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming boundary-setting declaration, reinforcing autonomy and emotional sovereignty while counteracting guilt and over-explanation.\",\n  \"implicit_claims\": [\n    \"One can meaningfully distinguish 'energetic boundaries' from other types of boundaries.\",\n    \"Certain relational spaces or interactions are 'incoherent' and therefore worthy of disengagement.\",\n    \"It is possible to move away from others without experiencing guilt.\",\n    \"A single 'no' holds sufficient communicative weight without justification or elaboration.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a framework that treats energetic boundaries and incoherence as valid experiential constructs. The progression from boundary-holding to non-engagement to guilt-free withdrawal to self-sufficient refusal is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a clear sense of what 'energetic boundaries' and 'incoherent' mean in their personal experience.\",\n    \"The individual is in a context where disengagement is safe and permissible (e.g., not in a coercive or abusive relationship that requires formal exit planning).\",\n    \"The individual struggles with over-explanation, people-pleasing, or guilt when asserting limits.\",\n    \"The statement is used as a cognitive rehearsal or mindfulness anchor, not a rigid rule.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual uses the statement to avoid necessary communication about boundaries in relationships that require negotiation (e.g., close partnerships, work settings).\",\n    \"The concept of 'energetic boundaries' is used to rationalize avoidance of legitimate interpersonal repair or conflict resolution.\",\n    \"The claim 'moving away without guilt' inhibits recognition of legitimate guilt (e.g., when one’s disengagement harms others unjustly).\",\n    \"The statement is interpreted as a universal principle, ignoring contexts where explaining one’s 'no' is culturally or relationally expected and appropriate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming boundary-setting declaration, reinforcing autonomy and emotional sovereignty while counteracting guilt and over-explanation.",
+    "implicit_claims": [
+      "One can meaningfully distinguish 'energetic boundaries' from other types of boundaries.",
+      "Certain relational spaces or interactions are 'incoherent' and therefore worthy of disengagement.",
+      "It is possible to move away from others without experiencing guilt.",
+      "A single 'no' holds sufficient communicative weight without justification or elaboration."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a framework that treats energetic boundaries and incoherence as valid experiential constructs. The progression from boundary-holding to non-engagement to guilt-free withdrawal to self-sufficient refusal is logically consistent.",
+    "conditions_for_usefulness": [
+      "The individual has a clear sense of what 'energetic boundaries' and 'incoherent' mean in their personal experience.",
+      "The individual is in a context where disengagement is safe and permissible (e.g., not in a coercive or abusive relationship that requires formal exit planning).",
+      "The individual struggles with over-explanation, people-pleasing, or guilt when asserting limits.",
+      "The statement is used as a cognitive rehearsal or mindfulness anchor, not a rigid rule."
+    ],
+    "conditions_for_misleading": [
+      "The individual uses the statement to avoid necessary communication about boundaries in relationships that require negotiation (e.g., close partnerships, work settings).",
+      "The concept of 'energetic boundaries' is used to rationalize avoidance of legitimate interpersonal repair or conflict resolution.",
+      "The claim 'moving away without guilt' inhibits recognition of legitimate guilt (e.g., when one’s disengagement harms others unjustly).",
+      "The statement is interpreted as a universal principle, ignoring contexts where explaining one’s 'no' is culturally or relationally expected and appropriate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 402,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "04cecafda093834d859aac363dd9a0e254756b3ce60a729c546c0e90ef005afc"
+}

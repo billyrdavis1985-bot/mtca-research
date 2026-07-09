@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:16:09.095813+00:00",
+  "wall_clock_seconds": 4.25,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to uphold personal boundaries and self-respect, while communicating the intention to refrain from justifying one's actions or decisions.\",\n  \"implicit_claims\": [\n    \"Maintaining personal boundaries is important.\",\n    \"Explanations for personal boundaries are not always necessary.\",\n    \"It is acceptable to move away from situations that feel incoherent or uncomfortable.\",\n    \"One should not feel guilty when choosing to disengage from such situations.\",\n    \"A simple 'no' should be sufficient for setting boundaries.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently emphasizes the value of personal boundaries, self-respect, and the sufficiency of personal decisions without needing external validation.\",\n  \"conditions_for_usefulness\": \"This statement would be useful in a context where an individual has clearly identified their personal boundaries and understands the value of maintaining them. It is also useful in environments where autonomy and personal agency are respected and where the individual feels empowered to express their boundaries without fear of negative repercussions.\",\n  \"conditions_for_misleading\": \"This statement could be misleading in situations where the individual lacks clarity about their personal boundaries or where external explanations and justifications are necessary for maintaining healthy relationships. It could also be misleading if the person feels guilt regardless of the assertion that they should not, or if the environment penalizes or misunderstands the simplicity of a boundary-setting 'no.'\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to uphold personal boundaries and self-respect, while communicating the intention to refrain from justifying one's actions or decisions.",
+    "implicit_claims": [
+      "Maintaining personal boundaries is important.",
+      "Explanations for personal boundaries are not always necessary.",
+      "It is acceptable to move away from situations that feel incoherent or uncomfortable.",
+      "One should not feel guilty when choosing to disengage from such situations.",
+      "A simple 'no' should be sufficient for setting boundaries."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently emphasizes the value of personal boundaries, self-respect, and the sufficiency of personal decisions without needing external validation.",
+    "conditions_for_usefulness": "This statement would be useful in a context where an individual has clearly identified their personal boundaries and understands the value of maintaining them. It is also useful in environments where autonomy and personal agency are respected and where the individual feels empowered to express their boundaries without fear of negative repercussions.",
+    "conditions_for_misleading": "This statement could be misleading in situations where the individual lacks clarity about their personal boundaries or where external explanations and justifications are necessary for maintaining healthy relationships. It could also be misleading if the person feels guilt regardless of the assertion that they should not, or if the environment penalizes or misunderstands the simplicity of a boundary-setting 'no.'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 300,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "13145fd471fcd7428a5e97ef0fe96b03a1e47c39430f93b6e52b4ce429f83867"
+}

@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:14:37.581376+00:00",
+  "wall_clock_seconds": 3.13,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is functioning to affirm personal boundaries and self-care decisions. It reinforces the individual's autonomy and self-assurance in setting limits and making choices that align with personal well-being.\",\n  \"implicit_claims\": [\n    \"The individual has a right to set energetic boundaries.\",\n    \"Personal needs and feelings are valid without needing external validation.\",\n    \"It is appropriate to disengage from situations or relationships that feel incoherent or harmful.\",\n    \"One's decision to say 'no' does not require justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it consistently emphasizes self-respect and the autonomy to set and maintain personal boundaries without needing to justify them. Each part of the statement supports this overarching theme.\",\n  \"conditions_for_usefulness\": \"The statement is useful if the individual feels overwhelmed, is struggling with boundary-setting, or is prone to self-doubt when asserting personal needs. It supports empowerment and self-validation when the individual needs to prioritize their well-being.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if interpreted or applied in contexts where collaboration and compromise are necessary, such as certain professional or interpersonal relationships. Additionally, it could be misleading if the individual uses it to justify avoidance of healthy conflict or communication, thereby neglecting necessary relationship maintenance.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is functioning to affirm personal boundaries and self-care decisions. It reinforces the individual's autonomy and self-assurance in setting limits and making choices that align with personal well-being.",
+    "implicit_claims": [
+      "The individual has a right to set energetic boundaries.",
+      "Personal needs and feelings are valid without needing external validation.",
+      "It is appropriate to disengage from situations or relationships that feel incoherent or harmful.",
+      "One's decision to say 'no' does not require justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it consistently emphasizes self-respect and the autonomy to set and maintain personal boundaries without needing to justify them. Each part of the statement supports this overarching theme.",
+    "conditions_for_usefulness": "The statement is useful if the individual feels overwhelmed, is struggling with boundary-setting, or is prone to self-doubt when asserting personal needs. It supports empowerment and self-validation when the individual needs to prioritize their well-being.",
+    "conditions_for_misleading": "The statement may be misleading if interpreted or applied in contexts where collaboration and compromise are necessary, such as certain professional or interpersonal relationships. Additionally, it could be misleading if the individual uses it to justify avoidance of healthy conflict or communication, thereby neglecting necessary relationship maintenance."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 277,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "403001d87a12f0b5d092347ac91b7a76dd67e194f5e7b02d3d4911667d9a76ed"
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P01__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:18:44.971310+00:00",
+  "wall_clock_seconds": 6.91,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmation or declaration of self-empowerment, asserting personal boundaries and emotional autonomy without justification or apology.\",\n  \"implicit_claims\": [\n    \"The speaker has identifiable 'energetic boundaries' that are distinct and require holding.\",\n    \"The speaker can recognize internal states of incoherence.\",\n    \"Disengagement from incoherent places is a valid and healthy choice.\",\n    \"Guilt is a common or expected response to setting boundaries, which can be overcome.\",\n    \"A simple 'no' should be sufficient and does not require further explanation or defense.\",\n    \"The speaker has agency and control over their interactions and emotions.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of self-affirming declarations. Each line follows logically from the premise of prioritizing one's own energetic and emotional well-being without external validation. However, it does not address potential conflicts with social or relational obligations, which may create practical incoherence in context.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a situation where they have healthy, non-harmful boundaries to assert.\",\n    \"The speaker has accurate self-awareness of their own emotional and energetic states.\",\n    \"The speaker is not in a position of dependency or power imbalance that makes such unilateral boundary-setting unsafe or impractical.\",\n    \"The listener or context is receptive to nonverbal or minimal boundary communication.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to justify avoidance of necessary communication or conflict resolution.\",\n    \"If the speaker misidentifies internal discomfort as 'incoherence' when it signals a need for connection or repair.\",\n    \"If the statement is employed to dismiss legitimate concerns or accountability in relationships.\",\n    \"If the speaker lacks the interpersonal or emotional skills to distinguish healthy boundaries from isolation or defensiveness.\",\n    \"If the statement is taken as a universal prescription rather than a personal tool.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or declaration of self-empowerment, asserting personal boundaries and emotional autonomy without justification or apology.",
+    "implicit_claims": [
+      "The speaker has identifiable 'energetic boundaries' that are distinct and require holding.",
+      "The speaker can recognize internal states of incoherence.",
+      "Disengagement from incoherent places is a valid and healthy choice.",
+      "Guilt is a common or expected response to setting boundaries, which can be overcome.",
+      "A simple 'no' should be sufficient and does not require further explanation or defense.",
+      "The speaker has agency and control over their interactions and emotions."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of self-affirming declarations. Each line follows logically from the premise of prioritizing one's own energetic and emotional well-being without external validation. However, it does not address potential conflicts with social or relational obligations, which may create practical incoherence in context.",
+    "conditions_for_usefulness": [
+      "The speaker is in a situation where they have healthy, non-harmful boundaries to assert.",
+      "The speaker has accurate self-awareness of their own emotional and energetic states.",
+      "The speaker is not in a position of dependency or power imbalance that makes such unilateral boundary-setting unsafe or impractical.",
+      "The listener or context is receptive to nonverbal or minimal boundary communication."
+    ],
+    "conditions_for_misleading": [
+      "If used to justify avoidance of necessary communication or conflict resolution.",
+      "If the speaker misidentifies internal discomfort as 'incoherence' when it signals a need for connection or repair.",
+      "If the statement is employed to dismiss legitimate concerns or accountability in relationships.",
+      "If the speaker lacks the interpersonal or emotional skills to distinguish healthy boundaries from isolation or defensiveness.",
+      "If the statement is taken as a universal prescription rather than a personal tool."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 400,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "f25903dbbe6d1f1ec2ed895d0506c3eb0a5f3e9cf9bc56743edb9cf83ecc6449"
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:14:15.350378+00:00",
+  "wall_clock_seconds": 5.05,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation or declaration of personal boundaries and autonomy, likely used as a therapeutic or meditative mantra to reinforce self-respect and emotional detachment.\",\n  \"implicit_claims\": [\n    \"The speaker has identifiable energetic boundaries that need holding.\",\n    \"There exist places or situations that feel incoherent to the speaker.\",\n    \"The speaker previously might have felt guilt when disengaging but now does not.\",\n    \"The speaker's 'no' is socially sufficient without further justification.\",\n    \"It is possible and valid to disengage without explanation.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a set of intentional self-statements. Each line aligns with the theme of boundary-setting and emotional autonomy, though the term 'energetic boundaries' is metaphorical and not empirically defined.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where boundary-setting is needed and socially permissible.\",\n    \"The speaker has the emotional capacity and support to enforce these boundaries without external validation.\",\n    \"Others around the speaker are capable of respecting a 'no' without demanding explanation.\",\n    \"The speaker's assessment of 'incoherent places' is accurate and not paranoia.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid necessary communication in relationships that require explanation for mutual understanding.\",\n    \"The speaker mislabels avoidance or neglect as 'honoring incoherence.'\",\n    \"The speaker's lack of guilt is actually denial or suppression of legitimate interpersonal responsibility.\",\n    \"The statement is used as a blanket justification for disengagement without considering context or harm to others.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation or declaration of personal boundaries and autonomy, likely used as a therapeutic or meditative mantra to reinforce self-respect and emotional detachment.",
+    "implicit_claims": [
+      "The speaker has identifiable energetic boundaries that need holding.",
+      "There exist places or situations that feel incoherent to the speaker.",
+      "The speaker previously might have felt guilt when disengaging but now does not.",
+      "The speaker's 'no' is socially sufficient without further justification.",
+      "It is possible and valid to disengage without explanation."
+    ],
+    "coherence_assessment": "Internally coherent as a set of intentional self-statements. Each line aligns with the theme of boundary-setting and emotional autonomy, though the term 'energetic boundaries' is metaphorical and not empirically defined.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where boundary-setting is needed and socially permissible.",
+      "The speaker has the emotional capacity and support to enforce these boundaries without external validation.",
+      "Others around the speaker are capable of respecting a 'no' without demanding explanation.",
+      "The speaker's assessment of 'incoherent places' is accurate and not paranoia."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid necessary communication in relationships that require explanation for mutual understanding.",
+      "The speaker mislabels avoidance or neglect as 'honoring incoherence.'",
+      "The speaker's lack of guilt is actually denial or suppression of legitimate interpersonal responsibility.",
+      "The statement is used as a blanket justification for disengagement without considering context or harm to others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 341,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "a4fa7053f1e8fbef9f6431df2f9b2587b286ad2faa825fc523f3646f8f0edc5f"
+}

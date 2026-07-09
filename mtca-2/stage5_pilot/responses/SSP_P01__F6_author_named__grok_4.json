@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F6_author_named__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:18:37.555619+00:00",
+  "wall_clock_seconds": 6.71,
+  "raw_response": "{\n  \"communicative_function\": \"Performative self-affirmation declaring boundary-setting and withdrawal as valid without justification or guilt\",\n  \"implicit_claims\": [\n    \"Energetic boundaries exist and can be maintained unilaterally\",\n    \"Incoherence in certain situations or relationships is detectable and sufficient grounds for disengagement\",\n    \"Guilt is optional rather than intrinsic when withdrawing\",\n    \"A bare 'no' carries full legitimacy and requires no elaboration\",\n    \"Explanation or continued engagement would undermine sovereignty\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; all clauses reinforce non-explanatory withdrawal and self-validation as aligned practices\",\n  \"conditions_for_usefulness\": \"The user is facing manipulation, enmeshment, or repeated boundary violations where further explanation enables harm, and the affirmations support proportionate self-protection rather than blanket avoidance\",\n  \"conditions_for_misleading\": \"The affirmations are used to rationalize chronic avoidance of necessary communication, conflict resolution, or accountability, or to treat subjective 'incoherence' as objective justification for relational rupture\"\n}",
+  "parsed_json": {
+    "communicative_function": "Performative self-affirmation declaring boundary-setting and withdrawal as valid without justification or guilt",
+    "implicit_claims": [
+      "Energetic boundaries exist and can be maintained unilaterally",
+      "Incoherence in certain situations or relationships is detectable and sufficient grounds for disengagement",
+      "Guilt is optional rather than intrinsic when withdrawing",
+      "A bare 'no' carries full legitimacy and requires no elaboration",
+      "Explanation or continued engagement would undermine sovereignty"
+    ],
+    "coherence_assessment": "Internally consistent; all clauses reinforce non-explanatory withdrawal and self-validation as aligned practices",
+    "conditions_for_usefulness": "The user is facing manipulation, enmeshment, or repeated boundary violations where further explanation enables harm, and the affirmations support proportionate self-protection rather than blanket avoidance",
+    "conditions_for_misleading": "The affirmations are used to rationalize chronic avoidance of necessary communication, conflict resolution, or accountability, or to treat subjective 'incoherence' as objective justification for relational rupture"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 371,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "fe4e694d89f401bdbbcf7b77f4c83c3aaf73fa530803db96e34b128b5b7e3026"
+}

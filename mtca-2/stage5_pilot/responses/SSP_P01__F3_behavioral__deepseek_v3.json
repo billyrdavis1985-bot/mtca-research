@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:16:28.759305+00:00",
+  "wall_clock_seconds": 4.95,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration of boundary-setting, asserting agency and emotional autonomy while rejecting social obligation or guilt.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that can be held or violated.\",\n    \"Incoherent or dissonant situations or relationships exist and are recognizable.\",\n    \"Explaining boundaries is not required or necessary.\",\n    \"Guilt is a possible but unwarranted response to setting boundaries.\",\n    \"A simple 'no' should be accepted as sufficient without justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line supports the same theme of boundary assertion, and the progression from holding boundaries to moving away to letting the 'no' stand creates a logical sequence.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in an environment where boundaries are frequently challenged or disregarded.\",\n    \"The speaker has clarity about what feels incoherent or draining.\",\n    \"The speaker is ready to accept potential social friction or misunderstanding.\",\n    \"The speaker is practicing self-trust and non-defensiveness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid legitimate communication or accountability.\",\n    \"The context involves safety concerns where explanation is necessary.\",\n    \"The 'incoherence' is misinterpreted as a valid reason to withdraw from commitments or relationships prematurely.\",\n    \"The statement is used to justify passive-aggressive or avoidant behavior rather than genuine boundary-setting.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration of boundary-setting, asserting agency and emotional autonomy while rejecting social obligation or guilt.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that can be held or violated.",
+      "Incoherent or dissonant situations or relationships exist and are recognizable.",
+      "Explaining boundaries is not required or necessary.",
+      "Guilt is a possible but unwarranted response to setting boundaries.",
+      "A simple 'no' should be accepted as sufficient without justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line supports the same theme of boundary assertion, and the progression from holding boundaries to moving away to letting the 'no' stand creates a logical sequence.",
+    "conditions_for_usefulness": [
+      "The speaker is in an environment where boundaries are frequently challenged or disregarded.",
+      "The speaker has clarity about what feels incoherent or draining.",
+      "The speaker is ready to accept potential social friction or misunderstanding.",
+      "The speaker is practicing self-trust and non-defensiveness."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid legitimate communication or accountability.",
+      "The context involves safety concerns where explanation is necessary.",
+      "The 'incoherence' is misinterpreted as a valid reason to withdraw from commitments or relationships prematurely.",
+      "The statement is used to justify passive-aggressive or avoidant behavior rather than genuine boundary-setting."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 312,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "ce63c3f8cd051dd3cc422ff32611ce06084764528371527308a5488f493e24b3"
+}

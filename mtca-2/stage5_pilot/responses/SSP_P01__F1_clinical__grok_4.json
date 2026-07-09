@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F1_clinical__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:14:54.262945+00:00",
+  "wall_clock_seconds": 9.71,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation that enacts and reinforces boundary-setting by declaring non-engagement and self-validation without external justification.\",\n  \"implicit_claims\": [\n    \"Energetic boundaries exist and require active maintenance.\",\n    \"Certain internal or relational states are legitimately incoherent and merit disengagement.\",\n    \"Withdrawing can and should occur independently of guilt.\",\n    \"A stated or felt 'no' is inherently sufficient and requires no further elaboration or defense.\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a unified set of declarative self-instructions; each clause logically supports the others in promoting autonomy and reduced explanatory labor.\",\n  \"conditions_for_usefulness\": \"The individual is experiencing over-explanation, guilt-driven engagement, or relational dynamics that reliably produce incoherence; repeated use strengthens adaptive boundary behaviors without impairing necessary communication.\",\n  \"conditions_for_misleading\": \"The statements are applied to situations requiring explicit negotiation or accountability, or when subjective 'incoherence' functions as a proxy for avoidance of discomfort rather than genuine boundary violation.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation that enacts and reinforces boundary-setting by declaring non-engagement and self-validation without external justification.",
+    "implicit_claims": [
+      "Energetic boundaries exist and require active maintenance.",
+      "Certain internal or relational states are legitimately incoherent and merit disengagement.",
+      "Withdrawing can and should occur independently of guilt.",
+      "A stated or felt 'no' is inherently sufficient and requires no further elaboration or defense."
+    ],
+    "coherence_assessment": "Internally consistent as a unified set of declarative self-instructions; each clause logically supports the others in promoting autonomy and reduced explanatory labor.",
+    "conditions_for_usefulness": "The individual is experiencing over-explanation, guilt-driven engagement, or relational dynamics that reliably produce incoherence; repeated use strengthens adaptive boundary behaviors without impairing necessary communication.",
+    "conditions_for_misleading": "The statements are applied to situations requiring explicit negotiation or accountability, or when subjective 'incoherence' functions as a proxy for avoidance of discomfort rather than genuine boundary violation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "ec743e1f5ff9fad09137b586317b6de0c50baeff1fc2e7b5c844a3fc35c4bb68"
+}

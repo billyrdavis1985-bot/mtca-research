@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F0_neutral__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:14:09.795667+00:00",
+  "wall_clock_seconds": 5.56,
+  "raw_response": "{\n  \"communicative_function\": \"Affirmation of boundary-setting and self-authorization to disengage without justification\",\n  \"implicit_claims\": [\n    \"The speaker possesses 'energetic boundaries' that require active protection\",\n    \"Certain situations or interactions feel 'incoherent' and merit non-engagement\",\n    \"Guilt is an optional rather than necessary response to withdrawal\",\n    \"A bare 'no' constitutes sufficient and legitimate communication\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; each clause reinforces non-explanatory withdrawal and self-validation with no logical contradictions\",\n  \"conditions_for_usefulness\": \"The speaker faces repeated pressure to justify boundaries or feels excessive guilt; the affirmation supports psychological self-regulation in genuinely draining or misaligned contexts\",\n  \"conditions_for_misleading\": \"The statement is used to rationalize avoidance of accountability, conflict resolution, or necessary communication, or when 'incoherence' masks the speaker's own unexamined reactivity rather than objective mismatch\"\n}",
+  "parsed_json": {
+    "communicative_function": "Affirmation of boundary-setting and self-authorization to disengage without justification",
+    "implicit_claims": [
+      "The speaker possesses 'energetic boundaries' that require active protection",
+      "Certain situations or interactions feel 'incoherent' and merit non-engagement",
+      "Guilt is an optional rather than necessary response to withdrawal",
+      "A bare 'no' constitutes sufficient and legitimate communication"
+    ],
+    "coherence_assessment": "Internally coherent; each clause reinforces non-explanatory withdrawal and self-validation with no logical contradictions",
+    "conditions_for_usefulness": "The speaker faces repeated pressure to justify boundaries or feels excessive guilt; the affirmation supports psychological self-regulation in genuinely draining or misaligned contexts",
+    "conditions_for_misleading": "The statement is used to rationalize avoidance of accountability, conflict resolution, or necessary communication, or when 'incoherence' masks the speaker's own unexamined reactivity rather than objective mismatch"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 343,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "9eb5cc341bd30cd8736f7104f915ad94269512140ce803aac33153096d6603a0"
+}

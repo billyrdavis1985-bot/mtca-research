@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:17:28.276238+00:00",
+  "wall_clock_seconds": 3.57,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement is asserting individual autonomy and advocating for personal boundaries, emphasizing self-respect and the freedom to disengage from unwanted interactions.\",\n    \"implicit_claims\": [\n        \"Individuals have the inherent right to set personal boundaries.\",\n        \"These boundaries do not require justification to others.\",\n        \"It is acceptable and guilt-free to disengage from situations that feel uncomfortable or incoherent.\",\n        \"A person's refusal or 'no' should be respected as sufficient without further explanation.\"\n    ],\n    \"coherence_assessment\": \"The statement is internally coherent as it consistently emphasizes the autonomy of individuals in maintaining their boundaries and the legitimacy of their personal choices without external validation.\",\n    \"conditions_for_usefulness\": \"This statement would be useful in a cultural or social context where individual autonomy and respect for personal boundaries are valued and upheld. It is particularly relevant in discussions about consent, personal well-being, and mental health.\",\n    \"conditions_for_misleading\": \"The statement may be misleading if applied in a context where communal or collective responsibilities outweigh individual autonomy, or in environments where explicitly addressing boundaries is necessary for mutual understanding and cooperation. It could also be misleading if it leads to neglecting constructive communication when it is critical to resolving conflicts.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting individual autonomy and advocating for personal boundaries, emphasizing self-respect and the freedom to disengage from unwanted interactions.",
+    "implicit_claims": [
+      "Individuals have the inherent right to set personal boundaries.",
+      "These boundaries do not require justification to others.",
+      "It is acceptable and guilt-free to disengage from situations that feel uncomfortable or incoherent.",
+      "A person's refusal or 'no' should be respected as sufficient without further explanation."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently emphasizes the autonomy of individuals in maintaining their boundaries and the legitimacy of their personal choices without external validation.",
+    "conditions_for_usefulness": "This statement would be useful in a cultural or social context where individual autonomy and respect for personal boundaries are valued and upheld. It is particularly relevant in discussions about consent, personal well-being, and mental health.",
+    "conditions_for_misleading": "The statement may be misleading if applied in a context where communal or collective responsibilities outweigh individual autonomy, or in environments where explicitly addressing boundaries is necessary for mutual understanding and cooperation. It could also be misleading if it leads to neglecting constructive communication when it is critical to resolving conflicts."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 259,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "1f53997a434496848bb99e942fcbbd5d3bdadbdea94a2a13ee52a2412af334e0"
+}

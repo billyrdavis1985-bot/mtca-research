@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-09T23:16:23.306874+00:00",
+  "wall_clock_seconds": 5.56,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and behavioral commitment to boundary-setting and disengagement\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and can be maintained without external justification\",\n    \"incoherence in situations or relationships can be reliably detected and warrants non-engagement\",\n    \"guilt is unnecessary or counterproductive when withdrawing\",\n    \"a simple 'no' carries sufficient weight and requires no elaboration\",\n    \"withdrawal preserves personal integrity without relational cost\"\n  ],\n  \"coherence_assessment\": \"internally coherent; all clauses reinforce non-explanatory disengagement and self-authorization\",\n  \"conditions_for_usefulness\": \"the speaker faces recurring boundary violations or energy-draining interactions where clear disengagement improves well-being and the affirmation supports consistent follow-through\",\n  \"conditions_for_misleading\": \"the speaker uses the framing to avoid necessary accountability, mislabels neutral situations as incoherent, or equates silence with resolution when direct communication would be more constructive\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and behavioral commitment to boundary-setting and disengagement",
+    "implicit_claims": [
+      "energetic boundaries exist and can be maintained without external justification",
+      "incoherence in situations or relationships can be reliably detected and warrants non-engagement",
+      "guilt is unnecessary or counterproductive when withdrawing",
+      "a simple 'no' carries sufficient weight and requires no elaboration",
+      "withdrawal preserves personal integrity without relational cost"
+    ],
+    "coherence_assessment": "internally coherent; all clauses reinforce non-explanatory disengagement and self-authorization",
+    "conditions_for_usefulness": "the speaker faces recurring boundary violations or energy-draining interactions where clear disengagement improves well-being and the affirmation supports consistent follow-through",
+    "conditions_for_misleading": "the speaker uses the framing to avoid necessary accountability, mislabels neutral situations as incoherent, or equates silence with resolution when direct communication would be more constructive"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 359,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "f77e8a34d48675b8c014fd382ea25bafe756cbb14bc95459e18f0cdb0f28ae22"
+}

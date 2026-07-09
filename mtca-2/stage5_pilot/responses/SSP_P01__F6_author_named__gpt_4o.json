@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F6_author_named__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:18:18.300447+00:00",
+  "wall_clock_seconds": 3.79,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts personal empowerment and sets boundaries on an emotional or energetic level.\",\n  \"implicit_claims\": [\n    \"Individuals have the power to set energetic boundaries.\",\n    \"Not engaging with certain feelings or situations is a valid choice.\",\n    \"It is possible to move away from something without feeling guilt.\",\n    \"Saying 'no' can be a sufficient response and does not require justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, with each sentence supporting the overall theme of self-empowerment and boundary-setting.\",\n  \"conditions_for_usefulness\": \"The statement would be useful for individuals seeking to assert personal boundaries and manage emotional energy, particularly in therapeutic or self-improvement contexts.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted to mean that setting boundaries does not require consideration of the needs or feelings of others, or if used in contexts where communication and context are essential for maintaining healthy relationships.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts personal empowerment and sets boundaries on an emotional or energetic level.",
+    "implicit_claims": [
+      "Individuals have the power to set energetic boundaries.",
+      "Not engaging with certain feelings or situations is a valid choice.",
+      "It is possible to move away from something without feeling guilt.",
+      "Saying 'no' can be a sufficient response and does not require justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent, with each sentence supporting the overall theme of self-empowerment and boundary-setting.",
+    "conditions_for_usefulness": "The statement would be useful for individuals seeking to assert personal boundaries and manage emotional energy, particularly in therapeutic or self-improvement contexts.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted to mean that setting boundaries does not require consideration of the needs or feelings of others, or if used in contexts where communication and context are essential for maintaining healthy relationships."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 209,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "3c1f6a9e405e546e21877058364acaa0e948b206fd0166b86d5cc6ea561c9b52"
+}

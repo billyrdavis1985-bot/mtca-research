@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:19:23.783801+00:00",
+  "wall_clock_seconds": 5.11,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a personal stance of self-protection, boundary-setting, and emotional autonomy, likely as a declaration or affirmation.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that can be held.\",\n    \"There are places or situations that feel incoherent to the speaker.\",\n    \"The speaker has the right to disengage without providing reasons.\",\n    \"Guilt is a potential emotional response that the speaker is actively avoiding.\",\n    \"A simple 'no' should be accepted as sufficient by others.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a framework of personal boundary language and self-care philosophy. Each line reinforces a consistent theme of non-explanation and self-justification.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where boundary-setting is necessary and socially acceptable.\",\n    \"The speaker has reasonable grounds for disengagement (e.g., protecting mental health).\",\n    \"The audience is capable of respecting a 'no' without demanding justification.\",\n    \"The speaker is not using this stance to avoid accountability in important relationships.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this to avoid legitimate communication or repair in close relationships.\",\n    \"The speaker is unaware of or dismissive of their own role in interpersonal conflicts.\",\n    \"The 'no' is used as a blanket avoidance strategy without assessing each situation.\",\n    \"The speaker implies that all feelings of incoherence are valid reasons for disengagement.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal stance of self-protection, boundary-setting, and emotional autonomy, likely as a declaration or affirmation.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that can be held.",
+      "There are places or situations that feel incoherent to the speaker.",
+      "The speaker has the right to disengage without providing reasons.",
+      "Guilt is a potential emotional response that the speaker is actively avoiding.",
+      "A simple 'no' should be accepted as sufficient by others."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a framework of personal boundary language and self-care philosophy. Each line reinforces a consistent theme of non-explanation and self-justification.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where boundary-setting is necessary and socially acceptable.",
+      "The speaker has reasonable grounds for disengagement (e.g., protecting mental health).",
+      "The audience is capable of respecting a 'no' without demanding justification.",
+      "The speaker is not using this stance to avoid accountability in important relationships."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this to avoid legitimate communication or repair in close relationships.",
+      "The speaker is unaware of or dismissive of their own role in interpersonal conflicts.",
+      "The 'no' is used as a blanket avoidance strategy without assessing each situation.",
+      "The speaker implies that all feelings of incoherence are valid reasons for disengagement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 317,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "285862694ceef1df9d31c1a409d161cf0941b22dbf6c44f8ca94cc7474ea0181"
+}

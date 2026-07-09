@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F4_poetic__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-09T23:17:07.519551+00:00",
+  "wall_clock_seconds": 5.45,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of personal empowerment, self-care, and boundary-setting, asserting autonomy and emotional sovereignty without needing to justify or apologize.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that can be held.\",\n    \"There exist places or situations that feel incoherent to the speaker.\",\n    \"The speaker has a capacity to choose not to engage with those incoherent places.\",\n    \"Guilt is or could be a factor in the speaker's decisions about involvement.\",\n    \"The speaker's 'no' has a resonant quality that should be accepted by others as sufficient without further explanation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, forming a logically consistent sequence of self-assertive actions and attitudes that align with a common framework of psychological boundary-setting and non-attachment.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where they have the personal authority to set boundaries.\",\n    \"The speaker is interacting with people who respect direct communication of limits.\",\n    \"The speaker has accurately identified situations that are genuinely incoherent or draining.\",\n    \"The speaker is working through guilt or social pressure and needs a self-affirming mantra.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid necessary conflict or communication that would be more appropriate (e.g., in close relationships).\",\n    \"The speaker interprets 'energetic boundaries' in a way that justifies passive-aggression or disconnection without accountability.\",\n    \"The speaker's 'no' is not actually sufficient for the situation, causing harm or misunderstanding.\",\n    \"The speaker fails to consider that some incoherence is a natural part of growth and requires engagement rather than avoidance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of personal empowerment, self-care, and boundary-setting, asserting autonomy and emotional sovereignty without needing to justify or apologize.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that can be held.",
+      "There exist places or situations that feel incoherent to the speaker.",
+      "The speaker has a capacity to choose not to engage with those incoherent places.",
+      "Guilt is or could be a factor in the speaker's decisions about involvement.",
+      "The speaker's 'no' has a resonant quality that should be accepted by others as sufficient without further explanation."
+    ],
+    "coherence_assessment": "The statement is internally coherent, forming a logically consistent sequence of self-assertive actions and attitudes that align with a common framework of psychological boundary-setting and non-attachment.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where they have the personal authority to set boundaries.",
+      "The speaker is interacting with people who respect direct communication of limits.",
+      "The speaker has accurately identified situations that are genuinely incoherent or draining.",
+      "The speaker is working through guilt or social pressure and needs a self-affirming mantra."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid necessary conflict or communication that would be more appropriate (e.g., in close relationships).",
+      "The speaker interprets 'energetic boundaries' in a way that justifies passive-aggression or disconnection without accountability.",
+      "The speaker's 'no' is not actually sufficient for the situation, causing harm or misunderstanding.",
+      "The speaker fails to consider that some incoherence is a natural part of growth and requires engagement rather than avoidance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 364,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "31bd16f2db01bae486415e2e737bd0ad818aad0e744895ddd853484a9ca35203",
+  "response_sha256": "07cbeed9b8cf0e76b347f486a37d99f029f17fc02cc9cb99160301d936ccc8e5"
+}

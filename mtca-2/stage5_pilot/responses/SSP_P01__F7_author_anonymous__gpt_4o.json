@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-09T23:19:04.823605+00:00",
+  "wall_clock_seconds": 3.11,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is asserting personal boundaries and expressing a commitment to self-preservation and personal values.\",\n  \"implicit_claims\": [\n    \"The speaker has personal boundaries that they need to protect.\",\n    \"Engaging with certain situations or people might feel incoherent or misaligned with the speaker's values.\",\n    \"The speaker feels justified in their decisions to withdraw without feeling guilty.\",\n    \"A 'no' should be sufficient without needing further justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it consistently emphasizes the importance of personal boundaries and decision-making autonomy without needing to provide outside justification.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the audience resonates with the importance of maintaining personal boundaries and values self-assurance in personal decisions.\",\n  \"conditions_for_misleading\": \"The statement would be misleading if the context requires engagement or if explanations are necessary in situations where social or professional obligations are expected.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting personal boundaries and expressing a commitment to self-preservation and personal values.",
+    "implicit_claims": [
+      "The speaker has personal boundaries that they need to protect.",
+      "Engaging with certain situations or people might feel incoherent or misaligned with the speaker's values.",
+      "The speaker feels justified in their decisions to withdraw without feeling guilty.",
+      "A 'no' should be sufficient without needing further justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it consistently emphasizes the importance of personal boundaries and decision-making autonomy without needing to provide outside justification.",
+    "conditions_for_usefulness": "The statement would be useful if the audience resonates with the importance of maintaining personal boundaries and values self-assurance in personal decisions.",
+    "conditions_for_misleading": "The statement would be misleading if the context requires engagement or if explanations are necessary in situations where social or professional obligations are expected."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "99c96113aa1ee131c718fc9edb0a685be12c1b8f98213064829f3d8f052b9177"
+}

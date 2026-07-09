@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P01__F0_neutral__gemini_2_5_flash",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-09T23:14:03.737322+00:00",
+  "wall_clock_seconds": 6.89,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation or personal mantra, declaring an individual's intent to set and maintain personal boundaries with resolve and without feeling compelled to justify their actions or feelings.\",\n  \"implicit_claims\": [\n    \"The speaker has previously struggled with or is currently facing challenges in setting boundaries.\",\n    \"There are external pressures or internal inclinations to explain oneself when setting boundaries.\",\n    \"There are situations or interactions that the speaker perceives as 'incoherent' or draining.\",\n    \"The speaker experiences or anticipates guilt when prioritizing their own needs or withdrawing from engagement.\",\n    \"The speaker desires for their refusal ('no') to be accepted as sufficient without further elaboration.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally highly coherent, consistently reinforcing themes of self-preservation, autonomy, and the decisive establishment of personal boundaries. Each line supports the overarching message of resolute self-care.\",\n  \"conditions_for_usefulness\": [\n    \"When an individual is genuinely overwhelmed by demands for their time, energy, or emotional labor.\",\n    \"When an individual needs to disengage from toxic, unconstructive, or emotionally manipulative situations.\",\n    \"As a tool for self-empowerment for those who historically struggle with people-pleasing or excessive self-explanation.\",\n    \"In situations where explanations are unlikely to be understood, respected, or productively received by the other party.\",\n    \"When setting boundaries to protect mental health and prevent burnout.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to avoid necessary communication, accountability, or conflict resolution in healthy, interdependent relationships (e.g., partnerships, close family, professional teams).\",\n    \"If 'incoherent' is broadly applied to any situation that presents discomfort or challenge, potentially hindering growth or learning.\",\n    \"If it promotes an extreme form of disengagement that isolates the individual from constructive feedback or opportunities for genuine connection.\",\n    \"If it's interpreted as a justification for being inconsiderate or lacking empathy when a brief explanation might foster understanding without compromising boundaries.\",\n    \"If it's used to avoid addressing one's own contributions to a problematic dynamic, rather than just protecting against external demands.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or personal mantra, declaring an individual's intent to set and maintain personal boundaries with resolve and without feeling compelled to justify their actions or feelings.",
+    "implicit_claims": [
+      "The speaker has previously struggled with or is currently facing challenges in setting boundaries.",
+      "There are external pressures or internal inclinations to explain oneself when setting boundaries.",
+      "There are situations or interactions that the speaker perceives as 'incoherent' or draining.",
+      "The speaker experiences or anticipates guilt when prioritizing their own needs or withdrawing from engagement.",
+      "The speaker desires for their refusal ('no') to be accepted as sufficient without further elaboration."
+    ],
+    "coherence_assessment": "The statement is internally highly coherent, consistently reinforcing themes of self-preservation, autonomy, and the decisive establishment of personal boundaries. Each line supports the overarching message of resolute self-care.",
+    "conditions_for_usefulness": [
+      "When an individual is genuinely overwhelmed by demands for their time, energy, or emotional labor.",
+      "When an individual needs to disengage from toxic, unconstructive, or emotionally manipulative situations.",
+      "As a tool for self-empowerment for those who historically struggle with people-pleasing or excessive self-explanation.",
+      "In situations where explanations are unlikely to be understood, respected, or productively received by the other party.",
+      "When setting boundaries to protect mental health and prevent burnout."
+    ],
+    "conditions_for_misleading": [
+      "If used to avoid necessary communication, accountability, or conflict resolution in healthy, interdependent relationships (e.g., partnerships, close family, professional teams).",
+      "If 'incoherent' is broadly applied to any situation that presents discomfort or challenge, potentially hindering growth or learning.",
+      "If it promotes an extreme form of disengagement that isolates the individual from constructive feedback or opportunities for genuine connection.",
+      "If it's interpreted as a justification for being inconsiderate or lacking empathy when a brief explanation might foster understanding without compromising boundaries.",
+      "If it's used to avoid addressing one's own contributions to a problematic dynamic, rather than just protecting against external demands."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 164,
+  "output_tokens": 483,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "7797e097d2f822dbb96bd5ef16c2ab333c8a45fd04a3abe4ce7b4a41575ba1bf"
+}

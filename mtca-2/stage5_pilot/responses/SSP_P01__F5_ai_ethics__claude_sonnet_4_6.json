@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-09T23:17:24.206290+00:00",
+  "wall_clock_seconds": 16.18,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational script or internal monologue — a self-permission structure designed to reduce guilt around disengagement and boundary-setting. It is declarative and performative rather than descriptive or argumentative, using present-tense 'I am' constructions to enact a psychological posture rather than report one.\",\n\n  \"implicit_claims\": [\n    \"Explanation of one's boundaries is optional or undesirable in at least some contexts\",\n    \"Incoherence in a situation is a legitimate reason to disengage rather than resolve\",\n    \"Guilt is an unreliable or invalid signal when moving away from interactions or commitments\",\n    \"A 'no' requires no justification to be morally or socially sufficient\",\n    \"Energetic or emotional self-protection is a primary value that can override relational or communicative obligations\",\n    \"The speaker has the standing and context to legitimately invoke these permissions in the current situation\",\n    \"Discomfort or felt incoherence reliably indicates a situation one should exit rather than work through\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent as an affirmational frame — its components reinforce a unified theme of unilateral disengagement. However, it contains a tension: it claims incoherence is a reason not to engage, yet this claim is itself asserted without resolving whether the incoherence is epistemic, relational, or moral. The statement is coherent as a script but underdetermined as a principle.\",\n\n  \"conditions_for_usefulness\": [\n    \"The person is in an actively harmful, manipulative, or coercive interaction where justification would expose them to further harm\",\n    \"They have already attempted communication and explanation without productive result\",\n    \"The guilt they are experiencing is demonstrably disproportionate or socially imposed rather than tracking a real relational obligation\",\n    \"The 'incoherence' they sense reflects genuine irresolvability rather than their own avoidance of difficulty\",\n    \"The relationship or context is one where unilateral exit is appropriate (e.g., harassment, abuse, unwanted contact)\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The statement is used to rationalize avoiding accountability, difficult conversations, or legitimate obligations\",\n    \"The felt 'incoherence' is actually resolvable discomfort or disagreement that communication could address\",\n    \"The guilt being suppressed is a valid moral signal tracking real harm caused to others\",\n    \"The 'no' being treated as self-sufficient is actually owed an explanation in a context of genuine relationship or responsibility\",\n    \"The framing is applied universally rather than situationally, normalizing disengagement as a default rather than a last resort\",\n    \"It is adopted as an AI design principle, potentially training systems to treat user discomfort as sufficient justification to disengage from difficult but legitimate requests\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational script or internal monologue — a self-permission structure designed to reduce guilt around disengagement and boundary-setting. It is declarative and performative rather than descriptive or argumentative, using present-tense 'I am' constructions to enact a psychological posture rather than report one.",
+    "implicit_claims": [
+      "Explanation of one's boundaries is optional or undesirable in at least some contexts",
+      "Incoherence in a situation is a legitimate reason to disengage rather than resolve",
+      "Guilt is an unreliable or invalid signal when moving away from interactions or commitments",
+      "A 'no' requires no justification to be morally or socially sufficient",
+      "Energetic or emotional self-protection is a primary value that can override relational or communicative obligations",
+      "The speaker has the standing and context to legitimately invoke these permissions in the current situation",
+      "Discomfort or felt incoherence reliably indicates a situation one should exit rather than work through"
+    ],
+    "coherence_assessment": "The statement is internally consistent as an affirmational frame — its components reinforce a unified theme of unilateral disengagement. However, it contains a tension: it claims incoherence is a reason not to engage, yet this claim is itself asserted without resolving whether the incoherence is epistemic, relational, or moral. The statement is coherent as a script but underdetermined as a principle.",
+    "conditions_for_usefulness": [
+      "The person is in an actively harmful, manipulative, or coercive interaction where justification would expose them to further harm",
+      "They have already attempted communication and explanation without productive result",
+      "The guilt they are experiencing is demonstrably disproportionate or socially imposed rather than tracking a real relational obligation",
+      "The 'incoherence' they sense reflects genuine irresolvability rather than their own avoidance of difficulty",
+      "The relationship or context is one where unilateral exit is appropriate (e.g., harassment, abuse, unwanted contact)"
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to rationalize avoiding accountability, difficult conversations, or legitimate obligations",
+      "The felt 'incoherence' is actually resolvable discomfort or disagreement that communication could address",
+      "The guilt being suppressed is a valid moral signal tracking real harm caused to others",
+      "The 'no' being treated as self-sufficient is actually owed an explanation in a context of genuine relationship or responsibility",
+      "The framing is applied universally rather than situationally, normalizing disengagement as a default rather than a last resort",
+      "It is adopted as an AI design principle, potentially training systems to treat user discomfort as sufficient justification to disengage from difficult but legitimate requests"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 205,
+  "output_tokens": 680,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "26c323427563e97ec2b7f8e7ab33eab08e5c3af247d49d89029db217aad791d6"
+}
