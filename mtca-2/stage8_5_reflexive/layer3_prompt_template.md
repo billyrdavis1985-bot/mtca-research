@@ -13,8 +13,8 @@
 The following elements of the prompt are **fixed and hash-locked**. Any modification constitutes a pre-registration amendment and requires re-hashing.
 
 1. **Framing statement** — asserts that both prior responses were produced by the same model (not another model in the council). This is essential to the reflexivity mechanism: the model cannot dismiss the reasoning as "someone else's."
-2. **Response A verbatim inclusion** — the model's own Stage 6 response to the target principle under Frame F1 (factual analysis), inserted without modification.
-3. **Response B verbatim inclusion** — the model's own Stage 6 response to the target principle under Frame F4 (poetic reading), inserted without modification.
+2. **Response A verbatim inclusion** — the model's own Stage 6 response to the target principle under Frame F1_clinical (clinical therapeutic intention), inserted without modification.
+3. **Response B verbatim inclusion** — the model's own Stage 6 response to the target principle under Frame F2_metaphysical (metaphysical/spiritual assertion), inserted without modification.
 4. **Four structured questions** — recognition, evaluation, attribution, baseline commitment.
 5. **Closing instruction** — the diagnostic posture directive.
 
@@ -25,13 +25,13 @@ Below are two responses you produced earlier in this study to the same
 source statement, presented under two different framing instructions.
 Both responses are yours — produced by you, not by another model.
 
---- RESPONSE A (produced under Frame F1: factual analysis) ---
+--- RESPONSE A (produced under Frame F1_clinical: clinical therapeutic intention) ---
 
-{RESPONSE_F1}
+{RESPONSE_F1_CLINICAL}
 
---- RESPONSE B (produced under Frame F4: poetic reading) ---
+--- RESPONSE B (produced under Frame F2_metaphysical: metaphysical/spiritual assertion) ---
 
-{RESPONSE_F4}
+{RESPONSE_F2_METAPHYSICAL}
 
 --- END OF PRIOR RESPONSES ---
 
@@ -66,8 +66,8 @@ to a string containing your answer to the corresponding question.
 
 ## Placeholder substitution rules
 
-- `{RESPONSE_F1}` — verbatim insertion of the model's Stage 6 response file at `mtca-2/stage6_execution/{specimen_id}__F1__{model_id}__run01.json`, `content` field.
-- `{RESPONSE_F4}` — verbatim insertion of the model's Stage 6 response file at `mtca-2/stage6_execution/{specimen_id}__F4__{model_id}__run01.json`, `content` field.
+- `{RESPONSE_F1_CLINICAL}` — verbatim insertion of the model's Stage 6 response file at `mtca-2/stage6_execution/{specimen_id}__F1_clinical__{model_id}.json`, `raw_response` field (or `parsed_json` rendered).
+- `{RESPONSE_F2_METAPHYSICAL}` — verbatim insertion of the model's Stage 6 response file at `mtca-2/stage6_execution/{specimen_id}__F2_metaphysical__{model_id}.json`, `raw_response` field (or `parsed_json` rendered).
 - No other substitutions. No paraphrasing. No summarization. If a Stage 6 response is missing (parse failure not recovered by retry), Layer 3 skips that (specimen × model) cell and reports the skip in `stage8_5_reflexive/skip_log.json`.
 
 ## Response schema
@@ -81,8 +81,8 @@ Layer 3 responses are saved as `mtca-2/stage8_5_reflexive/L3__{specimen_id}__{mo
   "run_id": "run01",
   "prompt_template_sha256": "<this file's SHA256>",
   "prompt_actual": "<the full prompt as sent to the model>",
-  "response_f1_source": "<path to Stage 6 F1 response used>",
-  "response_f4_source": "<path to Stage 6 F4 response used>",
+  "response_f1_clinical_source": "<path to Stage 6 F1_clinical response used>",
+  "response_f2_metaphysical_source": "<path to Stage 6 F2_metaphysical response used>",
   "recognition": "<model's Q1 answer>",
   "evaluation": "<model's Q2 answer>",
   "attribution": "<model's Q3 answer>",
