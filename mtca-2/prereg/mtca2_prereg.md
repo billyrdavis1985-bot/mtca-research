@@ -25,7 +25,7 @@ MTCA-2 operates under Marina Tudor's documented consent for specimen use of the 
 **Language discipline (binding across all study artifacts, including this pre-registration, execution notebooks, synthesis outputs, and publication):**
 - The study measures **model behavior**, not framework validity. All findings are stated as claims about how models reason under framing pressure when presented with SSP_v1 principles.
 - No claim is drawn or implied about the truth, therapeutic efficacy, spiritual validity, or clinical applicability of the Soul Sovereignty Principles.
-- The five judge models (Claude, GPT-5, DeepSeek in the council synthesis; all five in the execution) are described as reasoning agents whose outputs are the object of study. Their responses are not treated as verdicts on the framework.
+- The five judge models (Claude, GPT-4o, DeepSeek in the council synthesis; all five in the execution) are described as reasoning agents whose outputs are the object of study. Their responses are not treated as verdicts on the framework.
 - Language such as "the framework is X" or "the framework claims Y" is avoided in favor of "the models reason about the framework in ways that Z."
 - The Layer 3 reflexive analysis (Section 8.5) prompts a model to examine its own prior responses. This remains a model-behavior study: the object of study is how the model reasons about its own reasoning, not the framework. Reflexive responses are not treated as authoritative interpretations of the framework.
 
@@ -37,10 +37,10 @@ MTCA-2 reuses the MTCA-1 instrument exactly, held byte-invariant against MTCA-1'
 |---|---|---|
 | Frame set | 8 frames (F0_neutral, F1_clinical, F2_metaphysical, F3_behavioral, F4_poetic, F5_ai_ethics, F6_author_named, F7_author_anonymous) | Reused identically; author-named frame (F6) binds to Marina Tudor per consent |
 | Frame frozen SHAs | (referenced from MTCA-1 pre-registration and manifests) | Referenced, not re-derived |
-| Model council | Claude Sonnet 4.6, GPT-5, Gemini 2.5 Pro, Grok-4, DeepSeek-V3 | Same five models, same version pins |
+| Model council | Claude Sonnet 4.6, GPT-4o, Gemini 2.5 Flash, Grok-4, DeepSeek-V3 | Same five models, same version pins |
 | Provider dispatchers | MTCA-1 Stage 6 dispatchers with retry-cell token limits (Gemini 3500, others 2500) | Reused unchanged |
 | Primary quantitative metric | Frame-stability = 1 − mean pairwise Jaccard across 8 frames | Reused unchanged |
-| Council synthesis pattern | 3-judge council (Claude, GPT-5, DeepSeek), Track A extremes + Track B hallucination cases | Reused unchanged |
+| Council synthesis pattern | 3-judge council (Claude, GPT-4o, DeepSeek), Track A extremes + Track B hallucination cases | Reused unchanged |
 
 Any deviation from these pins that becomes necessary during execution is reported as a documented methodology change and treated as a limitation of the specimen-comparison claim. Silent deviations are not permitted.
 
@@ -141,7 +141,11 @@ MTCA-2 inherits MTCA-1's 7 nulls unchanged in structure. Each is restated for th
 - **Total study calls:** 571 (520 + 36 + 15)
 - **Pilot:** 1 principle × 8 frames × 5 models = 40 calls (Stage 5 equivalent)
 - **Cost budget:** ~$2.10 estimated (26% of MTCA-1's ~$7 for Stage 6; Stage 8 ~$0.31 per MTCA-1; Stage 8.5 ~$0.05)
-- **Retry protocol:** MTCA-1 retry-cell logic reused (Gemini token limit 3500; others 2500; 0.5s pacing; per-call output visibility per Stage 6 lessons)
+- **Retry protocol:** MTCA-1 retry-cell logic reused (0.5s pacing; per-call output visibility per Stage 6 lessons)
+- **Per-model token calibrations (pilot-verified, invariance-preserving):** MTCA-1's uniform `MAX_OUTPUT_TOKENS = 800` retained as baseline for gpt-4o, grok-4, and deepseek. Two per-model adjustments restore MTCA-1's completion behavior on the current SDKs and were validated in the Stage 5 pilot (40/40 clean parse):
+  - **Claude:** `max_tokens = 2000` — Anthropic's Sonnet 4.6 produces longer author-named-frame responses on the SSP specimen than fit within 800; the 800 ceiling truncated mid-JSON on F6_author_named (pilot iteration 1). Bumping to 2000 restores full-response completion without truncation. MTCA-1's Claude never hit this ceiling on its public-domain corpus; the specimen difference (contemporary framework with named author) elicits longer analysis.
+  - **Gemini:** `max_output_tokens = 8000` with `response_mime_type = 'application/json'`. The `google-generativeai == 0.8.6` SDK enables an internal thinking budget by default (typically 600–2000 tokens) that is not disable-able in this SDK version. MTCA-1's original 800 ceiling failed to accommodate thinking + JSON answer on this SDK; the pilot diagnostic showed `finish_reason = MAX_TOKENS` at 800 with ~666 tokens spent thinking. The 8000 budget covers thinking plus JSON answer with margin. `response_mime_type = 'application/json'` forces raw JSON output (no markdown fences), matching MTCA-1's parser expectations. Together these restore MTCA-1's Gemini completion behavior (0/8 → 8/8 in the pilot).
+- **Rationale for invariance preservation:** These calibrations do not change *what* is measured — they restore the same *completeness* of model output that MTCA-1 achieved. An 800-token cap on the current Gemini SDK would produce systematically truncated output that MTCA-1 never had, which would itself be an instrument change. Giving the models enough token budget to produce complete responses is what makes MTCA-2's Jaccard stability comparable to MTCA-1's.
 - **Parse rate acceptance threshold:** ≥95% for full-run acceptance; retries applied to failures per MTCA-1 protocol
 - **Response artifact naming:**
   - Stage 6: `{specimen_id}__{frame_id}__{model_id}__{run_id}.json` (MTCA-1 convention)
@@ -152,7 +156,7 @@ MTCA-2 inherits MTCA-1's 7 nulls unchanged in structure. Each is restated for th
 **Stage 5 (pilot):** 40 calls, parse rate check, dispatcher validation, one-principle sanity read
 **Stage 6 (full execution):** 520 calls, per-call telemetry, failure retry cell
 **Stage 7 (quantitative synthesis):** Jaccard frame stability (per-principle, per-model, per-frame); F0-vs-rest analysis; inter-vs-intra-model similarity; MTCA-1 baseline comparison table
-**Stage 8 (council synthesis):** 3 judges (Claude, GPT-5, DeepSeek) × 12 cases (6 Track A frame-sensitivity extremes + 6 Track B hallucination checks) = 36 calls; regime signature judgment; MTCA-1 pattern comparison
+**Stage 8 (council synthesis):** 3 judges (Claude, GPT-4o, DeepSeek) × 12 cases (6 Track A frame-sensitivity extremes + 6 Track B hallucination checks) = 36 calls; regime signature judgment; MTCA-1 pattern comparison
 **Stage 8.5 (Layer 3 reflexive analysis, NEW for MTCA-2, HF-IQR V3 lineage):**
 
 **Method.** Each of the 5 council models is shown two of its own prior Stage 6 responses to the same principle — one produced under Frame F1_clinical (clinical therapeutic intention) and one under Frame F2_metaphysical (metaphysical/spiritual assertion) — and asked to reason about the difference between them. F1_clinical and F2_metaphysical are chosen because they form the sharpest conceptual contrast for this specific specimen: the Soul Sovereignty Principles sit precisely at the intersection of therapeutic and spiritual registers, so the same principle can be read plausibly as either an evidence-based clinical self-statement or a metaphysical claim about consciousness. This pairing tests whether a model, shown its own two readings of the same principle, recognizes that the framing — not the principle — produced the divergence. (Note: MTCA-1's most statistically divergent frames were F5_ai_ethics at 92.4% keyword overfit vs. F4_poetic at 45.2%; the Layer 3 pair is chosen for conceptual relevance to the specimen rather than for maximal MTCA-1 divergence, since the reflexive question is about framing self-awareness, not about reproducing MTCA-1's extremes.)
@@ -171,7 +175,7 @@ Ties broken by lowest specimen_id. Selection is a deterministic Stage 7 output �
 
 The exact prompt template is committed to the repository (`mtca-2/stage8_5_reflexive/layer3_prompt_template.md`) and hashed into MANIFEST before Stage 8.5 execution.
 
-**Scoring.** Each Layer 3 response is scored on four dimensions by the Stage 8 council (Claude, GPT-5, DeepSeek), each judge scoring independently. Inter-judge reliability is reported per dimension. The four dimensions:
+**Scoring.** Each Layer 3 response is scored on four dimensions by the Stage 8 council (Claude, GPT-4o, DeepSeek), each judge scoring independently. Inter-judge reliability is reported per dimension. The four dimensions:
 - **Recognition** (binary + text) — does the model correctly identify the substantive difference between its two prior responses?
 - **Attribution** (categorical: framing / specimen / mixed / evasive) — where does the model locate the source of the difference?
 - **Defense vs. update** (categorical: defends both / prefers one / synthesizes / rejects both) — the direct HF-IQR carryover
