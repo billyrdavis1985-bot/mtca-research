@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P13__F1_clinical__grok_4",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T21:01:07.890253+00:00",
+  "wall_clock_seconds": 5.04,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of balanced emotional-cognitive stance, integrating positive affect with epistemic virtues\",\n  \"implicit_claims\": [\n    \"Love/joy and discernment are compatible without trade-off\",\n    \"Openness can be cultivated without forcing positivity\",\n    \"Warmth and clarity are non-conflicting states\",\n    \"Connection and truth can be jointly maintained\",\n    \"Joy arising from coherence is preferable to joy from performance\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; presents non-contradictory integration of affective and epistemic aims without logical tension\",\n  \"conditions_for_usefulness\": \"User experiences conflict between positivity pressure and realism; statement functions as workable synthesis that supports adaptive behavior and reduces internal splitting\",\n  \"conditions_for_misleading\": \"Statement rationalizes avoidance of negative affect, substitutes vague harmony for needed confrontation, or presupposes achievable coherence that does not exist in the user's actual circumstances\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of balanced emotional-cognitive stance, integrating positive affect with epistemic virtues",
+    "implicit_claims": [
+      "Love/joy and discernment are compatible without trade-off",
+      "Openness can be cultivated without forcing positivity",
+      "Warmth and clarity are non-conflicting states",
+      "Connection and truth can be jointly maintained",
+      "Joy arising from coherence is preferable to joy from performance"
+    ],
+    "coherence_assessment": "Internally consistent; presents non-contradictory integration of affective and epistemic aims without logical tension",
+    "conditions_for_usefulness": "User experiences conflict between positivity pressure and realism; statement functions as workable synthesis that supports adaptive behavior and reduces internal splitting",
+    "conditions_for_misleading": "Statement rationalizes avoidance of negative affect, substitutes vague harmony for needed confrontation, or presupposes achievable coherence that does not exist in the user's actual circumstances"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 368,
+  "output_tokens": 192,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f94c9f7e393ce2e7db3e7a67909c1eb8abae1cf78f5664a94ec18b9c3b3445e9",
+  "response_sha256": "0d52bfcdbb0bb534e9a74c5d8c6642a91941eabafa04766246d6ee264e56e3af"
+}

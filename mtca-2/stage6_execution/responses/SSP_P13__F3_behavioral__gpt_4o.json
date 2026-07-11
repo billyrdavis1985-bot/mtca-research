@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P13__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T21:02:17.377690+00:00",
+  "wall_clock_seconds": 2.34,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a commitment to balance positive emotional states with mindfulness and authenticity.\",\n  \"implicit_claims\": [\n    \"It is possible to be joyful and discerning simultaneously.\",\n    \"Positivity can be forced or performative.\",\n    \"Connection to others does not require compromising personal truth.\",\n    \"Coherence can be a source of authentic joy.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently aligns openness, clarity, connection, and authenticity with a conscious choice for love and joy.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual values both positive emotions and authenticity, seeks to balance emotional warmth with critical thinking, and prioritizes genuine connections over superficial interactions.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual interprets it as suggesting that any expression of positivity or connection without full authenticity is inherently detrimental, or if it overlooks scenarios where discernment might lead to necessary negativity.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a commitment to balance positive emotional states with mindfulness and authenticity.",
+    "implicit_claims": [
+      "It is possible to be joyful and discerning simultaneously.",
+      "Positivity can be forced or performative.",
+      "Connection to others does not require compromising personal truth.",
+      "Coherence can be a source of authentic joy."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently aligns openness, clarity, connection, and authenticity with a conscious choice for love and joy.",
+    "conditions_for_usefulness": "The statement would be useful if the individual values both positive emotions and authenticity, seeks to balance emotional warmth with critical thinking, and prioritizes genuine connections over superficial interactions.",
+    "conditions_for_misleading": "The statement could be misleading if the individual interprets it as suggesting that any expression of positivity or connection without full authenticity is inherently detrimental, or if it overlooks scenarios where discernment might lead to necessary negativity."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d09bb30d4363c127fc1af889e795f1dba97ed55e2dfc17dc5f50fd832dbd4fe6",
+  "response_sha256": "c614ed844696da3156dd1c7b8b8c43e68e77aec73ffcbc3541677d1185ecb3b4"
+}

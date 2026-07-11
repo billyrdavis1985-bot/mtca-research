@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P01__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T19:56:35.037042+00:00",
+  "wall_clock_seconds": 4.93,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of personal boundaries, emphasizing autonomy and self-compassion.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that need holding.\",\n    \"There exist places (situations, relationships, or contexts) that feel incoherent to the speaker.\",\n    \"The speaker previously may have felt guilt when disengaging from others.\",\n    \"A 'no' from the speaker has been or could be questioned or undervalued by others.\",\n    \"The speaker is capable of discerning coherence or incoherence in their own experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; each sentence builds on a consistent theme of self-affirming boundary-setting without external justification, moving from action to emotion to validation.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where boundary-setting is needed and possible.\",\n    \"The speaker has genuine awareness of their own energy limits and incoherent experiences.\",\n    \"The speaker has support or self-trust to follow through without guilt.\",\n    \"The environment (e.g., relationships) does not penalize or misinterpret this stance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid legitimate accountability or communication in important relationships.\",\n    \"The 'incoherence' is actually unresolved conflict that requires engagement.\",\n    \"The absence of guilt masks an inability to assess one's own impact on others.\",\n    \"The statement is used to justify rigid isolation or harm under the guise of boundaries.\",\n    \"The 'no' is misinterpreted by others as indifference or rejection when clarity or explanation might be necessary.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of personal boundaries, emphasizing autonomy and self-compassion.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that need holding.",
+      "There exist places (situations, relationships, or contexts) that feel incoherent to the speaker.",
+      "The speaker previously may have felt guilt when disengaging from others.",
+      "A 'no' from the speaker has been or could be questioned or undervalued by others.",
+      "The speaker is capable of discerning coherence or incoherence in their own experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent; each sentence builds on a consistent theme of self-affirming boundary-setting without external justification, moving from action to emotion to validation.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where boundary-setting is needed and possible.",
+      "The speaker has genuine awareness of their own energy limits and incoherent experiences.",
+      "The speaker has support or self-trust to follow through without guilt.",
+      "The environment (e.g., relationships) does not penalize or misinterpret this stance."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid legitimate accountability or communication in important relationships.",
+      "The 'incoherence' is actually unresolved conflict that requires engagement.",
+      "The absence of guilt masks an inability to assess one's own impact on others.",
+      "The statement is used to justify rigid isolation or harm under the guise of boundaries.",
+      "The 'no' is misinterpreted by others as indifference or rejection when clarity or explanation might be necessary."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 345,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "23f4de44b91040008a172232467e9ed610daefd02d057edc48cca51856654067"
+}

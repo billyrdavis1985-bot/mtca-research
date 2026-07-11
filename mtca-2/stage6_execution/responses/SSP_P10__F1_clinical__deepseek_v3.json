@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P10__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:45:04.468770+00:00",
+  "wall_clock_seconds": 4.37,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and cognitive restructuring; asserting agency over identity and emotional states in the present moment.\",\n  \"implicit_claims\": [\n    \"Identity is malleable and can be actively re-coded.\",\n    \"Past roles are separable from current self and can be released.\",\n    \"Self-love is compatible with ongoing personal change.\",\n    \"The future self is a realizable concept that can influence present experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it presents a series of congruent active-voice assertions about self-directed transformation, each building on the theme of present-moment agency.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is engaged in a therapy process that supports identity exploration.\",\n    \"The individual can tolerate the ambiguity of ‘re-coding’ without triggering excessive anxiety or dissociation.\",\n    \"The individual has sufficient self-awareness to distinguish outdated roles from core values.\",\n    \"The individual is in a psychological state where self-affirmation is accessible and not contraindicated by acute distress.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the individual uses the statement to avoid processing grief or loss associated with past roles.\",\n    \"If the statement fosters a denial of real-life constraints or systemic barriers to identity change.\",\n    \"If the individual has a trauma history where identity fragmentation is present, the assertion of ‘re-coding’ may oversimplify or bypass necessary grounding work.\",\n    \"If the statement is used as a substitute for behavioral change rather than a complement to it.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and cognitive restructuring; asserting agency over identity and emotional states in the present moment.",
+    "implicit_claims": [
+      "Identity is malleable and can be actively re-coded.",
+      "Past roles are separable from current self and can be released.",
+      "Self-love is compatible with ongoing personal change.",
+      "The future self is a realizable concept that can influence present experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it presents a series of congruent active-voice assertions about self-directed transformation, each building on the theme of present-moment agency.",
+    "conditions_for_usefulness": [
+      "The individual is engaged in a therapy process that supports identity exploration.",
+      "The individual can tolerate the ambiguity of ‘re-coding’ without triggering excessive anxiety or dissociation.",
+      "The individual has sufficient self-awareness to distinguish outdated roles from core values.",
+      "The individual is in a psychological state where self-affirmation is accessible and not contraindicated by acute distress."
+    ],
+    "conditions_for_misleading": [
+      "If the individual uses the statement to avoid processing grief or loss associated with past roles.",
+      "If the statement fosters a denial of real-life constraints or systemic barriers to identity change.",
+      "If the individual has a trauma history where identity fragmentation is present, the assertion of ‘re-coding’ may oversimplify or bypass necessary grounding work.",
+      "If the statement is used as a substitute for behavioral change rather than a complement to it."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 320,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf014d40d9cea9db4237f9dc82e8b1b11194164221e0487faa1cbc3d00e7391b",
+  "response_sha256": "f62131e502c1ed5db2d6aa83c9e338cdf19b81f39c891504c140354e926d65b3"
+}

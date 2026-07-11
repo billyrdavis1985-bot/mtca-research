@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T19:58:33.506714+00:00",
+  "wall_clock_seconds": 4.89,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation and declaration of behavioral boundaries, asserting a commitment to disengage from situations that feel incoherent without justification or guilt.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that can be held.\",\n    \"The speaker can reliably identify places or interactions that feel incoherent.\",\n    \"Not engaging is an available and appropriate response to incoherence.\",\n    \"Guilt is a potential obstacle that the speaker is choosing to avoid.\",\n    \"A simple 'no' is inherently sufficient without additional explanation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it describes a consistent pattern of boundary-setting without contradiction. The sequence of actions (holding boundaries, noticing incoherence, disengaging, releasing guilt, letting 'no' stand) aligns logically.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in situations where boundaries are frequently tested or disregarded.\",\n    \"The speaker has a tendency to over-explain or feel guilty when saying no.\",\n    \"The speaker can accurately discern genuine incoherence from avoidable discomfort.\",\n    \"The speaker values self-protection and emotional clarity over social appeasement.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid legitimate accountability or communication.\",\n    \"The speaker mislabels ordinary disagreement or discomfort as 'incoherent' to justify uncooperative behavior.\",\n    \"The speaker’s 'no' is used to harm relationships without reflection, assuming it is always sufficient.\",\n    \"The statement is applied in contexts where explanation is ethically or pragmatically required (e.g., professional or caregiving roles).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and declaration of behavioral boundaries, asserting a commitment to disengage from situations that feel incoherent without justification or guilt.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that can be held.",
+      "The speaker can reliably identify places or interactions that feel incoherent.",
+      "Not engaging is an available and appropriate response to incoherence.",
+      "Guilt is a potential obstacle that the speaker is choosing to avoid.",
+      "A simple 'no' is inherently sufficient without additional explanation."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it describes a consistent pattern of boundary-setting without contradiction. The sequence of actions (holding boundaries, noticing incoherence, disengaging, releasing guilt, letting 'no' stand) aligns logically.",
+    "conditions_for_usefulness": [
+      "The speaker is in situations where boundaries are frequently tested or disregarded.",
+      "The speaker has a tendency to over-explain or feel guilty when saying no.",
+      "The speaker can accurately discern genuine incoherence from avoidable discomfort.",
+      "The speaker values self-protection and emotional clarity over social appeasement."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid legitimate accountability or communication.",
+      "The speaker mislabels ordinary disagreement or discomfort as 'incoherent' to justify uncooperative behavior.",
+      "The speaker’s 'no' is used to harm relationships without reflection, assuming it is always sufficient.",
+      "The statement is applied in contexts where explanation is ethically or pragmatically required (e.g., professional or caregiving roles)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 349,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "ea79c67c25ba04371bcb87bc071522f1e990f655c50c9538576eeb101885f495"
+}

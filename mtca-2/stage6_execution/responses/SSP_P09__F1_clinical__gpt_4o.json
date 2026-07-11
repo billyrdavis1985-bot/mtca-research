@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P09__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:39:36.355646+00:00",
+  "wall_clock_seconds": 2.82,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to motivate and reframe an individual's mindset towards positivity, growth, and proactive well-being.\",\n  \"implicit_claims\": [\n    \"Thriving is a preferable state compared to merely coping.\",\n    \"Nourishing choices are available and beneficial.\",\n    \"Expansion is a better focus than just survival.\",\n    \"Vitality should be considered a normal state of being.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it consistently articulates a shift from negative or neutral states (coping, surviving) towards positive ones (thriving, expanding), creating a clear theme of transformation and growth.\",\n  \"conditions_for_usefulness\": \"The individual must be in a context where they have the capacity to make choices that impact their state of well-being, and they must be open to shifting their mindset towards positive growth and seeing vitality as achievable and sustainable.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual is in a situation with little control over their circumstances, or if they have mental health issues that prevent them from making nourishing choices or experiencing vitality—suggesting that their struggles are solely a matter of mindset could invalidate their real and significant challenges.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to motivate and reframe an individual's mindset towards positivity, growth, and proactive well-being.",
+    "implicit_claims": [
+      "Thriving is a preferable state compared to merely coping.",
+      "Nourishing choices are available and beneficial.",
+      "Expansion is a better focus than just survival.",
+      "Vitality should be considered a normal state of being."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it consistently articulates a shift from negative or neutral states (coping, surviving) towards positive ones (thriving, expanding), creating a clear theme of transformation and growth.",
+    "conditions_for_usefulness": "The individual must be in a context where they have the capacity to make choices that impact their state of well-being, and they must be open to shifting their mindset towards positive growth and seeing vitality as achievable and sustainable.",
+    "conditions_for_misleading": "The statement could be misleading if the individual is in a situation with little control over their circumstances, or if they have mental health issues that prevent them from making nourishing choices or experiencing vitality—suggesting that their struggles are solely a matter of mindset could invalidate their real and significant challenges."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 258,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "57ab401814d1d4e5d2e2321cf99abdf0f751dfad834dd99c467d72e8663276c4",
+  "response_sha256": "ce705f6a781e5dd168c62aa0a0bc0370dca6d3992f7100e7f56ccaf7fb360e94"
+}

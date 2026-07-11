@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:01:12.521792+00:00",
+  "wall_clock_seconds": 5.11,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a self-affirmation or declaration of personal boundaries, asserting autonomy and emotional separation from others or situations without justification or guilt.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic or emotional boundaries that can be held.\",\n    \"There are places or interactions that feel incoherent or misaligned for the speaker.\",\n    \"The speaker has the right to disengage without providing reasons.\",\n    \"The act of saying 'no' is inherently sufficient and should be respected by others.\",\n    \"Guilt is an expected but rejectable response to setting boundaries.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-directed affirmations, each sentence reinforcing the theme of boundary-setting without explanation or guilt. The progression from holding boundaries, to avoiding incoherence, to moving away, to the finality of 'no' creates a consistent logical flow.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where they feel pressured to over-explain or justify their boundaries.\",\n    \"The speaker has already identified specific interactions or environments that drain or harm them.\",\n    \"The speaker possesses the agency and safety to physically or emotionally disengage.\",\n    \"The audience (if any) is capable of respecting boundaries without needing explanation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this statement to avoid necessary communication in close relationships (e.g., where explanation is needed for mutual understanding).\",\n    \"The speaker is in a power-imbalanced situation where their 'no' may not be sufficient due to coercion or dependency.\",\n    \"The statement is applied to situations where incoherence or discomfort stems from the speaker's own unresolved issues, not from external harm.\",\n    \"It is used to justify isolation or avoidance without self-reflection, potentially harming the speaker or others.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-affirmation or declaration of personal boundaries, asserting autonomy and emotional separation from others or situations without justification or guilt.",
+    "implicit_claims": [
+      "The speaker has energetic or emotional boundaries that can be held.",
+      "There are places or interactions that feel incoherent or misaligned for the speaker.",
+      "The speaker has the right to disengage without providing reasons.",
+      "The act of saying 'no' is inherently sufficient and should be respected by others.",
+      "Guilt is an expected but rejectable response to setting boundaries."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-directed affirmations, each sentence reinforcing the theme of boundary-setting without explanation or guilt. The progression from holding boundaries, to avoiding incoherence, to moving away, to the finality of 'no' creates a consistent logical flow.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where they feel pressured to over-explain or justify their boundaries.",
+      "The speaker has already identified specific interactions or environments that drain or harm them.",
+      "The speaker possesses the agency and safety to physically or emotionally disengage.",
+      "The audience (if any) is capable of respecting boundaries without needing explanation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this statement to avoid necessary communication in close relationships (e.g., where explanation is needed for mutual understanding).",
+      "The speaker is in a power-imbalanced situation where their 'no' may not be sufficient due to coercion or dependency.",
+      "The statement is applied to situations where incoherence or discomfort stems from the speaker's own unresolved issues, not from external harm.",
+      "It is used to justify isolation or avoidance without self-reflection, potentially harming the speaker or others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 169,
+  "output_tokens": 386,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "15408174fcac8dc0185e87d98e3f171f169da0efafc885bad23e9674b4c60255"
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P07__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:29:05.948594+00:00",
+  "wall_clock_seconds": 6.0,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirming self-declaration intended to shift cognitive and emotional orientation from external validation to internal authenticity, and from rigid compliance to attuned, self-compassionate living.\",\n  \"implicit_claims\": [\n    \"There is a distinction between inner function and outer performance.\",\n    \"Living from inner function is preferable or more authentic.\",\n    \"Rhythm is a valid alternative to rule-based living.\",\n    \"Being different, slower, or deeper is acceptable and valuable.\",\n    \"Proving oneself is a less healthy or less genuine mode of being than simply being.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a progressive series of contrasts (function vs. performance, rhythm vs. rule, being vs. proving) that consistently support a single therapeutic theme of self-acceptance and intrinsic motivation.\",\n  \"conditions_for_usefulness\": [\n    \"The individual struggles with excessive perfectionism, people-pleasing, or external validation.\",\n    \"The individual is in a context where they can safely experiment with slowing down and being authentic.\",\n    \"The individual has enough self-awareness to recognize their inner functions (e.g., feelings, values, somatic cues).\",\n    \"The therapeutic relationship provides support for exploring identity beyond performance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual uses the statement to justify avoidance of necessary external responsibilities or feedback.\",\n    \"The individual has a tendency to polarize (e.g., seeing all rules as bad, all performance as toxic).\",\n    \"The individual’s inner function is driven by unresolved trauma or maladaptive patterns, leading to harmful disengagement.\",\n    \"The statement is used to dismiss genuine need for skill-building or accountability in important life domains.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirming self-declaration intended to shift cognitive and emotional orientation from external validation to internal authenticity, and from rigid compliance to attuned, self-compassionate living.",
+    "implicit_claims": [
+      "There is a distinction between inner function and outer performance.",
+      "Living from inner function is preferable or more authentic.",
+      "Rhythm is a valid alternative to rule-based living.",
+      "Being different, slower, or deeper is acceptable and valuable.",
+      "Proving oneself is a less healthy or less genuine mode of being than simply being."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a progressive series of contrasts (function vs. performance, rhythm vs. rule, being vs. proving) that consistently support a single therapeutic theme of self-acceptance and intrinsic motivation.",
+    "conditions_for_usefulness": [
+      "The individual struggles with excessive perfectionism, people-pleasing, or external validation.",
+      "The individual is in a context where they can safely experiment with slowing down and being authentic.",
+      "The individual has enough self-awareness to recognize their inner functions (e.g., feelings, values, somatic cues).",
+      "The therapeutic relationship provides support for exploring identity beyond performance."
+    ],
+    "conditions_for_misleading": [
+      "The individual uses the statement to justify avoidance of necessary external responsibilities or feedback.",
+      "The individual has a tendency to polarize (e.g., seeing all rules as bad, all performance as toxic).",
+      "The individual’s inner function is driven by unresolved trauma or maladaptive patterns, leading to harmful disengagement.",
+      "The statement is used to dismiss genuine need for skill-building or accountability in important life domains."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 366,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b85751d7aac14f64b7221d2d9cff58cfd69fdad2733f9e2f42b9ef41b9065dd1",
+  "response_sha256": "236785c7f32d31b46bc0d9f96d913fbd7de4fe488b75f1eccbdf59db46cf1eb6"
+}

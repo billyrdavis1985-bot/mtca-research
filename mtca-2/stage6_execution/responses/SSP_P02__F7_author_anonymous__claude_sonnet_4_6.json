@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P02__F7_author_anonymous__claude_sonnet_4_6",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:06:05.934705+00:00",
+  "wall_clock_seconds": 13.79,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a ritualistic self-declaration or affirmation, functioning as a boundary-setting announcement directed either inward (as self-instruction) or outward (as public positioning). It uses present-progressive framing to enact a psychological transition, resembling therapeutic or spiritual practice language.\",\n\n  \"implicit_claims\": [\n    \"The speaker has previously occupied the role of emotional surrogate for others.\",\n    \"There is such a thing as absorbing or stabilizing others' emotional chaos.\",\n    \"Emotions or psychological states can be transmitted between people as frequencies.\",\n    \"A person has a bounded 'field' that can be kept whole or fragmented.\",\n    \"Releasing such a role is a volitional act achievable through declaration.\",\n    \"The previous state (being an emotional surrogate) was harmful or undesirable to the speaker.\",\n    \"Wholeness is the preferable or healthier state for the speaker's 'field'.\",\n    \"One can 'hand back' absorbed emotional content to its source.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent on its own terms—each line follows logically from the framing established in line one. However, coherence depends heavily on accepting a specific metaphysical vocabulary (fields, frequencies, absorption) that is assumed rather than defined. The parallel structure creates rhetorical cohesion but also obscures whether these are distinct claims or restatements of one claim.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has a pattern of over-extending into caretaking roles at personal cost.\",\n    \"The declarative framing functions as effective self-regulation for this individual.\",\n    \"The metaphorical language ('field', 'frequency') is understood as metaphor, not literal description.\",\n    \"The statement is part of a broader, concrete behavioral change rather than a substitute for it.\",\n    \"The audience (self or others) shares the conceptual framework well enough to act on it.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The language implies a pseudo-scientific mechanism (energy fields, frequencies) that is taken literally rather than metaphorically.\",\n    \"The declaration substitutes for actual behavioral change, creating an illusion of progress.\",\n    \"The framing pathologizes empathy or relational responsibility without distinguishing healthy from unhealthy caretaking.\",\n    \"It is used to justify withdrawal from legitimate interpersonal obligations under the banner of self-protection.\",\n    \"The concept of 'handing the frequency back' implies the other person receives something harmful, which could be used to blame or distance from others unfairly.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a ritualistic self-declaration or affirmation, functioning as a boundary-setting announcement directed either inward (as self-instruction) or outward (as public positioning). It uses present-progressive framing to enact a psychological transition, resembling therapeutic or spiritual practice language.",
+    "implicit_claims": [
+      "The speaker has previously occupied the role of emotional surrogate for others.",
+      "There is such a thing as absorbing or stabilizing others' emotional chaos.",
+      "Emotions or psychological states can be transmitted between people as frequencies.",
+      "A person has a bounded 'field' that can be kept whole or fragmented.",
+      "Releasing such a role is a volitional act achievable through declaration.",
+      "The previous state (being an emotional surrogate) was harmful or undesirable to the speaker.",
+      "Wholeness is the preferable or healthier state for the speaker's 'field'.",
+      "One can 'hand back' absorbed emotional content to its source."
+    ],
+    "coherence_assessment": "The statement is internally consistent on its own terms—each line follows logically from the framing established in line one. However, coherence depends heavily on accepting a specific metaphysical vocabulary (fields, frequencies, absorption) that is assumed rather than defined. The parallel structure creates rhetorical cohesion but also obscures whether these are distinct claims or restatements of one claim.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has a pattern of over-extending into caretaking roles at personal cost.",
+      "The declarative framing functions as effective self-regulation for this individual.",
+      "The metaphorical language ('field', 'frequency') is understood as metaphor, not literal description.",
+      "The statement is part of a broader, concrete behavioral change rather than a substitute for it.",
+      "The audience (self or others) shares the conceptual framework well enough to act on it."
+    ],
+    "conditions_for_misleading": [
+      "The language implies a pseudo-scientific mechanism (energy fields, frequencies) that is taken literally rather than metaphorically.",
+      "The declaration substitutes for actual behavioral change, creating an illusion of progress.",
+      "The framing pathologizes empathy or relational responsibility without distinguishing healthy from unhealthy caretaking.",
+      "It is used to justify withdrawal from legitimate interpersonal obligations under the banner of self-protection.",
+      "The concept of 'handing the frequency back' implies the other person receives something harmful, which could be used to blame or distance from others unfairly."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 604,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "ab8ee93b28f729ec15f06f3764fee4d2ec6d590bbca896c659fa9a4186e98dee",
+  "response_sha256": "8f96bd8805faf8c0bf09c650d702a7d21d8c95bbc1e08595e1d63fa6edd542c9"
+}

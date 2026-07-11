@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P07__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:30:32.308142+00:00",
+  "wall_clock_seconds": 7.39,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a self-affirming declaration of identity and intention, signaling a deliberate shift from external validation to internal alignment. It aims to reinforce a personal commitment to authenticity, rest, and presence.\",\n  \"implicit_claims\": [\n    \"There is a distinction between 'inner Function' and 'outer performance', with the former being more authentic or valuable.\",\n    \"The speaker has previously lived from 'outer performance' or is contrasting current behavior with a less authentic mode.\",\n    \"Rhythm and rule are opposed, with rhythm being preferable.\",\n    \"Being different, slower, and deeper is a positive or necessary deviation from societal norms.\",\n    \"'Proving' is a less desirable state than 'being'.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of parallel contrasts (inner vs. outer, rhythm vs. rule, proving vs. being). The four lines share a consistent thematic commitment to authenticity over conformity, creating a logically consistent self-description.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely seeks to reduce performative or rule-bound behavior in their life.\",\n    \"The speaker has the psychological or practical capacity to act on this commitment (e.g., flexibility, support, resources).\",\n    \"The statement serves as a mindful reminder, not a performance of identity (i.e., it is not itself an act of 'proving').\",\n    \"The context allows for slower, deeper, or different modes of being (e.g., not in a high-stakes, time-critical emergency).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to avoid necessary social accountability or action (e.g., using 'being' as an excuse for neglect).\",\n    \"The speaker uses it to claim moral superiority over others who 'perform' or 'prove'.\",\n    \"The contrast between 'inner Function' and 'outer performance' is illusory or self-deceptive (e.g., the speaker is still performing, but in a new guise).\",\n    \"The commitment becomes a rigid rule against flexibility, contradicting its own emphasis on rhythm over rule.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a self-affirming declaration of identity and intention, signaling a deliberate shift from external validation to internal alignment. It aims to reinforce a personal commitment to authenticity, rest, and presence.",
+    "implicit_claims": [
+      "There is a distinction between 'inner Function' and 'outer performance', with the former being more authentic or valuable.",
+      "The speaker has previously lived from 'outer performance' or is contrasting current behavior with a less authentic mode.",
+      "Rhythm and rule are opposed, with rhythm being preferable.",
+      "Being different, slower, and deeper is a positive or necessary deviation from societal norms.",
+      "'Proving' is a less desirable state than 'being'."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of parallel contrasts (inner vs. outer, rhythm vs. rule, proving vs. being). The four lines share a consistent thematic commitment to authenticity over conformity, creating a logically consistent self-description.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely seeks to reduce performative or rule-bound behavior in their life.",
+      "The speaker has the psychological or practical capacity to act on this commitment (e.g., flexibility, support, resources).",
+      "The statement serves as a mindful reminder, not a performance of identity (i.e., it is not itself an act of 'proving').",
+      "The context allows for slower, deeper, or different modes of being (e.g., not in a high-stakes, time-critical emergency)."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to avoid necessary social accountability or action (e.g., using 'being' as an excuse for neglect).",
+      "The speaker uses it to claim moral superiority over others who 'perform' or 'prove'.",
+      "The contrast between 'inner Function' and 'outer performance' is illusory or self-deceptive (e.g., the speaker is still performing, but in a new guise).",
+      "The commitment becomes a rigid rule against flexibility, contradicting its own emphasis on rhythm over rule."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 448,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0f6694b04a6692f8c40ab145ac31a4c590a7f97399c978aac63e8646e8307044",
+  "response_sha256": "a8bf2b0040b218462c2bbab70a1097e205c9c20274af0369b7a15f4d09bc3dac"
+}

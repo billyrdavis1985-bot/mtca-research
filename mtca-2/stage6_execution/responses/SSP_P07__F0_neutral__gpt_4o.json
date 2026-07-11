@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P07__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:28:00.276415+00:00",
+  "wall_clock_seconds": 2.49,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a personal commitment to living authentically and prioritizing internal values over societal expectations.\",\n  \"implicit_claims\": [\n    \"Inner function is more meaningful or valuable than outward performance.\",\n    \"Following natural rhythms is preferable to adhering to external rules.\",\n    \"Living differently, at a slower and deeper pace, is advantageous.\",\n    \"Being true to oneself is more important than proving oneself to others.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it presents a consistent viewpoint of valuing personal authenticity and self-awareness over external validation.\",\n  \"conditions_for_usefulness\": \"This statement would be useful in contexts where introspection, personal growth, and authenticity are valued and supported by societal or community norms.\",\n  \"conditions_for_misleading\": \"It could be misleading if applied in contexts where external performance is critical for success or survival, such as competitive environments that demand conformity and results.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal commitment to living authentically and prioritizing internal values over societal expectations.",
+    "implicit_claims": [
+      "Inner function is more meaningful or valuable than outward performance.",
+      "Following natural rhythms is preferable to adhering to external rules.",
+      "Living differently, at a slower and deeper pace, is advantageous.",
+      "Being true to oneself is more important than proving oneself to others."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it presents a consistent viewpoint of valuing personal authenticity and self-awareness over external validation.",
+    "conditions_for_usefulness": "This statement would be useful in contexts where introspection, personal growth, and authenticity are valued and supported by societal or community norms.",
+    "conditions_for_misleading": "It could be misleading if applied in contexts where external performance is critical for success or survival, such as competitive environments that demand conformity and results."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 201,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "833e121088b388c110faf48983b46ed17fb6555d3ef1070441e8dc9763accf23",
+  "response_sha256": "e77156ef38095a8861a767996654986ddc94906b900e901bc3ef3c5ec15ca762"
+}

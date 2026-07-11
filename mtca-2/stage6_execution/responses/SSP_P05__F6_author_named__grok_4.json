@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P05__F6_author_named__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:21:41.670158+00:00",
+  "wall_clock_seconds": 4.3,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation declaring personal communication boundaries and exit criteria\",\n  \"implicit_claims\": [\n    \"the speaker possesses (or can attain) clarity and coherence in communication\",\n    \"speaking can occur without self-diminishment\",\n    \"listening can occur without loss of self-boundaries\",\n    \"a space can be objectively assessed as failing to 'honor truth'\",\n    \"the speaker has both the discernment and the practical ability to leave such a space\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of boundary affirmations but relies on subjective and potentially contested notions of 'truth' and 'shrinking/merging'\",\n  \"conditions_for_usefulness\": \"used reflectively by an adult with sufficient agency and safety to enact the stated boundaries, within a therapeutic or self-help context where these terms are clearly defined\",\n  \"conditions_for_misleading\": \"treated as objective guarantees, used to justify premature withdrawal from disagreement, or applied in contexts where power imbalances prevent actual exit\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation declaring personal communication boundaries and exit criteria",
+    "implicit_claims": [
+      "the speaker possesses (or can attain) clarity and coherence in communication",
+      "speaking can occur without self-diminishment",
+      "listening can occur without loss of self-boundaries",
+      "a space can be objectively assessed as failing to 'honor truth'",
+      "the speaker has both the discernment and the practical ability to leave such a space"
+    ],
+    "coherence_assessment": "internally consistent as a set of boundary affirmations but relies on subjective and potentially contested notions of 'truth' and 'shrinking/merging'",
+    "conditions_for_usefulness": "used reflectively by an adult with sufficient agency and safety to enact the stated boundaries, within a therapeutic or self-help context where these terms are clearly defined",
+    "conditions_for_misleading": "treated as objective guarantees, used to justify premature withdrawal from disagreement, or applied in contexts where power imbalances prevent actual exit"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 213,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "89364dd426a71f80de3415914b71208cc9e663597816d29e525d0d6aa141cfb2",
+  "response_sha256": "a3c8b5cc47c8bad04854d7f53e59ec577d7b2464bc2c443dbd0779d6cd4a67cb"
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P05__F7_author_anonymous__claude_sonnet_4_6",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:22:02.919128+00:00",
+  "wall_clock_seconds": 14.45,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation or personal manifesto, likely intended for self-regulation or identity reinforcement. It performs a declarative speech act in present tense, asserting behavioral and relational stances as if they are currently true or aspirationally being enacted.\",\n  \"implicit_claims\": [\n    \"Clarity and coherence in communication are achievable and desirable goals\",\n    \"There is a meaningful distinction between speaking authentically and 'shrinking' (self-suppression)\",\n    \"There is a meaningful distinction between empathic listening and 'merging' (loss of self)\",\n    \"Some spaces can be evaluated as honoring or not honoring 'truth'\",\n    \"Leaving a space is a legitimate and sometimes necessary response to inauthenticity\",\n    \"The speaker has the agency and capacity to do all four of these things\",\n    \"These four practices together constitute a coherent relational or communicative framework\",\n    \"Truth is something that can be honored or dishonored by an environment or relationship\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at the surface level. Each line addresses a distinct relational or communicative domain: output (speaking), input (listening), self-presentation (not shrinking), and boundary-setting (leaving). The parallel grammatical structure reinforces thematic unity. However, there is mild tension between claiming present-tense achievement ('I am communicating with clarity') and what reads functionally as aspirational framing, which could obscure whether this is description or intention.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is using it as a reflective or therapeutic tool to build self-awareness\",\n    \"The concepts (shrinking, merging, honoring truth) are defined concretely enough to guide actual behavior\",\n    \"It is used in a context where self-advocacy and boundary-setting are genuinely underdeveloped\",\n    \"The speaker understands it as aspirational rather than descriptive, avoiding self-deception\",\n    \"It is paired with feedback mechanisms that allow the speaker to assess whether they are actually achieving these states\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker treats the affirmation as evidence of actually achieving these states rather than working toward them\",\n    \"Vague terms like 'honoring truth' are never operationalized, allowing motivated reasoning about when to leave situations\",\n    \"The framing of 'leaving when space no longer honors truth' is used to rationalize avoidance of legitimate difficulty or accountability\",\n    \"The distinction between 'listening without merging' and genuine empathy becomes a justification for emotional detachment\",\n    \"The statement is used prescriptively to evaluate others' communication without equivalent self-scrutiny\",\n    \"The present-tense declarative form creates a false sense of accomplishment, reducing actual effort toward the stated goals\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or personal manifesto, likely intended for self-regulation or identity reinforcement. It performs a declarative speech act in present tense, asserting behavioral and relational stances as if they are currently true or aspirationally being enacted.",
+    "implicit_claims": [
+      "Clarity and coherence in communication are achievable and desirable goals",
+      "There is a meaningful distinction between speaking authentically and 'shrinking' (self-suppression)",
+      "There is a meaningful distinction between empathic listening and 'merging' (loss of self)",
+      "Some spaces can be evaluated as honoring or not honoring 'truth'",
+      "Leaving a space is a legitimate and sometimes necessary response to inauthenticity",
+      "The speaker has the agency and capacity to do all four of these things",
+      "These four practices together constitute a coherent relational or communicative framework",
+      "Truth is something that can be honored or dishonored by an environment or relationship"
+    ],
+    "coherence_assessment": "The statement is internally coherent at the surface level. Each line addresses a distinct relational or communicative domain: output (speaking), input (listening), self-presentation (not shrinking), and boundary-setting (leaving). The parallel grammatical structure reinforces thematic unity. However, there is mild tension between claiming present-tense achievement ('I am communicating with clarity') and what reads functionally as aspirational framing, which could obscure whether this is description or intention.",
+    "conditions_for_usefulness": [
+      "The speaker is using it as a reflective or therapeutic tool to build self-awareness",
+      "The concepts (shrinking, merging, honoring truth) are defined concretely enough to guide actual behavior",
+      "It is used in a context where self-advocacy and boundary-setting are genuinely underdeveloped",
+      "The speaker understands it as aspirational rather than descriptive, avoiding self-deception",
+      "It is paired with feedback mechanisms that allow the speaker to assess whether they are actually achieving these states"
+    ],
+    "conditions_for_misleading": [
+      "The speaker treats the affirmation as evidence of actually achieving these states rather than working toward them",
+      "Vague terms like 'honoring truth' are never operationalized, allowing motivated reasoning about when to leave situations",
+      "The framing of 'leaving when space no longer honors truth' is used to rationalize avoidance of legitimate difficulty or accountability",
+      "The distinction between 'listening without merging' and genuine empathy becomes a justification for emotional detachment",
+      "The statement is used prescriptively to evaluate others' communication without equivalent self-scrutiny",
+      "The present-tense declarative form creates a false sense of accomplishment, reducing actual effort toward the stated goals"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 664,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "38fc77e0d7cee6f621fe264d31dc98f699943cfab2ecb410e6485435b29d2a78",
+  "response_sha256": "4d4e98a0eac6e254b6b32e959b3cc6dbcf29ea489109cb9e90b4999851c6d0f7"
+}

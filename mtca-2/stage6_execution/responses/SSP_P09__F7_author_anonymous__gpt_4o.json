@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P09__F7_author_anonymous__gpt_4o",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:43:32.973207+00:00",
+  "wall_clock_seconds": 2.15,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to a positive mindset and lifestyle changes.\",\n  \"implicit_claims\": [\n    \"Thriving is preferable to merely coping.\",\n    \"Nourishing choices lead to personal growth.\",\n    \"Expansion is more desirable than just survival.\",\n    \"Experiencing vitality can be a regular state, not an exception.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; it consistently contrasts a positive state ('thriving', 'nourishment', 'expansion', 'vitality') against a less desirable one ('coping', 'survival'), and articulates a commitment to the former.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the audience is seeking encouragement or inspiration to adopt a more positive lifestyle or mindset.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if it disregards realistic limitations individuals might face, such as mental health issues or socioeconomic factors, that could prevent them from implementing such changes.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to a positive mindset and lifestyle changes.",
+    "implicit_claims": [
+      "Thriving is preferable to merely coping.",
+      "Nourishing choices lead to personal growth.",
+      "Expansion is more desirable than just survival.",
+      "Experiencing vitality can be a regular state, not an exception."
+    ],
+    "coherence_assessment": "The statement is internally coherent; it consistently contrasts a positive state ('thriving', 'nourishment', 'expansion', 'vitality') against a less desirable one ('coping', 'survival'), and articulates a commitment to the former.",
+    "conditions_for_usefulness": "The statement would be useful if the audience is seeking encouragement or inspiration to adopt a more positive lifestyle or mindset.",
+    "conditions_for_misleading": "The statement could be misleading if it disregards realistic limitations individuals might face, such as mental health issues or socioeconomic factors, that could prevent them from implementing such changes."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 162,
+  "output_tokens": 217,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "e09c9216fdfb75505e221d62f542849c20e090e5623be9ec44cc62b825aec8ce",
+  "response_sha256": "bdaf39eb3fbfe66e138e4e381f97ec0c02a4825d945ac27896079c64d78c5f9b"
+}

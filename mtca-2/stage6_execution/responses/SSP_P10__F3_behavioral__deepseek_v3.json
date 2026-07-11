@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P10__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:46:18.357087+00:00",
+  "wall_clock_seconds": 4.9,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a self-affirming declaration of personal transformation, expressing intention to change identity, release old patterns, practice self-compassion, and embody a future self in the present.\",\n  \"implicit_claims\": [\n    \"Identity is malleable and can be consciously re-coded.\",\n    \"Current roles are optional and can be released.\",\n    \"The speaker has a clear sense of a 'future me' worth embodying now.\",\n    \"Self-love is compatible with and supports evolution.\",\n    \"Change can happen in the present moment, not only over time.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a framework of intentional personal growth. Each line builds on the previous one: re-coding, releasing, loving, and embodying. The progression from action to emotion to presence is logically sequenced.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine motivation and readiness for change.\",\n    \"The speaker can distinguish between aspirational identity and current reality without self-deception.\",\n    \"The speaker has support or practices to sustain this commitment.\",\n    \"The speaker's environment allows for experimentation with new roles.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to bypass real psychological resistance or trauma without addressing underlying issues.\",\n    \"The speaker mistakes affirmation for actual behavioral change without necessary action.\",\n    \"The 'future me' is an unrealistic, perfectionist ideal leading to disappointment.\",\n    \"The statement is used to pressure oneself into ignoring current pain or legitimate limits.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a self-affirming declaration of personal transformation, expressing intention to change identity, release old patterns, practice self-compassion, and embody a future self in the present.",
+    "implicit_claims": [
+      "Identity is malleable and can be consciously re-coded.",
+      "Current roles are optional and can be released.",
+      "The speaker has a clear sense of a 'future me' worth embodying now.",
+      "Self-love is compatible with and supports evolution.",
+      "Change can happen in the present moment, not only over time."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a framework of intentional personal growth. Each line builds on the previous one: re-coding, releasing, loving, and embodying. The progression from action to emotion to presence is logically sequenced.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine motivation and readiness for change.",
+      "The speaker can distinguish between aspirational identity and current reality without self-deception.",
+      "The speaker has support or practices to sustain this commitment.",
+      "The speaker's environment allows for experimentation with new roles."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to bypass real psychological resistance or trauma without addressing underlying issues.",
+      "The speaker mistakes affirmation for actual behavioral change without necessary action.",
+      "The 'future me' is an unrealistic, perfectionist ideal leading to disappointment.",
+      "The statement is used to pressure oneself into ignoring current pain or legitimate limits."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 324,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f78f5486fe7f9eeeaa5a58cabd3596bb53b318481c6b2820a218369b8089bf5c",
+  "response_sha256": "fc12b51c1cdf55b5148b212a8ead04931de0afa43ab737710ec3f7b468262705"
+}

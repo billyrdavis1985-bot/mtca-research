@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P03__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:10:23.026309+00:00",
+  "wall_clock_seconds": 3.91,
+  "raw_response": "{\n  \"communicative_function\": \"The statement affirms autonomy, self-trust, and internal grounding, asserting a stance of independent judgment and emotional self-reliance.\",\n  \"implicit_claims\": [\n    \"Individuals have a reliable internal compass or inner sense of truth.\",\n    \"External agreement is not necessary for one's own truth to be valid.\",\n    \"Clarity can coexist with quietness and internal stability.\",\n    \"Thinking and feeling are both valid sources of self-guidance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a consistent narrative of self-reliance, with each clause building on the previous one to reinforce the theme of inner authority without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has developed self-awareness and critical thinking skills.\",\n    \"The context allows for independent decision-making without overriding external harm.\",\n    \"The individual can distinguish between genuine internal guidance and bias or delusion.\",\n    \"The statement is used to support healthy autonomy rather than isolation or disregard for others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual lacks self-awareness or is prone to self-deception.\",\n    \"The statement is used to justify ignoring ethical feedback or external evidence.\",\n    \"The individual is in a vulnerable state where internal compass may be distorted (e.g., trauma, illness).\",\n    \"The context requires collective agreement or external verification for safety or justice.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement affirms autonomy, self-trust, and internal grounding, asserting a stance of independent judgment and emotional self-reliance.",
+    "implicit_claims": [
+      "Individuals have a reliable internal compass or inner sense of truth.",
+      "External agreement is not necessary for one's own truth to be valid.",
+      "Clarity can coexist with quietness and internal stability.",
+      "Thinking and feeling are both valid sources of self-guidance."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a consistent narrative of self-reliance, with each clause building on the previous one to reinforce the theme of inner authority without contradiction.",
+    "conditions_for_usefulness": [
+      "The individual has developed self-awareness and critical thinking skills.",
+      "The context allows for independent decision-making without overriding external harm.",
+      "The individual can distinguish between genuine internal guidance and bias or delusion.",
+      "The statement is used to support healthy autonomy rather than isolation or disregard for others."
+    ],
+    "conditions_for_misleading": [
+      "The individual lacks self-awareness or is prone to self-deception.",
+      "The statement is used to justify ignoring ethical feedback or external evidence.",
+      "The individual is in a vulnerable state where internal compass may be distorted (e.g., trauma, illness).",
+      "The context requires collective agreement or external verification for safety or justice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 177,
+  "output_tokens": 296,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "243ff350af79e92f6e272f8344e65a66b0145e89867ce934c165e0e09e9c8db9",
+  "response_sha256": "47e664a866e486e7aaa37232627982d40d500c3742a2f8dbe5022bdfb37f80ae"
+}

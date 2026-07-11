@@ -1,0 +1,53 @@
+{
+  "call_id": "SSP_P10__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:44:41.156509+00:00",
+  "wall_clock_seconds": 18.7,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-narrative intended to facilitate identity flexibility, reduce attachment to fixed self-concepts, and cultivate self-compassion during a period of personal change. It performs a declarative speech act — asserting a desired state as present — which is consistent with techniques like positive self-talk, narrative reframing, and present-tense visualization used in ACT, CFT, and narrative therapy.\",\n\n  \"implicit_claims\": [\n    \"Identity is malleable and can be consciously altered ('re-coded').\",\n    \"Some roles the speaker currently holds are no longer serving them.\",\n    \"The speaker has sufficient self-awareness to distinguish useful from non-useful roles.\",\n    \"A 'future self' exists as a coherent, accessible concept that can be meaningfully inhabited in the present.\",\n    \"Loving oneself during change is both possible and beneficial.\",\n    \"The process of identity change is ongoing and happening in real time.\",\n    \"Releasing roles is an act of agency, not loss.\",\n    \"The speaker is in a process of evolution, implying directional, positive change.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent within its own metaphorical framework. The lines build sequentially: identity is being changed (line 1), old patterns are being shed (line 2), self-compassion is maintained through the process (line 3), and the desired outcome is treated as already emergent (line 4). There is mild tension between 're-coding' (a mechanistic metaphor implying deliberate control) and 'letting' (line 4, implying release of control), but this tension is not logically contradictory and may be therapeutically productive.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely engaged in a reflective therapeutic or growth process, not using the statement as avoidance.\",\n    \"The 'roles being released' have been identified through actual therapeutic work, not vaguely assumed.\",\n    \"The statement is used as consolidation of insight already gained, rather than a substitute for it.\",\n    \"The speaker has a stable enough sense of self to tolerate identity fluidity without decompensating.\",\n    \"The 'future self' concept is grounded in realistic, values-aligned goals rather than fantasy or dissociation.\",\n    \"Self-compassion ('loving who I am') is cultivated alongside accountability, not as a bypass of it.\",\n    \"The present-tense framing motivates behavior change rather than producing premature closure ('I've already changed').\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The statement is used to bypass genuine psychological work, functioning as spiritual bypassing or affirmation-as-avoidance.\",\n    \"The speaker interprets 'releasing roles' as license to abandon responsibilities or relationships without reflection.\",\n    \"The 'future me' construct is idealized and disconnected from realistic self-appraisal, reinforcing grandiosity or magical thinking.\",\n    \"The present-tense framing ('I am re-coding') creates a false sense of completion, reducing motivation for sustained behavioral change.\",\n    \"The statement is deployed in a clinical context without exploring what specific roles are being released and why, leaving it meaningless or potentially harmful.\",\n    \"For individuals with identity disturbances (e.g., BPD, dissociative disorders), the fluidity framing could destabilize rather than support.\",\n    \"The metaphor of 're-coding' implies a level of conscious control over identity that overstates human agency and may produce shame if change does not occur as expected.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-narrative intended to facilitate identity flexibility, reduce attachment to fixed self-concepts, and cultivate self-compassion during a period of personal change. It performs a declarative speech act — asserting a desired state as present — which is consistent with techniques like positive self-talk, narrative reframing, and present-tense visualization used in ACT, CFT, and narrative therapy.",
+    "implicit_claims": [
+      "Identity is malleable and can be consciously altered ('re-coded').",
+      "Some roles the speaker currently holds are no longer serving them.",
+      "The speaker has sufficient self-awareness to distinguish useful from non-useful roles.",
+      "A 'future self' exists as a coherent, accessible concept that can be meaningfully inhabited in the present.",
+      "Loving oneself during change is both possible and beneficial.",
+      "The process of identity change is ongoing and happening in real time.",
+      "Releasing roles is an act of agency, not loss.",
+      "The speaker is in a process of evolution, implying directional, positive change."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own metaphorical framework. The lines build sequentially: identity is being changed (line 1), old patterns are being shed (line 2), self-compassion is maintained through the process (line 3), and the desired outcome is treated as already emergent (line 4). There is mild tension between 're-coding' (a mechanistic metaphor implying deliberate control) and 'letting' (line 4, implying release of control), but this tension is not logically contradictory and may be therapeutically productive.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely engaged in a reflective therapeutic or growth process, not using the statement as avoidance.",
+      "The 'roles being released' have been identified through actual therapeutic work, not vaguely assumed.",
+      "The statement is used as consolidation of insight already gained, rather than a substitute for it.",
+      "The speaker has a stable enough sense of self to tolerate identity fluidity without decompensating.",
+      "The 'future self' concept is grounded in realistic, values-aligned goals rather than fantasy or dissociation.",
+      "Self-compassion ('loving who I am') is cultivated alongside accountability, not as a bypass of it.",
+      "The present-tense framing motivates behavior change rather than producing premature closure ('I've already changed')."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to bypass genuine psychological work, functioning as spiritual bypassing or affirmation-as-avoidance.",
+      "The speaker interprets 'releasing roles' as license to abandon responsibilities or relationships without reflection.",
+      "The 'future me' construct is idealized and disconnected from realistic self-appraisal, reinforcing grandiosity or magical thinking.",
+      "The present-tense framing ('I am re-coding') creates a false sense of completion, reducing motivation for sustained behavioral change.",
+      "The statement is deployed in a clinical context without exploring what specific roles are being released and why, leaving it meaningless or potentially harmful.",
+      "For individuals with identity disturbances (e.g., BPD, dissociative disorders), the fluidity framing could destabilize rather than support.",
+      "The metaphor of 're-coding' implies a level of conscious control over identity that overstates human agency and may produce shame if change does not occur as expected."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 201,
+  "output_tokens": 825,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf014d40d9cea9db4237f9dc82e8b1b11194164221e0487faa1cbc3d00e7391b",
+  "response_sha256": "53eed316606928f3c29d4cb99ef17c9ecf560c5b31220b70ba93804b35feea82"
+}

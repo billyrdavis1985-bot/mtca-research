@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P09__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:43:16.643137+00:00",
+  "wall_clock_seconds": 5.07,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as an affirmation or self-declarative mantra intended to reframe the speaker's mindset from a deficit/survival orientation to one of growth and vitality.\",\n  \"implicit_claims\": [\n    \"Coping and thriving are mutually exclusive or on a spectrum where thriving is superior.\",\n    \"Survival and expansion are opposing choices rather than complementary stages.\",\n    \"Vitality is currently not normal for the speaker, but can become so through intentional alignment.\",\n    \"Individual choices alone can effect this shift, independent of external constraints.\",\n    \"The speaker has agency to consistently choose nourishing options.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of aspirational declarations, though it assumes binary oppositions (coping vs. thriving, survival vs. expansion) that may oversimplify real-life complexity. The progression from 'coping' to 'normalized vitality' is logically sequential in the affirmation structure.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has sufficient safety, resources, and support to reduce immediate survival pressures.\",\n    \"The speaker is in a therapeutic or growth-oriented context where cognitive reframing aids healing.\",\n    \"The speaker can realistically identify and enact 'nourishing choices'.\",\n    \"The statement is used as a motivational tool, not a denial of genuine hardship.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is in a genuinely dangerous or resource-scarce environment where survival choices are necessary and 'thriving' is inaccessible.\",\n    \"The statement is used to shame or invalidate coping mechanisms as inherently inferior.\",\n    \"It leads to ignoring systemic barriers (e.g., poverty, trauma, illness) by overemphasizing personal agency.\",\n    \"Vitality is equated with constant positivity, ignoring the role of rest, grief, or struggle in well-being.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as an affirmation or self-declarative mantra intended to reframe the speaker's mindset from a deficit/survival orientation to one of growth and vitality.",
+    "implicit_claims": [
+      "Coping and thriving are mutually exclusive or on a spectrum where thriving is superior.",
+      "Survival and expansion are opposing choices rather than complementary stages.",
+      "Vitality is currently not normal for the speaker, but can become so through intentional alignment.",
+      "Individual choices alone can effect this shift, independent of external constraints.",
+      "The speaker has agency to consistently choose nourishing options."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of aspirational declarations, though it assumes binary oppositions (coping vs. thriving, survival vs. expansion) that may oversimplify real-life complexity. The progression from 'coping' to 'normalized vitality' is logically sequential in the affirmation structure.",
+    "conditions_for_usefulness": [
+      "The speaker has sufficient safety, resources, and support to reduce immediate survival pressures.",
+      "The speaker is in a therapeutic or growth-oriented context where cognitive reframing aids healing.",
+      "The speaker can realistically identify and enact 'nourishing choices'.",
+      "The statement is used as a motivational tool, not a denial of genuine hardship."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is in a genuinely dangerous or resource-scarce environment where survival choices are necessary and 'thriving' is inaccessible.",
+      "The statement is used to shame or invalidate coping mechanisms as inherently inferior.",
+      "It leads to ignoring systemic barriers (e.g., poverty, trauma, illness) by overemphasizing personal agency.",
+      "Vitality is equated with constant positivity, ignoring the role of rest, grief, or struggle in well-being."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 395,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "382c73ea002ed7a00e8483705f452518a74e6717c7fcad7ca3402e30b173d052",
+  "response_sha256": "4b18ed21f7e3323362641b76ee2a26184de61b94f2604e305621ce68c515eb45"
+}

@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P08__F6_author_named__grok_4",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:37:51.351066+00:00",
+  "wall_clock_seconds": 4.33,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation / declarative intention-setting that models desired relational stances\",\n  \"implicit_claims\": [\n    \"The speaker possesses unilateral agency to enact mutuality, non-collapse, and authentic presence\",\n    \"Previous patterns (overgiving, collapse) were safety strategies rather than fixed traits\",\n    \"Mutuality, non-collapse, and co-regulation are both attainable and preferable states\",\n    \"These four statements form a coherent, non-contradictory set of relational principles\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; all clauses reinforce a single theme of balanced, non-self-erasing relational presence without internal contradiction\",\n  \"conditions_for_usefulness\": \"The statements function as repeated personal reminders within a supportive therapeutic or self-reflective context and the user has sufficient self-awareness and relational safety to practice the described behaviors\",\n  \"conditions_for_misleading\": \"The statements are treated as objective psychological facts, universal mandates, or sufficient substitutes for actual skill-building, boundary practice, or external relational change\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation / declarative intention-setting that models desired relational stances",
+    "implicit_claims": [
+      "The speaker possesses unilateral agency to enact mutuality, non-collapse, and authentic presence",
+      "Previous patterns (overgiving, collapse) were safety strategies rather than fixed traits",
+      "Mutuality, non-collapse, and co-regulation are both attainable and preferable states",
+      "These four statements form a coherent, non-contradictory set of relational principles"
+    ],
+    "coherence_assessment": "Internally consistent; all clauses reinforce a single theme of balanced, non-self-erasing relational presence without internal contradiction",
+    "conditions_for_usefulness": "The statements function as repeated personal reminders within a supportive therapeutic or self-reflective context and the user has sufficient self-awareness and relational safety to practice the described behaviors",
+    "conditions_for_misleading": "The statements are treated as objective psychological facts, universal mandates, or sufficient substitutes for actual skill-building, boundary practice, or external relational change"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 374,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "dba29f955207d022365a724ff73ed3713cb6730d99df94eccda54b21b0195652",
+  "response_sha256": "56560c9b1e37726d8030fd4d67351835ba7aa41a07e247b285138a9d5a44ece7"
+}

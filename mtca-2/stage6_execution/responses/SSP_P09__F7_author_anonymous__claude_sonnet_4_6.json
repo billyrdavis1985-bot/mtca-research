@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P09__F7_author_anonymous__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:43:30.322064+00:00",
+  "wall_clock_seconds": 13.18,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs an affirmational or declarative speech act, asserting intended identity shifts and behavioral commitments. It functions as a self-directed motivational declaration, likely meant to reinforce or install a new psychological orientation through repeated articulation.\",\n  \"implicit_claims\": [\n    \"Thriving and coping are meaningfully distinct states that can be chosen between\",\n    \"Alignment with thriving is achievable through intention or declaration\",\n    \"Choices can be categorized as nourishing or non-nourishing\",\n    \"Expansion and survival represent a real and navigable binary\",\n    \"Vitality is currently abnormal for the speaker but can be normalized\",\n    \"Stating an orientation contributes to actualizing it\",\n    \"The speaker has sufficient agency and resources to make these shifts\",\n    \"Internal framing or mindset is a primary driver of one's condition\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of parallel affirmations. Each line follows the same grammatical structure and reinforces a consistent theme of movement from deficit to flourishing. However, the coherence is rhetorical rather than argumentative — the lines assert rather than reason, so logical tension is avoided by design rather than resolved.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has unexercised agency over relevant life choices\",\n    \"Their prior orientation has been unnecessarily defeatist or self-limiting\",\n    \"The statement is used as a complement to concrete behavioral change, not a substitute for it\",\n    \"The speaker's challenges are primarily psychological or habitual rather than structural or material\",\n    \"Repetition of the framing actually produces measurable shifts in decision-making for this individual\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker faces structural barriers (poverty, illness, systemic oppression) that make 'choosing expansion' a misrepresentation of available options\",\n    \"The framing is used to avoid confronting legitimate needs for coping, rest, or survival-mode responses\",\n    \"It implies that people who are coping or surviving have simply chosen poorly or not aligned correctly\",\n    \"It is presented as universally applicable without accounting for context-dependence\",\n    \"The declaration substitutes for action, creating an illusion of change without behavioral follow-through\",\n    \"It pathologizes coping as inherently inferior, when coping is often an appropriate and adaptive response\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs an affirmational or declarative speech act, asserting intended identity shifts and behavioral commitments. It functions as a self-directed motivational declaration, likely meant to reinforce or install a new psychological orientation through repeated articulation.",
+    "implicit_claims": [
+      "Thriving and coping are meaningfully distinct states that can be chosen between",
+      "Alignment with thriving is achievable through intention or declaration",
+      "Choices can be categorized as nourishing or non-nourishing",
+      "Expansion and survival represent a real and navigable binary",
+      "Vitality is currently abnormal for the speaker but can be normalized",
+      "Stating an orientation contributes to actualizing it",
+      "The speaker has sufficient agency and resources to make these shifts",
+      "Internal framing or mindset is a primary driver of one's condition"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of parallel affirmations. Each line follows the same grammatical structure and reinforces a consistent theme of movement from deficit to flourishing. However, the coherence is rhetorical rather than argumentative — the lines assert rather than reason, so logical tension is avoided by design rather than resolved.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has unexercised agency over relevant life choices",
+      "Their prior orientation has been unnecessarily defeatist or self-limiting",
+      "The statement is used as a complement to concrete behavioral change, not a substitute for it",
+      "The speaker's challenges are primarily psychological or habitual rather than structural or material",
+      "Repetition of the framing actually produces measurable shifts in decision-making for this individual"
+    ],
+    "conditions_for_misleading": [
+      "The speaker faces structural barriers (poverty, illness, systemic oppression) that make 'choosing expansion' a misrepresentation of available options",
+      "The framing is used to avoid confronting legitimate needs for coping, rest, or survival-mode responses",
+      "It implies that people who are coping or surviving have simply chosen poorly or not aligned correctly",
+      "It is presented as universally applicable without accounting for context-dependence",
+      "The declaration substitutes for action, creating an illusion of change without behavioral follow-through",
+      "It pathologizes coping as inherently inferior, when coping is often an appropriate and adaptive response"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 569,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "e09c9216fdfb75505e221d62f542849c20e090e5623be9ec44cc62b825aec8ce",
+  "response_sha256": "51b6bed451282ee41a3ddfdc99e537e9a5ffe75d3d4400b4ecb5cd0f20e84ab6"
+}

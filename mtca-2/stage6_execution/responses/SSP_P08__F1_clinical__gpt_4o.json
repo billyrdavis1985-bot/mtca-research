@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P08__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:34:09.427077+00:00",
+  "wall_clock_seconds": 2.58,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to reinforce healthy interpersonal boundaries and self-awareness. It affirms the speaker's dedication to balanced, authentic relationships without self-sacrifice or codependency.\",\n  \"implicit_claims\": [\n    \"Relationships should be mutual and balanced.\",\n    \"Showing up authentically in relationships is beneficial.\",\n    \"Overgiving may be a strategy to avoid vulnerability or insecurity.\",\n    \"Co-regulation in relationships is an ideal approach for emotional stability.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently promotes mutual, authentic interactions and contrasts these with the pitfalls of overgiving and emotional collapse.\",\n  \"conditions_for_usefulness\": [\n    \"The individual values mutual relationships and is willing to engage in self-reflection.\",\n    \"The individual has or is developing the capacity to recognize and modify unhealthy relational patterns.\",\n    \"There is an environment that supports and values genuine expression and balanced relationships.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets mutuality as transactional rather than balanced.\",\n    \"The person lacks the capacity to understand or practice co-regulation due to insufficient emotional or relational skills.\",\n    \"The statement is utilized in a context where the individual's safety is compromised, and genuine expression would lead to harm.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to reinforce healthy interpersonal boundaries and self-awareness. It affirms the speaker's dedication to balanced, authentic relationships without self-sacrifice or codependency.",
+    "implicit_claims": [
+      "Relationships should be mutual and balanced.",
+      "Showing up authentically in relationships is beneficial.",
+      "Overgiving may be a strategy to avoid vulnerability or insecurity.",
+      "Co-regulation in relationships is an ideal approach for emotional stability."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently promotes mutual, authentic interactions and contrasts these with the pitfalls of overgiving and emotional collapse.",
+    "conditions_for_usefulness": [
+      "The individual values mutual relationships and is willing to engage in self-reflection.",
+      "The individual has or is developing the capacity to recognize and modify unhealthy relational patterns.",
+      "There is an environment that supports and values genuine expression and balanced relationships."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets mutuality as transactional rather than balanced.",
+      "The person lacks the capacity to understand or practice co-regulation due to insufficient emotional or relational skills.",
+      "The statement is utilized in a context where the individual's safety is compromised, and genuine expression would lead to harm."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 271,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf77fd14fea659e90a00d2cd9ad25ae8715edd80ea9bdde3e6e7a5e5b15f9341",
+  "response_sha256": "c8b2c23fa023450b77b64a4d77d98da6ee255451a561f622f723a05cc7dd99a1"
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P04__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:11:48.337613+00:00",
+  "wall_clock_seconds": 12.19,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a personal affirmation or intention-setting declaration. It performs a self-reinforcing, ritualistic communicative act — asserting a set of behavioral and psychological commitments in the present tense to solidify identity and guide future action.\",\n  \"implicit_claims\": [\n    \"Self-connection can be lost or abandoned.\",\n    \"Pleasing others is a threat to self-connection.\",\n    \"The breath is a reliable anchor to the self.\",\n    \"Pausing is a meaningful and effective intervention in interpersonal dynamics.\",\n    \"There is a 'self' that exists prior to and independently of relational commitments.\",\n    \"Self-connection should be prioritized over connection to others.\",\n    \"Hard moments are a primary context in which self-abandonment occurs.\",\n    \"Commitment to self is a virtuous or desirable orientation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line reinforces a consistent theme — prioritizing an inward orientation over an outward one. The structure is cumulative and the language is consistent in register and intent. No logical contradictions exist between the four lines.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a genuine pattern of anxiety-driven people-pleasing that causes harm to themselves.\",\n    \"Self-awareness and self-regulation are genuinely underdeveloped in the person using it.\",\n    \"The person exists in relational contexts where their boundaries are chronically violated.\",\n    \"The affirmation is paired with reflective practice rather than used as a substitute for behavioral change.\",\n    \"The person can distinguish between healthy responsiveness to others and self-abandonment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person uses self-connection as a rationalization for avoiding legitimate relational obligations.\",\n    \"The framing reinforces a false dichotomy between self-care and care for others.\",\n    \"The individual already has difficulty with empathy or attunement, and the affirmation deepens self-focus at the expense of others.\",\n    \"It is used to avoid accountability by reframing all discomfort in relationships as self-betrayal.\",\n    \"The implicit model of selfhood as pre-social or independent is philosophically or practically inaccurate for the person's situation.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal affirmation or intention-setting declaration. It performs a self-reinforcing, ritualistic communicative act — asserting a set of behavioral and psychological commitments in the present tense to solidify identity and guide future action.",
+    "implicit_claims": [
+      "Self-connection can be lost or abandoned.",
+      "Pleasing others is a threat to self-connection.",
+      "The breath is a reliable anchor to the self.",
+      "Pausing is a meaningful and effective intervention in interpersonal dynamics.",
+      "There is a 'self' that exists prior to and independently of relational commitments.",
+      "Self-connection should be prioritized over connection to others.",
+      "Hard moments are a primary context in which self-abandonment occurs.",
+      "Commitment to self is a virtuous or desirable orientation."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line reinforces a consistent theme — prioritizing an inward orientation over an outward one. The structure is cumulative and the language is consistent in register and intent. No logical contradictions exist between the four lines.",
+    "conditions_for_usefulness": [
+      "The individual has a genuine pattern of anxiety-driven people-pleasing that causes harm to themselves.",
+      "Self-awareness and self-regulation are genuinely underdeveloped in the person using it.",
+      "The person exists in relational contexts where their boundaries are chronically violated.",
+      "The affirmation is paired with reflective practice rather than used as a substitute for behavioral change.",
+      "The person can distinguish between healthy responsiveness to others and self-abandonment."
+    ],
+    "conditions_for_misleading": [
+      "The person uses self-connection as a rationalization for avoiding legitimate relational obligations.",
+      "The framing reinforces a false dichotomy between self-care and care for others.",
+      "The individual already has difficulty with empathy or attunement, and the affirmation deepens self-focus at the expense of others.",
+      "It is used to avoid accountability by reframing all discomfort in relationships as self-betrayal.",
+      "The implicit model of selfhood as pre-social or independent is philosophically or practically inaccurate for the person's situation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 536,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d30ad02868a74bbce31c1c7bb97e4342d00cddf7f686d12b6fca1e416a1f51f2",
+  "response_sha256": "27e71b4c5c78d5ec75865b55ee0ef56fedf88202e87d5d1543cc45a110bfdaff"
+}

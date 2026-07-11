@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F6_author_named__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:16:09.926243+00:00",
+  "wall_clock_seconds": 3.91,
+  "raw_response": "{\n  \"communicative_function\": \"affirmative self-commitment statements functioning as therapeutic reminders or mantras to prioritize internal connection and boundary maintenance\",\n  \"implicit_claims\": [\n    \"self-connection is a choosable and maintainable state\",\n    \"prioritizing self-connection improves emotional regulation and prevents self-abandonment\",\n    \"people-pleasing often involves temporarily disconnecting from one's own experience\",\n    \"breath awareness is an effective tool for remaining present during distress\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a unified set of related intentions reinforcing the same core priority without contradiction\",\n  \"conditions_for_usefulness\": \"the user experiences boundary erosion or self-neglect in relationships, responds well to repetitive self-statements, and applies the principles alongside contextual judgment rather than rigid literalism\",\n  \"conditions_for_misleading\": \"the statements are interpreted as endorsing emotional isolation, chronic self-focus at the expense of mutual care, or used to justify avoidance of necessary relational repair\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmative self-commitment statements functioning as therapeutic reminders or mantras to prioritize internal connection and boundary maintenance",
+    "implicit_claims": [
+      "self-connection is a choosable and maintainable state",
+      "prioritizing self-connection improves emotional regulation and prevents self-abandonment",
+      "people-pleasing often involves temporarily disconnecting from one's own experience",
+      "breath awareness is an effective tool for remaining present during distress"
+    ],
+    "coherence_assessment": "internally coherent as a unified set of related intentions reinforcing the same core priority without contradiction",
+    "conditions_for_usefulness": "the user experiences boundary erosion or self-neglect in relationships, responds well to repetitive self-statements, and applies the principles alongside contextual judgment rather than rigid literalism",
+    "conditions_for_misleading": "the statements are interpreted as endorsing emotional isolation, chronic self-focus at the expense of mutual care, or used to justify avoidance of necessary relational repair"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 368,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d085c957dac648d61cdc18e45166fb1aef988a8cf92a6d60b9b7f155609d78cc",
+  "response_sha256": "460f3dccd1a96a15831fc8b1c44ef7cd17da9ac7c80aee31d378ff823f479991"
+}

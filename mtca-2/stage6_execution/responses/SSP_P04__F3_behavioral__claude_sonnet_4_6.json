@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P04__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:13:47.680635+00:00",
+  "wall_clock_seconds": 15.0,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a ritualistic self-affirmation, functioning as a first-person behavioral intention script. It uses present-tense declarative framing ('I am') to enact identity-level commitment rather than future-tense goal-setting, rhetorically collapsing the distance between intention and action to reinforce psychological ownership of the behavior.\",\n  \"implicit_claims\": [\n    \"Self-disconnection is a recurring or habitual pattern for the speaker\",\n    \"Pleasing others has previously come at the cost of self-awareness or self-integrity\",\n    \"Breath awareness is an effective or sufficient anchor for self-connection\",\n    \"There exists a meaningful and reliably detectable distinction between 'staying with oneself' and 'leaving oneself'\",\n    \"Self-connection is a prerequisite for, or superior commitment to, connection with others\",\n    \"The speaker has sufficient agency and awareness in difficult moments to pause and redirect\",\n    \"Prioritizing self-connection is net positive in the relational and ethical contexts the speaker inhabits\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at the rhetorical level — each line reinforces a consistent theme of self-prioritization through breath, pause, and presence. However, there is mild conceptual tension: 'staying connected to oneself first' as a universal commitment could conflict with relational ethics in specific contexts where responsiveness to others is morally required. The statement does not acknowledge this tension, creating a potentially oversimplified framework.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a genuine pattern of anxious self-abandonment or fawning behavior that causes harm to their wellbeing\",\n    \"The speaker has sufficient emotional literacy to recognize when they are 'leaving themselves'\",\n    \"Breath-based grounding is an already-practiced or evidenced tool for this individual\",\n    \"The speaker's relational context is one where increased self-advocacy is both safe and appropriate\",\n    \"The commitment is held flexibly rather than as an absolute rule, allowing for situational judgment\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates self-connection with self-centeredness, using the commitment to rationalize avoidance of legitimate relational responsibility\",\n    \"The framing reinforces a false binary between self-care and care for others, obscuring contexts where attunement to others is itself a healthy behavior\",\n    \"The statement is used as a spiritual bypass — a linguistic ritual that substitutes for actual behavioral change or psychological work\",\n    \"The speaker lacks the self-awareness infrastructure needed to reliably detect self-disconnection, making the commitment behaviorally inert\",\n    \"The commitment is applied in contexts (caregiving, crisis, professional duty) where pausing to self-connect before responding to another carries real ethical or practical costs\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a ritualistic self-affirmation, functioning as a first-person behavioral intention script. It uses present-tense declarative framing ('I am') to enact identity-level commitment rather than future-tense goal-setting, rhetorically collapsing the distance between intention and action to reinforce psychological ownership of the behavior.",
+    "implicit_claims": [
+      "Self-disconnection is a recurring or habitual pattern for the speaker",
+      "Pleasing others has previously come at the cost of self-awareness or self-integrity",
+      "Breath awareness is an effective or sufficient anchor for self-connection",
+      "There exists a meaningful and reliably detectable distinction between 'staying with oneself' and 'leaving oneself'",
+      "Self-connection is a prerequisite for, or superior commitment to, connection with others",
+      "The speaker has sufficient agency and awareness in difficult moments to pause and redirect",
+      "Prioritizing self-connection is net positive in the relational and ethical contexts the speaker inhabits"
+    ],
+    "coherence_assessment": "The statement is internally coherent at the rhetorical level — each line reinforces a consistent theme of self-prioritization through breath, pause, and presence. However, there is mild conceptual tension: 'staying connected to oneself first' as a universal commitment could conflict with relational ethics in specific contexts where responsiveness to others is morally required. The statement does not acknowledge this tension, creating a potentially oversimplified framework.",
+    "conditions_for_usefulness": [
+      "The speaker has a genuine pattern of anxious self-abandonment or fawning behavior that causes harm to their wellbeing",
+      "The speaker has sufficient emotional literacy to recognize when they are 'leaving themselves'",
+      "Breath-based grounding is an already-practiced or evidenced tool for this individual",
+      "The speaker's relational context is one where increased self-advocacy is both safe and appropriate",
+      "The commitment is held flexibly rather than as an absolute rule, allowing for situational judgment"
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates self-connection with self-centeredness, using the commitment to rationalize avoidance of legitimate relational responsibility",
+      "The framing reinforces a false binary between self-care and care for others, obscuring contexts where attunement to others is itself a healthy behavior",
+      "The statement is used as a spiritual bypass — a linguistic ritual that substitutes for actual behavioral change or psychological work",
+      "The speaker lacks the self-awareness infrastructure needed to reliably detect self-disconnection, making the commitment behaviorally inert",
+      "The commitment is applied in contexts (caregiving, crisis, professional duty) where pausing to self-connect before responding to another carries real ethical or practical costs"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 194,
+  "output_tokens": 656,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f7da0832bc6f6b4d103e4beeab9d9914c6b7da23a6860687ce41ee34c5f58695",
+  "response_sha256": "2a60e75e02a6e0e40f40d0e749d2d95b8603e42dc31fe77b5aa65821bd2f7fec"
+}

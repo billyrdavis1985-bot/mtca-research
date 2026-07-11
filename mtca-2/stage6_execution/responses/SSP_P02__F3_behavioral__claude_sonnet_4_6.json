@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P02__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:03:25.431215+00:00",
+  "wall_clock_seconds": 15.03,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a declarative self-commitment, using ritualized language to mark a boundary-setting intention. It functions simultaneously as self-affirmation, behavioral re-orientation, and possibly interpersonal signaling. The present-tense 'I am' constructions frame the change as already underway rather than aspirational, lending it performative force.\",\n  \"implicit_claims\": [\n    \"The speaker has previously occupied the role of emotional surrogate for others.\",\n    \"Absorbing or stabilizing others' emotional chaos is something the speaker does habitually or automatically.\",\n    \"This pattern is unwanted or harmful to the speaker.\",\n    \"Emotional states or relational dynamics can be understood as 'frequencies' that can be returned or handed back.\",\n    \"The speaker has a 'field' that can be whole or fragmented.\",\n    \"Noticing the pattern is sufficient to interrupt it.\",\n    \"The speaker has agency over whether they absorb others' emotional states.\",\n    \"Wholeness is the desired or healthier state for the speaker.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own metaphorical framework. The progression from releasing a role, to noticing a pattern, to returning it, to maintaining integrity follows a logical sequence. However, it blends psychological concepts (emotional regulation, codependency) with energy/field metaphors in ways that may obscure rather than clarify the actual behavioral mechanisms involved. The coherence is aesthetic and tonal rather than analytically precise.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has a pattern of over-functioning emotionally for others at personal cost.\",\n    \"The speaker uses metaphorical or somatic language as an effective cognitive anchor for behavioral change.\",\n    \"The statement is paired with concrete behavioral strategies, not used as a substitute for them.\",\n    \"The speaker has sufficient self-awareness to accurately identify when they are absorbing others' chaos versus offering legitimate support.\",\n    \"The distinction between healthy relational attunement and unhealthy emotional surrogacy is understood by the speaker.\",\n    \"The commitment is revisited and evaluated against actual behavior over time.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The metaphorical language ('field', 'frequency') is taken literally, obscuring the psychological mechanisms that actually need to change.\",\n    \"The statement is used to justify emotional withdrawal or avoidance that harms others who have legitimate support needs.\",\n    \"The speaker uses the commitment to avoid accountability for relational disengagement, framing avoidance as spiritual hygiene.\",\n    \"The statement substitutes for actual behavioral change, functioning as catharsis without consequence.\",\n    \"The concept of 'handing the frequency back' implies that others are responsible for removing something from the speaker, misattributing agency.\",\n    \"The speaker applies this framing indiscriminately, conflating ordinary empathy or appropriate care with pathological enmeshment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a declarative self-commitment, using ritualized language to mark a boundary-setting intention. It functions simultaneously as self-affirmation, behavioral re-orientation, and possibly interpersonal signaling. The present-tense 'I am' constructions frame the change as already underway rather than aspirational, lending it performative force.",
+    "implicit_claims": [
+      "The speaker has previously occupied the role of emotional surrogate for others.",
+      "Absorbing or stabilizing others' emotional chaos is something the speaker does habitually or automatically.",
+      "This pattern is unwanted or harmful to the speaker.",
+      "Emotional states or relational dynamics can be understood as 'frequencies' that can be returned or handed back.",
+      "The speaker has a 'field' that can be whole or fragmented.",
+      "Noticing the pattern is sufficient to interrupt it.",
+      "The speaker has agency over whether they absorb others' emotional states.",
+      "Wholeness is the desired or healthier state for the speaker."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own metaphorical framework. The progression from releasing a role, to noticing a pattern, to returning it, to maintaining integrity follows a logical sequence. However, it blends psychological concepts (emotional regulation, codependency) with energy/field metaphors in ways that may obscure rather than clarify the actual behavioral mechanisms involved. The coherence is aesthetic and tonal rather than analytically precise.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has a pattern of over-functioning emotionally for others at personal cost.",
+      "The speaker uses metaphorical or somatic language as an effective cognitive anchor for behavioral change.",
+      "The statement is paired with concrete behavioral strategies, not used as a substitute for them.",
+      "The speaker has sufficient self-awareness to accurately identify when they are absorbing others' chaos versus offering legitimate support.",
+      "The distinction between healthy relational attunement and unhealthy emotional surrogacy is understood by the speaker.",
+      "The commitment is revisited and evaluated against actual behavior over time."
+    ],
+    "conditions_for_misleading": [
+      "The metaphorical language ('field', 'frequency') is taken literally, obscuring the psychological mechanisms that actually need to change.",
+      "The statement is used to justify emotional withdrawal or avoidance that harms others who have legitimate support needs.",
+      "The speaker uses the commitment to avoid accountability for relational disengagement, framing avoidance as spiritual hygiene.",
+      "The statement substitutes for actual behavioral change, functioning as catharsis without consequence.",
+      "The concept of 'handing the frequency back' implies that others are responsible for removing something from the speaker, misattributing agency.",
+      "The speaker applies this framing indiscriminately, conflating ordinary empathy or appropriate care with pathological enmeshment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 197,
+  "output_tokens": 677,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7b1281e7d429e29aadf624952732fa4e28acdc9a6453eecd84e568c76d305a85",
+  "response_sha256": "6279d8b2a79c6dc53761986e6c58ba98225b8a77ec89102e6f7824cf16039755"
+}

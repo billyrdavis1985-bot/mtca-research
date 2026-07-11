@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P11__F6_author_named__grok_4",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:53:24.781933+00:00",
+  "wall_clock_seconds": 4.78,
+  "raw_response": "{\n  \"communicative_function\": \"performative affirmation and self-declaration of mindset shift toward reduced striving and increased receptivity\",\n  \"implicit_claims\": [\n    \"ease, rest, clarity, and flow are inherently available without prior justification or merit\",\n    \"effort is frequently habitual and unnecessary rather than required\",\n    \"simplicity is the default state that can be chosen\",\n    \"resistance to life is an internal posture that can be voluntarily released\",\n    \"the speaker has previously operated under the opposite assumptions\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a consistent set of parallel affirmations promoting the same underlying value of non-striving\",\n  \"conditions_for_usefulness\": \"the user experiences chronic over-effort, guilt around rest, or anxiety-driven complexity and the affirmations support adaptive behavioral change without impairing necessary action\",\n  \"conditions_for_misleading\": \"the statements are interpreted as endorsing literal passivity, avoidance of required effort, or denial of external constraints that legitimately demand resistance or work\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative affirmation and self-declaration of mindset shift toward reduced striving and increased receptivity",
+    "implicit_claims": [
+      "ease, rest, clarity, and flow are inherently available without prior justification or merit",
+      "effort is frequently habitual and unnecessary rather than required",
+      "simplicity is the default state that can be chosen",
+      "resistance to life is an internal posture that can be voluntarily released",
+      "the speaker has previously operated under the opposite assumptions"
+    ],
+    "coherence_assessment": "internally coherent as a consistent set of parallel affirmations promoting the same underlying value of non-striving",
+    "conditions_for_usefulness": "the user experiences chronic over-effort, guilt around rest, or anxiety-driven complexity and the affirmations support adaptive behavioral change without impairing necessary action",
+    "conditions_for_misleading": "the statements are interpreted as endorsing literal passivity, avoidance of required effort, or denial of external constraints that legitimately demand resistance or work"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 385,
+  "output_tokens": 210,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "6fe4dd6eff2865f7768f0ff35256005b5565279e5da1cf986809ef75dfc0cd5c",
+  "response_sha256": "48f33ca43dc33f111e040619d3286c7e1ebbac140fd6b395c4c3882c29d1a596"
+}

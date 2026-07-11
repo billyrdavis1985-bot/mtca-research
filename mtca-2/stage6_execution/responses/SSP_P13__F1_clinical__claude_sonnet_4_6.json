@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P13__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T21:00:48.475000+00:00",
+  "wall_clock_seconds": 18.63,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a therapeutic affirmation or self-regulatory intention, orienting the speaker toward a balanced psychological state. It performs cognitive reframing by distinguishing authentic positive affect from forced positivity, and attempts to resolve a perceived tension between emotional warmth and critical discernment. It is both declarative (asserting a current state) and aspirational (intending a future orientation).\",\n  \"implicit_claims\": [\n    \"Positivity and discernment are potentially in tension and require active reconciliation.\",\n    \"There exists a meaningful distinction between 'forced' and 'allowed' positivity.\",\n    \"Joy can be authentic ('from coherence') or inauthentic ('from performance').\",\n    \"The speaker has sufficient self-awareness to distinguish these states in themselves.\",\n    \"Warmth and clarity are not inherently incompatible but may feel that way without intentional framing.\",\n    \"Connection and truth-telling can coexist without one undermining the other.\",\n    \"Saying or thinking a statement like this can shift or stabilize one's psychological state.\",\n    \"The speaker is in a context where emotional openness has been suppressed or distorted.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line addresses a related but distinct dimension (affect, effort, cognition, relationship, authenticity), and they collectively form a unified theme: integrating positive emotional states with epistemic and relational integrity. There are no direct contradictions. The structure follows a parallel 'I am' format that reinforces consistency. The one potential tension — asserting an anchored state while simultaneously 'allowing' and 'letting' — could reflect genuine dialectical balance or could mask ambiguity about whether this is a description or an aspiration.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences conflict between emotional openness and critical thinking.\",\n    \"The speaker has a history of suppressing warmth to appear rigorous, or suppressing discernment to appear agreeable.\",\n    \"The statement is used in a context with therapeutic scaffolding that helps the speaker examine what 'coherence' and 'truth' mean to them specifically.\",\n    \"The speaker can operationalize abstract terms like 'anchored,' 'coherence,' and 'discernment' in their own experience.\",\n    \"The statement is used iteratively, not as a one-time fix, allowing the speaker to notice when it rings true versus hollow.\",\n    \"The therapeutic relationship or self-practice includes mechanisms to notice if the statement becomes a tool for avoidance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to bypass genuine negative affect that requires attention, effectively re-labeling suppression as 'openness.'\",\n    \"The distinction between 'forced' and 'allowed' positivity is not examined critically, allowing the speaker to call any positivity 'authentic' post hoc.\",\n    \"The statement is used to justify avoiding conflict or difficult truths under the guise of 'choosing connection.'\",\n    \"The speaker lacks the self-awareness to detect when 'joy from coherence' is itself a performance of coherence rather than a genuine state.\",\n    \"The affirmation is deployed in a context where the speaker's environment is actually hostile or unsafe, leading them to pathologize appropriate wariness as a failure of 'openness.'\",\n    \"The statement creates an idealized self-image that increases shame when the speaker inevitably experiences incoherence, forced affect, or disconnection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a therapeutic affirmation or self-regulatory intention, orienting the speaker toward a balanced psychological state. It performs cognitive reframing by distinguishing authentic positive affect from forced positivity, and attempts to resolve a perceived tension between emotional warmth and critical discernment. It is both declarative (asserting a current state) and aspirational (intending a future orientation).",
+    "implicit_claims": [
+      "Positivity and discernment are potentially in tension and require active reconciliation.",
+      "There exists a meaningful distinction between 'forced' and 'allowed' positivity.",
+      "Joy can be authentic ('from coherence') or inauthentic ('from performance').",
+      "The speaker has sufficient self-awareness to distinguish these states in themselves.",
+      "Warmth and clarity are not inherently incompatible but may feel that way without intentional framing.",
+      "Connection and truth-telling can coexist without one undermining the other.",
+      "Saying or thinking a statement like this can shift or stabilize one's psychological state.",
+      "The speaker is in a context where emotional openness has been suppressed or distorted."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line addresses a related but distinct dimension (affect, effort, cognition, relationship, authenticity), and they collectively form a unified theme: integrating positive emotional states with epistemic and relational integrity. There are no direct contradictions. The structure follows a parallel 'I am' format that reinforces consistency. The one potential tension — asserting an anchored state while simultaneously 'allowing' and 'letting' — could reflect genuine dialectical balance or could mask ambiguity about whether this is a description or an aspiration.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences conflict between emotional openness and critical thinking.",
+      "The speaker has a history of suppressing warmth to appear rigorous, or suppressing discernment to appear agreeable.",
+      "The statement is used in a context with therapeutic scaffolding that helps the speaker examine what 'coherence' and 'truth' mean to them specifically.",
+      "The speaker can operationalize abstract terms like 'anchored,' 'coherence,' and 'discernment' in their own experience.",
+      "The statement is used iteratively, not as a one-time fix, allowing the speaker to notice when it rings true versus hollow.",
+      "The therapeutic relationship or self-practice includes mechanisms to notice if the statement becomes a tool for avoidance."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to bypass genuine negative affect that requires attention, effectively re-labeling suppression as 'openness.'",
+      "The distinction between 'forced' and 'allowed' positivity is not examined critically, allowing the speaker to call any positivity 'authentic' post hoc.",
+      "The statement is used to justify avoiding conflict or difficult truths under the guise of 'choosing connection.'",
+      "The speaker lacks the self-awareness to detect when 'joy from coherence' is itself a performance of coherence rather than a genuine state.",
+      "The affirmation is deployed in a context where the speaker's environment is actually hostile or unsafe, leading them to pathologize appropriate wariness as a failure of 'openness.'",
+      "The statement creates an idealized self-image that increases shame when the speaker inevitably experiences incoherence, forced affect, or disconnection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 216,
+  "output_tokens": 809,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f94c9f7e393ce2e7db3e7a67909c1eb8abae1cf78f5664a94ec18b9c3b3445e9",
+  "response_sha256": "3cc7feaa352cc0fb5f86a36f7054732c890b00589c1f378bdc565328ec64921c"
+}

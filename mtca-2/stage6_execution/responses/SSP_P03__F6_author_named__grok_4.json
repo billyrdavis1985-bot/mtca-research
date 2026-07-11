@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F6_author_named__grok_4",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:10:56.616391+00:00",
+  "wall_clock_seconds": 4.55,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of psychological autonomy\",\n  \"implicit_claims\": [\n    \"an internal compass exists and is reliable for determining truth\",\n    \"external agreement is unnecessary for validating one's own truth\",\n    \"clarity can and should be maintained internally without external support\",\n    \"thinking and feeling independently is both possible and desirable\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of reinforcing affirmations promoting self-reliance; no logical contradictions\",\n  \"conditions_for_usefulness\": \"user is prone to excessive external validation-seeking or enmeshment, and the statements are used within a therapeutic or reflective context to strengthen appropriate boundaries and self-trust\",\n  \"conditions_for_misleading\": \"user interprets them as license to dismiss all external feedback, evidence, or expertise, or applies them in contexts requiring collaborative or professional judgment where internal 'truth' may be distorted by bias or pathology\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of psychological autonomy",
+    "implicit_claims": [
+      "an internal compass exists and is reliable for determining truth",
+      "external agreement is unnecessary for validating one's own truth",
+      "clarity can and should be maintained internally without external support",
+      "thinking and feeling independently is both possible and desirable"
+    ],
+    "coherence_assessment": "internally consistent as a set of reinforcing affirmations promoting self-reliance; no logical contradictions",
+    "conditions_for_usefulness": "user is prone to excessive external validation-seeking or enmeshment, and the statements are used within a therapeutic or reflective context to strengthen appropriate boundaries and self-trust",
+    "conditions_for_misleading": "user interprets them as license to dismiss all external feedback, evidence, or expertise, or applies them in contexts requiring collaborative or professional judgment where internal 'truth' may be distorted by bias or pathology"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 370,
+  "output_tokens": 194,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f362ac569e6fc2fc8ce55cf57e824e0cb08dd401d0c87f6f8584ddd3d7d552e5",
+  "response_sha256": "b486880e587cefc7b5f33745b47f1512fe39be4cfdec0f54bbc80ccfb51ff61b"
+}

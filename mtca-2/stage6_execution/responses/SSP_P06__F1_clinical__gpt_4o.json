@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P06__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:23:16.570692+00:00",
+  "wall_clock_seconds": 2.04,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"This statement is intended to foster self-awareness and promote positive self-affirmation, encouraging individuals to make mindful choices about their environments and emotional states.\",\n  \"implicit_claims\": [\n    \"Environments can have a direct impact on one's nervous system and emotional state.\",\n    \"The individual has the power to choose their environments and responses.\",\n    \"Peace and alignment are beneficial and achievable states.\",\n    \"There is a distinction between choices made out of obligation and those made out of personal alignment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, with each sentence contributing to the overarching theme of self-care through environmental and emotional awareness and choice.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual has the ability to choose their environments and if they are receptive to the concept of aligning with environments that match their emotional needs.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual is not in a position to change their environment due to external limitations, or if they interpret the message as placing sole responsibility on them for their well-being, ignoring external factors.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "This statement is intended to foster self-awareness and promote positive self-affirmation, encouraging individuals to make mindful choices about their environments and emotional states.",
+    "implicit_claims": [
+      "Environments can have a direct impact on one's nervous system and emotional state.",
+      "The individual has the power to choose their environments and responses.",
+      "Peace and alignment are beneficial and achievable states.",
+      "There is a distinction between choices made out of obligation and those made out of personal alignment."
+    ],
+    "coherence_assessment": "The statement is internally coherent, with each sentence contributing to the overarching theme of self-care through environmental and emotional awareness and choice.",
+    "conditions_for_usefulness": "The statement would be useful if the individual has the ability to choose their environments and if they are receptive to the concept of aligning with environments that match their emotional needs.",
+    "conditions_for_misleading": "The statement could be misleading if the individual is not in a position to change their environment due to external limitations, or if they interpret the message as placing sole responsibility on them for their well-being, ignoring external factors."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 183,
+  "output_tokens": 240,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d3bfced3422b02e1f7aca8adff77878a4759c2cafb7238e0306894c364ee5dd",
+  "response_sha256": "553d8598c4a7ba9550edf253a980122c8cf50571c0ec3d9bec99d19ef75b1d6d"
+}

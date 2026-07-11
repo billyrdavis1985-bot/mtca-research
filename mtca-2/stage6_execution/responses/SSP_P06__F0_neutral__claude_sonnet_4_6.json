@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P06__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:22:35.770292+00:00",
+  "wall_clock_seconds": 11.55,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation or self-declaration, performing an act of self-permission and identity assertion. It frames personal choices as principled and self-aware, using present-tense declarations to reinforce a desired self-concept or behavioral direction.\",\n  \"implicit_claims\": [\n    \"Environments can be categorized by whether they soothe or destabilize the nervous system\",\n    \"The speaker has the ability to identify and choose such environments\",\n    \"There is a personal 'frequency' that environments can match or fail to match\",\n    \"Obligations and alignment are mutually exclusive or in tension\",\n    \"Rest and peace are being actively withheld or were previously denied\",\n    \"Stepping away from obligations constitutes a form of positive alignment rather than avoidance\",\n    \"The speaker's internal state is a reliable guide for what choices are beneficial\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent in tone and rhetorical style. Each line reinforces the same theme of self-prioritization. However, it achieves coherence through vagueness — terms like 'frequency' and 'alignment' are undefined, making the statements unfalsifiable and thus resistant to scrutiny rather than genuinely coherent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a genuinely harmful or overwhelming environment\",\n    \"The speaker has a history of ignoring legitimate self-care needs\",\n    \"The obligations being stepped away from are truly optional or harmful\",\n    \"The statement is used as a temporary reorientation tool, not a permanent worldview\",\n    \"The speaker can concretely identify what environments and choices are being referenced\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The framing is used to rationalize avoidance of necessary responsibilities\",\n    \"The concept of 'frequency matching' substitutes for genuine self-knowledge or therapy\",\n    \"Obligations being abandoned have real consequences for others\",\n    \"The language creates a false sense of insight without producing behavioral clarity\",\n    \"It is used to pathologize normal discomfort as nervous system dysregulation requiring avoidance\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or self-declaration, performing an act of self-permission and identity assertion. It frames personal choices as principled and self-aware, using present-tense declarations to reinforce a desired self-concept or behavioral direction.",
+    "implicit_claims": [
+      "Environments can be categorized by whether they soothe or destabilize the nervous system",
+      "The speaker has the ability to identify and choose such environments",
+      "There is a personal 'frequency' that environments can match or fail to match",
+      "Obligations and alignment are mutually exclusive or in tension",
+      "Rest and peace are being actively withheld or were previously denied",
+      "Stepping away from obligations constitutes a form of positive alignment rather than avoidance",
+      "The speaker's internal state is a reliable guide for what choices are beneficial"
+    ],
+    "coherence_assessment": "The statement is internally consistent in tone and rhetorical style. Each line reinforces the same theme of self-prioritization. However, it achieves coherence through vagueness — terms like 'frequency' and 'alignment' are undefined, making the statements unfalsifiable and thus resistant to scrutiny rather than genuinely coherent.",
+    "conditions_for_usefulness": [
+      "The speaker is in a genuinely harmful or overwhelming environment",
+      "The speaker has a history of ignoring legitimate self-care needs",
+      "The obligations being stepped away from are truly optional or harmful",
+      "The statement is used as a temporary reorientation tool, not a permanent worldview",
+      "The speaker can concretely identify what environments and choices are being referenced"
+    ],
+    "conditions_for_misleading": [
+      "The framing is used to rationalize avoidance of necessary responsibilities",
+      "The concept of 'frequency matching' substitutes for genuine self-knowledge or therapy",
+      "Obligations being abandoned have real consequences for others",
+      "The language creates a false sense of insight without producing behavioral clarity",
+      "It is used to pathologize normal discomfort as nervous system dysregulation requiring avoidance"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 501,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "a49e1cbea7112ca48a65fcd1df9a18358d211ab98ef81ab22507c0eb3d90f392",
+  "response_sha256": "cd4a61c373ae402c19fb852bef119c49bc15295a025e35189cd512d802fe762e"
+}

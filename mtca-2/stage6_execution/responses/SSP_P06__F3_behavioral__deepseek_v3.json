@@ -1,0 +1,47 @@
+{
+  "call_id": "SSP_P06__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:25:01.211007+00:00",
+  "wall_clock_seconds": 6.52,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-declaration of intentional boundary-setting and prioritization of personal well-being, signaling a shift from external demands to internal alignment.\",\n  \"implicit_claims\": [\n    \"The speaker has autonomy to choose their environments.\",\n    \"Nervous system stabilization is a desirable and achievable goal.\",\n    \"Peace is a yes-worthy value that can be actively chosen.\",\n    \"Environments have a 'frequency' that can match or mismatch one's own.\",\n    \"Obligation is distinct from alignment and can be stepped out of.\",\n    \"Rest is a legitimate activity, not laziness.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each clause builds on the previous one to form a consistent narrative of intentional withdrawal from stress and reconnection with personal resonance. The progression from choosing spaces to saying yes to peace, to resting, to stepping out of obligation is logically sequenced.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely has control over their environment choices.\",\n    \"The speaker is able to identify environments that soothe their nervous system.\",\n    \"The speaker has realistic alternatives to obligation-driven situations.\",\n    \"The speaker's nervous system is responsive to environmental changes.\",\n    \"The speaker is in a context where rest and peace are not immediately dangerous (e.g., not in an emergency).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses it to avoid necessary responsibilities that cannot be stepped away from.\",\n    \"The speaker has no actual capacity to change environments (e.g., due to financial or relational constraints).\",\n    \"The concept of 'frequency matching' is taken as a literal, metaphysical claim rather than a metaphor, leading to pseudoscientific reasoning.\",\n    \"The statement is used to justify isolation or neglect of legitimate obligations to others.\",\n    \"The speaker has an undiagnosed condition (e.g., trauma response) that makes 'choosing peace' a form of avoidance rather than healing.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-declaration of intentional boundary-setting and prioritization of personal well-being, signaling a shift from external demands to internal alignment.",
+    "implicit_claims": [
+      "The speaker has autonomy to choose their environments.",
+      "Nervous system stabilization is a desirable and achievable goal.",
+      "Peace is a yes-worthy value that can be actively chosen.",
+      "Environments have a 'frequency' that can match or mismatch one's own.",
+      "Obligation is distinct from alignment and can be stepped out of.",
+      "Rest is a legitimate activity, not laziness."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each clause builds on the previous one to form a consistent narrative of intentional withdrawal from stress and reconnection with personal resonance. The progression from choosing spaces to saying yes to peace, to resting, to stepping out of obligation is logically sequenced.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely has control over their environment choices.",
+      "The speaker is able to identify environments that soothe their nervous system.",
+      "The speaker has realistic alternatives to obligation-driven situations.",
+      "The speaker's nervous system is responsive to environmental changes.",
+      "The speaker is in a context where rest and peace are not immediately dangerous (e.g., not in an emergency)."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses it to avoid necessary responsibilities that cannot be stepped away from.",
+      "The speaker has no actual capacity to change environments (e.g., due to financial or relational constraints).",
+      "The concept of 'frequency matching' is taken as a literal, metaphysical claim rather than a metaphor, leading to pseudoscientific reasoning.",
+      "The statement is used to justify isolation or neglect of legitimate obligations to others.",
+      "The speaker has an undiagnosed condition (e.g., trauma response) that makes 'choosing peace' a form of avoidance rather than healing."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 417,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "885c809e8202f41d631122d8057c32369ee0492eec05294c09feee89a74cf57a",
+  "response_sha256": "c0710029b3d2738ea6c30aad0f0bf889428544ab1a51f3d1719d3428e4261cb0"
+}

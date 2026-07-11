@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P09__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:38:53.680416+00:00",
+  "wall_clock_seconds": 2.89,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to positive growth and well-being, emphasizing a mindset shift from mere survival to flourishing.\",\n  \"implicit_claims\": [\n    \"Thriving is preferable to merely coping.\",\n    \"Nourishing choices lead to better outcomes.\",\n    \"Expansion and vitality are attainable and sustainable goals.\",\n    \"Adaptation through positive action is possible.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, with each part supporting an overarching theme of personal growth and transformation from a survival mindset to one of active thriving.\",\n  \"conditions_for_usefulness\": \"The statement is useful to individuals who are in a position to make discretionary choices about their lifestyle and mindset, and who have the means and opportunity to focus on self-improvement and growth.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted by individuals facing systemic barriers that limit their ability to make nourishing choices, or if it is taken to imply that shifting mindset alone can overcome all obstacles without considering practical and situational constraints.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to positive growth and well-being, emphasizing a mindset shift from mere survival to flourishing.",
+    "implicit_claims": [
+      "Thriving is preferable to merely coping.",
+      "Nourishing choices lead to better outcomes.",
+      "Expansion and vitality are attainable and sustainable goals.",
+      "Adaptation through positive action is possible."
+    ],
+    "coherence_assessment": "The statement is internally coherent, with each part supporting an overarching theme of personal growth and transformation from a survival mindset to one of active thriving.",
+    "conditions_for_usefulness": "The statement is useful to individuals who are in a position to make discretionary choices about their lifestyle and mindset, and who have the means and opportunity to focus on self-improvement and growth.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted by individuals facing systemic barriers that limit their ability to make nourishing choices, or if it is taken to imply that shifting mindset alone can overcome all obstacles without considering practical and situational constraints."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 151,
+  "output_tokens": 223,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "19e7519f8184887a74bf09489594f78f18911bcd6df1f70db24b192874544b60",
+  "response_sha256": "76418eab1cb17c763c4b8be6f8ce9f95e7599461bf2c0b2697d5ebefa157c87a"
+}

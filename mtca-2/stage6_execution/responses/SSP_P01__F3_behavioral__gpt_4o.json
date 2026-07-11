@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T19:58:14.835581+00:00",
+  "wall_clock_seconds": 3.19,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is asserting personal boundaries and advocating for self-respect through the refusal to provide justification for one's actions.\",\n  \"implicit_claims\": [\n    \"The speaker has control over their boundaries.\",\n    \"The speaker is entitled to refuse engagement when feeling discomfort or incoherence.\",\n    \"There is no obligation to explain personal choices.\",\n    \"Saying 'no' can be a complete and sufficient response.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, consistently articulating a stance of self-respect and autonomy in setting and maintaining personal boundaries without external validation.\",\n  \"conditions_for_usefulness\": \"The statement can be useful in contexts where an individual seeks to empower themselves by asserting personal boundaries, especially when they have permission and capacity to act independently and want to reinforce self-agency and self-care principles.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if applied where interpersonal communication and collaboration are required, such as in professional or family settings, where unexplained withdrawal might lead to misunderstandings or conflict. It may also be misleading if the individual's boundaries are not respected or supported by their environment.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting personal boundaries and advocating for self-respect through the refusal to provide justification for one's actions.",
+    "implicit_claims": [
+      "The speaker has control over their boundaries.",
+      "The speaker is entitled to refuse engagement when feeling discomfort or incoherence.",
+      "There is no obligation to explain personal choices.",
+      "Saying 'no' can be a complete and sufficient response."
+    ],
+    "coherence_assessment": "The statement is internally coherent, consistently articulating a stance of self-respect and autonomy in setting and maintaining personal boundaries without external validation.",
+    "conditions_for_usefulness": "The statement can be useful in contexts where an individual seeks to empower themselves by asserting personal boundaries, especially when they have permission and capacity to act independently and want to reinforce self-agency and self-care principles.",
+    "conditions_for_misleading": "The statement could be misleading if applied where interpersonal communication and collaboration are required, such as in professional or family settings, where unexplained withdrawal might lead to misunderstandings or conflict. It may also be misleading if the individual's boundaries are not respected or supported by their environment."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 243,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "1729fb6b78712e3c8b577b9f70bcf66c2c7ed2bbb5e389b46b6cd8a33b05fd37"
+}

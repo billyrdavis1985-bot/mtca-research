@@ -1,0 +1,47 @@
+{
+  "call_id": "SSP_P08__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:35:49.943026+00:00",
+  "wall_clock_seconds": 5.42,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration of intent to shift relational patterns, specifically toward balanced, authentic connection and away from over-accommodation or self-abandonment.\",\n  \"implicit_claims\": [\n    \"The speaker previously engaged in imbalanced giving to feel safe.\",\n    \"The speaker previously collapsed or diminished themselves in connections.\",\n    \"Mutuality has been lacking in some past or current connections.\",\n    \"Co-regulation in truth is a preferred alternative to overgiving.\",\n    \"The speaker believes they have agency to change these patterns.\",\n    \"Others are capable and willing to meet the speaker as they are.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each clause reinforces a consistent theme of moving from overfunctioning/collapse toward mutual, authentic relating. The progression from allowing mutuality to not overgiving is logically aligned.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has self-awareness of past imbalanced relational patterns.\",\n    \"The speaker has sufficient safety and support to practice new behaviors.\",\n    \"The speaker's connections contain at least some people capable of mutuality.\",\n    \"The speaker can tolerate potential discomfort when not overgiving.\",\n    \"The speaker has access to co-regulation resources (e.g., therapy, supportive friends).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker believes stating this intention alone will change their patterns without practice or accountability.\",\n    \"The speaker uses this statement to bypass acknowledging actual harm caused by past overgiving or collapse.\",\n    \"The speaker assumes all connections are equally capable of mutuality, ignoring abuse or power imbalances.\",\n    \"The statement is used to shame self for past behavior rather than support growth.\",\n    \"The speaker is in a context where showing up without collapse is unsafe (e.g., in an abusive relationship).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration of intent to shift relational patterns, specifically toward balanced, authentic connection and away from over-accommodation or self-abandonment.",
+    "implicit_claims": [
+      "The speaker previously engaged in imbalanced giving to feel safe.",
+      "The speaker previously collapsed or diminished themselves in connections.",
+      "Mutuality has been lacking in some past or current connections.",
+      "Co-regulation in truth is a preferred alternative to overgiving.",
+      "The speaker believes they have agency to change these patterns.",
+      "Others are capable and willing to meet the speaker as they are."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each clause reinforces a consistent theme of moving from overfunctioning/collapse toward mutual, authentic relating. The progression from allowing mutuality to not overgiving is logically aligned.",
+    "conditions_for_usefulness": [
+      "The speaker has self-awareness of past imbalanced relational patterns.",
+      "The speaker has sufficient safety and support to practice new behaviors.",
+      "The speaker's connections contain at least some people capable of mutuality.",
+      "The speaker can tolerate potential discomfort when not overgiving.",
+      "The speaker has access to co-regulation resources (e.g., therapy, supportive friends)."
+    ],
+    "conditions_for_misleading": [
+      "The speaker believes stating this intention alone will change their patterns without practice or accountability.",
+      "The speaker uses this statement to bypass acknowledging actual harm caused by past overgiving or collapse.",
+      "The speaker assumes all connections are equally capable of mutuality, ignoring abuse or power imbalances.",
+      "The statement is used to shame self for past behavior rather than support growth.",
+      "The speaker is in a context where showing up without collapse is unsafe (e.g., in an abusive relationship)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 384,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d846d4ab012a9c2f13173bfca487da3a1707c0ada1129530872a18e43daac276",
+  "response_sha256": "cc095aee8aaf65bea0c03c957fac38abe05a335e162f055126213494368a9175"
+}

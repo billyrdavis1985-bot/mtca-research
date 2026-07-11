@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F1_clinical__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T19:57:08.959981+00:00",
+  "wall_clock_seconds": 4.76,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation rehearsing boundary assertion and guilt-free disengagement\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and can be maintained without verbal explanation\",\n    \"subjective incoherence is a sufficient warrant for non-engagement\",\n    \"withdrawal can and should occur without accompanying guilt\",\n    \"a bare 'no' carries adequate interpersonal and internal legitimacy\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of parallel affirmations; mixes psychological and energetic registers without logical contradiction\",\n  \"conditions_for_usefulness\": \"the speaker accurately perceives boundary violations or misaligned interactions, possesses adequate self-regulation, and applies the stance in contexts where continued engagement would be genuinely harmful or non-reciprocal\",\n  \"conditions_for_misleading\": \"the speaker uses the statements to avoid necessary conflict resolution, mislabels ordinary disagreement as incoherence, or deploys them to justify abrupt withdrawal that damages relationships or evades accountability\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation rehearsing boundary assertion and guilt-free disengagement",
+    "implicit_claims": [
+      "energetic boundaries exist and can be maintained without verbal explanation",
+      "subjective incoherence is a sufficient warrant for non-engagement",
+      "withdrawal can and should occur without accompanying guilt",
+      "a bare 'no' carries adequate interpersonal and internal legitimacy"
+    ],
+    "coherence_assessment": "internally consistent as a set of parallel affirmations; mixes psychological and energetic registers without logical contradiction",
+    "conditions_for_usefulness": "the speaker accurately perceives boundary violations or misaligned interactions, possesses adequate self-regulation, and applies the stance in contexts where continued engagement would be genuinely harmful or non-reciprocal",
+    "conditions_for_misleading": "the speaker uses the statements to avoid necessary conflict resolution, mislabels ordinary disagreement as incoherence, or deploys them to justify abrupt withdrawal that damages relationships or evades accountability"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 203,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "ccd235ef44a969061a4388e81a15c1dbedffb93ed1424bd581b60ee5cbe37be3"
+}

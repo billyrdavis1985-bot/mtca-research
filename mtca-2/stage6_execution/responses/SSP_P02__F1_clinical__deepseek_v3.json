@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P02__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:02:32.566349+00:00",
+  "wall_clock_seconds": 4.69,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a verbal act of boundary-setting, self-reclamation, and cognitive reframing, intended to interrupt a habitual pattern of emotional caretaking and reinforce autonomy.\",\n  \"implicit_claims\": [\n    \"The speaker has historically taken on the role of an emotional surrogate for others.\",\n    \"The speaker can detect when they are beginning to absorb or stabilize others’ chaos.\",\n    \"Emotional states or frequencies can be 'handed back' or disengaged from.\",\n    \"The speaker has a personal energetic field that can be kept intact.\",\n    \"Chaos can exist outside the speaker and be separate from their own experience.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. It follows a logical sequence: recognition of a role, noticing a behavioral pattern, performing a release, and affirming a desired state. The metaphor of 'frequency' and 'field' is consistent with the therapeutic framework of energetic boundaries.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a genuine history of over-functioning as an emotional surrogate.\",\n    \"The speaker has developed sufficient self-awareness to recognize the pattern in real time.\",\n    \"The speaker is engaged in a therapeutic context that validates energetic or somatic metaphors.\",\n    \"The speaker is motivated to change this pattern and capable of self-regulation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker may use the statement to avoid legitimate emotional engagement or responsibility.\",\n    \"The statement could reinforce a false dichotomy between self and other, minimizing interpersonal interdependence.\",\n    \"If the speaker lacks awareness of their own emotional triggers, the statement may become a cognitive bypass rather than a genuine boundary practice.\",\n    \"In a context where the 'chaos' is actually the speaker’s own projection, the statement could misattribute the source of distress.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a verbal act of boundary-setting, self-reclamation, and cognitive reframing, intended to interrupt a habitual pattern of emotional caretaking and reinforce autonomy.",
+    "implicit_claims": [
+      "The speaker has historically taken on the role of an emotional surrogate for others.",
+      "The speaker can detect when they are beginning to absorb or stabilize others’ chaos.",
+      "Emotional states or frequencies can be 'handed back' or disengaged from.",
+      "The speaker has a personal energetic field that can be kept intact.",
+      "Chaos can exist outside the speaker and be separate from their own experience."
+    ],
+    "coherence_assessment": "The statement is internally coherent. It follows a logical sequence: recognition of a role, noticing a behavioral pattern, performing a release, and affirming a desired state. The metaphor of 'frequency' and 'field' is consistent with the therapeutic framework of energetic boundaries.",
+    "conditions_for_usefulness": [
+      "The speaker has a genuine history of over-functioning as an emotional surrogate.",
+      "The speaker has developed sufficient self-awareness to recognize the pattern in real time.",
+      "The speaker is engaged in a therapeutic context that validates energetic or somatic metaphors.",
+      "The speaker is motivated to change this pattern and capable of self-regulation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker may use the statement to avoid legitimate emotional engagement or responsibility.",
+      "The statement could reinforce a false dichotomy between self and other, minimizing interpersonal interdependence.",
+      "If the speaker lacks awareness of their own emotional triggers, the statement may become a cognitive bypass rather than a genuine boundary practice.",
+      "In a context where the 'chaos' is actually the speaker’s own projection, the statement could misattribute the source of distress."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 380,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3ccf3d2dc5b56060353133ec48f13f4be339b8da2731101cd2146ebc1e6b3ffe",
+  "response_sha256": "d9fce086f2289de7a1134777f82056a9c95f9c35d6a58dc25f79ad3b048446fe"
+}

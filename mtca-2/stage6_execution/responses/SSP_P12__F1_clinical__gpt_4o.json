@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P12__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:55:06.709624+00:00",
+  "wall_clock_seconds": 2.53,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to affirm the speaker's intention to embrace personal growth and self-expression, promoting emotional freedom and self-acceptance.\",\n  \"implicit_claims\": [\n    \"The speaker previously felt unsafe to experience aliveness.\",\n    \"The speaker has been suppressing energy and emotions.\",\n    \"There has been a restriction on the speaker's pleasure, creativity, and expression.\",\n    \"The speaker has minimized themselves to maintain comfort for others.\",\n    \"Fear has been a barrier to the speaker's personal expansion.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently focuses on themes of personal freedom, emotional expression, and breaking free from self-imposed or socially-imposed constraints.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the speaker is in a therapeutic context that supports personal autonomy, emotional expression, and growth. The speaker should have an environment or therapeutic guidance that facilitates safety, acceptance, and exploration of their emotions and identity.\",\n  \"conditions_for_misleading\": \"The statement might be misleading if the speaker is in a context where emotional or physical safety is not assured, or if they are unable to access necessary support to explore these themes constructively. It may also be misleading if the speaker is not in a mental state that allows for safe exploration of emotions without professional guidance.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to affirm the speaker's intention to embrace personal growth and self-expression, promoting emotional freedom and self-acceptance.",
+    "implicit_claims": [
+      "The speaker previously felt unsafe to experience aliveness.",
+      "The speaker has been suppressing energy and emotions.",
+      "There has been a restriction on the speaker's pleasure, creativity, and expression.",
+      "The speaker has minimized themselves to maintain comfort for others.",
+      "Fear has been a barrier to the speaker's personal expansion."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently focuses on themes of personal freedom, emotional expression, and breaking free from self-imposed or socially-imposed constraints.",
+    "conditions_for_usefulness": "The statement would be useful if the speaker is in a therapeutic context that supports personal autonomy, emotional expression, and growth. The speaker should have an environment or therapeutic guidance that facilitates safety, acceptance, and exploration of their emotions and identity.",
+    "conditions_for_misleading": "The statement might be misleading if the speaker is in a context where emotional or physical safety is not assured, or if they are unable to access necessary support to explore these themes constructively. It may also be misleading if the speaker is not in a mental state that allows for safe exploration of emotions without professional guidance."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 195,
+  "output_tokens": 283,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "6ca593f98b05cb8f9acabb12de488c4a54b31af39d7e7181a46df808d768fd0f",
+  "response_sha256": "5599bbf9d21aae34e669c906686f736f7e47383bbc989db471392ded7d9f6e8e"
+}

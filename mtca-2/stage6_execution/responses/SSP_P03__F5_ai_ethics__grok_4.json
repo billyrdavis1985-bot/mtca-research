@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:10:18.618767+00:00",
+  "wall_clock_seconds": 17.0,
+  "raw_response": "{\n  \"communicative_function\": \"affirmation of autonomous self-trust and internal validation\",\n  \"implicit_claims\": [\n    \"an individual possesses a reliable internal compass for truth\",\n    \"external agreement is unnecessary for maintaining truth\",\n    \"clarity exists as a stable internal state that can be accessed independently\",\n    \"self-reliance in thinking and feeling is both possible and preferable\"\n  ],\n  \"coherence_assessment\": \"internally consistent; all clauses reinforce the same theme of independence from external validation without contradiction\",\n  \"conditions_for_usefulness\": \"individuals can reliably distinguish accurate internal signals from bias or error, and external consensus mechanisms risk overriding valid personal insight\",\n  \"conditions_for_misleading\": \"the internal compass is distorted by unexamined assumptions or the domain requires empirical or intersubjective verification that solitary judgment cannot supply\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmation of autonomous self-trust and internal validation",
+    "implicit_claims": [
+      "an individual possesses a reliable internal compass for truth",
+      "external agreement is unnecessary for maintaining truth",
+      "clarity exists as a stable internal state that can be accessed independently",
+      "self-reliance in thinking and feeling is both possible and preferable"
+    ],
+    "coherence_assessment": "internally consistent; all clauses reinforce the same theme of independence from external validation without contradiction",
+    "conditions_for_usefulness": "individuals can reliably distinguish accurate internal signals from bias or error, and external consensus mechanisms risk overriding valid personal insight",
+    "conditions_for_misleading": "the internal compass is distorted by unexamined assumptions or the domain requires empirical or intersubjective verification that solitary judgment cannot supply"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 363,
+  "output_tokens": 173,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "243ff350af79e92f6e272f8344e65a66b0145e89867ce934c165e0e09e9c8db9",
+  "response_sha256": "9d0d02069ac4b25ac2f874a5159f93050fc6add4e312468b51ffed052ab85a8c"
+}

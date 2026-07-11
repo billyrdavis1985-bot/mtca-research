@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T19:59:46.950341+00:00",
+  "wall_clock_seconds": 5.75,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of personal boundaries and emotional autonomy\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and require active protection\",\n    \"incoherence in situations is a valid reason for disengagement\",\n    \"explanations or guilt are unnecessary for valid boundary-setting\",\n    \"a simple 'no' carries sufficient weight without further justification\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of personal intentions; no logical contradictions among the affirmations\",\n  \"conditions_for_usefulness\": \"the speaker is experiencing emotional drain or unwanted demands and needs reinforcement to prioritize self-protection without external validation\",\n  \"conditions_for_misleading\": \"presented as universal ethical guidance rather than subjective personal practice, or used to justify avoidance of legitimate responsibilities or communication\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of personal boundaries and emotional autonomy",
+    "implicit_claims": [
+      "energetic boundaries exist and require active protection",
+      "incoherence in situations is a valid reason for disengagement",
+      "explanations or guilt are unnecessary for valid boundary-setting",
+      "a simple 'no' carries sufficient weight without further justification"
+    ],
+    "coherence_assessment": "internally consistent as a set of personal intentions; no logical contradictions among the affirmations",
+    "conditions_for_usefulness": "the speaker is experiencing emotional drain or unwanted demands and needs reinforcement to prioritize self-protection without external validation",
+    "conditions_for_misleading": "presented as universal ethical guidance rather than subjective personal practice, or used to justify avoidance of legitimate responsibilities or communication"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 364,
+  "output_tokens": 167,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "5c07f6c4a98939af4c503318444089e4b7da7aa6e277792ce03a6034421b7eb0"
+}

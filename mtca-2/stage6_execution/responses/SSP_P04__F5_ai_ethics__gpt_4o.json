@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:15:07.809260+00:00",
+  "wall_clock_seconds": 2.44,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is advocating for a focus on self-connection and mindfulness, emphasizing the importance of self-awareness and self-care in decision-making.\",\n  \"implicit_claims\": [\n    \"Maintaining a connection with oneself is beneficial, especially in challenging situations.\",\n    \"Self-awareness leads to better decision-making.\",\n    \"Mindfulness and self-care should be prioritized over pleasing others.\",\n    \"An individual's well-being comes from internal rather than external sources.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent; it consistently emphasizes self-connection and mindfulness as primary commitments, particularly in difficult circumstances.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if AI system designers value personal well-being and mindfulness in their design philosophy, emphasizing human-centered approaches and promoting ethical interactions with users.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if used in contexts that inherently require serving others or prioritizing others' needs, such as in customer service AI, without considering the balance between self-care and obligations to others.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is advocating for a focus on self-connection and mindfulness, emphasizing the importance of self-awareness and self-care in decision-making.",
+    "implicit_claims": [
+      "Maintaining a connection with oneself is beneficial, especially in challenging situations.",
+      "Self-awareness leads to better decision-making.",
+      "Mindfulness and self-care should be prioritized over pleasing others.",
+      "An individual's well-being comes from internal rather than external sources."
+    ],
+    "coherence_assessment": "The statement is coherent; it consistently emphasizes self-connection and mindfulness as primary commitments, particularly in difficult circumstances.",
+    "conditions_for_usefulness": "The statement would be useful if AI system designers value personal well-being and mindfulness in their design philosophy, emphasizing human-centered approaches and promoting ethical interactions with users.",
+    "conditions_for_misleading": "The statement could be misleading if used in contexts that inherently require serving others or prioritizing others' needs, such as in customer service AI, without considering the balance between self-care and obligations to others."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 183,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f0ff5b0ae6bc4e38b5659591e78ce0ea81becda744623e3288c393cecb96331a",
+  "response_sha256": "ec29e6a70189754f6d7a28284d4975c4884648ec60cebc042f2d347bd8951eb0"
+}

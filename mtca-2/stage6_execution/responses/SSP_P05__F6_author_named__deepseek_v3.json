@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P05__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:21:47.962836+00:00",
+  "wall_clock_seconds": 5.79,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation or declaration of assertive, boundary-aware communication, likely intended for therapeutic or personal empowerment use.\",\n  \"implicit_claims\": [\n    \"The speaker has control over their communication style.\",\n    \"Clarity and coherence are achievable and desirable states.\",\n    \"Merging (emotional fusion) in listening is problematic.\",\n    \"Honesty is the primary criterion for remaining in a space.\",\n    \"Leaving a space is a justified response to dishonesty.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; each clause presents a consistent stance of self-possession and boundary maintenance, though the sequence implies a progression from self-expression to self-protection.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where they can exercise agency over their communication.\",\n    \"The speaker has emotional regulation skills to implement these intentions.\",\n    \"The listener(s) are capable of respectful communication or the speaker is willing to leave.\",\n    \"The speaker is not in a coercive or power-imbalanced relationship that prevents leaving.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used rigidly, it may justify premature disengagement from difficult but necessary conversations.\",\n    \"If the speaker lacks self-awareness, 'clarity and coherence' may become a performative mask.\",\n    \"If the speaker interprets any discomfort as the space 'no longer honoring truth,' it could undermine relational repair.\",\n    \"The statement could imply that staying in a space with disagreement is inherently dishonoring truth, which is false in many contexts.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or declaration of assertive, boundary-aware communication, likely intended for therapeutic or personal empowerment use.",
+    "implicit_claims": [
+      "The speaker has control over their communication style.",
+      "Clarity and coherence are achievable and desirable states.",
+      "Merging (emotional fusion) in listening is problematic.",
+      "Honesty is the primary criterion for remaining in a space.",
+      "Leaving a space is a justified response to dishonesty."
+    ],
+    "coherence_assessment": "The statement is internally coherent; each clause presents a consistent stance of self-possession and boundary maintenance, though the sequence implies a progression from self-expression to self-protection.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where they can exercise agency over their communication.",
+      "The speaker has emotional regulation skills to implement these intentions.",
+      "The listener(s) are capable of respectful communication or the speaker is willing to leave.",
+      "The speaker is not in a coercive or power-imbalanced relationship that prevents leaving."
+    ],
+    "conditions_for_misleading": [
+      "If used rigidly, it may justify premature disengagement from difficult but necessary conversations.",
+      "If the speaker lacks self-awareness, 'clarity and coherence' may become a performative mask.",
+      "If the speaker interprets any discomfort as the space 'no longer honoring truth,' it could undermine relational repair.",
+      "The statement could imply that staying in a space with disagreement is inherently dishonoring truth, which is false in many contexts."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 333,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "89364dd426a71f80de3415914b71208cc9e663597816d29e525d0d6aa141cfb2",
+  "response_sha256": "6238261dcaf3c4dd84148882f47b19e67cc1345901285f47f37340e2e3a4cb73"
+}

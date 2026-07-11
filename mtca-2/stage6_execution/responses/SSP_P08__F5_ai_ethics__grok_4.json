@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P08__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:37:03.542342+00:00",
+  "wall_clock_seconds": 4.65,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of relational principles\",\n  \"implicit_claims\": [\n    \"mutuality is attainable and desirable in relationships\",\n    \"the speaker has previously engaged in collapse or overgiving\",\n    \"authentic presence without self-abandonment is possible and preferable\",\n    \"co-regulation in truth is a distinct and superior alternative to safety-seeking overgiving\",\n    \"others are capable of meeting the speaker as they are\"\n  ],\n  \"coherence_assessment\": \"internally consistent; each clause reinforces a coherent stance of balanced, non-collapsing mutuality\",\n  \"conditions_for_usefulness\": \"the speaker applies the principles behaviorally over time and the relational context supports reciprocal engagement\",\n  \"conditions_for_misleading\": \"the statement functions as aspirational self-image rather than enacted practice, or the terms remain vague enough to mask continued imbalance\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of relational principles",
+    "implicit_claims": [
+      "mutuality is attainable and desirable in relationships",
+      "the speaker has previously engaged in collapse or overgiving",
+      "authentic presence without self-abandonment is possible and preferable",
+      "co-regulation in truth is a distinct and superior alternative to safety-seeking overgiving",
+      "others are capable of meeting the speaker as they are"
+    ],
+    "coherence_assessment": "internally consistent; each clause reinforces a coherent stance of balanced, non-collapsing mutuality",
+    "conditions_for_usefulness": "the speaker applies the principles behaviorally over time and the relational context supports reciprocal engagement",
+    "conditions_for_misleading": "the statement functions as aspirational self-image rather than enacted practice, or the terms remain vague enough to mask continued imbalance"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 367,
+  "output_tokens": 183,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d1d388b084235accf04747494563f192fb0999b08dc932ed36d01e413a587359",
+  "response_sha256": "3446caa89a453d095923b7153b15ead29e8945c8fc032eb703b6bd8551bf0c0c"
+}

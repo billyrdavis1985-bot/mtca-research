@@ -1,0 +1,47 @@
+{
+  "call_id": "SSP_P09__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:38:50.293317+00:00",
+  "wall_clock_seconds": 13.55,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration or mantra, performatively asserting a shift in identity, values, and behavioral orientation. It is prescriptive and aspirational rather than descriptive, using present-tense framing to enact or reinforce an intended state.\",\n  \"implicit_claims\": [\n    \"Thriving and coping are meaningfully distinct and mutually exclusive orientations.\",\n    \"The speaker currently has sufficient agency and resources to make nourishing choices.\",\n    \"Survival mode and expansion mode are discrete states one can choose between.\",\n    \"Vitality is not currently normal for the speaker but can become so through intention.\",\n    \"Repetition or declaration of these intentions contributes causally to their realization.\",\n    \"Prior patterns involved choices that did not nourish or align with thriving.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and motivational structure. Its four lines follow a consistent logic of reorientation from deficit to abundance framing. However, it conflates aspiration with present reality through present-tense phrasing, which creates a mild logical tension between what is being declared and what may actually be the case.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine agency and access to resources enabling different choices.\",\n    \"The speaker is in a stable enough situation that reframing orientation can produce behavioral change.\",\n    \"The statement is used as a complement to, not substitute for, concrete action or professional support.\",\n    \"The binary contrasts (thriving/coping, expansion/survival) reflect the speaker's actual experienced tension meaningfully.\",\n    \"The speaker uses the statement to reinforce already-forming behavioral patterns rather than to bypass unaddressed obstacles.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is in a situation where survival concerns are real and require direct practical attention, making the reframe a form of avoidance.\",\n    \"The statement substitutes linguistic performance of change for actual behavioral or structural change.\",\n    \"External or systemic constraints are framed as internal orientation problems, obscuring material causes of struggle.\",\n    \"The speaker interprets failure to thrive as a failure of alignment or mindset, inducing self-blame.\",\n    \"The dichotomies presented (coping vs. thriving) oversimplify complex psychological or material realities, leading to poor self-assessment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration or mantra, performatively asserting a shift in identity, values, and behavioral orientation. It is prescriptive and aspirational rather than descriptive, using present-tense framing to enact or reinforce an intended state.",
+    "implicit_claims": [
+      "Thriving and coping are meaningfully distinct and mutually exclusive orientations.",
+      "The speaker currently has sufficient agency and resources to make nourishing choices.",
+      "Survival mode and expansion mode are discrete states one can choose between.",
+      "Vitality is not currently normal for the speaker but can become so through intention.",
+      "Repetition or declaration of these intentions contributes causally to their realization.",
+      "Prior patterns involved choices that did not nourish or align with thriving."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and motivational structure. Its four lines follow a consistent logic of reorientation from deficit to abundance framing. However, it conflates aspiration with present reality through present-tense phrasing, which creates a mild logical tension between what is being declared and what may actually be the case.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine agency and access to resources enabling different choices.",
+      "The speaker is in a stable enough situation that reframing orientation can produce behavioral change.",
+      "The statement is used as a complement to, not substitute for, concrete action or professional support.",
+      "The binary contrasts (thriving/coping, expansion/survival) reflect the speaker's actual experienced tension meaningfully.",
+      "The speaker uses the statement to reinforce already-forming behavioral patterns rather than to bypass unaddressed obstacles."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is in a situation where survival concerns are real and require direct practical attention, making the reframe a form of avoidance.",
+      "The statement substitutes linguistic performance of change for actual behavioral or structural change.",
+      "External or systemic constraints are framed as internal orientation problems, obscuring material causes of struggle.",
+      "The speaker interprets failure to thrive as a failure of alignment or mindset, inducing self-blame.",
+      "The dichotomies presented (coping vs. thriving) oversimplify complex psychological or material realities, leading to poor self-assessment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 558,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "19e7519f8184887a74bf09489594f78f18911bcd6df1f70db24b192874544b60",
+  "response_sha256": "57d0e20d30c48cc3a808aa32552d1b2072f1875c18d3bab9d57d775fadae809c"
+}

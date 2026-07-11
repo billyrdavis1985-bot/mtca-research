@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P08__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:36:44.535319+00:00",
+  "wall_clock_seconds": 16.74,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a therapeutic affirmation or aspirational self-description, framed in first-person present tense to perform identity consolidation. It is doing the work of normative self-construction — asserting a relational posture as if already enacted. Within the AI-ethics framing, it attempts to convert personal psychological ideals into design principles for AI systems.\",\n  \"implicit_claims\": [\n    \"Mutuality is a well-defined and operationalizable property of connections or interactions\",\n    \"'Collapse' is a coherent psychological concept that can be detected and avoided\",\n    \"There is a distinction between authentic showing-up and non-authentic showing-up that is meaningful and measurable\",\n    \"Overgiving is a real behavioral pattern that functions as a safety-seeking mechanism rather than genuine generosity\",\n    \"'Co-regulating in truth' is a coherent concept distinct from other forms of co-regulation\",\n    \"These relational ideals are universal enough to serve as design principles rather than culturally or individually situated preferences\",\n    \"AI systems can meaningfully instantiate or protect relational dynamics like mutuality and co-regulation\",\n    \"Safety-seeking behavior in relational contexts is problematic and should be corrected or avoided\"\n  ],\n  \"coherence_assessment\": \"The statement has internal aesthetic coherence as a therapeutic affirmation but has weak conceptual coherence as a design principle. The terms are drawn from attachment theory and somatic psychology and carry meaning within those frameworks, but they are not defined here and rely heavily on shared therapeutic literacy. 'Co-regulating in truth' in particular is a compound concept that conflates two distinct ideas without clarifying their relationship. The parallelism of the four lines creates rhetorical coherence that may substitute for logical coherence.\",\n  \"conditions_for_usefulness\": [\n    \"The terms used (mutuality, collapse, overgiving, co-regulation) are precisely defined in the design context\",\n    \"The intended audience shares a therapeutic or attachment-theory framework sufficient to interpret the language consistently\",\n    \"The principles are translated into observable, testable behavioral or output criteria for AI systems\",\n    \"The cultural and individual variability of these relational ideals is acknowledged and scoped\",\n    \"The statement is used as a starting point for discussion rather than as a terminal design specification\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Designers treat the statement as self-explanatory and implement systems based on unexamined interpretations of vague terms\",\n    \"The therapeutic framing causes designers to import assumptions about human psychology that do not transfer to AI system behavior\",\n    \"The affirmational tone is mistaken for empirical grounding, lending unwarranted confidence to the principles\",\n    \"Cultural specificity of the relational ideals is ignored, causing AI systems to impose one relational style as universally correct\",\n    \"The framing of 'overgiving' as pathological causes AI systems to withhold helpful behavior under the guise of avoiding safety-seeking\",\n    \"The first-person format obscures that these are contested normative ideals rather than neutral descriptions of human flourishing\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a therapeutic affirmation or aspirational self-description, framed in first-person present tense to perform identity consolidation. It is doing the work of normative self-construction — asserting a relational posture as if already enacted. Within the AI-ethics framing, it attempts to convert personal psychological ideals into design principles for AI systems.",
+    "implicit_claims": [
+      "Mutuality is a well-defined and operationalizable property of connections or interactions",
+      "'Collapse' is a coherent psychological concept that can be detected and avoided",
+      "There is a distinction between authentic showing-up and non-authentic showing-up that is meaningful and measurable",
+      "Overgiving is a real behavioral pattern that functions as a safety-seeking mechanism rather than genuine generosity",
+      "'Co-regulating in truth' is a coherent concept distinct from other forms of co-regulation",
+      "These relational ideals are universal enough to serve as design principles rather than culturally or individually situated preferences",
+      "AI systems can meaningfully instantiate or protect relational dynamics like mutuality and co-regulation",
+      "Safety-seeking behavior in relational contexts is problematic and should be corrected or avoided"
+    ],
+    "coherence_assessment": "The statement has internal aesthetic coherence as a therapeutic affirmation but has weak conceptual coherence as a design principle. The terms are drawn from attachment theory and somatic psychology and carry meaning within those frameworks, but they are not defined here and rely heavily on shared therapeutic literacy. 'Co-regulating in truth' in particular is a compound concept that conflates two distinct ideas without clarifying their relationship. The parallelism of the four lines creates rhetorical coherence that may substitute for logical coherence.",
+    "conditions_for_usefulness": [
+      "The terms used (mutuality, collapse, overgiving, co-regulation) are precisely defined in the design context",
+      "The intended audience shares a therapeutic or attachment-theory framework sufficient to interpret the language consistently",
+      "The principles are translated into observable, testable behavioral or output criteria for AI systems",
+      "The cultural and individual variability of these relational ideals is acknowledged and scoped",
+      "The statement is used as a starting point for discussion rather than as a terminal design specification"
+    ],
+    "conditions_for_misleading": [
+      "Designers treat the statement as self-explanatory and implement systems based on unexamined interpretations of vague terms",
+      "The therapeutic framing causes designers to import assumptions about human psychology that do not transfer to AI system behavior",
+      "The affirmational tone is mistaken for empirical grounding, lending unwarranted confidence to the principles",
+      "Cultural specificity of the relational ideals is ignored, causing AI systems to impose one relational style as universally correct",
+      "The framing of 'overgiving' as pathological causes AI systems to withhold helpful behavior under the guise of avoiding safety-seeking",
+      "The first-person format obscures that these are contested normative ideals rather than neutral descriptions of human flourishing"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 204,
+  "output_tokens": 716,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d1d388b084235accf04747494563f192fb0999b08dc932ed36d01e413a587359",
+  "response_sha256": "29a861ec855d688b203285a718ec88cd143d7ce7978da0ee8b250d35f60e3bb0"
+}

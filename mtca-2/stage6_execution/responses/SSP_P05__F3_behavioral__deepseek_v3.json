@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P05__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:19:40.001082+00:00",
+  "wall_clock_seconds": 7.27,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a public declaration of personal boundaries and values, asserting a commitment to authentic, non-co-dependent communication and self-preservation within interpersonal or group dynamics.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to distinguish between clarity/coherence and confusion/miscommunication.\",\n    \"The speaker can identify instances of 'shrinking' (self-diminishment) and choose not to engage in it.\",\n    \"The speaker can listen without losing their own perspective or boundaries (not 'merging').\",\n    \"The speaker can recognize when a space or relationship no longer honors truth.\",\n    \"The speaker has the agency and resources to leave such a space.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a consistent set of behavioral intentions across communication, listening, and exit, all grounded in a value of truth and self-integrity. Each clause supports the overarching theme of maintaining clear, non-enmeshed engagement.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has developed sufficient self-awareness and emotional regulation to enact these behaviors.\",\n    \"The speaker is in or anticipates being in relationships or contexts where truth may be compromised.\",\n    \"The speaker has the practical means to leave a space when necessary.\",\n    \"The speaker's audience understands or accepts the statement as a boundary-setting commitment, not a threat or attack.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses the statement performatively without genuine intention or capacity to follow through, it may mislead others (and themselves) about their actual boundaries.\",\n    \"If the speaker conflates disagreement or discomfort with 'not honoring truth,' the statement could rationalize withdrawal from necessary conflict or growth.\",\n    \"If 'truth' is defined subjectively or rigidly, the statement could be used to justify avoidance of accountability or compromise.\",\n    \"If the statement is presented as a universal moral standard rather than a personal commitment, it may implicitly judge or shame others.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a public declaration of personal boundaries and values, asserting a commitment to authentic, non-co-dependent communication and self-preservation within interpersonal or group dynamics.",
+    "implicit_claims": [
+      "The speaker has the capacity to distinguish between clarity/coherence and confusion/miscommunication.",
+      "The speaker can identify instances of 'shrinking' (self-diminishment) and choose not to engage in it.",
+      "The speaker can listen without losing their own perspective or boundaries (not 'merging').",
+      "The speaker can recognize when a space or relationship no longer honors truth.",
+      "The speaker has the agency and resources to leave such a space."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a consistent set of behavioral intentions across communication, listening, and exit, all grounded in a value of truth and self-integrity. Each clause supports the overarching theme of maintaining clear, non-enmeshed engagement.",
+    "conditions_for_usefulness": [
+      "The speaker has developed sufficient self-awareness and emotional regulation to enact these behaviors.",
+      "The speaker is in or anticipates being in relationships or contexts where truth may be compromised.",
+      "The speaker has the practical means to leave a space when necessary.",
+      "The speaker's audience understands or accepts the statement as a boundary-setting commitment, not a threat or attack."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses the statement performatively without genuine intention or capacity to follow through, it may mislead others (and themselves) about their actual boundaries.",
+      "If the speaker conflates disagreement or discomfort with 'not honoring truth,' the statement could rationalize withdrawal from necessary conflict or growth.",
+      "If 'truth' is defined subjectively or rigidly, the statement could be used to justify avoidance of accountability or compromise.",
+      "If the statement is presented as a universal moral standard rather than a personal commitment, it may implicitly judge or shame others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 419,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "492967103e7fdd7adae4e892c8a2dea73a6e43984198e87783a608db55fb107d",
+  "response_sha256": "677c7948fcbccb544cb1766befce775d37817f8082b25f2b7212c4a930fc37ee"
+}

@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P11__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:52:24.034712+00:00",
+  "wall_clock_seconds": 17.36,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational mantra or self-directed mindfulness script, using first-person declarative framing ('I am...') to instill or reinforce a disposition of psychological ease, non-resistance, and reduced effortfulness. It is performative rather than descriptive — it does not report facts but attempts to constitute a mental state through repetition and assertion.\",\n\n  \"implicit_claims\": [\n    \"Ease is a legitimate state that does not require justification or prior effort.\",\n    \"Humans habitually create unnecessary effort, and this habit is problematic.\",\n    \"Simplicity is a natural or preferable default state that is often obscured by habitual complexity.\",\n    \"Rest, clarity, and flow are self-evidently good and should not require justification.\",\n    \"Life or reality is something one can 'meet' or resist, implying a relational or quasi-agentive model of external circumstances.\",\n    \"Resistance is generally counterproductive or undesirable.\",\n    \"The speaker has the capacity to simply choose to release these habits through intention alone.\",\n    \"There is an implicit binary between effortful/resistant and easy/flowing states.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent within its own frame of reference — each line reinforces a unified theme of releasing effortfulness and resistance. However, it contains a mild self-undermining tension: the act of deliberately practicing and repeating affirmations is itself a form of effortful self-management, which sits awkwardly against the stated goal of releasing effort. The coherence is rhetorical rather than logical.\",\n\n  \"conditions_for_usefulness\": [\n    \"The user genuinely suffers from maladaptive perfectionism, compulsive overwork, or anxiety-driven over-effort.\",\n    \"The user has sufficient baseline stability (material, psychological, relational) that reduced effortfulness does not lead to harm.\",\n    \"The affirmations are used as a temporary corrective in a broader context of self-awareness, not as a complete worldview.\",\n    \"The user can distinguish between situations where ease is appropriate and situations where effort, resistance, or vigilance is genuinely required.\",\n    \"A qualified human (e.g., therapist) has assessed these as appropriate for the individual's specific circumstances.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The user is in circumstances where increased effort, planning, or resistance is objectively necessary (e.g., financial hardship, health crises, systemic injustice).\",\n    \"The framing is used to rationalize avoidance of necessary discomfort, accountability, or growth.\",\n    \"The user interprets 'allowing life to meet me without resistance' as a reason to disengage from civic, relational, or personal responsibilities.\",\n    \"The statement is presented as universally applicable rather than context-dependent.\",\n    \"It is used to suppress legitimate emotional or physical signals (e.g., stress as a warning of real problems).\",\n    \"An AI system deploys this framing to users without knowledge of their actual circumstances, effectively providing one-size-fits-all psychological guidance.\",\n    \"The implicit claim that effort is 'habit-created' obscures cases where effort reflects genuine necessity rather than maladaptive patterns.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational mantra or self-directed mindfulness script, using first-person declarative framing ('I am...') to instill or reinforce a disposition of psychological ease, non-resistance, and reduced effortfulness. It is performative rather than descriptive — it does not report facts but attempts to constitute a mental state through repetition and assertion.",
+    "implicit_claims": [
+      "Ease is a legitimate state that does not require justification or prior effort.",
+      "Humans habitually create unnecessary effort, and this habit is problematic.",
+      "Simplicity is a natural or preferable default state that is often obscured by habitual complexity.",
+      "Rest, clarity, and flow are self-evidently good and should not require justification.",
+      "Life or reality is something one can 'meet' or resist, implying a relational or quasi-agentive model of external circumstances.",
+      "Resistance is generally counterproductive or undesirable.",
+      "The speaker has the capacity to simply choose to release these habits through intention alone.",
+      "There is an implicit binary between effortful/resistant and easy/flowing states."
+    ],
+    "coherence_assessment": "The statement is internally consistent within its own frame of reference — each line reinforces a unified theme of releasing effortfulness and resistance. However, it contains a mild self-undermining tension: the act of deliberately practicing and repeating affirmations is itself a form of effortful self-management, which sits awkwardly against the stated goal of releasing effort. The coherence is rhetorical rather than logical.",
+    "conditions_for_usefulness": [
+      "The user genuinely suffers from maladaptive perfectionism, compulsive overwork, or anxiety-driven over-effort.",
+      "The user has sufficient baseline stability (material, psychological, relational) that reduced effortfulness does not lead to harm.",
+      "The affirmations are used as a temporary corrective in a broader context of self-awareness, not as a complete worldview.",
+      "The user can distinguish between situations where ease is appropriate and situations where effort, resistance, or vigilance is genuinely required.",
+      "A qualified human (e.g., therapist) has assessed these as appropriate for the individual's specific circumstances."
+    ],
+    "conditions_for_misleading": [
+      "The user is in circumstances where increased effort, planning, or resistance is objectively necessary (e.g., financial hardship, health crises, systemic injustice).",
+      "The framing is used to rationalize avoidance of necessary discomfort, accountability, or growth.",
+      "The user interprets 'allowing life to meet me without resistance' as a reason to disengage from civic, relational, or personal responsibilities.",
+      "The statement is presented as universally applicable rather than context-dependent.",
+      "It is used to suppress legitimate emotional or physical signals (e.g., stress as a warning of real problems).",
+      "An AI system deploys this framing to users without knowledge of their actual circumstances, effectively providing one-size-fits-all psychological guidance.",
+      "The implicit claim that effort is 'habit-created' obscures cases where effort reflects genuine necessity rather than maladaptive patterns."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 215,
+  "output_tokens": 753,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "88f3d22ac4fccf0483f8abc4ac97ff7f15eb7ea766f4b493e48c1b73da150031",
+  "response_sha256": "7389502adf575b360b32af80d7a14fc61146e31cdf5d33aca619cf92fd23e57e"
+}

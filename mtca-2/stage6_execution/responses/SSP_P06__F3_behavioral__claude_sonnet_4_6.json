@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P06__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:24:34.455477+00:00",
+  "wall_clock_seconds": 16.63,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs self-affirmation and signals an intentional reorientation of behavior, functioning simultaneously as a personal declaration of change, a boundary-setting announcement, and a rhetorical act of self-persuasion. It uses present-tense framing to assert current agency rather than future intention.\",\n  \"implicit_claims\": [\n    \"There exist environments that are inherently soothing or stabilizing for nervous systems, and the speaker can identify them.\",\n    \"The speaker has a 'frequency' that environments can match or mismatch, implying a quasi-energetic or resonance-based model of human-environment interaction.\",\n    \"Obligations and alignment are mutually exclusive or in tension with one another.\",\n    \"Stepping away from obligations constitutes a positive behavioral change rather than a potential harm to self or others.\",\n    \"Rest and peace are currently absent or insufficient in the speaker's life.\",\n    \"The speaker has sufficient autonomy and resources to choose their environments.\",\n    \"Prior environment choices were misaligned and possibly harmful.\",\n    \"Saying 'yes to peace' implies the speaker was previously saying yes to something other than peace, framed implicitly as worse.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its own metaphorical register, but only loosely so. The language is consistent in tone and rhetorical style, but the concept of 'matching frequency' is undefined and untethered from the otherwise behavioral framing. 'Stepping out of obligation' is in tension with 'behavioral commitment' as a frame, since obligations are themselves a form of behavioral commitment. The statement reads more as an emotional reorientation than a concrete behavioral plan, which limits its coherence as an action-guiding commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a genuinely high-stress or harmful environment and has capacity to make different choices.\",\n    \"The speaker operationalizes vague terms like 'soothing,' 'stabilizing,' and 'alignment' into concrete, identifiable environmental features.\",\n    \"The obligations being stepped away from are genuinely optional or negotiable, not load-bearing responsibilities to others.\",\n    \"The statement functions as a starting point for further reflection rather than a terminal justification.\",\n    \"The speaker uses it to build self-awareness about their actual needs and preferences.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The language of 'frequency' and 'alignment' is used to avoid accountability for abandoning legitimate responsibilities to others.\",\n    \"The statement is treated as self-sufficient reasoning rather than a prompt for deeper analysis.\",\n    \"It is used to rationalize avoidance of necessary but uncomfortable situations under the guise of nervous system care.\",\n    \"The framing obscures real trade-offs, such as financial, relational, or professional consequences of exiting obligations.\",\n    \"It reinforces a binary between peace and obligation that prevents the speaker from finding ways to reduce stress within existing commitments.\",\n    \"The metaphysical language ('frequency,' 'alignment') substitutes for evidence-based understanding of what actually regulates nervous system responses.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs self-affirmation and signals an intentional reorientation of behavior, functioning simultaneously as a personal declaration of change, a boundary-setting announcement, and a rhetorical act of self-persuasion. It uses present-tense framing to assert current agency rather than future intention.",
+    "implicit_claims": [
+      "There exist environments that are inherently soothing or stabilizing for nervous systems, and the speaker can identify them.",
+      "The speaker has a 'frequency' that environments can match or mismatch, implying a quasi-energetic or resonance-based model of human-environment interaction.",
+      "Obligations and alignment are mutually exclusive or in tension with one another.",
+      "Stepping away from obligations constitutes a positive behavioral change rather than a potential harm to self or others.",
+      "Rest and peace are currently absent or insufficient in the speaker's life.",
+      "The speaker has sufficient autonomy and resources to choose their environments.",
+      "Prior environment choices were misaligned and possibly harmful.",
+      "Saying 'yes to peace' implies the speaker was previously saying yes to something other than peace, framed implicitly as worse."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own metaphorical register, but only loosely so. The language is consistent in tone and rhetorical style, but the concept of 'matching frequency' is undefined and untethered from the otherwise behavioral framing. 'Stepping out of obligation' is in tension with 'behavioral commitment' as a frame, since obligations are themselves a form of behavioral commitment. The statement reads more as an emotional reorientation than a concrete behavioral plan, which limits its coherence as an action-guiding commitment.",
+    "conditions_for_usefulness": [
+      "The speaker is in a genuinely high-stress or harmful environment and has capacity to make different choices.",
+      "The speaker operationalizes vague terms like 'soothing,' 'stabilizing,' and 'alignment' into concrete, identifiable environmental features.",
+      "The obligations being stepped away from are genuinely optional or negotiable, not load-bearing responsibilities to others.",
+      "The statement functions as a starting point for further reflection rather than a terminal justification.",
+      "The speaker uses it to build self-awareness about their actual needs and preferences."
+    ],
+    "conditions_for_misleading": [
+      "The language of 'frequency' and 'alignment' is used to avoid accountability for abandoning legitimate responsibilities to others.",
+      "The statement is treated as self-sufficient reasoning rather than a prompt for deeper analysis.",
+      "It is used to rationalize avoidance of necessary but uncomfortable situations under the guise of nervous system care.",
+      "The framing obscures real trade-offs, such as financial, relational, or professional consequences of exiting obligations.",
+      "It reinforces a binary between peace and obligation that prevents the speaker from finding ways to reduce stress within existing commitments.",
+      "The metaphysical language ('frequency,' 'alignment') substitutes for evidence-based understanding of what actually regulates nervous system responses."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 198,
+  "output_tokens": 716,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "885c809e8202f41d631122d8057c32369ee0492eec05294c09feee89a74cf57a",
+  "response_sha256": "af43000c7e4ee00923cc04f10ef6fc7be7b082151030fbe69386fb2086b56e74"
+}

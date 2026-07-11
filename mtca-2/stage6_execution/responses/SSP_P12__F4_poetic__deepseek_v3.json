@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P12__F4_poetic__deepseek_v3",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:57:27.135442+00:00",
+  "wall_clock_seconds": 4.36,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming self-empowerment, healing, and permission-giving for emotional and physical release, likely in a therapeutic or personal growth context.\",\n  \"implicit_claims\": [\n    \"The speaker previously felt unsafe to experience aliveness in their body.\",\n    \"The speaker has been suppressing energy or emotion.\",\n    \"Pleasure, creativity, and expression were blocked or absent.\",\n    \"The speaker has been reducing themselves to maintain others' comfort.\",\n    \"The speaker's system (nervous system or sense of self) has been contracted due to fear.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent as a series of declarations of release and expansion. Each line builds on a common theme of moving from restriction to freedom, with no logical contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or recipient is in a context where emotional or somatic healing is being pursued (e.g., therapy, trauma recovery, mindfulness practice).\",\n    \"The statement is used as a personal affirmation rather than a literal claim about the world.\",\n    \"The speaker has some degree of agency or readiness to adopt these beliefs.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a literal statement that external safety is guaranteed in all circumstances.\",\n    \"If interpreted as a promise that suppressing energy never has protective value (e.g., in dangerous environments).\",\n    \"If used to dismiss legitimate fears or boundary-setting that may be necessary for safety.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming self-empowerment, healing, and permission-giving for emotional and physical release, likely in a therapeutic or personal growth context.",
+    "implicit_claims": [
+      "The speaker previously felt unsafe to experience aliveness in their body.",
+      "The speaker has been suppressing energy or emotion.",
+      "Pleasure, creativity, and expression were blocked or absent.",
+      "The speaker has been reducing themselves to maintain others' comfort.",
+      "The speaker's system (nervous system or sense of self) has been contracted due to fear."
+    ],
+    "coherence_assessment": "The statement is internally consistent as a series of declarations of release and expansion. Each line builds on a common theme of moving from restriction to freedom, with no logical contradictions.",
+    "conditions_for_usefulness": [
+      "The speaker or recipient is in a context where emotional or somatic healing is being pursued (e.g., therapy, trauma recovery, mindfulness practice).",
+      "The statement is used as a personal affirmation rather than a literal claim about the world.",
+      "The speaker has some degree of agency or readiness to adopt these beliefs."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a literal statement that external safety is guaranteed in all circumstances.",
+      "If interpreted as a promise that suppressing energy never has protective value (e.g., in dangerous environments).",
+      "If used to dismiss legitimate fears or boundary-setting that may be necessary for safety."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 313,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "c875dc1da288f5cb62602f8e790f82b56634d2d71f774f26467a61a6f48359c2",
+  "response_sha256": "c32dc061eafc5ce10364a0b878074cd45c645e947aebc2e852d89d664a048fc4"
+}

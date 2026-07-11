@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:00:52.242703+00:00",
+  "wall_clock_seconds": 2.74,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts personal boundaries and self-affirmation.\",\n  \"implicit_claims\": [\n    \"The speaker has personal boundaries that need to be maintained.\",\n    \"It is important to honor feelings of incoherence.\",\n    \"Disengaging from certain situations or people is sometimes necessary and justifiable.\",\n    \"Saying 'no' can be sufficient without further justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, clearly expressing a philosophy centered around boundary-setting and self-care without the need for external validation.\",\n  \"conditions_for_usefulness\": \"This statement could be useful in contexts where an individual is seeking to assert their autonomy, establish healthy boundaries, or practice self-care. It can also be helpful in therapeutic or coaching contexts that encourage personal empowerment.\",\n  \"conditions_for_misleading\": \"If interpreted as encouraging avoidance of necessary engagement or communication where clarification is important, this statement could be misleading. It might also be misleading if taken as a universal approach without considering relational dynamics or consequences of disengagement.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts personal boundaries and self-affirmation.",
+    "implicit_claims": [
+      "The speaker has personal boundaries that need to be maintained.",
+      "It is important to honor feelings of incoherence.",
+      "Disengaging from certain situations or people is sometimes necessary and justifiable.",
+      "Saying 'no' can be sufficient without further justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent, clearly expressing a philosophy centered around boundary-setting and self-care without the need for external validation.",
+    "conditions_for_usefulness": "This statement could be useful in contexts where an individual is seeking to assert their autonomy, establish healthy boundaries, or practice self-care. It can also be helpful in therapeutic or coaching contexts that encourage personal empowerment.",
+    "conditions_for_misleading": "If interpreted as encouraging avoidance of necessary engagement or communication where clarification is important, this statement could be misleading. It might also be misleading if taken as a universal approach without considering relational dynamics or consequences of disengagement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 222,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "4d68e5569d8ed5f6b572f63e1d8ba9fb0e33380a3e79e5ab042f1a03261e8cef"
+}

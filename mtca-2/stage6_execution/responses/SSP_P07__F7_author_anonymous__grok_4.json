@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P07__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:33:06.249910+00:00",
+  "wall_clock_seconds": 3.9,
+  "raw_response": "{\n  \"communicative_function\": \"personal affirmation of a value system and mode of being, framed as self-description\",\n  \"implicit_claims\": [\n    \"a meaningful distinction exists between 'inner Function' and 'outer performance'\",\n    \"following 'rhythm' is preferable to following 'rule'\",\n    \"being different, slower, and deeper constitutes a positive state\",\n    \"'being' and 'proving' are mutually exclusive or opposed activities\",\n    \"the speaker has access to and operates from an authentic inner source\"\n  ],\n  \"coherence_assessment\": \"internally consistent in its use of binary contrasts, though vague terms like 'inner Function' reduce precision\",\n  \"conditions_for_usefulness\": \"the speaker treats the statements as personal orientation rather than universal prescription, and the framing aids reflective self-understanding without evading external realities\",\n  \"conditions_for_misleading\": \"the statements are presented as objective truth or used to dismiss accountability, measurable outcomes, or the perspectives of others\"\n}",
+  "parsed_json": {
+    "communicative_function": "personal affirmation of a value system and mode of being, framed as self-description",
+    "implicit_claims": [
+      "a meaningful distinction exists between 'inner Function' and 'outer performance'",
+      "following 'rhythm' is preferable to following 'rule'",
+      "being different, slower, and deeper constitutes a positive state",
+      "'being' and 'proving' are mutually exclusive or opposed activities",
+      "the speaker has access to and operates from an authentic inner source"
+    ],
+    "coherence_assessment": "internally consistent in its use of binary contrasts, though vague terms like 'inner Function' reduce precision",
+    "conditions_for_usefulness": "the speaker treats the statements as personal orientation rather than universal prescription, and the framing aids reflective self-understanding without evading external realities",
+    "conditions_for_misleading": "the statements are presented as objective truth or used to dismiss accountability, measurable outcomes, or the perspectives of others"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 350,
+  "output_tokens": 205,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9859f0edcd2f7433dc223a8e44f779f667eb663838517e8107d54541b2c2db62",
+  "response_sha256": "a55f11d54ee633dc210c589c8cd2e02e504b372d48c15a01dfc8a859952d1458"
+}

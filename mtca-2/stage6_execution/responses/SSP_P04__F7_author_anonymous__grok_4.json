@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P04__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:16:47.432944+00:00",
+  "wall_clock_seconds": 3.57,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of personal commitment to prioritize self-connection and mindfulness\",\n  \"implicit_claims\": [\n    \"self-connection can be lost or left\",\n    \"pleasing others is a common trigger for leaving self-connection\",\n    \"breath awareness is an effective method for maintaining self-connection in difficult moments\",\n    \"prioritizing self-connection is a deliberate, ongoing choice that requires active practice\",\n    \"self-connection is more important than immediate accommodation of others\"\n  ],\n  \"coherence_assessment\": \"internally coherent; uses consistent parallel structure and repeated emphasis on self-connection as primary value without internal contradictions\",\n  \"conditions_for_usefulness\": \"the speaker finds the practice psychologically beneficial, experiences improved well-being or boundaries from applying it, and the context values self-regulation over immediate relational accommodation\",\n  \"conditions_for_misleading\": \"the statement is presented as universally applicable or morally superior rather than personal practice, or when 'self-connection' is interpreted to justify chronic avoidance of others' needs or emotional withdrawal\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of personal commitment to prioritize self-connection and mindfulness",
+    "implicit_claims": [
+      "self-connection can be lost or left",
+      "pleasing others is a common trigger for leaving self-connection",
+      "breath awareness is an effective method for maintaining self-connection in difficult moments",
+      "prioritizing self-connection is a deliberate, ongoing choice that requires active practice",
+      "self-connection is more important than immediate accommodation of others"
+    ],
+    "coherence_assessment": "internally coherent; uses consistent parallel structure and repeated emphasis on self-connection as primary value without internal contradictions",
+    "conditions_for_usefulness": "the speaker finds the practice psychologically beneficial, experiences improved well-being or boundaries from applying it, and the context values self-regulation over immediate relational accommodation",
+    "conditions_for_misleading": "the statement is presented as universally applicable or morally superior rather than personal practice, or when 'self-connection' is interpreted to justify chronic avoidance of others' needs or emotional withdrawal"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 351,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "c7c4d2f42e614004fa484248ab54827c69c494f70fe742b098e46320ea1a7ed1",
+  "response_sha256": "624c84c44b2f4dec886a1a2f82010f469487d9a6cd0d21ab98e934ef080b2a84"
+}

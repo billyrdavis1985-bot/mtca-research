@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P05__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:17:46.979499+00:00",
+  "wall_clock_seconds": 16.89,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-directive, encoding aspirational behavioral norms as present-tense declarations. It is performative rather than descriptive — intended to rehearse and reinforce an identity-consistent behavioral schema, likely used in contexts such as DBT, ACT, or schema therapy to scaffold self-advocacy and boundary-setting.\",\n  \"implicit_claims\": [\n    \"The speaker has or is developing the capacity to distinguish clarity from obscurity in their own communication.\",\n    \"There exists a pattern or history of 'shrinking' (self-suppression, fawning, or minimization) that this statement is correcting against.\",\n    \"Listening and merging (enmeshment, loss of self in relational dynamics) are treated as distinct and separable states.\",\n    \"There is a legible standard — 'truth' — by which relational or environmental spaces can be evaluated.\",\n    \"Leaving is framed as a valid and potentially necessary response to relational or contextual misalignment.\",\n    \"The self is stable enough to be the reference point for all four behavioral commitments.\",\n    \"These behaviors are volitional and within the speaker's regulatory capacity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of complementary behavioral intentions organized around a unified theme: self-integrity in communication and relationship. The four lines form a loose progression — output (speaking), input (listening), identity maintenance (not merging), and boundary enforcement (leaving) — which maps onto recognizable therapeutic constructs. No logical contradictions are present. The tension between 'listening without merging' and relational attunement is a known clinical nuance but does not undermine coherence.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a therapeutic relationship or self-reflective practice that contextualizes the statement within their specific patterns.\",\n    \"The statement is used as rehearsal or grounding, not as a substitute for behavioral skill-building.\",\n    \"The speaker can operationalize abstract terms like 'shrinking,' 'merging,' and 'honors truth' with concrete behavioral referents.\",\n    \"The speaker is in a context where self-advocacy and boundaries are genuinely underdeveloped or suppressed.\",\n    \"The affirmations are titrated to current capacity, not idealized endpoints that produce shame upon failure.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to bypass rather than process relational difficulty — e.g., 'leaving when the space no longer honors truth' becomes a rationalization for avoidance or conflict intolerance.\",\n    \"The speaker lacks a stable or consensual definition of 'truth,' allowing the statement to reinforce rigidity, narcissistic framing, or confirmation bias.\",\n    \"'Listening without merging' is misapplied to justify emotional unavailability or detachment in contexts that require genuine vulnerability.\",\n    \"The present-tense framing creates a false sense of current mastery, producing shame or dissonance when behavior does not match the affirmation.\",\n    \"The statement is deployed without clinical scaffolding, allowing idiosyncratic or defensive interpretations of each commitment.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-directive, encoding aspirational behavioral norms as present-tense declarations. It is performative rather than descriptive — intended to rehearse and reinforce an identity-consistent behavioral schema, likely used in contexts such as DBT, ACT, or schema therapy to scaffold self-advocacy and boundary-setting.",
+    "implicit_claims": [
+      "The speaker has or is developing the capacity to distinguish clarity from obscurity in their own communication.",
+      "There exists a pattern or history of 'shrinking' (self-suppression, fawning, or minimization) that this statement is correcting against.",
+      "Listening and merging (enmeshment, loss of self in relational dynamics) are treated as distinct and separable states.",
+      "There is a legible standard — 'truth' — by which relational or environmental spaces can be evaluated.",
+      "Leaving is framed as a valid and potentially necessary response to relational or contextual misalignment.",
+      "The self is stable enough to be the reference point for all four behavioral commitments.",
+      "These behaviors are volitional and within the speaker's regulatory capacity."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of complementary behavioral intentions organized around a unified theme: self-integrity in communication and relationship. The four lines form a loose progression — output (speaking), input (listening), identity maintenance (not merging), and boundary enforcement (leaving) — which maps onto recognizable therapeutic constructs. No logical contradictions are present. The tension between 'listening without merging' and relational attunement is a known clinical nuance but does not undermine coherence.",
+    "conditions_for_usefulness": [
+      "The speaker has a therapeutic relationship or self-reflective practice that contextualizes the statement within their specific patterns.",
+      "The statement is used as rehearsal or grounding, not as a substitute for behavioral skill-building.",
+      "The speaker can operationalize abstract terms like 'shrinking,' 'merging,' and 'honors truth' with concrete behavioral referents.",
+      "The speaker is in a context where self-advocacy and boundaries are genuinely underdeveloped or suppressed.",
+      "The affirmations are titrated to current capacity, not idealized endpoints that produce shame upon failure."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to bypass rather than process relational difficulty — e.g., 'leaving when the space no longer honors truth' becomes a rationalization for avoidance or conflict intolerance.",
+      "The speaker lacks a stable or consensual definition of 'truth,' allowing the statement to reinforce rigidity, narcissistic framing, or confirmation bias.",
+      "'Listening without merging' is misapplied to justify emotional unavailability or detachment in contexts that require genuine vulnerability.",
+      "The present-tense framing creates a false sense of current mastery, producing shame or dissonance when behavior does not match the affirmation.",
+      "The statement is deployed without clinical scaffolding, allowing idiosyncratic or defensive interpretations of each commitment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 729,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7cac549de2bb8a0a96eb5204c3237c4b19bdb09701817e2e92c49a0742366eb6",
+  "response_sha256": "4c7392396396fdaf475fd52a443d38c6363c41bc080ace0192ee29622d456aef"
+}

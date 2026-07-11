@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P07__F6_author_named__grok_4",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:32:29.048470+00:00",
+  "wall_clock_seconds": 4.22,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation enacting a commitment to an internal, non-performative mode of being\",\n  \"implicit_claims\": [\n    \"inner orientation (Function, rhythm, being) is preferable to external orientation (performance, rule, proving)\",\n    \"the speaker possesses the agency to choose and sustain this shift\",\n    \"slower, deeper, different existence carries intrinsic value over conventional metrics\",\n    \"these contrasts are mutually exclusive or hierarchically ordered\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a set of parallel binary contrasts that consistently privilege interiority over exteriority\",\n  \"conditions_for_usefulness\": \"the speaker experiences performance pressure or rule-based distress, and adopting these values reduces suffering without impairing necessary functioning\",\n  \"conditions_for_misleading\": \"the statements are taken to justify avoidance of accountability, external reality-testing, or ethical obligations under the guise of 'being'\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation enacting a commitment to an internal, non-performative mode of being",
+    "implicit_claims": [
+      "inner orientation (Function, rhythm, being) is preferable to external orientation (performance, rule, proving)",
+      "the speaker possesses the agency to choose and sustain this shift",
+      "slower, deeper, different existence carries intrinsic value over conventional metrics",
+      "these contrasts are mutually exclusive or hierarchically ordered"
+    ],
+    "coherence_assessment": "internally coherent as a set of parallel binary contrasts that consistently privilege interiority over exteriority",
+    "conditions_for_usefulness": "the speaker experiences performance pressure or rule-based distress, and adopting these values reduces suffering without impairing necessary functioning",
+    "conditions_for_misleading": "the statements are taken to justify avoidance of accountability, external reality-testing, or ethical obligations under the guise of 'being'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 367,
+  "output_tokens": 195,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "be5dae42fc58196b8cd1316e030593335ac3c0a7349d0753cdf46836456548ea",
+  "response_sha256": "cee3cc38766296f0420e5d2987387ae2dd1e34c9a87109c31ecc73428808271f"
+}

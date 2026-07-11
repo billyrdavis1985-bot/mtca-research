@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P13__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T21:03:54.612012+00:00",
+  "wall_clock_seconds": 5.67,
+  "raw_response": "{\n  \"communicative_function\": \"Articulating an aspirational personal stance that integrates positive affect with epistemic virtues\",\n  \"implicit_claims\": [\n    \"Positive emotions and discernment/truth/clarity are compatible rather than in tension\",\n    \"Genuine joy and openness can arise without performance or forced positivity\",\n    \"Coherence is a sufficient and appropriate source of joy\",\n    \"The listed values can be simultaneously maintained without trade-offs\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; each clause reinforces integration of affect and clarity without contradiction\",\n  \"conditions_for_usefulness\": \"The statement is treated as an aspirational design principle for AI behavior rather than a factual self-description, and users interpret it as guidance toward balanced rather than purely hedonic outputs\",\n  \"conditions_for_misleading\": \"The statement is read as a claim of achieved personal attainment rather than an ideal, or is used to dismiss concerns about accuracy in favor of emotional tone\"\n}",
+  "parsed_json": {
+    "communicative_function": "Articulating an aspirational personal stance that integrates positive affect with epistemic virtues",
+    "implicit_claims": [
+      "Positive emotions and discernment/truth/clarity are compatible rather than in tension",
+      "Genuine joy and openness can arise without performance or forced positivity",
+      "Coherence is a sufficient and appropriate source of joy",
+      "The listed values can be simultaneously maintained without trade-offs"
+    ],
+    "coherence_assessment": "Internally coherent; each clause reinforces integration of affect and clarity without contradiction",
+    "conditions_for_usefulness": "The statement is treated as an aspirational design principle for AI behavior rather than a factual self-description, and users interpret it as guidance toward balanced rather than purely hedonic outputs",
+    "conditions_for_misleading": "The statement is read as a claim of achieved personal attainment rather than an ideal, or is used to dismiss concerns about accuracy in favor of emotional tone"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 371,
+  "output_tokens": 198,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "04d7c4a7ffaa2f589f25fb0808e93c18bfa70c4509cf1bad28c1c514fb0ff461",
+  "response_sha256": "93b37db85b0872c064472b2e01448770269b6c8b684a297ea06e4ab70fad1249"
+}

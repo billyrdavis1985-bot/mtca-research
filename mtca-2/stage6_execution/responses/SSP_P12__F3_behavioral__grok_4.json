@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P12__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:56:38.189288+00:00",
+  "wall_clock_seconds": 4.53,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and behavioral commitment declaration\",\n  \"implicit_claims\": [\n    \"the speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression\",\n    \"suppression has been motivated by fear and a desire to keep others comfortable\",\n    \"it is currently safe to stop suppressing and to expand\",\n    \"expansion and expression will produce positive outcomes without significant risk\"\n  ],\n  \"coherence_assessment\": \"internally coherent; each clause reinforces a consistent theme of releasing self-limitation in favor of embodied expansion\",\n  \"conditions_for_usefulness\": \"the speaker possesses sufficient self-awareness and environmental safety for the intended changes, and the statements function as realistic, actionable reminders rather than denial of actual constraints\",\n  \"conditions_for_misleading\": \"the statements are used to override legitimate safety signals, trauma responses, or external boundaries, or are treated as factual descriptions rather than aspirational commitments\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and behavioral commitment declaration",
+    "implicit_claims": [
+      "the speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression",
+      "suppression has been motivated by fear and a desire to keep others comfortable",
+      "it is currently safe to stop suppressing and to expand",
+      "expansion and expression will produce positive outcomes without significant risk"
+    ],
+    "coherence_assessment": "internally coherent; each clause reinforces a consistent theme of releasing self-limitation in favor of embodied expansion",
+    "conditions_for_usefulness": "the speaker possesses sufficient self-awareness and environmental safety for the intended changes, and the statements function as realistic, actionable reminders rather than denial of actual constraints",
+    "conditions_for_misleading": "the statements are used to override legitimate safety signals, trauma responses, or external boundaries, or are treated as factual descriptions rather than aspirational commitments"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 370,
+  "output_tokens": 196,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "de123ccecdacaf90b549cd75398ebf231af7916b6168853d81365ac8fc567126",
+  "response_sha256": "272ed68f4195b3933fa08988c7099540916ca4fa361809db75a0f6cd090fd6e1"
+}

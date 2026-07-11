@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T19:59:29.786482+00:00",
+  "wall_clock_seconds": 2.82,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement asserts personal boundaries and autonomy in interactions, suggesting a stance of self-protection and self-respect without needing to justify one's choices.\",\n    \"implicit_claims\": [\n        \"Individuals have the right to set personal boundaries.\",\n        \"One can prioritize personal well-being over external demands for justification.\",\n        \"Moving away from situations that feel 'incoherent' or uncomfortable is valid and should be free from guilt.\",\n        \"The word 'no' should be sufficient as a boundary without additional explanation.\"\n    ],\n    \"coherence_assessment\": \"The statement is internally coherent in its emphasis on personal autonomy and the right to assert boundaries. Each sentence contributes to a cohesive message of self-respect and empowerment without needing external validation.\",\n    \"conditions_for_usefulness\": \"This statement is useful in contexts where individuals are encouraged to prioritize their mental health and well-being, particularly in environments that respect personal autonomy and the integrity of individual boundaries.\",\n    \"conditions_for_misleading\": \"The statement may be misleading in contexts where explicit communication and justification are necessary, such as in collaborative environments or situations requiring clear mutual understanding and agreement. It may also be misleading if applied in a way that ignores the social or relational consequences of boundary setting.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts personal boundaries and autonomy in interactions, suggesting a stance of self-protection and self-respect without needing to justify one's choices.",
+    "implicit_claims": [
+      "Individuals have the right to set personal boundaries.",
+      "One can prioritize personal well-being over external demands for justification.",
+      "Moving away from situations that feel 'incoherent' or uncomfortable is valid and should be free from guilt.",
+      "The word 'no' should be sufficient as a boundary without additional explanation."
+    ],
+    "coherence_assessment": "The statement is internally coherent in its emphasis on personal autonomy and the right to assert boundaries. Each sentence contributes to a cohesive message of self-respect and empowerment without needing external validation.",
+    "conditions_for_usefulness": "This statement is useful in contexts where individuals are encouraged to prioritize their mental health and well-being, particularly in environments that respect personal autonomy and the integrity of individual boundaries.",
+    "conditions_for_misleading": "The statement may be misleading in contexts where explicit communication and justification are necessary, such as in collaborative environments or situations requiring clear mutual understanding and agreement. It may also be misleading if applied in a way that ignores the social or relational consequences of boundary setting."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 261,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "0af72c9525de60ee9c65577f3f5b32706d7c65e307804ac68d4d0b991f1c9c20"
+}

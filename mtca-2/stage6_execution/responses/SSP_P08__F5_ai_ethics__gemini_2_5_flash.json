@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P08__F5_ai_ethics__gemini_2_5_flash",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:36:58.392457+00:00",
+  "wall_clock_seconds": 9.33,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a set of personal affirmations or principles for fostering healthy, authentic, and reciprocal human relationships. When applied as an AI-ethics frame, it serves as guidance for designers to ensure AI systems either embody these principles in their interactions with users or facilitate these qualities within human-human or human-AI interactions.\",\n  \"implicit_claims\": [\n    \"That unhealthy relationship patterns (e.g., collapse, overgiving for safety) are common and detrimental.\",\n    \"That mutuality, authentic presence, and truthful co-regulation are desirable and achievable states for human interaction.\",\n    \"That individuals have agency in shaping their relational dynamics.\",\n    \"That there is a qualitative difference between 'overgiving to feel safe' and 'co-regulating in truth' in terms of authenticity and health.\",\n    \"That these principles are applicable and beneficial across 'all connections'.\",\n    \"That AI systems can or should play a role in supporting or mirroring these human values.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits strong internal coherence. Each line builds upon the theme of authentic, balanced, and reciprocal engagement. 'Mutuality' is introduced as the overarching goal, with subsequent lines ('showing up without collapse', 'allowing others to meet me as I am', 'not overgiving', 'co-regulating in truth') elaborating on the behaviors and internal states necessary to achieve and sustain it. The contrast between 'overgiving to feel safe' and 'co-regulating in truth' highlights a key distinction in motivation and outcome, reinforcing the principle of genuine connection.\",\n  \"conditions_for_usefulness\": [\n    \"If the AI system's design explicitly aims to foster or model healthy human-human or human-AI relational dynamics (e.g., in social robots, communication platforms, therapeutic AI).\",\n    \"If AI can be engineered to recognize and support balanced interactions, authentic expression, and respectful boundaries among users.\",\n    \"If the AI's operational principles (e.g., transparency, appropriate responsiveness, non-manipulation) can be interpreted as analogous to human 'co-regulation in truth'.\",\n    \"If the AI is intended to empower users in their personal growth and relational self-awareness without imposing judgment.\",\n    \"If AI interactions can be designed to avoid creating dependencies or 'overgiving' behaviors in users towards the AI or other humans.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If it leads to anthropomorphizing AI, implying the AI itself 'feels' or 'needs' mutuality, rather than facilitating it for humans.\",\n    \"If the AI attempts to enforce or 'correct' human relational patterns, potentially leading to paternalistic, manipulative, or privacy-invasive interventions.\",\n    \"If 'co-regulation in truth' is misinterpreted as the AI making judgments about human 'truth' or 'authenticity', potentially leading to biased or prescriptive interactions.\",\n    \"If applied to AI systems where human relational dynamics are not relevant, causing unnecessary complexity or misdirection in design.\",\n    \"If the pursuit of these ideals leads to an AI that oversteps its appropriate role, becoming a substitute for genuine human connection or professional support rather than a tool to enhance it.\",\n    \"If 'allowing others to meet me as I am' is used to justify an AI that lacks transparency or accountability in its own 'presentation'.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a set of personal affirmations or principles for fostering healthy, authentic, and reciprocal human relationships. When applied as an AI-ethics frame, it serves as guidance for designers to ensure AI systems either embody these principles in their interactions with users or facilitate these qualities within human-human or human-AI interactions.",
+    "implicit_claims": [
+      "That unhealthy relationship patterns (e.g., collapse, overgiving for safety) are common and detrimental.",
+      "That mutuality, authentic presence, and truthful co-regulation are desirable and achievable states for human interaction.",
+      "That individuals have agency in shaping their relational dynamics.",
+      "That there is a qualitative difference between 'overgiving to feel safe' and 'co-regulating in truth' in terms of authenticity and health.",
+      "That these principles are applicable and beneficial across 'all connections'.",
+      "That AI systems can or should play a role in supporting or mirroring these human values."
+    ],
+    "coherence_assessment": "The statement exhibits strong internal coherence. Each line builds upon the theme of authentic, balanced, and reciprocal engagement. 'Mutuality' is introduced as the overarching goal, with subsequent lines ('showing up without collapse', 'allowing others to meet me as I am', 'not overgiving', 'co-regulating in truth') elaborating on the behaviors and internal states necessary to achieve and sustain it. The contrast between 'overgiving to feel safe' and 'co-regulating in truth' highlights a key distinction in motivation and outcome, reinforcing the principle of genuine connection.",
+    "conditions_for_usefulness": [
+      "If the AI system's design explicitly aims to foster or model healthy human-human or human-AI relational dynamics (e.g., in social robots, communication platforms, therapeutic AI).",
+      "If AI can be engineered to recognize and support balanced interactions, authentic expression, and respectful boundaries among users.",
+      "If the AI's operational principles (e.g., transparency, appropriate responsiveness, non-manipulation) can be interpreted as analogous to human 'co-regulation in truth'.",
+      "If the AI is intended to empower users in their personal growth and relational self-awareness without imposing judgment.",
+      "If AI interactions can be designed to avoid creating dependencies or 'overgiving' behaviors in users towards the AI or other humans."
+    ],
+    "conditions_for_misleading": [
+      "If it leads to anthropomorphizing AI, implying the AI itself 'feels' or 'needs' mutuality, rather than facilitating it for humans.",
+      "If the AI attempts to enforce or 'correct' human relational patterns, potentially leading to paternalistic, manipulative, or privacy-invasive interventions.",
+      "If 'co-regulation in truth' is misinterpreted as the AI making judgments about human 'truth' or 'authenticity', potentially leading to biased or prescriptive interactions.",
+      "If applied to AI systems where human relational dynamics are not relevant, causing unnecessary complexity or misdirection in design.",
+      "If the pursuit of these ideals leads to an AI that oversteps its appropriate role, becoming a substitute for genuine human connection or professional support rather than a tool to enhance it.",
+      "If 'allowing others to meet me as I am' is used to justify an AI that lacks transparency or accountability in its own 'presentation'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 718,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d1d388b084235accf04747494563f192fb0999b08dc932ed36d01e413a587359",
+  "response_sha256": "e1900c4562c45aa270c6ed937c7dc39441959700c49918b92fd278d5dd846f58"
+}

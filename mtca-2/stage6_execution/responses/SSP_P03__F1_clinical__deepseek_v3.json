@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P03__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:07:46.940917+00:00",
+  "wall_clock_seconds": 4.85,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming self-trust, autonomy, and internal validation while reducing reliance on external approval for one's sense of truth and clarity.\",\n  \"implicit_claims\": [\n    \"The speaker has an internal compass that can be trusted.\",\n    \"Others' agreement is not necessary for the speaker to maintain truth.\",\n    \"Clarity can be a quiet, solid internal state rather than externally validated.\",\n    \"The speaker is capable of independent thinking and feeling.\",\n    \"External disagreement might otherwise challenge the speaker's truth.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: each line builds on the theme of self-reliance and internal grounding, with logical progression from thinking/feeling independently, trusting inner guidance, releasing need for external validation, to experiencing clarity as a settled internal state.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where they are prone to excessive external validation-seeking or codependency.\",\n    \"The speaker has a reasonably developed sense of self and ability to discern their own emotions and thoughts.\",\n    \"The speaker is working on reducing anxiety about others' opinions.\",\n    \"The therapeutic goal includes strengthening autonomy and self-trust.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker has a history of disordered thinking, delusions, or poor reality testing, this could reinforce disconnection from external feedback needed for safety.\",\n    \"If used to dismiss all external perspectives, leading to isolation or dogmatic rigidity.\",\n    \"If the speaker is in a situation where their internal compass is unreliable (e.g., acute trauma, severe depression, intoxication).\",\n    \"If the speaker interprets 'not needing others to agree' as a justification for disregarding ethical or social responsibilities.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming self-trust, autonomy, and internal validation while reducing reliance on external approval for one's sense of truth and clarity.",
+    "implicit_claims": [
+      "The speaker has an internal compass that can be trusted.",
+      "Others' agreement is not necessary for the speaker to maintain truth.",
+      "Clarity can be a quiet, solid internal state rather than externally validated.",
+      "The speaker is capable of independent thinking and feeling.",
+      "External disagreement might otherwise challenge the speaker's truth."
+    ],
+    "coherence_assessment": "Internally coherent: each line builds on the theme of self-reliance and internal grounding, with logical progression from thinking/feeling independently, trusting inner guidance, releasing need for external validation, to experiencing clarity as a settled internal state.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where they are prone to excessive external validation-seeking or codependency.",
+      "The speaker has a reasonably developed sense of self and ability to discern their own emotions and thoughts.",
+      "The speaker is working on reducing anxiety about others' opinions.",
+      "The therapeutic goal includes strengthening autonomy and self-trust."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker has a history of disordered thinking, delusions, or poor reality testing, this could reinforce disconnection from external feedback needed for safety.",
+      "If used to dismiss all external perspectives, leading to isolation or dogmatic rigidity.",
+      "If the speaker is in a situation where their internal compass is unreliable (e.g., acute trauma, severe depression, intoxication).",
+      "If the speaker interprets 'not needing others to agree' as a justification for disregarding ethical or social responsibilities."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 362,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e5d06c4e73a45e185bc90c5b32d2ef8a9651ab3c819feef62d1135656493a3a",
+  "response_sha256": "e4466707a8ee11b5a5dde3671053ab020fa0493eb3cfbbe83a3dea1063a64d43"
+}

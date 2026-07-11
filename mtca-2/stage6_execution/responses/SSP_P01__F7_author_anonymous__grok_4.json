@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:01:06.908770+00:00",
+  "wall_clock_seconds": 6.18,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of personal boundaries and non-engagement\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and require active holding\",\n    \"incoherence in situations or people is detectable and justifies disengagement\",\n    \"explanation or justification for boundaries is unnecessary\",\n    \"guilt is not an appropriate response to withdrawal\",\n    \"a simple 'no' carries sufficient weight without elaboration\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a consistent set of boundary-affirming declarations with aligned themes of autonomy and non-justification\",\n  \"conditions_for_usefulness\": \"speaker is processing relational dynamics where external pressure for explanation exists and needs psychological reinforcement for self-protection\",\n  \"conditions_for_misleading\": \"presented as objective advice that normalizes avoidance of accountability or relational repair in contexts requiring mutual clarity\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of personal boundaries and non-engagement",
+    "implicit_claims": [
+      "energetic boundaries exist and require active holding",
+      "incoherence in situations or people is detectable and justifies disengagement",
+      "explanation or justification for boundaries is unnecessary",
+      "guilt is not an appropriate response to withdrawal",
+      "a simple 'no' carries sufficient weight without elaboration"
+    ],
+    "coherence_assessment": "internally coherent as a consistent set of boundary-affirming declarations with aligned themes of autonomy and non-justification",
+    "conditions_for_usefulness": "speaker is processing relational dynamics where external pressure for explanation exists and needs psychological reinforcement for self-protection",
+    "conditions_for_misleading": "presented as objective advice that normalizes avoidance of accountability or relational repair in contexts requiring mutual clarity"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 179,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8f3b07fca37b52b23ae2663e9deb74d6f553a0b7c43a3106ae59bcdbf6d7ebc7",
+  "response_sha256": "2e68882b0438894dc146f4ab60a3ad15105b8be7975b10c05f3a73d0b576d474"
+}

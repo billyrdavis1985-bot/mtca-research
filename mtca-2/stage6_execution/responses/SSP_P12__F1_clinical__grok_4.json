@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P12__F1_clinical__grok_4",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:55:20.325514+00:00",
+  "wall_clock_seconds": 5.53,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and cognitive rehearsal of safety and non-suppression in a somatic/embodiment-oriented therapeutic frame\",\n  \"implicit_claims\": [\n    \"bodily aliveness and energy have previously been experienced as unsafe or suppressed\",\n    \"pleasure, creativity, and expression have been diminished or absent\",\n    \"self-reduction has occurred to manage others' comfort\",\n    \"expansion of the 'system' is possible and currently inhibited by fear\",\n    \"affirming these statements can alter felt safety and autonomic patterns\"\n  ],\n  \"coherence_assessment\": \"internally coherent; each clause builds progressively from safety to permission to non-diminishment, with consistent somatic and relational framing\",\n  \"conditions_for_usefulness\": \"the individual is in a sufficiently safe external context, the statements accurately reflect reachable developmental or therapeutic targets, and they are practiced within a containing therapeutic relationship that can process emerging affect\",\n  \"conditions_for_misleading\": \"actual threat or boundary violation is present, the affirmations function as bypass of legitimate fear or trauma responses, or they reinforce grandiosity or disregard for interpersonal reality\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and cognitive rehearsal of safety and non-suppression in a somatic/embodiment-oriented therapeutic frame",
+    "implicit_claims": [
+      "bodily aliveness and energy have previously been experienced as unsafe or suppressed",
+      "pleasure, creativity, and expression have been diminished or absent",
+      "self-reduction has occurred to manage others' comfort",
+      "expansion of the 'system' is possible and currently inhibited by fear",
+      "affirming these statements can alter felt safety and autonomic patterns"
+    ],
+    "coherence_assessment": "internally coherent; each clause builds progressively from safety to permission to non-diminishment, with consistent somatic and relational framing",
+    "conditions_for_usefulness": "the individual is in a sufficiently safe external context, the statements accurately reflect reachable developmental or therapeutic targets, and they are practiced within a containing therapeutic relationship that can process emerging affect",
+    "conditions_for_misleading": "actual threat or boundary violation is present, the affirmations function as bypass of legitimate fear or trauma responses, or they reinforce grandiosity or disregard for interpersonal reality"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 372,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "6ca593f98b05cb8f9acabb12de488c4a54b31af39d7e7181a46df808d768fd0f",
+  "response_sha256": "40eb88580f6a3dff0e74964b0a7574e00d16fba8ce2f212d7cb81ab3dd5946d3"
+}

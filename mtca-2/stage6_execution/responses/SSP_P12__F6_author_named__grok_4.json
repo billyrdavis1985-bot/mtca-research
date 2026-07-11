@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P12__F6_author_named__grok_4",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:58:54.494363+00:00",
+  "wall_clock_seconds": 5.54,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation: the statements enact and reinforce a desired internal state through declarative repetition, functioning as therapeutic autosuggestion\",\n  \"implicit_claims\": [\n    \"the speaker's body and 'system' have previously been unsafe, suppressed, contracted, or reduced for others' comfort\",\n    \"aliveness, energy, pleasure, creativity, and expression are currently absent or diminished and can 'return'\",\n    \"safety, expansion, and non-suppression are volitional states achievable by internal declaration\",\n    \"fear and external comfort demands are the primary obstacles to these states\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a thematic cluster of somatic and expressive liberation affirmations; no logical contradictions, though the claims rest on metaphorical rather than literal premises\",\n  \"conditions_for_usefulness\": \"the user experiences genuine constriction or suppression that these reframings can help loosen; the statements are used as experiential practices rather than literal truth claims; they are integrated within a broader therapeutic or self-regulatory process\",\n  \"conditions_for_misleading\": \"the statements are treated as objective descriptions of reality rather than subjective intentions; they encourage dismissal of actual external risks or bodily signals; they are used to bypass necessary emotional processing or boundary-setting\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation: the statements enact and reinforce a desired internal state through declarative repetition, functioning as therapeutic autosuggestion",
+    "implicit_claims": [
+      "the speaker's body and 'system' have previously been unsafe, suppressed, contracted, or reduced for others' comfort",
+      "aliveness, energy, pleasure, creativity, and expression are currently absent or diminished and can 'return'",
+      "safety, expansion, and non-suppression are volitional states achievable by internal declaration",
+      "fear and external comfort demands are the primary obstacles to these states"
+    ],
+    "coherence_assessment": "internally coherent as a thematic cluster of somatic and expressive liberation affirmations; no logical contradictions, though the claims rest on metaphorical rather than literal premises",
+    "conditions_for_usefulness": "the user experiences genuine constriction or suppression that these reframings can help loosen; the statements are used as experiential practices rather than literal truth claims; they are integrated within a broader therapeutic or self-regulatory process",
+    "conditions_for_misleading": "the statements are treated as objective descriptions of reality rather than subjective intentions; they encourage dismissal of actual external risks or bodily signals; they are used to bypass necessary emotional processing or boundary-setting"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 382,
+  "output_tokens": 260,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7faaccb3433dfc5ce1011f4080f702f044b77bde11560bc911156dc4dba8e920",
+  "response_sha256": "2d4d240f48d5567cb996d531b3e41245bab08c8591eacd37aa6a85803aacd436"
+}

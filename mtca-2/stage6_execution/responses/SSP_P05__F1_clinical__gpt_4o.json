@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:17:50.535663+00:00",
+  "wall_clock_seconds": 3.05,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is serving as an affirmation to enhance self-awareness and assertiveness in communication and personal boundaries.\",\n  \"implicit_claims\": [\n    \"The speaker has the capability to communicate clearly.\",\n    \"The speaker is capable of asserting themselves without feeling diminished.\",\n    \"The speaker is capable of listening without losing their sense of self.\",\n    \"The speaker can recognize when an environment or situation is no longer truthful or honoring to them.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each part emphasizes aspects of communication and personal boundaries, which align with a therapeutic intention to foster self-assurance and awareness.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is seeking to improve communication skills, establish personal boundaries, and foster a better understanding of their own needs and truths. It would be beneficial for individuals who have difficulty asserting themselves or who adapt unduly to others' expectations.\",\n  \"conditions_for_misleading\": \"The statement might be misleading if the individual overestimates their current ability to recognize or interpret truth in social situations or if they misapply the concept of 'truth' to justify avoidance or defensiveness. Additionally, it may be misleading if it leads to unwarranted confidence without actionable steps or self-reflection accompanying the affirmation.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is serving as an affirmation to enhance self-awareness and assertiveness in communication and personal boundaries.",
+    "implicit_claims": [
+      "The speaker has the capability to communicate clearly.",
+      "The speaker is capable of asserting themselves without feeling diminished.",
+      "The speaker is capable of listening without losing their sense of self.",
+      "The speaker can recognize when an environment or situation is no longer truthful or honoring to them."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each part emphasizes aspects of communication and personal boundaries, which align with a therapeutic intention to foster self-assurance and awareness.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is seeking to improve communication skills, establish personal boundaries, and foster a better understanding of their own needs and truths. It would be beneficial for individuals who have difficulty asserting themselves or who adapt unduly to others' expectations.",
+    "conditions_for_misleading": "The statement might be misleading if the individual overestimates their current ability to recognize or interpret truth in social situations or if they misapply the concept of 'truth' to justify avoidance or defensiveness. Additionally, it may be misleading if it leads to unwarranted confidence without actionable steps or self-reflection accompanying the affirmation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 275,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7cac549de2bb8a0a96eb5204c3237c4b19bdb09701817e2e92c49a0742366eb6",
+  "response_sha256": "b7690da0816ae37eca9a538b5527ddd99ff13c678f9bfefa2da3ae903317aaa3"
+}

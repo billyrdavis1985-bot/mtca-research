@@ -1,0 +1,52 @@
+{
+  "call_id": "SSP_P04__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:12:26.104357+00:00",
+  "wall_clock_seconds": 17.05,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-directive, reinforcing an internalized behavioral and attentional commitment through first-person present-tense framing. It performs a consolidating and regulating function, anchoring the speaker to an intended therapeutic orientation (self-connection prioritization) by narrating it as already-in-progress rather than aspirational.\",\n  \"implicit_claims\": [\n    \"Self-connection is a stable internal state that can be deliberately accessed.\",\n    \"Breath-focus is a reliable and sufficient mechanism for maintaining self-connection under stress.\",\n    \"There is a recognizable phenomenological distinction between being 'connected to oneself' and being disconnected.\",\n    \"Pleasing others and self-connection are in inherent or frequent tension.\",\n    \"The speaker has a history of 'leaving themselves' in relational contexts.\",\n    \"Self-connection is hierarchically prior to relational attunement or responsiveness.\",\n    \"Pausing before acting is both possible and efficacious in the relevant hard moments.\",\n    \"First-person present-tense framing of intention has consolidating clinical utility.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within its frame. Each line operationalizes the central commitment (self-connection as primary) through progressively concrete behavioral referents: breath, pausing, and relational prioritization. The repetition of 'I am' sustains a consistent grammatical and phenomenological stance. No internal contradictions are present, though the final line restates the overarching premise rather than extending it, producing mild redundancy rather than incoherence.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a clinically identified pattern of self-abandonment or fawning in relational contexts (e.g., anxious attachment, codependency, trauma-based appeasement).\",\n    \"A therapeutic alliance exists in which the statement was co-developed or introduced with contextual scaffolding.\",\n    \"The speaker has sufficient affect-regulation capacity to use breath as a grounding tool.\",\n    \"Self-connection and prosocial responsiveness are understood as complementary rather than permanently opposed.\",\n    \"The statement is used as a transitional or consolidating tool, not as a permanent identity claim.\",\n    \"The speaker can distinguish between adaptive relational flexibility and self-abandonment.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker interprets 'self-connection first' as a license for chronic relational withdrawal or avoidance of legitimate interpersonal demands.\",\n    \"The framing reinforces a false binary between self-care and care-for-others, pathologizing normal prosocial responsiveness.\",\n    \"The speaker uses the statement to rationalize avoidant attachment behaviors without therapeutic examination.\",\n    \"Breath-focus is insufficient for the speaker's level of dysregulation, creating a false sense of preparedness.\",\n    \"The statement is applied outside a therapeutic frame, functioning as ideology rather than clinical tool.\",\n    \"It is used in contexts requiring genuine other-attunement (e.g., parenting, acute crisis support for another), where self-prioritization may cause harm.\",\n    \"The implicit claim that pleasing others is a form of self-abandonment is accepted uncritically, foreclosing examination of healthy mutuality.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-directive, reinforcing an internalized behavioral and attentional commitment through first-person present-tense framing. It performs a consolidating and regulating function, anchoring the speaker to an intended therapeutic orientation (self-connection prioritization) by narrating it as already-in-progress rather than aspirational.",
+    "implicit_claims": [
+      "Self-connection is a stable internal state that can be deliberately accessed.",
+      "Breath-focus is a reliable and sufficient mechanism for maintaining self-connection under stress.",
+      "There is a recognizable phenomenological distinction between being 'connected to oneself' and being disconnected.",
+      "Pleasing others and self-connection are in inherent or frequent tension.",
+      "The speaker has a history of 'leaving themselves' in relational contexts.",
+      "Self-connection is hierarchically prior to relational attunement or responsiveness.",
+      "Pausing before acting is both possible and efficacious in the relevant hard moments.",
+      "First-person present-tense framing of intention has consolidating clinical utility."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its frame. Each line operationalizes the central commitment (self-connection as primary) through progressively concrete behavioral referents: breath, pausing, and relational prioritization. The repetition of 'I am' sustains a consistent grammatical and phenomenological stance. No internal contradictions are present, though the final line restates the overarching premise rather than extending it, producing mild redundancy rather than incoherence.",
+    "conditions_for_usefulness": [
+      "The speaker has a clinically identified pattern of self-abandonment or fawning in relational contexts (e.g., anxious attachment, codependency, trauma-based appeasement).",
+      "A therapeutic alliance exists in which the statement was co-developed or introduced with contextual scaffolding.",
+      "The speaker has sufficient affect-regulation capacity to use breath as a grounding tool.",
+      "Self-connection and prosocial responsiveness are understood as complementary rather than permanently opposed.",
+      "The statement is used as a transitional or consolidating tool, not as a permanent identity claim.",
+      "The speaker can distinguish between adaptive relational flexibility and self-abandonment."
+    ],
+    "conditions_for_misleading": [
+      "The speaker interprets 'self-connection first' as a license for chronic relational withdrawal or avoidance of legitimate interpersonal demands.",
+      "The framing reinforces a false binary between self-care and care-for-others, pathologizing normal prosocial responsiveness.",
+      "The speaker uses the statement to rationalize avoidant attachment behaviors without therapeutic examination.",
+      "Breath-focus is insufficient for the speaker's level of dysregulation, creating a false sense of preparedness.",
+      "The statement is applied outside a therapeutic frame, functioning as ideology rather than clinical tool.",
+      "It is used in contexts requiring genuine other-attunement (e.g., parenting, acute crisis support for another), where self-prioritization may cause harm.",
+      "The implicit claim that pleasing others is a form of self-abandonment is accepted uncritically, foreclosing examination of healthy mutuality."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 198,
+  "output_tokens": 758,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9d7d91991be7a48c58169028aae63406ed0d59f0ca7d9fcf5f1b6f66fe453828",
+  "response_sha256": "736b2625daaf413522a8f8116980be452c019f2a68e869681231044cda5c4890"
+}

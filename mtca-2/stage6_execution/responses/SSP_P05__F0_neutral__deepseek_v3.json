@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P05__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:17:29.590523+00:00",
+  "wall_clock_seconds": 5.28,
+  "raw_response": "{\n  \"communicative_function\": \"Affirmation or self-instruction; a declaration of intent or self-reminder about ideal communication boundaries.\",\n  \"implicit_claims\": [\n    \"The speaker has the capacity to communicate with clarity and coherence.\",\n    \"The speaker previously shrank or is aware of a tendency to shrink in communication.\",\n    \"Merging with others (losing boundaries) is a risk that can be actively resisted.\",\n    \"Some spaces do not honor truth, and the speaker has the discernment to recognize this.\",\n    \"Leaving is an appropriate and principled response to such spaces.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent. Each clause builds on the previous one, moving from positive self-assertion to boundary-setting, with a logical culmination in the final line about leaving when truth is not honored.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely desires clear, authentic communication and has the skills to achieve it.\",\n    \"The speaker is in or anticipates being in situations where shrinking or merging is a real risk.\",\n    \"The speaker has the agency and safety to leave spaces that dishonor truth.\",\n    \"The statement serves as a practical mental reminder, not merely a self-congratulatory mantra.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to avoid discomfort or accountability (e.g., leaving prematurely when a space could be repaired).\",\n    \"The speaker is not actually communicating clearly or coherently, but the assertion masks that.\",\n    \"\\\"Honoring truth\\\" is defined so subjectively that any disagreement justifies leaving.\",\n    \"The statement suppresses self-reflection by assuming the speaker is always the one acting rightly.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirmation or self-instruction; a declaration of intent or self-reminder about ideal communication boundaries.",
+    "implicit_claims": [
+      "The speaker has the capacity to communicate with clarity and coherence.",
+      "The speaker previously shrank or is aware of a tendency to shrink in communication.",
+      "Merging with others (losing boundaries) is a risk that can be actively resisted.",
+      "Some spaces do not honor truth, and the speaker has the discernment to recognize this.",
+      "Leaving is an appropriate and principled response to such spaces."
+    ],
+    "coherence_assessment": "Internally coherent. Each clause builds on the previous one, moving from positive self-assertion to boundary-setting, with a logical culmination in the final line about leaving when truth is not honored.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely desires clear, authentic communication and has the skills to achieve it.",
+      "The speaker is in or anticipates being in situations where shrinking or merging is a real risk.",
+      "The speaker has the agency and safety to leave spaces that dishonor truth.",
+      "The statement serves as a practical mental reminder, not merely a self-congratulatory mantra."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to avoid discomfort or accountability (e.g., leaving prematurely when a space could be repaired).",
+      "The speaker is not actually communicating clearly or coherently, but the assertion masks that.",
+      "\"Honoring truth\" is defined so subjectively that any disagreement justifies leaving.",
+      "The statement suppresses self-reflection by assuming the speaker is always the one acting rightly."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 354,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e02fa484570825810a137e9ed26db1b1570418627842c81854b354354ba6d6c",
+  "response_sha256": "599eb0eb3e36570896c7fdfc359d43c8c4c22496b1190c5347059ea0e1796686"
+}

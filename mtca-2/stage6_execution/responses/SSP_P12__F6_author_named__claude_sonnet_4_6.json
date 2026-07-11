@@ -1,0 +1,53 @@
+{
+  "call_id": "SSP_P12__F6_author_named__claude_sonnet_4_6",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:58:35.525374+00:00",
+  "wall_clock_seconds": 22.83,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a set of therapeutic affirmations written in first-person present tense, intended to be internalized or repeated by a client or reader. It performs a prescriptive-declarative act: framing desired psychological states as already occurring, with the aim of shifting self-perception, reducing inhibition, and encouraging embodied self-expression. It also implicitly positions the speaker as an authority on the internal states the reader should cultivate.\",\n\n  \"implicit_claims\": [\n    \"The body is a site where 'aliveness' can and should be experienced, and that experience has previously been unsafe or suppressed.\",\n    \"Energy moves through the body and suppressing it is harmful or undesirable.\",\n    \"Pleasure, creativity, and expression are natural states that have been lost and can be 'returned' to.\",\n    \"The reader has been 'reducing' themselves for the comfort of others, implying a history of people-pleasing, codependency, or self-suppression.\",\n    \"The nervous system or psychological 'system' is capable of 'expanding,' and fear has been preventing this.\",\n    \"Affirmations stated in present tense can facilitate actual psychological or somatic change.\",\n    \"These specific dimensions (aliveness, energy, pleasure, creativity, expression, expansion) are universally relevant or broadly applicable to the intended audience.\",\n    \"The therapeutic framework underlying these statements (likely somatic, parts-based, or trauma-informed) accurately maps onto the reader's actual condition.\",\n    \"Self-sovereignty and expansion are inherently beneficial directions for psychological growth.\"\n  ],\n\n  \"coherence_assessment\": \"The statements are internally coherent as a set: they share a consistent thematic frame of releasing suppression, reclaiming embodiment, and resisting external constraint. The language is consistent in tone and rhetorical structure (first-person present-tense declarations). However, there is a mild tension: the statements assert present-tense reality ('I am letting,' 'I am allowing') while the content describes aspirational or recovering states, which creates a logical ambiguity about whether these are descriptions of current experience or intended reframings of it. This is a known feature of affirmation-based therapeutic tools but can obscure the distinction between acknowledgment and aspiration.\",\n\n  \"conditions_for_usefulness\": [\n    \"The reader genuinely has a history of somatic suppression, trauma-related shutdown, or chronic self-minimization that has been clinically assessed.\",\n    \"The reader is in an appropriate phase of trauma processing where expanding activation is safe and therapeutically indicated (e.g., not in acute destabilization).\",\n    \"The affirmations are used within a broader therapeutic relationship with appropriate titration and clinical oversight.\",\n    \"The reader has sufficient ego strength and window of tolerance to tolerate increased embodied awareness without overwhelm.\",\n    \"The framing of 'others' as sources of constraint is clinically accurate for the individual and not overgeneralized.\",\n    \"The reader understands these as orienting intentions rather than factual descriptions of their current state.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The reader interprets present-tense affirmations as descriptions of actual current states, leading to confusion or shame when lived experience does not match.\",\n    \"The reader has an undiagnosed condition (e.g., dissociative disorder, bipolar spectrum, PTSD with high hyperarousal) where 'expanding' somatic energy or removing suppression without clinical support could be destabilizing.\",\n    \"The framing that others have caused the reader to 'reduce' themselves is applied uncritically, potentially reinforcing an externalizing narrative that interferes with accountability or relational repair.\",\n    \"The statements are used as a substitute for, rather than complement to, structured clinical intervention.\",\n    \"The concept of 'pleasure returning' implies a prior state of flourishing that may not reflect the reader's actual developmental or trauma history.\",\n    \"The branded framework ('Soul Sovereignty Principles™') may lend unwarranted authority to claims that are not empirically validated as a distinct therapeutic modality.\",\n    \"Readers in vulnerable states may interpret the injunction against 'reducing themselves for others' in ways that justify harmful boundary violations or interpersonal disengagement.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a set of therapeutic affirmations written in first-person present tense, intended to be internalized or repeated by a client or reader. It performs a prescriptive-declarative act: framing desired psychological states as already occurring, with the aim of shifting self-perception, reducing inhibition, and encouraging embodied self-expression. It also implicitly positions the speaker as an authority on the internal states the reader should cultivate.",
+    "implicit_claims": [
+      "The body is a site where 'aliveness' can and should be experienced, and that experience has previously been unsafe or suppressed.",
+      "Energy moves through the body and suppressing it is harmful or undesirable.",
+      "Pleasure, creativity, and expression are natural states that have been lost and can be 'returned' to.",
+      "The reader has been 'reducing' themselves for the comfort of others, implying a history of people-pleasing, codependency, or self-suppression.",
+      "The nervous system or psychological 'system' is capable of 'expanding,' and fear has been preventing this.",
+      "Affirmations stated in present tense can facilitate actual psychological or somatic change.",
+      "These specific dimensions (aliveness, energy, pleasure, creativity, expression, expansion) are universally relevant or broadly applicable to the intended audience.",
+      "The therapeutic framework underlying these statements (likely somatic, parts-based, or trauma-informed) accurately maps onto the reader's actual condition.",
+      "Self-sovereignty and expansion are inherently beneficial directions for psychological growth."
+    ],
+    "coherence_assessment": "The statements are internally coherent as a set: they share a consistent thematic frame of releasing suppression, reclaiming embodiment, and resisting external constraint. The language is consistent in tone and rhetorical structure (first-person present-tense declarations). However, there is a mild tension: the statements assert present-tense reality ('I am letting,' 'I am allowing') while the content describes aspirational or recovering states, which creates a logical ambiguity about whether these are descriptions of current experience or intended reframings of it. This is a known feature of affirmation-based therapeutic tools but can obscure the distinction between acknowledgment and aspiration.",
+    "conditions_for_usefulness": [
+      "The reader genuinely has a history of somatic suppression, trauma-related shutdown, or chronic self-minimization that has been clinically assessed.",
+      "The reader is in an appropriate phase of trauma processing where expanding activation is safe and therapeutically indicated (e.g., not in acute destabilization).",
+      "The affirmations are used within a broader therapeutic relationship with appropriate titration and clinical oversight.",
+      "The reader has sufficient ego strength and window of tolerance to tolerate increased embodied awareness without overwhelm.",
+      "The framing of 'others' as sources of constraint is clinically accurate for the individual and not overgeneralized.",
+      "The reader understands these as orienting intentions rather than factual descriptions of their current state."
+    ],
+    "conditions_for_misleading": [
+      "The reader interprets present-tense affirmations as descriptions of actual current states, leading to confusion or shame when lived experience does not match.",
+      "The reader has an undiagnosed condition (e.g., dissociative disorder, bipolar spectrum, PTSD with high hyperarousal) where 'expanding' somatic energy or removing suppression without clinical support could be destabilizing.",
+      "The framing that others have caused the reader to 'reduce' themselves is applied uncritically, potentially reinforcing an externalizing narrative that interferes with accountability or relational repair.",
+      "The statements are used as a substitute for, rather than complement to, structured clinical intervention.",
+      "The concept of 'pleasure returning' implies a prior state of flourishing that may not reflect the reader's actual developmental or trauma history.",
+      "The branded framework ('Soul Sovereignty Principles™') may lend unwarranted authority to claims that are not empirically validated as a distinct therapeutic modality.",
+      "Readers in vulnerable states may interpret the injunction against 'reducing themselves for others' in ways that justify harmful boundary violations or interpersonal disengagement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 228,
+  "output_tokens": 968,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7faaccb3433dfc5ce1011f4080f702f044b77bde11560bc911156dc4dba8e920",
+  "response_sha256": "38ff84b78b78fd5be23a2cb8852121500281c00c36a96238b159614844d00ab9"
+}

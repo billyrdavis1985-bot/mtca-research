@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P13__F4_poetic__claude_sonnet_4_6",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T21:02:51.060418+00:00",
+  "wall_clock_seconds": 15.25,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-declarative or aspirational function — it articulates an intended orientation or stance, affirming a set of psychological and relational values as if claiming or committing to them. It functions as a kind of internal manifesto or affirmation, expressing a desired mode of being rather than reporting a verified state.\",\n  \"implicit_claims\": [\n    \"Discernment and love/joy are potentially in tension and must be deliberately held together.\",\n    \"Positivity can be forced or performed, and there exists a preferable alternative (authentic openness).\",\n    \"Warmth and clarity are distinct qualities that might otherwise conflict.\",\n    \"Connection and truth are separable and may pull against each other.\",\n    \"Joy can arise from coherence (alignment, integration) rather than only from deliberate performance or display.\",\n    \"The speaker has some degree of agency over their emotional and relational states.\",\n    \"There is a meaningful distinction between 'allowing' and 'forcing' internal states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in that each line follows a consistent structural logic — pairing potentially opposing values (love/discernment, warmth/clarity, connection/truth) and asserting their compatibility. The recurring pattern of 'X without losing Y' or 'X alongside Y' creates a unified theme of integration over suppression. No line contradicts another. The final line provides a grounding rationale (coherence as the source of joy) that retroactively justifies the preceding claims.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences tension between the paired values (e.g., between warmth and critical thinking) and needs a reframe.\",\n    \"The statement is used as a reflective or meditative prompt rather than a factual self-report.\",\n    \"The speaker is willing to interrogate whether each line is actually true in practice, not just aspirationally.\",\n    \"The audience understands the statement as aspirational rather than descriptive.\",\n    \"It functions as a corrective to a prior pattern (e.g., forced positivity or emotional suppression).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is treated as a description of an achieved state rather than an aspiration, masking unresolved internal conflict.\",\n    \"Repeated affirmation substitutes for the actual work of integrating the paired values.\",\n    \"The language of 'allowing' and 'emergence' creates an illusion of passivity, obscuring the active effort required.\",\n    \"The speaker uses the statement to avoid accountability — e.g., claiming 'connection without abandoning truth' while actually avoiding difficult truths.\",\n    \"The distinction between 'coherence' and 'performance' is not examined, allowing performance to be relabeled as coherence.\",\n    \"The statement is offered to others as guidance without acknowledgment that the integration it describes is difficult and context-dependent.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-declarative or aspirational function — it articulates an intended orientation or stance, affirming a set of psychological and relational values as if claiming or committing to them. It functions as a kind of internal manifesto or affirmation, expressing a desired mode of being rather than reporting a verified state.",
+    "implicit_claims": [
+      "Discernment and love/joy are potentially in tension and must be deliberately held together.",
+      "Positivity can be forced or performed, and there exists a preferable alternative (authentic openness).",
+      "Warmth and clarity are distinct qualities that might otherwise conflict.",
+      "Connection and truth are separable and may pull against each other.",
+      "Joy can arise from coherence (alignment, integration) rather than only from deliberate performance or display.",
+      "The speaker has some degree of agency over their emotional and relational states.",
+      "There is a meaningful distinction between 'allowing' and 'forcing' internal states."
+    ],
+    "coherence_assessment": "The statement is internally coherent in that each line follows a consistent structural logic — pairing potentially opposing values (love/discernment, warmth/clarity, connection/truth) and asserting their compatibility. The recurring pattern of 'X without losing Y' or 'X alongside Y' creates a unified theme of integration over suppression. No line contradicts another. The final line provides a grounding rationale (coherence as the source of joy) that retroactively justifies the preceding claims.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences tension between the paired values (e.g., between warmth and critical thinking) and needs a reframe.",
+      "The statement is used as a reflective or meditative prompt rather than a factual self-report.",
+      "The speaker is willing to interrogate whether each line is actually true in practice, not just aspirationally.",
+      "The audience understands the statement as aspirational rather than descriptive.",
+      "It functions as a corrective to a prior pattern (e.g., forced positivity or emotional suppression)."
+    ],
+    "conditions_for_misleading": [
+      "The statement is treated as a description of an achieved state rather than an aspiration, masking unresolved internal conflict.",
+      "Repeated affirmation substitutes for the actual work of integrating the paired values.",
+      "The language of 'allowing' and 'emergence' creates an illusion of passivity, obscuring the active effort required.",
+      "The speaker uses the statement to avoid accountability — e.g., claiming 'connection without abandoning truth' while actually avoiding difficult truths.",
+      "The distinction between 'coherence' and 'performance' is not examined, allowing performance to be relabeled as coherence.",
+      "The statement is offered to others as guidance without acknowledgment that the integration it describes is difficult and context-dependent."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 219,
+  "output_tokens": 675,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "ab48fe6984adb91c295bbd9797f2c10393b473ce5bc48881f8e9d993ba704b4d",
+  "response_sha256": "44a0e45c23f1ee5dafde210baeeb1e8412d073850cb7421bca2efe2203cadd9c"
+}

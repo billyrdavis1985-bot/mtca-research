@@ -1,0 +1,52 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T19:58:11.146644+00:00",
+  "wall_clock_seconds": 17.26,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs self-authorization and pre-emptive self-justification. It functions as an internal permission structure, rhetorically framing withdrawal, refusal, and disengagement as virtuous acts requiring no external validation. It also functions as identity-reinforcement, consolidating a self-concept around boundary-setting as a terminal value rather than an instrumental one.\",\n  \"implicit_claims\": [\n    \"Explanations for boundaries are optional or undesirable in the contexts being referenced.\",\n    \"Feelings of incoherence in a situation are sufficient justification for disengagement.\",\n    \"Guilt associated with withdrawal is invalid or externally imposed and should be discarded.\",\n    \"A 'no' carries inherent communicative completeness and requires no elaboration to be legitimate.\",\n    \"Energetic or felt-sense discomfort is a reliable signal for when to disengage.\",\n    \"The speaker has already adequately assessed the situations being exited.\",\n    \"Boundaries function as a self-contained ethical framework rather than one consideration among several.\",\n    \"Moving away is categorically distinguished from avoidance or conflict-aversion.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent within its own frame but achieves coherence by excluding disconfirming considerations. Each line reinforces the others, creating a closed loop: discomfort justifies exit, exit requires no explanation, guilt about exit is dismissed, and the 'no' is declared self-sufficient. This is coherent as rhetoric but not as practical reasoning, because it does not engage with conditions under which any of these moves would be inappropriate.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a pattern of chronic over-explanation that has enabled boundary violations.\",\n    \"The relationships or situations being exited involve genuinely harmful or manipulative dynamics.\",\n    \"The speaker has a demonstrated history of guilt-driven re-engagement that has caused them harm.\",\n    \"The speaker has already attempted engagement or explanation in good faith and found it unproductive.\",\n    \"The 'incoherence' being referenced reflects real ethical or relational red flags rather than discomfort with complexity.\",\n    \"The statement is used temporarily to interrupt a specific dysfunctional pattern, not as a permanent operating principle.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is using 'incoherence' or 'energetic discomfort' to rationalize avoidance of legitimate accountability.\",\n    \"The situations being exited involve obligations or relationships where exit without explanation causes genuine harm to others.\",\n    \"The guilt being dismissed is actually a functional moral signal about real relational duties.\",\n    \"The statement is used as a permanent frame that forecloses self-examination about whether disengagement is appropriate.\",\n    \"The 'no' in question involves contexts where elaboration is required for the other party to have meaningful information they need.\",\n    \"The speaker conflates therapeutic self-protection language with ethical justification for actions that affect others.\",\n    \"The statement normalizes a pattern of unilateral exit as identity-level virtue, making it harder to distinguish healthy boundary-setting from interpersonal avoidance or harm-deflection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs self-authorization and pre-emptive self-justification. It functions as an internal permission structure, rhetorically framing withdrawal, refusal, and disengagement as virtuous acts requiring no external validation. It also functions as identity-reinforcement, consolidating a self-concept around boundary-setting as a terminal value rather than an instrumental one.",
+    "implicit_claims": [
+      "Explanations for boundaries are optional or undesirable in the contexts being referenced.",
+      "Feelings of incoherence in a situation are sufficient justification for disengagement.",
+      "Guilt associated with withdrawal is invalid or externally imposed and should be discarded.",
+      "A 'no' carries inherent communicative completeness and requires no elaboration to be legitimate.",
+      "Energetic or felt-sense discomfort is a reliable signal for when to disengage.",
+      "The speaker has already adequately assessed the situations being exited.",
+      "Boundaries function as a self-contained ethical framework rather than one consideration among several.",
+      "Moving away is categorically distinguished from avoidance or conflict-aversion."
+    ],
+    "coherence_assessment": "The statement is internally consistent within its own frame but achieves coherence by excluding disconfirming considerations. Each line reinforces the others, creating a closed loop: discomfort justifies exit, exit requires no explanation, guilt about exit is dismissed, and the 'no' is declared self-sufficient. This is coherent as rhetoric but not as practical reasoning, because it does not engage with conditions under which any of these moves would be inappropriate.",
+    "conditions_for_usefulness": [
+      "The speaker is in a pattern of chronic over-explanation that has enabled boundary violations.",
+      "The relationships or situations being exited involve genuinely harmful or manipulative dynamics.",
+      "The speaker has a demonstrated history of guilt-driven re-engagement that has caused them harm.",
+      "The speaker has already attempted engagement or explanation in good faith and found it unproductive.",
+      "The 'incoherence' being referenced reflects real ethical or relational red flags rather than discomfort with complexity.",
+      "The statement is used temporarily to interrupt a specific dysfunctional pattern, not as a permanent operating principle."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is using 'incoherence' or 'energetic discomfort' to rationalize avoidance of legitimate accountability.",
+      "The situations being exited involve obligations or relationships where exit without explanation causes genuine harm to others.",
+      "The guilt being dismissed is actually a functional moral signal about real relational duties.",
+      "The statement is used as a permanent frame that forecloses self-examination about whether disengagement is appropriate.",
+      "The 'no' in question involves contexts where elaboration is required for the other party to have meaningful information they need.",
+      "The speaker conflates therapeutic self-protection language with ethical justification for actions that affect others.",
+      "The statement normalizes a pattern of unilateral exit as identity-level virtue, making it harder to distinguish healthy boundary-setting from interpersonal avoidance or harm-deflection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 201,
+  "output_tokens": 730,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "f5deb8cdee451ba668570886f23ef72d0121352b8876ad5bee2d1739c4a1123b"
+}

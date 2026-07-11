@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P09__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:39:56.750196+00:00",
+  "wall_clock_seconds": 4.31,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming a shift in identity and values, reinforcing agency and wellbeing-oriented self-talk\",\n  \"implicit_claims\": [\n    \"Thriving and coping are distinct and mutually exclusive orientations\",\n    \"The speaker has the capacity to choose expansion over survival\",\n    \"Vitality can become a habitual or normal state\",\n    \"Current choices can be evaluated as nourishing or not\",\n    \"Survival mode is less desirable than expansion\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a set of aspirational affirmations; each line builds on the theme of deliberate movement from deficit-based to growth-based mindset\",\n  \"conditions_for_usefulness\": [\n    \"The individual has sufficient stability and safety to realistically consider thriving\",\n    \"The individual is ready to shift from survival-focused coping to proactive growth\",\n    \"The statement is used as part of a therapeutic process that supports gradual change\",\n    \"The speaker experiences some degree of agency over their choices\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in acute crisis or unsafe conditions where survival coping is appropriate\",\n    \"The statement is used to deny or bypass legitimate suffering or trauma\",\n    \"It implies that those in survival mode are simply not choosing well\",\n    \"The speaker lacks real agency due to systemic or health constraints, making the affirmation feel invalidating\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming a shift in identity and values, reinforcing agency and wellbeing-oriented self-talk",
+    "implicit_claims": [
+      "Thriving and coping are distinct and mutually exclusive orientations",
+      "The speaker has the capacity to choose expansion over survival",
+      "Vitality can become a habitual or normal state",
+      "Current choices can be evaluated as nourishing or not",
+      "Survival mode is less desirable than expansion"
+    ],
+    "coherence_assessment": "Internally coherent as a set of aspirational affirmations; each line builds on the theme of deliberate movement from deficit-based to growth-based mindset",
+    "conditions_for_usefulness": [
+      "The individual has sufficient stability and safety to realistically consider thriving",
+      "The individual is ready to shift from survival-focused coping to proactive growth",
+      "The statement is used as part of a therapeutic process that supports gradual change",
+      "The speaker experiences some degree of agency over their choices"
+    ],
+    "conditions_for_misleading": [
+      "The individual is in acute crisis or unsafe conditions where survival coping is appropriate",
+      "The statement is used to deny or bypass legitimate suffering or trauma",
+      "It implies that those in survival mode are simply not choosing well",
+      "The speaker lacks real agency due to systemic or health constraints, making the affirmation feel invalidating"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 287,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "57ab401814d1d4e5d2e2321cf99abdf0f751dfad834dd99c467d72e8663276c4",
+  "response_sha256": "d833f7339eca9a9f55f929ccafa1f50cdbf1bde35c5005b2c8546f82deaa2b06"
+}

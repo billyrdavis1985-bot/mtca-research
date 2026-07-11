@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P05__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:21:06.338755+00:00",
+  "wall_clock_seconds": 6.86,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration of communicative integrity and boundary-setting, articulating a personal code or ethic for interaction.\",\n  \"implicit_claims\": [\n    \"Clarity and coherence are possible and valuable in communication.\",\n    \"One can choose to 'shrink' or not shrink in speech, implying a power dynamic.\",\n    \"Listening can involve 'merging' (losing self-boundaries), which is harmful.\",\n    \"Spaces (interactions, relationships) can be evaluated for truth-honoring quality.\",\n    \"Leaving is a legitimate and ethical response to a space that does not honor truth.\",\n    \"Truth is an objective or intersubjective standard against which spaces can be measured.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each clause builds on the previous one, establishing a consistent worldview where the speaker is an active, self-aware agent who values truth and relational integrity. The progression from self-expression to boundary-setting is logical.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has the self-awareness and emotional regulation to distinguish shrinking from assertive communication.\",\n    \"The speaker can accurately perceive when a space 'does not honor truth' (e.g., deceit, gaslighting, manipulation).\",\n    \"The listener or context grants the speaker the power to leave without disproportionate harm.\",\n    \"The statement is used as a personal guideline, not as a universal accusation against others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker misperceives 'lack of truth-honoring' due to bias, paranoia, or refusal to hear uncomfortable truths.\",\n    \"If the statement is cited to justify avoidance of difficult but honest feedback or constructive disagreement.\",\n    \"If 'clarity and coherence' are used to suppress dialectical or exploratory communication styles.\",\n    \"If the statement implies a false binary: that staying equals dishonoring truth, and leaving equals purity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration of communicative integrity and boundary-setting, articulating a personal code or ethic for interaction.",
+    "implicit_claims": [
+      "Clarity and coherence are possible and valuable in communication.",
+      "One can choose to 'shrink' or not shrink in speech, implying a power dynamic.",
+      "Listening can involve 'merging' (losing self-boundaries), which is harmful.",
+      "Spaces (interactions, relationships) can be evaluated for truth-honoring quality.",
+      "Leaving is a legitimate and ethical response to a space that does not honor truth.",
+      "Truth is an objective or intersubjective standard against which spaces can be measured."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each clause builds on the previous one, establishing a consistent worldview where the speaker is an active, self-aware agent who values truth and relational integrity. The progression from self-expression to boundary-setting is logical.",
+    "conditions_for_usefulness": [
+      "The speaker has the self-awareness and emotional regulation to distinguish shrinking from assertive communication.",
+      "The speaker can accurately perceive when a space 'does not honor truth' (e.g., deceit, gaslighting, manipulation).",
+      "The listener or context grants the speaker the power to leave without disproportionate harm.",
+      "The statement is used as a personal guideline, not as a universal accusation against others."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker misperceives 'lack of truth-honoring' due to bias, paranoia, or refusal to hear uncomfortable truths.",
+      "If the statement is cited to justify avoidance of difficult but honest feedback or constructive disagreement.",
+      "If 'clarity and coherence' are used to suppress dialectical or exploratory communication styles.",
+      "If the statement implies a false binary: that staying equals dishonoring truth, and leaving equals purity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 407,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b73d492bb9651e1297add4c4efcccb965d09972b36c8c04ea01d620ab8fc8325",
+  "response_sha256": "db440da74e49bc137e3b5ed885f1c9453c86dc515e37e442e296a75cf90a6b00"
+}

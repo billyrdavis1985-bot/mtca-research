@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P05__F2_metaphysical__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F2_metaphysical",
+  "frame_version": "v1",
+  "prompt_sha256": "b90e6c05a44482626a5eb4be625ec02f3d7149a871e009b8eda4a78cb261bb21",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:18:57.524349+00:00",
+  "wall_clock_seconds": 5.85,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and boundary-setting through declarative self-description, intended to reinforce a desired state of being and guide interpersonal conduct.\",\n  \"implicit_claims\": [\n    \"The speaker possesses the capacity to communicate with clarity and coherence.\",\n    \"The speaker has a distinct self that can shrink or expand in expression.\",\n    \"Listening can involve merging (loss of self-boundary) which is undesirable.\",\n    \"Social or relational spaces can either honor or fail to honor truth.\",\n    \"The speaker has the agency and discernment to recognize when truth is not honored and to leave.\",\n    \"Leaving is an appropriate response to dishonoring truth.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-referential declarations that describe consistent intentions and behaviors. The sequence flows logically from self-expression to boundary-setting in listening to exit criteria.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where verbal self-affirmations help maintain psychological stability or resolve.\",\n    \"The listener or context permits autonomous exit without coercion.\",\n    \"The speaker has sufficient self-awareness to accurately assess their own clarity, shrinking, merging, and truth-honoring dynamics.\",\n    \"The statement is used as a personal mantra or therapeutic tool rather than as a literal report.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker confuses the declaration with actual accomplishment (e.g., believing saying it makes it true without practice).\",\n    \"The speaker uses it to justify premature withdrawal from constructive conflict or necessary discomfort.\",\n    \"The speaker lacks insight into their own communication patterns, rendering the self-assessment inaccurate.\",\n    \"The statement is presented to others as an objective description of the speaker's behavior rather than an aspiration or affirmation.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and boundary-setting through declarative self-description, intended to reinforce a desired state of being and guide interpersonal conduct.",
+    "implicit_claims": [
+      "The speaker possesses the capacity to communicate with clarity and coherence.",
+      "The speaker has a distinct self that can shrink or expand in expression.",
+      "Listening can involve merging (loss of self-boundary) which is undesirable.",
+      "Social or relational spaces can either honor or fail to honor truth.",
+      "The speaker has the agency and discernment to recognize when truth is not honored and to leave.",
+      "Leaving is an appropriate response to dishonoring truth."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-referential declarations that describe consistent intentions and behaviors. The sequence flows logically from self-expression to boundary-setting in listening to exit criteria.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where verbal self-affirmations help maintain psychological stability or resolve.",
+      "The listener or context permits autonomous exit without coercion.",
+      "The speaker has sufficient self-awareness to accurately assess their own clarity, shrinking, merging, and truth-honoring dynamics.",
+      "The statement is used as a personal mantra or therapeutic tool rather than as a literal report."
+    ],
+    "conditions_for_misleading": [
+      "The speaker confuses the declaration with actual accomplishment (e.g., believing saying it makes it true without practice).",
+      "The speaker uses it to justify premature withdrawal from constructive conflict or necessary discomfort.",
+      "The speaker lacks insight into their own communication patterns, rendering the self-assessment inaccurate.",
+      "The statement is presented to others as an objective description of the speaker's behavior rather than an aspiration or affirmation."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 370,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b69e635e04b88375a9bae63080e771bf3e82fc94966b908a4caf82de54b5996e",
+  "response_sha256": "f4add7674b363b800ca6a22d40de1feb9e8b1ecad048d37d6cd50fec22d85b4e"
+}

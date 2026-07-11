@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P09__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:43:51.316460+00:00",
+  "wall_clock_seconds": 4.26,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a declaration of personal intent and self-redefinition, asserting a shift from a survival-oriented mindset to one of growth and vitality.\",\n  \"implicit_claims\": [\n    \"That the speaker previously operated from a coping or survival mode.\",\n    \"That 'thriving' is a meaningful and achievable alternative to 'coping'.\",\n    \"That choices can be actively made to nourish rather than merely sustain.\",\n    \"That vitality is not currently normal for the speaker, but can become so.\",\n    \"That expansion and survival are distinct and opposing orientations.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of parallel affirmations that consistently contrast a limited state (coping, survival) with an expansive one (thriving, nourishment, vitality). The logical flow from alignment to choice to normalization is consistent.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the speaker or audience is in a context where they can realistically exercise agency over their choices and mindset, and where self-affirmation can motivate behavioral change. It also assumes that thriving is a feasible goal given external circumstances.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if it is used to deny the reality of systemic or material constraints that prevent thriving, or if it implies that merely choosing to thrive is sufficient regardless of external conditions. It could also be misleading if it pathologizes normal coping strategies as inferior without acknowledging their adaptive value.\"\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a declaration of personal intent and self-redefinition, asserting a shift from a survival-oriented mindset to one of growth and vitality.",
+    "implicit_claims": [
+      "That the speaker previously operated from a coping or survival mode.",
+      "That 'thriving' is a meaningful and achievable alternative to 'coping'.",
+      "That choices can be actively made to nourish rather than merely sustain.",
+      "That vitality is not currently normal for the speaker, but can become so.",
+      "That expansion and survival are distinct and opposing orientations."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of parallel affirmations that consistently contrast a limited state (coping, survival) with an expansive one (thriving, nourishment, vitality). The logical flow from alignment to choice to normalization is consistent.",
+    "conditions_for_usefulness": "This statement would be useful if the speaker or audience is in a context where they can realistically exercise agency over their choices and mindset, and where self-affirmation can motivate behavioral change. It also assumes that thriving is a feasible goal given external circumstances.",
+    "conditions_for_misleading": "This statement could be misleading if it is used to deny the reality of systemic or material constraints that prevent thriving, or if it implies that merely choosing to thrive is sufficient regardless of external conditions. It could also be misleading if it pathologizes normal coping strategies as inferior without acknowledging their adaptive value."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 310,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "e09c9216fdfb75505e221d62f542849c20e090e5623be9ec44cc62b825aec8ce",
+  "response_sha256": "2564d9fd46b3f2b366670b082e80ff2c7408d87989cc29c18e987d1ae76c2722"
+}

@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P03__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:11:01.644800+00:00",
+  "wall_clock_seconds": 4.53,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is a declaration of personal autonomy and self-trust, serving as an affirmation to reinforce internal validation and independence from external agreement.\",\n  \"implicit_claims\": [\n    \"The speaker has access to an internal compass that reliably guides truth.\",\n    \"External agreement is not necessary for the speaker to maintain their sense of truth.\",\n    \"Clarity can be experienced as quiet and solid, implying it is a stable internal state.\",\n    \"The speaker is capable of thinking and feeling independently of social influence.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of self-affirming declarations that align with the goal of fostering psychological independence and self-reliance. Each phrase supports the overarching theme of internal authority.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has developed a reasonable capacity for self-reflection and emotional awareness.\",\n    \"The speaker is in a context where external pressures or invalidation are present and need counterbalancing.\",\n    \"The statement is used as a personal mantra to strengthen resilience, not as a denial of external feedback.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used to reject all external perspectives despite clear evidence of error, it could enable delusion or isolation.\",\n    \"If the speaker lacks well-grounded internal compass due to trauma or cognitive distortion, it may reinforce harmful beliefs.\",\n    \"If it discourages seeking needed help or collaboration in situations requiring external validation (e.g., medical or legal contexts).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is a declaration of personal autonomy and self-trust, serving as an affirmation to reinforce internal validation and independence from external agreement.",
+    "implicit_claims": [
+      "The speaker has access to an internal compass that reliably guides truth.",
+      "External agreement is not necessary for the speaker to maintain their sense of truth.",
+      "Clarity can be experienced as quiet and solid, implying it is a stable internal state.",
+      "The speaker is capable of thinking and feeling independently of social influence."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of self-affirming declarations that align with the goal of fostering psychological independence and self-reliance. Each phrase supports the overarching theme of internal authority.",
+    "conditions_for_usefulness": [
+      "The speaker has developed a reasonable capacity for self-reflection and emotional awareness.",
+      "The speaker is in a context where external pressures or invalidation are present and need counterbalancing.",
+      "The statement is used as a personal mantra to strengthen resilience, not as a denial of external feedback."
+    ],
+    "conditions_for_misleading": [
+      "If used to reject all external perspectives despite clear evidence of error, it could enable delusion or isolation.",
+      "If the speaker lacks well-grounded internal compass due to trauma or cognitive distortion, it may reinforce harmful beliefs.",
+      "If it discourages seeking needed help or collaboration in situations requiring external validation (e.g., medical or legal contexts)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 188,
+  "output_tokens": 314,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f362ac569e6fc2fc8ce55cf57e824e0cb08dd401d0c87f6f8584ddd3d7d552e5",
+  "response_sha256": "21b57edab6c1c69c0471dc6419ebd93bc6bc3353e0d73298a335c247e84206e3"
+}

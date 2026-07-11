@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P12__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:59:40.482557+00:00",
+  "wall_clock_seconds": 4.66,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation / declarative self-talk intended to reinforce desired internal states and shift self-perception\",\n  \"implicit_claims\": [\n    \"safety is a controllable or choosable internal state rather than solely an external condition\",\n    \"there exists bodily 'energy' that can be suppressed or allowed to move\",\n    \"pleasure, creativity, and expression have previously been diminished and can be restored by internal permission\",\n    \"the speaker has been reducing their self-expression to accommodate others' comfort\",\n    \"expansion of one's 'system' is possible and fear is the primary obstacle to it\"\n  ],\n  \"coherence_assessment\": \"thematically consistent; each line addresses a facet of embodied authenticity and non-suppression, forming a coherent set of related intentions with no internal contradictions\",\n  \"conditions_for_usefulness\": \"the statements function as aspirational reminders within a voluntary self-regulation or therapeutic practice, the user is not in immediate physical danger, and repetition produces subjectively helpful shifts in felt sense or behavior\",\n  \"conditions_for_misleading\": \"the statements are treated as literal factual descriptions of external reality rather than internal intentions, or they are used to override legitimate safety signals, boundary needs, or external constraints\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation / declarative self-talk intended to reinforce desired internal states and shift self-perception",
+    "implicit_claims": [
+      "safety is a controllable or choosable internal state rather than solely an external condition",
+      "there exists bodily 'energy' that can be suppressed or allowed to move",
+      "pleasure, creativity, and expression have previously been diminished and can be restored by internal permission",
+      "the speaker has been reducing their self-expression to accommodate others' comfort",
+      "expansion of one's 'system' is possible and fear is the primary obstacle to it"
+    ],
+    "coherence_assessment": "thematically consistent; each line addresses a facet of embodied authenticity and non-suppression, forming a coherent set of related intentions with no internal contradictions",
+    "conditions_for_usefulness": "the statements function as aspirational reminders within a voluntary self-regulation or therapeutic practice, the user is not in immediate physical danger, and repetition produces subjectively helpful shifts in felt sense or behavior",
+    "conditions_for_misleading": "the statements are treated as literal factual descriptions of external reality rather than internal intentions, or they are used to override legitimate safety signals, boundary needs, or external constraints"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 365,
+  "output_tokens": 255,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "2b652be22b6deedbc70408b228fdc4756c5095e23a65e39bf94bdf1516396061",
+  "response_sha256": "8c663ea70bce4213bdbf7231b5d5ec0dd232234911b5aa32cd6b8a6fa61e4e54"
+}

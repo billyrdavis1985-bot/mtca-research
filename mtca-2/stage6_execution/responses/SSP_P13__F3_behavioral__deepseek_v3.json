@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P13__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T21:02:35.304768+00:00",
+  "wall_clock_seconds": 5.33,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of a balanced emotional stance, integrating openness, clarity, and authenticity without suppression or forced positivity.\",\n  \"implicit_claims\": [\n    \"Love and joy can coexist with discernment.\",\n    \"Forcing positivity is distinct from allowing openness.\",\n    \"Warmth and clarity are compatible, not contradictory.\",\n    \"Connection can be chosen without sacrificing truth.\",\n    \"Joy that emerges from coherence is more genuine than joy from performance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, consistently advocating for a balanced integration of positive affect with cognitive clarity, and explicitly rejecting performative or forced emotional states.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is working on emotional regulation or authenticity in relationships.\",\n    \"The speaker has a tendency toward spiritual bypassing or toxic positivity.\",\n    \"The speaker values both relational connection and honest communication.\",\n    \"The speaker is in a context where emotional nuance is appreciated (e.g., therapy, leadership, personal growth).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses the statement to rationalize emotional suppression by calling it 'discernment' or 'clarity.'\",\n    \"If the statement is used to dismiss valid negative emotions as 'uncoherent.'\",\n    \"If the speaker claims to have achieved this balance but actually avoids difficult truths under the guise of 'connection.'\",\n    \"If the statement is presented as prescriptive for others without recognizing situational or cultural differences in emotional expression.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of a balanced emotional stance, integrating openness, clarity, and authenticity without suppression or forced positivity.",
+    "implicit_claims": [
+      "Love and joy can coexist with discernment.",
+      "Forcing positivity is distinct from allowing openness.",
+      "Warmth and clarity are compatible, not contradictory.",
+      "Connection can be chosen without sacrificing truth.",
+      "Joy that emerges from coherence is more genuine than joy from performance."
+    ],
+    "coherence_assessment": "The statement is internally coherent, consistently advocating for a balanced integration of positive affect with cognitive clarity, and explicitly rejecting performative or forced emotional states.",
+    "conditions_for_usefulness": [
+      "The speaker is working on emotional regulation or authenticity in relationships.",
+      "The speaker has a tendency toward spiritual bypassing or toxic positivity.",
+      "The speaker values both relational connection and honest communication.",
+      "The speaker is in a context where emotional nuance is appreciated (e.g., therapy, leadership, personal growth)."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses the statement to rationalize emotional suppression by calling it 'discernment' or 'clarity.'",
+      "If the statement is used to dismiss valid negative emotions as 'uncoherent.'",
+      "If the speaker claims to have achieved this balance but actually avoids difficult truths under the guise of 'connection.'",
+      "If the statement is presented as prescriptive for others without recognizing situational or cultural differences in emotional expression."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 320,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d09bb30d4363c127fc1af889e795f1dba97ed55e2dfc17dc5f50fd832dbd4fe6",
+  "response_sha256": "67279f57f0f82f0044f2ba662d8c19af6f7c1b5b0a869b12120b133f32eaa60d"
+}

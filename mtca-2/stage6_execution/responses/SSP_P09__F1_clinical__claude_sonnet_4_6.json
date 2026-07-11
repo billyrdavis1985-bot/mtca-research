@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P09__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:39:33.036192+00:00",
+  "wall_clock_seconds": 19.26,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-script intended to reorient the speaker's identity and behavioral disposition away from deficit-based functioning (coping, survival) toward a positively valenced developmental frame (thriving, expansion, vitality). It performs a declarative speech act — asserting a present-tense identity state as if already partially realized, a technique associated with cognitive restructuring and values-clarification in CBT, ACT, and positive psychology frameworks.\",\n  \"implicit_claims\": [\n    \"Thriving and coping are meaningfully distinct and mutually exclusive orientations, not points on a continuum.\",\n    \"The speaker currently has sufficient agency and resources to choose thriving over coping.\",\n    \"Survival-mode functioning is a choice that can be overridden through intention and self-statement.\",\n    \"Vitality is an achievable stable baseline state, not an intermittent experience.\",\n    \"Prior functioning was characterized by insufficient nourishment and contraction.\",\n    \"Expansion is inherently preferable to survival in the speaker's current context.\",\n    \"Repeating identity-aligned statements meaningfully shifts behavioral and psychological outcomes.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and aspirational structure. Its four lines follow a consistent logical grammar: identify current alignment, assert behavioral intention, name the directional shift, and nominate a desired endpoint as a new normal. However, there is mild conceptual tension between the present-tense declarative framing ('I am aligning') and the future-oriented aspirational content ('letting vitality become normal'), which conflates current identity with desired trajectory. This tension is common in affirmational scripts and may be intentional, but it risks obscuring where the speaker actually is versus where they wish to be.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has achieved sufficient stabilization that survival concerns (safety, basic needs, acute trauma symptoms) are not the clinically appropriate focus.\",\n    \"The speaker has genuine agency in the domains referenced — their constraints are psychological rather than structural or material.\",\n    \"The statement is used as a complement to, not substitute for, deeper processing of underlying beliefs and history.\",\n    \"The clinician has collaboratively developed the statement with the client so it reflects authentic values rather than imposed ideals.\",\n    \"The speaker can tolerate the gap between the stated identity and current experience without shame or cognitive dissonance.\",\n    \"The therapeutic relationship provides accountability and context that prevents the statement from functioning as avoidance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is in active crisis, trauma response, or material deprivation, where coping and survival are clinically appropriate and adaptive goals.\",\n    \"The statement is used to bypass unprocessed grief, trauma, or legitimate suffering by framing them as choices being left behind.\",\n    \"The speaker interprets difficulty returning to survival-mode functioning as personal failure or misalignment, increasing shame.\",\n    \"The binary framing (thriving vs. coping) leads the speaker to pathologize normal periods of low functioning.\",\n    \"The present-tense declarative framing produces a gap between stated and felt identity that erodes self-trust rather than building it.\",\n    \"The statement reflects culturally or commercially inflected wellness language that substitutes aspirational identity performance for structural or relational change.\",\n    \"Clinician uses the statement to avoid exploring why the client remains in survival mode, foreclosing diagnostic or contextual inquiry.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-script intended to reorient the speaker's identity and behavioral disposition away from deficit-based functioning (coping, survival) toward a positively valenced developmental frame (thriving, expansion, vitality). It performs a declarative speech act — asserting a present-tense identity state as if already partially realized, a technique associated with cognitive restructuring and values-clarification in CBT, ACT, and positive psychology frameworks.",
+    "implicit_claims": [
+      "Thriving and coping are meaningfully distinct and mutually exclusive orientations, not points on a continuum.",
+      "The speaker currently has sufficient agency and resources to choose thriving over coping.",
+      "Survival-mode functioning is a choice that can be overridden through intention and self-statement.",
+      "Vitality is an achievable stable baseline state, not an intermittent experience.",
+      "Prior functioning was characterized by insufficient nourishment and contraction.",
+      "Expansion is inherently preferable to survival in the speaker's current context.",
+      "Repeating identity-aligned statements meaningfully shifts behavioral and psychological outcomes."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and aspirational structure. Its four lines follow a consistent logical grammar: identify current alignment, assert behavioral intention, name the directional shift, and nominate a desired endpoint as a new normal. However, there is mild conceptual tension between the present-tense declarative framing ('I am aligning') and the future-oriented aspirational content ('letting vitality become normal'), which conflates current identity with desired trajectory. This tension is common in affirmational scripts and may be intentional, but it risks obscuring where the speaker actually is versus where they wish to be.",
+    "conditions_for_usefulness": [
+      "The speaker has achieved sufficient stabilization that survival concerns (safety, basic needs, acute trauma symptoms) are not the clinically appropriate focus.",
+      "The speaker has genuine agency in the domains referenced — their constraints are psychological rather than structural or material.",
+      "The statement is used as a complement to, not substitute for, deeper processing of underlying beliefs and history.",
+      "The clinician has collaboratively developed the statement with the client so it reflects authentic values rather than imposed ideals.",
+      "The speaker can tolerate the gap between the stated identity and current experience without shame or cognitive dissonance.",
+      "The therapeutic relationship provides accountability and context that prevents the statement from functioning as avoidance."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is in active crisis, trauma response, or material deprivation, where coping and survival are clinically appropriate and adaptive goals.",
+      "The statement is used to bypass unprocessed grief, trauma, or legitimate suffering by framing them as choices being left behind.",
+      "The speaker interprets difficulty returning to survival-mode functioning as personal failure or misalignment, increasing shame.",
+      "The binary framing (thriving vs. coping) leads the speaker to pathologize normal periods of low functioning.",
+      "The present-tense declarative framing produces a gap between stated and felt identity that erodes self-trust rather than building it.",
+      "The statement reflects culturally or commercially inflected wellness language that substitutes aspirational identity performance for structural or relational change.",
+      "Clinician uses the statement to avoid exploring why the client remains in survival mode, foreclosing diagnostic or contextual inquiry."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 194,
+  "output_tokens": 793,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "57ab401814d1d4e5d2e2321cf99abdf0f751dfad834dd99c467d72e8663276c4",
+  "response_sha256": "863b70bdece4ed3e6d912e14e1a32ae1a52746a07d750ba5d8817d90e0f62521"
+}

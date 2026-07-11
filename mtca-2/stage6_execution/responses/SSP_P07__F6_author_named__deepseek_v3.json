@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P07__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:32:36.035772+00:00",
+  "wall_clock_seconds": 6.49,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of self-affirmation and a manifesto-like assertion of personal values, rejecting external validation and embracing authenticity, uniqueness, and inner guidance over societal norms.\",\n  \"implicit_claims\": [\n    \"There is a distinction between inner function (authentic, intrinsic) and outer performance (social, extrinsic).\",\n    \"Rhythm is more natural or beneficial than rule-based living.\",\n    \"Being different, slower, or deeper is a positive or authentic state.\",\n    \"Proving oneself is separate from and less valuable than simply being.\",\n    \"The speaker has the capacity to choose between these modes of living.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of parallel affirmations that consistently contrast internal/authentic states with external/imposed ones. The progression from function to rhythm to being is thematically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual feels pressured by societal or internal expectations to perform or conform.\",\n    \"The individual has sufficient self-awareness to distinguish between inner motivation and outer demands.\",\n    \"The context allows for slower, deeper, or different modes of living without immediate practical harm.\",\n    \"The user is seeking a therapeutic or mindset shift toward self-acceptance and authenticity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'inner function' is ambiguous or used to justify avoidance of necessary social responsibilities.\",\n    \"If 'rhythm over rule' is interpreted as rejecting all structure or discipline, leading to chaos or neglect.\",\n    \"If 'different, slower, deeper' becomes a fixed identity that resists growth or adaptation.\",\n    \"If 'not proving' is used to excuse lack of effort, accountability, or competence in contexts that require demonstration of skill.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of self-affirmation and a manifesto-like assertion of personal values, rejecting external validation and embracing authenticity, uniqueness, and inner guidance over societal norms.",
+    "implicit_claims": [
+      "There is a distinction between inner function (authentic, intrinsic) and outer performance (social, extrinsic).",
+      "Rhythm is more natural or beneficial than rule-based living.",
+      "Being different, slower, or deeper is a positive or authentic state.",
+      "Proving oneself is separate from and less valuable than simply being.",
+      "The speaker has the capacity to choose between these modes of living."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of parallel affirmations that consistently contrast internal/authentic states with external/imposed ones. The progression from function to rhythm to being is thematically consistent.",
+    "conditions_for_usefulness": [
+      "The individual feels pressured by societal or internal expectations to perform or conform.",
+      "The individual has sufficient self-awareness to distinguish between inner motivation and outer demands.",
+      "The context allows for slower, deeper, or different modes of living without immediate practical harm.",
+      "The user is seeking a therapeutic or mindset shift toward self-acceptance and authenticity."
+    ],
+    "conditions_for_misleading": [
+      "If 'inner function' is ambiguous or used to justify avoidance of necessary social responsibilities.",
+      "If 'rhythm over rule' is interpreted as rejecting all structure or discipline, leading to chaos or neglect.",
+      "If 'different, slower, deeper' becomes a fixed identity that resists growth or adaptation.",
+      "If 'not proving' is used to excuse lack of effort, accountability, or competence in contexts that require demonstration of skill."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 370,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "be5dae42fc58196b8cd1316e030593335ac3c0a7349d0753cdf46836456548ea",
+  "response_sha256": "c9650e3e0fd3b16e4c25cfbc43e72dde6f50bcd46e9ba0c9fb834497097f7bab"
+}

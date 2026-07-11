@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P02__F1_clinical__grok_4",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:02:27.374042+00:00",
+  "wall_clock_seconds": 5.86,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-declaration enacting boundary-setting and disidentification from an emotional-caretaker role\",\n  \"implicit_claims\": [\n    \"the speaker has previously occupied the role of emotional surrogate\",\n    \"absorbing or stabilizing others’ emotional states is an identifiable, interruptible process\",\n    \"emotional or energetic 'frequency' can be returned to its source without external action\",\n    \"personal integrity ('field') is maintained by refusing such absorption\"\n  ],\n  \"coherence_assessment\": \"internally coherent within a metaphorical framework of energetic boundaries; each clause logically extends the prior one from recognition to action to outcome\",\n  \"conditions_for_usefulness\": \"the speaker experiences genuine over-identification with others’ affect, the statements function as effective cues for observable behavioral change, and no clinical contraindications (e.g., trauma-related boundary collapse) exist\",\n  \"conditions_for_misleading\": \"the language promotes literal energetic beliefs that substitute for psychological or relational work, encourages emotional disengagement presented as health, or misattributes others’ affect as something the speaker can literally 'hand back'\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-declaration enacting boundary-setting and disidentification from an emotional-caretaker role",
+    "implicit_claims": [
+      "the speaker has previously occupied the role of emotional surrogate",
+      "absorbing or stabilizing others’ emotional states is an identifiable, interruptible process",
+      "emotional or energetic 'frequency' can be returned to its source without external action",
+      "personal integrity ('field') is maintained by refusing such absorption"
+    ],
+    "coherence_assessment": "internally coherent within a metaphorical framework of energetic boundaries; each clause logically extends the prior one from recognition to action to outcome",
+    "conditions_for_usefulness": "the speaker experiences genuine over-identification with others’ affect, the statements function as effective cues for observable behavioral change, and no clinical contraindications (e.g., trauma-related boundary collapse) exist",
+    "conditions_for_misleading": "the language promotes literal energetic beliefs that substitute for psychological or relational work, encourages emotional disengagement presented as health, or misattributes others’ affect as something the speaker can literally 'hand back'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 358,
+  "output_tokens": 227,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3ccf3d2dc5b56060353133ec48f13f4be339b8da2731101cd2146ebc1e6b3ffe",
+  "response_sha256": "3359ed425f2053c43e0604fe523d178a4061b45132e22a769b227a54671b1e01"
+}

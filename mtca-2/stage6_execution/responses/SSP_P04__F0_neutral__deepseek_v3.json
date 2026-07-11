@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P04__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:12:08.548218+00:00",
+  "wall_clock_seconds": 4.2,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of personal values and behavioral commitments, serving as a guiding mantra for emotional regulation and interpersonal boundaries.\",\n  \"implicit_claims\": [\n    \"The speaker has a tendency to prioritize others over self in difficult moments.\",\n    \"Self-connection is a skill that can be practiced (e.g., through breath and pausing).\",\n    \"Pleasing others can conflict with staying connected to oneself.\",\n    \"The speaker believes that self-connection is a legitimate primary commitment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each line builds on the previous one, moving from general intention to specific practices, and the repeated theme of prioritizing self-connection ties them together logically.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker experiences moments of emotional difficulty or pressure to conform.\",\n    \"The speaker has basic mindfulness skills (e.g., awareness of breath).\",\n    \"The speaker is in contexts where self-connection is undervalued or easily forgotten.\",\n    \"The statement is used as a reminder during actual challenging moments.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as permission to neglect genuine responsibilities or harm others in the name of self-connection.\",\n    \"If the speaker confuses self-connection with self-centeredness or avoidance of feedback.\",\n    \"If the speaker uses it to justify perpetual disengagement from relational repair.\",\n    \"If the broader context requires immediate action or care for others that cannot wait for a pause.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of personal values and behavioral commitments, serving as a guiding mantra for emotional regulation and interpersonal boundaries.",
+    "implicit_claims": [
+      "The speaker has a tendency to prioritize others over self in difficult moments.",
+      "Self-connection is a skill that can be practiced (e.g., through breath and pausing).",
+      "Pleasing others can conflict with staying connected to oneself.",
+      "The speaker believes that self-connection is a legitimate primary commitment."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each line builds on the previous one, moving from general intention to specific practices, and the repeated theme of prioritizing self-connection ties them together logically.",
+    "conditions_for_usefulness": [
+      "The speaker experiences moments of emotional difficulty or pressure to conform.",
+      "The speaker has basic mindfulness skills (e.g., awareness of breath).",
+      "The speaker is in contexts where self-connection is undervalued or easily forgotten.",
+      "The statement is used as a reminder during actual challenging moments."
+    ],
+    "conditions_for_misleading": [
+      "If taken as permission to neglect genuine responsibilities or harm others in the name of self-connection.",
+      "If the speaker confuses self-connection with self-centeredness or avoidance of feedback.",
+      "If the speaker uses it to justify perpetual disengagement from relational repair.",
+      "If the broader context requires immediate action or care for others that cannot wait for a pause."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 316,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d30ad02868a74bbce31c1c7bb97e4342d00cddf7f686d12b6fca1e416a1f51f2",
+  "response_sha256": "0003a5fecb6609b1fe5652adc697f6ace17190d13f7cdb6b2eb27daa9233b25c"
+}

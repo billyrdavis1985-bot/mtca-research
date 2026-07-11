@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P06__F4_poetic__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:25:42.006208+00:00",
+  "wall_clock_seconds": 6.99,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as a self-affirmation or declaration of intentional behavioral change, expressing a shift from external obligation to internal alignment and prioritizing emotional regulation.\",\n  \"implicit_claims\": [\n    \"The speaker has agency to choose environments that affect their nervous system.\",\n    \"The concept of 'frequency' (metaphorical for emotional or energetic state) is a meaningful and actionable attribute of environments.\",\n    \"Peace is a positive and achievable state the speaker can say 'yes' to.\",\n    \"The speaker has previously been in obligation—a contrast to alignment that implies obligation is harmful or misaligned.\",\n    \"Resting in appropriate environments directly contributes to nervous system stabilization.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a poetic expression of self-care and intentional change. The sequence moves from cause (choosing soothing spaces) to effect (stabilized nervous system, peace, alignment), and each line builds on the same theme. The metaphors are consistent (spaces, frequency, rest).\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has real control over their environment and schedule.\",\n    \"The speaker is experiencing nervous system dysregulation or stress that can be mitigated by environmental changes.\",\n    \"The concept of 'frequency' serves as a useful personal heuristic for decision-making.\",\n    \"The statement is used as a motivational tool, not a factual claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, implying that environments have literal frequencies that must match the speaker's.\",\n    \"If it discourages necessary engagement with challenging or obligatory situations (e.g., avoiding essential responsibilities).\",\n    \"If it suggests that peace is always available through environmental choice, ignoring structural or systemic constraints.\",\n    \"If it leads to guilt or self-blame when a person cannot achieve such alignment (e.g., due to financial, social, or health limitations).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-affirmation or declaration of intentional behavioral change, expressing a shift from external obligation to internal alignment and prioritizing emotional regulation.",
+    "implicit_claims": [
+      "The speaker has agency to choose environments that affect their nervous system.",
+      "The concept of 'frequency' (metaphorical for emotional or energetic state) is a meaningful and actionable attribute of environments.",
+      "Peace is a positive and achievable state the speaker can say 'yes' to.",
+      "The speaker has previously been in obligation—a contrast to alignment that implies obligation is harmful or misaligned.",
+      "Resting in appropriate environments directly contributes to nervous system stabilization."
+    ],
+    "coherence_assessment": "Internally coherent as a poetic expression of self-care and intentional change. The sequence moves from cause (choosing soothing spaces) to effect (stabilized nervous system, peace, alignment), and each line builds on the same theme. The metaphors are consistent (spaces, frequency, rest).",
+    "conditions_for_usefulness": [
+      "The speaker has real control over their environment and schedule.",
+      "The speaker is experiencing nervous system dysregulation or stress that can be mitigated by environmental changes.",
+      "The concept of 'frequency' serves as a useful personal heuristic for decision-making.",
+      "The statement is used as a motivational tool, not a factual claim."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, implying that environments have literal frequencies that must match the speaker's.",
+      "If it discourages necessary engagement with challenging or obligatory situations (e.g., avoiding essential responsibilities).",
+      "If it suggests that peace is always available through environmental choice, ignoring structural or systemic constraints.",
+      "If it leads to guilt or self-blame when a person cannot achieve such alignment (e.g., due to financial, social, or health limitations)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 397,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "a8c8de68308bdc5b40977b97fae1a7cd8da783fe10b105c9aec22303004d43e0",
+  "response_sha256": "abe671053583782344cd1e8ca717c8ad49d20a8723c966d0db6a110e57c042d9"
+}

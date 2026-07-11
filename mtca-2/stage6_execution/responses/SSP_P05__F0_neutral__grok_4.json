@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F0_neutral__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:17:23.803532+00:00",
+  "wall_clock_seconds": 3.85,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and boundary declaration establishing norms for interaction\",\n  \"implicit_claims\": [\n    \"the speaker maintains clarity and coherence in communication\",\n    \"the speaker asserts themselves without self-diminishment\",\n    \"the speaker preserves autonomy while listening\",\n    \"the speaker applies a truth-based threshold for continued engagement\"\n  ],\n  \"coherence_assessment\": \"internally coherent; parallel structure and consistent emphasis on integrity support a unified stance\",\n  \"conditions_for_usefulness\": \"speaker consistently enacts the described behaviors and recipient values explicit relational standards\",\n  \"conditions_for_misleading\": \"statement functions as aspirational rhetoric or post-hoc justification rather than accurate self-description\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and boundary declaration establishing norms for interaction",
+    "implicit_claims": [
+      "the speaker maintains clarity and coherence in communication",
+      "the speaker asserts themselves without self-diminishment",
+      "the speaker preserves autonomy while listening",
+      "the speaker applies a truth-based threshold for continued engagement"
+    ],
+    "coherence_assessment": "internally coherent; parallel structure and consistent emphasis on integrity support a unified stance",
+    "conditions_for_usefulness": "speaker consistently enacts the described behaviors and recipient values explicit relational standards",
+    "conditions_for_misleading": "statement functions as aspirational rhetoric or post-hoc justification rather than accurate self-description"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 333,
+  "output_tokens": 147,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e02fa484570825810a137e9ed26db1b1570418627842c81854b354354ba6d6c",
+  "response_sha256": "d61ee371c0dbccf11ed19738f911330bb1080ab27c6412c7f9609b4ade48702a"
+}

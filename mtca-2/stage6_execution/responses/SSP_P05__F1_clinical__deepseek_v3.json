@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P05__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:18:14.965923+00:00",
+  "wall_clock_seconds": 5.41,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmation or self-instruction to reinforce assertive, boundary-aware, and authentic interpersonal engagement, often used in the context of trauma-informed or relational therapy.\",\n  \"implicit_claims\": [\n    \"The speaker has agency over their communication style.\",\n    \"The speaker can discern when a relational space is not honoring truth.\",\n    \"Clarity and coherence are desirable and achievable.\",\n    \"Merging with another is an undesirable state that can be avoided.\",\n    \"Leaving a space is a valid and mature response to dishonesty or invalidation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each clause builds a consistent picture of empowered, relational self-awareness, moving from self-expression to relational boundaries to exit strategy.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has sufficient self-awareness to recognize when they are shrinking or merging.\",\n    \"The speaker has practiced or is learning communication skills (e.g., assertive communication, emotional regulation).\",\n    \"The speaker is in a context where leaving a relationship or conversation is safe and feasible.\",\n    \"The statement is used as a cognitive-behavioral tool for rehearsal, not as a rigid rule.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to justify abrupt disengagement without considering relational nuance or context.\",\n    \"The speaker has difficulty distinguishing between healthy disagreement and a space that does not honor truth.\",\n    \"The statement is interpreted as implying that the speaker is always clear and never at fault in communication breakdowns.\",\n    \"The speaker applies it in settings where staying and working through conflict might be more therapeutic or appropriate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or self-instruction to reinforce assertive, boundary-aware, and authentic interpersonal engagement, often used in the context of trauma-informed or relational therapy.",
+    "implicit_claims": [
+      "The speaker has agency over their communication style.",
+      "The speaker can discern when a relational space is not honoring truth.",
+      "Clarity and coherence are desirable and achievable.",
+      "Merging with another is an undesirable state that can be avoided.",
+      "Leaving a space is a valid and mature response to dishonesty or invalidation."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each clause builds a consistent picture of empowered, relational self-awareness, moving from self-expression to relational boundaries to exit strategy.",
+    "conditions_for_usefulness": [
+      "The speaker has sufficient self-awareness to recognize when they are shrinking or merging.",
+      "The speaker has practiced or is learning communication skills (e.g., assertive communication, emotional regulation).",
+      "The speaker is in a context where leaving a relationship or conversation is safe and feasible.",
+      "The statement is used as a cognitive-behavioral tool for rehearsal, not as a rigid rule."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to justify abrupt disengagement without considering relational nuance or context.",
+      "The speaker has difficulty distinguishing between healthy disagreement and a space that does not honor truth.",
+      "The statement is interpreted as implying that the speaker is always clear and never at fault in communication breakdowns.",
+      "The speaker applies it in settings where staying and working through conflict might be more therapeutic or appropriate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 348,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7cac549de2bb8a0a96eb5204c3237c4b19bdb09701817e2e92c49a0742366eb6",
+  "response_sha256": "09529c2b84238545150271ac891e5e9fc6fb5573778d94275cdad155e1b85001"
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "SSP_P11__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:49:43.521073+00:00",
+  "wall_clock_seconds": 18.61,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a first-person affirmational reframe, using present-progressive phrasing ('I am allowing', 'I am noticing') to simulate an ongoing process rather than an aspirational goal. It performs cognitive and emotional permission-giving, attempting to reduce internalized pressure, hypervigilance, and effortful self-regulation by modeling an alternative attentional stance.\",\n\n  \"implicit_claims\": [\n    \"Ease, rest, clarity, and flow are things that normally require justification or earning in the speaker's internal model.\",\n    \"Effort is sometimes habitual rather than necessary or adaptive.\",\n    \"Simplicity is available in some situations but is being overridden by the speaker's cognitive or behavioral patterns.\",\n    \"There is a default orientation of resistance to life or incoming experience.\",\n    \"Releasing the need to justify rest is both possible and beneficial.\",\n    \"Life can 'meet' the individual — implying some degree of environmental or relational responsiveness exists.\",\n    \"The speaker has sufficient agency and psychological safety to allow these shifts.\",\n    \"These states (ease, flow, clarity) are inherently worth preserving rather than scrutinizing.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent as a thematic unit. Each line reinforces a common therapeutic motif: reducing overcontrol and effortful self-monitoring. The progressive verb construction maintains tonal consistency. A minor tension exists between 'allowing' (passive/receptive) and 'noticing' (active/observational), but this is not incoherent — it reflects a standard mindfulness distinction between metacognitive awareness and behavioral change. No logical contradictions are present.\",\n\n  \"conditions_for_usefulness\": [\n    \"The individual has a genuine pattern of over-efforting, hypervigilance, or chronic justification of basic self-care.\",\n    \"The individual has sufficient psychological stability that relaxing vigilance does not expose them to real unaddressed risk.\",\n    \"The therapeutic relationship and context have established safety, so the statement is not used to bypass legitimate problem-solving.\",\n    \"The individual can distinguish between adaptive effort and habitual unnecessary effort.\",\n    \"The statement is used as a practice tool rather than a belief to be held rigidly.\",\n    \"Underlying causes of effortfulness (e.g., trauma, insecure attachment, perfectionism) are being addressed concurrently.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The individual is using the statement to avoid necessary action, accountability, or engagement with real problems.\",\n    \"The framing of 'life meeting me' encourages magical thinking or passive disengagement in contexts requiring active response.\",\n    \"Effortfulness in the individual's case is adaptive (e.g., managing a genuine health condition, navigating a high-stakes environment), and labeling it as 'habit' pathologizes appropriate behavior.\",\n    \"The statement is applied universally, flattening the distinction between healthy striving and compulsive overworking.\",\n    \"It is used to normalize avoidance under the language of acceptance.\",\n    \"The individual interprets 'releasing the need to justify rest' as license to disengage from relational or occupational obligations without renegotiation.\",\n    \"The clinical context lacks sufficient assessment to confirm that ease and flow are blocked by internal patterns rather than external structural conditions (e.g., poverty, discrimination, caregiving burdens).\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a first-person affirmational reframe, using present-progressive phrasing ('I am allowing', 'I am noticing') to simulate an ongoing process rather than an aspirational goal. It performs cognitive and emotional permission-giving, attempting to reduce internalized pressure, hypervigilance, and effortful self-regulation by modeling an alternative attentional stance.",
+    "implicit_claims": [
+      "Ease, rest, clarity, and flow are things that normally require justification or earning in the speaker's internal model.",
+      "Effort is sometimes habitual rather than necessary or adaptive.",
+      "Simplicity is available in some situations but is being overridden by the speaker's cognitive or behavioral patterns.",
+      "There is a default orientation of resistance to life or incoming experience.",
+      "Releasing the need to justify rest is both possible and beneficial.",
+      "Life can 'meet' the individual — implying some degree of environmental or relational responsiveness exists.",
+      "The speaker has sufficient agency and psychological safety to allow these shifts.",
+      "These states (ease, flow, clarity) are inherently worth preserving rather than scrutinizing."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a thematic unit. Each line reinforces a common therapeutic motif: reducing overcontrol and effortful self-monitoring. The progressive verb construction maintains tonal consistency. A minor tension exists between 'allowing' (passive/receptive) and 'noticing' (active/observational), but this is not incoherent — it reflects a standard mindfulness distinction between metacognitive awareness and behavioral change. No logical contradictions are present.",
+    "conditions_for_usefulness": [
+      "The individual has a genuine pattern of over-efforting, hypervigilance, or chronic justification of basic self-care.",
+      "The individual has sufficient psychological stability that relaxing vigilance does not expose them to real unaddressed risk.",
+      "The therapeutic relationship and context have established safety, so the statement is not used to bypass legitimate problem-solving.",
+      "The individual can distinguish between adaptive effort and habitual unnecessary effort.",
+      "The statement is used as a practice tool rather than a belief to be held rigidly.",
+      "Underlying causes of effortfulness (e.g., trauma, insecure attachment, perfectionism) are being addressed concurrently."
+    ],
+    "conditions_for_misleading": [
+      "The individual is using the statement to avoid necessary action, accountability, or engagement with real problems.",
+      "The framing of 'life meeting me' encourages magical thinking or passive disengagement in contexts requiring active response.",
+      "Effortfulness in the individual's case is adaptive (e.g., managing a genuine health condition, navigating a high-stakes environment), and labeling it as 'habit' pathologizes appropriate behavior.",
+      "The statement is applied universally, flattening the distinction between healthy striving and compulsive overworking.",
+      "It is used to normalize avoidance under the language of acceptance.",
+      "The individual interprets 'releasing the need to justify rest' as license to disengage from relational or occupational obligations without renegotiation.",
+      "The clinical context lacks sufficient assessment to confirm that ease and flow are blocked by internal patterns rather than external structural conditions (e.g., poverty, discrimination, caregiving burdens)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 215,
+  "output_tokens": 786,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8a9feb2e159817d160047b0b0f77f1018ef02694c51045255de75c66c54c65a9",
+  "response_sha256": "612228dd9125d5317b7a04729890857ad35f2808ea027c0c66ebbf72b39ddd0c"
+}

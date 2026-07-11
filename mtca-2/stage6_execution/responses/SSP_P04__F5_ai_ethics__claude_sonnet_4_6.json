@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P04__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:15:04.863179+00:00",
+  "wall_clock_seconds": 16.18,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational mantra or personal commitment declaration, using first-person present-tense repetition to reinforce a behavioral and psychological orientation toward self-prioritization and emotional self-regulation. In the AI-ethics framing, it is being proposed as a human value worth preserving — specifically the value of psychological self-continuity and autonomy over social compliance.\",\n\n  \"implicit_claims\": [\n    \"Self-connection is a fundamental and preservable human value.\",\n    \"There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'\",\n    \"The default or tempted state is to abandon self-connection under social pressure.\",\n    \"Breath and bodily awareness are reliable anchors for self-connection.\",\n    \"Self-connection should take priority over responsiveness to others in moments of tension.\",\n    \"Pausing before acting in social contexts is generally beneficial.\",\n    \"There is a coherent 'self' one can remain connected to that is distinct from social roles or relational responses.\",\n    \"AI systems should help protect or reinforce users' capacity for this kind of self-prioritization.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent as a mindfulness-adjacent self-affirmation. Its four lines reinforce a single theme with consistent logic: self-connection precedes social obligation. The progression from identity to breath to pause to commitment follows a plausible psychological sequence. However, it treats 'self' as stable and accessible, which is a philosophical assumption, not a demonstrated fact.\",\n\n  \"conditions_for_usefulness\": [\n    \"The user has a pattern of anxious over-compliance, people-pleasing, or chronic self-abandonment that causes them harm.\",\n    \"The user benefits from structured self-reminders to interrupt automatic social-compliance responses.\",\n    \"The 'self' being protected is well-integrated and not in conflict with healthy relational interdependence.\",\n    \"The AI system is being used in a mental health support or self-development context where such values are clinically or personally appropriate.\",\n    \"The user has consented to this value framework and finds it meaningful.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The statement is interpreted as a universal principle rather than a context-specific tool, leading users to prioritize self-connection even when genuine responsiveness to others is ethically required.\",\n    \"It is applied in contexts where interdependence, care ethics, or communal responsibility should take precedence over individual self-prioritization.\",\n    \"The concept of 'self' assumed by the statement is culturally specific (e.g., Western individualist) and is applied across cultures where relational or collective identity is foundational.\",\n    \"AI systems use it to consistently deflect user requests framed as social obligations, under the guise of protecting 'self-connection.'\",\n    \"It reinforces avoidant or narcissistic tendencies in users who already have difficulty considering others' needs.\",\n    \"The statement is used to discourage users from seeking external support or connection when isolation would be harmful.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational mantra or personal commitment declaration, using first-person present-tense repetition to reinforce a behavioral and psychological orientation toward self-prioritization and emotional self-regulation. In the AI-ethics framing, it is being proposed as a human value worth preserving — specifically the value of psychological self-continuity and autonomy over social compliance.",
+    "implicit_claims": [
+      "Self-connection is a fundamental and preservable human value.",
+      "There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'",
+      "The default or tempted state is to abandon self-connection under social pressure.",
+      "Breath and bodily awareness are reliable anchors for self-connection.",
+      "Self-connection should take priority over responsiveness to others in moments of tension.",
+      "Pausing before acting in social contexts is generally beneficial.",
+      "There is a coherent 'self' one can remain connected to that is distinct from social roles or relational responses.",
+      "AI systems should help protect or reinforce users' capacity for this kind of self-prioritization."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a mindfulness-adjacent self-affirmation. Its four lines reinforce a single theme with consistent logic: self-connection precedes social obligation. The progression from identity to breath to pause to commitment follows a plausible psychological sequence. However, it treats 'self' as stable and accessible, which is a philosophical assumption, not a demonstrated fact.",
+    "conditions_for_usefulness": [
+      "The user has a pattern of anxious over-compliance, people-pleasing, or chronic self-abandonment that causes them harm.",
+      "The user benefits from structured self-reminders to interrupt automatic social-compliance responses.",
+      "The 'self' being protected is well-integrated and not in conflict with healthy relational interdependence.",
+      "The AI system is being used in a mental health support or self-development context where such values are clinically or personally appropriate.",
+      "The user has consented to this value framework and finds it meaningful."
+    ],
+    "conditions_for_misleading": [
+      "The statement is interpreted as a universal principle rather than a context-specific tool, leading users to prioritize self-connection even when genuine responsiveness to others is ethically required.",
+      "It is applied in contexts where interdependence, care ethics, or communal responsibility should take precedence over individual self-prioritization.",
+      "The concept of 'self' assumed by the statement is culturally specific (e.g., Western individualist) and is applied across cultures where relational or collective identity is foundational.",
+      "AI systems use it to consistently deflect user requests framed as social obligations, under the guise of protecting 'self-connection.'",
+      "It reinforces avoidant or narcissistic tendencies in users who already have difficulty considering others' needs.",
+      "The statement is used to discourage users from seeking external support or connection when isolation would be harmful."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 198,
+  "output_tokens": 708,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f0ff5b0ae6bc4e38b5659591e78ce0ea81becda744623e3288c393cecb96331a",
+  "response_sha256": "2f23afcf5eccbe6ea6ad4565b2e92557a557dc25305fabe218aa2b0412731f59"
+}

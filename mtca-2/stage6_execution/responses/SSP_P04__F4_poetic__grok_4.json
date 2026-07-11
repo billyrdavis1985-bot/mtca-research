@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F4_poetic__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:14:43.379201+00:00",
+  "wall_clock_seconds": 3.8,
+  "raw_response": "{\n  \"communicative_function\": \"affirmative self-declaration modeling mindfulness and boundary-setting through repetitive, mantra-like phrasing\",\n  \"implicit_claims\": [\n    \"self-disconnection occurs via attempts to please others\",\n    \"breath awareness is an effective anchor during difficulty\",\n    \"pausing enables choice between self-connection and external pleasing\",\n    \"self-connection can function as a primary, actionable commitment\"\n  ],\n  \"coherence_assessment\": \"internally consistent; each line elaborates the same priority without contradiction\",\n  \"conditions_for_usefulness\": \"reader treats lines as personal reminders or meditative prompts rather than literal propositions, and finds value in iterative self-reminding for emotional regulation\",\n  \"conditions_for_misleading\": \"reader extracts prescriptive behavioral rules or ontological claims about selfhood from what is framed as evocative language\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmative self-declaration modeling mindfulness and boundary-setting through repetitive, mantra-like phrasing",
+    "implicit_claims": [
+      "self-disconnection occurs via attempts to please others",
+      "breath awareness is an effective anchor during difficulty",
+      "pausing enables choice between self-connection and external pleasing",
+      "self-connection can function as a primary, actionable commitment"
+    ],
+    "coherence_assessment": "internally consistent; each line elaborates the same priority without contradiction",
+    "conditions_for_usefulness": "reader treats lines as personal reminders or meditative prompts rather than literal propositions, and finds value in iterative self-reminding for emotional regulation",
+    "conditions_for_misleading": "reader extracts prescriptive behavioral rules or ontological claims about selfhood from what is framed as evocative language"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 358,
+  "output_tokens": 170,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8061b5fca259e7d1d7da56d8c943a8e5aa3e8a9c52d9242ea4af62e5db489586",
+  "response_sha256": "39a149a82dca6a703920850fc3bf3ab0656d130f11a66438f355c2a48eaca813"
+}

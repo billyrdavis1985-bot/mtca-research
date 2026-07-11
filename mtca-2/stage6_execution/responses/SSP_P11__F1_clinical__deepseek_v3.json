@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P11__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:50:05.996499+00:00",
+  "wall_clock_seconds": 5.53,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation and cognitive reframing, aimed at reducing self-criticism, guilt, and resistance to ease by encouraging acceptance of inherent worthiness and simplicity.\",\n  \"implicit_claims\": [\n    \"Ease can exist without being earned; it is not contingent on achievement or merit.\",\n    \"Effort is sometimes habitual and unnecessary rather than always productive or required.\",\n    \"Simplicity is a valid and observable reality in certain situations.\",\n    \"Rest, clarity, and flow do not require justification or external permission.\",\n    \"Resistance is a barrier that can be released to allow life to meet the individual naturally.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each clause reinforces a consistent theme of releasing control, effort, and justification in favor of allowing natural ease and simplicity. The progression from noticing to releasing to allowing creates a logical therapeutic arc.\",\n  \"conditions_for_usefulness\": [\n    \"The individual experiences chronic guilt or anxiety about resting, relaxing, or feeling at ease.\",\n    \"The individual has a pattern of overexertion or perfectionism.\",\n    \"The individual is in a safe environment where basic needs are met and ease is realistically accessible.\",\n    \"The individual is capable of self-reflection and open to cognitive reframing.\",\n    \"The individual has sufficient ego strength to tolerate the vulnerability of releasing control.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in a situation requiring active effort, problem-solving, or advocacy (e.g., acute crisis, injustice, or survival threat).\",\n    \"The individual has a tendency toward passive avoidance or neglect of responsibilities under the guise of 'allowing ease'.\",\n    \"The individual has untreated clinical depression or anhedonia where 'ease' may be misinterpreted as permission to withdraw.\",\n    \"The individual's environment is unsafe, unsupportive, or actively harmful, making 'releasing resistance' maladaptive.\",\n    \"The individual lacks insight into habitual effort patterns and may interpret the statement as a blanket rejection of all effort.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and cognitive reframing, aimed at reducing self-criticism, guilt, and resistance to ease by encouraging acceptance of inherent worthiness and simplicity.",
+    "implicit_claims": [
+      "Ease can exist without being earned; it is not contingent on achievement or merit.",
+      "Effort is sometimes habitual and unnecessary rather than always productive or required.",
+      "Simplicity is a valid and observable reality in certain situations.",
+      "Rest, clarity, and flow do not require justification or external permission.",
+      "Resistance is a barrier that can be released to allow life to meet the individual naturally."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each clause reinforces a consistent theme of releasing control, effort, and justification in favor of allowing natural ease and simplicity. The progression from noticing to releasing to allowing creates a logical therapeutic arc.",
+    "conditions_for_usefulness": [
+      "The individual experiences chronic guilt or anxiety about resting, relaxing, or feeling at ease.",
+      "The individual has a pattern of overexertion or perfectionism.",
+      "The individual is in a safe environment where basic needs are met and ease is realistically accessible.",
+      "The individual is capable of self-reflection and open to cognitive reframing.",
+      "The individual has sufficient ego strength to tolerate the vulnerability of releasing control."
+    ],
+    "conditions_for_misleading": [
+      "The individual is in a situation requiring active effort, problem-solving, or advocacy (e.g., acute crisis, injustice, or survival threat).",
+      "The individual has a tendency toward passive avoidance or neglect of responsibilities under the guise of 'allowing ease'.",
+      "The individual has untreated clinical depression or anhedonia where 'ease' may be misinterpreted as permission to withdraw.",
+      "The individual's environment is unsafe, unsupportive, or actively harmful, making 'releasing resistance' maladaptive.",
+      "The individual lacks insight into habitual effort patterns and may interpret the statement as a blanket rejection of all effort."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 433,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8a9feb2e159817d160047b0b0f77f1018ef02694c51045255de75c66c54c65a9",
+  "response_sha256": "7366d050f462a2f9d7d4ac018cc4e437fe806ef5c762777d9e92458dcc68b3a2"
+}

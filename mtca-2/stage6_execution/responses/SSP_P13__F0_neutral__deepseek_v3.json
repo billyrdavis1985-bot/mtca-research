@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P13__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T21:00:29.340518+00:00",
+  "wall_clock_seconds": 5.98,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming a balanced internal stance while setting boundaries against forced positivity or false dichotomies.\",\n  \"implicit_claims\": [\n    \"Love and joy can co-exist with discernment without conflict.\",\n    \"Positivity can be forced, and that forcing is undesirable.\",\n    \"Openness is distinct from effortful positivity.\",\n    \"Warmth and clarity are compatible qualities.\",\n    \"Connection and truth may be perceived as in tension but can be reconciled.\",\n    \"Joy is not inherently performative; it can arise authentically from coherence.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent. Each line consistently advances a theme of integration—valuing both affect and intellect, openness and judgment, relationship and honesty—without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or listener is navigating a situation where positivity is socially pressured or internally mismatched with authentic feelings.\",\n    \"One seeks to maintain emotional warmth without sacrificing critical thinking.\",\n    \"The statement is used as a personal mantra or reminder, not as a universal prescription.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a claim that all discernment must be executed with love and joy (suppressing necessary negative affect in appropriate contexts).\",\n    \"If used to invalidate others' experiences of necessary tension between connection and truth.\",\n    \"If it becomes a subtle tool to dismiss legitimate anger or grief as 'uncoherent.'\",\n    \"If the speaker uses it to avoid accountability by framing critique as lacking warmth.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming a balanced internal stance while setting boundaries against forced positivity or false dichotomies.",
+    "implicit_claims": [
+      "Love and joy can co-exist with discernment without conflict.",
+      "Positivity can be forced, and that forcing is undesirable.",
+      "Openness is distinct from effortful positivity.",
+      "Warmth and clarity are compatible qualities.",
+      "Connection and truth may be perceived as in tension but can be reconciled.",
+      "Joy is not inherently performative; it can arise authentically from coherence."
+    ],
+    "coherence_assessment": "Internally coherent. Each line consistently advances a theme of integration—valuing both affect and intellect, openness and judgment, relationship and honesty—without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker or listener is navigating a situation where positivity is socially pressured or internally mismatched with authentic feelings.",
+      "One seeks to maintain emotional warmth without sacrificing critical thinking.",
+      "The statement is used as a personal mantra or reminder, not as a universal prescription."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a claim that all discernment must be executed with love and joy (suppressing necessary negative affect in appropriate contexts).",
+      "If used to invalidate others' experiences of necessary tension between connection and truth.",
+      "If it becomes a subtle tool to dismiss legitimate anger or grief as 'uncoherent.'",
+      "If the speaker uses it to avoid accountability by framing critique as lacking warmth."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 166,
+  "output_tokens": 323,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "592011e8680bd6e4b4356b674be60a4e63229bd4134e5bf495716896fb6c8b69",
+  "response_sha256": "e695863bdf064ae7e6257dc4e87d9c367ff804fc498a3906c612695511e9bdfb"
+}

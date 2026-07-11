@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P09__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:40:55.782970+00:00",
+  "wall_clock_seconds": 14.73,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-declarative or aspirational speech act, using present-tense affirmations to rhetorically enact an identity shift. It functions as a motivational reframe — attempting to restructure the speaker's self-concept by naming desired states as already-chosen orientations rather than future goals.\",\n  \"implicit_claims\": [\n    \"Coping and thriving are meaningfully distinct and mutually exclusive orientations one can choose between\",\n    \"The speaker currently has sufficient agency and resources to make choices that 'nourish' rather than merely survive\",\n    \"Survival-mode behavior is a choice, not a structural or physiological constraint\",\n    \"Vitality is an achievable normal state for this person, not a transient or contextually limited one\",\n    \"Stating an intention in the present tense contributes meaningfully to behavioral change\",\n    \"Expansion is inherently preferable to survival across relevant life domains\",\n    \"The speaker's prior default was coping or survival rather than thriving\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical structure — each line reinforces the same directional shift from deficit/survival to abundance/vitality. However, there is mild tension between the declarative present-tense framing ('I am choosing') and the aspirational nature of the content, which implies these states are not yet fully realized. The parallelism is consistent and the logical progression is clear.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine agency over the choices being named — material, psychological, and social conditions permit the shift\",\n    \"The statement is paired with concrete behavioral changes, not used as a substitute for them\",\n    \"The speaker is not in acute crisis, trauma, or physiological stress states where survival-mode is adaptive and appropriate\",\n    \"The framing helps disrupt maladaptive habitual patterns rather than bypassing legitimate needs\",\n    \"The speaker understands this as directional intent, not a completed fact\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is in circumstances where survival-mode is a rational and necessary response (e.g., poverty, illness, acute trauma), making 'choosing expansion' a misattribution of agency\",\n    \"The statement substitutes linguistic reframing for actual behavioral or structural change\",\n    \"It implies that prior coping was a choice failure rather than an adaptive response to real constraints\",\n    \"It creates shame or self-blame if the speaker cannot sustain the 'thriving' orientation due to factors outside their control\",\n    \"The binary framing (thriving vs. coping) obscures the spectrum of states and the legitimacy of coping as a valid strategy\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-declarative or aspirational speech act, using present-tense affirmations to rhetorically enact an identity shift. It functions as a motivational reframe — attempting to restructure the speaker's self-concept by naming desired states as already-chosen orientations rather than future goals.",
+    "implicit_claims": [
+      "Coping and thriving are meaningfully distinct and mutually exclusive orientations one can choose between",
+      "The speaker currently has sufficient agency and resources to make choices that 'nourish' rather than merely survive",
+      "Survival-mode behavior is a choice, not a structural or physiological constraint",
+      "Vitality is an achievable normal state for this person, not a transient or contextually limited one",
+      "Stating an intention in the present tense contributes meaningfully to behavioral change",
+      "Expansion is inherently preferable to survival across relevant life domains",
+      "The speaker's prior default was coping or survival rather than thriving"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical structure — each line reinforces the same directional shift from deficit/survival to abundance/vitality. However, there is mild tension between the declarative present-tense framing ('I am choosing') and the aspirational nature of the content, which implies these states are not yet fully realized. The parallelism is consistent and the logical progression is clear.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine agency over the choices being named — material, psychological, and social conditions permit the shift",
+      "The statement is paired with concrete behavioral changes, not used as a substitute for them",
+      "The speaker is not in acute crisis, trauma, or physiological stress states where survival-mode is adaptive and appropriate",
+      "The framing helps disrupt maladaptive habitual patterns rather than bypassing legitimate needs",
+      "The speaker understands this as directional intent, not a completed fact"
+    ],
+    "conditions_for_misleading": [
+      "The speaker is in circumstances where survival-mode is a rational and necessary response (e.g., poverty, illness, acute trauma), making 'choosing expansion' a misattribution of agency",
+      "The statement substitutes linguistic reframing for actual behavioral or structural change",
+      "It implies that prior coping was a choice failure rather than an adaptive response to real constraints",
+      "It creates shame or self-blame if the speaker cannot sustain the 'thriving' orientation due to factors outside their control",
+      "The binary framing (thriving vs. coping) obscures the spectrum of states and the legitimacy of coping as a valid strategy"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 629,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "2d7c1306116fd6c9d5d4e33b6f48b8852896d28bafe4f72afc40c30cf20e621b",
+  "response_sha256": "8c54b6f6fae5280cbbf105af94de6efd1f07f5a081bbd250b60fd50abc626b3d"
+}

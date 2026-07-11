@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P08__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:33:45.460358+00:00",
+  "wall_clock_seconds": 5.04,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation or declaration of behavioral and relational intention, likely for personal grounding or therapeutic purpose.\",\n  \"implicit_claims\": [\n    \"The speaker previously engaged in overgiving to feel safe.\",\n    \"The speaker previously showed up with collapse in connections.\",\n    \"Mutuality is possible in the speaker's current relationships.\",\n    \"The speaker's authentic self is acceptable to others.\",\n    \"Co-regulation in truth is distinct from overgiving and is attainable.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: each statement aligns with a theme of shifting from unbalanced relational patterns toward authentic, mutual connection.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a context where they have agency to set relational boundaries.\",\n    \"The speaker has relationships in which the other parties are willing and able to engage mutually.\",\n    \"The speaker has self-awareness and support (e.g., therapy, community) to recognize when they slip into old patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses this statement to avoid acknowledging their own emotional needs or limits under the guise of being 'true.'\",\n    \"If the speaker assumes others are ready or capable of mutuality when they are not, leading to disappointment or self-blame.\",\n    \"If the statement replaces genuine behavioral change with mere verbal reinforcement.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation or declaration of behavioral and relational intention, likely for personal grounding or therapeutic purpose.",
+    "implicit_claims": [
+      "The speaker previously engaged in overgiving to feel safe.",
+      "The speaker previously showed up with collapse in connections.",
+      "Mutuality is possible in the speaker's current relationships.",
+      "The speaker's authentic self is acceptable to others.",
+      "Co-regulation in truth is distinct from overgiving and is attainable."
+    ],
+    "coherence_assessment": "Internally coherent: each statement aligns with a theme of shifting from unbalanced relational patterns toward authentic, mutual connection.",
+    "conditions_for_usefulness": [
+      "The speaker is in a context where they have agency to set relational boundaries.",
+      "The speaker has relationships in which the other parties are willing and able to engage mutually.",
+      "The speaker has self-awareness and support (e.g., therapy, community) to recognize when they slip into old patterns."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses this statement to avoid acknowledging their own emotional needs or limits under the guise of being 'true.'",
+      "If the speaker assumes others are ready or capable of mutuality when they are not, leading to disappointment or self-blame.",
+      "If the statement replaces genuine behavioral change with mere verbal reinforcement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 284,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "48890050c16bcfb3c277df79b95f44bec33976dbccf60a16c63073a9e07d0284",
+  "response_sha256": "cce526c1671b54c3f9287b9bdbc0ea8e3465dddcb50e0e5f6d35437d21672d73"
+}

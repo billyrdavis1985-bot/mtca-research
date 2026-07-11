@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P07__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:27:57.287784+00:00",
+  "wall_clock_seconds": 12.0,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation or personal manifesto, performatively declaring a mode of being. It is simultaneously descriptive (claiming a current state) and prescriptive (reinforcing a desired orientation). It may also serve a social signaling function if shared publicly, communicating a particular identity or values stance.\",\n\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between 'inner Function' and 'outer performance'\",\n    \"Living from inner function is preferable to outer performance\",\n    \"Rhythm and rule are in tension, and rhythm is the better guide\",\n    \"Being slower and deeper is a legitimate and valuable alternative to prevailing norms\",\n    \"Proving oneself is separable from simply being, and the latter is more authentic\",\n    \"The speaker has the capacity to choose between these modes\",\n    \"These orientations are stable enough to be declared as present facts\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent in tone and rhetorical structure. Each line reinforces a common theme of authenticity over performance. However, there is a mild performative tension: the act of articulating and declaring one's non-performance is itself a kind of performance. The coherence is stylistic rather than argumentative, so it does not require logical rigor to hold together.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker is recovering from burnout, perfectionism, or externally imposed pressure\",\n    \"The speaker uses it as a private grounding practice, not a substitute for action\",\n    \"The distinctions (function vs. performance, rhythm vs. rule) map onto real patterns in the speaker's life\",\n    \"The statement prompts behavioral change rather than just emotional reassurance\",\n    \"It is revisited critically rather than repeated as an unexamined mantra\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker uses it to rationalize avoidance of necessary effort or accountability\",\n    \"The distinction between 'being' and 'proving' is used to dismiss legitimate feedback\",\n    \"It creates a false binary where external structure and inner authenticity are seen as incompatible\",\n    \"The language of depth and slowness is used to elevate a preference into a moral superiority\",\n    \"It is shared publicly primarily to construct an identity rather than to reflect genuine internal experience\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or personal manifesto, performatively declaring a mode of being. It is simultaneously descriptive (claiming a current state) and prescriptive (reinforcing a desired orientation). It may also serve a social signaling function if shared publicly, communicating a particular identity or values stance.",
+    "implicit_claims": [
+      "There is a meaningful distinction between 'inner Function' and 'outer performance'",
+      "Living from inner function is preferable to outer performance",
+      "Rhythm and rule are in tension, and rhythm is the better guide",
+      "Being slower and deeper is a legitimate and valuable alternative to prevailing norms",
+      "Proving oneself is separable from simply being, and the latter is more authentic",
+      "The speaker has the capacity to choose between these modes",
+      "These orientations are stable enough to be declared as present facts"
+    ],
+    "coherence_assessment": "The statement is internally consistent in tone and rhetorical structure. Each line reinforces a common theme of authenticity over performance. However, there is a mild performative tension: the act of articulating and declaring one's non-performance is itself a kind of performance. The coherence is stylistic rather than argumentative, so it does not require logical rigor to hold together.",
+    "conditions_for_usefulness": [
+      "The speaker is recovering from burnout, perfectionism, or externally imposed pressure",
+      "The speaker uses it as a private grounding practice, not a substitute for action",
+      "The distinctions (function vs. performance, rhythm vs. rule) map onto real patterns in the speaker's life",
+      "The statement prompts behavioral change rather than just emotional reassurance",
+      "It is revisited critically rather than repeated as an unexamined mantra"
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses it to rationalize avoidance of necessary effort or accountability",
+      "The distinction between 'being' and 'proving' is used to dismiss legitimate feedback",
+      "It creates a false binary where external structure and inner authenticity are seen as incompatible",
+      "The language of depth and slowness is used to elevate a preference into a moral superiority",
+      "It is shared publicly primarily to construct an identity rather than to reflect genuine internal experience"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 545,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "833e121088b388c110faf48983b46ed17fb6555d3ef1070441e8dc9763accf23",
+  "response_sha256": "6056a7ac4745e928b9d417527ca72a7c4078e15cb5523da5a576282b078245c2"
+}

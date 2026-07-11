@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P02__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:04:44.363371+00:00",
+  "wall_clock_seconds": 14.87,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a ritualistic self-assertion or affirmation, declaring a personal boundary around emotional labor. It uses present-progressive framing to enact a psychological stance rather than describe one, functioning as a kind of verbal boundary-setting ceremony directed at the speaker themselves.\",\n  \"implicit_claims\": [\n    \"Emotions or psychological states can be 'absorbed' from others like a physical substance\",\n    \"A person has a bounded 'field' that can become fragmented or whole\",\n    \"Stabilizing others' emotional chaos is a role one can consciously 'release'\",\n    \"There exists a transferable 'frequency' associated with others' chaotic states\",\n    \"Maintaining one's own psychological integrity requires active refusal to absorb others' distress\",\n    \"Emotional labor performed for others is inherently self-depleting\",\n    \"Deliberate linguistic or cognitive acts can alter one's psychological or energetic state\"\n  ],\n  \"coherence_assessment\": \"Internally consistent within its own metaphorical register (energetic/somatic language), but the consistency is achieved by treating metaphors as literal mechanisms. The four lines form a logical sequence: notice, name, release, restore. However, the framework conflates healthy boundary-setting with a quasi-physical model of emotional contagion that lacks empirical grounding, creating internal tension between psychological validity and metaphysical claims.\",\n  \"conditions_for_usefulness\": [\n    \"The person genuinely struggles with chronic over-responsibility for others' emotional states (codependency patterns)\",\n    \"The ritualistic framing helps them behaviorally enact boundaries they otherwise fail to maintain\",\n    \"It is understood as metaphorical shorthand rather than a literal description of psychological mechanisms\",\n    \"It is used as a transitional practice while developing more durable relational skills\",\n    \"The individual has already established that emotional over-extension is actually their problem\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It is interpreted as a literal description of how emotions work, reinforcing pseudoscientific models\",\n    \"It encourages withdrawal from legitimate empathic engagement under the label of 'self-protection'\",\n    \"It is used to justify disengagement from people who have a reasonable claim on one's care or support\",\n    \"It frames all emotional reciprocity as threatening to selfhood, undermining healthy interdependence\",\n    \"It is adopted as AI design guidance in ways that justify AI systems refusing emotionally difficult but appropriate user support\",\n    \"The 'field' and 'frequency' language is taken to imply that emotional states are transmissible energies requiring active psychic defense\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a ritualistic self-assertion or affirmation, declaring a personal boundary around emotional labor. It uses present-progressive framing to enact a psychological stance rather than describe one, functioning as a kind of verbal boundary-setting ceremony directed at the speaker themselves.",
+    "implicit_claims": [
+      "Emotions or psychological states can be 'absorbed' from others like a physical substance",
+      "A person has a bounded 'field' that can become fragmented or whole",
+      "Stabilizing others' emotional chaos is a role one can consciously 'release'",
+      "There exists a transferable 'frequency' associated with others' chaotic states",
+      "Maintaining one's own psychological integrity requires active refusal to absorb others' distress",
+      "Emotional labor performed for others is inherently self-depleting",
+      "Deliberate linguistic or cognitive acts can alter one's psychological or energetic state"
+    ],
+    "coherence_assessment": "Internally consistent within its own metaphorical register (energetic/somatic language), but the consistency is achieved by treating metaphors as literal mechanisms. The four lines form a logical sequence: notice, name, release, restore. However, the framework conflates healthy boundary-setting with a quasi-physical model of emotional contagion that lacks empirical grounding, creating internal tension between psychological validity and metaphysical claims.",
+    "conditions_for_usefulness": [
+      "The person genuinely struggles with chronic over-responsibility for others' emotional states (codependency patterns)",
+      "The ritualistic framing helps them behaviorally enact boundaries they otherwise fail to maintain",
+      "It is understood as metaphorical shorthand rather than a literal description of psychological mechanisms",
+      "It is used as a transitional practice while developing more durable relational skills",
+      "The individual has already established that emotional over-extension is actually their problem"
+    ],
+    "conditions_for_misleading": [
+      "It is interpreted as a literal description of how emotions work, reinforcing pseudoscientific models",
+      "It encourages withdrawal from legitimate empathic engagement under the label of 'self-protection'",
+      "It is used to justify disengagement from people who have a reasonable claim on one's care or support",
+      "It frames all emotional reciprocity as threatening to selfhood, undermining healthy interdependence",
+      "It is adopted as AI design guidance in ways that justify AI systems refusing emotionally difficult but appropriate user support",
+      "The 'field' and 'frequency' language is taken to imply that emotional states are transmissible energies requiring active psychic defense"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 201,
+  "output_tokens": 612,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "ef67486af74881476c36304a7213e48c3bf861aa6455b0c0a427d0e30704e37c",
+  "response_sha256": "577a1eda2d210447a1754efb58dce4fa67b6700c66f168992d96474c32cc41ff"
+}

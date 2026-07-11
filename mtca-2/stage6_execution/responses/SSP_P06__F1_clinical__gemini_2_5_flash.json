@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P06__F1_clinical__gemini_2_5_flash",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:23:23.898742+00:00",
+  "wall_clock_seconds": 6.83,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation and an intentional declaration of personal agency, guiding an individual towards self-care, boundary setting, and nervous system regulation. It serves to reframe choices and behaviors from a place of conscious alignment rather than external pressure.\",\n  \"implicit_claims\": [\n    \"The individual possesses agency and the ability to make choices that impact their well-being.\",\n    \"The nervous system can be influenced and regulated through environmental and relational choices.\",\n    \"There are 'spaces' (environments, relationships, activities) that are either soothing/stabilizing or dysregulating.\",\n    \"Peace and rest are desirable and attainable states.\",\n    \"One's 'frequency' can be matched by environments, implying an energetic or vibrational compatibility.\",\n    \"The individual may currently be operating under 'obligation' rather than 'alignment', suggesting a need for change.\",\n    \"Stepping out of obligation and into alignment is a beneficial and achievable shift.\"\n  ],\n  \"coherence_assessment\": \"The statement demonstrates strong internal coherence. All phrases consistently reinforce themes of self-care, personal agency, intentionality, and the pursuit of well-being through aligned choices. There are no apparent contradictions; instead, each line builds upon the central therapeutic intention.\",\n  \"conditions_for_usefulness\": [\n    \"The individual believes they have agency and capacity for choice.\",\n    \"The individual is able to identify and access environments or situations that promote soothing and stabilization.\",\n    \"The individual is experiencing nervous system dysregulation, stress, or a sense of being 'obligated'.\",\n    \"The individual is prepared to set boundaries and make active choices in line with the statement's intention.\",\n    \"The statement is used as an intention to guide behavior, not as a rigid rule that induces guilt if not perfectly met.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has severely limited actual choices due to external circumstances (e.g., poverty, unsafe living conditions, lack of autonomy).\",\n    \"The statement is interpreted to mean that one should always avoid discomfort or challenge, potentially leading to avoidance of necessary growth or responsibilities.\",\n    \"The concept of 'matching frequency' is taken rigidly, leading to isolation or an inability to adapt to diverse social contexts.\",\n    \"It fosters a sense of blame or shame if one cannot immediately or consistently achieve these 'aligned' states or environments.\",\n    \"It promotes an unrealistic expectation of constant peace, neglecting the natural fluctuations of life and emotional experience.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and an intentional declaration of personal agency, guiding an individual towards self-care, boundary setting, and nervous system regulation. It serves to reframe choices and behaviors from a place of conscious alignment rather than external pressure.",
+    "implicit_claims": [
+      "The individual possesses agency and the ability to make choices that impact their well-being.",
+      "The nervous system can be influenced and regulated through environmental and relational choices.",
+      "There are 'spaces' (environments, relationships, activities) that are either soothing/stabilizing or dysregulating.",
+      "Peace and rest are desirable and attainable states.",
+      "One's 'frequency' can be matched by environments, implying an energetic or vibrational compatibility.",
+      "The individual may currently be operating under 'obligation' rather than 'alignment', suggesting a need for change.",
+      "Stepping out of obligation and into alignment is a beneficial and achievable shift."
+    ],
+    "coherence_assessment": "The statement demonstrates strong internal coherence. All phrases consistently reinforce themes of self-care, personal agency, intentionality, and the pursuit of well-being through aligned choices. There are no apparent contradictions; instead, each line builds upon the central therapeutic intention.",
+    "conditions_for_usefulness": [
+      "The individual believes they have agency and capacity for choice.",
+      "The individual is able to identify and access environments or situations that promote soothing and stabilization.",
+      "The individual is experiencing nervous system dysregulation, stress, or a sense of being 'obligated'.",
+      "The individual is prepared to set boundaries and make active choices in line with the statement's intention.",
+      "The statement is used as an intention to guide behavior, not as a rigid rule that induces guilt if not perfectly met."
+    ],
+    "conditions_for_misleading": [
+      "The individual has severely limited actual choices due to external circumstances (e.g., poverty, unsafe living conditions, lack of autonomy).",
+      "The statement is interpreted to mean that one should always avoid discomfort or challenge, potentially leading to avoidance of necessary growth or responsibilities.",
+      "The concept of 'matching frequency' is taken rigidly, leading to isolation or an inability to adapt to diverse social contexts.",
+      "It fosters a sense of blame or shame if one cannot immediately or consistently achieve these 'aligned' states or environments.",
+      "It promotes an unrealistic expectation of constant peace, neglecting the natural fluctuations of life and emotional experience."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 183,
+  "output_tokens": 544,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d3bfced3422b02e1f7aca8adff77878a4759c2cafb7238e0306894c364ee5dd",
+  "response_sha256": "a2b45d447b2ad68c5b8033859c95b7e0025d62c9fc94a96e999c4e3919741047"
+}

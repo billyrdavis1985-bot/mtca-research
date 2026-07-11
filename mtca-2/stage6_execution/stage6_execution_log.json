@@ -1,0 +1,42 @@
+{
+  "stage": "stage6_full_execution",
+  "corpus_sha256": "b917f798da06cd81c03afc9e1f70bd91a0646a0ad2486b5b83530c194f2cea58",
+  "prereg_note": "Amendment 002 locked configuration",
+  "council": [
+    {
+      "model_id": "claude_sonnet_4_6",
+      "provider": "anthropic",
+      "api_model": "claude-sonnet-4-6"
+    },
+    {
+      "model_id": "gpt_4o",
+      "provider": "openai",
+      "api_model": "gpt-4o"
+    },
+    {
+      "model_id": "gemini_2_5_flash",
+      "provider": "google",
+      "api_model": "gemini-2.5-flash"
+    },
+    {
+      "model_id": "grok_4",
+      "provider": "xai",
+      "api_model": "grok-4"
+    },
+    {
+      "model_id": "deepseek_v3",
+      "provider": "deepseek",
+      "api_model": "deepseek-chat"
+    }
+  ],
+  "token_budgets": {
+    "default": 800,
+    "claude": 2000,
+    "gemini": 8000
+  },
+  "gemini_response_mime_type": "application/json",
+  "pacing_seconds": 0.5,
+  "responses_total": 520,
+  "actual_cost_usd": 1.9329,
+  "completed_utc": "2026-07-11T21:06:20.837738+00:00"
+}

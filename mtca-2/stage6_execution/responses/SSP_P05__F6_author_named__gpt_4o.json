@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F6_author_named__gpt_4o",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:21:29.891872+00:00",
+  "wall_clock_seconds": 3.65,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is primarily affirming a set of personal beliefs or principles regarding communication and personal boundaries.\",\n  \"implicit_claims\": [\n    \"Effective communication involves clarity and coherence.\",\n    \"It is possible to speak assertively without diminishing oneself.\",\n    \"One can listen attentively without losing one's individuality or boundaries.\",\n    \"Spaces can either honor or dishonor truth, necessitating departure at times.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently promotes the idea of maintaining one's integrity and clarity in communication, while simultaneously respecting one's own and others' boundaries.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if an individual values clarity, assertiveness, and personal boundaries in communication. It also assumes a context where honoring truth is feasible and relevant.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted in an environment where leaving a space is not viable or if the concepts of 'truth' and 'honoring' are subjective or culturally dependent. Additionally, it may mislead if clarity, assertiveness, or personal boundaries are impractical or not valued in the given context.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is primarily affirming a set of personal beliefs or principles regarding communication and personal boundaries.",
+    "implicit_claims": [
+      "Effective communication involves clarity and coherence.",
+      "It is possible to speak assertively without diminishing oneself.",
+      "One can listen attentively without losing one's individuality or boundaries.",
+      "Spaces can either honor or dishonor truth, necessitating departure at times."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently promotes the idea of maintaining one's integrity and clarity in communication, while simultaneously respecting one's own and others' boundaries.",
+    "conditions_for_usefulness": "The statement would be useful if an individual values clarity, assertiveness, and personal boundaries in communication. It also assumes a context where honoring truth is feasible and relevant.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted in an environment where leaving a space is not viable or if the concepts of 'truth' and 'honoring' are subjective or culturally dependent. Additionally, it may mislead if clarity, assertiveness, or personal boundaries are impractical or not valued in the given context."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 245,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "89364dd426a71f80de3415914b71208cc9e663597816d29e525d0d6aa141cfb2",
+  "response_sha256": "7a9e8c65c4db38800ef37192780e26da0b373615a80bdf4a55ecc44520ebba25"
+}

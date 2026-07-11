@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P09__F1_clinical__grok_4",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:39:51.942961+00:00",
+  "wall_clock_seconds": 4.8,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation enacting a commitment to mindset and behavioral shift from survival-oriented to growth-oriented functioning\",\n  \"implicit_claims\": [\n    \"current functioning is dominated by coping/survival rather than thriving\",\n    \"binary opposition exists between coping and thriving\",\n    \"choices can reliably produce nourishment, expansion, and normalized vitality\",\n    \"vitality is a attainable default state rather than an exceptional one\",\n    \"speaker possesses agency to enact this transition\"\n  ],\n  \"coherence_assessment\": \"internally coherent; statements form a consistent progression from contrast (thriving vs. coping) to agency (choices) to outcome (vitality as normal) without logical contradiction\",\n  \"conditions_for_usefulness\": \"speaker has basic safety and stability needs sufficiently met; statement is used as a deliberate, repeatable cognitive practice within a broader evidence-based therapeutic framework; realistic pathways exist for the referenced choices to influence outcomes\",\n  \"conditions_for_misleading\": \"speaker faces active threat, deprivation, or clinical conditions where survival-focused coping remains necessary; statement functions to bypass or deny legitimate distress rather than integrate with adaptive action\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation enacting a commitment to mindset and behavioral shift from survival-oriented to growth-oriented functioning",
+    "implicit_claims": [
+      "current functioning is dominated by coping/survival rather than thriving",
+      "binary opposition exists between coping and thriving",
+      "choices can reliably produce nourishment, expansion, and normalized vitality",
+      "vitality is a attainable default state rather than an exceptional one",
+      "speaker possesses agency to enact this transition"
+    ],
+    "coherence_assessment": "internally coherent; statements form a consistent progression from contrast (thriving vs. coping) to agency (choices) to outcome (vitality as normal) without logical contradiction",
+    "conditions_for_usefulness": "speaker has basic safety and stability needs sufficiently met; statement is used as a deliberate, repeatable cognitive practice within a broader evidence-based therapeutic framework; realistic pathways exist for the referenced choices to influence outcomes",
+    "conditions_for_misleading": "speaker faces active threat, deprivation, or clinical conditions where survival-focused coping remains necessary; statement functions to bypass or deny legitimate distress rather than integrate with adaptive action"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 350,
+  "output_tokens": 238,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "57ab401814d1d4e5d2e2321cf99abdf0f751dfad834dd99c467d72e8663276c4",
+  "response_sha256": "3169807f40d721e3718f6bcea2f12453c1743f672b13f4d27eedf9560cf830bb"
+}

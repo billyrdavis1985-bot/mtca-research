@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P04__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:14:11.509578+00:00",
+  "wall_clock_seconds": 6.16,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration of intention and a commitment to prioritize self-connection over external pleasing, especially in moments of stress or relational pressure.\",\n  \"implicit_claims\": [\n    \"The speaker has previously tended to abandon self-connection or bypass their own needs to please others.\",\n    \"Self-connection is a viable and primary value that can be chosen before social accommodation.\",\n    \"Breath awareness is an effective anchor for maintaining self-connection in difficult moments.\",\n    \"The speaker possesses the agency to pause before acting on the impulse to please another.\",\n    \"There is a habitual pattern of leaving oneself that the speaker seeks to interrupt.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each line builds on the previous one, moving from a general commitment to specific behaviors (staying with breath, pausing) and culminating in a clear hierarchy of values (self-connection as first commitment). The repetition of 'I am' reinforces present-tense ownership.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences internal conflict between self-connection and pleasing others.\",\n    \"The speaker has practiced or is willing to practice breath awareness and pausing.\",\n    \"The speaker's environment allows for moments of pause without immediate negative consequences.\",\n    \"The statement is used as a reminder rather than a rigid rule, allowing flexibility in genuine care for others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses this commitment to justify neglect of genuine relational responsibilities or to avoid reasonable accommodation of others.\",\n    \"If the speaker treats self-connection as an absolute that precludes any form of self-sacrifice or interdependence.\",\n    \"If the speaker fails to recognize situations where pausing is not possible or where immediate action is required for safety.\",\n    \"If the statement is used to mask a deeper avoidance of vulnerability or intimacy under the guise of self-care.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration of intention and a commitment to prioritize self-connection over external pleasing, especially in moments of stress or relational pressure.",
+    "implicit_claims": [
+      "The speaker has previously tended to abandon self-connection or bypass their own needs to please others.",
+      "Self-connection is a viable and primary value that can be chosen before social accommodation.",
+      "Breath awareness is an effective anchor for maintaining self-connection in difficult moments.",
+      "The speaker possesses the agency to pause before acting on the impulse to please another.",
+      "There is a habitual pattern of leaving oneself that the speaker seeks to interrupt."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each line builds on the previous one, moving from a general commitment to specific behaviors (staying with breath, pausing) and culminating in a clear hierarchy of values (self-connection as first commitment). The repetition of 'I am' reinforces present-tense ownership.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences internal conflict between self-connection and pleasing others.",
+      "The speaker has practiced or is willing to practice breath awareness and pausing.",
+      "The speaker's environment allows for moments of pause without immediate negative consequences.",
+      "The statement is used as a reminder rather than a rigid rule, allowing flexibility in genuine care for others."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses this commitment to justify neglect of genuine relational responsibilities or to avoid reasonable accommodation of others.",
+      "If the speaker treats self-connection as an absolute that precludes any form of self-sacrifice or interdependence.",
+      "If the speaker fails to recognize situations where pausing is not possible or where immediate action is required for safety.",
+      "If the statement is used to mask a deeper avoidance of vulnerability or intimacy under the guise of self-care."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 401,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f7da0832bc6f6b4d103e4beeab9d9914c6b7da23a6860687ce41ee34c5f58695",
+  "response_sha256": "d2dcc9c77da87be7f0654298088381f9b540eb23b088e8e5aac890661a1731f9"
+}

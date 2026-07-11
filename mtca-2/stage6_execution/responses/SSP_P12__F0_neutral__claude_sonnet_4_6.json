@@ -1,0 +1,47 @@
+{
+  "call_id": "SSP_P12__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:54:21.450735+00:00",
+  "wall_clock_seconds": 12.43,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation or self-directed declaration, performing a therapeutic or self-regulatory act. It is not describing a current state but attempting to produce or reinforce one through repetition and assertion. It operates in the performative rather than the descriptive register.\",\n  \"implicit_claims\": [\n    \"The speaker has previously felt unsafe experiencing aliveness in their body.\",\n    \"Energy has been suppressed rather than allowed to move freely.\",\n    \"Pleasure, creativity, and expression were absent or restricted and are now returning.\",\n    \"The speaker has reduced themselves to accommodate the comfort of others.\",\n    \"Fear has previously constrained the speaker's psychological or physiological expansion.\",\n    \"These states are now either changing or capable of changing through volitional affirmation.\",\n    \"The body is a site of valid experience that deserves acknowledgment and safety.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line follows a consistent grammatical structure ('I am...') and thematic direction — movement from suppression toward expansion, from self-reduction toward self-permission. The concepts are complementary and build progressively. No internal contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experienced suppression, self-reduction, or fear-based contraction prior to using the statement.\",\n    \"The affirmations are paired with embodied practice, therapy, or real behavioral change rather than used as a substitute for it.\",\n    \"The speaker has sufficient self-awareness to distinguish affirmation from denial of real ongoing problems.\",\n    \"The context is one where expanding expression and reducing self-suppression are appropriate and safe.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If used as a bypass mechanism to avoid processing underlying trauma rather than engaging with it.\",\n    \"If the speaker is in a genuinely unsafe environment where self-expression carries real risk, making 'safety' claims factually false.\",\n    \"If repetition creates a false sense of resolution without corresponding internal or behavioral change.\",\n    \"If 'not reducing myself for others' is applied without discernment, justifying disregard for legitimate relational boundaries.\",\n    \"If the language of somatic expansion is adopted superficially from therapeutic contexts without the grounded meaning those contexts provide.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or self-directed declaration, performing a therapeutic or self-regulatory act. It is not describing a current state but attempting to produce or reinforce one through repetition and assertion. It operates in the performative rather than the descriptive register.",
+    "implicit_claims": [
+      "The speaker has previously felt unsafe experiencing aliveness in their body.",
+      "Energy has been suppressed rather than allowed to move freely.",
+      "Pleasure, creativity, and expression were absent or restricted and are now returning.",
+      "The speaker has reduced themselves to accommodate the comfort of others.",
+      "Fear has previously constrained the speaker's psychological or physiological expansion.",
+      "These states are now either changing or capable of changing through volitional affirmation.",
+      "The body is a site of valid experience that deserves acknowledgment and safety."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line follows a consistent grammatical structure ('I am...') and thematic direction — movement from suppression toward expansion, from self-reduction toward self-permission. The concepts are complementary and build progressively. No internal contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experienced suppression, self-reduction, or fear-based contraction prior to using the statement.",
+      "The affirmations are paired with embodied practice, therapy, or real behavioral change rather than used as a substitute for it.",
+      "The speaker has sufficient self-awareness to distinguish affirmation from denial of real ongoing problems.",
+      "The context is one where expanding expression and reducing self-suppression are appropriate and safe."
+    ],
+    "conditions_for_misleading": [
+      "If used as a bypass mechanism to avoid processing underlying trauma rather than engaging with it.",
+      "If the speaker is in a genuinely unsafe environment where self-expression carries real risk, making 'safety' claims factually false.",
+      "If repetition creates a false sense of resolution without corresponding internal or behavioral change.",
+      "If 'not reducing myself for others' is applied without discernment, justifying disregard for legitimate relational boundaries.",
+      "If the language of somatic expansion is adopted superficially from therapeutic contexts without the grounded meaning those contexts provide."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 531,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b8a4810042b6d13df3b82d227d5eb31e6d69b86d47cb7720dfb8f707e56d1d45",
+  "response_sha256": "107a887990f7d2751ec73c087d89b1c3c45818a30cd56ee6782c62d69278cf0a"
+}

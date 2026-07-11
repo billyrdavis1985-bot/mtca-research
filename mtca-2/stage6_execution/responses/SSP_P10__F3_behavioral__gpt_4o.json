@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:45:59.857166+00:00",
+  "wall_clock_seconds": 2.41,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to self-transformation and embracing change in identity and roles.\",\n  \"implicit_claims\": [\n    \"Identity can be consciously redefined.\",\n    \"Current roles or aspects of identity may be unnecessary or outdated.\",\n    \"Self-love is possible throughout personal transformation.\",\n    \"Future self can influence present actions and attitude.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a consistent message of personal transformation and acceptance of change. It flows logically from renouncing old roles to embracing the evolving self.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual values personal growth and believes in the possibility of identity transformation. Supportive environments or communities that encourage self-exploration and change would also enhance its usefulness.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if identity change is viewed as stressful or if the individual does not believe change is possible or necessary. It may also be misleading if external circumstances constrain personal development, making the commitment challenging to fulfill.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to self-transformation and embracing change in identity and roles.",
+    "implicit_claims": [
+      "Identity can be consciously redefined.",
+      "Current roles or aspects of identity may be unnecessary or outdated.",
+      "Self-love is possible throughout personal transformation.",
+      "Future self can influence present actions and attitude."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a consistent message of personal transformation and acceptance of change. It flows logically from renouncing old roles to embracing the evolving self.",
+    "conditions_for_usefulness": "The statement would be useful if the individual values personal growth and believes in the possibility of identity transformation. Supportive environments or communities that encourage self-exploration and change would also enhance its usefulness.",
+    "conditions_for_misleading": "The statement could be misleading if identity change is viewed as stressful or if the individual does not believe change is possible or necessary. It may also be misleading if external circumstances constrain personal development, making the commitment challenging to fulfill."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 226,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f78f5486fe7f9eeeaa5a58cabd3596bb53b318481c6b2820a218369b8089bf5c",
+  "response_sha256": "d6e10f21b9a77431612799433e6c36b7826dc62b65914b0e6812714df810c8a9"
+}

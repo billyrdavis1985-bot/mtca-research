@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P06__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:27:44.784779+00:00",
+  "wall_clock_seconds": 6.74,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a self-affirmation or declaration of personal boundaries, expressing a shift from external obligation to internal alignment, and asserting agency over one's environment for emotional regulation.\",\n  \"implicit_claims\": [\n    \"The speaker has the ability to choose their environments freely.\",\n    \"Environments can directly affect one's nervous system and emotional state.\",\n    \"There is a concept of 'frequency' that can match between a person and an environment.\",\n    \"The speaker previously acted out of obligation rather than alignment.\",\n    \"Peace and nervous system stabilization are desirable and achievable goals through spatial choices.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-directed affirmations. Each sentence builds on the previous one, moving from cause (choosing soothing spaces) to effect (rest, peace, alignment). The metaphor of 'frequency' is consistent with the overarching theme of energetic or emotional resonance.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine autonomy over their physical and social environments.\",\n    \"The speaker's nervous system is sensitive to environmental cues (e.g., noise, lighting, social dynamics).\",\n    \"The statement is used as a personal mantra or boundary-setting tool, not as a factual claim about universal truths.\",\n    \"The speaker is in a context where reducing obligation is feasible and safe.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is interpreted as a universal prescription that everyone can or should prioritize personal frequency over social responsibilities.\",\n    \"If it implies that all discomfort in environments is due to a mismatch of frequency, ignoring systemic constraints (e.g., poverty, illness, caregiving duties).\",\n    \"If it fosters avoidance of necessary but uncomfortable situations (e.g., medical appointments, difficult conversations).\",\n    \"If it is used to justify social withdrawal or elitism (e.g., only certain 'high-frequency' spaces are valid).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-affirmation or declaration of personal boundaries, expressing a shift from external obligation to internal alignment, and asserting agency over one's environment for emotional regulation.",
+    "implicit_claims": [
+      "The speaker has the ability to choose their environments freely.",
+      "Environments can directly affect one's nervous system and emotional state.",
+      "There is a concept of 'frequency' that can match between a person and an environment.",
+      "The speaker previously acted out of obligation rather than alignment.",
+      "Peace and nervous system stabilization are desirable and achievable goals through spatial choices."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-directed affirmations. Each sentence builds on the previous one, moving from cause (choosing soothing spaces) to effect (rest, peace, alignment). The metaphor of 'frequency' is consistent with the overarching theme of energetic or emotional resonance.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine autonomy over their physical and social environments.",
+      "The speaker's nervous system is sensitive to environmental cues (e.g., noise, lighting, social dynamics).",
+      "The statement is used as a personal mantra or boundary-setting tool, not as a factual claim about universal truths.",
+      "The speaker is in a context where reducing obligation is feasible and safe."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is interpreted as a universal prescription that everyone can or should prioritize personal frequency over social responsibilities.",
+      "If it implies that all discomfort in environments is due to a mismatch of frequency, ignoring systemic constraints (e.g., poverty, illness, caregiving duties).",
+      "If it fosters avoidance of necessary but uncomfortable situations (e.g., medical appointments, difficult conversations).",
+      "If it is used to justify social withdrawal or elitism (e.g., only certain 'high-frequency' spaces are valid)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 405,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f6733dbfb2e31920c4caf35fae4c9703d59acb4afab362d006d5b1e062b4fc34",
+  "response_sha256": "f0b009dfdc9c6bfe6440edb7652b63840a49321bfbe8d9eb08ddbf975a6b9b4d"
+}

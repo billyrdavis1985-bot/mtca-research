@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:19:16.467324+00:00",
+  "wall_clock_seconds": 2.81,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a personal affirmation of commitment to certain communication standards and boundaries in interpersonal interactions.\",\n  \"implicit_claims\": [\n    \"The speaker values clarity in communication.\",\n    \"The speaker aims to express themselves fully and assertively, without diminishing their voice.\",\n    \"The speaker values individuality and personal boundaries while listening.\",\n    \"The speaker is committed to honesty and truth in interactions and will disengage if these are compromised.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it outlines a clear set of values and behavioral intentions related to communication, emphasizing assertiveness, personal boundaries, and truthfulness.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the speaker is in environments where communication clarity, assertiveness, and authenticity are necessary for effective interactions, or when the speaker feels that their current communication habits do not align with their values.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the speaker does not genuinely intend to uphold these commitments, or if the statement is made in an environment where the described communication style is neither appropriate nor respected. Additionally, if the speaker does not possess the skills required to implement these intentions, the statement may not reflect their usual behavior.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a personal affirmation of commitment to certain communication standards and boundaries in interpersonal interactions.",
+    "implicit_claims": [
+      "The speaker values clarity in communication.",
+      "The speaker aims to express themselves fully and assertively, without diminishing their voice.",
+      "The speaker values individuality and personal boundaries while listening.",
+      "The speaker is committed to honesty and truth in interactions and will disengage if these are compromised."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it outlines a clear set of values and behavioral intentions related to communication, emphasizing assertiveness, personal boundaries, and truthfulness.",
+    "conditions_for_usefulness": "This statement would be useful if the speaker is in environments where communication clarity, assertiveness, and authenticity are necessary for effective interactions, or when the speaker feels that their current communication habits do not align with their values.",
+    "conditions_for_misleading": "The statement could be misleading if the speaker does not genuinely intend to uphold these commitments, or if the statement is made in an environment where the described communication style is neither appropriate nor respected. Additionally, if the speaker does not possess the skills required to implement these intentions, the statement may not reflect their usual behavior."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 170,
+  "output_tokens": 263,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "492967103e7fdd7adae4e892c8a2dea73a6e43984198e87783a608db55fb107d",
+  "response_sha256": "a324fc962b99d52d1d71a659eb5a25649264ced09774d2356ca5cddbb82becdc"
+}

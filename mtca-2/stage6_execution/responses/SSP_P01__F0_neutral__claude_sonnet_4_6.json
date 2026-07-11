@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P01__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T19:56:09.292965+00:00",
+  "wall_clock_seconds": 13.79,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation or personal manifesto, performing psychological self-authorization. It declares intentions as present-tense facts to reinforce a desired self-concept, likely intended for internal rehearsal or public sharing as identity signaling.\",\n  \"implicit_claims\": [\n    \"Explanations for one's boundaries are optional or unnecessary\",\n    \"Guilt is an invalid or undesirable response to disengagement\",\n    \"Incoherence in a situation is a sufficient reason to disengage\",\n    \"A 'no' requires no justification to be legitimate\",\n    \"The speaker has the authority to unilaterally define what counts as an 'energetic boundary'\",\n    \"Moving away from people or situations is an act of self-honoring rather than avoidance\",\n    \"The feelings or needs of others are not relevant considerations in these decisions\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as a rhetorical unit. The four lines reinforce a single theme: unilateral disengagement without accountability. However, there is a tension between claiming to 'honor incoherence' while using the language of incoherence as a justification for action, which itself may lack coherence as a decision criterion.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a genuinely harmful or exploitative relationship where explanation enables further manipulation\",\n    \"The speaker has a history of over-explaining or seeking approval to the point of self-harm\",\n    \"The 'no' has already been communicated and is being repeatedly violated\",\n    \"The speaker is processing past decisions rather than using this as a pre-justification for future ones\",\n    \"There is an actual power imbalance that makes disengagement without explanation pragmatically necessary\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is using the language of 'boundaries' to avoid legitimate accountability or conflict resolution\",\n    \"The 'incoherence' being honored is actually the speaker's own discomfort with complexity or challenge\",\n    \"The statement is used to normalize ghosting or withdrawal in relationships where explanation is owed\",\n    \"It functions as self-flattery that reframes avoidance as virtue\",\n    \"It is adopted as a general philosophy rather than a context-specific tool, removing the speaker from normal social reciprocity\",\n    \"The guilt being rejected is a signal of genuine wrongdoing rather than an unhealthy pattern\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or personal manifesto, performing psychological self-authorization. It declares intentions as present-tense facts to reinforce a desired self-concept, likely intended for internal rehearsal or public sharing as identity signaling.",
+    "implicit_claims": [
+      "Explanations for one's boundaries are optional or unnecessary",
+      "Guilt is an invalid or undesirable response to disengagement",
+      "Incoherence in a situation is a sufficient reason to disengage",
+      "A 'no' requires no justification to be legitimate",
+      "The speaker has the authority to unilaterally define what counts as an 'energetic boundary'",
+      "Moving away from people or situations is an act of self-honoring rather than avoidance",
+      "The feelings or needs of others are not relevant considerations in these decisions"
+    ],
+    "coherence_assessment": "Internally consistent as a rhetorical unit. The four lines reinforce a single theme: unilateral disengagement without accountability. However, there is a tension between claiming to 'honor incoherence' while using the language of incoherence as a justification for action, which itself may lack coherence as a decision criterion.",
+    "conditions_for_usefulness": [
+      "The speaker is in a genuinely harmful or exploitative relationship where explanation enables further manipulation",
+      "The speaker has a history of over-explaining or seeking approval to the point of self-harm",
+      "The 'no' has already been communicated and is being repeatedly violated",
+      "The speaker is processing past decisions rather than using this as a pre-justification for future ones",
+      "There is an actual power imbalance that makes disengagement without explanation pragmatically necessary"
+    ],
+    "conditions_for_misleading": [
+      "The speaker is using the language of 'boundaries' to avoid legitimate accountability or conflict resolution",
+      "The 'incoherence' being honored is actually the speaker's own discomfort with complexity or challenge",
+      "The statement is used to normalize ghosting or withdrawal in relationships where explanation is owed",
+      "It functions as self-flattery that reframes avoidance as virtue",
+      "It is adopted as a general philosophy rather than a context-specific tool, removing the speaker from normal social reciprocity",
+      "The guilt being rejected is a signal of genuine wrongdoing rather than an unhealthy pattern"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 185,
+  "output_tokens": 576,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4691b9639e8a098f993e39c07df4306710c9368799b776e9f9b770820945ac38",
+  "response_sha256": "9e7c6cd0389453799ae0975a040a2e733b9242461cf628fa8d36163bd019c480"
+}

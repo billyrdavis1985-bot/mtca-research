@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:06:45.303930+00:00",
+  "wall_clock_seconds": 2.15,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing personal autonomy and inner confidence.\",\n  \"implicit_claims\": [\n    \"The speaker believes in self-reliance in thought and emotion.\",\n    \"The speaker values internal guidance over external validation.\",\n    \"Truth can be retained independently of others' opinions.\",\n    \"Internal clarity is a stable, quiet force for the speaker.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it consistently emphasizes themes of self-reliance, internal trust, and personal truth without needing external validation.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where individual autonomy, self-reflection, and authenticity are valued and encouraged.\",\n  \"conditions_for_misleading\": \"The statement could be misleading in contexts where collaborative decision-making, feedback, or consensus-building are important or when the internal compass is poorly informed by bias or misinformation.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing personal autonomy and inner confidence.",
+    "implicit_claims": [
+      "The speaker believes in self-reliance in thought and emotion.",
+      "The speaker values internal guidance over external validation.",
+      "Truth can be retained independently of others' opinions.",
+      "Internal clarity is a stable, quiet force for the speaker."
+    ],
+    "coherence_assessment": "The statement is coherent as it consistently emphasizes themes of self-reliance, internal trust, and personal truth without needing external validation.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where individual autonomy, self-reflection, and authenticity are valued and encouraged.",
+    "conditions_for_misleading": "The statement could be misleading in contexts where collaborative decision-making, feedback, or consensus-building are important or when the internal compass is poorly informed by bias or misinformation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4f6640c0d5461c80372ab57f0f69cec0e46f9a17e351fc879926ea64a56ce3a5",
+  "response_sha256": "244e6ece48bf0001173b6d3b8a0be954b374b84f55ae250da56e9bca51810005"
+}

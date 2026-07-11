@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:07:28.149483+00:00",
+  "wall_clock_seconds": 3.17,
+  "raw_response": "```json\n{\n    \"communicative_function\": \"The statement serves as a self-affirmation designed to foster autonomy, self-trust, and clarity in personal decision-making processes.\",\n    \"implicit_claims\": [\n        \"The speaker has the ability to independently think and feel, separate from external influences.\",\n        \"Trusting one's internal guidance is valuable and possible.\",\n        \"Agreement from others is not necessary for validating one's truth.\",\n        \"Clarity stems from an internal state rather than external validation.\"\n    ],\n    \"coherence_assessment\": \"The statement is internally coherent, as it consistently emphasizes self-reliance and internal clarity without dependence on external affirmation.\",\n    \"conditions_for_usefulness\": \"For this statement to be useful, the individual must have a baseline level of self-awareness and capacity for introspection. They should also be in a situation where internal guidance is effective and relevant. Additionally, they need to be in a stable mental state where affirmations can reinforce positive cognitive and emotional pathways.\",\n    \"conditions_for_misleading\": \"The statement may be misleading if the speaker is prone to self-delusion, unable to accurately assess their own feelings or thoughts, or is in a circumstance requiring external feedback for safety or ethical decision-making. It can also be problematic if the speaker's 'truth' dismisses factual realities or the perspectives and well-being of others.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-affirmation designed to foster autonomy, self-trust, and clarity in personal decision-making processes.",
+    "implicit_claims": [
+      "The speaker has the ability to independently think and feel, separate from external influences.",
+      "Trusting one's internal guidance is valuable and possible.",
+      "Agreement from others is not necessary for validating one's truth.",
+      "Clarity stems from an internal state rather than external validation."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it consistently emphasizes self-reliance and internal clarity without dependence on external affirmation.",
+    "conditions_for_usefulness": "For this statement to be useful, the individual must have a baseline level of self-awareness and capacity for introspection. They should also be in a situation where internal guidance is effective and relevant. Additionally, they need to be in a stable mental state where affirmations can reinforce positive cognitive and emotional pathways.",
+    "conditions_for_misleading": "The statement may be misleading if the speaker is prone to self-delusion, unable to accurately assess their own feelings or thoughts, or is in a circumstance requiring external feedback for safety or ethical decision-making. It can also be problematic if the speaker's 'truth' dismisses factual realities or the perspectives and well-being of others."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 279,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e5d06c4e73a45e185bc90c5b32d2ef8a9651ab3c819feef62d1135656493a3a",
+  "response_sha256": "5750e7d2e6ac9a57825b196bccbe4df9be9b919fb8a258e5dd9ebfed2687ac0a"
+}

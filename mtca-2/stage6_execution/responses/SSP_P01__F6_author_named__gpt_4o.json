@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P01__F6_author_named__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:00:13.160059+00:00",
+  "wall_clock_seconds": 2.97,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing personal boundaries and self-assertion.\",\n  \"implicit_claims\": [\n    \"Personal boundaries can be maintained without explanation.\",\n    \"Some situations or interactions may feel incoherent and are best avoided.\",\n    \"There is no need to feel guilty about setting personal boundaries or disengaging.\",\n    \"Saying 'no' is sufficient without further justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it follows a consistent theme of personal empowerment and boundary-setting.\",\n  \"conditions_for_usefulness\": [\n    \"The reader values or seeks guidance on establishing and maintaining personal boundaries.\",\n    \"The reader understands emotional and energetic self-care.\",\n    \"The reader is in situations where establishing boundaries is necessary and beneficial.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The reader is in a context where disengaging could lead to negative consequences without addressing underlying issues.\",\n    \"The reader has responsibilities that require engagement irrespective of personal boundaries.\",\n    \"The practice of boundary-setting is misunderstood as universally applicable or suitable in all contexts.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing personal boundaries and self-assertion.",
+    "implicit_claims": [
+      "Personal boundaries can be maintained without explanation.",
+      "Some situations or interactions may feel incoherent and are best avoided.",
+      "There is no need to feel guilty about setting personal boundaries or disengaging.",
+      "Saying 'no' is sufficient without further justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it follows a consistent theme of personal empowerment and boundary-setting.",
+    "conditions_for_usefulness": [
+      "The reader values or seeks guidance on establishing and maintaining personal boundaries.",
+      "The reader understands emotional and energetic self-care.",
+      "The reader is in situations where establishing boundaries is necessary and beneficial."
+    ],
+    "conditions_for_misleading": [
+      "The reader is in a context where disengaging could lead to negative consequences without addressing underlying issues.",
+      "The reader has responsibilities that require engagement irrespective of personal boundaries.",
+      "The practice of boundary-setting is misunderstood as universally applicable or suitable in all contexts."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 232,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "b80d1932fa836d73d89f904c6f93b471a39212d58c03a5623bd5be5dec24799e"
+}

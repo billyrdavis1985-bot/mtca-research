@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P09__F6_author_named__grok_4",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:43:11.075055+00:00",
+  "wall_clock_seconds": 4.58,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation asserting a shift from survival-oriented to vitality-oriented identity and decision-making\",\n  \"implicit_claims\": [\n    \"the speaker has previously operated primarily in coping/survival mode\",\n    \"thriving, expansion, and vitality are accessible through intentional alignment and choice rather than external conditions\",\n    \"current choices can be reliably distinguished as nourishing versus depleting\",\n    \"vitality can be normalized as a default state through repetition of this stance\"\n  ],\n  \"coherence_assessment\": \"internally consistent; each line reinforces a binary preference for growth-oriented states over maintenance/survival states without internal contradiction\",\n  \"conditions_for_usefulness\": \"the user possesses sufficient agency and resources to enact nourishing choices, the affirmations are used as one component within a broader evidence-based therapeutic or self-regulation practice, and the user can tolerate the emotional gap between stated ideals and current reality\",\n  \"conditions_for_misleading\": \"the statements are presented as sufficient to override structural, medical, or trauma-related barriers without additional intervention, or are used to deny the legitimacy of ongoing coping needs\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation asserting a shift from survival-oriented to vitality-oriented identity and decision-making",
+    "implicit_claims": [
+      "the speaker has previously operated primarily in coping/survival mode",
+      "thriving, expansion, and vitality are accessible through intentional alignment and choice rather than external conditions",
+      "current choices can be reliably distinguished as nourishing versus depleting",
+      "vitality can be normalized as a default state through repetition of this stance"
+    ],
+    "coherence_assessment": "internally consistent; each line reinforces a binary preference for growth-oriented states over maintenance/survival states without internal contradiction",
+    "conditions_for_usefulness": "the user possesses sufficient agency and resources to enact nourishing choices, the affirmations are used as one component within a broader evidence-based therapeutic or self-regulation practice, and the user can tolerate the emotional gap between stated ideals and current reality",
+    "conditions_for_misleading": "the statements are presented as sufficient to override structural, medical, or trauma-related barriers without additional intervention, or are used to deny the legitimacy of ongoing coping needs"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 360,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "382c73ea002ed7a00e8483705f452518a74e6717c7fcad7ca3402e30b173d052",
+  "response_sha256": "4e5ec802d4149c8e8f0185512db61f1ba44bcd00831d087c24db19dea49af56c"
+}

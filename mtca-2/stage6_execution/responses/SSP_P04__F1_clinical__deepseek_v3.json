@@ -1,0 +1,47 @@
+{
+  "call_id": "SSP_P04__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:12:53.065312+00:00",
+  "wall_clock_seconds": 6.31,
+  "raw_response": "{\n  \"communicative_function\": \"This statement functions as a self-directed affirmation and commitment to prioritize self-connection and internal awareness over external approval or automatic relational responses, especially during emotionally charged moments.\",\n  \"implicit_claims\": [\n    \"Self-connection is possible and can be consciously maintained.\",\n    \"Breath awareness is an accessible tool for grounding in difficult moments.\",\n    \"One can identify the impulse to abandon oneself to please others.\",\n    \"Pausing is a viable choice before acting on that impulse.\",\n    \"Prioritizing self-connection is a healthy and sustainable relational strategy.\",\n    \"The speaker has a pattern of leaving themselves to please others.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line logically builds on the previous one: establishing self-connection, using breath as an anchor, recognizing a relational pattern, and affirming a new priority. The progression from present-tense action to overarching commitment is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual experiences relational anxiety or codependent tendencies (e.g., automatic people-pleasing).\",\n    \"The individual has basic mindfulness skills (e.g., ability to focus on breath).\",\n    \"The individual is in a safe enough environment to practice pausing without immediate harm.\",\n    \"The individual is motivated to change habitual relational patterns.\",\n    \"The statement is used as a repeated self-reminder, not a one-off declaration.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual has no reliable capacity for self-connection (e.g., severe dissociation or trauma history that makes self-connection feel unsafe or unavailable).\",\n    \"Breath awareness triggers panic or re-traumatization (e.g., in certain trauma responses).\",\n    \"The statement is interpreted as permission to avoid all relational compromise, leading to neglect of legitimate relational responsibilities.\",\n    \"The individual uses the statement as a rigid rule, ignoring context (e.g., emergency situations where immediate action, not pausing, is required).\",\n    \"The statement is applied without addressing underlying systemic or relational power imbalances that make 'self first' unsustainable or dangerous in specific relationships.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement functions as a self-directed affirmation and commitment to prioritize self-connection and internal awareness over external approval or automatic relational responses, especially during emotionally charged moments.",
+    "implicit_claims": [
+      "Self-connection is possible and can be consciously maintained.",
+      "Breath awareness is an accessible tool for grounding in difficult moments.",
+      "One can identify the impulse to abandon oneself to please others.",
+      "Pausing is a viable choice before acting on that impulse.",
+      "Prioritizing self-connection is a healthy and sustainable relational strategy.",
+      "The speaker has a pattern of leaving themselves to please others."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line logically builds on the previous one: establishing self-connection, using breath as an anchor, recognizing a relational pattern, and affirming a new priority. The progression from present-tense action to overarching commitment is consistent.",
+    "conditions_for_usefulness": [
+      "The individual experiences relational anxiety or codependent tendencies (e.g., automatic people-pleasing).",
+      "The individual has basic mindfulness skills (e.g., ability to focus on breath).",
+      "The individual is in a safe enough environment to practice pausing without immediate harm.",
+      "The individual is motivated to change habitual relational patterns.",
+      "The statement is used as a repeated self-reminder, not a one-off declaration."
+    ],
+    "conditions_for_misleading": [
+      "The individual has no reliable capacity for self-connection (e.g., severe dissociation or trauma history that makes self-connection feel unsafe or unavailable).",
+      "Breath awareness triggers panic or re-traumatization (e.g., in certain trauma responses).",
+      "The statement is interpreted as permission to avoid all relational compromise, leading to neglect of legitimate relational responsibilities.",
+      "The individual uses the statement as a rigid rule, ignoring context (e.g., emergency situations where immediate action, not pausing, is required).",
+      "The statement is applied without addressing underlying systemic or relational power imbalances that make 'self first' unsustainable or dangerous in specific relationships."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 442,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9d7d91991be7a48c58169028aae63406ed0d59f0ca7d9fcf5f1b6f66fe453828",
+  "response_sha256": "b88d8cce17aac4d0c22a75db5b9ba4610b7a6c24469aa1103f20643c37ff07cf"
+}

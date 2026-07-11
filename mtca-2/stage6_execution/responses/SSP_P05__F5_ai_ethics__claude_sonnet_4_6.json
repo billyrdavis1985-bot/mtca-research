@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P05__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:20:38.302487+00:00",
+  "wall_clock_seconds": 15.33,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a personal ethical manifesto or affirmation, articulating idealized communicative virtues through parallel declarative assertions. It performs commitment and identity-construction simultaneously, framing communication norms as first-person vows rather than prescriptive rules.\",\n  \"implicit_claims\": [\n    \"Clarity and coherence are achievable and desirable communicative goals\",\n    \"There exists a meaningful distinction between 'shrinking' (self-suppression) and appropriate restraint\",\n    \"Listening can be done without losing one's own perspective ('merging'), and this is preferable\",\n    \"Some spaces or relationships fail to 'honor truth', and departure is a valid ethical response to this\",\n    \"The speaker has reliable access to their own communicative states and motivations\",\n    \"Truth is sufficiently identifiable that one can detect when it is not being honored\",\n    \"These four practices form a coherent and sufficient framework for ethical communication\",\n    \"Individual agency is the primary lever for ethical communication outcomes\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a stylistic unit — the four lines share grammatical parallelism and a common theme of bounded selfhood in communication. However, there is mild tension between 'speaking without shrinking' (assertiveness) and 'listening without merging' (receptiveness), which are not explicitly reconciled. The principle of 'leaving when truth is not honored' presupposes a stable, individually-held notion of truth that may conflict with the collaborative construction of meaning implied elsewhere.\",\n  \"conditions_for_usefulness\": [\n    \"The audience is operating in contexts where self-suppression or enmeshment are genuine risks\",\n    \"'Truth' is operationalized clearly enough to make 'honoring truth' a meaningful evaluative criterion\",\n    \"The statement is used as reflective prompt rather than rigid rule\",\n    \"Users recognize that 'leaving' carries relational and contextual costs that require judgment\",\n    \"The framework is supplemented by norms around accountability, repair, and collective sense-making\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is treated as a complete ethical framework for communication rather than a partial heuristic\",\n    \"Users interpret 'leaving when truth is not honored' as license to exit any uncomfortable or challenging dialogue\",\n    \"'Not merging' is conflated with refusing to update one's views, inhibiting genuine epistemic exchange\",\n    \"The individualistic framing obscures structural or power-based barriers to honest communication\",\n    \"AI systems trained on this principle treat it as a universal value when it reflects a specific cultural orientation toward individualism and assertiveness\",\n    \"'Speaking without shrinking' is interpreted as valorizing bluntness over care, causing harm in asymmetric power relationships\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal ethical manifesto or affirmation, articulating idealized communicative virtues through parallel declarative assertions. It performs commitment and identity-construction simultaneously, framing communication norms as first-person vows rather than prescriptive rules.",
+    "implicit_claims": [
+      "Clarity and coherence are achievable and desirable communicative goals",
+      "There exists a meaningful distinction between 'shrinking' (self-suppression) and appropriate restraint",
+      "Listening can be done without losing one's own perspective ('merging'), and this is preferable",
+      "Some spaces or relationships fail to 'honor truth', and departure is a valid ethical response to this",
+      "The speaker has reliable access to their own communicative states and motivations",
+      "Truth is sufficiently identifiable that one can detect when it is not being honored",
+      "These four practices form a coherent and sufficient framework for ethical communication",
+      "Individual agency is the primary lever for ethical communication outcomes"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a stylistic unit — the four lines share grammatical parallelism and a common theme of bounded selfhood in communication. However, there is mild tension between 'speaking without shrinking' (assertiveness) and 'listening without merging' (receptiveness), which are not explicitly reconciled. The principle of 'leaving when truth is not honored' presupposes a stable, individually-held notion of truth that may conflict with the collaborative construction of meaning implied elsewhere.",
+    "conditions_for_usefulness": [
+      "The audience is operating in contexts where self-suppression or enmeshment are genuine risks",
+      "'Truth' is operationalized clearly enough to make 'honoring truth' a meaningful evaluative criterion",
+      "The statement is used as reflective prompt rather than rigid rule",
+      "Users recognize that 'leaving' carries relational and contextual costs that require judgment",
+      "The framework is supplemented by norms around accountability, repair, and collective sense-making"
+    ],
+    "conditions_for_misleading": [
+      "The statement is treated as a complete ethical framework for communication rather than a partial heuristic",
+      "Users interpret 'leaving when truth is not honored' as license to exit any uncomfortable or challenging dialogue",
+      "'Not merging' is conflated with refusing to update one's views, inhibiting genuine epistemic exchange",
+      "The individualistic framing obscures structural or power-based barriers to honest communication",
+      "AI systems trained on this principle treat it as a universal value when it reflects a specific cultural orientation toward individualism and assertiveness",
+      "'Speaking without shrinking' is interpreted as valorizing bluntness over care, causing harm in asymmetric power relationships"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 643,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b73d492bb9651e1297add4c4efcccb965d09972b36c8c04ea01d620ab8fc8325",
+  "response_sha256": "8eb39c11942a5ca7b4a4d7bb28684fa1cce1f7aa225ce08d55474760e87ada7e"
+}

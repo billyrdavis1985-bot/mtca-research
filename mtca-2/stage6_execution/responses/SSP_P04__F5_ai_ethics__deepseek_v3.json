@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P04__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:15:32.956803+00:00",
+  "wall_clock_seconds": 4.86,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a personal affirmation or ethical self-reminder, emphasizing self-awareness and inner grounding as a priority before social accommodation.\",\n  \"implicit_claims\": [\n    \"Self-connection is a fundamental value that should not be sacrificed for pleasing others.\",\n    \"There is a risk of abandoning oneself in moments of social pressure or emotional difficulty.\",\n    \"Breath awareness is a reliable anchor for maintaining self-connection during hardship.\",\n    \"The speaker (or user) has agency to pause and choose self-connection over external validation.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each line builds on the same premise of prioritizing self-connection, with consistent use of first-person present tense and parallel structure.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is prone to people-pleasing or neglecting their own needs under social pressure.\",\n    \"The user has basic mindfulness or self-awareness skills (e.g., ability to notice breath).\",\n    \"The context involves interpersonal situations where self-sacrifice is a recurring risk.\",\n    \"The AI system can support this value without overriding other important ethical considerations (e.g., harm to others).\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is interpreted as advocating selfishness or disregard for others' legitimate needs.\",\n    \"If it is used to justify avoidance of necessary social responsibilities or interpersonal accountability.\",\n    \"If the user lacks the capacity to distinguish between healthy self-connection and pathological withdrawal.\",\n    \"If the AI applies this principle universally without considering cultural or contextual variations in the value of self-sacrifice.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal affirmation or ethical self-reminder, emphasizing self-awareness and inner grounding as a priority before social accommodation.",
+    "implicit_claims": [
+      "Self-connection is a fundamental value that should not be sacrificed for pleasing others.",
+      "There is a risk of abandoning oneself in moments of social pressure or emotional difficulty.",
+      "Breath awareness is a reliable anchor for maintaining self-connection during hardship.",
+      "The speaker (or user) has agency to pause and choose self-connection over external validation."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each line builds on the same premise of prioritizing self-connection, with consistent use of first-person present tense and parallel structure.",
+    "conditions_for_usefulness": [
+      "The individual is prone to people-pleasing or neglecting their own needs under social pressure.",
+      "The user has basic mindfulness or self-awareness skills (e.g., ability to notice breath).",
+      "The context involves interpersonal situations where self-sacrifice is a recurring risk.",
+      "The AI system can support this value without overriding other important ethical considerations (e.g., harm to others)."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is interpreted as advocating selfishness or disregard for others' legitimate needs.",
+      "If it is used to justify avoidance of necessary social responsibilities or interpersonal accountability.",
+      "If the user lacks the capacity to distinguish between healthy self-connection and pathological withdrawal.",
+      "If the AI applies this principle universally without considering cultural or contextual variations in the value of self-sacrifice."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 177,
+  "output_tokens": 342,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f0ff5b0ae6bc4e38b5659591e78ce0ea81becda744623e3288c393cecb96331a",
+  "response_sha256": "7889c51bb840d8493060dcbd479e9eb54c7ec19d0c9c485c7d3c82f8dfae0363"
+}

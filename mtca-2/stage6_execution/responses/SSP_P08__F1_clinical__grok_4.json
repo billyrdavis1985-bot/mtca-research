@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P08__F1_clinical__grok_4",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:34:27.053504+00:00",
+  "wall_clock_seconds": 5.42,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation and intention-setting that enacts a shift toward relational boundaries and mutuality\",\n  \"implicit_claims\": [\n    \"mutuality is attainable and desirable across all relational contexts\",\n    \"the speaker previously used overgiving as a safety strategy\",\n    \"collapse and overgiving are controllable choices rather than automatic patterns\",\n    \"co-regulation in truth is a stable, preferable alternative to overgiving\",\n    \"others are capable of and willing to meet the speaker as they are\"\n  ],\n  \"coherence_assessment\": \"internally consistent; each clause reinforces the others around the theme of non-collapsing presence and reciprocal relating, with no direct contradictions\",\n  \"conditions_for_usefulness\": \"the speaker possesses sufficient self-regulation capacity, the statement accurately maps their developmental edge, and repetition supports measurable behavioral change without bypassing real relational asymmetries\",\n  \"conditions_for_misleading\": \"the statement functions as a defensive idealization that masks ongoing collapse, overgiving, or inability to tolerate others' failure to meet them, or when applied rigidly to unsafe or exploitative relationships\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation and intention-setting that enacts a shift toward relational boundaries and mutuality",
+    "implicit_claims": [
+      "mutuality is attainable and desirable across all relational contexts",
+      "the speaker previously used overgiving as a safety strategy",
+      "collapse and overgiving are controllable choices rather than automatic patterns",
+      "co-regulation in truth is a stable, preferable alternative to overgiving",
+      "others are capable of and willing to meet the speaker as they are"
+    ],
+    "coherence_assessment": "internally consistent; each clause reinforces the others around the theme of non-collapsing presence and reciprocal relating, with no direct contradictions",
+    "conditions_for_usefulness": "the speaker possesses sufficient self-regulation capacity, the statement accurately maps their developmental edge, and repetition supports measurable behavioral change without bypassing real relational asymmetries",
+    "conditions_for_misleading": "the statement functions as a defensive idealization that masks ongoing collapse, overgiving, or inability to tolerate others' failure to meet them, or when applied rigidly to unsafe or exploitative relationships"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 364,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf77fd14fea659e90a00d2cd9ad25ae8715edd80ea9bdde3e6e7a5e5b15f9341",
+  "response_sha256": "8ccf2d710047db3e855135df4d7540988db267b6ddf2b9438ca6a5ce0685c5c6"
+}

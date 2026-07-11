@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:27:37.542723+00:00",
+  "wall_clock_seconds": 4.05,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of personal intent, framing choices as empowered alignment with well-being\",\n  \"implicit_claims\": [\n    \"environments can directly soothe or destabilize the nervous system\",\n    \"a personal 'frequency' exists that can match external environments\",\n    \"obligation and alignment are distinct and mutually exclusive states one can choose between\",\n    \"peace is accessible via deliberate environmental and attitudinal choices\",\n    \"the speaker possesses full agency to enact these shifts\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a consistent set of first-person affirmations; no logical contradictions, though relies on vague metaphorical language\",\n  \"conditions_for_usefulness\": \"the speaker experiences these statements as psychologically supportive; the practices described produce measurable improvements in well-being; language resonates with the individual's belief system\",\n  \"conditions_for_misleading\": \"presented as objective truth or scientific fact rather than subjective intention; 'frequency' or 'alignment' invoked to imply pseudoscientific mechanisms; used to dismiss legitimate obligations or external realities\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of personal intent, framing choices as empowered alignment with well-being",
+    "implicit_claims": [
+      "environments can directly soothe or destabilize the nervous system",
+      "a personal 'frequency' exists that can match external environments",
+      "obligation and alignment are distinct and mutually exclusive states one can choose between",
+      "peace is accessible via deliberate environmental and attitudinal choices",
+      "the speaker possesses full agency to enact these shifts"
+    ],
+    "coherence_assessment": "internally coherent as a consistent set of first-person affirmations; no logical contradictions, though relies on vague metaphorical language",
+    "conditions_for_usefulness": "the speaker experiences these statements as psychologically supportive; the practices described produce measurable improvements in well-being; language resonates with the individual's belief system",
+    "conditions_for_misleading": "presented as objective truth or scientific fact rather than subjective intention; 'frequency' or 'alignment' invoked to imply pseudoscientific mechanisms; used to dismiss legitimate obligations or external realities"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 217,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f6733dbfb2e31920c4caf35fae4c9703d59acb4afab362d006d5b1e062b4fc34",
+  "response_sha256": "48a0e9284d2010608c36fa1827f0b318d8951efffefaee60136c11a6306a53da"
+}

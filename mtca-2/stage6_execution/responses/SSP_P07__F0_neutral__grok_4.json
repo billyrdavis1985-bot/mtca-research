@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P07__F0_neutral__grok_4",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:28:13.924652+00:00",
+  "wall_clock_seconds": 4.61,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation declaring a value system and identity choice\",\n  \"implicit_claims\": [\n    \"an 'inner Function' exists and can be reliably accessed as a guide\",\n    \"outer performance is separable from and inferior to inner Function\",\n    \"rhythm and rule are mutually exclusive alternatives\",\n    \"being different/slower/deeper requires deliberate permission to self\",\n    \"existence without proving is both possible and preferable\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of binary preferences; relies on undefined terms ('inner Function', 'rhythm') but maintains logical contrast throughout\",\n  \"conditions_for_usefulness\": \"speaker's actions align with stated values over time; terms like 'inner Function' carry shared or personally operational meaning; environment permits slower pace without severe penalty\",\n  \"conditions_for_misleading\": \"statement functions as self-deception to avoid accountability; 'inner Function' remains vague enough to rationalize any behavior; used to dismiss external feedback or measurable outcomes\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation declaring a value system and identity choice",
+    "implicit_claims": [
+      "an 'inner Function' exists and can be reliably accessed as a guide",
+      "outer performance is separable from and inferior to inner Function",
+      "rhythm and rule are mutually exclusive alternatives",
+      "being different/slower/deeper requires deliberate permission to self",
+      "existence without proving is both possible and preferable"
+    ],
+    "coherence_assessment": "internally consistent as a set of binary preferences; relies on undefined terms ('inner Function', 'rhythm') but maintains logical contrast throughout",
+    "conditions_for_usefulness": "speaker's actions align with stated values over time; terms like 'inner Function' carry shared or personally operational meaning; environment permits slower pace without severe penalty",
+    "conditions_for_misleading": "statement functions as self-deception to avoid accountability; 'inner Function' remains vague enough to rationalize any behavior; used to dismiss external feedback or measurable outcomes"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 339,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "833e121088b388c110faf48983b46ed17fb6555d3ef1070441e8dc9763accf23",
+  "response_sha256": "86bbb91921af4e663f73039c0583f2c93a184ff9ffed58069b43f3af63502732"
+}

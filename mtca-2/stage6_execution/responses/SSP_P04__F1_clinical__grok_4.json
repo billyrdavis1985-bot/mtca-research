@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F1_clinical__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:12:46.258658+00:00",
+  "wall_clock_seconds": 8.03,
+  "raw_response": "{\n  \"communicative_function\": \"Self-directed commitment and affirmation of mindfulness-based boundary practices\",\n  \"implicit_claims\": [\n    \"A distinct 'self' exists that can be connected to or left\",\n    \"Breath awareness is an effective regulator in difficult moments\",\n    \"People-pleasing typically involves self-disconnection\",\n    \"Self-connection can and should be deliberately prioritized over pleasing others\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; all clauses converge on the single theme of privileging internal awareness and pausing before external accommodation, with no contradictions\",\n  \"conditions_for_usefulness\": \"The speaker experiences clinically relevant distress from automatic people-pleasing or dissociation, possesses sufficient affect-regulation capacity to implement the pauses, and the practices are embedded in a broader therapeutic context that also values appropriate relational engagement\",\n  \"conditions_for_misleading\": \"The statements are used to justify chronic emotional withdrawal, to avoid necessary conflict or intimacy, or to mask underlying attachment or personality pathology that requires relational rather than purely self-focused intervention\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-directed commitment and affirmation of mindfulness-based boundary practices",
+    "implicit_claims": [
+      "A distinct 'self' exists that can be connected to or left",
+      "Breath awareness is an effective regulator in difficult moments",
+      "People-pleasing typically involves self-disconnection",
+      "Self-connection can and should be deliberately prioritized over pleasing others"
+    ],
+    "coherence_assessment": "Internally coherent; all clauses converge on the single theme of privileging internal awareness and pausing before external accommodation, with no contradictions",
+    "conditions_for_usefulness": "The speaker experiences clinically relevant distress from automatic people-pleasing or dissociation, possesses sufficient affect-regulation capacity to implement the pauses, and the practices are embedded in a broader therapeutic context that also values appropriate relational engagement",
+    "conditions_for_misleading": "The statements are used to justify chronic emotional withdrawal, to avoid necessary conflict or intimacy, or to mask underlying attachment or personality pathology that requires relational rather than purely self-focused intervention"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 358,
+  "output_tokens": 211,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9d7d91991be7a48c58169028aae63406ed0d59f0ca7d9fcf5f1b6f66fe453828",
+  "response_sha256": "5d43a187712255e1cc2ea6af71e7dcff41ce75b200869fbbb2d5698434c06793"
+}

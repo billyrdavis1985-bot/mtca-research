@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P04__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:14:04.847729+00:00",
+  "wall_clock_seconds": 5.56,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming and publicly declaring a set of self-directed behavioral intentions\",\n  \"implicit_claims\": [\n    \"The speaker has previously tended to abandon self-connection in order to please others\",\n    \"Breath awareness is a reliable method for remaining present during difficult moments\",\n    \"Self-connection is both attainable and preferable to interpersonal accommodation as a default priority\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; each clause reinforces the central value of prioritizing self-connection without internal contradiction\",\n  \"conditions_for_usefulness\": \"The speaker treats the statements as actionable reminders that are revisited and enacted in real time rather than as static declarations\",\n  \"conditions_for_misleading\": \"The statements are used to justify emotional withdrawal, relational avoidance, or the neglect of legitimate responsibilities while claiming moral or psychological superiority\"\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming and publicly declaring a set of self-directed behavioral intentions",
+    "implicit_claims": [
+      "The speaker has previously tended to abandon self-connection in order to please others",
+      "Breath awareness is a reliable method for remaining present during difficult moments",
+      "Self-connection is both attainable and preferable to interpersonal accommodation as a default priority"
+    ],
+    "coherence_assessment": "Internally consistent; each clause reinforces the central value of prioritizing self-connection without internal contradiction",
+    "conditions_for_usefulness": "The speaker treats the statements as actionable reminders that are revisited and enacted in real time rather than as static declarations",
+    "conditions_for_misleading": "The statements are used to justify emotional withdrawal, relational avoidance, or the neglect of legitimate responsibilities while claiming moral or psychological superiority"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 356,
+  "output_tokens": 172,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f7da0832bc6f6b4d103e4beeab9d9914c6b7da23a6860687ce41ee34c5f58695",
+  "response_sha256": "3456db41c77217a46a3eec69bf7ca6674b04e81710d1c58186868bd8522f2d85"
+}

@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P02__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:03:28.428516+00:00",
+  "wall_clock_seconds": 2.5,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement asserts a personal decision to cease acting as an emotional surrogate and commits to maintaining personal emotional boundaries.\",\n  \"implicit_claims\": [\n    \"The speaker has been playing the role of emotional surrogate.\",\n    \"Absorbing or stabilizing others' chaos has been a frequent occurrence.\",\n    \"This role or behavior has been detrimental or undesirable for the speaker.\",\n    \"The speaker aims to cultivate emotional autonomy and personal well-being.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, expressing a clear and unified intention to disengage from a role or pattern of behavior, supported by the speaker's observations and commitments.\",\n  \"conditions_for_usefulness\": \"The statement will be useful if the speaker is experiencing stress or issues due to assuming others' emotional burdens, and if they value personal emotional boundaries and well-being.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if the speaker's behavior does not actually align with their stated commitment, or if they misinterpret their participation in others' emotional experiences.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal decision to cease acting as an emotional surrogate and commits to maintaining personal emotional boundaries.",
+    "implicit_claims": [
+      "The speaker has been playing the role of emotional surrogate.",
+      "Absorbing or stabilizing others' chaos has been a frequent occurrence.",
+      "This role or behavior has been detrimental or undesirable for the speaker.",
+      "The speaker aims to cultivate emotional autonomy and personal well-being."
+    ],
+    "coherence_assessment": "The statement is internally coherent, expressing a clear and unified intention to disengage from a role or pattern of behavior, supported by the speaker's observations and commitments.",
+    "conditions_for_usefulness": "The statement will be useful if the speaker is experiencing stress or issues due to assuming others' emotional burdens, and if they value personal emotional boundaries and well-being.",
+    "conditions_for_misleading": "The statement may be misleading if the speaker's behavior does not actually align with their stated commitment, or if they misinterpret their participation in others' emotional experiences."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 177,
+  "output_tokens": 224,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7b1281e7d429e29aadf624952732fa4e28acdc9a6453eecd84e568c76d305a85",
+  "response_sha256": "b8b0dc258c77870eaefb5f22295cc36edc695ca91e70ad9ad3a68f54885f1bcc"
+}

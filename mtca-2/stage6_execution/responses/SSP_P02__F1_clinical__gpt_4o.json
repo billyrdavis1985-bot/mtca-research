@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P02__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:02:12.398578+00:00",
+  "wall_clock_seconds": 2.78,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to help the speaker set personal boundaries, increase self-awareness, and promote emotional regulation.\",\n  \"implicit_claims\": [\n    \"The speaker has been taking on the emotional burdens of others.\",\n    \"It is possible to identify when one starts to absorb others' emotional chaos.\",\n    \"Returning this 'frequency' is a conscious choice that can be made.\",\n    \"Maintaining one's emotional 'field' is important for psychological well-being.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it follows a logical sequence of releasing a role, becoming aware of behavior, choosing a different action, and achieving a desired state.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the speaker is indeed taking on others' emotional burdens, has the ability to recognize these moments, and values maintaining personal emotional boundaries.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the concept of 'frequency' or 'emotional surrogate' is misunderstood, if the speaker lacks the ability or context to actually perform these actions, or if it suggests an over-simplified solution to complex interpersonal dynamics.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to help the speaker set personal boundaries, increase self-awareness, and promote emotional regulation.",
+    "implicit_claims": [
+      "The speaker has been taking on the emotional burdens of others.",
+      "It is possible to identify when one starts to absorb others' emotional chaos.",
+      "Returning this 'frequency' is a conscious choice that can be made.",
+      "Maintaining one's emotional 'field' is important for psychological well-being."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it follows a logical sequence of releasing a role, becoming aware of behavior, choosing a different action, and achieving a desired state.",
+    "conditions_for_usefulness": "The statement would be useful if the speaker is indeed taking on others' emotional burdens, has the ability to recognize these moments, and values maintaining personal emotional boundaries.",
+    "conditions_for_misleading": "The statement could be misleading if the concept of 'frequency' or 'emotional surrogate' is misunderstood, if the speaker lacks the ability or context to actually perform these actions, or if it suggests an over-simplified solution to complex interpersonal dynamics."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 245,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3ccf3d2dc5b56060353133ec48f13f4be339b8da2731101cd2146ebc1e6b3ffe",
+  "response_sha256": "9c70b03f358070fe3f383907df5564002b5a23e1838daa17376e747f696987c2"
+}

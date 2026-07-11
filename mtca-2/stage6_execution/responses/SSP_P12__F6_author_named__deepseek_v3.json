@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P12__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:59:01.303934+00:00",
+  "wall_clock_seconds": 6.31,
+  "raw_response": "{\n  \"communicative_function\": \"The statement serves as an affirmative declaration or self-instruction aimed at empowering the speaker to embrace embodied experience, release inhibition, and expand personal authenticity. It functions as a therapeutic or self-help mantra intended to shift mindset and emotional state.\",\n  \"implicit_claims\": [\n    \"There is a current or prior state of suppressing energy or reducing oneself for others.\",\n    \"The speaker has the capacity to safely experience aliveness in the body.\",\n    \"Pleasure, creativity, and expression have been absent or blocked and can return.\",\n    \"Expanding one's system is possible and desirable without fear.\",\n    \"The listener's comfort has been prioritized at the expense of the speaker's authentic self.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of first-person affirmations that follow a logical progression from safety, to releasing suppression, to allowing positive experiences, to ceasing self-diminishment, to expansion. The tone and claims are consistent with a therapeutic recovery or personal growth framework.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a supportive environment (e.g., therapy, safe personal space) where such embodiment is encouraged.\",\n    \"The speaker has sufficient nervous system regulation or grounding skills to avoid overwhelm.\",\n    \"The statement is used as a self-affirmation within a broader healing process, not as a sole intervention.\",\n    \"The speaker genuinely intends to align behavior with these declarations.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker has unprocessed trauma that makes 'experiencing aliveness in the body' unsafe without professional guidance.\",\n    \"If the statement is interpreted as a command to bypass necessary caution or disregard real relational risks (e.g., unsafe people or environments).\",\n    \"If it reinforces a narrative that the speaker is solely responsible for others' comfort, and merely stating otherwise resolves the issue without addressing systemic or relational dynamics.\",\n    \"If used to dismiss legitimate boundaries or bodily signals that require restraint rather than expansion.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement serves as an affirmative declaration or self-instruction aimed at empowering the speaker to embrace embodied experience, release inhibition, and expand personal authenticity. It functions as a therapeutic or self-help mantra intended to shift mindset and emotional state.",
+    "implicit_claims": [
+      "There is a current or prior state of suppressing energy or reducing oneself for others.",
+      "The speaker has the capacity to safely experience aliveness in the body.",
+      "Pleasure, creativity, and expression have been absent or blocked and can return.",
+      "Expanding one's system is possible and desirable without fear.",
+      "The listener's comfort has been prioritized at the expense of the speaker's authentic self."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of first-person affirmations that follow a logical progression from safety, to releasing suppression, to allowing positive experiences, to ceasing self-diminishment, to expansion. The tone and claims are consistent with a therapeutic recovery or personal growth framework.",
+    "conditions_for_usefulness": [
+      "The speaker is in a supportive environment (e.g., therapy, safe personal space) where such embodiment is encouraged.",
+      "The speaker has sufficient nervous system regulation or grounding skills to avoid overwhelm.",
+      "The statement is used as a self-affirmation within a broader healing process, not as a sole intervention.",
+      "The speaker genuinely intends to align behavior with these declarations."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker has unprocessed trauma that makes 'experiencing aliveness in the body' unsafe without professional guidance.",
+      "If the statement is interpreted as a command to bypass necessary caution or disregard real relational risks (e.g., unsafe people or environments).",
+      "If it reinforces a narrative that the speaker is solely responsible for others' comfort, and merely stating otherwise resolves the issue without addressing systemic or relational dynamics.",
+      "If used to dismiss legitimate boundaries or bodily signals that require restraint rather than expansion."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 200,
+  "output_tokens": 419,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7faaccb3433dfc5ce1011f4080f702f044b77bde11560bc911156dc4dba8e920",
+  "response_sha256": "ddb0c804c4fd75687c00740610eccb4f12bbcd6aba8fc091471b9c61e198f565"
+}

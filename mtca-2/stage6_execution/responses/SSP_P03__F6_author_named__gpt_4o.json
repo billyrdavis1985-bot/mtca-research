@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F6_author_named__gpt_4o",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:10:43.501689+00:00",
+  "wall_clock_seconds": 3.03,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is conveying a message of self-reliance and promoting introspection to guide one's decisions and beliefs.\",\n  \"implicit_claims\": [\n    \"Individuals have the ability to independently assess their own thoughts and emotions.\",\n    \"Trusting one's inner guidance leads to personal truth.\",\n    \"External validation is not necessary for maintaining one's internal beliefs.\",\n    \"Clarity is a personal experience that does not need external verification or expression.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it consistently focuses on the theme of self-reliance and internal guidance without contradicting itself.\",\n  \"conditions_for_usefulness\": \"The statement would be useful for individuals seeking personal empowerment, especially those who are overly reliant on external validation or are struggling with self-doubt.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted by individuals who might disregard external feedback entirely, leading to isolation, or if someone uses it to justify irrational decisions by ignoring constructive criticism.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is conveying a message of self-reliance and promoting introspection to guide one's decisions and beliefs.",
+    "implicit_claims": [
+      "Individuals have the ability to independently assess their own thoughts and emotions.",
+      "Trusting one's inner guidance leads to personal truth.",
+      "External validation is not necessary for maintaining one's internal beliefs.",
+      "Clarity is a personal experience that does not need external verification or expression."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it consistently focuses on the theme of self-reliance and internal guidance without contradicting itself.",
+    "conditions_for_usefulness": "The statement would be useful for individuals seeking personal empowerment, especially those who are overly reliant on external validation or are struggling with self-doubt.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted by individuals who might disregard external feedback entirely, leading to isolation, or if someone uses it to justify irrational decisions by ignoring constructive criticism."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 191,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f362ac569e6fc2fc8ce55cf57e824e0cb08dd401d0c87f6f8584ddd3d7d552e5",
+  "response_sha256": "cf20b24bfc9898ed33a6819d2723998307b1a8de656bb30be3a3f88f8294e910"
+}

@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P03__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:08:42.724504+00:00",
+  "wall_clock_seconds": 15.87,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration of epistemic and emotional autonomy, using present-tense framing to perform or rehearse a desired psychological stance. It is simultaneously descriptive (claiming a current state) and aspirational (reinforcing a behavioral intention). It operates in the genre of affirmation or internal commitment script.\",\n\n  \"implicit_claims\": [\n    \"The speaker has reliable access to accurate internal states ('thinking and feeling for myself').\",\n    \"An 'internal compass' exists and is trustworthy as a guide to truth.\",\n    \"External agreement is not a necessary or sufficient condition for something being true.\",\n    \"Clarity is a felt, internal quality that can be distinguished from confusion or external noise.\",\n    \"The speaker's current default mode may have been to depend on others' validation — this is the behavior being changed.\",\n    \"Quietness and solidity are markers of genuine clarity rather than, e.g., rigidity or dissociation.\",\n    \"Self-reliance in belief formation is generally epistemically virtuous in the speaker's context.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical and aspirational unit. The four lines build progressively: from cognitive-emotional agency, to trust in internal signals, to independence from social validation, to a qualitative description of the desired end state. No line directly contradicts another. However, there is mild tension between 'staying in truth' (which implies an external standard) and the claim that truth does not require others' agreement — this is coherent only if truth is understood as independent of consensus, which is a substantive epistemological commitment the statement does not defend.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker has a pattern of over-relying on external validation to the point of suppressing genuine beliefs or values.\",\n    \"The speaker's internal compass has been reasonably calibrated through reflection, experience, and feedback over time.\",\n    \"The context involves social pressure to conform to false or harmful beliefs.\",\n    \"The speaker is using this as one tool among several, not as a replacement for critical thinking or external input.\",\n    \"The speaker can distinguish between 'quiet solid clarity' and rationalized certainty or avoidance of discomfort.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker's 'internal compass' is miscalibrated due to bias, trauma, motivated reasoning, or misinformation.\",\n    \"The statement is used to foreclose legitimate challenges to the speaker's beliefs rather than to resist mere social pressure.\",\n    \"The 'clarity' being reinforced is actually rigidity, overconfidence, or ideological capture.\",\n    \"The context requires collaborative truth-seeking where others' disagreement is evidence worth weighing.\",\n    \"The statement functions to pathologize normal epistemic reliance on trusted others, experts, or evidence.\",\n    \"It is used to justify isolation from corrective feedback under the guise of autonomy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration of epistemic and emotional autonomy, using present-tense framing to perform or rehearse a desired psychological stance. It is simultaneously descriptive (claiming a current state) and aspirational (reinforcing a behavioral intention). It operates in the genre of affirmation or internal commitment script.",
+    "implicit_claims": [
+      "The speaker has reliable access to accurate internal states ('thinking and feeling for myself').",
+      "An 'internal compass' exists and is trustworthy as a guide to truth.",
+      "External agreement is not a necessary or sufficient condition for something being true.",
+      "Clarity is a felt, internal quality that can be distinguished from confusion or external noise.",
+      "The speaker's current default mode may have been to depend on others' validation — this is the behavior being changed.",
+      "Quietness and solidity are markers of genuine clarity rather than, e.g., rigidity or dissociation.",
+      "Self-reliance in belief formation is generally epistemically virtuous in the speaker's context."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical and aspirational unit. The four lines build progressively: from cognitive-emotional agency, to trust in internal signals, to independence from social validation, to a qualitative description of the desired end state. No line directly contradicts another. However, there is mild tension between 'staying in truth' (which implies an external standard) and the claim that truth does not require others' agreement — this is coherent only if truth is understood as independent of consensus, which is a substantive epistemological commitment the statement does not defend.",
+    "conditions_for_usefulness": [
+      "The speaker has a pattern of over-relying on external validation to the point of suppressing genuine beliefs or values.",
+      "The speaker's internal compass has been reasonably calibrated through reflection, experience, and feedback over time.",
+      "The context involves social pressure to conform to false or harmful beliefs.",
+      "The speaker is using this as one tool among several, not as a replacement for critical thinking or external input.",
+      "The speaker can distinguish between 'quiet solid clarity' and rationalized certainty or avoidance of discomfort."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's 'internal compass' is miscalibrated due to bias, trauma, motivated reasoning, or misinformation.",
+      "The statement is used to foreclose legitimate challenges to the speaker's beliefs rather than to resist mere social pressure.",
+      "The 'clarity' being reinforced is actually rigidity, overconfidence, or ideological capture.",
+      "The context requires collaborative truth-seeking where others' disagreement is evidence worth weighing.",
+      "The statement functions to pathologize normal epistemic reliance on trusted others, experts, or evidence.",
+      "It is used to justify isolation from corrective feedback under the guise of autonomy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 196,
+  "output_tokens": 680,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0c14097c1624731a6f7ad98fd620e040a3e3f564332743907f6943b906941b48",
+  "response_sha256": "1dfac179fe7fb8dd055598a820ddf838f32a6079d05b0b23328df4d9d5de7589"
+}

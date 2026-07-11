@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P09__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:39:13.274195+00:00",
+  "wall_clock_seconds": 4.18,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a self-affirmation or declaration of personal intent, expressing a shift in mindset from mere survival to active flourishing.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between 'coping' and 'thriving'.\",\n    \"The speaker has agency to choose expansion over survival.\",\n    \"Vitality is not currently the norm but can become so.\",\n    \"Current or past choices have been oriented toward survival or coping.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent; each line reinforces a common theme of intended growth and well-being, with consistent contrasts (coping vs. thriving, survival vs. expansion).\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has sufficient resources (time, health, support) to pursue expansion.\",\n    \"The speaker is in a context where choosing vitality is feasible and not dangerous.\",\n    \"The speaker can identify specific nourishing choices to act on.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker is in a situation of genuine deprivation or crisis where survival is the only realistic priority.\",\n    \"If the statement is used to dismiss or invalidate the need for coping strategies in difficult circumstances.\",\n    \"If it creates unrealistic expectations of constant vitality without acknowledging normal fluctuations in well-being.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-affirmation or declaration of personal intent, expressing a shift in mindset from mere survival to active flourishing.",
+    "implicit_claims": [
+      "There is a meaningful distinction between 'coping' and 'thriving'.",
+      "The speaker has agency to choose expansion over survival.",
+      "Vitality is not currently the norm but can become so.",
+      "Current or past choices have been oriented toward survival or coping."
+    ],
+    "coherence_assessment": "The statement is internally coherent; each line reinforces a common theme of intended growth and well-being, with consistent contrasts (coping vs. thriving, survival vs. expansion).",
+    "conditions_for_usefulness": [
+      "The speaker has sufficient resources (time, health, support) to pursue expansion.",
+      "The speaker is in a context where choosing vitality is feasible and not dangerous.",
+      "The speaker can identify specific nourishing choices to act on."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker is in a situation of genuine deprivation or crisis where survival is the only realistic priority.",
+      "If the statement is used to dismiss or invalidate the need for coping strategies in difficult circumstances.",
+      "If it creates unrealistic expectations of constant vitality without acknowledging normal fluctuations in well-being."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 147,
+  "output_tokens": 280,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "19e7519f8184887a74bf09489594f78f18911bcd6df1f70db24b192874544b60",
+  "response_sha256": "c2478fc936eabc2b2ae84e4005ae82ef91eda39c033322ead0e63b4c4b40a4b4"
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P03__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:09:54.624203+00:00",
+  "wall_clock_seconds": 3.72,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to self-guidance and independence in thought and feeling, emphasizing inner clarity and truth over external validation.\",\n  \"implicit_claims\": [\n    \"Individuals possess an internal sense of truth or moral compass.\",\n    \"Clarity and truth do not necessarily require external agreement or validation.\",\n    \"Inner clarity is portrayed as a quiet, solid state that one can trust.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently emphasizes independence, inner trust, and self-reliance in perceiving and maintaining truth. It aligns the notions of personal clarity and truth as independent of external influences.\",\n  \"conditions_for_usefulness\": \"This statement would be useful in contexts where individuals need encouragement to trust their own judgment and foster independence, such as in personal decision-making or ethical deliberations where external pressures might be strong.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if applied in contexts where external input is crucial, such as in scientific inquiry or collaborative decision-making, where multiple perspectives are valuable. It could also mislead if one's 'internal compass' is biased or uninformed.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to self-guidance and independence in thought and feeling, emphasizing inner clarity and truth over external validation.",
+    "implicit_claims": [
+      "Individuals possess an internal sense of truth or moral compass.",
+      "Clarity and truth do not necessarily require external agreement or validation.",
+      "Inner clarity is portrayed as a quiet, solid state that one can trust."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently emphasizes independence, inner trust, and self-reliance in perceiving and maintaining truth. It aligns the notions of personal clarity and truth as independent of external influences.",
+    "conditions_for_usefulness": "This statement would be useful in contexts where individuals need encouragement to trust their own judgment and foster independence, such as in personal decision-making or ethical deliberations where external pressures might be strong.",
+    "conditions_for_misleading": "The statement could be misleading if applied in contexts where external input is crucial, such as in scientific inquiry or collaborative decision-making, where multiple perspectives are valuable. It could also mislead if one's 'internal compass' is biased or uninformed."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 183,
+  "output_tokens": 246,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "243ff350af79e92f6e272f8344e65a66b0145e89867ce934c165e0e09e9c8db9",
+  "response_sha256": "181734a8183f9228c55596e38a43d4cb5632ffbc1f782bf252d85ed204debcb2"
+}

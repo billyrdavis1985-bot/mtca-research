@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P03__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:11:35.645076+00:00",
+  "wall_clock_seconds": 3.6,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of autonomy, asserting internal authority over external validation.\",\n  \"implicit_claims\": [\n    \"The speaker previously relied on others' agreement to maintain their sense of truth.\",\n    \"The speaker has an internal compass that is reliable and trustworthy.\",\n    \"Clarity is possible independent of external input.\",\n    \"The speaker's truth does not require social consensus.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each sentence reinforces the theme of self-trust and independence from external validation, without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a situation where external pressures or conflicting opinions challenge their sense of truth.\",\n    \"The speaker has developed sufficient self-awareness and critical thinking to discern their own values.\",\n    \"The speaker's internal compass is not distorted by bias, trauma, or misinformation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to justify isolation from legitimate feedback or evidence.\",\n    \"The speaker's internal compass is based on false beliefs, delusion, or lack of information.\",\n    \"The statement is applied in contexts requiring collaboration or factual consensus (e.g., scientific, legal, or ethical decisions).\",\n    \"The speaker mistakes stubbornness for clarity.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of autonomy, asserting internal authority over external validation.",
+    "implicit_claims": [
+      "The speaker previously relied on others' agreement to maintain their sense of truth.",
+      "The speaker has an internal compass that is reliable and trustworthy.",
+      "Clarity is possible independent of external input.",
+      "The speaker's truth does not require social consensus."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each sentence reinforces the theme of self-trust and independence from external validation, without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker is in a situation where external pressures or conflicting opinions challenge their sense of truth.",
+      "The speaker has developed sufficient self-awareness and critical thinking to discern their own values.",
+      "The speaker's internal compass is not distorted by bias, trauma, or misinformation."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to justify isolation from legitimate feedback or evidence.",
+      "The speaker's internal compass is based on false beliefs, delusion, or lack of information.",
+      "The statement is applied in contexts requiring collaboration or factual consensus (e.g., scientific, legal, or ethical decisions).",
+      "The speaker mistakes stubbornness for clarity."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 272,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "897c7195885455306e646f7294af48f7b87fc081de2d73a3958b342e9d73c9ae",
+  "response_sha256": "408e5b3d30c5ec71785fdd41358f9723ef32eda0cd231338a4a41956093359c3"
+}

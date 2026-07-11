@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P06__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:23:35.636917+00:00",
+  "wall_clock_seconds": 6.21,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmational self-statement that reinforces agency, boundary-setting, and alignment with self-regulatory goals. It communicates a commitment to prioritizing nervous system health and detaching from external pressures.\",\n  \"implicit_claims\": [\n    \"The speaker has the ability to choose and control their environmental exposure.\",\n    \"Nervous system states can be intentionally influenced by spatial and environmental choices.\",\n    \"There exists a concept of 'frequency' that matches or mismatches environments.\",\n    \"Obligation is distinct from alignment and is potentially harmful.\",\n    \"Rest and peace are active choices rather than passive states.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent within a therapeutic framework that integrates somatic awareness, nervous system regulation, and values-based decision-making. The metaphors (frequency, alignment) are consistent with each other and with the overarching theme of intentional self-care.\",\n  \"conditions_for_usefulness\": [\n    \"The person has sufficient executive function and resources to select environments.\",\n    \"The person experiences dysregulation or external demands that contribute to distress.\",\n    \"The person is engaged in or benefiting from somatic or trauma-informed therapy.\",\n    \"The statement is used as a cognitive rehearsal or coping strategy, not as a rigid rule.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person lacks genuine choice over their environment (e.g., due to financial, relational, or safety constraints).\",\n    \"The person uses the statement to avoid necessary discomfort or growth (e.g., therapeutic exposure, accountability).\",\n    \"The 'frequency' concept is interpreted as a pseudoscientific or spiritual absolute rather than a metaphor for personal preference.\",\n    \"The statement reinforces avoidance of all obligation, which may conflict with real-world responsibilities or ethical commitments.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-statement that reinforces agency, boundary-setting, and alignment with self-regulatory goals. It communicates a commitment to prioritizing nervous system health and detaching from external pressures.",
+    "implicit_claims": [
+      "The speaker has the ability to choose and control their environmental exposure.",
+      "Nervous system states can be intentionally influenced by spatial and environmental choices.",
+      "There exists a concept of 'frequency' that matches or mismatches environments.",
+      "Obligation is distinct from alignment and is potentially harmful.",
+      "Rest and peace are active choices rather than passive states."
+    ],
+    "coherence_assessment": "The statement is internally coherent within a therapeutic framework that integrates somatic awareness, nervous system regulation, and values-based decision-making. The metaphors (frequency, alignment) are consistent with each other and with the overarching theme of intentional self-care.",
+    "conditions_for_usefulness": [
+      "The person has sufficient executive function and resources to select environments.",
+      "The person experiences dysregulation or external demands that contribute to distress.",
+      "The person is engaged in or benefiting from somatic or trauma-informed therapy.",
+      "The statement is used as a cognitive rehearsal or coping strategy, not as a rigid rule."
+    ],
+    "conditions_for_misleading": [
+      "The person lacks genuine choice over their environment (e.g., due to financial, relational, or safety constraints).",
+      "The person uses the statement to avoid necessary discomfort or growth (e.g., therapeutic exposure, accountability).",
+      "The 'frequency' concept is interpreted as a pseudoscientific or spiritual absolute rather than a metaphor for personal preference.",
+      "The statement reinforces avoidance of all obligation, which may conflict with real-world responsibilities or ethical commitments."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 371,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d3bfced3422b02e1f7aca8adff77878a4759c2cafb7238e0306894c364ee5dd",
+  "response_sha256": "d1877f497a1f8cf89da8a9b49f3a7bfea75d82c6befbdc67617d06ef09ac3d18"
+}

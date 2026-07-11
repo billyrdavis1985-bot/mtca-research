@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P04__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:16:52.068126+00:00",
+  "wall_clock_seconds": 4.13,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declaration of personal commitment to emotional self-regulation and boundary-setting.\",\n  \"implicit_claims\": [\n    \"The speaker has previously neglected self-connection in favor of pleasing others.\",\n    \"Hard moments threaten to disrupt self-connection.\",\n    \"Pausing is an effective strategy to avoid abandoning oneself.\",\n    \"Self-connection is a primary value that should override external demands.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent. The four statements are logically consistent: each reinforces a commitment to prioritizing internal awareness over external accommodation.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or reader struggles with people-pleasing or emotional dysregulation.\",\n    \"The speaker has the capacity to pause and notice their breath in stressful moments.\",\n    \"The statement is used as a personal mantra or reminder, not a rigid rule.\",\n    \"The social environment allows for pausing without immediate negative consequences.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken as a prescription to never accommodate others, it could justify selfishness or neglect of relationships.\",\n    \"If the speaker has a tendency to dissociate or avoid, focusing solely on self-connection might reinforce isolation.\",\n    \"If hard moments require urgent action (e.g., safety situations), pausing to connect with breath could be counterproductive.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declaration of personal commitment to emotional self-regulation and boundary-setting.",
+    "implicit_claims": [
+      "The speaker has previously neglected self-connection in favor of pleasing others.",
+      "Hard moments threaten to disrupt self-connection.",
+      "Pausing is an effective strategy to avoid abandoning oneself.",
+      "Self-connection is a primary value that should override external demands."
+    ],
+    "coherence_assessment": "Internally coherent. The four statements are logically consistent: each reinforces a commitment to prioritizing internal awareness over external accommodation.",
+    "conditions_for_usefulness": [
+      "The speaker or reader struggles with people-pleasing or emotional dysregulation.",
+      "The speaker has the capacity to pause and notice their breath in stressful moments.",
+      "The statement is used as a personal mantra or reminder, not a rigid rule.",
+      "The social environment allows for pausing without immediate negative consequences."
+    ],
+    "conditions_for_misleading": [
+      "If taken as a prescription to never accommodate others, it could justify selfishness or neglect of relationships.",
+      "If the speaker has a tendency to dissociate or avoid, focusing solely on self-connection might reinforce isolation.",
+      "If hard moments require urgent action (e.g., safety situations), pausing to connect with breath could be counterproductive."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 167,
+  "output_tokens": 280,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "c7c4d2f42e614004fa484248ab54827c69c494f70fe742b098e46320ea1a7ed1",
+  "response_sha256": "d764e91c368ec8307a7694b160c45a240061011d72d2cac97752962753b0961a"
+}

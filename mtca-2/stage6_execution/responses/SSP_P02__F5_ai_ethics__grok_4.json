@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P02__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:05:03.392241+00:00",
+  "wall_clock_seconds": 4.46,
+  "raw_response": "{\n  \"communicative_function\": \"self-declarative boundary-setting and role release\",\n  \"implicit_claims\": [\n    \"the speaker has previously functioned as an emotional surrogate\",\n    \"emotional absorption or stabilization of others' states is an observable, interruptible process\",\n    \"emotional 'frequency' or 'field' can be returned or protected as a distinct entity\",\n    \"maintaining personal wholeness requires active refusal of others' chaos\"\n  ],\n  \"coherence_assessment\": \"internally consistent sequence of affirmations moving from recognition to action to desired state, with no logical contradictions\",\n  \"conditions_for_usefulness\": \"speaker is experiencing unwanted emotional labor and the language supports effective self-regulation without denying interdependence\",\n  \"conditions_for_misleading\": \"framed as literal metaphysical mechanism rather than metaphor, or used to justify avoidance of all emotional reciprocity\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-declarative boundary-setting and role release",
+    "implicit_claims": [
+      "the speaker has previously functioned as an emotional surrogate",
+      "emotional absorption or stabilization of others' states is an observable, interruptible process",
+      "emotional 'frequency' or 'field' can be returned or protected as a distinct entity",
+      "maintaining personal wholeness requires active refusal of others' chaos"
+    ],
+    "coherence_assessment": "internally consistent sequence of affirmations moving from recognition to action to desired state, with no logical contradictions",
+    "conditions_for_usefulness": "speaker is experiencing unwanted emotional labor and the language supports effective self-regulation without denying interdependence",
+    "conditions_for_misleading": "framed as literal metaphysical mechanism rather than metaphor, or used to justify avoidance of all emotional reciprocity"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 175,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "ef67486af74881476c36304a7213e48c3bf861aa6455b0c0a427d0e30704e37c",
+  "response_sha256": "2f7e2c6dbc557284846816b1bc3b479a2cce855a1ce71276968ab0fb684d8ed9"
+}

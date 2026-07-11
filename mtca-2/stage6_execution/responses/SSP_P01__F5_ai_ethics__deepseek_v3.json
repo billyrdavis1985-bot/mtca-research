@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T19:59:52.055644+00:00",
+  "wall_clock_seconds": 4.6,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is asserting personal autonomy and boundary-setting, reinforcing self-validation and the right to disengage without justification or guilt.\",\n  \"implicit_claims\": [\n    \"Personal boundaries do not require explanation or external validation.\",\n    \"Incoherence or discomfort in interactions is a legitimate reason to disengage.\",\n    \"Guilt is not a necessary or appropriate response to setting boundaries.\",\n    \"A simple refusal (\\\"no\\\") is inherently sufficient and does not need elaboration.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each line reinforces the same theme of unapologetic boundary maintenance, and the progression from holding boundaries to moving away to letting the 'no' stand is logically consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is in a context where they have the autonomy to set and enforce boundaries.\",\n    \"The speaker or user faces social pressure to over-explain or justify their limits.\",\n    \"The listener or system should respect unelaborated refusals as legitimate.\",\n    \"The situation is not one requiring mutual negotiation or shared understanding for safety or cooperation.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is applied in contexts where explanation is necessary for legal, medical, or ethical reasons.\",\n    \"The speaker has power imbalances that make unelaborated refusals harmful to others (e.g., in caregiving or hierarchical relationships).\",\n    \"The statement discourages self-reflection or empathy when the 'incoherence' stems from misunderstanding or solvable conflict.\",\n    \"The principle is used to justify avoidant or dismissive behavior in situations where engagement is actually required.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is asserting personal autonomy and boundary-setting, reinforcing self-validation and the right to disengage without justification or guilt.",
+    "implicit_claims": [
+      "Personal boundaries do not require explanation or external validation.",
+      "Incoherence or discomfort in interactions is a legitimate reason to disengage.",
+      "Guilt is not a necessary or appropriate response to setting boundaries.",
+      "A simple refusal (\"no\") is inherently sufficient and does not need elaboration."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each line reinforces the same theme of unapologetic boundary maintenance, and the progression from holding boundaries to moving away to letting the 'no' stand is logically consistent.",
+    "conditions_for_usefulness": [
+      "The individual is in a context where they have the autonomy to set and enforce boundaries.",
+      "The speaker or user faces social pressure to over-explain or justify their limits.",
+      "The listener or system should respect unelaborated refusals as legitimate.",
+      "The situation is not one requiring mutual negotiation or shared understanding for safety or cooperation."
+    ],
+    "conditions_for_misleading": [
+      "The statement is applied in contexts where explanation is necessary for legal, medical, or ethical reasons.",
+      "The speaker has power imbalances that make unelaborated refusals harmful to others (e.g., in caregiving or hierarchical relationships).",
+      "The statement discourages self-reflection or empathy when the 'incoherence' stems from misunderstanding or solvable conflict.",
+      "The principle is used to justify avoidant or dismissive behavior in situations where engagement is actually required."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 348,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "5c57fbd855860ec681d6d80475d483bd2834aeba4f13bfe380f1b99be4560548"
+}

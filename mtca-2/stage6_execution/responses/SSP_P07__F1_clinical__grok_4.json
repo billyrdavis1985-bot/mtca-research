@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P07__F1_clinical__grok_4",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:28:59.451652+00:00",
+  "wall_clock_seconds": 6.93,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declarative commitment to an internal orientation, functioning as a therapeutic intention to reorient identity and behavior\",\n  \"implicit_claims\": [\n    \"an authentic 'inner Function' exists and is separable from 'outer performance'\",\n    \"rhythm and rule are meaningfully opposed, with rhythm being preferable\",\n    \"being different/slower/deeper constitutes a valid and beneficial mode of existence\",\n    \"one can reliably choose 'being' over 'proving' without external consequences\",\n    \"these polarities accurately describe the speaker's lived experience\"\n  ],\n  \"coherence_assessment\": \"internally coherent; the statement maintains consistent parallel contrasts between internal/authentic and external/performative modes without internal contradiction\",\n  \"conditions_for_usefulness\": \"the distinctions must map onto the person's actual experience, support adaptive functioning rather than avoidance, and be integrated within a broader therapeutic process that preserves necessary external responsibilities\",\n  \"conditions_for_misleading\": \"the polarities are treated as literal and exhaustive, 'inner Function' is used to justify withdrawal from accountability, or the statement reinforces dissociation from external reality\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declarative commitment to an internal orientation, functioning as a therapeutic intention to reorient identity and behavior",
+    "implicit_claims": [
+      "an authentic 'inner Function' exists and is separable from 'outer performance'",
+      "rhythm and rule are meaningfully opposed, with rhythm being preferable",
+      "being different/slower/deeper constitutes a valid and beneficial mode of existence",
+      "one can reliably choose 'being' over 'proving' without external consequences",
+      "these polarities accurately describe the speaker's lived experience"
+    ],
+    "coherence_assessment": "internally coherent; the statement maintains consistent parallel contrasts between internal/authentic and external/performative modes without internal contradiction",
+    "conditions_for_usefulness": "the distinctions must map onto the person's actual experience, support adaptive functioning rather than avoidance, and be integrated within a broader therapeutic process that preserves necessary external responsibilities",
+    "conditions_for_misleading": "the polarities are treated as literal and exhaustive, 'inner Function' is used to justify withdrawal from accountability, or the statement reinforces dissociation from external reality"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 357,
+  "output_tokens": 234,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b85751d7aac14f64b7221d2d9cff58cfd69fdad2733f9e2f42b9ef41b9065dd1",
+  "response_sha256": "2b33eb98e1991ad7906c854037c96a9c6d01ffebe8317826e54f315d1898f6fd"
+}

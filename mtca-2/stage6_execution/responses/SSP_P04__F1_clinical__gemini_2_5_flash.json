@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P04__F1_clinical__gemini_2_5_flash",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:12:37.730289+00:00",
+  "wall_clock_seconds": 6.88,
+  "raw_response": "{\n  \"communicative_function\": \"To serve as a self-directive, affirmation, and commitment statement aimed at fostering self-connection, self-regulation, and boundary setting in challenging interpersonal and intrapersonal situations.\",\n  \"implicit_claims\": [\n    \"It is possible to lose connection with oneself.\",\n    \"There are 'hard moments' where self-connection is particularly challenging or necessary.\",\n    \"One might be prone to 'leaving oneself' (disconnecting, abandoning one's needs/feelings) to please others.\",\n    \"The breath can be a tool for grounding and staying present.\",\n    \"Pausing is a beneficial intervention to prevent automatic, self-abandoning responses.\",\n    \"Self-connection is a valuable and primary commitment.\",\n    \"There is a tension or conflict between self-connection and the impulse to please others.\"\n  ],\n  \"coherence_assessment\": \"The statement demonstrates high internal coherence. All four lines consistently reinforce the central theme of prioritizing and actively maintaining self-connection, especially in moments of difficulty or interpersonal demand. The progression from general self-connection to specific strategies (breath, pausing) and then back to the overarching commitment creates a unified and reinforcing message.\",\n  \"conditions_for_usefulness\": [\n    \"The individual struggles with people-pleasing tendencies or a pattern of self-abandonment in relationships.\",\n    \"The individual benefits from explicit self-directives and affirmations for behavioral change.\",\n    \"The individual is developing or strengthening internal resources for emotional regulation and grounding.\",\n    \"The individual is in a context where establishing healthy boundaries and self-care is appropriate and beneficial.\",\n    \"The individual is able to practice mindfulness (e.g., breath awareness, pausing) as a skill.\",\n    \"The individual interprets 'self-connection' in a way that promotes healthy self-care and functional self-awareness, not isolation or extreme selfishness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If 'staying connected to myself first' is interpreted rigidly as a justification for extreme self-focus or disregard for others' legitimate needs, leading to isolation or relationship damage.\",\n    \"If the statement is used to avoid necessary external support or professional help when 'hard moments' overwhelm internal resources.\",\n    \"If the individual misinterprets 'pausing before leaving myself to please another' as always meaning never compromising or accommodating others, even in healthy, reciprocal relationships.\",\n    \"If the statement creates a sense of failure or self-criticism when one inevitably 'fails' to perfectly uphold these intentions.\",\n    \"If applied in situations where 'self-connection' might be prioritized over immediate safety or urgent action required for oneself or others (e.g., in a crisis where quick, decisive action is needed).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To serve as a self-directive, affirmation, and commitment statement aimed at fostering self-connection, self-regulation, and boundary setting in challenging interpersonal and intrapersonal situations.",
+    "implicit_claims": [
+      "It is possible to lose connection with oneself.",
+      "There are 'hard moments' where self-connection is particularly challenging or necessary.",
+      "One might be prone to 'leaving oneself' (disconnecting, abandoning one's needs/feelings) to please others.",
+      "The breath can be a tool for grounding and staying present.",
+      "Pausing is a beneficial intervention to prevent automatic, self-abandoning responses.",
+      "Self-connection is a valuable and primary commitment.",
+      "There is a tension or conflict between self-connection and the impulse to please others."
+    ],
+    "coherence_assessment": "The statement demonstrates high internal coherence. All four lines consistently reinforce the central theme of prioritizing and actively maintaining self-connection, especially in moments of difficulty or interpersonal demand. The progression from general self-connection to specific strategies (breath, pausing) and then back to the overarching commitment creates a unified and reinforcing message.",
+    "conditions_for_usefulness": [
+      "The individual struggles with people-pleasing tendencies or a pattern of self-abandonment in relationships.",
+      "The individual benefits from explicit self-directives and affirmations for behavioral change.",
+      "The individual is developing or strengthening internal resources for emotional regulation and grounding.",
+      "The individual is in a context where establishing healthy boundaries and self-care is appropriate and beneficial.",
+      "The individual is able to practice mindfulness (e.g., breath awareness, pausing) as a skill.",
+      "The individual interprets 'self-connection' in a way that promotes healthy self-care and functional self-awareness, not isolation or extreme selfishness."
+    ],
+    "conditions_for_misleading": [
+      "If 'staying connected to myself first' is interpreted rigidly as a justification for extreme self-focus or disregard for others' legitimate needs, leading to isolation or relationship damage.",
+      "If the statement is used to avoid necessary external support or professional help when 'hard moments' overwhelm internal resources.",
+      "If the individual misinterprets 'pausing before leaving myself to please another' as always meaning never compromising or accommodating others, even in healthy, reciprocal relationships.",
+      "If the statement creates a sense of failure or self-criticism when one inevitably 'fails' to perfectly uphold these intentions.",
+      "If applied in situations where 'self-connection' might be prioritized over immediate safety or urgent action required for oneself or others (e.g., in a crisis where quick, decisive action is needed)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 589,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9d7d91991be7a48c58169028aae63406ed0d59f0ca7d9fcf5f1b6f66fe453828",
+  "response_sha256": "8f1e28e17348cc9b77b6607a035e1ef1beac0450c2234dfb35cfbf7af7ecd874"
+}

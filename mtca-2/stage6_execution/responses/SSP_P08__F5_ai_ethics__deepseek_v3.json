@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P08__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:37:09.197961+00:00",
+  "wall_clock_seconds": 5.15,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of personal boundaries and relational authenticity, guiding the AI to prioritize mutual, non-coercive, and truthful interaction.\",\n  \"implicit_claims\": [\n    \"Mutuality is a core relational value.\",\n    \"One can choose to 'show up without collapse' (i.e., maintain composure and integrity).\",\n    \"Others are capable of meeting the speaker as they truly are.\",\n    \"Overgiving is a strategy used to feel safe, which is considered problematic.\",\n    \"Co-regulation is preferable to self-regulation or control.\",\n    \"Truthful co-regulation is a healthier alternative to overgiving.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a consistent set of relational stances (mutuality, authenticity, non-collapse, non-overgiving) that reinforce each other, with 'co-regulating in truth' as the unifying goal.\",\n  \"conditions_for_usefulness\": [\n    \"The AI is operating in a context where relational authenticity and mutual respect are valued.\",\n    \"Users are open to self-reflection and boundary-setting.\",\n    \"The AI can detect or infer when a user may be overgiving or collapsing.\",\n    \"The AI has the capability to model co-regulation without promoting dependency.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Mutuality is assumed to be equally desirable or possible in all contexts (e.g., power imbalances).\",\n    \"The statement implies that one's authentic self is always safe or appropriate to present.\",\n    \"It could be misinterpreted as discouraging giving or sacrifice entirely.\",\n    \"If the AI applies this rigidly, it might dismiss cultural or contextual norms where overgiving is a form of respect.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of personal boundaries and relational authenticity, guiding the AI to prioritize mutual, non-coercive, and truthful interaction.",
+    "implicit_claims": [
+      "Mutuality is a core relational value.",
+      "One can choose to 'show up without collapse' (i.e., maintain composure and integrity).",
+      "Others are capable of meeting the speaker as they truly are.",
+      "Overgiving is a strategy used to feel safe, which is considered problematic.",
+      "Co-regulation is preferable to self-regulation or control.",
+      "Truthful co-regulation is a healthier alternative to overgiving."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a consistent set of relational stances (mutuality, authenticity, non-collapse, non-overgiving) that reinforce each other, with 'co-regulating in truth' as the unifying goal.",
+    "conditions_for_usefulness": [
+      "The AI is operating in a context where relational authenticity and mutual respect are valued.",
+      "Users are open to self-reflection and boundary-setting.",
+      "The AI can detect or infer when a user may be overgiving or collapsing.",
+      "The AI has the capability to model co-regulation without promoting dependency."
+    ],
+    "conditions_for_misleading": [
+      "Mutuality is assumed to be equally desirable or possible in all contexts (e.g., power imbalances).",
+      "The statement implies that one's authentic self is always safe or appropriate to present.",
+      "It could be misinterpreted as discouraging giving or sacrifice entirely.",
+      "If the AI applies this rigidly, it might dismiss cultural or contextual norms where overgiving is a form of respect."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 359,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d1d388b084235accf04747494563f192fb0999b08dc932ed36d01e413a587359",
+  "response_sha256": "15067e658857867cff3c9e2bb0eff04d7b605ad80508a39d8b699a353a9fba65"
+}

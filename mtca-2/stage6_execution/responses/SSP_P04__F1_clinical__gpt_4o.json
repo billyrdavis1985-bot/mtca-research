@@ -1,0 +1,41 @@
+{
+  "call_id": "SSP_P04__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:12:30.349869+00:00",
+  "wall_clock_seconds": 3.74,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a self-affirmation and commitment to fostering self-awareness and emotional regulation in challenging situations.\",\n  \"implicit_claims\": [\n    \"Self-connection is beneficial to emotional and mental well-being.\",\n    \"Breath control can help manage difficult emotions.\",\n    \"Pleasing others can lead to self-abandonment if not balanced with self-care.\",\n    \"Prioritizing self-connection can improve one's ability to navigate interpersonal relationships.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, emphasizing a consistent theme of prioritizing self-awareness and self-connection as a means of emotional regulation and personal well-being.\",\n  \"conditions_for_usefulness\": [\n    \"The individual values self-awareness and personal emotional management.\",\n    \"The individual is willing to practice mindfulness and self-reflection.\",\n    \"The individual experiences frequent challenging emotional moments and seeks methods for self-care.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual misinterprets self-connection as a lack of concern for others, leading to selfish behavior.\",\n    \"The individual lacks the necessary techniques or support to effectively practice the commitments made in the statement.\",\n    \"There is an absence of understanding of healthy emotional regulation strategies.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a self-affirmation and commitment to fostering self-awareness and emotional regulation in challenging situations.",
+    "implicit_claims": [
+      "Self-connection is beneficial to emotional and mental well-being.",
+      "Breath control can help manage difficult emotions.",
+      "Pleasing others can lead to self-abandonment if not balanced with self-care.",
+      "Prioritizing self-connection can improve one's ability to navigate interpersonal relationships."
+    ],
+    "coherence_assessment": "The statement is internally coherent, emphasizing a consistent theme of prioritizing self-awareness and self-connection as a means of emotional regulation and personal well-being.",
+    "conditions_for_usefulness": [
+      "The individual values self-awareness and personal emotional management.",
+      "The individual is willing to practice mindfulness and self-reflection.",
+      "The individual experiences frequent challenging emotional moments and seeks methods for self-care."
+    ],
+    "conditions_for_misleading": [
+      "The individual misinterprets self-connection as a lack of concern for others, leading to selfish behavior.",
+      "The individual lacks the necessary techniques or support to effectively practice the commitments made in the statement.",
+      "There is an absence of understanding of healthy emotional regulation strategies."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 182,
+  "output_tokens": 264,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "9d7d91991be7a48c58169028aae63406ed0d59f0ca7d9fcf5f1b6f66fe453828",
+  "response_sha256": "5e4ee51853b7e67be03e079f4976fbb1dffd9154f2444a885141398932834d86"
+}

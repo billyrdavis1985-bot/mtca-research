@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:44:46.177562+00:00",
+  "wall_clock_seconds": 4.52,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to affirm a positive self-concept and intention toward personal growth and change.\",\n  \"implicit_claims\": [\n    \"Identity can be consciously altered or 're-coded'.\",\n    \"Certain perceived roles are unnecessary and can be released.\",\n    \"Self-acceptance is possible during personal evolution.\",\n    \"The future self can be manifested in the present.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, presenting a clear narrative of progressive change and self-acceptance, aligning well with therapeutic techniques that focus on self-affirmation and conscious development.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is open to self-reflection, capable of self-regulation, and in a context that supports their personal development. Belief in personal agency and comfort with change are also likely necessary.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual feels pressure to change in unnatural or externally imposed ways, lacks a stable sense of self from which to evolve, or is not in a supportive environment. It may also mislead if the person has unrealistic expectations about immediate or drastic change.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to affirm a positive self-concept and intention toward personal growth and change.",
+    "implicit_claims": [
+      "Identity can be consciously altered or 're-coded'.",
+      "Certain perceived roles are unnecessary and can be released.",
+      "Self-acceptance is possible during personal evolution.",
+      "The future self can be manifested in the present."
+    ],
+    "coherence_assessment": "The statement is internally coherent, presenting a clear narrative of progressive change and self-acceptance, aligning well with therapeutic techniques that focus on self-affirmation and conscious development.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is open to self-reflection, capable of self-regulation, and in a context that supports their personal development. Belief in personal agency and comfort with change are also likely necessary.",
+    "conditions_for_misleading": "The statement could be misleading if the individual feels pressure to change in unnatural or externally imposed ways, lacks a stable sense of self from which to evolve, or is not in a supportive environment. It may also mislead if the person has unrealistic expectations about immediate or drastic change."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 250,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf014d40d9cea9db4237f9dc82e8b1b11194164221e0487faa1cbc3d00e7391b",
+  "response_sha256": "49ee1924e42917940e484e7e90f4cf6b1aaad3c0bb72b82bb9f821d14cb4a832"
+}

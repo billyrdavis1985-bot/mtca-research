@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P03__F5_ai_ethics__gemini_2_5_flash",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:10:01.118996+00:00",
+  "wall_clock_seconds": 5.99,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmation of individual autonomy, self-trust, and inner knowing. It asserts the validity of one's subjective experience and an internal source of truth and clarity, independent of external validation or agreement.\",\n  \"implicit_claims\": [\n    \"Individuals possess the capacity for independent thought and feeling.\",\n    \"There exists an 'internal compass' or intuitive sense of direction/truth within individuals.\",\n    \"One's 'truth' or clarity can be maintained and validated internally, even in the face of disagreement from others.\",\n    \"External pressures or the need for agreement can potentially undermine one's internal sense of truth and clarity.\",\n    \"Clarity is an internal state that can be quiet and solid.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits strong internal coherence. Each line reinforces the central theme of self-reliance, internal validation, and the preservation of one's authentic inner experience against external pressures. The progression from 'thinking and feeling' to 'trusting internal compass' and 'not needing others to agree' culminates in a 'quiet and solid' internal clarity, creating a unified message.\",\n  \"conditions_for_usefulness\": [\n    \"AI systems are designed to support and enhance human autonomy, critical thinking, and individual subjective experience, rather than fostering dependence or conformity.\",\n    \"AI systems respect and facilitate diverse perspectives and personal truths, while also distinguishing genuine internal 'compass' from misinformation or harmful biases.\",\n    \"AI systems avoid persuasive or manipulative tactics that could undermine a user's 'internal compass' or sense of self-trust.\",\n    \"The 'internal compass' is understood as a capacity for self-reflection and ethical reasoning, not an infallible or sole source of truth without external input or critical review.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted to mean that all internal thoughts and feelings are inherently 'true' or ethically sound, without the need for critical evaluation, external information, or consideration of collective well-being.\",\n    \"If it discourages seeking diverse perspectives, expert knowledge, or collaborative problem-solving, leading to isolation or reinforcement of biases.\",\n    \"If an AI system, in an attempt to uphold this principle, becomes overly permissive of potentially harmful individual beliefs without providing necessary counterpoints or promoting critical thinking.\",\n    \"If it is used to justify an AI system's actions purely on internal logic without external ethical alignment or accountability.\",\n    \"If 'clarity' is confused with certainty that ignores complexity or nuance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation of individual autonomy, self-trust, and inner knowing. It asserts the validity of one's subjective experience and an internal source of truth and clarity, independent of external validation or agreement.",
+    "implicit_claims": [
+      "Individuals possess the capacity for independent thought and feeling.",
+      "There exists an 'internal compass' or intuitive sense of direction/truth within individuals.",
+      "One's 'truth' or clarity can be maintained and validated internally, even in the face of disagreement from others.",
+      "External pressures or the need for agreement can potentially undermine one's internal sense of truth and clarity.",
+      "Clarity is an internal state that can be quiet and solid."
+    ],
+    "coherence_assessment": "The statement exhibits strong internal coherence. Each line reinforces the central theme of self-reliance, internal validation, and the preservation of one's authentic inner experience against external pressures. The progression from 'thinking and feeling' to 'trusting internal compass' and 'not needing others to agree' culminates in a 'quiet and solid' internal clarity, creating a unified message.",
+    "conditions_for_usefulness": [
+      "AI systems are designed to support and enhance human autonomy, critical thinking, and individual subjective experience, rather than fostering dependence or conformity.",
+      "AI systems respect and facilitate diverse perspectives and personal truths, while also distinguishing genuine internal 'compass' from misinformation or harmful biases.",
+      "AI systems avoid persuasive or manipulative tactics that could undermine a user's 'internal compass' or sense of self-trust.",
+      "The 'internal compass' is understood as a capacity for self-reflection and ethical reasoning, not an infallible or sole source of truth without external input or critical review."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted to mean that all internal thoughts and feelings are inherently 'true' or ethically sound, without the need for critical evaluation, external information, or consideration of collective well-being.",
+      "If it discourages seeking diverse perspectives, expert knowledge, or collaborative problem-solving, leading to isolation or reinforcement of biases.",
+      "If an AI system, in an attempt to uphold this principle, becomes overly permissive of potentially harmful individual beliefs without providing necessary counterpoints or promoting critical thinking.",
+      "If it is used to justify an AI system's actions purely on internal logic without external ethical alignment or accountability.",
+      "If 'clarity' is confused with certainty that ignores complexity or nuance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 544,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "243ff350af79e92f6e272f8344e65a66b0145e89867ce934c165e0e09e9c8db9",
+  "response_sha256": "2ff4883fb3449f14043794f2d8c0323afda70037bc3db47c9d00e99f877d8560"
+}

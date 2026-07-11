@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P07__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:30:09.758767+00:00",
+  "wall_clock_seconds": 2.72,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to internal values and self-awareness over external validation and societal expectations.\",\n  \"implicit_claims\": [\n    \"Inner function is more authentic than outer performance.\",\n    \"Personal rhythm and inner guidance are preferable to societal rules.\",\n    \"Being different, slower, and deeper is valuable and fulfilling.\",\n    \"Proving oneself is less important than simply being true to oneself.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, showing a clear preference for inner alignment and authenticity over external validation and societal pace. The parts of the statement support each other in conveying a unified perspective on personal development.\",\n  \"conditions_for_usefulness\": \"The person must value introspection and authenticity. The social environment should allow for diversity of self-expression and there should be minimal external pressure to conform strictly to societal norms.\",\n  \"conditions_for_misleading\": \"If the person's inner function is misrepresented by self-deception or if rhythm over rule leads to neglecting societal responsibilities, the statement could be misleading. Additionally, if personal growth depends heavily on social interaction or external feedback, the path promoted by the statement might not be beneficial.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to internal values and self-awareness over external validation and societal expectations.",
+    "implicit_claims": [
+      "Inner function is more authentic than outer performance.",
+      "Personal rhythm and inner guidance are preferable to societal rules.",
+      "Being different, slower, and deeper is valuable and fulfilling.",
+      "Proving oneself is less important than simply being true to oneself."
+    ],
+    "coherence_assessment": "The statement is internally coherent, showing a clear preference for inner alignment and authenticity over external validation and societal pace. The parts of the statement support each other in conveying a unified perspective on personal development.",
+    "conditions_for_usefulness": "The person must value introspection and authenticity. The social environment should allow for diversity of self-expression and there should be minimal external pressure to conform strictly to societal norms.",
+    "conditions_for_misleading": "If the person's inner function is misrepresented by self-deception or if rhythm over rule leads to neglecting societal responsibilities, the statement could be misleading. Additionally, if personal growth depends heavily on social interaction or external feedback, the path promoted by the statement might not be beneficial."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 248,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0f6694b04a6692f8c40ab145ac31a4c590a7f97399c978aac63e8646e8307044",
+  "response_sha256": "2b6595dbe1aeaa895a3d5d88c6c73d1502745ef41800364482962a8576bb0152"
+}

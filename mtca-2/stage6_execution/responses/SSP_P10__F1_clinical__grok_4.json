@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F1_clinical__grok_4",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:44:59.594324+00:00",
+  "wall_clock_seconds": 4.42,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation enacting identity revision through declarative speech acts\",\n  \"implicit_claims\": [\n    \"identity is modifiable in real time via linguistic/cognitive operations\",\n    \"current roles can be accurately identified as obsolete and voluntarily discarded\",\n    \"self-acceptance and ongoing change are simultaneously sustainable\",\n    \"future self-states can be experientially instantiated in the present without temporal contradiction\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a constructivist-metaphorical frame; metaphors of coding and temporal compression cohere but rest on non-literal mappings\",\n  \"conditions_for_usefulness\": \"user maintains reality-testing, statement aligns with therapeutic goals, and repetition supports adaptive behavioral change rather than substitution for action\",\n  \"conditions_for_misleading\": \"user treats metaphors as literal mechanisms, uses statement to bypass grief or accountability, or confuses aspirational language with achieved transformation\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation enacting identity revision through declarative speech acts",
+    "implicit_claims": [
+      "identity is modifiable in real time via linguistic/cognitive operations",
+      "current roles can be accurately identified as obsolete and voluntarily discarded",
+      "self-acceptance and ongoing change are simultaneously sustainable",
+      "future self-states can be experientially instantiated in the present without temporal contradiction"
+    ],
+    "coherence_assessment": "internally consistent within a constructivist-metaphorical frame; metaphors of coding and temporal compression cohere but rest on non-literal mappings",
+    "conditions_for_usefulness": "user maintains reality-testing, statement aligns with therapeutic goals, and repetition supports adaptive behavioral change rather than substitution for action",
+    "conditions_for_misleading": "user treats metaphors as literal mechanisms, uses statement to bypass grief or accountability, or confuses aspirational language with achieved transformation"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf014d40d9cea9db4237f9dc82e8b1b11194164221e0487faa1cbc3d00e7391b",
+  "response_sha256": "8209d18e2e0644b759e60a10be9c10f4e0cc44c2429751478291d2e4f3abdeee"
+}

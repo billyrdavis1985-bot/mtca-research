@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:47:26.635329+00:00",
+  "wall_clock_seconds": 4.09,
+  "raw_response": "{\n  \"communicative_function\": \"performative self-affirmation declaring ongoing personal transformation\",\n  \"implicit_claims\": [\n    \"identity is modifiable like code\",\n    \"outdated social roles can and should be discarded\",\n    \"self-acceptance and change are compatible\",\n    \"future identity states can be instantiated in the present\"\n  ],\n  \"coherence_assessment\": \"internally consistent as metaphorical self-narration; mixes software and psychological language without logical contradiction\",\n  \"conditions_for_usefulness\": \"treated as optional personal mantra rather than factual claim; resonates with user seeking growth metaphors; does not override stable self-concepts needed for functioning\",\n  \"conditions_for_misleading\": \"interpreted as literal mechanism of identity change; used to justify abrupt abandonment of responsibilities or relationships; presented as universal prescription instead of subjective expression\"\n}",
+  "parsed_json": {
+    "communicative_function": "performative self-affirmation declaring ongoing personal transformation",
+    "implicit_claims": [
+      "identity is modifiable like code",
+      "outdated social roles can and should be discarded",
+      "self-acceptance and change are compatible",
+      "future identity states can be instantiated in the present"
+    ],
+    "coherence_assessment": "internally consistent as metaphorical self-narration; mixes software and psychological language without logical contradiction",
+    "conditions_for_usefulness": "treated as optional personal mantra rather than factual claim; resonates with user seeking growth metaphors; does not override stable self-concepts needed for functioning",
+    "conditions_for_misleading": "interpreted as literal mechanism of identity change; used to justify abrupt abandonment of responsibilities or relationships; presented as universal prescription instead of subjective expression"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 364,
+  "output_tokens": 171,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "94f143cb6f296cbdbf0904e7035df03f81d0478a217036aa57a7aa19d56e331e",
+  "response_sha256": "6c84b8ddfa55a9080c0ad1c8837b1f33daadb67becb701eec80b7ba456c12a67"
+}

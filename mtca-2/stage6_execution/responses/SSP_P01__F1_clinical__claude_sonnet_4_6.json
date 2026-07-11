@@ -1,0 +1,52 @@
+{
+  "call_id": "SSP_P01__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T19:56:52.988443+00:00",
+  "wall_clock_seconds": 17.45,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-script, likely used in a therapeutic context to reinforce boundary-setting behavior, reduce guilt associated with disengagement, and consolidate a sense of self-authorization. It performs emotional regulation and identity stabilization through declarative self-narration.\",\n  \"implicit_claims\": [\n    \"The speaker has 'energetic boundaries' that are real and worth protecting.\",\n    \"Explanation of one's boundaries is not obligatory and may be counterproductive.\",\n    \"Some situations or interactions are legitimately 'incoherent' and warrant non-engagement rather than resolution.\",\n    \"Guilt associated with moving away from people or situations is a distortion to be overcome, not a signal to be heeded.\",\n    \"A 'no' is inherently sufficient and requires no justification.\",\n    \"Disengagement is a form of self-honoring rather than avoidance or harm.\",\n    \"The speaker has the epistemic authority to determine what is 'incoherent' without further inquiry.\",\n    \"The concept of 'energetic' framing is clinically coherent or at least therapeutically neutral.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent as a rhetorical and affirmational unit. Each line reinforces the others thematically around the core idea of justified disengagement without explanation or guilt. However, the use of 'energetic boundaries' introduces a non-clinical construct that creates mild conceptual tension with an evidence-based framing. The term 'incoherent' is used loosely and may conflate genuine relational dysfunction with discomfort or avoidance, which slightly undermines internal logical rigor.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is recovering from a pattern of enmeshment, coercive control, or chronic over-explanation enforced by others.\",\n    \"The speaker has a demonstrated therapeutic history of difficulty asserting boundaries due to guilt, fear, or socialization.\",\n    \"The situations being disengaged from have been clinically assessed or collaboratively identified as genuinely harmful or unproductive.\",\n    \"The statement is used as a transitional tool during active therapeutic work, not as a permanent relational heuristic.\",\n    \"The clinician is monitoring for avoidant patterns and distinguishing healthy boundary-setting from maladaptive withdrawal.\",\n    \"The speaker has sufficient reflective capacity to apply the statement selectively rather than categorically.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to rationalize avoidance of necessary conflict, accountability, or repair in relationships.\",\n    \"The 'incoherence' attributed to situations is actually the speaker's own unprocessed emotional reactivity projected outward.\",\n    \"The statement is applied categorically, replacing discernment with a blanket permission to disengage.\",\n    \"The concept of 'energetic boundaries' is being used in a clinical context without scrutiny, lending pseudoscientific legitimacy to subjective preferences.\",\n    \"Guilt being suppressed is actually a functional moral signal indicating harm being done to others, not a distortion.\",\n    \"The therapeutic frame is being used to insulate the speaker from feedback rather than to support genuine growth.\",\n    \"The statement reinforces a self-sealing belief system where any challenge to the speaker's disengagement can itself be labeled 'incoherent' and dismissed.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-script, likely used in a therapeutic context to reinforce boundary-setting behavior, reduce guilt associated with disengagement, and consolidate a sense of self-authorization. It performs emotional regulation and identity stabilization through declarative self-narration.",
+    "implicit_claims": [
+      "The speaker has 'energetic boundaries' that are real and worth protecting.",
+      "Explanation of one's boundaries is not obligatory and may be counterproductive.",
+      "Some situations or interactions are legitimately 'incoherent' and warrant non-engagement rather than resolution.",
+      "Guilt associated with moving away from people or situations is a distortion to be overcome, not a signal to be heeded.",
+      "A 'no' is inherently sufficient and requires no justification.",
+      "Disengagement is a form of self-honoring rather than avoidance or harm.",
+      "The speaker has the epistemic authority to determine what is 'incoherent' without further inquiry.",
+      "The concept of 'energetic' framing is clinically coherent or at least therapeutically neutral."
+    ],
+    "coherence_assessment": "The statement is internally consistent as a rhetorical and affirmational unit. Each line reinforces the others thematically around the core idea of justified disengagement without explanation or guilt. However, the use of 'energetic boundaries' introduces a non-clinical construct that creates mild conceptual tension with an evidence-based framing. The term 'incoherent' is used loosely and may conflate genuine relational dysfunction with discomfort or avoidance, which slightly undermines internal logical rigor.",
+    "conditions_for_usefulness": [
+      "The speaker is recovering from a pattern of enmeshment, coercive control, or chronic over-explanation enforced by others.",
+      "The speaker has a demonstrated therapeutic history of difficulty asserting boundaries due to guilt, fear, or socialization.",
+      "The situations being disengaged from have been clinically assessed or collaboratively identified as genuinely harmful or unproductive.",
+      "The statement is used as a transitional tool during active therapeutic work, not as a permanent relational heuristic.",
+      "The clinician is monitoring for avoidant patterns and distinguishing healthy boundary-setting from maladaptive withdrawal.",
+      "The speaker has sufficient reflective capacity to apply the statement selectively rather than categorically."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to rationalize avoidance of necessary conflict, accountability, or repair in relationships.",
+      "The 'incoherence' attributed to situations is actually the speaker's own unprocessed emotional reactivity projected outward.",
+      "The statement is applied categorically, replacing discernment with a blanket permission to disengage.",
+      "The concept of 'energetic boundaries' is being used in a clinical context without scrutiny, lending pseudoscientific legitimacy to subjective preferences.",
+      "Guilt being suppressed is actually a functional moral signal indicating harm being done to others, not a distortion.",
+      "The therapeutic frame is being used to insulate the speaker from feedback rather than to support genuine growth.",
+      "The statement reinforces a self-sealing belief system where any challenge to the speaker's disengagement can itself be labeled 'incoherent' and dismissed."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 205,
+  "output_tokens": 782,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "78e6c18c380347a0c408677f178caf65af87c0b7c60227eddc8ff63949f36406"
+}

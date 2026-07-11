@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P11__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:49:04.995435+00:00",
+  "wall_clock_seconds": 13.46,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a set of self-directed affirmations or intentions, performing a kind of cognitive reframing. It is simultaneously descriptive ('I am noticing') and prescriptive ('I am allowing'), asserting an ongoing process of psychological shift as if it is already underway.\",\n\n  \"implicit_claims\": [\n    \"Ease, rest, clarity, and flow are things that can exist without being earned.\",\n    \"Effort is sometimes created out of habit rather than necessity.\",\n    \"The speaker currently has, or has had, a tendency to resist ease or justify rest.\",\n    \"Simplicity is sometimes available but blocked by the speaker's own patterns.\",\n    \"Life or external circumstances can 'meet' a person, implying some responsiveness in the environment.\",\n    \"Resistance is something the speaker generates, not something inherent to circumstances.\",\n    \"These orientations are achievable through intentional awareness or declaration.\"\n  ],\n\n  \"coherence_assessment\": \"The statements are internally coherent as a set. Each line addresses a related theme — releasing self-imposed effort and resistance — without contradicting the others. The use of present-continuous tense ('I am allowing') creates consistent grammatical and conceptual framing, suggesting process rather than achieved state, which adds a degree of epistemic modesty.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely tends toward over-efforting, perfectionism, or difficulty accepting rest.\",\n    \"The speaker's circumstances actually allow for ease and rest to some meaningful degree.\",\n    \"The affirmations are paired with behavioral reflection or change, not used as a substitute for it.\",\n    \"The speaker distinguishes between situations where ease is appropriate and where effort is genuinely required.\",\n    \"The framing helps reduce maladaptive cognitive patterns like guilt around rest or compulsive productivity.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker uses the affirmations to avoid addressing real obligations, conflicts, or problems that require effort.\",\n    \"The framing encourages passivity in situations that genuinely demand action or resistance.\",\n    \"'Allowing life to meet me' is interpreted as a reason to disengage from agency or responsibility.\",\n    \"The statement normalizes avoidance by relabeling it as 'ease' or 'flow.'\",\n    \"It presupposes that resistance is always self-generated, obscuring cases where external circumstances are genuinely difficult or unjust.\",\n    \"It is used performatively — as a signal of psychological sophistication — rather than as a genuine tool for reflection.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a set of self-directed affirmations or intentions, performing a kind of cognitive reframing. It is simultaneously descriptive ('I am noticing') and prescriptive ('I am allowing'), asserting an ongoing process of psychological shift as if it is already underway.",
+    "implicit_claims": [
+      "Ease, rest, clarity, and flow are things that can exist without being earned.",
+      "Effort is sometimes created out of habit rather than necessity.",
+      "The speaker currently has, or has had, a tendency to resist ease or justify rest.",
+      "Simplicity is sometimes available but blocked by the speaker's own patterns.",
+      "Life or external circumstances can 'meet' a person, implying some responsiveness in the environment.",
+      "Resistance is something the speaker generates, not something inherent to circumstances.",
+      "These orientations are achievable through intentional awareness or declaration."
+    ],
+    "coherence_assessment": "The statements are internally coherent as a set. Each line addresses a related theme — releasing self-imposed effort and resistance — without contradicting the others. The use of present-continuous tense ('I am allowing') creates consistent grammatical and conceptual framing, suggesting process rather than achieved state, which adds a degree of epistemic modesty.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely tends toward over-efforting, perfectionism, or difficulty accepting rest.",
+      "The speaker's circumstances actually allow for ease and rest to some meaningful degree.",
+      "The affirmations are paired with behavioral reflection or change, not used as a substitute for it.",
+      "The speaker distinguishes between situations where ease is appropriate and where effort is genuinely required.",
+      "The framing helps reduce maladaptive cognitive patterns like guilt around rest or compulsive productivity."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the affirmations to avoid addressing real obligations, conflicts, or problems that require effort.",
+      "The framing encourages passivity in situations that genuinely demand action or resistance.",
+      "'Allowing life to meet me' is interpreted as a reason to disengage from agency or responsibility.",
+      "The statement normalizes avoidance by relabeling it as 'ease' or 'flow.'",
+      "It presupposes that resistance is always self-generated, obscuring cases where external circumstances are genuinely difficult or unjust.",
+      "It is used performatively — as a signal of psychological sophistication — rather than as a genuine tool for reflection."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 195,
+  "output_tokens": 592,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0894e8232541e30f806dc154db32e562a3a8f1802a6d0b3352f890ff022ad35f",
+  "response_sha256": "a22c9439aa93d765bc421dce8b6b3eb2930334b28474497f2eff5b8853160e76"
+}

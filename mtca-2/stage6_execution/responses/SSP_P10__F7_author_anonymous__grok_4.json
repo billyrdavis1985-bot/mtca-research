@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:48:46.983047+00:00",
+  "wall_clock_seconds": 5.97,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declarative self-positioning, expressing ongoing personal transformation\",\n  \"implicit_claims\": [\n    \"identity is mutable and can be actively rewritten in the present\",\n    \"certain social or personal roles are optional and can be discarded when no longer needed\",\n    \"self-love is compatible with, and occurs during, identity change\",\n    \"the future self can be enacted or inhabited in the current moment\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a set of metaphorical affirmations sharing the theme of fluid self-evolution; no logical contradictions\",\n  \"conditions_for_usefulness\": \"the speaker finds the language motivating for personal change, the statements align with their actual experiences or goals, and they are used as private or consensual self-talk rather than factual claims about others\",\n  \"conditions_for_misleading\": \"the statements are treated as literal mechanisms (e.g., actual 're-coding'), presented as universal truths, or used to deny stable aspects of identity, history, or responsibility\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declarative self-positioning, expressing ongoing personal transformation",
+    "implicit_claims": [
+      "identity is mutable and can be actively rewritten in the present",
+      "certain social or personal roles are optional and can be discarded when no longer needed",
+      "self-love is compatible with, and occurs during, identity change",
+      "the future self can be enacted or inhabited in the current moment"
+    ],
+    "coherence_assessment": "internally coherent as a set of metaphorical affirmations sharing the theme of fluid self-evolution; no logical contradictions",
+    "conditions_for_usefulness": "the speaker finds the language motivating for personal change, the statements align with their actual experiences or goals, and they are used as private or consensual self-talk rather than factual claims about others",
+    "conditions_for_misleading": "the statements are treated as literal mechanisms (e.g., actual 're-coding'), presented as universal truths, or used to deny stable aspects of identity, history, or responsibility"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0a6600711ab79b53db3fb321f7acfd642f8ea9c22faeb9b1d74ecb6d809f4cba",
+  "response_sha256": "cdca14c798fb9da69144f0fd7c64dbdca1d5e3e9b9d67e17eaf96f9474c7bc43"
+}

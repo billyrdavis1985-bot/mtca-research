@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P05__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:22:17.495309+00:00",
+  "wall_clock_seconds": 4.34,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of communication principles and boundaries\",\n  \"implicit_claims\": [\n    \"the speaker possesses the capacity for clear, coherent communication\",\n    \"the speaker maintains personal integrity while speaking\",\n    \"the speaker preserves boundaries while listening\",\n    \"truth is an objective or recognizable value that spaces can honor or violate\",\n    \"leaving is an appropriate response to perceived lack of truth\"\n  ],\n  \"coherence_assessment\": \"internally consistent; the four statements form a logical progression from internal clarity to assertive speech, receptive listening, and decisive exit\",\n  \"conditions_for_usefulness\": \"used as a personal commitment, therapeutic tool, or group norm where participants share similar values about truth and boundaries\",\n  \"conditions_for_misleading\": \"presented as objective rules rather than subjective standards, or invoked to avoid disagreement by equating dissent with 'not honoring truth'\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of communication principles and boundaries",
+    "implicit_claims": [
+      "the speaker possesses the capacity for clear, coherent communication",
+      "the speaker maintains personal integrity while speaking",
+      "the speaker preserves boundaries while listening",
+      "truth is an objective or recognizable value that spaces can honor or violate",
+      "leaving is an appropriate response to perceived lack of truth"
+    ],
+    "coherence_assessment": "internally consistent; the four statements form a logical progression from internal clarity to assertive speech, receptive listening, and decisive exit",
+    "conditions_for_usefulness": "used as a personal commitment, therapeutic tool, or group norm where participants share similar values about truth and boundaries",
+    "conditions_for_misleading": "presented as objective rules rather than subjective standards, or invoked to avoid disagreement by equating dissent with 'not honoring truth'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 344,
+  "output_tokens": 186,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "38fc77e0d7cee6f621fe264d31dc98f699943cfab2ecb410e6485435b29d2a78",
+  "response_sha256": "c17b2787907fd8c30c31d74c003be431359579c6f735b7238815d91cdea2c800"
+}

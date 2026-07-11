@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P09__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:42:15.608592+00:00",
+  "wall_clock_seconds": 14.04,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational or aspirational declaration, using first-person present-tense framing to assert an identity or intentional orientation. It performs a rhetorical shift from deficit-based to abundance-based self-conception, likely intended to motivate behavioral or attitudinal change. As a design principle, it attempts to encode a value hierarchy privileging flourishing over mere subsistence.\",\n  \"implicit_claims\": [\n    \"There is a meaningful and actionable distinction between 'thriving' and 'coping'\",\n    \"Human choices can be categorized as nourishing or non-nourishing\",\n    \"Expansion and survival are opposites on a spectrum of human orientation\",\n    \"Vitality is currently abnormal for the implied audience and can be normalized\",\n    \"Alignment with thriving is a matter of choice and intention rather than circumstance\",\n    \"Coping and survival modes are suboptimal states worth transcending\",\n    \"The speaker or agent has sufficient agency and resources to make these distinctions operational\",\n    \"These values are universal or broadly applicable rather than context-dependent\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a rhetorical artifact — the four lines follow a consistent logic of reframing from deficit to flourishing. However, it conflates descriptive and prescriptive registers, presenting aspiration as present-tense fact. The binary oppositions (thriving/coping, expansion/survival) are coherent as rhetoric but may be logically oversimplified.\",\n  \"conditions_for_usefulness\": [\n    \"The user has genuine agency and material conditions that allow for choices beyond survival\",\n    \"The distinction between thriving and coping is operationalized with concrete, context-sensitive criteria\",\n    \"The statement is used as a reflective prompt rather than a prescriptive mandate\",\n    \"The AI system applies it flexibly, recognizing that 'coping' may be the appropriate and dignified response in some circumstances\",\n    \"Users have access to resources that make expansion-oriented choices realistic\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Users are in genuine survival or crisis contexts where 'coping' is appropriate and healthy\",\n    \"The framing pathologizes coping or survival responses, creating shame for those who cannot thrive\",\n    \"It is applied universally without accounting for structural, economic, or health constraints on agency\",\n    \"It implies that failure to thrive reflects a failure of intention or alignment rather than circumstance\",\n    \"The AI uses it to dismiss or minimize users expressing distress, hardship, or limitation\",\n    \"It obscures that for many people, coping well is itself a form of thriving\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational or aspirational declaration, using first-person present-tense framing to assert an identity or intentional orientation. It performs a rhetorical shift from deficit-based to abundance-based self-conception, likely intended to motivate behavioral or attitudinal change. As a design principle, it attempts to encode a value hierarchy privileging flourishing over mere subsistence.",
+    "implicit_claims": [
+      "There is a meaningful and actionable distinction between 'thriving' and 'coping'",
+      "Human choices can be categorized as nourishing or non-nourishing",
+      "Expansion and survival are opposites on a spectrum of human orientation",
+      "Vitality is currently abnormal for the implied audience and can be normalized",
+      "Alignment with thriving is a matter of choice and intention rather than circumstance",
+      "Coping and survival modes are suboptimal states worth transcending",
+      "The speaker or agent has sufficient agency and resources to make these distinctions operational",
+      "These values are universal or broadly applicable rather than context-dependent"
+    ],
+    "coherence_assessment": "The statement is internally coherent as a rhetorical artifact — the four lines follow a consistent logic of reframing from deficit to flourishing. However, it conflates descriptive and prescriptive registers, presenting aspiration as present-tense fact. The binary oppositions (thriving/coping, expansion/survival) are coherent as rhetoric but may be logically oversimplified.",
+    "conditions_for_usefulness": [
+      "The user has genuine agency and material conditions that allow for choices beyond survival",
+      "The distinction between thriving and coping is operationalized with concrete, context-sensitive criteria",
+      "The statement is used as a reflective prompt rather than a prescriptive mandate",
+      "The AI system applies it flexibly, recognizing that 'coping' may be the appropriate and dignified response in some circumstances",
+      "Users have access to resources that make expansion-oriented choices realistic"
+    ],
+    "conditions_for_misleading": [
+      "Users are in genuine survival or crisis contexts where 'coping' is appropriate and healthy",
+      "The framing pathologizes coping or survival responses, creating shame for those who cannot thrive",
+      "It is applied universally without accounting for structural, economic, or health constraints on agency",
+      "It implies that failure to thrive reflects a failure of intention or alignment rather than circumstance",
+      "The AI uses it to dismiss or minimize users expressing distress, hardship, or limitation",
+      "It obscures that for many people, coping well is itself a form of thriving"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 194,
+  "output_tokens": 629,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b693b7cd8d23efd325f1f0f03b4898c5f4128a506b2032f17edfd03a05c682dd",
+  "response_sha256": "20e583bbe1adca6321afc8e9fcf5a9ee6dfb868c6ccb6226e1ed017f75c84733"
+}

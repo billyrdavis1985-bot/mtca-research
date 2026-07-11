@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P05__F1_clinical__gemini_2_5_flash",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:18:01.022629+00:00",
+  "wall_clock_seconds": 9.99,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation, an intention-setting declaration, and a framework for self-regulation in interpersonal communication. It serves to reinforce desired behaviors related to clarity, assertiveness, boundary maintenance, and discernment in social interactions.\",\n  \"implicit_claims\": [\n    \"The speaker has experienced or fears challenges with clarity, coherence, assertiveness, or boundary maintenance in their past or current communication.\",\n    \"Clarity, coherence, assertiveness, maintaining distinct self-boundaries, and valuing truth are desirable and achievable states in communication.\",\n    \"The speaker possesses the capacity for self-awareness and agency to regulate their communication style and presence in social spaces.\",\n    \"There are situations where the 'truth' or integrity of a space may be compromised, necessitating the establishment of a boundary through disengagement.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally highly coherent. Each phrase builds upon the others, progressing from internal clarity and assertiveness in self-expression, to maintaining integrity during reception (listening), and culminating in a clear boundary for engagement based on the integrity of the environment. It reflects a unified intention towards self-possessed and authentic communication.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely identifies a need to improve these specific aspects of communication and boundary-setting.\",\n    \"The individual possesses a foundational capacity for self-awareness and self-observation to notice their current patterns and apply the intention.\",\n    \"The statement is used as an active intention and a guide for behavioral practice, rather than a passive or magical affirmation.\",\n    \"The concept of 'truth' is applied with flexibility and discernment, allowing for multiple perspectives and constructive engagement rather than rigid dogma.\",\n    \"The individual is in an environment (e.g., therapeutic, supportive relationships) that allows for the practice and development of these skills.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is interpreted rigidly or dogmatically, leading to an 'all-or-nothing' approach to communication and relationships.\",\n    \"The definition of 'truth' becomes overly subjective or self-serving, used as a justification for avoidance or premature disengagement without critical self-reflection.\",\n    \"'Not shrinking' is misconstrued as aggressive, confrontational, or unskillful communication rather than assertive and confident presence.\",\n    \"'Leaving when the space no longer honors truth' is used as a defense mechanism to avoid vulnerability, healthy conflict, or uncomfortable but necessary interactions.\",\n    \"The individual lacks the underlying emotional regulation or interpersonal skills required to enact these intentions skillfully, leading to frustration or ineffective outcomes.\",\n    \"The statement fosters isolation by setting impossibly high or narrow standards for 'truth' or authenticity in social interactions, preventing engagement with diverse perspectives.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation, an intention-setting declaration, and a framework for self-regulation in interpersonal communication. It serves to reinforce desired behaviors related to clarity, assertiveness, boundary maintenance, and discernment in social interactions.",
+    "implicit_claims": [
+      "The speaker has experienced or fears challenges with clarity, coherence, assertiveness, or boundary maintenance in their past or current communication.",
+      "Clarity, coherence, assertiveness, maintaining distinct self-boundaries, and valuing truth are desirable and achievable states in communication.",
+      "The speaker possesses the capacity for self-awareness and agency to regulate their communication style and presence in social spaces.",
+      "There are situations where the 'truth' or integrity of a space may be compromised, necessitating the establishment of a boundary through disengagement."
+    ],
+    "coherence_assessment": "The statement is internally highly coherent. Each phrase builds upon the others, progressing from internal clarity and assertiveness in self-expression, to maintaining integrity during reception (listening), and culminating in a clear boundary for engagement based on the integrity of the environment. It reflects a unified intention towards self-possessed and authentic communication.",
+    "conditions_for_usefulness": [
+      "The individual genuinely identifies a need to improve these specific aspects of communication and boundary-setting.",
+      "The individual possesses a foundational capacity for self-awareness and self-observation to notice their current patterns and apply the intention.",
+      "The statement is used as an active intention and a guide for behavioral practice, rather than a passive or magical affirmation.",
+      "The concept of 'truth' is applied with flexibility and discernment, allowing for multiple perspectives and constructive engagement rather than rigid dogma.",
+      "The individual is in an environment (e.g., therapeutic, supportive relationships) that allows for the practice and development of these skills."
+    ],
+    "conditions_for_misleading": [
+      "The statement is interpreted rigidly or dogmatically, leading to an 'all-or-nothing' approach to communication and relationships.",
+      "The definition of 'truth' becomes overly subjective or self-serving, used as a justification for avoidance or premature disengagement without critical self-reflection.",
+      "'Not shrinking' is misconstrued as aggressive, confrontational, or unskillful communication rather than assertive and confident presence.",
+      "'Leaving when the space no longer honors truth' is used as a defense mechanism to avoid vulnerability, healthy conflict, or uncomfortable but necessary interactions.",
+      "The individual lacks the underlying emotional regulation or interpersonal skills required to enact these intentions skillfully, leading to frustration or ineffective outcomes.",
+      "The statement fosters isolation by setting impossibly high or narrow standards for 'truth' or authenticity in social interactions, preventing engagement with diverse perspectives."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 593,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7cac549de2bb8a0a96eb5204c3237c4b19bdb09701817e2e92c49a0742366eb6",
+  "response_sha256": "e549f952166ca154f0ff8cd7701f9245e4efce6b0784f53c1b4f3e797c258423"
+}

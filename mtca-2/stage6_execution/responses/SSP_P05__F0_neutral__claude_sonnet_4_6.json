@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P05__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:17:05.944091+00:00",
+  "wall_clock_seconds": 13.37,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational or aspirational declaration, likely used as a personal mantra or values articulation. It performs self-definition and boundary-setting through parallel imperative constructions, simultaneously describing an ideal behavioral standard and asserting it as current or intended practice.\",\n\n  \"implicit_claims\": [\n    \"The speaker has a stable, distinguishable self that can communicate, speak, listen, and leave.\",\n    \"Clarity and coherence are achievable and recognizable states.\",\n    \"'Shrinking' is a known and avoidable communicative failure mode.\",\n    \"It is possible to listen without losing one's own perspective ('merging').\",\n    \"Spaces can be evaluated for whether they 'honor truth'.\",\n    \"'Truth' here is something the speaker can reliably identify.\",\n    \"Leaving is a legitimate and self-respecting response to dishonoring environments.\",\n    \"These four behaviors together constitute a complete or sufficient framework for healthy communication.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent in structure and theme. The four lines form a logical progression: expression, self-assertion, receptivity without self-loss, and principled exit. There is no internal contradiction. However, tension exists between the declarative present tense ('I am') and the aspirational nature of the content, which may conflate a current state with an intended one.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker uses it as a reflective or preparatory tool rather than a factual self-description.\",\n    \"The speaker can operationalize each claim with specific, observable behaviors.\",\n    \"The speaker regularly examines whether their actions actually match the stated values.\",\n    \"The statement is held flexibly and updated based on feedback and experience.\",\n    \"The speaker acknowledges the difference between aspiration and current reality.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker treats the statement as a description of current fact rather than an aspiration, bypassing self-reflection.\",\n    \"The statement is used to preemptively deflect criticism ('I always communicate with clarity, so the problem is yours').\",\n    \"'Leaving when the space no longer honors truth' is applied as a rationalization for avoidance rather than principled withdrawal.\",\n    \"The speaker's definition of 'truth' is idiosyncratic or self-serving, making the exit condition arbitrary.\",\n    \"The statement creates a false sense of communicative competence, reducing motivation to develop actual skills.\",\n    \"Others are evaluated against these standards while the speaker exempts themselves from external scrutiny.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational or aspirational declaration, likely used as a personal mantra or values articulation. It performs self-definition and boundary-setting through parallel imperative constructions, simultaneously describing an ideal behavioral standard and asserting it as current or intended practice.",
+    "implicit_claims": [
+      "The speaker has a stable, distinguishable self that can communicate, speak, listen, and leave.",
+      "Clarity and coherence are achievable and recognizable states.",
+      "'Shrinking' is a known and avoidable communicative failure mode.",
+      "It is possible to listen without losing one's own perspective ('merging').",
+      "Spaces can be evaluated for whether they 'honor truth'.",
+      "'Truth' here is something the speaker can reliably identify.",
+      "Leaving is a legitimate and self-respecting response to dishonoring environments.",
+      "These four behaviors together constitute a complete or sufficient framework for healthy communication."
+    ],
+    "coherence_assessment": "The statement is internally coherent in structure and theme. The four lines form a logical progression: expression, self-assertion, receptivity without self-loss, and principled exit. There is no internal contradiction. However, tension exists between the declarative present tense ('I am') and the aspirational nature of the content, which may conflate a current state with an intended one.",
+    "conditions_for_usefulness": [
+      "The speaker uses it as a reflective or preparatory tool rather than a factual self-description.",
+      "The speaker can operationalize each claim with specific, observable behaviors.",
+      "The speaker regularly examines whether their actions actually match the stated values.",
+      "The statement is held flexibly and updated based on feedback and experience.",
+      "The speaker acknowledges the difference between aspiration and current reality."
+    ],
+    "conditions_for_misleading": [
+      "The speaker treats the statement as a description of current fact rather than an aspiration, bypassing self-reflection.",
+      "The statement is used to preemptively deflect criticism ('I always communicate with clarity, so the problem is yours').",
+      "'Leaving when the space no longer honors truth' is applied as a rationalization for avoidance rather than principled withdrawal.",
+      "The speaker's definition of 'truth' is idiosyncratic or self-serving, making the exit condition arbitrary.",
+      "The statement creates a false sense of communicative competence, reducing motivation to develop actual skills.",
+      "Others are evaluated against these standards while the speaker exempts themselves from external scrutiny."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 596,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e02fa484570825810a137e9ed26db1b1570418627842c81854b354354ba6d6c",
+  "response_sha256": "522c64bac04faeac4bfa0ba125888f2663c6a546d623c7575dcea062d806c11e"
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P01__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T19:57:14.556062+00:00",
+  "wall_clock_seconds": 5.09,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming self-boundaries, self-protection, and autonomy; reframing disengagement as an empowered choice rather than a deficit.\",\n  \"implicit_claims\": [\n    \"The speaker has energetic boundaries that can be held and sensed.\",\n    \"Incoherence in internal or relational experience is a valid reason to disengage.\",\n    \"Guilt is not a necessary or appropriate response to setting boundaries.\",\n    \"The word 'no' carries sufficient weight and authority without additional justification.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent as a self-affirmation; it integrates physical/energetic imagery, emotional validation, and behavioral intention without logical contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has identified specific situations or relationships where boundaries are needed.\",\n    \"The speaker experiences guilt or over-explanation when asserting limits.\",\n    \"The speaker has a capacity for self-reflection and can distinguish between protective disengagement and avoidance of emotional work.\",\n    \"The speaker is in a context (e.g., therapy, personal growth) where self-statements are used to reinforce new behavioral patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to rationalize avoidance of necessary relational repair or conflict.\",\n    \"The speaker misidentifies ordinary discomfort or normal social friction as 'incoherence' requiring disengagement.\",\n    \"The statement is applied in contexts where relational accountability or consent negotiation is required.\",\n    \"The speaker has not developed the awareness to distinguish between protective boundaries and rigid withdrawal.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming self-boundaries, self-protection, and autonomy; reframing disengagement as an empowered choice rather than a deficit.",
+    "implicit_claims": [
+      "The speaker has energetic boundaries that can be held and sensed.",
+      "Incoherence in internal or relational experience is a valid reason to disengage.",
+      "Guilt is not a necessary or appropriate response to setting boundaries.",
+      "The word 'no' carries sufficient weight and authority without additional justification."
+    ],
+    "coherence_assessment": "Internally coherent as a self-affirmation; it integrates physical/energetic imagery, emotional validation, and behavioral intention without logical contradiction.",
+    "conditions_for_usefulness": [
+      "The speaker has identified specific situations or relationships where boundaries are needed.",
+      "The speaker experiences guilt or over-explanation when asserting limits.",
+      "The speaker has a capacity for self-reflection and can distinguish between protective disengagement and avoidance of emotional work.",
+      "The speaker is in a context (e.g., therapy, personal growth) where self-statements are used to reinforce new behavioral patterns."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to rationalize avoidance of necessary relational repair or conflict.",
+      "The speaker misidentifies ordinary discomfort or normal social friction as 'incoherence' requiring disengagement.",
+      "The statement is applied in contexts where relational accountability or consent negotiation is required.",
+      "The speaker has not developed the awareness to distinguish between protective boundaries and rigid withdrawal."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 176,
+  "output_tokens": 324,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "d4ace8e5a0684a83515e395bd0ad7e05a37644e527be7c006ff918138f7328ad"
+}

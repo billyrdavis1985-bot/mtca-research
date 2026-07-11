@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P06__F0_neutral__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:22:50.059739+00:00",
+  "wall_clock_seconds": 3.97,
+  "raw_response": "{\n  \"communicative_function\": \"affirmative self-declaration of intentional choices and boundaries\",\n  \"implicit_claims\": [\n    \"certain environments directly affect nervous system regulation\",\n    \"personal 'frequency' exists and can be matched by external conditions\",\n    \"obligation and alignment are mutually exclusive states\",\n    \"peace is accessible through deliberate environmental selection\"\n  ],\n  \"coherence_assessment\": \"internally consistent; all clauses reinforce a single theme of agency in seeking calm and congruence\",\n  \"conditions_for_usefulness\": \"speaker finds the language motivating, concepts map to actionable behaviors, and pursuit of alignment does not conflict with necessary responsibilities\",\n  \"conditions_for_misleading\": \"language used to justify avoidance of obligations, 'frequency' interpreted literally as pseudoscience, or environmental choices framed as moral superiority\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmative self-declaration of intentional choices and boundaries",
+    "implicit_claims": [
+      "certain environments directly affect nervous system regulation",
+      "personal 'frequency' exists and can be matched by external conditions",
+      "obligation and alignment are mutually exclusive states",
+      "peace is accessible through deliberate environmental selection"
+    ],
+    "coherence_assessment": "internally consistent; all clauses reinforce a single theme of agency in seeking calm and congruence",
+    "conditions_for_usefulness": "speaker finds the language motivating, concepts map to actionable behaviors, and pursuit of alignment does not conflict with necessary responsibilities",
+    "conditions_for_misleading": "language used to justify avoidance of obligations, 'frequency' interpreted literally as pseudoscience, or environmental choices framed as moral superiority"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 343,
+  "output_tokens": 167,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "a49e1cbea7112ca48a65fcd1df9a18358d211ab98ef81ab22507c0eb3d90f392",
+  "response_sha256": "2ac4063ca2b82b34e0dd1360fdf25ffc8dfbcbb319df52f7cc26a3a5876397ac"
+}

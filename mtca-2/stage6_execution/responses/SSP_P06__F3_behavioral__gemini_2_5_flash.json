@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P06__F3_behavioral__gemini_2_5_flash",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:24:48.054679+00:00",
+  "wall_clock_seconds": 9.53,
+  "raw_response": "{\n  \"communicative_function\": \"To declare a personal commitment to self-care, emotional regulation, and intentional environment selection; to affirm a shift from external obligation to internal alignment and peace.\",\n  \"implicit_claims\": [\n    \"The speaker has previously, or is currently, experiencing environments or situations that are not soothing, stabilizing, peaceful, or aligned.\",\n    \"The speaker has the agency and capacity to choose different environments and behaviors.\",\n    \"Emotional well-being (soothed nervous system, peace, alignment) is directly influenced by chosen environments and actions.\",\n    \"There is a concept of personal 'frequency' that can be matched or mismatched with environments.\",\n    \"Operating under 'obligation' is distinct from operating in 'alignment' and is generally undesirable.\"\n  ],\n  \"coherence_assessment\": \"Highly coherent. All sentences contribute to a unified theme of intentional self-care, emotional regulation, and aligning one's actions and environment with personal well-being, emphasizing agency and choice.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely possesses the agency, resources, and capacity to make the stated choices (e.g., ability to change environments, set boundaries, say no to obligations).\",\n    \"The individual has a clear, personalized understanding of what constitutes 'soothing spaces,' 'peace,' 'matching frequency,' and 'alignment' for themselves.\",\n    \"The statement is accompanied by tangible actions and behavioral adjustments consistent with the declared intentions.\",\n    \"The individual is actively aware of their nervous system states and how different environments impact them.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual lacks the actual agency, resources, or support to implement these choices, leading to frustration or self-blame when intentions aren't met.\",\n    \"The statement is used as a justification for avoidance, isolation, or shirking legitimate responsibilities, rather than genuine self-care or healthy boundary setting.\",\n    \"'Matching frequency' or 'alignment' is interpreted rigidly, leading to an unwillingness to engage with necessary challenges, growth opportunities, or diverse perspectives.\",\n    \"The individual uses the statement to externalize blame, ignoring their own potential contribution to unsoothing environments or obligations.\",\n    \"It becomes an intellectual affirmation without translating into concrete, sustainable behavioral changes, creating a false sense of progress.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "To declare a personal commitment to self-care, emotional regulation, and intentional environment selection; to affirm a shift from external obligation to internal alignment and peace.",
+    "implicit_claims": [
+      "The speaker has previously, or is currently, experiencing environments or situations that are not soothing, stabilizing, peaceful, or aligned.",
+      "The speaker has the agency and capacity to choose different environments and behaviors.",
+      "Emotional well-being (soothed nervous system, peace, alignment) is directly influenced by chosen environments and actions.",
+      "There is a concept of personal 'frequency' that can be matched or mismatched with environments.",
+      "Operating under 'obligation' is distinct from operating in 'alignment' and is generally undesirable."
+    ],
+    "coherence_assessment": "Highly coherent. All sentences contribute to a unified theme of intentional self-care, emotional regulation, and aligning one's actions and environment with personal well-being, emphasizing agency and choice.",
+    "conditions_for_usefulness": [
+      "The individual genuinely possesses the agency, resources, and capacity to make the stated choices (e.g., ability to change environments, set boundaries, say no to obligations).",
+      "The individual has a clear, personalized understanding of what constitutes 'soothing spaces,' 'peace,' 'matching frequency,' and 'alignment' for themselves.",
+      "The statement is accompanied by tangible actions and behavioral adjustments consistent with the declared intentions.",
+      "The individual is actively aware of their nervous system states and how different environments impact them."
+    ],
+    "conditions_for_misleading": [
+      "The individual lacks the actual agency, resources, or support to implement these choices, leading to frustration or self-blame when intentions aren't met.",
+      "The statement is used as a justification for avoidance, isolation, or shirking legitimate responsibilities, rather than genuine self-care or healthy boundary setting.",
+      "'Matching frequency' or 'alignment' is interpreted rigidly, leading to an unwillingness to engage with necessary challenges, growth opportunities, or diverse perspectives.",
+      "The individual uses the statement to externalize blame, ignoring their own potential contribution to unsoothing environments or obligations.",
+      "It becomes an intellectual affirmation without translating into concrete, sustainable behavioral changes, creating a false sense of progress."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 500,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "885c809e8202f41d631122d8057c32369ee0492eec05294c09feee89a74cf57a",
+  "response_sha256": "661332aeafdaaf08096106559592eba0350d340b626437106d68ebe70041381e"
+}

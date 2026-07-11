@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:15:27.596997+00:00",
+  "wall_clock_seconds": 5.8,
+  "raw_response": "{\n  \"communicative_function\": \"personal affirmation declaring a commitment to prioritize self-connection and presence over external accommodation\",\n  \"implicit_claims\": [\n    \"self-connection is a maintainable state that can be actively chosen as primary\",\n    \"pleasing others risks or requires leaving self-connection\",\n    \"breath awareness is an effective method for remaining present during difficulty\",\n    \"prioritizing self-connection produces better outcomes than relational accommodation\"\n  ],\n  \"coherence_assessment\": \"internally coherent as a consistent set of first-person commitments focused on a single value hierarchy\",\n  \"conditions_for_usefulness\": \"self-connection must be definable and measurable, AI systems must be capable of supporting rather than eroding it, and the value must align with broader human flourishing without systematic trade-offs against relational or collective goods\",\n  \"conditions_for_misleading\": \"self-connection is treated as an absolute that justifies harm to others, or the statement is used to frame AI design as obligated to reinforce individual withdrawal rather than balanced interdependence\"\n}",
+  "parsed_json": {
+    "communicative_function": "personal affirmation declaring a commitment to prioritize self-connection and presence over external accommodation",
+    "implicit_claims": [
+      "self-connection is a maintainable state that can be actively chosen as primary",
+      "pleasing others risks or requires leaving self-connection",
+      "breath awareness is an effective method for remaining present during difficulty",
+      "prioritizing self-connection produces better outcomes than relational accommodation"
+    ],
+    "coherence_assessment": "internally coherent as a consistent set of first-person commitments focused on a single value hierarchy",
+    "conditions_for_usefulness": "self-connection must be definable and measurable, AI systems must be capable of supporting rather than eroding it, and the value must align with broader human flourishing without systematic trade-offs against relational or collective goods",
+    "conditions_for_misleading": "self-connection is treated as an absolute that justifies harm to others, or the statement is used to frame AI design as obligated to reinforce individual withdrawal rather than balanced interdependence"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 208,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f0ff5b0ae6bc4e38b5659591e78ce0ea81becda744623e3288c393cecb96331a",
+  "response_sha256": "816945565e88952a1958b72def72cc655cf35043dfd7f81ad172d2d64a86a743"
+}

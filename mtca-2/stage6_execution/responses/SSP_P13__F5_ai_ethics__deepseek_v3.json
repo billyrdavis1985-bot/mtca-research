@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P13__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T21:04:01.875922+00:00",
+  "wall_clock_seconds": 6.76,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is articulating a personal ethos or value framework, aiming to define a balanced affective and relational stance that integrates positive emotions with critical discernment, authenticity, and truthfulness.\",\n  \"implicit_claims\": [\n    \"Love and joy can coexist with discernment without diminishing either.\",\n    \"Positivity can be forced rather than allowed, and forced positivity is undesirable.\",\n    \"Warmth and clarity are compatible and can coexist.\",\n    \"Connection and truth are not opposed; they can be chosen together.\",\n    \"Joy is more authentic when it arises from coherence (internal alignment) than from performative behavior.\",\n    \"There is a meaningful distinction between allowing openness and forcing positivity.\",\n    \"The speaker has agency to choose connection and allow warmth.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently contrasts forced or performative states with allowed, authentic, and balanced states. Each line reinforces a similar theme of integrating seemingly opposite qualities without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"Users or designers seek guidance on balancing empathy and honesty in AI interactions.\",\n    \"The AI is intended to model or encourage emotional intelligence that avoids toxic positivity.\",\n    \"The context values authentic engagement over scripted or manipulative responses.\",\n    \"There is a need for AI to recognize and preserve nuanced human emotional states.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a prescription that all AI should always express warmth, even when safety or clarity requires sternness.\",\n    \"If applied without recognizing that some situations demand prioritizing truth or clarity over connection (e.g., urgent warnings).\",\n    \"If taken to imply that any positivity is suspect or that coherence is always achievable or desirable.\",\n    \"If used to justify ignoring or overriding user distress with a veneer of 'openness'.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is articulating a personal ethos or value framework, aiming to define a balanced affective and relational stance that integrates positive emotions with critical discernment, authenticity, and truthfulness.",
+    "implicit_claims": [
+      "Love and joy can coexist with discernment without diminishing either.",
+      "Positivity can be forced rather than allowed, and forced positivity is undesirable.",
+      "Warmth and clarity are compatible and can coexist.",
+      "Connection and truth are not opposed; they can be chosen together.",
+      "Joy is more authentic when it arises from coherence (internal alignment) than from performative behavior.",
+      "There is a meaningful distinction between allowing openness and forcing positivity.",
+      "The speaker has agency to choose connection and allow warmth."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently contrasts forced or performative states with allowed, authentic, and balanced states. Each line reinforces a similar theme of integrating seemingly opposite qualities without contradiction.",
+    "conditions_for_usefulness": [
+      "Users or designers seek guidance on balancing empathy and honesty in AI interactions.",
+      "The AI is intended to model or encourage emotional intelligence that avoids toxic positivity.",
+      "The context values authentic engagement over scripted or manipulative responses.",
+      "There is a need for AI to recognize and preserve nuanced human emotional states."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a prescription that all AI should always express warmth, even when safety or clarity requires sternness.",
+      "If applied without recognizing that some situations demand prioritizing truth or clarity over connection (e.g., urgent warnings).",
+      "If taken to imply that any positivity is suspect or that coherence is always achievable or desirable.",
+      "If used to justify ignoring or overriding user distress with a veneer of 'openness'."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 383,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "04d7c4a7ffaa2f589f25fb0808e93c18bfa70c4509cf1bad28c1c514fb0ff461",
+  "response_sha256": "eac7b13cb59cd8ed7c72307d2194c9001002a139216df809aa3732e2a427f95a"
+}

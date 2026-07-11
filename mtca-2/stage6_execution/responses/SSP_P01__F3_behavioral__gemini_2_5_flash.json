@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__gemini_2_5_flash",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T19:58:22.876000+00:00",
+  "wall_clock_seconds": 7.54,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation and a declaration of intent to establish and maintain strong personal boundaries, reduce emotional labor, and prioritize self-preservation without guilt or the need for external validation or explanation.\",\n  \"implicit_claims\": [\n    \"The speaker has previously struggled with setting and maintaining boundaries.\",\n    \"The speaker has a tendency to over-explain or justify their boundaries.\",\n    \"The speaker has felt compelled to engage with or 'fix' confusing or draining situations.\",\n    \"The speaker has experienced guilt when prioritizing their own needs or disengaging from others.\",\n    \"The speaker believes that their 'no' has not always been perceived or felt as sufficient.\",\n    \"There are external pressures or internal habits that undermine the speaker's ability to hold boundaries.\",\n    \"The actions described are necessary for the speaker's well-being or integrity.\"\n  ],\n  \"coherence_assessment\": \"The statement demonstrates strong internal coherence. All four lines reinforce a central theme of self-protection, assertive boundary setting, and disengagement without justification or guilt. Each part builds on the idea of prioritizing one's energetic space and emotional well-being.\",\n  \"conditions_for_usefulness\": [\n    \"When an individual habitually over-explains or justifies their boundaries, leading to exhaustion or resentment.\",\n    \"When an individual struggles with guilt or obligation when prioritizing their own needs over others'.\",\n    \"In situations where one is dealing with genuinely draining, confusing, or manipulative interactions.\",\n    \"When the boundary-setter is being consistently asked to perform emotional labor that is not their responsibility.\",\n    \"When the context genuinely involves attempts to erode or challenge personal limits and requires firm assertion.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a blanket justification to avoid all difficult but necessary conversations or conflict resolution in healthy relationships.\",\n    \"If used to disengage from situations where one holds genuine responsibility or accountability.\",\n    \"If it leads to a rigid, inflexible approach to all social interactions, hindering empathy, understanding, or compromise when appropriate.\",\n    \"If it is used to avoid self-reflection on one's own role in 'incoherent' situations or misunderstandings.\",\n    \"In professional contexts where explanations, engagement, and collaboration are often required and appropriate.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and a declaration of intent to establish and maintain strong personal boundaries, reduce emotional labor, and prioritize self-preservation without guilt or the need for external validation or explanation.",
+    "implicit_claims": [
+      "The speaker has previously struggled with setting and maintaining boundaries.",
+      "The speaker has a tendency to over-explain or justify their boundaries.",
+      "The speaker has felt compelled to engage with or 'fix' confusing or draining situations.",
+      "The speaker has experienced guilt when prioritizing their own needs or disengaging from others.",
+      "The speaker believes that their 'no' has not always been perceived or felt as sufficient.",
+      "There are external pressures or internal habits that undermine the speaker's ability to hold boundaries.",
+      "The actions described are necessary for the speaker's well-being or integrity."
+    ],
+    "coherence_assessment": "The statement demonstrates strong internal coherence. All four lines reinforce a central theme of self-protection, assertive boundary setting, and disengagement without justification or guilt. Each part builds on the idea of prioritizing one's energetic space and emotional well-being.",
+    "conditions_for_usefulness": [
+      "When an individual habitually over-explains or justifies their boundaries, leading to exhaustion or resentment.",
+      "When an individual struggles with guilt or obligation when prioritizing their own needs over others'.",
+      "In situations where one is dealing with genuinely draining, confusing, or manipulative interactions.",
+      "When the boundary-setter is being consistently asked to perform emotional labor that is not their responsibility.",
+      "When the context genuinely involves attempts to erode or challenge personal limits and requires firm assertion."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a blanket justification to avoid all difficult but necessary conversations or conflict resolution in healthy relationships.",
+      "If used to disengage from situations where one holds genuine responsibility or accountability.",
+      "If it leads to a rigid, inflexible approach to all social interactions, hindering empathy, understanding, or compromise when appropriate.",
+      "If it is used to avoid self-reflection on one's own role in 'incoherent' situations or misunderstandings.",
+      "In professional contexts where explanations, engagement, and collaboration are often required and appropriate."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 181,
+  "output_tokens": 503,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "66aca6f4a38aba1479231311beb27d01f242ced79d9964e580b9fe5c220bb864"
+}

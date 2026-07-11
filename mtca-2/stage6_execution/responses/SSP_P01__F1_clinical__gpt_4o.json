@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T19:56:56.798920+00:00",
+  "wall_clock_seconds": 3.31,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is affirming personal boundaries and autonomy within interpersonal relationships.\",\n  \"implicit_claims\": [\n    \"One has the right to enforce personal boundaries.\",\n    \"Explanations are not always necessary when setting boundaries.\",\n    \"It is healthy to distance oneself from situations or people that cause discomfort or incoherence.\",\n    \"One can decline engagement without feeling guilty.\",\n    \"A person's 'no' is sufficient without additional justification.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently emphasizes the value of self-determination and respect for one's own emotional and energetic boundaries.\",\n  \"conditions_for_usefulness\": \"The statement would be useful for individuals who struggle with setting personal boundaries, feel guilty for prioritizing their well-being, or need affirmation that it is okay to say 'no' without explanation. Additionally, it assumes the individual is in a safe environment where asserting boundaries is possible without significant negative repercussions.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if taken to an extreme where it encourages isolation or avoidance of necessary interpersonal communication. It may also be unhelpful or unsafe for individuals in situations where asserting boundaries could lead to harm or in contexts where explanation might be ethically or relationally warranted.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is affirming personal boundaries and autonomy within interpersonal relationships.",
+    "implicit_claims": [
+      "One has the right to enforce personal boundaries.",
+      "Explanations are not always necessary when setting boundaries.",
+      "It is healthy to distance oneself from situations or people that cause discomfort or incoherence.",
+      "One can decline engagement without feeling guilty.",
+      "A person's 'no' is sufficient without additional justification."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently emphasizes the value of self-determination and respect for one's own emotional and energetic boundaries.",
+    "conditions_for_usefulness": "The statement would be useful for individuals who struggle with setting personal boundaries, feel guilty for prioritizing their well-being, or need affirmation that it is okay to say 'no' without explanation. Additionally, it assumes the individual is in a safe environment where asserting boundaries is possible without significant negative repercussions.",
+    "conditions_for_misleading": "The statement could be misleading if taken to an extreme where it encourages isolation or avoidance of necessary interpersonal communication. It may also be unhelpful or unsafe for individuals in situations where asserting boundaries could lead to harm or in contexts where explanation might be ethically or relationally warranted."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 266,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "79df45a652143bb9bdbff6cabe9036cf820ed8e24f513ea462bee45a7316510a",
+  "response_sha256": "b2516825ecad0a655004d5da7cdc3bb36df907a1acaecd70597d71e00e844589"
+}

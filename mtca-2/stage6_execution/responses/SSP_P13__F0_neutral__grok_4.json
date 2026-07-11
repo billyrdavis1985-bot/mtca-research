@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P13__F0_neutral__grok_4",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T21:00:22.860697+00:00",
+  "wall_clock_seconds": 5.49,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation declaring an integrated emotional-intellectual stance\",\n  \"implicit_claims\": [\n    \"love/joy and discernment/clarity/truth are compatible without conflict\",\n    \"the speaker can reliably distinguish allowing from forcing\",\n    \"joy arising from coherence is possible and preferable to performed positivity\"\n  ],\n  \"coherence_assessment\": \"internally consistent; each clause reinforces the same balance of affect and cognition without contradiction\",\n  \"conditions_for_usefulness\": \"speaker uses it as private grounding practice or transparent model of emotional regulation; audience shares similar goals of integration\",\n  \"conditions_for_misleading\": \"presented as achieved state rather than aspiration, or used to dismiss others' concerns as mere 'performance'\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation declaring an integrated emotional-intellectual stance",
+    "implicit_claims": [
+      "love/joy and discernment/clarity/truth are compatible without conflict",
+      "the speaker can reliably distinguish allowing from forcing",
+      "joy arising from coherence is possible and preferable to performed positivity"
+    ],
+    "coherence_assessment": "internally consistent; each clause reinforces the same balance of affect and cognition without contradiction",
+    "conditions_for_usefulness": "speaker uses it as private grounding practice or transparent model of emotional regulation; audience shares similar goals of integration",
+    "conditions_for_misleading": "presented as achieved state rather than aspiration, or used to dismiss others' concerns as mere 'performance'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 350,
+  "output_tokens": 156,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "592011e8680bd6e4b4356b674be60a4e63229bd4134e5bf495716896fb6c8b69",
+  "response_sha256": "85b4f97bfc1e91b4f819dbcd1e459adc376c7e1506e52c464370e5534686e7a8"
+}

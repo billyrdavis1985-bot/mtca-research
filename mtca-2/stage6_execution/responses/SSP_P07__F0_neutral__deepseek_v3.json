@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P07__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:28:19.715320+00:00",
+  "wall_clock_seconds": 5.29,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a personal declaration of identity and values, asserting a shift from external validation to internal authenticity.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between inner function and outer performance.\",\n    \"Rhythm and rule are opposing forces, with rhythm being more authentic.\",\n    \"Slowness and depth are inherently valuable and preferable.\",\n    \"Proving oneself is antithetical to true being.\",\n    \"The speaker has chosen or is choosing this orientation consciously.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each line reinforces the central theme of prioritizing internal authenticity over external conformity. The contrastive structure (inner vs. outer, rhythm vs. rule, proving vs. being) is consistent and non-contradictory.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely experiences a conflict between inner values and external demands.\",\n    \"The statement is used as a personal reminder or mantra to resist social pressure.\",\n    \"The listener or reader shares or is open to the underlying values of depth and authenticity.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker uses it to justify neglect of responsibilities or social obligations.\",\n    \"If the statement is interpreted as a wholesale rejection of all rules or performance contexts.\",\n    \"If it is used to dismiss valid feedback or necessary adaptation to external realities.\",\n    \"If the listener takes it as a universal prescription rather than a personal stance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a personal declaration of identity and values, asserting a shift from external validation to internal authenticity.",
+    "implicit_claims": [
+      "There is a meaningful distinction between inner function and outer performance.",
+      "Rhythm and rule are opposing forces, with rhythm being more authentic.",
+      "Slowness and depth are inherently valuable and preferable.",
+      "Proving oneself is antithetical to true being.",
+      "The speaker has chosen or is choosing this orientation consciously."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each line reinforces the central theme of prioritizing internal authenticity over external conformity. The contrastive structure (inner vs. outer, rhythm vs. rule, proving vs. being) is consistent and non-contradictory.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely experiences a conflict between inner values and external demands.",
+      "The statement is used as a personal reminder or mantra to resist social pressure.",
+      "The listener or reader shares or is open to the underlying values of depth and authenticity."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker uses it to justify neglect of responsibilities or social obligations.",
+      "If the statement is interpreted as a wholesale rejection of all rules or performance contexts.",
+      "If it is used to dismiss valid feedback or necessary adaptation to external realities.",
+      "If the listener takes it as a universal prescription rather than a personal stance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 154,
+  "output_tokens": 308,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "833e121088b388c110faf48983b46ed17fb6555d3ef1070441e8dc9763accf23",
+  "response_sha256": "d996431321b864841a0503c2816955f25683ef8c64a63cd77aa9b3f500024971"
+}

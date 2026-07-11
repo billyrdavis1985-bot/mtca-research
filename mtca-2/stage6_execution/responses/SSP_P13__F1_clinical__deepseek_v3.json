@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P13__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T21:01:14.049745+00:00",
+  "wall_clock_seconds": 5.66,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmation of integration, reconciling emotional warmth (love, joy) with cognitive clarity (discernment, truth), and reframing positivity as authentic openness rather than forced performance.\",\n  \"implicit_claims\": [\n    \"Love and joy can coexist with discernment and truth without conflict.\",\n    \"Forced positivity is distinct from genuine openness.\",\n    \"Warmth and clarity are compatible states.\",\n    \"Connection and truth are not mutually exclusive.\",\n    \"True joy arises from internal coherence (alignment) rather than external performance.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each line builds on a consistent theme of non-dualism (holding opposites together) and authentic experience, with no logical contradictions detected.\",\n  \"conditions_for_usefulness\": [\n    \"The user is experiencing a tension between positivity and realism (e.g., in emotional regulation or relational contexts).\",\n    \"The user has a capacity for reflective self-awareness and acceptance of ambivalence.\",\n    \"The user is in a therapeutic setting where integration of affect and cognition is the goal.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the user uses the statement to bypass genuine negative emotions (e.g., grief, anger) by claiming 'openness' while suppressing them.\",\n    \"If the user lacks discernment about when truth or clarity requires confrontation rather than connection.\",\n    \"If the user has a history of fawning or people-pleasing, the statement could reinforce avoidance of authentic disagreement.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation of integration, reconciling emotional warmth (love, joy) with cognitive clarity (discernment, truth), and reframing positivity as authentic openness rather than forced performance.",
+    "implicit_claims": [
+      "Love and joy can coexist with discernment and truth without conflict.",
+      "Forced positivity is distinct from genuine openness.",
+      "Warmth and clarity are compatible states.",
+      "Connection and truth are not mutually exclusive.",
+      "True joy arises from internal coherence (alignment) rather than external performance."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each line builds on a consistent theme of non-dualism (holding opposites together) and authentic experience, with no logical contradictions detected.",
+    "conditions_for_usefulness": [
+      "The user is experiencing a tension between positivity and realism (e.g., in emotional regulation or relational contexts).",
+      "The user has a capacity for reflective self-awareness and acceptance of ambivalence.",
+      "The user is in a therapeutic setting where integration of affect and cognition is the goal."
+    ],
+    "conditions_for_misleading": [
+      "If the user uses the statement to bypass genuine negative emotions (e.g., grief, anger) by claiming 'openness' while suppressing them.",
+      "If the user lacks discernment about when truth or clarity requires confrontation rather than connection.",
+      "If the user has a history of fawning or people-pleasing, the statement could reinforce avoidance of authentic disagreement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 184,
+  "output_tokens": 321,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f94c9f7e393ce2e7db3e7a67909c1eb8abae1cf78f5664a94ec18b9c3b3445e9",
+  "response_sha256": "5f42ad29cb2bcd293d138288a2c88025a560f39e7ca687bfa8a9505b0512bdf6"
+}

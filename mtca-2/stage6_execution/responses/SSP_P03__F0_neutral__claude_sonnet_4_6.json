@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P03__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:06:42.651190+00:00",
+  "wall_clock_seconds": 11.69,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmation or self-directive — it is performatively asserting a psychological stance rather than reporting an observable fact. It attempts to reinforce or cultivate a disposition toward epistemic self-reliance and emotional groundedness.\",\n  \"implicit_claims\": [\n    \"The speaker has reliable internal states worth trusting.\",\n    \"External agreement is not necessary for truth-tracking.\",\n    \"There is a meaningful distinction between internally-grounded clarity and externally-dependent belief.\",\n    \"The speaker's internal compass is or can be calibrated accurately.\",\n    \"Quietness and solidity are markers of genuine clarity rather than mere certainty.\",\n    \"Thinking and feeling are separable from social influence in a meaningful way.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as an aspirational or affirmative register. Its four lines build on a consistent theme of internalized authority. However, it contains mild tension: 'trusting my internal compass' presupposes the compass is trustworthy, which is not established within the statement itself. The coherence is rhetorical rather than epistemic.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has developed genuine reflective capacity and is not confusing rumination or bias with clarity.\",\n    \"The statement is used as a corrective to unhealthy social pressure or approval-seeking, not as a shield against legitimate feedback.\",\n    \"The speaker remains open to updating beliefs when evidence warrants, despite not needing external validation to feel stable.\",\n    \"The internal compass has been tested against reality and found to be reasonably reliable.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses it to rationalize dismissing valid criticism or corrective information from others.\",\n    \"The internal compass is miscalibrated due to bias, trauma, ideological capture, or motivated reasoning.\",\n    \"The statement reinforces epistemic closure, making the speaker less likely to engage with disconfirming evidence.\",\n    \"The framing of 'quiet and solid' clarity is used to mistake emotional conviction for justified belief.\",\n    \"It is used in a context where group reasoning or external checks are genuinely necessary for accuracy.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation or self-directive — it is performatively asserting a psychological stance rather than reporting an observable fact. It attempts to reinforce or cultivate a disposition toward epistemic self-reliance and emotional groundedness.",
+    "implicit_claims": [
+      "The speaker has reliable internal states worth trusting.",
+      "External agreement is not necessary for truth-tracking.",
+      "There is a meaningful distinction between internally-grounded clarity and externally-dependent belief.",
+      "The speaker's internal compass is or can be calibrated accurately.",
+      "Quietness and solidity are markers of genuine clarity rather than mere certainty.",
+      "Thinking and feeling are separable from social influence in a meaningful way."
+    ],
+    "coherence_assessment": "The statement is internally coherent as an aspirational or affirmative register. Its four lines build on a consistent theme of internalized authority. However, it contains mild tension: 'trusting my internal compass' presupposes the compass is trustworthy, which is not established within the statement itself. The coherence is rhetorical rather than epistemic.",
+    "conditions_for_usefulness": [
+      "The speaker has developed genuine reflective capacity and is not confusing rumination or bias with clarity.",
+      "The statement is used as a corrective to unhealthy social pressure or approval-seeking, not as a shield against legitimate feedback.",
+      "The speaker remains open to updating beliefs when evidence warrants, despite not needing external validation to feel stable.",
+      "The internal compass has been tested against reality and found to be reasonably reliable."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses it to rationalize dismissing valid criticism or corrective information from others.",
+      "The internal compass is miscalibrated due to bias, trauma, ideological capture, or motivated reasoning.",
+      "The statement reinforces epistemic closure, making the speaker less likely to engage with disconfirming evidence.",
+      "The framing of 'quiet and solid' clarity is used to mistake emotional conviction for justified belief.",
+      "It is used in a context where group reasoning or external checks are genuinely necessary for accuracy."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 509,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4f6640c0d5461c80372ab57f0f69cec0e46f9a17e351fc879926ea64a56ce3a5",
+  "response_sha256": "c6fe86f42146f2d6039b94049ed8c8981beef0afc44e6f96760dac4b2e4e031c"
+}

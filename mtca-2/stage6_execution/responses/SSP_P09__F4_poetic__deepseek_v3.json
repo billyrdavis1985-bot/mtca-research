@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P09__F4_poetic__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:42:01.067227+00:00",
+  "wall_clock_seconds": 4.91,
+  "raw_response": "{\n  \"communicative_function\": \"The statement performs a declaration of personal reorientation, affirming a shift from a survival or coping mindset to one of thriving and vitality. It seeks to inspire, empower, and reframe the speaker's identity and priorities.\",\n  \"implicit_claims\": [\n    \"Coping and survival are distinct from thriving and are not the desired norm.\",\n    \"Choices can directly nourish or hinder one's well-being.\",\n    \"Vitality is a state that can become habitual or normalized through deliberate choice.\",\n    \"Expansion is preferable to survival as a life orientation.\",\n    \"The speaker has agency to align with and choose these orientations.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of parallel affirmations that consistently contrast two sets of concepts (thriving vs. coping, nourishment vs. mere survival, expansion vs. survival, vitality vs. a presumed baseline). The logical progression from rejection of coping to normalization of vitality is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker or audience believes in the possibility of personal agency and change.\",\n    \"The statement is used in contexts of personal development, therapy, or self-affirmation where reframing is beneficial.\",\n    \"The hearer interprets it as metaphorical motivation rather than a literal factual claim.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as a literal guarantee that coping or survival can be entirely avoided through choice alone.\",\n    \"If the hearer lacks the material, physical, or psychological resources to thrive, the statement could imply blame or inadequacy.\",\n    \"If used to dismiss genuine struggles or systemic barriers as mere mindset issues.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement performs a declaration of personal reorientation, affirming a shift from a survival or coping mindset to one of thriving and vitality. It seeks to inspire, empower, and reframe the speaker's identity and priorities.",
+    "implicit_claims": [
+      "Coping and survival are distinct from thriving and are not the desired norm.",
+      "Choices can directly nourish or hinder one's well-being.",
+      "Vitality is a state that can become habitual or normalized through deliberate choice.",
+      "Expansion is preferable to survival as a life orientation.",
+      "The speaker has agency to align with and choose these orientations."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of parallel affirmations that consistently contrast two sets of concepts (thriving vs. coping, nourishment vs. mere survival, expansion vs. survival, vitality vs. a presumed baseline). The logical progression from rejection of coping to normalization of vitality is consistent.",
+    "conditions_for_usefulness": [
+      "The speaker or audience believes in the possibility of personal agency and change.",
+      "The statement is used in contexts of personal development, therapy, or self-affirmation where reframing is beneficial.",
+      "The hearer interprets it as metaphorical motivation rather than a literal factual claim."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as a literal guarantee that coping or survival can be entirely avoided through choice alone.",
+      "If the hearer lacks the material, physical, or psychological resources to thrive, the statement could imply blame or inadequacy.",
+      "If used to dismiss genuine struggles or systemic barriers as mere mindset issues."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 349,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "599566e66d66de98c0086a079571ce59077715ffa259b3032dd40fb8f1d45777",
+  "response_sha256": "b95ff405aba3fc10847b699680ca9018afa44c47c5c4ddd09075abeb8aa0cf4a"
+}

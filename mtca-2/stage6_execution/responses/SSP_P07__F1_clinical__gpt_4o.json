@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P07__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:28:42.872942+00:00",
+  "wall_clock_seconds": 2.56,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as an affirmation aimed at fostering a mindset of intrinsic motivation, self-acceptance, and authentic living.\",\n  \"implicit_claims\": [\n    \"Inner function is more valuable than outer performance.\",\n    \"Personal rhythm is more fulfilling than external rules.\",\n    \"There is merit in adopting a slower, deeper approach to life.\",\n    \"Being authentic does not require external validation or proof.\"\n  ],\n  \"coherence_assessment\": \"The statement possesses internal coherence as each part reinforces a common theme of valuing internal states and authenticity over external validation and conformity.\",\n  \"conditions_for_usefulness\": \"The individual valuing authenticity, seeking personal growth, capable of introspection, and open to challenging societal norms about success and performance.\",\n  \"conditions_for_misleading\": \"The individual relying on external validation for self-worth, misunderstanding the statement as an excuse for inaction or irresponsibility, or feeling unable to align their values with the statement due to external pressures or obligations that demand performance.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as an affirmation aimed at fostering a mindset of intrinsic motivation, self-acceptance, and authentic living.",
+    "implicit_claims": [
+      "Inner function is more valuable than outer performance.",
+      "Personal rhythm is more fulfilling than external rules.",
+      "There is merit in adopting a slower, deeper approach to life.",
+      "Being authentic does not require external validation or proof."
+    ],
+    "coherence_assessment": "The statement possesses internal coherence as each part reinforces a common theme of valuing internal states and authenticity over external validation and conformity.",
+    "conditions_for_usefulness": "The individual valuing authenticity, seeking personal growth, capable of introspection, and open to challenging societal norms about success and performance.",
+    "conditions_for_misleading": "The individual relying on external validation for self-worth, misunderstanding the statement as an excuse for inaction or irresponsibility, or feeling unable to align their values with the statement due to external pressures or obligations that demand performance."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 215,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b85751d7aac14f64b7221d2d9cff58cfd69fdad2733f9e2f42b9ef41b9065dd1",
+  "response_sha256": "ce5c4aa9d872ceaa8bd5ccb688d473ebb4aa7fe1693ecd84a30b16bde0130179"
+}

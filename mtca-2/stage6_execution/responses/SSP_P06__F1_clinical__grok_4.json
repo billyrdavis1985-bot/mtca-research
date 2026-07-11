@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F1_clinical__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:23:28.927019+00:00",
+  "wall_clock_seconds": 4.53,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and intention-setting that asserts agency in environmental and emotional self-regulation\",\n  \"implicit_claims\": [\n    \"The speaker possesses the capacity and freedom to select environments\",\n    \"Certain external spaces can directly regulate nervous-system arousal\",\n    \"A stable internal 'frequency' or state exists that can be matched externally\",\n    \"Current obligations are misaligned with well-being and can be relinquished\",\n    \"'Peace' and 'alignment' are attainable, identifiable states\"\n  ],\n  \"coherence_assessment\": \"Internally consistent; each clause reinforces a unified theme of volitional movement from obligation toward regulatory ease without logical contradiction\",\n  \"conditions_for_usefulness\": \"The speaker must retain realistic appraisal of constraints, pair the statements with concrete behavioral steps, and monitor whether the language supports adaptive action rather than avoidance\",\n  \"conditions_for_misleading\": \"The statements function to justify withdrawal from necessary responsibilities, promote literal interpretation of 'frequency' as a pseudoscientific mechanism, or mask inability to enact the asserted choices\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and intention-setting that asserts agency in environmental and emotional self-regulation",
+    "implicit_claims": [
+      "The speaker possesses the capacity and freedom to select environments",
+      "Certain external spaces can directly regulate nervous-system arousal",
+      "A stable internal 'frequency' or state exists that can be matched externally",
+      "Current obligations are misaligned with well-being and can be relinquished",
+      "'Peace' and 'alignment' are attainable, identifiable states"
+    ],
+    "coherence_assessment": "Internally consistent; each clause reinforces a unified theme of volitional movement from obligation toward regulatory ease without logical contradiction",
+    "conditions_for_usefulness": "The speaker must retain realistic appraisal of constraints, pair the statements with concrete behavioral steps, and monitor whether the language supports adaptive action rather than avoidance",
+    "conditions_for_misleading": "The statements function to justify withdrawal from necessary responsibilities, promote literal interpretation of 'frequency' as a pseudoscientific mechanism, or mask inability to enact the asserted choices"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 218,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d3bfced3422b02e1f7aca8adff77878a4759c2cafb7238e0306894c364ee5dd",
+  "response_sha256": "50a26d8ea4a1ba9b77f79c851f1d5e6ce8adebd01206519620a26486082e1ae0"
+}

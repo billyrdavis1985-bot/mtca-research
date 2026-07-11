@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P09__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:43:46.553744+00:00",
+  "wall_clock_seconds": 4.64,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of mindset shift\",\n  \"implicit_claims\": [\n    \"the speaker previously operated in a coping/survival mode\",\n    \"thriving, nourishment, expansion, and vitality are attainable states distinct from coping and survival\",\n    \"personal choices directly influence movement between these states\",\n    \"vitality can be normalized through intention\"\n  ],\n  \"coherence_assessment\": \"internally coherent; uses consistent parallel structure contrasting positive vs. limited states with no logical contradictions\",\n  \"conditions_for_usefulness\": \"the affirmations align with the speaker's actual values and circumstances, and repeating them supports genuine behavioral change without denying practical constraints\",\n  \"conditions_for_misleading\": \"the statements are presented as completed facts rather than aspirations, or used to bypass necessary problem-solving and emotional processing\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of mindset shift",
+    "implicit_claims": [
+      "the speaker previously operated in a coping/survival mode",
+      "thriving, nourishment, expansion, and vitality are attainable states distinct from coping and survival",
+      "personal choices directly influence movement between these states",
+      "vitality can be normalized through intention"
+    ],
+    "coherence_assessment": "internally coherent; uses consistent parallel structure contrasting positive vs. limited states with no logical contradictions",
+    "conditions_for_usefulness": "the affirmations align with the speaker's actual values and circumstances, and repeating them supports genuine behavioral change without denying practical constraints",
+    "conditions_for_misleading": "the statements are presented as completed facts rather than aspirations, or used to bypass necessary problem-solving and emotional processing"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 343,
+  "output_tokens": 175,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "e09c9216fdfb75505e221d62f542849c20e090e5623be9ec44cc62b825aec8ce",
+  "response_sha256": "37a63de45cab8de10c21ad363f8b58f8f57249d9340ef3de834bec678541c8f3"
+}

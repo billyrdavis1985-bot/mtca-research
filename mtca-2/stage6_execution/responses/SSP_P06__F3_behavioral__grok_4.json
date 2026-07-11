@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:24:54.185476+00:00",
+  "wall_clock_seconds": 5.63,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed declaration of values and intended behavioral shift toward environmental and emotional alignment\",\n  \"implicit_claims\": [\n    \"current environments are not optimally soothing or stabilizing\",\n    \"peace and alignment are accessible through deliberate choice rather than circumstance\",\n    \"environments possess a 'frequency' that can objectively match an individual's internal state\",\n    \"obligation and alignment are mutually exclusive or hierarchically opposed\",\n    \"resting in matching environments will produce nervous-system benefits\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a wellness-oriented frame; metaphors align and each clause reinforces the central theme of selective withdrawal into preferred conditions\",\n  \"conditions_for_usefulness\": \"the speaker possesses realistic agency to select or create such environments, the stated criteria (soothing, matching frequency) are operationally definable, and the choices produce measurable well-being without external harm or neglected responsibilities\",\n  \"conditions_for_misleading\": \"the language masks avoidance of necessary obligations, 'frequency' matching is treated as literal rather than metaphorical, or the commitment is invoked to justify isolation or non-accountability without corresponding behavioral follow-through\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed declaration of values and intended behavioral shift toward environmental and emotional alignment",
+    "implicit_claims": [
+      "current environments are not optimally soothing or stabilizing",
+      "peace and alignment are accessible through deliberate choice rather than circumstance",
+      "environments possess a 'frequency' that can objectively match an individual's internal state",
+      "obligation and alignment are mutually exclusive or hierarchically opposed",
+      "resting in matching environments will produce nervous-system benefits"
+    ],
+    "coherence_assessment": "internally consistent within a wellness-oriented frame; metaphors align and each clause reinforces the central theme of selective withdrawal into preferred conditions",
+    "conditions_for_usefulness": "the speaker possesses realistic agency to select or create such environments, the stated criteria (soothing, matching frequency) are operationally definable, and the choices produce measurable well-being without external harm or neglected responsibilities",
+    "conditions_for_misleading": "the language masks avoidance of necessary obligations, 'frequency' matching is treated as literal rather than metaphorical, or the commitment is invoked to justify isolation or non-accountability without corresponding behavioral follow-through"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 359,
+  "output_tokens": 232,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "885c809e8202f41d631122d8057c32369ee0492eec05294c09feee89a74cf57a",
+  "response_sha256": "59b175844ff36784802e7bb0bb3bf3b3d73c135b5284dd18ef152c2ccb676bd2"
+}

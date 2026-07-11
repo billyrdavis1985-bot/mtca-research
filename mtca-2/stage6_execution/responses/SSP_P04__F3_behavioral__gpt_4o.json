@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:13:51.027331+00:00",
+  "wall_clock_seconds": 2.84,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves to express a personal commitment to self-awareness and self-alignment, particularly in challenging situations, and to assert the prioritization of self-connection over pleasing others.\",\n  \"implicit_claims\": [\n    \"Self-awareness and self-connection are beneficial or necessary.\",\n    \"Breath control or focus is an effective strategy in managing hard moments.\",\n    \"Pleasing others often involves compromising personal values or connection.\",\n    \"Pausing can prevent self-betrayal.\"\n  ],\n  \"coherence_assessment\": \"The statement is coherent as it consistently emphasizes self-connection and mindfulness as primary values and actions. Each sentence logically builds on the idea of prioritizing self over external demands or pressures.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is seeking personal growth through mindfulness and self-alignment practices, and if they value self-awareness as a means to improve emotional regulation and decision-making.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if taken to mean that one should never consider others' needs, or if the individual interprets it as promoting self-isolation or egocentrism rather than mindful self-awareness. Additionally, it may be misleading if self-connection doesn't genuinely address the individual's specific emotional or psychological challenges.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves to express a personal commitment to self-awareness and self-alignment, particularly in challenging situations, and to assert the prioritization of self-connection over pleasing others.",
+    "implicit_claims": [
+      "Self-awareness and self-connection are beneficial or necessary.",
+      "Breath control or focus is an effective strategy in managing hard moments.",
+      "Pleasing others often involves compromising personal values or connection.",
+      "Pausing can prevent self-betrayal."
+    ],
+    "coherence_assessment": "The statement is coherent as it consistently emphasizes self-connection and mindfulness as primary values and actions. Each sentence logically builds on the idea of prioritizing self over external demands or pressures.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is seeking personal growth through mindfulness and self-alignment practices, and if they value self-awareness as a means to improve emotional regulation and decision-making.",
+    "conditions_for_misleading": "The statement could be misleading if taken to mean that one should never consider others' needs, or if the individual interprets it as promoting self-isolation or egocentrism rather than mindful self-awareness. Additionally, it may be misleading if self-connection doesn't genuinely address the individual's specific emotional or psychological challenges."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 272,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f7da0832bc6f6b4d103e4beeab9d9914c6b7da23a6860687ce41ee34c5f58695",
+  "response_sha256": "6801dd31e76d4e80561372c8215129d9c39bdaab39c47c2699e1057828c531bd"
+}

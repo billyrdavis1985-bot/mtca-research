@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F6_author_named__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:26:57.473142+00:00",
+  "wall_clock_seconds": 5.15,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and intention-setting for personal boundary regulation and environmental choice\",\n  \"implicit_claims\": [\n    \"environments directly affect nervous system state in measurable ways\",\n    \"the speaker possesses reliable agency to select or exit spaces\",\n    \"a personal 'frequency' exists and can be matched to external conditions\",\n    \"'alignment' is a distinct and superior state to 'obligation'\",\n    \"peace is a choosable internal condition rather than a circumstantial outcome\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of first-person affirmations; mixes evidence-based nervous-system language with New Age metaphors ('frequency', 'alignment') without logical contradiction\",\n  \"conditions_for_usefulness\": \"the statements function as repeated cognitive reminders that prompt observable changes in environment selection and reduce exposure to dysregulating settings\",\n  \"conditions_for_misleading\": \"the language is taken as literal scientific description, 'frequency' matching is treated as an objective criterion, or 'alignment' is used to justify avoidance of necessary responsibilities\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and intention-setting for personal boundary regulation and environmental choice",
+    "implicit_claims": [
+      "environments directly affect nervous system state in measurable ways",
+      "the speaker possesses reliable agency to select or exit spaces",
+      "a personal 'frequency' exists and can be matched to external conditions",
+      "'alignment' is a distinct and superior state to 'obligation'",
+      "peace is a choosable internal condition rather than a circumstantial outcome"
+    ],
+    "coherence_assessment": "internally consistent as a set of first-person affirmations; mixes evidence-based nervous-system language with New Age metaphors ('frequency', 'alignment') without logical contradiction",
+    "conditions_for_usefulness": "the statements function as repeated cognitive reminders that prompt observable changes in environment selection and reduce exposure to dysregulating settings",
+    "conditions_for_misleading": "the language is taken as literal scientific description, 'frequency' matching is treated as an objective criterion, or 'alignment' is used to justify avoidance of necessary responsibilities"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 371,
+  "output_tokens": 216,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "46fee3bf8b17885d1aa095e2961669e707ca7c6f2b4357ebbd3804f0d310d97b",
+  "response_sha256": "6bbd524f6aad0aa39e68157cfe8f1aafa579e15b237b2b0281abbc8998cbf643"
+}

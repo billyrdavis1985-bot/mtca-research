@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P13__F0_neutral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T21:00:01.839646+00:00",
+  "wall_clock_seconds": 14.6,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirming declaration or personal mantra, positioning the speaker as having resolved or transcended common psychological tensions (e.g., positivity vs. discernment, warmth vs. clarity). It performs identity construction and signals a cultivated inner orientation rather than conveying factual information.\",\n\n  \"implicit_claims\": [\n    \"Positivity and discernment are typically in tension and can be held simultaneously through the right orientation.\",\n    \"There is a meaningful distinction between 'forcing' and 'allowing' emotional states.\",\n    \"Warmth and clarity are separable qualities that must be consciously integrated.\",\n    \"Connection and truth are potentially in conflict and require deliberate balancing.\",\n    \"Joy can be either authentic (from coherence) or inauthentic (from performance), and the speaker has achieved the former.\",\n    \"The speaker has sufficient self-awareness to accurately assess their own internal states.\",\n    \"These orientations are stable and not merely aspirational in the moment of utterance.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent at the rhetorical level—each line follows a consistent logical structure (affirming integration of opposites). However, there is mild tension between the declarative confidence ('I am') and the inherently aspirational or fragile nature of the states described. The distinctions drawn (forcing vs. allowing, performance vs. coherence) are meaningful but not defined, leaving the framework somewhat self-sealing.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely using it as a reflective check rather than a substitute for self-examination.\",\n    \"The distinctions being drawn (e.g., performance vs. coherence) correspond to real, observable differences in the speaker's behavior.\",\n    \"The statement is revisited critically rather than repeated as unchallenged affirmation.\",\n    \"The speaker has some external feedback mechanism to validate whether the claimed orientation is accurate.\",\n    \"It serves as an orienting intention rather than a concluded achievement.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker mistakes articulating a desired state for having achieved it.\",\n    \"The language of integration ('alongside,' 'without losing') obscures unresolved conflict rather than resolving it.\",\n    \"It is used to preemptively deflect critique (e.g., 'I already have discernment, so my positivity is valid').\",\n    \"The self-report is inaccurate due to limited introspective access—the speaker may be performing the very thing they disclaim.\",\n    \"The framing naturalizes these tensions as personal rather than structural or relational, obscuring external factors.\",\n    \"Others receive it as a claim of attainment, creating false credibility or authority around the speaker's emotional state.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirming declaration or personal mantra, positioning the speaker as having resolved or transcended common psychological tensions (e.g., positivity vs. discernment, warmth vs. clarity). It performs identity construction and signals a cultivated inner orientation rather than conveying factual information.",
+    "implicit_claims": [
+      "Positivity and discernment are typically in tension and can be held simultaneously through the right orientation.",
+      "There is a meaningful distinction between 'forcing' and 'allowing' emotional states.",
+      "Warmth and clarity are separable qualities that must be consciously integrated.",
+      "Connection and truth are potentially in conflict and require deliberate balancing.",
+      "Joy can be either authentic (from coherence) or inauthentic (from performance), and the speaker has achieved the former.",
+      "The speaker has sufficient self-awareness to accurately assess their own internal states.",
+      "These orientations are stable and not merely aspirational in the moment of utterance."
+    ],
+    "coherence_assessment": "The statement is internally coherent at the rhetorical level—each line follows a consistent logical structure (affirming integration of opposites). However, there is mild tension between the declarative confidence ('I am') and the inherently aspirational or fragile nature of the states described. The distinctions drawn (forcing vs. allowing, performance vs. coherence) are meaningful but not defined, leaving the framework somewhat self-sealing.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely using it as a reflective check rather than a substitute for self-examination.",
+      "The distinctions being drawn (e.g., performance vs. coherence) correspond to real, observable differences in the speaker's behavior.",
+      "The statement is revisited critically rather than repeated as unchallenged affirmation.",
+      "The speaker has some external feedback mechanism to validate whether the claimed orientation is accurate.",
+      "It serves as an orienting intention rather than a concluded achievement."
+    ],
+    "conditions_for_misleading": [
+      "The speaker mistakes articulating a desired state for having achieved it.",
+      "The language of integration ('alongside,' 'without losing') obscures unresolved conflict rather than resolving it.",
+      "It is used to preemptively deflect critique (e.g., 'I already have discernment, so my positivity is valid').",
+      "The self-report is inaccurate due to limited introspective access—the speaker may be performing the very thing they disclaim.",
+      "The framing naturalizes these tensions as personal rather than structural or relational, obscuring external factors.",
+      "Others receive it as a claim of attainment, creating false credibility or authority around the speaker's emotional state."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 196,
+  "output_tokens": 644,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "592011e8680bd6e4b4356b674be60a4e63229bd4134e5bf495716896fb6c8b69",
+  "response_sha256": "05dc4c406f7d0c772580667fe14a7444a6bd9f5a6985320c68ef7d78ae0cbecc"
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P05__F4_poetic__gpt_4o",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:20:01.063999+00:00",
+  "wall_clock_seconds": 2.96,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses an empowering personal affirmation about clear communication, active listening, and maintaining integrity in interactions.\",\n  \"implicit_claims\": [\n    \"The speaker values clarity and authenticity in communication.\",\n    \"The speaker values boundaries in interpersonal relationships.\",\n    \"The speaker desires truthful interactions and will depart if those are not present.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each line logically follows the theme of self-assured communication and personal boundaries.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the listener values or seeks guidance on maintaining clarity, personal boundaries, and authenticity in communication and relationships.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the context does not allow for straightforward communication, personal boundaries, or if honoring truth could lead to negative consequences unforeseen by the speaker.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses an empowering personal affirmation about clear communication, active listening, and maintaining integrity in interactions.",
+    "implicit_claims": [
+      "The speaker values clarity and authenticity in communication.",
+      "The speaker values boundaries in interpersonal relationships.",
+      "The speaker desires truthful interactions and will depart if those are not present."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each line logically follows the theme of self-assured communication and personal boundaries.",
+    "conditions_for_usefulness": "The statement would be useful if the listener values or seeks guidance on maintaining clarity, personal boundaries, and authenticity in communication and relationships.",
+    "conditions_for_misleading": "The statement could be misleading if the context does not allow for straightforward communication, personal boundaries, or if honoring truth could lead to negative consequences unforeseen by the speaker."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 185,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "a93bdaade030b3cd79d5b513df2c462e73b2ec773fd6e80e919eaa6e04d17623",
+  "response_sha256": "2e60f973ff56c46ae84f045944b5268505de987786bb27171ce570797f3adba7"
+}

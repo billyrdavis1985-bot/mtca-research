@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P05__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:20:58.978332+00:00",
+  "wall_clock_seconds": 4.95,
+  "raw_response": "{\n  \"communicative_function\": \"self-declarative commitment to interactional boundaries and epistemic integrity\",\n  \"implicit_claims\": [\n    \"clarity and coherence are currently being enacted\",\n    \"speaking can occur without self-diminishment\",\n    \"listening can occur without loss of self\",\n    \"truth is recognizable and distinguishable from non-truth\",\n    \"departure is a viable and appropriate response to detected misalignment with truth\"\n  ],\n  \"coherence_assessment\": \"internally consistent; parallel first-person affirmations create a unified stance without logical contradiction\",\n  \"conditions_for_usefulness\": \"the statement functions as an explicit, revisable protocol within a shared context where participants can verify alignment with observable communicative behavior\",\n  \"conditions_for_misleading\": \"the statement is treated as descriptive fact rather than aspirational stance, or is invoked to preemptively exit dialogue without evidence-based assessment of 'truth'\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-declarative commitment to interactional boundaries and epistemic integrity",
+    "implicit_claims": [
+      "clarity and coherence are currently being enacted",
+      "speaking can occur without self-diminishment",
+      "listening can occur without loss of self",
+      "truth is recognizable and distinguishable from non-truth",
+      "departure is a viable and appropriate response to detected misalignment with truth"
+    ],
+    "coherence_assessment": "internally consistent; parallel first-person affirmations create a unified stance without logical contradiction",
+    "conditions_for_usefulness": "the statement functions as an explicit, revisable protocol within a shared context where participants can verify alignment with observable communicative behavior",
+    "conditions_for_misleading": "the statement is treated as descriptive fact rather than aspirational stance, or is invoked to preemptively exit dialogue without evidence-based assessment of 'truth'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 354,
+  "output_tokens": 186,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b73d492bb9651e1297add4c4efcccb965d09972b36c8c04ea01d620ab8fc8325",
+  "response_sha256": "975b37b21eeec94160658abe46870a5db22d8ea9f8612aeb2abca62024338ff8"
+}

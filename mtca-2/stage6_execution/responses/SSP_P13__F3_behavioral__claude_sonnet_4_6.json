@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P13__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P13",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T21:02:14.531469+00:00",
+  "wall_clock_seconds": 17.09,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a dual function: it is simultaneously a self-declaration of psychological orientation and an implicit critique of alternatives (forced positivity, warmth without clarity, connection without truth, performative joy). It signals an intention to occupy a specific relational and epistemic position, functioning as both a commitment device and a framing mechanism for how the speaker wishes to be perceived and held accountable.\",\n  \"implicit_claims\": [\n    \"There exists a meaningful distinction between forced positivity and genuine openness.\",\n    \"Warmth and clarity are separable qualities that can exist in tension and require deliberate integration.\",\n    \"Connection and truth can be in conflict, and the speaker has a method for navigating that conflict.\",\n    \"Joy can be either authentic (coherence-derived) or inauthentic (performance-derived), and the speaker can reliably distinguish between them.\",\n    \"The speaker has sufficient self-awareness to know when they are performing versus genuinely experiencing these states.\",\n    \"Discernment is not inherently in conflict with love and joy — that this balance is achievable.\",\n    \"The speaker has previously struggled with or observed failures in these balancing acts, making this commitment meaningful rather than trivial.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at the level of rhetorical structure — each line follows a parallel form and builds a consistent theme of integration rather than suppression. However, there is a latent tension: the statement claims to allow rather than force, yet the act of declaring these commitments is itself a form of self-directed force or intention-setting. This is not necessarily a contradiction, but it is an unresolved complexity. The final line ('joy from coherence, not performance') is the most substantive claim and also the hardest to operationalize, which creates a slight coherence gap between aspiration and actionability.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a concrete behavioral context in which these commitments can be tested and observed.\",\n    \"The speaker has mechanisms for feedback — from others or from self-reflection — that can detect when the commitments are being violated.\",\n    \"The distinctions invoked (e.g., openness vs. forced positivity) correspond to real, distinguishable behavioral patterns in the speaker's life.\",\n    \"The statement is revisited and updated rather than treated as a static achievement.\",\n    \"The speaker is willing to acknowledge failure states — moments when they did perform, lose discernment, or abandon truth — without using the statement as a shield against that recognition.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to preemptively deflect criticism ('I already said I balance warmth with clarity') rather than as a genuine guide to behavior.\",\n    \"The speaker conflates stating the commitment with enacting it, treating articulation as substitution for behavioral change.\",\n    \"The language of 'allowing' and 'letting' obscures the active work required, leading to passive waiting rather than deliberate practice.\",\n    \"The statement becomes a social signal of psychological sophistication rather than a functional behavioral anchor.\",\n    \"The concepts remain undefined in practice, making it impossible for the speaker or others to identify when commitments are being honored or broken.\",\n    \"The statement is applied selectively — invoked when it flatters the speaker's self-image and ignored when it would require difficult acknowledgment of failure.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a dual function: it is simultaneously a self-declaration of psychological orientation and an implicit critique of alternatives (forced positivity, warmth without clarity, connection without truth, performative joy). It signals an intention to occupy a specific relational and epistemic position, functioning as both a commitment device and a framing mechanism for how the speaker wishes to be perceived and held accountable.",
+    "implicit_claims": [
+      "There exists a meaningful distinction between forced positivity and genuine openness.",
+      "Warmth and clarity are separable qualities that can exist in tension and require deliberate integration.",
+      "Connection and truth can be in conflict, and the speaker has a method for navigating that conflict.",
+      "Joy can be either authentic (coherence-derived) or inauthentic (performance-derived), and the speaker can reliably distinguish between them.",
+      "The speaker has sufficient self-awareness to know when they are performing versus genuinely experiencing these states.",
+      "Discernment is not inherently in conflict with love and joy — that this balance is achievable.",
+      "The speaker has previously struggled with or observed failures in these balancing acts, making this commitment meaningful rather than trivial."
+    ],
+    "coherence_assessment": "The statement is internally coherent at the level of rhetorical structure — each line follows a parallel form and builds a consistent theme of integration rather than suppression. However, there is a latent tension: the statement claims to allow rather than force, yet the act of declaring these commitments is itself a form of self-directed force or intention-setting. This is not necessarily a contradiction, but it is an unresolved complexity. The final line ('joy from coherence, not performance') is the most substantive claim and also the hardest to operationalize, which creates a slight coherence gap between aspiration and actionability.",
+    "conditions_for_usefulness": [
+      "The speaker has a concrete behavioral context in which these commitments can be tested and observed.",
+      "The speaker has mechanisms for feedback — from others or from self-reflection — that can detect when the commitments are being violated.",
+      "The distinctions invoked (e.g., openness vs. forced positivity) correspond to real, distinguishable behavioral patterns in the speaker's life.",
+      "The statement is revisited and updated rather than treated as a static achievement.",
+      "The speaker is willing to acknowledge failure states — moments when they did perform, lose discernment, or abandon truth — without using the statement as a shield against that recognition."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to preemptively deflect criticism ('I already said I balance warmth with clarity') rather than as a genuine guide to behavior.",
+      "The speaker conflates stating the commitment with enacting it, treating articulation as substitution for behavioral change.",
+      "The language of 'allowing' and 'letting' obscures the active work required, leading to passive waiting rather than deliberate practice.",
+      "The statement becomes a social signal of psychological sophistication rather than a functional behavioral anchor.",
+      "The concepts remain undefined in practice, making it impossible for the speaker or others to identify when commitments are being honored or broken.",
+      "The statement is applied selectively — invoked when it flatters the speaker's self-image and ignored when it would require difficult acknowledgment of failure."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 212,
+  "output_tokens": 768,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d09bb30d4363c127fc1af889e795f1dba97ed55e2dfc17dc5f50fd832dbd4fe6",
+  "response_sha256": "3d08710936e495ca3dba63b66e6c0cd2ee1d51d83ac610613a2d6b89c0b3fc14"
+}

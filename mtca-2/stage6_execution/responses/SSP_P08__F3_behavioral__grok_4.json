@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P08__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:35:44.023793+00:00",
+  "wall_clock_seconds": 4.44,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declarative commitment to revised relational patterns\",\n  \"implicit_claims\": [\n    \"prior patterns involved collapse, overgiving, and lack of mutuality\",\n    \"these new behaviors are under the speaker's direct control\",\n    \"mutuality, non-collapse, and co-regulation are clearly definable states\",\n    \"the speaker's internal state can be reliably monitored and adjusted in real time\"\n  ],\n  \"coherence_assessment\": \"internally coherent; each clause reinforces a single axis of balanced, non-self-abandoning relating\",\n  \"conditions_for_usefulness\": \"speaker possesses accurate self-observation, the commitments map to observable behaviors, and repetition is paired with accountability or feedback\",\n  \"conditions_for_misleading\": \"terms remain undefined so speaker can retroactively reinterpret actions; statement functions as virtue signal without behavioral change; used to preempt feedback from others\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declarative commitment to revised relational patterns",
+    "implicit_claims": [
+      "prior patterns involved collapse, overgiving, and lack of mutuality",
+      "these new behaviors are under the speaker's direct control",
+      "mutuality, non-collapse, and co-regulation are clearly definable states",
+      "the speaker's internal state can be reliably monitored and adjusted in real time"
+    ],
+    "coherence_assessment": "internally coherent; each clause reinforces a single axis of balanced, non-self-abandoning relating",
+    "conditions_for_usefulness": "speaker possesses accurate self-observation, the commitments map to observable behaviors, and repetition is paired with accountability or feedback",
+    "conditions_for_misleading": "terms remain undefined so speaker can retroactively reinterpret actions; statement functions as virtue signal without behavioral change; used to preempt feedback from others"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 362,
+  "output_tokens": 189,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d846d4ab012a9c2f13173bfca487da3a1707c0ada1129530872a18e43daac276",
+  "response_sha256": "181bca992c0de7bb54cc169718c65bb31902962ec3fcc43f8a859eb090d05b64"
+}

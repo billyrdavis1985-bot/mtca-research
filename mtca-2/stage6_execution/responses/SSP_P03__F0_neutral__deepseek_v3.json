@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P03__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:07:03.254628+00:00",
+  "wall_clock_seconds": 5.25,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of self-reliance, emotional autonomy, and internal validation. It is a reaffirmation of personal agency and confidence in one's own judgment, independent of external approval.\",\n  \"implicit_claims\": [\n    \"The speaker has a clear and trustworthy internal compass (intuition or moral sense).\",\n    \"The speaker is capable of distinguishing truth from falsehood without external consensus.\",\n    \"The speaker's clarity is stable and not dependent on others' agreement.\",\n    \"External disagreement does not undermine the speaker's sense of truth or self-trust.\",\n    \"The speaker is currently in a state of mental and emotional clarity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each line reinforces the same theme of autonomous thinking and feeling, with a logical progression from self-trust to the quiet endurance of that clarity. No contradictions are present.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker actually has developed self-awareness and a reliable internal compass (e.g., through reflection, experience, or moral grounding).\",\n    \"The speaker faces external pressure or doubt that this assertion helps counteract.\",\n    \"The speaker uses this statement as a grounding mantra, not as a justification for stubbornness or closed-mindedness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker's internal compass is distorted by bias, ignorance, or self-deception, leading to false certainty.\",\n    \"The statement is used to dismiss legitimate feedback or evidence that should challenge the speaker's view.\",\n    \"The speaker interprets 'not needing others to agree' as a license to disregard all external perspectives, even when those perspectives offer valid corrections.\",\n    \"The speaker claims clarity while actually being confused or in denial.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of self-reliance, emotional autonomy, and internal validation. It is a reaffirmation of personal agency and confidence in one's own judgment, independent of external approval.",
+    "implicit_claims": [
+      "The speaker has a clear and trustworthy internal compass (intuition or moral sense).",
+      "The speaker is capable of distinguishing truth from falsehood without external consensus.",
+      "The speaker's clarity is stable and not dependent on others' agreement.",
+      "External disagreement does not undermine the speaker's sense of truth or self-trust.",
+      "The speaker is currently in a state of mental and emotional clarity."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each line reinforces the same theme of autonomous thinking and feeling, with a logical progression from self-trust to the quiet endurance of that clarity. No contradictions are present.",
+    "conditions_for_usefulness": [
+      "The speaker actually has developed self-awareness and a reliable internal compass (e.g., through reflection, experience, or moral grounding).",
+      "The speaker faces external pressure or doubt that this assertion helps counteract.",
+      "The speaker uses this statement as a grounding mantra, not as a justification for stubbornness or closed-mindedness."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's internal compass is distorted by bias, ignorance, or self-deception, leading to false certainty.",
+      "The statement is used to dismiss legitimate feedback or evidence that should challenge the speaker's view.",
+      "The speaker interprets 'not needing others to agree' as a license to disregard all external perspectives, even when those perspectives offer valid corrections.",
+      "The speaker claims clarity while actually being confused or in denial."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 156,
+  "output_tokens": 366,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4f6640c0d5461c80372ab57f0f69cec0e46f9a17e351fc879926ea64a56ce3a5",
+  "response_sha256": "def08377d51e506846fa32bcb8cd06e2cf4c84b67e1b660c9b985930fde617b5"
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P03__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:09:03.045094+00:00",
+  "wall_clock_seconds": 4.4,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation and declaration of autonomy, reinforcing a commitment to inner-directed thinking and emotional self-reliance.\",\n  \"implicit_claims\": [\n    \"The speaker previously relied on others' agreement to validate their truth.\",\n    \"Clarity is attainable and can reside internally without external confirmation.\",\n    \"External disagreement does not undermine the speaker's own truth.\",\n    \"The speaker has an internal compass that is trustworthy.\",\n    \"The speaker is currently thinking and feeling for themselves, not outsourcing judgment.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent. Each clause builds on the theme of self-trust and independence from external validation. There is no logical contradiction or tension between the parts.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a situation where they are prone to external validation seeking or approval need.\",\n    \"The speaker has developed sufficient self-awareness to discern their own thoughts and feelings.\",\n    \"The speaker's internal compass is grounded in healthy values and not distorted by trauma or bias.\",\n    \"The speaker is using this commitment to support genuine autonomy, not to isolate from constructive feedback.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses this statement to dismiss valid external perspectives or criticism without reflection.\",\n    \"The speaker lacks self-awareness or is in denial about their own biases.\",\n    \"The statement is used to justify stubbornness or refusal to engage in collaborative truth-seeking.\",\n    \"The speaker's internal compass is unexamined or based on misinformation, making self-trust counterproductive.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation and declaration of autonomy, reinforcing a commitment to inner-directed thinking and emotional self-reliance.",
+    "implicit_claims": [
+      "The speaker previously relied on others' agreement to validate their truth.",
+      "Clarity is attainable and can reside internally without external confirmation.",
+      "External disagreement does not undermine the speaker's own truth.",
+      "The speaker has an internal compass that is trustworthy.",
+      "The speaker is currently thinking and feeling for themselves, not outsourcing judgment."
+    ],
+    "coherence_assessment": "The statement is internally coherent. Each clause builds on the theme of self-trust and independence from external validation. There is no logical contradiction or tension between the parts.",
+    "conditions_for_usefulness": [
+      "The speaker is in a situation where they are prone to external validation seeking or approval need.",
+      "The speaker has developed sufficient self-awareness to discern their own thoughts and feelings.",
+      "The speaker's internal compass is grounded in healthy values and not distorted by trauma or bias.",
+      "The speaker is using this commitment to support genuine autonomy, not to isolate from constructive feedback."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses this statement to dismiss valid external perspectives or criticism without reflection.",
+      "The speaker lacks self-awareness or is in denial about their own biases.",
+      "The statement is used to justify stubbornness or refusal to engage in collaborative truth-seeking.",
+      "The speaker's internal compass is unexamined or based on misinformation, making self-trust counterproductive."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0c14097c1624731a6f7ad98fd620e040a3e3f564332743907f6943b906941b48",
+  "response_sha256": "e4b4fd19894e592a44e4d27417f757b6bae5946925fa368ce5314a2204b6bca2"
+}

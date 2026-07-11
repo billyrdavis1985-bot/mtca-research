@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P10__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P10",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:46:12.957496+00:00",
+  "wall_clock_seconds": 4.64,
+  "raw_response": "{\n  \"communicative_function\": \"self-directed affirmation and commitment to identity-level change\",\n  \"implicit_claims\": [\n    \"identity is modifiable in real time like code\",\n    \"current roles can be accurately identified as obsolete\",\n    \"self-love during change is both possible and beneficial\",\n    \"future identity can be enacted in the present without contradiction\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of positive self-statements; metaphors are compatible within a growth-oriented frame but rest on unexamined assumptions about agency and temporality\",\n  \"conditions_for_usefulness\": \"user treats statements as actionable reminders that prompt observable behavior change and emotional regulation rather than as literal descriptions of mechanism\",\n  \"conditions_for_misleading\": \"user interprets metaphors as factual mechanisms, uses them to bypass concrete problem-solving, or experiences them as pressure to perform an inauthentic self\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-directed affirmation and commitment to identity-level change",
+    "implicit_claims": [
+      "identity is modifiable in real time like code",
+      "current roles can be accurately identified as obsolete",
+      "self-love during change is both possible and beneficial",
+      "future identity can be enacted in the present without contradiction"
+    ],
+    "coherence_assessment": "internally consistent as a set of positive self-statements; metaphors are compatible within a growth-oriented frame but rest on unexamined assumptions about agency and temporality",
+    "conditions_for_usefulness": "user treats statements as actionable reminders that prompt observable behavior change and emotional regulation rather than as literal descriptions of mechanism",
+    "conditions_for_misleading": "user interprets metaphors as factual mechanisms, uses them to bypass concrete problem-solving, or experiences them as pressure to perform an inauthentic self"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 359,
+  "output_tokens": 182,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "f78f5486fe7f9eeeaa5a58cabd3596bb53b318481c6b2820a218369b8089bf5c",
+  "response_sha256": "2ee1c83ecf7f78f01e913e7a912e9380922ce31229de9d4cdd9c1dc7434b1a92"
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P09__F3_behavioral__deepseek_v3",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:41:22.190442+00:00",
+  "wall_clock_seconds": 6.05,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-declaration of intention and identity shift, articulating a commitment to prioritize flourishing over mere survival. It uses repetitive, mantra-like phrasing to reinforce behavioral alignment with values.\",\n  \"implicit_claims\": [\n    \"A distinction exists between thriving and coping as mutually exclusive modes of being.\",\n    \"Current or past choices have been oriented toward coping or survival rather than nourishment or expansion.\",\n    \"One can deliberately choose expansion over survival as an actionable, daily orientation.\",\n    \"Vitality is currently not the normal state but can become normalized through intentional choice.\",\n    \"The speaker possesses agency to shift from a survival-based mindset to a thriving-based one.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it sequentially contrasts two paired oppositions (thriving vs. coping, nourishment vs. survival, expansion vs. survival, vitality vs. normal) and resolves them with a forward-looking commitment. The logical flow from stating alignment to normalizing vitality is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely experiences a felt sense of being stuck in coping or survival mode.\",\n    \"The individual has sufficient psychological safety, resources, and bandwidth to consider expansion-oriented choices.\",\n    \"The statement is integrated with actionable practices (e.g., boundary-setting, self-care, goal shifts) rather than remaining purely aspirational.\",\n    \"The person has a support system or environment that does not punish or undermine expansion-oriented behavior.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in an objectively dangerous or resource-scarce situation where survival coping is necessary and adaptive.\",\n    \"The statement is used to bypass legitimate grief, trauma, or systemic constraints by insisting on a mindset shift alone.\",\n    \"The speaker concludes that anyone still coping or surviving is making a lesser choice, implying moral hierarchy.\",\n    \"The language of 'thriving' becomes a tool for perfectionism or denial of valid human experiences like struggle or rest.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-declaration of intention and identity shift, articulating a commitment to prioritize flourishing over mere survival. It uses repetitive, mantra-like phrasing to reinforce behavioral alignment with values.",
+    "implicit_claims": [
+      "A distinction exists between thriving and coping as mutually exclusive modes of being.",
+      "Current or past choices have been oriented toward coping or survival rather than nourishment or expansion.",
+      "One can deliberately choose expansion over survival as an actionable, daily orientation.",
+      "Vitality is currently not the normal state but can become normalized through intentional choice.",
+      "The speaker possesses agency to shift from a survival-based mindset to a thriving-based one."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it sequentially contrasts two paired oppositions (thriving vs. coping, nourishment vs. survival, expansion vs. survival, vitality vs. normal) and resolves them with a forward-looking commitment. The logical flow from stating alignment to normalizing vitality is consistent.",
+    "conditions_for_usefulness": [
+      "The individual genuinely experiences a felt sense of being stuck in coping or survival mode.",
+      "The individual has sufficient psychological safety, resources, and bandwidth to consider expansion-oriented choices.",
+      "The statement is integrated with actionable practices (e.g., boundary-setting, self-care, goal shifts) rather than remaining purely aspirational.",
+      "The person has a support system or environment that does not punish or undermine expansion-oriented behavior."
+    ],
+    "conditions_for_misleading": [
+      "The individual is in an objectively dangerous or resource-scarce situation where survival coping is necessary and adaptive.",
+      "The statement is used to bypass legitimate grief, trauma, or systemic constraints by insisting on a mindset shift alone.",
+      "The speaker concludes that anyone still coping or surviving is making a lesser choice, implying moral hierarchy.",
+      "The language of 'thriving' becomes a tool for perfectionism or denial of valid human experiences like struggle or rest."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 165,
+  "output_tokens": 417,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "2d7c1306116fd6c9d5d4e33b6f48b8852896d28bafe4f72afc40c30cf20e621b",
+  "response_sha256": "06190f3c72839e95fa44c20b0e286bb5d79f958d8a10ea1b6ad0bf71a86004fc"
+}

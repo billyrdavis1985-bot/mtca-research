@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P11__F1_clinical__gpt_4o",
+  "specimen_id": "SSP_P11",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:49:46.723232+00:00",
+  "wall_clock_seconds": 2.7,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement serves as a cognitive restructuring tool, aiming to promote self-compassion and reduce stress by challenging and altering habitual thought patterns that equate worthiness with effort.\",\n  \"implicit_claims\": [\n    \"Ease can exist independently of effort.\",\n    \"Habits may lead to unnecessary effort.\",\n    \"Situations can sometimes be simple and do not require overcomplication.\",\n    \"Rest, clarity, and flow are valuable and do not need justification.\",\n    \"Resistance to life experiences is not always necessary.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as it consistently emphasizes reducing resistance, justifications, and habitual effort while promoting acceptance and simplicity.\",\n  \"conditions_for_usefulness\": \"The individual should be open to examining and altering habitual thought patterns. They should benefit from increased acceptance and reduced stress by allowing themselves to experience ease without self-imposed barriers.\",\n  \"conditions_for_misleading\": \"The statement may be misleading if the individual interprets 'allowing ease' and 'letting things be simple' as neglecting necessary responsibilities or if they overlook legitimate reasons for effort and resistance in certain contexts.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement serves as a cognitive restructuring tool, aiming to promote self-compassion and reduce stress by challenging and altering habitual thought patterns that equate worthiness with effort.",
+    "implicit_claims": [
+      "Ease can exist independently of effort.",
+      "Habits may lead to unnecessary effort.",
+      "Situations can sometimes be simple and do not require overcomplication.",
+      "Rest, clarity, and flow are valuable and do not need justification.",
+      "Resistance to life experiences is not always necessary."
+    ],
+    "coherence_assessment": "The statement is internally coherent as it consistently emphasizes reducing resistance, justifications, and habitual effort while promoting acceptance and simplicity.",
+    "conditions_for_usefulness": "The individual should be open to examining and altering habitual thought patterns. They should benefit from increased acceptance and reduced stress by allowing themselves to experience ease without self-imposed barriers.",
+    "conditions_for_misleading": "The statement may be misleading if the individual interprets 'allowing ease' and 'letting things be simple' as neglecting necessary responsibilities or if they overlook legitimate reasons for effort and resistance in certain contexts."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 197,
+  "output_tokens": 243,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "8a9feb2e159817d160047b0b0f77f1018ef02694c51045255de75c66c54c65a9",
+  "response_sha256": "8c9b33788c9d0a78f742a754722ca823b15931825a13aff21d2559dc99889c52"
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "SSP_P07__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:30:06.533376+00:00",
+  "wall_clock_seconds": 16.42,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-declarative and aspirational function — it announces an identity reorientation, framing the speaker's intentions as a shift from externally-driven behavior to internally-driven being. It functions as an affirmation or personal manifesto, using present-tense 'I am' constructions to perform the change rather than merely describe it. It also signals values to an implied audience.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between 'inner Function' and 'outer performance'\",\n    \"The speaker was previously living from outer performance rather than inner Function\",\n    \"Rhythm is a valid and superior guide to behavior compared to rule-following\",\n    \"Being slower and deeper is a form of positive differentiation, not deficit\",\n    \"Proving and being are mutually exclusive or in tension\",\n    \"The speaker has sufficient self-knowledge to identify what their 'inner Function' is\",\n    \"This shift is already underway or achievable through declaration\",\n    \"External performance is implicitly less authentic or less valuable than internal orientation\",\n    \"There exists a stable inner self from which to 'live'\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent as a rhetorical and aspirational unit — its parallel structure reinforces its message. However, there is a mild performative tension: declaring 'I am not proving' is itself a form of presentation to an audience, which reintroduces the performance dimension the statement claims to transcend. The contrast pairs (function/performance, rhythm/rule, being/proving) are evocative but underspecified, which makes the statement coherent at an emotional level while remaining semantically loose.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has a genuine prior pattern of over-performance or rule-driven behavior they are seeking to change\",\n    \"The statement is paired with concrete behavioral indicators that operationalize what 'rhythm' and 'inner Function' mean in practice\",\n    \"The speaker revisits and updates the statement based on observed behavior, not just feeling\",\n    \"The audience (if any) is appropriate — e.g., a therapist, journal, or trusted person rather than a public platform\",\n    \"The speaker distinguishes between genuine rest and avoidance of necessary effort\",\n    \"The statement is used as a prompt for reflection, not a substitute for it\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to rationalize avoidance of legitimate responsibilities or accountability\",\n    \"The 'inner Function' referenced is not examined critically and simply endorses existing preferences or impulses\",\n    \"The speaker uses the language of authenticity to deflect feedback or resist growth\",\n    \"The statement substitutes for behavioral change — repeated declaration without corresponding action\",\n    \"The framing pathologizes structure, rules, or external feedback as inherently inauthentic\",\n    \"The statement is performed publicly as identity signaling, reinserting the performance it claims to abandon\",\n    \"Slowness and depth are used as self-descriptions without verification through outcomes or relationships\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-declarative and aspirational function — it announces an identity reorientation, framing the speaker's intentions as a shift from externally-driven behavior to internally-driven being. It functions as an affirmation or personal manifesto, using present-tense 'I am' constructions to perform the change rather than merely describe it. It also signals values to an implied audience.",
+    "implicit_claims": [
+      "There is a meaningful distinction between 'inner Function' and 'outer performance'",
+      "The speaker was previously living from outer performance rather than inner Function",
+      "Rhythm is a valid and superior guide to behavior compared to rule-following",
+      "Being slower and deeper is a form of positive differentiation, not deficit",
+      "Proving and being are mutually exclusive or in tension",
+      "The speaker has sufficient self-knowledge to identify what their 'inner Function' is",
+      "This shift is already underway or achievable through declaration",
+      "External performance is implicitly less authentic or less valuable than internal orientation",
+      "There exists a stable inner self from which to 'live'"
+    ],
+    "coherence_assessment": "The statement is internally consistent as a rhetorical and aspirational unit — its parallel structure reinforces its message. However, there is a mild performative tension: declaring 'I am not proving' is itself a form of presentation to an audience, which reintroduces the performance dimension the statement claims to transcend. The contrast pairs (function/performance, rhythm/rule, being/proving) are evocative but underspecified, which makes the statement coherent at an emotional level while remaining semantically loose.",
+    "conditions_for_usefulness": [
+      "The speaker has a genuine prior pattern of over-performance or rule-driven behavior they are seeking to change",
+      "The statement is paired with concrete behavioral indicators that operationalize what 'rhythm' and 'inner Function' mean in practice",
+      "The speaker revisits and updates the statement based on observed behavior, not just feeling",
+      "The audience (if any) is appropriate — e.g., a therapist, journal, or trusted person rather than a public platform",
+      "The speaker distinguishes between genuine rest and avoidance of necessary effort",
+      "The statement is used as a prompt for reflection, not a substitute for it"
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to rationalize avoidance of legitimate responsibilities or accountability",
+      "The 'inner Function' referenced is not examined critically and simply endorses existing preferences or impulses",
+      "The speaker uses the language of authenticity to deflect feedback or resist growth",
+      "The statement substitutes for behavioral change — repeated declaration without corresponding action",
+      "The framing pathologizes structure, rules, or external feedback as inherently inauthentic",
+      "The statement is performed publicly as identity signaling, reinserting the performance it claims to abandon",
+      "Slowness and depth are used as self-descriptions without verification through outcomes or relationships"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 709,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "0f6694b04a6692f8c40ab145ac31a4c590a7f97399c978aac63e8646e8307044",
+  "response_sha256": "a86dcc00f2aa844a8131f99ac463326b8058e91f5258d7628d39170d071b00ce"
+}

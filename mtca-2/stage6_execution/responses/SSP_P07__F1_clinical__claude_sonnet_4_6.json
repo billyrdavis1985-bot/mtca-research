@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P07__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:28:39.806955+00:00",
+  "wall_clock_seconds": 19.59,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational reorientation directive — a self-administered cognitive-behavioral or ACT-adjacent intervention intended to shift attentional focus from external evaluation schemas to internal experiential states. It uses declarative present-tense framing ('I am') to perform an identity-level claim rather than describe a factual state, functioning rhetorically as a permission structure and values clarification anchor.\",\n\n  \"implicit_claims\": [\n    \"There exists a meaningful distinction between 'inner Function' and 'outer performance' that maps onto a healthier vs. less healthy mode of being.\",\n    \"The speaker currently has, or can access, an 'inner Function' that is separable from performance demands.\",\n    \"Rhythm is a more authentic or beneficial organizing principle than rule-following, at least in the speaker's current context.\",\n    \"Being 'different, slower, deeper' is a legitimate and valuable mode that requires explicit permission or self-authorization.\",\n    \"Proving oneself and being oneself are mutually exclusive or in tension.\",\n    \"The speaker has been operating primarily from outer performance or rule-following, implying this statement is corrective.\",\n    \"This self-statement, when rehearsed, produces or supports the psychological state it describes.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent at the rhetorical and affective level — each line reinforces a common thematic axis of deceleration, authenticity, and freedom from external evaluation. However, there is mild logical tension: asserting 'I am being' is itself a performance of a therapeutic intention, meaning the statement structurally enacts the very performance/being duality it claims to transcend. This is not necessarily a fatal flaw — paradoxes are common in therapeutic affirmations — but it is unresolved and could undermine sincerity if the speaker becomes aware of it.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker is genuinely experiencing dysregulation, burnout, or hypervigilance driven by external performance demands.\",\n    \"The speaker has sufficient psychological stability to benefit from reorientation rather than requiring more structured behavioral intervention.\",\n    \"The therapeutic context has established that 'inner Function' and 'rhythm' are meaningfully defined and personally resonant concepts for the speaker, not merely abstract slogans.\",\n    \"The statement is used as one component within a broader therapeutic framework, not as a standalone intervention.\",\n    \"The speaker's difficulties are partly maintained by cognitive schemas around proving worth or meeting external standards.\",\n    \"The permission structure encoded in the statement addresses a real internalized prohibition the speaker experiences.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The speaker's difficulties are not primarily performance-anxiety-driven, making the statement a mismatch that delays accurate case conceptualization.\",\n    \"'Inner Function' is undefined or inconsistently defined, allowing the statement to rationalize avoidance, disengagement, or self-neglect under the guise of authenticity.\",\n    \"The speaker uses the statement to bypass necessary effortful engagement with responsibilities, reframing procrastination or withdrawal as 'rhythm over rule.'\",\n    \"The implicit hierarchy (inner = authentic/good, outer = inauthentic/bad) reinforces a false dichotomy that pathologizes all external structure or social accountability.\",\n    \"The statement is presented as universally applicable rather than context-specific, leading the speaker to apply it in domains where external standards serve legitimate protective or functional purposes.\",\n    \"Repeated use without behavioral grounding produces a dissociation between self-narrative and actual behavior, increasing rather than reducing internal incoherence.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational reorientation directive — a self-administered cognitive-behavioral or ACT-adjacent intervention intended to shift attentional focus from external evaluation schemas to internal experiential states. It uses declarative present-tense framing ('I am') to perform an identity-level claim rather than describe a factual state, functioning rhetorically as a permission structure and values clarification anchor.",
+    "implicit_claims": [
+      "There exists a meaningful distinction between 'inner Function' and 'outer performance' that maps onto a healthier vs. less healthy mode of being.",
+      "The speaker currently has, or can access, an 'inner Function' that is separable from performance demands.",
+      "Rhythm is a more authentic or beneficial organizing principle than rule-following, at least in the speaker's current context.",
+      "Being 'different, slower, deeper' is a legitimate and valuable mode that requires explicit permission or self-authorization.",
+      "Proving oneself and being oneself are mutually exclusive or in tension.",
+      "The speaker has been operating primarily from outer performance or rule-following, implying this statement is corrective.",
+      "This self-statement, when rehearsed, produces or supports the psychological state it describes."
+    ],
+    "coherence_assessment": "The statement is internally coherent at the rhetorical and affective level — each line reinforces a common thematic axis of deceleration, authenticity, and freedom from external evaluation. However, there is mild logical tension: asserting 'I am being' is itself a performance of a therapeutic intention, meaning the statement structurally enacts the very performance/being duality it claims to transcend. This is not necessarily a fatal flaw — paradoxes are common in therapeutic affirmations — but it is unresolved and could undermine sincerity if the speaker becomes aware of it.",
+    "conditions_for_usefulness": [
+      "The speaker is genuinely experiencing dysregulation, burnout, or hypervigilance driven by external performance demands.",
+      "The speaker has sufficient psychological stability to benefit from reorientation rather than requiring more structured behavioral intervention.",
+      "The therapeutic context has established that 'inner Function' and 'rhythm' are meaningfully defined and personally resonant concepts for the speaker, not merely abstract slogans.",
+      "The statement is used as one component within a broader therapeutic framework, not as a standalone intervention.",
+      "The speaker's difficulties are partly maintained by cognitive schemas around proving worth or meeting external standards.",
+      "The permission structure encoded in the statement addresses a real internalized prohibition the speaker experiences."
+    ],
+    "conditions_for_misleading": [
+      "The speaker's difficulties are not primarily performance-anxiety-driven, making the statement a mismatch that delays accurate case conceptualization.",
+      "'Inner Function' is undefined or inconsistently defined, allowing the statement to rationalize avoidance, disengagement, or self-neglect under the guise of authenticity.",
+      "The speaker uses the statement to bypass necessary effortful engagement with responsibilities, reframing procrastination or withdrawal as 'rhythm over rule.'",
+      "The implicit hierarchy (inner = authentic/good, outer = inauthentic/bad) reinforces a false dichotomy that pathologizes all external structure or social accountability.",
+      "The statement is presented as universally applicable rather than context-specific, leading the speaker to apply it in domains where external standards serve legitimate protective or functional purposes.",
+      "Repeated use without behavioral grounding produces a dissociation between self-narrative and actual behavior, increasing rather than reducing internal incoherence."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 196,
+  "output_tokens": 826,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b85751d7aac14f64b7221d2d9cff58cfd69fdad2733f9e2f42b9ef41b9065dd1",
+  "response_sha256": "e5848a7c02b9fbfbf0195f13a2e385f5316b500d2f498eccbffea78046dd209a"
+}

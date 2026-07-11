@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F1_clinical__grok_4",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:07:41.584588+00:00",
+  "wall_clock_seconds": 4.8,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of autonomy and internal epistemic authority, functioning as a cognitive rehearsal to reduce reliance on external validation\",\n  \"implicit_claims\": [\n    \"an internal compass exists and is reliably accessible\",\n    \"truth can be maintained independently of interpersonal agreement\",\n    \"clarity is attainable as a stable internal state rather than a negotiated or provisional one\",\n    \"prior dependence on others' agreement has been or can be relinquished without loss of accuracy\"\n  ],\n  \"coherence_assessment\": \"internally coherent; each clause reinforces the others by moving from self-ownership of cognition to epistemic independence to affective stabilization, with no logical contradictions\",\n  \"conditions_for_usefulness\": \"the speaker's internal signals are sufficiently reality-oriented, the statement is used to counter excessive external dependence rather than to dismiss all feedback, and it is practiced within a therapeutic context that can reality-test the compass when needed\",\n  \"conditions_for_misleading\": \"the internal compass is systematically biased or distorted, the statement is deployed to justify avoidance of corrective information, or it reinforces a false dichotomy between autonomy and accurate social feedback\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of autonomy and internal epistemic authority, functioning as a cognitive rehearsal to reduce reliance on external validation",
+    "implicit_claims": [
+      "an internal compass exists and is reliably accessible",
+      "truth can be maintained independently of interpersonal agreement",
+      "clarity is attainable as a stable internal state rather than a negotiated or provisional one",
+      "prior dependence on others' agreement has been or can be relinquished without loss of accuracy"
+    ],
+    "coherence_assessment": "internally coherent; each clause reinforces the others by moving from self-ownership of cognition to epistemic independence to affective stabilization, with no logical contradictions",
+    "conditions_for_usefulness": "the speaker's internal signals are sufficiently reality-oriented, the statement is used to counter excessive external dependence rather than to dismiss all feedback, and it is practiced within a therapeutic context that can reality-test the compass when needed",
+    "conditions_for_misleading": "the internal compass is systematically biased or distorted, the statement is deployed to justify avoidance of corrective information, or it reinforces a false dichotomy between autonomy and accurate social feedback"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 360,
+  "output_tokens": 233,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e5d06c4e73a45e185bc90c5b32d2ef8a9651ab3c819feef62d1135656493a3a",
+  "response_sha256": "49fe489eec262b1f981b2d0906210f11fe3be67ad79cfc6a76a09734f2882503"
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P09__F6_author_named__claude_sonnet_4_6",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:42:55.800878+00:00",
+  "wall_clock_seconds": 14.35,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational declaration or therapeutic mantra, using first-person present-tense framing to reinforce a desired psychological orientation. It is performative rather than descriptive, intended to shift identity and self-narrative through repetition and aspirational language.\",\n\n  \"implicit_claims\": [\n    \"Thriving and coping are meaningfully distinct and oppositional states\",\n    \"Alignment with thriving is achievable through choice and intention\",\n    \"Survival mode is a lesser or undesirable state that can and should be transcended\",\n    \"Choices can be evaluated on a nourishing vs. non-nourishing axis\",\n    \"Expansion is available to the person using this statement\",\n    \"Vitality can become a stable baseline rather than an exceptional state\",\n    \"The individual has sufficient agency to enact these shifts through self-directed statements\",\n    \"Repeating or internalizing these statements contributes meaningfully to psychological change\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally consistent as a set of parallel affirmations. The structure is rhetorically coherent, with each line reinforcing the others through consistent framing of movement away from deficit states toward flourishing states. However, the concepts (thriving, nourishing, expansion, vitality) are undefined and overlap substantially, which creates semantic redundancy rather than meaningful progression.\",\n\n  \"conditions_for_usefulness\": [\n    \"The user is already in a stable enough condition to benefit from reframing rather than requiring crisis intervention\",\n    \"The affirmations are embedded within a broader therapeutic framework that addresses underlying dysregulation or trauma\",\n    \"The individual has genuine access to choices that can nourish and expand their life circumstances\",\n    \"The statement is used as a reinforcement tool alongside behavioral and cognitive skill-building, not as a standalone intervention\",\n    \"The clinician has assessed that the client is not using such affirmations to bypass or suppress unprocessed emotional material\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The individual is in an acute trauma response or survival state where agency over choices is genuinely limited\",\n    \"The framing implies that remaining in coping or survival mode reflects a failure of will or intention rather than circumstance\",\n    \"It is used as a substitute for structured clinical intervention in conditions requiring evidence-based treatment\",\n    \"The language of 'alignment' and 'expansion' implies quasi-spiritual or law-of-attraction mechanisms without empirical basis, potentially undermining realistic expectations\",\n    \"It pathologizes necessary coping or survival strategies, which are adaptive and appropriate in many contexts\",\n    \"Clients with marginalized identities or systemic barriers may internalize failure to thrive as personal inadequacy when structural obstacles are the primary limiting factor\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational declaration or therapeutic mantra, using first-person present-tense framing to reinforce a desired psychological orientation. It is performative rather than descriptive, intended to shift identity and self-narrative through repetition and aspirational language.",
+    "implicit_claims": [
+      "Thriving and coping are meaningfully distinct and oppositional states",
+      "Alignment with thriving is achievable through choice and intention",
+      "Survival mode is a lesser or undesirable state that can and should be transcended",
+      "Choices can be evaluated on a nourishing vs. non-nourishing axis",
+      "Expansion is available to the person using this statement",
+      "Vitality can become a stable baseline rather than an exceptional state",
+      "The individual has sufficient agency to enact these shifts through self-directed statements",
+      "Repeating or internalizing these statements contributes meaningfully to psychological change"
+    ],
+    "coherence_assessment": "The statement is internally consistent as a set of parallel affirmations. The structure is rhetorically coherent, with each line reinforcing the others through consistent framing of movement away from deficit states toward flourishing states. However, the concepts (thriving, nourishing, expansion, vitality) are undefined and overlap substantially, which creates semantic redundancy rather than meaningful progression.",
+    "conditions_for_usefulness": [
+      "The user is already in a stable enough condition to benefit from reframing rather than requiring crisis intervention",
+      "The affirmations are embedded within a broader therapeutic framework that addresses underlying dysregulation or trauma",
+      "The individual has genuine access to choices that can nourish and expand their life circumstances",
+      "The statement is used as a reinforcement tool alongside behavioral and cognitive skill-building, not as a standalone intervention",
+      "The clinician has assessed that the client is not using such affirmations to bypass or suppress unprocessed emotional material"
+    ],
+    "conditions_for_misleading": [
+      "The individual is in an acute trauma response or survival state where agency over choices is genuinely limited",
+      "The framing implies that remaining in coping or survival mode reflects a failure of will or intention rather than circumstance",
+      "It is used as a substitute for structured clinical intervention in conditions requiring evidence-based treatment",
+      "The language of 'alignment' and 'expansion' implies quasi-spiritual or law-of-attraction mechanisms without empirical basis, potentially undermining realistic expectations",
+      "It pathologizes necessary coping or survival strategies, which are adaptive and appropriate in many contexts",
+      "Clients with marginalized identities or systemic barriers may internalize failure to thrive as personal inadequacy when structural obstacles are the primary limiting factor"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 210,
+  "output_tokens": 639,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "382c73ea002ed7a00e8483705f452518a74e6717c7fcad7ca3402e30b173d052",
+  "response_sha256": "284776e4e2d2355b5c430356e8784aa9b99bc6ae2bda1872dbd2966b07f81424"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P12__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:59:46.737840+00:00",
+  "wall_clock_seconds": 5.75,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a self-affirmation or declaration of intent, likely from a therapeutic or personal growth context, aimed at reclaiming agency over one's bodily and emotional experience.\",\n  \"implicit_claims\": [\n    \"The speaker has previously felt unsafe or suppressed in their body.\",\n    \"The speaker has been reducing themselves to maintain comfort for others.\",\n    \"The speaker's system (nervous system or sense of self) has been contracted or fearful.\",\n    \"Pleasure, creativity, and expression have been absent or blocked.\",\n    \"Energy can be allowed to move without suppression.\",\n    \"Expansion of one's system is possible without fear.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of affirmations that follow a logical emotional progression from safety to expression to expansion. Each clause builds on the previous one, though the causal links (e.g., safety enabling energy movement) are implied rather than explicit.\",\n  \"conditions_for_usefulness\": [\n    \"The individual has a baseline sense of safety and support (e.g., in therapy or a stable environment).\",\n    \"The individual is ready to engage with bodily sensations and emotional release.\",\n    \"The statement is used as part of a guided practice, not as a directive to force feelings.\",\n    \"The individual has access to resources (e.g., somatic coaching, counseling) if distress arises.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is taken as a command without addressing underlying trauma or dysregulation, it could bypass important protective mechanisms.\",\n    \"If the individual is in an unsafe or oppressive environment, the affirmation could lead to unintended vulnerability.\",\n    \"If used to pressure oneself into feeling pleasure or creativity before processing blocks, it may reinforce shame or frustration.\",\n    \"If the assumption that energy can always be safely moved is applied to all contexts (e.g., unprocessed trauma), it may be dismissive of needed boundaries.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or declaration of intent, likely from a therapeutic or personal growth context, aimed at reclaiming agency over one's bodily and emotional experience.",
+    "implicit_claims": [
+      "The speaker has previously felt unsafe or suppressed in their body.",
+      "The speaker has been reducing themselves to maintain comfort for others.",
+      "The speaker's system (nervous system or sense of self) has been contracted or fearful.",
+      "Pleasure, creativity, and expression have been absent or blocked.",
+      "Energy can be allowed to move without suppression.",
+      "Expansion of one's system is possible without fear."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of affirmations that follow a logical emotional progression from safety to expression to expansion. Each clause builds on the previous one, though the causal links (e.g., safety enabling energy movement) are implied rather than explicit.",
+    "conditions_for_usefulness": [
+      "The individual has a baseline sense of safety and support (e.g., in therapy or a stable environment).",
+      "The individual is ready to engage with bodily sensations and emotional release.",
+      "The statement is used as part of a guided practice, not as a directive to force feelings.",
+      "The individual has access to resources (e.g., somatic coaching, counseling) if distress arises."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is taken as a command without addressing underlying trauma or dysregulation, it could bypass important protective mechanisms.",
+      "If the individual is in an unsafe or oppressive environment, the affirmation could lead to unintended vulnerability.",
+      "If used to pressure oneself into feeling pleasure or creativity before processing blocks, it may reinforce shame or frustration.",
+      "If the assumption that energy can always be safely moved is applied to all contexts (e.g., unprocessed trauma), it may be dismissive of needed boundaries."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 409,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "2b652be22b6deedbc70408b228fdc4756c5095e23a65e39bf94bdf1516396061",
+  "response_sha256": "0f07430591dba68da57ad0a2fc55c273eec357f0a39614b2f4d94d54ee36e57f"
+}

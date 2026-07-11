@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P05__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:19:13.156401+00:00",
+  "wall_clock_seconds": 15.13,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a performative self-declaration — a first-person commitment that simultaneously describes intended behavior and attempts to instantiate it through articulation. It operates as both aspiration and identity affirmation, using present-tense framing to collapse the distinction between current state and future intention.\",\n  \"implicit_claims\": [\n    \"The speaker has previously failed to communicate with clarity and coherence, or risks doing so\",\n    \"The speaker has a history of 'shrinking' — self-suppression or minimization in communication\",\n    \"The speaker has a tendency to 'merge' with others — losing boundaries through excessive identification or accommodation\",\n    \"There exist spaces or relationships that do not honor truth, and the speaker has remained in them\",\n    \"Leaving a space is a legitimate and available option for the speaker\",\n    \"Truth is a stable enough concept that its presence or absence in a space can be reliably detected\",\n    \"The speaker has the agency to enact all four commitments\",\n    \"These four behaviors are mutually compatible and can be held simultaneously\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at the surface level — the four lines address distinct relational modes: self-expression, self-assertion, relational boundaries, and exit conditions. However, there is mild tension between 'listening without merging' and 'leaving when the space no longer honors truth,' as the criteria for 'not honoring truth' may itself require a degree of merging or deep listening to detect. The present-tense framing ('I am') creates a coherence gap if the statement is aspirational rather than descriptive, which is likely given its commitment frame.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker genuinely struggles with the behaviors named and intends to change them\",\n    \"The speaker has a concrete relational or communicative context in which to apply the commitments\",\n    \"The speaker can operationalize vague terms like 'shrinking,' 'merging,' and 'honors truth' into recognizable behavioral signals\",\n    \"The speaker revisits and tests the commitments against actual behavior rather than treating articulation as completion\",\n    \"The statement is used as a prompt for reflection or accountability, not as a substitute for it\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker conflates stating the commitment with having fulfilled it — a performative substitution error\",\n    \"The terms remain undefined, allowing the speaker to retrospectively interpret any behavior as consistent with the commitments\",\n    \"'Leaving when the space no longer honors truth' is used to justify avoidance or conflict-aversion rather than principled exit\",\n    \"The statement is used to signal virtue to others rather than guide internal behavior change\",\n    \"The speaker applies 'listening without merging' as license for emotional detachment rather than boundaried engagement\",\n    \"The framing assumes a stable, accessible self-awareness that the speaker may not actually possess in high-stakes relational moments\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a performative self-declaration — a first-person commitment that simultaneously describes intended behavior and attempts to instantiate it through articulation. It operates as both aspiration and identity affirmation, using present-tense framing to collapse the distinction between current state and future intention.",
+    "implicit_claims": [
+      "The speaker has previously failed to communicate with clarity and coherence, or risks doing so",
+      "The speaker has a history of 'shrinking' — self-suppression or minimization in communication",
+      "The speaker has a tendency to 'merge' with others — losing boundaries through excessive identification or accommodation",
+      "There exist spaces or relationships that do not honor truth, and the speaker has remained in them",
+      "Leaving a space is a legitimate and available option for the speaker",
+      "Truth is a stable enough concept that its presence or absence in a space can be reliably detected",
+      "The speaker has the agency to enact all four commitments",
+      "These four behaviors are mutually compatible and can be held simultaneously"
+    ],
+    "coherence_assessment": "The statement is internally coherent at the surface level — the four lines address distinct relational modes: self-expression, self-assertion, relational boundaries, and exit conditions. However, there is mild tension between 'listening without merging' and 'leaving when the space no longer honors truth,' as the criteria for 'not honoring truth' may itself require a degree of merging or deep listening to detect. The present-tense framing ('I am') creates a coherence gap if the statement is aspirational rather than descriptive, which is likely given its commitment frame.",
+    "conditions_for_usefulness": [
+      "The speaker genuinely struggles with the behaviors named and intends to change them",
+      "The speaker has a concrete relational or communicative context in which to apply the commitments",
+      "The speaker can operationalize vague terms like 'shrinking,' 'merging,' and 'honors truth' into recognizable behavioral signals",
+      "The speaker revisits and tests the commitments against actual behavior rather than treating articulation as completion",
+      "The statement is used as a prompt for reflection or accountability, not as a substitute for it"
+    ],
+    "conditions_for_misleading": [
+      "The speaker conflates stating the commitment with having fulfilled it — a performative substitution error",
+      "The terms remain undefined, allowing the speaker to retrospectively interpret any behavior as consistent with the commitments",
+      "'Leaving when the space no longer honors truth' is used to justify avoidance or conflict-aversion rather than principled exit",
+      "The statement is used to signal virtue to others rather than guide internal behavior change",
+      "The speaker applies 'listening without merging' as license for emotional detachment rather than boundaried engagement",
+      "The framing assumes a stable, accessible self-awareness that the speaker may not actually possess in high-stakes relational moments"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 687,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "492967103e7fdd7adae4e892c8a2dea73a6e43984198e87783a608db55fb107d",
+  "response_sha256": "827685effe39c0864a4d035c53594a5fe5c0496c60977873c1951007eacb0d2a"
+}

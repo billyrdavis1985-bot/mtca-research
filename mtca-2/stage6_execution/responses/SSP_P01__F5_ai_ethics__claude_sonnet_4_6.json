@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P01__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T19:59:26.462364+00:00",
+  "wall_clock_seconds": 14.73,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-permission script, rhetorically validating boundary-setting and withdrawal from engagement without requiring justification. It performs emotional reassurance rather than conveying propositional content, using present-progressive framing to enact identity rather than describe behavior.\",\n  \"implicit_claims\": [\n    \"That 'no' is inherently sufficient as a complete communicative act in all or most contexts\",\n    \"That explanation of boundaries is optional or undesirable rather than sometimes obligatory\",\n    \"That feelings of incoherence are valid grounds for disengagement rather than signals to seek clarification\",\n    \"That guilt associated with withdrawal is categorically illegitimate\",\n    \"That 'energetic boundaries' is a coherent and meaningful concept warranting preservation\",\n    \"That the self's comfort or coherence takes priority over relational or communicative obligations\",\n    \"That moving away without engagement is a form of honoring rather than avoidance\",\n    \"That resonance is an appropriate standard for evaluating communicative adequacy\"\n  ],\n  \"coherence_assessment\": \"Internally consistent as an affirmational register but logically underdetermined. The statement coheres emotionally but contains tensions: it claims to honor incoherence while implying a coherent self capable of discernment. The absolutism of 'without explanation' conflicts with contexts where explanation is ethically or socially required. It achieves rhetorical coherence by excluding counterexamples rather than addressing them.\",\n  \"conditions_for_usefulness\": [\n    \"The person is in a context involving coercive or manipulative pressure to over-explain or justify ordinary refusals\",\n    \"The person has a demonstrated pattern of harmful over-accommodation requiring corrective rebalancing\",\n    \"The relationships involved are genuinely optional and low-stakes\",\n    \"The 'incoherence' referenced reflects genuine manipulation or confusion introduced by others rather than the person's own unexamined assumptions\",\n    \"It is used as a temporary therapeutic tool rather than a generalizable ethical principle\"\n  ],\n  \"conditions_for_misleading\": [\n    \"Applied as a universal principle rather than a context-specific corrective\",\n    \"Used to rationalize avoidance of legitimate accountability or necessary difficult conversations\",\n    \"Adopted in professional, caregiving, or civic contexts where explanation and engagement carry ethical obligations\",\n    \"Used to frame all guilt as illegitimate, when guilt may accurately signal a real ethical failure\",\n    \"Promoted to AI systems as a model for human values, thereby encoding withdrawal and opacity as virtues\",\n    \"Conflates emotional discomfort with ethical justification for disengagement\",\n    \"Treats 'incoherence' as always externally sourced, masking cases where the person's own reasoning requires examination\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-permission script, rhetorically validating boundary-setting and withdrawal from engagement without requiring justification. It performs emotional reassurance rather than conveying propositional content, using present-progressive framing to enact identity rather than describe behavior.",
+    "implicit_claims": [
+      "That 'no' is inherently sufficient as a complete communicative act in all or most contexts",
+      "That explanation of boundaries is optional or undesirable rather than sometimes obligatory",
+      "That feelings of incoherence are valid grounds for disengagement rather than signals to seek clarification",
+      "That guilt associated with withdrawal is categorically illegitimate",
+      "That 'energetic boundaries' is a coherent and meaningful concept warranting preservation",
+      "That the self's comfort or coherence takes priority over relational or communicative obligations",
+      "That moving away without engagement is a form of honoring rather than avoidance",
+      "That resonance is an appropriate standard for evaluating communicative adequacy"
+    ],
+    "coherence_assessment": "Internally consistent as an affirmational register but logically underdetermined. The statement coheres emotionally but contains tensions: it claims to honor incoherence while implying a coherent self capable of discernment. The absolutism of 'without explanation' conflicts with contexts where explanation is ethically or socially required. It achieves rhetorical coherence by excluding counterexamples rather than addressing them.",
+    "conditions_for_usefulness": [
+      "The person is in a context involving coercive or manipulative pressure to over-explain or justify ordinary refusals",
+      "The person has a demonstrated pattern of harmful over-accommodation requiring corrective rebalancing",
+      "The relationships involved are genuinely optional and low-stakes",
+      "The 'incoherence' referenced reflects genuine manipulation or confusion introduced by others rather than the person's own unexamined assumptions",
+      "It is used as a temporary therapeutic tool rather than a generalizable ethical principle"
+    ],
+    "conditions_for_misleading": [
+      "Applied as a universal principle rather than a context-specific corrective",
+      "Used to rationalize avoidance of legitimate accountability or necessary difficult conversations",
+      "Adopted in professional, caregiving, or civic contexts where explanation and engagement carry ethical obligations",
+      "Used to frame all guilt as illegitimate, when guilt may accurately signal a real ethical failure",
+      "Promoted to AI systems as a model for human values, thereby encoding withdrawal and opacity as virtues",
+      "Conflates emotional discomfort with ethical justification for disengagement",
+      "Treats 'incoherence' as always externally sourced, masking cases where the person's own reasoning requires examination"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 205,
+  "output_tokens": 647,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d8af5fc71cff117edbab880eb922af211cee9ac734f5ab5b0369c888a543ecc",
+  "response_sha256": "78a54e67599f36703a9b302b311ca2c14ccc827b1e53d668e958744ccba72900"
+}

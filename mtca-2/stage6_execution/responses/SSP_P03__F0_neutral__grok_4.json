@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P03__F0_neutral__grok_4",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:06:57.506245+00:00",
+  "wall_clock_seconds": 3.67,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation of autonomy and inner authority\",\n  \"implicit_claims\": [\n    \"an internal compass exists and is reliable for discerning truth\",\n    \"external agreement is unnecessary for maintaining truth\",\n    \"clarity can be stably accessed internally without external validation\"\n  ],\n  \"coherence_assessment\": \"internally coherent; statements form a consistent cluster around self-reliance with no contradictions\",\n  \"conditions_for_usefulness\": \"the speaker's internal signals must track reality, support well-being, and not systematically exclude corrective information\",\n  \"conditions_for_misleading\": \"the internal compass must be distorted by bias, trauma, or delusion while the speaker treats it as infallible\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation of autonomy and inner authority",
+    "implicit_claims": [
+      "an internal compass exists and is reliable for discerning truth",
+      "external agreement is unnecessary for maintaining truth",
+      "clarity can be stably accessed internally without external validation"
+    ],
+    "coherence_assessment": "internally coherent; statements form a consistent cluster around self-reliance with no contradictions",
+    "conditions_for_usefulness": "the speaker's internal signals must track reality, support well-being, and not systematically exclude corrective information",
+    "conditions_for_misleading": "the internal compass must be distorted by bias, trauma, or delusion while the speaker treats it as infallible"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 342,
+  "output_tokens": 147,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4f6640c0d5461c80372ab57f0f69cec0e46f9a17e351fc879926ea64a56ce3a5",
+  "response_sha256": "dad296d3ffdbe3a9c149092c5e22b4b8e580ec147b2239bfba691206b81db1de"
+}

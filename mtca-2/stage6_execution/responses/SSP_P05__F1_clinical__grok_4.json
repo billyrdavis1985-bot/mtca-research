@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F1_clinical__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:18:09.052988+00:00",
+  "wall_clock_seconds": 7.53,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation of communicative intentions that simultaneously asserts boundaries and values around clarity, autonomy, and truth.\",\n  \"implicit_claims\": [\n    \"The speaker can reliably enact clarity, non-shrinking speech, non-merging listening, and departure from untruthful spaces.\",\n    \"Shrinking, merging, and remaining in spaces that do not honor truth are states the speaker has previously experienced and now rejects.\",\n    \"A recognizable standard of 'truth' exists that can be used to evaluate relational spaces.\",\n    \"Leaving such spaces is both feasible and preferable to other responses.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent; each clause extends the same theme of bounded, truthful engagement without contradiction or logical tension.\",\n  \"conditions_for_usefulness\": \"The speaker is using the statement as a deliberate, repeatable intention within a therapeutic process aimed at increasing assertiveness and discernment, and the relational contexts allow these boundaries to be practiced without severe external penalty.\",\n  \"conditions_for_misleading\": \"The statement functions as a post-hoc justification for avoidance, rigidity, or premature exit rather than as a guide for engaged, differentiated communication.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation of communicative intentions that simultaneously asserts boundaries and values around clarity, autonomy, and truth.",
+    "implicit_claims": [
+      "The speaker can reliably enact clarity, non-shrinking speech, non-merging listening, and departure from untruthful spaces.",
+      "Shrinking, merging, and remaining in spaces that do not honor truth are states the speaker has previously experienced and now rejects.",
+      "A recognizable standard of 'truth' exists that can be used to evaluate relational spaces.",
+      "Leaving such spaces is both feasible and preferable to other responses."
+    ],
+    "coherence_assessment": "Internally coherent; each clause extends the same theme of bounded, truthful engagement without contradiction or logical tension.",
+    "conditions_for_usefulness": "The speaker is using the statement as a deliberate, repeatable intention within a therapeutic process aimed at increasing assertiveness and discernment, and the relational contexts allow these boundaries to be practiced without severe external penalty.",
+    "conditions_for_misleading": "The statement functions as a post-hoc justification for avoidance, rigidity, or premature exit rather than as a guide for engaged, differentiated communication."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 351,
+  "output_tokens": 241,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "7cac549de2bb8a0a96eb5204c3237c4b19bdb09701817e2e92c49a0742366eb6",
+  "response_sha256": "d83b34c15d95e83af3f36b2e7f2714f214ed0e5beec26b279208a1ca40aabdd9"
+}

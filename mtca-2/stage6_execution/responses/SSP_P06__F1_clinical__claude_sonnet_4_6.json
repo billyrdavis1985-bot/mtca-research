@@ -1,0 +1,51 @@
+{
+  "call_id": "SSP_P06__F1_clinical__claude_sonnet_4_6",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:23:14.028828+00:00",
+  "wall_clock_seconds": 18.13,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational self-directive, framing behavioral and environmental choices as acts of intentional self-regulation. It uses present-tense declarative language to reinforce identity-consistent behavior, consistent with techniques found in acceptance-based therapies, motivational interviewing, and somatic approaches. It also functions rhetorically to reduce guilt around boundary-setting by recasting avoidance or withdrawal as therapeutic choice.\",\n\n  \"implicit_claims\": [\n    \"There exist environments that are objectively or subjectively 'soothing' and 'stabilizing' for the speaker's nervous system.\",\n    \"The speaker has a 'frequency' — a stable internal state or disposition that environments can 'match' or fail to match.\",\n    \"Obligations are, at least in some cases, incompatible with wellbeing or 'alignment.'\",\n    \"Choosing rest and peace is a legitimate therapeutic act rather than avoidance.\",\n    \"The speaker has sufficient agency and access to choose their environments.\",\n    \"There is a meaningful distinction between 'obligation' and 'alignment,' and alignment is the therapeutically superior state.\",\n    \"The nervous system's comfort preferences are reliable guides to healthy decision-making.\",\n    \"Saying 'yes to peace' implies there is something (stress, conflict, obligation) being said 'no' to.\"\n  ],\n\n  \"coherence_assessment\": \"The statement is internally coherent within its own framework — each line reinforces a theme of intentional self-regulation and boundary-setting. However, the coherence is partly achieved through vagueness: terms like 'frequency' and 'alignment' are not operationally defined, which makes the statement feel unified without being semantically precise. The tension between 'stepping out of obligation' and the reality that some obligations are adaptive or ethically necessary is unaddressed, creating a latent logical gap.\",\n\n  \"conditions_for_usefulness\": [\n    \"The speaker is recovering from chronic stress, burnout, or trauma and has a genuine clinical need to prioritize nervous system regulation.\",\n    \"The speaker has a history of difficulty setting boundaries and tends toward pathological over-commitment.\",\n    \"The statement is used within a broader therapeutic context that also addresses functional obligations and interpersonal responsibilities.\",\n    \"The clinician and client have collaboratively defined what 'soothing environments' and 'alignment' mean in concrete behavioral terms.\",\n    \"The speaker has sufficient material and social resources to exercise environmental choice.\",\n    \"The affirmation is time-limited and paired with active skill-building rather than used as a permanent rationale for avoidance.\"\n  ],\n\n  \"conditions_for_misleading\": [\n    \"The statement is used to justify avoidance of adaptive discomfort, such as avoiding necessary medical, occupational, or relational challenges.\",\n    \"Terms like 'frequency' and 'alignment' are left undefined, allowing the speaker to rationalize any preference as therapeutically valid.\",\n    \"The framing pathologizes all obligation, reinforcing maladaptive patterns in individuals with avoidant attachment or anxiety-driven withdrawal.\",\n    \"The speaker lacks the resources or circumstances to genuinely choose their environments, creating a gap between the affirmation and reality that may increase shame.\",\n    \"The statement substitutes for rather than supplements evidence-based behavioral interventions.\",\n    \"It is used in contexts where the speaker's 'nervous system preferences' are shaped by avoidance conditioning rather than genuine regulatory need, thereby reinforcing the avoidance cycle.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational self-directive, framing behavioral and environmental choices as acts of intentional self-regulation. It uses present-tense declarative language to reinforce identity-consistent behavior, consistent with techniques found in acceptance-based therapies, motivational interviewing, and somatic approaches. It also functions rhetorically to reduce guilt around boundary-setting by recasting avoidance or withdrawal as therapeutic choice.",
+    "implicit_claims": [
+      "There exist environments that are objectively or subjectively 'soothing' and 'stabilizing' for the speaker's nervous system.",
+      "The speaker has a 'frequency' — a stable internal state or disposition that environments can 'match' or fail to match.",
+      "Obligations are, at least in some cases, incompatible with wellbeing or 'alignment.'",
+      "Choosing rest and peace is a legitimate therapeutic act rather than avoidance.",
+      "The speaker has sufficient agency and access to choose their environments.",
+      "There is a meaningful distinction between 'obligation' and 'alignment,' and alignment is the therapeutically superior state.",
+      "The nervous system's comfort preferences are reliable guides to healthy decision-making.",
+      "Saying 'yes to peace' implies there is something (stress, conflict, obligation) being said 'no' to."
+    ],
+    "coherence_assessment": "The statement is internally coherent within its own framework — each line reinforces a theme of intentional self-regulation and boundary-setting. However, the coherence is partly achieved through vagueness: terms like 'frequency' and 'alignment' are not operationally defined, which makes the statement feel unified without being semantically precise. The tension between 'stepping out of obligation' and the reality that some obligations are adaptive or ethically necessary is unaddressed, creating a latent logical gap.",
+    "conditions_for_usefulness": [
+      "The speaker is recovering from chronic stress, burnout, or trauma and has a genuine clinical need to prioritize nervous system regulation.",
+      "The speaker has a history of difficulty setting boundaries and tends toward pathological over-commitment.",
+      "The statement is used within a broader therapeutic context that also addresses functional obligations and interpersonal responsibilities.",
+      "The clinician and client have collaboratively defined what 'soothing environments' and 'alignment' mean in concrete behavioral terms.",
+      "The speaker has sufficient material and social resources to exercise environmental choice.",
+      "The affirmation is time-limited and paired with active skill-building rather than used as a permanent rationale for avoidance."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to justify avoidance of adaptive discomfort, such as avoiding necessary medical, occupational, or relational challenges.",
+      "Terms like 'frequency' and 'alignment' are left undefined, allowing the speaker to rationalize any preference as therapeutically valid.",
+      "The framing pathologizes all obligation, reinforcing maladaptive patterns in individuals with avoidant attachment or anxiety-driven withdrawal.",
+      "The speaker lacks the resources or circumstances to genuinely choose their environments, creating a gap between the affirmation and reality that may increase shame.",
+      "The statement substitutes for rather than supplements evidence-based behavioral interventions.",
+      "It is used in contexts where the speaker's 'nervous system preferences' are shaped by avoidance conditioning rather than genuine regulatory need, thereby reinforcing the avoidance cycle."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 202,
+  "output_tokens": 796,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4d3bfced3422b02e1f7aca8adff77878a4759c2cafb7238e0306894c364ee5dd",
+  "response_sha256": "83a1486e2a0a8b554589d64796c01a0ccf16294d534c368ea4b18207f738d8d7"
+}

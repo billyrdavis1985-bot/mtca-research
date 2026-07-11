@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P08__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:34:32.667414+00:00",
+  "wall_clock_seconds": 5.11,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmation of self-regulation, relational empowerment, and boundary-setting. It communicates a shift from overfunctioning or defensive patterns toward authentic, reciprocal connection.\",\n  \"implicit_claims\": [\n    \"The speaker previously engaged in overgiving as a safety strategy.\",\n    \"The speaker has awareness of a tendency to collapse or lose self in relationships.\",\n    \"Mutuality is a desirable and achievable relational state.\",\n    \"Co-regulation in truth is distinct from overgiving and is possible.\",\n    \"The speaker is capable of showing up without collapse in connections.\",\n    \"Others are available and willing to meet the speaker as they are.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: each clause builds logically from allowing mutuality, to non-collapse, to authentic presentation, to co-regulation over overgiving. The progression from self-directed permission to relational truth-seeking is consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has experienced patterns of overgiving or fawning in relationships.\",\n    \"The speaker has sufficient self-awareness and therapeutic support to practice new relational behaviors.\",\n    \"The speaker's environment includes at least some relationships that can tolerate mutuality and authenticity.\",\n    \"The speaker is in a stage of recovery or growth where verbal affirmations reinforce behavioral change.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used to bypass genuine relational fear or trauma without addressing underlying nervous system dysregulation.\",\n    \"The speaker expects immediate relational change without considering others' readiness or capacity for mutuality.\",\n    \"The statement masks a demand for others to meet the speaker's idealized version of connection, rather than co-regulation in reality.\",\n    \"The speaker has not yet developed the interpersonal or self-regulatory skills to distinguish safe from unsafe relationships, leading to premature vulnerability.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmation of self-regulation, relational empowerment, and boundary-setting. It communicates a shift from overfunctioning or defensive patterns toward authentic, reciprocal connection.",
+    "implicit_claims": [
+      "The speaker previously engaged in overgiving as a safety strategy.",
+      "The speaker has awareness of a tendency to collapse or lose self in relationships.",
+      "Mutuality is a desirable and achievable relational state.",
+      "Co-regulation in truth is distinct from overgiving and is possible.",
+      "The speaker is capable of showing up without collapse in connections.",
+      "Others are available and willing to meet the speaker as they are."
+    ],
+    "coherence_assessment": "The statement is internally coherent: each clause builds logically from allowing mutuality, to non-collapse, to authentic presentation, to co-regulation over overgiving. The progression from self-directed permission to relational truth-seeking is consistent.",
+    "conditions_for_usefulness": [
+      "The speaker has experienced patterns of overgiving or fawning in relationships.",
+      "The speaker has sufficient self-awareness and therapeutic support to practice new relational behaviors.",
+      "The speaker's environment includes at least some relationships that can tolerate mutuality and authenticity.",
+      "The speaker is in a stage of recovery or growth where verbal affirmations reinforce behavioral change."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used to bypass genuine relational fear or trauma without addressing underlying nervous system dysregulation.",
+      "The speaker expects immediate relational change without considering others' readiness or capacity for mutuality.",
+      "The statement masks a demand for others to meet the speaker's idealized version of connection, rather than co-regulation in reality.",
+      "The speaker has not yet developed the interpersonal or self-regulatory skills to distinguish safe from unsafe relationships, leading to premature vulnerability."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 179,
+  "output_tokens": 379,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "bf77fd14fea659e90a00d2cd9ad25ae8715edd80ea9bdde3e6e7a5e5b15f9341",
+  "response_sha256": "3db546ece37ea02ce16a82805a0948a8666c7a074afd51bbb798cf9e8961c09d"
+}

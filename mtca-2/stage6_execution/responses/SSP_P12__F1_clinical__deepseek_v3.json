@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P12__F1_clinical__deepseek_v3",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:55:26.450483+00:00",
+  "wall_clock_seconds": 5.62,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as an affirmative self-declaration or cognitive restructuring tool, intended to counteract patterns of inhibition, suppression, and people-pleasing, and to promote embodied expansion and authenticity.\",\n  \"implicit_claims\": [\n    \"The speaker is currently safe enough to experience aliveness in the body.\",\n    \"The speaker has been suppressing energy movement previously.\",\n    \"Pleasure, creativity, and expression have been blocked or absent.\",\n    \"The speaker has been reducing themselves to maintain comfort for others.\",\n    \"The speaker's system has been operating from a contracted or fearful state that can be expanded.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-permissions that sequentially shift from safety, to release, to reclamation, to boundary-setting, to expansion. Each clause logically follows the previous one, forming a therapeutic narrative of increasing agency and openness.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a safe and supportive environment (e.g., therapy context, trusted space).\",\n    \"The speaker has sufficient emotional or somatic regulation capacity to tolerate the experiences referenced.\",\n    \"The speaker is working with a therapist or using a well-structured protocol that validates such self-statements.\",\n    \"The speaker has a baseline awareness that suppression and self-reduction have been operative patterns.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is in an unsafe or unpredictable environment where authentic expression could lead to harm.\",\n    \"The speaker interprets the statement as permission to bypass genuine trauma responses or neglect necessary protective mechanisms.\",\n    \"The speaker lacks somatic or emotional skills to regulate distress that may arise from 'letting energy move' or 'expanding without fear.'\",\n    \"The statement is used in isolation without professional guidance or contextual assessment, potentially leading to re-traumatization or false reassurance.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmative self-declaration or cognitive restructuring tool, intended to counteract patterns of inhibition, suppression, and people-pleasing, and to promote embodied expansion and authenticity.",
+    "implicit_claims": [
+      "The speaker is currently safe enough to experience aliveness in the body.",
+      "The speaker has been suppressing energy movement previously.",
+      "Pleasure, creativity, and expression have been blocked or absent.",
+      "The speaker has been reducing themselves to maintain comfort for others.",
+      "The speaker's system has been operating from a contracted or fearful state that can be expanded."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-permissions that sequentially shift from safety, to release, to reclamation, to boundary-setting, to expansion. Each clause logically follows the previous one, forming a therapeutic narrative of increasing agency and openness.",
+    "conditions_for_usefulness": [
+      "The speaker is in a safe and supportive environment (e.g., therapy context, trusted space).",
+      "The speaker has sufficient emotional or somatic regulation capacity to tolerate the experiences referenced.",
+      "The speaker is working with a therapist or using a well-structured protocol that validates such self-statements.",
+      "The speaker has a baseline awareness that suppression and self-reduction have been operative patterns."
+    ],
+    "conditions_for_misleading": [
+      "The speaker is in an unsafe or unpredictable environment where authentic expression could lead to harm.",
+      "The speaker interprets the statement as permission to bypass genuine trauma responses or neglect necessary protective mechanisms.",
+      "The speaker lacks somatic or emotional skills to regulate distress that may arise from 'letting energy move' or 'expanding without fear.'",
+      "The statement is used in isolation without professional guidance or contextual assessment, potentially leading to re-traumatization or false reassurance."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 186,
+  "output_tokens": 388,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "6ca593f98b05cb8f9acabb12de488c4a54b31af39d7e7181a46df808d768fd0f",
+  "response_sha256": "1f5c40b2afd3d34a1a4bb4c32000b6b1d3b5fbdcb49d48e033cf060ee1abd920"
+}

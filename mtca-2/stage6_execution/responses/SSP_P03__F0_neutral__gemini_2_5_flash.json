@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P03__F0_neutral__gemini_2_5_flash",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:06:53.338504+00:00",
+  "wall_clock_seconds": 7.53,
+  "raw_response": "{\n  \"communicative_function\": \"The statement functions as a declaration of personal autonomy, self-trust, and independence from external validation. It serves as an affirmation of an internal state of conviction, self-reliance, and grounded clarity.\",\n  \"implicit_claims\": [\n    \"The speaker has, or intends to have, a distinct and reliable 'internal compass' for guidance.\",\n    \"There might be external pressures or temptations to seek agreement or validation from others.\",\n    \"There is a concept of 'truth' that can be maintained internally, irrespective of external consensus.\",\n    \"Clarity is an internal state that can be cultivated and experienced as 'quiet and solid'.\",\n    \"The speaker values introspection and personal conviction over external influence.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits high internal coherence. Each sentence reinforces a central theme of self-reliance, internal validation, and personal conviction, building upon the idea of autonomous thought and feeling, and culminating in a state of inner clarity and solidity. There are no contradictory elements within the provided text.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely possesses a capacity for critical self-reflection and a reasonably well-calibrated 'internal compass'.\",\n    \"The individual is operating in a context where external pressures or the need for approval might undermine their authentic self or decisions.\",\n    \"The 'internal compass' leads to healthy, constructive, and ethical outcomes for the individual and potentially others.\",\n    \"It empowers the individual to maintain integrity and personal boundaries.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The 'internal compass' is flawed, biased, or based on misinformation, leading to poor judgment or harmful decisions.\",\n    \"The individual is genuinely in a situation requiring external expert advice, collective wisdom, or critical feedback (e.g., medical, legal, safety-critical).\",\n    \"The statement is used to justify an inability to adapt, learn from mistakes, or engage in necessary compromise/collaboration.\",\n    \"It fosters isolation or an unhealthy resistance to any form of external input, even when valid and beneficial.\",\n    \"The 'clarity' is a form of rigidity or denial, preventing self-correction or acceptance of uncomfortable truths.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a declaration of personal autonomy, self-trust, and independence from external validation. It serves as an affirmation of an internal state of conviction, self-reliance, and grounded clarity.",
+    "implicit_claims": [
+      "The speaker has, or intends to have, a distinct and reliable 'internal compass' for guidance.",
+      "There might be external pressures or temptations to seek agreement or validation from others.",
+      "There is a concept of 'truth' that can be maintained internally, irrespective of external consensus.",
+      "Clarity is an internal state that can be cultivated and experienced as 'quiet and solid'.",
+      "The speaker values introspection and personal conviction over external influence."
+    ],
+    "coherence_assessment": "The statement exhibits high internal coherence. Each sentence reinforces a central theme of self-reliance, internal validation, and personal conviction, building upon the idea of autonomous thought and feeling, and culminating in a state of inner clarity and solidity. There are no contradictory elements within the provided text.",
+    "conditions_for_usefulness": [
+      "The individual genuinely possesses a capacity for critical self-reflection and a reasonably well-calibrated 'internal compass'.",
+      "The individual is operating in a context where external pressures or the need for approval might undermine their authentic self or decisions.",
+      "The 'internal compass' leads to healthy, constructive, and ethical outcomes for the individual and potentially others.",
+      "It empowers the individual to maintain integrity and personal boundaries."
+    ],
+    "conditions_for_misleading": [
+      "The 'internal compass' is flawed, biased, or based on misinformation, leading to poor judgment or harmful decisions.",
+      "The individual is genuinely in a situation requiring external expert advice, collective wisdom, or critical feedback (e.g., medical, legal, safety-critical).",
+      "The statement is used to justify an inability to adapt, learn from mistakes, or engage in necessary compromise/collaboration.",
+      "It fosters isolation or an unhealthy resistance to any form of external input, even when valid and beneficial.",
+      "The 'clarity' is a form of rigidity or denial, preventing self-correction or acceptance of uncomfortable truths."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 163,
+  "output_tokens": 482,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "4f6640c0d5461c80372ab57f0f69cec0e46f9a17e351fc879926ea64a56ce3a5",
+  "response_sha256": "4959e24c96249501b5b86399c734f957d397150c049834a5c1e8510c1381b229"
+}

@@ -1,0 +1,42 @@
+{
+  "call_id": "SSP_P12__F0_neutral__deepseek_v3",
+  "specimen_id": "SSP_P12",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:54:42.333811+00:00",
+  "wall_clock_seconds": 4.52,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming personal permission to inhabit one's body fully, release inhibition, and prioritize self-expression over external comfort.\",\n  \"implicit_claims\": [\n    \"The speaker has previously felt unsafe to experience aliveness in their body.\",\n    \"The speaker has suppressed energy or emotion in the past.\",\n    \"Pleasure, creativity, and expression have been blocked or diminished.\",\n    \"The speaker has reduced themselves (e.g., toned down or hidden aspects) to make others comfortable.\",\n    \"The speaker's system has been contracted or constrained by fear.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, forming a logical progression from letting go of suppression to expanding without fear. Each line builds on the prior affirmation.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is in a supportive environment where such exploration is safe or therapeutic.\",\n    \"The speaker has adequate coping skills to handle potential overwhelm from releasing suppressed energy.\",\n    \"The statement is used as a self-affirmation or mantra in a context of personal growth or healing.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the speaker is in an unsafe or abusive situation where expressing aliveness could lead to harm, the statement could encourage denial of real risk.\",\n    \"If the speaker has not processed underlying trauma, affirming expansion might bypass necessary caution and cause re-traumatization.\",\n    \"If the statement is imposed on someone who is not ready (e.g., in coercive therapy or pressure to 'be more alive'), it could invalidate their actual need for boundaries.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming personal permission to inhabit one's body fully, release inhibition, and prioritize self-expression over external comfort.",
+    "implicit_claims": [
+      "The speaker has previously felt unsafe to experience aliveness in their body.",
+      "The speaker has suppressed energy or emotion in the past.",
+      "Pleasure, creativity, and expression have been blocked or diminished.",
+      "The speaker has reduced themselves (e.g., toned down or hidden aspects) to make others comfortable.",
+      "The speaker's system has been contracted or constrained by fear."
+    ],
+    "coherence_assessment": "The statement is internally coherent, forming a logical progression from letting go of suppression to expanding without fear. Each line builds on the prior affirmation.",
+    "conditions_for_usefulness": [
+      "The speaker is in a supportive environment where such exploration is safe or therapeutic.",
+      "The speaker has adequate coping skills to handle potential overwhelm from releasing suppressed energy.",
+      "The statement is used as a self-affirmation or mantra in a context of personal growth or healing."
+    ],
+    "conditions_for_misleading": [
+      "If the speaker is in an unsafe or abusive situation where expressing aliveness could lead to harm, the statement could encourage denial of real risk.",
+      "If the speaker has not processed underlying trauma, affirming expansion might bypass necessary caution and cause re-traumatization.",
+      "If the statement is imposed on someone who is not ready (e.g., in coercive therapy or pressure to 'be more alive'), it could invalidate their actual need for boundaries."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 168,
+  "output_tokens": 330,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b8a4810042b6d13df3b82d227d5eb31e6d69b86d47cb7720dfb8f707e56d1d45",
+  "response_sha256": "d83d897f6f85f81da203a5fd66171e2edaf1b26b111dbb54da9048e93832688d"
+}

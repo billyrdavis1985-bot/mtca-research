@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P04__F7_author_anonymous__gemini_2_5_flash",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:16:43.360029+00:00",
+  "wall_clock_seconds": 7.18,
+  "raw_response": "{\n  \"communicative_function\": \"Personal affirmation and declaration of self-commitment, focusing on self-preservation and boundary setting.\",\n  \"implicit_claims\": [\n    \"It is possible to lose connection to oneself.\",\n    \"People often 'leave themselves' or compromise their well-being to please others.\",\n    \"Hard moments are a part of life.\",\n    \"Mindful breathing can be a tool for self-connection during difficult times.\",\n    \"Prioritizing self-connection is beneficial or necessary.\",\n    \"Self-connection requires conscious commitment and practice.\"\n  ],\n  \"coherence_assessment\": \"Strong internal coherence. Each statement reinforces the central theme of prioritizing self-connection and self-preservation, with specific actions (breathing, pausing) serving the overarching commitment.\",\n  \"conditions_for_usefulness\": [\n    \"The individual genuinely desires to prioritize their well-being and set personal boundaries.\",\n    \"The individual faces situations where they tend to neglect their own needs for others.\",\n    \"The individual is capable of self-reflection and implementing pauses or mindfulness practices.\",\n    \"The statement serves as a reminder or guide for personal growth and stress management.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If interpreted as an excuse for complete disregard of others' legitimate needs or responsibilities.\",\n    \"If it leads to an excessive, self-absorbed focus that impedes healthy relationships or social engagement.\",\n    \"If 'self-connection' is misconstrued as justifying inaction or avoidance of necessary external engagement.\",\n    \"If used in situations where immediate, externally focused action is objectively critical and internal pausing would be detrimental (e.g., emergency response).\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "Personal affirmation and declaration of self-commitment, focusing on self-preservation and boundary setting.",
+    "implicit_claims": [
+      "It is possible to lose connection to oneself.",
+      "People often 'leave themselves' or compromise their well-being to please others.",
+      "Hard moments are a part of life.",
+      "Mindful breathing can be a tool for self-connection during difficult times.",
+      "Prioritizing self-connection is beneficial or necessary.",
+      "Self-connection requires conscious commitment and practice."
+    ],
+    "coherence_assessment": "Strong internal coherence. Each statement reinforces the central theme of prioritizing self-connection and self-preservation, with specific actions (breathing, pausing) serving the overarching commitment.",
+    "conditions_for_usefulness": [
+      "The individual genuinely desires to prioritize their well-being and set personal boundaries.",
+      "The individual faces situations where they tend to neglect their own needs for others.",
+      "The individual is capable of self-reflection and implementing pauses or mindfulness practices.",
+      "The statement serves as a reminder or guide for personal growth and stress management."
+    ],
+    "conditions_for_misleading": [
+      "If interpreted as an excuse for complete disregard of others' legitimate needs or responsibilities.",
+      "If it leads to an excessive, self-absorbed focus that impedes healthy relationships or social engagement.",
+      "If 'self-connection' is misconstrued as justifying inaction or avoidance of necessary external engagement.",
+      "If used in situations where immediate, externally focused action is objectively critical and internal pausing would be detrimental (e.g., emergency response)."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 173,
+  "output_tokens": 368,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "c7c4d2f42e614004fa484248ab54827c69c494f70fe742b098e46320ea1a7ed1",
+  "response_sha256": "578590a55ec5593f47943b9ac348c33610a5bb486f5a77cb2911d0da672cf65d"
+}

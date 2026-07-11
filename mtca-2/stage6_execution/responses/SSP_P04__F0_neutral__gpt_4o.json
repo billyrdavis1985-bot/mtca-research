@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P04__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P04",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:11:50.989311+00:00",
+  "wall_clock_seconds": 2.15,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to self-awareness and self-care.\",\n  \"implicit_claims\": [\n    \"Self-connection is important.\",\n    \"Staying connected to oneself requires conscious effort.\",\n    \"Breath awareness is a tool for managing difficult situations.\",\n    \"Pleasing others can cause disconnection from oneself.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it presents a consistent message about the importance of self-awareness and self-connection through breathing and pausing.\",\n  \"conditions_for_usefulness\": \"The statement would be useful in contexts where individuals are seeking to prioritize personal well-being and self-care practices. The listener must value personal growth and mindfulness techniques.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if interpreted by someone who believes that self-connection and individual needs should always override relational or communal responsibilities. It may also be misleading if breath awareness is overemphasized as a solution to all difficult situations.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to self-awareness and self-care.",
+    "implicit_claims": [
+      "Self-connection is important.",
+      "Staying connected to oneself requires conscious effort.",
+      "Breath awareness is a tool for managing difficult situations.",
+      "Pleasing others can cause disconnection from oneself."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it presents a consistent message about the importance of self-awareness and self-connection through breathing and pausing.",
+    "conditions_for_usefulness": "The statement would be useful in contexts where individuals are seeking to prioritize personal well-being and self-care practices. The listener must value personal growth and mindfulness techniques.",
+    "conditions_for_misleading": "The statement could be misleading if interpreted by someone who believes that self-connection and individual needs should always override relational or communal responsibilities. It may also be misleading if breath awareness is overemphasized as a solution to all difficult situations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 161,
+  "output_tokens": 212,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d30ad02868a74bbce31c1c7bb97e4342d00cddf7f686d12b6fca1e416a1f51f2",
+  "response_sha256": "b98adecdd138ec773a204c661be946bb149eaa307bf5298d299a4dcc05bdb046"
+}

@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P08__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:37:56.941825+00:00",
+  "wall_clock_seconds": 5.09,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is an affirmative self-declaration or cognitive reframe, intended to reinforce a therapeutic or personal growth commitment to mutual, authentic, and regulated relational patterns.\",\n  \"implicit_claims\": [\n    \"The speaker has previously engaged in overgiving to feel safe.\",\n    \"The speaker has previously shown up with collapse or without mutuality.\",\n    \"Mutuality is an achievable and desirable relational state.\",\n    \"Co-regulation in truth is distinct from overgiving and is healing.\",\n    \"The speaker has agency over their relational patterns.\",\n    \"Others are capable and willing to meet the speaker as they are.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a set of related intentions that logically follow from each other (allowing mutuality, showing up without collapse, allowing others to meet one as is, and replacing overgiving with truthful co-regulation). The transitions are consistent.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has sufficient self-awareness and emotional regulation to recognize and shift from collapse or overgiving.\",\n    \"The speaker is in relationships where mutuality and authentic meeting are possible and safe.\",\n    \"The speaker has or is developing capacity for co-regulation (not just self-reliance or codependence).\",\n    \"The speaker can distinguish between healthy mutuality and enmeshment or compromise of boundaries.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker uses the statement to bypass genuine relational conflict or vulnerability (e.g., avoiding collapse by suppressing emotions).\",\n    \"The statement is applied in abusive or non-reciprocal relationships where mutuality is not possible or safe.\",\n    \"The speaker is in a state of denial about their own patterns of overgiving or collapse that still operate unconsciously.\",\n    \"The statement is interpreted as a rigid rule rather than a flexible aspiration, leading to self-criticism when mutuality is not achieved.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is an affirmative self-declaration or cognitive reframe, intended to reinforce a therapeutic or personal growth commitment to mutual, authentic, and regulated relational patterns.",
+    "implicit_claims": [
+      "The speaker has previously engaged in overgiving to feel safe.",
+      "The speaker has previously shown up with collapse or without mutuality.",
+      "Mutuality is an achievable and desirable relational state.",
+      "Co-regulation in truth is distinct from overgiving and is healing.",
+      "The speaker has agency over their relational patterns.",
+      "Others are capable and willing to meet the speaker as they are."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a set of related intentions that logically follow from each other (allowing mutuality, showing up without collapse, allowing others to meet one as is, and replacing overgiving with truthful co-regulation). The transitions are consistent.",
+    "conditions_for_usefulness": [
+      "The speaker has sufficient self-awareness and emotional regulation to recognize and shift from collapse or overgiving.",
+      "The speaker is in relationships where mutuality and authentic meeting are possible and safe.",
+      "The speaker has or is developing capacity for co-regulation (not just self-reliance or codependence).",
+      "The speaker can distinguish between healthy mutuality and enmeshment or compromise of boundaries."
+    ],
+    "conditions_for_misleading": [
+      "The speaker uses the statement to bypass genuine relational conflict or vulnerability (e.g., avoiding collapse by suppressing emotions).",
+      "The statement is applied in abusive or non-reciprocal relationships where mutuality is not possible or safe.",
+      "The speaker is in a state of denial about their own patterns of overgiving or collapse that still operate unconsciously.",
+      "The statement is interpreted as a rigid rule rather than a flexible aspiration, leading to self-criticism when mutuality is not achieved."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 193,
+  "output_tokens": 398,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "dba29f955207d022365a724ff73ed3713cb6730d99df94eccda54b21b0195652",
+  "response_sha256": "9081f54e0d0c8a99b1ce509e67d7687c9442a19f1954c5ba8b1c815d4ceb905a"
+}

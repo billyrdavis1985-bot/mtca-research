@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P05__F7_author_anonymous__deepseek_v3",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:22:23.719961+00:00",
+  "wall_clock_seconds": 5.72,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of communication boundaries\",\n  \"implicit_claims\": [\n    \"The speaker has clarity and coherence in communication.\",\n    \"The speaker typically avoids self-diminishment while speaking.\",\n    \"The speaker maintains personal boundaries and does not lose their sense of self when listening.\",\n    \"The speaker is willing to leave situations that are untruthful or dishonoring.\",\n    \"Truth is a valued criterion for the speaker's continued presence in a space.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: each clause presents a distinct, self-consistent communicative posture, and the sequence from speaking to listening to leaving follows a logical progression of boundary-setting.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker actually possesses the skills or awareness implied (clarity, non-merging listening, etc.).\",\n    \"The context involves interpersonal communication where boundaries and truth-telling are relevant.\",\n    \"The listener or audience understands the statement as a personal declaration, not a claim of objective fact about others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker lacks actual clarity or coherence, making the statement aspirational rather than descriptive.\",\n    \"The statement is used to justify disengagement without genuine commitment to truth (e.g., as a subtle form of avoidance or manipulation).\",\n    \"Others interpret the statement as an implicit criticism of their own communication or truthfulness.\",\n    \"The speaker applies the standard inconsistently, using it as a tool for control rather than self-awareness.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of communication boundaries",
+    "implicit_claims": [
+      "The speaker has clarity and coherence in communication.",
+      "The speaker typically avoids self-diminishment while speaking.",
+      "The speaker maintains personal boundaries and does not lose their sense of self when listening.",
+      "The speaker is willing to leave situations that are untruthful or dishonoring.",
+      "Truth is a valued criterion for the speaker's continued presence in a space."
+    ],
+    "coherence_assessment": "Internally coherent: each clause presents a distinct, self-consistent communicative posture, and the sequence from speaking to listening to leaving follows a logical progression of boundary-setting.",
+    "conditions_for_usefulness": [
+      "The speaker actually possesses the skills or awareness implied (clarity, non-merging listening, etc.).",
+      "The context involves interpersonal communication where boundaries and truth-telling are relevant.",
+      "The listener or audience understands the statement as a personal declaration, not a claim of objective fact about others."
+    ],
+    "conditions_for_misleading": [
+      "The speaker lacks actual clarity or coherence, making the statement aspirational rather than descriptive.",
+      "The statement is used to justify disengagement without genuine commitment to truth (e.g., as a subtle form of avoidance or manipulation).",
+      "Others interpret the statement as an implicit criticism of their own communication or truthfulness.",
+      "The speaker applies the standard inconsistently, using it as a tool for control rather than self-awareness."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 158,
+  "output_tokens": 319,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "38fc77e0d7cee6f621fe264d31dc98f699943cfab2ecb410e6485435b29d2a78",
+  "response_sha256": "f0c4a6fd1e8268437cd54192c523f54ee90eb10aa74499991401119ad717af9e"
+}

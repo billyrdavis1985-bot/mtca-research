@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P06__F3_behavioral__gpt_4o",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:24:38.025755+00:00",
+  "wall_clock_seconds": 3.07,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is expressing a personal commitment to prioritize mental health and well-being by choosing more supportive and less stressful environments.\",\n  \"implicit_claims\": [\n    \"Certain environments can affect one's nervous system.\",\n    \"Rest and peace are beneficial for well-being.\",\n    \"Aligning actions with personal values can lead to a more fulfilling life.\",\n    \"Obligations may sometimes be misaligned with personal peace.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as each part supports the overall theme of prioritizing peace and well-being through environmental choices and personal alignment.\",\n  \"conditions_for_usefulness\": \"This statement would be useful if the individual has the awareness and ability to discern which environments affect them positively or negatively, and if they have the agency to make choices about the environments they participate in.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if individuals are not actually capable of choosing their environments due to external constraints, if they misinterpret 'alignment' in a way that justifies avoidance of necessary responsibilities, or if they fail to consider constructive discomfort that may be beneficial in the long term.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is expressing a personal commitment to prioritize mental health and well-being by choosing more supportive and less stressful environments.",
+    "implicit_claims": [
+      "Certain environments can affect one's nervous system.",
+      "Rest and peace are beneficial for well-being.",
+      "Aligning actions with personal values can lead to a more fulfilling life.",
+      "Obligations may sometimes be misaligned with personal peace."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as each part supports the overall theme of prioritizing peace and well-being through environmental choices and personal alignment.",
+    "conditions_for_usefulness": "This statement would be useful if the individual has the awareness and ability to discern which environments affect them positively or negatively, and if they have the agency to make choices about the environments they participate in.",
+    "conditions_for_misleading": "The statement could be misleading if individuals are not actually capable of choosing their environments due to external constraints, if they misinterpret 'alignment' in a way that justifies avoidance of necessary responsibilities, or if they fail to consider constructive discomfort that may be beneficial in the long term."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 180,
+  "output_tokens": 243,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "885c809e8202f41d631122d8057c32369ee0492eec05294c09feee89a74cf57a",
+  "response_sha256": "1bf437d1f312b271cded825ac71074095ca6033912196617d9c2cc643df93827"
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "SSP_P09__F0_neutral__grok_4",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:39:08.592473+00:00",
+  "wall_clock_seconds": 4.0,
+  "raw_response": "{\n  \"communicative_function\": \"Self-affirmation and declarative commitment to mindset shift\",\n  \"implicit_claims\": [\"Speaker previously operated in coping/survival mode\", \"Current choices can produce nourishment and expansion\", \"Vitality is achievable as a baseline state\"],\n  \"coherence_assessment\": \"Internally coherent; consistent parallel structure and clear binary contrasts\",\n  \"conditions_for_usefulness\": \"Speaker follows declarations with congruent actions and environment permits realistic progress\",\n  \"conditions_for_misleading\": \"Used to deny real constraints or substitute for concrete problem-solving\"\n}",
+  "parsed_json": {
+    "communicative_function": "Self-affirmation and declarative commitment to mindset shift",
+    "implicit_claims": [
+      "Speaker previously operated in coping/survival mode",
+      "Current choices can produce nourishment and expansion",
+      "Vitality is achievable as a baseline state"
+    ],
+    "coherence_assessment": "Internally coherent; consistent parallel structure and clear binary contrasts",
+    "conditions_for_usefulness": "Speaker follows declarations with congruent actions and environment permits realistic progress",
+    "conditions_for_misleading": "Used to deny real constraints or substitute for concrete problem-solving"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 332,
+  "output_tokens": 118,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "19e7519f8184887a74bf09489594f78f18911bcd6df1f70db24b192874544b60",
+  "response_sha256": "18bbe585aef395fde8f4f01dcd6ddd228f9b9d0e9905ecff3159c6257d9f048f"
+}

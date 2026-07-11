@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P03__F7_author_anonymous__grok_4",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:11:31.540048+00:00",
+  "wall_clock_seconds": 3.63,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation declaring personal autonomy and internal validation\",\n  \"implicit_claims\": [\n    \"an internal compass exists and is reliable for guidance\",\n    \"truth can be maintained independently of external agreement\",\n    \"clarity is attainable as a stable internal state\",\n    \"thinking and feeling for oneself is distinct from and preferable to relying on others\"\n  ],\n  \"coherence_assessment\": \"internally consistent series of parallel affirmations with no contradictions or logical gaps\",\n  \"conditions_for_usefulness\": \"the speaker benefits from reduced dependence on external validation while retaining capacity to integrate accurate external information when warranted\",\n  \"conditions_for_misleading\": \"the speaker equates internal conviction with objective truth, dismisses corrective feedback, or operates from distorted internal signals\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation declaring personal autonomy and internal validation",
+    "implicit_claims": [
+      "an internal compass exists and is reliable for guidance",
+      "truth can be maintained independently of external agreement",
+      "clarity is attainable as a stable internal state",
+      "thinking and feeling for oneself is distinct from and preferable to relying on others"
+    ],
+    "coherence_assessment": "internally consistent series of parallel affirmations with no contradictions or logical gaps",
+    "conditions_for_usefulness": "the speaker benefits from reduced dependence on external validation while retaining capacity to integrate accurate external information when warranted",
+    "conditions_for_misleading": "the speaker equates internal conviction with objective truth, dismisses corrective feedback, or operates from distorted internal signals"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 353,
+  "output_tokens": 162,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "897c7195885455306e646f7294af48f7b87fc081de2d73a3958b342e9d73c9ae",
+  "response_sha256": "862e0b5e421d2ccd938b61e59632c482c573d33cbd77f3a36106d35781a7844a"
+}

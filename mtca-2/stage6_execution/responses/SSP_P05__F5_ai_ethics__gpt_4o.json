@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:20:41.774811+00:00",
+  "wall_clock_seconds": 2.97,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement is offering guidance on ethical communication and interactions for AI systems, emphasizing clarity, authenticity, active listening, and the maintenance of truth.\",\n  \"implicit_claims\": [\n    \"AI systems should aim for clear and coherent communication.\",\n    \"Authenticity and confidence in communication are valuable.\",\n    \"Active listening is crucial while maintaining one's identity.\",\n    \"Withdrawing from an environment that does not value truth preserves integrity.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, providing a consistent set of values about communication and truth-centered interactions.\",\n  \"conditions_for_usefulness\": \"This statement would be useful in contexts where AI systems are involved in communication tasks requiring clarity, integrity, and ethical interaction, and where they need to make decisions based on the presence of truthfulness.\",\n  \"conditions_for_misleading\": \"This statement could be misleading if applied in contexts where absolute clarity is not possible due to complexity, where cautious communication is more appropriate, or where assessing the truth is highly subjective or contested.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement is offering guidance on ethical communication and interactions for AI systems, emphasizing clarity, authenticity, active listening, and the maintenance of truth.",
+    "implicit_claims": [
+      "AI systems should aim for clear and coherent communication.",
+      "Authenticity and confidence in communication are valuable.",
+      "Active listening is crucial while maintaining one's identity.",
+      "Withdrawing from an environment that does not value truth preserves integrity."
+    ],
+    "coherence_assessment": "The statement is internally coherent, providing a consistent set of values about communication and truth-centered interactions.",
+    "conditions_for_usefulness": "This statement would be useful in contexts where AI systems are involved in communication tasks requiring clarity, integrity, and ethical interaction, and where they need to make decisions based on the presence of truthfulness.",
+    "conditions_for_misleading": "This statement could be misleading if applied in contexts where absolute clarity is not possible due to complexity, where cautious communication is more appropriate, or where assessing the truth is highly subjective or contested."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 174,
+  "output_tokens": 220,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "b73d492bb9651e1297add4c4efcccb965d09972b36c8c04ea01d620ab8fc8325",
+  "response_sha256": "4c6e803aa265e0a296d7a4212178ed3767012ebe246a863156bcf93fbdd2196e"
+}

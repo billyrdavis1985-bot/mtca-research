@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P08__F5_ai_ethics__gpt_4o",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:36:48.558402+00:00",
+  "wall_clock_seconds": 3.52,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement provides a set of personal affirmations or guidelines to encourage authentic and balanced interactions and relationships with others.\",\n  \"implicit_claims\": [\n    \"Mutuality is essential in connections.\",\n    \"Being authentic means allowing oneself to be vulnerable.\",\n    \"Overgiving is a response to perceived threats to safety.\",\n    \"Truthful co-regulation is preferable to overgiving.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent in promoting a consistent theme of balanced, authentic interactions where individuals allow themselves to be genuinely present without compromising their boundaries or overextending themselves to feel secure.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if applied in environments or cultures that value transparency, authenticity, and mutuality in relationships. The individuals involved must also value emotional intelligence and personal boundaries.\",\n  \"conditions_for_misleading\": \"The statement could be misleading in cultures or contexts where transparency and vulnerability are not valued, or where power dynamics are uneven, making authenticity and mutuality difficult or unsafe to practice. It may also be misleading if the advice encourages disclosure or vulnerability in unsafe environments.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement provides a set of personal affirmations or guidelines to encourage authentic and balanced interactions and relationships with others.",
+    "implicit_claims": [
+      "Mutuality is essential in connections.",
+      "Being authentic means allowing oneself to be vulnerable.",
+      "Overgiving is a response to perceived threats to safety.",
+      "Truthful co-regulation is preferable to overgiving."
+    ],
+    "coherence_assessment": "The statement is internally coherent in promoting a consistent theme of balanced, authentic interactions where individuals allow themselves to be genuinely present without compromising their boundaries or overextending themselves to feel secure.",
+    "conditions_for_usefulness": "The statement would be useful if applied in environments or cultures that value transparency, authenticity, and mutuality in relationships. The individuals involved must also value emotional intelligence and personal boundaries.",
+    "conditions_for_misleading": "The statement could be misleading in cultures or contexts where transparency and vulnerability are not valued, or where power dynamics are uneven, making authenticity and mutuality difficult or unsafe to practice. It may also be misleading if the advice encourages disclosure or vulnerability in unsafe environments."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 187,
+  "output_tokens": 239,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d1d388b084235accf04747494563f192fb0999b08dc932ed36d01e413a587359",
+  "response_sha256": "a0eece5d65c4be2ede9fcca606ea7eee95f8a908985356fb078d56a1ff8893c1"
+}

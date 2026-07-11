@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P01__F6_author_named__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:00:27.971312+00:00",
+  "wall_clock_seconds": 4.91,
+  "raw_response": "{\n  \"communicative_function\": \"affirmation and self-authorization for boundary enforcement and disengagement\",\n  \"implicit_claims\": [\n    \"energetic boundaries are real and objectively detectable by the speaker\",\n    \"incoherence is a valid, sufficient reason to withdraw without further inquiry\",\n    \"guilt is optional and can be overridden by internal choice\",\n    \"a bare 'no' carries complete communicative legitimacy regardless of context or relationship\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a subjective, intuition-prioritizing framework; no logical contradictions among the clauses\",\n  \"conditions_for_usefulness\": \"speaker is in a situation involving repeated boundary violation or emotional depletion and the statements reinforce proportionate self-protection without foreclosing necessary communication\",\n  \"conditions_for_misleading\": \"speaker uses the statements to rationalize avoidance of accountability, conflict resolution, or relational repair when those would be appropriate and feasible\"\n}",
+  "parsed_json": {
+    "communicative_function": "affirmation and self-authorization for boundary enforcement and disengagement",
+    "implicit_claims": [
+      "energetic boundaries are real and objectively detectable by the speaker",
+      "incoherence is a valid, sufficient reason to withdraw without further inquiry",
+      "guilt is optional and can be overridden by internal choice",
+      "a bare 'no' carries complete communicative legitimacy regardless of context or relationship"
+    ],
+    "coherence_assessment": "internally consistent within a subjective, intuition-prioritizing framework; no logical contradictions among the clauses",
+    "conditions_for_usefulness": "speaker is in a situation involving repeated boundary violation or emotional depletion and the statements reinforce proportionate self-protection without foreclosing necessary communication",
+    "conditions_for_misleading": "speaker uses the statements to rationalize avoidance of accountability, conflict resolution, or relational repair when those would be appropriate and feasible"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 371,
+  "output_tokens": 190,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "ad33a94b95a28508e64487c1aac3b78174fc58f75492b52f5681ed47517e0d6a"
+}

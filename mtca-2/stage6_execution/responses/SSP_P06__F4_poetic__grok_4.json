@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F4_poetic__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F4_poetic",
+  "frame_version": "v1",
+  "prompt_sha256": "b7d15449a6833e203490d27350f14ea3c1cbe2b0f800424f6629c5903fe1a9d5",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:25:34.510487+00:00",
+  "wall_clock_seconds": 4.19,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declaration of intentional personal choices\",\n  \"implicit_claims\": [\n    \"environments can directly soothe or destabilize a nervous system\",\n    \"peace is a selectable state achievable by boundary-setting\",\n    \"personal 'frequency' exists as a stable, matchable property\",\n    \"obligations and alignment are mutually exclusive categories\",\n    \"resting in resonant spaces produces alignment\"\n  ],\n  \"coherence_assessment\": \"internally consistent within a self-help metaphorical frame; parallel structure reinforces thematic unity but relies on vague, non-falsifiable terms\",\n  \"conditions_for_usefulness\": \"the speaker treats the language as motivational scaffolding that prompts concrete, observable actions improving well-being without denying external constraints\",\n  \"conditions_for_misleading\": \"the language is taken as literal mechanism, used to justify avoidance of responsibilities, or presented as empirical truth about frequencies or nervous-system effects\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declaration of intentional personal choices",
+    "implicit_claims": [
+      "environments can directly soothe or destabilize a nervous system",
+      "peace is a selectable state achievable by boundary-setting",
+      "personal 'frequency' exists as a stable, matchable property",
+      "obligations and alignment are mutually exclusive categories",
+      "resting in resonant spaces produces alignment"
+    ],
+    "coherence_assessment": "internally consistent within a self-help metaphorical frame; parallel structure reinforces thematic unity but relies on vague, non-falsifiable terms",
+    "conditions_for_usefulness": "the speaker treats the language as motivational scaffolding that prompts concrete, observable actions improving well-being without denying external constraints",
+    "conditions_for_misleading": "the language is taken as literal mechanism, used to justify avoidance of responsibilities, or presented as empirical truth about frequencies or nervous-system effects"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 361,
+  "output_tokens": 191,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "a8c8de68308bdc5b40977b97fae1a7cd8da783fe10b105c9aec22303004d43e0",
+  "response_sha256": "38e3d39fb17fb3014385672150928ef5d7036ceb787373e1c4b167a2760d4a80"
+}

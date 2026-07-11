@@ -1,0 +1,43 @@
+{
+  "call_id": "SSP_P01__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:00:33.502975+00:00",
+  "wall_clock_seconds": 5.03,
+  "raw_response": "{\n  \"communicative_function\": \"The statement asserts a personal stance of self-protection, autonomy, and emotional validation, communicating a boundary-setting mantra or affirmation.\",\n  \"implicit_claims\": [\n    \"Energetic boundaries exist and can be held without verbal justification.\",\n    \"Incoherence (emotional or relational discomfort) is a valid reason for disengagement.\",\n    \"Guilt is an expected but avoidable reaction to setting boundaries.\",\n    \"The word 'no' alone should be sufficient and respected by others.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a set of self-affirming declarations that follow a logical emotional progression: recognizing boundaries, honoring discomfort, acting without guilt, and affirming the sufficiency of refusal.\",\n  \"conditions_for_usefulness\": [\n    \"The individual is in a situation where they feel pressured to over-explain or justify boundaries.\",\n    \"They have already established a baseline of self-awareness and emotional safety.\",\n    \"The statement is used as a personal affirmation, not as a universal rule for all relationships.\",\n    \"The audience or context does not require explicit communication for practical or safety reasons.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"It could be misused to justify avoiding necessary communication in interdependent relationships (e.g., at work, in caregiving).\",\n    \"It might encourage ignoring legitimate reasons to explain boundaries when clarity is needed for safety or mutual understanding.\",\n    \"It could be misinterpreted as endorsing complete emotional withdrawal as always healthy.\",\n    \"It may foster a false sense that guilt is always unwarranted, rather than sometimes a signal of relational responsibility.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement asserts a personal stance of self-protection, autonomy, and emotional validation, communicating a boundary-setting mantra or affirmation.",
+    "implicit_claims": [
+      "Energetic boundaries exist and can be held without verbal justification.",
+      "Incoherence (emotional or relational discomfort) is a valid reason for disengagement.",
+      "Guilt is an expected but avoidable reaction to setting boundaries.",
+      "The word 'no' alone should be sufficient and respected by others."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a set of self-affirming declarations that follow a logical emotional progression: recognizing boundaries, honoring discomfort, acting without guilt, and affirming the sufficiency of refusal.",
+    "conditions_for_usefulness": [
+      "The individual is in a situation where they feel pressured to over-explain or justify boundaries.",
+      "They have already established a baseline of self-awareness and emotional safety.",
+      "The statement is used as a personal affirmation, not as a universal rule for all relationships.",
+      "The audience or context does not require explicit communication for practical or safety reasons."
+    ],
+    "conditions_for_misleading": [
+      "It could be misused to justify avoiding necessary communication in interdependent relationships (e.g., at work, in caregiving).",
+      "It might encourage ignoring legitimate reasons to explain boundaries when clarity is needed for safety or mutual understanding.",
+      "It could be misinterpreted as endorsing complete emotional withdrawal as always healthy.",
+      "It may foster a false sense that guilt is always unwarranted, rather than sometimes a signal of relational responsibility."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 190,
+  "output_tokens": 340,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "eaf7ba873167009ab66936f0ea02aa7ffbeffd9d15045ff7786c0f79d03cc613",
+  "response_sha256": "c44b7358f842f84d86040272fa69462919afa6511034850bae41242f6d9ce387"
+}

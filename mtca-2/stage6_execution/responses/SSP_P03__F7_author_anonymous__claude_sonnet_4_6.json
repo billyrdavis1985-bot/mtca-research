@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P03__F7_author_anonymous__claude_sonnet_4_6",
+  "specimen_id": "SSP_P03",
+  "frame_id": "F7_author_anonymous",
+  "frame_version": "v1",
+  "prompt_sha256": "d9035bc908b1c21e8dcd58f196467b038f3df17120aa4d1808172cca220ee231",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:11:15.561866+00:00",
+  "wall_clock_seconds": 13.42,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as a self-affirmation or mantra — it performatively asserts autonomous epistemic and emotional states, likely intended to reinforce or cultivate those states in the speaker through repetition and present-tense framing.\",\n  \"implicit_claims\": [\n    \"Internal experience (thinking, feeling) is a reliable or sufficient guide to truth\",\n    \"There exists an 'internal compass' that can be trusted\",\n    \"External agreement or validation is not necessary for holding true beliefs\",\n    \"Clarity has a phenomenological quality — it can feel 'quiet and solid'\",\n    \"The speaker currently lacks or is working toward the states being affirmed\",\n    \"Autonomy from others' opinions is a virtue or goal worth pursuing\",\n    \"The speaker's current internal state is one of truth rather than error or self-deception\"\n  ],\n  \"coherence_assessment\": \"The statement is internally consistent as a set of affirmations — each line reinforces a theme of epistemic and emotional self-sufficiency. However, there is a mild tension: claiming to already 'be' in these states while the affirmation format implies they are aspirational or effortful to maintain. The phrase 'letting clarity be quiet and solid' subtly acknowledges the states are not fully automatic.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker is recovering from excessive dependence on external validation\",\n    \"The speaker has a reasonably reliable capacity for self-reflection and is not in a state of significant cognitive or emotional distortion\",\n    \"The affirmations are used as grounding tools during temporary anxiety, not as permanent shields against feedback\",\n    \"The context involves social pressure to abandon a well-reasoned position\",\n    \"The speaker is willing to update their views when genuinely good evidence or argument is presented\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The speaker is actually engaged in motivated reasoning or self-deception and the affirmations reinforce avoidance of correction\",\n    \"The statement is used to justify dismissing legitimate criticism or evidence\",\n    \"The 'internal compass' is itself shaped by bias, trauma, ideology, or misinformation the speaker is unaware of\",\n    \"The statement is offered to others as guidance, encouraging them to distrust external input indiscriminately\",\n    \"The framing of independence from others' agreement is used to pathologize normal epistemic dependence on community, expertise, or dialogue\",\n    \"The speaker is in a high-stakes situation (medical, legal, relational) where external input is genuinely necessary\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as a self-affirmation or mantra — it performatively asserts autonomous epistemic and emotional states, likely intended to reinforce or cultivate those states in the speaker through repetition and present-tense framing.",
+    "implicit_claims": [
+      "Internal experience (thinking, feeling) is a reliable or sufficient guide to truth",
+      "There exists an 'internal compass' that can be trusted",
+      "External agreement or validation is not necessary for holding true beliefs",
+      "Clarity has a phenomenological quality — it can feel 'quiet and solid'",
+      "The speaker currently lacks or is working toward the states being affirmed",
+      "Autonomy from others' opinions is a virtue or goal worth pursuing",
+      "The speaker's current internal state is one of truth rather than error or self-deception"
+    ],
+    "coherence_assessment": "The statement is internally consistent as a set of affirmations — each line reinforces a theme of epistemic and emotional self-sufficiency. However, there is a mild tension: claiming to already 'be' in these states while the affirmation format implies they are aspirational or effortful to maintain. The phrase 'letting clarity be quiet and solid' subtly acknowledges the states are not fully automatic.",
+    "conditions_for_usefulness": [
+      "The speaker is recovering from excessive dependence on external validation",
+      "The speaker has a reasonably reliable capacity for self-reflection and is not in a state of significant cognitive or emotional distortion",
+      "The affirmations are used as grounding tools during temporary anxiety, not as permanent shields against feedback",
+      "The context involves social pressure to abandon a well-reasoned position",
+      "The speaker is willing to update their views when genuinely good evidence or argument is presented"
+    ],
+    "conditions_for_misleading": [
+      "The speaker is actually engaged in motivated reasoning or self-deception and the affirmations reinforce avoidance of correction",
+      "The statement is used to justify dismissing legitimate criticism or evidence",
+      "The 'internal compass' is itself shaped by bias, trauma, ideology, or misinformation the speaker is unaware of",
+      "The statement is offered to others as guidance, encouraging them to distrust external input indiscriminately",
+      "The framing of independence from others' agreement is used to pathologize normal epistemic dependence on community, expertise, or dialogue",
+      "The speaker is in a high-stakes situation (medical, legal, relational) where external input is genuinely necessary"
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 192,
+  "output_tokens": 597,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "897c7195885455306e646f7294af48f7b87fc081de2d73a3958b342e9d73c9ae",
+  "response_sha256": "2fd0a053c6c245f41739972727ef4b8f23dbca1d3727dd864ad8f12eb3607fda"
+}

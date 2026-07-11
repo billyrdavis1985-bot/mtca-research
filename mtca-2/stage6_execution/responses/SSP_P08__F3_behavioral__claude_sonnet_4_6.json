@@ -1,0 +1,49 @@
+{
+  "call_id": "SSP_P08__F3_behavioral__claude_sonnet_4_6",
+  "specimen_id": "SSP_P08",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:35:27.395430+00:00",
+  "wall_clock_seconds": 14.74,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement performs a self-declarative speech act, using present-progressive framing ('I am allowing') to assert ongoing behavioral change as already in motion. It functions simultaneously as affirmation, intention-setting, and identity-signaling, likely intended to reinforce a desired self-concept through repetition or ritual articulation.\",\n  \"implicit_claims\": [\n    \"The speaker previously did not allow mutuality in connections, or allowed it insufficiently.\",\n    \"The speaker previously collapsed (emotionally, relationally, or in terms of self-presentation) in some interactions.\",\n    \"The speaker previously prevented or discouraged others from meeting them authentically.\",\n    \"The speaker previously overgave as a safety or anxiety-management strategy.\",\n    \"Co-regulation is the preferable or more truthful alternative to overgiving.\",\n    \"These behavioral patterns are under the speaker's volitional control.\",\n    \"Stating these intentions in present tense constitutes or supports actual behavioral change.\",\n    \"There is a meaningful distinction between 'safety-motivated overgiving' and 'co-regulating in truth.'\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent at the rhetorical level — each line addresses a related dimension of relational self-regulation, and the lines build logically from mutuality to self-stability to receptivity to motivation-reframing. However, the final line introduces 'co-regulating in truth' without defining it, creating a potential coherence gap: it is unclear whether co-regulation replaces overgiving behaviorally or only motivationally, and 'in truth' is unanchored.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has genuine insight into the specific behaviors being named (e.g., can identify actual instances of overgiving or collapse).\",\n    \"The statement is paired with concrete behavioral intentions or observable action criteria.\",\n    \"The speaker uses the statement as a checkpoint against actual relational behavior, not as a substitute for it.\",\n    \"The therapeutic or reflective context supports accountability and honest self-assessment.\",\n    \"The speaker understands 'co-regulating in truth' as something operationally distinct from the pattern they are trying to exit.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The statement is used as a performative substitute for actual behavioral change, creating an illusion of progress.\",\n    \"The affirmative present-tense framing masks that the behaviors described are aspirational rather than current.\",\n    \"The language is borrowed from therapeutic frameworks without the speaker having internalized or operationalized the underlying concepts.\",\n    \"The statement is shared publicly or socially in a way that substitutes identity-signaling for relational work.\",\n    \"The speaker treats articulation of the commitment as evidence of the commitment being met, foreclosing honest self-examination.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement performs a self-declarative speech act, using present-progressive framing ('I am allowing') to assert ongoing behavioral change as already in motion. It functions simultaneously as affirmation, intention-setting, and identity-signaling, likely intended to reinforce a desired self-concept through repetition or ritual articulation.",
+    "implicit_claims": [
+      "The speaker previously did not allow mutuality in connections, or allowed it insufficiently.",
+      "The speaker previously collapsed (emotionally, relationally, or in terms of self-presentation) in some interactions.",
+      "The speaker previously prevented or discouraged others from meeting them authentically.",
+      "The speaker previously overgave as a safety or anxiety-management strategy.",
+      "Co-regulation is the preferable or more truthful alternative to overgiving.",
+      "These behavioral patterns are under the speaker's volitional control.",
+      "Stating these intentions in present tense constitutes or supports actual behavioral change.",
+      "There is a meaningful distinction between 'safety-motivated overgiving' and 'co-regulating in truth.'"
+    ],
+    "coherence_assessment": "The statement is internally coherent at the rhetorical level — each line addresses a related dimension of relational self-regulation, and the lines build logically from mutuality to self-stability to receptivity to motivation-reframing. However, the final line introduces 'co-regulating in truth' without defining it, creating a potential coherence gap: it is unclear whether co-regulation replaces overgiving behaviorally or only motivationally, and 'in truth' is unanchored.",
+    "conditions_for_usefulness": [
+      "The speaker has genuine insight into the specific behaviors being named (e.g., can identify actual instances of overgiving or collapse).",
+      "The statement is paired with concrete behavioral intentions or observable action criteria.",
+      "The speaker uses the statement as a checkpoint against actual relational behavior, not as a substitute for it.",
+      "The therapeutic or reflective context supports accountability and honest self-assessment.",
+      "The speaker understands 'co-regulating in truth' as something operationally distinct from the pattern they are trying to exit."
+    ],
+    "conditions_for_misleading": [
+      "The statement is used as a performative substitute for actual behavioral change, creating an illusion of progress.",
+      "The affirmative present-tense framing masks that the behaviors described are aspirational rather than current.",
+      "The language is borrowed from therapeutic frameworks without the speaker having internalized or operationalized the underlying concepts.",
+      "The statement is shared publicly or socially in a way that substitutes identity-signaling for relational work.",
+      "The speaker treats articulation of the commitment as evidence of the commitment being met, foreclosing honest self-examination."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 200,
+  "output_tokens": 649,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "d846d4ab012a9c2f13173bfca487da3a1707c0ada1129530872a18e43daac276",
+  "response_sha256": "7bc1e4ed82ce24421d8b89bb5b151e29a4a5225bbed10c7bd2a2789d9859f312"
+}

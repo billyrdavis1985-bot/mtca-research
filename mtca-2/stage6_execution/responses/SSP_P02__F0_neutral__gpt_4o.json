@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P02__F0_neutral__gpt_4o",
+  "specimen_id": "SSP_P02",
+  "frame_id": "F0_neutral",
+  "frame_version": "v1",
+  "prompt_sha256": "27138ffc41558491ea5601de064a55535f096ce21b29443d36c696f96b496fae",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "timestamp": "2026-07-11T20:01:29.394320+00:00",
+  "wall_clock_seconds": 2.65,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement expresses a personal boundary-setting intention and an emphasis on self-preservation or self-care.\",\n  \"implicit_claims\": [\n    \"The speaker believes they have been acting as an 'emotional surrogate' for others.\",\n    \"There is a recognition that absorbing or stabilizing others' chaos is detrimental.\",\n    \"The speaker possesses an ability to identify when they are taking on external disturbances.\",\n    \"It is within the speaker's power to choose not to absorb these disturbances.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent, as it logically progresses from recognizing a behavior (being an emotional surrogate) to making a conscious decision to change that behavior for self-preservation.\",\n  \"conditions_for_usefulness\": \"The statement would be useful if the individual is indeed experiencing negative impacts from taking on others' emotional burdens and has the autonomy to implement these boundaries.\",\n  \"conditions_for_misleading\": \"The statement could be misleading if the individual is not truly capable of stepping back from their role or if external factors prevent them from maintaining personal boundaries.\"\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal boundary-setting intention and an emphasis on self-preservation or self-care.",
+    "implicit_claims": [
+      "The speaker believes they have been acting as an 'emotional surrogate' for others.",
+      "There is a recognition that absorbing or stabilizing others' chaos is detrimental.",
+      "The speaker possesses an ability to identify when they are taking on external disturbances.",
+      "It is within the speaker's power to choose not to absorb these disturbances."
+    ],
+    "coherence_assessment": "The statement is internally coherent, as it logically progresses from recognizing a behavior (being an emotional surrogate) to making a conscious decision to change that behavior for self-preservation.",
+    "conditions_for_usefulness": "The statement would be useful if the individual is indeed experiencing negative impacts from taking on others' emotional burdens and has the autonomy to implement these boundaries.",
+    "conditions_for_misleading": "The statement could be misleading if the individual is not truly capable of stepping back from their role or if external factors prevent them from maintaining personal boundaries."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 159,
+  "output_tokens": 229,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "59e25e5670be8d601bbdeb68321970628ad8485e9e696677a615f8cb2b1fa81e",
+  "response_sha256": "26af8312e990191c4e3098308c1587df4ae9b8f87511573b9a8c209c98b5fbbc"
+}

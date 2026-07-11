@@ -1,0 +1,48 @@
+{
+  "call_id": "SSP_P09__F1_clinical__gemini_2_5_flash",
+  "specimen_id": "SSP_P09",
+  "frame_id": "F1_clinical",
+  "frame_version": "v1",
+  "prompt_sha256": "fae11b28e9895d61ca12c34e4ff6d3d39c670e30211f960c79681b9582fe80f3",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "timestamp": "2026-07-11T20:39:46.638836+00:00",
+  "wall_clock_seconds": 9.78,
+  "raw_response": "{\n  \"communicative_function\": \"This statement serves as a self-affirmation, an intention-setting declaration, and a reframing tool. Its primary function is to shift the individual's mindset from a state of coping or survival to one of growth, vitality, and proactive thriving, while affirming agency and choice.\",\n  \"implicit_claims\": [\n    \"The speaker currently or potentially operates from a 'coping' or 'survival' paradigm.\",\n    \"There is a distinction between 'coping/survival' and 'thriving/expansion' states.\",\n    \"The speaker has agency and choice in aligning with specific states and making nourishing decisions.\",\n    \"Choices exist that either nourish or deplete the self.\",\n    \"Vitality is not currently the default or normal state for the speaker.\",\n    \"The speaker has the capacity to influence their internal state and external actions.\",\n    \"Growth and expansion are desirable and attainable alternatives to mere endurance.\"\n  ],\n  \"coherence_assessment\": \"The statement exhibits high internal coherence. All four clauses consistently align with a positive, growth-oriented, and self-empowering paradigm. They collectively build upon the theme of intentional progression from a more constrained state to one of expansiveness and well-being, without any apparent contradictions.\",\n  \"conditions_for_usefulness\": [\n    \"The individual possesses some degree of actual agency and capacity for making choices that align with 'nourishing' and 'expanding' experiences.\",\n    \"The individual is not in an immediate, dire survival situation where basic needs are profoundly unmet and choices are genuinely absent.\",\n    \"The individual is open to a growth mindset and believes in their capacity for self-efficacy and change.\",\n    \"The statement is used as part of a broader therapeutic or self-development practice, ideally supported by behavioral changes and reflection.\",\n    \"The individual is seeking to shift their perspective and actively engage in behaviors that promote well-being over mere endurance.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The individual is in a genuinely extreme or inescapable survival situation (e.g., active abuse, severe oppression, acute crisis with no viable choices) where affirming 'choice' for 'thriving' could induce self-blame or invalidate their reality.\",\n    \"The statement is used to promote 'toxic positivity,' bypassing necessary emotional processing of difficult circumstances or systemic injustices.\",\n    \"It is interpreted as a substitute for concrete action or addressing external, systemic barriers that genuinely limit agency.\",\n    \"The individual lacks the necessary resources (internal or external) to enact choices that would lead to 'nourishment' or 'expansion,' leading to frustration and self-criticism.\",\n    \"It fosters a false sense of control over circumstances that are largely outside the individual's influence, leading to disillusionment.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "This statement serves as a self-affirmation, an intention-setting declaration, and a reframing tool. Its primary function is to shift the individual's mindset from a state of coping or survival to one of growth, vitality, and proactive thriving, while affirming agency and choice.",
+    "implicit_claims": [
+      "The speaker currently or potentially operates from a 'coping' or 'survival' paradigm.",
+      "There is a distinction between 'coping/survival' and 'thriving/expansion' states.",
+      "The speaker has agency and choice in aligning with specific states and making nourishing decisions.",
+      "Choices exist that either nourish or deplete the self.",
+      "Vitality is not currently the default or normal state for the speaker.",
+      "The speaker has the capacity to influence their internal state and external actions.",
+      "Growth and expansion are desirable and attainable alternatives to mere endurance."
+    ],
+    "coherence_assessment": "The statement exhibits high internal coherence. All four clauses consistently align with a positive, growth-oriented, and self-empowering paradigm. They collectively build upon the theme of intentional progression from a more constrained state to one of expansiveness and well-being, without any apparent contradictions.",
+    "conditions_for_usefulness": [
+      "The individual possesses some degree of actual agency and capacity for making choices that align with 'nourishing' and 'expanding' experiences.",
+      "The individual is not in an immediate, dire survival situation where basic needs are profoundly unmet and choices are genuinely absent.",
+      "The individual is open to a growth mindset and believes in their capacity for self-efficacy and change.",
+      "The statement is used as part of a broader therapeutic or self-development practice, ideally supported by behavioral changes and reflection.",
+      "The individual is seeking to shift their perspective and actively engage in behaviors that promote well-being over mere endurance."
+    ],
+    "conditions_for_misleading": [
+      "The individual is in a genuinely extreme or inescapable survival situation (e.g., active abuse, severe oppression, acute crisis with no viable choices) where affirming 'choice' for 'thriving' could induce self-blame or invalidate their reality.",
+      "The statement is used to promote 'toxic positivity,' bypassing necessary emotional processing of difficult circumstances or systemic injustices.",
+      "It is interpreted as a substitute for concrete action or addressing external, systemic barriers that genuinely limit agency.",
+      "The individual lacks the necessary resources (internal or external) to enact choices that would lead to 'nourishment' or 'expansion,' leading to frustration and self-criticism.",
+      "It fosters a false sense of control over circumstances that are largely outside the individual's influence, leading to disillusionment."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 172,
+  "output_tokens": 594,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "57ab401814d1d4e5d2e2321cf99abdf0f751dfad834dd99c467d72e8663276c4",
+  "response_sha256": "f84df489aff98ea10dc07f1ee23b042c9c89edf4114060a9b45095dd1ba8b0a7"
+}

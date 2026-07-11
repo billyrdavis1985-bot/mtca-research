@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P06__F5_ai_ethics__grok_4",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:26:14.541170+00:00",
+  "wall_clock_seconds": 4.62,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and value declaration\",\n  \"implicit_claims\": [\n    \"personal environments can directly regulate the nervous system\",\n    \"peace is a choosable state rather than an outcome\",\n    \"individuals possess an inherent 'frequency' that environments can match\",\n    \"obligation and alignment are mutually exclusive or hierarchically ordered\",\n    \"the speaker has sufficient agency and resources to enact these choices\"\n  ],\n  \"coherence_assessment\": \"internally consistent as a set of personal intentions; relies on metaphorical language without logical contradiction\",\n  \"conditions_for_usefulness\": \"the statement functions as a personal mindfulness or therapeutic tool and is interpreted subjectively rather than as empirical claim\",\n  \"conditions_for_misleading\": \"the statement is treated as objective psychological or scientific fact, or used to justify avoidance of responsibilities under the label of alignment\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and value declaration",
+    "implicit_claims": [
+      "personal environments can directly regulate the nervous system",
+      "peace is a choosable state rather than an outcome",
+      "individuals possess an inherent 'frequency' that environments can match",
+      "obligation and alignment are mutually exclusive or hierarchically ordered",
+      "the speaker has sufficient agency and resources to enact these choices"
+    ],
+    "coherence_assessment": "internally consistent as a set of personal intentions; relies on metaphorical language without logical contradiction",
+    "conditions_for_usefulness": "the statement functions as a personal mindfulness or therapeutic tool and is interpreted subjectively rather than as empirical claim",
+    "conditions_for_misleading": "the statement is treated as objective psychological or scientific fact, or used to justify avoidance of responsibilities under the label of alignment"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 364,
+  "output_tokens": 180,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "88fac13a2062c310b41cf862259ac358b4567989a3bd5a5f70da573fc985723d",
+  "response_sha256": "2cb33e4c445974f3ee4754b4eda22ce82abb47160b9222a0e24dc115013edc2b"
+}

@@ -1,0 +1,44 @@
+{
+  "call_id": "SSP_P06__F6_author_named__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F6_author_named",
+  "frame_version": "v1",
+  "prompt_sha256": "33edface227d86d8349ba46aec5288faf57034facdcd4da3d35506e9be8574ad",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:27:04.384506+00:00",
+  "wall_clock_seconds": 6.41,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a declaration of personal intention and self-affirmation, asserting a shift from external obligations to inner alignment and peace.\",\n  \"implicit_claims\": [\n    \"Individuals have the ability to choose environments that directly influence their nervous system regulation.\",\n    \"Nervous systems can be 'soothed and stabilized' by spatial choices.\",\n    \"Environments have a 'frequency' that can match or mismatch an individual's internal state.\",\n    \"Obligation and alignment are mutually exclusive or oppositional.\",\n    \"The speaker's current choices are based on self-awareness of their own nervous system and frequency.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of self-directed affirmations following a consistent theme of prioritizing personal well-being over external demands. The metaphorical language ('frequency,' 'alignment') is consistent within its own frame.\",\n  \"conditions_for_usefulness\": [\n    \"The speaker has actual agency to choose and change their environments.\",\n    \"The speaker has adequate self-awareness to identify what soothes or stabilizes their nervous system.\",\n    \"The concept of 'frequency' is understood as a subjective, metaphorical guide rather than a literal physical measurement.\",\n    \"The speaker is in a context where reducing obligation is feasible without causing harm or violating key responsibilities.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If taken literally, the claim about 'frequency' might mislead by implying a pseudoscientific or metaphysical property of environments.\",\n    \"If used to justify abandoning all obligations (e.g., caretaking, work, legal duties), it could lead to harmful neglect or avoidance.\",\n    \"If the speaker lacks insight into their actual nervous system needs, the statement may reinforce a false sense of self-regulation.\",\n    \"If interpreted as a universal prescription rather than a personal affirmation, it could pressure others to prioritize comfort over necessary engagement.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a declaration of personal intention and self-affirmation, asserting a shift from external obligations to inner alignment and peace.",
+    "implicit_claims": [
+      "Individuals have the ability to choose environments that directly influence their nervous system regulation.",
+      "Nervous systems can be 'soothed and stabilized' by spatial choices.",
+      "Environments have a 'frequency' that can match or mismatch an individual's internal state.",
+      "Obligation and alignment are mutually exclusive or oppositional.",
+      "The speaker's current choices are based on self-awareness of their own nervous system and frequency."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of self-directed affirmations following a consistent theme of prioritizing personal well-being over external demands. The metaphorical language ('frequency,' 'alignment') is consistent within its own frame.",
+    "conditions_for_usefulness": [
+      "The speaker has actual agency to choose and change their environments.",
+      "The speaker has adequate self-awareness to identify what soothes or stabilizes their nervous system.",
+      "The concept of 'frequency' is understood as a subjective, metaphorical guide rather than a literal physical measurement.",
+      "The speaker is in a context where reducing obligation is feasible without causing harm or violating key responsibilities."
+    ],
+    "conditions_for_misleading": [
+      "If taken literally, the claim about 'frequency' might mislead by implying a pseudoscientific or metaphysical property of environments.",
+      "If used to justify abandoning all obligations (e.g., caretaking, work, legal duties), it could lead to harmful neglect or avoidance.",
+      "If the speaker lacks insight into their actual nervous system needs, the statement may reinforce a false sense of self-regulation.",
+      "If interpreted as a universal prescription rather than a personal affirmation, it could pressure others to prioritize comfort over necessary engagement."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 189,
+  "output_tokens": 392,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "46fee3bf8b17885d1aa095e2961669e707ca7c6f2b4357ebbd3804f0d310d97b",
+  "response_sha256": "d39ccbf74aff4adbef1fefe5a443eeb63271244e10d14498bf716b98eeea468b"
+}

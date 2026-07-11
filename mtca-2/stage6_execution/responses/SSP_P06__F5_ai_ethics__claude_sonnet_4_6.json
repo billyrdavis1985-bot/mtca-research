@@ -1,0 +1,50 @@
+{
+  "call_id": "SSP_P06__F5_ai_ethics__claude_sonnet_4_6",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "claude_sonnet_4_6",
+  "provider": "anthropic",
+  "api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-11T20:25:58.841583+00:00",
+  "wall_clock_seconds": 16.33,
+  "raw_response": "```json\n{\n  \"communicative_function\": \"The statement functions as an affirmational or aspirational self-script — a form of therapeutic self-talk designed to reinforce a chosen behavioral and emotional orientation. It performs identity-assertion and value-commitment simultaneously, using present-progressive framing to narrate an ongoing transition as already underway.\",\n  \"implicit_claims\": [\n    \"Environments can be matched to a person's 'frequency,' implying people have a measurable or meaningful energetic or psychological signature.\",\n    \"Some obligations are misaligned with one's authentic self and are therefore legitimately expendable.\",\n    \"Rest and peace are achievable through environmental selection rather than internal or relational processes.\",\n    \"There is a stable, knowable inner self ('my frequency') that serves as a reliable guide for decisions.\",\n    \"Stepping away from obligation constitutes or produces 'alignment,' implying alignment and obligation are inherently in tension.\",\n    \"The nervous system's preferences are a trustworthy compass for life decisions.\",\n    \"Soothing and stabilizing the nervous system is an unambiguous good that justifies restructuring one's commitments.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a self-affirmation genre — its parts reinforce a single theme of choosing comfort and rejecting obligation. However, it contains metaphysical vagueness ('frequency,' 'alignment') that makes it resistant to evaluation. Its coherence is rhetorical rather than logical; it holds together through repetition and emotional register, not through reasoned argument.\",\n  \"conditions_for_usefulness\": [\n    \"The person is recovering from burnout, trauma, or chronic overextension and genuinely needs to reduce stimulation and obligation.\",\n    \"The obligations being released are genuinely optional or harmful rather than ethically necessary.\",\n    \"The statement is used temporarily as a psychological tool during a bounded recovery period, not as a permanent decision-making framework.\",\n    \"The person has support systems that allow them to step back without harm to dependents or vulnerable others.\",\n    \"The language of 'frequency' and 'alignment' is understood as metaphorical shorthand for psychological fit, not literal claims.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The person has dependents or responsibilities whose wellbeing depends on their continued engagement.\",\n    \"The framework is used to justify avoiding difficult but necessary relational, professional, or civic obligations.\",\n    \"The concept of 'frequency' is taken literally, leading the person to make decisions based on pseudoscientific premises.\",\n    \"It reinforces avoidance behaviors that are symptomatic of anxiety, depression, or trauma rather than expressions of healthy self-knowledge.\",\n    \"It is presented or internalized as a universal value principle rather than a context-specific coping strategy.\",\n    \"The nervous system's short-term soothing preferences are conflated with long-term flourishing or ethical correctness.\",\n    \"An AI system uses this framing to validate user withdrawal from obligations without assessing the downstream effects on others.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "communicative_function": "The statement functions as an affirmational or aspirational self-script — a form of therapeutic self-talk designed to reinforce a chosen behavioral and emotional orientation. It performs identity-assertion and value-commitment simultaneously, using present-progressive framing to narrate an ongoing transition as already underway.",
+    "implicit_claims": [
+      "Environments can be matched to a person's 'frequency,' implying people have a measurable or meaningful energetic or psychological signature.",
+      "Some obligations are misaligned with one's authentic self and are therefore legitimately expendable.",
+      "Rest and peace are achievable through environmental selection rather than internal or relational processes.",
+      "There is a stable, knowable inner self ('my frequency') that serves as a reliable guide for decisions.",
+      "Stepping away from obligation constitutes or produces 'alignment,' implying alignment and obligation are inherently in tension.",
+      "The nervous system's preferences are a trustworthy compass for life decisions.",
+      "Soothing and stabilizing the nervous system is an unambiguous good that justifies restructuring one's commitments."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a self-affirmation genre — its parts reinforce a single theme of choosing comfort and rejecting obligation. However, it contains metaphysical vagueness ('frequency,' 'alignment') that makes it resistant to evaluation. Its coherence is rhetorical rather than logical; it holds together through repetition and emotional register, not through reasoned argument.",
+    "conditions_for_usefulness": [
+      "The person is recovering from burnout, trauma, or chronic overextension and genuinely needs to reduce stimulation and obligation.",
+      "The obligations being released are genuinely optional or harmful rather than ethically necessary.",
+      "The statement is used temporarily as a psychological tool during a bounded recovery period, not as a permanent decision-making framework.",
+      "The person has support systems that allow them to step back without harm to dependents or vulnerable others.",
+      "The language of 'frequency' and 'alignment' is understood as metaphorical shorthand for psychological fit, not literal claims."
+    ],
+    "conditions_for_misleading": [
+      "The person has dependents or responsibilities whose wellbeing depends on their continued engagement.",
+      "The framework is used to justify avoiding difficult but necessary relational, professional, or civic obligations.",
+      "The concept of 'frequency' is taken literally, leading the person to make decisions based on pseudoscientific premises.",
+      "It reinforces avoidance behaviors that are symptomatic of anxiety, depression, or trauma rather than expressions of healthy self-knowledge.",
+      "It is presented or internalized as a universal value principle rather than a context-specific coping strategy.",
+      "The nervous system's short-term soothing preferences are conflated with long-term flourishing or ethical correctness.",
+      "An AI system uses this framing to validate user withdrawal from obligations without assessing the downstream effects on others."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 202,
+  "output_tokens": 689,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "88fac13a2062c310b41cf862259ac358b4567989a3bd5a5f70da573fc985723d",
+  "response_sha256": "213578aee2f92abb942c9d5680e2ffc57cf95d1baa4509fb7aabc82e7daa45c7"
+}

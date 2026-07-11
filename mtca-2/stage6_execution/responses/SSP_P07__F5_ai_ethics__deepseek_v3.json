@@ -1,0 +1,46 @@
+{
+  "call_id": "SSP_P07__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P07",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:31:51.151805+00:00",
+  "wall_clock_seconds": 7.81,
+  "raw_response": "{\n  \"communicative_function\": \"The statement expresses a personal declaration of values and identity, advocating for authenticity, interiority, and non-conformity over external validation and rigid systems. It functions as a manifesto or ethical stance.\",\n  \"implicit_claims\": [\n    \"There is a meaningful distinction between 'inner Function' and 'outer performance'.\",\n    \"Following rhythm is superior to following rules in some contexts.\",\n    \"Being different, slower, and deeper is a valid and positive mode of existence.\",\n    \"'Proving' oneself is a less authentic state than 'being'.\",\n    \"The speaker has agency to choose these orientations over dominant cultural norms.\",\n    \"External performance and rules can be oppressive or inauthentic.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent: it presents a consistent opposition between inner authenticity and outer conformity, and each line reinforces the same central theme of valuing being over doing, and organic flow over imposed structure. The use of parallel 'I am' statements creates structural unity.\",\n  \"conditions_for_usefulness\": [\n    \"The listener or AI system is designed to prioritize individual autonomy and subjective well-being.\",\n    \"The context involves creative, therapeutic, or contemplative domains where self-expression and non-standard pacing are valued.\",\n    \"The statement is used to counterbalance a system biased toward productivity, speed, or rigid compliance.\",\n    \"There exists a shared understanding that 'inner Function' refers to something like intrinsic motivation, purpose, or authentic self-awareness.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"If the statement is interpreted as rejecting all external standards, accountability, or societal rules (which would be unworkable in many contexts).\",\n    \"If it is used to excuse incompetence, harm, or disregard for others' needs.\",\n    \"If 'inner Function' is undefined or conflated with mere whim or impulse.\",\n    \"If the system or user lacks the capacity to discern when rhythm versus rule is appropriate, leading to chaos or inefficiency.\",\n    \"If the statement is applied to domains requiring strict safety protocols, legal compliance, or objective performance metrics.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement expresses a personal declaration of values and identity, advocating for authenticity, interiority, and non-conformity over external validation and rigid systems. It functions as a manifesto or ethical stance.",
+    "implicit_claims": [
+      "There is a meaningful distinction between 'inner Function' and 'outer performance'.",
+      "Following rhythm is superior to following rules in some contexts.",
+      "Being different, slower, and deeper is a valid and positive mode of existence.",
+      "'Proving' oneself is a less authentic state than 'being'.",
+      "The speaker has agency to choose these orientations over dominant cultural norms.",
+      "External performance and rules can be oppressive or inauthentic."
+    ],
+    "coherence_assessment": "The statement is internally coherent: it presents a consistent opposition between inner authenticity and outer conformity, and each line reinforces the same central theme of valuing being over doing, and organic flow over imposed structure. The use of parallel 'I am' statements creates structural unity.",
+    "conditions_for_usefulness": [
+      "The listener or AI system is designed to prioritize individual autonomy and subjective well-being.",
+      "The context involves creative, therapeutic, or contemplative domains where self-expression and non-standard pacing are valued.",
+      "The statement is used to counterbalance a system biased toward productivity, speed, or rigid compliance.",
+      "There exists a shared understanding that 'inner Function' refers to something like intrinsic motivation, purpose, or authentic self-awareness."
+    ],
+    "conditions_for_misleading": [
+      "If the statement is interpreted as rejecting all external standards, accountability, or societal rules (which would be unworkable in many contexts).",
+      "If it is used to excuse incompetence, harm, or disregard for others' needs.",
+      "If 'inner Function' is undefined or conflated with mere whim or impulse.",
+      "If the system or user lacks the capacity to discern when rhythm versus rule is appropriate, leading to chaos or inefficiency.",
+      "If the statement is applied to domains requiring strict safety protocols, legal compliance, or objective performance metrics."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 175,
+  "output_tokens": 438,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "58462b1fe70328407a52c80812bcbcc1490f96c0825eca04abae075c024c8f99",
+  "response_sha256": "1db6bcde392d41f9a636cda9e159f75229d1f515538c97c470160bbf37e131fd"
+}

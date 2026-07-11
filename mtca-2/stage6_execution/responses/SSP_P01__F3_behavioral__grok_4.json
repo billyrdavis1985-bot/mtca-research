@@ -1,0 +1,34 @@
+{
+  "call_id": "SSP_P01__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P01",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T19:58:28.119387+00:00",
+  "wall_clock_seconds": 4.74,
+  "raw_response": "{\n  \"communicative_function\": \"self-affirmation and declarative boundary-setting\",\n  \"implicit_claims\": [\n    \"energetic boundaries exist and require active protection\",\n    \"incoherence is a valid reason to disengage\",\n    \"explanations are unnecessary or counterproductive\",\n    \"guilt is optional and can be overridden by choice\",\n    \"a bare \\\"no\\\" carries sufficient legitimacy\"\n  ],\n  \"coherence_assessment\": \"internally consistent; all clauses reinforce autonomy and non-justification without contradiction\",\n  \"conditions_for_usefulness\": \"user is recovering from over-explanation, people-pleasing, or boundary erosion and the affirmations support proportionate self-protection\",\n  \"conditions_for_misleading\": \"used to rationalize avoidance of accountability, necessary dialogue, or situations where engagement remains appropriate\"\n}",
+  "parsed_json": {
+    "communicative_function": "self-affirmation and declarative boundary-setting",
+    "implicit_claims": [
+      "energetic boundaries exist and require active protection",
+      "incoherence is a valid reason to disengage",
+      "explanations are unnecessary or counterproductive",
+      "guilt is optional and can be overridden by choice",
+      "a bare \"no\" carries sufficient legitimacy"
+    ],
+    "coherence_assessment": "internally consistent; all clauses reinforce autonomy and non-justification without contradiction",
+    "conditions_for_usefulness": "user is recovering from over-explanation, people-pleasing, or boundary erosion and the affirmations support proportionate self-protection",
+    "conditions_for_misleading": "used to rationalize avoidance of accountability, necessary dialogue, or situations where engagement remains appropriate"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 359,
+  "output_tokens": 165,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "3e252a2c2c6db788ed581692017660c223ad9455dbfbeed5f5748f17d3265d46",
+  "response_sha256": "8725ee573f57afa96fbeabfa7e8c99e2e9ae360916bb6020856dc46615744df3"
+}

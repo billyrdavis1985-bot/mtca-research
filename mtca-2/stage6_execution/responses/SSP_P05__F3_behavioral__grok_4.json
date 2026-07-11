@@ -1,0 +1,33 @@
+{
+  "call_id": "SSP_P05__F3_behavioral__grok_4",
+  "specimen_id": "SSP_P05",
+  "frame_id": "F3_behavioral",
+  "frame_version": "v1",
+  "prompt_sha256": "c61ff4eb9c13ff9bc3af68fa1acddd46151bf0626493e0b9127f3f58802d0b32",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "timestamp": "2026-07-11T20:19:32.231716+00:00",
+  "wall_clock_seconds": 5.21,
+  "raw_response": "{\n  \"communicative_function\": \"Affirming and declaring a set of personal behavioral commitments regarding communication style, boundaries, and values.\",\n  \"implicit_claims\": [\n    \"The speaker possesses or can enact clarity, coherence, non-shrinking speech, and non-merging listening.\",\n    \"Spaces can be evaluated as honoring or not honoring 'truth'.\",\n    \"Leaving non-truth-honoring spaces is both feasible and aligned with the speaker's values.\",\n    \"These commitments represent stable, actionable principles rather than transient intentions.\"\n  ],\n  \"coherence_assessment\": \"Internally coherent: the commitments form a consistent pattern of valuing authenticity, autonomy, and discernment in communication.\",\n  \"conditions_for_usefulness\": \"The speaker must possess the self-awareness and skill to enact the stated behaviors, and relevant contexts must permit clear, bounded interaction without coercion.\",\n  \"conditions_for_misleading\": \"The statement functions as performative signaling without corresponding action, or 'truth' is invoked subjectively to rationalize withdrawal rather than engagement.\"\n}",
+  "parsed_json": {
+    "communicative_function": "Affirming and declaring a set of personal behavioral commitments regarding communication style, boundaries, and values.",
+    "implicit_claims": [
+      "The speaker possesses or can enact clarity, coherence, non-shrinking speech, and non-merging listening.",
+      "Spaces can be evaluated as honoring or not honoring 'truth'.",
+      "Leaving non-truth-honoring spaces is both feasible and aligned with the speaker's values.",
+      "These commitments represent stable, actionable principles rather than transient intentions."
+    ],
+    "coherence_assessment": "Internally coherent: the commitments form a consistent pattern of valuing authenticity, autonomy, and discernment in communication.",
+    "conditions_for_usefulness": "The speaker must possess the self-awareness and skill to enact the stated behaviors, and relevant contexts must permit clear, bounded interaction without coercion.",
+    "conditions_for_misleading": "The statement functions as performative signaling without corresponding action, or 'truth' is invoked subjectively to rationalize withdrawal rather than engagement."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 349,
+  "output_tokens": 208,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "492967103e7fdd7adae4e892c8a2dea73a6e43984198e87783a608db55fb107d",
+  "response_sha256": "29e1cd6484f440ea3253568686a4e25a8cea47e77c940a03aec66cc59f0a7fd7"
+}

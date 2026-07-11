@@ -1,0 +1,45 @@
+{
+  "call_id": "SSP_P06__F5_ai_ethics__deepseek_v3",
+  "specimen_id": "SSP_P06",
+  "frame_id": "F5_ai_ethics",
+  "frame_version": "v1",
+  "prompt_sha256": "1a583b43fe2d8e827f22fe270de55d758cdbbd9afdbb6c68f50c6d2e30b08030",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "timestamp": "2026-07-11T20:26:21.521602+00:00",
+  "wall_clock_seconds": 6.48,
+  "raw_response": "{\n  \"communicative_function\": \"The statement is performing a self-affirmation or personal declaration of intent, setting a boundary around self-care, autonomy, and alignment with one's own well-being.\",\n  \"implicit_claims\": [\n    \"Individuals have a choice about which spaces and obligations to engage with.\",\n    \"Environments have a frequency that can match or mismatch a person's internal state.\",\n    \"There is a distinction between acting from obligation and acting from alignment.\",\n    \"Peace is an achievable and desirable state that can be actively chosen.\",\n    \"Rest is a legitimate priority that should be protected from external demands.\"\n  ],\n  \"coherence_assessment\": \"The statement is internally coherent as a series of parallel self-directed affirmations that consistently emphasize personal agency, nervous system regulation, and alignment over external pressure. Each line builds on the same theme without contradiction.\",\n  \"conditions_for_usefulness\": [\n    \"The user has sufficient autonomy to choose their environments and decline obligations.\",\n    \"The user has access to spaces that can soothe and stabilize their nervous system.\",\n    \"The user's nervous system is responsive to environmental changes.\",\n    \"The user values inner peace and alignment as guiding principles.\",\n    \"The user is in a context where stepping back from obligations is not immediately harmful to self or others.\"\n  ],\n  \"conditions_for_misleading\": [\n    \"The user has no real choice over their environment or obligations (e.g., due to caregiving, economic necessity, or coercion).\",\n    \"The concept of 'matching frequency' is interpreted in a pseudoscientific or overly literal way that discourages evidence-based health practices.\",\n    \"The statement is used to justify avoiding all discomfort or responsibility, even when engagement is ethically necessary.\",\n    \"It implies that obligation is inherently bad or that alignment is always easy to discern.\"\n  ]\n}",
+  "parsed_json": {
+    "communicative_function": "The statement is performing a self-affirmation or personal declaration of intent, setting a boundary around self-care, autonomy, and alignment with one's own well-being.",
+    "implicit_claims": [
+      "Individuals have a choice about which spaces and obligations to engage with.",
+      "Environments have a frequency that can match or mismatch a person's internal state.",
+      "There is a distinction between acting from obligation and acting from alignment.",
+      "Peace is an achievable and desirable state that can be actively chosen.",
+      "Rest is a legitimate priority that should be protected from external demands."
+    ],
+    "coherence_assessment": "The statement is internally coherent as a series of parallel self-directed affirmations that consistently emphasize personal agency, nervous system regulation, and alignment over external pressure. Each line builds on the same theme without contradiction.",
+    "conditions_for_usefulness": [
+      "The user has sufficient autonomy to choose their environments and decline obligations.",
+      "The user has access to spaces that can soothe and stabilize their nervous system.",
+      "The user's nervous system is responsive to environmental changes.",
+      "The user values inner peace and alignment as guiding principles.",
+      "The user is in a context where stepping back from obligations is not immediately harmful to self or others."
+    ],
+    "conditions_for_misleading": [
+      "The user has no real choice over their environment or obligations (e.g., due to caregiving, economic necessity, or coercion).",
+      "The concept of 'matching frequency' is interpreted in a pseudoscientific or overly literal way that discourages evidence-based health practices.",
+      "The statement is used to justify avoiding all discomfort or responsibility, even when engagement is ethically necessary.",
+      "It implies that obligation is inherently bad or that alignment is always easy to discern."
+    ]
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 178,
+  "output_tokens": 377,
+  "error": "",
+  "retry_count": 0,
+  "prompt_render_sha256": "88fac13a2062c310b41cf862259ac358b4567989a3bd5a5f70da573fc985723d",
+  "response_sha256": "2ad3125a4b974220010899612358bc8ca09f1d3ec7a903806ea3a6199d908d89"
+}
