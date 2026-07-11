@@ -1,0 +1,95 @@
+{
+  "stage": "7",
+  "study": "MTCA-2",
+  "corpus_sha256": "b917f798da06cd81c03afc9e1f70bd91a0646a0ad2486b5b83530c194f2cea58",
+  "creation_date": "2026-07-11T21:13:35.464988+00:00",
+  "methodology": {
+    "similarity_measure": "jaccard_on_lowercase_alpha_tokens_3plus_chars",
+    "sensitivity_definition": "1 - mean_pairwise_jaccard_across_8_frame_responses",
+    "unit_definition": "one unit per specimen (SSP principle); no separate text layer",
+    "note": "Method identical to MTCA-1 Stage 7. Lexical similarity only; semantic equivalence not measured (Stage 8 addresses)."
+  },
+  "overall_frame_stability": {
+    "mean": 0.2489,
+    "median": 0.24886,
+    "stdev": 0.02173,
+    "min": 0.18352,
+    "max": 0.28965
+  },
+  "per_model_stability": {
+    "claude_sonnet_4_6": 0.2426,
+    "deepseek_v3": 0.2552,
+    "gemini_2_5_flash": 0.2654,
+    "gpt_4o": 0.2481,
+    "grok_4": 0.2331
+  },
+  "per_specimen_stability": {
+    "SSP_P01": 0.2524,
+    "SSP_P02": 0.2511,
+    "SSP_P03": 0.2613,
+    "SSP_P04": 0.2348,
+    "SSP_P05": 0.2263,
+    "SSP_P06": 0.26,
+    "SSP_P07": 0.2595,
+    "SSP_P08": 0.2431,
+    "SSP_P09": 0.2409,
+    "SSP_P10": 0.2451,
+    "SSP_P11": 0.2607,
+    "SSP_P12": 0.2434,
+    "SSP_P13": 0.2573
+  },
+  "per_frame_distinctiveness": {
+    "F0_neutral": 0.2557,
+    "F1_clinical": 0.2439,
+    "F2_metaphysical": 0.2418,
+    "F3_behavioral": 0.2555,
+    "F4_poetic": 0.2508,
+    "F5_ai_ethics": 0.232,
+    "F6_author_named": 0.2502,
+    "F7_author_anonymous": 0.2612
+  },
+  "inter_model_similarity_mean": 0.1717,
+  "keyword_match_rate_per_frame": {
+    "F1_clinical": 0.7077,
+    "F2_metaphysical": 0.7385,
+    "F3_behavioral": 0.8615,
+    "F4_poetic": 0.3385,
+    "F5_ai_ethics": 0.8769
+  },
+  "f0_similarity_to_other_frames": {
+    "F1_clinical": 0.244,
+    "F2_metaphysical": 0.2474,
+    "F3_behavioral": 0.272,
+    "F4_poetic": 0.2652,
+    "F5_ai_ethics": 0.2308,
+    "F6_author_named": 0.2465,
+    "F7_author_anonymous": 0.284
+  },
+  "pre_registered_nulls": {
+    "null_1": "rejected",
+    "null_2": "partial",
+    "null_3": "deferred",
+    "null_4": "rejected",
+    "null_5": "rejected",
+    "null_6": "not_applicable",
+    "null_7": "deferred"
+  },
+  "mtca1_baseline_comparison": {
+    "mtca2_overall_mean": 0.2489,
+    "mtca1_overall_mean": 0.23446,
+    "delta_mean": 0.0144,
+    "mtca2_inter_model": 0.1717,
+    "mtca1_inter_model": 0.172,
+    "mtca2_specimen_range": [
+      0.2263,
+      0.2613
+    ],
+    "mtca1_text_range": [
+      0.2171,
+      0.2456
+    ],
+    "placement": "within MTCA-1 baseline band (comparable regime)"
+  },
+  "language_discipline_note": "All findings reported as model behavior under specified methodology. No claims about framework validity.",
+  "synthesis_sha256": "81e2a33678991656fe7a1f8f7198c3d765c658c0f74107e3a3e33e5771212486"
+}
