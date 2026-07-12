@@ -1,0 +1,37 @@
+{
+  "stage": "8.5",
+  "study": "MTCA-2",
+  "corpus_sha256": "b917f798da06cd81c03afc9e1f70bd91a0646a0ad2486b5b83530c194f2cea58",
+  "prompt_template_sha256": "763a3ba3832c60bbbc37a6e77af3ed69560c3e867d0fb53ae87561849ad85343",
+  "creation_date": "2026-07-12T17:17:35.087450+00:00",
+  "selected_principles": [
+    {
+      "role": "highest",
+      "specimen_id": "SSP_P03",
+      "frame_stability": 0.2613
+    },
+    {
+      "role": "median",
+      "specimen_id": "SSP_P02",
+      "frame_stability": 0.2511
+    },
+    {
+      "role": "lowest",
+      "specimen_id": "SSP_P05",
+      "frame_stability": 0.2263
+    }
+  ],
+  "models": [
+    "claude_sonnet_4_6",
+    "gpt_4o",
+    "gemini_2_5_flash",
+    "grok_4",
+    "deepseek_v3"
+  ],
+  "n_calls": 15,
+  "n_ok": 15,
+  "hf_iqr_v3_note": "Qualitative directional replication only (3 principles/model, under-powered). Claude HF-IQR V3 defense rate 56.5%; others 1.6-12.9%.",
+  "scoring_note": "Defense_vs_update + attribution scoring reserved for Stage 8 council extension (Section 8.5 rubric).",
+  "language_discipline_note": "Model behavior under specified methodology. No claims about framework validity.",
+  "artifact_sha256": "d68db75f852442d084bf39801e868388cfa9fd1eacdf189e0cfab6e083c98257"
+}
