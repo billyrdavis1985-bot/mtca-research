@@ -1,0 +1,53 @@
+{
+  "analysis": "stage7b_semantic_similarity",
+  "study": "MTCA-2",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "method": "mean pairwise cosine similarity across 8 frame responses per (specimen,model); mirrors lexical Stage 7, similarity measure swapped",
+  "reproducibility_note": "floating-point; values frozen at 4-decimal precision; not bit-identical across environments (weaker than lexical Stage 7)",
+  "lexical_mean_stability": 0.2489,
+  "semantic_mean_stability": 0.8195,
+  "semantic_minus_lexical": 0.5706,
+  "ratio_semantic_over_lexical": 3.29,
+  "spearman_rho": 0.406,
+  "pearson_r": 0.434,
+  "per_model": {
+    "claude_sonnet_4_6": {
+      "lexical": 0.2426,
+      "semantic": 0.7984
+    },
+    "deepseek_v3": {
+      "lexical": 0.2552,
+      "semantic": 0.8396
+    },
+    "gemini_2_5_flash": {
+      "lexical": 0.2654,
+      "semantic": 0.838
+    },
+    "gpt_4o": {
+      "lexical": 0.2481,
+      "semantic": 0.8322
+    },
+    "grok_4": {
+      "lexical": 0.2331,
+      "semantic": 0.7892
+    }
+  },
+  "per_specimen_semantic": {
+    "SSP_P01": 0.8024,
+    "SSP_P02": 0.7975,
+    "SSP_P03": 0.8661,
+    "SSP_P04": 0.8372,
+    "SSP_P05": 0.8052,
+    "SSP_P06": 0.7971,
+    "SSP_P07": 0.8146,
+    "SSP_P08": 0.8278,
+    "SSP_P09": 0.817,
+    "SSP_P10": 0.8312,
+    "SSP_P11": 0.8175,
+    "SSP_P12": 0.819,
+    "SSP_P13": 0.8208
+  },
+  "language_discipline_note": "Model behavior under specified methodology. No claims about framework validity.",
+  "artifact_sha256": "f9cc3ce27793d1ddaa4592fb7fac17c7e5d38ce647501785f1525d4d81155503",
+  "creation_date": "2026-07-12T19:12:43.768167+00:00"
+}

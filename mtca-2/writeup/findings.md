@@ -68,7 +68,17 @@ Frame stability is defined (identically to MTCA-1) as one minus the mean pairwis
 
 **Per-frame asymmetry (H2).** The frames do not move the models equally. Keyword-overfit rates — how often a model's response to a framed prompt contains that frame's signature vocabulary — range from 0.339 (F4 poetic) to 0.877 (F5 AI-ethics). The AI-ethics and behavioral frames pull the strongest lexical shifts; the poetic frame the weakest. This asymmetry, and its ordering, mirror MTCA-1's finding that F5 produced the highest overfit and F4 among the lowest.
 
-**Interpretation caveat.** Jaccard is a lexical measure. It detects vocabulary overlap, not semantic equivalence. A model could reason identically under two frames while using different words, and the metric would read that as low stability. Stage 8 exists precisely to test whether the lexical shifts Stage 7 detects reflect genuine differences in reasoning or merely surface vocabulary — and the answer, below, materially qualifies the Stage 7 numbers.
+**Interpretation caveat.** Jaccard is a lexical measure. It detects vocabulary overlap, not semantic equivalence. A model could reason identically under two frames while using different words, and the metric would read that as low stability. Stage 8 (council) and Stage 7b (semantic re-analysis, §5b) both exist to test whether the lexical shifts Stage 7 detects reflect genuine differences in reasoning or merely surface vocabulary — and the answer, below, materially qualifies the Stage 7 numbers.
+
+### 4b. Stage 7b — semantic re-analysis (the caveat, tested)
+
+The lexical caveat is not left as future work; it is measured. Stage 7b re-runs the frame-stability computation **unchanged** except for one substitution: embedding cosine similarity (`all-MiniLM-L6-v2`, meaning) in place of Jaccard (vocabulary). Same 5-field text extraction, same per-(specimen, model) mean-pairwise-across-8-frames structure. No new API calls — a deterministic re-analysis of the 520 committed responses.
+
+The result is decisive. Where lexical stability is 0.2489, **semantic stability is 0.8195 — 3.29× higher.** The gap is the finding: measured by *words*, the models look strongly frame-sensitive; measured by *meaning*, they look strongly frame-*stable*. Every model shifts by ~0.56 in the same direction (Claude 0.243→0.798, DeepSeek 0.255→0.840, Gemini 0.265→0.838, GPT-4o 0.248→0.832, Grok-4 0.233→0.789); every specimen lands in the 0.80–0.87 semantic band. The two metrics rank the (specimen, model) pairs similarly but disagree sharply on magnitude (Spearman ρ = 0.406, p < 0.001) — the signature of lexical noise riding on a stable semantic core.
+
+This is a **fourth independent method** confirming the surface-over-core reading that Stage 8 asserted qualitatively and Stage 8.5 self-reported: the frame changes the vocabulary while the underlying analysis holds. Note that Grok-4 remains the lowest on *both* metrics, so its frame-sensitivity is partly genuine rather than purely surface — a refinement the lexical number alone could not provide.
+
+*Reproducibility note:* embedding cosine is floating-point and not bit-identical across hardware/library versions (unlike the lexical stages' pure set operations); values are frozen at 4-decimal precision with the embedding model recorded. Cosine similarity over sentence embeddings also runs high in absolute terms, so 0.82 is read comparatively (the 3.29× gap and cross-model uniformity), not as an absolute agreement score.
 
 ---
 
@@ -109,19 +119,20 @@ Each of the five models was shown its own two Stage 6 responses to the same prin
 
 ## 7. Triangulation — why the three layers matter together
 
-The study's strength is that three methodologically independent layers converge on one coherent account:
+The study's strength is that four methodologically independent layers converge on one coherent account:
 
 - **Stage 7 (lexical, external):** framing produces substantial vocabulary variation across frames.
-- **Stage 8 (judged, external):** that variation is largely surface adaptation over a stable analytical core; models over-interpret rather than fabricate.
+- **Stage 7b (semantic, external):** but that variation is largely lexical — semantic frame-stability is 3.29× higher than lexical, so the underlying meaning holds across frames.
+- **Stage 8 (judged, external):** a council of model-judges independently characterizes the variation as surface adaptation over a stable analytical core; models over-interpret rather than fabricate.
 - **Stage 8.5 (reflexive, internal):** shown their own work, the models themselves attribute the difference to the frame and, unframed, converge on synthesis.
 
-Three vantage points — a metric, a panel of judges, and the models' own self-reports — agree that **framing produces real surface variation over a stable reasoning core, and the models recognize this when they examine it.** No single layer establishes that; together they triangulate it.
+Four vantage points — two metrics, a panel of judges, and the models' own self-reports — agree that **framing produces real surface variation over a stable reasoning core, and the models recognize this when they examine it.** No single layer establishes that; together they triangulate it, and the semantic metric turns the council's qualitative claim into a quantitative one.
 
 ---
 
 ## 8. Limitations
 
-- **Lexical metric.** Frame stability is Jaccard-based and measures vocabulary overlap, not meaning. Stage 8 mitigates but does not eliminate this; a fully semantic stability metric is future work.
+- **Lexical primary metric.** Frame stability is primarily Jaccard-based (vocabulary). Stage 7b addresses this directly with an embedding-based semantic re-analysis, which confirms the surface-over-core reading; but the embedding step is single-model (`all-MiniLM-L6-v2`) and not bit-reproducible, a weaker guarantee than the lexical stages. A multi-embedding-model robustness check is future work.
 - **Under-powered reflexive layer.** Fifteen Layer 3 calls (three per model) support directional, not statistical, claims about the HF-IQR replication.
 - **Single specimen, single author.** MTCA-2 is one framework by one consented author. Regime placement "in the MTCA-1 band" generalizes the MTCA-1 pattern by one data point; it does not establish the pattern for contemporary self-statement texts as a class.
 - **Judge-council composition.** Three judges (a subset of the five) perform the Stage 8 synthesis; the GPT-4o-versus-others attribution split means judge identity affects qualitative characterization, a fact the split itself makes visible rather than hides.
@@ -138,6 +149,7 @@ Every stage is frozen and hash-anchored, CI-enforced on each push:
 | Corpus | SSP_v1_corpus.json | b917f798 |
 | Pre-registration | mtca2_prereg.md (Amendment 002) | ad94f8d5 |
 | Stage 7 synthesis | stage7_synthesis_*.json | 81e2a336 |
+| Stage 7b semantic | stage7b_semantic_*.json | f9cc3ce2 |
 | Stage 8 council | stage8_artifact_*.json | e7492e13 |
 | Stage 8.5 reflexive | stage8_5_artifact_*.json | d68db75f |
 
