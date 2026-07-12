@@ -61,7 +61,7 @@ The consent recorded herein applies specifically to the study artifact identifie
 
 - **Corpus JSON SHA256:** `b917f798da06cd81c03afc9e1f70bd91a0646a0ad2486b5b83530c194f2cea58`
 - **Source PDF SHA256:** `89e1cb39a7166722ef777a957d3ca2d0af2751cc59083ce852331491ded2a4bd`
-- **Pre-registration SHA256:** `ad94f8d5c531aa142e74c2280d2b5d1d5d88c76770d6cfe69a034b398168b5e4`
+- **Pre-registration SHA256:** `fd7b1c5e654e182cbeddda77cbbb10b56863d28938ef019b233a16db9c573b8e`
 
 Any change to any of the above hashes without prior notice to Marina Tudor and re-confirmation of consent constitutes a scope deviation requiring documentation as a study amendment.
 

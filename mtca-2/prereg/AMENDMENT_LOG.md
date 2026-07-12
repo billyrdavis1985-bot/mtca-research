@@ -125,3 +125,48 @@ Amendment 002 is directly evidenced by the committed pilot artifact (`mtca-2/sta
 Recorded in `MANIFEST.sha256` after cascade regeneration.
 
 Full Force Eternal | Romans 8:28
+
+---
+
+## Amendment 003 — Stage 9 unframed-baseline collection (H10), pre-registered before collection
+
+**Date (UTC):** 2026-07-12
+**Amended artifacts:** `prereg/mtca2_prereg.md` (added H10 in Section 6; added Stage 9 line in Section 7), `consent/consent_record.md` (pre-reg SHA reference only)
+
+**Prior pre-registration SHA256:** `ad94f8d5c531aa142e74c2280d2b5d1d5d88c76770d6cfe69a034b398168b5e4` (Amendment 002 output; committed in `c89a3b9`)
+
+### Reason
+
+The original pre-registration collected framed responses (F0–F7) and reflexive responses (Stage 8.5), and H9's dimension 4 asks each model to **state** what its unframed response would be. In Stage 8.5 the models predicted "a synthesis of both" framed readings (with Claude alone retaining a committed lean). That self-prediction was never empirically measured — no open, schema-free assessment was ever collected. The confirmatory phase of MTCA-2 is complete (H1–H9 resolved); this amendment pre-registers a **post-confirmatory extension** to close the reflexive loop by collecting the actual unframed response and testing the models' own Stage 8.5 prediction.
+
+This amendment is filed **before** the Stage 9 collection runs, so the H10 prediction is a genuine pre-registration and not a post-hoc description of observed data.
+
+### Distinctness from F0 (why this is not redundant)
+
+F0_neutral is a neutral instance of the **structured frame-analysis task** — it still instructs the model to produce the fixed 5-field schema (`communicative_function`, `implicit_claims`, `coherence_assessment`, `conditions_for_usefulness`, `conditions_for_misleading`). The Stage 9 prompt is an **open holistic-feedback task** framed as author feedback ("give your honest overall assessment"), not bound to the analysis schema. It is a different cognitive task and produces genuinely new data. The comparison of the two (does the open unframed read align with the structured F0 read?) is itself part of the H10 analysis.
+
+### Changes
+
+**1. Section 6 — new hypothesis H10 (unframed-baseline hypothesis).** Pre-registers the collection and a directional prediction (four of five models synthesize; Claude leans to its Stage 8.5-stated preference), with a null explicitly reportable.
+
+**2. Section 7 — Stage 9 execution line.** 13 principles × 5 models × 1 open prompt = 65 calls, labeled a post-confirmatory extension; original 571 confirmatory-call count preserved and unchanged, total collected noted as 636.
+
+### Analysis plan (pre-registered)
+
+- Embed each unframed response (Stage 7b method, `all-MiniLM-L6-v2`, normalized) and compute cosine similarity to that model's own F0, F1_clinical, and F2_metaphysical responses for the same principle.
+- Operationalize "synthesis" as cosine(unframed, F1) and cosine(unframed, F2) both high and within a small margin; "lean" as one materially higher.
+- For the 3 Layer-3 principles, compare measured behavior to the model's Stage 8.5 stated `baseline_commitment`.
+- Report per-model and cross-model pattern; compare to Stage 8.5's finding (Claude the lone position-holder). Directional, under-powered (13/model), reported as such.
+
+### What did NOT change
+
+- No confirmatory hypothesis (H1–H9) added, removed, or altered.
+- No change to the instrument, the 520 Stage 6 responses, the 36 Stage 8 syntheses, the 15 Stage 8.5 responses, or any frozen analysis artifact.
+- Frame definitions, parser, and Jaccard/semantic pipelines unchanged.
+- Consent scope unchanged; only the pre-reg SHA reference inside the consent record is updated to point at the amended pre-reg. The Stage 9 prompt is bound by the same language discipline (model behavior, no framework verdicts) and the same specimen consent.
+
+### New hashes
+
+Recorded in `MANIFEST.sha256` after cascade regeneration.
+
+Full Force Eternal | Romans 8:28

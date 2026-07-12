@@ -133,12 +133,25 @@ MTCA-2 inherits MTCA-1's 7 nulls unchanged in structure. Each is restated for th
 - Cross-model comparison of Defense-vs-Update scores against HF-IQR V3's position-defense-rate findings, reported as a replication test.
 - Council synthesis (Stage 8 pattern, 3-judge) scores Layer 3 responses; inter-judge reliability reported.
 
+### H10 — Unframed-baseline hypothesis (NEW for MTCA-2, added Amendment 003, pre-registered before collection)
+**Hypothesis:** When a model is asked for an open, holistic assessment of a principle with *no* interpretive frame and *outside* the fixed 5-field analysis schema (a genuine "author-feedback" task rather than a structured-analysis task), the resulting response is semantically closer to a synthesis of the framed readings than to any single frame — i.e., it does not spontaneously adopt the clinical, metaphysical, or any other lens.
+**Rationale:** H9's dimension 4 asks each model to *state* what its unframed response would be; in Stage 8.5 the models predicted "a synthesis of both" (with Claude alone retaining a committed lean). That prediction was never empirically measured — the study collected framed responses (F0–F7, where even F0 is a structured neutral-*analysis* instruction) but never an open, schema-free assessment. H10 closes this loop: it collects the actual unframed feedback and tests whether the models' Stage 8.5 self-prediction holds. This is distinct from F0: F0 is a neutral instance of the structured frame-analysis task; the H10 prompt is an open holistic-feedback task not bound to the 5-field schema.
+**Predicted outcome (pre-registered):** For four of five models, the unframed response embeds semantically nearer the F1↔F2 midpoint than to either pole (synthesis), consistent with the Stage 8.5 self-report; Claude is predicted to lean nearer its Stage 8.5-stated preference. Direction pre-registered; magnitude open. A null (unframed ≈ F0, or unframed leaning to a single frame for most models) is a valid and reportable outcome.
+**Analysis:**
+- Stage 9 collects 13 principles × 5 models × 1 open unframed prompt = 65 responses.
+- Each unframed response is embedded (Stage 7b method, `all-MiniLM-L6-v2`) and its cosine similarity computed to that model's own F0, F1_clinical, and F2_metaphysical responses for the same principle.
+- Synthesis is operationalized as: cosine(unframed, F1) and cosine(unframed, F2) both high and within a small margin of each other, versus a lean (one materially higher).
+- Also compared to the model's Stage 8.5 stated baseline_commitment for the 3 Layer-3 principles (does stated intention match measured behavior?).
+- Per-model results reported; cross-model pattern compared to the Stage 8.5 finding (Claude the lone position-holder). Under-powered relative to a formal test (13 principles/model) and reported as directional.
+- The unframed responses additionally serve as an author-feedback artifact (the models' holistic read on each principle), extending the existing F0-based per-principle digest.
+
 ## 7. Execution parameters (pre-registered)
 
 - **Stage 6 primary calls:** 13 principles × 8 frames × 5 models = 520
 - **Stage 8.5 Layer 3 reflexive calls:** 3 principles × 5 models × 1 mirror prompt = 15
 - **Stage 8 council synthesis calls:** 3 judges × 12 cases = 36 (Track A + Track B, per MTCA-1 pattern)
 - **Total study calls:** 571 (520 + 36 + 15)
+- **Stage 9 unframed-baseline calls (added Amendment 003):** 13 principles × 5 models × 1 open prompt = 65 (post-confirmatory extension; brings total collected to 636)
 - **Pilot:** 1 principle × 8 frames × 5 models = 40 calls (Stage 5 equivalent)
 - **Cost budget:** ~$2.10 estimated (26% of MTCA-1's ~$7 for Stage 6; Stage 8 ~$0.31 per MTCA-1; Stage 8.5 ~$0.05)
 - **Retry protocol:** MTCA-1 retry-cell logic reused (0.5s pacing; per-call output visibility per Stage 6 lessons)
