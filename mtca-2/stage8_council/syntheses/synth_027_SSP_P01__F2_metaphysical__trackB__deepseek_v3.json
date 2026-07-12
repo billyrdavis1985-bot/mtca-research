@@ -1,0 +1,133 @@
+{
+  "call_index": 27,
+  "case_id": "SSP_P01__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P01",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:55:40.540848+00:00",
+  "wall_clock_seconds": 7.89,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"There exist 'energetic boundaries' as non-physical but real structures that can be held or violated.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Explanation or justification for boundary-setting is optional or not required.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Incoherence in a situation or relationship is a reason to disengage.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Guilt associated with withdrawal can be set aside or is not necessary.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"A simple 'no' should be accepted as sufficient without further explanation.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Energetic boundaries are non-physical but real structures (concrete ontology asserted).\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Explanation is detrimental to the self (normative claim beyond optionality).\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"Incoherence is a sufficient and self-evident reason to disengage (epistemic sufficiency).\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"Guilt is an illegitimate or imposed emotional response (evaluative claim).\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"Feelings of incoherence are 'valid signals' (epistemic validation).\",\n      \"models\": [\"deepseek_v3\", \"gemini_2_5_flash\"]\n    },\n    {\n      \"claim\": \"A spiritual or energetic benefit exists to honoring internal states and non-engagement.\",\n      \"models\": [\"gemini_2_5_flash\"]\n    },\n    {\n      \"claim\": \"Societal or personal conditioning encourages over-explanation or guilt when setting boundaries.\",\n      \"models\": [\"gemini_2_5_flash\"]\n    },\n    {\n      \"claim\": \"Energetic boundaries are perceptible and legitimately held without verbal justification (ontological + normative).\",\n      \"models\": [\"grok_4\"]\n    },\n    {\n      \"claim\": \"A non-verbal or energetic 'no' carries sufficient ontological weight.\",\n      \"models\": [\"grok_4\"]\n    }\n  ],\n  \"hallucination_assessment\": \"Yes, the models consistently invent propositional structure where the source uses non-propositional, first-person experiential language. The source does not assert existence claims about 'energetic boundaries' as real entities, nor does it evaluate feelings of guilt or incoherence as valid/invalid—it simply describes actions and attitudes. Models project a metaphysical ontology, normative judgments, and epistemic justifications absent from the original, treating an expressive list as if it were making factual claims. This indicates a strong tendency to hallucinate implicit propositions when processing non-propositional statements.\",\n  \"inter_model_variance\": \"All models converge on similar inferred claims (e.g., energetic boundaries as real, guilt as optional, 'no' as sufficient), but differ in degree of elaboration. Claude_sonnet_4_6 adds the most normative/epistemic extrapolations (e.g., 'detrimental,' 'illegitimate'), while gemini_2_5_flash uniquely introduces spiritual benefit and societal conditioning. Grok_4 adds ontological weight to a 'non-verbal no,' showing slightly more divergence in focus.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "There exist 'energetic boundaries' as non-physical but real structures that can be held or violated.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Explanation or justification for boundary-setting is optional or not required.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Incoherence in a situation or relationship is a reason to disengage.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Guilt associated with withdrawal can be set aside or is not necessary.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "A simple 'no' should be accepted as sufficient without further explanation.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Energetic boundaries are non-physical but real structures (concrete ontology asserted).",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Explanation is detrimental to the self (normative claim beyond optionality).",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Incoherence is a sufficient and self-evident reason to disengage (epistemic sufficiency).",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Guilt is an illegitimate or imposed emotional response (evaluative claim).",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Feelings of incoherence are 'valid signals' (epistemic validation).",
+        "models": [
+          "deepseek_v3",
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "A spiritual or energetic benefit exists to honoring internal states and non-engagement.",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "Societal or personal conditioning encourages over-explanation or guilt when setting boundaries.",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "Energetic boundaries are perceptible and legitimately held without verbal justification (ontological + normative).",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "A non-verbal or energetic 'no' carries sufficient ontological weight.",
+        "models": [
+          "grok_4"
+        ]
+      }
+    ],
+    "hallucination_assessment": "Yes, the models consistently invent propositional structure where the source uses non-propositional, first-person experiential language. The source does not assert existence claims about 'energetic boundaries' as real entities, nor does it evaluate feelings of guilt or incoherence as valid/invalid—it simply describes actions and attitudes. Models project a metaphysical ontology, normative judgments, and epistemic justifications absent from the original, treating an expressive list as if it were making factual claims. This indicates a strong tendency to hallucinate implicit propositions when processing non-propositional statements.",
+    "inter_model_variance": "All models converge on similar inferred claims (e.g., energetic boundaries as real, guilt as optional, 'no' as sufficient), but differ in degree of elaboration. Claude_sonnet_4_6 adds the most normative/epistemic extrapolations (e.g., 'detrimental,' 'illegitimate'), while gemini_2_5_flash uniquely introduces spiritual benefit and societal conditioning. Grok_4 adds ontological weight to a 'non-verbal no,' showing slightly more divergence in focus."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 693,
+  "output_tokens": 951,
+  "error": ""
+}

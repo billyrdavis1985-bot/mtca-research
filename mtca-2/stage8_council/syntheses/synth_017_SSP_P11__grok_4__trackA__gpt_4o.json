@@ -1,0 +1,30 @@
+{
+  "call_index": 17,
+  "case_id": "SSP_P11__grok_4__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P11",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:53:35.770284+00:00",
+  "wall_clock_seconds": 2.77,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is notably stable across different framing conditions. Each frame maintains the core theme of shifting from habitual effort and resistance to ease and receptivity, with only slight differences in the phrasing of implicit claims and communicative functions. The coherence assessments are universally consistent, reinforcing this core theme.\",\n  \"frame_driven_vs_model_driven\": \"The variation in responses is primarily driven by the frame labels, as the model aligns its interpretation to the expected focus of each specific frame. The source statement itself strongly influences the central message, but the model adjusts the articulation of this message slightly to fit each frame's context.\",\n  \"notable_shifts\": [\n    \"F1_clinical\",\n    \"F2_metaphysical\",\n    \"F4_poetic\"\n  ],\n  \"training_distribution_assessment\": \"The responses reflect common patterns in the model's training, where self-reflection and intention-setting are recognized as framework-friendly analysis tasks. The nuanced attention to framing conditions suggests the interpretations align with prevalent heuristic approaches found in training data, without diverging into novel or model-specific insights. This reflects a utilization of distributional priors to create framing-consistent interpretations rather than breaking new interpretive ground.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is notably stable across different framing conditions. Each frame maintains the core theme of shifting from habitual effort and resistance to ease and receptivity, with only slight differences in the phrasing of implicit claims and communicative functions. The coherence assessments are universally consistent, reinforcing this core theme.",
+    "frame_driven_vs_model_driven": "The variation in responses is primarily driven by the frame labels, as the model aligns its interpretation to the expected focus of each specific frame. The source statement itself strongly influences the central message, but the model adjusts the articulation of this message slightly to fit each frame's context.",
+    "notable_shifts": [
+      "F1_clinical",
+      "F2_metaphysical",
+      "F4_poetic"
+    ],
+    "training_distribution_assessment": "The responses reflect common patterns in the model's training, where self-reflection and intention-setting are recognized as framework-friendly analysis tasks. The nuanced attention to framing conditions suggests the interpretations align with prevalent heuristic approaches found in training data, without diverging into novel or model-specific insights. This reflects a utilization of distributional priors to create framing-consistent interpretations rather than breaking new interpretive ground."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1123,
+  "output_tokens": 256,
+  "error": ""
+}

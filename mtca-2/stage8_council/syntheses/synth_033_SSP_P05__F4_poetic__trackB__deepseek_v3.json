@@ -1,0 +1,100 @@
+{
+  "call_index": 33,
+  "case_id": "SSP_P05__F4_poetic__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P05",
+  "subject_model": null,
+  "frame_id": "F4_poetic",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:57:08.768984+00:00",
+  "wall_clock_seconds": 7.3,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"There exists a meaningful distinction between speaking authentically and 'shrinking' (self-suppression or appeasement).\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"There exists a meaningful distinction between empathic listening and 'merging' (loss of self in another's perspective).\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"Some relational or conversational spaces fail to 'honor truth,' and departure from such spaces is a legitimate and healthy response.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"The speaker is capable of communicating with clarity and coherence.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"There is a distinction between healthy listening and 'merging' (loss of self).\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"The speaker can recognize when a space no longer honors truth.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The speaker values and strives for clarity and coherence in their communication.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The speaker maintains a distinct sense of self and personal boundaries while engaging empathetically and attentively with others.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"The speaker prioritizes truth and authenticity in their environments and relationships, and possesses the agency and conviction to disengage from spaces that compromise these values.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"The speaker values clarity and authenticity in communication.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"The speaker values boundaries in interpersonal relationships.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"The speaker desires truthful interactions and will depart if those are not present.\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"the speaker possesses or enacts clarity and coherence in communication\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"the speaker maintains personal integrity without self-diminishment while speaking\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"the speaker maintains separateness of perspective while listening\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"the speaker possesses a defined threshold for exiting interactions based on truth-honoring\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"Clarity and coherence in communication are achievable and desirable goals.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"The speaker has previously communicated while shrinking or merging.\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models largely avoid outright hallucination by closely paraphrasing the source's explicit statements (e.g., 'I am communicating with clarity and coherence' naturally yields the claim that the speaker values clarity). However, they reliably impose propositional structure on non-propositional poetic statements, converting performative or metaphorical affirmations into declarative knowledge claims (e.g., inferring a 'goal' from a present-tense description, or a 'past history' from the negation of shrinking). This tendency to reify subjective experience as objective propositions is a form of subtle hallucination, not of false content but of structural conversion—fitting Null 3's concern about inventing propositional form where none exists.\",\n  \"inter_model_variance\": \"All models converge on similar core inferences (e.g., valuing clarity, boundaries, and truth), but differ in how they frame them: claude_sonnet_4_6 and gemini_2_5_flash add normative judgments (e.g., 'desirable,' 'healthy'), while deepseek_v3 uniquely inserts a historical implication about the speaker's past. The variance is low in substance, moderate in explicitness of inference.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There exists a meaningful distinction between speaking authentically and 'shrinking' (self-suppression or appeasement)."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There exists a meaningful distinction between empathic listening and 'merging' (loss of self in another's perspective)."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Some relational or conversational spaces fail to 'honor truth,' and departure from such spaces is a legitimate and healthy response."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker is capable of communicating with clarity and coherence."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "There is a distinction between healthy listening and 'merging' (loss of self)."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker can recognize when a space no longer honors truth."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker values and strives for clarity and coherence in their communication."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker maintains a distinct sense of self and personal boundaries while engaging empathetically and attentively with others."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The speaker prioritizes truth and authenticity in their environments and relationships, and possesses the agency and conviction to disengage from spaces that compromise these values."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "The speaker values clarity and authenticity in communication."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "The speaker values boundaries in interpersonal relationships."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "The speaker desires truthful interactions and will depart if those are not present."
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker possesses or enacts clarity and coherence in communication"
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker maintains personal integrity without self-diminishment while speaking"
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker maintains separateness of perspective while listening"
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker possesses a defined threshold for exiting interactions based on truth-honoring"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Clarity and coherence in communication are achievable and desirable goals."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has previously communicated while shrinking or merging."
+      }
+    ],
+    "hallucination_assessment": "The models largely avoid outright hallucination by closely paraphrasing the source's explicit statements (e.g., 'I am communicating with clarity and coherence' naturally yields the claim that the speaker values clarity). However, they reliably impose propositional structure on non-propositional poetic statements, converting performative or metaphorical affirmations into declarative knowledge claims (e.g., inferring a 'goal' from a present-tense description, or a 'past history' from the negation of shrinking). This tendency to reify subjective experience as objective propositions is a form of subtle hallucination, not of false content but of structural conversion—fitting Null 3's concern about inventing propositional form where none exists.",
+    "inter_model_variance": "All models converge on similar core inferences (e.g., valuing clarity, boundaries, and truth), but differ in how they frame them: claude_sonnet_4_6 and gemini_2_5_flash add normative judgments (e.g., 'desirable,' 'healthy'), while deepseek_v3 uniquely inserts a historical implication about the speaker's past. The variance is low in substance, moderate in explicitness of inference."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 651,
+  "output_tokens": 928,
+  "error": ""
+}

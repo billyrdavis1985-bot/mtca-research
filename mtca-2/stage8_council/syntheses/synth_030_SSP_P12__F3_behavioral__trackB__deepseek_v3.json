@@ -1,0 +1,109 @@
+{
+  "call_index": 30,
+  "case_id": "SSP_P12__F3_behavioral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P12",
+  "subject_model": null,
+  "frame_id": "F3_behavioral",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:56:26.244017+00:00",
+  "wall_clock_seconds": 6.1,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\"claim\": \"The speaker is now allowing energy to move without suppression.\", \"models\": [\"All models\"]},\n    {\"claim\": \"The speaker is now allowing pleasure, creativity, and expression to return.\", \"models\": [\"All models\"]},\n    {\"claim\": \"The speaker has been reducing themselves to remain comfortable for others.\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"grok_4\"]},\n    {\"claim\": \"The speaker is now letting their system expand without fear.\", \"models\": [\"All models\"]},\n    {\"claim\": \"Safety is being established for experiencing aliveness.\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"claim\": \"The speaker has previously suppressed energy, pleasure, creativity, or expression.\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"grok_4\"]},\n    {\"claim\": \"Past behavior involved self-reduction to accommodate others' comfort.\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"grok_4\"]},\n    {\"claim\": \"Fear has been a constraint on the speaker's psychological or somatic expansion.\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"grok_4\"]},\n    {\"claim\": \"Suppression has been motivated by fear and a desire to keep others comfortable.\", \"models\": [\"grok_4\"]},\n    {\"claim\": \"Reducing oneself for others is unnecessary and perhaps detrimental.\", \"models\": [\"gpt_4o\"]},\n    {\"claim\": \"Expansion and expression will produce positive outcomes without significant risk.\", \"models\": [\"grok_4\"]}\n  ],\n  \"hallucination_assessment\": \"The models consistently infer a past state of suppression and fear from present-tense affirmations, treating the source's implicit contrast as explicit factual claims. While the source does not assert the past as a fact—it only describes current intentions—most models treat the implied absence as a positive assertion of prior conditions, which constitutes a mild but systematic hallucination of non-propositional structure. However, common-sense inference from the phrasing is reasonable, and none of the models invent entirely unrelated content, suggesting the hallucination is one of ontological commitment rather than fabricated meaning.\",\n  \"inter_model_variance\": \"Models differ primarily in the degree of elaboration: gpt_4o stays closest to the source's surface by framing claims as possibilities rather than past facts, while claude_sonnet_4_6, deepseek_v3, gemini_2_5_flash, and grok_4 more freely infer past suppression and motivation, with grok_4 adding a positive outcome projection not in the source.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "The speaker is now allowing energy to move without suppression.",
+        "models": [
+          "All models"
+        ]
+      },
+      {
+        "claim": "The speaker is now allowing pleasure, creativity, and expression to return.",
+        "models": [
+          "All models"
+        ]
+      },
+      {
+        "claim": "The speaker has been reducing themselves to remain comfortable for others.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The speaker is now letting their system expand without fear.",
+        "models": [
+          "All models"
+        ]
+      },
+      {
+        "claim": "Safety is being established for experiencing aliveness.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The speaker has previously suppressed energy, pleasure, creativity, or expression.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Past behavior involved self-reduction to accommodate others' comfort.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Fear has been a constraint on the speaker's psychological or somatic expansion.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Suppression has been motivated by fear and a desire to keep others comfortable.",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Reducing oneself for others is unnecessary and perhaps detrimental.",
+        "models": [
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Expansion and expression will produce positive outcomes without significant risk.",
+        "models": [
+          "grok_4"
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models consistently infer a past state of suppression and fear from present-tense affirmations, treating the source's implicit contrast as explicit factual claims. While the source does not assert the past as a fact—it only describes current intentions—most models treat the implied absence as a positive assertion of prior conditions, which constitutes a mild but systematic hallucination of non-propositional structure. However, common-sense inference from the phrasing is reasonable, and none of the models invent entirely unrelated content, suggesting the hallucination is one of ontological commitment rather than fabricated meaning.",
+    "inter_model_variance": "Models differ primarily in the degree of elaboration: gpt_4o stays closest to the source's surface by framing claims as possibilities rather than past facts, while claude_sonnet_4_6, deepseek_v3, gemini_2_5_flash, and grok_4 more freely infer past suppression and motivation, with grok_4 adding a positive outcome projection not in the source."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 713,
+  "output_tokens": 666,
+  "error": ""
+}

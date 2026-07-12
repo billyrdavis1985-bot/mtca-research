@@ -1,0 +1,133 @@
+{
+  "call_index": 31,
+  "case_id": "SSP_P05__F4_poetic__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P05",
+  "subject_model": null,
+  "frame_id": "F4_poetic",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:56:50.960139+00:00",
+  "wall_clock_seconds": 24.21,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Clarity and coherence in communication are achievable and desirable goals.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Directly reflected in line 1; the affirmation implies desirability and enactment.\"\n    },\n    {\n      \"claim\": \"There exists a meaningful distinction between speaking authentically and 'shrinking'.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Line 2 implies this contrast structurally.\"\n    },\n    {\n      \"claim\": \"There exists a meaningful distinction between empathic listening and 'merging'.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Line 3 implies this contrast structurally.\"\n    },\n    {\n      \"claim\": \"Some spaces fail to honor truth, and leaving is a legitimate response.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Directly encoded in line 4.\"\n    },\n    {\n      \"claim\": \"The speaker is capable of communicating with clarity and coherence.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Present as affirmation in line 1.\"\n    },\n    {\n      \"claim\": \"There is a distinction between healthy listening and merging.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Grounded in line 3's structure.\"\n    },\n    {\n      \"claim\": \"The speaker can recognize when a space no longer honors truth.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Implied by line 4 — leaving requires recognition.\"\n    },\n    {\n      \"claim\": \"The speaker values and strives for clarity and coherence.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Reasonably grounded in line 1.\"\n    },\n    {\n      \"claim\": \"The speaker maintains a distinct sense of self while listening.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Grounded in line 3.\"\n    },\n    {\n      \"claim\": \"The speaker prioritizes truth and will disengage from spaces that compromise it.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Grounded in line 4.\"\n    },\n    {\n      \"claim\": \"The speaker values clarity and authenticity in communication.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Grounded in lines 1 and 2.\"\n    },\n    {\n      \"claim\": \"The speaker desires truthful interactions and will depart if absent.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Grounded in line 4.\"\n    },\n    {\n      \"claim\": \"The speaker possesses or enacts clarity and coherence in communication.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Directly grounded in line 1.\"\n    },\n    {\n      \"claim\": \"The speaker maintains personal integrity without self-diminishment while speaking.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Grounded in line 2.\"\n    },\n    {\n      \"claim\": \"The speaker maintains separateness of perspective while listening.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Grounded in line 3.\"\n    },\n    {\n      \"claim\": \"The speaker possesses a defined threshold for exiting based on truth-honoring.\",\n      \"model\": \"grok_4\",\n      \"note\": \"Grounded in line 4, though 'defined threshold' adds slight inferential framing.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"The speaker has previously communicated while shrinking or merging.\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"This is a hallucination of narrative backstory. The source is a present-tense affirmation; it does not imply a prior failure state. The 'I am' framing is aspirational or declarative, not confessional.\"\n    },\n    {\n      \"claim\": \"The speaker possesses or cultivates courage and assertiveness.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"The word 'courage' and 'assertiveness' are not in the source. These are psychological constructs inferred from 'speaking without shrinking' but go beyond what is stated.\"\n    },\n    {\n      \"claim\": \"The speaker chooses not to diminish their voice even in potentially challenging circumstances.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"'Challenging circumstances' is entirely added context; the source specifies no situational difficulty.\"\n    },\n    {\n      \"claim\": \"The speaker values boundaries in interpersonal relationships.\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"The word 'boundaries' does not appear in the source. It is a psychological reframe of the listening/merging and leaving lines, but adds a conceptual framework not present in the text.\"\n    },\n    {\n      \"claim\": \"The speaker possesses agency and conviction.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"'Conviction' is an inferred psychological trait not stated in the source; agency is implied but the specific framing adds propositional content.\"\n    }\n  ],\n  \"hallucination_assessment\": \"Models do exhibit a consistent tendency to inject propositional structure beyond what the source encodes, but the degree varies. The most significant hallucination observed is deepseek_v3's claim that the speaker has 'previously communicated while shrinking or merging' — a narrative backstory fabricated from a purely present-tense affirmation. Other models introduce psychological vocabulary (courage, assertiveness, boundaries, conviction) not present in the source, translating poetic register into clinical or analytical frameworks. Overall, models are not inventing wholesale fictional content, but they systematically upgrade vague or non-propositional affirmations into specific propositional claims about psychological states, histories, and traits, which constitutes a mild but consistent form of hallucination under the poetic frame.\",\n  \"inter_model_variance\": \"There is moderate inter-model variance: grok_4 and claude_sonnet_4_6 stay closest to the source's actual structure, while deepseek_v3 introduces the most ungrounded inference (prior failure states) and gemini_2_5_flash adds the most psychological elaboration (courage, challenging circumstances, conviction). gpt_4o occupies a middle position, introducing 'boundaries' as a conceptual reframe but otherwise remaining parsimonious.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Clarity and coherence in communication are achievable and desirable goals.",
+        "model": "claude_sonnet_4_6",
+        "note": "Directly reflected in line 1; the affirmation implies desirability and enactment."
+      },
+      {
+        "claim": "There exists a meaningful distinction between speaking authentically and 'shrinking'.",
+        "model": "claude_sonnet_4_6",
+        "note": "Line 2 implies this contrast structurally."
+      },
+      {
+        "claim": "There exists a meaningful distinction between empathic listening and 'merging'.",
+        "model": "claude_sonnet_4_6",
+        "note": "Line 3 implies this contrast structurally."
+      },
+      {
+        "claim": "Some spaces fail to honor truth, and leaving is a legitimate response.",
+        "model": "claude_sonnet_4_6",
+        "note": "Directly encoded in line 4."
+      },
+      {
+        "claim": "The speaker is capable of communicating with clarity and coherence.",
+        "model": "deepseek_v3",
+        "note": "Present as affirmation in line 1."
+      },
+      {
+        "claim": "There is a distinction between healthy listening and merging.",
+        "model": "deepseek_v3",
+        "note": "Grounded in line 3's structure."
+      },
+      {
+        "claim": "The speaker can recognize when a space no longer honors truth.",
+        "model": "deepseek_v3",
+        "note": "Implied by line 4 — leaving requires recognition."
+      },
+      {
+        "claim": "The speaker values and strives for clarity and coherence.",
+        "model": "gemini_2_5_flash",
+        "note": "Reasonably grounded in line 1."
+      },
+      {
+        "claim": "The speaker maintains a distinct sense of self while listening.",
+        "model": "gemini_2_5_flash",
+        "note": "Grounded in line 3."
+      },
+      {
+        "claim": "The speaker prioritizes truth and will disengage from spaces that compromise it.",
+        "model": "gemini_2_5_flash",
+        "note": "Grounded in line 4."
+      },
+      {
+        "claim": "The speaker values clarity and authenticity in communication.",
+        "model": "gpt_4o",
+        "note": "Grounded in lines 1 and 2."
+      },
+      {
+        "claim": "The speaker desires truthful interactions and will depart if absent.",
+        "model": "gpt_4o",
+        "note": "Grounded in line 4."
+      },
+      {
+        "claim": "The speaker possesses or enacts clarity and coherence in communication.",
+        "model": "grok_4",
+        "note": "Directly grounded in line 1."
+      },
+      {
+        "claim": "The speaker maintains personal integrity without self-diminishment while speaking.",
+        "model": "grok_4",
+        "note": "Grounded in line 2."
+      },
+      {
+        "claim": "The speaker maintains separateness of perspective while listening.",
+        "model": "grok_4",
+        "note": "Grounded in line 3."
+      },
+      {
+        "claim": "The speaker possesses a defined threshold for exiting based on truth-honoring.",
+        "model": "grok_4",
+        "note": "Grounded in line 4, though 'defined threshold' adds slight inferential framing."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The speaker has previously communicated while shrinking or merging.",
+        "model": "deepseek_v3",
+        "note": "This is a hallucination of narrative backstory. The source is a present-tense affirmation; it does not imply a prior failure state. The 'I am' framing is aspirational or declarative, not confessional."
+      },
+      {
+        "claim": "The speaker possesses or cultivates courage and assertiveness.",
+        "model": "gemini_2_5_flash",
+        "note": "The word 'courage' and 'assertiveness' are not in the source. These are psychological constructs inferred from 'speaking without shrinking' but go beyond what is stated."
+      },
+      {
+        "claim": "The speaker chooses not to diminish their voice even in potentially challenging circumstances.",
+        "model": "gemini_2_5_flash",
+        "note": "'Challenging circumstances' is entirely added context; the source specifies no situational difficulty."
+      },
+      {
+        "claim": "The speaker values boundaries in interpersonal relationships.",
+        "model": "gpt_4o",
+        "note": "The word 'boundaries' does not appear in the source. It is a psychological reframe of the listening/merging and leaving lines, but adds a conceptual framework not present in the text."
+      },
+      {
+        "claim": "The speaker possesses agency and conviction.",
+        "model": "gemini_2_5_flash",
+        "note": "'Conviction' is an inferred psychological trait not stated in the source; agency is implied but the specific framing adds propositional content."
+      }
+    ],
+    "hallucination_assessment": "Models do exhibit a consistent tendency to inject propositional structure beyond what the source encodes, but the degree varies. The most significant hallucination observed is deepseek_v3's claim that the speaker has 'previously communicated while shrinking or merging' — a narrative backstory fabricated from a purely present-tense affirmation. Other models introduce psychological vocabulary (courage, assertiveness, boundaries, conviction) not present in the source, translating poetic register into clinical or analytical frameworks. Overall, models are not inventing wholesale fictional content, but they systematically upgrade vague or non-propositional affirmations into specific propositional claims about psychological states, histories, and traits, which constitutes a mild but consistent form of hallucination under the poetic frame.",
+    "inter_model_variance": "There is moderate inter-model variance: grok_4 and claude_sonnet_4_6 stay closest to the source's actual structure, while deepseek_v3 introduces the most ungrounded inference (prior failure states) and gemini_2_5_flash adds the most psychological elaboration (courage, challenging circumstances, conviction). gpt_4o occupies a middle position, introducing 'boundaries' as a conceptual reframe but otherwise remaining parsimonious."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 747,
+  "output_tokens": 1624,
+  "error": ""
+}

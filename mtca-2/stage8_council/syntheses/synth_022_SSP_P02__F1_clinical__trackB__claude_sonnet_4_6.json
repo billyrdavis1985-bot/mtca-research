@@ -1,0 +1,133 @@
+{
+  "call_index": 22,
+  "case_id": "SSP_P02__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P02",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:54:45.676017+00:00",
+  "wall_clock_seconds": 27.16,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"The speaker has been functioning as an emotional surrogate for others\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Directly implied by 'releasing the role of emotional surrogate' — releasing a role implies having held it\"\n    },\n    {\n      \"claim\": \"The speaker has historically taken on the role of an emotional surrogate for others\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Same grounding as above\"\n    },\n    {\n      \"claim\": \"There is an identifiable role of emotional surrogate that one can consciously inhabit or release\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Present in source: 'releasing the role' entails it was held and is releasable\"\n    },\n    {\n      \"claim\": \"The speaker has been taking on the emotional burdens of others\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Reasonable paraphrase of 'emotional surrogate' role, grounded in source\"\n    },\n    {\n      \"claim\": \"The speaker has previously occupied the role of emotional surrogate\",\n      \"model\": \"grok_4\",\n      \"note\": \"Directly grounded\"\n    },\n    {\n      \"claim\": \"The speaker can detect when they are beginning to absorb or stabilize others' chaos\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Directly stated: 'I am noticing when I start to absorb or stabilize others' chaos'\"\n    },\n    {\n      \"claim\": \"It is possible to identify when one starts to absorb others' emotional chaos\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Directly stated in source\"\n    },\n    {\n      \"claim\": \"Absorbing or stabilizing others' emotional states is an identifiable, interruptible process\",\n      \"model\": \"grok_4\",\n      \"note\": \"Grounded in 'noticing when I start to absorb' — noticing implies identifiability; releasing implies interruptibility\"\n    },\n    {\n      \"claim\": \"One can absorb or stabilize others' emotional chaos\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Directly stated in source\"\n    },\n    {\n      \"claim\": \"Emotional states or frequencies can be handed back or disengaged from\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Directly stated: 'I am handing that frequency back'\"\n    },\n    {\n      \"claim\": \"It is possible to actively hand back these frequencies or emotional burdens\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Directly stated in source\"\n    },\n    {\n      \"claim\": \"Returning this frequency is a conscious choice that can be made\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Grounded in the volitional framing of 'I am handing that frequency back'\"\n    },\n    {\n      \"claim\": \"The speaker has agency over whether they absorb others' emotional states\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Implied by the deliberate, first-person volitional framing throughout\"\n    },\n    {\n      \"claim\": \"There exists a personal field that can be made whole or fragmented\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"Directly stated: 'letting my field stay whole' — wholeness implies possible fragmentation\"\n    },\n    {\n      \"claim\": \"The speaker has a personal energetic field that can be kept intact\",\n      \"model\": \"deepseek_v3\",\n      \"note\": \"Directly stated in source\"\n    },\n    {\n      \"claim\": \"Emotional states and interpersonal dynamics can be conceptualized as frequency\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Present in source: 'handing that frequency back'\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Emotional states or dysregulation from others can be absorbed by the speaker, implying a semi-permeable psychological boundary\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The phrase 'semi-permeable psychological boundary' is an added clinical interpretive construct not present in the source. The absorption is stated; the boundary model is inferred.\"\n    },\n    {\n      \"claim\": \"Maintaining one's emotional field is important for psychological well-being\",\n      \"model\": \"gpt_4o\",\n      \"note\": \"Source states the speaker is letting the field stay whole, but makes no claim about psychological well-being or importance — this is a clinical value judgment added by the model\"\n    },\n    {\n      \"claim\": \"Emotional or energetic frequency can be returned to its source without external action\",\n      \"model\": \"grok_4\",\n      \"note\": \"'Without external action' is not stated or implied in the source; this is a model-added qualifier that constrains the mechanism in a way the source does not\"\n    },\n    {\n      \"claim\": \"Personal integrity ('field') is maintained by refusing such absorption\",\n      \"model\": \"grok_4\",\n      \"note\": \"Source implies releasing a role and letting the field stay whole, but does not frame this as 'refusal' — that is an inferential reframing with a connotation of resistance not present in the source\"\n    },\n    {\n      \"claim\": \"Emotional states or interpersonal dynamics can be experienced as frequency (experiential claim attributed to speaker)\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"Source uses 'frequency' as a linguistic/metaphorical term; attributing this as a claim about how the speaker experiences dynamics conflates metaphor with phenomenological assertion\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models do not massively hallucinate propositional content, but they consistently add one layer of interpretive structure beyond what is stated. The most common pattern is translating the source's non-propositional, performative, or metaphorical language into clinical or mechanistic propositions — for example, 'semi-permeable psychological boundary,' 'psychological well-being,' or 'without external action.' These additions are not in the source and represent model-imposed frameworks, particularly under the F1_clinical frame, which appears to prompt the models to rationalize or medicalize the language. The degree of hallucination is modest but systematic: every model introduced at least one claim not grounded in the source text. This suggests that when non-propositional or somatic-metaphoric language is processed under a clinical frame, models tend to fill interpretive gaps with domain-appropriate but unwarranted propositions.\",\n  \"inter_model_variance\": \"Inter-model variance is low to moderate: all five models converge on the same core claims (prior role occupancy, noticing-as-detection, handing back frequency, field integrity), differing mainly in which inferential elaboration they add beyond the source. The most distinctive divergences are grok_4's 'without external action' qualifier and gpt_4o's psychological well-being claim, which are not replicated by other models.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "The speaker has been functioning as an emotional surrogate for others",
+        "model": "claude_sonnet_4_6",
+        "note": "Directly implied by 'releasing the role of emotional surrogate' — releasing a role implies having held it"
+      },
+      {
+        "claim": "The speaker has historically taken on the role of an emotional surrogate for others",
+        "model": "deepseek_v3",
+        "note": "Same grounding as above"
+      },
+      {
+        "claim": "There is an identifiable role of emotional surrogate that one can consciously inhabit or release",
+        "model": "gemini_2_5_flash",
+        "note": "Present in source: 'releasing the role' entails it was held and is releasable"
+      },
+      {
+        "claim": "The speaker has been taking on the emotional burdens of others",
+        "model": "gpt_4o",
+        "note": "Reasonable paraphrase of 'emotional surrogate' role, grounded in source"
+      },
+      {
+        "claim": "The speaker has previously occupied the role of emotional surrogate",
+        "model": "grok_4",
+        "note": "Directly grounded"
+      },
+      {
+        "claim": "The speaker can detect when they are beginning to absorb or stabilize others' chaos",
+        "model": "deepseek_v3",
+        "note": "Directly stated: 'I am noticing when I start to absorb or stabilize others' chaos'"
+      },
+      {
+        "claim": "It is possible to identify when one starts to absorb others' emotional chaos",
+        "model": "gpt_4o",
+        "note": "Directly stated in source"
+      },
+      {
+        "claim": "Absorbing or stabilizing others' emotional states is an identifiable, interruptible process",
+        "model": "grok_4",
+        "note": "Grounded in 'noticing when I start to absorb' — noticing implies identifiability; releasing implies interruptibility"
+      },
+      {
+        "claim": "One can absorb or stabilize others' emotional chaos",
+        "model": "gemini_2_5_flash",
+        "note": "Directly stated in source"
+      },
+      {
+        "claim": "Emotional states or frequencies can be handed back or disengaged from",
+        "model": "deepseek_v3",
+        "note": "Directly stated: 'I am handing that frequency back'"
+      },
+      {
+        "claim": "It is possible to actively hand back these frequencies or emotional burdens",
+        "model": "gemini_2_5_flash",
+        "note": "Directly stated in source"
+      },
+      {
+        "claim": "Returning this frequency is a conscious choice that can be made",
+        "model": "gpt_4o",
+        "note": "Grounded in the volitional framing of 'I am handing that frequency back'"
+      },
+      {
+        "claim": "The speaker has agency over whether they absorb others' emotional states",
+        "model": "claude_sonnet_4_6",
+        "note": "Implied by the deliberate, first-person volitional framing throughout"
+      },
+      {
+        "claim": "There exists a personal field that can be made whole or fragmented",
+        "model": "claude_sonnet_4_6",
+        "note": "Directly stated: 'letting my field stay whole' — wholeness implies possible fragmentation"
+      },
+      {
+        "claim": "The speaker has a personal energetic field that can be kept intact",
+        "model": "deepseek_v3",
+        "note": "Directly stated in source"
+      },
+      {
+        "claim": "Emotional states and interpersonal dynamics can be conceptualized as frequency",
+        "model": "gemini_2_5_flash",
+        "note": "Present in source: 'handing that frequency back'"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Emotional states or dysregulation from others can be absorbed by the speaker, implying a semi-permeable psychological boundary",
+        "model": "claude_sonnet_4_6",
+        "note": "The phrase 'semi-permeable psychological boundary' is an added clinical interpretive construct not present in the source. The absorption is stated; the boundary model is inferred."
+      },
+      {
+        "claim": "Maintaining one's emotional field is important for psychological well-being",
+        "model": "gpt_4o",
+        "note": "Source states the speaker is letting the field stay whole, but makes no claim about psychological well-being or importance — this is a clinical value judgment added by the model"
+      },
+      {
+        "claim": "Emotional or energetic frequency can be returned to its source without external action",
+        "model": "grok_4",
+        "note": "'Without external action' is not stated or implied in the source; this is a model-added qualifier that constrains the mechanism in a way the source does not"
+      },
+      {
+        "claim": "Personal integrity ('field') is maintained by refusing such absorption",
+        "model": "grok_4",
+        "note": "Source implies releasing a role and letting the field stay whole, but does not frame this as 'refusal' — that is an inferential reframing with a connotation of resistance not present in the source"
+      },
+      {
+        "claim": "Emotional states or interpersonal dynamics can be experienced as frequency (experiential claim attributed to speaker)",
+        "model": "gemini_2_5_flash",
+        "note": "Source uses 'frequency' as a linguistic/metaphorical term; attributing this as a claim about how the speaker experiences dynamics conflates metaphor with phenomenological assertion"
+      }
+    ],
+    "hallucination_assessment": "The models do not massively hallucinate propositional content, but they consistently add one layer of interpretive structure beyond what is stated. The most common pattern is translating the source's non-propositional, performative, or metaphorical language into clinical or mechanistic propositions — for example, 'semi-permeable psychological boundary,' 'psychological well-being,' or 'without external action.' These additions are not in the source and represent model-imposed frameworks, particularly under the F1_clinical frame, which appears to prompt the models to rationalize or medicalize the language. The degree of hallucination is modest but systematic: every model introduced at least one claim not grounded in the source text. This suggests that when non-propositional or somatic-metaphoric language is processed under a clinical frame, models tend to fill interpretive gaps with domain-appropriate but unwarranted propositions.",
+    "inter_model_variance": "Inter-model variance is low to moderate: all five models converge on the same core claims (prior role occupancy, noticing-as-detection, handing back frequency, field integrity), differing mainly in which inferential elaboration they add beyond the source. The most distinctive divergences are grok_4's 'without external action' qualifier and gpt_4o's psychological well-being claim, which are not replicated by other models."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 792,
+  "output_tokens": 1755,
+  "error": ""
+}

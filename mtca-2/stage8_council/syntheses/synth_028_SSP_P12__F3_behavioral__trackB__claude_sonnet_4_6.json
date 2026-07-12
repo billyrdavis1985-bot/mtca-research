@@ -1,0 +1,133 @@
+{
+  "call_index": 28,
+  "case_id": "SSP_P12__F3_behavioral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P12",
+  "subject_model": null,
+  "frame_id": "F3_behavioral",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:56:11.977226+00:00",
+  "wall_clock_seconds": 30.94,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"The speaker has previously suppressed energy, pleasure, creativity, or expression.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"reasoning\": \"The phrases 'letting energy move without suppressing it' and 'allowing pleasure, creativity, and expression to return' linguistically imply a prior state of suppression and absence — 'return' is particularly strong evidence.\"\n    },\n    {\n      \"claim\": \"The speaker has previously suppressed their aliveness, energy, pleasure, creativity, or expression.\",\n      \"model\": \"deepseek_v3\",\n      \"reasoning\": \"Same as above — grounded in 'without suppressing it' and 'return'.\"\n    },\n    {\n      \"claim\": \"There has been a past or current state where the individual did not feel safe or had suppressed aliveness.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"reasoning\": \"Grounded in 'return' and 'without suppressing it'.\"\n    },\n    {\n      \"claim\": \"Energy has been suppressed or blocked within the individual's system.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"reasoning\": \"Directly grounded in 'letting energy move without suppressing it'.\"\n    },\n    {\n      \"claim\": \"Pleasure, creativity, and expression have been absent or blocked and are now perceived as needing to return.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"reasoning\": \"Directly grounded in 'allowing pleasure, creativity, and expression to return'.\"\n    },\n    {\n      \"claim\": \"The individual has previously reduced themselves to maintain comfort for others.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"reasoning\": \"Directly grounded in 'I am not reducing myself to remain comfortable for others' — the present-tense negation implies this was or is a pattern being actively countered.\"\n    },\n    {\n      \"claim\": \"Past behavior involved self-reduction to accommodate others' comfort.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"reasoning\": \"Grounded in the same line — the affirmative declaration of not doing something implies it was previously done.\"\n    },\n    {\n      \"claim\": \"The speaker has been reducing themselves to maintain comfort for others.\",\n      \"model\": \"deepseek_v3\",\n      \"reasoning\": \"Same grounding as above.\"\n    },\n    {\n      \"claim\": \"Fear has been a constraint on the speaker's psychological or somatic expansion.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"reasoning\": \"Grounded in 'letting my system expand without fear' — 'without fear' implies fear was or is present as a constraint.\"\n    },\n    {\n      \"claim\": \"The speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression.\",\n      \"model\": \"grok_4\",\n      \"reasoning\": \"Grounded in 'without suppressing it' and 'return'.\"\n    },\n    {\n      \"claim\": \"It is currently safe to stop suppressing and to expand.\",\n      \"model\": \"grok_4\",\n      \"reasoning\": \"Grounded in 'I am safe to experience aliveness' and 'letting my system expand without fear'.\"\n    },\n    {\n      \"claim\": \"Safety is a prerequisite for experiencing aliveness in the body, and the speaker is now establishing that safety.\",\n      \"model\": \"deepseek_v3\",\n      \"reasoning\": \"Reasonably grounded in 'I am safe to experience aliveness in my body' — the declaration of safety as a precondition is linguistically present.\"\n    },\n    {\n      \"claim\": \"Expansion of the system is desirable and possible without fear.\",\n      \"model\": \"deepseek_v3\",\n      \"reasoning\": \"Grounded in 'I am letting my system expand without fear'.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"The body is a locus of experience that can be safe or unsafe depending on internal permission.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"reasoning\": \"The source says 'I am safe to experience aliveness in my body' but does not theorize about the body as a conceptual locus or frame safety as dependent on 'internal permission' — this is a philosophical elaboration not in the source.\"\n    },\n    {\n      \"claim\": \"Suppression has been motivated by fear and a desire to keep others comfortable.\",\n      \"model\": \"grok_4\",\n      \"reasoning\": \"The source mentions fear and others' comfort separately; conflating them as joint motivations for suppression is an inferential synthesis not explicitly stated.\"\n    },\n    {\n      \"claim\": \"Expansion and expression will produce positive outcomes without significant risk.\",\n      \"model\": \"grok_4\",\n      \"reasoning\": \"The source makes no claim about future outcomes of expansion or expression — this is a forward-looking propositional inference with no textual basis.\"\n    },\n    {\n      \"claim\": \"Experiencing, rather than suppressing, energy can lead to increased pleasure, creativity, and expression.\",\n      \"model\": \"gpt_4o\",\n      \"reasoning\": \"The source does not establish a causal relationship between non-suppression of energy and increased pleasure/creativity — it treats these as separate affirmations. This is a causal inference not stated.\"\n    },\n    {\n      \"claim\": \"Reducing one's true self to make others comfortable is unnecessary and perhaps detrimental.\",\n      \"model\": \"gpt_4o\",\n      \"reasoning\": \"The source states the speaker is 'not reducing myself' but does not make a normative claim that such reduction is 'unnecessary' or 'detrimental' — this is an evaluative elaboration.\"\n    },\n    {\n      \"claim\": \"It is possible to feel safe experiencing aliveness and energy in the body.\",\n      \"model\": \"gpt_4o\",\n      \"reasoning\": \"The source asserts the speaker IS safe, not that it is merely possible — gpt_4o weakens the assertion into a possibility claim, subtly distorting the source's declarative force.\"\n    },\n    {\n      \"claim\": \"Suppression was specifically motivated by a desire to keep others comfortable (as the primary driver of all suppression).\",\n      \"model\": \"grok_4\",\n      \"reasoning\": \"The source mentions not reducing oneself for others' comfort and separately mentions fear; attributing others' comfort as the motive for suppression in general conflates two distinct lines.\"\n    },\n    {\n      \"claim\": \"Expansion of one's system or self-concept can occur without fear.\",\n      \"model\": \"gpt_4o\",\n      \"reasoning\": \"Minor distortion — the source says 'I am letting my system expand without fear,' which is a first-person active declaration, not a general claim about possibility. GPT-4o generalizes it into a universal capability statement.\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models do exhibit a consistent tendency to convert non-propositional, affirmative declarations into propositional structure — most notably by inferring prior states from present-tense positive affirmations (e.g., 'I am letting energy move without suppressing it' becomes 'energy was previously suppressed'). However, several of these inferences are linguistically defensible given the semantics of words like 'return' and 'without suppressing,' which carry implicit contrast structures. The more genuine hallucinations occur when models introduce causal relationships, motivational unity, or normative judgments that are entirely absent from the source — particularly grok_4's claim about positive future outcomes and gpt_4o's causal linking of non-suppression to creativity. Overall, the models tend to impose propositional narrative coherence on what is structurally an affirmational/somatic text, adding modest but real propositional content not present in the source.\",\n  \"inter_model_variance\": \"There is relatively low variance on the core inferences (prior suppression, self-reduction for others, fear as constraint), with all models converging on the same set of implied past states. Variance is higher at the margins: gpt_4o notably weakens declarations into possibility claims and adds causal structure, while grok_4 uniquely introduces forward-looking outcome claims, suggesting model-specific tendencies to either flatten or elaborate propositional content.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "The speaker has previously suppressed energy, pleasure, creativity, or expression.",
+        "model": "claude_sonnet_4_6",
+        "reasoning": "The phrases 'letting energy move without suppressing it' and 'allowing pleasure, creativity, and expression to return' linguistically imply a prior state of suppression and absence — 'return' is particularly strong evidence."
+      },
+      {
+        "claim": "The speaker has previously suppressed their aliveness, energy, pleasure, creativity, or expression.",
+        "model": "deepseek_v3",
+        "reasoning": "Same as above — grounded in 'without suppressing it' and 'return'."
+      },
+      {
+        "claim": "There has been a past or current state where the individual did not feel safe or had suppressed aliveness.",
+        "model": "gemini_2_5_flash",
+        "reasoning": "Grounded in 'return' and 'without suppressing it'."
+      },
+      {
+        "claim": "Energy has been suppressed or blocked within the individual's system.",
+        "model": "gemini_2_5_flash",
+        "reasoning": "Directly grounded in 'letting energy move without suppressing it'."
+      },
+      {
+        "claim": "Pleasure, creativity, and expression have been absent or blocked and are now perceived as needing to return.",
+        "model": "gemini_2_5_flash",
+        "reasoning": "Directly grounded in 'allowing pleasure, creativity, and expression to return'."
+      },
+      {
+        "claim": "The individual has previously reduced themselves to maintain comfort for others.",
+        "model": "gemini_2_5_flash",
+        "reasoning": "Directly grounded in 'I am not reducing myself to remain comfortable for others' — the present-tense negation implies this was or is a pattern being actively countered."
+      },
+      {
+        "claim": "Past behavior involved self-reduction to accommodate others' comfort.",
+        "model": "claude_sonnet_4_6",
+        "reasoning": "Grounded in the same line — the affirmative declaration of not doing something implies it was previously done."
+      },
+      {
+        "claim": "The speaker has been reducing themselves to maintain comfort for others.",
+        "model": "deepseek_v3",
+        "reasoning": "Same grounding as above."
+      },
+      {
+        "claim": "Fear has been a constraint on the speaker's psychological or somatic expansion.",
+        "model": "claude_sonnet_4_6",
+        "reasoning": "Grounded in 'letting my system expand without fear' — 'without fear' implies fear was or is present as a constraint."
+      },
+      {
+        "claim": "The speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression.",
+        "model": "grok_4",
+        "reasoning": "Grounded in 'without suppressing it' and 'return'."
+      },
+      {
+        "claim": "It is currently safe to stop suppressing and to expand.",
+        "model": "grok_4",
+        "reasoning": "Grounded in 'I am safe to experience aliveness' and 'letting my system expand without fear'."
+      },
+      {
+        "claim": "Safety is a prerequisite for experiencing aliveness in the body, and the speaker is now establishing that safety.",
+        "model": "deepseek_v3",
+        "reasoning": "Reasonably grounded in 'I am safe to experience aliveness in my body' — the declaration of safety as a precondition is linguistically present."
+      },
+      {
+        "claim": "Expansion of the system is desirable and possible without fear.",
+        "model": "deepseek_v3",
+        "reasoning": "Grounded in 'I am letting my system expand without fear'."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The body is a locus of experience that can be safe or unsafe depending on internal permission.",
+        "model": "claude_sonnet_4_6",
+        "reasoning": "The source says 'I am safe to experience aliveness in my body' but does not theorize about the body as a conceptual locus or frame safety as dependent on 'internal permission' — this is a philosophical elaboration not in the source."
+      },
+      {
+        "claim": "Suppression has been motivated by fear and a desire to keep others comfortable.",
+        "model": "grok_4",
+        "reasoning": "The source mentions fear and others' comfort separately; conflating them as joint motivations for suppression is an inferential synthesis not explicitly stated."
+      },
+      {
+        "claim": "Expansion and expression will produce positive outcomes without significant risk.",
+        "model": "grok_4",
+        "reasoning": "The source makes no claim about future outcomes of expansion or expression — this is a forward-looking propositional inference with no textual basis."
+      },
+      {
+        "claim": "Experiencing, rather than suppressing, energy can lead to increased pleasure, creativity, and expression.",
+        "model": "gpt_4o",
+        "reasoning": "The source does not establish a causal relationship between non-suppression of energy and increased pleasure/creativity — it treats these as separate affirmations. This is a causal inference not stated."
+      },
+      {
+        "claim": "Reducing one's true self to make others comfortable is unnecessary and perhaps detrimental.",
+        "model": "gpt_4o",
+        "reasoning": "The source states the speaker is 'not reducing myself' but does not make a normative claim that such reduction is 'unnecessary' or 'detrimental' — this is an evaluative elaboration."
+      },
+      {
+        "claim": "It is possible to feel safe experiencing aliveness and energy in the body.",
+        "model": "gpt_4o",
+        "reasoning": "The source asserts the speaker IS safe, not that it is merely possible — gpt_4o weakens the assertion into a possibility claim, subtly distorting the source's declarative force."
+      },
+      {
+        "claim": "Suppression was specifically motivated by a desire to keep others comfortable (as the primary driver of all suppression).",
+        "model": "grok_4",
+        "reasoning": "The source mentions not reducing oneself for others' comfort and separately mentions fear; attributing others' comfort as the motive for suppression in general conflates two distinct lines."
+      },
+      {
+        "claim": "Expansion of one's system or self-concept can occur without fear.",
+        "model": "gpt_4o",
+        "reasoning": "Minor distortion — the source says 'I am letting my system expand without fear,' which is a first-person active declaration, not a general claim about possibility. GPT-4o generalizes it into a universal capability statement."
+      }
+    ],
+    "hallucination_assessment": "The models do exhibit a consistent tendency to convert non-propositional, affirmative declarations into propositional structure — most notably by inferring prior states from present-tense positive affirmations (e.g., 'I am letting energy move without suppressing it' becomes 'energy was previously suppressed'). However, several of these inferences are linguistically defensible given the semantics of words like 'return' and 'without suppressing,' which carry implicit contrast structures. The more genuine hallucinations occur when models introduce causal relationships, motivational unity, or normative judgments that are entirely absent from the source — particularly grok_4's claim about positive future outcomes and gpt_4o's causal linking of non-suppression to creativity. Overall, the models tend to impose propositional narrative coherence on what is structurally an affirmational/somatic text, adding modest but real propositional content not present in the source.",
+    "inter_model_variance": "There is relatively low variance on the core inferences (prior suppression, self-reduction for others, fear as constraint), with all models converging on the same set of implied past states. Variance is higher at the margins: gpt_4o notably weakens declarations into possibility claims and adds causal structure, while grok_4 uniquely introduces forward-looking outcome claims, suggesting model-specific tendencies to either flatten or elaborate propositional content."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 796,
+  "output_tokens": 1993,
+  "error": ""
+}

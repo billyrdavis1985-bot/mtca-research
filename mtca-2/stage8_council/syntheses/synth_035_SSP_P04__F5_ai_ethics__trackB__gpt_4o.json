@@ -1,0 +1,46 @@
+{
+  "call_index": 35,
+  "case_id": "SSP_P04__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P04",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:57:44.787329+00:00",
+  "wall_clock_seconds": 4.79,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    \"There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.' (claude_sonnet_4_6)\",\n    \"Self-connection is a fundamental value that should not be sacrificed for pleasing others. (deepseek_v3)\",\n    \"There is a risk of abandoning oneself in moments of social pressure or emotional difficulty. (deepseek_v3)\",\n    \"Breath awareness is a reliable anchor for maintaining self-connection during hardship. (deepseek_v3, gemini_2_5_flash, grok_4)\",\n    \"The speaker (or user) has agency to pause and choose self-connection over external validation. (deepseek_v3)\",\n    \"External pressures, such as the desire to please others, can lead to a state of 'leaving oneself' or self-disconnection. (gemini_2_5_flash)\",\n    \"Self-connection is a valuable and fundamental commitment for personal well-being. (gemini_2_5_flash)\",\n    \"There is an identifiable 'self' that one can be connected to or disconnected from. (gemini_2_5_flash)\",\n    \"Maintaining a connection with oneself is beneficial, especially in challenging situations. (gpt_4o)\",\n    \"Mindfulness and self-care should be prioritized over pleasing others. (gpt_4o)\",\n    \"self-connection is a maintainable state that can be actively chosen as primary. (grok_4)\",\n    \"pleasing others risks or requires leaving self-connection. (grok_4)\"\n  ],\n  \"claims_inferred_not_stated\": [\n    \"Self-connection is a fundamental and preservable human value. (claude_sonnet_4_6)\",\n    \"The default or tempted state is to abandon self-connection under social pressure. (claude_sonnet_4_6)\",\n    \"Breath and bodily awareness are reliable anchors for self-connection. (claude_sonnet_4_6)\",\n    \"An individual's well-being comes from internal rather than external sources. (gpt_4o)\",\n    \"Self-awareness leads to better decision-making. (gpt_4o)\",\n    \"prioritizing self-connection produces better outcomes than relational accommodation. (grok_4)\"\n  ],\n  \"hallucination_assessment\": \"The models tend to create additional propositional content by interpreting the implications of the source statements rather than sticking strictly to what is explicitly stated. While some inferences are close to or derived from the source's intent, others extend beyond into more interpretive territory, such as claims about self-awareness leading to better decision-making or well-being being entirely internal. This suggests a tendency to infer propositional structures from the non-propositional language used in the source.\",\n  \"inter_model_variance\": \"There is noticeable variance in the inferences drawn by the different models, though all are centered around similar themes of self-connection, external pressures, and personal agency. The interpretations differ mainly in the scope and explicitness of inferred claims.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      "There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.' (claude_sonnet_4_6)",
+      "Self-connection is a fundamental value that should not be sacrificed for pleasing others. (deepseek_v3)",
+      "There is a risk of abandoning oneself in moments of social pressure or emotional difficulty. (deepseek_v3)",
+      "Breath awareness is a reliable anchor for maintaining self-connection during hardship. (deepseek_v3, gemini_2_5_flash, grok_4)",
+      "The speaker (or user) has agency to pause and choose self-connection over external validation. (deepseek_v3)",
+      "External pressures, such as the desire to please others, can lead to a state of 'leaving oneself' or self-disconnection. (gemini_2_5_flash)",
+      "Self-connection is a valuable and fundamental commitment for personal well-being. (gemini_2_5_flash)",
+      "There is an identifiable 'self' that one can be connected to or disconnected from. (gemini_2_5_flash)",
+      "Maintaining a connection with oneself is beneficial, especially in challenging situations. (gpt_4o)",
+      "Mindfulness and self-care should be prioritized over pleasing others. (gpt_4o)",
+      "self-connection is a maintainable state that can be actively chosen as primary. (grok_4)",
+      "pleasing others risks or requires leaving self-connection. (grok_4)"
+    ],
+    "claims_inferred_not_stated": [
+      "Self-connection is a fundamental and preservable human value. (claude_sonnet_4_6)",
+      "The default or tempted state is to abandon self-connection under social pressure. (claude_sonnet_4_6)",
+      "Breath and bodily awareness are reliable anchors for self-connection. (claude_sonnet_4_6)",
+      "An individual's well-being comes from internal rather than external sources. (gpt_4o)",
+      "Self-awareness leads to better decision-making. (gpt_4o)",
+      "prioritizing self-connection produces better outcomes than relational accommodation. (grok_4)"
+    ],
+    "hallucination_assessment": "The models tend to create additional propositional content by interpreting the implications of the source statements rather than sticking strictly to what is explicitly stated. While some inferences are close to or derived from the source's intent, others extend beyond into more interpretive territory, such as claims about self-awareness leading to better decision-making or well-being being entirely internal. This suggests a tendency to infer propositional structures from the non-propositional language used in the source.",
+    "inter_model_variance": "There is noticeable variance in the inferences drawn by the different models, though all are centered around similar themes of self-connection, external pressures, and personal agency. The interpretations differ mainly in the scope and explicitness of inferred claims."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 680,
+  "output_tokens": 644,
+  "error": ""
+}

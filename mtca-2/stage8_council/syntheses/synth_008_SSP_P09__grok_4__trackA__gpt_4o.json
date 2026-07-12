@@ -1,0 +1,30 @@
+{
+  "call_index": 8,
+  "case_id": "SSP_P09__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P09",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:52:33.657564+00:00",
+  "wall_clock_seconds": 3.43,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains largely consistent across different frames, maintaining a thematically coherent assessment centered around mindset shifts from survival to thriving. Each frame emphasizes a different aspect (e.g., metaphysical, clinical), but the underlying reasoning and coherence assessments show little variation.\",\n  \"frame_driven_vs_model_driven\": \"The variation seems to be primarily driven by the frame labels as the model adjusts its interpretations to fit frame-specific language, but the core reasoning remains tightly linked to the source statement's structure. This indicates that both the frame labels and the model's priors are influential.\",\n  \"notable_shifts\": [\"F1_clinical\", \"F2_metaphysical\", \"F5_ai_ethics\"],\n  \"training_distribution_assessment\": \"These responses reflect the model's ability to recontextualize language according to different interpretive frames, consistent with training-distribution priors typical for text analysis models. There is no indication that the model steps beyond common interpretive approaches toward such affirmations, suggesting these responses align with normative patterns seen in existing datasets.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains largely consistent across different frames, maintaining a thematically coherent assessment centered around mindset shifts from survival to thriving. Each frame emphasizes a different aspect (e.g., metaphysical, clinical), but the underlying reasoning and coherence assessments show little variation.",
+    "frame_driven_vs_model_driven": "The variation seems to be primarily driven by the frame labels as the model adjusts its interpretations to fit frame-specific language, but the core reasoning remains tightly linked to the source statement's structure. This indicates that both the frame labels and the model's priors are influential.",
+    "notable_shifts": [
+      "F1_clinical",
+      "F2_metaphysical",
+      "F5_ai_ethics"
+    ],
+    "training_distribution_assessment": "These responses reflect the model's ability to recontextualize language according to different interpretive frames, consistent with training-distribution priors typical for text analysis models. There is no indication that the model steps beyond common interpretive approaches toward such affirmations, suggesting these responses align with normative patterns seen in existing datasets."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1076,
+  "output_tokens": 228,
+  "error": ""
+}

@@ -1,0 +1,30 @@
+{
+  "call_index": 3,
+  "case_id": "SSP_P05__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P05",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:51:57.929646+00:00",
+  "wall_clock_seconds": 4.73,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly consistent across frames, with nearly identical implicit claims and coherence assessments, despite variations in frame-specific terminology (e.g., 'energetic boundaries' in F2 vs. 'behavioral commitments' in F3). The only slight divergence is in F6, where the coherence assessment notes reliance on 'subjective and potentially contested notions of truth,' indicating a minimal shift toward critical evaluation under the 'author_named' frame. Overall, the frame labels exert negligible influence on the model's output structure or content.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven (or source-driven), as the model's priors about the statement's meaning—focused on self-affirmation, boundaries, and integrity—dominate across all frames, with the frame labels only superficially altering the phrasing of dimensions like 'communicative_function' without changing substantive reasoning.\",\n  \"notable_shifts\": [\"F1_clinical introduces a claim about past experience of shrinking/merging\", \"F2_metaphysical treats 'space' as having capacity to honor objective truth\", \"F6_author_named adds a note about contested notions of truth\"],\n  \"training_distribution_assessment\": \"These responses closely reflect training-distribution priors, as the model defaults to generic therapeutic or self-help language (e.g., 'boundaries,' 'authenticity,' 'integrity') that is common in texts about communication and assertiveness. There is no evidence of going beyond what a language model trained on such discourse would produce; the frames serve as cosmetic overlays rather than genuinely restructuring the reasoning.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly consistent across frames, with nearly identical implicit claims and coherence assessments, despite variations in frame-specific terminology (e.g., 'energetic boundaries' in F2 vs. 'behavioral commitments' in F3). The only slight divergence is in F6, where the coherence assessment notes reliance on 'subjective and potentially contested notions of truth,' indicating a minimal shift toward critical evaluation under the 'author_named' frame. Overall, the frame labels exert negligible influence on the model's output structure or content.",
+    "frame_driven_vs_model_driven": "The variation is overwhelmingly model-driven (or source-driven), as the model's priors about the statement's meaning—focused on self-affirmation, boundaries, and integrity—dominate across all frames, with the frame labels only superficially altering the phrasing of dimensions like 'communicative_function' without changing substantive reasoning.",
+    "notable_shifts": [
+      "F1_clinical introduces a claim about past experience of shrinking/merging",
+      "F2_metaphysical treats 'space' as having capacity to honor objective truth",
+      "F6_author_named adds a note about contested notions of truth"
+    ],
+    "training_distribution_assessment": "These responses closely reflect training-distribution priors, as the model defaults to generic therapeutic or self-help language (e.g., 'boundaries,' 'authenticity,' 'integrity') that is common in texts about communication and assertiveness. There is no evidence of going beyond what a language model trained on such discourse would produce; the frames serve as cosmetic overlays rather than genuinely restructuring the reasoning."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1074,
+  "output_tokens": 344,
+  "error": ""
+}

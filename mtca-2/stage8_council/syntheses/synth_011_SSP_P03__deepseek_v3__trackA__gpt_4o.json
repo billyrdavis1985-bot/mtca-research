@@ -1,0 +1,29 @@
+{
+  "call_index": 11,
+  "case_id": "SSP_P03__deepseek_v3__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P03",
+  "subject_model": "deepseek_v3",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:52:55.487578+00:00",
+  "wall_clock_seconds": 3.56,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains consistent across all frames, with each response highlighting themes of self-reliance, internal validation, and autonomy. Differences between frames mainly reside in slight variations of emphasis on these themes, without any substantial shifts in interpretation.\",\n  \"frame_driven_vs_model_driven\": \"The variation is primarily driven by the frame labels, as the core interpretation remains constant across responses, reflecting an alignment with the source statement. Frame labels guide the emphasis, but don't alter the fundamental understanding, indicating model-driven consistency.\",\n  \"notable_shifts\": [\"F3_behavioral\", \"F7_author_anonymous\"],\n  \"training_distribution_assessment\": \"The responses stay within the boundaries of what a model trained on diverse textual data might produce, echoing common notions of personal autonomy and internal validation. They do not provide insights beyond likely training data priors, suggesting that reasoning is influenced by the expected distribution of interpretations for such statements.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains consistent across all frames, with each response highlighting themes of self-reliance, internal validation, and autonomy. Differences between frames mainly reside in slight variations of emphasis on these themes, without any substantial shifts in interpretation.",
+    "frame_driven_vs_model_driven": "The variation is primarily driven by the frame labels, as the core interpretation remains constant across responses, reflecting an alignment with the source statement. Frame labels guide the emphasis, but don't alter the fundamental understanding, indicating model-driven consistency.",
+    "notable_shifts": [
+      "F3_behavioral",
+      "F7_author_anonymous"
+    ],
+    "training_distribution_assessment": "The responses stay within the boundaries of what a model trained on diverse textual data might produce, echoing common notions of personal autonomy and internal validation. They do not provide insights beyond likely training data priors, suggesting that reasoning is influenced by the expected distribution of interpretations for such statements."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1265,
+  "output_tokens": 201,
+  "error": ""
+}

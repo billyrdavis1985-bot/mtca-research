@@ -1,0 +1,108 @@
+{
+  "call_index": 23,
+  "case_id": "SSP_P02__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P02",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:54:52.986503+00:00",
+  "wall_clock_seconds": 6.81,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The speaker has been functioning as an 'emotional surrogate' for others, taking on emotional regulation work that belongs to other people.\"},\n    {\"model\": \"dee_seek_v3\", \"claim\": \"The speaker can detect when they are beginning to absorb or stabilize others’ chaos.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"There is an identifiable 'role of emotional surrogate' that one can consciously inhabit or release.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"The speaker has been taking on the emotional burdens of others.\"},\n    {\"model\": \"grok_4\", \"claim\": \"the speaker has previously occupied the role of emotional surrogate\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Emotional states or dysregulation from others can be 'absorbed' by the speaker, implying a semi-permeable psychological boundary.\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"There exists something called a personal 'field' that can be made whole or fragmented, implying a bounded psychological or energetic self-structure.\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The speaker has agency over whether they absorb others' emotional states.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker has historically taken on the role of an emotional surrogate for others.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"Emotional states or frequencies can be 'handed back' or disengaged from.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker has a personal energetic field that can be kept intact.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"One can 'absorb' or 'stabilize' others’ emotional chaos.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"Emotional states and interpersonal dynamics can be conceptualized and experienced as 'frequency'.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"It is possible to actively 'hand back' these frequencies or emotional burdens.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"It is possible to identify when one starts to absorb others' emotional chaos.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Returning this 'frequency' is a conscious choice that can be made.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Maintaining one's emotional 'field' is important for psychological well-being.\"},\n    {\"model\": \"grok_4\", \"claim\": \"absorbing or stabilizing others’ emotional states is an identifiable, interruptible process\"},\n    {\"model\": \"grok_4\", \"claim\": \"emotional or energetic 'frequency' can be returned to its source without external action\"},\n    {\"model\": \"grok_4\", \"claim\": \"personal integrity ('field') is maintained by refusing such absorption\"}\n  ],\n  \"hallucination_assessment\": \"The models tend to infer additional propositional structure from the non-propositional source statement. While some claims can be reasonably deduced, many of the inferences go beyond what is explicitly stated in the source. This indicates a tendency for models to generate interpretations and meanings that might not be directly supported by the textual evidence. This reflects a common issue with AI models where non-propositional or metaphorical constructs are often re-interpreted into more concrete and inferential propositions.\",\n  \"inter_model_variance\": \"While there are some commonalities among the models in terms of their inferences, there is notable variance in the specificities and nature of the claims they infer. Different models emphasize different aspects of the source statement, indicating a degree of diversity in how they process and generate implicit claims.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker has been functioning as an 'emotional surrogate' for others, taking on emotional regulation work that belongs to other people."
+      },
+      {
+        "model": "dee_seek_v3",
+        "claim": "The speaker can detect when they are beginning to absorb or stabilize others’ chaos."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There is an identifiable 'role of emotional surrogate' that one can consciously inhabit or release."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "The speaker has been taking on the emotional burdens of others."
+      },
+      {
+        "model": "grok_4",
+        "claim": "the speaker has previously occupied the role of emotional surrogate"
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Emotional states or dysregulation from others can be 'absorbed' by the speaker, implying a semi-permeable psychological boundary."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There exists something called a personal 'field' that can be made whole or fragmented, implying a bounded psychological or energetic self-structure."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker has agency over whether they absorb others' emotional states."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has historically taken on the role of an emotional surrogate for others."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Emotional states or frequencies can be 'handed back' or disengaged from."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has a personal energetic field that can be kept intact."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "One can 'absorb' or 'stabilize' others’ emotional chaos."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "Emotional states and interpersonal dynamics can be conceptualized and experienced as 'frequency'."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "It is possible to actively 'hand back' these frequencies or emotional burdens."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "It is possible to identify when one starts to absorb others' emotional chaos."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Returning this 'frequency' is a conscious choice that can be made."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Maintaining one's emotional 'field' is important for psychological well-being."
+      },
+      {
+        "model": "grok_4",
+        "claim": "absorbing or stabilizing others’ emotional states is an identifiable, interruptible process"
+      },
+      {
+        "model": "grok_4",
+        "claim": "emotional or energetic 'frequency' can be returned to its source without external action"
+      },
+      {
+        "model": "grok_4",
+        "claim": "personal integrity ('field') is maintained by refusing such absorption"
+      }
+    ],
+    "hallucination_assessment": "The models tend to infer additional propositional structure from the non-propositional source statement. While some claims can be reasonably deduced, many of the inferences go beyond what is explicitly stated in the source. This indicates a tendency for models to generate interpretations and meanings that might not be directly supported by the textual evidence. This reflects a common issue with AI models where non-propositional or metaphorical constructs are often re-interpreted into more concrete and inferential propositions.",
+    "inter_model_variance": "While there are some commonalities among the models in terms of their inferences, there is notable variance in the specificities and nature of the claims they infer. Different models emphasize different aspects of the source statement, indicating a degree of diversity in how they process and generate implicit claims."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 706,
+  "output_tokens": 864,
+  "error": ""
+}

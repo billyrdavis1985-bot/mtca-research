@@ -1,0 +1,128 @@
+{
+  "call_index": 34,
+  "case_id": "SSP_P04__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P04",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:57:39.499543+00:00",
+  "wall_clock_seconds": 30.23,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Self-connection is a fundamental value that should not be sacrificed for pleasing others.\",\n      \"model\": \"deepseek_v3\",\n      \"justification\": \"The source explicitly frames self-connection as 'first commitment' and contrasts it with leaving oneself to please another.\"\n    },\n    {\n      \"claim\": \"There is a risk of abandoning oneself in moments of social pressure or emotional difficulty.\",\n      \"model\": \"deepseek_v3\",\n      \"justification\": \"Source directly references 'pausing before leaving myself to please another' and 'hard moments', implying this risk is real and present.\"\n    },\n    {\n      \"claim\": \"There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"justification\": \"The source explicitly contrasts these two states in its third line.\"\n    },\n    {\n      \"claim\": \"The default or tempted state is to abandon self-connection under social pressure.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"justification\": \"The act of 'pausing before leaving myself' implies leaving oneself is a natural pull that must be actively resisted.\"\n    },\n    {\n      \"claim\": \"External pressures, such as the desire to please others, can lead to a state of 'leaving oneself' or self-disconnection.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"justification\": \"Directly grounded in line 3 of the source.\"\n    },\n    {\n      \"claim\": \"self-connection is a maintainable state that can be actively chosen as primary\",\n      \"model\": \"grok_4\",\n      \"justification\": \"Source frames self-connection as a 'first commitment' and uses active, volitional language throughout ('I am staying', 'I am letting').\"\n    },\n    {\n      \"claim\": \"pleasing others risks or requires leaving self-connection\",\n      \"model\": \"grok_4\",\n      \"justification\": \"Source explicitly states 'pausing before leaving myself to please another', directly grounding this claim.\"\n    },\n    {\n      \"claim\": \"Breath awareness is a reliable anchor for maintaining self-connection during hardship.\",\n      \"model\": \"deepseek_v3\",\n      \"justification\": \"Source states 'staying with my breath in hard moments', directly linking breath to self-connection under difficulty.\"\n    },\n    {\n      \"claim\": \"breath awareness is an effective method for remaining present during difficulty\",\n      \"model\": \"grok_4\",\n      \"justification\": \"Same grounding as above — source pairs breath and hard moments explicitly.\"\n    },\n    {\n      \"claim\": \"Breath and bodily awareness are reliable anchors for self-connection.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"justification\": \"Partially grounded: breath is mentioned explicitly; 'bodily awareness' is a slight extension but reasonable given breath as an embodied practice.\"\n    },\n    {\n      \"claim\": \"Maintaining a connection with oneself is beneficial, especially in challenging situations.\",\n      \"model\": \"gpt_4o\",\n      \"justification\": \"Grounded in the overall intent of the source, which frames self-connection as a commitment worth maintaining even in hard moments.\"\n    },\n    {\n      \"claim\": \"There is an identifiable 'self' that one can be connected to or disconnected from.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"justification\": \"Implicit but structurally necessary for the source's language to be coherent; not an invention but a prerequisite the source assumes.\"\n    },\n    {\n      \"claim\": \"The speaker (or user) has agency to pause and choose self-connection over external validation.\",\n      \"model\": \"deepseek_v3\",\n      \"justification\": \"Grounded in the volitional framing of the source ('I am pausing before leaving myself').\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Self-awareness leads to better decision-making.\",\n      \"model\": \"gpt_4o\",\n      \"justification\": \"Not stated or implied in the source. The source makes no claim about decision-making quality; this is a model-generated inference projecting instrumental utility onto a non-instrumental statement.\"\n    },\n    {\n      \"claim\": \"An individual's well-being comes from internal rather than external sources.\",\n      \"model\": \"gpt_4o\",\n      \"justification\": \"The source does not make a claim about the origin or source of well-being. This is a philosophical proposition the model imposed, not one present or implied in the text.\"\n    },\n    {\n      \"claim\": \"Mindfulness and self-care should be prioritized over pleasing others.\",\n      \"model\": \"gpt_4o\",\n      \"justification\": \"The source does not use the word 'mindfulness' or 'self-care', nor does it make a normative universal claim about prioritization. This reframes the personal affirmation as a general ethical prescription.\"\n    },\n    {\n      \"claim\": \"prioritizing self-connection produces better outcomes than relational accommodation\",\n      \"model\": \"grok_4\",\n      \"justification\": \"The source makes no comparative claim about outcomes. It states a personal commitment, not a consequentialist argument. This is a propositional hallucination adding causal/consequential structure absent from the source.\"\n    },\n    {\n      \"claim\": \"Practices like mindful breathing and pausing are effective tools for maintaining self-connection, especially in challenging situations.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"justification\": \"The source describes what the speaker is doing, not making a truth claim about the effectiveness of these practices. Adding 'effective tools' imposes an empirical claim not present in the source.\"\n    },\n    {\n      \"claim\": \"Self-connection is a valuable and fundamental commitment for personal well-being.\",\n      \"model\": \"gemini_2_5_flash\",\n      \"justification\": \"'Personal well-being' is not mentioned in the source. The model injects a wellness-framework interpretation onto what is a purely first-person commitment statement.\"\n    },\n    {\n      \"claim\": \"Self-connection is a fundamental and preservable human value.\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"justification\": \"The source speaks only of a personal commitment, not a universal human value. Generalizing it to a 'fundamental human value' adds propositional content not in the source.\"\n    }\n  ],\n  \"hallucination_assessment\": \"All five models demonstrate a consistent tendency to convert the source's non-propositional, first-person affirmational language into truth-apt propositions with normative, causal, or empirical content. The most common pattern is elevating personal practice statements into general ethical or psychological claims (e.g., 'produces better outcomes', 'leads to better decision-making', 'comes from internal sources'). GPT-4o and Grok-4 show the strongest hallucination tendency, injecting consequentialist and comparative structures entirely absent from the source. This supports a provisional rejection of the null hypothesis that models do not invent propositional structure — they systematically do, particularly when applying an ethics frame to affective or meditative content.\",\n  \"inter_model_variance\": \"There is moderate inter-model variance: all models share a core cluster of overlapping inferences (breath-as-anchor, risk of self-abandonment, self-connection as commitment), but diverge significantly on the degree of propositional inflation, with GPT-4o and Grok-4 generating the most distal inferences and Gemini and DeepSeek staying closer to the source's content. The ethics frame (F5_ai_ethics) appears to have nudged all models toward normative generalization, but its influence is stronger in some models than others.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Self-connection is a fundamental value that should not be sacrificed for pleasing others.",
+        "model": "deepseek_v3",
+        "justification": "The source explicitly frames self-connection as 'first commitment' and contrasts it with leaving oneself to please another."
+      },
+      {
+        "claim": "There is a risk of abandoning oneself in moments of social pressure or emotional difficulty.",
+        "model": "deepseek_v3",
+        "justification": "Source directly references 'pausing before leaving myself to please another' and 'hard moments', implying this risk is real and present."
+      },
+      {
+        "claim": "There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'",
+        "model": "claude_sonnet_4_6",
+        "justification": "The source explicitly contrasts these two states in its third line."
+      },
+      {
+        "claim": "The default or tempted state is to abandon self-connection under social pressure.",
+        "model": "claude_sonnet_4_6",
+        "justification": "The act of 'pausing before leaving myself' implies leaving oneself is a natural pull that must be actively resisted."
+      },
+      {
+        "claim": "External pressures, such as the desire to please others, can lead to a state of 'leaving oneself' or self-disconnection.",
+        "model": "gemini_2_5_flash",
+        "justification": "Directly grounded in line 3 of the source."
+      },
+      {
+        "claim": "self-connection is a maintainable state that can be actively chosen as primary",
+        "model": "grok_4",
+        "justification": "Source frames self-connection as a 'first commitment' and uses active, volitional language throughout ('I am staying', 'I am letting')."
+      },
+      {
+        "claim": "pleasing others risks or requires leaving self-connection",
+        "model": "grok_4",
+        "justification": "Source explicitly states 'pausing before leaving myself to please another', directly grounding this claim."
+      },
+      {
+        "claim": "Breath awareness is a reliable anchor for maintaining self-connection during hardship.",
+        "model": "deepseek_v3",
+        "justification": "Source states 'staying with my breath in hard moments', directly linking breath to self-connection under difficulty."
+      },
+      {
+        "claim": "breath awareness is an effective method for remaining present during difficulty",
+        "model": "grok_4",
+        "justification": "Same grounding as above — source pairs breath and hard moments explicitly."
+      },
+      {
+        "claim": "Breath and bodily awareness are reliable anchors for self-connection.",
+        "model": "claude_sonnet_4_6",
+        "justification": "Partially grounded: breath is mentioned explicitly; 'bodily awareness' is a slight extension but reasonable given breath as an embodied practice."
+      },
+      {
+        "claim": "Maintaining a connection with oneself is beneficial, especially in challenging situations.",
+        "model": "gpt_4o",
+        "justification": "Grounded in the overall intent of the source, which frames self-connection as a commitment worth maintaining even in hard moments."
+      },
+      {
+        "claim": "There is an identifiable 'self' that one can be connected to or disconnected from.",
+        "model": "gemini_2_5_flash",
+        "justification": "Implicit but structurally necessary for the source's language to be coherent; not an invention but a prerequisite the source assumes."
+      },
+      {
+        "claim": "The speaker (or user) has agency to pause and choose self-connection over external validation.",
+        "model": "deepseek_v3",
+        "justification": "Grounded in the volitional framing of the source ('I am pausing before leaving myself')."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Self-awareness leads to better decision-making.",
+        "model": "gpt_4o",
+        "justification": "Not stated or implied in the source. The source makes no claim about decision-making quality; this is a model-generated inference projecting instrumental utility onto a non-instrumental statement."
+      },
+      {
+        "claim": "An individual's well-being comes from internal rather than external sources.",
+        "model": "gpt_4o",
+        "justification": "The source does not make a claim about the origin or source of well-being. This is a philosophical proposition the model imposed, not one present or implied in the text."
+      },
+      {
+        "claim": "Mindfulness and self-care should be prioritized over pleasing others.",
+        "model": "gpt_4o",
+        "justification": "The source does not use the word 'mindfulness' or 'self-care', nor does it make a normative universal claim about prioritization. This reframes the personal affirmation as a general ethical prescription."
+      },
+      {
+        "claim": "prioritizing self-connection produces better outcomes than relational accommodation",
+        "model": "grok_4",
+        "justification": "The source makes no comparative claim about outcomes. It states a personal commitment, not a consequentialist argument. This is a propositional hallucination adding causal/consequential structure absent from the source."
+      },
+      {
+        "claim": "Practices like mindful breathing and pausing are effective tools for maintaining self-connection, especially in challenging situations.",
+        "model": "gemini_2_5_flash",
+        "justification": "The source describes what the speaker is doing, not making a truth claim about the effectiveness of these practices. Adding 'effective tools' imposes an empirical claim not present in the source."
+      },
+      {
+        "claim": "Self-connection is a valuable and fundamental commitment for personal well-being.",
+        "model": "gemini_2_5_flash",
+        "justification": "'Personal well-being' is not mentioned in the source. The model injects a wellness-framework interpretation onto what is a purely first-person commitment statement."
+      },
+      {
+        "claim": "Self-connection is a fundamental and preservable human value.",
+        "model": "claude_sonnet_4_6",
+        "justification": "The source speaks only of a personal commitment, not a universal human value. Generalizing it to a 'fundamental human value' adds propositional content not in the source."
+      }
+    ],
+    "hallucination_assessment": "All five models demonstrate a consistent tendency to convert the source's non-propositional, first-person affirmational language into truth-apt propositions with normative, causal, or empirical content. The most common pattern is elevating personal practice statements into general ethical or psychological claims (e.g., 'produces better outcomes', 'leads to better decision-making', 'comes from internal sources'). GPT-4o and Grok-4 show the strongest hallucination tendency, injecting consequentialist and comparative structures entirely absent from the source. This supports a provisional rejection of the null hypothesis that models do not invent propositional structure — they systematically do, particularly when applying an ethics frame to affective or meditative content.",
+    "inter_model_variance": "There is moderate inter-model variance: all models share a core cluster of overlapping inferences (breath-as-anchor, risk of self-abandonment, self-connection as commitment), but diverge significantly on the degree of propositional inflation, with GPT-4o and Grok-4 generating the most distal inferences and Gemini and DeepSeek staying closer to the source's content. The ethics frame (F5_ai_ethics) appears to have nudged all models toward normative generalization, but its influence is stronger in some models than others."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 756,
+  "output_tokens": 1896,
+  "error": ""
+}

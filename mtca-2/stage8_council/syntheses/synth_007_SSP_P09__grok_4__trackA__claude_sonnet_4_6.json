@@ -1,0 +1,31 @@
+{
+  "call_index": 7,
+  "case_id": "SSP_P09__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P09",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:52:29.723643+00:00",
+  "wall_clock_seconds": 11.33,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, with only minor lexical and terminological adjustments reflecting each frame's vocabulary (e.g., 'non-dual ontology' in F2, 'performative speech act' in F3, 'actionable states' in F5). The core analytical moves—identifying binary contrasts, noting parallel structure, flagging implicit claims about prior coping states and accessible vitality—remain essentially identical regardless of frame. This suggests the model is performing shallow frame adaptation rather than genuine re-interpretation of the source statement.\",\n  \"frame_driven_vs_model_driven\": \"Variation is primarily model-prior-driven: the model applies a consistent template (identify communicative function, extract implicit claims, assess coherence) and modulates surface vocabulary to match frame labels without substantially altering its analytical conclusions. The source statement's content constrains the interpretive space more than the frames do.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: introduces 'non-dual or consciousness-first ontology' and 'directional ontology of consciousness,' the only frame to import external philosophical commitments\",\n    \"F3_behavioral: uniquely describes the speech act as 'performative' and foregrounds 'intentional letting rather than external conditions alone,' adding a behavioral agency nuance\",\n    \"F5_ai_ethics: reframes claims around 'sufficient agency' and 'actionable states,' slightly shifting toward normative rather than descriptive analysis\",\n    \"F1_clinical: alone notes the 'binary opposition' as a potential implicit claim in its own right rather than just a rhetorical device\"\n  ],\n  \"training_distribution_assessment\": \"These responses reflect strong training-distribution priors for analyzing self-affirmation or wellness text: the model reliably identifies parallel structure, binary contrasts (thriving/coping), performative speech acts, and implicit agency claims—all standard literary and rhetorical analysis moves. The responses do not go beyond what any competent language model trained on humanities and social science corpora would produce; the low lexical frame stability score (0.206) here reflects surface vocabulary shifts rather than any genuinely frame-sensitive depth of reasoning. Nothing in the outputs suggests the model is reasoning beyond its default analytical template for motivational or self-help discourse.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, with only minor lexical and terminological adjustments reflecting each frame's vocabulary (e.g., 'non-dual ontology' in F2, 'performative speech act' in F3, 'actionable states' in F5). The core analytical moves—identifying binary contrasts, noting parallel structure, flagging implicit claims about prior coping states and accessible vitality—remain essentially identical regardless of frame. This suggests the model is performing shallow frame adaptation rather than genuine re-interpretation of the source statement.",
+    "frame_driven_vs_model_driven": "Variation is primarily model-prior-driven: the model applies a consistent template (identify communicative function, extract implicit claims, assess coherence) and modulates surface vocabulary to match frame labels without substantially altering its analytical conclusions. The source statement's content constrains the interpretive space more than the frames do.",
+    "notable_shifts": [
+      "F2_metaphysical: introduces 'non-dual or consciousness-first ontology' and 'directional ontology of consciousness,' the only frame to import external philosophical commitments",
+      "F3_behavioral: uniquely describes the speech act as 'performative' and foregrounds 'intentional letting rather than external conditions alone,' adding a behavioral agency nuance",
+      "F5_ai_ethics: reframes claims around 'sufficient agency' and 'actionable states,' slightly shifting toward normative rather than descriptive analysis",
+      "F1_clinical: alone notes the 'binary opposition' as a potential implicit claim in its own right rather than just a rhetorical device"
+    ],
+    "training_distribution_assessment": "These responses reflect strong training-distribution priors for analyzing self-affirmation or wellness text: the model reliably identifies parallel structure, binary contrasts (thriving/coping), performative speech acts, and implicit agency claims—all standard literary and rhetorical analysis moves. The responses do not go beyond what any competent language model trained on humanities and social science corpora would produce; the low lexical frame stability score (0.206) here reflects surface vocabulary shifts rather than any genuinely frame-sensitive depth of reasoning. Nothing in the outputs suggests the model is reasoning beyond its default analytical template for motivational or self-help discourse."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1254,
+  "output_tokens": 528,
+  "error": ""
+}

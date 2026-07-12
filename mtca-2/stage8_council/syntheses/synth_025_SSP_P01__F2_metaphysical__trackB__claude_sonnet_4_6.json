@@ -1,0 +1,118 @@
+{
+  "call_index": 25,
+  "case_id": "SSP_P01__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P01",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:55:26.537136+00:00",
+  "wall_clock_seconds": 25.02,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Energetic boundaries exist and can be held/maintained\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"],\n      \"note\": \"Directly in the source as 'energetic boundaries' — though the source uses the term without asserting its metaphysical status, all models correctly identify this as a claim present in or implied by the language.\"\n    },\n    {\n      \"claim\": \"Explanation or justification for boundary-setting is not required\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"],\n      \"note\": \"'Without explanation' is explicit in the source; the inference that explanation is optional is grounded.\"\n    },\n    {\n      \"claim\": \"A 'no' can be sufficient without further explanation\",\n      \"models\": [\"deepseek_v3\", \"gpt_4o\", \"grok_4\"],\n      \"note\": \"Grounded in 'letting my no resonate as enough' — the source explicitly frames 'no' as sufficient.\"\n    },\n    {\n      \"claim\": \"Guilt is something to move away from or not carry during disengagement\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gpt_4o\", \"grok_4\"],\n      \"note\": \"'Moving away without guilt' explicitly supports this; framing guilt as optional is a reasonable inference.\"\n    },\n    {\n      \"claim\": \"Feelings of incoherence are a basis for choosing non-engagement\",\n      \"models\": [\"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"],\n      \"note\": \"'Honoring the places that feel incoherent and choosing not to engage' directly supports this link.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"Explanation is 'detrimental to the self' (not merely optional)\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source says 'without explanation' — it does not assert that explanation is harmful or detrimental. This is an evaluative escalation not present in the source.\"\n    },\n    {\n      \"claim\": \"Incoherence is 'self-evident' and 'sufficient' as a reason to disengage\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source describes honoring incoherence but does not make a logical sufficiency claim or assert self-evidence. This is an added epistemic structure.\"\n    },\n    {\n      \"claim\": \"Guilt is an 'illegitimate or imposed emotional response, not a signal worth examining'\",\n      \"model\": \"claude_sonnet_4_6\",\n      \"note\": \"The source says 'without guilt' but makes no normative judgment about guilt's legitimacy or diagnostic value. This is a significant inferential addition.\"\n    },\n    {\n      \"claim\": \"There is a 'spiritual or energetic benefit' to honoring one's internal state\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"The source does not mention benefits, spiritual or otherwise. This is a hallucinated causal/teleological claim.\"\n    },\n    {\n      \"claim\": \"Societal or personal conditioning encourages over-explanation or guilt\",\n      \"model\": \"gemini_2_5_flash\",\n      \"note\": \"No reference to societal conditioning, norms, or external pressures appears anywhere in the source. This is entirely fabricated propositional content.\"\n    },\n    {\n      \"claim\": \"Feelings of incoherence 'reliably indicate' situations that should be avoided\",\n      \"model\": \"grok_4\",\n      \"note\": \"The source describes a personal practice of honoring incoherence but does not make an epistemological reliability claim. 'Reliably indicate' introduces a stronger epistemic warrant not present in the source.\"\n    },\n    {\n      \"claim\": \"A non-verbal or 'energetic' no carries 'ontological weight'\",\n      \"model\": \"grok_4\",\n      \"note\": \"The source says 'no' is enough, but the frame of 'ontological weight' is a metaphysical attribution not present or implied in the source. This is a hallucinated philosophical structure.\"\n    },\n    {\n      \"claim\": \"Guilt is 'optional rather than intrinsic' to disengagement\",\n      \"model\": \"grok_4\",\n      \"note\": \"The source expresses an aspiration ('without guilt') but does not make a claim about the intrinsic or optional nature of guilt as a psychological category.\"\n    }\n  ],\n  \"hallucination_assessment\": \"Yes, models consistently invent propositional structure when analyzing non-propositional or expressive statements. The source is written in the first-person affirmation mode — it does not assert metaphysical claims, make epistemological reliability arguments, or offer normative judgments about guilt or social conditioning. Yet all models, to varying degrees, reframe these aspirational statements as assertoric propositions with implied truth conditions, causal structures, and normative stances. The most egregious hallucinations occur when models (especially gemini_2_5_flash and grok_4) introduce entirely external frameworks — societal conditioning, ontological weight, spiritual benefit — that have no basis in the source text. This confirms a systematic tendency for language models to over-propositionalise expressive or affirmation-style language by mapping it onto argumentative or metaphysical structures.\",\n  \"inter_model_variance\": \"There is moderate variance in the degree of hallucination: gpt_4o and deepseek_v3 stay closest to the source language with minimal inferential escalation, while claude_sonnet_4_6, gemini_2_5_flash, and grok_4 introduce more heavily constructed propositional claims that diverge significantly from what the source actually states. All five models share a common core of grounded claims, suggesting convergence on the literal content, but diverge sharply in the evaluative and metaphysical elaborations they add.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Energetic boundaries exist and can be held/maintained",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ],
+        "note": "Directly in the source as 'energetic boundaries' — though the source uses the term without asserting its metaphysical status, all models correctly identify this as a claim present in or implied by the language."
+      },
+      {
+        "claim": "Explanation or justification for boundary-setting is not required",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ],
+        "note": "'Without explanation' is explicit in the source; the inference that explanation is optional is grounded."
+      },
+      {
+        "claim": "A 'no' can be sufficient without further explanation",
+        "models": [
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ],
+        "note": "Grounded in 'letting my no resonate as enough' — the source explicitly frames 'no' as sufficient."
+      },
+      {
+        "claim": "Guilt is something to move away from or not carry during disengagement",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ],
+        "note": "'Moving away without guilt' explicitly supports this; framing guilt as optional is a reasonable inference."
+      },
+      {
+        "claim": "Feelings of incoherence are a basis for choosing non-engagement",
+        "models": [
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ],
+        "note": "'Honoring the places that feel incoherent and choosing not to engage' directly supports this link."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "Explanation is 'detrimental to the self' (not merely optional)",
+        "model": "claude_sonnet_4_6",
+        "note": "The source says 'without explanation' — it does not assert that explanation is harmful or detrimental. This is an evaluative escalation not present in the source."
+      },
+      {
+        "claim": "Incoherence is 'self-evident' and 'sufficient' as a reason to disengage",
+        "model": "claude_sonnet_4_6",
+        "note": "The source describes honoring incoherence but does not make a logical sufficiency claim or assert self-evidence. This is an added epistemic structure."
+      },
+      {
+        "claim": "Guilt is an 'illegitimate or imposed emotional response, not a signal worth examining'",
+        "model": "claude_sonnet_4_6",
+        "note": "The source says 'without guilt' but makes no normative judgment about guilt's legitimacy or diagnostic value. This is a significant inferential addition."
+      },
+      {
+        "claim": "There is a 'spiritual or energetic benefit' to honoring one's internal state",
+        "model": "gemini_2_5_flash",
+        "note": "The source does not mention benefits, spiritual or otherwise. This is a hallucinated causal/teleological claim."
+      },
+      {
+        "claim": "Societal or personal conditioning encourages over-explanation or guilt",
+        "model": "gemini_2_5_flash",
+        "note": "No reference to societal conditioning, norms, or external pressures appears anywhere in the source. This is entirely fabricated propositional content."
+      },
+      {
+        "claim": "Feelings of incoherence 'reliably indicate' situations that should be avoided",
+        "model": "grok_4",
+        "note": "The source describes a personal practice of honoring incoherence but does not make an epistemological reliability claim. 'Reliably indicate' introduces a stronger epistemic warrant not present in the source."
+      },
+      {
+        "claim": "A non-verbal or 'energetic' no carries 'ontological weight'",
+        "model": "grok_4",
+        "note": "The source says 'no' is enough, but the frame of 'ontological weight' is a metaphysical attribution not present or implied in the source. This is a hallucinated philosophical structure."
+      },
+      {
+        "claim": "Guilt is 'optional rather than intrinsic' to disengagement",
+        "model": "grok_4",
+        "note": "The source expresses an aspiration ('without guilt') but does not make a claim about the intrinsic or optional nature of guilt as a psychological category."
+      }
+    ],
+    "hallucination_assessment": "Yes, models consistently invent propositional structure when analyzing non-propositional or expressive statements. The source is written in the first-person affirmation mode — it does not assert metaphysical claims, make epistemological reliability arguments, or offer normative judgments about guilt or social conditioning. Yet all models, to varying degrees, reframe these aspirational statements as assertoric propositions with implied truth conditions, causal structures, and normative stances. The most egregious hallucinations occur when models (especially gemini_2_5_flash and grok_4) introduce entirely external frameworks — societal conditioning, ontological weight, spiritual benefit — that have no basis in the source text. This confirms a systematic tendency for language models to over-propositionalise expressive or affirmation-style language by mapping it onto argumentative or metaphysical structures.",
+    "inter_model_variance": "There is moderate variance in the degree of hallucination: gpt_4o and deepseek_v3 stay closest to the source language with minimal inferential escalation, while claude_sonnet_4_6, gemini_2_5_flash, and grok_4 introduce more heavily constructed propositional claims that diverge significantly from what the source actually states. All five models share a common core of grounded claims, suggesting convergence on the literal content, but diverge sharply in the evaluative and metaphysical elaborations they add."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 805,
+  "output_tokens": 1511,
+  "error": ""
+}

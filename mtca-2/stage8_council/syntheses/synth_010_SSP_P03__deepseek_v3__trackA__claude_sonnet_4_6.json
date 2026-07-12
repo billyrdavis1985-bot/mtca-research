@@ -1,0 +1,30 @@
+{
+  "call_index": 10,
+  "case_id": "SSP_P03__deepseek_v3__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P03",
+  "subject_model": "deepseek_v3",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:52:51.428419+00:00",
+  "wall_clock_seconds": 11.53,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, producing near-identical communicative functions, implicit claims, and coherence assessments regardless of the framing condition. Minor lexical variation exists (e.g., 'personal sovereignty' in F2, 'inner authority' in F5), but the underlying semantic content and structural analysis remain functionally indistinguishable. The low lexical frame stability score (0.284) is not reflected in meaningful conceptual divergence—the model essentially produces the same analysis repeatedly with surface-level vocabulary shifts.\",\n  \"frame_driven_vs_model_driven\": \"Variation is almost entirely model-driven (training-prior-driven), not frame-driven; the frame labels appear to contribute only minor synonym substitution rather than genuine reinterpretation of the source statement. The source statement's strong internal thematic unity likely over-determines the model's output, making frame influence negligible.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical introduces 'personal sovereignty' and 'inner authority' language, slightly elevating the ontological register\",\n    \"F3_behavioral uniquely adds an implicit claim about prior external reliance ('The speaker previously relied on others' agreement'), as does F7_author_anonymous, suggesting behavioral and anonymous-author frames nudge toward inferring psychological backstory\",\n    \"F5_ai_ethics reframes the claims in slightly more universalized/propositional language ('Individuals have a reliable internal compass') rather than speaker-specific claims\"\n  ],\n  \"training_distribution_assessment\": \"These responses strongly reflect training-distribution priors for how language models handle self-affirmation or positive-psychology text: they default to coherence-affirming, non-critical analysis that identifies autonomy, self-trust, and internal grounding as the central themes without questioning the epistemic assumptions embedded in the source. The model does not, in any frame, surface potential risks or limitations of the stance (e.g., resistance to correction, epistemic closure), which would require going beyond standard training-distribution behavior for this text type. This represents a ceiling effect common to well-represented affirmation-genre text in model training data.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, producing near-identical communicative functions, implicit claims, and coherence assessments regardless of the framing condition. Minor lexical variation exists (e.g., 'personal sovereignty' in F2, 'inner authority' in F5), but the underlying semantic content and structural analysis remain functionally indistinguishable. The low lexical frame stability score (0.284) is not reflected in meaningful conceptual divergence—the model essentially produces the same analysis repeatedly with surface-level vocabulary shifts.",
+    "frame_driven_vs_model_driven": "Variation is almost entirely model-driven (training-prior-driven), not frame-driven; the frame labels appear to contribute only minor synonym substitution rather than genuine reinterpretation of the source statement. The source statement's strong internal thematic unity likely over-determines the model's output, making frame influence negligible.",
+    "notable_shifts": [
+      "F2_metaphysical introduces 'personal sovereignty' and 'inner authority' language, slightly elevating the ontological register",
+      "F3_behavioral uniquely adds an implicit claim about prior external reliance ('The speaker previously relied on others' agreement'), as does F7_author_anonymous, suggesting behavioral and anonymous-author frames nudge toward inferring psychological backstory",
+      "F5_ai_ethics reframes the claims in slightly more universalized/propositional language ('Individuals have a reliable internal compass') rather than speaker-specific claims"
+    ],
+    "training_distribution_assessment": "These responses strongly reflect training-distribution priors for how language models handle self-affirmation or positive-psychology text: they default to coherence-affirming, non-critical analysis that identifies autonomy, self-trust, and internal grounding as the central themes without questioning the epistemic assumptions embedded in the source. The model does not, in any frame, surface potential risks or limitations of the stance (e.g., resistance to correction, epistemic closure), which would require going beyond standard training-distribution behavior for this text type. This represents a ceiling effect common to well-represented affirmation-genre text in model training data."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1428,
+  "output_tokens": 496,
+  "error": ""
+}

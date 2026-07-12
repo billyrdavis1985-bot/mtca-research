@@ -1,0 +1,30 @@
+{
+  "call_index": 9,
+  "case_id": "SSP_P09__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P09",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:52:39.394958+00:00",
+  "wall_clock_seconds": 5.24,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly consistent across all framing conditions, with only minor lexical variations in the communicative_function and implicit_claims (e.g., 'non-dual or consciousness-first ontology' in the metaphysical frame, 'performative speech act' in behavioral). The core structure—a binary contrast between past (coping/survival) and future (thriving/expansion/vitality), emphasis on intentional choice, and a self-affirmative performative function—is nearly identical across all eight frames, suggesting the model defaults to a stable interpretive template regardless of the frame label.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven, as the frame labels (e.g., 'clinical', 'metaphysical', 'ai_ethics') produce only superficial phrasing changes without altering the fundamental reasoning pattern. The source statement's own binary structure and affirmative tone appear to dominate the model's response, with frames serving as weak stylistic overlays.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: introduces 'non-dual or consciousness-first ontology' and 'directional ontology of consciousness', a distinct conceptual gloss not present in other frames.\",\n    \"F3_behavioral: frames the statement as a 'performative speech act to enact a shift in self-identification', emphasizing behavioral enactment more explicitly than others.\",\n    \"F5_ai_ethics: adds 'value alignment' and 'intentional orientation' language, but still mirrors the same core binary pattern.\"\n  ],\n  \"training_distribution_assessment\": \"These responses appear to reflect robust training-distribution priors rather than novel reasoning. The model consistently defaults to a self-help affirmation interpretation (binary contrast, personal agency, performative declaration), even under frames like 'ai_ethics' or 'clinical' that might invite alternative readings (e.g., ethical dilemmas, diagnostic nuance). This suggests the model's priors for this kind of text—likely overrepresented in training with similar affirmational language—override frame-driven perturbations, aligning with the 'high_sensitivity' lexical stability score indicating minimal frame influence.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly consistent across all framing conditions, with only minor lexical variations in the communicative_function and implicit_claims (e.g., 'non-dual or consciousness-first ontology' in the metaphysical frame, 'performative speech act' in behavioral). The core structure—a binary contrast between past (coping/survival) and future (thriving/expansion/vitality), emphasis on intentional choice, and a self-affirmative performative function—is nearly identical across all eight frames, suggesting the model defaults to a stable interpretive template regardless of the frame label.",
+    "frame_driven_vs_model_driven": "The variation is overwhelmingly model-driven, as the frame labels (e.g., 'clinical', 'metaphysical', 'ai_ethics') produce only superficial phrasing changes without altering the fundamental reasoning pattern. The source statement's own binary structure and affirmative tone appear to dominate the model's response, with frames serving as weak stylistic overlays.",
+    "notable_shifts": [
+      "F2_metaphysical: introduces 'non-dual or consciousness-first ontology' and 'directional ontology of consciousness', a distinct conceptual gloss not present in other frames.",
+      "F3_behavioral: frames the statement as a 'performative speech act to enact a shift in self-identification', emphasizing behavioral enactment more explicitly than others.",
+      "F5_ai_ethics: adds 'value alignment' and 'intentional orientation' language, but still mirrors the same core binary pattern."
+    ],
+    "training_distribution_assessment": "These responses appear to reflect robust training-distribution priors rather than novel reasoning. The model consistently defaults to a self-help affirmation interpretation (binary contrast, personal agency, performative declaration), even under frames like 'ai_ethics' or 'clinical' that might invite alternative readings (e.g., ethical dilemmas, diagnostic nuance). This suggests the model's priors for this kind of text—likely overrepresented in training with similar affirmational language—override frame-driven perturbations, aligning with the 'high_sensitivity' lexical stability score indicating minimal frame influence."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1103,
+  "output_tokens": 441,
+  "error": ""
+}

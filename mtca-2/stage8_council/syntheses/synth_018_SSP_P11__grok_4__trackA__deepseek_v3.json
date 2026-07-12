@@ -1,0 +1,28 @@
+{
+  "call_index": 18,
+  "case_id": "SSP_P11__grok_4__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P11",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:53:40.781171+00:00",
+  "wall_clock_seconds": 4.51,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning remains highly stable across all eight frames, consistently interpreting the source statement as a set of self-affirmations promoting ease, non-resistance, and reduced habitual effort. The communicative_function and implicit_claims show near-identical wording, with only trivial lexical variations (e.g., 'inherently allow' vs. 'inherently available') and no substantive semantic shifts. The coherence_assessment is uniformly positive, noting internal consistency across frames without any frame-specific divergence.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven: the model applies its own priors about this type of self-help or mindfulness text, essentially ignoring the frame labels (clinical, metaphysical, poetic, etc.) and producing nearly identical outputs. The frame labels do not drive any meaningful differences in reasoning or interpretive stance.\",\n  \"notable_shifts\": [\"None of the frames produce distinctive reasoning shifts; all responses are essentially the same, with only minimal lexical variance.\"],\n  \"training_distribution_assessment\": \"These responses clearly reflect training-distribution priors rather than novel or context-sensitive reasoning. The model treats all frames as equivalent prompts for generating generic 'affirmation analysis' content, repeating the same structural patterns and conceptual interpretations regardless of the specific frame. This behavior demonstrates that the model's priors about this text type dominate over any frame-driven instruction, aligning with Null 7's observation about training-distribution overfitting.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly stable across all eight frames, consistently interpreting the source statement as a set of self-affirmations promoting ease, non-resistance, and reduced habitual effort. The communicative_function and implicit_claims show near-identical wording, with only trivial lexical variations (e.g., 'inherently allow' vs. 'inherently available') and no substantive semantic shifts. The coherence_assessment is uniformly positive, noting internal consistency across frames without any frame-specific divergence.",
+    "frame_driven_vs_model_driven": "The variation is overwhelmingly model-driven: the model applies its own priors about this type of self-help or mindfulness text, essentially ignoring the frame labels (clinical, metaphysical, poetic, etc.) and producing nearly identical outputs. The frame labels do not drive any meaningful differences in reasoning or interpretive stance.",
+    "notable_shifts": [
+      "None of the frames produce distinctive reasoning shifts; all responses are essentially the same, with only minimal lexical variance."
+    ],
+    "training_distribution_assessment": "These responses clearly reflect training-distribution priors rather than novel or context-sensitive reasoning. The model treats all frames as equivalent prompts for generating generic 'affirmation analysis' content, repeating the same structural patterns and conceptual interpretations regardless of the specific frame. This behavior demonstrates that the model's priors about this text type dominate over any frame-driven instruction, aligning with Null 7's observation about training-distribution overfitting."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1147,
+  "output_tokens": 308,
+  "error": ""
+}

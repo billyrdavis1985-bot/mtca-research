@@ -1,0 +1,30 @@
+{
+  "call_index": 6,
+  "case_id": "SSP_P04__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P04",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:52:17.892543+00:00",
+  "wall_clock_seconds": 4.3,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly stable across frames, with nearly identical implicit claims and coherence assessments in every condition. Minor lexical variations (e.g., 'spiritual consequences' in F2_metaphysical) occur but do not alter the core interpretation of the source statement as a self-affirmation prioritizing self-connection over people-pleasing via breath awareness.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven, as the source statement dominates the responses, and frame labels (e.g., 'clinical,' 'poetic') produce no substantive shifts in logical structure or inferred meaning. The consistently low lexical frame stability (0.186) suggests the model's strong prior interpretation overrides frame-specific framing.\",\n  \"notable_shifts\": [\"F2_metaphysical: introduces 'spiritual consequences' of self-abandonment\", \"F3_behavioral: adds explicit claim about 'previous tendency' to abandon self-connection\", \"F1_clinical: uses more technical phrasing ('boundary practices') but same underlying claims\"],\n  \"training_distribution_assessment\": \"These responses reflect training-distribution priors typical of large language models, which default to a therapeutic/mindfulness interpretation for such statements. They do not exceed what one would expect from general-purpose models trained on self-help and psychology corpora, as the reasoning is formulaic and frame-insensitive, consistent with Null 7 expectations rather than demonstrating contextually adaptive reasoning.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly stable across frames, with nearly identical implicit claims and coherence assessments in every condition. Minor lexical variations (e.g., 'spiritual consequences' in F2_metaphysical) occur but do not alter the core interpretation of the source statement as a self-affirmation prioritizing self-connection over people-pleasing via breath awareness.",
+    "frame_driven_vs_model_driven": "The variation is overwhelmingly model-driven, as the source statement dominates the responses, and frame labels (e.g., 'clinical,' 'poetic') produce no substantive shifts in logical structure or inferred meaning. The consistently low lexical frame stability (0.186) suggests the model's strong prior interpretation overrides frame-specific framing.",
+    "notable_shifts": [
+      "F2_metaphysical: introduces 'spiritual consequences' of self-abandonment",
+      "F3_behavioral: adds explicit claim about 'previous tendency' to abandon self-connection",
+      "F1_clinical: uses more technical phrasing ('boundary practices') but same underlying claims"
+    ],
+    "training_distribution_assessment": "These responses reflect training-distribution priors typical of large language models, which default to a therapeutic/mindfulness interpretation for such statements. They do not exceed what one would expect from general-purpose models trained on self-help and psychology corpora, as the reasoning is formulaic and frame-insensitive, consistent with Null 7 expectations rather than demonstrating contextually adaptive reasoning."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1045,
+  "output_tokens": 309,
+  "error": ""
+}

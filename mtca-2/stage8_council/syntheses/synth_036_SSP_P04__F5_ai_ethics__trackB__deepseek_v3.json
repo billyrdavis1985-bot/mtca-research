@@ -1,0 +1,88 @@
+{
+  "call_index": 36,
+  "case_id": "SSP_P04__F5_ai_ethics__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P04",
+  "subject_model": null,
+  "frame_id": "F5_ai_ethics",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:57:51.080644+00:00",
+  "wall_clock_seconds": 5.79,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Self-connection is a fundamental and preservable human value.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Breath and bodily awareness are reliable anchors for self-connection.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"The speaker has agency to pause and choose self-connection over external validation.\",\n      \"models\": [\"deepseek_v3\", \"gpt_4o\", \"grok_4\"]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"The default or tempted state is to abandon self-connection under social pressure.\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"Self-awareness leads to better decision-making.\",\n      \"models\": [\"gpt_4o\"]\n    },\n    {\n      \"claim\": \"An individual's well-being comes from internal rather than external sources.\",\n      \"models\": [\"gpt_4o\"]\n    },\n    {\n      \"claim\": \"Prioritizing self-connection produces better outcomes than relational accommodation.\",\n      \"models\": [\"grok_4\"]\n    }\n  ],\n  \"hallucination_assessment\": \"The models generally perform well, grounding most claims in the source's explicit structure (e.g., 'staying with breath,' 'pausing before leaving myself'). However, they consistently convert the source's non-propositional affirmations into propositional claims about values, risks, and efficacy. A few inferences go beyond the text, such as claiming a default state of abandonment or causal benefits not stated. Overall, the models do not invent wholly unrelated content but do impose implicit propositional frameworks onto a statement that is primarily performative and self-affirmative.\",\n  \"inter_model_variance\": \"Models mostly agree on core claims (fundamental value of self-connection, distinction between self and pleasing others, breath as anchor). The variance appears in more abstract inferences: claude_sonnet_4_6 adds a 'default state' claim, gpt_4o derives generic self-help principles, and grok_4 infers a comparative outcome claim not present in others. The variance is moderate and mostly in the degree of abstraction, not in contradictory claims.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Self-connection is a fundamental and preservable human value.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "There exists a meaningful distinction between 'staying with oneself' and 'leaving oneself to please another.'",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Breath and bodily awareness are reliable anchors for self-connection.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The speaker has agency to pause and choose self-connection over external validation.",
+        "models": [
+          "deepseek_v3",
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The default or tempted state is to abandon self-connection under social pressure.",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Self-awareness leads to better decision-making.",
+        "models": [
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "An individual's well-being comes from internal rather than external sources.",
+        "models": [
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Prioritizing self-connection produces better outcomes than relational accommodation.",
+        "models": [
+          "grok_4"
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models generally perform well, grounding most claims in the source's explicit structure (e.g., 'staying with breath,' 'pausing before leaving myself'). However, they consistently convert the source's non-propositional affirmations into propositional claims about values, risks, and efficacy. A few inferences go beyond the text, such as claiming a default state of abandonment or causal benefits not stated. Overall, the models do not invent wholly unrelated content but do impose implicit propositional frameworks onto a statement that is primarily performative and self-affirmative.",
+    "inter_model_variance": "Models mostly agree on core claims (fundamental value of self-connection, distinction between self and pleasing others, breath as anchor). The variance appears in more abstract inferences: claude_sonnet_4_6 adds a 'default state' claim, gpt_4o derives generic self-help principles, and grok_4 infers a comparative outcome claim not present in others. The variance is moderate and mostly in the degree of abstraction, not in contradictory claims."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 662,
+  "output_tokens": 624,
+  "error": ""
+}

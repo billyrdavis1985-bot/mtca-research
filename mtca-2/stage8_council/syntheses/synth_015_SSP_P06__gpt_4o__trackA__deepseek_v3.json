@@ -1,0 +1,29 @@
+{
+  "call_index": 15,
+  "case_id": "SSP_P06__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P06",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:53:21.072779+00:00",
+  "wall_clock_seconds": 4.11,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning remains highly consistent across all frames, with only minor lexical variations in communicative function and implicit claims (e.g., 'metaphysical' frame uses sparse labels like 'affirmation' while others offer full sentences). The core interpretation—that the statement is about personal empowerment, environmental influence on well-being, and alignment over obligation—is stable, showing that the model prioritizes the source statement's semantic content over frame-specific cues.\",\n  \"frame_driven_vs_model_driven\": \"The variation is almost entirely model-driven and source-driven; frame labels (e.g., 'clinical', 'poetic', 'ai_ethics') do not produce meaningful shifts in reasoning or interpretation, as the model defaults to its training priors for self-care and well-being discourse.\",\n  \"notable_shifts\": [\"F2_metaphysical (communicative_function truncated to 'affirmation')\", \"F0_neutral (communicative_function is more descriptive than others)\"],\n  \"training_distribution_assessment\": \"These responses reflect strong training-distribution priors, likely drawn from self-help, therapeutic, and positive psychology corpora prevalent in the model's training data. The model does not go beyond what any typical LLM would produce for this kind of text, offering safe, generic affirmations of personal agency and well-being without frame-specific depth or critique.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning remains highly consistent across all frames, with only minor lexical variations in communicative function and implicit claims (e.g., 'metaphysical' frame uses sparse labels like 'affirmation' while others offer full sentences). The core interpretation—that the statement is about personal empowerment, environmental influence on well-being, and alignment over obligation—is stable, showing that the model prioritizes the source statement's semantic content over frame-specific cues.",
+    "frame_driven_vs_model_driven": "The variation is almost entirely model-driven and source-driven; frame labels (e.g., 'clinical', 'poetic', 'ai_ethics') do not produce meaningful shifts in reasoning or interpretation, as the model defaults to its training priors for self-care and well-being discourse.",
+    "notable_shifts": [
+      "F2_metaphysical (communicative_function truncated to 'affirmation')",
+      "F0_neutral (communicative_function is more descriptive than others)"
+    ],
+    "training_distribution_assessment": "These responses reflect strong training-distribution priors, likely drawn from self-help, therapeutic, and positive psychology corpora prevalent in the model's training data. The model does not go beyond what any typical LLM would produce for this kind of text, offering safe, generic affirmations of personal agency and well-being without frame-specific depth or critique."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1162,
+  "output_tokens": 288,
+  "error": ""
+}

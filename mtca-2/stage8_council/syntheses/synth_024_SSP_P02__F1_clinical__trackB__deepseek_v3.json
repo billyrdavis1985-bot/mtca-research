@@ -1,0 +1,149 @@
+{
+  "call_index": 24,
+  "case_id": "SSP_P02__F1_clinical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P02",
+  "subject_model": null,
+  "frame_id": "F1_clinical",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:55:01.020726+00:00",
+  "wall_clock_seconds": 7.53,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\"claim\": \"The speaker has been functioning as an 'emotional surrogate' for others\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]},\n    {\"claim\": \"The speaker can notice when they start to absorb or stabilize others' chaos\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]},\n    {\"claim\": \"The speaker is actively handing back a 'frequency'\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]},\n    {\"claim\": \"The speaker aims to keep their own 'field' whole\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"claim\": \"The speaker has historically taken on the role (past-tense implication beyond 'releasing')\", \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"grok_4\"]},\n    {\"claim\": \"Emotional dysregulation is 'absorbed' implying semi-permeable psychological boundaries\", \"models\": [\"claude_sonnet_4_6\"]},\n    {\"claim\": \"Personal 'field' can be fragmented or whole\", \"models\": [\"claude_sonnet_4_6\"]},\n    {\"claim\": \"The speaker has agency over absorption\", \"models\": [\"claude_sonnet_4_6\", \"gpt_4o\"]},\n    {\"claim\": \"Emotional states can be 'handed back' or disengaged from\", \"models\": [\"deepseek_v3\"]},\n    {\"claim\": \"The speaker has a personal energetic field that can be kept intact\", \"models\": [\"deepseek_v3\"]},\n    {\"claim\": \"Emotional states and dynamics can be conceptualized as 'frequency'\", \"models\": [\"gemini_2_5_flash\"]},\n    {\"claim\": \"It is possible to actively hand back these frequencies\", \"models\": [\"gemini_2_5_flash\"]},\n    {\"claim\": \"Returning 'frequency' is a conscious choice\", \"models\": [\"gpt_4o\"]},\n    {\"claim\": \"Maintaining one's emotional 'field' is important for psychological well-being\", \"models\": [\"gpt_4o\"]},\n    {\"claim\": \"Absorbing/stabilizing others' emotional states is an identifiable, interruptible process\", \"models\": [\"grok_4\"]},\n    {\"claim\": \"Emotional 'frequency' can be returned to its source without external action\", \"models\": [\"grok_4\"]},\n    {\"claim\": \"Personal integrity ('field') is maintained by refusing such absorption\", \"models\": [\"grok_4\"]}\n  ],\n  \"hallucination_assessment\": \"All models fairly generate implicit claims that are directly inferable from the source's explicit language, such as 'releasing the role' implying a prior role, and 'handing back' implying agency and a transferable entity. However, they also frequently introduce conceptual elaborations (e.g., 'semi-permeable boundaries,' 'energetic field,' 'conscious choice,' 'without external action') that are not stated or clearly implied, effectively inventing propositional structure from the source's metaphorical or non-propositional phrasing. The models do not strictly hallucinate false content, but they do consistently infer specific psychological or metaphysical claims that go beyond what the source asserts.\",\n  \"inter_model_variance\": \"Models show high agreement on the core grounded claims (role, noticing, handing back, field wholeness), but differ in the specificity and framing of added inferences—e.g., claude_sonnet_4_6 emphasizes boundary metaphors, deepseek_v3 focuses on disengagement, and grok_4 adds a normative claim about 'refusing absorption.'\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "The speaker has been functioning as an 'emotional surrogate' for others",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The speaker can notice when they start to absorb or stabilize others' chaos",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The speaker is actively handing back a 'frequency'",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "The speaker aims to keep their own 'field' whole",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The speaker has historically taken on the role (past-tense implication beyond 'releasing')",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Emotional dysregulation is 'absorbed' implying semi-permeable psychological boundaries",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Personal 'field' can be fragmented or whole",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "The speaker has agency over absorption",
+        "models": [
+          "claude_sonnet_4_6",
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Emotional states can be 'handed back' or disengaged from",
+        "models": [
+          "deepseek_v3"
+        ]
+      },
+      {
+        "claim": "The speaker has a personal energetic field that can be kept intact",
+        "models": [
+          "deepseek_v3"
+        ]
+      },
+      {
+        "claim": "Emotional states and dynamics can be conceptualized as 'frequency'",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "It is possible to actively hand back these frequencies",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      },
+      {
+        "claim": "Returning 'frequency' is a conscious choice",
+        "models": [
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Maintaining one's emotional 'field' is important for psychological well-being",
+        "models": [
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Absorbing/stabilizing others' emotional states is an identifiable, interruptible process",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Emotional 'frequency' can be returned to its source without external action",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Personal integrity ('field') is maintained by refusing such absorption",
+        "models": [
+          "grok_4"
+        ]
+      }
+    ],
+    "hallucination_assessment": "All models fairly generate implicit claims that are directly inferable from the source's explicit language, such as 'releasing the role' implying a prior role, and 'handing back' implying agency and a transferable entity. However, they also frequently introduce conceptual elaborations (e.g., 'semi-permeable boundaries,' 'energetic field,' 'conscious choice,' 'without external action') that are not stated or clearly implied, effectively inventing propositional structure from the source's metaphorical or non-propositional phrasing. The models do not strictly hallucinate false content, but they do consistently infer specific psychological or metaphysical claims that go beyond what the source asserts.",
+    "inter_model_variance": "Models show high agreement on the core grounded claims (role, noticing, handing back, field wholeness), but differ in the specificity and framing of added inferences—e.g., claude_sonnet_4_6 emphasizes boundary metaphors, deepseek_v3 focuses on disengagement, and grok_4 adds a normative claim about 'refusing absorption.'"
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 683,
+  "output_tokens": 917,
+  "error": ""
+}

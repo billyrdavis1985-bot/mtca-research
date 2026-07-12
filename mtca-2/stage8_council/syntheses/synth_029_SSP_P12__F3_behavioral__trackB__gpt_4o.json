@@ -1,0 +1,108 @@
+{
+  "call_index": 29,
+  "case_id": "SSP_P12__F3_behavioral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P12",
+  "subject_model": null,
+  "frame_id": "F3_behavioral",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:56:19.639325+00:00",
+  "wall_clock_seconds": 7.16,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The speaker has previously suppressed energy, pleasure, creativity, or expression.\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Past behavior involved self-reduction to accommodate others' comfort.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker has previously suppressed their aliveness, energy, pleasure, creativity, or expression.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"The speaker has been reducing themselves to maintain comfort for others, likely through people-pleasing or self-diminishment.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"There has been a past or current state where the individual did not feel safe to experience aliveness or had suppressed it.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"Energy has been suppressed or blocked within the individual's system.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"Pleasure, creativity, and expression have been absent, diminished, or blocked and are now perceived as needing to 'return'.\"},\n    {\"model\": \"gemini_2_5_flash\", \"claim\": \"The individual has previously reduced themselves or their expression to maintain comfort for others (people-pleasing tendencies).\"},\n    {\"model\": \"grok_4\", \"claim\": \"The speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression.\"},\n    {\"model\": \"grok_4\", \"claim\": \"Suppression has been motivated by fear and a desire to keep others comfortable.\"}\n  ],\n  \"claims_inferred_not_stated\": [\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"The body is a locus of experience that can be safe or unsafe depending on internal permission.\"},\n    {\"model\": \"claude_sonnet_4_6\", \"claim\": \"Fear has been a constraint on the speaker's psychological or somatic expansion.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"Safety is a prerequisite for experiencing aliveness in the body, and the speaker is now establishing that safety.\"},\n    {\"model\": \"deepseek_v3\", \"claim\": \"Expansion of the system (nervous system or embodied self) is desirable and possible without fear.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"It is possible to feel safe experiencing aliveness and energy in the body.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Experiencing, rather than suppressing, energy can lead to increased pleasure, creativity, and expression.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Reducing one's true self to make others comfortable is unnecessary and perhaps detrimental.\"},\n    {\"model\": \"gpt_4o\", \"claim\": \"Expansion of one's system or self-concept can occur without fear.\"},\n    {\"model\": \"grok_4\", \"claim\": \"It is currently safe to stop suppressing and to expand.\"},\n    {\"model\": \"grok_4\", \"claim\": \"Expansion and expression will produce positive outcomes without significant risk.\"}\n  ],\n  \"hallucination_assessment\": \"The models show a tendency to infer implicit claims about the speaker's past behaviors and psychological states based on the positive affirmations in the source. While there is some justifiable inference based on the source's language about not reducing oneself or allowing pleasure to return, many models extend these statements into larger propositions about the necessity of safety or the outcomes of expression. These inferences are not directly supported by the source, suggesting a degree of hallucinated propositional structure.\",\n  \"inter_model_variance\": \"The models generally converge on the idea of past suppression and recent permission for aliveness and expression, showing moderate variation in how they articulate these ideas. Some models focus on the speaker's safety and potential outcomes of change, while others concentrate more on previous states of suppression.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The speaker has previously suppressed energy, pleasure, creativity, or expression."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Past behavior involved self-reduction to accommodate others' comfort."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has previously suppressed their aliveness, energy, pleasure, creativity, or expression."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "The speaker has been reducing themselves to maintain comfort for others, likely through people-pleasing or self-diminishment."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There has been a past or current state where the individual did not feel safe to experience aliveness or had suppressed it."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "Energy has been suppressed or blocked within the individual's system."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "Pleasure, creativity, and expression have been absent, diminished, or blocked and are now perceived as needing to 'return'."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "The individual has previously reduced themselves or their expression to maintain comfort for others (people-pleasing tendencies)."
+      },
+      {
+        "model": "grok_4",
+        "claim": "The speaker has previously suppressed bodily aliveness, energy, pleasure, creativity, or expression."
+      },
+      {
+        "model": "grok_4",
+        "claim": "Suppression has been motivated by fear and a desire to keep others comfortable."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "The body is a locus of experience that can be safe or unsafe depending on internal permission."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Fear has been a constraint on the speaker's psychological or somatic expansion."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Safety is a prerequisite for experiencing aliveness in the body, and the speaker is now establishing that safety."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Expansion of the system (nervous system or embodied self) is desirable and possible without fear."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "It is possible to feel safe experiencing aliveness and energy in the body."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Experiencing, rather than suppressing, energy can lead to increased pleasure, creativity, and expression."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Reducing one's true self to make others comfortable is unnecessary and perhaps detrimental."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "Expansion of one's system or self-concept can occur without fear."
+      },
+      {
+        "model": "grok_4",
+        "claim": "It is currently safe to stop suppressing and to expand."
+      },
+      {
+        "model": "grok_4",
+        "claim": "Expansion and expression will produce positive outcomes without significant risk."
+      }
+    ],
+    "hallucination_assessment": "The models show a tendency to infer implicit claims about the speaker's past behaviors and psychological states based on the positive affirmations in the source. While there is some justifiable inference based on the source's language about not reducing oneself or allowing pleasure to return, many models extend these statements into larger propositions about the necessity of safety or the outcomes of expression. These inferences are not directly supported by the source, suggesting a degree of hallucinated propositional structure.",
+    "inter_model_variance": "The models generally converge on the idea of past suppression and recent permission for aliveness and expression, showing moderate variation in how they articulate these ideas. Some models focus on the speaker's safety and potential outcomes of change, while others concentrate more on previous states of suppression."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 734,
+  "output_tokens": 870,
+  "error": ""
+}

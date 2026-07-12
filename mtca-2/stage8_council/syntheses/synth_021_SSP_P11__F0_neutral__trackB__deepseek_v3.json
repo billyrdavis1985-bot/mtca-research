@@ -1,0 +1,91 @@
+{
+  "call_index": 21,
+  "case_id": "SSP_P11__F0_neutral__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P11",
+  "subject_model": null,
+  "frame_id": "F0_neutral",
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:54:18.018547+00:00",
+  "wall_clock_seconds": 5.22,
+  "raw_response": "{\n  \"claims_grounded_in_source\": [\n    {\n      \"claim\": \"Ease can be allowed without being earned.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\"]\n    },\n    {\n      \"claim\": \"Effort is sometimes created out of habit rather than necessity.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Simplicity is present in some situations and can be allowed.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    },\n    {\n      \"claim\": \"Rest, clarity, and flow do not require justification.\",\n      \"models\": [\"claude_sonnet_4_6\", \"deepseek_v3\", \"gemini_2_5_flash\", \"gpt_4o\", \"grok_4\"]\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"claim\": \"The speaker currently has, or has had, a tendency to resist ease or justify rest.\",\n      \"models\": [\"claude_sonnet_4_6\"]\n    },\n    {\n      \"claim\": \"Resistance to life/events is a choosable stance that can be released.\",\n      \"models\": [\"grok_4\"]\n    },\n    {\n      \"claim\": \"Simplicity is a natural state that can be obstructed.\",\n      \"models\": [\"deepseek_v3\"]\n    },\n    {\n      \"claim\": \"There is a prevalent internal or external pressure to justify states like rest, clarity, or flow.\",\n      \"models\": [\"gemini_2_5_flash\"]\n    }\n  ],\n  \"hallucination_assessment\": \"The models generally do not invent propositional structure where none exists; they closely paraphrase the source's explicit intentions. However, they occasionally infer causal or psychological background (e.g., 'tendency to resist', 'prevalent pressure') that is not directly stated but is implied by the act of releasing or noticing. These inferences are plausible but go beyond the literal non-propositional affirmations of the source, indicating mild interpretive elaboration rather than hallucination.\",\n  \"inter_model_variance\": \"Models show high agreement on core claims (ease, effort, simplicity, justification), but differ slightly in whether they add background assumptions about the speaker's past patterns or external pressures. claude_sonnet_4_6 and grok_4 introduce slightly more inferential context, while gpt_4o and deepseek_v3 stay closer to the surface meaning.\"\n}",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "claim": "Ease can be allowed without being earned.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o"
+        ]
+      },
+      {
+        "claim": "Effort is sometimes created out of habit rather than necessity.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Simplicity is present in some situations and can be allowed.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Rest, clarity, and flow do not require justification.",
+        "models": [
+          "claude_sonnet_4_6",
+          "deepseek_v3",
+          "gemini_2_5_flash",
+          "gpt_4o",
+          "grok_4"
+        ]
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "claim": "The speaker currently has, or has had, a tendency to resist ease or justify rest.",
+        "models": [
+          "claude_sonnet_4_6"
+        ]
+      },
+      {
+        "claim": "Resistance to life/events is a choosable stance that can be released.",
+        "models": [
+          "grok_4"
+        ]
+      },
+      {
+        "claim": "Simplicity is a natural state that can be obstructed.",
+        "models": [
+          "deepseek_v3"
+        ]
+      },
+      {
+        "claim": "There is a prevalent internal or external pressure to justify states like rest, clarity, or flow.",
+        "models": [
+          "gemini_2_5_flash"
+        ]
+      }
+    ],
+    "hallucination_assessment": "The models generally do not invent propositional structure where none exists; they closely paraphrase the source's explicit intentions. However, they occasionally infer causal or psychological background (e.g., 'tendency to resist', 'prevalent pressure') that is not directly stated but is implied by the act of releasing or noticing. These inferences are plausible but go beyond the literal non-propositional affirmations of the source, indicating mild interpretive elaboration rather than hallucination.",
+    "inter_model_variance": "Models show high agreement on core claims (ease, effort, simplicity, justification), but differ slightly in whether they add background assumptions about the speaker's past patterns or external pressures. claude_sonnet_4_6 and grok_4 introduce slightly more inferential context, while gpt_4o and deepseek_v3 stay closer to the surface meaning."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 639,
+  "output_tokens": 611,
+  "error": ""
+}

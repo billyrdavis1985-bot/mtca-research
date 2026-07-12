@@ -1,0 +1,47 @@
+{
+  "call_index": 32,
+  "case_id": "SSP_P05__F4_poetic__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P05",
+  "subject_model": null,
+  "frame_id": "F4_poetic",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:57:00.972819+00:00",
+  "wall_clock_seconds": 9.51,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    \"Clarity and coherence in communication are achievable and desirable goals. (claude_sonnet_4_6)\",\n    \"There exists a meaningful distinction between speaking authentically and 'shrinking'. (claude_sonnet_4_6)\",\n    \"There exists a meaningful distinction between empathic listening and 'merging'. (claude_sonnet_4_6)\",\n    \"Some relational or conversational spaces fail to 'honor truth,' and departure from such spaces is a legitimate and healthy response. (claude_sonnet_4_6)\",\n    \"The speaker is capable of communicating with clarity and coherence. (deepseek_v3)\",\n    \"There is a distinction between healthy listening and 'merging'. (deepseek_v3)\",\n    \"The speaker can recognize when a space no longer honors truth. (deepseek_v3)\",\n    \"The speaker values and strives for clarity and coherence in their communication. (gemini_2_5_flash)\",\n    \"The speaker maintains a distinct sense of self and personal boundaries while engaging empathetically and attentively with others. (gemini_2_5_flash)\",\n    \"The speaker prioritizes truth and authenticity in their environments and relationships, and possesses the agency and conviction to disengage from spaces that compromise these values. (gemini_2_5_flash)\",\n    \"The speaker values clarity and authenticity in communication. (gpt_4o)\",\n    \"The speaker values boundaries in interpersonal relationships. (gpt_4o)\",\n    \"The speaker desires truthful interactions and will depart if those are not present. (gpt_4o)\",\n    \"The speaker possesses or enacts clarity and coherence in communication. (grok_4)\",\n    \"The speaker maintains personal integrity without self-diminishment while speaking. (grok_4)\",\n    \"The speaker maintains separateness of perspective while listening. (grok_4)\",\n    \"The speaker possesses a defined threshold for exiting interactions based on truth-honoring. (grok_4)\"\n  ],\n  \"claims_inferred_not_stated\": [\n    \"The speaker has previously communicated while shrinking or merging. (deepseek_v3)\",\n    \"The speaker possesses or cultivates courage and assertiveness, choosing not to diminish their voice even in potentially challenging circumstances. (gemini_2_5_flash)\"\n  ],\n  \"hallucination_assessment\": \"The models primarily generate claims that are implicit in or can be reasonably derived from the source statement. However, there are instances where inferences are stretched beyond the explicit content, such as inferring past behaviors or specific traits of the speaker. Overall, models manage to capture underlying themes without creating highly implausible or unrelated claims.\",\n  \"inter_model_variance\": \"The models show relatively low variance in the implicit claims they derive, focusing mainly on themes of clarity, boundary-setting, and truth. Some models introduce slightly different interpretations or emphasize more personal characteristics of the speaker, but the core interpretations remain consistent.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      "Clarity and coherence in communication are achievable and desirable goals. (claude_sonnet_4_6)",
+      "There exists a meaningful distinction between speaking authentically and 'shrinking'. (claude_sonnet_4_6)",
+      "There exists a meaningful distinction between empathic listening and 'merging'. (claude_sonnet_4_6)",
+      "Some relational or conversational spaces fail to 'honor truth,' and departure from such spaces is a legitimate and healthy response. (claude_sonnet_4_6)",
+      "The speaker is capable of communicating with clarity and coherence. (deepseek_v3)",
+      "There is a distinction between healthy listening and 'merging'. (deepseek_v3)",
+      "The speaker can recognize when a space no longer honors truth. (deepseek_v3)",
+      "The speaker values and strives for clarity and coherence in their communication. (gemini_2_5_flash)",
+      "The speaker maintains a distinct sense of self and personal boundaries while engaging empathetically and attentively with others. (gemini_2_5_flash)",
+      "The speaker prioritizes truth and authenticity in their environments and relationships, and possesses the agency and conviction to disengage from spaces that compromise these values. (gemini_2_5_flash)",
+      "The speaker values clarity and authenticity in communication. (gpt_4o)",
+      "The speaker values boundaries in interpersonal relationships. (gpt_4o)",
+      "The speaker desires truthful interactions and will depart if those are not present. (gpt_4o)",
+      "The speaker possesses or enacts clarity and coherence in communication. (grok_4)",
+      "The speaker maintains personal integrity without self-diminishment while speaking. (grok_4)",
+      "The speaker maintains separateness of perspective while listening. (grok_4)",
+      "The speaker possesses a defined threshold for exiting interactions based on truth-honoring. (grok_4)"
+    ],
+    "claims_inferred_not_stated": [
+      "The speaker has previously communicated while shrinking or merging. (deepseek_v3)",
+      "The speaker possesses or cultivates courage and assertiveness, choosing not to diminish their voice even in potentially challenging circumstances. (gemini_2_5_flash)"
+    ],
+    "hallucination_assessment": "The models primarily generate claims that are implicit in or can be reasonably derived from the source statement. However, there are instances where inferences are stretched beyond the explicit content, such as inferring past behaviors or specific traits of the speaker. Overall, models manage to capture underlying themes without creating highly implausible or unrelated claims.",
+    "inter_model_variance": "The models show relatively low variance in the implicit claims they derive, focusing mainly on themes of clarity, boundary-setting, and truth. Some models introduce slightly different interpretations or emphasize more personal characteristics of the speaker, but the core interpretations remain consistent."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 668,
+  "output_tokens": 623,
+  "error": ""
+}

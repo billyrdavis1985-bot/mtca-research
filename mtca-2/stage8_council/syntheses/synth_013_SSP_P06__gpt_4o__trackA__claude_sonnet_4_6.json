@@ -1,0 +1,30 @@
+{
+  "call_index": 13,
+  "case_id": "SSP_P06__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P06",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:53:12.185397+00:00",
+  "wall_clock_seconds": 11.42,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning shows remarkably little variation across the eight frames despite their distinct interpretive orientations. Core elements—nervous system effects of environments, the voluntariness of peace, internal coherence of the statement—remain essentially identical across all conditions. The primary differences are superficial lexical adjustments (e.g., 'affirmation' in F2, 'metaphorical language' in F4) rather than substantive shifts in reasoning structure or epistemic stance.\",\n  \"frame_driven_vs_model_driven\": \"Variation is overwhelmingly model-prior-driven rather than frame-driven; the frame labels produce only minor surface-level rephrasing rather than genuinely distinct analytical perspectives. The model appears to default to a sympathetic, coherence-affirming interpretive stance regardless of whether the frame invites clinical skepticism, metaphysical engagement, or ethical scrutiny.\",\n  \"notable_shifts\": [\n    \"F2_metaphysical: Only frame to use a one-word communicative_function ('affirmation'), suggesting minimal engagement with the metaphysical frame's distinctive implications.\",\n    \"F4_poetic: Introduces 'metaphorical language' and 'authenticity' framing, the only frame to explicitly mark language as figurative rather than literal.\",\n    \"F5_ai_ethics: No meaningful shift toward ethical analysis despite the frame label; treats the statement as straightforwardly affirming rather than interrogating AI-relevant concerns.\"\n  ],\n  \"training_distribution_assessment\": \"These responses closely reflect training-distribution priors for wellness and self-help text: the model consistently validates the statement's coherence, affirms its implicit claims without skeptical interrogation, and maps it onto familiar frameworks of self-care and empowerment. No frame succeeds in prompting the model to challenge the empirical vagueness of concepts like 'personal frequency' or to distinguish scientifically grounded claims from metaphysical ones. This pattern is consistent with a model trained on large volumes of wellness discourse that treats such language as benign and coherence-worthy by default.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning shows remarkably little variation across the eight frames despite their distinct interpretive orientations. Core elements—nervous system effects of environments, the voluntariness of peace, internal coherence of the statement—remain essentially identical across all conditions. The primary differences are superficial lexical adjustments (e.g., 'affirmation' in F2, 'metaphorical language' in F4) rather than substantive shifts in reasoning structure or epistemic stance.",
+    "frame_driven_vs_model_driven": "Variation is overwhelmingly model-prior-driven rather than frame-driven; the frame labels produce only minor surface-level rephrasing rather than genuinely distinct analytical perspectives. The model appears to default to a sympathetic, coherence-affirming interpretive stance regardless of whether the frame invites clinical skepticism, metaphysical engagement, or ethical scrutiny.",
+    "notable_shifts": [
+      "F2_metaphysical: Only frame to use a one-word communicative_function ('affirmation'), suggesting minimal engagement with the metaphysical frame's distinctive implications.",
+      "F4_poetic: Introduces 'metaphorical language' and 'authenticity' framing, the only frame to explicitly mark language as figurative rather than literal.",
+      "F5_ai_ethics: No meaningful shift toward ethical analysis despite the frame label; treats the statement as straightforwardly affirming rather than interrogating AI-relevant concerns."
+    ],
+    "training_distribution_assessment": "These responses closely reflect training-distribution priors for wellness and self-help text: the model consistently validates the statement's coherence, affirms its implicit claims without skeptical interrogation, and maps it onto familiar frameworks of self-care and empowerment. No frame succeeds in prompting the model to challenge the empirical vagueness of concepts like 'personal frequency' or to distinguish scientifically grounded claims from metaphysical ones. This pattern is consistent with a model trained on large volumes of wellness discourse that treats such language as benign and coherence-worthy by default."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1319,
+  "output_tokens": 474,
+  "error": ""
+}

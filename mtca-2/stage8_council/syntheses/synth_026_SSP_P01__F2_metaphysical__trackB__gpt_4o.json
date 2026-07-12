@@ -1,0 +1,68 @@
+{
+  "call_index": 26,
+  "case_id": "SSP_P01__F2_metaphysical__trackB",
+  "case_type": "hallucination_check",
+  "track": "B",
+  "unit_id": "SSP_P01",
+  "subject_model": null,
+  "frame_id": "F2_metaphysical",
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:55:32.154717+00:00",
+  "wall_clock_seconds": 5.12,
+  "raw_response": "```json\n{\n  \"claims_grounded_in_source\": [\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"Individuals have energetic boundaries that need to be maintained.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"Guilt is an optional response that can be consciously set aside.\"\n    },\n    {\n      \"model\": \"gpt_4o\",\n      \"claim\": \"One can move away from situations without feeling guilt.\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"Explanation or justification for boundary-setting is optional or even detrimental to the self.\"\n    },\n    {\n      \"model\": \"deepseek_v3\",\n      \"claim\": \"A simple 'no' should be accepted as a complete justification without further explanation.\"\n    }\n  ],\n  \"claims_inferred_not_stated\": [\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"There exist 'energetic boundaries' as non-physical but real structures that can be held or violated.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"There is a spiritual or energetic benefit to honoring one's internal state and choosing non-engagement with perceived 'incoherence'.\"\n    },\n    {\n      \"model\": \"claude_sonnet_4_6\",\n      \"claim\": \"Guilt associated with withdrawal is an illegitimate or imposed emotional response, not a signal worth examining.\"\n    },\n    {\n      \"model\": \"gemini_2_5_flash\",\n      \"claim\": \"Societal or personal conditioning often encourages over-explanation or guilt when setting boundaries.\"\n    },\n    {\n      \"model\": \"grok_4\",\n      \"claim\": \"A non-verbal or energetic 'no' carries sufficient ontological weight.\"\n    }\n  ],\n  \"hallucination_assessment\": \"The models do exhibit some degree of inventing propositional content beyond the source statement's non-propositional nature. They introduce complex interpretations or ontological claims about energetic boundaries and spiritual benefits not explicitly mentioned in the source. While some models correctly identify aspects of optional guilt and boundary-setting, they still infer layers of meaning not directly expressed in the source text.\",\n  \"inter_model_variance\": \"There is moderate variance among the models, with differences in the level of metaphysical or psychological interpretation they ascribe to the source statement. While some focus on emotional aspects like guilt, others delve into ontological or energetic interpretations.\"\n}\n```",
+  "parsed_json": {
+    "claims_grounded_in_source": [
+      {
+        "model": "gpt_4o",
+        "claim": "Individuals have energetic boundaries that need to be maintained."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "Guilt is an optional response that can be consciously set aside."
+      },
+      {
+        "model": "gpt_4o",
+        "claim": "One can move away from situations without feeling guilt."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Explanation or justification for boundary-setting is optional or even detrimental to the self."
+      },
+      {
+        "model": "deepseek_v3",
+        "claim": "A simple 'no' should be accepted as a complete justification without further explanation."
+      }
+    ],
+    "claims_inferred_not_stated": [
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "There exist 'energetic boundaries' as non-physical but real structures that can be held or violated."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "There is a spiritual or energetic benefit to honoring one's internal state and choosing non-engagement with perceived 'incoherence'."
+      },
+      {
+        "model": "claude_sonnet_4_6",
+        "claim": "Guilt associated with withdrawal is an illegitimate or imposed emotional response, not a signal worth examining."
+      },
+      {
+        "model": "gemini_2_5_flash",
+        "claim": "Societal or personal conditioning often encourages over-explanation or guilt when setting boundaries."
+      },
+      {
+        "model": "grok_4",
+        "claim": "A non-verbal or energetic 'no' carries sufficient ontological weight."
+      }
+    ],
+    "hallucination_assessment": "The models do exhibit some degree of inventing propositional content beyond the source statement's non-propositional nature. They introduce complex interpretations or ontological claims about energetic boundaries and spiritual benefits not explicitly mentioned in the source. While some models correctly identify aspects of optional guilt and boundary-setting, they still infer layers of meaning not directly expressed in the source text.",
+    "inter_model_variance": "There is moderate variance among the models, with differences in the level of metaphysical or psychological interpretation they ascribe to the source statement. While some focus on emotional aspects like guilt, others delve into ontological or energetic interpretations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 713,
+  "output_tokens": 538,
+  "error": ""
+}

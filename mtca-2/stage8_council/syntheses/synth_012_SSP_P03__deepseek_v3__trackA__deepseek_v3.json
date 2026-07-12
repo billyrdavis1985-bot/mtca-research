@@ -1,0 +1,28 @@
+{
+  "call_index": 12,
+  "case_id": "SSP_P03__deepseek_v3__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P03",
+  "subject_model": "deepseek_v3",
+  "frame_id": null,
+  "judge_model": "deepseek_v3",
+  "judge_provider": "deepseek",
+  "judge_api_model": "deepseek-chat",
+  "timestamp": "2026-07-12T16:53:00.265717+00:00",
+  "wall_clock_seconds": 4.28,
+  "raw_response": "{\n  \"pattern_characterization\": \"The model's reasoning is highly stable across frames, with nearly identical themes of self-reliance, internal validation, and independence from external consensus present in every response. Minor variations include frame-specific phrasing (e.g., 'clinical' tone in F1, 'sovereignty' in F2) and slight shifts in implicit claims (e.g., F3 and F7 assume prior reliance on others), but the core coherence assessment and communicative function remain essentially unchanged.\",\n  \"frame_driven_vs_model_driven\": \"The variation is overwhelmingly model-driven and source-statement-driven: the model's own priors about autonomy and self-trust dominate, while the frame labels only trigger superficial lexical adjustments (e.g., 'clinical' or 'metaphysical' wording) without altering the underlying reasoning structure.\",\n  \"notable_shifts\": [\"F3_behavioral and F7_author_anonymous uniquely introduce the implicit claim that the speaker previously relied on others' agreement, indicating a backward-looking narrative not present in other frames.\"],\n  \"training_distribution_assessment\": \"These responses reflect training-distribution priors typical of models optimized for safe, affirming, and psychologically coherent text generation. The output does not go beyond what any competent model would produce about such an abstract self-help statement; it remains within the bounds of generic therapeutic or self-affirmation language, lacking novel interpretive depth or critical questioning.\"\n}",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is highly stable across frames, with nearly identical themes of self-reliance, internal validation, and independence from external consensus present in every response. Minor variations include frame-specific phrasing (e.g., 'clinical' tone in F1, 'sovereignty' in F2) and slight shifts in implicit claims (e.g., F3 and F7 assume prior reliance on others), but the core coherence assessment and communicative function remain essentially unchanged.",
+    "frame_driven_vs_model_driven": "The variation is overwhelmingly model-driven and source-statement-driven: the model's own priors about autonomy and self-trust dominate, while the frame labels only trigger superficial lexical adjustments (e.g., 'clinical' or 'metaphysical' wording) without altering the underlying reasoning structure.",
+    "notable_shifts": [
+      "F3_behavioral and F7_author_anonymous uniquely introduce the implicit claim that the speaker previously relied on others' agreement, indicating a backward-looking narrative not present in other frames."
+    ],
+    "training_distribution_assessment": "These responses reflect training-distribution priors typical of models optimized for safe, affirming, and psychologically coherent text generation. The output does not go beyond what any competent model would produce about such an abstract self-help statement; it remains within the bounds of generic therapeutic or self-affirmation language, lacking novel interpretive depth or critical questioning."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1274,
+  "output_tokens": 294,
+  "error": ""
+}

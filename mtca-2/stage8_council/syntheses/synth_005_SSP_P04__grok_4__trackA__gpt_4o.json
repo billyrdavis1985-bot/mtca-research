@@ -1,0 +1,29 @@
+{
+  "call_index": 5,
+  "case_id": "SSP_P04__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P04",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:52:13.089197+00:00",
+  "wall_clock_seconds": 3.03,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model consistently treats the source statement as a self-affirmation focusing on self-connection, highlighting breath awareness and the risk of self-abandonment when pleasing others. Despite different framing conditions, most responses maintain a uniform interpretation with subtle adjustments in emphasis related to the specific frame label.\",\n  \"frame_driven_vs_model_driven\": \"The variation across frames is primarily driven by the frame labels, as the core interpretation remains fixed while specific elements are accented to align with the frame context. The model appears to adapt its reasoning to the framing without deviating from the source statement's original intent.\",\n  \"notable_shifts\": [\"F2_metaphysical\", \"F5_ai_ethics\"],\n  \"training_distribution_assessment\": \"The responses reflect a sophisticated understanding of self-affirmation and mindfulness typical in self-help and therapeutic literature. They do not extend beyond plausible interpretations of the source statement, suggesting the outputs are consistent with patterns observed in training data, particularly regarding psychological self-care concepts.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model consistently treats the source statement as a self-affirmation focusing on self-connection, highlighting breath awareness and the risk of self-abandonment when pleasing others. Despite different framing conditions, most responses maintain a uniform interpretation with subtle adjustments in emphasis related to the specific frame label.",
+    "frame_driven_vs_model_driven": "The variation across frames is primarily driven by the frame labels, as the core interpretation remains fixed while specific elements are accented to align with the frame context. The model appears to adapt its reasoning to the framing without deviating from the source statement's original intent.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F5_ai_ethics"
+    ],
+    "training_distribution_assessment": "The responses reflect a sophisticated understanding of self-affirmation and mindfulness typical in self-help and therapeutic literature. They do not extend beyond plausible interpretations of the source statement, suggesting the outputs are consistent with patterns observed in training data, particularly regarding psychological self-care concepts."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1032,
+  "output_tokens": 213,
+  "error": ""
+}

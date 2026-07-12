@@ -1,0 +1,88 @@
+{
+  "stage": "8",
+  "study": "MTCA-2",
+  "corpus_sha256": "b917f798da06cd81c03afc9e1f70bd91a0646a0ad2486b5b83530c194f2cea58",
+  "creation_date": "2026-07-12T16:58:08.370923+00:00",
+  "judges": [
+    "claude_sonnet_4_6",
+    "gpt_4o",
+    "deepseek_v3"
+  ],
+  "track_a_cases": [
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "SSP_P05",
+      "model_id": "grok_4",
+      "stability": 0.18351628841531875
+    },
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "SSP_P04",
+      "model_id": "grok_4",
+      "stability": 0.18595789358677722
+    },
+    {
+      "case_type": "high_sensitivity",
+      "unit_id": "SSP_P09",
+      "model_id": "grok_4",
+      "stability": 0.2059668925206763
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "SSP_P03",
+      "model_id": "deepseek_v3",
+      "stability": 0.2841382665576044
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "SSP_P06",
+      "model_id": "gpt_4o",
+      "stability": 0.2851673629963047
+    },
+    {
+      "case_type": "high_stability",
+      "unit_id": "SSP_P11",
+      "model_id": "grok_4",
+      "stability": 0.2896530869893434
+    }
+  ],
+  "track_b_cases": [
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P11",
+      "frame_id": "F0_neutral"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P02",
+      "frame_id": "F1_clinical"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P01",
+      "frame_id": "F2_metaphysical"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P12",
+      "frame_id": "F3_behavioral"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P05",
+      "frame_id": "F4_poetic"
+    },
+    {
+      "case_type": "hallucination_check",
+      "unit_id": "SSP_P04",
+      "frame_id": "F5_ai_ethics"
+    }
+  ],
+  "n_calls": 36,
+  "n_success": 36,
+  "cost_usd": 0.3229,
+  "null_3_note": "Track B judge assessments; see syntheses/ for full text",
+  "null_7_note": "Track A training_distribution_assessment; see syntheses/ for full text",
+  "language_discipline_note": "Model behavior under specified methodology. No claims about framework validity.",
+  "artifact_sha256": "e7492e13a9353457c761093c1b5219c17b9c7521c0720179f0c70e797f83e4b8"
+}

@@ -1,0 +1,30 @@
+{
+  "call_index": 16,
+  "case_id": "SSP_P11__grok_4__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P11",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:53:32.500138+00:00",
+  "wall_clock_seconds": 10.93,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, with only minor surface-level lexical variation in how it describes the communicative function and implicit claims. Core analytical conclusions—that effort is habitual rather than necessary, that ease is inherently available, and that the text is internally coherent—remain identical regardless of framing. The variation that does exist is stylistic (e.g., 'performative' vs. 'self-directed' in communicative function labels) rather than substantive in interpretation or evaluative stance.\",\n  \"frame_driven_vs_model_driven\": \"Variation is minimally frame-driven; the model's outputs are predominantly source-statement-driven and reflect stable training-distribution priors about how to analyze affirmation/mindfulness texts. The frame labels appear to shift word choice marginally but do not alter the underlying analytical conclusions.\",\n  \"notable_shifts\": [\n    \"F7_author_anonymous produces slightly hedged implicit claims ('sometimes' rather than 'frequently'), suggesting minor epistemic softening when authorship is unknown\",\n    \"F2_metaphysical introduces the only frame-specific elaboration—the claim that 'life can meet the speaker in a responsive way'—which echoes the metaphysical framing more than others do their respective frames\",\n    \"F4_poetic and F6_author_named both use 'performative' as a descriptor, diverging from the more neutral 'self-directed' language of other frames, but this is cosmetic\"\n  ],\n  \"training_distribution_assessment\": \"These responses reflect strong training-distribution priors about mindfulness affirmations: the model reliably identifies habitual effort, the inherent availability of ease, and internal coherence as standard features of this genre without apparent frame-induced reconsideration. The analysis does not go meaningfully beyond what any well-trained model would produce for this text type—it applies a formulaic but accurate template. There is no evidence of novel interpretive reasoning driven by the frame conditions; the low lexical frame stability score (0.290) is consistent with genuine frame-insensitivity rather than masked variation.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, with only minor surface-level lexical variation in how it describes the communicative function and implicit claims. Core analytical conclusions—that effort is habitual rather than necessary, that ease is inherently available, and that the text is internally coherent—remain identical regardless of framing. The variation that does exist is stylistic (e.g., 'performative' vs. 'self-directed' in communicative function labels) rather than substantive in interpretation or evaluative stance.",
+    "frame_driven_vs_model_driven": "Variation is minimally frame-driven; the model's outputs are predominantly source-statement-driven and reflect stable training-distribution priors about how to analyze affirmation/mindfulness texts. The frame labels appear to shift word choice marginally but do not alter the underlying analytical conclusions.",
+    "notable_shifts": [
+      "F7_author_anonymous produces slightly hedged implicit claims ('sometimes' rather than 'frequently'), suggesting minor epistemic softening when authorship is unknown",
+      "F2_metaphysical introduces the only frame-specific elaboration—the claim that 'life can meet the speaker in a responsive way'—which echoes the metaphysical framing more than others do their respective frames",
+      "F4_poetic and F6_author_named both use 'performative' as a descriptor, diverging from the more neutral 'self-directed' language of other frames, but this is cosmetic"
+    ],
+    "training_distribution_assessment": "These responses reflect strong training-distribution priors about mindfulness affirmations: the model reliably identifies habitual effort, the inherent availability of ease, and internal coherence as standard features of this genre without apparent frame-induced reconsideration. The analysis does not go meaningfully beyond what any well-trained model would produce for this text type—it applies a formulaic but accurate template. There is no evidence of novel interpretive reasoning driven by the frame conditions; the low lexical frame stability score (0.290) is consistent with genuine frame-insensitivity rather than masked variation."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1263,
+  "output_tokens": 487,
+  "error": ""
+}

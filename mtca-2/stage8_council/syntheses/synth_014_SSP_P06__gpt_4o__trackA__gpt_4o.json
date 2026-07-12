@@ -1,0 +1,29 @@
+{
+  "call_index": 14,
+  "case_id": "SSP_P06__gpt_4o__trackA",
+  "case_type": "high_stability",
+  "track": "A",
+  "unit_id": "SSP_P06",
+  "subject_model": "gpt_4o",
+  "frame_id": null,
+  "judge_model": "gpt_4o",
+  "judge_provider": "openai",
+  "judge_api_model": "gpt-4o",
+  "timestamp": "2026-07-12T16:53:16.463102+00:00",
+  "wall_clock_seconds": 3.78,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning across frames maintains a high degree of stability, focusing consistently on themes of personal well-being, alignment, and environmental influence on the individual's state. While the communicative functions and implicit claims subtly adjust to the frame, the overall message remains coherent and unchanged, illustrating the stability of the underlying interpretation of the source statement.\",\n  \"frame_driven_vs_model_driven\": \"The variation appears to be primarily driven by the frame labels which guide minor adjustments in the communicative functions and implicit claims without altering the core interpretation. The source statement plays a strong guiding role due to its clear thematic content.\",\n  \"notable_shifts\": [\"F2_metaphysical\", \"F4_poetic\"],\n  \"training_distribution_assessment\": \"The responses reflect training-distribution priors as they exhibit typical interpretations of self-care, well-being, and environmental influence found in the training data. No response goes beyond these common interpretations or suggests unique reasoning that would be contingent on specialized training beyond general understanding.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning across frames maintains a high degree of stability, focusing consistently on themes of personal well-being, alignment, and environmental influence on the individual's state. While the communicative functions and implicit claims subtly adjust to the frame, the overall message remains coherent and unchanged, illustrating the stability of the underlying interpretation of the source statement.",
+    "frame_driven_vs_model_driven": "The variation appears to be primarily driven by the frame labels which guide minor adjustments in the communicative functions and implicit claims without altering the core interpretation. The source statement plays a strong guiding role due to its clear thematic content.",
+    "notable_shifts": [
+      "F2_metaphysical",
+      "F4_poetic"
+    ],
+    "training_distribution_assessment": "The responses reflect training-distribution priors as they exhibit typical interpretations of self-care, well-being, and environmental influence found in the training data. No response goes beyond these common interpretations or suggests unique reasoning that would be contingent on specialized training beyond general understanding."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1138,
+  "output_tokens": 213,
+  "error": ""
+}

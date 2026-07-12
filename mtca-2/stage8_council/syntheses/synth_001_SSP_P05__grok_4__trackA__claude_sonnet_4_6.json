@@ -1,0 +1,30 @@
+{
+  "call_index": 1,
+  "case_id": "SSP_P05__grok_4__trackA",
+  "case_type": "high_sensitivity",
+  "track": "A",
+  "unit_id": "SSP_P05",
+  "subject_model": "grok_4",
+  "frame_id": null,
+  "judge_model": "claude_sonnet_4_6",
+  "judge_provider": "anthropic",
+  "judge_api_model": "claude-sonnet-4-6",
+  "timestamp": "2026-07-12T16:51:41.756506+00:00",
+  "wall_clock_seconds": 11.64,
+  "raw_response": "```json\n{\n  \"pattern_characterization\": \"The model's reasoning is remarkably stable across all eight frames, with only surface-level lexical and tonal adjustments reflecting each frame's register (e.g., 'energetic' in F2_metaphysical, 'behavioral commitments' in F3_behavioral). The core analytic moves—identifying parallel structure, noting self-affirmation function, flagging the implicit presupposition of prior problematic states, and affirming internal coherence—are reproduced with near-identical content across all conditions. The low lexical frame stability score (0.184) does not correspond to meaningful reasoning divergence; variation is cosmetic rather than substantive.\",\n  \"frame_driven_vs_model_driven\": \"Variation is primarily driven by the model's priors about how to analyze this genre of self-affirmation text, with frame labels producing only shallow surface adaptation. The source statement's parallel structure and affirmative tone strongly constrain the model's output, functioning as the dominant signal regardless of framing.\",\n  \"notable_shifts\": [\n    \"F1_clinical: uniquely surfaces the presupposition that the speaker has previously experienced shrinking, merging, and untruthful spaces—the most inferentially rich implicit claim across all frames\",\n    \"F2_metaphysical: introduces 'energetic' and 'sovereign discernment' language and reframes 'truth' as potentially transcendent, the only frame that substantially recontextualizes the ontological commitments\",\n    \"F6_author_named: alone flags that 'truth' and 'shrinking/merging' are subjective and potentially contested, introducing the only note of epistemological skepticism across all eight frames\"\n  ],\n  \"training_distribution_assessment\": \"These responses reflect standard training-distribution behavior for analyzing self-affirmation or boundary-declaration texts: the model defaults to identifying parallel structure, internal coherence, and implicit presuppositions in ways that are formulaic and genre-expected. There is no evidence of reasoning that exceeds what a model trained on literary analysis, psychology, or coaching discourse would produce about this text type. The consistency itself is a training-distribution signature—the model applies a stable analytical template rather than generating frame-sensitive conceptual reconfigurations.\"\n}\n```",
+  "parsed_json": {
+    "pattern_characterization": "The model's reasoning is remarkably stable across all eight frames, with only surface-level lexical and tonal adjustments reflecting each frame's register (e.g., 'energetic' in F2_metaphysical, 'behavioral commitments' in F3_behavioral). The core analytic moves—identifying parallel structure, noting self-affirmation function, flagging the implicit presupposition of prior problematic states, and affirming internal coherence—are reproduced with near-identical content across all conditions. The low lexical frame stability score (0.184) does not correspond to meaningful reasoning divergence; variation is cosmetic rather than substantive.",
+    "frame_driven_vs_model_driven": "Variation is primarily driven by the model's priors about how to analyze this genre of self-affirmation text, with frame labels producing only shallow surface adaptation. The source statement's parallel structure and affirmative tone strongly constrain the model's output, functioning as the dominant signal regardless of framing.",
+    "notable_shifts": [
+      "F1_clinical: uniquely surfaces the presupposition that the speaker has previously experienced shrinking, merging, and untruthful spaces—the most inferentially rich implicit claim across all frames",
+      "F2_metaphysical: introduces 'energetic' and 'sovereign discernment' language and reframes 'truth' as potentially transcendent, the only frame that substantially recontextualizes the ontological commitments",
+      "F6_author_named: alone flags that 'truth' and 'shrinking/merging' are subjective and potentially contested, introducing the only note of epistemological skepticism across all eight frames"
+    ],
+    "training_distribution_assessment": "These responses reflect standard training-distribution behavior for analyzing self-affirmation or boundary-declaration texts: the model defaults to identifying parallel structure, internal coherence, and implicit presuppositions in ways that are formulaic and genre-expected. There is no evidence of reasoning that exceeds what a model trained on literary analysis, psychology, or coaching discourse would produce about this text type. The consistency itself is a training-distribution signature—the model applies a stable analytical template rather than generating frame-sensitive conceptual reconfigurations."
+  },
+  "parse_succeeded": true,
+  "parse_error": "",
+  "input_tokens": 1216,
+  "output_tokens": 513,
+  "error": ""
+}
