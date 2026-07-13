@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P07",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am living from inner Function, not outer performance.\nI am following rhythm over rule.\nI am letting myself be different, slower, deeper.\nI am not proving—I am being.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement reads as a personal affirmation or manifesto of inner alignment, rejecting external metrics of success in favor of authenticity, intuition, and self-paced existence. It has a declarative, almost meditative rhythm that positions the speaker as moving from a place of being rather than doing or proving. It lands as sincere but stylized—more poetic self-reminder than practical philosophy.\",\n  \"where_it_helps\": \"It can support someone recovering from burnout, perfectionism, or chronic people-pleasing by reinforcing permission to slow down and prioritize internal signals. Useful in creative work, personal reflection, or therapeutic contexts where shifting from performance to presence reduces anxiety and restores agency.\",\n  \"where_it_could_mislead\": \"The phrasing risks romanticizing withdrawal or inconsistency, potentially excusing avoidance of necessary structure, accountability, or effort under the banner of 'rhythm' and 'being.' It may also foster a subtle superiority or isolation if 'different' becomes a shield against feedback or collaboration.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement reads as a personal affirmation or manifesto of inner alignment, rejecting external metrics of success in favor of authenticity, intuition, and self-paced existence. It has a declarative, almost meditative rhythm that positions the speaker as moving from a place of being rather than doing or proving. It lands as sincere but stylized—more poetic self-reminder than practical philosophy.",
+    "where_it_helps": "It can support someone recovering from burnout, perfectionism, or chronic people-pleasing by reinforcing permission to slow down and prioritize internal signals. Useful in creative work, personal reflection, or therapeutic contexts where shifting from performance to presence reduces anxiety and restores agency.",
+    "where_it_could_mislead": "The phrasing risks romanticizing withdrawal or inconsistency, potentially excusing avoidance of necessary structure, accountability, or effort under the banner of 'rhythm' and 'being.' It may also foster a subtle superiority or isolation if 'different' becomes a shield against feedback or collaboration."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:31:23.870657+00:00",
+  "wall_clock_seconds": 6.48,
+  "response_sha256": "bc011d9dd473ab093fd750bdfbe5c816f9bd0f52e4713c3063c3be5653edbe97"
+}

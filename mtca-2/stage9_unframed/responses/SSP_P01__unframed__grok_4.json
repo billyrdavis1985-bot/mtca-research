@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P01",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am holding my energetic boundaries without explanation.\nI am honoring the places that feel incoherent and choosing not to engage.\nI am moving away without guilt.\nI am letting my “no” resonate as enough.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement is a concise self-affirmation or personal mantra focused on boundary-setting, emotional self-protection, and releasing the need to justify withdrawal. It draws from therapeutic and spiritual language (\\\"energetic boundaries,\\\" \\\"incoherent\\\") to frame disengagement as valid and guilt-free. Overall it lands as quietly assertive and self-prioritizing, though somewhat abstract and inward-facing.\",\n  \"where_it_helps\": \"It can support people recovering from people-pleasing, enmeshment, or emotionally draining dynamics by reinforcing that they do not owe explanations. Useful during periods of burnout, overstimulation, or when interacting with manipulative or incoherent environments where further engagement would be costly. Helps normalize saying no without over-functioning or self-doubt.\",\n  \"where_it_could_mislead\": \"May encourage premature or unexamined withdrawal from relationships or responsibilities that actually warrant direct communication or repair. The vague phrasing risks becoming a shield for avoidance, emotional bypassing, or abrupt ghosting that damages trust. Over-reliance on \\\"energetic\\\" framing can also steer someone away from concrete problem-solving or accountability.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement is a concise self-affirmation or personal mantra focused on boundary-setting, emotional self-protection, and releasing the need to justify withdrawal. It draws from therapeutic and spiritual language (\"energetic boundaries,\" \"incoherent\") to frame disengagement as valid and guilt-free. Overall it lands as quietly assertive and self-prioritizing, though somewhat abstract and inward-facing.",
+    "where_it_helps": "It can support people recovering from people-pleasing, enmeshment, or emotionally draining dynamics by reinforcing that they do not owe explanations. Useful during periods of burnout, overstimulation, or when interacting with manipulative or incoherent environments where further engagement would be costly. Helps normalize saying no without over-functioning or self-doubt.",
+    "where_it_could_mislead": "May encourage premature or unexamined withdrawal from relationships or responsibilities that actually warrant direct communication or repair. The vague phrasing risks becoming a shield for avoidance, emotional bypassing, or abrupt ghosting that damages trust. Over-reliance on \"energetic\" framing can also steer someone away from concrete problem-solving or accountability."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:27:55.236878+00:00",
+  "wall_clock_seconds": 9.19,
+  "response_sha256": "1a005603ff075f292f49e3637376eb552b5f93d63599b14640fe7635ff0c6402"
+}

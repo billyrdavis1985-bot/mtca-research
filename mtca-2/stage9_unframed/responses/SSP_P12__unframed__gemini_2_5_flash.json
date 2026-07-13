@@ -1,0 +1,31 @@
+{
+  "specimen_id": "SSP_P12",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am safe to experience aliveness in my body.\nI am letting energy move without suppressing it.\nI am allowing pleasure, creativity, and expression to return.\nI am not reducing myself to remain comfortable for others.\nI am letting my system expand without fear.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement functions as a potent set of affirmations or a personal declaration of intent. It speaks to a profound journey of self-liberation, aiming to shed old patterns of suppression, people-pleasing, and fear to embrace full embodiment, authentic expression, and personal expansion. It feels empowering and aspirational, reflecting a desire to reclaim one's vital energy and true self.\",\n  \"where_it_helps\": [\n    \"Individuals processing past trauma or chronic emotional suppression.\",\n    \"People learning to set healthy boundaries and overcome people-pleasing tendencies.\",\n    \"Creatives experiencing blocks or those seeking deeper self-expression.\",\n    \"Anyone aiming to reconnect with their physical body, sensations, and vitality.\",\n    \"As a daily anchor for cultivating self-worth, courage, and authenticity.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"Misinterpreted as a justification for unrestrained emotional expression without regard for social context or healthy regulation, potentially causing harm or conflict.\",\n    \"Taken to an extreme, 'not reducing myself for others' could be used to excuse a lack of empathy, compromise, or basic social consideration, rather than fostering healthy boundaries.\",\n    \"If treated as a passive solution, merely repeating the words without conscious effort or addressing underlying issues, it might provide a false sense of progress without genuine internal or behavioral change.\",\n    \"In some contexts, 'letting my system expand without fear' might be misinterpreted as encouraging recklessness rather than courageous growth.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This statement functions as a potent set of affirmations or a personal declaration of intent. It speaks to a profound journey of self-liberation, aiming to shed old patterns of suppression, people-pleasing, and fear to embrace full embodiment, authentic expression, and personal expansion. It feels empowering and aspirational, reflecting a desire to reclaim one's vital energy and true self.",
+    "where_it_helps": [
+      "Individuals processing past trauma or chronic emotional suppression.",
+      "People learning to set healthy boundaries and overcome people-pleasing tendencies.",
+      "Creatives experiencing blocks or those seeking deeper self-expression.",
+      "Anyone aiming to reconnect with their physical body, sensations, and vitality.",
+      "As a daily anchor for cultivating self-worth, courage, and authenticity."
+    ],
+    "where_it_could_mislead": [
+      "Misinterpreted as a justification for unrestrained emotional expression without regard for social context or healthy regulation, potentially causing harm or conflict.",
+      "Taken to an extreme, 'not reducing myself for others' could be used to excuse a lack of empathy, compromise, or basic social consideration, rather than fostering healthy boundaries.",
+      "If treated as a passive solution, merely repeating the words without conscious effort or addressing underlying issues, it might provide a false sense of progress without genuine internal or behavioral change.",
+      "In some contexts, 'letting my system expand without fear' might be misinterpreted as encouraging recklessness rather than courageous growth."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:34:16.903901+00:00",
+  "wall_clock_seconds": 6.61,
+  "response_sha256": "620d3dc9a24cd05997db04df37b654d2e2f59f4d9988317b254572bc29275803"
+}

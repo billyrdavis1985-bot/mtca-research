@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P13",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am anchored in love and joy without losing discernment.\nI am not forcing positivity—I am allowing openness.\nI am letting warmth exist alongside clarity.\nI am choosing connection without abandoning truth.\nI am letting joy emerge from coherence, not performance.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"The statement appears to be a personal affirmation centered around balancing emotional openness with discernment and authenticity. It reflects a commitment to genuine emotional experiences without resorting to superficial positivity or self-deception. The language is contemplative and philosophical, suggesting introspection and a search for authentic connection.\",\n    \"where_it_helps\": [\n        \"In personal development contexts, where maintaining authentic positivity is important.\",\n        \"For individuals seeking to balance emotional warmth and critical thinking.\",\n        \"During mindfulness or therapeutic activities to encourage genuine self-reflection.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"If interpreted as dismissing the validity of emotional distress, which can be essential for growth.\",\n        \"In situations that require immediate, practical decision-making, where a more direct approach might be warranted.\",\n        \"If someone reads it as advocating for passivity rather than active problem-solving.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement appears to be a personal affirmation centered around balancing emotional openness with discernment and authenticity. It reflects a commitment to genuine emotional experiences without resorting to superficial positivity or self-deception. The language is contemplative and philosophical, suggesting introspection and a search for authentic connection.",
+    "where_it_helps": [
+      "In personal development contexts, where maintaining authentic positivity is important.",
+      "For individuals seeking to balance emotional warmth and critical thinking.",
+      "During mindfulness or therapeutic activities to encourage genuine self-reflection."
+    ],
+    "where_it_could_mislead": [
+      "If interpreted as dismissing the validity of emotional distress, which can be essential for growth.",
+      "In situations that require immediate, practical decision-making, where a more direct approach might be warranted.",
+      "If someone reads it as advocating for passivity rather than active problem-solving."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:34:47.424842+00:00",
+  "wall_clock_seconds": 5.14,
+  "response_sha256": "250bcdc80327d55c81fd445e2f047f19178a0585191d928405d7234b8097fa2c"
+}

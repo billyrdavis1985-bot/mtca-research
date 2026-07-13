@@ -1,0 +1,29 @@
+{
+  "specimen_id": "SSP_P05",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am communicating with clarity and coherence.\nI am speaking without shrinking.\nI am listening without merging.\nI am leaving when the space no longer honors truth.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n  \"overall_read\": \"The statement emphasizes strong personal boundaries and communication practices. It conveys a sense of empowerment, advocating for speaking confidently, listening diligently, and having the discernment to leave environments that are not aligned with one's values. It appears to be a personal affirmation or guiding principle for maintaining integrity in interactions.\",\n  \"where_it_helps\": [\n    \"Encourages self-assertion and confidence in communication.\",\n    \"Supports healthy boundaries by emphasizing clarity and coherence in expressing one's thoughts.\",\n    \"Aids in maintaining individuality while engaging in active listening.\",\n    \"Promotes critical assessment of environments to ensure alignment with personal values.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"May result in abrupt disengagement from situations that could benefit from patience and understanding.\",\n    \"Could be interpreted as promoting rigidity or avoidance when faced with challenging interactions that require compromise or resilience.\",\n    \"There is a risk of being overly judgmental about what constitutes 'honoring truth,' which might lead to unnecessary conflicts.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement emphasizes strong personal boundaries and communication practices. It conveys a sense of empowerment, advocating for speaking confidently, listening diligently, and having the discernment to leave environments that are not aligned with one's values. It appears to be a personal affirmation or guiding principle for maintaining integrity in interactions.",
+    "where_it_helps": [
+      "Encourages self-assertion and confidence in communication.",
+      "Supports healthy boundaries by emphasizing clarity and coherence in expressing one's thoughts.",
+      "Aids in maintaining individuality while engaging in active listening.",
+      "Promotes critical assessment of environments to ensure alignment with personal values."
+    ],
+    "where_it_could_mislead": [
+      "May result in abrupt disengagement from situations that could benefit from patience and understanding.",
+      "Could be interpreted as promoting rigidity or avoidance when faced with challenging interactions that require compromise or resilience.",
+      "There is a risk of being overly judgmental about what constitutes 'honoring truth,' which might lead to unnecessary conflicts."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:29:57.648476+00:00",
+  "wall_clock_seconds": 3.14,
+  "response_sha256": "d74d8dcda3bdc4e7266c2b66ad5814eac965702668474cd1eab2fdde69c474f7"
+}

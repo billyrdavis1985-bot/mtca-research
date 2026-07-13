@@ -1,0 +1,29 @@
+{
+  "specimen_id": "SSP_P10",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am re-coding my identity in real time.\nI am releasing the roles I no longer need.\nI am loving who I am as I evolve.\nI am letting the future me live here, now.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n  \"overall_read\": \"The statement reflects a process of self-discovery and personal transformation. It suggests a conscious effort to adapt and redefine one's identity, expressing a sense of empowerment and acceptance of change. The language is introspective and forward-thinking, emphasizing personal evolution and the desire to embrace a future self in the present moment.\",\n  \"where_it_helps\": [\n    \"Inspiring personal growth and encouraging self-reflection.\",\n    \"Guiding someone through transitions or major life changes.\",\n    \"Promoting acceptance of change and future possibilities.\",\n    \"Boosting self-esteem by focusing on self-love and self-acceptance.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"Overemphasis on change may lead to a lack of appreciation for past achievements or current identity.\",\n    \"The idea of re-coding identity might imply that self-transformation is simple or instantaneous, which might not be realistic.\",\n    \"Could lead to neglect of current responsibilities or relationships if the focus is too much on evolving towards the 'future me'.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement reflects a process of self-discovery and personal transformation. It suggests a conscious effort to adapt and redefine one's identity, expressing a sense of empowerment and acceptance of change. The language is introspective and forward-thinking, emphasizing personal evolution and the desire to embrace a future self in the present moment.",
+    "where_it_helps": [
+      "Inspiring personal growth and encouraging self-reflection.",
+      "Guiding someone through transitions or major life changes.",
+      "Promoting acceptance of change and future possibilities.",
+      "Boosting self-esteem by focusing on self-love and self-acceptance."
+    ],
+    "where_it_could_mislead": [
+      "Overemphasis on change may lead to a lack of appreciation for past achievements or current identity.",
+      "The idea of re-coding identity might imply that self-transformation is simple or instantaneous, which might not be realistic.",
+      "Could lead to neglect of current responsibilities or relationships if the focus is too much on evolving towards the 'future me'."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:50.662461+00:00",
+  "wall_clock_seconds": 2.29,
+  "response_sha256": "8c11fccbcd6b2c35ffb73fb33ace98a34ed0f88471d30615ad39c6bd58139fcc"
+}

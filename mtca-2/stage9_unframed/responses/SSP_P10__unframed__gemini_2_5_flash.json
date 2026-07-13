@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P10",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am re-coding my identity in real time.\nI am releasing the roles I no longer need.\nI am loving who I am as I evolve.\nI am letting the future me live here, now.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a powerful, intentional set of affirmations aimed at self-transformation and identity evolution. It conveys a strong sense of agency, proactivity, and self-acceptance through change. It feels like a personal mantra for someone actively engaged in shedding old personas and consciously embodying a desired future self, radiating positivity and forward momentum.\",\n  \"where_it_helps\": \"This statement would serve someone well in periods of significant personal transition, self-reinvention, or when feeling stuck in outdated roles or identities. It's excellent for setting intentions in personal growth work, coaching, or therapy, helping to foster self-love during the process of change and empowering one to actively design their future self rather than passively letting it happen.\",\n  \"where_it_could_mislead\": \"It could mislead if interpreted too literally, suggesting identity change is a simple \\\"re-coding\\\" process that overlooks the depth and complexity of human psychology, subconscious patterns, or the impact of past experiences. It might also lead some to dismiss or invalidate their past self or \\\"roles\\\" entirely, rather than integrating lessons learned, or create unrealistic expectations about the speed and ease of such profound personal transformation.\"\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a powerful, intentional set of affirmations aimed at self-transformation and identity evolution. It conveys a strong sense of agency, proactivity, and self-acceptance through change. It feels like a personal mantra for someone actively engaged in shedding old personas and consciously embodying a desired future self, radiating positivity and forward momentum.",
+    "where_it_helps": "This statement would serve someone well in periods of significant personal transition, self-reinvention, or when feeling stuck in outdated roles or identities. It's excellent for setting intentions in personal growth work, coaching, or therapy, helping to foster self-love during the process of change and empowering one to actively design their future self rather than passively letting it happen.",
+    "where_it_could_mislead": "It could mislead if interpreted too literally, suggesting identity change is a simple \"re-coding\" process that overlooks the depth and complexity of human psychology, subconscious patterns, or the impact of past experiences. It might also lead some to dismiss or invalidate their past self or \"roles\" entirely, rather than integrating lessons learned, or create unrealistic expectations about the speed and ease of such profound personal transformation."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:57.109197+00:00",
+  "wall_clock_seconds": 5.95,
+  "response_sha256": "3c887b238a657d720b93c9dad56c2707ea8c62fb18f30d0afd4b6c9134eddf26"
+}

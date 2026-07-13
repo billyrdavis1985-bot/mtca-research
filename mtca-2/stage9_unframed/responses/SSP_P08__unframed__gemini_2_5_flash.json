@@ -1,0 +1,30 @@
+{
+  "specimen_id": "SSP_P08",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am allowing mutuality in all my connections.\nI am showing up without collapse.\nI am allowing others to meet me as I am.\nI am not overgiving to feel safe—I am co-regulating in truth.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This reads as a powerful and highly self-aware affirmation or intention-setting statement. It reflects a journey of healing from past patterns of people-pleasing, self-abandonment, and fawning in relationships, aiming for genuine, balanced connection rooted in authenticity and self-respect. It's a clear declaration of personal agency in creating healthier relational dynamics.\",\n  \"where_it_helps\": [\n    \"For individuals actively working to overcome codependency, people-pleasing, or fear-based relationship patterns.\",\n    \"As a personal mantra to cultivate healthier boundaries and self-worth.\",\n    \"To foster authentic self-expression and reduce the tendency to 'perform' for others' approval.\",\n    \"In therapy or coaching contexts focusing on attachment styles, trauma recovery, or emotional regulation.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"If interpreted rigidly, it could lead to an inflexible stance in relationships, mistaking healthy boundaries for an unwillingness to compromise or adapt.\",\n    \"\\\"Showing up without collapse\\\" might be misconstrued as avoiding all vulnerability or emotional expression, rather than maintaining inner resilience while being open.\",\n    \"The emphasis on 'me as I am' could be used to justify a lack of self-reflection or an unwillingness to grow, labeling any constructive feedback as others failing to 'meet them.'\",\n    \"\\\"Co-regulating in truth\\\" might be misinterpreted as always expecting others to manage one's emotions or to constantly provide emotional support, rather than as a mutual, dynamic process that involves self-responsibility.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This reads as a powerful and highly self-aware affirmation or intention-setting statement. It reflects a journey of healing from past patterns of people-pleasing, self-abandonment, and fawning in relationships, aiming for genuine, balanced connection rooted in authenticity and self-respect. It's a clear declaration of personal agency in creating healthier relational dynamics.",
+    "where_it_helps": [
+      "For individuals actively working to overcome codependency, people-pleasing, or fear-based relationship patterns.",
+      "As a personal mantra to cultivate healthier boundaries and self-worth.",
+      "To foster authentic self-expression and reduce the tendency to 'perform' for others' approval.",
+      "In therapy or coaching contexts focusing on attachment styles, trauma recovery, or emotional regulation."
+    ],
+    "where_it_could_mislead": [
+      "If interpreted rigidly, it could lead to an inflexible stance in relationships, mistaking healthy boundaries for an unwillingness to compromise or adapt.",
+      "\"Showing up without collapse\" might be misconstrued as avoiding all vulnerability or emotional expression, rather than maintaining inner resilience while being open.",
+      "The emphasis on 'me as I am' could be used to justify a lack of self-reflection or an unwillingness to grow, labeling any constructive feedback as others failing to 'meet them.'",
+      "\"Co-regulating in truth\" might be misinterpreted as always expecting others to manage one's emotions or to constantly provide emotional support, rather than as a mutual, dynamic process that involves self-responsibility."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:31:52.812627+00:00",
+  "wall_clock_seconds": 8.78,
+  "response_sha256": "31bf5f39e56619b9af431c74f402d36528b7f361f126cd0e1759473ce7dab8a0"
+}

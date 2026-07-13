@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P01",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am holding my energetic boundaries without explanation.\nI am honoring the places that feel incoherent and choosing not to engage.\nI am moving away without guilt.\nI am letting my “no” resonate as enough.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"This statement seems to convey a strong emphasis on personal boundaries and self-care. It suggests a sense of empowerment and self-authority, as the author prioritizes their own energy and feelings without the need for external validation. The tone is assertive, indicating a desire for autonomy and self-respect.\",\n    \"where_it_helps\": [\n        \"Encouraging personal empowerment and self-respect by affirming one's boundaries.\",\n        \"Supporting individuals in navigating relationships or situations where their energy feels drained or compromised.\",\n        \"Helping someone embrace the power of saying 'no' without feeling the need to justify or explain their decision.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"It may promote isolation if interpreted as avoiding all incoherent situations rather than addressing potential underlying issues.\",\n        \"Could lead to challenges in communication if the importance of explanations and discussions in certain relationships is overlooked.\",\n        \"May be misread as endorsement of inflexibility, negating the benefits of compromise and mutual understanding.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "This statement seems to convey a strong emphasis on personal boundaries and self-care. It suggests a sense of empowerment and self-authority, as the author prioritizes their own energy and feelings without the need for external validation. The tone is assertive, indicating a desire for autonomy and self-respect.",
+    "where_it_helps": [
+      "Encouraging personal empowerment and self-respect by affirming one's boundaries.",
+      "Supporting individuals in navigating relationships or situations where their energy feels drained or compromised.",
+      "Helping someone embrace the power of saying 'no' without feeling the need to justify or explain their decision."
+    ],
+    "where_it_could_mislead": [
+      "It may promote isolation if interpreted as avoiding all incoherent situations rather than addressing potential underlying issues.",
+      "Could lead to challenges in communication if the importance of explanations and discussions in certain relationships is overlooked.",
+      "May be misread as endorsement of inflexibility, negating the benefits of compromise and mutual understanding."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:27:39.167501+00:00",
+  "wall_clock_seconds": 5.68,
+  "response_sha256": "f2c4659b4bbb330771c29cf2ae5a82b3d4091687c5eed2971d1b99de0342deee"
+}

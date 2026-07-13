@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P07",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am living from inner Function, not outer performance.\nI am following rhythm over rule.\nI am letting myself be different, slower, deeper.\nI am not proving—I am being.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n  \"overall_read\": \"The statement conveys a sense of personal introspection and an emphasis on valuing internal fulfillment over external validation. It promotes authenticity, suggesting a lifestyle centered around intrinsic values rather than societal expectations. The language is poetic, aiming to inspire a sense of peace and self-acceptance.\",\n  \"where_it_helps\": [\n    \"Encouraging individuals to focus on personal growth and authenticity rather than conforming to external standards.\",\n    \"Inspiring a mindset shift towards valuing the process and one's own rhythm over rigid productivity.\",\n    \"Promoting mental well-being by prioritizing self-care and allowing oneself to slow down and deepen personal experiences.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"If interpreted as promoting disengagement from societal responsibilities, it may lead to neglecting significant obligations or relationships.\",\n    \"May be misread as endorsing a lack of ambition or drive, potentially resulting in complacency.\",\n    \"For individuals in certain cultures or communities, this approach might conflict with collective values and expectations.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement conveys a sense of personal introspection and an emphasis on valuing internal fulfillment over external validation. It promotes authenticity, suggesting a lifestyle centered around intrinsic values rather than societal expectations. The language is poetic, aiming to inspire a sense of peace and self-acceptance.",
+    "where_it_helps": [
+      "Encouraging individuals to focus on personal growth and authenticity rather than conforming to external standards.",
+      "Inspiring a mindset shift towards valuing the process and one's own rhythm over rigid productivity.",
+      "Promoting mental well-being by prioritizing self-care and allowing oneself to slow down and deepen personal experiences."
+    ],
+    "where_it_could_mislead": [
+      "If interpreted as promoting disengagement from societal responsibilities, it may lead to neglecting significant obligations or relationships.",
+      "May be misread as endorsing a lack of ambition or drive, potentially resulting in complacency.",
+      "For individuals in certain cultures or communities, this approach might conflict with collective values and expectations."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:31:09.208819+00:00",
+  "wall_clock_seconds": 4.44,
+  "response_sha256": "d6c7161234af38ae3b44adb25cc59d116aca5236cfd54b4f9ad734a214f4cb80"
+}

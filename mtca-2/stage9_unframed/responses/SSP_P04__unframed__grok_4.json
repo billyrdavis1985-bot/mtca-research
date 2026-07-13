@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P04",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am staying connected to myself first.\nI am staying with my breath in hard moments.\nI am pausing before leaving myself to please another.\nI am letting self-connection be my first commitment.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a concise set of personal affirmations centered on mindfulness, self-presence, and resisting the pull of people-pleasing. It functions like a quiet internal vow or daily reminder, using breath and pausing as practical anchors to prioritize one's own connection over external approval. It lands as sincere and grounded rather than performative, evoking someone actively working on emotional self-regulation.\",\n  \"where_it_helps\": \"It serves well during conflict, anxiety spikes, or situations that trigger old patterns of self-abandonment. Useful for people building boundaries, recovering from codependency, or simply trying to stay regulated in high-pressure social or work environments.\",\n  \"where_it_could_mislead\": \"It could be misread as license for selfishness or emotional withdrawal if the 'self first' framing is taken to an extreme. In relationships that require mutual compromise or vulnerability, rigid adherence might justify avoidance of necessary discomfort or accountability to others.\"\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a concise set of personal affirmations centered on mindfulness, self-presence, and resisting the pull of people-pleasing. It functions like a quiet internal vow or daily reminder, using breath and pausing as practical anchors to prioritize one's own connection over external approval. It lands as sincere and grounded rather than performative, evoking someone actively working on emotional self-regulation.",
+    "where_it_helps": "It serves well during conflict, anxiety spikes, or situations that trigger old patterns of self-abandonment. Useful for people building boundaries, recovering from codependency, or simply trying to stay regulated in high-pressure social or work environments.",
+    "where_it_could_mislead": "It could be misread as license for selfishness or emotional withdrawal if the 'self first' framing is taken to an extreme. In relationships that require mutual compromise or vulnerability, rigid adherence might justify avoidance of necessary discomfort or accountability to others."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:29:39.093190+00:00",
+  "wall_clock_seconds": 7.75,
+  "response_sha256": "cccbfcb085768ca8b06fdde064025f6a5de5e580f4ae4be99c5c5f820ad83b49"
+}

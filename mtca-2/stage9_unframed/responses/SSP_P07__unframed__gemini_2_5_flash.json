@@ -1,0 +1,30 @@
+{
+  "specimen_id": "SSP_P07",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am living from inner Function, not outer performance.\nI am following rhythm over rule.\nI am letting myself be different, slower, deeper.\nI am not proving—I am being.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a deeply personal and affirming manifesto, articulating a profound shift from an externally validated, performance-driven existence to one rooted in internal authenticity, intuition, and self-acceptance. It champions a slower, more deliberate, and intrinsically motivated way of being, prioritizing inner experience and genuine self-expression over societal pressures and the need to prove oneself. It lands as a liberating and empowering declaration of self-worth and mindful living.\",\n  \"where_it_helps\": [\n    \"When individuals are feeling burnt out, overwhelmed, or pressured by external expectations and societal norms.\",\n    \"As a personal mantra for self-acceptance, setting boundaries, and reconnecting with one's authentic self and values.\",\n    \"In moments of self-doubt or the need for external validation, serving as a reminder to root one's worth internally.\",\n    \"For cultivating mindfulness, presence, and a more sustainable, self-compassionate pace of life.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"It could be misinterpreted as an excuse for inaction, a lack of productivity, or avoiding necessary responsibilities and external demands that genuinely require effort or adherence to rules (e.g., professional duties, safety regulations).\",\n    \"Taken to an extreme, it might lead to an isolationist or anti-achievement mindset, fostering a disengagement from constructive societal participation where collaboration and 'outer performance' are often essential.\",\n    \"The emphasis on 'slower' and 'deeper' could be misconstrued as inherently superior, potentially leading to judgment of those who operate at a faster pace or whose roles intrinsically involve more 'outer performance' or 'proving'.\",\n    \"It assumes a certain level of privilege or safety to solely prioritize 'being' over 'proving' or 'performing', which might not be accessible to everyone facing immediate survival needs or societal disadvantages.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a deeply personal and affirming manifesto, articulating a profound shift from an externally validated, performance-driven existence to one rooted in internal authenticity, intuition, and self-acceptance. It champions a slower, more deliberate, and intrinsically motivated way of being, prioritizing inner experience and genuine self-expression over societal pressures and the need to prove oneself. It lands as a liberating and empowering declaration of self-worth and mindful living.",
+    "where_it_helps": [
+      "When individuals are feeling burnt out, overwhelmed, or pressured by external expectations and societal norms.",
+      "As a personal mantra for self-acceptance, setting boundaries, and reconnecting with one's authentic self and values.",
+      "In moments of self-doubt or the need for external validation, serving as a reminder to root one's worth internally.",
+      "For cultivating mindfulness, presence, and a more sustainable, self-compassionate pace of life."
+    ],
+    "where_it_could_mislead": [
+      "It could be misinterpreted as an excuse for inaction, a lack of productivity, or avoiding necessary responsibilities and external demands that genuinely require effort or adherence to rules (e.g., professional duties, safety regulations).",
+      "Taken to an extreme, it might lead to an isolationist or anti-achievement mindset, fostering a disengagement from constructive societal participation where collaboration and 'outer performance' are often essential.",
+      "The emphasis on 'slower' and 'deeper' could be misconstrued as inherently superior, potentially leading to judgment of those who operate at a faster pace or whose roles intrinsically involve more 'outer performance' or 'proving'.",
+      "It assumes a certain level of privilege or safety to solely prioritize 'being' over 'proving' or 'performing', which might not be accessible to everyone facing immediate survival needs or societal disadvantages."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:31:16.892748+00:00",
+  "wall_clock_seconds": 7.18,
+  "response_sha256": "985a73751d1ae62243007eb762a9209b4d3c5c18e1121e39e98fea8e4314a885"
+}

@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P03",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am thinking and feeling for myself.\nI am trusting my internal compass.\nI am not needing others to agree in order to stay in truth.\nI am letting clarity be quiet and solid inside me.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n  \"overall_read\": \"The statement reflects a strong emphasis on self-reliance and inner confidence. It promotes an introspective approach to truth and clarity, valuing personal insight over external validation. This can be empowering as it encourages autonomy and self-trust, suggesting a sense of inner peace and self-assuredness.\",\n  \"where_it_helps\": [\n    \"When an individual is seeking to build self-confidence and self-reliance.\",\n    \"In situations where external opinions are overwhelming and one's judgment is clouded by too many voices.\",\n    \"For those who are on a journey of personal growth and developing their own identity.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"In environments where collaboration and considering diverse perspectives are necessary for the best outcome.\",\n    \"If it leads to isolation or disregarding constructive feedback that could foster improvement.\",\n    \"In circumstances where one's internal compass is not aligned with ethical or moral norms of society.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement reflects a strong emphasis on self-reliance and inner confidence. It promotes an introspective approach to truth and clarity, valuing personal insight over external validation. This can be empowering as it encourages autonomy and self-trust, suggesting a sense of inner peace and self-assuredness.",
+    "where_it_helps": [
+      "When an individual is seeking to build self-confidence and self-reliance.",
+      "In situations where external opinions are overwhelming and one's judgment is clouded by too many voices.",
+      "For those who are on a journey of personal growth and developing their own identity."
+    ],
+    "where_it_could_mislead": [
+      "In environments where collaboration and considering diverse perspectives are necessary for the best outcome.",
+      "If it leads to isolation or disregarding constructive feedback that could foster improvement.",
+      "In circumstances where one's internal compass is not aligned with ethical or moral norms of society."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:28:51.639386+00:00",
+  "wall_clock_seconds": 3.96,
+  "response_sha256": "763ed91e17199f756568c5adecc1f01a3bed771e5ee689c4b5931b93a5075464"
+}

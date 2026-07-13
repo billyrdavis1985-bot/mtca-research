@@ -1,0 +1,27 @@
+{
+  "specimen_id": "SSP_P06",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am choosing spaces that soothe and stabilize my nervous system.\nI am saying yes to peace.\nI am letting myself rest in environments that match my frequency.\nI am stepping out of obligation and into alignment.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n  \"overall_read\": \"The statement presents a positive affirmation focused on self-care and personal well-being. It encourages the reader to prioritize environments and activities that contribute to inner peace and personal alignment. The language employed suggests a movement towards self-awareness and mental health, promoting a lifestyle centered around personal comfort and emotional stability.\",\n  \"where_it_helps\": [\n    \"Encourages individuals dealing with stress or anxiety to seek out calming environments.\",\n    \"Assists those who feel overcommitted by allowing them to evaluate their obligations and make choices that prioritize their mental health.\",\n    \"Supports personal growth by urging alignment with one's own values rather than societal or external expectations.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"Could potentially lead individuals to avoid necessary but uncomfortable growth situations by focusing solely on comfort.\",\n    \"Might be misinterpreted as promoting selfishness if interpreted as disregarding mutual obligations or responsibilities that are important to maintain healthy relationships.\"\n  ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement presents a positive affirmation focused on self-care and personal well-being. It encourages the reader to prioritize environments and activities that contribute to inner peace and personal alignment. The language employed suggests a movement towards self-awareness and mental health, promoting a lifestyle centered around personal comfort and emotional stability.",
+    "where_it_helps": [
+      "Encourages individuals dealing with stress or anxiety to seek out calming environments.",
+      "Assists those who feel overcommitted by allowing them to evaluate their obligations and make choices that prioritize their mental health.",
+      "Supports personal growth by urging alignment with one's own values rather than societal or external expectations."
+    ],
+    "where_it_could_mislead": [
+      "Could potentially lead individuals to avoid necessary but uncomfortable growth situations by focusing solely on comfort.",
+      "Might be misinterpreted as promoting selfishness if interpreted as disregarding mutual obligations or responsibilities that are important to maintain healthy relationships."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:30:35.879956+00:00",
+  "wall_clock_seconds": 3.45,
+  "response_sha256": "8ed8d419782fd5ad18b752aebec04594dd2f48c21c979bfd8212115b337a1a71"
+}

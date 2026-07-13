@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P09",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am aligning with thriving, not coping.\nI am making choices that nourish.\nI am choosing expansion over survival.\nI am letting vitality become normal.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"This statement focuses on a positive, growth-oriented mindset, emphasizing the importance of moving beyond mere survival to actively thriving. It encourages making conscious, beneficial choices that support one's overall well-being and normalizing a state of vitality. The language is optimistic, aiming to inspire a shift towards personal empowerment and holistic health.\",\n    \"where_it_helps\": [\n        \"In personal development contexts, where adopting a growth mindset may lead to increased motivation and fulfillment.\",\n        \"In wellness or health journeys, promoting practices that enhance well-being rather than just managing symptoms.\",\n        \"For individuals feeling stuck or complacent, encouraging them to pursue new opportunities and embrace change.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"For those dealing with significant trauma or mental health challenges, the emphasis on thriving over coping might inadvertently dismiss the value of coping mechanisms.\",\n        \"In contexts where survival is not just a mindset but a tangible immediate need, such as financial or health crises, prioritizing 'expansion' may seem unrealistic or out of touch.\",\n        \"Without a clear plan or support, focusing solely on thriving might set unrealistic expectations, potentially leading to frustration or disillusionment.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "This statement focuses on a positive, growth-oriented mindset, emphasizing the importance of moving beyond mere survival to actively thriving. It encourages making conscious, beneficial choices that support one's overall well-being and normalizing a state of vitality. The language is optimistic, aiming to inspire a shift towards personal empowerment and holistic health.",
+    "where_it_helps": [
+      "In personal development contexts, where adopting a growth mindset may lead to increased motivation and fulfillment.",
+      "In wellness or health journeys, promoting practices that enhance well-being rather than just managing symptoms.",
+      "For individuals feeling stuck or complacent, encouraging them to pursue new opportunities and embrace change."
+    ],
+    "where_it_could_mislead": [
+      "For those dealing with significant trauma or mental health challenges, the emphasis on thriving over coping might inadvertently dismiss the value of coping mechanisms.",
+      "In contexts where survival is not just a mindset but a tangible immediate need, such as financial or health crises, prioritizing 'expansion' may seem unrealistic or out of touch.",
+      "Without a clear plan or support, focusing solely on thriving might set unrealistic expectations, potentially leading to frustration or disillusionment."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:19.703454+00:00",
+  "wall_clock_seconds": 2.97,
+  "response_sha256": "154eed41f9bd5f66ae29e0611861b08c48c7901a278ab8a4494e606825cb7929"
+}

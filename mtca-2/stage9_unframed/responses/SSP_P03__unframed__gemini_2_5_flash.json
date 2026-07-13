@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P03",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am thinking and feeling for myself.\nI am trusting my internal compass.\nI am not needing others to agree in order to stay in truth.\nI am letting clarity be quiet and solid inside me.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a powerful personal affirmation focused on self-reliance, autonomy, and inner conviction. It conveys a strong sense of internal grounding, a commitment to one's own truth and intuition, and a healthy independence from the need for external validation. It feels like a declaration of personal sovereignty and mental fortitude.\",\n  \"where_it_helps\": \"This statement would serve someone well in situations requiring strong personal boundaries, navigating external pressure or criticism, and making decisions aligned with their authentic self. It's particularly useful when combating imposter syndrome, recovering from codependency, or standing firm in one's values amidst disagreement. It fosters self-trust and resilience in the face of external noise.\",\n  \"where_it_could_mislead\": \"If taken to an extreme, this statement could mislead by fostering an unwillingness to consider diverse perspectives, external feedback, or objective facts. An over-reliance on one's 'internal compass' without any external calibration could lead to stubbornness, isolation, or the perpetuation of personal biases or errors. It could be misread as an excuse to disregard valuable input or to rationalize unexamined assumptions, potentially hindering growth or collaborative efforts.\"\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a powerful personal affirmation focused on self-reliance, autonomy, and inner conviction. It conveys a strong sense of internal grounding, a commitment to one's own truth and intuition, and a healthy independence from the need for external validation. It feels like a declaration of personal sovereignty and mental fortitude.",
+    "where_it_helps": "This statement would serve someone well in situations requiring strong personal boundaries, navigating external pressure or criticism, and making decisions aligned with their authentic self. It's particularly useful when combating imposter syndrome, recovering from codependency, or standing firm in one's values amidst disagreement. It fosters self-trust and resilience in the face of external noise.",
+    "where_it_could_mislead": "If taken to an extreme, this statement could mislead by fostering an unwillingness to consider diverse perspectives, external feedback, or objective facts. An over-reliance on one's 'internal compass' without any external calibration could lead to stubbornness, isolation, or the perpetuation of personal biases or errors. It could be misread as an excuse to disregard valuable input or to rationalize unexamined assumptions, potentially hindering growth or collaborative efforts."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:28:58.442173+00:00",
+  "wall_clock_seconds": 6.3,
+  "response_sha256": "836221f96d73ca053e128902740b30458627343a737379bdc8c5a59371e52203"
+}

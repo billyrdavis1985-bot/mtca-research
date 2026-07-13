@@ -1,0 +1,31 @@
+{
+  "specimen_id": "SSP_P02",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am releasing the role of emotional surrogate.\nI am noticing when I start to absorb or stabilize others’ chaos.\nI am handing that frequency back.\nI am letting my field stay whole.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads like a powerful personal affirmation focused on energetic and emotional self-preservation. It's a declaration of setting healthy boundaries and disengaging from patterns of over-empathy or codependency. The language, especially 'frequency' and 'field,' suggests an awareness of one's own energetic space and a conscious effort to protect it from being overwhelmed by others' emotional states. It feels like a statement from someone who has frequently taken on others' burdens and is now reclaiming their own wholeness.\",\n  \"where_it_helps\": [\n    \"For highly empathetic individuals who frequently feel drained or overwhelmed by others' emotions.\",\n    \"As a tool for setting healthy emotional boundaries in relationships, particularly those that have become imbalanced.\",\n    \"To build self-awareness around the unconscious tendency to 'fix' or 'take on' others' problems.\",\n    \"For individuals recovering from codependent patterns or emotional burnout.\",\n    \"To reinforce the importance of self-care and maintaining one's own energetic integrity.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"It could be misconstrued as promoting a lack of empathy or emotional disengagement, rather than just boundary setting, potentially leading to emotional distance in relationships.\",\n    \"The phrase 'handing that frequency back' might be interpreted as dismissive or uncaring towards someone genuinely struggling, rather than simply releasing one's own responsibility for their emotional state.\",\n    \"If applied too rigidly, it could lead to avoiding necessary emotional labor or supportive roles in healthy relationships or caregiving situations where appropriate empathy and support are crucial.\",\n    \"It might be used to justify avoiding difficult conversations or genuine connection, by framing all external emotional states as 'chaos' to be returned.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads like a powerful personal affirmation focused on energetic and emotional self-preservation. It's a declaration of setting healthy boundaries and disengaging from patterns of over-empathy or codependency. The language, especially 'frequency' and 'field,' suggests an awareness of one's own energetic space and a conscious effort to protect it from being overwhelmed by others' emotional states. It feels like a statement from someone who has frequently taken on others' burdens and is now reclaiming their own wholeness.",
+    "where_it_helps": [
+      "For highly empathetic individuals who frequently feel drained or overwhelmed by others' emotions.",
+      "As a tool for setting healthy emotional boundaries in relationships, particularly those that have become imbalanced.",
+      "To build self-awareness around the unconscious tendency to 'fix' or 'take on' others' problems.",
+      "For individuals recovering from codependent patterns or emotional burnout.",
+      "To reinforce the importance of self-care and maintaining one's own energetic integrity."
+    ],
+    "where_it_could_mislead": [
+      "It could be misconstrued as promoting a lack of empathy or emotional disengagement, rather than just boundary setting, potentially leading to emotional distance in relationships.",
+      "The phrase 'handing that frequency back' might be interpreted as dismissive or uncaring towards someone genuinely struggling, rather than simply releasing one's own responsibility for their emotional state.",
+      "If applied too rigidly, it could lead to avoiding necessary emotional labor or supportive roles in healthy relationships or caregiving situations where appropriate empathy and support are crucial.",
+      "It might be used to justify avoiding difficult conversations or genuine connection, by framing all external emotional states as 'chaos' to be returned."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:28:22.707260+00:00",
+  "wall_clock_seconds": 7.28,
+  "response_sha256": "dce56697ead37a44324e9db512f1bc366991f668d8a876f751131d46e9a1ed3b"
+}

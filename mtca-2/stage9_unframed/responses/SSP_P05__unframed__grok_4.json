@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P05",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am communicating with clarity and coherence.\nI am speaking without shrinking.\nI am listening without merging.\nI am leaving when the space no longer honors truth.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a compact personal credo for assertive, self-respecting communication and relational boundaries. It blends clarity, non-shrinkage, non-fusion listening, and a truth-based exit clause into four concise commitments that feel drawn from therapy-speak or personal-development language. Overall it lands as earnest and self-protective, aiming to codify emotional maturity without much nuance or warmth.\",\n  \"where_it_helps\": \"Useful for people recovering from people-pleasing, enmeshment, or chronic conflict avoidance; can serve as a quick internal checklist before difficult conversations or when deciding whether to stay in a group or relationship; reinforces self-advocacy and clarity in professional or activist settings where truth-telling matters.\",\n  \"where_it_could_mislead\": \"May encourage premature exits by framing any discomfort or disagreement as a failure to 'honor truth'; the phrasing can sound rigid or self-justifying, letting someone bypass repair attempts or differing perspectives under the banner of integrity; risks turning listening into a detached performance rather than genuine openness.\"\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a compact personal credo for assertive, self-respecting communication and relational boundaries. It blends clarity, non-shrinkage, non-fusion listening, and a truth-based exit clause into four concise commitments that feel drawn from therapy-speak or personal-development language. Overall it lands as earnest and self-protective, aiming to codify emotional maturity without much nuance or warmth.",
+    "where_it_helps": "Useful for people recovering from people-pleasing, enmeshment, or chronic conflict avoidance; can serve as a quick internal checklist before difficult conversations or when deciding whether to stay in a group or relationship; reinforces self-advocacy and clarity in professional or activist settings where truth-telling matters.",
+    "where_it_could_mislead": "May encourage premature exits by framing any discomfort or disagreement as a failure to 'honor truth'; the phrasing can sound rigid or self-justifying, letting someone bypass repair attempts or differing perspectives under the banner of integrity; risks turning listening into a detached performance rather than genuine openness."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:30:15.409651+00:00",
+  "wall_clock_seconds": 9.91,
+  "response_sha256": "2c53e230831d29539d8620708127bfe833804453b54e30694f425236999625f0"
+}

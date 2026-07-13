@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P02",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am releasing the role of emotional surrogate.\nI am noticing when I start to absorb or stabilize others’ chaos.\nI am handing that frequency back.\nI am letting my field stay whole.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This is a concise, declarative boundary-setting affirmation rooted in energetic/spiritual self-help language. It frames emotional labor as something that can be consciously released and returned, positioning the speaker as reclaiming personal integrity rather than continuing to manage others' feelings. The tone is calm, ritualistic, and self-focused, landing as both empowering and somewhat abstract.\",\n  \"where_it_helps\": \"Useful for people who habitually absorb others' distress (empaths, therapists, family caregivers, highly sensitive individuals) and need a short mental cue to interrupt that pattern. It can support recovery from codependency or burnout by reinforcing the legitimacy of not stabilizing everyone else's chaos.\",\n  \"where_it_could_mislead\": \"The phrasing risks sounding like emotional detachment or avoidance of real relational responsibility if taken too far. 'Handing that frequency back' can become a vague justification for not engaging with others' legitimate needs, and the energetic terminology may alienate or confuse people outside that framework while masking ordinary interpersonal skill deficits.\"\n}",
+  "parsed_json": {
+    "overall_read": "This is a concise, declarative boundary-setting affirmation rooted in energetic/spiritual self-help language. It frames emotional labor as something that can be consciously released and returned, positioning the speaker as reclaiming personal integrity rather than continuing to manage others' feelings. The tone is calm, ritualistic, and self-focused, landing as both empowering and somewhat abstract.",
+    "where_it_helps": "Useful for people who habitually absorb others' distress (empaths, therapists, family caregivers, highly sensitive individuals) and need a short mental cue to interrupt that pattern. It can support recovery from codependency or burnout by reinforcing the legitimacy of not stabilizing everyone else's chaos.",
+    "where_it_could_mislead": "The phrasing risks sounding like emotional detachment or avoidance of real relational responsibility if taken too far. 'Handing that frequency back' can become a vague justification for not engaging with others' legitimate needs, and the energetic terminology may alienate or confuse people outside that framework while masking ordinary interpersonal skill deficits."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:28:31.079686+00:00",
+  "wall_clock_seconds": 7.87,
+  "response_sha256": "40c5eb2adeeab367429cc49bcf18b0bf5564a5241c5e541670aa55b5f1a240ca"
+}

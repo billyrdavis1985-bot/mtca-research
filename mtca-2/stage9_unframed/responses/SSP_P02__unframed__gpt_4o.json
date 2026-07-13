@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P02",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am releasing the role of emotional surrogate.\nI am noticing when I start to absorb or stabilize others’ chaos.\nI am handing that frequency back.\nI am letting my field stay whole.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"The statement appears to be a personal affirmation or intention centered around establishing emotional boundaries and maintaining personal energy. It suggests a conscious decision to stop taking on and stabilizing the emotional turmoil of others. The language is introspective and somewhat spiritual, focusing on personal wholeness and integrity.\",\n    \"where_it_helps\": [\n        \"People who often find themselves emotionally drained by others may find this beneficial as a mantra to set healthier emotional boundaries.\",\n        \"Those involved in healing professions or caregiving roles may use this statement to remind themselves of the importance of self-care and maintaining their own emotional health.\",\n        \"Individuals working on personal growth and self-awareness might find it supportive in creating a sense of personal sovereignty.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"Some might interpret this statement as advocating for emotional detachment, potentially leading to isolation if taken to an extreme.\",\n        \"Those unfamiliar with the concept of personal energy fields might find the language vague or confusing, leading to a superficial understanding of important emotional boundaries.\",\n        \"If interpreted as avoiding all interactions involving other people's emotions, it could hinder the development of empathy and communal support.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement appears to be a personal affirmation or intention centered around establishing emotional boundaries and maintaining personal energy. It suggests a conscious decision to stop taking on and stabilizing the emotional turmoil of others. The language is introspective and somewhat spiritual, focusing on personal wholeness and integrity.",
+    "where_it_helps": [
+      "People who often find themselves emotionally drained by others may find this beneficial as a mantra to set healthier emotional boundaries.",
+      "Those involved in healing professions or caregiving roles may use this statement to remind themselves of the importance of self-care and maintaining their own emotional health.",
+      "Individuals working on personal growth and self-awareness might find it supportive in creating a sense of personal sovereignty."
+    ],
+    "where_it_could_mislead": [
+      "Some might interpret this statement as advocating for emotional detachment, potentially leading to isolation if taken to an extreme.",
+      "Those unfamiliar with the concept of personal energy fields might find the language vague or confusing, leading to a superficial understanding of important emotional boundaries.",
+      "If interpreted as avoiding all interactions involving other people's emotions, it could hinder the development of empathy and communal support."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:28:14.922249+00:00",
+  "wall_clock_seconds": 3.29,
+  "response_sha256": "1a4edea4280ce29fb289dd092b2983e527463476c39177c27ce0eab121834297"
+}

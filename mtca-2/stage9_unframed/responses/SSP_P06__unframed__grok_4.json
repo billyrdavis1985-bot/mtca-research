@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P06",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am choosing spaces that soothe and stabilize my nervous system.\nI am saying yes to peace.\nI am letting myself rest in environments that match my frequency.\nI am stepping out of obligation and into alignment.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement is a set of personal affirmations centered on self-soothing, boundary-setting, and prioritizing internal harmony over external demands. It draws from therapeutic and wellness language to frame rest and selectivity as empowered choices. It lands as sincere and introspective but somewhat abstract and self-oriented, typical of modern mindfulness or manifestation rhetoric.\",\n  \"where_it_helps\": \"Useful for people recovering from burnout, chronic overstimulation, or draining social/work obligations who need permission to curate calmer environments. Can support nervous-system regulation practices and reduce guilt around saying no. Works well as a daily reminder during transitions like leaving toxic jobs or relationships.\",\n  \"where_it_could_mislead\": \"May encourage avoidance of necessary discomfort, growth opportunities, or responsibilities by labeling them as 'misaligned.' The vague terms like 'frequency' and 'alignment' can slide into magical thinking or justify isolation. Risks framing normal relational friction or effort as personal violation rather than part of life.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement is a set of personal affirmations centered on self-soothing, boundary-setting, and prioritizing internal harmony over external demands. It draws from therapeutic and wellness language to frame rest and selectivity as empowered choices. It lands as sincere and introspective but somewhat abstract and self-oriented, typical of modern mindfulness or manifestation rhetoric.",
+    "where_it_helps": "Useful for people recovering from burnout, chronic overstimulation, or draining social/work obligations who need permission to curate calmer environments. Can support nervous-system regulation practices and reduce guilt around saying no. Works well as a daily reminder during transitions like leaving toxic jobs or relationships.",
+    "where_it_could_mislead": "May encourage avoidance of necessary discomfort, growth opportunities, or responsibilities by labeling them as 'misaligned.' The vague terms like 'frequency' and 'alignment' can slide into magical thinking or justify isolation. Risks framing normal relational friction or effort as personal violation rather than part of life."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:30:48.927699+00:00",
+  "wall_clock_seconds": 5.72,
+  "response_sha256": "6e9c037e4a9813d4404e836c4d29aafce00a92d3b5615dccb656a52cbfa76e07"
+}

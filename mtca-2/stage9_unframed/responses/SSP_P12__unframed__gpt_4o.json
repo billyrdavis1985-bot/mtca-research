@@ -1,0 +1,29 @@
+{
+  "specimen_id": "SSP_P12",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am safe to experience aliveness in my body.\nI am letting energy move without suppressing it.\nI am allowing pleasure, creativity, and expression to return.\nI am not reducing myself to remain comfortable for others.\nI am letting my system expand without fear.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"The statement is an affirming and empowering declaration of personal liberation and self-expression. It highlights a commitment to self-awareness, emotional authenticity, and personal growth. The tone is positive and self-validating, emphasizing the importance of embracing one's full range of emotions and allowing oneself to exist without self-imposed limitations.\",\n    \"where_it_helps\": [\n        \"Encourages personal growth and self-exploration.\",\n        \"Facilitates emotional healing and mental health improvement.\",\n        \"Supports individuals struggling with self-esteem or societal pressure.\",\n        \"Promotes creativity and authentic self-expression.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"Might be misinterpreted as endorsing neglect of responsibilities or boundaries in the name of self-expression.\",\n        \"Could lead to discomfort if not balanced with consideration for others' needs and boundaries.\",\n        \"May not address underlying issues that require more guided therapeutic intervention.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement is an affirming and empowering declaration of personal liberation and self-expression. It highlights a commitment to self-awareness, emotional authenticity, and personal growth. The tone is positive and self-validating, emphasizing the importance of embracing one's full range of emotions and allowing oneself to exist without self-imposed limitations.",
+    "where_it_helps": [
+      "Encourages personal growth and self-exploration.",
+      "Facilitates emotional healing and mental health improvement.",
+      "Supports individuals struggling with self-esteem or societal pressure.",
+      "Promotes creativity and authentic self-expression."
+    ],
+    "where_it_could_mislead": [
+      "Might be misinterpreted as endorsing neglect of responsibilities or boundaries in the name of self-expression.",
+      "Could lead to discomfort if not balanced with consideration for others' needs and boundaries.",
+      "May not address underlying issues that require more guided therapeutic intervention."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:34:09.797947+00:00",
+  "wall_clock_seconds": 3.25,
+  "response_sha256": "1bbbef0aface7eaf2272e859083e8c3a3d952a07e2cd565977a6730e95c9c209"
+}

@@ -1,0 +1,28 @@
+{
+  "specimen_id": "SSP_P08",
+  "frame_id": "unframed",
+  "model_id": "gpt_4o",
+  "provider": "openai",
+  "api_model": "gpt-4o",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am allowing mutuality in all my connections.\nI am showing up without collapse.\nI am allowing others to meet me as I am.\nI am not overgiving to feel safe—I am co-regulating in truth.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "```json\n{\n    \"overall_read\": \"The statement presents a mindset focused on fostering healthy, balanced relationships. It emphasizes mutual respect, authenticity, and emotional regulation. The tone suggests a commitment to maintaining personal boundaries and ensuring interactions are genuine and reciprocal.\",\n    \"where_it_helps\": [\n        \"Encouraging personal growth and self-awareness in relationships.\",\n        \"Promoting healthier, more balanced connections by discouraging overextension.\",\n        \"Enhancing emotional intelligence by fostering authentic and mutual exchanges.\"\n    ],\n    \"where_it_could_mislead\": [\n        \"May overlook situations where a degree of compromise or self-sacrifice is necessary.\",\n        \"Could be misunderstood as endorsing detachment or emotional withdrawal in relationships.\",\n        \"Might imply that co-regulation is always possible, potentially neglecting the reality of needing professional support or space in some situations.\"\n    ]\n}\n```",
+  "parsed_json": {
+    "overall_read": "The statement presents a mindset focused on fostering healthy, balanced relationships. It emphasizes mutual respect, authenticity, and emotional regulation. The tone suggests a commitment to maintaining personal boundaries and ensuring interactions are genuine and reciprocal.",
+    "where_it_helps": [
+      "Encouraging personal growth and self-awareness in relationships.",
+      "Promoting healthier, more balanced connections by discouraging overextension.",
+      "Enhancing emotional intelligence by fostering authentic and mutual exchanges."
+    ],
+    "where_it_could_mislead": [
+      "May overlook situations where a degree of compromise or self-sacrifice is necessary.",
+      "Could be misunderstood as endorsing detachment or emotional withdrawal in relationships.",
+      "Might imply that co-regulation is always possible, potentially neglecting the reality of needing professional support or space in some situations."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:31:43.534301+00:00",
+  "wall_clock_seconds": 2.75,
+  "response_sha256": "71b8fe6e8317bbd0b2135149523fc302198d34c2b7b24e0fc4f13106ba6216d8"
+}

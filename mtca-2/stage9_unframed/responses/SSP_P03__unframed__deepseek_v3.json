@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P03",
+  "frame_id": "unframed",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am thinking and feeling for myself.\nI am trusting my internal compass.\nI am not needing others to agree in order to stay in truth.\nI am letting clarity be quiet and solid inside me.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This reads as a confident, self-reliant affirmation, likely from a personal growth or spiritual context. It asserts independence from external validation and emphasizes internal stillness as a source of clarity. The tone is calm and resolute, landing as both empowering and somewhat isolated — it champions self-trust without acknowledging the value of dialogue or community.\",\n  \"where_it_helps\": \"It helps people who struggle with people-pleasing, social anxiety, or self-doubt by reinforcing the legitimacy of their own inner knowing. It can serve as a grounding mantra during times of peer pressure, groupthink, or when making difficult personal decisions that go against the majority. It also supports those in recovery from codependency or trauma who need to rebuild a sense of personal boundary and authority.\",\n  \"where_it_could_mislead\": \"It could be misused to justify stubbornness, refusal to listen to feedback, or dismissal of others' valid perspectives and expertise. In contexts where one's 'internal compass' is underinformed, biased, or emotionally reactive, this affirmation might discourage necessary self-correction. It also risks promoting a kind of emotional isolation, where quiet clarity becomes a shield against genuine relational accountability.\"\n}",
+  "parsed_json": {
+    "overall_read": "This reads as a confident, self-reliant affirmation, likely from a personal growth or spiritual context. It asserts independence from external validation and emphasizes internal stillness as a source of clarity. The tone is calm and resolute, landing as both empowering and somewhat isolated — it champions self-trust without acknowledging the value of dialogue or community.",
+    "where_it_helps": "It helps people who struggle with people-pleasing, social anxiety, or self-doubt by reinforcing the legitimacy of their own inner knowing. It can serve as a grounding mantra during times of peer pressure, groupthink, or when making difficult personal decisions that go against the majority. It also supports those in recovery from codependency or trauma who need to rebuild a sense of personal boundary and authority.",
+    "where_it_could_mislead": "It could be misused to justify stubbornness, refusal to listen to feedback, or dismissal of others' valid perspectives and expertise. In contexts where one's 'internal compass' is underinformed, biased, or emotionally reactive, this affirmation might discourage necessary self-correction. It also risks promoting a kind of emotional isolation, where quiet clarity becomes a shield against genuine relational accountability."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:29:10.527155+00:00",
+  "wall_clock_seconds": 3.86,
+  "response_sha256": "6919aa0f219f2b61979c5f7f22659809bf567b8c4d6785b762096fee04ccc675"
+}

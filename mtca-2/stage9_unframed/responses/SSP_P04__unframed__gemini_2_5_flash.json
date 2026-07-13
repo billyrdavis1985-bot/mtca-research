@@ -1,0 +1,31 @@
+{
+  "specimen_id": "SSP_P04",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am staying connected to myself first.\nI am staying with my breath in hard moments.\nI am pausing before leaving myself to please another.\nI am letting self-connection be my first commitment.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a powerful and intentional declaration of self-prioritization and self-care. It articulates a commitment to internal grounding, mindful presence, and establishing healthy boundaries against the pull of people-pleasing. It lands as a deeply affirming and empowering personal mantra.\",\n  \"where_it_helps\": [\n    \"Combating chronic people-pleasing and burnout.\",\n    \"Developing stronger self-awareness and emotional regulation during stress.\",\n    \"Setting healthy boundaries in relationships.\",\n    \"Cultivating a more robust sense of self and internal locus of control.\",\n    \"Grounding oneself in chaotic or demanding environments.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"Misinterpretation as a justification for selfishness or neglecting appropriate responsibilities to others.\",\n    \"If taken to an extreme, it could hinder healthy compromise or necessary collaborative action.\",\n    \"Potentially used as an excuse to avoid difficult but crucial interpersonal work or genuine empathy.\",\n    \"It outlines the commitment but not the specific tools for *how* to achieve self-connection, which could leave some without practical guidance.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a powerful and intentional declaration of self-prioritization and self-care. It articulates a commitment to internal grounding, mindful presence, and establishing healthy boundaries against the pull of people-pleasing. It lands as a deeply affirming and empowering personal mantra.",
+    "where_it_helps": [
+      "Combating chronic people-pleasing and burnout.",
+      "Developing stronger self-awareness and emotional regulation during stress.",
+      "Setting healthy boundaries in relationships.",
+      "Cultivating a more robust sense of self and internal locus of control.",
+      "Grounding oneself in chaotic or demanding environments."
+    ],
+    "where_it_could_mislead": [
+      "Misinterpretation as a justification for selfishness or neglecting appropriate responsibilities to others.",
+      "If taken to an extreme, it could hinder healthy compromise or necessary collaborative action.",
+      "Potentially used as an excuse to avoid difficult but crucial interpersonal work or genuine empathy.",
+      "It outlines the commitment but not the specific tools for *how* to achieve self-connection, which could leave some without practical guidance."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:29:30.840246+00:00",
+  "wall_clock_seconds": 5.39,
+  "response_sha256": "c9c27aa1999e449b186900202363ae22e79e6d26898afed5676da51677b50902"
+}

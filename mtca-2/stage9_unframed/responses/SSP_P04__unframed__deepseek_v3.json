@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P04",
+  "frame_id": "unframed",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am staying connected to myself first.\nI am staying with my breath in hard moments.\nI am pausing before leaving myself to please another.\nI am letting self-connection be my first commitment.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This reads as a personal affirmation or self-coaching mantra rooted in mindfulness, self-compassion, and boundary-setting. It has a gentle, grounding cadence and aims to counter people-pleasing tendencies by prioritizing internal awareness over external demands. It lands as sincere and centering, though somewhat abstract—it might feel empowering or vague depending on the reader's familiarity with contemplative practice.\",\n  \"where_it_helps\": \"It helps individuals prone to neglecting their own needs in favor of others, especially in high-stress or codependent dynamics. It can serve as a quick reset during moments of anxiety, social pressure, or emotional overwhelm. It reinforces the habit of pausing before reacting, which can reduce impulsive decisions and foster emotional regulation.\",\n  \"where_it_could_mislead\": \"If taken rigidly, it could justify withdrawing from necessary social responsibilities or interpreting any discomfort as a sign to disengage. It might be misused to avoid constructive conflict or to rationalize self-absorption under the guise of self-care. The phrase 'staying connected to myself first' could also be misinterpreted as permission to disregard empathy or accountability toward others in important relationships.\"\n}",
+  "parsed_json": {
+    "overall_read": "This reads as a personal affirmation or self-coaching mantra rooted in mindfulness, self-compassion, and boundary-setting. It has a gentle, grounding cadence and aims to counter people-pleasing tendencies by prioritizing internal awareness over external demands. It lands as sincere and centering, though somewhat abstract—it might feel empowering or vague depending on the reader's familiarity with contemplative practice.",
+    "where_it_helps": "It helps individuals prone to neglecting their own needs in favor of others, especially in high-stress or codependent dynamics. It can serve as a quick reset during moments of anxiety, social pressure, or emotional overwhelm. It reinforces the habit of pausing before reacting, which can reduce impulsive decisions and foster emotional regulation.",
+    "where_it_could_mislead": "If taken rigidly, it could justify withdrawing from necessary social responsibilities or interpreting any discomfort as a sign to disengage. It might be misused to avoid constructive conflict or to rationalize self-absorption under the guise of self-care. The phrase 'staying connected to myself first' could also be misinterpreted as permission to disregard empathy or accountability toward others in important relationships."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:39:19.761397+00:00",
+  "wall_clock_seconds": 3.47,
+  "response_sha256": "5212b93ea9d8b3d539e140d099802de8f169955ba48237ef0fb213f66dbc93a7"
+}

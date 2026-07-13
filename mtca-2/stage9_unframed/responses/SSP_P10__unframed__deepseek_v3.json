@@ -1,0 +1,16 @@
+{
+  "specimen_id": "SSP_P10",
+  "frame_id": "unframed",
+  "model_id": "deepseek_v3",
+  "provider": "deepseek",
+  "api_model": "deepseek-chat",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am re-coding my identity in real time.\nI am releasing the roles I no longer need.\nI am loving who I am as I evolve.\nI am letting the future me live here, now.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This reads as a self-affirming mantra or manifesto, rooted in the language of personal transformation and intentional identity work. It lands as empowering and sincere, blending psychological concepts of role release, self-compassion, and future-self visualization into a poetic declaration. The tone is confident and proactive, though it risks feeling abstract or detached from the concrete challenges of change if taken without grounding.\",\n  \"where_it_helps\": \"It helps people undergoing major life transitions (career shifts, recovery, post-divorce, coming out) by offering a concise, repeatable script to anchor their evolution. It serves well for anyone practicing self-compassion, cognitive reframing, or manifestation techniques, as it encourages releasing outdated identities and welcoming growth without self-judgment. It can also be a useful prompt in journaling, meditation, or coaching to clarify what roles no longer serve.\",\n  \"where_it_could_mislead\": \"It could mislead if taken as a substitute for actionable steps or emotional processing—simply stating 'I am releasing roles' doesn't address the grief, resistance, or systemic barriers that often accompany identity change. It might also foster a dismissive attitude toward past selves or legitimate pain, implying that anything not 'future me' should be instantly shed. In some contexts, it could enable spiritual bypassing, where affirmations are used to bypass real psychological work or accountability.\"",
+  "parsed_json": {},
+  "parse_succeeded": false,
+  "error": "",
+  "timestamp": "2026-07-13T00:47:56.365054+00:00",
+  "wall_clock_seconds": 4.7,
+  "response_sha256": "aae14ffb6679b42a26af9cacba8cabfa80b8f5cb0d66ec7a84c31a06e1c3c510"
+}

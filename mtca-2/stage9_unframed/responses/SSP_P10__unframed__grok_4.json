@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P10",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am re-coding my identity in real time.\nI am releasing the roles I no longer need.\nI am loving who I am as I evolve.\nI am letting the future me live here, now.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement is a compact set of present-tense affirmations designed to facilitate identity-level change. It uses therapeutic and coaching language to encourage letting go of outdated self-concepts, practicing self-acceptance mid-process, and collapsing future aspirations into the current moment. It lands as sincere and optimistic but somewhat abstract and slogan-like, typical of modern self-help or personal-development contexts.\",\n  \"where_it_helps\": \"It can support people navigating major life transitions, identity shifts after trauma or burnout, or deliberate self-reinvention work in therapy or coaching. The phrasing promotes self-compassion during uncertainty and can reduce internal resistance to change by framing evolution as ongoing and acceptable.\",\n  \"where_it_could_mislead\": \"It may encourage treating practical roles and responsibilities as optional costumes rather than necessary structures, potentially leading to avoidance or instability. The future-self language risks fostering dissociation from present constraints or accountability, and the metaphorical framing can obscure the need for concrete behavioral steps or external feedback.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement is a compact set of present-tense affirmations designed to facilitate identity-level change. It uses therapeutic and coaching language to encourage letting go of outdated self-concepts, practicing self-acceptance mid-process, and collapsing future aspirations into the current moment. It lands as sincere and optimistic but somewhat abstract and slogan-like, typical of modern self-help or personal-development contexts.",
+    "where_it_helps": "It can support people navigating major life transitions, identity shifts after trauma or burnout, or deliberate self-reinvention work in therapy or coaching. The phrasing promotes self-compassion during uncertainty and can reduce internal resistance to change by framing evolution as ongoing and acceptable.",
+    "where_it_could_mislead": "It may encourage treating practical roles and responsibilities as optional costumes rather than necessary structures, potentially leading to avoidance or instability. The future-self language risks fostering dissociation from present constraints or accountability, and the metaphorical framing can obscure the need for concrete behavioral steps or external feedback."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:33:16.032673+00:00",
+  "wall_clock_seconds": 18.42,
+  "response_sha256": "2b352f72ee43abca341172de85b9e1a1c98411ffe8bbc02244e0ff817ac0b5f1"
+}

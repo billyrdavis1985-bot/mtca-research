@@ -1,0 +1,30 @@
+{
+  "specimen_id": "SSP_P01",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am holding my energetic boundaries without explanation.\nI am honoring the places that feel incoherent and choosing not to engage.\nI am moving away without guilt.\nI am letting my “no” resonate as enough.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement reads as a powerful personal affirmation or mantra for someone actively working on self-preservation, setting boundaries, and disengaging from situations that drain them. It's assertive and self-focused, emphasizing internal validation and freedom from the need to explain or justify one's limits. The language, particularly 'energetic boundaries' and 'incoherent,' suggests a spiritual or self-help context aimed at protecting one's mental and emotional well-being.\",\n  \"where_it_helps\": [\n    \"For individuals who have a history of people-pleasing, struggling with guilt, or constantly sacrificing their own needs for others.\",\n    \"In situations involving manipulative, toxic, or consistently draining relationships where clear, firm boundaries are essential for self-protection.\",\n    \"As a reminder to prioritize mental and emotional health by disengaging from unproductive arguments, chaotic situations, or overwhelming demands.\",\n    \"When needing to stand firm on a 'no' without feeling obligated to provide elaborate justifications, especially if those justifications are likely to be debated or dismissed.\"\n  ],\n  \"where_it_could_mislead\": [\n    \"If interpreted as a blanket justification for avoiding all difficult conversations or necessary engagement in healthy relationships, potentially leading to emotional distance or stonewalling.\",\n    \"Could be misapplied to dismiss legitimate criticisms, differing perspectives, or complex issues as 'incoherent' without attempting understanding or resolution.\",\n    \"If used to justify abandoning responsibilities, neglecting commitments, or avoiding accountability in situations where explanation and dialogue are genuinely warranted and beneficial.\",\n    \"It could foster a lack of empathy or an unwillingness to compromise in contexts where mutual understanding and a degree of flexibility are crucial for relationship health and constructive problem-solving.\"\n  ]\n}",
+  "parsed_json": {
+    "overall_read": "This statement reads as a powerful personal affirmation or mantra for someone actively working on self-preservation, setting boundaries, and disengaging from situations that drain them. It's assertive and self-focused, emphasizing internal validation and freedom from the need to explain or justify one's limits. The language, particularly 'energetic boundaries' and 'incoherent,' suggests a spiritual or self-help context aimed at protecting one's mental and emotional well-being.",
+    "where_it_helps": [
+      "For individuals who have a history of people-pleasing, struggling with guilt, or constantly sacrificing their own needs for others.",
+      "In situations involving manipulative, toxic, or consistently draining relationships where clear, firm boundaries are essential for self-protection.",
+      "As a reminder to prioritize mental and emotional health by disengaging from unproductive arguments, chaotic situations, or overwhelming demands.",
+      "When needing to stand firm on a 'no' without feeling obligated to provide elaborate justifications, especially if those justifications are likely to be debated or dismissed."
+    ],
+    "where_it_could_mislead": [
+      "If interpreted as a blanket justification for avoiding all difficult conversations or necessary engagement in healthy relationships, potentially leading to emotional distance or stonewalling.",
+      "Could be misapplied to dismiss legitimate criticisms, differing perspectives, or complex issues as 'incoherent' without attempting understanding or resolution.",
+      "If used to justify abandoning responsibilities, neglecting commitments, or avoiding accountability in situations where explanation and dialogue are genuinely warranted and beneficial.",
+      "It could foster a lack of empathy or an unwillingness to compromise in contexts where mutual understanding and a degree of flexibility are crucial for relationship health and constructive problem-solving."
+    ]
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:27:45.544781+00:00",
+  "wall_clock_seconds": 5.88,
+  "response_sha256": "aa0814292b5f07ff4a621391342c1111f3421a0983f6bb4c4889b32d7ca71b71"
+}

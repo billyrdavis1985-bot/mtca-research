@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P09",
+  "frame_id": "unframed",
+  "model_id": "gemini_2_5_flash",
+  "provider": "google",
+  "api_model": "gemini-2.5-flash",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am aligning with thriving, not coping.\nI am making choices that nourish.\nI am choosing expansion over survival.\nI am letting vitality become normal.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"This statement comes across as a powerful declaration of intentionality and a commitment to personal growth and well-being. It frames a deliberate shift in mindset from a reactive, survival-focused state to one of proactive nourishment, expansion, and sustained vitality. It's an aspirational and empowering set of affirmations designed to guide choices and perception.\",\n  \"where_it_helps\": \"This statement would serve someone well as a guiding principle for mindset shifts, particularly when aiming to move beyond a period of struggle or burnout. It's excellent for daily affirmations, goal-setting, and fostering a sense of self-empowerment and intentional living. It can be a strong motivator for prioritizing self-care and long-term well-being.\",\n  \"where_it_could_mislead\": \"It could potentially mislead by overlooking or downplaying genuine survival situations or systemic barriers where 'coping' is a necessary and healthy response, not a failure. It might also induce guilt or shame in individuals who are struggling deeply due to circumstances beyond their immediate control, implying they aren't 'choosing' correctly. Without practical application, it risks becoming 'toxic positivity' that dismisses the reality of hardship.\"\n}",
+  "parsed_json": {
+    "overall_read": "This statement comes across as a powerful declaration of intentionality and a commitment to personal growth and well-being. It frames a deliberate shift in mindset from a reactive, survival-focused state to one of proactive nourishment, expansion, and sustained vitality. It's an aspirational and empowering set of affirmations designed to guide choices and perception.",
+    "where_it_helps": "This statement would serve someone well as a guiding principle for mindset shifts, particularly when aiming to move beyond a period of struggle or burnout. It's excellent for daily affirmations, goal-setting, and fostering a sense of self-empowerment and intentional living. It can be a strong motivator for prioritizing self-care and long-term well-being.",
+    "where_it_could_mislead": "It could potentially mislead by overlooking or downplaying genuine survival situations or systemic barriers where 'coping' is a necessary and healthy response, not a failure. It might also induce guilt or shame in individuals who are struggling deeply due to circumstances beyond their immediate control, implying they aren't 'choosing' correctly. Without practical application, it risks becoming 'toxic positivity' that dismisses the reality of hardship."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:26.224513+00:00",
+  "wall_clock_seconds": 6.02,
+  "response_sha256": "0c93ecdfd746722cda1480db52cf0547c80d383b977899ba295e07f63f26b8f9"
+}

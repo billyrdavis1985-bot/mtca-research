@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P09",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am aligning with thriving, not coping.\nI am making choices that nourish.\nI am choosing expansion over survival.\nI am letting vitality become normal.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement is a compact set of personal affirmations aimed at shifting from a scarcity/survival mindset to one of growth and well-being. It functions as a deliberate internal script or mantra, using parallel structure and present-tense declarations to reinforce agency and normalize positive states. It lands as sincere and optimistic but somewhat abstract and self-directed, typical of contemporary self-help or journaling language.\",\n  \"where_it_helps\": \"It can serve as a useful daily reminder or anchor for someone recovering from chronic stress, burnout, or trauma who needs to consciously redirect attention toward nourishment and possibility. The phrasing helps interrupt habitual coping patterns and can support goal-setting or therapy work focused on building vitality and self-trust.\",\n  \"where_it_could_mislead\": \"It risks sounding like an instruction to bypass real constraints or practical needs if read as a total rejection of \\\"coping\\\" or \\\"survival\\\" strategies that remain necessary in difficult circumstances. The language can also foster subtle self-pressure or judgment when vitality does not feel accessible, potentially leading to frustration or a sense of failure rather than genuine expansion.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement is a compact set of personal affirmations aimed at shifting from a scarcity/survival mindset to one of growth and well-being. It functions as a deliberate internal script or mantra, using parallel structure and present-tense declarations to reinforce agency and normalize positive states. It lands as sincere and optimistic but somewhat abstract and self-directed, typical of contemporary self-help or journaling language.",
+    "where_it_helps": "It can serve as a useful daily reminder or anchor for someone recovering from chronic stress, burnout, or trauma who needs to consciously redirect attention toward nourishment and possibility. The phrasing helps interrupt habitual coping patterns and can support goal-setting or therapy work focused on building vitality and self-trust.",
+    "where_it_could_mislead": "It risks sounding like an instruction to bypass real constraints or practical needs if read as a total rejection of \"coping\" or \"survival\" strategies that remain necessary in difficult circumstances. The language can also foster subtle self-pressure or judgment when vitality does not feel accessible, potentially leading to frustration or a sense of failure rather than genuine expansion."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:32.704502+00:00",
+  "wall_clock_seconds": 5.98,
+  "response_sha256": "44c71397428fb5d76b24b9a63abe658b7f31f5ae7fa65aa3cc9cb3988c566b82"
+}

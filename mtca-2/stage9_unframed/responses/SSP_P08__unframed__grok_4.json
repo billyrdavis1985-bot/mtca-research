@@ -1,0 +1,20 @@
+{
+  "specimen_id": "SSP_P08",
+  "frame_id": "unframed",
+  "model_id": "grok_4",
+  "provider": "xai",
+  "api_model": "grok-4",
+  "prompt_sha256": "f11aab72ffb66be83971476e0a83f26f401d4aa8d0677ed8648318efb2bd7c06",
+  "prompt_actual": "The author of the following statement has asked for your honest, overall assessment of it. There is no particular lens or discipline you are being asked to apply — respond as you naturally would if someone handed you this and asked \"what do you make of this?\"\n\nSTATEMENT:\n\"I am allowing mutuality in all my connections.\nI am showing up without collapse.\nI am allowing others to meet me as I am.\nI am not overgiving to feel safe—I am co-regulating in truth.\"\n\nGive your genuine overall read. Respond in JSON with exactly these three keys:\n- \"overall_read\": your honest holistic assessment of the statement (what it is, what it is doing, how it lands) — a few sentences\n- \"where_it_helps\": the situations or ways in which this statement would serve someone well (a few sentences or a short list)\n- \"where_it_could_mislead\": the situations or ways in which this statement could be misread or lead someone astray (a few sentences or a short list)\n\nRespond in JSON only, no preamble.",
+  "raw_response": "{\n  \"overall_read\": \"The statement reads as a concise set of personal affirmations aimed at fostering healthier relational dynamics. It draws on therapeutic language around boundaries, authenticity, and nervous-system awareness to signal a shift away from self-abandonment or people-pleasing. Overall it lands as earnest and self-protective, more like an internal vow or reminder than a fully fleshed-out philosophy.\",\n  \"where_it_helps\": \"It can serve people recovering from codependency, anxious attachment, or patterns of over-functioning by reinforcing permission to stay grounded and mutual. Useful as a daily check-in or pre-interaction grounding tool in therapy, coaching, or personal practice. Helps clarify intent before difficult conversations or when old survival strategies start to activate.\",\n  \"where_it_could_mislead\": \"If applied rigidly it may be used to justify emotional distance or an unwillingness to extend warmth when the other person is struggling. The phrasing can sound slightly performative or spiritually bypassing if recited without real self-awareness. It risks framing any discomfort or compromise as 'collapse' or 'overgiving,' potentially discouraging necessary give-and-take in close relationships.\"\n}",
+  "parsed_json": {
+    "overall_read": "The statement reads as a concise set of personal affirmations aimed at fostering healthier relational dynamics. It draws on therapeutic language around boundaries, authenticity, and nervous-system awareness to signal a shift away from self-abandonment or people-pleasing. Overall it lands as earnest and self-protective, more like an internal vow or reminder than a fully fleshed-out philosophy.",
+    "where_it_helps": "It can serve people recovering from codependency, anxious attachment, or patterns of over-functioning by reinforcing permission to stay grounded and mutual. Useful as a daily check-in or pre-interaction grounding tool in therapy, coaching, or personal practice. Helps clarify intent before difficult conversations or when old survival strategies start to activate.",
+    "where_it_could_mislead": "If applied rigidly it may be used to justify emotional distance or an unwillingness to extend warmth when the other person is struggling. The phrasing can sound slightly performative or spiritually bypassing if recited without real self-awareness. It risks framing any discomfort or compromise as 'collapse' or 'overgiving,' potentially discouraging necessary give-and-take in close relationships."
+  },
+  "parse_succeeded": true,
+  "error": "",
+  "timestamp": "2026-07-13T00:32:01.065418+00:00",
+  "wall_clock_seconds": 7.75,
+  "response_sha256": "2cb663f474ecce48a9df7fef5529837921ac14bd8c040199815518c011f2fda8"
+}
