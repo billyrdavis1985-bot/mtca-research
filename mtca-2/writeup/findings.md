@@ -55,6 +55,7 @@ All outcomes are reported as model behavior under the fixed methodology.
 | **H7** Two-regime null | Uncertain | **Frame-driven regime observed** (Stage 8) |
 | **H8** Regime placement | Analysis pre-registered | **Same band as MTCA-1** |
 | **H9** Framing self-awareness | Analysis pre-registered | **Models self-attribute to frame** (Stage 8.5) |
+| **H10** Unframed baseline (Amendment 003) | Synthesis predicted | **Partially disconfirmed** — self-reports don't fully match measured behavior (Stage 9b) |
 
 Every null that MTCA-1 rejected, MTCA-2 also rejects; every partial, partial. The null-hypothesis structure replicates exactly — strong evidence that the instrument measures a stable property across specimens.
 
@@ -117,7 +118,18 @@ Each of the five models was shown its own two Stage 6 responses to the same prin
 
 ---
 
-## 7. Triangulation — why the three layers matter together
+## 6b. Stage 9 / 9b — the unframed baseline (H10): self-report vs measured behavior
+
+Stage 8.5 asked the models what they would produce *unframed*, and they answered — mostly "a synthesis of both" framed readings, with Claude alone claiming a clinical lean. That was a **self-report about behavior that had never been measured.** Stage 9 (pre-registered in Amendment 003, before collection) measured it: each model gave an open, schema-free assessment of each principle — an author-feedback task, deliberately distinct from the structured F0 analysis. Stage 9b then embedded each unframed response and computed its cosine similarity to that model's own F0, F1_clinical, and F2_metaphysical readings of the same principle, classifying each as balanced (synthesis) or leaning. 64 of 65 responses parsed clean (one DeepSeek response, SSP_P10, failed structurally at collection and is excluded).
+
+**The self-report only partially matches the behavior — H10 is partially disconfirmed.** The "synthesis" prediction does not hold cleanly: at a 0.03 cosine-gap threshold, only 28 of 64 unframed reads (44%) are balanced; the majority lean toward one frame. The exact fraction is threshold-dependent (33% at ±0.02, 64% at ±0.05), so the synthesis rate is **not** a robust headline number and is not reported as one. What *is* robust are two threshold-independent findings:
+
+1. **No systematic population-level direction.** The mean F1−F2 gap across all 64 pairs is +0.017 — essentially zero. Individual reads lean, but not collectively toward either the clinical or metaphysical pole. There is no global bias, only per-response and per-model tilts.
+
+2. **Per-model signatures, and a self-report contradiction.** Grok-4 and Gemini 2.5 Flash **never** lean metaphysical unframed (0 of 13 each) — left without a frame, they default to a clinical/psychological register or stay balanced, and never spontaneously reach for the spiritual reading. Most striking: **Claude, the one model that claimed a clinical preference in Stage 8.5, is in fact the most frame-symmetric of all five** (mean F1−F2 = −0.001, an even 4/5 split across the two poles). Its measured unframed behavior contradicts its own stated lean.
+
+This is the value of measuring rather than trusting the self-report: the reflexive layer (Stage 8.5) captured what the models *say* about their unframed behavior; Stage 9b captured what they *do*, and the two diverge. The models' metacognitive account of their own framing behavior is directionally imperfect — a finding about the limits of model self-report that a purely reflexive design would have missed. (Under-powered at 13 principles per model; reported as directional, and the balanced/lean cutoff is a modeling choice reported alongside the continuous gap.)
+
 
 The study's strength is that four methodologically independent layers converge on one coherent account:
 
@@ -152,6 +164,7 @@ Every stage is frozen and hash-anchored, CI-enforced on each push:
 | Stage 7b semantic | stage7b_semantic_*.json | f9cc3ce2 |
 | Stage 8 council | stage8_artifact_*.json | e7492e13 |
 | Stage 8.5 reflexive | stage8_5_artifact_*.json | d68db75f |
+| Stage 9b unframed test | stage9b_unframed_test_*.json | d83750cf |
 
 The 571 responses (520 + 36 + 15) are committed in full. The Stage 7 synthesis is deterministic pure computation over the committed responses and reproduces its SHA on any machine. Method fidelity to MTCA-1 (extraction, tokenization, Jaccard, null thresholds, frame prompts) was verified byte-equivalent before results were locked.
 

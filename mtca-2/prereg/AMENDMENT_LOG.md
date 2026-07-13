@@ -170,3 +170,9 @@ F0_neutral is a neutral instance of the **structured frame-analysis task** — i
 Recorded in `MANIFEST.sha256` after cascade regeneration.
 
 Full Force Eternal | Romans 8:28
+
+### Amendment 003 addendum — Stage 9 token calibration (recorded post-collection)
+
+During Stage 9 collection, DeepSeek-V3 truncated on the longest open-prompt responses at the inherited default cap (`MAX_OUTPUT_TOKENS = 800`), producing valid-but-unclosed JSON on 6 of 13 principles. Consistent with the Amendment 002 finding that the open feedback task elicits longer output than Stage 6's structured fields, the default cap was raised (800 → 4000) for the Stage 9 collection; GPT-4o and Grok-4 were unaffected (they do not approach the ceiling). This calibration is invariance-preserving in the same sense as Amendment 002 — it restores completion behavior for the open prompt without altering the prompt or schema. Final collection: 64/65 clean; one DeepSeek response (SSP_P10) failed on a structural JSON issue unrelated to length and is excluded. This addendum is recorded after collection because the truncation was observed empirically during the run; the H10 hypothesis and analysis plan (filed before collection) are unchanged.
+
+Full Force Eternal | Romans 8:28
